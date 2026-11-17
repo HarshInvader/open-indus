@@ -1,0 +1,27 @@
+{
+ "written": "2026-11-14, before running a2_parpola.py on any data",
+ "unit": "distinct M77 texts (distinct()), break-free runs; dev split for development, heldout + ICIT non-M77 sites for confirmation",
+ "sign_sets": {
+  "fish_plain": ["M59"],
+  "fish_family_marked": ["M60","M65","M66","M67","M68","M69","M70","M71","M72","M73","M74","M75"],
+  "short_numerals": {"1":["M97","M98"],"3":["M102"],"4":["M104","M105"],"5":["M106","M107"],"6":["M108","M109"],"7":["M110","M111","M112"],"8":["M114"],"9":["M115","M116","M117"],"10":["M118"],"12":["M121"]},
+  "note": "M103 (3 as 2-over-1) excluded from '3' because shaunmortal F7 shows it is bound to M403; M99/M100 (2 short) excluded as connective (F7)"
+ },
+ "claims": [
+  {"id": "P1", "source": "Parpola 1994 ch.10-14: numeral+fish = asterisms; aru-min 'six stars' = Pleiades, elu-min 'seven stars' = Ursa Major, mum-min 'three stars' = Mrgasiras",
+   "prediction": "Among short-numeral tokens, the probability that the next sign is a fish (M59 or marked fish) is higher for 6 and 7 (and 3) than for the other values; 6+fish and 7+fish are over-represented relative to (numeral frequency x fish share after numerals). Null: P(fish|n) is the same for every n (permutation of follower labels across numeral tokens).",
+   "falsified_if": "6 and 7 are not above the pooled rate, or their excess is no larger than that of non-asterism values (1,4,5,8,9,12)"},
+  {"id": "P2", "source": "Parpola: marked fish = compound words built on min (mey-min roofed fish = Saturn, etc.)",
+   "prediction": "Marked fish signs occupy the same slots as plain fish: their left/right neighbour distributions and relative-position profile are closer to M59's than those of frequency-matched non-fish signs (null: 1000 random frequency-matched signs).",
+   "falsified_if": "similarity to M59 not above the 95th percentile of matched signs"},
+  {"id": "P3", "source": "Parpola: different marks = different words (different stars/deities), not scribal variants",
+   "prediction": "Marked fish and plain fish co-occur in the same text (as in lists of star/deity names) at least at the rate expected from their frequencies; allographs of one sign would be expected to avoid co-occurrence or stand in free variation with identical contexts.",
+   "falsified_if": "co-occurrence of plain and marked fish within texts is significantly BELOW independence (avoidance) AND contexts are indistinguishable"},
+  {"id": "P4", "source": "Parpola semantics (derived by us, not stated by him as a corpus prediction)",
+   "prediction": "If marked fish are names of single planets (Saturn etc.), numerals should precede marked fish less often than plain fish ('seven stars' is a name, 'seven Saturns' is not).",
+   "falsified_if": "numeral-before rate for marked fish >= plain fish"},
+  {"id": "P5", "source": "Mahadevan (1970s-2000s): the terminal 'jar' M342 is a Dravidian masculine singular suffix -an ('the one of')",
+   "prediction": "(a) M342 is text-final far above chance; (b) as a suffix it attaches to many different preceding signs: left-neighbour type diversity of M342 is above frequency-matched signs; (c) it alternates in the final slot with a small set of other final signs after the SAME preceding sequence (paradigm), more than shuffled texts.",
+   "falsified_if": "(b) or (c) not above null"}
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "date": "2026-11-17",
+ "gate": "plate_corpus v2 (re-check of scan detail)",
+ "verdict": "FAIL at step 1: no greyscale/colour archive.org upload of any of the four volumes has >= 12 px/mm of real detail; no second gate was run",
+ "v1_correction": {
+  "nominal_median_px_per_mm": 18.5,
+  "true_median_px_per_mm": 3.59,
+  "true_range": [
+   2.31,
+   7.04
+  ],
+  "cause": "the source uploads are low-resolution images enlarged 3-6x (pixel replication, visible block grid); cropping did no resampling",
+  "paired_cisi_true_median_lower_bound": 5.32,
+  "paired_plate_true_median": 3.39,
+  "cisi_pair_error": "FEM 288: the CISI crop shows a different seal (square unicorn seal, longer text) from the plate (5-sign bar seal)"
+ },
+ "method": {
+  "test": "v2_effres.py: block-grid period + grid-aligned and smooth round-trip loss; THRESH 0.17",
+  "controls": "sharp CISI crop -> 2 (floor 1.5-2); x3 nearest -> 3; x3 bicubic -> 4; x6 nearest -> 6; x6 bicubic -> 6",
+  "bitonal_rule": "1-bit uploads excluded as in v1 prereg (greyscale or colour only)"
+ },
+ "by_volume": {
+  "Mackay1938_FEM": {
+   "n_v1_seals": 8,
+   "nominal_median": 19.89,
+   "factors": [
+    6.0
+   ],
+   "true_median_v1_upload": 3.32,
+   "best_greyscale_true_px_per_mm_upper": 3.32,
+   "passes_12": false,
+   "uploads": {
+    "greyscale": [
+     [
+      "in.gov.ignca.9954",
+      "6x enlargement (block period 6)",
+      3.32
+     ],
+     [
+      "furtherexcavationsatmohenjodaro192731vol2ejhmackay_191_N",
+      "same file as 9954: 6x enlargement",
+      3.32
+     ]
+    ],
+    "bitonal": [
+     "in.ernet.dli.2015.57013 (same master scan as 9954, page geometry identical, 1-bit)",
+     "in.ernet.dli.2015.440862 (300 ppi, 1-bit)",
+     "dli.jZY9...TVA_BOK_0009130 (1-bit)",
+     "dli.ernet.426189 (1-bit)"
+    ]
+   }
+  },
+  "Vats1940_EH": {
+   "n_v1_seals": 6,
+   "nominal_median": 15.42,
+   "factors": [
+    4.0
+   ],
+   "true_median_v1_upload": 3.86,
+   "best_greyscale_true_px_per_mm_upper": 3.86,
+   "passes_12": false,
+   "uploads": {
+    "greyscale": [
+     [
+      "dli.ministry.25730",
+      "4x enlargement (block period 4)",
+      3.86
+     ]
+    ],
+    "bitonal": [
+     "excavationsatharappamadhosarupvatsvol2alt_435_p",
+     "excavationsatharappamadhosarupvatsvol2alt1_617_R",
+     "in.ernet.dli.2015.106332",
+     "in.ernet.dli.2015.210462",
+     "in.ernet.dli.2015.358921",
+     "in.ernet.dli.2015.358923",
+     "in.ernet.dli.2015.426170",
+     "in.ernet.dli.2015.537391"
+    ]
+   }
+  },
+  "Mackay1943_CE": {
+   "n_v1_seals": 4,
+   "nominal_median": 22.09,
+   "factors": [
+    4.0
+   ],
+   "true_median_v1_upload": 5.52,
+   "best_greyscale_true_px_per_mm_upper": 10.1,
+   "passes_12": false,
+   "uploads": {
+    "greyscale": [
+     [
+      "dli.ministry.25495",
+      "4x enlargement (block period 4)",
+      5.52
+     ],
+     [
+      "nufj-chanhu-daro-excavations-1935-36-by-ernest-j-h-mack",
+      "no enlargement found; page 2051 px wide vs 4507 for 25495 -> nominal ~10.1, true 6.7-10.1 (upper bound)",
+      10.1
+     ],
+     [
+      "in.gov.ignca.27263",
+      "6x enlargement (block period 6), ~100 ppi real",
+      null
+     ]
+    ],
+    "bitonal": [
+     "chanhudaroexcavations193536emackay_184_y",
+     "in.ernet.dli.2015.105167",
+     "BK001064... (72 ppi stated)"
+    ]
+   }
+  },
+  "Marshall1931_MIC": {
+   "n_v1_seals": 2,
+   "nominal_median": 10.56,
+   "factors": [
+    3.0,
+    4.0
+   ],
+   "true_median_v1_upload": 3.09,
+   "best_greyscale_true_px_per_mm_upper": 5.4,
+   "passes_12": false,
+   "uploads": {
+    "greyscale": [
+     [
+      "in.gov.ignca.48270",
+      "3-4x enlargement",
+      3.09
+     ],
+     [
+      "xSFp_... (1973 reprint)",
+      "page 1362 px wide vs 2677 for 48270 -> nominal ~5.4 (upper bound)",
+      5.4
+     ],
+     [
+      "mohenjodaroandtheinduscivilizationvol3jmarshalled1931_292_u",
+      "150 ppi stated, ~75 ppi real",
+      null
+     ],
+     [
+      "dli.ministry.25759",
+      "150 ppi stated",
+      null
+     ]
+    ],
+    "bitonal": [
+     "in.ernet.dli.2015.96024",
+     "in.ernet.dli.2015.441817 (v1: vol. I text)"
+    ]
+   }
+  }
+ },
+ "bitonal_fem_check": {
+  "item": "in.ernet.dli.2015.57013",
+  "note": "same master as IGNCA 9954 at full resolution but thresholded to 1 bit; 158 specks <= 4 px on FEM 273 vs 2 in a thresholded 6x enlargement, so it was made before the downsampling; relief shading is lost (shadows fill black)",
+  "midtone_frac": [
+   0.125,
+   0.125,
+   0.134,
+   0.071,
+   0.077,
+   0.063,
+   0.074,
+   0.098
+  ]
+ },
+ "readers_run": 0,
+ "prereg_written": false
+}

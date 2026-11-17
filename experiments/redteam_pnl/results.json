@@ -1,0 +1,51 @@
+{
+ "A_fixed_number_names": {
+  "verdict": "weakened",
+  "reimpl_heldout": "29/40 = 0.725 vs expected 0.325 (pooled held-out numerals; 0.346 from dev pool); binomial p=2.6e-7, perm p<=2.5e-4",
+  "expected_0.33_correct": true,
+  "per_head_heldout": {
+   "tall M59": "15/16",
+   "short M287": "2/10",
+   "short M194": "3/3",
+   "short M190": "4/4",
+   "tall M211": "0 tokens",
+   "short M197": "0 tokens",
+   "short M403": "0 tokens"
+  },
+  "without_M59": "14/24 = 0.58, p=0.008 vs 0.325; vs count heads 13/25 Fisher p=0.44",
+  "families_shared_3gram": "18/23 families keep dev value (p=8.8e-6)",
+  "segmentation_variants": {
+   "with M99/M101 as short 2": "51/64",
+   "strict tall (drop M88/M92-94)": "29/40",
+   "drop bracketed M111/M122": "29/40",
+   "cluster sum": "27/39"
+  },
+  "numeral_after_sign": "34/40 keep dev value vs 0.39 (heads M336 tall3, M99 tall2, M403 tall2, M391 short1): numerals are fixed relative to the PRECEDING sign too -> fixed multi-sign formulas, not specifically numeral+following head",
+  "M211_is_title_block": "39/41 dev tall3+M211 are M336-M89-M211 (one formula, shaunmortal F28)",
+  "seals_only_heldout": "23/33",
+  "icit_new_sites": "15/20 vs 0.33, p=1.6e-4 (without M59 11/13)",
+  "icit_all_same_objects": "260/308 = 0.84",
+  "generic_collocation_baseline": "non-numeral heads keep dev-modal predecessor 20/39 = 0.51"
+ },
+ "B_counted_items": {
+  "verdict": "fails (as a confirmatory test)",
+  "bug": "f2_numerals.py ll_spike picks a zero-count value when that maximises the clamped likelihood; the 'dev modal value' used for M328 was 5 (never seen in dev; dev mode is 3). This forces M328 0/5 hits.",
+  "reimpl_heldout_true_dev_mode": "13/25 = 0.52 (M162 3/8, M169 5/10, M328 3/5, M249 2/2); Fisher vs lexeme 29/40 p=0.079 (> alpha 0.0125)",
+  "families": "11/21 3-gram families",
+  "minimal_pairs_all_m77": "frames identical except the numeral: M162 5, M328 3, M169 1; all lexeme heads 0 except M15 1, M287 1 (descriptive support for substitution)",
+  "icit_all": "count heads 43/74 = 0.58 vs lexeme 0.84 (same objects as M77, not independent)",
+  "icit_new_sites": "n=1, untestable",
+  "M249": "held-out 2/2 and ICIT 17/25 at value 2: behaves lexeme-like, not counted"
+ },
+ "C_long_texts": {
+  "verdict": "fails (the template claim is not distinguished from a local bigram chain)",
+  "reimpl": "held-out long n=21 (16 multi-line), acceptance 0.667; dev 0.532",
+  "concat_null": "exact-fill 0.31 (p=0.007), truncated 0.19 (p=0.003); resets 0.24 vs 0.69-0.86",
+  "why_concat_is_trivial": "45% (held-out) / 58% (dev) of short texts end in a closer-only sign; the grammar forbids anything but J/P after J, so concatenations fail by construction",
+  "bigram_null_dev_short_texts_length_conditioned": "acceptance 0.64 (p=0.49), resets 0.17 (real 0.24 is higher); dev: 0.54 vs real 0.53",
+  "grammar_generated": "acceptance 1.00, resets 0.00 (real texts sit at the bigram level, not the template level)",
+  "multiline": "lines parsed separately; joined as one run, held-out acceptance drops 0.667 -> 0.381 (6/16 multi-line texts parse only line by line); joined vs bigram 0.53 (real lower), vs concat 0.16 (p=0.017)",
+  "single_line_long_heldout": "4/5"
+ },
+ "tests_run": 24
+}

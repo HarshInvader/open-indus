@@ -1,0 +1,104 @@
+{
+ "n_latin_texts": 1302,
+ "n_linearb_lines": 12855,
+ "controls": {
+  "latin": {
+   "RF": {
+    "argmax_counts": {
+     "MUN": 8,
+     "NONLING": 2
+    },
+    "mean_probs": {
+     "BUR": 0.098,
+     "DRA": 0.224,
+     "ELA": 0.078,
+     "IA": 0.145,
+     "MUN": 0.304,
+     "NONLING": 0.128,
+     "SUM": 0.022
+    }
+   },
+   "LR": {
+    "argmax_counts": {
+     "MUN": 5,
+     "IA": 4,
+     "ELA": 1
+    },
+    "mean_probs": {
+     "BUR": 0.024,
+     "DRA": 0.089,
+     "ELA": 0.128,
+     "IA": 0.303,
+     "MUN": 0.445,
+     "NONLING": 0.005,
+     "SUM": 0.004
+    }
+   }
+  },
+  "linearb": {
+   "RF": {
+    "argmax_counts": {
+     "MUN": 1
+    },
+    "mean_probs": {
+     "BUR": 0.053,
+     "DRA": 0.085,
+     "ELA": 0.025,
+     "IA": 0.171,
+     "MUN": 0.515,
+     "NONLING": 0.13,
+     "SUM": 0.021
+    }
+   },
+   "LR": {
+    "argmax_counts": {
+     "IA": 1
+    },
+    "mean_probs": {
+     "BUR": 0.001,
+     "DRA": 0.0,
+     "ELA": 0.001,
+     "IA": 0.987,
+     "MUN": 0.001,
+     "NONLING": 0.007,
+     "SUM": 0.002
+    }
+   }
+  },
+  "ur3_real": {
+   "RF": {
+    "argmax_counts": {
+     "SUM": 10
+    },
+    "mean_probs": {
+     "BUR": 0.067,
+     "DRA": 0.047,
+     "ELA": 0.017,
+     "IA": 0.021,
+     "MUN": 0.051,
+     "NONLING": 0.085,
+     "SUM": 0.713
+    }
+   },
+   "LR": {
+    "argmax_counts": {
+     "SUM": 10
+    },
+    "mean_probs": {
+     "BUR": 0.015,
+     "DRA": 0.0,
+     "ELA": 0.0,
+     "IA": 0.001,
+     "MUN": 0.001,
+     "NONLING": 0.0,
+     "SUM": 0.983
+    }
+   }
+  }
+ },
+ "expected": {
+  "latin": "IA (Indo-European suffixing)",
+  "linearb": "IA (Indo-European suffixing)",
+  "ur3_real": "SUM"
+ }
+}

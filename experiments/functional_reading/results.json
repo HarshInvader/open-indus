@@ -1,0 +1,766 @@
+{
+ "area": "functional_reading",
+ "date": "2026-11-14",
+ "design_dev": {
+  "steps": [
+   {
+    "edges": [],
+    "real": 0.7285894206549118,
+    "shuf": 0.3014273719563392,
+    "margin": 0.42716204869857266
+   },
+   {
+    "edges": [
+     [
+      "N",
+      "C"
+     ]
+    ],
+    "real": 0.7884130982367759,
+    "shuf": 0.322208228379513,
+    "margin": 0.46620486985726284
+   },
+   {
+    "edges": [
+     [
+      "N",
+      "C"
+     ],
+     [
+      "N",
+      "P"
+     ]
+    ],
+    "real": 0.8066750629722922,
+    "shuf": 0.32850545759865657,
+    "margin": 0.4781696053736356
+   }
+  ],
+  "frozen": [
+   [
+    "N",
+    "C"
+   ],
+   [
+    "N",
+    "P"
+   ]
+  ]
+ },
+ "tests": {
+  "a_coverage": {
+   "dev_clean (in-sample, for reference)": {
+    "n": 1588,
+    "coverage": 0.8117128463476071,
+    "shuffle_mean": 0.321536523929471,
+    "shuffle_sd": 0.00719759801623655,
+    "z": 68.10275500377033,
+    "p": 0.16666666666666666
+   },
+   "heldout_clean": {
+    "n": 525,
+    "coverage": 0.76,
+    "shuffle_mean": 0.33399999999999996,
+    "shuffle_sd": 0.015512704178501735,
+    "z": 27.46136119381497,
+    "p": 0.047619047619047616
+   },
+   "heldout_all_breaks_open": {
+    "n": 533,
+    "coverage": 0.7636022514071295,
+    "shuffle_mean": 0.3412757973733584,
+    "shuffle_sd": 0.01562864170009174,
+    "z": 27.022593205185505,
+    "p": 0.047619047619047616
+   },
+   "heldout_seal": {
+    "n": 371,
+    "coverage": 0.7574123989218329,
+    "shuffle_mean": 0.3009433962264151,
+    "shuffle_sd": 0.015372745350546885,
+    "z": 29.693393248447045,
+    "p": 0.047619047619047616
+   },
+   "heldout_tablet": {
+    "n": 110,
+    "coverage": 0.7909090909090909,
+    "shuffle_mean": 0.3718181818181818,
+    "shuffle_sd": 0.032511917713177574,
+    "z": 12.89037761161248,
+    "p": 0.047619047619047616
+   },
+   "heldout_copper": {
+    "n": 14,
+    "coverage": 0.9285714285714286,
+    "shuffle_mean": 0.4642857142857143,
+    "shuffle_sd": 0.09175166127617948,
+    "z": 5.060243081898386,
+    "p": 0.047619047619047616
+   },
+   "heldout_pottery": {
+    "n": 17,
+    "coverage": 0.7647058823529411,
+    "shuffle_mean": 0.6205882352941176,
+    "shuffle_sd": 0.07995457187687169,
+    "z": 1.8024941147614113,
+    "p": 0.14285714285714285
+   },
+   "icit_newsites_fullbridged": {
+    "n": 104,
+    "coverage": 0.7884615384615384,
+    "shuffle_mean": 0.3384615384615384,
+    "shuffle_sd": 0.03461538461538462,
+    "z": 12.999999624444454,
+    "p": 0.047619047619047616
+   },
+   "icit_newsites_all_oov_as_noun": {
+    "n": 189,
+    "coverage": 0.7724867724867724,
+    "shuffle_mean": 0.3708994708994709,
+    "shuffle_sd": 0.029071654746700853,
+    "z": 13.813705868227853,
+    "p": 0.047619047619047616
+   },
+   "icit_dholavira_fullbridged": {
+    "n": 42,
+    "coverage": 0.7619047619047619,
+    "shuffle_mean": 0.2964285714285714,
+    "shuffle_sd": 0.05708081949874691,
+    "z": 8.15468639744604,
+    "p": 0.047619047619047616
+   },
+   "icit_dholavira_all": {
+    "n": 80,
+    "coverage": 0.775,
+    "shuffle_mean": 0.381875,
+    "shuffle_sd": 0.043566579794608616,
+    "z": 9.023544947292477,
+    "p": 0.047619047619047616
+   }
+  },
+  "a_fail_signs_heldout": [
+   [
+    "M267 first=False last=False",
+    16
+   ],
+   [
+    "M99 first=False last=False",
+    10
+   ],
+   [
+    "M391 first=False last=False",
+    9
+   ],
+   [
+    "M150 first=False last=False",
+    5
+   ],
+   [
+    "M98 first=False last=False",
+    4
+   ],
+   [
+    "M99 first=True last=False",
+    4
+   ],
+   [
+    "M267 first=False last=True",
+    3
+   ],
+   [
+    "M205 first=False last=False",
+    3
+   ],
+   [
+    "M403 first=False last=False",
+    2
+   ],
+   [
+    "M97 first=False last=False",
+    2
+   ],
+   [
+    "M121 first=False last=False",
+    2
+   ],
+   [
+    "M391 first=False last=True",
+    2
+   ],
+   [
+    "M202 first=False last=False",
+    2
+   ],
+   [
+    "M124 first=False last=False",
+    2
+   ],
+   [
+    "M397 first=False last=True",
+    1
+   ]
+  ],
+  "b_objtype": {
+   "n_train": 1647,
+   "n_heldout": 551,
+   "n_icit": 330,
+   "heldout_counts": {
+    "seal": 391,
+    "tablet": 120,
+    "copper": 20,
+    "pottery": 20
+   },
+   "icit_counts": {
+    "pottery": 58,
+    "tablet": 80,
+    "seal": 192
+   },
+   "sign_bag": {
+    "heldout": {
+     "macro_auc": 0.7856366260022067,
+     "auc": {
+      "seal": 0.7533567774936061,
+      "tablet": 0.7680974477958237,
+      "copper": 0.8638418079096045,
+      "pottery": 0.7572504708097928
+     },
+     "bal_acc": 0.5821238277919863
+    },
+    "icit_newsites": {
+     "macro_auc": 0.6578019316118083,
+     "auc": {
+      "seal": 0.7298271437198067,
+      "tablet": 0.58305,
+      "pottery": 0.6605286511156186
+     },
+     "bal_acc": 0.4491499042145594
+    }
+   },
+   "parse_roles_only": {
+    "heldout": {
+     "macro_auc": 0.6723890257063472,
+     "auc": {
+      "seal": 0.6886349104859335,
+      "tablet": 0.6608081979891725,
+      "copper": 0.6432203389830509,
+      "pottery": 0.6968926553672317
+     },
+     "bal_acc": 0.39382459505541345
+    },
+    "icit_newsites": {
+     "macro_auc": 0.6187792060464866,
+     "auc": {
+      "seal": 0.6603826992753624,
+      "tablet": 0.5398000000000001,
+      "pottery": 0.6561549188640974
+     },
+     "bal_acc": 0.3567528735632184
+    }
+   },
+   "parse_roles+slot_fillers": {
+    "heldout": {
+     "macro_auc": 0.7124341977147428,
+     "auc": {
+      "seal": 0.7242247442455243,
+      "tablet": 0.6870939675174014,
+      "copper": 0.7304613935969868,
+      "pottery": 0.7079566854990584
+     },
+     "bal_acc": 0.43059995737425405
+    },
+    "icit_newsites": {
+     "macro_auc": 0.6215454265310155,
+     "auc": {
+      "seal": 0.6990300422705313,
+      "tablet": 0.53525,
+      "pottery": 0.6303562373225152
+     },
+     "bal_acc": 0.3541666666666667
+    }
+   },
+   "sign_bag+parse": {
+    "heldout": {
+     "macro_auc": 0.7844020172206684,
+     "auc": {
+      "seal": 0.7664801790281329,
+      "tablet": 0.7803557617942769,
+      "copper": 0.8401129943502825,
+      "pottery": 0.7506591337099812
+     },
+     "bal_acc": 0.5128569906223359
+    },
+    "icit_newsites": {
+     "macro_auc": 0.6649061213265917,
+     "auc": {
+      "seal": 0.7127490942028986,
+      "tablet": 0.61095,
+      "pottery": 0.6710192697768763
+     },
+     "bal_acc": 0.4409482758620689
+    }
+   },
+   "delta_parse_roles+slot_fillers_vs_bag_heldout": [
+    -0.0739584533569069,
+    [
+     -0.11239591891658106,
+     -0.037112860311122924
+    ]
+   ],
+   "delta_parse_roles+slot_fillers_vs_bag_icit": [
+    -0.03673655363106002,
+    [
+     -0.08979774217272904,
+     0.011821000146125204
+    ]
+   ],
+   "delta_parse_roles_only_vs_bag_heldout": [
+    -0.11443331611833485,
+    [
+     -0.16267443095712392,
+     -0.06704171942452108
+    ]
+   ],
+   "delta_parse_roles_only_vs_bag_icit": [
+    -0.039182905278784465,
+    [
+     -0.08672212997939698,
+     0.007299656420399083
+    ]
+   ],
+   "delta_sign_bag+parse_vs_bag_heldout": [
+    -0.001320160594038653,
+    [
+     -0.02606135271009179,
+     0.023966042236067804
+    ]
+   ],
+   "delta_sign_bag+parse_vs_bag_icit": [
+    0.006447160455827021,
+    [
+     -0.022228231313633932,
+     0.03839976831173516
+    ]
+   ],
+   "roles_only_label_perm_null": [
+    0.5196400373467865,
+    0.5767643554600009
+   ]
+  },
+  "c_masked": {
+   "n_positions": 2197,
+   "n_runs": 461,
+   "unigram": {
+    "MRR": 0.18904880390759915,
+    "top1": 0.10286754665452891,
+    "top10": 0.33909877105143377,
+    "median_rank": 21.0,
+    "role_of_top1_correct": 0.14883932635411926
+   },
+   "grammar": {
+    "MRR": 0.4544110000782291,
+    "top1": 0.377787892580792,
+    "top10": 0.6021847974510697,
+    "median_rank": 4.0,
+    "role_of_top1_correct": 0.29176149294492487
+   },
+   "bigram": {
+    "MRR": 0.5059044814372545,
+    "top1": 0.3900773782430587,
+    "top10": 0.7264451524806554,
+    "median_rank": 2.0,
+    "role_of_top1_correct": 0.5985434683659536
+   },
+   "grammar+bigram (fixed 1:1 log-linear)": {
+    "MRR": 0.47640053370293955,
+    "top1": 0.3673190714610833,
+    "top10": 0.6923076923076923,
+    "median_rank": 3.0,
+    "role_of_top1_correct": 0.538916704597178
+   },
+   "delta_MRR_combo_vs_bigram": [
+    -0.02950394773431507,
+    -0.03900772393311602,
+    -0.020792540441567652
+   ],
+   "slot_role_accuracy": {
+    "grammar_role_posterior": 0.6014669926650367,
+    "bigram_top_candidate_role": 0.6259168704156479,
+    "majority_role": 0.4083129584352078
+   },
+   "slot_role_n": 1636
+  },
+  "d_foreign": {
+   "m77_heldout": {
+    "n_native": 533,
+    "n_foreign": 4,
+    "parse_failure": [
+     0.6318011257035647,
+     0.2368815592203898
+    ],
+    "fail_rate_foreign": 0.5,
+    "fail_rate_native": 0.23639774859287055,
+    "grammar_bits": [
+     0.6350844277673546,
+     0.1854072963518241
+    ],
+    "bigram_bits": [
+     0.7772045028142589,
+     0.030984507746126936
+    ],
+    "grammar_minus_bigram": [
+     0.44277673545966234,
+     0.6411794102948526
+    ],
+    "structural_flags": [
+     0.7626641651031896,
+     0.033483258370814596
+    ]
+   },
+   "icit_all_foreign_vs_newsite_native": {
+    "n_native": 286,
+    "n_foreign": 30,
+    "parse_failure": [
+     0.5582750582750582,
+     0.11444277861069466
+    ],
+    "fail_rate_foreign": 0.3333333333333333,
+    "fail_rate_native": 0.21678321678321677,
+    "grammar_bits": [
+     0.6614801864801865,
+     0.004497751124437781
+    ],
+    "bigram_bits": [
+     0.723018648018648,
+     0.0009995002498750624
+    ],
+    "grammar_minus_bigram": [
+     0.5015734265734265,
+     0.48875562218890556
+    ],
+    "structural_flags": [
+     0.5967365967365967,
+     0.0384807596201899
+    ]
+   },
+   "icit_round_foreign_vs_newsite_native": {
+    "n_native": 286,
+    "n_foreign": 17,
+    "parse_failure": [
+     0.6563142739613327,
+     0.008995502248875561
+    ],
+    "fail_rate_foreign": 0.5294117647058824,
+    "fail_rate_native": 0.21678321678321677,
+    "grammar_bits": [
+     0.7118469765528589,
+     0.0024987506246876563
+    ],
+    "bigram_bits": [
+     0.7490744549568078,
+     0.0004997501249375312
+    ],
+    "grammar_minus_bigram": [
+     0.6131221719457014,
+     0.062468765617191405
+    ],
+    "structural_flags": [
+     0.6904566022213081,
+     0.001999000499750125
+    ]
+   },
+   "foreign_texts": [
+    [
+     "Altyn Depe",
+     "SEAL:S",
+     "M171 M161",
+     true
+    ],
+    [
+     "Failaka",
+     "SEAL:C",
+     "M1 # M267 M186",
+     true
+    ],
+    [
+     "Failaka",
+     "SEAL:C",
+     "OOV:W716 M174 M97 M1",
+     true
+    ],
+    [
+     "Hajar",
+     "TAB:I",
+     "OOV:W117 OOV:W617",
+     true
+    ],
+    [
+     "Kish",
+     "SEAL:S",
+     "M67 OOV:W643 #",
+     true
+    ],
+    [
+     "Kish",
+     "SEAL:S",
+     "M173 M403 M123 M102 M59 M249 M161 M342",
+     true
+    ],
+    [
+     "Luristan",
+     "SEAL:C",
+     "OOV:W091 M403 M177 M379",
+     false
+    ],
+    [
+     "Qala'at al-Bahrain",
+     "SEAL:C",
+     "M54 M123 M121 M1 OOV:W160",
+     false
+    ],
+    [
+     "Ra's al-Junayz",
+     "POT:T:g",
+     "# M59 OOV:W029 M342",
+     true
+    ],
+    [
+     "Ra's al-Junayz",
+     "POT:T:g",
+     "M104 M161",
+     true
+    ],
+    [
+     "Ra's al-Junayz",
+     "POT:T:g",
+     "OOV:W517 M307 M342",
+     true
+    ],
+    [
+     "Shortughai",
+     "SEAL:S",
+     "M102 OOV:W426",
+     true
+    ],
+    [
+     "Susa",
+     "SEAL:C",
+     "# OOV:W365 M1 M169 OOV:W604 M328",
+     false
+    ],
+    [
+     "Susa",
+     "SEAL:CY",
+     "OOV:W924 M97 OOV:W319 M86 M121 M99 OOV:W150 M173",
+     true
+    ],
+    [
+     "Tell Umma",
+     "TAG:L",
+     "OOV:W127 M336 M99 M104 M161",
+     true
+    ],
+    [
+     "Tello",
+     "SEAL:S",
+     "M326 M127 M161 M59 #",
+     true
+    ],
+    [
+     "Tepe Yahya",
+     "POT:T:s",
+     "# M18 M99",
+     false
+    ],
+    [
+     "Ur",
+     "SEAL:C",
+     "OOV:W528 M59 OOV:W924 OOV:W340 OOV:W093",
+     true
+    ],
+    [
+     "Ur",
+     "SEAL:C",
+     "M171 M387 M97 OOV:W328 M104 M99",
+     false
+    ],
+    [
+     "Ur",
+     "SEAL:C",
+     "M174 M1 M104 # #",
+     false
+    ],
+    [
+     "Gonur Depe",
+     "SEAL:S",
+     "OOV:W285 M99 M65 M59 M28 M249 M161 M342",
+     true
+    ],
+    [
+     "Salut",
+     "SEAL:S",
+     "M252 OOV:W278 M99 M104 OOV:W392",
+     true
+    ],
+    [
+     "Girsu",
+     "SEAL:C",
+     "M51 M103 OOV:W744 # M342",
+     true
+    ],
+    [
+     "Ur",
+     "SEAL:C",
+     "# M1 # M97 #",
+     true
+    ],
+    [
+     "Karzakan",
+     "SEAL:C",
+     "OOV:W091 M86 M233 M59",
+     true
+    ],
+    [
+     "Karzakan",
+     "SEAL:C",
+     "OOV:W091 M87 M97 M89",
+     false
+    ],
+    [
+     "Saar",
+     "SEAL:C",
+     "M121 M59 OOV:W091 M97 OOV:W093 M86",
+     false
+    ],
+    [
+     "Karzakan",
+     "SEAL:C",
+     "M342 | M342",
+     true
+    ],
+    [
+     "Ur",
+     "SEAL:C",
+     "M1 M161",
+     false
+    ],
+    [
+     "Janabiyah",
+     "SEAL:C",
+     "OOV:W071 M86 M379 M121 OOV:W121 OOV:W099 M121",
+     false
+    ]
+   ]
+  }
+ },
+ "readings": {
+  "n_readings": 3445,
+  "parsed": 2904,
+  "bands": {
+   "medium": 1267,
+   "low": 844,
+   "high": 1334
+  },
+  "label_counts": {
+   "FISH-NOUN": 943,
+   "TITLE": 478,
+   "CLOSER(jar)": 1323,
+   "NOUN": 4060,
+   "NUMBER+NOUN": 422,
+   "OPENER": 1025,
+   "NUMBER-NAME": 229,
+   "TITLE-BLOCK": 285,
+   "CONNECTIVE": 240,
+   "CLOSER": 558,
+   "NUMBER+CLOSER": 264,
+   "REGISTER": 41,
+   "FORMULA": 176,
+   "BREAK": 52,
+   "NUMERAL": 82,
+   "DOC-TYPE CLITIC": 355,
+   "POST-CLOSER": 148,
+   "BRACKETED-FISH CLOSER": 49,
+   "UNIT/MEASURE": 16,
+   "COUNT+MEASURE": 278
+  },
+  "token_share_role_grade": {
+   "B": 0.202,
+   "A": 0.406,
+   "unknown noun": 0.267,
+   "dev-positional C": 0.113,
+   "C": 0.007,
+   "unseen": 0.005
+  },
+  "token_share_meaning_grade": {
+   "C": 0.145,
+   "B": 0.341,
+   "-": 0.514
+  },
+  "lexicon_counts": {
+   "sign|A": 38,
+   "sign|B": 23,
+   "sign|unassigned": 247,
+   "sign|C": 64,
+   "sequence|B": 36,
+   "sequence|A": 5
+  }
+ },
+ "controls": {
+  "planted": {
+   "n_dev": 1693,
+   "n_test": 565,
+   "coverage": 0.9929203539823008,
+   "shuffled_coverage": 0.3787610619469027,
+   "token_role_accuracy": {
+    "hand": 0.9908794788273616,
+    "all": 0.9695652173913043,
+    "default-N": 0.9414634146341463,
+    "induced": 0.9142857142857143
+   },
+   "token_counts": {
+    "hand": 1535,
+    "all": 2530,
+    "default-N": 820,
+    "induced": 175
+   },
+   "induced_signs": 40,
+   "induced_roleset_contains_true_major": 0.9
+  },
+  "lexicon_permutation_null": {
+   "real_heldout_coverage": 0.76,
+   "null_mean": 0.5101904761904762,
+   "null_sd": 0.1307020290896942,
+   "null_max": 0.7885714285714286,
+   "p": 0.009950248756218905
+  }
+ },
+ "headline": {
+  "heldout_coverage": 0.76,
+  "heldout_shuffle_coverage": 0.334,
+  "icit_newsite_coverage": 0.772,
+  "dholavira_coverage": 0.775,
+  "lexicon_perm_null_coverage": [
+   0.51,
+   0.131
+  ],
+  "lexicon_perm_p": 0.01,
+  "objtype_macroAUC_heldout": {
+   "sign_bag": 0.786,
+   "parse_roles_only": 0.672,
+   "parse_slot_fillers": 0.713,
+   "bag_plus_parse": 0.784
+  },
+  "masked_MRR": {
+   "bigram": 0.506,
+   "grammar": 0.454,
+   "combo": 0.476,
+   "unigram": 0.189
+  },
+  "foreign_round_AUC": {
+   "parse_failure": 0.66,
+   "grammar_bits": 0.71,
+   "bigram_bits": 0.75
+  },
+  "m77_texts_read": 3445,
+  "m77_parsed": 2904
+ }
+}

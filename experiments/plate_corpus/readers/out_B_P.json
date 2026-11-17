@@ -1,0 +1,530 @@
+[
+ {
+  "id": "P937",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 2,
+  "lines": [
+   [
+    "M86",
+    "?",
+    "?",
+    "?"
+   ],
+   [
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "notes": "low resolution crop; lower sign partly visible, count uncertain"
+ },
+ {
+  "id": "P935",
+  "face": "unsure",
+  "unreadable": true,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "corner crop, heavily degraded; count is a guess"
+ },
+ {
+  "id": "P885",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M391",
+    "M180",
+    "?",
+    "?",
+    "M118",
+    "M149",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "top row clear-ish but stained; signs 3-4 and 7-8 uncertain"
+ },
+ {
+  "id": "P832",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M161",
+    "M102",
+    "M99",
+    "M267"
+   ]
+  ],
+  "conf": [
+   [
+    1,
+    1,
+    1,
+    1
+   ]
+  ],
+  "notes": "small photo; first sign a fork on a stem"
+ },
+ {
+  "id": "P799",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "very blurry; count approximate; last two look like oval and A sign"
+ },
+ {
+  "id": "P679",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M358",
+    "M293",
+    "M185"
+   ]
+  ],
+  "conf": [
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "notes": "tiny blurry crop, three signs"
+ },
+ {
+  "id": "P636",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M329",
+    "M375",
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "dark and blurred; count approximate"
+ },
+ {
+  "id": "P611",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "very low contrast; count approximate"
+ },
+ {
+  "id": "P604",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M358",
+    "M310",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    1,
+    0,
+    0
+   ]
+  ],
+  "notes": "four signs; third is a complex hatched sign, fourth a lens with inner V"
+ },
+ {
+  "id": "P588",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "?",
+    "M391"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "dark, rough; seven signs estimated, last is round"
+ },
+ {
+  "id": "P539",
+  "face": "unsure",
+  "unreadable": true,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "almost black, only vertical strokes visible"
+ },
+ {
+  "id": "P480",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M247",
+    "M247",
+    "M25",
+    "?",
+    "M87",
+    "?",
+    "M384",
+    "M178"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  ],
+  "notes": "blurry photo of a clear text; grid signs 2x4"
+ },
+ {
+  "id": "P411",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 2,
+  "lines": [
+   [
+    "?",
+    "?",
+    "M89",
+    "M99",
+    "?"
+   ],
+   [
+    "?",
+    "?",
+    "?",
+    "M100"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "broken fragment; line split uncertain"
+ },
+ {
+  "id": "P327",
+  "face": "unsure",
+  "unreadable": true,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "tiny and dark; count guessed"
+ },
+ {
+  "id": "P302",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M170",
+    "M216",
+    "M102",
+    "M335",
+    "?",
+    "M173",
+    "M123",
+    "M216"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "blurry; many identities uncertain"
+ },
+ {
+  "id": "P229",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M169",
+    "M104"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    1
+   ]
+  ],
+  "notes": "fork sign then four strokes; tiny image"
+ },
+ {
+  "id": "P193",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M96",
+    "M14",
+    "M284"
+   ]
+  ],
+  "conf": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "notes": "numeral shown as horizontal bars; diamond with lattice"
+ },
+ {
+  "id": "P181",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "?",
+    "?",
+    "?"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "round composition, text partly along other edges; count approximate"
+ },
+ {
+  "id": "P127",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M342",
+    "M415"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0
+   ]
+  ],
+  "notes": "high contrast, two signs; second may be two"
+ },
+ {
+  "id": "P111",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 2,
+  "lines": [
+   [
+    "?",
+    "M141",
+    "M149",
+    "M138",
+    "M100",
+    "M267"
+   ],
+   [
+    "M144"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "notes": "worn; second line one sign below the middle"
+ }
+]

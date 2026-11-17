@@ -1,0 +1,115 @@
+{
+ "all": {
+  "label": "all legends",
+  "n_seals": 4757,
+  "n_legends": 3970,
+  "n_rep_legends": 365,
+  "seals_on_rep": 1152,
+  "share_seals_on_rep": 0.24216943451755307,
+  "n_pairs": 1756,
+  "share_pairs_same_archive": 0.9817767653758542,
+  "random_pair_cross_archive": 0.722261358930969,
+  "dated_same_arch_pairs": 1672,
+  "share_diff_reign": 0.5311004784688995,
+  "random_same_arch_diff_reign": 0.6617,
+  "rep_has_longer": 0.049315068493150684,
+  "single_has_longer": 0.023666666666666666,
+  "rep_has_shorter": 0.09041095890410959,
+  "single_has_shorter": 0.023
+ },
+ "le7": {
+  "label": "legends <=7 written signs",
+  "n_seals": 860,
+  "n_legends": 757,
+  "n_rep_legends": 55,
+  "seals_on_rep": 158,
+  "share_seals_on_rep": 0.18372093023255814,
+  "n_pairs": 190,
+  "share_pairs_same_archive": 0.9526315789473684,
+  "random_pair_cross_archive": 0.7167666641753425,
+  "dated_same_arch_pairs": 179,
+  "share_diff_reign": 0.5642458100558659,
+  "random_same_arch_diff_reign": 0.66655,
+  "rep_has_longer": 0.0,
+  "single_has_longer": 0.004273504273504274,
+  "rep_has_shorter": 0.0,
+  "single_has_shorter": 0.005698005698005698
+ },
+ "4to7": {
+  "label": "legends 4-7 written signs",
+  "n_seals": 840,
+  "n_legends": 737,
+  "n_rep_legends": 55,
+  "seals_on_rep": 158,
+  "share_seals_on_rep": 0.1880952380952381,
+  "n_pairs": 190,
+  "share_pairs_same_archive": 0.9526315789473684,
+  "random_pair_cross_archive": 0.7151254950482749,
+  "dated_same_arch_pairs": 179,
+  "share_diff_reign": 0.5642458100558659,
+  "random_same_arch_diff_reign": 0.6552,
+  "rep_has_longer": 0.0,
+  "single_has_longer": 0.002932551319648094,
+  "rep_has_shorter": 0.0,
+  "single_has_shorter": 0.004398826979472141
+ },
+ "examples_le7": [
+  {
+   "legend": "lugal-ezem dub-sar dumu da-da",
+   "n": 8,
+   "provs": {
+    "Umma": 7,
+    "Girsu": 1
+   }
+  },
+  {
+   "legend": "in-sa6-sa6 dumu bi2-du11 muhaldim",
+   "n": 5,
+   "provs": {
+    "Umma": 5
+   }
+  },
+  {
+   "legend": "dingir-ra dub-sar dumu lu2-ga",
+   "n": 5,
+   "provs": {
+    "Umma": 5
+   }
+  },
+  {
+   "legend": "ur-mes dumu na-ba-lu5",
+   "n": 5,
+   "provs": {
+    "Umma": 5
+   }
+  },
+  {
+   "legend": "lu2-u18 dumu bi2-du11 muhaldim",
+   "n": 5,
+   "provs": {
+    "Umma": 5
+   }
+  },
+  {
+   "legend": "ur-lugal dumu szesz-kal-la szabra",
+   "n": 5,
+   "provs": {
+    "Umma": 5
+   }
+  },
+  {
+   "legend": "a-da-lal3 arad2 szu-kab-ta2",
+   "n": 5,
+   "provs": {
+    "Gar\u0161ana": 5
+   }
+  },
+  {
+   "legend": "ur-{d}utu dumu al-la sukkal",
+   "n": 4,
+   "provs": {
+    "Umma": 4
+   }
+  }
+ ]
+}

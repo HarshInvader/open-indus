@@ -1,0 +1,791 @@
+{
+ "MD_FEM_M112": [
+  {
+   "rel": 0.43,
+   "area": "31",
+   "type": "seal",
+   "text": "M67 M204 M112 M342 M176",
+   "members": 1
+  },
+  {
+   "rel": 0.53,
+   "area": "31",
+   "type": "seal",
+   "text": "M389 M65 M67 M204 M112 M358 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "31",
+   "type": "seal",
+   "text": "M238 M267 M99 M387 M53 M72 M336 M89 M112 M194 M342",
+   "members": 4
+  },
+  {
+   "rel": 0.69,
+   "area": "31",
+   "type": "seal",
+   "text": "M293 M123 M343 M112 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.79,
+   "area": "32",
+   "type": "seal",
+   "text": "M204 M112 M347 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.92,
+   "area": "31",
+   "type": "seal",
+   "text": "M214 M99 M389 M67 M112 M197 M342 M139",
+   "members": 1
+  },
+  {
+   "rel": 0.96,
+   "area": "31",
+   "type": "seal",
+   "text": "M51 M155 M345 M112 M194 M336 M89",
+   "members": 1
+  },
+  {
+   "rel": 0.98,
+   "area": "31",
+   "type": "seal",
+   "text": "M245 M98 M112 M169",
+   "members": 1
+  },
+  {
+   "rel": 0.99,
+   "area": "32",
+   "type": "seal",
+   "text": "M267 M99 M112 M197 M342 M139",
+   "members": 1
+  },
+  {
+   "rel": 0.99,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M402 M204 M112 M347 M342",
+   "members": 1
+  }
+ ],
+ "HAR_EH_M162": [
+  {
+   "rel": 0.08,
+   "area": "40",
+   "type": "seal",
+   "text": "M249 M162 M342 M176",
+   "members": 1
+  },
+  {
+   "rel": 0.1,
+   "area": "40",
+   "type": "seal",
+   "text": "M244 M343 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.1,
+   "area": "41",
+   "type": "tablet",
+   "text": "M104 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.1,
+   "area": "41",
+   "type": "seal",
+   "text": "M155 M162 M99 M102 M59 M342 M1",
+   "members": 1
+  },
+  {
+   "rel": 0.1,
+   "area": "41",
+   "type": "seal",
+   "text": "M283 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.15,
+   "area": "40",
+   "type": "seal",
+   "text": "M267 M99 M87 M155 M249 M162 M342 M267 M99 M87 M155 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.22,
+   "area": "53",
+   "type": "seal",
+   "text": "M205 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.3,
+   "area": "42",
+   "type": "tablet",
+   "text": "M104 M162",
+   "members": 3
+  },
+  {
+   "rel": 0.3,
+   "area": "40",
+   "type": "seal",
+   "text": "M305 M123 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.3,
+   "area": "40",
+   "type": "sealing",
+   "text": "M402 M188 M343 M249 M162 M12 M402 M188 M343 M249 M162 M12",
+   "members": 1
+  },
+  {
+   "rel": 0.38,
+   "area": "44",
+   "type": "seal",
+   "text": "M343 M70 M72 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.4,
+   "area": "53",
+   "type": "seal",
+   "text": "M267 M99 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.43,
+   "area": "40",
+   "type": "seal",
+   "text": "M335 M162 M343 M67 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.47,
+   "area": "47",
+   "type": "seal",
+   "text": "M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.54,
+   "area": "42",
+   "type": "seal",
+   "text": "M28 M162 M343",
+   "members": 1
+  },
+  {
+   "rel": 0.54,
+   "area": "41",
+   "type": "sealing",
+   "text": "M343 M216 M162 M99 M387 M53 M342 M177 M197 M192 M341 M89 M328",
+   "members": 1
+  },
+  {
+   "rel": 0.61,
+   "area": "42",
+   "type": "seal",
+   "text": "M343 M229 M59 M99 M112 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.65,
+   "area": "41",
+   "type": "sealing",
+   "text": "M150 M267 M162 M342 M176",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "43",
+   "type": "sealing",
+   "text": "M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "53",
+   "type": "seal",
+   "text": "M293 M123 M345 M65 M67 M70 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.68,
+   "area": "40",
+   "type": "sealing",
+   "text": "M1 M1 M209 M343 M102 M162 M89 M328",
+   "members": 1
+  },
+  {
+   "rel": 0.78,
+   "area": "40",
+   "type": "seal",
+   "text": "M267 M402 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.94,
+   "area": "41",
+   "type": "sealing",
+   "text": "M65 M249 M162 M342 M176 M89 M328",
+   "members": 2
+  }
+ ],
+ "HAR_EH_M293": [
+  {
+   "rel": 0.4,
+   "area": "43",
+   "type": "tablet",
+   "text": "M293 M123 M343 M48 M15 M87 M328",
+   "members": 1
+  },
+  {
+   "rel": 0.43,
+   "area": "40",
+   "type": "seal",
+   "text": "M267 M99 M53 M182 M293 M112 M197 M342 M176",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "40",
+   "type": "sealing",
+   "text": "M389 M171 M59 M182 M293 M51 M130 M149 M249 M169 M342",
+   "members": 3
+  },
+  {
+   "rel": 0.67,
+   "area": "53",
+   "type": "sealing",
+   "text": "M205 M293 M99 M48 M342 M192 M342 M186 M177 M197 M192 M342 M87 M328",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "53",
+   "type": "seal",
+   "text": "M293 M123 M345 M65 M67 M70 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.68,
+   "area": "42",
+   "type": "sealing",
+   "text": "M53 M67 M72 M182 M293 M342 M176 M89 M328",
+   "members": 1
+  },
+  {
+   "rel": 0.77,
+   "area": "40",
+   "type": "seal",
+   "text": "M65 M182 M293 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.79,
+   "area": "47",
+   "type": "seal",
+   "text": "M300 M17 M293 M87 M326 M54 M336 M293",
+   "members": 1
+  },
+  {
+   "rel": 0.79,
+   "area": "47",
+   "type": "seal",
+   "text": "M302 M214 M97 M150 M127 M293",
+   "members": 1
+  },
+  {
+   "rel": 0.82,
+   "area": "40",
+   "type": "seal",
+   "text": "M183 M169 M99 M389 M72 M182 M293 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.97,
+   "area": "42",
+   "type": "sealing",
+   "text": "M293 M59 M307 M268 M176",
+   "members": 1
+  },
+  {
+   "rel": 0.97,
+   "area": "45",
+   "type": "sealing",
+   "text": "M293 M123 M343 M106 M402 M336 M321",
+   "members": 1
+  },
+  {
+   "rel": 0.99,
+   "area": "42",
+   "type": "seal",
+   "text": "M293 M293 M293 M342 M126",
+   "members": 1
+  }
+ ],
+ "HAR_EH_M389": [
+  {
+   "rel": 0.53,
+   "area": "47",
+   "type": "seal",
+   "text": "M389 M224",
+   "members": 1
+  },
+  {
+   "rel": 0.58,
+   "area": "53",
+   "type": "sealing",
+   "text": "M340 M94 M343 M389 M342 M89 M328",
+   "members": 1
+  },
+  {
+   "rel": 0.59,
+   "area": "47",
+   "type": "seal",
+   "text": "M389 M171 M59 M341 M342 M336 M89 M211 M2 M14",
+   "members": 1
+  },
+  {
+   "rel": 0.63,
+   "area": "40",
+   "type": "seal",
+   "text": "M87 M284 M342 M98 M178 M389 M15",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "40",
+   "type": "sealing",
+   "text": "M389 M171 M59 M182 M293 M51 M130 M149 M249 M169 M342",
+   "members": 3
+  },
+  {
+   "rel": 0.7,
+   "area": "47",
+   "type": "seal",
+   "text": "M267 M99 M389 M65 M72 M222 M254 M124 M169",
+   "members": 1
+  },
+  {
+   "rel": 0.82,
+   "area": "41",
+   "type": "seal",
+   "text": "M391 M99 M389 M67 M72 M336 M89 M211",
+   "members": 1
+  },
+  {
+   "rel": 0.82,
+   "area": "40",
+   "type": "seal",
+   "text": "M183 M169 M99 M389 M72 M182 M293 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.84,
+   "area": "41",
+   "type": "seal",
+   "text": "M267 M99 M98 M178 M389 M15",
+   "members": 1
+  },
+  {
+   "rel": 0.85,
+   "area": "42",
+   "type": "sealing",
+   "text": "M178 M389 M15 M176",
+   "members": 2
+  },
+  {
+   "rel": 0.86,
+   "area": "42",
+   "type": "seal",
+   "text": "M267 M99 M389 M70 M348 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.91,
+   "area": "40",
+   "type": "seal",
+   "text": "M65 M70 M358 M342 M178 M389 M15",
+   "members": 1
+  },
+  {
+   "rel": 0.93,
+   "area": "41",
+   "type": "seal",
+   "text": "M121 M65 M336 M89 M389 M102 M287 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.94,
+   "area": "43",
+   "type": "seal",
+   "text": "M216 M123 M389 M87 M59 M51 M130 M149 M48 M342",
+   "members": 1
+  }
+ ],
+ "MD_FEM_M162": [
+  {
+   "rel": 0.01,
+   "area": "31",
+   "type": "seal",
+   "text": "M391 M99 M228 M162 M242",
+   "members": 1
+  },
+  {
+   "rel": 0.04,
+   "area": "32",
+   "type": "seal",
+   "text": "M249 M162 M343 M296 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.04,
+   "area": "31",
+   "type": "seal",
+   "text": "M17 M162 M99 M124 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.05,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M99 M249 M162 M342 M242",
+   "members": 1
+  },
+  {
+   "rel": 0.06,
+   "area": "31",
+   "type": "seal",
+   "text": "M319 M32 M99 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.06,
+   "area": "32",
+   "type": "seal",
+   "text": "M406 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.07,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M99 M104 M162 M242",
+   "members": 1
+  },
+  {
+   "rel": 0.09,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M99 M106 M162 M267 M99 M106",
+   "members": 1
+  },
+  {
+   "rel": 0.12,
+   "area": "31",
+   "type": "seal",
+   "text": "M197 M86 M197 M86 M99 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.15,
+   "area": "31",
+   "type": "seal",
+   "text": "M109 M162",
+   "members": 2
+  },
+  {
+   "rel": 0.16,
+   "area": "31",
+   "type": "seal",
+   "text": "M102 M59 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.16,
+   "area": "31",
+   "type": "seal",
+   "text": "M293 M123 M343 M249 M162 M12",
+   "members": 1
+  },
+  {
+   "rel": 0.21,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M99 M287 M249 M162 M12",
+   "members": 1
+  },
+  {
+   "rel": 0.24,
+   "area": "32",
+   "type": "seal",
+   "text": "M17 M406 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.29,
+   "area": "31",
+   "type": "seal",
+   "text": "M162 M1 M162 M48 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.31,
+   "area": "31",
+   "type": "seal",
+   "text": "M391 M123 M98 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.36,
+   "area": "32",
+   "type": "seal",
+   "text": "M391 M391 M343 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.4,
+   "area": "31",
+   "type": "seal",
+   "text": "M214 M150 M267 M99 M249 M162 M375 M76 M267",
+   "members": 1
+  },
+  {
+   "rel": 0.42,
+   "area": "32",
+   "type": "seal",
+   "text": "M391 M99 M406 M162 M242",
+   "members": 1
+  },
+  {
+   "rel": 0.44,
+   "area": "31",
+   "type": "seal",
+   "text": "M162 M216 M57 M99 M62 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.44,
+   "area": "31",
+   "type": "seal",
+   "text": "M28 M162 M343 M48 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.46,
+   "area": "32",
+   "type": "seal",
+   "text": "M406 M162 M176",
+   "members": 1
+  },
+  {
+   "rel": 0.46,
+   "area": "31",
+   "type": "seal",
+   "text": "M397 M86 M343 M406 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.49,
+   "area": "32",
+   "type": "seal",
+   "text": "M114 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.51,
+   "area": "31",
+   "type": "seal",
+   "text": "M17 M293 M162 M343 M386 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.51,
+   "area": "31",
+   "type": "seal",
+   "text": "M234 M287 M162 M343 M68",
+   "members": 1
+  },
+  {
+   "rel": 0.55,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M99 M331 M162 M402",
+   "members": 1
+  },
+  {
+   "rel": 0.58,
+   "area": "31",
+   "type": "seal",
+   "text": "M175 M28 M99 M102 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.58,
+   "area": "31",
+   "type": "seal",
+   "text": "M293 M123 M343 M65 M294 M342 M391 M102 M137 M253 M409 M94 M409 M319 M32 M162 M403 M231 M408",
+   "members": 1
+  },
+  {
+   "rel": 0.63,
+   "area": "31",
+   "type": "seal",
+   "text": "M391 M99 M386 M53 M171 M59 M72 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.65,
+   "area": "31",
+   "type": "seal",
+   "text": "M267 M99 M102 M162",
+   "members": 4
+  },
+  {
+   "rel": 0.66,
+   "area": "31",
+   "type": "seal",
+   "text": "M162 M162 M162 M162 M15",
+   "members": 1
+  },
+  {
+   "rel": 0.67,
+   "area": "31",
+   "type": "seal",
+   "text": "M53 M342 M249 M162 M342 M242",
+   "members": 1
+  },
+  {
+   "rel": 0.68,
+   "area": "32",
+   "type": "seal",
+   "text": "M106 M162 M51 M130",
+   "members": 1
+  },
+  {
+   "rel": 0.69,
+   "area": "31",
+   "type": "seal",
+   "text": "M293 M123 M343 M112 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.71,
+   "area": "31",
+   "type": "seal",
+   "text": "M182 M293 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.75,
+   "area": "31",
+   "type": "seal",
+   "text": "M162 M1 M242",
+   "members": 1
+  },
+  {
+   "rel": 0.75,
+   "area": "31",
+   "type": "seal",
+   "text": "M306 M114 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.76,
+   "area": "31",
+   "type": "seal",
+   "text": "M373 M162 M343 M249 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.77,
+   "area": "31",
+   "type": "seal",
+   "text": "M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.8,
+   "area": "31",
+   "type": "seal",
+   "text": "M336 M162 M100 M66",
+   "members": 1
+  },
+  {
+   "rel": 0.81,
+   "area": "31",
+   "type": "seal",
+   "text": "M87 M59 M155 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.84,
+   "area": "31",
+   "type": "seal",
+   "text": "M216 M123 M109 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.86,
+   "area": "31",
+   "type": "seal",
+   "text": "M244 M83 M99 M67 M87 M244 M28 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.87,
+   "area": "31",
+   "type": "seal",
+   "text": "M249 M162 M391",
+   "members": 1
+  },
+  {
+   "rel": 0.91,
+   "area": "31",
+   "type": "seal",
+   "text": "M87 M244 M162 M342",
+   "members": 1
+  },
+  {
+   "rel": 0.92,
+   "area": "32",
+   "type": "seal",
+   "text": "M87 M244 M28 M54 M99 M245 M245 M87 M162",
+   "members": 1
+  },
+  {
+   "rel": 0.99,
+   "area": "31",
+   "type": "seal",
+   "text": "M214 M287 M87 M244 M28 M162 M99 M136 M193 M12",
+   "members": 1
+  }
+ ],
+ "E2_length_stouffer": {
+  "z_sites": [
+   1.662718415007514,
+   2.067338240785163
+  ],
+  "z": 2.6375483555210173,
+  "p_two_sided": 0.00835077187760444
+ },
+ "E3_M162_seal": {
+  "n": 15,
+  "shift": -0.21339255945343485,
+  "p": 0.0008999100089991
+ },
+ "E3_M162_nonseal": {
+  "n": 8,
+  "shift": 0.006490948369678215,
+  "p": 0.9404059594040596
+ },
+ "E3_M162_final": {
+  "n": 9,
+  "shift": -0.19657929592701193,
+  "p": 0.019698030196980302
+ }
+}

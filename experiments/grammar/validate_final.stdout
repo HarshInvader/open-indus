@@ -1,0 +1,71 @@
+mode=final: train 1698 texts, test 571 (441 complete)
+
+== (a) per-sign perplexity (bits per event = signs + end-of-text), complete test texts
+  grammar                  5.794 bits/event (ppl   55.5)  k=522  AIC=63803 BIC=67510
+  kn_bigram                5.490 bits/event (ppl   44.9)  k=2734  AIC=55025 BIC=74438
+  position                 6.382 bits/event (ppl   83.4)  k=1329  AIC=72744 BIC=82181
+  unigram                  6.287 bits/event (ppl   78.1)  k=266  AIC=75773 BIC=77662
+  grammar_shuffled_train   6.251 bits/event (ppl   76.2)  k=522  AIC=74056 BIC=77762
+  grammar_functional7      6.029 bits/event (ppl   65.3)  k=315  AIC=69528 BIC=71765
+  grammar_registers        5.840 bits/event (ppl   57.3)  k=-  AIC=nan BIC=nan
+  grammar on shuffled test texts: 7.066 +- 0.033
+  grammar - kn_bigram              +0.303 bits [95% CI +0.231, +0.372]
+  grammar - position               -0.589 bits [95% CI -0.676, -0.501]
+  grammar - unigram                -0.494 bits [95% CI -0.571, -0.414]
+  grammar - grammar_shuffled_train -0.458 bits [95% CI -0.533, -0.381]
+  register-aware - pooled grammar: +0.046 [+0.023, +0.069]
+  PASS (a) beats bigram with fewer parameters: False; beats position-only and shuffled: True
+
+== (b) masked restoration (one hidden sign, complete test texts of 2+ signs, every position)
+  grammar    n=1942 top5 0.345  MRR 0.263  fine-class top1 0.360 top5 0.753  label top1 0.664  validated-class top1 0.6522935779816513
+  kn_bigram  n=1942 top5 0.479  MRR 0.365  fine-class top1 0.407 top5 0.787  label top1 0.685  validated-class top1 0.6669724770642201
+  position   n=1942 top5 0.252  MRR 0.183  fine-class top1 0.166 top5 0.538  label top1 0.587  validated-class top1 0.29908256880733947
+  unigram    n=1942 top5 0.200  MRR 0.160  fine-class top1 0.136 top5 0.396  label top1 0.587  validated-class top1 0.23486238532110093
+  grammar - kn_bigram  top5: -0.134 [-0.156, -0.111]
+  grammar - kn_bigram  lab1: -0.021 [-0.036, -0.006]
+  grammar - position   top5: +0.093 [+0.073, +0.113]
+  grammar - position   lab1: +0.077 [+0.048, +0.105]
+  grammar - unigram    top5: +0.145 [+0.123, +0.168]
+  grammar - unigram    lab1: +0.077 [+0.050, +0.105]
+  PASS b1 (top5 > position) True; b2 (top5 non-inferior to bigram, margin 0.03) False; b3 (label top1 >= 0.6 and > position) True
+
+== (c) transfer
+  [MD->] in-domain CV: grammar 5.270 bigram 4.879 diff +0.391 [+0.336,+0.448]
+  [MD->] Harappa                n= 458 grammar 5.193 bigram 4.770 position 5.888 unigram 5.964 | g-bigram +0.423 [+0.346,+0.495] g-position -0.696
+  [MD->] small_sites            n= 201 grammar 5.270 bigram 5.001 position 5.855 unigram 5.972 | g-bigram +0.269 [+0.174,+0.363] g-position -0.585
+  [M77->ICIT] in-domain CV: grammar 5.403 bigram 5.017 diff +0.386 [+0.327,+0.439]
+  [M77->ICIT] ICIT_only_all          n= 175 grammar 5.637 bigram 5.579 position 5.946 unigram 5.940 | g-bigram +0.058 [-0.038,+0.149] g-position -0.309
+  [M77->ICIT] ICIT_only_fully_bridged n=  87 grammar 5.518 bigram 5.374 position 5.953 unigram 5.954 | g-bigram +0.144 [+0.006,+0.271] g-position -0.435
+  [M77->ICIT] ICIT_only_seals        n= 103 grammar 5.478 bigram 5.361 position 5.821 unigram 5.918 | g-bigram +0.117 [+0.005,+0.238] g-position -0.343
+  PASS (c) beats bigram on every target: False; beats position-only on every target: True
+
+== (d) Gulf round seals vs native Indus seals of equal length (Wells grammar)
+  home round seals (CV) vs native square, grammar n=318 5.748 vs matched native 5.565: diff +0.183 p=0.0098 AUC 0.56
+  Gulf round seals, grammar                    n= 18 7.297 vs matched native 5.496: diff +1.801 p=0.0001 AUC 0.85
+  Gulf round seals, KN bigram (reference)      n= 18 7.401 vs matched native 5.286: diff +2.115 p=0.0001 AUC 0.88
+  foreign square seals, grammar (secondary)    n=  8 5.959 vs matched native 5.761: diff +0.198 p=0.3596 AUC 0.54
+  PASS (d) Gulf round seals score worse (p<0.01): True
+
+== (e) Ur III seal legends: does the same pipeline recover slot structure?
+  Ur III distinct legends 5180; train 3972 (Indus-size sample 1698), test 1208; mean length 4.82 words
+  [indus_size] K=16 alpha=3.0: NMI(class, gold slot) 0.567 (shuffled-train null max 0.469, mean 0.451); purity 0.746; isolation KIN 1.00, SERV 0.59, TITLE 0.75, OWNER 0.94, FATHER 0.30, LORD 0.00
+  [indus_size] perplexity: grammar 4.238 vs KN bigram 4.330 (diff -0.092 [-0.260,+0.045]) position 5.186
+     OWNER    n= 1218 -> unclassified 0.52, closer 0.43, opener 0.05, medial 0.01
+     TITLE    n= 1421 -> connective 0.37, closer 0.23, medial 0.21, unclassified 0.17
+     KIN      n=  987 -> medial 1.00
+     FATHER   n=  996 -> unclassified 0.43, opener 0.30, closer 0.27, medial 0.01
+     SERV     n=  212 -> closer 0.68, medial 0.29, unclassified 0.03
+     LORD     n=  173 -> unclassified 0.80, closer 0.15, opener 0.03, medial 0.02
+     EPITHET  n=  729 -> medial 0.92, unclassified 0.05, closer 0.03, opener 0.00
+  [full_train] K=20 alpha=10.0: NMI(class, gold slot) 0.569; purity 0.785; isolation KIN 1.00, SERV 0.61, TITLE 0.80, OWNER 0.95, FATHER 0.41, LORD 0.00
+  [full_train] perplexity: grammar 4.901 vs KN bigram 4.826 (diff +0.074 [-0.107,+0.208]) position 5.865
+     OWNER    n= 1218 -> unclassified 0.43, closer 0.36, medial 0.18, opener 0.03
+     TITLE    n= 1421 -> connective 0.42, medial 0.38, unclassified 0.11, closer 0.07
+     KIN      n=  987 -> medial 1.00
+     FATHER   n=  996 -> opener 0.41, unclassified 0.35, closer 0.19, medial 0.04
+     SERV     n=  212 -> closer 0.61, medial 0.38, unclassified 0.01
+     LORD     n=  173 -> unclassified 0.74, closer 0.17, opener 0.06, medial 0.03
+     EPITHET  n=  729 -> medial 0.92, closer 0.03, unclassified 0.03, opener 0.02
+  PASS (e) (e1 NMI above all 20 shuffled-train nulls AND e2 relators isolated >= 0.7): False
+
+wrote validate_final.json (794s)

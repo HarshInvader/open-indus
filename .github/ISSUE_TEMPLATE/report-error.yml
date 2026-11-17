@@ -1,0 +1,44 @@
+name: Report an error
+description: A misread sign, a wrong object record, a wrong number on the website, or a broken link.
+title: "Error: "
+labels: ["error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. The statistics are only as good as the readings and records under them, so error reports matter to the goal: to decipher the Indus script by 2027.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of error
+      options:
+        - A sign read wrongly in a text
+        - An object record (shape, size, site, findspot, date, or two entries that are one object)
+        - A number or statement on the website or in a RESULTS.md
+        - A broken link or a page that does not display properly
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: A text or object number (for example M77 1234, ICIT 4247.1, or an excavation report and seal number), or the page and section.
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong, and what it should be
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: A published photograph, drawing, register entry or page reference. Please give a citation or link rather than uploading scans of copyrighted catalogues.
+  - type: textarea
+    id: device
+    attributes:
+      label: Browser and device (for website problems only)
+      placeholder: e.g. Safari on iPhone, Firefox on Windows

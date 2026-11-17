@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta name="color-scheme" content="light dark">{{ROBOTS}}
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script>
+/* Theme before paint: ?theme=light|dark overrides, then the saved choice, else the system setting. */
+(function () {
+  var t = null;
+  try { t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('oi-theme'); } catch (e) {}
+  if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+  document.documentElement.classList.add('js');
+})();
+</script>
+<link rel="preload" href="assets/fonts/OpenIndusText-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/OpenIndusText-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/OpenIndus-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/glyphs.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="{{BODY_CLASS}}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head" id="site-head">
+  <div class="wrap head-row">
+    <a class="brand" href="index.html" aria-label="{{NAME}} home">{{MARK}}{{WORDMARK}}</a>
+    <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="site-nav">
+      <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path class="m1" d="M3 6h14"/><path class="m2" d="M3 10h14"/><path class="m3" d="M3 14h14"/></svg>
+      <span>Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main"><ul>{{NAV}}</ul></nav>
+    <button class="theme" type="button" id="theme" aria-label="Colour theme: automatic">
+      <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10" cy="10" r="7"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor" stroke="none"/></svg>
+      <span id="theme-label">Auto</span>
+    </button>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+{{MAIN}}
+</main>
+<footer class="site-foot">
+  <div class="wrap foot-row">
+    <div class="foot-brand">{{MARK}}<div><b>{{NAME}}</b><p class="foot-goal">Goal: decipher the Indus script by 2027</p><p>An open research group. Nothing here is a decipherment yet.</p></div></div>
+    <section class="foot-news" id="newsletter" aria-labelledby="newsletter-h">
+      <h2 class="foot-h" id="newsletter-h">Stay up to date</h2>
+      <p class="nl-what">An occasional email when a result lands, whether it holds or fails. About one a month at most.</p>
+      <form class="nl" id="newsletter-form" novalidate>
+        <label class="nl-label" for="newsletter-email">Email address</label>
+        <div class="nl-row">
+          <input class="nl-input" id="newsletter-email" name="email" type="email" autocomplete="email" inputmode="email" spellcheck="false" required placeholder="name@example.com" aria-describedby="newsletter-status newsletter-privacy">
+          <button class="btn primary nl-btn" type="submit">Subscribe</button>
+        </div>
+        <div class="nl-hp" aria-hidden="true">
+          <label for="newsletter-website">Website</label>
+          <input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <p class="nl-status" id="newsletter-status" role="status" aria-live="polite"></p>
+        <p class="nl-privacy" id="newsletter-privacy">We store your email address and the date you signed up, and use them only to send these updates. Every email has an unsubscribe link.</p>
+      </form>
+    </section>
+    <nav class="foot-cols" aria-label="Site map">
+      <div class="foot-links"><h2 class="foot-h">Pages</h2>{{FOOT_PAGES}}</div>
+      <div class="foot-links"><h2 class="foot-h">Contribute</h2>
+        <a href="{{REPO}}">Code and data</a>
+        <a href="{{REPO}}/blob/main/CONTRIBUTING.md">How to contribute</a>
+        <a href="{{REPO}}/issues/new?template=report-error.yml">Report an error</a>
+      </div>
+      <div class="foot-links"><h2 class="foot-h">Policies</h2>
+        <a href="{{REPO}}/blob/main/CODE_OF_CONDUCT.md">Code of conduct</a>
+        <a href="{{REPO}}/blob/main/LICENSING.md">Licences and picture rights</a>
+        <a href="resources.html#font">Typeface licence (OFL)</a>
+      </div>
+    </nav>
+    <p class="foot-note">Contact: {{CONTACT}} Seal photographs are cropped from excavation reports published 1931 to 1940 (Marshall 1931, Mackay 1938, Vats 1940); their rights are set out in the licences file. Sign drawings follow Mahadevan's 1977 sign list. The carved seal at the top of the home page is an illustration, not a real object. Page built {{BUILT}}.</p>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>

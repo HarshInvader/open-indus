@@ -1,0 +1,47 @@
+name: Offer data
+description: Photographs, measurements, findspots or transcriptions that could unblock a stalled test.
+title: "Data offer: "
+labels: ["data offer"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most stalled tests toward the goal, to decipher the Indus script by 2027, are waiting on data, not on method.
+
+        - **Most wanted.** Round seals, and seals found outside the Indus region.
+        - **Nothing is published until agreed.** We agree terms of use with you first.
+        - **Do not attach the data here.** This issue is public. Describe what you hold, and we will arrange the transfer.
+  - type: input
+    id: who
+    attributes:
+      label: Who holds the data
+      description: An institution, a project, or "private collection". You can leave out your own name.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it is
+      description: Kind of material (photographs, impressions, measurements, findspots, transcriptions), how many objects, which sites.
+    validations:
+      required: true
+  - type: textarea
+    id: unblocks
+    attributes:
+      label: Which task it could help, if you know
+      description: For example a starter task (S1 to S9) or a milestone on the board.
+  - type: dropdown
+    id: terms
+    attributes:
+      label: Terms you need
+      options:
+        - It can be published openly, with credit
+        - It can be used for tests, and only the results published
+        - Terms to be discussed
+    validations:
+      required: true
+  - type: textarea
+    id: contact
+    attributes:
+      label: How a maintainer should reply
+      description: A reply in this issue is the default. If you prefer another route, say what kind; do not post a private email address here.

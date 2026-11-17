@@ -1,0 +1,540 @@
+{
+ "old_english": {
+  "relatives": [
+   "old_norse",
+   "old_high_german"
+  ],
+  "abc": {
+   "ur3": 1.0
+  },
+  "top": "ur3",
+  "top_is_relative": false,
+  "best_gof": "old_norse",
+  "gof": {
+   "old_norse": [
+    1023.6,
+    0.01
+   ],
+   "old_high_german": [
+    148.1,
+    0.01
+   ],
+   "greek": [
+    505.2,
+    0.01
+   ],
+   "sanskrit": [
+    87.7,
+    0.01
+   ],
+   "egyptian": [
+    578.4,
+    0.01
+   ],
+   "ur3": [
+    181.2,
+    0.01
+   ],
+   "chinese_given": [
+    2375.1,
+    0.01
+   ],
+   "chinese_full": [
+    1251.9,
+    0.01
+   ],
+   "plains": [
+    856.6,
+    0.01
+   ],
+   "sangam": [
+    370.3,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "old_high_german": {
+  "relatives": [
+   "old_english",
+   "old_norse"
+  ],
+  "abc": {
+   "chinese_given": 0.68,
+   "ur3": 0.32
+  },
+  "top": "chinese_given",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    212.7,
+    0.01
+   ],
+   "old_norse": [
+    214.2,
+    0.01
+   ],
+   "greek": [
+    275.7,
+    0.01
+   ],
+   "sanskrit": [
+    144.7,
+    0.01
+   ],
+   "egyptian": [
+    229.7,
+    0.01
+   ],
+   "ur3": [
+    527.1,
+    0.01
+   ],
+   "chinese_given": [
+    2508.8,
+    0.01
+   ],
+   "chinese_full": [
+    1312.0,
+    0.01
+   ],
+   "plains": [
+    1270.5,
+    0.01
+   ],
+   "sangam": [
+    90.2,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "old_norse": {
+  "relatives": [
+   "old_english",
+   "old_high_german"
+  ],
+  "abc": {
+   "old_high_german": 0.56,
+   "sanskrit": 0.26,
+   "greek": 0.18
+  },
+  "top": "old_high_german",
+  "top_is_relative": true,
+  "best_gof": "old_high_german",
+  "gof": {
+   "old_english": [
+    102.2,
+    0.01
+   ],
+   "old_high_german": [
+    13.5,
+    0.069
+   ],
+   "greek": [
+    17.2,
+    0.02
+   ],
+   "sanskrit": [
+    39.9,
+    0.01
+   ],
+   "egyptian": [
+    12.2,
+    0.049
+   ],
+   "ur3": [
+    119.4,
+    0.01
+   ],
+   "chinese_given": [
+    1912.8,
+    0.01
+   ],
+   "chinese_full": [
+    126.7,
+    0.016
+   ],
+   "plains": [
+    766.3,
+    0.01
+   ],
+   "sangam": [
+    76.1,
+    0.01
+   ]
+  },
+  "relative_fits": [
+   "old_high_german"
+  ],
+  "n_fit_005": 1
+ },
+ "chinese_full": {
+  "relatives": [
+   "chinese_given"
+  ],
+  "abc": {
+   "plains": 0.96,
+   "ur3": 0.04
+  },
+  "top": "plains",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    979.4,
+    0.01
+   ],
+   "old_norse": [
+    1736.0,
+    0.01
+   ],
+   "old_high_german": [
+    1038.5,
+    0.01
+   ],
+   "germanic_pooled": [
+    5744.8,
+    0.01
+   ],
+   "greek": [
+    1668.4,
+    0.01
+   ],
+   "sanskrit": [
+    1299.1,
+    0.01
+   ],
+   "egyptian": [
+    614.5,
+    0.01
+   ],
+   "ur3": [
+    42.4,
+    0.01
+   ],
+   "chinese_given": [
+    1108.5,
+    0.01
+   ],
+   "plains": [
+    43.1,
+    0.01
+   ],
+   "sangam": [
+    196.3,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "chinese_given": {
+  "relatives": [
+   "chinese_full"
+  ],
+  "abc": {
+   "ur3": 0.76,
+   "egyptian": 0.16,
+   "chinese_full": 0.06,
+   "plains": 0.02
+  },
+  "top": "ur3",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    310.6,
+    0.01
+   ],
+   "old_norse": [
+    791.4,
+    0.01
+   ],
+   "old_high_german": [
+    797.8,
+    0.01
+   ],
+   "germanic_pooled": [
+    529.9,
+    0.01
+   ],
+   "greek": [
+    1038.7,
+    0.01
+   ],
+   "sanskrit": [
+    485.0,
+    0.01
+   ],
+   "egyptian": [
+    781.7,
+    0.01
+   ],
+   "ur3": [
+    22.7,
+    0.01
+   ],
+   "chinese_full": [
+    30.8,
+    0.01
+   ],
+   "plains": [
+    122.1,
+    0.01
+   ],
+   "sangam": [
+    559.2,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "sanskrit": {
+  "relatives": [],
+  "abc": {
+   "old_english": 0.38,
+   "ur3": 0.38,
+   "sangam": 0.16,
+   "old_high_german": 0.06,
+   "egyptian": 0.02
+  },
+  "top": "old_english",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    115.7,
+    0.01
+   ],
+   "old_norse": [
+    263.4,
+    0.01
+   ],
+   "old_high_german": [
+    67.2,
+    0.01
+   ],
+   "germanic_pooled": [
+    358.2,
+    0.01
+   ],
+   "greek": [
+    199.5,
+    0.01
+   ],
+   "egyptian": [
+    99.1,
+    0.01
+   ],
+   "ur3": [
+    457.6,
+    0.01
+   ],
+   "chinese_given": [
+    4848.0,
+    0.01
+   ],
+   "chinese_full": [
+    584.0,
+    0.01
+   ],
+   "plains": [
+    2484.6,
+    0.01
+   ],
+   "sangam": [
+    44.9,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "sangam": {
+  "relatives": [
+   "sanskrit"
+  ],
+  "abc": {
+   "old_english": 0.46,
+   "sanskrit": 0.38,
+   "old_high_german": 0.16
+  },
+  "top": "old_english",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    48.5,
+    0.01
+   ],
+   "old_norse": [
+    188.6,
+    0.01
+   ],
+   "old_high_german": [
+    105.4,
+    0.01
+   ],
+   "germanic_pooled": [
+    240.9,
+    0.01
+   ],
+   "greek": [
+    142.2,
+    0.01
+   ],
+   "sanskrit": [
+    67.6,
+    0.01
+   ],
+   "egyptian": [
+    122.4,
+    0.01
+   ],
+   "ur3": [
+    142.0,
+    0.01
+   ],
+   "chinese_given": [
+    1437.9,
+    0.01
+   ],
+   "chinese_full": [
+    300.7,
+    0.01
+   ],
+   "plains": [
+    585.6,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "greek": {
+  "relatives": [],
+  "abc": {
+   "ur3": 0.54,
+   "old_english": 0.12,
+   "sanskrit": 0.12,
+   "old_norse": 0.08,
+   "germanic_pooled": 0.06,
+   "old_high_german": 0.06,
+   "egyptian": 0.02
+  },
+  "top": "ur3",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    293.1,
+    0.01
+   ],
+   "old_norse": [
+    246.2,
+    0.01
+   ],
+   "old_high_german": [
+    78.8,
+    0.01
+   ],
+   "germanic_pooled": [
+    933.2,
+    0.01
+   ],
+   "sanskrit": [
+    161.0,
+    0.01
+   ],
+   "egyptian": [
+    355.3,
+    0.01
+   ],
+   "ur3": [
+    1032.5,
+    0.01
+   ],
+   "chinese_given": [
+    8824.9,
+    0.01
+   ],
+   "chinese_full": [
+    1650.8,
+    0.01
+   ],
+   "plains": [
+    4287.3,
+    0.01
+   ],
+   "sangam": [
+    189.4,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ },
+ "ur3": {
+  "relatives": [],
+  "abc": {
+   "chinese_full": 0.7,
+   "plains": 0.3
+  },
+  "top": "chinese_full",
+  "top_is_relative": false,
+  "best_gof": "old_english",
+  "gof": {
+   "old_english": [
+    578.1,
+    0.01
+   ],
+   "old_norse": [
+    1367.6,
+    0.01
+   ],
+   "old_high_german": [
+    721.1,
+    0.01
+   ],
+   "germanic_pooled": [
+    3293.7,
+    0.01
+   ],
+   "greek": [
+    1336.6,
+    0.01
+   ],
+   "sanskrit": [
+    788.6,
+    0.01
+   ],
+   "egyptian": [
+    429.8,
+    0.01
+   ],
+   "chinese_given": [
+    1024.3,
+    0.01
+   ],
+   "chinese_full": [
+    44.7,
+    0.01
+   ],
+   "plains": [
+    78.5,
+    0.01
+   ],
+   "sangam": [
+    137.7,
+    0.01
+   ]
+  },
+  "relative_fits": [],
+  "n_fit_005": 0
+ }
+}

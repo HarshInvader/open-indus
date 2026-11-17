@@ -1,0 +1,701 @@
+{
+ "dev:ur3": {
+  "base": {
+   "CLOSER": [
+    "FATHER",
+    1.1370439258518712
+   ],
+   "CONN": [
+    "KIN",
+    0.5024581430447053
+   ],
+   "CORE": [
+    "TITLE",
+    2.315726933484417
+   ],
+   "OPEN": [
+    "OWNER",
+    0.9839412314244828
+   ],
+   "POST": [
+    "SERV",
+    0.8343857577120387
+   ],
+   "TITLE": [
+    "LORD",
+    0.9333234044930218
+   ]
+  },
+  "lofo_survival": {
+   "CLOSER": 0.8,
+   "CONN": 1.0,
+   "CORE": 0.8,
+   "OPEN": 0.6,
+   "POST": 0.9333333333333333,
+   "TITLE": 0.6
+  },
+  "lofo_breakers": {
+   "CLOSER": [
+    "occ",
+    "pos",
+    "last"
+   ],
+   "CONN": [],
+   "CORE": [
+    "pos",
+    "last",
+    "recur"
+   ],
+   "OPEN": [
+    "pos",
+    "last",
+    "len",
+    "recur",
+    "share",
+    "maxlift"
+   ],
+   "POST": [
+    "occ"
+   ],
+   "TITLE": [
+    "pos",
+    "last",
+    "len",
+    "recur",
+    "share",
+    "maxlift"
+   ]
+  },
+  "positionfree_nearest": {
+   "CLOSER": [
+    [
+     "TITLE",
+     0.969
+    ],
+    [
+     "KIN",
+     1.043
+    ],
+    [
+     "SERV",
+     1.066
+    ]
+   ],
+   "CONN": [
+    [
+     "KIN",
+     0.521
+    ],
+    [
+     "SERV",
+     0.776
+    ],
+    [
+     "LORD",
+     1.099
+    ]
+   ],
+   "CORE": [
+    [
+     "TITLE",
+     2.546
+    ],
+    [
+     "OWNER",
+     2.787
+    ],
+    [
+     "FATHER",
+     3.057
+    ]
+   ],
+   "OPEN": [
+    [
+     "LORD",
+     0.84
+    ],
+    [
+     "SERV",
+     0.882
+    ],
+    [
+     "TITLE",
+     0.987
+    ]
+   ],
+   "POST": [
+    [
+     "LORD",
+     0.886
+    ],
+    [
+     "SERV",
+     0.921
+    ],
+    [
+     "KIN",
+     1.045
+    ]
+   ],
+   "TITLE": [
+    [
+     "LORD",
+     0.841
+    ],
+    [
+     "FATHER",
+     0.937
+    ],
+    [
+     "SERV",
+     1.02
+    ]
+   ]
+  }
+ },
+ "dev:ob": {
+  "base": {
+   "CLOSER": [
+    "LORD",
+    1.0648262422454546
+   ],
+   "CONN": [
+    "KIN",
+    0.6411549407370488
+   ],
+   "CORE": [
+    "OWNER",
+    1.8355278788338298
+   ],
+   "OPEN": [
+    "SEAL_OF",
+    1.0419207803906172
+   ],
+   "POST": [
+    "EPITHET",
+    0.7798468079179939
+   ],
+   "TITLE": [
+    "TITLE",
+    0.7820846430271055
+   ]
+  },
+  "lofo_survival": {
+   "CLOSER": 0.9333333333333333,
+   "CONN": 1.0,
+   "CORE": 1.0,
+   "OPEN": 1.0,
+   "POST": 1.0,
+   "TITLE": 0.9333333333333333
+  },
+  "lofo_breakers": {
+   "CLOSER": [
+    "last"
+   ],
+   "CONN": [],
+   "CORE": [],
+   "OPEN": [],
+   "POST": [],
+   "TITLE": [
+    "top1"
+   ]
+  },
+  "positionfree_nearest": {
+   "CLOSER": [
+    [
+     "SEAL_OF",
+     1.02
+    ],
+    [
+     "SERV",
+     1.096
+    ],
+    [
+     "LORD",
+     1.19
+    ]
+   ],
+   "CONN": [
+    [
+     "KIN",
+     0.717
+    ],
+    [
+     "SERV",
+     0.804
+    ],
+    [
+     "CONJ",
+     1.168
+    ]
+   ],
+   "CORE": [
+    [
+     "OWNER",
+     2.035
+    ],
+    [
+     "LORD",
+     2.766
+    ],
+    [
+     "TITLE",
+     2.969
+    ]
+   ],
+   "OPEN": [
+    [
+     "LORD",
+     0.918
+    ],
+    [
+     "TITLE",
+     0.972
+    ],
+    [
+     "EPITHET",
+     0.975
+    ]
+   ],
+   "POST": [
+    [
+     "EPITHET",
+     0.823
+    ],
+    [
+     "SERV",
+     0.888
+    ],
+    [
+     "SEAL_OF",
+     0.984
+    ]
+   ],
+   "TITLE": [
+    [
+     "EPITHET",
+     0.681
+    ],
+    [
+     "TITLE",
+     0.826
+    ],
+    [
+     "LORD",
+     0.889
+    ]
+   ]
+  }
+ },
+ "heldout:ur3": {
+  "base": {
+   "CLOSER": [
+    "TITLE",
+    0.8749588301137721
+   ],
+   "CONN": [
+    "KIN",
+    0.7306631556075013
+   ],
+   "CORE": [
+    "OWNER",
+    2.814095960765693
+   ],
+   "OPEN": [
+    "LORD",
+    0.8632156595023579
+   ],
+   "POST": [
+    "SERV",
+    0.8480229011443622
+   ],
+   "TITLE": [
+    "FATHER",
+    1.0699552834184227
+   ]
+  },
+  "lofo_survival": {
+   "CLOSER": 0.4666666666666667,
+   "CONN": 1.0,
+   "CORE": 0.5333333333333333,
+   "OPEN": 0.5333333333333333,
+   "POST": 0.9333333333333333,
+   "TITLE": 0.3333333333333333
+  },
+  "lofo_breakers": {
+   "CLOSER": [
+    "occ",
+    "first",
+    "ttr100",
+    "top1",
+    "H100",
+    "short_ret",
+    "recur",
+    "alone"
+   ],
+   "CONN": [],
+   "CORE": [
+    "occ",
+    "first",
+    "ttr100",
+    "top1",
+    "H100",
+    "short_ret",
+    "alone"
+   ],
+   "OPEN": [
+    "occ",
+    "first",
+    "ttr100",
+    "top1",
+    "H100",
+    "short_ret",
+    "alone"
+   ],
+   "POST": [
+    "occ"
+   ],
+   "TITLE": [
+    "occ",
+    "first",
+    "len",
+    "ttr100",
+    "top1",
+    "H100",
+    "short_ret",
+    "recur",
+    "alone",
+    "maxlift"
+   ]
+  },
+  "positionfree_nearest": {
+   "CLOSER": [
+    [
+     "TITLE",
+     0.763
+    ],
+    [
+     "KIN",
+     0.984
+    ],
+    [
+     "LORD",
+     1.097
+    ]
+   ],
+   "CONN": [
+    [
+     "KIN",
+     0.79
+    ],
+    [
+     "SERV",
+     0.961
+    ],
+    [
+     "LORD",
+     1.176
+    ]
+   ],
+   "CORE": [
+    [
+     "TITLE",
+     2.863
+    ],
+    [
+     "OWNER",
+     3.102
+    ],
+    [
+     "EPITHET",
+     3.37
+    ]
+   ],
+   "OPEN": [
+    [
+     "TITLE",
+     0.829
+    ],
+    [
+     "LORD",
+     0.912
+    ],
+    [
+     "SERV",
+     1.044
+    ]
+   ],
+   "POST": [
+    [
+     "LORD",
+     0.87
+    ],
+    [
+     "SERV",
+     0.948
+    ],
+    [
+     "KIN",
+     0.994
+    ]
+   ],
+   "TITLE": [
+    [
+     "LORD",
+     0.835
+    ],
+    [
+     "FATHER",
+     0.96
+    ],
+    [
+     "SERV",
+     1.053
+    ]
+   ]
+  }
+ },
+ "heldout:ob": {
+  "base": {
+   "CLOSER": [
+    "LORD",
+    0.9817227350486558
+   ],
+   "CONN": [
+    "KIN",
+    0.663098829805654
+   ],
+   "CORE": [
+    "OWNER",
+    2.0756563684513547
+   ],
+   "OPEN": [
+    "SEAL_OF",
+    1.1631624048989635
+   ],
+   "POST": [
+    "SERV",
+    1.0116662380856993
+   ],
+   "TITLE": [
+    "TITLE",
+    0.7057366362744071
+   ]
+  },
+  "lofo_survival": {
+   "CLOSER": 1.0,
+   "CONN": 1.0,
+   "CORE": 1.0,
+   "OPEN": 1.0,
+   "POST": 1.0,
+   "TITLE": 1.0
+  },
+  "lofo_breakers": {
+   "CLOSER": [],
+   "CONN": [],
+   "CORE": [],
+   "OPEN": [],
+   "POST": [],
+   "TITLE": []
+  },
+  "positionfree_nearest": {
+   "CLOSER": [
+    [
+     "LORD",
+     1.097
+    ],
+    [
+     "SEAL_OF",
+     1.102
+    ],
+    [
+     "SERV",
+     1.125
+    ]
+   ],
+   "CONN": [
+    [
+     "KIN",
+     0.741
+    ],
+    [
+     "SERV",
+     0.984
+    ],
+    [
+     "SEAL_OF",
+     1.418
+    ]
+   ],
+   "CORE": [
+    [
+     "OWNER",
+     2.304
+    ],
+    [
+     "LORD",
+     3.027
+    ],
+    [
+     "TITLE",
+     3.304
+    ]
+   ],
+   "OPEN": [
+    [
+     "LORD",
+     0.853
+    ],
+    [
+     "TITLE",
+     1.001
+    ],
+    [
+     "SERV",
+     1.122
+    ]
+   ],
+   "POST": [
+    [
+     "SERV",
+     0.896
+    ],
+    [
+     "SEAL_OF",
+     0.929
+    ],
+    [
+     "TITLE",
+     0.953
+    ]
+   ],
+   "TITLE": [
+    [
+     "TITLE",
+     0.735
+    ],
+    [
+     "LORD",
+     0.861
+    ],
+    [
+     "SERV",
+     1.009
+    ]
+   ]
+  }
+ },
+ "short_texts": {
+  "indus_all": {
+   "share_of_texts_short": 0.376,
+   "slots": {
+    "TITLE": {
+     "in_short": 0.042,
+     "overall": 0.265
+    },
+    "OPEN": {
+     "in_short": 0.104,
+     "overall": 0.405
+    },
+    "POST": {
+     "in_short": 0.036,
+     "overall": 0.103
+    },
+    "CORE": {
+     "in_short": 0.935,
+     "overall": 0.961
+    },
+    "CLOSER": {
+     "in_short": 0.532,
+     "overall": 0.725
+    },
+    "CONN": {
+     "in_short": 0.0,
+     "overall": 0.357
+    }
+   }
+  },
+  "ur3": {
+   "share_of_texts_short": 0.072,
+   "slots": {
+    "OWNER": {
+     "in_short": 0.944,
+     "overall": 0.995
+    },
+    "FATHER": {
+     "in_short": 0.0,
+     "overall": 0.817
+    },
+    "KIN": {
+     "in_short": 0.0,
+     "overall": 0.818
+    },
+    "LORD": {
+     "in_short": 0.074,
+     "overall": 0.146
+    },
+    "SERV": {
+     "in_short": 0.003,
+     "overall": 0.185
+    },
+    "CONJ": {
+     "in_short": 0.0,
+     "overall": 0.002
+    },
+    "EPITHET": {
+     "in_short": 0.043,
+     "overall": 0.095
+    },
+    "TITLE": {
+     "in_short": 0.723,
+     "overall": 0.734
+    },
+    "SEAL_OF": {
+     "in_short": 0.0,
+     "overall": 0.0
+    }
+   }
+  },
+  "ob": {
+   "share_of_texts_short": 0.296,
+   "slots": {
+    "OWNER": {
+     "in_short": 0.976,
+     "overall": 0.989
+    },
+    "FATHER": {
+     "in_short": 0.0,
+     "overall": 0.641
+    },
+    "KIN": {
+     "in_short": 0.0,
+     "overall": 0.641
+    },
+    "LORD": {
+     "in_short": 0.04,
+     "overall": 0.461
+    },
+    "SERV": {
+     "in_short": 0.0,
+     "overall": 0.451
+    },
+    "CONJ": {
+     "in_short": 0.0,
+     "overall": 0.046
+    },
+    "EPITHET": {
+     "in_short": 0.021,
+     "overall": 0.058
+    },
+    "TITLE": {
+     "in_short": 0.066,
+     "overall": 0.184
+    },
+    "SEAL_OF": {
+     "in_short": 0.657,
+     "overall": 0.207
+    }
+   }
+  }
+ }
+}

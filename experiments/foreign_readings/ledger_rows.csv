@@ -1,0 +1,2 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+fc_order1b,Foreign Indus texts break Indus sign order more often than native seals (deduplicated re-run of fc_order1),foreign_corpus,experiments/foreign_readings/RESULTS.md,9/38 flagged vs 1.9 expected,8.5e-05,computed,,38 objects,yes,none (all foreign),confirmatory,foreign_corpus:order,1,no,,,,,,supersedes fc_order1 (10/39 counted Gadd 18 twice and included pictorial Gadd 12 merge)

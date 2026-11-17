@@ -1,0 +1,307 @@
+{
+ "area": "protocuneiform",
+ "date": "2026-11-15",
+ "verdict": {
+  "H1_commodity_after_numeral": {
+   "dev_p": 0.7283271672832716,
+   "dev_holm": 1.0,
+   "heldout_p": 0.4487551244875512,
+   "icit_p": 0.6061393860613938,
+   "supported": false
+  },
+  "H2_office_end_slot": {
+   "dev_p": 0.04144559014916408,
+   "dev_holm": 0.2072279507458204,
+   "heldout_p": 0.38292066700353716,
+   "icit_p": 0.01248992747784045,
+   "supported": false
+  },
+  "H3_pc_counted_rate_vs_AN": {
+   "dev_p": 0.7609239076092391,
+   "dev_holm": 1.0,
+   "heldout_p": 0.11508849115088492,
+   "icit_p": 0.5834416558344165,
+   "supported": false
+  },
+  "H4_pe_counted_rate_vs_AN": {
+   "dev_p": 0.15148485151484853,
+   "dev_holm": 0.5075492450754925,
+   "heldout_p": 0.9302069793020697,
+   "icit_p": 0.23737626237376264,
+   "supported": false
+  },
+  "H5_pe_header_vs_INIT": {
+   "dev_p": 0.12688731126887312,
+   "dev_holm": 0.5075492450754925,
+   "heldout_p": 0.21597840215978403,
+   "icit_p": 0.1136886311368863,
+   "supported": false
+  }
+ },
+ "power_dev": {
+  "H1_f0.3": 0.115,
+  "H1_f0.6": 0.4,
+  "H1_f1.0": 0.935,
+  "rho_r0.3": 0.43,
+  "rho_r0.5": 0.92
+ },
+ "n_supported": 0,
+ "confirmatory": {
+  "dev": {
+   "H1_commodity_after_numeral": {
+    "n": 60,
+    "n_pos": 13,
+    "mean_pos": 0.11416361416361417,
+    "mean_neg": 0.15374804291220284,
+    "stat": -0.03958442874858867,
+    "p_labelperm": 0.7283271672832716,
+    "p_randompair": 0.7193280671932807
+   },
+   "H2_office_end_slot": {
+    "n": 60,
+    "n_pos": 5,
+    "mean_pos": 0.6550284629981025,
+    "mean_neg": 0.4080035490492418,
+    "stat": 0.24702491394886067,
+    "p_labelperm": 0.04144559014916408,
+    "p_randompair": 0.03260652130426085
+   },
+   "H3_pc_counted_rate_vs_AN": {
+    "n": 60,
+    "rho": -0.09553476787079429,
+    "p_labelperm": 0.7609239076092391,
+    "p_randompair": 0.7636236376362364
+   },
+   "H4_pe_counted_rate_vs_AN": {
+    "n": 54,
+    "rho": 0.13314756810670034,
+    "p_labelperm": 0.15148485151484853,
+    "p_randompair": 0.1688831116888311
+   },
+   "H5_pe_header_vs_INIT": {
+    "n": 54,
+    "rho": 0.1502565112475921,
+    "p_labelperm": 0.12688731126887312,
+    "p_randompair": 0.14188581141885812
+   }
+  },
+  "heldout": {
+   "H1_commodity_after_numeral": {
+    "n": 42,
+    "n_pos": 10,
+    "mean_pos": 0.11111111111111112,
+    "mean_neg": 0.10906892331524684,
+    "stat": 0.002042187795864278,
+    "p_labelperm": 0.4487551244875512,
+    "p_randompair": 0.45335466453354667
+   },
+   "H2_office_end_slot": {
+    "n": 42,
+    "n_pos": 3,
+    "mean_pos": 0.5050505050505051,
+    "mean_neg": 0.4685914805824308,
+    "stat": 0.03645902446807431,
+    "p_labelperm": 0.38292066700353716,
+    "p_randompair": 0.3695106019495528
+   },
+   "H3_pc_counted_rate_vs_AN": {
+    "n": 42,
+    "rho": 0.18740375293319905,
+    "p_labelperm": 0.11508849115088492,
+    "p_randompair": 0.10988901109889011
+   },
+   "H4_pe_counted_rate_vs_AN": {
+    "n": 44,
+    "rho": -0.21884794174580505,
+    "p_labelperm": 0.9302069793020697,
+    "p_randompair": 0.9192080791920808
+   },
+   "H5_pe_header_vs_INIT": {
+    "n": 44,
+    "rho": 0.12351447177893728,
+    "p_labelperm": 0.21597840215978403,
+    "p_randompair": 0.2141785821417858
+   }
+  },
+  "icit": {
+   "H1_commodity_after_numeral": {
+    "n": 42,
+    "n_pos": 8,
+    "mean_pos": 0.11449751091605025,
+    "mean_neg": 0.13440676092807738,
+    "stat": -0.019909250012027133,
+    "p_labelperm": 0.6061393860613938,
+    "p_randompair": 0.6124
+   },
+   "H2_office_end_slot": {
+    "n": 42,
+    "n_pos": 4,
+    "mean_pos": 0.6832242104300927,
+    "mean_neg": 0.3384319345343954,
+    "stat": 0.34479227589569733,
+    "p_labelperm": 0.01248992747784045,
+    "p_randompair": 0.006933976484775399
+   },
+   "H3_pc_counted_rate_vs_AN": {
+    "n": 42,
+    "rho": -0.03906514154512726,
+    "p_labelperm": 0.5834416558344165,
+    "p_randompair": 0.5897410258974103
+   },
+   "H4_pe_counted_rate_vs_AN": {
+    "n": 43,
+    "rho": 0.10947915660267715,
+    "p_labelperm": 0.23737626237376264,
+    "p_randompair": 0.23927607239276072
+   },
+   "H5_pe_header_vs_INIT": {
+    "n": 43,
+    "rho": 0.18824938212982256,
+    "p_labelperm": 0.1136886311368863,
+    "p_randompair": 0.11348865113488651
+   }
+  }
+ },
+ "exploratory_fullpool": {
+  "fullpool_dev": {
+   "H1_commodity_after_numeral": {
+    "n": 174,
+    "n_pos": 46,
+    "mean_pos": 0.08790898889482406,
+    "mean_neg": 0.1207841905312871,
+    "stat": -0.03287520163646304,
+    "p_labelperm": 0.8702129787021298,
+    "p_randompair": 0.8746125387461254
+   },
+   "H2_office_end_slot": {
+    "n": 174,
+    "n_pos": 25,
+    "mean_pos": 0.5720900141657296,
+    "mean_neg": 0.423283768234755,
+    "stat": 0.14880624593097458,
+    "p_labelperm": 0.023297670232976703,
+    "p_randompair": 0.018698130186981302
+   },
+   "H3_pc_counted_rate_vs_AN": {
+    "n": 174,
+    "rho": -0.09297580838223342,
+    "p_labelperm": 0.8784121587841216,
+    "p_randompair": 0.887011298870113
+   },
+   "H4_pe_counted_rate_vs_AN": {
+    "n": 174,
+    "rho": 0.058245521737351216,
+    "p_labelperm": 0.19988001199880012,
+    "p_randompair": 0.22107789221077892
+   },
+   "H5_pe_header_vs_INIT": {
+    "n": 174,
+    "rho": 0.13355984084657346,
+    "p_labelperm": 0.043995600439956005,
+    "p_randompair": 0.037196280371962806
+   }
+  },
+  "fullpool_heldout": {
+   "H1_commodity_after_numeral": {
+    "n": 135,
+    "n_pos": 35,
+    "mean_pos": 0.09203550396407538,
+    "mean_neg": 0.10609319165396715,
+    "stat": -0.014057687689891768,
+    "p_labelperm": 0.6884311568843116,
+    "p_randompair": 0.6688331166883311
+   },
+   "H2_office_end_slot": {
+    "n": 135,
+    "n_pos": 19,
+    "mean_pos": 0.45927485106842797,
+    "mean_neg": 0.46940364443158683,
+    "stat": -0.010128793363158861,
+    "p_labelperm": 0.5467453254674532,
+    "p_randompair": 0.5592440755924407
+   },
+   "H3_pc_counted_rate_vs_AN": {
+    "n": 135,
+    "rho": 0.0553456480302659,
+    "p_labelperm": 0.24117588241175883,
+    "p_randompair": 0.26207379262073793
+   },
+   "H4_pe_counted_rate_vs_AN": {
+    "n": 135,
+    "rho": -0.07209351931305233,
+    "p_labelperm": 0.8326167383261673,
+    "p_randompair": 0.7998200179982001
+   },
+   "H5_pe_header_vs_INIT": {
+    "n": 135,
+    "rho": -0.011182370663133987,
+    "p_labelperm": 0.547945205479452,
+    "p_randompair": 0.5487451254874512
+   }
+  },
+  "fullpool_icit": {
+   "H1_commodity_after_numeral": {
+    "n": 128,
+    "n_pos": 34,
+    "mean_pos": 0.09611978901437404,
+    "mean_neg": 0.12268034724720198,
+    "stat": -0.026560558232827935,
+    "p_labelperm": 0.8372162783721628,
+    "p_randompair": 0.8333166683331666
+   },
+   "H2_office_end_slot": {
+    "n": 128,
+    "n_pos": 18,
+    "mean_pos": 0.5366389293072079,
+    "mean_neg": 0.4208315106475814,
+    "stat": 0.11580741865962652,
+    "p_labelperm": 0.07789221077892211,
+    "p_randompair": 0.06429357064293571
+   },
+   "H3_pc_counted_rate_vs_AN": {
+    "n": 128,
+    "rho": -0.0905331288237793,
+    "p_labelperm": 0.8324167583241676,
+    "p_randompair": 0.8445155484451555
+   },
+   "H4_pe_counted_rate_vs_AN": {
+    "n": 128,
+    "rho": 0.031105106902775286,
+    "p_labelperm": 0.34926507349265073,
+    "p_randompair": 0.36746325367463256
+   },
+   "H5_pe_header_vs_INIT": {
+    "n": 128,
+    "rho": 0.1632301039044745,
+    "p_labelperm": 0.039396060393960604,
+    "p_randompair": 0.036396360363963605
+   }
+  }
+ },
+ "shape_control": {
+  "pc": {
+   "n_signs_with_variants": 64,
+   "nearest_is_same_base": 30,
+   "chance_expected": 0.31
+  },
+  "median_nearest_indus_to_pc": 3.3499245643615723,
+  "median_nearest_indus_to_pe": 3.714873790740967,
+  "median_nearest_indus_to_indus_upright": 2.472121000289917,
+  "median_gap_best_vs_10th_pc": 0.9915927648544312
+ },
+ "corpora": {
+  "pc_texts": 4965,
+  "pc_lines": 28967,
+  "pe_texts": 1443,
+  "pe_lines": 10297,
+  "pc_pool": 274,
+  "pe_pool": 120,
+  "indus_pool": 196,
+  "lookalike_sets": 66
+ },
+ "tests_run": {
+  "confirmatory": 15,
+  "exploratory": 34,
+  "power_sims": 5
+ }
+}

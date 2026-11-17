@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Open Indus Display</title>
+<style>
+@font-face { font-family: "Open Indus Display"; src: url("OpenIndus-Regular.woff2") format("woff2"); font-weight: 400; font-display: block; }
+@font-face { font-family: "Open Indus Text"; src: url("OpenIndusText-Regular.woff2") format("woff2"); font-weight: 400; font-display: block; }
+@font-face { font-family: "Open Indus Text"; src: url("OpenIndusText-Bold.woff2") format("woff2"); font-weight: 700; font-display: block; }
+@font-face { font-family: "Instrument Sans Reference"; src: url("raw/instrumentsans/InstrumentSans-VF.ttf") format("truetype"); font-weight: 400 700; font-stretch: 75% 100%; font-display: block; }
+@font-face { font-family: "Open Indus Display"; src: url("OpenIndus-Bold.woff2") format("woff2"); font-weight: 700; font-display: block; }
+:root { --bg: #f6f3ec; --ink: #1d1b17; --muted: #6f695e; --rule: #ddd6c8; --accent: #2f3a8f; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #15140f; --ink: #ece7dc; --muted: #9a9384; --rule: #34312a; --accent: #a9b2ff; } }
+:root[data-theme="dark"] { --bg: #15140f; --ink: #ece7dc; --muted: #9a9384; --rule: #34312a; --accent: #a9b2ff; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+main { max-width: 1100px; margin: 0 auto; padding: 40px 16px 64px; }
+.d { font-family: "Open Indus Display", sans-serif; font-weight: 400; line-height: 1.15; }
+.t { font-family: "Open Indus Text", sans-serif; font-weight: 400; line-height: 1.15; }
+.b { font-weight: 700; }
+.cmp { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; align-items: start; margin-bottom: 4px; }
+.cmp .h { font-size: 12px; color: var(--muted); margin: 0 0 4px; }
+.cmp .words { display: flex; flex-wrap: wrap; gap: 0.15em 0.7em; line-height: 1.2; }
+.ref { font-family: "Instrument Sans Reference", sans-serif; font-variation-settings: "wght" 400, "wdth" 100; }
+.ref.b { font-variation-settings: "wght" 650, "wdth" 100; }
+/* Size-based tracking, the same two rules as the site's CSS. */
+.d, .t, .ref { letter-spacing: clamp(-0.012em, calc(0.94px - 0.0214em), 0.05em); }
+.d.caps, .t.caps { letter-spacing: clamp(0.02em, 1.4px, 0.04em); }
+.grid span { letter-spacing: 0; }
+.ls { display: block; font: 11px/1.3 -apple-system, BlinkMacSystemFont, sans-serif; color: var(--muted); margin: 2px 0 10px; letter-spacing: 0; }
+.p14 { font-size: 14px; line-height: 1.5; max-width: 46em; margin: 0 0 4px; }
+section { border-top: 1px solid var(--rule); padding: 22px 0 26px; }
+.label { color: var(--muted); font-size: 13px; margin: 0 0 10px; }
+h1.label { font-size: 13px; font-weight: 600; color: var(--ink); }
+.huge { font-size: 132px; }
+.p28 { font-size: 28px; line-height: 1.4; max-width: 34em; margin: 0 0 18px; }
+.p20 { font-size: 20px; line-height: 1.45; max-width: 38em; margin: 0 0 12px; }
+.p18 { font-size: 18px; line-height: 1.55; max-width: 40em; margin: 0 0 12px; }
+.p16 { font-size: 16px; line-height: 1.55; max-width: 42em; margin: 0 0 12px; }
+.xl { font-size: 64px; }
+.l { font-size: 56px; }
+.m { font-size: 36px; }
+.s { font-size: 24px; }
+.grid { display: flex; flex-wrap: wrap; gap: 6px; }
+.grid span { display: inline-flex; flex-direction: column; align-items: center; justify-content: flex-end; width: 74px; height: 100px; border: 1px solid var(--rule); border-radius: 6px; font-size: 52px; padding-bottom: 6px; }
+.grid span i { font: 11px/1 -apple-system, BlinkMacSystemFont, sans-serif; color: var(--muted); font-style: normal; margin-top: 6px; }
+.header { display: flex; align-items: center; gap: 24px; padding: 14px 16px; border: 1px solid var(--rule); border-radius: 8px; }
+.header nav { margin-left: auto; display: flex; gap: 18px; font-size: 14px; color: var(--muted); }
+.check { font-size: 13px; color: var(--muted); }
+.row2 { display: flex; flex-wrap: wrap; gap: 40px; }
+</style>
+</head>
+<body>
+<main>
+<h1 class="label">Open Indus Display and Open Indus Text, v0.7 direction study. Display: titles, wordmark, all caps. Text: sentences and interface labels.</h1>
+<p class="check" id="check">Checking font load…</p>
+
+<section>
+  <p class="label">Mixed case, 132px</p>
+  <div class="d huge">Open Indus</div>
+  <div class="d huge">Read Indus</div>
+</section>
+
+<section>
+  <p class="label">Mixed-case words: Display (left, our drawn capitals and figures) vs Text (right, Instrument Sans capitals and figures), 18px, 24px and 64px</p>
+  <div id="cmp"></div>
+</section>
+
+<section>
+  <p class="label">Headline, 64px regular and bold (Display)</p>
+  <div class="d xl">Decipher the Indus script by 2027</div>
+  <div class="d xl b">Decipher the Indus script by 2027</div>
+</section>
+
+<section>
+  <p class="label">At header size: wordmark in Display 24px, nav in Text 14px, lines in Text 24px</p>
+  <div class="header"><span class="d s">Open Indus</span><nav class="t"><span>Overview</span><span>Findings</span><span>Tracker</span><span>Contribute</span></nav></div>
+  <p class="t s" style="margin-top:14px">Decipher the Indus script by 2027</p>
+  <p class="t s">Sphinx of black quartz, judge my vow. (417 signs; 4,000 seals!)</p>
+</section>
+
+<section>
+  <p class="label">Paragraph in Text: 28px, 18px, 16px and 14px regular, 18px and 14px bold, 14px caption</p>
+  <p class="t p28">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="t p18">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="t p16">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="t p14">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="t p18 b">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found.</p>
+  <p class="t p14 b">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found.</p>
+  <p class="t p14">Caption: Seal M-1186, Mohenjo-daro, steatite, 2.6 × 2.6 cm. Signs read right to left; 5 signs, 1 field symbol.</p>
+</section>
+
+<section>
+  <p class="label">Comparison: the same paragraph in plain Instrument Sans (wght 400, wdth 100, no extra font spacing), same tracking rule, 28px, 18px, 16px and 14px</p>
+  <p class="ref p28">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="ref p18">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="ref p16">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+  <p class="ref p14">About four thousand inscribed objects survive from the Indus cities. Most texts are five signs long, and no bilingual has been found. We test every proposed reading against chance, in the open. If a key cannot beat noise, we say so and move on.</p>
+</section>
+
+<section>
+  <p class="label">Borrowed symbols and accented letters, 28px (Text)</p>
+  <p class="t p28">87% · 2 + 2 × 3 ≈ 8 → a_b · team@openindus #42 · “quoted” ‘text’ — and… € £ © ° [x] {y} &lt;z&gt;</p>
+  <p class="t p28">Mohenjo-daro, Dholavīra, Kālībangan? Café, naïve, façade, Ångström, Émile, Über, Ñandú, São Paulo, Āryan, Ṛgveda, Śiva, Hṛdaya, ṣaṭ, Ṭhakur, maṇḍala, Śaṅkara, œuvre, Straße</p>
+</section>
+
+<section>
+  <p class="label">Pangrams, 56px and 36px (Text)</p>
+  <div class="t l">The quick brown fox jumps over the lazy dog.</div>
+  <div class="t m" style="margin-top:10px">Pack my box with five dozen liquor jugs!</div>
+  <div class="t m b">Pack my box with five dozen liquor jugs!</div>
+</section>
+
+<section>
+  <p class="label">All caps in Display, unchanged: 132px, 56px, 36px, 24px</p>
+  <div class="d caps huge">OPEN INDUS</div>
+  <div class="d caps l">DECIPHER THE INDUS SCRIPT BY 2027</div>
+  <div class="d caps m">SPHINX OF BLACK QUARTZ, JUDGE MY VOW.</div>
+  <div class="d caps s">SPHINX OF BLACK QUARTZ, JUDGE MY VOW. HI IN NIH</div>
+</section>
+
+<section>
+  <p class="label">Digits, punctuation and confusable pairs: Display, then Text</p>
+  <div class="d l">0123456789 . , : ; ! ? - – ' " &amp; / ( )</div>
+  <div class="t l">0123456789 . , : ; ! ? - – ' " &amp; / ( )</div>
+  <div class="d m" style="margin-top:10px">ao nh uv il1I rn m ce 0O · Ill1 · minimum · Illinois 1011</div>
+  <div class="t m">ao nh uv il1I rn m ce 0O · Ill1 · minimum · Illinois 1011</div>
+  <div class="d m">Taxonomy, Wavy, Yoke, Fry. "Is it a script?" – 2,600 BCE</div>
+  <div class="t m">Taxonomy, Wavy, Yoke, Fry. "Is it a script?" – 2,600 BCE</div>
+</section>
+
+<section>
+  <p class="label">Display figures (tabular) at 132px, 64px and 24px, regular then bold; 0 vs O and I l 1</p>
+  <div class="d huge">2027 4,000 <span class="b">2027</span></div>
+  <div class="d xl">0123456789 1931-1940 <span class="b">4,000</span></div>
+  <div class="d xl b">0123456789 1931-1940</div>
+  <p class="d s">2027 · 4,000 · 1931-1940 · 0123456789 · O0O0 · Il1 Illinois 1011 · Open Indus</p>
+  <p class="d s b">2027 · 4,000 · 1931-1940 · 0123456789 · O0O0 · Il1 Illinois 1011 · Open Indus</p>
+</section>
+
+<section>
+  <p class="label">Full character set</p>
+  <div class="grid d" id="grid"></div>
+</section>
+</main>
+<script>
+if (location.hash === "#dark" || location.hash === "#light") document.documentElement.dataset.theme = location.hash.slice(1);
+const set = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,:;!?-–'\"&/()%+_·×→≈@#‘’“”…—";
+const g = document.getElementById("grid");
+for (const ch of set) { const s = document.createElement("span"); s.textContent = ch; const i = document.createElement("i"); i.textContent = ch; s.appendChild(i); g.appendChild(s); }
+// Display vs Text, word by word.
+const words = ["Overview", "Open Indus", "Our odds", "Most texts", "We test", "Quartz", "2027", "4,000 seals"];
+const cmp = document.getElementById("cmp");
+for (const px of [18, 24, 64]) {
+  const row = document.createElement("div"); row.className = "cmp";
+  for (const [cls, name] of [["d", "Display"], ["t", "Text"]]) {
+    const col = document.createElement("div");
+    const h = document.createElement("p"); h.className = "h"; col.appendChild(h);
+    const w = document.createElement("div"); w.className = `${cls} words`; w.style.fontSize = px + "px";
+    for (const word of words) { const sp = document.createElement("span"); sp.textContent = word; w.appendChild(sp); }
+    col.appendChild(w); row.appendChild(col);
+    requestAnimationFrame(() => { const ls = parseFloat(getComputedStyle(w).letterSpacing) || 0; h.textContent = `${name} · ${px}px · letter-spacing ${ls.toFixed(2)}px (${(ls / px).toFixed(3)}em)`; });
+  }
+  cmp.appendChild(row);
+}
+// Print the size and tracking actually used under each sample.
+for (const el of document.querySelectorAll("main section > .d, main section > .t, main section > .ref")) {
+  const cs = getComputedStyle(el), fs = parseFloat(cs.fontSize), ls = cs.letterSpacing === "normal" ? 0 : parseFloat(cs.letterSpacing);
+  const tag = document.createElement("span"); tag.className = "ls";
+  tag.textContent = `${fs}px · letter-spacing ${ls.toFixed(2)}px (${(ls / fs).toFixed(3)}em)${el.classList.contains("caps") ? " · caps rule" : ""}`;
+  el.after(tag);
+}
+Promise.all([document.fonts.load('52px "Open Indus Display"'), document.fonts.load('52px "Open Indus Text"')]).then(([a, b]) => {
+  const ok = a.length > 0 && b.length > 0;
+  document.getElementById("check").textContent = ok ? "Fonts loaded: Open Indus Display and Open Indus Text (woff2)" : "FONT NOT LOADED: showing fallback";
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+name: Submit a reading or sound key
+description: Have a proposed set of sound values scored on the public test bench, the same way as every other key.
+title: "Reading: "
+labels: ["reading", "bench"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        {{NAME}} is working to {{GOAL_LC}}. Every proposed reading is scored the same way:
+
+        - **Data.** On texts it was not built from.
+        - **Comparison 1.** Against the same key with its values shuffled among signs of similar frequency.
+        - **Comparison 2.** Against keys fitted to random sign strings with the same freedom.
+
+        Your key and its SHA-256 fingerprint are logged in public before any score is computed. The result is published whichever way it goes, with credit to you.
+
+        **The key cannot change after you submit it.** If you revise it, submit it again as a new key.
+  - type: input
+    id: name
+    attributes:
+      label: Name of the key
+      description: How the key should be cited, for example "Author 2026, Old Tamil key".
+    validations:
+      required: true
+  - type: dropdown
+    id: signlist
+    attributes:
+      label: Sign numbering
+      options:
+        - Mahadevan 1977 (M1 to M417)
+        - Wells / ICIT
+    validations:
+      required: true
+  - type: textarea
+    id: key
+    attributes:
+      label: The key
+      description: |
+        One line per sign, as CSV: sign number, value. One value per sign. Leave out the signs you do not read.
+        If the table is long, attach it as a .csv file here.
+      placeholder: |
+        sign,value
+        M59,<value>
+        M342,<value>
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: The language the values are read in, for example Old Tamil, Vedic Sanskrit, Proto-Munda.
+    validations:
+      required: true
+  - type: input
+    id: dictionary
+    attributes:
+      label: Dictionary to score against
+      description: The published word list the readings should match, with edition. It must be one we can obtain.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Where the key was published or explained
+      description: A paper, book, page or link. Optional for a new key.
+  - type: textarea
+    id: built-from
+    attributes:
+      label: Texts used to build the key
+      description: Which inscriptions you used when you worked out the values. They are left out of the scoring, so the test is fair to you.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand the key is fixed once it is logged, and the score is published whatever it is.
+          required: true
+        - label: I agree to follow the code of conduct.
+          required: true

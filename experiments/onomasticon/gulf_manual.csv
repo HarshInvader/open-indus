@@ -1,0 +1,14 @@
+kind,name,written,language,role,source,text_id,date,gulf_link,verified
+person,Ea-nasir,e-a-na-ṣi-ir,Akkadian,alik Tilmun (Dilmun trader) at Ur,Oppenheim 1954 JAOS 74; Leemans 1960 Foreign trade in the OB period,UET 5 81 (and Ea-nasir archive UET 5),Old Babylonian (Rim-Sin I),Dilmun,literature only; text not in our CDLI dump
+person,Nanni,na-an-ni,unknown,writer of complaint letter to the Dilmun trader Ea-nasir,Oppenheim 1954,UET 5 81,Old Babylonian (Rim-Sin I),Dilmun,literature only; text not in our CDLI dump
+person,Lu-Enlilla,lu2-{d}en-lil2-la2,Sumerian,Ur merchant receiving goods for a Magan voyage,Oppenheim 1954; Leemans 1960,UET 3 (text number not checked),Ur III (Ibbi-Sin),Magan,literature only; text id unverified
+deity,Inzak,{d}in-za-ak,Dilmunite,chief god of Dilmun; seal formula 'ARAD Inzak',Durand stone; Failaka inscriptions (Glassner 1984; Andersen & Hojlund),Durand stone,c.1800-1700 BCE,Dilmun,literature; spelling not checked against a photo
+deity,Enzag (Sumerian form of Inzak),{d}en-sa6-ag2,Sumerian rendering,god born to Enki for Dilmun in Enki and Ninhursaga,ETCSL 1.1.1,P469514 (CDLI composite),OB copy,Dilmun,form from memory; ETCSL composite in dump not searched for this line
+deity,Ninsikila,{d}nin-sikil-la,Sumerian,goddess of Dilmun,Enki and Ninhursaga; Enki and the World Order 239,P469514; P469516,OB copies,Dilmun,verified in CDLI dump
+deity,Meskilak,{d}mes-ki-la-ak,Dilmunite,Dilmun goddess (consort of Inzak),literature (Glassner; Potts 1990),,2nd mill.,Dilmun,literature; spelling unverified
+deity,Enki,{d}en-ki,Sumerian,god tied to Dilmun in Enki and Ninhursaga,ETCSL 1.1.1,P469514,OB copies,Dilmun,verified in CDLI dump
+deity,Panipa,pa-ni-pa,unknown,deity in 'Yagli-El servant of Panipa' (Bahrain tokens),per board task #2 brief citing Laursen et al. 2026,,c.1700 BCE,Dilmun,UNVERIFIED (task brief only; paper not read)
+place,Agarum,a-ga-ru-um,Dilmunite?,'man of Agarum' (Dilmun tribe/land) on Durand stone,Durand stone (Glassner 1984),Durand stone,c.1800-1700 BCE,Dilmun,literature; not in CDLI dump
+formula,Palace of Rimum servant of Inzak man of Agarum,e2-gal ri-mu-um ARAD {d}in-za-ak lu2 a-ga-ru-um,Akkadian/Sumerograms,legend: building + NAME + 'servant of' DN + 'man of' GN,Durand stone (Bahrain),Durand stone,c.1800-1700 BCE,Dilmun,literature; sign-by-sign reading not checked against photo
+formula,NAME servant of Inzak,X ARAD {d}in-za-ak,Akkadian/Sumerograms,Gulf seal/stone formula: NAME + 'servant of' + Dilmun god,Failaka and Bahrain inscriptions (Glassner 1984; Kjaerum 1983),,Early Dilmun,Dilmun,literature; individual seal ids not collected (task #1 owns objects)
+formula,Yagli-El servant of Panipa,ia-ag-li-el ARAD pa-ni-pa,Amorite name + DN,NAME + 'servant of' + DN on Bahrain tokens,per board task #2 brief (Laursen et al. 2026),,c.1700 BCE,Dilmun,UNVERIFIED (task brief only)

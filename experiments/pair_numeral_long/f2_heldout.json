@@ -1,0 +1,954 @@
+{
+ "N1_lexeme_transfer": {
+  "hits": 29,
+  "n": 40,
+  "share": 0.725,
+  "expected_share": 0.3333820662768031,
+  "ci": [
+   0.5716504419378943,
+   0.8389198375233267
+  ],
+  "p": 4.999750012499375e-05,
+  "details": [
+   {
+    "sign": "M197",
+    "cls": "S",
+    "value": 7,
+    "ho_n": 0,
+    "ho_hits": 0,
+    "base": 0.155,
+    "ho_dist": {}
+   },
+   {
+    "sign": "M15",
+    "cls": "S",
+    "value": 3,
+    "ho_n": 2,
+    "ho_hits": 1,
+    "base": 0.247,
+    "ho_dist": {
+     "3": 1,
+     "4": 1
+    }
+   },
+   {
+    "sign": "M194",
+    "cls": "S",
+    "value": 7,
+    "ho_n": 3,
+    "ho_hits": 3,
+    "base": 0.155,
+    "ho_dist": {
+     "7": 3
+    }
+   },
+   {
+    "sign": "M403",
+    "cls": "S",
+    "value": 3,
+    "ho_n": 0,
+    "ho_hits": 0,
+    "base": 0.247,
+    "ho_dist": {}
+   },
+   {
+    "sign": "M287",
+    "cls": "S",
+    "value": 3,
+    "ho_n": 10,
+    "ho_hits": 2,
+    "base": 0.247,
+    "ho_dist": {
+     "3": 2,
+     "4": 1,
+     "5": 7
+    }
+   },
+   {
+    "sign": "M25",
+    "cls": "S",
+    "value": 1,
+    "ho_n": 1,
+    "ho_hits": 0,
+    "base": 0.222,
+    "ho_dist": {
+     "3": 1
+    }
+   },
+   {
+    "sign": "M190",
+    "cls": "S",
+    "value": 3,
+    "ho_n": 4,
+    "ho_hits": 4,
+    "base": 0.247,
+    "ho_dist": {
+     "3": 4
+    }
+   },
+   {
+    "sign": "M211",
+    "cls": "T",
+    "value": 3,
+    "ho_n": 0,
+    "ho_hits": 0,
+    "base": 0.317,
+    "ho_dist": {}
+   },
+   {
+    "sign": "M59",
+    "cls": "T",
+    "value": 2,
+    "ho_n": 16,
+    "ho_hits": 15,
+    "base": 0.435,
+    "ho_dist": {
+     "1": 1,
+     "2": 15
+    }
+   },
+   {
+    "sign": "M342",
+    "cls": "T",
+    "value": 2,
+    "ho_n": 1,
+    "ho_hits": 1,
+    "base": 0.435,
+    "ho_dist": {
+     "2": 1
+    }
+   },
+   {
+    "sign": "M60",
+    "cls": "T",
+    "value": 2,
+    "ho_n": 2,
+    "ho_hits": 2,
+    "base": 0.435,
+    "ho_dist": {
+     "2": 2
+    }
+   },
+   {
+    "sign": "M284",
+    "cls": "T",
+    "value": 2,
+    "ho_n": 1,
+    "ho_hits": 1,
+    "base": 0.435,
+    "ho_dist": {
+     "2": 1
+    }
+   }
+  ]
+ },
+ "N2_count_spread": {
+  "details": [
+   {
+    "sign": "M162",
+    "cls": "S",
+    "ho_n": 8,
+    "ho_dist": {
+     "3": 3,
+     "4": 3,
+     "5": 2
+    },
+    "modal_share": 0.375,
+    "n_values": 3
+   },
+   {
+    "sign": "M169",
+    "cls": "S",
+    "ho_n": 10,
+    "ho_dist": {
+     "1": 1,
+     "3": 1,
+     "4": 5,
+     "5": 2,
+     "6": 1
+    },
+    "modal_share": 0.5,
+    "n_values": 5
+   },
+   {
+    "sign": "M249",
+    "cls": "T",
+    "ho_n": 2,
+    "ho_dist": {
+     "2": 2
+    },
+    "modal_share": 1.0,
+    "n_values": 1
+   },
+   {
+    "sign": "M328",
+    "cls": "T",
+    "ho_n": 5,
+    "ho_dist": {
+     "3": 3,
+     "4": 2
+    },
+    "modal_share": 0.6,
+    "n_values": 2
+   }
+  ],
+  "pooled_modal_share": 0.52,
+  "n": 25,
+  "dev_modal_hits": 10,
+  "dev_modal_share": 0.4,
+  "fisher_p_lower_than_N1": 0.009599775258995125
+ },
+ "N4_jar_7_12": {
+  "hits": 4,
+  "n": 4,
+  "share": 1.0,
+  "base": 0.25761772853185594,
+  "p": 0.004404564626363316,
+  "ho_dist": {
+   "12": 4
+  }
+ },
+ "pooled_classification": [
+  {
+   "n": 39,
+   "best": "capcal",
+   "bic": {
+    "decay": 189.4,
+    "capcal": 165.86,
+    "spike": 176.71
+   },
+   "decay_a": 0.242,
+   "cap": 8,
+   "spike_value": 4,
+   "spike_share": 0.333,
+   "n_values": 6,
+   "sign": "M162",
+   "cls": "S",
+   "dist": {
+    "3": 11,
+    "4": 13,
+    "5": 5,
+    "6": 5,
+    "7": 3,
+    "8": 2
+   },
+   "p_spike": 0.3056347182640868,
+   "modal_numsigns": {
+    "M104": 13
+   },
+   "q_spike": 0.33110427811942733,
+   "p_uniform_to_cap": 0.00014999250037498125,
+   "verdict": "count-like"
+  },
+  {
+   "n": 39,
+   "best": "spike",
+   "bic": {
+    "decay": 189.75,
+    "capcal": 190.7,
+    "spike": 166.05
+   },
+   "decay_a": 0.208,
+   "cap": 12,
+   "spike_value": 3,
+   "spike_share": 0.41,
+   "n_values": 6,
+   "sign": "M59",
+   "cls": "S",
+   "dist": {
+    "1": 1,
+    "3": 16,
+    "4": 5,
+    "6": 12,
+    "7": 1,
+    "12": 4
+   },
+   "p_spike": 0.04269786510674466,
+   "modal_numsigns": {
+    "M102": 16
+   },
+   "q_spike": 0.06167469404307562,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "count-like"
+  },
+  {
+   "n": 37,
+   "best": "spike",
+   "bic": {
+    "decay": 179.38,
+    "capcal": 166.21,
+    "spike": 154.55
+   },
+   "decay_a": 0.281,
+   "cap": 9,
+   "spike_value": 4,
+   "spike_share": 0.432,
+   "n_values": 9,
+   "sign": "M169",
+   "cls": "S",
+   "dist": {
+    "1": 1,
+    "2": 1,
+    "3": 5,
+    "4": 16,
+    "5": 7,
+    "6": 2,
+    "7": 3,
+    "8": 1,
+    "9": 1
+   },
+   "p_spike": 0.029298535073246337,
+   "modal_numsigns": {
+    "M104": 16
+   },
+   "q_spike": 0.050784127460293656,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "count-like"
+  },
+  {
+   "n": 14,
+   "best": "spike",
+   "bic": {
+    "decay": 69.78,
+    "capcal": 57.12,
+    "spike": 5.28
+   },
+   "decay_a": 0.0,
+   "cap": 7,
+   "spike_value": 7,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M197",
+   "cls": "S",
+   "dist": {
+    "7": 14
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M112": 14
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 32,
+   "best": "spike",
+   "bic": {
+    "decay": 156.93,
+    "capcal": 156.93,
+    "spike": 133.68
+   },
+   "decay_a": 0.0,
+   "cap": 12,
+   "spike_value": 12,
+   "spike_share": 0.438,
+   "n_values": 6,
+   "sign": "M342",
+   "cls": "S",
+   "dist": {
+    "1": 1,
+    "5": 1,
+    "6": 2,
+    "7": 13,
+    "9": 1,
+    "12": 14
+   },
+   "p_spike": 0.03899805009749512,
+   "modal_numsigns": {
+    "M121": 14
+   },
+   "q_spike": 0.05964407661969842,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "count-like"
+  },
+  {
+   "n": 10,
+   "best": "spike",
+   "bic": {
+    "decay": 47.25,
+    "capcal": 34.49,
+    "spike": 23.82
+   },
+   "decay_a": 0.685,
+   "cap": 5,
+   "spike_value": 3,
+   "spike_share": 0.8,
+   "n_values": 3,
+   "sign": "M15",
+   "cls": "S",
+   "dist": {
+    "3": 8,
+    "4": 1,
+    "5": 1
+   },
+   "p_spike": 0.0008999550022498875,
+   "modal_numsigns": {
+    "M102": 8
+   },
+   "q_spike": 0.0019499025048747563,
+   "p_uniform_to_cap": 0.00034998250087495624,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 19,
+   "best": "spike",
+   "bic": {
+    "decay": 94.06,
+    "capcal": 76.89,
+    "spike": 5.89
+   },
+   "decay_a": 0.0,
+   "cap": 7,
+   "spike_value": 7,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M194",
+   "cls": "S",
+   "dist": {
+    "7": 19
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M112": 19
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 11,
+   "best": "spike",
+   "bic": {
+    "decay": 50.53,
+    "capcal": 26.57,
+    "spike": 4.8
+   },
+   "decay_a": 0.802,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M403",
+   "cls": "S",
+   "dist": {
+    "3": 11
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M103": 11
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 14,
+   "best": "capcal",
+   "bic": {
+    "decay": 61.2,
+    "capcal": 47.7,
+    "spike": 56.92
+   },
+   "decay_a": 0.961,
+   "cap": 5,
+   "spike_value": 2,
+   "spike_share": 0.5,
+   "n_values": 4,
+   "sign": "M17",
+   "cls": "S",
+   "dist": {
+    "2": 7,
+    "3": 4,
+    "4": 1,
+    "5": 2
+   },
+   "p_spike": 0.06504674766261687,
+   "modal_numsigns": {
+    "M100": 7
+   },
+   "q_spike": 0.0805340685346685,
+   "p_uniform_to_cap": 0.025398730063496824,
+   "verdict": "count-like"
+  },
+  {
+   "n": 25,
+   "best": "capcal",
+   "bic": {
+    "decay": 116.07,
+    "capcal": 83.69,
+    "spike": 86.14
+   },
+   "decay_a": 0.664,
+   "cap": 5,
+   "spike_value": 3,
+   "spike_share": 0.6,
+   "n_values": 5,
+   "sign": "M287",
+   "cls": "S",
+   "dist": {
+    "1": 1,
+    "2": 1,
+    "3": 15,
+    "4": 1,
+    "5": 7
+   },
+   "p_spike": 0.0005499725013749313,
+   "modal_numsigns": {
+    "M102": 15
+   },
+   "q_spike": 0.0014299285035748214,
+   "p_uniform_to_cap": 9.99950002499875e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 9,
+   "best": "spike",
+   "bic": {
+    "decay": 31.83,
+    "capcal": 45.36,
+    "spike": 29.67
+   },
+   "decay_a": 1.532,
+   "cap": 12,
+   "spike_value": 1,
+   "spike_share": 0.667,
+   "n_values": 3,
+   "sign": "M65",
+   "cls": "S",
+   "dist": {
+    "1": 6,
+    "2": 1,
+    "12": 2
+   },
+   "p_spike": 0.01344932753362332,
+   "modal_numsigns": {
+    "M98": 4,
+    "M97": 2
+   },
+   "q_spike": 0.024977322562443307,
+   "p_uniform_to_cap": 0.00024998750062496874,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 10,
+   "best": "spike",
+   "bic": {
+    "decay": 40.75,
+    "capcal": 50.26,
+    "spike": 36.49
+   },
+   "decay_a": 1.196,
+   "cap": 12,
+   "spike_value": 1,
+   "spike_share": 0.6,
+   "n_values": 3,
+   "sign": "M347",
+   "cls": "S",
+   "dist": {
+    "1": 6,
+    "7": 3,
+    "12": 1
+   },
+   "p_spike": 0.032448377581120944,
+   "modal_numsigns": {
+    "M98": 5,
+    "M97": 1
+   },
+   "q_spike": 0.052728613569321535,
+   "p_uniform_to_cap": 0.00024998750062496874,
+   "verdict": "unclear"
+  },
+  {
+   "n": 11,
+   "best": "decay",
+   "bic": {
+    "decay": 19.43,
+    "capcal": 26.57,
+    "spike": 24.44
+   },
+   "decay_a": 2.739,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.818,
+   "n_values": 2,
+   "sign": "M25",
+   "cls": "S",
+   "dist": {
+    "1": 9,
+    "3": 2
+   },
+   "p_spike": 0.00024998750062496874,
+   "modal_numsigns": {
+    "M98": 4,
+    "M97": 5
+   },
+   "q_spike": 0.0007221861129165764,
+   "p_uniform_to_cap": 0.0018999050047497626,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 14,
+   "best": "spike",
+   "bic": {
+    "decay": 63.9,
+    "capcal": 33.4,
+    "spike": 5.28
+   },
+   "decay_a": 0.802,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M190",
+   "cls": "S",
+   "dist": {
+    "3": 14
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M102": 14
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 41,
+   "best": "spike",
+   "bic": {
+    "decay": 135.69,
+    "capcal": 93.8,
+    "spike": 28.95
+   },
+   "decay_a": 0.0,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 0.951,
+   "n_values": 3,
+   "sign": "M211",
+   "cls": "T",
+   "dist": {
+    "1": 1,
+    "2": 1,
+    "3": 39
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M89": 39
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 71,
+   "best": "spike",
+   "bic": {
+    "decay": 213.9,
+    "capcal": 201.12,
+    "spike": 66.29
+   },
+   "decay_a": 0.862,
+   "cap": 4,
+   "spike_value": 2,
+   "spike_share": 0.915,
+   "n_values": 3,
+   "sign": "M59",
+   "cls": "T",
+   "dist": {
+    "1": 5,
+    "2": 65,
+    "4": 1
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M87": 65
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 14,
+   "best": "decay",
+   "bic": {
+    "decay": 29.24,
+    "capcal": 33.4,
+    "spike": 33.12
+   },
+   "decay_a": 2.088,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.714,
+   "n_values": 3,
+   "sign": "M99",
+   "cls": "T",
+   "dist": {
+    "1": 10,
+    "2": 1,
+    "3": 3
+   },
+   "p_spike": 0.06349682515874207,
+   "modal_numsigns": {
+    "M86": 10
+   },
+   "q_spike": 0.0805340685346685,
+   "p_uniform_to_cap": 0.007899605019749012,
+   "verdict": "unclear"
+  },
+  {
+   "n": 9,
+   "best": "decay",
+   "bic": {
+    "decay": 18.96,
+    "capcal": 21.97,
+    "spike": 24.17
+   },
+   "decay_a": 2.129,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.667,
+   "n_values": 3,
+   "sign": "M15",
+   "cls": "T",
+   "dist": {
+    "1": 6,
+    "2": 2,
+    "3": 1
+   },
+   "p_spike": 0.21413929303534823,
+   "modal_numsigns": {
+    "M86": 6
+   },
+   "q_spike": 0.24207050517039364,
+   "p_uniform_to_cap": 0.08814559272036399,
+   "verdict": "unclear"
+  },
+  {
+   "n": 35,
+   "best": "spike",
+   "bic": {
+    "decay": 113.41,
+    "capcal": 116.22,
+    "spike": 71.97
+   },
+   "decay_a": 0.478,
+   "cap": 5,
+   "spike_value": 2,
+   "spike_share": 0.743,
+   "n_values": 4,
+   "sign": "M342",
+   "cls": "T",
+   "dist": {
+    "1": 2,
+    "2": 26,
+    "3": 3,
+    "5": 4
+   },
+   "p_spike": 0.0006499675016249188,
+   "modal_numsigns": {
+    "M87": 26
+   },
+   "q_spike": 0.0015362868220225353,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 13,
+   "best": "spike",
+   "bic": {
+    "decay": 41.77,
+    "capcal": 20.59,
+    "spike": 5.13
+   },
+   "decay_a": 0.754,
+   "cap": 2,
+   "spike_value": 2,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M60",
+   "cls": "T",
+   "dist": {
+    "2": 13
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M87": 13
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 0.0002999850007499625,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 18,
+   "best": "capcal",
+   "bic": {
+    "decay": 58.08,
+    "capcal": 42.44,
+    "spike": 49.25
+   },
+   "decay_a": 0.656,
+   "cap": 3,
+   "spike_value": 2,
+   "spike_share": 0.611,
+   "n_values": 3,
+   "sign": "M249",
+   "cls": "T",
+   "dist": {
+    "1": 2,
+    "2": 11,
+    "3": 5
+   },
+   "p_spike": 0.15269236538173092,
+   "modal_numsigns": {
+    "M87": 11
+   },
+   "q_spike": 0.18045461363295473,
+   "p_uniform_to_cap": 0.022598870056497175,
+   "verdict": "unclear"
+  },
+  {
+   "n": 11,
+   "best": "spike",
+   "bic": {
+    "decay": 35.57,
+    "capcal": 17.65,
+    "spike": 4.8
+   },
+   "decay_a": 0.754,
+   "cap": 2,
+   "spike_value": 2,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M244",
+   "cls": "T",
+   "dist": {
+    "2": 11
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M87": 11
+   },
+   "q_spike": 0.00016249187540622967,
+   "p_uniform_to_cap": 0.0006999650017499125,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 9,
+   "best": "capcal",
+   "bic": {
+    "decay": 25.49,
+    "capcal": 21.97,
+    "spike": 27.85
+   },
+   "decay_a": 1.344,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.556,
+   "n_values": 2,
+   "sign": "M67",
+   "cls": "T",
+   "dist": {
+    "1": 5,
+    "3": 4
+   },
+   "p_spike": 0.5209739513024348,
+   "modal_numsigns": {
+    "M86": 5
+   },
+   "q_spike": 0.5418129093545323,
+   "p_uniform_to_cap": 0.167891605419729,
+   "verdict": "unclear"
+  },
+  {
+   "n": 11,
+   "best": "spike",
+   "bic": {
+    "decay": 34.41,
+    "capcal": 17.65,
+    "spike": 14.27
+   },
+   "decay_a": 0.929,
+   "cap": 2,
+   "spike_value": 2,
+   "spike_share": 0.909,
+   "n_values": 2,
+   "sign": "M284",
+   "cls": "T",
+   "dist": {
+    "1": 1,
+    "2": 10
+   },
+   "p_spike": 0.0018499075046247689,
+   "modal_numsigns": {
+    "M87": 10
+   },
+   "q_spike": 0.0036998150092495377,
+   "p_uniform_to_cap": 0.012149392530373481,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 19,
+   "best": "capcal",
+   "bic": {
+    "decay": 64.1,
+    "capcal": 55.62,
+    "spike": 58.57
+   },
+   "decay_a": 0.0,
+   "cap": 4,
+   "spike_value": 5,
+   "spike_share": 0.0,
+   "n_values": 4,
+   "sign": "M328",
+   "cls": "T",
+   "dist": {
+    "1": 1,
+    "2": 4,
+    "3": 9,
+    "4": 5
+   },
+   "p_spike": 0.6458677066146693,
+   "modal_numsigns": {},
+   "q_spike": 0.6458677066146693,
+   "p_uniform_to_cap": 0.07964601769911504,
+   "verdict": "count-like"
+  },
+  {
+   "n": 9,
+   "best": "spike",
+   "bic": {
+    "decay": 30.36,
+    "capcal": 21.97,
+    "spike": 19.47
+   },
+   "decay_a": 0.505,
+   "cap": 3,
+   "spike_value": 2,
+   "spike_share": 0.778,
+   "n_values": 2,
+   "sign": "M294",
+   "cls": "T",
+   "dist": {
+    "2": 7,
+    "3": 2
+   },
+   "p_spike": 0.05664716764161792,
+   "modal_numsigns": {
+    "M87": 7
+   },
+   "q_spike": 0.07751717677274031,
+   "p_uniform_to_cap": 0.013299335033248337,
+   "verdict": "unclear"
+  }
+ ],
+ "caps_pooled": {
+  "8": 1,
+  "12": 2,
+  "9": 1,
+  "5": 1,
+  "4": 1
+ },
+ "calendar_like_pooled": []
+}

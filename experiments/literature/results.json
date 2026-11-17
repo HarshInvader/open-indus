@@ -1,0 +1,16 @@
+{
+ "agent": "literature",
+ "date": "2026-11-14",
+ "descriptive_counts_all_distinct_M77_not_tests": {
+  "n_distinct_texts": 2270,
+  "numeral_before_M59": {"2tall_M87": 65, "3short": 16, "2short_M99_M100": 16, "6short": 12, "4short": 5, "1tall": 5, "1short": 1, "7short": 1, "5short": 0},
+  "M267_initial": 221, "M267_M99_bigram": 225, "M293_initial": 71, "M403_M87_bigram": 27
+ },
+ "proposals_json_counts": {"parpola": 12, "mahadevan": 9, "wells": 4, "mukhopadhyay": 4, "fuls2024_linear_elamite_lookalikes": 20, "yajnadevam": 714, "yajnadevam_bridged_to_M": 176},
+ "external_nulls_on_yajnadevam": {
+  "savirinc_shuffle_percentile": 0.29, "savirinc_z": -0.35,
+  "equationist_a_vowel_share_readings": 0.9498, "equationist_real_sanskrit_range": [0.60, 0.68],
+  "thewisecrab_parse_real_vs_shuffled": [0.579, 0.592]
+ },
+ "top_gaps_ranked": ["numeral-behaviour test of phonetic keys", "copper-tablet caption consistency", "Parpola P1-P3 preregistered on heldout", "Mahadevan akam/puram locus test", "Lothal sealing backs x text", "weights x numerals", "Proto-Elamite pipeline + Sign2Vec", "craft-site enrichment", "logo-syllabic planted benchmark + unicity distance", "foreign-text onomastics"]
+}

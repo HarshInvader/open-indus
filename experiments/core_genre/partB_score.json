@@ -1,0 +1,6466 @@
+{
+ "dev_raw": {
+  "ranking": [
+   {
+    "system": "cun_tag_s",
+    "group": "genre",
+    "n": 120,
+    "d": 1.415,
+    "d_pooled": 0.766,
+    "ci": [
+     1.143,
+     1.634
+    ],
+    "z": {
+     "len1": 1.062,
+     "standalone": 2.493,
+     "both_orders": 0.794,
+     "hfi": -0.197,
+     "pol_ex": null,
+     "both_pos": null
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.151,
+     "both_orders": 0.031,
+     "hfi": 0.461,
+     "pol_ex": 0.017,
+     "both_pos": 0.794
+    },
+    "ref": {
+     "len1": 0.017,
+     "standalone": 0.042,
+     "both_orders": 0.019,
+     "hfi": 0.5,
+     "pol_ex": null,
+     "both_pos": null
+    }
+   },
+   {
+    "system": "egyptian",
+    "group": "name",
+    "n": 171,
+    "d": 1.492,
+    "d_pooled": 0.942,
+    "ci": [
+     1.38,
+     1.639
+    ],
+    "z": {
+     "len1": -1.114,
+     "standalone": 2.31,
+     "both_orders": 0.772,
+     "hfi": 1.029,
+     "pol_ex": -2.129,
+     "both_pos": 0.769
+    },
+    "indus": {
+     "len1": 0.258,
+     "standalone": 0.184,
+     "both_orders": 0.036,
+     "hfi": 0.431,
+     "pol_ex": 0.09,
+     "both_pos": 0.732
+    },
+    "ref": {
+     "len1": 0.509,
+     "standalone": 0.083,
+     "both_orders": 0.024,
+     "hfi": 0.227,
+     "pol_ex": 0.46,
+     "both_pos": 0.6
+    }
+   },
+   {
+    "system": "old_norse",
+    "group": "name",
+    "n": 159,
+    "d": 2.268,
+    "d_pooled": 1.425,
+    "ci": [
+     2.127,
+     2.399
+    ],
+    "z": {
+     "len1": -1.784,
+     "standalone": 2.083,
+     "both_orders": 2.349,
+     "hfi": -0.68,
+     "pol_ex": -2.888,
+     "both_pos": 3.004
+    },
+    "indus": {
+     "len1": 0.265,
+     "standalone": 0.165,
+     "both_orders": 0.034,
+     "hfi": 0.433,
+     "pol_ex": 0.083,
+     "both_pos": 0.74
+    },
+    "ref": {
+     "len1": 0.667,
+     "standalone": 0.074,
+     "both_orders": 0.0,
+     "hfi": 0.568,
+     "pol_ex": 0.584,
+     "both_pos": 0.222
+    }
+   },
+   {
+    "system": "plains",
+    "group": "name",
+    "n": 101,
+    "d": 2.282,
+    "d_pooled": 1.295,
+    "ci": [
+     2.053,
+     2.547
+    ],
+    "z": {
+     "len1": 0.947,
+     "standalone": 2.012,
+     "both_orders": 1.92,
+     "hfi": -0.074,
+     "pol_ex": -3.766,
+     "both_pos": 2.9
+    },
+    "indus": {
+     "len1": 0.253,
+     "standalone": 0.102,
+     "both_orders": 0.028,
+     "hfi": 0.397,
+     "pol_ex": 0.045,
+     "both_pos": 0.778
+    },
+    "ref": {
+     "len1": 0.04,
+     "standalone": 0.014,
+     "both_orders": 0.0,
+     "hfi": 0.412,
+     "pol_ex": 0.698,
+     "both_pos": 0.278
+    }
+   },
+   {
+    "system": "lina_label_s",
+    "group": "genre",
+    "n": 228,
+    "d": 3.54,
+    "d_pooled": 1.113,
+    "ci": [
+     3.307,
+     3.744
+    ],
+    "z": {
+     "len1": 0.063,
+     "standalone": -7.282,
+     "both_orders": -4.698,
+     "hfi": 0.027,
+     "pol_ex": 0.166,
+     "both_pos": 0.215
+    },
+    "indus": {
+     "len1": 0.251,
+     "standalone": 0.23,
+     "both_orders": 0.041,
+     "hfi": 0.443,
+     "pol_ex": 0.1,
+     "both_pos": 0.751
+    },
+    "ref": {
+     "len1": 0.237,
+     "standalone": 0.548,
+     "both_orders": 0.11,
+     "hfi": 0.438,
+     "pol_ex": 0.071,
+     "both_pos": 0.714
+    }
+   },
+   {
+    "system": "ur3_title_w",
+    "group": "genre",
+    "n": 800,
+    "d": 4.119,
+    "d_pooled": 1.441,
+    "ci": [
+     3.844,
+     4.456
+    ],
+    "z": {
+     "len1": 0.892,
+     "standalone": 9.266,
+     "both_orders": -3.854,
+     "hfi": -0.301,
+     "pol_ex": 0.261,
+     "both_pos": -0.39
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.055,
+     "standalone": 0.502,
+     "both_orders": 0.119,
+     "hfi": 0.514,
+     "pol_ex": 0.099,
+     "both_pos": 0.782
+    }
+   },
+   {
+    "system": "old_high_german",
+    "group": "name",
+    "n": 488,
+    "d": 5.376,
+    "d_pooled": 2.075,
+    "ci": [
+     5.2,
+     5.535
+    ],
+    "z": {
+     "len1": -1.156,
+     "standalone": 12.645,
+     "both_orders": 1.824,
+     "hfi": -0.959,
+     "pol_ex": -2.095,
+     "both_pos": 1.888
+    },
+    "indus": {
+     "len1": 0.258,
+     "standalone": 0.554,
+     "both_orders": 0.057,
+     "hfi": 0.452,
+     "pol_ex": 0.117,
+     "both_pos": 0.76
+    },
+    "ref": {
+     "len1": 0.518,
+     "standalone": 0.002,
+     "both_orders": 0.031,
+     "hfi": 0.642,
+     "pol_ex": 0.481,
+     "both_pos": 0.435
+    }
+   },
+   {
+    "system": "sangam",
+    "group": "name",
+    "n": 540,
+    "d": 5.802,
+    "d_pooled": 2.418,
+    "ci": [
+     5.657,
+     5.921
+    ],
+    "z": {
+     "len1": -0.358,
+     "standalone": 11.894,
+     "both_orders": 3.929,
+     "hfi": -0.257,
+     "pol_ex": -5.034,
+     "both_pos": 4.424
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.627,
+     "both_orders": 0.058,
+     "hfi": 0.449,
+     "pol_ex": 0.126,
+     "both_pos": 0.763
+    },
+    "ref": {
+     "len1": 0.337,
+     "standalone": 0.108,
+     "both_orders": 0.0,
+     "hfi": 0.5,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "pe_entry_s",
+    "group": "genre",
+    "n": 800,
+    "d": 7.107,
+    "d_pooled": 2.518,
+    "ci": [
+     7.01,
+     7.202
+    ],
+    "z": {
+     "len1": 0.067,
+     "standalone": 17.24,
+     "both_orders": 2.131,
+     "hfi": -0.783,
+     "pol_ex": -0.715,
+     "both_pos": 0.417
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.241,
+     "standalone": 0.154,
+     "both_orders": 0.032,
+     "hfi": 0.61,
+     "pol_ex": 0.268,
+     "both_pos": 0.642
+    }
+   },
+   {
+    "system": "old_english",
+    "group": "name",
+    "n": 800,
+    "d": 7.37,
+    "d_pooled": 2.746,
+    "ci": [
+     7.291,
+     7.457
+    ],
+    "z": {
+     "len1": -0.141,
+     "standalone": 17.384,
+     "both_orders": 2.557,
+     "hfi": -1.054,
+     "pol_ex": -2.829,
+     "both_pos": 2.837
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.288,
+     "standalone": 0.148,
+     "both_orders": 0.025,
+     "hfi": 0.663,
+     "pol_ex": 0.635,
+     "both_pos": 0.225
+    }
+   },
+   {
+    "system": "ob_legend_s",
+    "group": "genre",
+    "n": 800,
+    "d": 7.402,
+    "d_pooled": 2.672,
+    "ci": [
+     7.297,
+     7.543
+    ],
+    "z": {
+     "len1": 1.106,
+     "standalone": 18.042,
+     "both_orders": -0.586,
+     "hfi": 0.398,
+     "pol_ex": -0.861,
+     "both_pos": 0.882
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.007,
+     "standalone": 0.119,
+     "both_orders": 0.071,
+     "hfi": 0.375,
+     "pol_ex": 0.294,
+     "both_pos": 0.562
+    }
+   },
+   {
+    "system": "lat_label_w",
+    "group": "genre",
+    "n": 800,
+    "d": 7.503,
+    "d_pooled": 2.693,
+    "ci": [
+     7.381,
+     7.629
+    ],
+    "z": {
+     "len1": -0.2,
+     "standalone": 18.132,
+     "both_orders": 1.409,
+     "hfi": -0.142,
+     "pol_ex": -2.116,
+     "both_pos": 1.581
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.301,
+     "standalone": 0.115,
+     "both_orders": 0.042,
+     "hfi": 0.482,
+     "pol_ex": 0.511,
+     "both_pos": 0.442
+    }
+   },
+   {
+    "system": "emoji",
+    "group": "code",
+    "n": 800,
+    "d": 7.696,
+    "d_pooled": 2.898,
+    "ci": [
+     7.559,
+     7.892
+    ],
+    "z": {
+     "len1": -0.396,
+     "standalone": 17.988,
+     "both_orders": 3.454,
+     "hfi": -1.754,
+     "pol_ex": -3.493,
+     "both_pos": 2.103
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.346,
+     "standalone": 0.122,
+     "both_orders": 0.012,
+     "hfi": 0.802,
+     "pol_ex": 0.75,
+     "both_pos": 0.352
+    }
+   },
+   {
+    "system": "egy_title_l",
+    "group": "genre",
+    "n": 800,
+    "d": 7.7,
+    "d_pooled": 2.969,
+    "ci": [
+     7.67,
+     7.736
+    ],
+    "z": {
+     "len1": -0.097,
+     "standalone": 17.862,
+     "both_orders": 1.029,
+     "hfi": 0.269,
+     "pol_ex": -4.569,
+     "both_pos": 3.837
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.278,
+     "standalone": 0.127,
+     "both_orders": 0.048,
+     "hfi": 0.401,
+     "pol_ex": 0.937,
+     "both_pos": 0.053
+    }
+   },
+   {
+    "system": "ur3",
+    "group": "name",
+    "n": 800,
+    "d": 7.817,
+    "d_pooled": 2.897,
+    "ci": [
+     7.694,
+     7.942
+    ],
+    "z": {
+     "len1": 0.667,
+     "standalone": 18.707,
+     "both_orders": 1.395,
+     "hfi": 1.246,
+     "pol_ex": -3.204,
+     "both_pos": 1.575
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.106,
+     "standalone": 0.09,
+     "both_orders": 0.042,
+     "hfi": 0.207,
+     "pol_ex": 0.7,
+     "both_pos": 0.443
+    }
+   },
+   {
+    "system": "ur3_legend_s",
+    "group": "genre",
+    "n": 800,
+    "d": 7.941,
+    "d_pooled": 2.874,
+    "ci": [
+     7.733,
+     8.109
+    ],
+    "z": {
+     "len1": 1.126,
+     "standalone": 19.334,
+     "both_orders": -0.065,
+     "hfi": 0.577,
+     "pol_ex": 1.447,
+     "both_pos": -0.925
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.003,
+     "standalone": 0.063,
+     "both_orders": 0.064,
+     "hfi": 0.34,
+     "pol_ex": -0.107,
+     "both_pos": 0.874
+    }
+   },
+   {
+    "system": "pc_entry_s",
+    "group": "genre",
+    "n": 800,
+    "d": 8.132,
+    "d_pooled": 2.865,
+    "ci": [
+     8.086,
+     8.185
+    ],
+    "z": {
+     "len1": 0.557,
+     "standalone": 19.764,
+     "both_orders": 2.373,
+     "hfi": -0.188,
+     "pol_ex": 0.297,
+     "both_pos": -0.34
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.131,
+     "standalone": 0.044,
+     "both_orders": 0.028,
+     "hfi": 0.492,
+     "pol_ex": 0.093,
+     "both_pos": 0.773
+    }
+   },
+   {
+    "system": "chess_eco",
+    "group": "code",
+    "n": 800,
+    "d": 8.165,
+    "d_pooled": 3.032,
+    "ci": [
+     8.034,
+     8.343
+    ],
+    "z": {
+     "len1": 1.088,
+     "standalone": 16.366,
+     "both_orders": -9.385,
+     "hfi": 1.205,
+     "pol_ex": -4.931,
+     "both_pos": 4.144
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.011,
+     "standalone": 0.192,
+     "both_orders": 0.201,
+     "hfi": 0.215,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "linb_entry_w",
+    "group": "genre",
+    "n": 800,
+    "d": 8.198,
+    "d_pooled": 2.982,
+    "ci": [
+     8.138,
+     8.255
+    ],
+    "z": {
+     "len1": 0.152,
+     "standalone": 19.552,
+     "both_orders": 2.274,
+     "hfi": -0.426,
+     "pol_ex": -3.382,
+     "both_pos": 2.028
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.222,
+     "standalone": 0.053,
+     "both_orders": 0.029,
+     "hfi": 0.539,
+     "pol_ex": 0.731,
+     "both_pos": 0.365
+    }
+   },
+   {
+    "system": "heraldry_w",
+    "group": "genre",
+    "n": 800,
+    "d": 8.43,
+    "d_pooled": 3.125,
+    "ci": [
+     8.309,
+     8.572
+    ],
+    "z": {
+     "len1": 1.133,
+     "standalone": 20.365,
+     "both_orders": -0.739,
+     "hfi": 1.434,
+     "pol_ex": -2.157,
+     "both_pos": 1.785
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.001,
+     "standalone": 0.018,
+     "both_orders": 0.074,
+     "hfi": 0.17,
+     "pol_ex": 0.518,
+     "both_pos": 0.407
+    }
+   },
+   {
+    "system": "chinese_given",
+    "group": "name",
+    "n": 800,
+    "d": 8.432,
+    "d_pooled": 2.968,
+    "ci": [
+     8.395,
+     8.465
+    ],
+    "z": {
+     "len1": 0.912,
+     "standalone": 20.18,
+     "both_orders": 4.15,
+     "hfi": -0.238,
+     "pol_ex": -0.866,
+     "both_pos": 0.711
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.051,
+     "standalone": 0.026,
+     "both_orders": 0.002,
+     "hfi": 0.501,
+     "pol_ex": 0.294,
+     "both_pos": 0.592
+    }
+   },
+   {
+    "system": "egy_phrase_l",
+    "group": "genre",
+    "n": 800,
+    "d": 8.445,
+    "d_pooled": 3.217,
+    "ci": [
+     8.371,
+     8.514
+    ],
+    "z": {
+     "len1": 0.018,
+     "standalone": 19.705,
+     "both_orders": 2.132,
+     "hfi": 0.996,
+     "pol_ex": -4.55,
+     "both_pos": 3.664
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.252,
+     "standalone": 0.047,
+     "both_orders": 0.032,
+     "hfi": 0.257,
+     "pol_ex": 0.934,
+     "both_pos": 0.083
+    }
+   },
+   {
+    "system": "sanskrit",
+    "group": "name",
+    "n": 800,
+    "d": 8.523,
+    "d_pooled": 3.054,
+    "ci": [
+     8.483,
+     8.556
+    ],
+    "z": {
+     "len1": -0.744,
+     "standalone": 20.172,
+     "both_orders": 4.21,
+     "hfi": -0.437,
+     "pol_ex": -2.53,
+     "both_pos": 2.008
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.424,
+     "standalone": 0.026,
+     "both_orders": 0.001,
+     "hfi": 0.541,
+     "pol_ex": 0.583,
+     "both_pos": 0.368
+    }
+   },
+   {
+    "system": "ur3_legend_w",
+    "group": "genre",
+    "n": 800,
+    "d": 8.591,
+    "d_pooled": 3.184,
+    "ci": [
+     8.574,
+     8.61
+    ],
+    "z": {
+     "len1": 1.137,
+     "standalone": 20.774,
+     "both_orders": 0.565,
+     "hfi": -1.519,
+     "pol_ex": -2.082,
+     "both_pos": 1.73
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.055,
+     "hfi": 0.756,
+     "pol_ex": 0.506,
+     "both_pos": 0.416
+    }
+   },
+   {
+    "system": "greek",
+    "group": "name",
+    "n": 800,
+    "d": 8.731,
+    "d_pooled": 3.267,
+    "ci": [
+     8.719,
+     8.742
+    ],
+    "z": {
+     "len1": -1.295,
+     "standalone": 20.511,
+     "both_orders": 3.932,
+     "hfi": -1.482,
+     "pol_ex": -3.233,
+     "both_pos": 2.622
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.548,
+     "standalone": 0.012,
+     "both_orders": 0.005,
+     "hfi": 0.748,
+     "pol_ex": 0.705,
+     "both_pos": 0.262
+    }
+   },
+   {
+    "system": "khipu",
+    "group": "code",
+    "n": 800,
+    "d": 8.746,
+    "d_pooled": 2.412,
+    "ci": [
+     8.515,
+     8.972
+    ],
+    "z": {
+     "len1": 0.976,
+     "standalone": 13.709,
+     "both_orders": -16.398,
+     "hfi": 0.037,
+     "pol_ex": 0.759,
+     "both_pos": -0.754
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.036,
+     "standalone": 0.308,
+     "both_orders": 0.303,
+     "hfi": 0.447,
+     "pol_ex": 0.012,
+     "both_pos": 0.844
+    }
+   },
+   {
+    "system": "metar",
+    "group": "code",
+    "n": 800,
+    "d": 8.775,
+    "d_pooled": 3.429,
+    "ci": [
+     8.656,
+     8.88
+    ],
+    "z": {
+     "len1": 1.135,
+     "standalone": 20.003,
+     "both_orders": 4.048,
+     "hfi": 1.628,
+     "pol_ex": -4.931,
+     "both_pos": 4.144
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.001,
+     "standalone": 0.034,
+     "both_orders": 0.003,
+     "hfi": 0.131,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "chinese_full",
+    "group": "name",
+    "n": 800,
+    "d": 8.905,
+    "d_pooled": 3.367,
+    "ci": [
+     8.85,
+     8.966
+    ],
+    "z": {
+     "len1": 1.138,
+     "standalone": 20.775,
+     "both_orders": 4.1,
+     "hfi": 1.71,
+     "pol_ex": -3.677,
+     "both_pos": 3.099
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.003,
+     "hfi": 0.115,
+     "pol_ex": 0.782,
+     "both_pos": 0.18
+    }
+   },
+   {
+    "system": "chords",
+    "group": "code",
+    "n": 800,
+    "d": 9.186,
+    "d_pooled": 2.714,
+    "ci": [
+     8.971,
+     9.434
+    ],
+    "z": {
+     "len1": 1.032,
+     "standalone": 16.504,
+     "both_orders": -15.222,
+     "hfi": -0.11,
+     "pol_ex": 0.62,
+     "both_pos": -0.824
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.024,
+     "standalone": 0.186,
+     "both_orders": 0.286,
+     "hfi": 0.476,
+     "pol_ex": 0.037,
+     "both_pos": 0.856
+    }
+   }
+  ],
+  "nearest": "cun_tag_s",
+  "share_nearest": {
+   "cun_tag_s": 0.745,
+   "egyptian": 0.255,
+   "old_norse": 0.0,
+   "plains": 0.0,
+   "lina_label_s": 0.0,
+   "ur3_title_w": 0.0,
+   "old_high_german": 0.0,
+   "sangam": 0.0,
+   "pe_entry_s": 0.0,
+   "old_english": 0.0,
+   "ob_legend_s": 0.0,
+   "lat_label_w": 0.0,
+   "emoji": 0.0,
+   "egy_title_l": 0.0,
+   "ur3": 0.0,
+   "ur3_legend_s": 0.0,
+   "pc_entry_s": 0.0,
+   "chess_eco": 0.0,
+   "linb_entry_w": 0.0,
+   "heraldry_w": 0.0,
+   "chinese_given": 0.0,
+   "egy_phrase_l": 0.0,
+   "sanskrit": 0.0,
+   "ur3_legend_w": 0.0,
+   "greek": 0.0,
+   "khipu": 0.0,
+   "metar": 0.0,
+   "chinese_full": 0.0,
+   "chords": 0.0
+  },
+  "tied_with_nearest": [
+   "cun_tag_s",
+   "egyptian"
+  ],
+  "category": {
+   "genre_lt_name": 0.745,
+   "code_lt_name": 0.0,
+   "genre_lt_code": 1.0
+  },
+  "loso_nearest": {
+   "len1": "cun_tag_s",
+   "standalone": "cun_tag_s",
+   "both_orders": "cun_tag_s",
+   "hfi": "egyptian",
+   "pol_ex": "egyptian",
+   "both_pos": "cun_tag_s"
+  },
+  "label": "peripheral",
+  "nn_d": 1.415,
+  "ref_nn_median": 0.793,
+  "ref_nn_max": 3.694,
+  "best_by_group": {
+   "genre": "cun_tag_s",
+   "code": "emoji",
+   "name": "egyptian"
+  },
+  "nearest_pooled": "cun_tag_s"
+ },
+ "dev_merge": {
+  "ranking": [
+   {
+    "system": "sangam",
+    "group": "name",
+    "n": 540,
+    "d": 0.88,
+    "d_pooled": 0.335,
+    "ci": [
+     0.783,
+     0.983
+    ],
+    "z": {
+     "len1": 0.161,
+     "standalone": 0.682,
+     "both_orders": 1.759,
+     "hfi": -0.107,
+     "pol_ex": -0.847,
+     "both_pos": 0.581
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.627,
+     "both_orders": 0.058,
+     "hfi": 0.449,
+     "pol_ex": 0.126,
+     "both_pos": 0.763
+    },
+    "ref": {
+     "len1": 0.22,
+     "standalone": 0.597,
+     "both_orders": 0.032,
+     "hfi": 0.47,
+     "pol_ex": 0.273,
+     "both_pos": 0.662
+    }
+   },
+   {
+    "system": "cun_tag_s",
+    "group": "genre",
+    "n": 120,
+    "d": 1.283,
+    "d_pooled": 0.84,
+    "ci": [
+     1.126,
+     1.533
+    ],
+    "z": {
+     "len1": 1.062,
+     "standalone": 2.2,
+     "both_orders": -1.224,
+     "hfi": -0.144,
+     "pol_ex": 0.984,
+     "both_pos": -1.193
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.151,
+     "both_orders": 0.031,
+     "hfi": 0.461,
+     "pol_ex": 0.017,
+     "both_pos": 0.794
+    },
+    "ref": {
+     "len1": 0.017,
+     "standalone": 0.055,
+     "both_orders": 0.049,
+     "hfi": 0.489,
+     "pol_ex": -0.154,
+     "both_pos": 1.0
+    }
+   },
+   {
+    "system": "old_high_german",
+    "group": "name",
+    "n": 488,
+    "d": 1.449,
+    "d_pooled": 0.758,
+    "ci": [
+     1.238,
+     1.658
+    ],
+    "z": {
+     "len1": -0.46,
+     "standalone": 2.811,
+     "both_orders": 0.781,
+     "hfi": -0.779,
+     "pol_ex": -1.392,
+     "both_pos": 1.15
+    },
+    "indus": {
+     "len1": 0.258,
+     "standalone": 0.554,
+     "both_orders": 0.057,
+     "hfi": 0.452,
+     "pol_ex": 0.117,
+     "both_pos": 0.76
+    },
+    "ref": {
+     "len1": 0.362,
+     "standalone": 0.431,
+     "both_orders": 0.046,
+     "hfi": 0.606,
+     "pol_ex": 0.359,
+     "both_pos": 0.562
+    }
+   },
+   {
+    "system": "egyptian",
+    "group": "name",
+    "n": 171,
+    "d": 1.479,
+    "d_pooled": 0.833,
+    "ci": [
+     1.288,
+     1.695
+    ],
+    "z": {
+     "len1": -0.803,
+     "standalone": -3.049,
+     "both_orders": 0.029,
+     "hfi": 0.831,
+     "pol_ex": -1.501,
+     "both_pos": 0.494
+    },
+    "indus": {
+     "len1": 0.258,
+     "standalone": 0.184,
+     "both_orders": 0.036,
+     "hfi": 0.431,
+     "pol_ex": 0.09,
+     "both_pos": 0.732
+    },
+    "ref": {
+     "len1": 0.439,
+     "standalone": 0.317,
+     "both_orders": 0.035,
+     "hfi": 0.266,
+     "pol_ex": 0.351,
+     "both_pos": 0.647
+    }
+   },
+   {
+    "system": "plains",
+    "group": "name",
+    "n": 101,
+    "d": 1.636,
+    "d_pooled": 1.099,
+    "ci": [
+     1.441,
+     1.925
+    ],
+    "z": {
+     "len1": 0.947,
+     "standalone": 1.5,
+     "both_orders": 1.667,
+     "hfi": -0.268,
+     "pol_ex": -2.474,
+     "both_pos": 1.987
+    },
+    "indus": {
+     "len1": 0.253,
+     "standalone": 0.102,
+     "both_orders": 0.028,
+     "hfi": 0.397,
+     "pol_ex": 0.045,
+     "both_pos": 0.778
+    },
+    "ref": {
+     "len1": 0.04,
+     "standalone": 0.036,
+     "both_orders": 0.004,
+     "hfi": 0.45,
+     "pol_ex": 0.474,
+     "both_pos": 0.435
+    }
+   },
+   {
+    "system": "sanskrit",
+    "group": "name",
+    "n": 800,
+    "d": 2.235,
+    "d_pooled": 0.46,
+    "ci": [
+     2.123,
+     2.337
+    ],
+    "z": {
+     "len1": 0.08,
+     "standalone": 5.154,
+     "both_orders": 1.81,
+     "hfi": -0.278,
+     "pol_ex": -0.197,
+     "both_pos": 0.008
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.238,
+     "standalone": 0.682,
+     "both_orders": 0.036,
+     "hfi": 0.509,
+     "pol_ex": 0.178,
+     "both_pos": 0.713
+    }
+   },
+   {
+    "system": "old_norse",
+    "group": "name",
+    "n": 159,
+    "d": 2.585,
+    "d_pooled": 1.377,
+    "ci": [
+     2.354,
+     2.846
+    ],
+    "z": {
+     "len1": -1.454,
+     "standalone": -4.873,
+     "both_orders": 2.09,
+     "hfi": -0.541,
+     "pol_ex": -2.243,
+     "both_pos": 2.13
+    },
+    "indus": {
+     "len1": 0.265,
+     "standalone": 0.165,
+     "both_orders": 0.034,
+     "hfi": 0.433,
+     "pol_ex": 0.083,
+     "both_pos": 0.74
+    },
+    "ref": {
+     "len1": 0.592,
+     "standalone": 0.378,
+     "both_orders": 0.004,
+     "hfi": 0.54,
+     "pol_ex": 0.472,
+     "both_pos": 0.373
+    }
+   },
+   {
+    "system": "lat_label_w",
+    "group": "genre",
+    "n": 800,
+    "d": 2.983,
+    "d_pooled": 0.624,
+    "ci": [
+     2.855,
+     3.119
+    ],
+    "z": {
+     "len1": 0.406,
+     "standalone": 6.166,
+     "both_orders": -3.891,
+     "hfi": -0.127,
+     "pol_ex": -0.146,
+     "both_pos": -0.199
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.165,
+     "standalone": 0.638,
+     "both_orders": 0.12,
+     "hfi": 0.479,
+     "pol_ex": 0.17,
+     "both_pos": 0.749
+    }
+   },
+   {
+    "system": "egy_phrase_l",
+    "group": "genre",
+    "n": 800,
+    "d": 3.182,
+    "d_pooled": 0.698,
+    "ci": [
+     3.083,
+     3.286
+    ],
+    "z": {
+     "len1": 0.503,
+     "standalone": 6.893,
+     "both_orders": -3.572,
+     "hfi": 0.176,
+     "pol_ex": -0.42,
+     "both_pos": 0.166
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.143,
+     "standalone": 0.606,
+     "both_orders": 0.115,
+     "hfi": 0.419,
+     "pol_ex": 0.217,
+     "both_pos": 0.686
+    }
+   },
+   {
+    "system": "linb_entry_w",
+    "group": "genre",
+    "n": 800,
+    "d": 3.399,
+    "d_pooled": 0.773,
+    "ci": [
+     3.317,
+     3.514
+    ],
+    "z": {
+     "len1": 0.572,
+     "standalone": 7.893,
+     "both_orders": -2.49,
+     "hfi": -0.154,
+     "pol_ex": -0.628,
+     "both_pos": 0.256
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.127,
+     "standalone": 0.562,
+     "both_orders": 0.099,
+     "hfi": 0.485,
+     "pol_ex": 0.253,
+     "both_pos": 0.67
+    }
+   },
+   {
+    "system": "pe_entry_s",
+    "group": "genre",
+    "n": 800,
+    "d": 3.417,
+    "d_pooled": 0.788,
+    "ci": [
+     3.244,
+     3.605
+    ],
+    "z": {
+     "len1": 0.476,
+     "standalone": 7.895,
+     "both_orders": -2.656,
+     "hfi": -0.545,
+     "pol_ex": 0.069,
+     "both_pos": -0.364
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.149,
+     "standalone": 0.562,
+     "both_orders": 0.102,
+     "hfi": 0.562,
+     "pol_ex": 0.132,
+     "both_pos": 0.777
+    }
+   },
+   {
+    "system": "greek",
+    "group": "name",
+    "n": 800,
+    "d": 3.583,
+    "d_pooled": 1.046,
+    "ci": [
+     3.473,
+     3.713
+    ],
+    "z": {
+     "len1": -0.29,
+     "standalone": 8.091,
+     "both_orders": 2.529,
+     "hfi": -1.005,
+     "pol_ex": -1.613,
+     "both_pos": 1.218
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.322,
+     "standalone": 0.554,
+     "both_orders": 0.026,
+     "hfi": 0.654,
+     "pol_ex": 0.424,
+     "both_pos": 0.504
+    }
+   },
+   {
+    "system": "egy_title_l",
+    "group": "genre",
+    "n": 800,
+    "d": 3.695,
+    "d_pooled": 0.771,
+    "ci": [
+     3.633,
+     3.746
+    ],
+    "z": {
+     "len1": 0.437,
+     "standalone": 7.551,
+     "both_orders": -4.915,
+     "hfi": -0.069,
+     "pol_ex": -0.623,
+     "both_pos": 0.393
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.158,
+     "standalone": 0.577,
+     "both_orders": 0.135,
+     "hfi": 0.468,
+     "pol_ex": 0.252,
+     "both_pos": 0.647
+    }
+   },
+   {
+    "system": "pc_entry_s",
+    "group": "genre",
+    "n": 800,
+    "d": 4.202,
+    "d_pooled": 0.992,
+    "ci": [
+     4.101,
+     4.33
+    ],
+    "z": {
+     "len1": 0.735,
+     "standalone": 9.916,
+     "both_orders": -2.417,
+     "hfi": -0.209,
+     "pol_ex": 0.731,
+     "both_pos": -0.81
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.091,
+     "standalone": 0.474,
+     "both_orders": 0.098,
+     "hfi": 0.496,
+     "pol_ex": 0.017,
+     "both_pos": 0.854
+    }
+   },
+   {
+    "system": "lina_label_s",
+    "group": "genre",
+    "n": 228,
+    "d": 4.385,
+    "d_pooled": 0.833,
+    "ci": [
+     4.153,
+     4.599
+    ],
+    "z": {
+     "len1": 0.162,
+     "standalone": -9.118,
+     "both_orders": -5.667,
+     "hfi": -0.031,
+     "pol_ex": 0.249,
+     "both_pos": 0.099
+    },
+    "indus": {
+     "len1": 0.251,
+     "standalone": 0.23,
+     "both_orders": 0.041,
+     "hfi": 0.443,
+     "pol_ex": 0.1,
+     "both_pos": 0.751
+    },
+    "ref": {
+     "len1": 0.215,
+     "standalone": 0.628,
+     "both_orders": 0.124,
+     "hfi": 0.449,
+     "pol_ex": 0.057,
+     "both_pos": 0.734
+    }
+   },
+   {
+    "system": "old_english",
+    "group": "name",
+    "n": 800,
+    "d": 4.651,
+    "d_pooled": 1.346,
+    "ci": [
+     4.48,
+     4.807
+    ],
+    "z": {
+     "len1": 0.323,
+     "standalone": 10.868,
+     "both_orders": 1.192,
+     "hfi": -0.911,
+     "pol_ex": -2.181,
+     "both_pos": 2.138
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.184,
+     "standalone": 0.432,
+     "both_orders": 0.045,
+     "hfi": 0.635,
+     "pol_ex": 0.523,
+     "both_pos": 0.346
+    }
+   },
+   {
+    "system": "ur3_title_w",
+    "group": "genre",
+    "n": 800,
+    "d": 4.845,
+    "d_pooled": 1.085,
+    "ci": [
+     4.582,
+     5.168
+    ],
+    "z": {
+     "len1": 0.911,
+     "standalone": 7.338,
+     "both_orders": -9.234,
+     "hfi": -0.309,
+     "pol_ex": 0.491,
+     "both_pos": -0.771
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.051,
+     "standalone": 0.586,
+     "both_orders": 0.198,
+     "hfi": 0.515,
+     "pol_ex": 0.059,
+     "both_pos": 0.847
+    }
+   },
+   {
+    "system": "ur3",
+    "group": "name",
+    "n": 800,
+    "d": 5.193,
+    "d_pooled": 1.346,
+    "ci": [
+     5.085,
+     5.308
+    ],
+    "z": {
+     "len1": 0.798,
+     "standalone": 12.289,
+     "both_orders": -2.233,
+     "hfi": 0.97,
+     "pol_ex": -1.916,
+     "both_pos": 0.73
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.076,
+     "standalone": 0.37,
+     "both_orders": 0.096,
+     "hfi": 0.262,
+     "pol_ex": 0.477,
+     "both_pos": 0.588
+    }
+   },
+   {
+    "system": "emoji",
+    "group": "code",
+    "n": 800,
+    "d": 5.612,
+    "d_pooled": 1.661,
+    "ci": [
+     5.449,
+     5.793
+    ],
+    "z": {
+     "len1": 0.246,
+     "standalone": 13.18,
+     "both_orders": -1.345,
+     "hfi": -1.697,
+     "pol_ex": -2.778,
+     "both_pos": 1.666
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.201,
+     "standalone": 0.331,
+     "both_orders": 0.083,
+     "hfi": 0.791,
+     "pol_ex": 0.626,
+     "both_pos": 0.427
+    }
+   },
+   {
+    "system": "chinese_given",
+    "group": "name",
+    "n": 800,
+    "d": 5.836,
+    "d_pooled": 1.292,
+    "ci": [
+     5.657,
+     5.977
+    ],
+    "z": {
+     "len1": 0.936,
+     "standalone": 14.225,
+     "both_orders": 1.021,
+     "hfi": -0.262,
+     "pol_ex": 0.105,
+     "both_pos": -0.071
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.045,
+     "standalone": 0.286,
+     "both_orders": 0.048,
+     "hfi": 0.506,
+     "pol_ex": 0.126,
+     "both_pos": 0.727
+    }
+   },
+   {
+    "system": "ob_legend_s",
+    "group": "genre",
+    "n": 800,
+    "d": 7.676,
+    "d_pooled": 1.658,
+    "ci": [
+     7.529,
+     7.832
+    ],
+    "z": {
+     "len1": 1.108,
+     "standalone": 17.914,
+     "both_orders": -5.533,
+     "hfi": 0.229,
+     "pol_ex": -0.696,
+     "both_pos": 0.441
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.007,
+     "standalone": 0.125,
+     "both_orders": 0.144,
+     "hfi": 0.409,
+     "pol_ex": 0.265,
+     "both_pos": 0.638
+    }
+   },
+   {
+    "system": "ur3_legend_s",
+    "group": "genre",
+    "n": 800,
+    "d": 8.01,
+    "d_pooled": 1.758,
+    "ci": [
+     7.739,
+     8.286
+    ],
+    "z": {
+     "len1": 1.127,
+     "standalone": 18.939,
+     "both_orders": -4.888,
+     "hfi": 0.673,
+     "pol_ex": 0.629,
+     "both_pos": -0.505
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.003,
+     "standalone": 0.08,
+     "both_orders": 0.135,
+     "hfi": 0.321,
+     "pol_ex": 0.035,
+     "both_pos": 0.801
+    }
+   },
+   {
+    "system": "chinese_full",
+    "group": "name",
+    "n": 800,
+    "d": 8.497,
+    "d_pooled": 1.818,
+    "ci": [
+     8.495,
+     8.5
+    ],
+    "z": {
+     "len1": 1.138,
+     "standalone": 20.775,
+     "both_orders": -0.207,
+     "hfi": 0.258,
+     "pol_ex": -0.23,
+     "both_pos": 0.334
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.066,
+     "hfi": 0.403,
+     "pol_ex": 0.184,
+     "both_pos": 0.657
+    }
+   },
+   {
+    "system": "chess_eco",
+    "group": "code",
+    "n": 800,
+    "d": 8.509,
+    "d_pooled": 2.463,
+    "ci": [
+     8.293,
+     8.697
+    ],
+    "z": {
+     "len1": 1.087,
+     "standalone": 15.119,
+     "both_orders": -12.876,
+     "hfi": 1.131,
+     "pol_ex": -4.718,
+     "both_pos": 3.911
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.011,
+     "standalone": 0.247,
+     "both_orders": 0.252,
+     "hfi": 0.23,
+     "pol_ex": 0.963,
+     "both_pos": 0.04
+    }
+   },
+   {
+    "system": "metar",
+    "group": "code",
+    "n": 800,
+    "d": 8.628,
+    "d_pooled": 2.648,
+    "ci": [
+     8.509,
+     8.749
+    ],
+    "z": {
+     "len1": 1.135,
+     "standalone": 20.014,
+     "both_orders": 1.076,
+     "hfi": 1.463,
+     "pol_ex": -4.931,
+     "both_pos": 4.144
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.001,
+     "standalone": 0.033,
+     "both_orders": 0.047,
+     "hfi": 0.164,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "ur3_legend_w",
+    "group": "genre",
+    "n": 800,
+    "d": 9.03,
+    "d_pooled": 2.054,
+    "ci": [
+     8.985,
+     9.075
+    ],
+    "z": {
+     "len1": 1.137,
+     "standalone": 20.754,
+     "both_orders": -7.273,
+     "hfi": -1.364,
+     "pol_ex": -1.529,
+     "both_pos": 0.349
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.001,
+     "both_orders": 0.17,
+     "hfi": 0.725,
+     "pol_ex": 0.409,
+     "both_pos": 0.654
+    }
+   },
+   {
+    "system": "heraldry_w",
+    "group": "genre",
+    "n": 800,
+    "d": 9.079,
+    "d_pooled": 2.293,
+    "ci": [
+     8.853,
+     9.212
+    ],
+    "z": {
+     "len1": 1.131,
+     "standalone": 19.882,
+     "both_orders": -9.091,
+     "hfi": 1.701,
+     "pol_ex": -2.683,
+     "both_pos": 2.298
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.001,
+     "standalone": 0.039,
+     "both_orders": 0.196,
+     "hfi": 0.117,
+     "pol_ex": 0.61,
+     "both_pos": 0.318
+    }
+   },
+   {
+    "system": "khipu",
+    "group": "code",
+    "n": 800,
+    "d": 9.731,
+    "d_pooled": 1.854,
+    "ci": [
+     9.471,
+     9.955
+    ],
+    "z": {
+     "len1": 1.004,
+     "standalone": 13.503,
+     "both_orders": -19.592,
+     "hfi": 0.071,
+     "pol_ex": 0.61,
+     "both_pos": -0.758
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.03,
+     "standalone": 0.317,
+     "both_orders": 0.35,
+     "hfi": 0.44,
+     "pol_ex": 0.038,
+     "both_pos": 0.845
+    }
+   },
+   {
+    "system": "chords",
+    "group": "code",
+    "n": 800,
+    "d": 9.74,
+    "d_pooled": 1.882,
+    "ci": [
+     9.51,
+     9.922
+    ],
+    "z": {
+     "len1": 1.03,
+     "standalone": 15.315,
+     "both_orders": -18.243,
+     "hfi": -0.127,
+     "pol_ex": 0.587,
+     "both_pos": -0.686
+    },
+    "indus": {
+     "len1": 0.256,
+     "standalone": 0.907,
+     "both_orders": 0.063,
+     "hfi": 0.454,
+     "pol_ex": 0.144,
+     "both_pos": 0.714
+    },
+    "ref": {
+     "len1": 0.024,
+     "standalone": 0.238,
+     "both_orders": 0.331,
+     "hfi": 0.48,
+     "pol_ex": 0.042,
+     "both_pos": 0.832
+    }
+   }
+  ],
+  "nearest": "sangam",
+  "share_nearest": {
+   "sangam": 1.0,
+   "cun_tag_s": 0.0,
+   "old_high_german": 0.0,
+   "egyptian": 0.0,
+   "plains": 0.0,
+   "sanskrit": 0.0,
+   "old_norse": 0.0,
+   "lat_label_w": 0.0,
+   "egy_phrase_l": 0.0,
+   "linb_entry_w": 0.0,
+   "pe_entry_s": 0.0,
+   "greek": 0.0,
+   "egy_title_l": 0.0,
+   "pc_entry_s": 0.0,
+   "lina_label_s": 0.0,
+   "old_english": 0.0,
+   "ur3_title_w": 0.0,
+   "ur3": 0.0,
+   "emoji": 0.0,
+   "chinese_given": 0.0,
+   "ob_legend_s": 0.0,
+   "ur3_legend_s": 0.0,
+   "chinese_full": 0.0,
+   "chess_eco": 0.0,
+   "metar": 0.0,
+   "ur3_legend_w": 0.0,
+   "heraldry_w": 0.0,
+   "khipu": 0.0,
+   "chords": 0.0
+  },
+  "tied_with_nearest": [
+   "sangam"
+  ],
+  "category": {
+   "genre_lt_name": 0.0,
+   "code_lt_name": 0.0,
+   "genre_lt_code": 1.0
+  },
+  "loso_nearest": {
+   "len1": "sangam",
+   "standalone": "chinese_full",
+   "both_orders": "sangam",
+   "hfi": "sangam",
+   "pol_ex": "sangam",
+   "both_pos": "sangam"
+  },
+  "label": "typical",
+  "nn_d": 0.88,
+  "ref_nn_median": 0.916,
+  "ref_nn_max": 3.041,
+  "best_by_group": {
+   "genre": "cun_tag_s",
+   "code": "emoji",
+   "name": "sangam"
+  },
+  "nearest_pooled": "sangam"
+ },
+ "dev_sym": {
+  "ranking": [
+   {
+    "system": "plains",
+    "group": "name",
+    "n": 101,
+    "d": 0.708,
+    "d_pooled": 0.381,
+    "ci": [
+     0.489,
+     0.999
+    ],
+    "z": {
+     "len1": 0.207,
+     "standalone": -0.866,
+     "both_orders": 0.964,
+     "hfi": -0.07,
+     "pol_ex": -0.914,
+     "both_pos": 0.666
+    },
+    "indus": {
+     "len1": 0.163,
+     "standalone": 0.083,
+     "both_orders": 0.019,
+     "hfi": 0.402,
+     "pol_ex": 0.27,
+     "both_pos": 0.578
+    },
+    "ref": {
+     "len1": 0.116,
+     "standalone": 0.121,
+     "both_orders": 0.005,
+     "hfi": 0.415,
+     "pol_ex": 0.428,
+     "both_pos": 0.463
+    }
+   },
+   {
+    "system": "linb_entry_w",
+    "group": "genre",
+    "n": 800,
+    "d": 1.148,
+    "d_pooled": 0.586,
+    "ci": [
+     0.971,
+     1.355
+    ],
+    "z": {
+     "len1": -0.257,
+     "standalone": -2.54,
+     "both_orders": -0.61,
+     "hfi": -0.572,
+     "pol_ex": 0.804,
+     "both_pos": -0.213
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.22,
+     "standalone": 0.71,
+     "both_orders": 0.071,
+     "hfi": 0.532,
+     "pol_ex": 0.105,
+     "both_pos": 0.774
+    }
+   },
+   {
+    "system": "pc_entry_s",
+    "group": "genre",
+    "n": 800,
+    "d": 1.251,
+    "d_pooled": 0.65,
+    "ci": [
+     1.152,
+     1.36
+    ],
+    "z": {
+     "len1": 0.119,
+     "standalone": 1.147,
+     "both_orders": -2.213,
+     "hfi": -0.369,
+     "pol_ex": 1.471,
+     "both_pos": -0.933
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.135,
+     "standalone": 0.549,
+     "both_orders": 0.095,
+     "hfi": 0.492,
+     "pol_ex": -0.011,
+     "both_pos": 0.898
+    }
+   },
+   {
+    "system": "lat_label_w",
+    "group": "genre",
+    "n": 800,
+    "d": 1.408,
+    "d_pooled": 0.576,
+    "ci": [
+     1.295,
+     1.542
+    ],
+    "z": {
+     "len1": -0.212,
+     "standalone": -1.714,
+     "both_orders": -2.557,
+     "hfi": -0.303,
+     "pol_ex": 1.325,
+     "both_pos": -0.726
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.21,
+     "standalone": 0.674,
+     "both_orders": 0.1,
+     "hfi": 0.479,
+     "pol_ex": 0.015,
+     "both_pos": 0.862
+    }
+   },
+   {
+    "system": "pe_entry_s",
+    "group": "genre",
+    "n": 800,
+    "d": 1.422,
+    "d_pooled": 0.625,
+    "ci": [
+     1.336,
+     1.514
+    ],
+    "z": {
+     "len1": -0.293,
+     "standalone": -0.264,
+     "both_orders": -3.169,
+     "hfi": -0.495,
+     "pol_ex": 1.151,
+     "both_pos": -0.604
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.228,
+     "standalone": 0.611,
+     "both_orders": 0.109,
+     "hfi": 0.517,
+     "pol_ex": 0.045,
+     "both_pos": 0.842
+    }
+   },
+   {
+    "system": "chinese_full",
+    "group": "name",
+    "n": 800,
+    "d": 1.628,
+    "d_pooled": 0.588,
+    "ci": [
+     1.425,
+     1.869
+    ],
+    "z": {
+     "len1": 0.238,
+     "standalone": 3.81,
+     "both_orders": 0.035,
+     "hfi": -0.458,
+     "pol_ex": 0.882,
+     "both_pos": -0.576
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.108,
+     "standalone": 0.433,
+     "both_orders": 0.062,
+     "hfi": 0.509,
+     "pol_ex": 0.092,
+     "both_pos": 0.837
+    }
+   },
+   {
+    "system": "egy_phrase_l",
+    "group": "genre",
+    "n": 800,
+    "d": 1.661,
+    "d_pooled": 0.369,
+    "ci": [
+     1.545,
+     1.828
+    ],
+    "z": {
+     "len1": -0.238,
+     "standalone": -2.181,
+     "both_orders": -3.351,
+     "hfi": -0.131,
+     "pol_ex": 0.645,
+     "both_pos": -0.273
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.216,
+     "standalone": 0.695,
+     "both_orders": 0.111,
+     "hfi": 0.444,
+     "pol_ex": 0.133,
+     "both_pos": 0.784
+    }
+   },
+   {
+    "system": "ur3",
+    "group": "name",
+    "n": 800,
+    "d": 1.768,
+    "d_pooled": 0.62,
+    "ci": [
+     1.647,
+     1.887
+    ],
+    "z": {
+     "len1": -0.106,
+     "standalone": 0.723,
+     "both_orders": -4.054,
+     "hfi": -0.488,
+     "pol_ex": 1.129,
+     "both_pos": -0.513
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.186,
+     "standalone": 0.568,
+     "both_orders": 0.122,
+     "hfi": 0.515,
+     "pol_ex": 0.049,
+     "both_pos": 0.826
+    }
+   },
+   {
+    "system": "cun_tag_s",
+    "group": "genre",
+    "n": 131,
+    "d": 1.867,
+    "d_pooled": 1.534,
+    "ci": [
+     1.461,
+     2.339
+    ],
+    "z": {
+     "len1": 0.411,
+     "standalone": -0.665,
+     "both_orders": -1.248,
+     "hfi": -0.903,
+     "pol_ex": 3.632,
+     "both_pos": -2.174
+    },
+    "indus": {
+     "len1": 0.16,
+     "standalone": 0.095,
+     "both_orders": 0.025,
+     "hfi": 0.365,
+     "pol_ex": 0.279,
+     "both_pos": 0.625
+    },
+    "ref": {
+     "len1": 0.068,
+     "standalone": 0.124,
+     "both_orders": 0.043,
+     "hfi": 0.545,
+     "pol_ex": -0.351,
+     "both_pos": 1.0
+    }
+   },
+   {
+    "system": "emoji",
+    "group": "code",
+    "n": 800,
+    "d": 2.336,
+    "d_pooled": 2.632,
+    "ci": [
+     2.269,
+     2.426
+    ],
+    "z": {
+     "len1": -1.643,
+     "standalone": -1.312,
+     "both_orders": 1.002,
+     "hfi": -2.419,
+     "pol_ex": -3.12,
+     "both_pos": 3.426
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.532,
+     "standalone": 0.657,
+     "both_orders": 0.047,
+     "hfi": 0.899,
+     "pol_ex": 0.786,
+     "both_pos": 0.147
+    }
+   },
+   {
+    "system": "egyptian",
+    "group": "name",
+    "n": 170,
+    "d": 2.408,
+    "d_pooled": 0.74,
+    "ci": [
+     2.179,
+     2.676
+    ],
+    "z": {
+     "len1": -1.333,
+     "standalone": -5.645,
+     "both_orders": -0.464,
+     "hfi": -0.19,
+     "pol_ex": -0.819,
+     "both_pos": 0.481
+    },
+    "indus": {
+     "len1": 0.154,
+     "standalone": 0.142,
+     "both_orders": 0.032,
+     "hfi": 0.393,
+     "pol_ex": 0.215,
+     "both_pos": 0.684
+    },
+    "ref": {
+     "len1": 0.454,
+     "standalone": 0.388,
+     "both_orders": 0.038,
+     "hfi": 0.431,
+     "pol_ex": 0.357,
+     "both_pos": 0.602
+    }
+   },
+   {
+    "system": "egy_title_l",
+    "group": "genre",
+    "n": 800,
+    "d": 2.489,
+    "d_pooled": 0.754,
+    "ci": [
+     2.347,
+     2.634
+    ],
+    "z": {
+     "len1": -0.099,
+     "standalone": -3.303,
+     "both_orders": -5.06,
+     "hfi": -0.739,
+     "pol_ex": -0.007,
+     "both_pos": 0.337
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.184,
+     "standalone": 0.743,
+     "both_orders": 0.136,
+     "hfi": 0.565,
+     "pol_ex": 0.246,
+     "both_pos": 0.679
+    }
+   },
+   {
+    "system": "sanskrit",
+    "group": "name",
+    "n": 800,
+    "d": 2.584,
+    "d_pooled": 0.992,
+    "ci": [
+     2.421,
+     2.784
+    ],
+    "z": {
+     "len1": -1.835,
+     "standalone": -5.002,
+     "both_orders": 3.077,
+     "hfi": -0.411,
+     "pol_ex": 1.289,
+     "both_pos": -0.601
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.575,
+     "standalone": 0.818,
+     "both_orders": 0.017,
+     "hfi": 0.5,
+     "pol_ex": 0.021,
+     "both_pos": 0.841
+    }
+   },
+   {
+    "system": "greek",
+    "group": "name",
+    "n": 800,
+    "d": 2.743,
+    "d_pooled": 1.146,
+    "ci": [
+     2.544,
+     2.951
+    ],
+    "z": {
+     "len1": -1.716,
+     "standalone": -5.773,
+     "both_orders": 2.676,
+     "hfi": -0.877,
+     "pol_ex": -0.286,
+     "both_pos": 0.934
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.548,
+     "standalone": 0.851,
+     "both_orders": 0.023,
+     "hfi": 0.593,
+     "pol_ex": 0.294,
+     "both_pos": 0.576
+    }
+   },
+   {
+    "system": "old_norse",
+    "group": "name",
+    "n": 159,
+    "d": 2.832,
+    "d_pooled": 1.209,
+    "ci": [
+     2.6,
+     3.05
+    ],
+    "z": {
+     "len1": -1.904,
+     "standalone": -6.063,
+     "both_orders": 1.817,
+     "hfi": -0.608,
+     "pol_ex": -1.236,
+     "both_pos": 1.595
+    },
+    "indus": {
+     "len1": 0.163,
+     "standalone": 0.113,
+     "both_orders": 0.03,
+     "hfi": 0.419,
+     "pol_ex": 0.257,
+     "both_pos": 0.648
+    },
+    "ref": {
+     "len1": 0.592,
+     "standalone": 0.378,
+     "both_orders": 0.004,
+     "hfi": 0.54,
+     "pol_ex": 0.472,
+     "both_pos": 0.373
+    }
+   },
+   {
+    "system": "sangam",
+    "group": "name",
+    "n": 530,
+    "d": 3.007,
+    "d_pooled": 0.734,
+    "ci": [
+     2.726,
+     3.321
+    ],
+    "z": {
+     "len1": -0.582,
+     "standalone": -7.197,
+     "both_orders": 1.19,
+     "hfi": -0.476,
+     "pol_ex": 0.655,
+     "both_pos": 0.221
+    },
+    "indus": {
+     "len1": 0.165,
+     "standalone": 0.405,
+     "both_orders": 0.051,
+     "hfi": 0.406,
+     "pol_ex": 0.257,
+     "both_pos": 0.732
+    },
+    "ref": {
+     "len1": 0.296,
+     "standalone": 0.719,
+     "both_orders": 0.033,
+     "hfi": 0.501,
+     "pol_ex": 0.143,
+     "both_pos": 0.694
+    }
+   },
+   {
+    "system": "ob_legend_s",
+    "group": "genre",
+    "n": 800,
+    "d": 3.307,
+    "d_pooled": 0.679,
+    "ci": [
+     3.109,
+     3.488
+    ],
+    "z": {
+     "len1": 0.6,
+     "standalone": 4.383,
+     "both_orders": -6.694,
+     "hfi": -0.163,
+     "pol_ex": 1.069,
+     "both_pos": -0.268
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.027,
+     "standalone": 0.408,
+     "both_orders": 0.16,
+     "hfi": 0.451,
+     "pol_ex": 0.059,
+     "both_pos": 0.783
+    }
+   },
+   {
+    "system": "chinese_given",
+    "group": "name",
+    "n": 800,
+    "d": 3.325,
+    "d_pooled": 1.268,
+    "ci": [
+     3.126,
+     3.518
+    ],
+    "z": {
+     "len1": -2.601,
+     "standalone": -6.572,
+     "both_orders": 3.764,
+     "hfi": -0.425,
+     "pol_ex": 1.353,
+     "both_pos": -0.424
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.748,
+     "standalone": 0.886,
+     "both_orders": 0.007,
+     "hfi": 0.503,
+     "pol_ex": 0.01,
+     "both_pos": 0.81
+    }
+   },
+   {
+    "system": "ur3_legend_s",
+    "group": "genre",
+    "n": 800,
+    "d": 3.796,
+    "d_pooled": 0.778,
+    "ci": [
+     3.514,
+     4.087
+    ],
+    "z": {
+     "len1": 0.598,
+     "standalone": 7.781,
+     "both_orders": -5.024,
+     "hfi": -0.398,
+     "pol_ex": 0.424,
+     "both_pos": -0.037
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.027,
+     "standalone": 0.26,
+     "both_orders": 0.136,
+     "hfi": 0.497,
+     "pol_ex": 0.171,
+     "both_pos": 0.744
+    }
+   },
+   {
+    "system": "metar",
+    "group": "code",
+    "n": 800,
+    "d": 4.002,
+    "d_pooled": 2.218,
+    "ci": [
+     3.728,
+     4.338
+    ],
+    "z": {
+     "len1": 0.686,
+     "standalone": 8.215,
+     "both_orders": 1.457,
+     "hfi": -1.741,
+     "pol_ex": -3.838,
+     "both_pos": 2.872
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.007,
+     "standalone": 0.241,
+     "both_orders": 0.041,
+     "hfi": 0.764,
+     "pol_ex": 0.911,
+     "both_pos": 0.242
+    }
+   },
+   {
+    "system": "ur3_legend_w",
+    "group": "genre",
+    "n": 800,
+    "d": 4.401,
+    "d_pooled": 1.052,
+    "ci": [
+     4.103,
+     4.686
+    ],
+    "z": {
+     "len1": 0.532,
+     "standalone": 7.117,
+     "both_orders": -7.899,
+     "hfi": -0.658,
+     "pol_ex": 1.334,
+     "both_pos": -0.808
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.042,
+     "standalone": 0.289,
+     "both_orders": 0.178,
+     "hfi": 0.549,
+     "pol_ex": 0.013,
+     "both_pos": 0.877
+    }
+   },
+   {
+    "system": "old_high_german",
+    "group": "name",
+    "n": 423,
+    "d": 4.923,
+    "d_pooled": 1.37,
+    "ci": [
+     4.648,
+     5.183
+    ],
+    "z": {
+     "len1": -2.029,
+     "standalone": -11.421,
+     "both_orders": 2.824,
+     "hfi": -0.598,
+     "pol_ex": -0.957,
+     "both_pos": 1.277
+    },
+    "indus": {
+     "len1": 0.164,
+     "standalone": 0.298,
+     "both_orders": 0.049,
+     "hfi": 0.41,
+     "pol_ex": 0.244,
+     "both_pos": 0.696
+    },
+    "ref": {
+     "len1": 0.621,
+     "standalone": 0.796,
+     "both_orders": 0.007,
+     "hfi": 0.528,
+     "pol_ex": 0.41,
+     "both_pos": 0.476
+    }
+   },
+   {
+    "system": "heraldry_w",
+    "group": "genre",
+    "n": 800,
+    "d": 5.238,
+    "d_pooled": 1.259,
+    "ci": [
+     4.953,
+     5.445
+    ],
+    "z": {
+     "len1": 0.618,
+     "standalone": 9.899,
+     "both_orders": -8.07,
+     "hfi": -1.011,
+     "pol_ex": 0.362,
+     "both_pos": 0.027
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.023,
+     "standalone": 0.167,
+     "both_orders": 0.181,
+     "hfi": 0.619,
+     "pol_ex": 0.182,
+     "both_pos": 0.733
+    }
+   },
+   {
+    "system": "ur3_title_w",
+    "group": "genre",
+    "n": 800,
+    "d": 5.3,
+    "d_pooled": 1.119,
+    "ci": [
+     5.153,
+     5.453
+    ],
+    "z": {
+     "len1": 0.186,
+     "standalone": -5.703,
+     "both_orders": -11.453,
+     "hfi": -0.348,
+     "pol_ex": 1.753,
+     "both_pos": -1.269
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.12,
+     "standalone": 0.848,
+     "both_orders": 0.23,
+     "hfi": 0.488,
+     "pol_ex": -0.06,
+     "both_pos": 0.956
+    }
+   },
+   {
+    "system": "chess_eco",
+    "group": "code",
+    "n": 800,
+    "d": 5.604,
+    "d_pooled": 0.911,
+    "ci": [
+     5.462,
+     5.785
+    ],
+    "z": {
+     "len1": 0.511,
+     "standalone": 0.072,
+     "both_orders": -13.698,
+     "hfi": -0.0,
+     "pol_ex": 0.739,
+     "both_pos": 0.0
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.047,
+     "standalone": 0.596,
+     "both_orders": 0.263,
+     "hfi": 0.419,
+     "pol_ex": 0.116,
+     "both_pos": 0.737
+    }
+   },
+   {
+    "system": "old_english",
+    "group": "name",
+    "n": 446,
+    "d": 5.772,
+    "d_pooled": 1.766,
+    "ci": [
+     5.502,
+     6.021
+    ],
+    "z": {
+     "len1": -2.882,
+     "standalone": -13.377,
+     "both_orders": 3.327,
+     "hfi": -1.076,
+     "pol_ex": 0.069,
+     "both_pos": 0.638
+    },
+    "indus": {
+     "len1": 0.161,
+     "standalone": 0.33,
+     "both_orders": 0.05,
+     "hfi": 0.411,
+     "pol_ex": 0.24,
+     "both_pos": 0.72
+    },
+    "ref": {
+     "len1": 0.81,
+     "standalone": 0.914,
+     "both_orders": 0.002,
+     "hfi": 0.624,
+     "pol_ex": 0.228,
+     "both_pos": 0.61
+    }
+   },
+   {
+    "system": "lina_label_s",
+    "group": "genre",
+    "n": 226,
+    "d": 5.803,
+    "d_pooled": 1.157,
+    "ci": [
+     5.608,
+     5.977
+    ],
+    "z": {
+     "len1": -0.307,
+     "standalone": -12.884,
+     "both_orders": -5.846,
+     "hfi": -0.488,
+     "pol_ex": 1.194,
+     "both_pos": -0.309
+    },
+    "indus": {
+     "len1": 0.167,
+     "standalone": 0.177,
+     "both_orders": 0.034,
+     "hfi": 0.403,
+     "pol_ex": 0.213,
+     "both_pos": 0.687
+    },
+    "ref": {
+     "len1": 0.236,
+     "standalone": 0.74,
+     "both_orders": 0.12,
+     "hfi": 0.499,
+     "pol_ex": 0.005,
+     "both_pos": 0.74
+    }
+   },
+   {
+    "system": "chords",
+    "group": "code",
+    "n": 800,
+    "d": 8.407,
+    "d_pooled": 1.446,
+    "ci": [
+     8.233,
+     8.572
+    ],
+    "z": {
+     "len1": 0.62,
+     "standalone": 7.784,
+     "both_orders": -19.0,
+     "hfi": -0.362,
+     "pol_ex": 1.26,
+     "both_pos": -0.615
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.022,
+     "standalone": 0.26,
+     "both_orders": 0.341,
+     "hfi": 0.49,
+     "pol_ex": 0.026,
+     "both_pos": 0.843
+    }
+   },
+   {
+    "system": "khipu",
+    "group": "code",
+    "n": 800,
+    "d": 8.883,
+    "d_pooled": 1.492,
+    "ci": [
+     8.711,
+     9.049
+    ],
+    "z": {
+     "len1": 0.585,
+     "standalone": 6.702,
+     "both_orders": -20.641,
+     "hfi": -0.269,
+     "pol_ex": 1.287,
+     "both_pos": -0.637
+    },
+    "indus": {
+     "len1": 0.162,
+     "standalone": 0.599,
+     "both_orders": 0.062,
+     "hfi": 0.419,
+     "pol_ex": 0.245,
+     "both_pos": 0.737
+    },
+    "ref": {
+     "len1": 0.03,
+     "standalone": 0.307,
+     "both_orders": 0.365,
+     "hfi": 0.472,
+     "pol_ex": 0.021,
+     "both_pos": 0.847
+    }
+   }
+  ],
+  "nearest": "plains",
+  "share_nearest": {
+   "plains": 0.985,
+   "linb_entry_w": 0.01,
+   "pc_entry_s": 0.0,
+   "lat_label_w": 0.0,
+   "pe_entry_s": 0.0,
+   "chinese_full": 0.0,
+   "egy_phrase_l": 0.0,
+   "ur3": 0.0,
+   "cun_tag_s": 0.005,
+   "emoji": 0.0,
+   "egyptian": 0.0,
+   "egy_title_l": 0.0,
+   "sanskrit": 0.0,
+   "greek": 0.0,
+   "old_norse": 0.0,
+   "sangam": 0.0,
+   "ob_legend_s": 0.0,
+   "chinese_given": 0.0,
+   "ur3_legend_s": 0.0,
+   "metar": 0.0,
+   "ur3_legend_w": 0.0,
+   "old_high_german": 0.0,
+   "heraldry_w": 0.0,
+   "ur3_title_w": 0.0,
+   "chess_eco": 0.0,
+   "old_english": 0.0,
+   "lina_label_s": 0.0,
+   "chords": 0.0,
+   "khipu": 0.0
+  },
+  "tied_with_nearest": [
+   "plains",
+   "linb_entry_w"
+  ],
+  "category": {
+   "genre_lt_name": 0.015,
+   "code_lt_name": 0.0,
+   "genre_lt_code": 1.0
+  },
+  "loso_nearest": {
+   "len1": "plains",
+   "standalone": "chinese_full",
+   "both_orders": "chess_eco",
+   "hfi": "plains",
+   "pol_ex": "plains",
+   "both_pos": "plains"
+  },
+  "label": "typical",
+  "nn_d": 0.708,
+  "ref_nn_median": 0.833,
+  "ref_nn_max": 2.847,
+  "best_by_group": {
+   "genre": "linb_entry_w",
+   "code": "emoji",
+   "name": "plains"
+  },
+  "nearest_pooled": "egy_phrase_l"
+ },
+ "heldout_raw": {
+  "ranking": [
+   {
+    "system": "lina_label_s",
+    "group": "genre",
+    "n": 228,
+    "d": 2.282,
+    "d_pooled": 0.549,
+    "ci": [
+     2.164,
+     2.378
+    ],
+    "z": {
+     "len1": 0.484,
+     "standalone": -1.9,
+     "both_orders": -5.223,
+     "hfi": 0.021,
+     "pol_ex": 0.215,
+     "both_pos": 0.257
+    },
+    "indus": {
+     "len1": 0.346,
+     "standalone": 0.465,
+     "both_orders": 0.033,
+     "hfi": 0.442,
+     "pol_ex": 0.108,
+     "both_pos": 0.759
+    },
+    "ref": {
+     "len1": 0.237,
+     "standalone": 0.548,
+     "both_orders": 0.11,
+     "hfi": 0.438,
+     "pol_ex": 0.071,
+     "both_pos": 0.714
+    }
+   },
+   {
+    "system": "plains",
+    "group": "name",
+    "n": 101,
+    "d": 2.608,
+    "d_pooled": 1.416,
+    "ci": [
+     2.43,
+     2.869
+    ],
+    "z": {
+     "len1": 1.307,
+     "standalone": 4.095,
+     "both_orders": 1.314,
+     "hfi": 0.236,
+     "pol_ex": -3.525,
+     "both_pos": 2.849
+    },
+    "indus": {
+     "len1": 0.334,
+     "standalone": 0.193,
+     "both_orders": 0.019,
+     "hfi": 0.459,
+     "pol_ex": 0.087,
+     "both_pos": 0.769
+    },
+    "ref": {
+     "len1": 0.04,
+     "standalone": 0.014,
+     "both_orders": 0.0,
+     "hfi": 0.412,
+     "pol_ex": 0.698,
+     "both_pos": 0.278
+    }
+   },
+   {
+    "system": "egyptian",
+    "group": "name",
+    "n": 171,
+    "d": 2.632,
+    "d_pooled": 1.169,
+    "ci": [
+     2.455,
+     2.835
+    ],
+    "z": {
+     "len1": -0.751,
+     "standalone": 5.857,
+     "both_orders": 0.209,
+     "hfi": 1.031,
+     "pol_ex": -2.143,
+     "both_pos": 0.991
+    },
+    "indus": {
+     "len1": 0.34,
+     "standalone": 0.339,
+     "both_orders": 0.027,
+     "hfi": 0.432,
+     "pol_ex": 0.088,
+     "both_pos": 0.771
+    },
+    "ref": {
+     "len1": 0.509,
+     "standalone": 0.083,
+     "both_orders": 0.024,
+     "hfi": 0.227,
+     "pol_ex": 0.46,
+     "both_pos": 0.6
+    }
+   },
+   {
+    "system": "cun_tag_s",
+    "group": "genre",
+    "n": 120,
+    "d": 2.71,
+    "d_pooled": 1.278,
+    "ci": [
+     2.465,
+     2.953
+    ],
+    "z": {
+     "len1": 1.521,
+     "standalone": 5.193,
+     "both_orders": 0.131,
+     "hfi": -0.287,
+     "pol_ex": null,
+     "both_pos": null
+    },
+    "indus": {
+     "len1": 0.359,
+     "standalone": 0.269,
+     "both_orders": 0.021,
+     "hfi": 0.443,
+     "pol_ex": 0.08,
+     "both_pos": 0.768
+    },
+    "ref": {
+     "len1": 0.017,
+     "standalone": 0.042,
+     "both_orders": 0.019,
+     "hfi": 0.5,
+     "pol_ex": null,
+     "both_pos": null
+    }
+   },
+   {
+    "system": "old_norse",
+    "group": "name",
+    "n": 159,
+    "d": 3.095,
+    "d_pooled": 1.594,
+    "ci": [
+     2.967,
+     3.251
+    ],
+    "z": {
+     "len1": -1.497,
+     "standalone": 5.458,
+     "both_orders": 2.143,
+     "hfi": -0.608,
+     "pol_ex": -2.993,
+     "both_pos": 3.396
+    },
+    "indus": {
+     "len1": 0.33,
+     "standalone": 0.312,
+     "both_orders": 0.031,
+     "hfi": 0.447,
+     "pol_ex": 0.065,
+     "both_pos": 0.808
+    },
+    "ref": {
+     "len1": 0.667,
+     "standalone": 0.074,
+     "both_orders": 0.0,
+     "hfi": 0.568,
+     "pol_ex": 0.584,
+     "both_pos": 0.222
+    }
+   },
+   {
+    "system": "ur3_title_w",
+    "group": "genre",
+    "n": 423,
+    "d": 5.877,
+    "d_pooled": 2.128,
+    "ci": [
+     5.452,
+     6.276
+    ],
+    "z": {
+     "len1": 1.289,
+     "standalone": 14.067,
+     "both_orders": -2.749,
+     "hfi": -0.251,
+     "pol_ex": -0.016,
+     "both_pos": 0.284
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.053,
+     "standalone": 0.236,
+     "both_orders": 0.097,
+     "hfi": 0.516,
+     "pol_ex": 0.081,
+     "both_pos": 0.756
+    }
+   },
+   {
+    "system": "pe_entry_s",
+    "group": "genre",
+    "n": 423,
+    "d": 7.314,
+    "d_pooled": 2.605,
+    "ci": [
+     7.197,
+     7.445
+    ],
+    "z": {
+     "len1": 0.446,
+     "standalone": 17.691,
+     "both_orders": 2.304,
+     "hfi": -0.74,
+     "pol_ex": -1.061,
+     "both_pos": 0.922
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.242,
+     "standalone": 0.078,
+     "both_orders": 0.023,
+     "hfi": 0.613,
+     "pol_ex": 0.262,
+     "both_pos": 0.646
+    }
+   },
+   {
+    "system": "ob_legend_s",
+    "group": "genre",
+    "n": 423,
+    "d": 7.457,
+    "d_pooled": 2.727,
+    "ci": [
+     7.305,
+     7.591
+    ],
+    "z": {
+     "len1": 1.492,
+     "standalone": 18.173,
+     "both_orders": 0.003,
+     "hfi": 0.46,
+     "pol_ex": -0.435,
+     "both_pos": 0.852
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.007,
+     "standalone": 0.057,
+     "both_orders": 0.056,
+     "hfi": 0.374,
+     "pol_ex": 0.153,
+     "both_pos": 0.658
+    }
+   },
+   {
+    "system": "lat_label_w",
+    "group": "genre",
+    "n": 423,
+    "d": 7.501,
+    "d_pooled": 2.722,
+    "ci": [
+     7.392,
+     7.611
+    ],
+    "z": {
+     "len1": 0.192,
+     "standalone": 18.042,
+     "both_orders": 1.247,
+     "hfi": -0.126,
+     "pol_ex": -2.429,
+     "both_pos": 2.142
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.3,
+     "standalone": 0.063,
+     "both_orders": 0.038,
+     "hfi": 0.491,
+     "pol_ex": 0.5,
+     "both_pos": 0.436
+    }
+   },
+   {
+    "system": "old_english",
+    "group": "name",
+    "n": 423,
+    "d": 7.538,
+    "d_pooled": 2.823,
+    "ci": [
+     7.456,
+     7.632
+    ],
+    "z": {
+     "len1": 0.279,
+     "standalone": 17.627,
+     "both_orders": 3.052,
+     "hfi": -1.005,
+     "pol_ex": -3.105,
+     "both_pos": 3.19
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.28,
+     "standalone": 0.081,
+     "both_orders": 0.012,
+     "hfi": 0.665,
+     "pol_ex": 0.617,
+     "both_pos": 0.255
+    }
+   },
+   {
+    "system": "ur3_legend_s",
+    "group": "genre",
+    "n": 423,
+    "d": 7.671,
+    "d_pooled": 2.863,
+    "ci": [
+     7.537,
+     7.943
+    ],
+    "z": {
+     "len1": 1.509,
+     "standalone": 18.534,
+     "both_orders": 0.145,
+     "hfi": 0.865,
+     "pol_ex": -1.553,
+     "both_pos": 2.032
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.003,
+     "standalone": 0.041,
+     "both_orders": 0.054,
+     "hfi": 0.294,
+     "pol_ex": 0.347,
+     "both_pos": 0.455
+    }
+   },
+   {
+    "system": "emoji",
+    "group": "code",
+    "n": 423,
+    "d": 7.744,
+    "d_pooled": 2.975,
+    "ci": [
+     7.588,
+     7.869
+    ],
+    "z": {
+     "len1": -0.039,
+     "standalone": 17.926,
+     "both_orders": 3.146,
+     "hfi": -1.767,
+     "pol_ex": -4.191,
+     "both_pos": 2.808
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.352,
+     "standalone": 0.068,
+     "both_orders": 0.01,
+     "hfi": 0.816,
+     "pol_ex": 0.805,
+     "both_pos": 0.321
+    }
+   },
+   {
+    "system": "egy_title_l",
+    "group": "genre",
+    "n": 423,
+    "d": 7.77,
+    "d_pooled": 3.052,
+    "ci": [
+     7.702,
+     7.825
+    ],
+    "z": {
+     "len1": 0.291,
+     "standalone": 17.837,
+     "both_orders": 0.59,
+     "hfi": 0.273,
+     "pol_ex": -4.993,
+     "both_pos": 4.321
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.277,
+     "standalone": 0.072,
+     "both_orders": 0.048,
+     "hfi": 0.412,
+     "pol_ex": 0.944,
+     "both_pos": 0.06
+    }
+   },
+   {
+    "system": "ur3",
+    "group": "name",
+    "n": 423,
+    "d": 7.785,
+    "d_pooled": 2.967,
+    "ci": [
+     7.697,
+     7.905
+    ],
+    "z": {
+     "len1": 1.055,
+     "standalone": 18.37,
+     "both_orders": 1.744,
+     "hfi": 1.351,
+     "pol_ex": -3.815,
+     "both_pos": 2.373
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.105,
+     "standalone": 0.048,
+     "both_orders": 0.031,
+     "hfi": 0.198,
+     "pol_ex": 0.74,
+     "both_pos": 0.396
+    }
+   },
+   {
+    "system": "pc_entry_s",
+    "group": "genre",
+    "n": 423,
+    "d": 7.833,
+    "d_pooled": 2.775,
+    "ci": [
+     7.796,
+     7.871
+    ],
+    "z": {
+     "len1": 0.963,
+     "standalone": 18.969,
+     "both_orders": 2.707,
+     "hfi": -0.104,
+     "pol_ex": 0.093,
+     "both_pos": 0.174
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.126,
+     "standalone": 0.022,
+     "both_orders": 0.017,
+     "hfi": 0.486,
+     "pol_ex": 0.062,
+     "both_pos": 0.775
+    }
+   },
+   {
+    "system": "sangam",
+    "group": "name",
+    "n": 423,
+    "d": 7.891,
+    "d_pooled": 3.096,
+    "ci": [
+     7.865,
+     7.92
+    ],
+    "z": {
+     "len1": 0.02,
+     "standalone": 17.573,
+     "both_orders": 3.842,
+     "hfi": -0.179,
+     "pol_ex": -5.313,
+     "both_pos": 4.669
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.338,
+     "standalone": 0.083,
+     "both_orders": 0.0,
+     "hfi": 0.501,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "chinese_given",
+    "group": "name",
+    "n": 423,
+    "d": 8.016,
+    "d_pooled": 2.866,
+    "ci": [
+     7.991,
+     8.038
+    ],
+    "z": {
+     "len1": 1.303,
+     "standalone": 19.181,
+     "both_orders": 3.72,
+     "hfi": -0.201,
+     "pol_ex": -0.974,
+     "both_pos": 1.048
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.049,
+     "standalone": 0.013,
+     "both_orders": 0.002,
+     "hfi": 0.506,
+     "pol_ex": 0.247,
+     "both_pos": 0.624
+    }
+   },
+   {
+    "system": "linb_entry_w",
+    "group": "genre",
+    "n": 423,
+    "d": 8.036,
+    "d_pooled": 3.016,
+    "ci": [
+     7.978,
+     8.098
+    ],
+    "z": {
+     "len1": 0.537,
+     "standalone": 18.869,
+     "both_orders": 2.141,
+     "hfi": -0.363,
+     "pol_ex": -4.035,
+     "both_pos": 3.182
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.222,
+     "standalone": 0.027,
+     "both_orders": 0.025,
+     "hfi": 0.538,
+     "pol_ex": 0.778,
+     "both_pos": 0.256
+    }
+   },
+   {
+    "system": "heraldry_w",
+    "group": "genre",
+    "n": 423,
+    "d": 8.063,
+    "d_pooled": 3.152,
+    "ci": [
+     7.857,
+     8.344
+    ],
+    "z": {
+     "len1": 1.516,
+     "standalone": 19.113,
+     "both_orders": -0.722,
+     "hfi": 1.913,
+     "pol_ex": -3.291,
+     "both_pos": 2.736
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.001,
+     "standalone": 0.016,
+     "both_orders": 0.067,
+     "hfi": 0.086,
+     "pol_ex": 0.649,
+     "both_pos": 0.333
+    }
+   },
+   {
+    "system": "old_high_german",
+    "group": "name",
+    "n": 423,
+    "d": 8.093,
+    "d_pooled": 2.961,
+    "ci": [
+     8.084,
+     8.101
+    ],
+    "z": {
+     "len1": -0.771,
+     "standalone": 19.43,
+     "both_orders": 1.977,
+     "hfi": -0.89,
+     "pol_ex": -2.311,
+     "both_pos": 2.195
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.516,
+     "standalone": 0.002,
+     "both_orders": 0.027,
+     "hfi": 0.642,
+     "pol_ex": 0.479,
+     "both_pos": 0.427
+    }
+   },
+   {
+    "system": "ur3_legend_w",
+    "group": "genre",
+    "n": 423,
+    "d": 8.132,
+    "d_pooled": 3.103,
+    "ci": [
+     8.096,
+     8.173
+    ],
+    "z": {
+     "len1": 1.522,
+     "standalone": 19.476,
+     "both_orders": 0.833,
+     "hfi": -1.578,
+     "pol_ex": -2.427,
+     "both_pos": 2.462
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.044,
+     "hfi": 0.779,
+     "pol_ex": 0.499,
+     "both_pos": 0.381
+    }
+   },
+   {
+    "system": "sanskrit",
+    "group": "name",
+    "n": 423,
+    "d": 8.147,
+    "d_pooled": 2.958,
+    "ci": [
+     8.109,
+     8.184
+    ],
+    "z": {
+     "len1": -0.373,
+     "standalone": 19.175,
+     "both_orders": 3.806,
+     "hfi": -0.492,
+     "pol_ex": -2.97,
+     "both_pos": 2.622
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.427,
+     "standalone": 0.013,
+     "both_orders": 0.001,
+     "hfi": 0.563,
+     "pol_ex": 0.593,
+     "both_pos": 0.353
+    }
+   },
+   {
+    "system": "egy_phrase_l",
+    "group": "genre",
+    "n": 423,
+    "d": 8.222,
+    "d_pooled": 3.225,
+    "ci": [
+     8.155,
+     8.271
+    ],
+    "z": {
+     "len1": 0.406,
+     "standalone": 18.92,
+     "both_orders": 1.673,
+     "hfi": 1.148,
+     "pol_ex": -5.011,
+     "both_pos": 4.269
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.251,
+     "standalone": 0.024,
+     "both_orders": 0.032,
+     "hfi": 0.238,
+     "pol_ex": 0.948,
+     "both_pos": 0.069
+    }
+   },
+   {
+    "system": "greek",
+    "group": "name",
+    "n": 423,
+    "d": 8.287,
+    "d_pooled": 3.123,
+    "ci": [
+     8.259,
+     8.31
+    ],
+    "z": {
+     "len1": -0.921,
+     "standalone": 19.349,
+     "both_orders": 3.646,
+     "hfi": -1.438,
+     "pol_ex": -3.531,
+     "both_pos": 2.991
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.55,
+     "standalone": 0.006,
+     "both_orders": 0.003,
+     "hfi": 0.751,
+     "pol_ex": 0.691,
+     "both_pos": 0.289
+    }
+   },
+   {
+    "system": "chess_eco",
+    "group": "code",
+    "n": 423,
+    "d": 8.405,
+    "d_pooled": 3.225,
+    "ci": [
+     8.18,
+     8.581
+    ],
+    "z": {
+     "len1": 1.468,
+     "standalone": 17.212,
+     "both_orders": -8.616,
+     "hfi": 1.086,
+     "pol_ex": -5.313,
+     "both_pos": 4.669
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.012,
+     "standalone": 0.099,
+     "both_orders": 0.183,
+     "hfi": 0.25,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "chinese_full",
+    "group": "name",
+    "n": 423,
+    "d": 8.407,
+    "d_pooled": 3.256,
+    "ci": [
+     8.279,
+     8.544
+    ],
+    "z": {
+     "len1": 1.522,
+     "standalone": 19.476,
+     "both_orders": 3.757,
+     "hfi": 1.645,
+     "pol_ex": -3.707,
+     "both_pos": 3.45
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.001,
+     "hfi": 0.139,
+     "pol_ex": 0.721,
+     "both_pos": 0.21
+    }
+   },
+   {
+    "system": "metar",
+    "group": "code",
+    "n": 423,
+    "d": 8.479,
+    "d_pooled": 3.463,
+    "ci": [
+     8.364,
+     8.587
+    ],
+    "z": {
+     "len1": 1.519,
+     "standalone": 19.015,
+     "both_orders": 3.662,
+     "hfi": 2.011,
+     "pol_ex": -5.313,
+     "both_pos": 4.669
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.001,
+     "standalone": 0.02,
+     "both_orders": 0.003,
+     "hfi": 0.067,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "khipu",
+    "group": "code",
+    "n": 423,
+    "d": 9.019,
+    "d_pooled": 2.646,
+    "ci": [
+     8.792,
+     9.229
+    ],
+    "z": {
+     "len1": 1.361,
+     "standalone": 15.739,
+     "both_orders": -15.44,
+     "hfi": 0.05,
+     "pol_ex": 0.261,
+     "both_pos": 0.078
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.036,
+     "standalone": 0.163,
+     "both_orders": 0.283,
+     "hfi": 0.456,
+     "pol_ex": 0.033,
+     "both_pos": 0.791
+    }
+   },
+   {
+    "system": "chords",
+    "group": "code",
+    "n": 423,
+    "d": 9.255,
+    "d_pooled": 2.813,
+    "ci": [
+     9.051,
+     9.44
+    ],
+    "z": {
+     "len1": 1.417,
+     "standalone": 17.237,
+     "both_orders": -14.654,
+     "hfi": -0.06,
+     "pol_ex": 0.308,
+     "both_pos": 0.063
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.024,
+     "standalone": 0.098,
+     "both_orders": 0.271,
+     "hfi": 0.478,
+     "pol_ex": 0.025,
+     "both_pos": 0.794
+    }
+   }
+  ],
+  "nearest": "lina_label_s",
+  "share_nearest": {
+   "lina_label_s": 1.0,
+   "plains": 0.0,
+   "egyptian": 0.0,
+   "cun_tag_s": 0.0,
+   "old_norse": 0.0,
+   "ur3_title_w": 0.0,
+   "pe_entry_s": 0.0,
+   "ob_legend_s": 0.0,
+   "lat_label_w": 0.0,
+   "old_english": 0.0,
+   "ur3_legend_s": 0.0,
+   "emoji": 0.0,
+   "egy_title_l": 0.0,
+   "ur3": 0.0,
+   "pc_entry_s": 0.0,
+   "sangam": 0.0,
+   "chinese_given": 0.0,
+   "linb_entry_w": 0.0,
+   "heraldry_w": 0.0,
+   "old_high_german": 0.0,
+   "ur3_legend_w": 0.0,
+   "sanskrit": 0.0,
+   "egy_phrase_l": 0.0,
+   "greek": 0.0,
+   "chess_eco": 0.0,
+   "chinese_full": 0.0,
+   "metar": 0.0,
+   "khipu": 0.0,
+   "chords": 0.0
+  },
+  "tied_with_nearest": [
+   "lina_label_s"
+  ],
+  "category": {
+   "genre_lt_name": 1.0,
+   "code_lt_name": 0.0,
+   "genre_lt_code": 1.0
+  },
+  "loso_nearest": {
+   "len1": "lina_label_s",
+   "standalone": "ob_legend_s",
+   "both_orders": "lina_label_s",
+   "hfi": "lina_label_s",
+   "pol_ex": "plains",
+   "both_pos": "lina_label_s"
+  },
+  "label": "peripheral",
+  "nn_d": 2.282,
+  "ref_nn_median": 0.793,
+  "ref_nn_max": 3.694,
+  "best_by_group": {
+   "genre": "lina_label_s",
+   "code": "emoji",
+   "name": "plains"
+  },
+  "nearest_pooled": "lina_label_s"
+ },
+ "heldout_merge": {
+  "ranking": [
+   {
+    "system": "egyptian",
+    "group": "name",
+    "n": 171,
+    "d": 0.84,
+    "d_pooled": 0.697,
+    "ci": [
+     0.71,
+     1.019
+    ],
+    "z": {
+     "len1": -0.441,
+     "standalone": 0.498,
+     "both_orders": -0.534,
+     "hfi": 0.833,
+     "pol_ex": -1.515,
+     "both_pos": 0.717
+    },
+    "indus": {
+     "len1": 0.34,
+     "standalone": 0.339,
+     "both_orders": 0.027,
+     "hfi": 0.432,
+     "pol_ex": 0.088,
+     "both_pos": 0.771
+    },
+    "ref": {
+     "len1": 0.439,
+     "standalone": 0.317,
+     "both_orders": 0.035,
+     "hfi": 0.266,
+     "pol_ex": 0.351,
+     "both_pos": 0.647
+    }
+   },
+   {
+    "system": "old_norse",
+    "group": "name",
+    "n": 159,
+    "d": 1.791,
+    "d_pooled": 1.281,
+    "ci": [
+     1.653,
+     1.949
+    ],
+    "z": {
+     "len1": -1.166,
+     "standalone": -1.499,
+     "both_orders": 1.884,
+     "hfi": -0.468,
+     "pol_ex": -2.347,
+     "both_pos": 2.522
+    },
+    "indus": {
+     "len1": 0.33,
+     "standalone": 0.312,
+     "both_orders": 0.031,
+     "hfi": 0.447,
+     "pol_ex": 0.065,
+     "both_pos": 0.808
+    },
+    "ref": {
+     "len1": 0.592,
+     "standalone": 0.378,
+     "both_orders": 0.004,
+     "hfi": 0.54,
+     "pol_ex": 0.472,
+     "both_pos": 0.373
+    }
+   },
+   {
+    "system": "plains",
+    "group": "name",
+    "n": 101,
+    "d": 2.017,
+    "d_pooled": 1.217,
+    "ci": [
+     1.842,
+     2.28
+    ],
+    "z": {
+     "len1": 1.307,
+     "standalone": 3.583,
+     "both_orders": 1.061,
+     "hfi": 0.042,
+     "pol_ex": -2.233,
+     "both_pos": 1.936
+    },
+    "indus": {
+     "len1": 0.334,
+     "standalone": 0.193,
+     "both_orders": 0.019,
+     "hfi": 0.459,
+     "pol_ex": 0.087,
+     "both_pos": 0.769
+    },
+    "ref": {
+     "len1": 0.04,
+     "standalone": 0.036,
+     "both_orders": 0.004,
+     "hfi": 0.45,
+     "pol_ex": 0.474,
+     "both_pos": 0.435
+    }
+   },
+   {
+    "system": "cun_tag_s",
+    "group": "genre",
+    "n": 120,
+    "d": 2.365,
+    "d_pooled": 1.193,
+    "ci": [
+     2.229,
+     2.962
+    ],
+    "z": {
+     "len1": 1.521,
+     "standalone": 4.9,
+     "both_orders": -1.887,
+     "hfi": -0.233,
+     "pol_ex": 1.348,
+     "both_pos": -1.345
+    },
+    "indus": {
+     "len1": 0.359,
+     "standalone": 0.269,
+     "both_orders": 0.021,
+     "hfi": 0.443,
+     "pol_ex": 0.08,
+     "both_pos": 0.768
+    },
+    "ref": {
+     "len1": 0.017,
+     "standalone": 0.055,
+     "both_orders": 0.049,
+     "hfi": 0.489,
+     "pol_ex": -0.154,
+     "both_pos": 1.0
+    }
+   },
+   {
+    "system": "sanskrit",
+    "group": "name",
+    "n": 423,
+    "d": 2.897,
+    "d_pooled": 0.632,
+    "ci": [
+     2.809,
+     2.993
+    ],
+    "z": {
+     "len1": 0.219,
+     "standalone": 6.573,
+     "both_orders": 2.534,
+     "hfi": -0.287,
+     "pol_ex": -0.52,
+     "both_pos": 0.575
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.293,
+     "standalone": 0.563,
+     "both_orders": 0.019,
+     "hfi": 0.523,
+     "pol_ex": 0.168,
+     "both_pos": 0.706
+    }
+   },
+   {
+    "system": "lina_label_s",
+    "group": "genre",
+    "n": 228,
+    "d": 2.965,
+    "d_pooled": 0.642,
+    "ci": [
+     2.805,
+     3.092
+    ],
+    "z": {
+     "len1": 0.582,
+     "standalone": -3.736,
+     "both_orders": -6.191,
+     "hfi": -0.037,
+     "pol_ex": 0.298,
+     "both_pos": 0.141
+    },
+    "indus": {
+     "len1": 0.346,
+     "standalone": 0.465,
+     "both_orders": 0.033,
+     "hfi": 0.442,
+     "pol_ex": 0.108,
+     "both_pos": 0.759
+    },
+    "ref": {
+     "len1": 0.215,
+     "standalone": 0.628,
+     "both_orders": 0.124,
+     "hfi": 0.449,
+     "pol_ex": 0.057,
+     "both_pos": 0.734
+    }
+   },
+   {
+    "system": "sangam",
+    "group": "name",
+    "n": 423,
+    "d": 3.063,
+    "d_pooled": 0.76,
+    "ci": [
+     2.959,
+     3.148
+    ],
+    "z": {
+     "len1": 0.476,
+     "standalone": 7.034,
+     "both_orders": 2.166,
+     "hfi": -0.095,
+     "pol_ex": -1.084,
+     "both_pos": 0.837
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.236,
+     "standalone": 0.543,
+     "both_orders": 0.025,
+     "hfi": 0.485,
+     "pol_ex": 0.266,
+     "both_pos": 0.661
+    }
+   },
+   {
+    "system": "lat_label_w",
+    "group": "genre",
+    "n": 423,
+    "d": 3.628,
+    "d_pooled": 0.839,
+    "ci": [
+     3.479,
+     3.785
+    ],
+    "z": {
+     "len1": 0.638,
+     "standalone": 8.589,
+     "both_orders": -2.079,
+     "hfi": -0.192,
+     "pol_ex": -0.464,
+     "both_pos": 0.491
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.199,
+     "standalone": 0.475,
+     "both_orders": 0.087,
+     "hfi": 0.504,
+     "pol_ex": 0.158,
+     "both_pos": 0.72
+    }
+   },
+   {
+    "system": "egy_phrase_l",
+    "group": "genre",
+    "n": 423,
+    "d": 3.636,
+    "d_pooled": 0.909,
+    "ci": [
+     3.496,
+     3.766
+    ],
+    "z": {
+     "len1": 0.736,
+     "standalone": 8.605,
+     "both_orders": -1.864,
+     "hfi": 0.27,
+     "pol_ex": -0.787,
+     "both_pos": 0.761
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.177,
+     "standalone": 0.474,
+     "both_orders": 0.084,
+     "hfi": 0.412,
+     "pol_ex": 0.215,
+     "both_pos": 0.674
+    }
+   },
+   {
+    "system": "greek",
+    "group": "name",
+    "n": 423,
+    "d": 3.842,
+    "d_pooled": 1.135,
+    "ci": [
+     3.717,
+     3.969
+    ],
+    "z": {
+     "len1": -0.202,
+     "standalone": 8.504,
+     "both_orders": 2.997,
+     "hfi": -0.948,
+     "pol_ex": -1.9,
+     "both_pos": 1.647
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.388,
+     "standalone": 0.479,
+     "both_orders": 0.012,
+     "hfi": 0.654,
+     "pol_ex": 0.408,
+     "both_pos": 0.521
+    }
+   },
+   {
+    "system": "egy_title_l",
+    "group": "genre",
+    "n": 423,
+    "d": 3.91,
+    "d_pooled": 0.951,
+    "ci": [
+     3.787,
+     4.032
+    ],
+    "z": {
+     "len1": 0.657,
+     "standalone": 8.772,
+     "both_orders": -3.462,
+     "hfi": -0.047,
+     "pol_ex": -1.245,
+     "both_pos": 0.905
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.195,
+     "standalone": 0.467,
+     "both_orders": 0.107,
+     "hfi": 0.475,
+     "pol_ex": 0.294,
+     "both_pos": 0.649
+    }
+   },
+   {
+    "system": "pe_entry_s",
+    "group": "genre",
+    "n": 423,
+    "d": 3.938,
+    "d_pooled": 0.92,
+    "ci": [
+     3.756,
+     4.075
+    ],
+    "z": {
+     "len1": 0.732,
+     "standalone": 9.564,
+     "both_orders": -0.907,
+     "hfi": -0.35,
+     "pol_ex": -0.173,
+     "both_pos": 0.231
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.178,
+     "standalone": 0.433,
+     "both_orders": 0.07,
+     "hfi": 0.535,
+     "pol_ex": 0.108,
+     "both_pos": 0.765
+    }
+   },
+   {
+    "system": "linb_entry_w",
+    "group": "genre",
+    "n": 423,
+    "d": 3.939,
+    "d_pooled": 1.021,
+    "ci": [
+     3.816,
+     4.067
+    ],
+    "z": {
+     "len1": 0.841,
+     "standalone": 9.421,
+     "both_orders": -1.145,
+     "hfi": -0.099,
+     "pol_ex": -1.218,
+     "both_pos": 0.92
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.153,
+     "standalone": 0.439,
+     "both_orders": 0.073,
+     "hfi": 0.485,
+     "pol_ex": 0.289,
+     "both_pos": 0.646
+    }
+   },
+   {
+    "system": "old_high_german",
+    "group": "name",
+    "n": 423,
+    "d": 4.201,
+    "d_pooled": 1.097,
+    "ci": [
+     4.049,
+     4.321
+    ],
+    "z": {
+     "len1": -0.145,
+     "standalone": 9.953,
+     "both_orders": 1.245,
+     "hfi": -0.777,
+     "pol_ex": -1.58,
+     "both_pos": 1.474
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.375,
+     "standalone": 0.416,
+     "both_orders": 0.038,
+     "hfi": 0.62,
+     "pol_ex": 0.352,
+     "both_pos": 0.551
+    }
+   },
+   {
+    "system": "pc_entry_s",
+    "group": "genre",
+    "n": 423,
+    "d": 4.603,
+    "d_pooled": 1.128,
+    "ci": [
+     4.468,
+     4.735
+    ],
+    "z": {
+     "len1": 1.063,
+     "standalone": 11.217,
+     "both_orders": -0.266,
+     "hfi": -0.188,
+     "pol_ex": 0.22,
+     "both_pos": -0.045
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.103,
+     "standalone": 0.36,
+     "both_orders": 0.06,
+     "hfi": 0.503,
+     "pol_ex": 0.04,
+     "both_pos": 0.813
+    }
+   },
+   {
+    "system": "old_english",
+    "group": "name",
+    "n": 423,
+    "d": 5.177,
+    "d_pooled": 1.53,
+    "ci": [
+     5.06,
+     5.319
+    ],
+    "z": {
+     "len1": 0.572,
+     "standalone": 11.922,
+     "both_orders": 2.165,
+     "hfi": -0.816,
+     "pol_ex": -2.49,
+     "both_pos": 2.61
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.214,
+     "standalone": 0.33,
+     "both_orders": 0.025,
+     "hfi": 0.628,
+     "pol_ex": 0.51,
+     "both_pos": 0.355
+    }
+   },
+   {
+    "system": "ur3_title_w",
+    "group": "genre",
+    "n": 423,
+    "d": 5.62,
+    "d_pooled": 1.344,
+    "ci": [
+     5.216,
+     6.017
+    ],
+    "z": {
+     "len1": 1.303,
+     "standalone": 11.58,
+     "both_orders": -7.323,
+     "hfi": -0.216,
+     "pol_ex": 0.196,
+     "both_pos": 0.003
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.049,
+     "standalone": 0.345,
+     "both_orders": 0.164,
+     "hfi": 0.509,
+     "pol_ex": 0.044,
+     "both_pos": 0.804
+    }
+   },
+   {
+    "system": "ur3",
+    "group": "name",
+    "n": 423,
+    "d": 5.828,
+    "d_pooled": 1.639,
+    "ci": [
+     5.672,
+     6.015
+    ],
+    "z": {
+     "len1": 1.142,
+     "standalone": 13.876,
+     "both_orders": -0.705,
+     "hfi": 1.056,
+     "pol_ex": -2.558,
+     "both_pos": 1.328
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.086,
+     "standalone": 0.244,
+     "both_orders": 0.067,
+     "hfi": 0.256,
+     "pol_ex": 0.522,
+     "both_pos": 0.576
+    }
+   },
+   {
+    "system": "emoji",
+    "group": "code",
+    "n": 423,
+    "d": 5.866,
+    "d_pooled": 1.833,
+    "ci": [
+     5.723,
+     5.973
+    ],
+    "z": {
+     "len1": 0.45,
+     "standalone": 13.688,
+     "both_orders": 0.1,
+     "hfi": -1.729,
+     "pol_ex": -3.298,
+     "both_pos": 2.244
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.241,
+     "standalone": 0.253,
+     "both_orders": 0.055,
+     "hfi": 0.809,
+     "pol_ex": 0.65,
+     "both_pos": 0.418
+    }
+   },
+   {
+    "system": "chinese_given",
+    "group": "name",
+    "n": 423,
+    "d": 6.179,
+    "d_pooled": 1.465,
+    "ci": [
+     6.064,
+     6.283
+    ],
+    "z": {
+     "len1": 1.304,
+     "standalone": 14.905,
+     "both_orders": 2.253,
+     "hfi": -0.189,
+     "pol_ex": -0.126,
+     "both_pos": 0.264
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.049,
+     "standalone": 0.2,
+     "both_orders": 0.023,
+     "hfi": 0.503,
+     "pol_ex": 0.1,
+     "both_pos": 0.759
+    }
+   },
+   {
+    "system": "ob_legend_s",
+    "group": "genre",
+    "n": 423,
+    "d": 7.474,
+    "d_pooled": 1.752,
+    "ci": [
+     7.308,
+     7.618
+    ],
+    "z": {
+     "len1": 1.489,
+     "standalone": 17.809,
+     "both_orders": -3.858,
+     "hfi": 0.148,
+     "pol_ex": -0.594,
+     "both_pos": 0.738
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.007,
+     "standalone": 0.073,
+     "both_orders": 0.113,
+     "hfi": 0.436,
+     "pol_ex": 0.181,
+     "both_pos": 0.678
+    }
+   },
+   {
+    "system": "ur3_legend_s",
+    "group": "genre",
+    "n": 423,
+    "d": 7.802,
+    "d_pooled": 1.857,
+    "ci": [
+     7.645,
+     7.973
+    ],
+    "z": {
+     "len1": 1.509,
+     "standalone": 18.657,
+     "both_orders": -3.532,
+     "hfi": 0.452,
+     "pol_ex": -0.955,
+     "both_pos": 1.147
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.003,
+     "standalone": 0.036,
+     "both_orders": 0.108,
+     "hfi": 0.376,
+     "pol_ex": 0.244,
+     "both_pos": 0.607
+    }
+   },
+   {
+    "system": "chinese_full",
+    "group": "name",
+    "n": 423,
+    "d": 7.989,
+    "d_pooled": 1.849,
+    "ci": [
+     7.985,
+     8.0
+    ],
+    "z": {
+     "len1": 1.522,
+     "standalone": 19.476,
+     "both_orders": 0.93,
+     "hfi": 0.314,
+     "pol_ex": -0.405,
+     "both_pos": 0.455
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.043,
+     "hfi": 0.403,
+     "pol_ex": 0.148,
+     "both_pos": 0.726
+    }
+   },
+   {
+    "system": "metar",
+    "group": "code",
+    "n": 423,
+    "d": 8.441,
+    "d_pooled": 2.884,
+    "ci": [
+     8.352,
+     8.524
+    ],
+    "z": {
+     "len1": 1.521,
+     "standalone": 19.239,
+     "both_orders": 1.268,
+     "hfi": 1.843,
+     "pol_ex": -5.313,
+     "both_pos": 4.669
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.01,
+     "both_orders": 0.038,
+     "hfi": 0.1,
+     "pol_ex": 1.0,
+     "both_pos": 0.0
+    }
+   },
+   {
+    "system": "ur3_legend_w",
+    "group": "genre",
+    "n": 423,
+    "d": 8.446,
+    "d_pooled": 2.084,
+    "ci": [
+     8.403,
+     8.483
+    ],
+    "z": {
+     "len1": 1.522,
+     "standalone": 19.476,
+     "both_orders": -6.357,
+     "hfi": -1.284,
+     "pol_ex": -1.75,
+     "both_pos": 1.097
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.0,
+     "standalone": 0.0,
+     "both_orders": 0.15,
+     "hfi": 0.721,
+     "pol_ex": 0.382,
+     "both_pos": 0.616
+    }
+   },
+   {
+    "system": "heraldry_w",
+    "group": "genre",
+    "n": 423,
+    "d": 8.556,
+    "d_pooled": 2.538,
+    "ci": [
+     8.317,
+     8.8
+    ],
+    "z": {
+     "len1": 1.514,
+     "standalone": 18.759,
+     "both_orders": -7.428,
+     "hfi": 1.771,
+     "pol_ex": -4.039,
+     "both_pos": 3.219
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.002,
+     "standalone": 0.031,
+     "both_orders": 0.165,
+     "hfi": 0.114,
+     "pol_ex": 0.779,
+     "both_pos": 0.25
+    }
+   },
+   {
+    "system": "chess_eco",
+    "group": "code",
+    "n": 423,
+    "d": 8.617,
+    "d_pooled": 2.706,
+    "ci": [
+     8.34,
+     8.82
+    ],
+    "z": {
+     "len1": 1.464,
+     "standalone": 16.239,
+     "both_orders": -11.416,
+     "hfi": 0.964,
+     "pol_ex": -5.226,
+     "both_pos": 4.592
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.013,
+     "standalone": 0.141,
+     "both_orders": 0.224,
+     "hfi": 0.274,
+     "pol_ex": 0.985,
+     "both_pos": 0.013
+    }
+   },
+   {
+    "system": "khipu",
+    "group": "code",
+    "n": 423,
+    "d": 9.562,
+    "d_pooled": 1.929,
+    "ci": [
+     9.354,
+     9.758
+    ],
+    "z": {
+     "len1": 1.381,
+     "standalone": 15.342,
+     "both_orders": -17.641,
+     "hfi": -0.05,
+     "pol_ex": -0.123,
+     "both_pos": 0.201
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.032,
+     "standalone": 0.18,
+     "both_orders": 0.315,
+     "hfi": 0.476,
+     "pol_ex": 0.099,
+     "both_pos": 0.77
+    }
+   },
+   {
+    "system": "chords",
+    "group": "code",
+    "n": 423,
+    "d": 9.604,
+    "d_pooled": 1.951,
+    "ci": [
+     9.306,
+     9.927
+    ],
+    "z": {
+     "len1": 1.413,
+     "standalone": 15.771,
+     "both_orders": -17.396,
+     "hfi": -0.094,
+     "pol_ex": 0.259,
+     "both_pos": 0.031
+    },
+    "indus": {
+     "len1": 0.343,
+     "standalone": 0.85,
+     "both_orders": 0.056,
+     "hfi": 0.466,
+     "pol_ex": 0.078,
+     "both_pos": 0.805
+    },
+    "ref": {
+     "len1": 0.025,
+     "standalone": 0.162,
+     "both_orders": 0.312,
+     "hfi": 0.484,
+     "pol_ex": 0.033,
+     "both_pos": 0.8
+    }
+   }
+  ],
+  "nearest": "egyptian",
+  "share_nearest": {
+   "egyptian": 1.0,
+   "old_norse": 0.0,
+   "plains": 0.0,
+   "cun_tag_s": 0.0,
+   "sanskrit": 0.0,
+   "lina_label_s": 0.0,
+   "sangam": 0.0,
+   "lat_label_w": 0.0,
+   "egy_phrase_l": 0.0,
+   "greek": 0.0,
+   "egy_title_l": 0.0,
+   "pe_entry_s": 0.0,
+   "linb_entry_w": 0.0,
+   "old_high_german": 0.0,
+   "pc_entry_s": 0.0,
+   "old_english": 0.0,
+   "ur3_title_w": 0.0,
+   "ur3": 0.0,
+   "emoji": 0.0,
+   "chinese_given": 0.0,
+   "ob_legend_s": 0.0,
+   "ur3_legend_s": 0.0,
+   "chinese_full": 0.0,
+   "metar": 0.0,
+   "ur3_legend_w": 0.0,
+   "heraldry_w": 0.0,
+   "chess_eco": 0.0,
+   "khipu": 0.0,
+   "chords": 0.0
+  },
+  "tied_with_nearest": [
+   "egyptian"
+  ],
+  "category": {
+   "genre_lt_name": 0.0,
+   "code_lt_name": 0.0,
+   "genre_lt_code": 1.0
+  },
+  "loso_nearest": {
+   "len1": "egyptian",
+   "standalone": "pc_entry_s",
+   "both_orders": "egyptian",
+   "hfi": "egyptian",
+   "pol_ex": "egyptian",
+   "both_pos": "egyptian"
+  },
+  "label": "typical",
+  "nn_d": 0.84,
+  "ref_nn_median": 0.916,
+  "ref_nn_max": 3.041,
+  "best_by_group": {
+   "genre": "cun_tag_s",
+   "code": "emoji",
+   "name": "egyptian"
+  },
+  "nearest_pooled": "sanskrit"
+ },
+ "heldout_sym": {
+  "ranking": [
+   {
+    "system": "linb_entry_w",
+    "group": "genre",
+    "n": 423,
+    "d": 0.299,
+    "d_pooled": 0.34,
+    "ci": [
+     0.22,
+     0.519
+    ],
+    "z": {
+     "len1": -0.063,
+     "standalone": 0.447,
+     "both_orders": -0.208,
+     "hfi": -0.361,
+     "pol_ex": -0.001,
+     "both_pos": 0.401
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.275,
+     "standalone": 0.589,
+     "both_orders": 0.046,
+     "hfi": 0.532,
+     "pol_ex": 0.09,
+     "both_pos": 0.768
+    }
+   },
+   {
+    "system": "sangam",
+    "group": "name",
+    "n": 423,
+    "d": 0.824,
+    "d_pooled": 0.363,
+    "ci": [
+     0.636,
+     0.993
+    ],
+    "z": {
+     "len1": -0.218,
+     "standalone": -1.428,
+     "both_orders": 1.138,
+     "hfi": -0.212,
+     "pol_ex": -0.266,
+     "both_pos": 0.756
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.31,
+     "standalone": 0.671,
+     "both_orders": 0.026,
+     "hfi": 0.503,
+     "pol_ex": 0.136,
+     "both_pos": 0.707
+    }
+   },
+   {
+    "system": "lat_label_w",
+    "group": "genre",
+    "n": 423,
+    "d": 0.886,
+    "d_pooled": 0.204,
+    "ci": [
+     0.729,
+     1.097
+    ],
+    "z": {
+     "len1": -0.038,
+     "standalone": 1.08,
+     "both_orders": -1.824,
+     "hfi": -0.072,
+     "pol_ex": 0.45,
+     "both_pos": -0.075
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.269,
+     "standalone": 0.561,
+     "both_orders": 0.07,
+     "hfi": 0.475,
+     "pol_ex": 0.011,
+     "both_pos": 0.851
+    }
+   },
+   {
+    "system": "plains",
+    "group": "name",
+    "n": 101,
+    "d": 1.014,
+    "d_pooled": 0.767,
+    "ci": [
+     0.734,
+     1.324
+    ],
+    "z": {
+     "len1": 0.604,
+     "standalone": 0.03,
+     "both_orders": 0.832,
+     "hfi": 0.116,
+     "pol_ex": -1.708,
+     "both_pos": 1.476
+    },
+    "indus": {
+     "len1": 0.252,
+     "standalone": 0.123,
+     "both_orders": 0.017,
+     "hfi": 0.438,
+     "pol_ex": 0.132,
+     "both_pos": 0.718
+    },
+    "ref": {
+     "len1": 0.116,
+     "standalone": 0.121,
+     "both_orders": 0.005,
+     "hfi": 0.415,
+     "pol_ex": 0.428,
+     "both_pos": 0.463
+    }
+   },
+   {
+    "system": "egy_phrase_l",
+    "group": "genre",
+    "n": 423,
+    "d": 1.195,
+    "d_pooled": 0.314,
+    "ci": [
+     1.028,
+     1.401
+    ],
+    "z": {
+     "len1": -0.059,
+     "standalone": 1.042,
+     "both_orders": -2.653,
+     "hfi": 0.164,
+     "pol_ex": -0.402,
+     "both_pos": 0.503
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.274,
+     "standalone": 0.563,
+     "both_orders": 0.082,
+     "hfi": 0.428,
+     "pol_ex": 0.159,
+     "both_pos": 0.751
+    }
+   },
+   {
+    "system": "egyptian",
+    "group": "name",
+    "n": 170,
+    "d": 1.427,
+    "d_pooled": 0.624,
+    "ci": [
+     1.19,
+     1.689
+    ],
+    "z": {
+     "len1": -0.857,
+     "standalone": -2.827,
+     "both_orders": -1.05,
+     "hfi": 0.087,
+     "pol_ex": -1.342,
+     "both_pos": 0.761
+    },
+    "indus": {
+     "len1": 0.261,
+     "standalone": 0.265,
+     "both_orders": 0.023,
+     "hfi": 0.448,
+     "pol_ex": 0.124,
+     "both_pos": 0.733
+    },
+    "ref": {
+     "len1": 0.454,
+     "standalone": 0.388,
+     "both_orders": 0.038,
+     "hfi": 0.431,
+     "pol_ex": 0.357,
+     "both_pos": 0.602
+    }
+   },
+   {
+    "system": "sanskrit",
+    "group": "name",
+    "n": 423,
+    "d": 1.505,
+    "d_pooled": 0.725,
+    "ci": [
+     1.342,
+     1.683
+    ],
+    "z": {
+     "len1": -1.724,
+     "standalone": -2.112,
+     "both_orders": 2.436,
+     "hfi": -0.156,
+     "pol_ex": 0.408,
+     "both_pos": 0.145
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.649,
+     "standalone": 0.701,
+     "both_orders": 0.007,
+     "hfi": 0.492,
+     "pol_ex": 0.019,
+     "both_pos": 0.813
+    }
+   },
+   {
+    "system": "pe_entry_s",
+    "group": "genre",
+    "n": 423,
+    "d": 1.593,
+    "d_pooled": 0.364,
+    "ci": [
+     1.363,
+     1.828
+    ],
+    "z": {
+     "len1": -0.081,
+     "standalone": 3.108,
+     "both_orders": -2.315,
+     "hfi": -0.256,
+     "pol_ex": 0.368,
+     "both_pos": -0.014
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.279,
+     "standalone": 0.473,
+     "both_orders": 0.077,
+     "hfi": 0.511,
+     "pol_ex": 0.025,
+     "both_pos": 0.84
+    }
+   },
+   {
+    "system": "cun_tag_s",
+    "group": "genre",
+    "n": 131,
+    "d": 1.709,
+    "d_pooled": 1.049,
+    "ci": [
+     1.417,
+     2.105
+    ],
+    "z": {
+     "len1": 0.872,
+     "standalone": 2.174,
+     "both_orders": -1.772,
+     "hfi": -0.407,
+     "pol_ex": 2.607,
+     "both_pos": -1.391
+    },
+    "indus": {
+     "len1": 0.264,
+     "standalone": 0.219,
+     "both_orders": 0.017,
+     "hfi": 0.464,
+     "pol_ex": 0.101,
+     "both_pos": 0.76
+    },
+    "ref": {
+     "len1": 0.068,
+     "standalone": 0.124,
+     "both_orders": 0.043,
+     "hfi": 0.545,
+     "pol_ex": -0.351,
+     "both_pos": 1.0
+    }
+   },
+   {
+    "system": "pc_entry_s",
+    "group": "genre",
+    "n": 423,
+    "d": 1.729,
+    "d_pooled": 0.422,
+    "ci": [
+     1.506,
+     2.006
+    ],
+    "z": {
+     "len1": 0.415,
+     "standalone": 4.053,
+     "both_orders": -0.967,
+     "hfi": -0.203,
+     "pol_ex": 0.58,
+     "both_pos": -0.136
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.167,
+     "standalone": 0.432,
+     "both_orders": 0.057,
+     "hfi": 0.501,
+     "pol_ex": -0.011,
+     "both_pos": 0.861
+    }
+   },
+   {
+    "system": "greek",
+    "group": "name",
+    "n": 423,
+    "d": 1.79,
+    "d_pooled": 1.169,
+    "ci": [
+     1.63,
+     1.97
+    ],
+    "z": {
+     "len1": -1.602,
+     "standalone": -2.669,
+     "both_orders": 2.149,
+     "hfi": -0.802,
+     "pol_ex": -1.328,
+     "both_pos": 1.586
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.621,
+     "standalone": 0.725,
+     "both_orders": 0.012,
+     "hfi": 0.62,
+     "pol_ex": 0.32,
+     "both_pos": 0.564
+    }
+   },
+   {
+    "system": "egy_title_l",
+    "group": "genre",
+    "n": 423,
+    "d": 1.873,
+    "d_pooled": 0.63,
+    "ci": [
+     1.704,
+     2.058
+    ],
+    "z": {
+     "len1": 0.147,
+     "standalone": 1.402,
+     "both_orders": -4.153,
+     "hfi": -0.425,
+     "pol_ex": -0.694,
+     "both_pos": 1.077
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.227,
+     "standalone": 0.547,
+     "both_orders": 0.104,
+     "hfi": 0.545,
+     "pol_ex": 0.21,
+     "both_pos": 0.652
+    }
+   },
+   {
+    "system": "old_norse",
+    "group": "name",
+    "n": 159,
+    "d": 2.005,
+    "d_pooled": 1.269,
+    "ci": [
+     1.783,
+     2.219
+    ],
+    "z": {
+     "len1": -1.448,
+     "standalone": -3.049,
+     "both_orders": 1.354,
+     "hfi": -0.379,
+     "pol_ex": -2.271,
+     "both_pos": 2.366
+    },
+    "indus": {
+     "len1": 0.266,
+     "standalone": 0.245,
+     "both_orders": 0.024,
+     "hfi": 0.465,
+     "pol_ex": 0.078,
+     "both_pos": 0.781
+    },
+    "ref": {
+     "len1": 0.592,
+     "standalone": 0.378,
+     "both_orders": 0.004,
+     "hfi": 0.54,
+     "pol_ex": 0.472,
+     "both_pos": 0.373
+    }
+   },
+   {
+    "system": "ur3",
+    "group": "name",
+    "n": 423,
+    "d": 2.056,
+    "d_pooled": 0.444,
+    "ci": [
+     1.782,
+     2.364
+    ],
+    "z": {
+     "len1": 0.16,
+     "standalone": 4.193,
+     "both_orders": -2.746,
+     "hfi": -0.275,
+     "pol_ex": 0.204,
+     "both_pos": 0.318
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.224,
+     "standalone": 0.425,
+     "both_orders": 0.083,
+     "hfi": 0.515,
+     "pol_ex": 0.054,
+     "both_pos": 0.783
+    }
+   },
+   {
+    "system": "chinese_given",
+    "group": "name",
+    "n": 423,
+    "d": 2.142,
+    "d_pooled": 1.046,
+    "ci": [
+     1.912,
+     2.398
+    ],
+    "z": {
+     "len1": -2.394,
+     "standalone": -3.656,
+     "both_orders": 2.801,
+     "hfi": -0.331,
+     "pol_ex": -0.208,
+     "both_pos": 0.653
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.8,
+     "standalone": 0.768,
+     "both_orders": 0.002,
+     "hfi": 0.526,
+     "pol_ex": 0.126,
+     "both_pos": 0.725
+    }
+   },
+   {
+    "system": "old_high_german",
+    "group": "name",
+    "n": 423,
+    "d": 2.414,
+    "d_pooled": 1.194,
+    "ci": [
+     2.188,
+     2.602
+    ],
+    "z": {
+     "len1": -1.601,
+     "standalone": -4.302,
+     "both_orders": 2.444,
+     "hfi": -0.341,
+     "pol_ex": -1.849,
+     "both_pos": 2.096
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.621,
+     "standalone": 0.796,
+     "both_orders": 0.007,
+     "hfi": 0.528,
+     "pol_ex": 0.41,
+     "both_pos": 0.476
+    }
+   },
+   {
+    "system": "emoji",
+    "group": "code",
+    "n": 423,
+    "d": 2.767,
+    "d_pooled": 2.711,
+    "ci": [
+     2.617,
+     2.972
+    ],
+    "z": {
+     "len1": -1.439,
+     "standalone": 2.592,
+     "both_orders": 0.237,
+     "hfi": -2.25,
+     "pol_ex": -4.039,
+     "both_pos": 3.966
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.585,
+     "standalone": 0.495,
+     "both_orders": 0.04,
+     "hfi": 0.907,
+     "pol_ex": 0.79,
+     "both_pos": 0.154
+    }
+   },
+   {
+    "system": "chinese_full",
+    "group": "name",
+    "n": 423,
+    "d": 2.811,
+    "d_pooled": 0.598,
+    "ci": [
+     2.549,
+     3.087
+    ],
+    "z": {
+     "len1": 0.607,
+     "standalone": 6.824,
+     "both_orders": 0.602,
+     "hfi": -0.262,
+     "pol_ex": 0.023,
+     "both_pos": 0.188
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.124,
+     "standalone": 0.311,
+     "both_orders": 0.034,
+     "hfi": 0.513,
+     "pol_ex": 0.085,
+     "both_pos": 0.805
+    }
+   },
+   {
+    "system": "old_english",
+    "group": "name",
+    "n": 423,
+    "d": 3.196,
+    "d_pooled": 1.337,
+    "ci": [
+     2.952,
+     3.385
+    ],
+    "z": {
+     "len1": -2.461,
+     "standalone": -6.683,
+     "both_orders": 2.828,
+     "hfi": -0.726,
+     "pol_ex": -0.677,
+     "both_pos": 1.253
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.815,
+     "standalone": 0.9,
+     "both_orders": 0.002,
+     "hfi": 0.605,
+     "pol_ex": 0.207,
+     "both_pos": 0.622
+    }
+   },
+   {
+    "system": "ur3_title_w",
+    "group": "genre",
+    "n": 423,
+    "d": 4.312,
+    "d_pooled": 0.762,
+    "ci": [
+     4.122,
+     4.525
+    ],
+    "z": {
+     "len1": 0.548,
+     "standalone": 1.202,
+     "both_orders": -10.439,
+     "hfi": -0.163,
+     "pol_ex": 0.789,
+     "both_pos": -0.423
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.137,
+     "standalone": 0.556,
+     "both_orders": 0.196,
+     "hfi": 0.493,
+     "pol_ex": -0.048,
+     "both_pos": 0.91
+    }
+   },
+   {
+    "system": "ob_legend_s",
+    "group": "genre",
+    "n": 423,
+    "d": 4.344,
+    "d_pooled": 0.861,
+    "ci": [
+     4.051,
+     4.663
+    ],
+    "z": {
+     "len1": 1.037,
+     "standalone": 9.128,
+     "both_orders": -5.35,
+     "hfi": 0.064,
+     "pol_ex": 0.193,
+     "both_pos": 0.394
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.027,
+     "standalone": 0.21,
+     "both_orders": 0.122,
+     "hfi": 0.448,
+     "pol_ex": 0.056,
+     "both_pos": 0.77
+    }
+   },
+   {
+    "system": "lina_label_s",
+    "group": "genre",
+    "n": 226,
+    "d": 4.477,
+    "d_pooled": 0.801,
+    "ci": [
+     4.291,
+     4.645
+    ],
+    "z": {
+     "len1": 0.133,
+     "standalone": -8.972,
+     "both_orders": -6.275,
+     "hfi": -0.191,
+     "pol_ex": 0.532,
+     "both_pos": 0.187
+    },
+    "indus": {
+     "len1": 0.266,
+     "standalone": 0.348,
+     "both_orders": 0.028,
+     "hfi": 0.462,
+     "pol_ex": 0.098,
+     "both_pos": 0.773
+    },
+    "ref": {
+     "len1": 0.236,
+     "standalone": 0.74,
+     "both_orders": 0.12,
+     "hfi": 0.499,
+     "pol_ex": 0.005,
+     "both_pos": 0.74
+    }
+   },
+   {
+    "system": "ur3_legend_s",
+    "group": "genre",
+    "n": 423,
+    "d": 4.65,
+    "d_pooled": 0.94,
+    "ci": [
+     4.397,
+     4.928
+    ],
+    "z": {
+     "len1": 1.018,
+     "standalone": 10.321,
+     "both_orders": -4.685,
+     "hfi": -0.286,
+     "pol_ex": -0.201,
+     "both_pos": 0.334
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.031,
+     "standalone": 0.158,
+     "both_orders": 0.112,
+     "hfi": 0.517,
+     "pol_ex": 0.124,
+     "both_pos": 0.78
+    }
+   },
+   {
+    "system": "ur3_legend_w",
+    "group": "genre",
+    "n": 423,
+    "d": 5.017,
+    "d_pooled": 1.005,
+    "ci": [
+     4.633,
+     5.354
+    ],
+    "z": {
+     "len1": 0.953,
+     "standalone": 9.713,
+     "both_orders": -7.445,
+     "hfi": -0.443,
+     "pol_ex": 0.359,
+     "both_pos": -0.045
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.046,
+     "standalone": 0.185,
+     "both_orders": 0.152,
+     "hfi": 0.549,
+     "pol_ex": 0.027,
+     "both_pos": 0.845
+    }
+   },
+   {
+    "system": "metar",
+    "group": "code",
+    "n": 423,
+    "d": 5.232,
+    "d_pooled": 2.866,
+    "ci": [
+     4.896,
+     5.604
+    ],
+    "z": {
+     "len1": 1.128,
+     "standalone": 10.492,
+     "both_orders": 0.527,
+     "hfi": -1.8,
+     "pol_ex": -5.195,
+     "both_pos": 4.73
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.006,
+     "standalone": 0.151,
+     "both_orders": 0.035,
+     "hfi": 0.818,
+     "pol_ex": 0.991,
+     "both_pos": 0.022
+    }
+   },
+   {
+    "system": "heraldry_w",
+    "group": "genre",
+    "n": 423,
+    "d": 5.519,
+    "d_pooled": 1.319,
+    "ci": [
+     5.242,
+     5.887
+    ],
+    "z": {
+     "len1": 1.043,
+     "standalone": 10.992,
+     "both_orders": -7.707,
+     "hfi": -0.934,
+     "pol_ex": -0.258,
+     "both_pos": 0.733
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.025,
+     "standalone": 0.129,
+     "both_orders": 0.156,
+     "hfi": 0.646,
+     "pol_ex": 0.134,
+     "both_pos": 0.711
+    }
+   },
+   {
+    "system": "chess_eco",
+    "group": "code",
+    "n": 423,
+    "d": 5.79,
+    "d_pooled": 1.013,
+    "ci": [
+     5.484,
+     6.12
+    ],
+    "z": {
+     "len1": 0.93,
+     "standalone": 6.703,
+     "both_orders": -12.453,
+     "hfi": 0.157,
+     "pol_ex": -0.155,
+     "both_pos": 0.442
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.051,
+     "standalone": 0.316,
+     "both_orders": 0.226,
+     "hfi": 0.429,
+     "pol_ex": 0.116,
+     "both_pos": 0.761
+    }
+   },
+   {
+    "system": "chords",
+    "group": "code",
+    "n": 423,
+    "d": 8.558,
+    "d_pooled": 1.456,
+    "ci": [
+     8.317,
+     8.774
+    ],
+    "z": {
+     "len1": 1.045,
+     "standalone": 10.53,
+     "both_orders": -18.085,
+     "hfi": -0.242,
+     "pol_ex": 0.583,
+     "both_pos": -0.039
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.025,
+     "standalone": 0.149,
+     "both_orders": 0.309,
+     "hfi": 0.509,
+     "pol_ex": -0.012,
+     "both_pos": 0.844
+    }
+   },
+   {
+    "system": "khipu",
+    "group": "code",
+    "n": 423,
+    "d": 8.695,
+    "d_pooled": 1.447,
+    "ci": [
+     8.435,
+     8.947
+    ],
+    "z": {
+     "len1": 1.006,
+     "standalone": 9.925,
+     "both_orders": -18.814,
+     "hfi": -0.076,
+     "pol_ex": 0.377,
+     "both_pos": 0.018
+    },
+    "indus": {
+     "len1": 0.26,
+     "standalone": 0.608,
+     "both_orders": 0.043,
+     "hfi": 0.461,
+     "pol_ex": 0.089,
+     "both_pos": 0.838
+    },
+    "ref": {
+     "len1": 0.034,
+     "standalone": 0.175,
+     "both_orders": 0.319,
+     "hfi": 0.476,
+     "pol_ex": 0.024,
+     "both_pos": 0.834
+    }
+   }
+  ],
+  "nearest": "linb_entry_w",
+  "share_nearest": {
+   "linb_entry_w": 1.0,
+   "sangam": 0.0,
+   "lat_label_w": 0.0,
+   "plains": 0.0,
+   "egy_phrase_l": 0.0,
+   "egyptian": 0.0,
+   "sanskrit": 0.0,
+   "pe_entry_s": 0.0,
+   "cun_tag_s": 0.0,
+   "pc_entry_s": 0.0,
+   "greek": 0.0,
+   "egy_title_l": 0.0,
+   "old_norse": 0.0,
+   "ur3": 0.0,
+   "chinese_given": 0.0,
+   "old_high_german": 0.0,
+   "emoji": 0.0,
+   "chinese_full": 0.0,
+   "old_english": 0.0,
+   "ur3_title_w": 0.0,
+   "ob_legend_s": 0.0,
+   "lina_label_s": 0.0,
+   "ur3_legend_s": 0.0,
+   "ur3_legend_w": 0.0,
+   "metar": 0.0,
+   "heraldry_w": 0.0,
+   "chess_eco": 0.0,
+   "chords": 0.0,
+   "khipu": 0.0
+  },
+  "tied_with_nearest": [
+   "linb_entry_w"
+  ],
+  "category": {
+   "genre_lt_name": 1.0,
+   "code_lt_name": 0.0,
+   "genre_lt_code": 1.0
+  },
+  "loso_nearest": {
+   "len1": "linb_entry_w",
+   "standalone": "linb_entry_w",
+   "both_orders": "linb_entry_w",
+   "hfi": "linb_entry_w",
+   "pol_ex": "linb_entry_w",
+   "both_pos": "linb_entry_w"
+  },
+  "label": "typical",
+  "nn_d": 0.299,
+  "ref_nn_median": 0.833,
+  "ref_nn_max": 2.847,
+  "best_by_group": {
+   "genre": "linb_entry_w",
+   "code": "emoji",
+   "name": "sangam"
+  },
+  "nearest_pooled": "lat_label_w"
+ }
+}

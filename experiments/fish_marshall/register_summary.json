@@ -1,0 +1,59 @@
+{
+ "rows": 560,
+ "serial_sequence_complete_1_557": true,
+ "b_rows": [
+  "526b",
+  "528b",
+  "557b"
+ ],
+ "m77_linked": 486,
+ "m77_object_types": {
+  "seal": 480,
+  "ivory/bone rod": 5,
+  "miscellaneous": 1
+ },
+ "depth_check_n": 450,
+ "depth_within_1ft": 450,
+ "depth_within_1ft_share": 1.0,
+ "depth_exact_floor_share": 0.7733333333333333,
+ "djvu_depth_within_1ft_share": 0.7639344262295082,
+ "djvu_depth_n": 305,
+ "field_djvu_compared": 314,
+ "field_djvu_agree": 252,
+ "icit_linked": 251,
+ "confirmed_by_other_reading": 512,
+ "confirmed_by": {
+  "vision_A": 170,
+  "vision_B": 394,
+  "vision_C": 333,
+  "icit_linked": 251
+ },
+ "unconfirmed_djvu_conflict_dropped": 9,
+ "icit_depth_within_0p2ft_share": 0.9956140350877193,
+ "icit_depth_n": 228,
+ "c1": 557,
+ "c2": 547,
+ "c3": 560,
+ "reliable": 544,
+ "reliable_seals_m77": 469,
+ "prefix_to_area": {
+  "B": "DK",
+  "C": "DK",
+  "D": "DK",
+  "DK": "DK",
+  "DM": "SD",
+  "HR": "HR",
+  "L": "L",
+  "SD": "SD",
+  "VS": "VS"
+ },
+ "area_counts_reliable_seals": {
+  "HR": 164,
+  "DK": 148,
+  "VS": 69,
+  "other": 59,
+  "SD": 17,
+  "L": 12
+ },
+ "block_unit_icit_reliable_seals": 164
+}

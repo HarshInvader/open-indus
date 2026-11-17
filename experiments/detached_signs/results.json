@@ -1,0 +1,335 @@
+{
+ "area": "detached_signs",
+ "date": "2026-11-14",
+ "prereg": "docs/prereg/detached_signs.md",
+ "class_dev": [
+  "M242",
+  "M374",
+  "M93",
+  "M326",
+  "M393"
+ ],
+ "class_W": [
+  "W621",
+  "W790",
+  "W384"
+ ],
+ "layout": {
+  "dev_counts": {
+   "N": 7626,
+   "N_multi": 512,
+   "K_solo": 39,
+   "n_texts": 1699,
+   "n_multiline": 85,
+   "n_signs_tested": 112
+  },
+  "heldout_pooled": {
+   "n": 17,
+   "det": 5,
+   "n_multi": 8,
+   "exp_global": 0.08575031525851198,
+   "p_global": 7.524354613475876e-09,
+   "p_cond": 8.902064677855333e-06
+  },
+  "heldout_by_sign": {
+   "M242": {
+    "n": 4,
+    "det": 1,
+    "n_multi": 1,
+    "exp_global": 0.0201765447667087,
+    "p_global": 0.020036939986842608,
+    "p_cond": 0.05333333333333333
+   },
+   "M374": {
+    "n": 2,
+    "det": 2,
+    "n_multi": 2,
+    "exp_global": 0.01008827238335435,
+    "p_global": 2.3332841929541187e-05,
+    "p_cond": 0.002619047619047619
+   },
+   "M93": {
+    "n": 2,
+    "det": 0,
+    "n_multi": 1,
+    "exp_global": 0.01008827238335435,
+    "p_global": 1.0,
+    "p_cond": 1.0
+   },
+   "M326": {
+    "n": 6,
+    "det": 0,
+    "n_multi": 2,
+    "exp_global": 0.03026481715006305,
+    "p_global": 1.0,
+    "p_cond": 1.0
+   },
+   "M393": {
+    "n": 3,
+    "det": 2,
+    "n_multi": 2,
+    "exp_global": 0.015132408575031526,
+    "p_global": 6.980220402228329e-05,
+    "p_cond": 0.002619047619047619
+   }
+  },
+  "icit_only_pooled": {
+   "n": 39,
+   "det": 3,
+   "n_multi": 4,
+   "exp_global": 0.14571150097465888,
+   "p_global": 0.00038145778709806693,
+   "p_cond": 0.0005340540499789853
+  },
+  "icit_only_by_sign": {
+   "W384": {
+    "n": 12,
+    "det": 0,
+    "n_multi": 1,
+    "exp_global": 0.04483430799220273,
+    "p_global": 1.0,
+    "p_cond": 1.0
+   },
+   "W621": {
+    "n": 7,
+    "det": 2,
+    "n_multi": 2,
+    "exp_global": 0.026153346328784924,
+    "p_global": 0.0002772676226040105,
+    "p_cond": 0.0027948080640706986
+   },
+   "W790": {
+    "n": 20,
+    "det": 1,
+    "n_multi": 1,
+    "exp_global": 0.07472384665367121,
+    "p_global": 0.07223775372864603,
+    "p_cond": 0.05399061032863849
+   }
+  }
+ },
+ "confirmatory": {
+  "H1_m77": {
+   "p_ctrl": 0.447776111944028,
+   "holm": 1.0,
+   "power": 0.09333333333333334,
+   "n_carriers": 16,
+   "n_units": 571
+  },
+  "H1_icit": {
+   "p_ctrl": 0.9030484757621189,
+   "holm": 1.0,
+   "power": 0.7366666666666667,
+   "n_carriers": 29,
+   "n_units": 1497
+  },
+  "H2_m77": {
+   "p_ctrl": 0.440279860069965,
+   "holm": 1.0,
+   "power": 0.03,
+   "n_carriers": 16,
+   "n_units": 571
+  },
+  "H2_icit": {
+   "p_ctrl": 0.6011994002998501,
+   "holm": 1.0,
+   "power": 0.013333333333333334,
+   "n_carriers": 29,
+   "n_units": 1497
+  },
+  "H3_icit": {
+   "p_ctrl": 0.9435282358820589,
+   "holm": 1.0,
+   "power": 0.07666666666666666,
+   "n_carriers": 29,
+   "n_units": 1497
+  },
+  "H4_icit": {
+   "p_ctrl": 0.456271864067966,
+   "holm": 1.0,
+   "power": 0.3233333333333333,
+   "n_carriers": 29,
+   "n_units": 1497
+  }
+ },
+ "confirmatory_verdict": "INCONCLUSIVE (0/4 pass; power 0.01-0.32, H1 ICIT nominal 0.74 degenerate)",
+ "exploratory_with_overlap": {
+  "m77_all_scene": {
+   "O": 7.0,
+   "E": 4.05,
+   "z": 2.01,
+   "n_units": 2269,
+   "n_carriers": 72,
+   "class_token_counts": {
+    "M242": 26,
+    "M374": 7,
+    "M93": 10,
+    "M326": 23,
+    "M393": 7
+   },
+   "p_ctrl": 0.06346826586706647,
+   "null_mean": 0.1298440318256297,
+   "null_p95": 2.1042803283395415
+  },
+  "icit_only_scene": {
+   "O": 1.0,
+   "E": 0.15,
+   "z": 2.28,
+   "n_units": 1626,
+   "n_carriers": 39,
+   "class_token_counts": {
+    "W621": 7,
+    "W790": 20,
+    "W384": 12
+   },
+   "p_ctrl": 0.022988505747126436,
+   "null_mean": -0.10316448624777698,
+   "null_p95": 1.735856736034475
+  },
+  "icit_all_otype": {
+   "G": 34.41,
+   "O": {
+    "SEAL": 57,
+    "POT": 7,
+    "BNGL": 5,
+    "TAB:B": 11,
+    "TAB:I": 2,
+    "TAB:C": 6,
+    "OTHER": 2
+   },
+   "E": {
+    "SEAL": 59.17,
+    "POT": 7.65,
+    "TAG": 2.28,
+    "TAB:I": 5.57,
+    "TAB:B": 9.99,
+    "BNGL": 0.91,
+    "ROD": 0.7,
+    "OTHER": 0.6,
+    "IMPL": 0.89,
+    "TAB:C": 2.25
+   },
+   "n_units": 3499,
+   "n_carriers": 90,
+   "class_token_counts": {
+    "W621": 22,
+    "W790": 43,
+    "W384": 25
+   },
+   "p_ctrl": 0.07196401799100449,
+   "null_mean": 16.485942184702044,
+   "null_p95": 37.74828651421499
+  }
+ },
+ "inline": {
+  "M242": {
+   "slots": {
+    "alone": 0,
+    "first": 3,
+    "medial": 0,
+    "last": 11
+   },
+   "expected": {
+    "alone": 0.27,
+    "first": 4.06,
+    "medial": 7.81,
+    "last": 1.86
+   }
+  },
+  "M374": {
+   "slots": {
+    "alone": 0,
+    "first": 0,
+    "medial": 0,
+    "last": 0
+   },
+   "expected": {
+    "alone": 0.0,
+    "first": 0.0,
+    "medial": 0.0,
+    "last": 0.0
+   }
+  },
+  "M93": {
+   "slots": {
+    "alone": 0,
+    "first": 0,
+    "medial": 1,
+    "last": 1
+   },
+   "expected": {
+    "alone": 0.06,
+    "first": 0.93,
+    "medial": 0.87,
+    "last": 0.13
+   }
+  },
+  "M326": {
+   "slots": {
+    "alone": 1,
+    "first": 4,
+    "medial": 13,
+    "last": 1
+   },
+   "expected": {
+    "alone": 0.31,
+    "first": 4.94,
+    "medial": 11.59,
+    "last": 2.16
+   }
+  },
+  "M393": {
+   "slots": {
+    "alone": 0,
+    "first": 0,
+    "medial": 0,
+    "last": 2
+   },
+   "expected": {
+    "alone": 0.06,
+    "first": 0.53,
+    "medial": 1.04,
+    "last": 0.37
+   }
+  }
+ },
+ "multiline_positions": {
+  "M393": {
+   "detached_line2_of_2": 4
+  },
+  "M374": {
+   "detached_line2_of_2": 7
+  },
+  "M326": {
+   "inline_in_multisign_line:last": 1,
+   "inline_in_multisign_line:medial": 1,
+   "detached_line1_of_2": 2,
+   "detached_line2_of_2": 1
+  },
+  "M242": {
+   "detached_line2_of_2": 8,
+   "detached_line3_of_3": 1,
+   "inline_in_multisign_line:last": 2
+  },
+  "M93": {
+   "inline_in_multisign_line:last": 4,
+   "detached_line2_of_2": 4
+  }
+ },
+ "cooccur": {
+  "observed_texts_with_2plus_class_signs": 1,
+  "null_mean": 0.8935,
+  "p_ge": 0.6036981509245377,
+  "pairs": {
+   "M326+M93": 1
+  },
+  "texts_with_any_class_sign": 72
+ },
+ "M242_last_inline": {
+  "obs": 11,
+  "n": 14,
+  "exp": 1.86,
+  "p": 5.6e-08,
+  "mode": "exploratory"
+ }
+}

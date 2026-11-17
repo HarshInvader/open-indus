@@ -1,0 +1,315 @@
+{
+ "features": [
+  "zipf",
+  "top10_share",
+  "H1",
+  "Hcond",
+  "H_first",
+  "H_last",
+  "first_minus_last",
+  "top5_last_share",
+  "top5_first_share",
+  "pos_top10_mean",
+  "pos_top10_sd",
+  "pos_top1",
+  "alt_asym",
+  "alt_asym2",
+  "alt_rate",
+  "be_asym",
+  "rep_adj",
+  "rep_any",
+  "bigram_ttr"
+ ],
+ "n_A": 280,
+ "n_B": 280,
+ "RF_train_A_test_B": 0.779,
+ "RF_train_B_test_A": 0.754,
+ "RF_A_to_B_confusion": {
+  "labels": [
+   "BUR",
+   "DRA",
+   "ELA",
+   "IA",
+   "MUN",
+   "NONLING",
+   "SUM"
+  ],
+  "matrix": [
+   [
+    34,
+    0,
+    1,
+    0,
+    5,
+    0,
+    0
+   ],
+   [
+    1,
+    37,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    13,
+    2,
+    24,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    39,
+    1,
+    0,
+    0
+   ],
+   [
+    28,
+    3,
+    2,
+    0,
+    7,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0,
+    0,
+    2,
+    37,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    40
+   ]
+  ]
+ },
+ "RF_pooled_cv": 0.939,
+ "LR_train_A_test_B": 0.854,
+ "LR_train_B_test_A": 0.796,
+ "LR_A_to_B_confusion": {
+  "labels": [
+   "BUR",
+   "DRA",
+   "ELA",
+   "IA",
+   "MUN",
+   "NONLING",
+   "SUM"
+  ],
+  "matrix": [
+   [
+    35,
+    0,
+    1,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    0,
+    37,
+    3,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    5,
+    3,
+    31,
+    0,
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    40,
+    0,
+    0,
+    0
+   ],
+   [
+    17,
+    4,
+    0,
+    0,
+    19,
+    0,
+    0
+   ],
+   [
+    1,
+    1,
+    0,
+    0,
+    1,
+    37,
+    0
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    40
+   ]
+  ]
+ },
+ "LR_pooled_cv": 0.957,
+ "binary_DRA_vs_IA_A_to_B": 0.975,
+ "binary_DRA_vs_IA_B_to_A": 0.975,
+ "binary_DRA_vs_MUN_A_to_B": 0.775,
+ "binary_DRA_vs_MUN_B_to_A": 0.95,
+ "binary_DRA_vs_ELA_A_to_B": 0.9,
+ "binary_DRA_vs_ELA_B_to_A": 0.787,
+ "binary_nonling_A_to_B": 0.982,
+ "binary_nonling_A_to_B_recall_nonling": 0.9,
+ "indus_posteriors": {
+  "A/RF/M77": {
+   "BUR": 0.043,
+   "DRA": 0.028,
+   "ELA": 0.054,
+   "IA": 0.518,
+   "MUN": 0.196,
+   "NONLING": 0.145,
+   "SUM": 0.016
+  },
+  "A/RF/ICIT": {
+   "BUR": 0.13,
+   "DRA": 0.038,
+   "ELA": 0.105,
+   "IA": 0.392,
+   "MUN": 0.267,
+   "NONLING": 0.064,
+   "SUM": 0.003
+  },
+  "A/LR/M77": {
+   "BUR": 0.05,
+   "DRA": 0.0,
+   "ELA": 0.008,
+   "IA": 0.815,
+   "MUN": 0.035,
+   "NONLING": 0.081,
+   "SUM": 0.011
+  },
+  "A/LR/ICIT": {
+   "BUR": 0.065,
+   "DRA": 0.008,
+   "ELA": 0.047,
+   "IA": 0.8,
+   "MUN": 0.011,
+   "NONLING": 0.06,
+   "SUM": 0.009
+  },
+  "B/RF/M77": {
+   "BUR": 0.148,
+   "DRA": 0.054,
+   "ELA": 0.151,
+   "IA": 0.288,
+   "MUN": 0.066,
+   "NONLING": 0.261,
+   "SUM": 0.033
+  },
+  "B/RF/ICIT": {
+   "BUR": 0.152,
+   "DRA": 0.075,
+   "ELA": 0.123,
+   "IA": 0.316,
+   "MUN": 0.111,
+   "NONLING": 0.222,
+   "SUM": 0.001
+  },
+  "B/LR/M77": {
+   "BUR": 0.085,
+   "DRA": 0.003,
+   "ELA": 0.021,
+   "IA": 0.617,
+   "MUN": 0.014,
+   "NONLING": 0.242,
+   "SUM": 0.017
+  },
+  "B/LR/ICIT": {
+   "BUR": 0.043,
+   "DRA": 0.088,
+   "ELA": 0.104,
+   "IA": 0.583,
+   "MUN": 0.02,
+   "NONLING": 0.147,
+   "SUM": 0.014
+  },
+  "A+B/RF/M77": {
+   "BUR": 0.07,
+   "DRA": 0.073,
+   "ELA": 0.115,
+   "IA": 0.358,
+   "MUN": 0.126,
+   "NONLING": 0.242,
+   "SUM": 0.017
+  },
+  "A+B/RF/ICIT": {
+   "BUR": 0.095,
+   "DRA": 0.033,
+   "ELA": 0.143,
+   "IA": 0.364,
+   "MUN": 0.213,
+   "NONLING": 0.151,
+   "SUM": 0.002
+  },
+  "A+B/LR/M77": {
+   "BUR": 0.083,
+   "DRA": 0.001,
+   "ELA": 0.006,
+   "IA": 0.735,
+   "MUN": 0.016,
+   "NONLING": 0.151,
+   "SUM": 0.008
+  },
+  "A+B/LR/ICIT": {
+   "BUR": 0.031,
+   "DRA": 0.035,
+   "ELA": 0.034,
+   "IA": 0.788,
+   "MUN": 0.008,
+   "NONLING": 0.099,
+   "SUM": 0.005
+  }
+ },
+ "indus_argmax": {
+  "A/RF/M77": "IA",
+  "A/RF/ICIT": "IA",
+  "A/LR/M77": "IA",
+  "A/LR/ICIT": "IA",
+  "B/RF/M77": "IA",
+  "B/RF/ICIT": "IA",
+  "B/LR/M77": "IA",
+  "B/LR/ICIT": "IA",
+  "A+B/RF/M77": "IA",
+  "A+B/RF/ICIT": "IA",
+  "A+B/LR/M77": "IA",
+  "A+B/LR/ICIT": "IA"
+ }
+}

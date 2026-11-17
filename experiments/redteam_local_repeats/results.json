@@ -1,0 +1,13 @@
+{
+ "prereg": "docs/prereg/redteam_local_repeats.md",
+ "R1a_formula": {"obs": 14, "TRI-L_mean": 0.06, "SLOT-L_mean": 0.08, "TRI-A_l80_mean": 1.14, "p": 0.002, "verdict": "survives null choice"},
+ "R1a_other_residual": {"obs": 20, "TRI-L_mean": 18.6, "p_TRI-L": 0.42, "SLOT-L_mean": 14.4, "p_SLOT-L": 0.18, "verdict": "fails"},
+ "R1_calibrated_trigram_l70": {"rep13_pred": 152.5, "rep13_obs": 145, "rep45_pred": 32.5, "rep45_obs": 34, "p": 0.45},
+ "R1b_novelty": {"verdict": "not new", "prior": "sources/shaunmortal_indus/STATE.md:336; pair_numeral_long M162 count heads; redteam_pnl M162 minimal pairs", "M77_closers": {"M162": 13, "M169": 3, "M161": 0}},
+ "R1c": {"flagged": 4, "formula_after_drop": 10, "p_after_drop": 0.002},
+ "R1d": {"verdict": "untestable by design", "heldout_frame_seals": 0, "dev_frame_seals": 16},
+ "R2a_growth": {"matched_null": [0.99, 0, 3], "obs": 6, "p_matched": 1e-4, "MH_OR": 21.4, "p_MH": 2e-4, "gen_TRI-A_share": 0.118, "p_gen_TRI-A": 0.0053, "gen_N2_share": 0.208, "p_gen_N2": 0.072, "gen_ratio_rep_over_single": [13.2, 39.6], "verdict": "survives, effect smaller"},
+ "R2a_never_shrink": {"P0of15_matched": 0.018, "P0of15_gen": [0.03, 0.12], "P0of15_singleton_rate": 0.57, "verdict": "weakly informative"},
+ "R2b_not_local": {"min_p": 0.087, "nonformula_fam_share": 0.67, "null": 0.45, "nonformula_ratio": [0.62, 0.09, 1.38], "verdict": "survives as not-shown-local; underpowered"},
+ "holm": {"R1a": 0.006, "R2a": 0.011, "R2b": 0.087}
+}

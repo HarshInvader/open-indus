@@ -1,0 +1,51 @@
+{
+ "split": "v2",
+ "n_dev": 1699,
+ "n_heldout": 571,
+ "order": {
+  "n_runs": 321,
+  "true_order_strictly_best": 0.40186915887850466,
+  "chance": 0.05678311823171635
+ },
+ "ticked_fish": {
+  "final": 11,
+  "tokens": 19,
+  "share": 0.5789473684210527,
+  "plain_share": 0.07329842931937172,
+  "null_mean": 0.18523449126613997,
+  "p": 0.004
+ },
+ "six_fish": {
+  "M109_tokens_with_follower": 10,
+  "followed_by_M59": 7,
+  "base_rate": 0.03068450039339103,
+  "p": 2.8325082980288477e-09
+ },
+ "registers": {
+  "copper tablet": {
+   "n": 15,
+   "auc": 0.869,
+   "null95": 0.614
+  },
+  "miniature tablet": {
+   "n": 28,
+   "auc": 0.758,
+   "null95": 0.596
+  },
+  "pottery graffito": {
+   "n": 22,
+   "auc": 0.733,
+   "null95": 0.605
+  },
+  "seal": {
+   "n": 422,
+   "auc": 0.724,
+   "null95": 0.545
+  },
+  "sealing": {
+   "n": 69,
+   "auc": 0.673,
+   "null95": 0.559
+  }
+ }
+}

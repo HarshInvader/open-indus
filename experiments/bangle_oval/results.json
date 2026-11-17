@@ -1,0 +1,94 @@
+{
+ "verdict": "UNTESTABLE: no independent sample. Eligible new inscribed bangles n=0 confirmed (H-1008 possible t.c. bangle, no oval).",
+ "search": {
+  "icit_nonBNGL_bangles": 0,
+  "cisi_v1_bangles": 0,
+  "cisi_v2_not_in_icit": {
+   "H-1008": "t.c. bangle(?) caption; crosshatch + short strokes, no oval; not scored",
+   "M-1648": "shell ring/bead, not bangle",
+   "M-1655..1657": "faience/steatite ornaments, not bangles"
+  },
+  "literature": "published inscribed stoneware bangles (~22-23: MD 18, Harappa 4, Balakot 1) all in ICIT BNGL (50 rows); harappa.com PDFs 403"
+ },
+ "p0_nonbangle_W790": 0.0106,
+ "n_for_80pct_power": {
+  "L2_08_p15": 19,
+  "binom_only_p15": 19,
+  "binom_only_p8": 53
+ },
+ "workshop_fisher_power_per_site_n": {
+  "5": 0.002,
+  "10": 0.044,
+  "20": 0.135,
+  "40": 0.616
+ },
+ "discovery_workshop_descriptive": {
+  "objects_MD_vs_Harappa": {
+   "MD": [
+    5,
+    40
+   ],
+   "Harappa": [
+    2,
+    7
+   ],
+   "p_two_sided": 0.27633749038164923
+  },
+  "objects_MD_surface_vs_old": {
+   "surface": [
+    5,
+    27
+   ],
+   "old": [
+    0,
+    13
+   ],
+   "p_two_sided": 0.1539829302987198
+  },
+  "by_material_objects": {
+   "-": [
+    1,
+    1,
+    5
+   ],
+   "Clay": [
+    1,
+    0,
+    2
+   ],
+   "Shell": [
+    0,
+    0,
+    1
+   ],
+   "Steatite": [
+    0,
+    0,
+    1
+   ],
+   "Stoneware": [
+    5,
+    9,
+    39
+   ],
+   "Terracotta": [
+    0,
+    0,
+    1
+   ]
+  },
+  "slot_distinct": {
+   "last": 1,
+   "mid": 1,
+   "alone": 2,
+   "first": 1
+  }
+ },
+ "prereg": "docs/prereg/bangle_oval.md (hashed, tag bangle_oval)",
+ "ledger": [
+  "bo_h1",
+  "bo_pow",
+  "bo_h4a",
+  "bo_h4b"
+ ]
+}

@@ -1,0 +1,1816 @@
+{
+ "l1_catalogue": {
+  "kinds_M77": {
+   "picture": 96,
+   "one-face-only": 18,
+   "sign-face": 13,
+   "second-text": 7,
+   "two-faced-other": 1
+  },
+  "kinds_ICIT": {
+   "picture": 131,
+   "sign-face": 23,
+   "second-text": 11,
+   "one-face-only": 24,
+   "two-faced-other": 1
+  },
+  "families": {
+   "F05": {
+    "legend": "M389 M72 M326 M342",
+    "n": 20,
+    "pictures": {
+     "goat-antelope (horns arching back)": 7,
+     "other picture (ICIT Othr)": 6
+    },
+    "sign_faces": {
+     "M346": 4
+    },
+    "second_texts": {
+     "M249 M169 M342": 2
+    }
+   },
+   "F12": {
+    "legend": "M112 M194 M327 M342",
+    "n": 7,
+    "pictures": {
+     "two-headed animal": 3,
+     "composite/two-headed (ICIT Comp)": 1,
+     "other picture (ICIT Othr)": 3
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F04": {
+    "legend": "M336 M89 M296 M342",
+    "n": 21,
+    "pictures": {
+     "horned tiger": 1,
+     "elephant": 17,
+     "composite/two-headed (ICIT Comp)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {
+     "M102 M190": 2
+    }
+   },
+   "F02": {
+    "legend": "M65 M336 M89 M407 M169 M183 M169",
+    "n": 25,
+    "pictures": {
+     "hare": 22
+    },
+    "sign_faces": {
+     "M355": 2
+    },
+    "second_texts": {}
+   },
+   "F01": {
+    "legend": "M204 M245 M358 M342",
+    "n": 55,
+    "pictures": {
+     "rhinoceros": 2,
+     "ox-antelope (long curly horns)": 19,
+     "other picture (ICIT Othr)": 28,
+     "ox-antelope/gaur (ICIT Gaur)": 1
+    },
+    "sign_faces": {
+     "M184": 4
+    },
+    "second_texts": {}
+   },
+   "F07": {
+    "legend": "M53 M67 M407 M124 M169",
+    "n": 13,
+    "pictures": {
+     "tiger": 3,
+     "horned tiger": 2,
+     "ox-antelope (short horns)": 3,
+     "unknown": 1,
+     "ox-antelope/gaur (ICIT Gaur)": 1,
+     "other picture (ICIT Othr)": 2
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F09": {
+    "legend": "M345 M341 M18 M252 M97 M25 M245 M245",
+    "n": 11,
+    "pictures": {
+     "unicorn": 6,
+     "two-headed animal": 1,
+     "double-axe": 2
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F13": {
+    "legend": "M51 M130 M149 M342 M287 M102 M190",
+    "n": 7,
+    "pictures": {
+     "buffalo": 3,
+     "ox-antelope/gaur (ICIT Gaur)": 1,
+     "bull (ICIT)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F17": {
+    "legend": "M87 M155 M169",
+    "n": 4,
+    "pictures": {
+     "short-horned bull": 2,
+     "ox-antelope/gaur (ICIT Gaur)": 2
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F15": {
+    "legend": "M389 M65 M72 M336 M89 M194 M169",
+    "n": 5,
+    "pictures": {
+     "rhinoceros": 1,
+     "composite/two-headed (ICIT Comp)": 2
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F06": {
+    "legend": "M70 M112 M194 M18 M211 M87 M169",
+    "n": 18,
+    "pictures": {
+     "goat-antelope (twirled horns)": 6,
+     "other picture (ICIT Othr)": 1,
+     "buffalo": 1
+    },
+    "sign_faces": {
+     "M363": 3,
+     "M364": 5,
+     "M362": 1
+    },
+    "second_texts": {}
+   },
+   "F14": {
+    "legend": "M171 M59 M407 M169",
+    "n": 7,
+    "pictures": {
+     "endless knot": 7
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F25": {
+    "legend": "M102 M59 M249 M169 M342",
+    "n": 2,
+    "pictures": {},
+    "sign_faces": {
+     "M405": 2
+    },
+    "second_texts": {}
+   },
+   "F03": {
+    "legend": "M389 M407 M124 M169 M373 M287 M342",
+    "n": 25,
+    "pictures": {
+     "horned archer personage": 15
+    },
+    "sign_faces": {
+     "M362": 4,
+     "M363": 2,
+     "M364": 2
+    },
+    "second_texts": {}
+   },
+   "F18": {
+    "legend": "M89 M328 M287 M319",
+    "n": 4,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {
+     "M87 M59 M48 M342": 4
+    }
+   },
+   "F11": {
+    "legend": "M65 M72 M62 M342",
+    "n": 10,
+    "pictures": {
+     "rhinoceros": 6,
+     "other picture (ICIT Othr)": 4
+    },
+    "sign_faces": {},
+    "second_texts": {
+     "M65 M72 M62 M342": 1
+    }
+   },
+   "F26": {
+    "legend": "M87 M59 M348 M342",
+    "n": 2,
+    "pictures": {
+     "composite animal": 1,
+     "composite/two-headed (ICIT Comp)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F10": {
+    "legend": "M102 M190 M48 M8 M342 M373",
+    "n": 11,
+    "pictures": {
+     "goat-antelope (twirled horns)": 9,
+     "other picture (ICIT Othr)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F20": {
+    "legend": "M53 M70 M336 M89 M294 M8 M342",
+    "n": 3,
+    "pictures": {},
+    "sign_faces": {
+     "M51": 3
+    },
+    "second_texts": {}
+   },
+   "F30": {
+    "legend": "M267",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F08": {
+    "legend": "M295 M87 M97 M252 M97 M25 M245 M245",
+    "n": 13,
+    "pictures": {
+     "two-headed animal": 4,
+     "other picture (ICIT Othr)": 6,
+     "composite/two-headed (ICIT Comp)": 2
+    },
+    "sign_faces": {},
+    "second_texts": {
+     "W495 M230 W365 M99 M104 M169": 1
+    }
+   },
+   "F16": {
+    "legend": "M348 M342",
+    "n": 5,
+    "pictures": {},
+    "sign_faces": {
+     "M96": 2
+    },
+    "second_texts": {
+     "# M287 M319": 1
+    }
+   },
+   "F21": {
+    "legend": "M336 M89 M87",
+    "n": 3,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {
+     "M72 M194 M169": 3
+    }
+   },
+   "F22": {
+    "legend": "M70 M51 M130 M149 M342",
+    "n": 3,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {
+     "W479 M346": 2
+    }
+   },
+   "F31": {
+    "legend": "# M174",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F32": {
+    "legend": "M389 M407 #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F19": {
+    "legend": "M201 M99 M48 M342 M67 M161",
+    "n": 4,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {
+     "M287 M319": 4
+    }
+   },
+   "F33": {
+    "legend": "# M51 # M342",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F34": {
+    "legend": "# M149 M342 #",
+    "n": 1,
+    "pictures": {
+     "uncertain bovine": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F35": {
+    "legend": "M295 M87 #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F36": {
+    "legend": "# M194 # M342",
+    "n": 1,
+    "pictures": {
+     "two-headed animal": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F37": {
+    "legend": "M336 M89 # M342",
+    "n": 1,
+    "pictures": {
+     "elephant": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F27": {
+    "legend": "M102 M72 M8 M342",
+    "n": 2,
+    "pictures": {
+     "short-horned bull": 1,
+     "composite/two-headed (ICIT Comp)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F38": {
+    "legend": "# M59 M407 #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F28": {
+    "legend": "M245 M184 M252",
+    "n": 2,
+    "pictures": {
+     "ox-antelope (short horns)": 1,
+     "ox-antelope/gaur (ICIT Gaur)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F39": {
+    "legend": "# M407 M124 M169 # M287 M342",
+    "n": 1,
+    "pictures": {
+     "horned archer personage": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F40": {
+    "legend": "M389 #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F41": {
+    "legend": "# # # M169 # M287 M342",
+    "n": 1,
+    "pictures": {
+     "horned archer personage": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F23": {
+    "legend": "# # M342",
+    "n": 3,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F24": {
+    "legend": "M72 M194 M169",
+    "n": 3,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {
+     "M106 M336": 3
+    }
+   },
+   "F42": {
+    "legend": "M345 M341 # #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F43": {
+    "legend": "# M296 #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F44": {
+    "legend": "M389",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F45": {
+    "legend": "M169 M87 M211 M1",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {
+     "M364": 1
+    },
+    "second_texts": {}
+   },
+   "F46": {
+    "legend": "W354",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F47": {
+    "legend": "# M59 M342",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F48": {
+    "legend": "# M72 M59 M342",
+    "n": 1,
+    "pictures": {
+     "other picture (ICIT Othr)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F29": {
+    "legend": "# # M326 M342",
+    "n": 2,
+    "pictures": {
+     "other picture (ICIT Othr)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F49": {
+    "legend": "M249 M161 M8 M342 M261",
+    "n": 1,
+    "pictures": {
+     "endless knot": 1
+    },
+    "sign_faces": {},
+    "second_texts": {
+     "M171 M59 M407 M169": 1
+    }
+   },
+   "F50": {
+    "legend": "M25 M245 M245 M97 M104 M169",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {
+     "M287 M319": 1
+    }
+   },
+   "F51": {
+    "legend": "M345 M341 M25 M252 M97",
+    "n": 1,
+    "pictures": {
+     "unicorn": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F52": {
+    "legend": "M51 M130 M149 M342 #",
+    "n": 1,
+    "pictures": {
+     "bull (ICIT)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F53": {
+    "legend": "# M102 #",
+    "n": 1,
+    "pictures": {
+     "bull (ICIT)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F54": {
+    "legend": "M102 # M48 # M342 M261",
+    "n": 1,
+    "pictures": {
+     "other picture (ICIT Othr)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F55": {
+    "legend": "M70 M51",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {
+     "M346": 1
+    },
+    "second_texts": {}
+   },
+   "F56": {
+    "legend": "M70",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F57": {
+    "legend": "M294 M87 M294",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F58": {
+    "legend": "M204 # M358 M342",
+    "n": 1,
+    "pictures": {
+     "ox-antelope/gaur (ICIT Gaur)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F59": {
+    "legend": "# M189",
+    "n": 1,
+    "pictures": {
+     "tiger": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F60": {
+    "legend": "# # M407 M124 M169",
+    "n": 1,
+    "pictures": {
+     "ox-antelope/gaur (ICIT Gaur)": 1
+    },
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F61": {
+    "legend": "M379 M249 M28 M169 M99",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F62": {
+    "legend": "# M130 M149 M342",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F63": {
+    "legend": "# M89 # #",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   },
+   "F64": {
+    "legend": "M362",
+    "n": 1,
+    "pictures": {},
+    "sign_faces": {},
+    "second_texts": {}
+   }
+  }
+ },
+ "l2_substitution": {
+  "T1_M77": {
+   "picture": 96,
+   "one-face-only": 18,
+   "sign-face": 13,
+   "second-text": 7,
+   "two-faced-other": 1
+  },
+  "T1_ICIT": {
+   "picture": 131,
+   "sign-face": 23,
+   "second-text": 11,
+   "one-face-only": 24,
+   "two-faced-other": 1
+  },
+  "T2_sign_face_legends": [
+   {
+    "legend": "M204 M245 M342",
+    "family": "F01",
+    "signs": {
+     "M184": 4
+    },
+    "pictures": {
+     "rhinoceros": 2
+    }
+   },
+   {
+    "legend": "M65 M336 M89 M407 M169 M183 M169",
+    "family": "F02",
+    "signs": {
+     "M355": 2
+    },
+    "pictures": {
+     "hare": 21
+    }
+   },
+   {
+    "legend": "M389 M407 M124 M169 M373 M287 M342",
+    "family": "F03",
+    "signs": {
+     "horned-U (M362/M363/M364)": 7
+    },
+    "pictures": {
+     "horned archer personage": 15
+    }
+   },
+   {
+    "legend": "M389 M407 M169 M373 M287 M342",
+    "family": "F03",
+    "signs": {
+     "horned-U (M362/M363/M364)": 1
+    },
+    "pictures": {}
+   },
+   {
+    "legend": "M389 M72 M326 M342",
+    "family": "F05",
+    "signs": {
+     "M346": 4
+    },
+    "pictures": {
+     "goat-antelope (horns arching back)": 3,
+     "(ICIT 'Othr' picture)": 1
+    }
+   },
+   {
+    "legend": "M70 M112 M194 M18 M211 M87 M169",
+    "family": "F06",
+    "signs": {
+     "horned-U (M362/M363/M364)": 4
+    },
+    "pictures": {
+     "goat-antelope (twirled horns)": 4,
+     "(ICIT 'Othr' picture)": 1,
+     "buffalo": 1
+    }
+   },
+   {
+    "legend": "M59 M112 M194 M18 M211 M87 M169",
+    "family": "F06",
+    "signs": {
+     "horned-U (M362/M363/M364)": 4
+    },
+    "pictures": {
+     "goat-antelope (twirled horns)": 2
+    }
+   },
+   {
+    "legend": "M348 M342",
+    "family": "F16",
+    "signs": {
+     "M96": 2
+    },
+    "pictures": {}
+   },
+   {
+    "legend": "M53 M70 M336 M89 M294 M8 M342",
+    "family": "F20",
+    "signs": {
+     "M51": 3
+    },
+    "pictures": {}
+   },
+   {
+    "legend": "M102 M59 M249 M169 M342",
+    "family": "F25",
+    "signs": {
+     "M405": 1
+    },
+    "pictures": {}
+   },
+   {
+    "legend": "M102 M59 M249 M161 M342",
+    "family": "F25",
+    "signs": {
+     "M405": 1
+    },
+    "pictures": {}
+   },
+   {
+    "legend": "M169 M87 M211 M1",
+    "family": "F45",
+    "signs": {
+     "horned-U (M362/M363/M364)": 1
+    },
+    "pictures": {}
+   },
+   {
+    "legend": "M70 M51",
+    "family": "F55",
+    "signs": {
+     "M346": 1
+    },
+    "pictures": {}
+   }
+  ],
+  "T3_M77": {
+   "n_tablets": 13,
+   "legends_with_2plus": 4,
+   "homogeneous": 4,
+   "null_mean": 0.7278,
+   "p": 0.00029997000299970003
+  },
+  "T3_ICIT": {
+   "n_tablets": 23,
+   "legends_with_2plus": 7,
+   "homogeneous": 7,
+   "null_mean": 1.5279,
+   "p": 9.999000099990002e-05
+  },
+  "T3_both": {
+   "n_tablets": 36,
+   "legends_with_2plus": 8,
+   "homogeneous": 8,
+   "null_mean": 0.8796,
+   "p": 9.999000099990002e-05
+  },
+  "T4": {
+   "signface_pictured": 5,
+   "signface_unpictured": 3,
+   "other_pictured": 15,
+   "other_unpictured": 6,
+   "odds": 0.6666666666666666,
+   "p": 0.8204163652439515
+  },
+  "T5": {
+   "M184": {
+    "F01": {
+     "rhinoceros": 2
+    }
+   },
+   "M355": {
+    "F02": {
+     "hare": 21
+    }
+   },
+   "horned-U (M362/M363/M364)": {
+    "F03": {
+     "horned archer personage": 15
+    },
+    "F06": {
+     "goat-antelope (twirled horns)": 6,
+     "(ICIT 'Othr' picture)": 1,
+     "buffalo": 1
+    }
+   },
+   "M346": {
+    "F05": {
+     "goat-antelope (horns arching back)": 3,
+     "(ICIT 'Othr' picture)": 1
+    }
+   }
+  },
+  "T6": {
+   "pictured_families": 19,
+   "share_horned": 0.7894736842105263,
+   "head_sign_families": [
+    "F03",
+    "F05",
+    "F06"
+   ],
+   "horned": 3,
+   "p": 0.4920542353112699,
+   "counterexample": "M355 (horned U + wheel) pairs with the hare legend (ICIT M-593, M-1547)"
+  },
+  "T7_minimal_pairs": [
+   {
+    "a": "M204 M245 M342",
+    "b": "M204 M245 M358 M342",
+    "pics_a": {
+     "rhinoceros": 1
+    },
+    "pics_b": {
+     "ox-antelope (long curly horns)": 19
+    },
+    "same_picture": false
+   },
+   {
+    "a": "M336 M89 M296 M342",
+    "b": "M336 M89 M296 M342 M98",
+    "pics_a": {
+     "elephant": 3
+    },
+    "pics_b": {
+     "horned tiger": 1,
+     "elephant": 3
+    },
+    "same_picture": true
+   },
+   {
+    "a": "M389 M72 M326 M342",
+    "b": "M389 M72 M48 M342",
+    "pics_a": {
+     "goat-antelope (horns arching back)": 3
+    },
+    "pics_b": {
+     "goat-antelope (horns arching back)": 4
+    },
+    "same_picture": true
+   },
+   {
+    "a": "M59 M112 M194 M18 M211 M87 M169",
+    "b": "M70 M112 M194 M18 M211 M87 M169",
+    "pics_a": {
+     "goat-antelope (twirled horns)": 2
+    },
+    "pics_b": {
+     "goat-antelope (twirled horns)": 3
+    },
+    "same_picture": true
+   }
+  ],
+  "T7_multi_picture_legends": {
+   "M336 M89 M296 M342 M98": {
+    "horned tiger": 1,
+    "elephant": 3
+   },
+   "M53 M67 M407 M124 M169": {
+    "tiger": 1,
+    "horned tiger": 2,
+    "ox-antelope (short horns)": 3
+   },
+   "M345 M341 M18 M252 M97 M25 M245 M245": {
+    "unicorn": 3,
+    "two-headed animal": 1
+   }
+  }
+ },
+ "l3_iconic_seals": {
+  "prereg": [
+   {
+    "source": "M77",
+    "pair": "fish signs ~ gharial/fish pictures",
+    "obs": 5,
+    "exp": 4.14,
+    "n_sign": 543,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.3960801959902005,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "fish signs ~ gharial/fish pictures",
+    "obs": 13,
+    "exp": 15.19,
+    "n_sign": 628,
+    "n_pic": 76,
+    "n": 2124,
+    "p": 0.8216089195540223,
+    "wells_signs": [
+     "W220",
+     "W226",
+     "W231",
+     "W232",
+     "W233",
+     "W235",
+     "W236",
+     "W240",
+     "W241",
+     "W243"
+    ],
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "pipal leaf M326/M327 ~ tree/leaf/pipal pictures",
+    "obs": 0,
+    "exp": 0.27,
+    "n_sign": 40,
+    "n_pic": 8,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "pipal leaf M326/M327 ~ tree/leaf/pipal pictures",
+    "obs": 0,
+    "exp": 0.37,
+    "n_sign": 45,
+    "n_pic": 44,
+    "n": 2124,
+    "p": 1.0,
+    "wells_signs": [
+     "W384",
+     "W388"
+    ],
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "human figure signs M1-M44 ~ anthropomorphic/scenes",
+    "obs": 8,
+    "exp": 6.76,
+    "n_sign": 392,
+    "n_pic": 27,
+    "n": 1538,
+    "p": 0.3559322033898305,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "human figure signs M1-M44 ~ anthropomorphic/scenes",
+    "obs": 10,
+    "exp": 9.81,
+    "n_sign": 431,
+    "n_pic": 50,
+    "n": 2124,
+    "p": 0.5393230338483076,
+    "wells_signs": [
+     "W090",
+     "W095",
+     "W097",
+     "W100",
+     "W101",
+     "W104",
+     "W125",
+     "W130",
+     "W137",
+     "W140",
+     "W142",
+     "W151",
+     "W154",
+     "W156",
+     "W161"
+    ],
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "horned-U M355/M362-M364 ~ horned personage",
+    "obs": 0,
+    "exp": 0.01,
+    "n_sign": 4,
+    "n_pic": 8,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "horned man M8 ~ horned personage",
+    "obs": 0,
+    "exp": 0.19,
+    "n_sign": 53,
+    "n_pic": 8,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "horned man M8 ~ horned personage",
+    "obs": 0,
+    "exp": 0.75,
+    "n_sign": 68,
+    "n_pic": 10,
+    "n": 2124,
+    "p": 1.0,
+    "wells_signs": [
+     "W100"
+    ],
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "bow-man M27-M29 ~ archer/weapon scenes",
+    "obs": 0,
+    "exp": 0.04,
+    "n_sign": 41,
+    "n_pic": 3,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "bow-man M27-M29 ~ archer/weapon scenes",
+    "obs": 0,
+    "exp": 0.37,
+    "n_sign": 42,
+    "n_pic": 50,
+    "n": 2124,
+    "p": 1.0,
+    "wells_signs": [
+     "W125"
+    ],
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "bird signs M76-M83 ~ bird pictures",
+    "obs": 0,
+    "exp": 0.0,
+    "n_sign": 41,
+    "n_pic": 0,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "bird signs M76-M83 ~ bird pictures",
+    "obs": 0,
+    "exp": 0.0,
+    "n_sign": 18,
+    "n_pic": 3,
+    "n": 2124,
+    "p": 1.0,
+    "wells_signs": [
+     "W260",
+     "W269"
+    ],
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "quadruped signs M50/M183-M185 ~ any animal",
+    "obs": 11,
+    "exp": 10.71,
+    "n_sign": 11,
+    "n_pic": 1421,
+    "n": 1538,
+    "p": 0.7480125993700315,
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "svastika M148 ~ svastika pictures",
+    "obs": 0,
+    "exp": 0.0,
+    "n_sign": 0,
+    "n_pic": 3,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "M77",
+    "pair": "branch signs M166-M168 ~ kino tree / tree scenes",
+    "obs": 0,
+    "exp": 0.03,
+    "n_sign": 6,
+    "n_pic": 8,
+    "n": 1538,
+    "p": 1.0,
+    "q": 1.0
+   },
+   {
+    "source": "ICIT",
+    "pair": "branch signs M166-M168 ~ kino tree / tree scenes",
+    "obs": 4,
+    "exp": 2.62,
+    "n_sign": 224,
+    "n_pic": 41,
+    "n": 2124,
+    "p": 0.2586870656467177,
+    "wells_signs": [
+     "W390",
+     "W405"
+    ],
+    "q": 1.0
+   }
+  ],
+  "scan": [
+   {
+    "sign": "M242",
+    "group": "scenes",
+    "obs": 4,
+    "exp": 0.24,
+    "n_sign": 25,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.00024993751562109475,
+    "q": 0.2086978255436141
+   },
+   {
+    "sign": "M344",
+    "group": "anthropomorphic",
+    "obs": 2,
+    "exp": 0.12,
+    "n_sign": 18,
+    "n_pic": 7,
+    "n": 1538,
+    "p": 0.00424893776555861,
+    "q": 1.0
+   },
+   {
+    "sign": "M261",
+    "group": "scenes",
+    "obs": 2,
+    "exp": 0.15,
+    "n_sign": 14,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.00849787553111722,
+    "q": 1.0
+   },
+   {
+    "sign": "M8",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 0.28,
+    "n_sign": 53,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.02599350162459385,
+    "q": 1.0
+   },
+   {
+    "sign": "M93",
+    "group": "scenes",
+    "obs": 2,
+    "exp": 0.36,
+    "n_sign": 9,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.0284928767808048,
+    "q": 1.0
+   },
+   {
+    "sign": "M328",
+    "group": "trees/leaves",
+    "obs": 4,
+    "exp": 1.51,
+    "n_sign": 37,
+    "n_pic": 7,
+    "n": 1538,
+    "p": 0.030492376905773555,
+    "q": 1.0
+   },
+   {
+    "sign": "M12",
+    "group": "scenes",
+    "obs": 3,
+    "exp": 0.86,
+    "n_sign": 55,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.04323919020244939,
+    "q": 1.0
+   },
+   {
+    "sign": "M249",
+    "group": "anthropomorphic",
+    "obs": 2,
+    "exp": 0.44,
+    "n_sign": 78,
+    "n_pic": 7,
+    "n": 1538,
+    "p": 0.05798550362409398,
+    "q": 1.0
+   },
+   {
+    "sign": "M176",
+    "group": "geometric/motifs",
+    "obs": 16,
+    "exp": 13.06,
+    "n_sign": 86,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.06273431642089478,
+    "q": 1.0
+   },
+   {
+    "sign": "M48",
+    "group": "geometric/motifs",
+    "obs": 4,
+    "exp": 2.15,
+    "n_sign": 56,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.08147963009247688,
+    "q": 1.0
+   },
+   {
+    "sign": "M193",
+    "group": "geometric/motifs",
+    "obs": 2,
+    "exp": 0.6,
+    "n_sign": 9,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.08622844288927768,
+    "q": 1.0
+   },
+   {
+    "sign": "M114",
+    "group": "geometric/motifs",
+    "obs": 2,
+    "exp": 0.6,
+    "n_sign": 6,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.08922769307673081,
+    "q": 1.0
+   },
+   {
+    "sign": "M216",
+    "group": "scenes",
+    "obs": 2,
+    "exp": 0.62,
+    "n_sign": 46,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.12046988252936766,
+    "q": 1.0
+   },
+   {
+    "sign": "M149",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 0.66,
+    "n_sign": 32,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.1229692576855786,
+    "q": 1.0
+   },
+   {
+    "sign": "M87",
+    "group": "scenes",
+    "obs": 4,
+    "exp": 2.09,
+    "n_sign": 159,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.13321669582604348,
+    "q": 1.0
+   },
+   {
+    "sign": "M59",
+    "group": "anthropomorphic",
+    "obs": 2,
+    "exp": 0.7,
+    "n_sign": 202,
+    "n_pic": 7,
+    "n": 1538,
+    "p": 0.14371407148212947,
+    "q": 1.0
+   },
+   {
+    "sign": "M171",
+    "group": "geometric/motifs",
+    "obs": 4,
+    "exp": 2.6,
+    "n_sign": 61,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.14596350912271933,
+    "q": 1.0
+   },
+   {
+    "sign": "M171",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 0.73,
+    "n_sign": 61,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.15096225943514122,
+    "q": 1.0
+   },
+   {
+    "sign": "M123",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 0.73,
+    "n_sign": 134,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.15271182204448888,
+    "q": 1.0
+   },
+   {
+    "sign": "M342",
+    "group": "geometric/motifs",
+    "obs": 22,
+    "exp": 19.4,
+    "n_sign": 686,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.1559610097475631,
+    "q": 1.0
+   },
+   {
+    "sign": "M402",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 0.88,
+    "n_sign": 70,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.2034491377155711,
+    "q": 1.0
+   },
+   {
+    "sign": "M343",
+    "group": "scenes",
+    "obs": 3,
+    "exp": 1.57,
+    "n_sign": 135,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.20544863784053988,
+    "q": 1.0
+   },
+   {
+    "sign": "M402",
+    "group": "scenes",
+    "obs": 2,
+    "exp": 0.87,
+    "n_sign": 70,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.2184453886528368,
+    "q": 1.0
+   },
+   {
+    "sign": "M176",
+    "group": "fish/gharial",
+    "obs": 4,
+    "exp": 2.47,
+    "n_sign": 86,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.21919520119970007,
+    "q": 1.0
+   },
+   {
+    "sign": "M1",
+    "group": "scenes",
+    "obs": 2,
+    "exp": 0.92,
+    "n_sign": 71,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.232191952011997,
+    "q": 1.0
+   },
+   {
+    "sign": "M86",
+    "group": "scenes",
+    "obs": 2,
+    "exp": 0.97,
+    "n_sign": 94,
+    "n_pic": 20,
+    "n": 1538,
+    "p": 0.24943764058985254,
+    "q": 1.0
+   },
+   {
+    "sign": "M176",
+    "group": "trees/leaves",
+    "obs": 2,
+    "exp": 0.96,
+    "n_sign": 86,
+    "n_pic": 7,
+    "n": 1538,
+    "p": 0.2561859535116221,
+    "q": 1.0
+   },
+   {
+    "sign": "M67",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 1.04,
+    "n_sign": 142,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.279680079980005,
+    "q": 1.0
+   },
+   {
+    "sign": "M254",
+    "group": "geometric/motifs",
+    "obs": 3,
+    "exp": 2.33,
+    "n_sign": 43,
+    "n_pic": 58,
+    "n": 1538,
+    "p": 0.28292926768307924,
+    "q": 1.0
+   },
+   {
+    "sign": "M403",
+    "group": "fish/gharial",
+    "obs": 2,
+    "exp": 1.08,
+    "n_sign": 48,
+    "n_pic": 19,
+    "n": 1538,
+    "p": 0.29492626843289177,
+    "q": 1.0
+   }
+  ],
+  "scan_ntests": 835
+ },
+ "l4_variant_copies": {
+  "ICIT": {
+   "n_pairs": 114,
+   "n_sp": 101,
+   "multi_obs": 9,
+   "null_mean": 10.43,
+   "p": 0.8504983388704319,
+   "top": [
+    {
+     "S": "W032",
+     "P": "Bult",
+     "n_types": 3,
+     "types": [
+      "W226 W400",
+      "W700 W032",
+      "W740 W400"
+     ]
+    },
+    {
+     "S": "W400",
+     "P": "Bull1",
+     "n_types": 3,
+     "types": [
+      "W028 W032 W740",
+      "W097 W151",
+      "W176 W740"
+     ]
+    },
+    {
+     "S": "W400",
+     "P": "Phyt",
+     "n_types": 2,
+     "types": [
+      "W590 W390 W740",
+      "W840 W032 W740"
+     ]
+    },
+    {
+     "S": "W336",
+     "P": "Bult",
+     "n_types": 2,
+     "types": [
+      "W176 W740",
+      "W176 W740 W400"
+     ]
+    },
+    {
+     "S": "W400",
+     "P": "Fish",
+     "n_types": 2,
+     "types": [
+      "W027 W032 W740",
+      "W255 W436 W690 W740"
+     ]
+    },
+    {
+     "S": "W415",
+     "P": "Bull1",
+     "n_types": 2,
+     "types": [
+      "W220 W520",
+      "W240 W100 W740"
+     ]
+    },
+    {
+     "S": "W100",
+     "P": "Bult",
+     "n_types": 2,
+     "types": [
+      "W176 W740",
+      "W740 W400"
+     ]
+    },
+    {
+     "S": "W235",
+     "P": "Bull1",
+     "n_types": 2,
+     "types": [
+      "W555 W527",
+      "W923 W740"
+     ]
+    },
+    {
+     "S": "W400",
+     "P": "Bult",
+     "n_types": 2,
+     "types": [
+      "W032 W226",
+      "W176 W740"
+     ]
+    },
+    {
+     "S": "W001",
+     "P": "Bult",
+     "n_types": 1,
+     "types": [
+      "W034 W700"
+     ]
+    },
+    {
+     "S": "W001",
+     "P": "X",
+     "n_types": 1,
+     "types": [
+      "W034 W700"
+     ]
+    },
+    {
+     "S": "W001",
+     "P": "Fish",
+     "n_types": 1,
+     "types": [
+      "W034 W700"
+     ]
+    }
+   ],
+   "positions": {
+    "start": 65,
+    "end": 30,
+    "inside": 19
+   },
+   "diff_picture_dups": 16,
+   "dups": 1246
+  },
+  "M77": {
+   "n_pairs": 109,
+   "n_sp": 92,
+   "multi_obs": 10,
+   "null_mean": 11.05,
+   "p": 0.8338870431893688,
+   "top": [
+    {
+     "S": "M176",
+     "P": "350",
+     "n_types": 3,
+     "types": [
+      "M149 M342",
+      "M204 M112 M342",
+      "M67 M8 M342"
+     ]
+    },
+    {
+     "S": "M59",
+     "P": "10",
+     "n_types": 3,
+     "types": [
+      "M341 M342",
+      "M342 M1",
+      "M48 M342"
+     ]
+    },
+    {
+     "S": "M65",
+     "P": "10",
+     "n_types": 3,
+     "types": [
+      "M222 M254",
+      "M249 M162 M342 M176",
+      "M48 M342"
+     ]
+    },
+    {
+     "S": "M53",
+     "P": "10",
+     "n_types": 3,
+     "types": [
+      "M171 M59 M211",
+      "M249 M169 M342",
+      "M267 M99 M59"
+     ]
+    },
+    {
+     "S": "M6",
+     "P": "10",
+     "n_types": 2,
+     "types": [
+      "M267 M99",
+      "M86 M12"
+     ]
+    },
+    {
+     "S": "M67",
+     "P": "10",
+     "n_types": 2,
+     "types": [
+      "M245 M245 M99",
+      "M267 M99"
+     ]
+    },
+    {
+     "S": "M375",
+     "P": "10",
+     "n_types": 2,
+     "types": [
+      "M267 M99",
+      "M375 M342"
+     ]
+    },
+    {
+     "S": "M345",
+     "P": "10",
+     "n_types": 2,
+     "types": [
+      "M104 M169",
+      "M249 M169 M342"
+     ]
+    },
+    {
+     "S": "M342",
+     "P": "10",
+     "n_types": 2,
+     "types": [
+      "M249 M169",
+      "M67 M348"
+     ]
+    },
+    {
+     "S": "M176",
+     "P": "10",
+     "n_types": 2,
+     "types": [
+      "M119 M87 M342",
+      "M136 M193 M342"
+     ]
+    },
+    {
+     "S": "M386",
+     "P": "10",
+     "n_types": 1,
+     "types": [
+      "M267 M99"
+     ]
+    },
+    {
+     "S": "M41",
+     "P": "10",
+     "n_types": 1,
+     "types": [
+      "M104 M162"
+     ]
+    }
+   ],
+   "positions": {
+    "start": 55,
+    "end": 38,
+    "inside": 16
+   },
+   "diff_picture_dups": 12,
+   "dups": 1177
+  }
+ },
+ "l5_other_contexts": {
+  "M77": {
+   "occurrences": [
+    {
+     "id": 1286,
+     "sign": "M355",
+     "pos": 0,
+     "n": 6,
+     "obj": "seal",
+     "fs": 13
+    },
+    {
+     "id": 2092,
+     "sign": "M184",
+     "pos": 1,
+     "n": 5,
+     "obj": "seal",
+     "fs": 0
+    },
+    {
+     "id": 2515,
+     "sign": "M184",
+     "pos": 0,
+     "n": 4,
+     "obj": "seal",
+     "fs": 0
+    },
+    {
+     "id": 4023,
+     "sign": "M183",
+     "pos": 0,
+     "n": 8,
+     "obj": "seal",
+     "fs": 13
+    },
+    {
+     "id": 4158,
+     "sign": "M355",
+     "pos": 0,
+     "n": 1,
+     "obj": "seal",
+     "fs": 11
+    },
+    {
+     "id": 5073,
+     "sign": "M364",
+     "pos": 0,
+     "n": 7,
+     "obj": "seal",
+     "fs": 13
+    },
+    {
+     "id": 7026,
+     "sign": "M364",
+     "pos": 2,
+     "n": 7,
+     "obj": "seal",
+     "fs": 13
+    },
+    {
+     "id": 9832,
+     "sign": "M184",
+     "pos": 3,
+     "n": 5,
+     "obj": "seal",
+     "fs": 41
+    }
+   ],
+   "initial": 4,
+   "n": 7,
+   "expected": 1.2273809523809525,
+   "p": 0.02032312925170068
+  },
+  "ICIT": {
+   "occurrences": [
+    {
+     "id": "1082.1",
+     "sign": "W321",
+     "pos": 0,
+     "n": 8,
+     "obj": "SEAL:S",
+     "fs": "Bull1:W"
+    },
+    {
+     "id": "1541.2",
+     "sign": "W777",
+     "pos": 0,
+     "n": 7,
+     "obj": "SEAL:S",
+     "fs": "Bull1:W"
+    },
+    {
+     "id": "2692.1",
+     "sign": "W780",
+     "pos": 0,
+     "n": 3,
+     "obj": "SEAL:S",
+     "fs": "Bull1:S"
+    },
+    {
+     "id": "5517.1",
+     "sign": "W343",
+     "pos": 1,
+     "n": 2,
+     "obj": "SEAL:R",
+     "fs": "None"
+    }
+   ],
+   "initial": 3,
+   "n": 4,
+   "expected": 1.1011904761904763,
+   "p": 0.050595238095238096
+  }
+ }
+}

@@ -1,0 +1,1202 @@
+{
+ "agent": "closer_ownership",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/closer_ownership.md",
+ "taskA_verdict": "fails (pre-set wording): CONN->dumu does not survive grammar-free slots; residual = raw positional fact",
+ "taskA": {
+  "replication_grammar_slots": {
+   "dev": {
+    "fp": {
+     "occ": 0.358,
+     "mpos": 0.348,
+     "first": 0.0,
+     "last": 0.0,
+     "rlen": 1.0,
+     "types20": 2.033,
+     "short": 0.0,
+     "recur": 0.007,
+     "alone": 0.0,
+     "longdiff": 0.824,
+     "edge_s": 0.0,
+     "top": 0.749
+    },
+    "ur3_full": {
+     "hungarian": [
+      "KIN",
+      0.5935646200787413
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.594,
+     "d_nearest": 0.594
+    },
+    "ur3_nodef": {
+     "hungarian": [
+      "KIN",
+      0.648905964061993
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.649,
+     "d_nearest": 0.649
+    },
+    "ob_full": {
+     "hungarian": [
+      "KIN",
+      0.3469653197251891
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.347,
+     "d_nearest": 0.347
+    },
+    "ob_nodef": {
+     "hungarian": [
+      "KIN",
+      0.3515112572970948
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.352,
+     "d_nearest": 0.352
+    },
+    "ur3_boot_hungarian": {
+     "KIN": 1.0
+    },
+    "ob_boot_hungarian": {
+     "KIN": 1.0
+    }
+   },
+   "heldout": {
+    "fp": {
+     "occ": 0.35,
+     "mpos": 0.356,
+     "first": 0.0,
+     "last": 0.0,
+     "rlen": 1.0,
+     "types20": 2.0,
+     "short": 0.0,
+     "recur": 0.007,
+     "alone": 0.0,
+     "longdiff": 0.76,
+     "edge_s": 0.0,
+     "top": 0.79
+    },
+    "ur3_full": {
+     "hungarian": [
+      "KIN",
+      0.5906155542511787
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.591,
+     "d_nearest": 0.591
+    },
+    "ur3_nodef": {
+     "hungarian": [
+      "KIN",
+      0.6568887829113428
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.657,
+     "d_nearest": 0.657
+    },
+    "ob_full": {
+     "hungarian": [
+      "KIN",
+      0.3479167419749526
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.348,
+     "d_nearest": 0.348
+    },
+    "ob_nodef": {
+     "hungarian": [
+      "SERV",
+      0.47762582802531756
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.371,
+     "d_nearest": 0.371
+    },
+    "ur3_boot_hungarian": {
+     "KIN": 1.0
+    },
+    "ob_boot_hungarian": {
+     "KIN": 1.0
+    }
+   }
+  },
+  "signlist_slots": {
+   "dev": {
+    "fp": {
+     "occ": 0.415,
+     "mpos": 0.367,
+     "first": 0.036,
+     "last": 0.012,
+     "rlen": 1.0,
+     "types20": 2.0,
+     "short": 0.015,
+     "recur": 0.008,
+     "alone": 0.0,
+     "longdiff": 0.867,
+     "edge_s": 0.048,
+     "top": 0.772
+    },
+    "ur3_full": {
+     "hungarian": [
+      "KIN",
+      0.5295401165839808
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.53,
+     "d_nearest": 0.53
+    },
+    "ur3_nodef": {
+     "hungarian": [
+      "KIN",
+      0.577792876233146
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.578,
+     "d_nearest": 0.578
+    },
+    "ob_full": {
+     "hungarian": [
+      "KIN",
+      0.28579780652442477
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.286,
+     "d_nearest": 0.286
+    },
+    "ob_nodef": {
+     "hungarian": [
+      "KIN",
+      0.2818536806436313
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.282,
+     "d_nearest": 0.282
+    },
+    "ur3_boot_hungarian": {
+     "KIN": 1.0
+    },
+    "ob_boot_hungarian": {
+     "KIN": 1.0
+    }
+   },
+   "heldout": {
+    "fp": {
+     "occ": 0.313,
+     "mpos": 0.389,
+     "first": 0.038,
+     "last": 0.038,
+     "rlen": 1.0,
+     "types20": 2.0,
+     "short": 0.022,
+     "recur": 0.008,
+     "alone": 0.0,
+     "longdiff": 0.757,
+     "edge_s": 0.076,
+     "top": 0.689
+    },
+    "ur3_full": {
+     "hungarian": [
+      "KIN",
+      0.6433081440579961
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.643,
+     "d_nearest": 0.643
+    },
+    "ur3_nodef": {
+     "hungarian": [
+      "KIN",
+      0.6897331920828859
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.69,
+     "d_nearest": 0.69
+    },
+    "ob_full": {
+     "hungarian": [
+      "KIN",
+      0.4251351643306761
+     ],
+     "nearest": "SERV",
+     "d_KIN": 0.425,
+     "d_nearest": 0.401
+    },
+    "ob_nodef": {
+     "hungarian": [
+      "KIN",
+      0.42367720659995095
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.424,
+     "d_nearest": 0.424
+    },
+    "ur3_boot_hungarian": {
+     "KIN": 0.91,
+     "TITLE": 0.09
+    },
+    "ob_boot_hungarian": {
+     "SERV": 0.32,
+     "KIN": 0.68
+    }
+   }
+  },
+  "signlist_M99_only": {
+   "dev": {
+    "fp": {
+     "occ": 0.322,
+     "mpos": 0.364,
+     "first": 0.042,
+     "last": 0.008,
+     "rlen": 1.0,
+     "types20": 1.0,
+     "short": 0.009,
+     "recur": 0.003,
+     "alone": 0.0,
+     "longdiff": 0.809,
+     "edge_s": 0.049,
+     "top": 1.0
+    },
+    "ur3_full": {
+     "hungarian": [
+      "KIN",
+      0.5932783902670704
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.593,
+     "d_nearest": 0.593
+    },
+    "ur3_nodef": {
+     "hungarian": [
+      "KIN",
+      0.6847673630052232
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.685,
+     "d_nearest": 0.685
+    },
+    "ob_full": {
+     "hungarian": [
+      "KIN",
+      0.35019908458858917
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.35,
+     "d_nearest": 0.35
+    },
+    "ob_nodef": {
+     "hungarian": [
+      "KIN",
+      0.4003524204757914
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.4,
+     "d_nearest": 0.4
+    },
+    "ur3_boot_hungarian": {
+     "KIN": 1.0
+    },
+    "ob_boot_hungarian": {
+     "KIN": 1.0
+    }
+   },
+   "heldout": {
+    "fp": {
+     "occ": 0.218,
+     "mpos": 0.392,
+     "first": 0.033,
+     "last": 0.055,
+     "rlen": 1.0,
+     "types20": 1.0,
+     "short": 0.02,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.632,
+     "edge_s": 0.088,
+     "top": 1.0
+    },
+    "ur3_full": {
+     "hungarian": [
+      "KIN",
+      0.7057376100114952
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.706,
+     "d_nearest": 0.706
+    },
+    "ur3_nodef": {
+     "hungarian": [
+      "KIN",
+      0.814670552558678
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.815,
+     "d_nearest": 0.815
+    },
+    "ob_full": {
+     "hungarian": [
+      "KIN",
+      0.4919629518959774
+     ],
+     "nearest": "KIN",
+     "d_KIN": 0.492,
+     "d_nearest": 0.492
+    },
+    "ob_nodef": {
+     "hungarian": [
+      "SERV",
+      0.5354727978984912
+     ],
+     "nearest": "TITLE",
+     "d_KIN": 0.565,
+     "d_nearest": 0.374
+    },
+    "ur3_boot_hungarian": {
+     "KIN": 1.0
+    },
+    "ob_boot_hungarian": {
+     "KIN": 0.94,
+     "SERV": 0.06
+    }
+   }
+  },
+  "raw_positional_facts": {
+   "dev_M99": {
+    "n_occ": 385,
+    "n_texts": 384,
+    "initial": 0.04155844155844156,
+    "final": 0.007792207792207792,
+    "in_len_le2": 0.007792207792207792,
+    "in_len_le3": 0.07532467532467532,
+    "after_opener": 0.6415584415584416,
+    "distinct_left": 65,
+    "distinct_right": 88,
+    "texts_le2_share_corpus": 0.12060301507537688
+   },
+   "heldout_M99": {
+    "n_occ": 91,
+    "n_texts": 91,
+    "initial": 0.03296703296703297,
+    "final": 0.054945054945054944,
+    "in_len_le2": 0.04395604395604396,
+    "in_len_le3": 0.07692307692307693,
+    "after_opener": 0.25274725274725274,
+    "distinct_left": 42,
+    "distinct_right": 45,
+    "texts_le2_share_corpus": 0.215311004784689
+   },
+   "icit_M99(WW002)": {
+    "n_occ": 41,
+    "n_texts": 41,
+    "initial": 0.0,
+    "final": 0.04878048780487805,
+    "in_len_le2": 0.024390243902439025,
+    "in_len_le3": 0.07317073170731707,
+    "after_opener": 0.4146341463414634,
+    "distinct_left": 23,
+    "distinct_right": 30,
+    "texts_le2_share_corpus": 0.2807017543859649
+   },
+   "dev_M123": {
+    "n_occ": 114,
+    "n_texts": 112,
+    "initial": 0.017543859649122806,
+    "final": 0.02631578947368421,
+    "in_len_le2": 0.017543859649122806,
+    "in_len_le3": 0.06140350877192982,
+    "after_opener": 0.6491228070175439,
+    "distinct_left": 24,
+    "distinct_right": 42,
+    "texts_le2_share_corpus": 0.12060301507537688
+   }
+  },
+  "pseudo_connective_null": {
+   "ur3": {
+    "n_pseudo": 36,
+    "share_pseudo_hungarian_KIN": 0.972,
+    "share_pseudo_nearest_KIN": 0.25,
+    "M99_dKIN": 0.593,
+    "p_pseudo_dKIN_le_M99": 0.027,
+    "median_pseudo_dKIN": 0.994
+   },
+   "ob": {
+    "n_pseudo": 36,
+    "share_pseudo_hungarian_KIN": 0.056,
+    "share_pseudo_nearest_KIN": 0.028,
+    "M99_dKIN": 0.35,
+    "p_pseudo_dKIN_le_M99": 0.027,
+    "median_pseudo_dKIN": 0.823
+   }
+  },
+  "clustering": {
+   "runs": 12,
+   "M99_own_cluster": 0,
+   "cluster_size_range": [
+    17,
+    43
+   ],
+   "M123_same_cluster": 8,
+   "nearest_slot_counts": {
+    "ur3": {
+     "LORD": 24
+    },
+    "ob": {
+     "LORD": 12,
+     "TITLE": 12
+    }
+   },
+   "hungarian_KIN_full": {
+    "ur3_dev": 1,
+    "ur3_ho": 0,
+    "ob_dev": 4,
+    "ob_ho": 2
+   },
+   "hungarian_KIN_no_filler_features": {
+    "ur3_dev": 7,
+    "ur3_ho": 4,
+    "ob_dev": 9,
+    "ob_ho": 9
+   },
+   "min_dKIN": 1.137,
+   "tau": 0.803,
+   "types20_range": [
+    10.9,
+    18.2
+   ]
+  },
+  "token_level": {
+   "ur3": {
+    "dev": "TITLE",
+    "ho": "TITLE"
+   },
+   "ob": {
+    "dev": "TITLE",
+    "ho": "SERV"
+   },
+   "fresh": {
+    "dev": "SERV",
+    "ho": "SERV"
+   }
+  },
+  "definitional_features": "5 of genre_alignment's 15 features (len, ttr100, top1, H100, zipf) are fixed by defining CONN as {M99,M123}; first/last/short/alone are forced to exactly 0 by the grammar but are also near 0 in raw data (initial 4%, final 1%, on <=2-sign texts 1% vs 12% of texts)"
+ },
+ "taskB_verdict": "untestable (gate failed)",
+ "taskB": {
+  "gate": {
+   "G1": {
+    "ob->fresh": {
+     "SEAL_OF": [
+      0.0,
+      40
+     ],
+     "SERV": [
+      0.0,
+      40
+     ],
+     "raw": {
+      "SEAL_OF->SERV": 40,
+      "SERV->KIN": 40
+     }
+    },
+    "fresh->ob": {
+     "SEAL_OF": [
+      1.0,
+      40
+     ],
+     "SERV": [
+      0.0,
+      40
+     ],
+     "raw": {
+      "SEAL_OF->TITLE": 40,
+      "SERV->TITLE": 40
+     }
+    }
+   },
+   "G1_mean": 0.25,
+   "G1_min": 0.0,
+   "G1_pass": false,
+   "G2_kisib": 1.0,
+   "G2_arad": 0.24691358024691357,
+   "G2_pooled": 0.5040650406504065,
+   "G2_n": [
+    42,
+    81
+   ],
+   "G2_pass": false
+  },
+  "G2_detail": {
+   "ob->fresh": {
+    "arad2|SERV": {
+     "SERV": 20
+    },
+    "kiszib|SEAL_OF": {
+     "SEAL_OF": 20
+    },
+    "arad|SERV": {
+     "KIN": 20
+    },
+    "kiszib3|SEAL_OF": {
+     "SEAL_OF": 20
+    },
+    "{na4}kiszib3|SEAL_OF": {
+     "SEAL_OF": 2
+    },
+    "arad-zu|SERV": {
+     "SEAL_OF": 1
+    }
+   },
+   "fresh->ob": {
+    "arad2|SERV": {
+     "TITLE": 20
+    },
+    "arad|SERV": {
+     "TITLE": 20
+    }
+   }
+  },
+  "predictions": {
+   "P1": {
+    "heldout": [
+     0.472,
+     true
+    ],
+    "icit": [
+     0.49,
+     true
+    ]
+   },
+   "P2": {
+    "heldout": [
+     0.438,
+     true
+    ],
+    "icit": [
+     0.474,
+     true
+    ]
+   },
+   "P3": {
+    "heldout": [
+     0.47,
+     false
+    ],
+    "icit": [
+     0.367,
+     false
+    ]
+   },
+   "P4": {
+    "heldout": [
+     0.61,
+     false
+    ],
+    "icit": [
+     0.525,
+     false
+    ]
+   },
+   "P5": {
+    "fresh_SERV_short": 0.0972972972972973,
+    "fresh_SERV_nameonly": 0.1956521739130435,
+    "pass": false
+   },
+   "verdict": "untestable (gate failed)"
+  },
+  "indus": {
+   "heldout_set": {
+    "features": {
+     "occ": 0.574,
+     "first": 0.027,
+     "last": 0.742,
+     "types20": 6.433,
+     "short": 0.472,
+     "recur": 0.092,
+     "alone": 0.013,
+     "longdiff": 0.47,
+     "nameonly": 0.438,
+     "edge_s": 0.758,
+     "n": 240.0
+    },
+    "nearest_fresh": "TITLE",
+    "dist_fresh": {
+     "SEAL_OF": 1.353,
+     "TITLE": 1.16,
+     "SERV": 1.189,
+     "KIN": 1.435
+    },
+    "nearest_strict": "SEAL_OF",
+    "dist_strict": {
+     "SEAL_OF": 1.284,
+     "TITLE": 1.496,
+     "SERV": 1.541,
+     "KIN": 1.543
+    },
+    "nearest_ob": "SEAL_OF",
+    "dist_ob": {
+     "SEAL_OF": 1.385,
+     "TITLE": 1.607,
+     "SERV": 1.441,
+     "KIN": 1.492
+    },
+    "nearest_ur3": "SERV",
+    "dist_ur3": {
+     "TITLE": 1.065,
+     "SERV": 0.726,
+     "KIN": 1.493
+    },
+    "boot_nearest_fresh": {
+     "SERV": 0.39,
+     "TITLE": 0.61
+    },
+    "boot_own_or_title_beats_serv": 0.61,
+    "ci90": {
+     "short": [
+      0.421,
+      0.523
+     ],
+     "nameonly": [
+      0.384,
+      0.49
+     ],
+     "longdiff": [
+      0.402,
+      0.536
+     ]
+    }
+   },
+   "heldout_jar": {
+    "features": {
+     "occ": 0.371,
+     "first": 0.006,
+     "last": 0.677,
+     "types20": 1.0,
+     "short": 0.248,
+     "recur": 0.032,
+     "alone": 0.0,
+     "longdiff": 0.649,
+     "nameonly": 0.374,
+     "edge_s": 0.683,
+     "n": 155.0
+    },
+    "nearest_fresh": "SERV",
+    "dist_fresh": {
+     "SEAL_OF": 0.824,
+     "TITLE": 0.728,
+     "SERV": 0.708,
+     "KIN": 1.055
+    },
+    "nearest_strict": "SEAL_OF",
+    "dist_strict": {
+     "SEAL_OF": 0.785,
+     "TITLE": 1.047,
+     "SERV": 1.088,
+     "KIN": 1.107
+    },
+    "nearest_ob": "SERV",
+    "dist_ob": {
+     "SEAL_OF": 1.582,
+     "TITLE": 1.169,
+     "SERV": 1.059,
+     "KIN": 1.212
+    },
+    "nearest_ur3": "SERV",
+    "dist_ur3": {
+     "TITLE": 0.945,
+     "SERV": 0.527,
+     "KIN": 1.344
+    },
+    "boot_nearest_fresh": {
+     "SERV": 0.57,
+     "TITLE": 0.41,
+     "SEAL_OF": 0.02
+    },
+    "boot_own_or_title_beats_serv": 0.43,
+    "ci90": {
+     "short": [
+      0.216,
+      0.296
+     ],
+     "nameonly": [
+      0.326,
+      0.45
+     ],
+     "longdiff": [
+      0.574,
+      0.707
+     ]
+    }
+   },
+   "icit_set": {
+    "features": {
+     "occ": 0.567,
+     "first": 0.049,
+     "last": 0.794,
+     "types20": 5.767,
+     "short": 0.49,
+     "recur": 0.041,
+     "alone": 0.021,
+     "longdiff": 0.367,
+     "nameonly": 0.474,
+     "edge_s": 0.824,
+     "n": 97.0
+    },
+    "nearest_fresh": "TITLE",
+    "dist_fresh": {
+     "SEAL_OF": 1.4,
+     "TITLE": 1.244,
+     "SERV": 1.262,
+     "KIN": 1.543
+    },
+    "nearest_strict": "SEAL_OF",
+    "dist_strict": {
+     "SEAL_OF": 1.339,
+     "TITLE": 1.575,
+     "SERV": 1.629,
+     "KIN": 1.641
+    },
+    "nearest_ob": "SEAL_OF",
+    "dist_ob": {
+     "SEAL_OF": 1.275,
+     "TITLE": 1.675,
+     "SERV": 1.556,
+     "KIN": 1.611
+    },
+    "nearest_ur3": "SERV",
+    "dist_ur3": {
+     "TITLE": 1.184,
+     "SERV": 0.753,
+     "KIN": 1.611
+    },
+    "boot_nearest_fresh": {
+     "TITLE": 0.515,
+     "SERV": 0.475,
+     "SEAL_OF": 0.01
+    },
+    "boot_own_or_title_beats_serv": 0.525,
+    "ci90": {
+     "short": [
+      0.407,
+      0.557
+     ],
+     "nameonly": [
+      0.392,
+      0.539
+     ],
+     "longdiff": [
+      0.27,
+      0.485
+     ]
+    }
+   },
+   "icit_jar": {
+    "features": {
+     "occ": 0.345,
+     "first": 0.049,
+     "last": 0.787,
+     "types20": 1.333,
+     "short": 0.269,
+     "recur": 0.034,
+     "alone": 0.034,
+     "longdiff": 0.543,
+     "nameonly": 0.441,
+     "edge_s": 0.803,
+     "n": 59.0
+    },
+    "nearest_fresh": "SERV",
+    "dist_fresh": {
+     "SEAL_OF": 0.884,
+     "TITLE": 0.882,
+     "SERV": 0.836,
+     "KIN": 1.244
+    },
+    "nearest_strict": "SEAL_OF",
+    "dist_strict": {
+     "SEAL_OF": 0.872,
+     "TITLE": 1.187,
+     "SERV": 1.243,
+     "KIN": 1.28
+    },
+    "nearest_ob": "SERV",
+    "dist_ob": {
+     "SEAL_OF": 1.419,
+     "TITLE": 1.289,
+     "SERV": 1.255,
+     "KIN": 1.407
+    },
+    "nearest_ur3": "SERV",
+    "dist_ur3": {
+     "TITLE": 1.128,
+     "SERV": 0.496,
+     "KIN": 1.528
+    },
+    "boot_nearest_fresh": {
+     "SERV": 0.45,
+     "SEAL_OF": 0.25,
+     "TITLE": 0.3
+    },
+    "boot_own_or_title_beats_serv": 0.55,
+    "ci90": {
+     "short": [
+      0.198,
+      0.347
+     ],
+     "nameonly": [
+      0.317,
+      0.533
+     ],
+     "longdiff": [
+      0.407,
+      0.66
+     ]
+    }
+   }
+  },
+  "ref_features": {
+   "fresh": {
+    "SEAL_OF": {
+     "occ": 0.086,
+     "first": 0.55,
+     "last": 0.0,
+     "types20": 5.6,
+     "short": 0.022,
+     "recur": 0.081,
+     "alone": 0.0,
+     "longdiff": 0.363,
+     "nameonly": 0.108,
+     "edge_s": 0.55,
+     "n": 37.0
+    },
+    "TITLE": {
+     "occ": 0.281,
+     "first": 0.015,
+     "last": 0.2,
+     "types20": 10.267,
+     "short": 0.124,
+     "recur": 0.066,
+     "alone": 0.0,
+     "longdiff": 0.483,
+     "nameonly": 0.149,
+     "edge_s": 0.215,
+     "n": 121.0
+    },
+    "SERV": {
+     "occ": 0.213,
+     "first": 0.0,
+     "last": 0.283,
+     "types20": 6.267,
+     "short": 0.097,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.441,
+     "nameonly": 0.196,
+     "edge_s": 0.283,
+     "n": 92.0
+    },
+    "KIN": {
+     "occ": 0.429,
+     "first": 0.01,
+     "last": 0.01,
+     "types20": 3.167,
+     "short": 0.022,
+     "recur": 0.038,
+     "alone": 0.0,
+     "longdiff": 0.763,
+     "nameonly": 0.022,
+     "edge_s": 0.021,
+     "n": 185.0
+    }
+   },
+   "strict": {
+    "SEAL_OF": {
+     "occ": 0.153,
+     "first": 0.4,
+     "last": 0.0,
+     "types20": 5.367,
+     "short": 0.045,
+     "recur": 0.111,
+     "alone": 0.0,
+     "longdiff": 0.303,
+     "nameonly": 0.148,
+     "edge_s": 0.4,
+     "n": 27.0
+    },
+    "TITLE": {
+     "occ": 0.22,
+     "first": 0.049,
+     "last": 0.073,
+     "types20": 10.167,
+     "short": 0.0,
+     "recur": 0.051,
+     "alone": 0.0,
+     "longdiff": 0.393,
+     "nameonly": 0.0,
+     "edge_s": 0.122,
+     "n": 39.0
+    },
+    "SERV": {
+     "occ": 0.209,
+     "first": 0.0,
+     "last": 0.027,
+     "types20": 3.8,
+     "short": 0.011,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.547,
+     "nameonly": 0.027,
+     "edge_s": 0.027,
+     "n": 37.0
+    },
+    "KIN": {
+     "occ": 0.288,
+     "first": 0.0,
+     "last": 0.0,
+     "types20": 3.667,
+     "short": 0.0,
+     "recur": 0.098,
+     "alone": 0.0,
+     "longdiff": 0.674,
+     "nameonly": 0.0,
+     "edge_s": 0.0,
+     "n": 51.0
+    }
+   },
+   "oakk": {
+    "TITLE": {
+     "occ": 0.483,
+     "first": 0.0,
+     "last": 0.263,
+     "types20": 7.2,
+     "short": 0.286,
+     "recur": 0.071,
+     "alone": 0.0,
+     "longdiff": 0.639,
+     "nameonly": 0.257,
+     "edge_s": 0.263,
+     "n": 70.0
+    },
+    "SERV": {
+     "occ": 0.338,
+     "first": 0.0,
+     "last": 0.449,
+     "types20": 7.933,
+     "short": 0.2,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.689,
+     "nameonly": 0.347,
+     "edge_s": 0.449,
+     "n": 49.0
+    },
+    "KIN": {
+     "occ": 0.262,
+     "first": 0.0,
+     "last": 0.05,
+     "types20": 3.3,
+     "short": 0.024,
+     "recur": 0.053,
+     "alone": 0.0,
+     "longdiff": 0.976,
+     "nameonly": 0.053,
+     "edge_s": 0.05,
+     "n": 38.0
+    }
+   },
+   "oa": {
+    "SEAL_OF": {
+     "occ": 0.092,
+     "first": 1.0,
+     "last": 0.0,
+     "types20": 1.0,
+     "short": 0.0,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.769,
+     "nameonly": 0.0,
+     "edge_s": 1.0,
+     "n": 10.0
+    },
+    "TITLE": {
+     "occ": 0.11,
+     "first": 0.0,
+     "last": 0.231,
+     "types20": 4.733,
+     "short": 0.0,
+     "recur": 0.083,
+     "alone": 0.0,
+     "longdiff": 0.571,
+     "nameonly": 0.0,
+     "edge_s": 0.231,
+     "n": 12.0
+    },
+    "KIN": {
+     "occ": 0.881,
+     "first": 0.021,
+     "last": 0.0,
+     "types20": 1.233,
+     "short": 0.167,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.833,
+     "nameonly": 0.021,
+     "edge_s": 0.021,
+     "n": 96.0
+    }
+   },
+   "mb": {
+    "SEAL_OF": {
+     "occ": 0.174,
+     "first": 0.36,
+     "last": 0.0,
+     "types20": 4.9,
+     "short": 0.05,
+     "recur": 0.087,
+     "alone": 0.0,
+     "longdiff": 0.292,
+     "nameonly": 0.13,
+     "edge_s": 0.36,
+     "n": 23.0
+    },
+    "TITLE": {
+     "occ": 0.197,
+     "first": 0.074,
+     "last": 0.074,
+     "types20": 10.167,
+     "short": 0.0,
+     "recur": 0.038,
+     "alone": 0.0,
+     "longdiff": 0.37,
+     "nameonly": 0.0,
+     "edge_s": 0.148,
+     "n": 26.0
+    },
+    "SERV": {
+     "occ": 0.265,
+     "first": 0.0,
+     "last": 0.0,
+     "types20": 3.167,
+     "short": 0.0,
+     "recur": 0.0,
+     "alone": 0.0,
+     "longdiff": 0.605,
+     "nameonly": 0.0,
+     "edge_s": 0.0,
+     "n": 35.0
+    },
+    "KIN": {
+     "occ": 0.273,
+     "first": 0.0,
+     "last": 0.0,
+     "types20": 3.467,
+     "short": 0.0,
+     "recur": 0.056,
+     "alone": 0.0,
+     "longdiff": 0.658,
+     "nameonly": 0.0,
+     "edge_s": 0.0,
+     "n": 36.0
+    }
+   },
+   "ob": {
+    "SEAL_OF": {
+     "occ": 0.207,
+     "first": 0.977,
+     "last": 0.002,
+     "types20": 3.0,
+     "short": 0.615,
+     "recur": 0.007,
+     "alone": 0.002,
+     "longdiff": -0.599,
+     "nameonly": 0.955,
+     "edge_s": 0.977,
+     "n": 572.0
+    },
+    "TITLE": {
+     "occ": 0.13,
+     "first": 0.0,
+     "last": 0.051,
+     "types20": 10.267,
+     "short": 0.01,
+     "recur": 0.126,
+     "alone": 0.0,
+     "longdiff": 0.234,
+     "nameonly": 0.022,
+     "edge_s": 0.051,
+     "n": 358.0
+    },
+    "SERV": {
+     "occ": 0.451,
+     "first": 0.002,
+     "last": 0.05,
+     "types20": 3.033,
+     "short": 0.022,
+     "recur": 0.002,
+     "alone": 0.0,
+     "longdiff": 0.943,
+     "nameonly": 0.016,
+     "edge_s": 0.052,
+     "n": 1245.0
+    },
+    "KIN": {
+     "occ": 0.635,
+     "first": 0.006,
+     "last": 0.001,
+     "types20": 1.833,
+     "short": 0.009,
+     "recur": 0.01,
+     "alone": 0.0,
+     "longdiff": 0.971,
+     "nameonly": 0.005,
+     "edge_s": 0.006,
+     "n": 1753.0
+    }
+   },
+   "ur3": {
+    "TITLE": {
+     "occ": 0.62,
+     "first": 0.002,
+     "last": 0.127,
+     "types20": 7.333,
+     "short": 0.26,
+     "recur": 0.157,
+     "alone": 0.0,
+     "longdiff": 0.71,
+     "nameonly": 0.026,
+     "edge_s": 0.129,
+     "n": 3213.0
+    },
+    "SERV": {
+     "occ": 0.184,
+     "first": 0.006,
+     "last": 0.683,
+     "types20": 3.333,
+     "short": 0.442,
+     "recur": 0.006,
+     "alone": 0.001,
+     "longdiff": 0.511,
+     "nameonly": 0.324,
+     "edge_s": 0.688,
+     "n": 953.0
+    },
+    "KIN": {
+     "occ": 0.825,
+     "first": 0.002,
+     "last": 0.007,
+     "types20": 1.6,
+     "short": 0.051,
+     "recur": 0.005,
+     "alone": 0.0,
+     "longdiff": 0.93,
+     "nameonly": 0.008,
+     "edge_s": 0.009,
+     "n": 4272.0
+    }
+   }
+  },
+  "n": {
+   "fresh": 431,
+   "strict": 177
+  }
+ }
+}

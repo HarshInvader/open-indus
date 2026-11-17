@@ -1,0 +1,57 @@
+Homer-10k lexicon contains a cognate form for 0.156 of the 919 LB words
+[L1 n=230] greek score/tok=2.584 acc=0.801 cons=0.812 oracle/tok=2.801 oracle_acc=0.838 cog=0.7695652173913043 (3s)
+   lat: score/tok=1.815 acc=0.000
+   san: score/tok=1.758 acc=0.106
+   fin: score/tok=1.824 acc=0.000
+   sux: score/tok=1.798 acc=0.040
+   tam: score/tok=1.799 acc=0.000
+   greek_lexshuf: score/tok=1.747 acc=0.013
+   corpus_shuf: score/tok=1.728
+[L1 n=460] greek score/tok=2.857 acc=0.908 cons=0.908 oracle/tok=2.854 oracle_acc=0.915 cog=0.9260869565217391 (6s)
+   lat: score/tok=1.639 acc=0.025
+   san: score/tok=1.571 acc=0.130
+   fin: score/tok=1.619 acc=0.044
+   sux: score/tok=1.616 acc=0.000
+   tam: score/tok=1.579 acc=0.113
+   greek_lexshuf: score/tok=1.544 acc=0.023
+   corpus_shuf: score/tok=1.520
+[L1 n=919] greek score/tok=2.846 acc=0.872 cons=0.872 oracle/tok=2.853 oracle_acc=0.872 cog=0.9390642002176278 (19s)
+   lat: score/tok=1.419 acc=0.047
+   san: score/tok=1.341 acc=0.043
+   fin: score/tok=1.386 acc=0.013
+   sux: score/tok=1.435 acc=0.042
+   tam: score/tok=1.388 acc=0.091
+   greek_lexshuf: score/tok=1.325 acc=0.000
+   corpus_shuf: score/tok=1.298
+[L2 n=460] greek score/tok=2.015 acc=0.022 cons=0.230 oracle/tok=2.025 oracle_acc=0.557 cog=0.014925373134328358 (36s)
+   lat: score/tok=1.862 acc=0.000
+   san: score/tok=1.939 acc=0.045
+   fin: score/tok=1.948 acc=0.065
+   sux: score/tok=1.973 acc=0.004
+   tam: score/tok=1.959 acc=0.000
+   greek_lexshuf: score/tok=1.913 acc=0.022
+   corpus_shuf: score/tok=1.846
+[L2 n=919] greek score/tok=1.928 acc=0.144 cons=0.319 oracle/tok=1.947 oracle_acc=0.562 cog=0.006993006993006993 (97s)
+   lat: score/tok=1.771 acc=0.043
+   san: score/tok=1.831 acc=0.043
+   fin: score/tok=1.849 acc=0.049
+   sux: score/tok=1.887 acc=0.042
+   tam: score/tok=1.876 acc=0.000
+   greek_lexshuf: score/tok=1.798 acc=0.021
+   corpus_shuf: score/tok=1.693
+[L3 n=1780] greek score/tok=1.874 acc=0.014 cons=0.178 oracle/tok=1.893 oracle_acc=0.479 cog=0.0 (189s)
+   lat: score/tok=1.674 acc=0.092
+   san: score/tok=1.770 acc=0.098
+   fin: score/tok=1.790 acc=0.045
+   sux: score/tok=1.827 acc=0.015
+   tam: score/tok=1.819 acc=0.038
+   greek_lexshuf: score/tok=1.744 acc=0.014
+   corpus_shuf: score/tok=1.652
+[L3 n=3560] greek score/tok=1.783 acc=0.031 cons=0.291 oracle/tok=1.824 oracle_acc=0.539 cog=0.0 (452s)
+   lat: score/tok=1.560 acc=0.058
+   san: score/tok=1.695 acc=0.133
+   fin: score/tok=1.703 acc=0.078
+   sux: score/tok=1.759 acc=0.034
+   tam: score/tok=1.717 acc=0.054
+   greek_lexshuf: score/tok=1.654 acc=0.032
+   corpus_shuf: score/tok=1.568

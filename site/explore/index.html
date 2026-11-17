@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design directions · Open Indus</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script>
+(function () {
+  var t = null;
+  try { t = new URLSearchParams(location.search).get('theme'); } catch (e) {}
+  if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+<style>
+:root { --bg: #f1efea; --ink: #1c1d1f; --ink-2: #4b4d52; --rule: rgba(28,29,31,.12); --card: #fbfaf7; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #101215; --ink: #ece9e2; --ink-2: #b8b5ae; --rule: rgba(236,233,226,.14); --card: #181b20; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #101215; --ink: #ece9e2; --ink-2: #b8b5ae; --rule: rgba(236,233,226,.14); --card: #181b20; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif; overflow-x: hidden; }
+.wrap { width: min(1240px, 100% - 32px); margin: 0 auto; padding: 64px 0 96px; }
+h1 { font-size: clamp(36px, 5vw, 60px); line-height: 1.02; letter-spacing: -.02em; margin: 0 0 14px; font-weight: 800; }
+.lead { max-width: 62ch; color: var(--ink-2); margin: 0; }
+.dirs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 48px; }
+@media (max-width: 900px) { .dirs { grid-template-columns: 1fr; } }
+.dir { text-decoration: none; color: inherit; display: block; }
+.thumb { aspect-ratio: 4 / 3; border-radius: 14px; overflow: hidden; background: var(--card); box-shadow: 0 0 0 1px var(--rule), 0 20px 40px -28px rgba(0,0,0,.4); transition: transform .2s cubic-bezier(.23,1,.32,1); }
+.thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+@media (hover: hover) and (pointer: fine) { .dir:hover .thumb { transform: translateY(-3px); } }
+.dir h2 { font-size: 22px; margin: 18px 0 4px; display: flex; gap: 10px; align-items: baseline; }
+.dir h2 span { font-size: 15px; color: var(--ink-2); font-weight: 700; }
+.dir p { margin: 0; color: var(--ink-2); }
+.more { margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--rule); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: center; }
+.more .thumb { aspect-ratio: 16 / 7; }
+@media (max-width: 900px) { .more { grid-template-columns: 1fr; } }
+.more h2 { margin: 0 0 6px; font-size: 22px; }
+.more p { margin: 0; color: var(--ink-2); }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Three directions for Open Indus</h1>
+  <p class="lead">The same landing page, first two screens, in three different ideas of Indus Valley material culture. Each page has a light and a dark theme and a strip at the end showing a divider, a list, buttons and a card in that direction. The hero objects are drawn in code; each has a marked slot for a rendered image later.</p>
+  <div class="dirs">
+    <a class="dir" href="b.html"><div class="thumb"><img src="shots/b-1440-light.png" alt="Direction B, Seal impression, landing page"></div><h2>Seal impression <span>B</span></h2><p>A carved steatite seal you can relight with the pointer; everything else is cut into stone or pressed into clay, with lapis as the one colour.</p></a>
+    <a class="dir" href="a.html"><div class="thumb"><img src="shots/a-1440-light.png" alt="Direction A, Painted ware, landing page"></div><h2>Painted ware <span>A</span></h2><p>The page as a painted jar: black on red slip, a turning vessel, and full-width friezes of intersecting circles, pipal leaves and fish scale.</p></a>
+    <a class="dir" href="c.html"><div class="thumb"><img src="shots/c-1440-light.png" alt="Direction C, City plan, landing page"></div><h2>City plan <span>C</span></h2><p>An isometric Mohenjo-daro block with drains and the Great Bath; charts and the ladder are laid in brick to scale, with carnelian beads as marks.</p></a>
+  </div>
+  <a class="dir more" href="wordmark.html"><div class="thumb"><img src="shots/wordmark-1440-light.png" alt="Wordmark studies" style="object-position:0 18%"></div><div><h2>Wordmark studies</h2><p>OPEN INDUS in hand-drawn capitals built from the signs' strokes, in three strengths, with R and A for Read Indus.</p></div></a>
+</div>
+</body>
+</html>

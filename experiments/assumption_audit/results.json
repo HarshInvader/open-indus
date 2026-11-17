@@ -1,0 +1,1001 @@
+{
+ "base|T1": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.402 vs 0.057 (x7.08)"
+  ]
+ },
+ "base|T2": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.58 final vs plain 0.07, null 0.18; p=0.0045"
+  ]
+ },
+ "base|T3": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "7/10 vs base 0.031; p=2.8e-09"
+  ]
+ },
+ "base|T4": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "mean AUC 0.751, 5/5 above null"
+  ]
+ },
+ "base|T5": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "31/34 = 0.91; p=3.8e-07"
+  ]
+ },
+ "base|T6": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "len1 0.39, standalone 0.84"
+  ]
+ },
+ "base|T7": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "85/107 = 0.794; p=3.2e-10"
+  ]
+ },
+ "base|T8": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "base|T9": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.75 vs shuffle 0.40 (z 24.6)"
+  ]
+ },
+ "lineshuf|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.409 vs 0.057 (x7.17)",
+   "0.402 vs 0.057 (x7.08)",
+   "0.408 vs 0.057 (x7.19)"
+  ]
+ },
+ "lineshuf|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.58 final vs plain 0.07, null 0.19; p=0.0035",
+   "0.58 final vs plain 0.07, null 0.18; p=0.0035",
+   "0.58 final vs plain 0.07, null 0.18; p=0.0035"
+  ]
+ },
+ "lineshuf|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "7/10 vs base 0.031; p=2.8e-09",
+   "7/10 vs base 0.031; p=2.8e-09",
+   "7/10 vs base 0.031; p=2.8e-09"
+  ]
+ },
+ "lineshuf|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.751, 5/5 above null",
+   "mean AUC 0.751, 5/5 above null",
+   "mean AUC 0.752, 5/5 above null"
+  ]
+ },
+ "lineshuf|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "31/34 = 0.91; p=3.8e-07",
+   "31/34 = 0.91; p=3.8e-07",
+   "31/34 = 0.91; p=3.8e-07"
+  ]
+ },
+ "lineshuf|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.39, standalone 0.84",
+   "len1 0.39, standalone 0.84",
+   "len1 0.39, standalone 0.84"
+  ]
+ },
+ "lineshuf|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "85/107 = 0.794; p=3.2e-10",
+   "85/107 = 0.794; p=3.2e-10",
+   "85/108 = 0.787; p=7.6e-10"
+  ]
+ },
+ "lineshuf|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "3/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "lineshuf|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.75 vs shuffle 0.41 (z 23.2)",
+   "0.75 vs shuffle 0.40 (z 25.7)",
+   "0.75 vs shuffle 0.40 (z 24.8)"
+  ]
+ },
+ "rev10|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.310 vs 0.058 (x5.37)",
+   "0.310 vs 0.056 (x5.51)",
+   "0.320 vs 0.057 (x5.58)"
+  ]
+ },
+ "rev10|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.53 final vs plain 0.10, null 0.18; p=0.002",
+   "0.45 final vs plain 0.12, null 0.19; p=0.0215",
+   "0.47 final vs plain 0.10, null 0.19; p=0.0115"
+  ]
+ },
+ "rev10|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "6/10 vs base 0.031; p=1.6e-07",
+   "7/10 vs base 0.031; p=2.9e-09",
+   "7/10 vs base 0.030; p=2.6e-09"
+  ]
+ },
+ "rev10|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.744, 5/5 above null",
+   "mean AUC 0.745, 5/5 above null",
+   "mean AUC 0.749, 5/5 above null"
+  ]
+ },
+ "rev10|T5": {
+  "verdict": "weakens",
+  "passes": "0/3",
+  "effects": [
+   "29/42 = 0.69; p=0.0098",
+   "28/40 = 0.70; p=0.0083",
+   "26/36 = 0.72; p=0.0057"
+  ]
+ },
+ "rev10|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.37, standalone 0.83",
+   "len1 0.38, standalone 0.83",
+   "len1 0.36, standalone 0.79"
+  ]
+ },
+ "rev10|T7": {
+  "verdict": "weakens",
+  "passes": "0/3",
+  "effects": [
+   "77/106 = 0.726; p=1.7e-06",
+   "70/101 = 0.693; p=6.5e-05",
+   "78/106 = 0.736; p=6.3e-07"
+  ]
+ },
+ "rev10|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "3/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "rev10|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.69 vs shuffle 0.42 (z 21.5)",
+   "0.69 vs shuffle 0.41 (z 20.2)",
+   "0.70 vs shuffle 0.41 (z 18.1)"
+  ]
+ },
+ "rev25|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.238 vs 0.058 (x4.13)",
+   "0.206 vs 0.057 (x3.62)",
+   "0.266 vs 0.058 (x4.62)"
+  ]
+ },
+ "rev25|T2": {
+  "verdict": "holds",
+  "passes": "2/3",
+  "effects": [
+   "0.53 final vs plain 0.15, null 0.20; p=0.007",
+   "0.33 final vs plain 0.15, null 0.21; p=0.108",
+   "0.48 final vs plain 0.16, null 0.18; p=0.0005"
+  ]
+ },
+ "rev25|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "6/11 vs base 0.030; p=3.1e-07",
+   "6/11 vs base 0.030; p=3.2e-07",
+   "6/10 vs base 0.030; p=1.4e-07"
+  ]
+ },
+ "rev25|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.736, 5/5 above null",
+   "mean AUC 0.763, 6/6 above null",
+   "mean AUC 0.744, 6/6 above null"
+  ]
+ },
+ "rev25|T5": {
+  "verdict": "weakens",
+  "passes": "0/3",
+  "effects": [
+   "29/47 = 0.62; p=0.072",
+   "20/44 = 0.46; p=0.77",
+   "24/38 = 0.63; p=0.072"
+  ]
+ },
+ "rev25|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.35, standalone 0.85",
+   "len1 0.35, standalone 0.82",
+   "len1 0.32, standalone 0.80"
+  ]
+ },
+ "rev25|T7": {
+  "verdict": "weakens",
+  "passes": "0/3",
+  "effects": [
+   "62/96 = 0.646; p=0.0028",
+   "53/85 = 0.624; p=0.015",
+   "65/103 = 0.631; p=0.005"
+  ]
+ },
+ "rev25|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "3/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "rev25|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.63 vs shuffle 0.42 (z 16.0)",
+   "0.61 vs shuffle 0.40 (z 17.7)",
+   "0.64 vs shuffle 0.42 (z 17.9)"
+  ]
+ },
+ "rev50|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.155 vs 0.058 (x2.69)",
+   "0.148 vs 0.058 (x2.56)",
+   "0.151 vs 0.057 (x2.63)"
+  ]
+ },
+ "rev50|T2": {
+  "verdict": "holds",
+  "passes": "2/3",
+  "effects": [
+   "0.60 final vs plain 0.20, null 0.21; p=0.0005",
+   "0.29 final vs plain 0.20, null 0.23; p=0.223",
+   "0.43 final vs plain 0.21, null 0.21; p=0.0015"
+  ]
+ },
+ "rev50|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "5/11 vs base 0.030; p=9.9e-06",
+   "5/10 vs base 0.030; p=5.4e-06",
+   "4/10 vs base 0.030; p=0.00015"
+  ]
+ },
+ "rev50|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.734, 5/5 above null",
+   "mean AUC 0.740, 5/5 above null",
+   "mean AUC 0.739, 6/6 above null"
+  ]
+ },
+ "rev50|T5": {
+  "verdict": "fails",
+  "passes": "0/3",
+  "effects": [
+   "22/45 = 0.49; p=0.62",
+   "21/41 = 0.51; p=0.5",
+   "20/41 = 0.49; p=0.62"
+  ]
+ },
+ "rev50|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.32, standalone 0.80",
+   "len1 0.31, standalone 0.78",
+   "len1 0.31, standalone 0.83"
+  ]
+ },
+ "rev50|T7": {
+  "verdict": "weakens",
+  "passes": "0/3",
+  "effects": [
+   "30/67 = 0.448; p=0.84",
+   "46/80 = 0.575; p=0.11",
+   "46/72 = 0.639; p=0.012"
+  ]
+ },
+ "rev50|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "3/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "rev50|T9": {
+  "verdict": "weakens",
+  "passes": "0/3",
+  "effects": [
+   "0.52 vs shuffle 0.42 (z 8.5)",
+   "0.53 vs shuffle 0.42 (z 8.5)",
+   "0.55 vs shuffle 0.42 (z 13.0)"
+  ]
+ },
+ "noiseR2|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.402 vs 0.057 (x7.08)",
+   "0.373 vs 0.057 (x6.58)",
+   "0.366 vs 0.056 (x6.5)"
+  ]
+ },
+ "noiseR2|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.56 final vs plain 0.07, null 0.19; p=0.0085",
+   "0.58 final vs plain 0.07, null 0.18; p=0.006",
+   "0.55 final vs plain 0.07, null 0.19; p=0.0055"
+  ]
+ },
+ "noiseR2|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "6/10 vs base 0.030; p=1.4e-07",
+   "7/10 vs base 0.030; p=2.2e-09",
+   "7/10 vs base 0.031; p=2.8e-09"
+  ]
+ },
+ "noiseR2|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.741, 5/5 above null",
+   "mean AUC 0.753, 6/6 above null",
+   "mean AUC 0.729, 5/5 above null"
+  ]
+ },
+ "noiseR2|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "30/35 = 0.86; p=1.1e-05",
+   "36/38 = 0.95; p=2.7e-09",
+   "30/34 = 0.88; p=3.1e-06"
+  ]
+ },
+ "noiseR2|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.40, standalone 0.84",
+   "len1 0.40, standalone 0.84",
+   "len1 0.39, standalone 0.84"
+  ]
+ },
+ "noiseR2|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "74/93 = 0.796; p=3.9e-09",
+   "85/103 = 0.825; p=6.8e-12",
+   "81/100 = 0.81; p=1.4e-10"
+  ]
+ },
+ "noiseR2|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "noiseR2|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.74 vs shuffle 0.40 (z 19.1)",
+   "0.74 vs shuffle 0.40 (z 18.8)",
+   "0.73 vs shuffle 0.40 (z 24.5)"
+  ]
+ },
+ "noiseR5|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.376 vs 0.056 (x6.76)",
+   "0.365 vs 0.056 (x6.52)",
+   "0.350 vs 0.058 (x6.04)"
+  ]
+ },
+ "noiseR5|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.56 final vs plain 0.08, null 0.20; p=0.0035",
+   "0.61 final vs plain 0.09, null 0.19; p=0.001",
+   "0.55 final vs plain 0.08, null 0.20; p=0.0085"
+  ]
+ },
+ "noiseR5|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "7/11 vs base 0.030; p=6.8e-09",
+   "7/10 vs base 0.030; p=2.2e-09",
+   "7/11 vs base 0.030; p=6.9e-09"
+  ]
+ },
+ "noiseR5|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.749, 6/6 above null",
+   "mean AUC 0.722, 6/6 above null",
+   "mean AUC 0.737, 5/5 above null"
+  ]
+ },
+ "noiseR5|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "30/36 = 0.83; p=3.5e-05",
+   "37/39 = 0.95; p=1.4e-09",
+   "30/37 = 0.81; p=9.6e-05"
+  ]
+ },
+ "noiseR5|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.38, standalone 0.85",
+   "len1 0.38, standalone 0.86",
+   "len1 0.38, standalone 0.86"
+  ]
+ },
+ "noiseR5|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "81/102 = 0.794; p=8.5e-10",
+   "88/104 = 0.846; p=1.6e-13",
+   "87/108 = 0.806; p=5e-11"
+  ]
+ },
+ "noiseR5|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "noiseR5|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.72 vs shuffle 0.41 (z 18.4)",
+   "0.71 vs shuffle 0.39 (z 28.3)",
+   "0.74 vs shuffle 0.41 (z 17.8)"
+  ]
+ },
+ "noiseR10|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.291 vs 0.056 (x5.21)",
+   "0.273 vs 0.057 (x4.83)",
+   "0.288 vs 0.057 (x5.05)"
+  ]
+ },
+ "noiseR10|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.61 final vs plain 0.09, null 0.19; p=0.0015",
+   "0.57 final vs plain 0.10, null 0.20; p=0.0045",
+   "0.50 final vs plain 0.08, null 0.19; p=0.0105"
+  ]
+ },
+ "noiseR10|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "7/12 vs base 0.029; p=1.4e-08",
+   "8/12 vs base 0.028; p=1.9e-10",
+   "6/9 vs base 0.030; p=5.9e-08"
+  ]
+ },
+ "noiseR10|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.743, 6/6 above null",
+   "mean AUC 0.705, 6/6 above null",
+   "mean AUC 0.733, 6/6 above null"
+  ]
+ },
+ "noiseR10|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "37/42 = 0.88; p=2.2e-07",
+   "37/40 = 0.93; p=9.7e-09",
+   "29/38 = 0.76; p=0.00083"
+  ]
+ },
+ "noiseR10|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.36, standalone 0.83",
+   "len1 0.36, standalone 0.86",
+   "len1 0.37, standalone 0.85"
+  ]
+ },
+ "noiseR10|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "77/94 = 0.819; p=1.4e-10",
+   "94/125 = 0.752; p=7.3e-09",
+   "73/95 = 0.768; p=7.3e-08"
+  ]
+ },
+ "noiseR10|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "noiseR10|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.68 vs shuffle 0.41 (z 20.0)",
+   "0.68 vs shuffle 0.39 (z 15.0)",
+   "0.71 vs shuffle 0.41 (z 18.8)"
+  ]
+ },
+ "noiseV2|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.373 vs 0.057 (x6.58)",
+   "0.387 vs 0.058 (x6.71)",
+   "0.395 vs 0.057 (x6.92)"
+  ]
+ },
+ "noiseV2|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.58 final vs plain 0.08, null 0.18; p=0.003",
+   "0.55 final vs plain 0.08, null 0.19; p=0.005",
+   "0.55 final vs plain 0.07, null 0.19; p=0.0065"
+  ]
+ },
+ "noiseV2|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "7/11 vs base 0.031; p=7.4e-09",
+   "7/11 vs base 0.030; p=6.6e-09",
+   "7/11 vs base 0.030; p=6.2e-09"
+  ]
+ },
+ "noiseV2|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.753, 6/6 above null",
+   "mean AUC 0.748, 5/5 above null",
+   "mean AUC 0.739, 6/6 above null"
+  ]
+ },
+ "noiseV2|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "30/36 = 0.83; p=3.5e-05",
+   "28/34 = 0.82; p=9.8e-05",
+   "31/36 = 0.86; p=6.5e-06"
+  ]
+ },
+ "noiseV2|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.41, standalone 0.83",
+   "len1 0.38, standalone 0.84",
+   "len1 0.39, standalone 0.84"
+  ]
+ },
+ "noiseV2|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "74/94 = 0.787; p=9.2e-09",
+   "81/101 = 0.802; p=3.5e-10",
+   "83/105 = 0.79; p=8.1e-10"
+  ]
+ },
+ "noiseV2|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05"
+  ]
+ },
+ "noiseV2|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.74 vs shuffle 0.40 (z 25.1)",
+   "0.74 vs shuffle 0.42 (z 15.8)",
+   "0.75 vs shuffle 0.40 (z 34.8)"
+  ]
+ },
+ "noiseV5|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.357 vs 0.057 (x6.3)",
+   "0.372 vs 0.058 (x6.42)",
+   "0.358 vs 0.057 (x6.23)"
+  ]
+ },
+ "noiseV5|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.58 final vs plain 0.08, null 0.19; p=0.004",
+   "0.55 final vs plain 0.08, null 0.21; p=0.0095",
+   "0.60 final vs plain 0.07, null 0.18; p=0.001"
+  ]
+ },
+ "noiseV5|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "7/12 vs base 0.029; p=1.3e-08",
+   "7/11 vs base 0.030; p=7.2e-09",
+   "7/11 vs base 0.029; p=5.6e-09"
+  ]
+ },
+ "noiseV5|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.729, 6/6 above null",
+   "mean AUC 0.737, 6/6 above null",
+   "mean AUC 0.720, 6/6 above null"
+  ]
+ },
+ "noiseV5|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "33/38 = 0.87; p=2.1e-06",
+   "32/39 = 0.82; p=3.5e-05",
+   "32/37 = 0.86; p=3.7e-06"
+  ]
+ },
+ "noiseV5|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.39, standalone 0.84",
+   "len1 0.37, standalone 0.83",
+   "len1 0.39, standalone 0.85"
+  ]
+ },
+ "noiseV5|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "75/98 = 0.765; p=6.6e-08",
+   "76/97 = 0.784; p=8.6e-09",
+   "84/101 = 0.832; p=3.9e-12"
+  ]
+ },
+ "noiseV5|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05"
+  ]
+ },
+ "noiseV5|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.74 vs shuffle 0.41 (z 23.5)",
+   "0.72 vs shuffle 0.40 (z 34.3)",
+   "0.73 vs shuffle 0.41 (z 23.9)"
+  ]
+ },
+ "noiseV10|T1": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.311 vs 0.057 (x5.41)",
+   "0.353 vs 0.057 (x6.16)",
+   "0.334 vs 0.057 (x5.86)"
+  ]
+ },
+ "noiseV10|T2": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.58 final vs plain 0.07, null 0.20; p=0.0035",
+   "0.55 final vs plain 0.08, null 0.20; p=0.0065",
+   "0.62 final vs plain 0.08, null 0.20; p=0.0005"
+  ]
+ },
+ "noiseV10|T3": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "7/12 vs base 0.028; p=1e-08",
+   "5/12 vs base 0.030; p=1.6e-05",
+   "6/14 vs base 0.029; p=1.4e-06"
+  ]
+ },
+ "noiseV10|T4": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "mean AUC 0.716, 6/6 above null",
+   "mean AUC 0.719, 6/6 above null",
+   "mean AUC 0.741, 6/6 above null"
+  ]
+ },
+ "noiseV10|T5": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "37/48 = 0.77; p=0.00011",
+   "39/47 = 0.83; p=2.8e-06",
+   "34/40 = 0.85; p=4.2e-06"
+  ]
+ },
+ "noiseV10|T6": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "len1 0.38, standalone 0.87",
+   "len1 0.35, standalone 0.82",
+   "len1 0.37, standalone 0.86"
+  ]
+ },
+ "noiseV10|T7": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "82/107 = 0.766; p=1.5e-08",
+   "85/112 = 0.759; p=1.8e-08",
+   "81/105 = 0.771; p=1e-08"
+  ]
+ },
+ "noiseV10|T8": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05",
+   "2/3 sub-tests p<0.05"
+  ]
+ },
+ "noiseV10|T9": {
+  "verdict": "holds",
+  "passes": "3/3",
+  "effects": [
+   "0.72 vs shuffle 0.42 (z 37.2)",
+   "0.71 vs shuffle 0.40 (z 24.9)",
+   "0.72 vs shuffle 0.41 (z 24.9)"
+  ]
+ },
+ "dedup|T1": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.233 vs 0.041 (x5.67)"
+  ]
+ },
+ "dedup|T2": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.55 final vs plain 0.11, null 0.23; p=0.0095"
+  ]
+ },
+ "dedup|T3": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "3/5 vs base 0.030; p=0.00025"
+  ]
+ },
+ "dedup|T4": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "mean AUC 0.749, 5/5 above null"
+  ]
+ },
+ "dedup|T5": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "31/34 = 0.91; p=3.8e-07"
+  ]
+ },
+ "dedup|T6": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "len1 0.43, standalone 0.72"
+  ]
+ },
+ "dedup|T7": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "56/66 = 0.848; p=3.5e-09"
+  ]
+ },
+ "dedup|T8": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "3/3 sub-tests p<0.05"
+  ]
+ },
+ "dedup|T9": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.71 vs shuffle 0.46 (z 11.9)"
+  ]
+ },
+ "nodoubt|T1": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.410 vs 0.057 (x7.24)"
+  ]
+ },
+ "nodoubt|T2": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.56 final vs plain 0.07, null 0.18; p=0.0055"
+  ]
+ },
+ "nodoubt|T3": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "6/9 vs base 0.029; p=5e-08"
+  ]
+ },
+ "nodoubt|T4": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "mean AUC 0.749, 5/5 above null"
+  ]
+ },
+ "nodoubt|T5": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "25/29 = 0.86; p=5.2e-05"
+  ]
+ },
+ "nodoubt|T6": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "len1 0.42, standalone 0.82"
+  ]
+ },
+ "nodoubt|T7": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "66/83 = 0.795; p=2.8e-08"
+  ]
+ },
+ "nodoubt|T8": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "2/3 sub-tests p<0.05"
+  ]
+ },
+ "nodoubt|T9": {
+  "verdict": "holds",
+  "passes": "1/1",
+  "effects": [
+   "0.74 vs shuffle 0.39 (z 21.9)"
+  ]
+ }
+}

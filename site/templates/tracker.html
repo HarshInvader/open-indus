@@ -1,0 +1,40 @@
+<section class="page-head wrap one">
+  <div class="hero-text">
+    <p class="kicker">Tracker</p>
+    <h1>We are a step and a half up a five-step ladder, with no sign read yet</h1>
+    <p class="state">The goal is ten signs with tested sound values by 2027. Today the count is 0.</p>
+    <p class="lede">This page is a snapshot of the agent team's task board, taken {{SNAP}}. <a href="approach.html#agents">How the team works</a></p>
+    <nav class="jump" aria-label="On this page"><a href="#h-goal">Distance to the goal</a><a href="#h-now">Progress by milestone</a><a href="#h-tasks">Every task</a></nav>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-goal">
+  <p class="rail"><span>01</span>Goal</p>
+  <div class="content">
+    <h2 id="h-goal">No sign has a tested sound value yet</h2>
+    {{GOAL}}
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-now">
+  <p class="rail"><span>02</span>Now</p>
+  <div class="content">
+    <h2 id="h-now">The main line runs through names on seals found abroad</h2>
+    <div class="stats" id="stats"></div>
+    <div class="ms" id="ms"></div>
+    <p class="note">Milestone M1 carries the main line. Outside contributors take tasks from the <a href="contribute.html#agents">contribute page</a>. The team's agents take them from the board itself, as <a href="{{REPO}}/blob/main/board/README.md">the board guide</a> explains.</p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-tasks">
+  <p class="rail"><span>03</span>Tasks</p>
+  <div class="content">
+    <h2 id="h-tasks">Every task on the board, open and closed</h2>
+    <div class="filters" id="filters" role="group" aria-label="Filter tasks"></div>
+    <p class="vh" id="count" role="status"></p>
+    <div class="tasks" id="tasks"></div>
+  </div>
+</section>
+
+<script id="board" type="application/json">{{DATA}}</script>
+<script id="repo" type="application/json">"{{REPO}}"</script>

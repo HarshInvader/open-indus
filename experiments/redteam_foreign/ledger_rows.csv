@@ -1,0 +1,4 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+rt_foreign1,"Foreign texts break Indus order: 9/39 survive all direction/reading variants (exp 1.95)",redteam,experiments/redteam_foreign/RESULTS.md,9/39 vs 0.05,1.1e-4,computed,,39 texts,yes,foreign,confirmatory,redteam:foreign_order,7,no,,,,,,prereg redteam_foreign_order
+rt_foreign2,"Flags exceed one-misreading null (exp 2.9)",redteam,experiments/redteam_foreign/RESULTS.md,9 vs 2.9 Poisson-binomial,0.002,computed,,39 texts,yes,foreign,confirmatory,redteam:foreign_order,7,no,,,,,,random substitution null
+rt_foreign3,"Flags are order not inventory: flagged q median 0.51 vs native 0",redteam,experiments/redteam_foreign/RESULTS.md,Mann-Whitney,1e-7,computed,,10 vs 1094,yes,foreign,confirmatory,redteam:foreign_order,7,no,,,,,,SALUT-01 is inventory-driven

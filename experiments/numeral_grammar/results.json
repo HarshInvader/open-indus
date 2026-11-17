@@ -1,0 +1,384 @@
+{
+ "experiment": "numeral_grammar (Fable 5.2 plan 3 R1)",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/numeral_grammar.md (hash-frozen)",
+ "verdict": "12-unit (base-12 additive) REFUTED; base 8/16 and base 10 REFUTED; adjacent numerals are NOT summed; no metrogram slot. Best model: two numbers side by side (M5) - weak (+3.2 log10 on M77 held-out, -3.3 on ICIT new sites).",
+ "T1_log10LR_vs_M1": {
+  "M2a": {
+   "log10LR_vs_M1_pooled": -48.98,
+   "units_LR_gt1": 0,
+   "per_unit": {
+    "M77_MD": -33.87,
+    "M77_Harappa": -12.36,
+    "M77_other": -2.74,
+    "ICIT_new": -27.11
+   },
+   "win": false,
+   "tie": false
+  },
+  "M2b": {
+   "log10LR_vs_M1_pooled": -49.26,
+   "units_LR_gt1": 0,
+   "per_unit": {
+    "M77_MD": -33.87,
+    "M77_Harappa": -12.36,
+    "M77_other": -3.03,
+    "ICIT_new": -27.11
+   },
+   "win": false,
+   "tie": false
+  },
+  "M3": {
+   "log10LR_vs_M1_pooled": -63.81,
+   "units_LR_gt1": 0,
+   "per_unit": {
+    "M77_MD": -40.03,
+    "M77_Harappa": -15.56,
+    "M77_other": -8.22,
+    "ICIT_new": -43.55
+   },
+   "win": false,
+   "tie": false
+  },
+  "M4": {
+   "log10LR_vs_M1_pooled": -62.63,
+   "units_LR_gt1": 0,
+   "per_unit": {
+    "M77_MD": -40.67,
+    "M77_Harappa": -13.63,
+    "M77_other": -8.34,
+    "ICIT_new": -37.91
+   },
+   "win": false,
+   "tie": false
+  },
+  "M5": {
+   "log10LR_vs_M1_pooled": 3.22,
+   "units_LR_gt1": 3,
+   "per_unit": {
+    "M77_MD": 1.9,
+    "M77_Harappa": 0.68,
+    "M77_other": 0.65,
+    "ICIT_new": -3.29
+   },
+   "win": true,
+   "tie": false
+  }
+ },
+ "T2_groups_with_12": {
+  "M1": -18.337609952879546,
+  "M2a": -29.541479853930483,
+  "M2b": -29.827138902905045,
+  "n": 7,
+  "groups": [
+   "T3 + S12",
+   "T1 + S12",
+   "S1 + S12 + T2",
+   "T3 + T3 + S12",
+   "S12 + S12",
+   "T1 + S12",
+   "S12 + T1"
+  ]
+ },
+ "P1": {
+  "n": 0,
+  "big_first": 0,
+  "p_two_sided": null
+ },
+ "P2_holds": false,
+ "P3": {
+  "n_violations": 3,
+  "cases": [
+   [
+    "W056 W415 W060 W240 W772 W740",
+    "Harappa SEAL:S"
+   ],
+   [
+    "W091 W056 W002 W417 W890 W892",
+    "Kalibangan TAG"
+   ],
+   [
+    "W031 W056 W705 W575",
+    "Lothal SEAL:R"
+   ]
+  ],
+  "holds": false
+ },
+ "P5": {
+  "n": 15,
+  "groups": [
+   "S1 + S5",
+   "S1 + S6",
+   "S1 + S4",
+   "S3 + S1",
+   "S1 + S4",
+   "S4 + S4",
+   "S1 + S4",
+   "S1 + S4",
+   "S2 + S4",
+   "S1 + S3",
+   "S1 + S5",
+   "S3 + S3",
+   "S3 + S4",
+   "S1 + S3",
+   "S3 + S6"
+  ],
+  "holds": false
+ },
+ "P6": {
+  "n": 16,
+  "s1_first": 11,
+  "p_order": 0.1050567626953125,
+  "s1_share_pairs": 0.23529411764705882,
+  "s1_share_singles": 0.16831683168316833,
+  "p_share": 0.12352093527434105,
+  "holds": false
+ },
+ "C1": {
+  "n": 13,
+  "tall_first": 8,
+  "p": 0.5810546875,
+  "fixed": false,
+  "pairs": {
+   "T1 + S1": 3,
+   "T3 + S12": 1,
+   "S2 + T2": 1,
+   "S1 + T2": 2,
+   "T1 + S12": 2,
+   "T2 + S1": 1,
+   "T3 + S5": 1,
+   "S3 + T3": 1,
+   "S12 + T1": 1
+  }
+ },
+ "C2": {
+  "checked": {
+   "M190": "4/4",
+   "M284": "1/3",
+   "M261": "2/10",
+   "M197": "0/3",
+   "M194": "3/9",
+   "M60": "2/5",
+   "M326": "2/5",
+   "M25": "1/6",
+   "M287": "10/22",
+   "M137": "2/3"
+  },
+  "pooled": "27/70",
+  "base_rate": 0.14514066496163683,
+  "p": 6.735875654090295e-07,
+  "each_ge_half": 2,
+  "n_checked": 10
+ },
+ "power": {
+  "M2a": {
+   "T1_power": 1.0,
+   "T2_power_at_n12": 0.9995,
+   "n_multi": {
+    "M77_MD": 16,
+    "M77_Harappa": 6,
+    "M77_other": 3,
+    "ICIT_new": 14
+   },
+   "n12": 7
+  },
+  "M2b": {
+   "T1_power": 1.0,
+   "T2_power_at_n12": 1.0,
+   "n_multi": {
+    "M77_MD": 16,
+    "M77_Harappa": 6,
+    "M77_other": 3,
+    "ICIT_new": 14
+   },
+   "n12": 7
+  },
+  "P1_power_true0.9": 0.0
+ },
+ "sensitivity": {
+  "base_eps0.01": {
+   "M77_heldout": {
+    "M2a": -48.98,
+    "M2b": -49.26,
+    "M3": -63.81,
+    "M4": -62.63,
+    "M5": 3.22
+   },
+   "ICIT_new": {
+    "M2a": -27.11,
+    "M2b": -27.11,
+    "M3": -43.55,
+    "M4": -37.91,
+    "M5": -3.29
+   }
+  },
+  "base_eps0.05": {
+   "M77_heldout": {
+    "M2a": -32.16,
+    "M2b": -32.45,
+    "M3": -40.9,
+    "M4": -40.39,
+    "M5": 3.32
+   },
+   "ICIT_new": {
+    "M2a": -17.4,
+    "M2b": -17.4,
+    "M3": -26.99,
+    "M4": -23.44,
+    "M5": -2.86
+   }
+  },
+  "base_eps0.2": {
+   "M77_heldout": {
+    "M2a": -17.53,
+    "M2b": -17.82,
+    "M3": -21.58,
+    "M4": -21.56,
+    "M5": 3.36
+   },
+   "ICIT_new": {
+    "M2a": -9.22,
+    "M2b": -9.22,
+    "M3": -13.33,
+    "M4": -11.52,
+    "M5": -1.81
+   }
+  },
+  "connective_as_S2_eps0.01": {
+   "M77_heldout": {
+    "M2a": -116.19,
+    "M2b": -120.62,
+    "M3": -132.42,
+    "M4": -131.08,
+    "M5": 9.63
+   },
+   "ICIT_new": {
+    "M2a": -68.43,
+    "M2b": -68.43,
+    "M3": -85.23,
+    "M4": -79.59,
+    "M5": -3.63
+   }
+  },
+  "connective_as_S2_eps0.05": {
+   "M77_heldout": {
+    "M2a": -76.26,
+    "M2b": -79.98,
+    "M3": -86.36,
+    "M4": -85.7,
+    "M5": 9.83
+   },
+   "ICIT_new": {
+    "M2a": -44.67,
+    "M2b": -44.67,
+    "M3": -54.62,
+    "M4": -51.06,
+    "M5": -2.31
+   }
+  },
+  "connective_as_S2_eps0.2": {
+   "M77_heldout": {
+    "M2a": -41.61,
+    "M2b": -44.64,
+    "M3": -46.86,
+    "M4": -46.7,
+    "M5": 9.85
+   },
+   "ICIT_new": {
+    "M2a": -24.22,
+    "M2b": -24.22,
+    "M3": -28.65,
+    "M4": -26.83,
+    "M5": 0.15
+   }
+  },
+  "T1_merged_into_S1_eps0.01": {
+   "M77_heldout": {
+    "M2a": -47.63,
+    "M2b": -44.23,
+    "M3": -62.46,
+    "M4": -61.29,
+    "M5": 3.62
+   },
+   "ICIT_new": {
+    "M2a": -24.67,
+    "M2b": -23.78,
+    "M3": -43.91,
+    "M4": -38.27,
+    "M5": -2.74
+   }
+  },
+  "T1_merged_into_S1_eps0.05": {
+   "M77_heldout": {
+    "M2a": -30.88,
+    "M2b": -28.19,
+    "M3": -39.62,
+    "M4": -39.11,
+    "M5": 3.62
+   },
+   "ICIT_new": {
+    "M2a": -15.67,
+    "M2b": -14.78,
+    "M3": -27.35,
+    "M4": -23.79,
+    "M5": -2.38
+   }
+  },
+  "T1_merged_into_S1_eps0.2": {
+   "M77_heldout": {
+    "M2a": -16.47,
+    "M2b": -14.46,
+    "M3": -20.53,
+    "M4": -20.5,
+    "M5": 3.41
+   },
+   "ICIT_new": {
+    "M2a": -8.13,
+    "M2b": -7.25,
+    "M3": -13.66,
+    "M4": -11.85,
+    "M5": -1.49
+   }
+  },
+  "only_12_groups": {
+   "M2a": -12.17,
+   "M2b": -12.46,
+   "M5": 0.31
+  }
+ },
+ "inventory": {
+  "M77": {
+   "group_lengths": {
+    "1": 985,
+    "2": 77,
+    "3": 3
+   },
+   "groups_with_12": {
+    "T3 + S12": 1,
+    "S1 + S12": 7,
+    "T1 + S12": 1,
+    "S1 + S12 + T2": 1,
+    "S12 + T2": 1,
+    "S12 + S12": 3,
+    "T3 + T3 + S12": 1
+   }
+  },
+  "ICIT": {
+   "group_lengths": {
+    "1": 1339,
+    "2": 132,
+    "3": 11
+   },
+   "groups_with_12": {
+    "T3 + T3 + S12": 1,
+    "S12 + S1": 1,
+    "S1 + S12": 2,
+    "T1 + S12": 2,
+    "T3 + S12": 1,
+    "S1 + S12 + T2": 1,
+    "S12 + T1": 1
+   }
+  }
+ },
+ "twelve_plus_twelve": "all 3 M77 'M121 M121' texts (Harappa H-14 seal, Lothal L-115 seal, Kalibangan K-69..75/K-156 moulded tablets) are Wells' single sign W056: one 3-row block of ~7-8 strokes per row (CISI K-69 photo: no visible gap)"
+}

@@ -1,0 +1,77 @@
+{
+  "note": "Starter tasks proposed for outside contributors. They are not on the agent team's board (board/board.db). Each one comes from a gap named in the repo. Claim one by opening a GitHub issue that names its id.",
+  "tasks": [
+    {
+      "id": "S1",
+      "title": "Confirm the shape of five 'round' seals",
+      "who": ["specialist", "anyone"],
+      "why": "The round-seal finding rests on 8 seals from the Indus region. Only 3 are confirmed round in a printed excavation report. The other 5 rest on one database's type code.",
+      "done_when": "For each of Chanhu-daro C-32, M-2039, M-1369, the Dholavira seal ICIT 4247.1 and the Rakhigarhi seal ICIT 5468.1: its shape, the source that shows it (book, page, plate or figure), and whether the published drawing matches our reading of the signs.",
+      "start": ["experiments/redteam_round_order/RESULTS.md", "experiments/redteam_round_format/RESULTS.md"]
+    },
+    {
+      "id": "S2",
+      "title": "Build short name lists for Gulf sites",
+      "who": ["specialist"],
+      "why": "The name-matching method only works with short lists (200 spellings or fewer) of names that people at one place could have had. No list of names from the Gulf exists.",
+      "done_when": "One CSV per place (for example Dilmun, Failaka, Magan, Susa): name, syllabic spelling, source text and date. Every name attested in a published text; no reconstructed names.",
+      "start": ["experiments/onomasticon/RESULTS.md", "experiments/elamite_names/short_Elamite_core.csv"]
+    },
+    {
+      "id": "S3",
+      "title": "Re-implement the ticked-fish finding from its description alone",
+      "who": ["code", "stats"],
+      "why": "A result that a second person can reproduce without our code is much stronger than one we checked ourselves.",
+      "done_when": "Your own script, written from the finding's description and the rules of evidence, that tests whether the ticked fish signs (M60, M66, M68, M71, M73) end texts more often than plain fish on held-out texts. Your numbers next to ours, and any difference explained.",
+      "start": ["README.md", "docs/AGENT_BRIEF.md", "corpus/build.py"]
+    },
+    {
+      "id": "S4",
+      "title": "Give 'six then fish' a rare-sign-matched null",
+      "who": ["stats"],
+      "why": "The round-seal result survived a null matched on how many rare signs each text carries. The six-then-fish finding has not had that check.",
+      "done_when": "A hashed pre-registration, a null matched on rare-sign load and text length, a planted control showing the test catches a real fixed pair at our sample size, and the result, whichever way it goes.",
+      "start": ["experiments/redteam_round_order/RESULTS.md", "experiments/language/"]
+    },
+    {
+      "id": "S5",
+      "title": "Turn the sound-key bench into a one-command tool",
+      "who": ["code"],
+      "why": "Anyone with a proposed reading should be able to test it the same way. Today the bench lives inside one experiment folder.",
+      "done_when": "A command that takes a key as a CSV (one value per sign) and scores it on held-out texts against its own values shuffled and against keys fitted to noise with the same freedom. A planted-key check runs as part of its tests.",
+      "start": ["experiments/bench_pierson/", "experiments/language/a1_key_null.py"]
+    },
+    {
+      "id": "S6",
+      "title": "Pin down the round-seal q-value",
+      "who": ["code", "stats"],
+      "why": "The corrected q-value for the round-seal finding moves between 0.02 and 0.09 with Python's hash seed, because some scripts loop over sets.",
+      "done_when": "Scripts that give the same answer on every run, and the result over 20 seeds reported as a range.",
+      "start": ["docs/REPRO_REPORT.md", "experiments/context/"]
+    },
+    {
+      "id": "S7",
+      "title": "Spot-check 50 links to the 1930s excavation registers",
+      "who": ["anyone"],
+      "why": "1,524 texts were linked to their entries in the printed excavation registers by automatic matching. The depth and findspot tests depend on those links.",
+      "done_when": "50 randomly drawn links checked against the scanned registers (public domain, on archive.org), each marked right, wrong or unsure, with page numbers.",
+      "start": ["experiments/old_registers/RESULTS.md", "experiments/old_registers/registers.csv"]
+    },
+    {
+      "id": "S8",
+      "title": "Rerun the round-seal test under other sign lists",
+      "who": ["stats"],
+      "why": "The headline findings were checked under 12 alternative sign lists, but the corrected round-seal result came later and has not been.",
+      "done_when": "The order excess of the 8 home round seals under each list, with the same null, and a note on any list where it disappears.",
+      "start": ["experiments/signlist_robustness/", "experiments/redteam_round_order/"]
+    },
+    {
+      "id": "S9",
+      "title": "Find newly published inscribed objects",
+      "who": ["specialist", "anyone"],
+      "why": "38 predictions were frozen before any new find was scored. Only 2 new objects are scorable so far, and each prediction needs between 2 and 30.",
+      "done_when": "New rows in experiments/new_finds/new_texts.csv, each with its citation and a confidence for every sign. Leave the scoring to the frozen scripts.",
+      "start": ["docs/PREDICTION_REGISTRY.md", "experiments/new_finds/"]
+    }
+  ]
+}

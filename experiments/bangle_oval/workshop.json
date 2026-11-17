@@ -1,0 +1,325 @@
+{
+ "note": "[oval, m403, n] per group; discovery data, descriptive only",
+ "objects": {
+  "by_site": {
+   "Bala-kot": [
+    0,
+    0,
+    1
+   ],
+   "Harappa": [
+    2,
+    2,
+    7
+   ],
+   "Kalibangan": [
+    0,
+    0,
+    1
+   ],
+   "Mohenjo-daro": [
+    5,
+    8,
+    40
+   ]
+  },
+  "by_series": {
+   "Bala-kot": [
+    0,
+    0,
+    1
+   ],
+   "Harappa": [
+    2,
+    2,
+    7
+   ],
+   "Kalibangan": [
+    0,
+    0,
+    1
+   ],
+   "MD old excavations": [
+    0,
+    5,
+    13
+   ],
+   "MD surface 1983-85": [
+    5,
+    3,
+    27
+   ]
+  },
+  "by_material": {
+   "-": [
+    1,
+    1,
+    5
+   ],
+   "Clay": [
+    1,
+    0,
+    2
+   ],
+   "Shell": [
+    0,
+    0,
+    1
+   ],
+   "Steatite": [
+    0,
+    0,
+    1
+   ],
+   "Stoneware": [
+    5,
+    9,
+    39
+   ],
+   "Terracotta": [
+    0,
+    0,
+    1
+   ]
+  },
+  "fisher_MD_vs_Harappa_oval": {
+   "MD": [
+    5,
+    40
+   ],
+   "Harappa": [
+    2,
+    7
+   ],
+   "p_two_sided": 0.27633749038164923
+  },
+  "fisher_MD_surface_vs_old": {
+   "surface": [
+    5,
+    27
+   ],
+   "old": [
+    0,
+    13
+   ],
+   "p_two_sided": 0.1539829302987198
+  },
+  "oval_family_MD_vs_Harappa": {
+   "MD": [
+    12,
+    40
+   ],
+   "Harappa": [
+    4,
+    7
+   ]
+  }
+ },
+ "distinct_texts": {
+  "by_site": {
+   "Bala-kot": [
+    0,
+    0,
+    1
+   ],
+   "Harappa": [
+    1,
+    1,
+    5
+   ],
+   "Kalibangan": [
+    0,
+    0,
+    1
+   ],
+   "Mohenjo-daro": [
+    4,
+    4,
+    33
+   ]
+  },
+  "by_series": {
+   "Bala-kot": [
+    0,
+    0,
+    1
+   ],
+   "Harappa": [
+    1,
+    1,
+    5
+   ],
+   "Kalibangan": [
+    0,
+    0,
+    1
+   ],
+   "MD old excavations": [
+    0,
+    2,
+    9
+   ],
+   "MD surface 1983-85": [
+    4,
+    2,
+    24
+   ]
+  },
+  "by_material": {
+   "-": [
+    0,
+    0,
+    3
+   ],
+   "Clay": [
+    1,
+    0,
+    2
+   ],
+   "Shell": [
+    0,
+    0,
+    1
+   ],
+   "Steatite": [
+    0,
+    0,
+    1
+   ],
+   "Stoneware": [
+    4,
+    5,
+    32
+   ],
+   "Terracotta": [
+    0,
+    0,
+    1
+   ]
+  },
+  "fisher_MD_vs_Harappa_oval": {
+   "MD": [
+    4,
+    33
+   ],
+   "Harappa": [
+    1,
+    5
+   ],
+   "p_two_sided": 0.5271644931087656
+  },
+  "fisher_MD_surface_vs_old": {
+   "surface": [
+    4,
+    24
+   ],
+   "old": [
+    0,
+    9
+   ],
+   "p_two_sided": 0.5548387096774192
+  },
+  "oval_family_MD_vs_Harappa": {
+   "MD": [
+    7,
+    33
+   ],
+   "Harappa": [
+    2,
+    5
+   ]
+  }
+ },
+ "oval_rows": [
+  {
+   "id": "384.1",
+   "obj": "H-2578",
+   "site": "Harappa",
+   "series": "Harappa",
+   "material": "Clay",
+   "period": "3 B/C",
+   "seq": "W790",
+   "pos": [
+    "alone"
+   ]
+  },
+  {
+   "id": "1162.1",
+   "obj": "H-1010",
+   "site": "Harappa",
+   "series": "Harappa",
+   "material": "-",
+   "period": "- -",
+   "seq": "W790",
+   "pos": [
+    "alone"
+   ]
+  },
+  {
+   "id": "2174.1",
+   "obj": "84-9",
+   "site": "Mohenjo-daro",
+   "series": "MD surface 1983-85",
+   "material": "Stoneware",
+   "period": "- -",
+   "seq": "W790",
+   "pos": [
+    "alone"
+   ]
+  },
+  {
+   "id": "3824.1",
+   "obj": "M-1630",
+   "site": "Mohenjo-daro",
+   "series": "MD surface 1983-85",
+   "material": "Stoneware",
+   "period": "- -",
+   "seq": "W140 W743 W790",
+   "pos": [
+    "last"
+   ]
+  },
+  {
+   "id": "3825.1",
+   "obj": "M-1631",
+   "site": "Mohenjo-daro",
+   "series": "MD surface 1983-85",
+   "material": "Stoneware",
+   "period": "- -",
+   "seq": "W741 W290 W790 W002",
+   "pos": [
+    "mid"
+   ]
+  },
+  {
+   "id": "3836.1",
+   "obj": "M-1644",
+   "site": "Mohenjo-daro",
+   "series": "MD surface 1983-85",
+   "material": "Stoneware",
+   "period": "- -",
+   "seq": "W790 W840",
+   "pos": [
+    "first"
+   ]
+  },
+  {
+   "id": "3837.1",
+   "obj": "M-1645",
+   "site": "Mohenjo-daro",
+   "series": "MD surface 1983-85",
+   "material": "Stoneware",
+   "period": "- -",
+   "seq": "W790",
+   "pos": [
+    "alone"
+   ]
+  }
+ ],
+ "slot_distinct": {
+  "last": 1,
+  "mid": 1,
+  "alone": 2,
+  "first": 1
+ }
+}

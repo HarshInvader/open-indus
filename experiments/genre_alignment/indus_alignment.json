@@ -1,0 +1,2857 @@
+{
+ "tau": 0.8027952911297357,
+ "predictions": {
+  "ur3": {
+   "CLOSER": "SERV",
+   "CORE": "OWNER",
+   "TITLE": "TITLE",
+   "CONN": "KIN"
+  },
+  "ob": {
+   "CLOSER": "SERV",
+   "CORE": "OWNER",
+   "TITLE": "TITLE",
+   "CONN": "KIN",
+   "OPEN": "SEAL_OF"
+  }
+ },
+ "dev": {
+  "n_texts": 1240,
+  "indus_fingerprint": {
+   "TITLE": {
+    "occ": 0.27,
+    "pos": 0.564,
+    "first": 0.064,
+    "last": 0.029,
+    "len": 0.368,
+    "ttr100": 0.2,
+    "top1": 0.172,
+    "H100": 0.569,
+    "zipf": 1.426,
+    "short_ret": -1.776,
+    "recur": 0.027,
+    "share": 0.755,
+    "alone": 0.0,
+    "maxlift": 0.25,
+    "minlift": -0.684
+   },
+   "CORE": {
+    "occ": 0.96,
+    "pos": 0.357,
+    "first": 0.469,
+    "last": 0.137,
+    "len": 0.786,
+    "ttr100": 0.92,
+    "top1": 0.015,
+    "H100": 0.974,
+    "zipf": 0.535,
+    "short_ret": -0.029,
+    "recur": 0.234,
+    "share": 0.159,
+    "alone": 0.124,
+    "maxlift": -0.003,
+    "minlift": -0.053
+   },
+   "CLOSER": {
+    "occ": 0.735,
+    "pos": 0.905,
+    "first": 0.011,
+    "last": 0.793,
+    "len": 0.012,
+    "ttr100": 0.116,
+    "top1": 0.583,
+    "H100": 0.328,
+    "zipf": 2.048,
+    "short_ret": -0.315,
+    "recur": 0.049,
+    "share": 0.186,
+    "alone": 0.009,
+    "maxlift": 0.24,
+    "minlift": -0.011
+   },
+   "OPEN": {
+    "occ": 0.399,
+    "pos": 0.111,
+    "first": 0.809,
+    "last": 0.044,
+    "len": 0.043,
+    "ttr100": 0.234,
+    "top1": 0.325,
+    "H100": 0.503,
+    "zipf": 1.403,
+    "short_ret": -1.34,
+    "recur": 0.048,
+    "share": 0.214,
+    "alone": 0.004,
+    "maxlift": 0.597,
+    "minlift": -0.033
+   },
+   "CONN": {
+    "occ": 0.358,
+    "pos": 0.341,
+    "first": 0.0,
+    "last": 0.0,
+    "len": 0.0,
+    "ttr100": 0.03,
+    "top1": 0.749,
+    "H100": 0.137,
+    "zipf": 3.0,
+    "short_ret": -2.996,
+    "recur": 0.007,
+    "share": 1.0,
+    "alone": 0.0,
+    "maxlift": 0.597,
+    "minlift": -0.167
+   },
+   "POST": {
+    "occ": 0.106,
+    "pos": 0.926,
+    "first": 0.0,
+    "last": 0.828,
+    "len": 0.065,
+    "ttr100": 0.08,
+    "top1": 0.381,
+    "H100": 0.346,
+    "zipf": 1.519,
+    "short_ret": -1.056,
+    "recur": 0.015,
+    "share": 0.538,
+    "alone": 0.0,
+    "maxlift": 0.06,
+    "minlift": -0.684
+   }
+  },
+  "ur3": {
+   "pairs": [
+    [
+     "CLOSER",
+     "FATHER",
+     1.146
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.503
+    ],
+    [
+     "CORE",
+     "TITLE",
+     2.317
+    ],
+    [
+     "OPEN",
+     "OWNER",
+     0.982
+    ],
+    [
+     "POST",
+     "SERV",
+     0.835
+    ],
+    [
+     "TITLE",
+     "LORD",
+     0.933
+    ]
+   ],
+   "mean_dist": 1.119320478312409,
+   "colperm_p": 0.00849575212393803,
+   "null_mean": 1.236476998344098,
+   "null_q05": 1.163429755908324,
+   "pairs_with_dummy_tau": [
+    [
+     "CLOSER",
+     null,
+     0.803
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.503
+    ],
+    [
+     "CORE",
+     null,
+     0.803
+    ],
+    [
+     "OPEN",
+     null,
+     0.803
+    ],
+    [
+     "POST",
+     null,
+     0.803
+    ],
+    [
+     "TITLE",
+     null,
+     0.803
+    ]
+   ],
+   "nearest": {
+    "CLOSER": {
+     "nearest": "SERV",
+     "d": 0.956,
+     "second": "TITLE",
+     "d2": 1.034
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.503,
+     "second": "SERV",
+     "d2": 1.078
+    },
+    "CORE": {
+     "nearest": "TITLE",
+     "d": 2.317,
+     "second": "OWNER",
+     "d2": 2.532
+    },
+    "OPEN": {
+     "nearest": "LORD",
+     "d": 0.814,
+     "second": "OWNER",
+     "d2": 0.982
+    },
+    "POST": {
+     "nearest": "SERV",
+     "d": 0.835,
+     "second": "FATHER",
+     "d2": 1.06
+    },
+    "TITLE": {
+     "nearest": "LORD",
+     "d": 0.933,
+     "second": "KIN",
+     "d2": 0.981
+    }
+   },
+   "dist_matrix": {
+    "rows": [
+     "CLOSER",
+     "CONN",
+     "CORE",
+     "OPEN",
+     "POST",
+     "TITLE"
+    ],
+    "cols": [
+     "EPITHET",
+     "FATHER",
+     "KIN",
+     "LORD",
+     "OWNER",
+     "SERV",
+     "TITLE"
+    ],
+    "D": [
+     [
+      1.7,
+      1.146,
+      1.237,
+      1.343,
+      1.628,
+      0.956,
+      1.034
+     ],
+     [
+      1.418,
+      1.514,
+      0.503,
+      1.129,
+      1.622,
+      1.078,
+      1.456
+     ],
+     [
+      2.791,
+      2.841,
+      3.093,
+      2.872,
+      2.532,
+      3.153,
+      2.317
+     ],
+     [
+      1.415,
+      1.424,
+      1.27,
+      0.814,
+      0.982,
+      1.356,
+      1.166
+     ],
+     [
+      1.593,
+      1.06,
+      1.269,
+      1.197,
+      1.711,
+      0.835,
+      1.272
+     ],
+     [
+      1.14,
+      1.07,
+      0.981,
+      0.933,
+      1.25,
+      1.148,
+      1.061
+     ]
+    ]
+   },
+   "boot_pair_freq": {
+    "CLOSER": {
+     "FATHER": 0.59,
+     "SERV": 0.22,
+     "TITLE": 0.19
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "TITLE": 0.78,
+     "OWNER": 0.22
+    },
+    "OPEN": {
+     "OWNER": 0.65,
+     "LORD": 0.35
+    },
+    "POST": {
+     "SERV": 0.78,
+     "FATHER": 0.22
+    },
+    "TITLE": {
+     "LORD": 0.65,
+     "FATHER": 0.19,
+     "EPITHET": 0.13,
+     "TITLE": 0.03
+    }
+   },
+   "boot_accept_freq": {
+    "CLOSER": {
+     "none": 1.0
+    },
+    "CONN": {
+     "KIN": 0.8,
+     "none": 0.2
+    },
+    "CORE": {
+     "none": 1.0
+    },
+    "OPEN": {
+     "none": 0.73,
+     "LORD": 0.27
+    },
+    "POST": {
+     "none": 0.87,
+     "SERV": 0.13
+    },
+    "TITLE": {
+     "none": 1.0
+    }
+   }
+  },
+  "ob": {
+   "pairs": [
+    [
+     "CLOSER",
+     "LORD",
+     1.074
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.642
+    ],
+    [
+     "CORE",
+     "OWNER",
+     1.835
+    ],
+    [
+     "OPEN",
+     "SEAL_OF",
+     1.043
+    ],
+    [
+     "POST",
+     "EPITHET",
+     0.779
+    ],
+    [
+     "TITLE",
+     "TITLE",
+     0.786
+    ]
+   ],
+   "mean_dist": 1.0266141215900964,
+   "colperm_p": 0.0004997501249375312,
+   "null_mean": 1.2204837359676965,
+   "null_q05": 1.1457307677571513,
+   "pairs_with_dummy_tau": [
+    [
+     "CLOSER",
+     null,
+     0.803
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.642
+    ],
+    [
+     "CORE",
+     null,
+     0.803
+    ],
+    [
+     "OPEN",
+     null,
+     0.803
+    ],
+    [
+     "POST",
+     "EPITHET",
+     0.779
+    ],
+    [
+     "TITLE",
+     "TITLE",
+     0.786
+    ]
+   ],
+   "nearest": {
+    "CLOSER": {
+     "nearest": "LORD",
+     "d": 1.074,
+     "second": "EPITHET",
+     "d2": 1.157
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.642,
+     "second": "SERV",
+     "d2": 0.802
+    },
+    "CORE": {
+     "nearest": "OWNER",
+     "d": 1.835,
+     "second": "LORD",
+     "d2": 2.616
+    },
+    "OPEN": {
+     "nearest": "SEAL_OF",
+     "d": 1.043,
+     "second": "TITLE",
+     "d2": 1.129
+    },
+    "POST": {
+     "nearest": "EPITHET",
+     "d": 0.779,
+     "second": "LORD",
+     "d2": 0.976
+    },
+    "TITLE": {
+     "nearest": "TITLE",
+     "d": 0.786,
+     "second": "EPITHET",
+     "d2": 0.842
+    }
+   },
+   "dist_matrix": {
+    "rows": [
+     "CLOSER",
+     "CONN",
+     "CORE",
+     "OPEN",
+     "POST",
+     "TITLE"
+    ],
+    "cols": [
+     "CONJ",
+     "EPITHET",
+     "FATHER",
+     "KIN",
+     "LORD",
+     "OWNER",
+     "SEAL_OF",
+     "SERV",
+     "TITLE"
+    ],
+    "D": [
+     [
+      1.381,
+      1.157,
+      1.383,
+      1.432,
+      1.074,
+      1.734,
+      1.596,
+      1.216,
+      1.283
+     ],
+     [
+      1.103,
+      1.329,
+      1.515,
+      0.642,
+      1.559,
+      2.032,
+      1.501,
+      0.802,
+      1.4
+     ],
+     [
+      3.234,
+      2.891,
+      2.817,
+      3.134,
+      2.616,
+      1.835,
+      3.038,
+      3.082,
+      2.685
+     ],
+     [
+      1.375,
+      1.317,
+      1.327,
+      1.325,
+      1.405,
+      1.462,
+      1.043,
+      1.228,
+      1.129
+     ],
+     [
+      1.293,
+      0.779,
+      1.264,
+      1.364,
+      0.976,
+      1.916,
+      1.609,
+      1.1,
+      1.108
+     ],
+     [
+      1.227,
+      0.842,
+      1.025,
+      1.034,
+      1.119,
+      1.67,
+      1.418,
+      0.87,
+      0.786
+     ]
+    ]
+   },
+   "boot_pair_freq": {
+    "CLOSER": {
+     "LORD": 0.99,
+     "SERV": 0.01
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "OWNER": 1.0
+    },
+    "OPEN": {
+     "SEAL_OF": 1.0
+    },
+    "POST": {
+     "EPITHET": 1.0
+    },
+    "TITLE": {
+     "TITLE": 0.99,
+     "SERV": 0.01
+    }
+   },
+   "boot_accept_freq": {
+    "CLOSER": {
+     "none": 1.0
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "none": 1.0
+    },
+    "OPEN": {
+     "none": 1.0
+    },
+    "POST": {
+     "EPITHET": 0.59,
+     "none": 0.41
+    },
+    "TITLE": {
+     "TITLE": 0.74,
+     "none": 0.23,
+     "EPITHET": 0.02,
+     "SERV": 0.01
+    }
+   }
+  }
+ },
+ "heldout": {
+  "n_texts": 391,
+  "indus_fingerprint": {
+   "CORE": {
+    "occ": 0.967,
+    "pos": 0.373,
+    "first": 0.449,
+    "last": 0.156,
+    "len": 0.761,
+    "ttr100": 0.894,
+    "top1": 0.021,
+    "H100": 0.965,
+    "zipf": 0.442,
+    "short_ret": -0.026,
+    "recur": 0.257,
+    "share": 0.141,
+    "alone": 0.14,
+    "maxlift": 0.012,
+    "minlift": -0.025
+   },
+   "OPEN": {
+    "occ": 0.422,
+    "pos": 0.146,
+    "first": 0.741,
+    "last": 0.052,
+    "len": 0.044,
+    "ttr100": 0.244,
+    "top1": 0.401,
+    "H100": 0.49,
+    "zipf": 1.203,
+    "short_ret": -1.415,
+    "recur": 0.073,
+    "share": 0.195,
+    "alone": 0.018,
+    "maxlift": 0.568,
+    "minlift": -0.003
+   },
+   "CLOSER": {
+    "occ": 0.691,
+    "pos": 0.898,
+    "first": 0.014,
+    "last": 0.791,
+    "len": 0.01,
+    "ttr100": 0.138,
+    "top1": 0.59,
+    "H100": 0.347,
+    "zipf": 1.748,
+    "short_ret": -0.298,
+    "recur": 0.07,
+    "share": 0.198,
+    "alone": 0.011,
+    "maxlift": 0.295,
+    "minlift": -0.004
+   },
+   "CONN": {
+    "occ": 0.35,
+    "pos": 0.345,
+    "first": 0.0,
+    "last": 0.0,
+    "len": 0.0,
+    "ttr100": 0.02,
+    "top1": 0.79,
+    "H100": 0.11,
+    "zipf": 3.0,
+    "short_ret": -2.996,
+    "recur": 0.007,
+    "share": 1.0,
+    "alone": 0.0,
+    "maxlift": 0.568,
+    "minlift": -0.427
+   },
+   "TITLE": {
+    "occ": 0.246,
+    "pos": 0.606,
+    "first": 0.061,
+    "last": 0.051,
+    "len": 0.339,
+    "ttr100": 0.19,
+    "top1": 0.172,
+    "H100": 0.543,
+    "zipf": 1.143,
+    "short_ret": -2.036,
+    "recur": 0.031,
+    "share": 0.64,
+    "alone": 0.0,
+    "maxlift": 0.356,
+    "minlift": -0.765
+   },
+   "POST": {
+    "occ": 0.09,
+    "pos": 0.862,
+    "first": 0.0,
+    "last": 0.686,
+    "len": 0.056,
+    "ttr100": 0.06,
+    "top1": 0.429,
+    "H100": 0.274,
+    "zipf": 1.57,
+    "short_ret": -1.027,
+    "recur": -0.0,
+    "share": 0.486,
+    "alone": 0.0,
+    "maxlift": 0.08,
+    "minlift": -0.765
+   }
+  },
+  "ur3": {
+   "pairs": [
+    [
+     "CLOSER",
+     "TITLE",
+     0.875
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.73
+    ],
+    [
+     "CORE",
+     "OWNER",
+     2.814
+    ],
+    [
+     "OPEN",
+     "LORD",
+     0.862
+    ],
+    [
+     "POST",
+     "SERV",
+     0.848
+    ],
+    [
+     "TITLE",
+     "FATHER",
+     1.062
+    ]
+   ],
+   "mean_dist": 1.1985401919766432,
+   "colperm_p": 0.011494252873563218,
+   "null_mean": 1.3018270230980133,
+   "null_q05": 1.2343338019077696,
+   "pairs_with_dummy_tau": [
+    [
+     "CLOSER",
+     null,
+     0.803
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.73
+    ],
+    [
+     "CORE",
+     null,
+     0.803
+    ],
+    [
+     "OPEN",
+     null,
+     0.803
+    ],
+    [
+     "POST",
+     null,
+     0.803
+    ],
+    [
+     "TITLE",
+     null,
+     0.803
+    ]
+   ],
+   "nearest": {
+    "CLOSER": {
+     "nearest": "TITLE",
+     "d": 0.875,
+     "second": "SERV",
+     "d2": 1.011
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.73,
+     "second": "SERV",
+     "d2": 1.19
+    },
+    "CORE": {
+     "nearest": "TITLE",
+     "d": 2.59,
+     "second": "OWNER",
+     "d2": 2.814
+    },
+    "OPEN": {
+     "nearest": "LORD",
+     "d": 0.862,
+     "second": "OWNER",
+     "d2": 1.014
+    },
+    "POST": {
+     "nearest": "SERV",
+     "d": 0.848,
+     "second": "FATHER",
+     "d2": 1.103
+    },
+    "TITLE": {
+     "nearest": "LORD",
+     "d": 0.936,
+     "second": "TITLE",
+     "d2": 1.037
+    }
+   },
+   "dist_matrix": {
+    "rows": [
+     "CLOSER",
+     "CONN",
+     "CORE",
+     "OPEN",
+     "POST",
+     "TITLE"
+    ],
+    "cols": [
+     "EPITHET",
+     "FATHER",
+     "KIN",
+     "LORD",
+     "OWNER",
+     "SERV",
+     "TITLE"
+    ],
+    "D": [
+     [
+      1.627,
+      1.152,
+      1.2,
+      1.3,
+      1.624,
+      1.011,
+      0.875
+     ],
+     [
+      1.454,
+      1.576,
+      0.73,
+      1.192,
+      1.687,
+      1.19,
+      1.489
+     ],
+     [
+      3.033,
+      3.114,
+      3.314,
+      3.141,
+      2.814,
+      3.407,
+      2.59
+     ],
+     [
+      1.376,
+      1.449,
+      1.216,
+      0.862,
+      1.014,
+      1.405,
+      1.025
+     ],
+     [
+      1.557,
+      1.103,
+      1.138,
+      1.107,
+      1.664,
+      0.848,
+      1.284
+     ],
+     [
+      1.134,
+      1.062,
+      1.04,
+      0.936,
+      1.306,
+      1.155,
+      1.037
+     ]
+    ]
+   },
+   "boot_pair_freq": {
+    "CLOSER": {
+     "TITLE": 0.56,
+     "FATHER": 0.33,
+     "SERV": 0.11
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "OWNER": 0.6,
+     "TITLE": 0.4
+    },
+    "OPEN": {
+     "LORD": 0.74,
+     "OWNER": 0.26
+    },
+    "TITLE": {
+     "FATHER": 0.56,
+     "LORD": 0.26,
+     "EPITHET": 0.12,
+     "TITLE": 0.04,
+     "OWNER": 0.01,
+     "SERV": 0.01
+    },
+    "POST": {
+     "SERV": 0.8,
+     "FATHER": 0.03
+    }
+   },
+   "boot_accept_freq": {
+    "CLOSER": {
+     "none": 0.91,
+     "TITLE": 0.09
+    },
+    "CONN": {
+     "none": 0.61,
+     "KIN": 0.39
+    },
+    "CORE": {
+     "none": 1.0
+    },
+    "OPEN": {
+     "none": 0.87,
+     "LORD": 0.13
+    },
+    "TITLE": {
+     "none": 0.97,
+     "TITLE": 0.03
+    },
+    "POST": {
+     "none": 0.58,
+     "SERV": 0.25
+    }
+   }
+  },
+  "ob": {
+   "pairs": [
+    [
+     "CLOSER",
+     "LORD",
+     0.981
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.663
+    ],
+    [
+     "CORE",
+     "OWNER",
+     2.076
+    ],
+    [
+     "OPEN",
+     "SEAL_OF",
+     1.16
+    ],
+    [
+     "POST",
+     "SERV",
+     1.012
+    ],
+    [
+     "TITLE",
+     "TITLE",
+     0.701
+    ]
+   ],
+   "mean_dist": 1.0986455598689069,
+   "colperm_p": 0.0004997501249375312,
+   "null_mean": 1.2799333801008037,
+   "null_q05": 1.2092542504604957,
+   "pairs_with_dummy_tau": [
+    [
+     "CLOSER",
+     null,
+     0.803
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.663
+    ],
+    [
+     "CORE",
+     null,
+     0.803
+    ],
+    [
+     "OPEN",
+     null,
+     0.803
+    ],
+    [
+     "POST",
+     null,
+     0.803
+    ],
+    [
+     "TITLE",
+     "TITLE",
+     0.701
+    ]
+   ],
+   "nearest": {
+    "CLOSER": {
+     "nearest": "LORD",
+     "d": 0.981,
+     "second": "TITLE",
+     "d2": 1.197
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.663,
+     "second": "SERV",
+     "d2": 0.948
+    },
+    "CORE": {
+     "nearest": "OWNER",
+     "d": 2.076,
+     "second": "LORD",
+     "d2": 2.827
+    },
+    "OPEN": {
+     "nearest": "TITLE",
+     "d": 1.119,
+     "second": "SEAL_OF",
+     "d2": 1.16
+    },
+    "POST": {
+     "nearest": "TITLE",
+     "d": 0.981,
+     "second": "SERV",
+     "d2": 1.012
+    },
+    "TITLE": {
+     "nearest": "TITLE",
+     "d": 0.701,
+     "second": "SERV",
+     "d2": 0.913
+    }
+   },
+   "dist_matrix": {
+    "rows": [
+     "CLOSER",
+     "CONN",
+     "CORE",
+     "OPEN",
+     "POST",
+     "TITLE"
+    ],
+    "cols": [
+     "FATHER",
+     "KIN",
+     "LORD",
+     "OWNER",
+     "SEAL_OF",
+     "SERV",
+     "TITLE"
+    ],
+    "D": [
+     [
+      1.371,
+      1.387,
+      0.981,
+      1.742,
+      1.636,
+      1.238,
+      1.197
+     ],
+     [
+      1.553,
+      0.663,
+      1.593,
+      2.105,
+      1.483,
+      0.948,
+      1.401
+     ],
+     [
+      3.092,
+      3.35,
+      2.827,
+      2.076,
+      3.302,
+      3.328,
+      2.979
+     ],
+     [
+      1.354,
+      1.277,
+      1.335,
+      1.354,
+      1.16,
+      1.25,
+      1.119
+     ],
+     [
+      1.248,
+      1.204,
+      1.064,
+      1.935,
+      1.489,
+      1.012,
+      0.981
+     ],
+     [
+      1.001,
+      1.033,
+      1.071,
+      1.731,
+      1.433,
+      0.913,
+      0.701
+     ]
+    ]
+   },
+   "boot_pair_freq": {
+    "CLOSER": {
+     "LORD": 1.0
+    },
+    "CONN": {
+     "KIN": 0.95,
+     "SERV": 0.05
+    },
+    "CORE": {
+     "OWNER": 1.0
+    },
+    "OPEN": {
+     "SEAL_OF": 0.98,
+     "TITLE": 0.02
+    },
+    "TITLE": {
+     "TITLE": 0.91,
+     "SERV": 0.08,
+     "FATHER": 0.01
+    },
+    "POST": {
+     "SERV": 0.69,
+     "EPITHET": 0.07,
+     "TITLE": 0.05,
+     "KIN": 0.02
+    }
+   },
+   "boot_accept_freq": {
+    "CLOSER": {
+     "none": 1.0
+    },
+    "CONN": {
+     "KIN": 0.75,
+     "none": 0.2,
+     "SERV": 0.05
+    },
+    "CORE": {
+     "none": 1.0
+    },
+    "OPEN": {
+     "none": 1.0
+    },
+    "TITLE": {
+     "TITLE": 0.71,
+     "none": 0.24,
+     "SERV": 0.04,
+     "EPITHET": 0.01
+    },
+    "POST": {
+     "none": 0.78,
+     "EPITHET": 0.04,
+     "SERV": 0.01
+    }
+   }
+  }
+ },
+ "verdicts": {
+  "ur3:CLOSER->SERV": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": false,
+    "e_ref_slot_reliable>=0.75": true
+   },
+   "verdict": "not supported",
+   "dev_match": "FATHER",
+   "dev_dist": 1.146
+  },
+  "ur3:CORE->OWNER": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   },
+   "verdict": "not supported",
+   "dev_match": "TITLE",
+   "dev_dist": 2.317
+  },
+  "ur3:TITLE->TITLE": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": false,
+    "e_ref_slot_reliable>=0.75": false
+   },
+   "verdict": "not supported",
+   "dev_match": "LORD",
+   "dev_dist": 0.933
+  },
+  "ur3:CONN->KIN": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": true,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   },
+   "verdict": "supported",
+   "dev_match": "KIN",
+   "dev_dist": 0.503
+  },
+  "ob:CLOSER->SERV": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": false,
+    "e_ref_slot_reliable>=0.75": true
+   },
+   "verdict": "not supported",
+   "dev_match": "LORD",
+   "dev_dist": 1.074
+  },
+  "ob:CORE->OWNER": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   },
+   "verdict": "suggestive",
+   "dev_match": "OWNER",
+   "dev_dist": 1.835
+  },
+  "ob:TITLE->TITLE": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": true,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": false
+   },
+   "verdict": "suggestive",
+   "dev_match": "TITLE",
+   "dev_dist": 0.786
+  },
+  "ob:CONN->KIN": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": true,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   },
+   "verdict": "supported",
+   "dev_match": "KIN",
+   "dev_dist": 0.642
+  },
+  "ob:OPEN->SEAL_OF": {
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": false
+   },
+   "verdict": "suggestive",
+   "dev_match": "SEAL_OF",
+   "dev_dist": 1.043
+  }
+ },
+ "exploratory": {
+  "fine_dev": {
+   "n_texts": 1240,
+   "indus_fingerprint": {
+    "TITLE": {
+     "occ": 0.27,
+     "pos": 0.605,
+     "first": 0.064,
+     "last": 0.029,
+     "len": 0.368,
+     "ttr100": 0.2,
+     "top1": 0.172,
+     "H100": 0.569,
+     "zipf": 1.426,
+     "short_ret": -1.622,
+     "recur": 0.027,
+     "share": 0.755,
+     "alone": 0.0,
+     "maxlift": 0.282,
+     "minlift": -1.495
+    },
+    "NOUN": {
+     "occ": 0.819,
+     "pos": 0.415,
+     "first": 0.359,
+     "last": 0.163,
+     "len": 0.474,
+     "ttr100": 0.834,
+     "top1": 0.026,
+     "H100": 0.941,
+     "zipf": 0.623,
+     "short_ret": -0.054,
+     "recur": 0.284,
+     "share": 0.25,
+     "alone": 0.094,
+     "maxlift": -0.024,
+     "minlift": -0.126
+    },
+    "FISH": {
+     "occ": 0.367,
+     "pos": 0.424,
+     "first": 0.203,
+     "last": 0.049,
+     "len": 0.223,
+     "ttr100": 0.22,
+     "top1": 0.305,
+     "H100": 0.529,
+     "zipf": 1.531,
+     "short_ret": -1.405,
+     "recur": 0.035,
+     "share": 0.01,
+     "alone": 0.007,
+     "maxlift": 0.282,
+     "minlift": -0.548
+    },
+    "CLOSER": {
+     "occ": 0.711,
+     "pos": 0.911,
+     "first": 0.01,
+     "last": 0.793,
+     "len": 0.012,
+     "ttr100": 0.098,
+     "top1": 0.604,
+     "H100": 0.293,
+     "zipf": 2.266,
+     "short_ret": -0.527,
+     "recur": 0.048,
+     "share": 0.17,
+     "alone": 0.007,
+     "maxlift": 0.27,
+     "minlift": -1.77
+    },
+    "OPEN": {
+     "occ": 0.399,
+     "pos": 0.114,
+     "first": 0.809,
+     "last": 0.044,
+     "len": 0.043,
+     "ttr100": 0.238,
+     "top1": 0.325,
+     "H100": 0.502,
+     "zipf": 1.403,
+     "short_ret": -1.32,
+     "recur": 0.048,
+     "share": 0.214,
+     "alone": 0.004,
+     "maxlift": 0.597,
+     "minlift": -0.18
+    },
+    "CONN": {
+     "occ": 0.358,
+     "pos": 0.317,
+     "first": 0.0,
+     "last": 0.0,
+     "len": 0.0,
+     "ttr100": 0.028,
+     "top1": 0.749,
+     "H100": 0.136,
+     "zipf": 3.0,
+     "short_ret": -2.996,
+     "recur": 0.007,
+     "share": 1.0,
+     "alone": 0.0,
+     "maxlift": 0.597,
+     "minlift": -0.167
+    },
+    "NUM": {
+     "occ": 0.367,
+     "pos": 0.377,
+     "first": 0.276,
+     "last": 0.014,
+     "len": 0.063,
+     "ttr100": 0.198,
+     "top1": 0.264,
+     "H100": 0.531,
+     "zipf": 1.636,
+     "short_ret": -1.09,
+     "recur": 0.105,
+     "share": 0.849,
+     "alone": 0.002,
+     "maxlift": 0.145,
+     "minlift": -0.119
+    },
+    "POST": {
+     "occ": 0.106,
+     "pos": 0.935,
+     "first": 0.0,
+     "last": 0.828,
+     "len": 0.065,
+     "ttr100": 0.08,
+     "top1": 0.381,
+     "H100": 0.334,
+     "zipf": 1.519,
+     "short_ret": -0.825,
+     "recur": 0.015,
+     "share": 0.538,
+     "alone": 0.0,
+     "maxlift": 0.073,
+     "minlift": -0.684
+    },
+    "BFISH": {
+     "occ": 0.027,
+     "pos": 0.893,
+     "first": 0.032,
+     "last": 0.774,
+     "len": 0.0,
+     "ttr100": 0.05,
+     "top1": 0.485,
+     "H100": 0.282,
+     "zipf": 1.193,
+     "short_ret": -0.286,
+     "recur": -0.0,
+     "share": 0.667,
+     "alone": 0.061,
+     "maxlift": 0.421,
+     "minlift": -1.77
+    }
+   },
+   "ur3": {
+    "pairs": [
+     [
+      "CLOSER",
+      "SERV",
+      0.92
+     ],
+     [
+      "CONN",
+      "KIN",
+      0.512
+     ],
+     [
+      "FISH",
+      "LORD",
+      0.988
+     ],
+     [
+      "NUM",
+      "TITLE",
+      0.725
+     ],
+     [
+      "OPEN",
+      "OWNER",
+      0.981
+     ],
+     [
+      "POST",
+      "FATHER",
+      1.079
+     ],
+     [
+      "TITLE",
+      "EPITHET",
+      1.155
+     ]
+    ],
+    "mean_dist": 0.9085499410179947,
+    "colperm_p": 0.0004997501249375312,
+    "null_mean": 1.073442228131537,
+    "null_q05": 1.002266349636236,
+    "pairs_with_dummy_tau": [
+     [
+      "BFISH",
+      null,
+      0.803
+     ],
+     [
+      "CLOSER",
+      null,
+      0.803
+     ],
+     [
+      "CONN",
+      "KIN",
+      0.512
+     ],
+     [
+      "FISH",
+      null,
+      0.803
+     ],
+     [
+      "NOUN",
+      null,
+      0.803
+     ],
+     [
+      "NUM",
+      "TITLE",
+      0.725
+     ],
+     [
+      "OPEN",
+      null,
+      0.803
+     ],
+     [
+      "POST",
+      null,
+      0.803
+     ],
+     [
+      "TITLE",
+      null,
+      0.803
+     ]
+    ],
+    "nearest": {
+     "BFISH": {
+      "nearest": "SERV",
+      "d": 1.336,
+      "second": "LORD",
+      "d2": 1.428
+     },
+     "CLOSER": {
+      "nearest": "SERV",
+      "d": 0.92,
+      "second": "TITLE",
+      "d2": 1.127
+     },
+     "CONN": {
+      "nearest": "KIN",
+      "d": 0.512,
+      "second": "SERV",
+      "d2": 1.088
+     },
+     "FISH": {
+      "nearest": "LORD",
+      "d": 0.988,
+      "second": "TITLE",
+      "d2": 1.061
+     },
+     "NOUN": {
+      "nearest": "TITLE",
+      "d": 1.955,
+      "second": "OWNER",
+      "d2": 2.451
+     },
+     "NUM": {
+      "nearest": "TITLE",
+      "d": 0.725,
+      "second": "LORD",
+      "d2": 1.111
+     },
+     "OPEN": {
+      "nearest": "LORD",
+      "d": 0.809,
+      "second": "OWNER",
+      "d2": 0.981
+     },
+     "POST": {
+      "nearest": "SERV",
+      "d": 0.85,
+      "second": "FATHER",
+      "d2": 1.079
+     },
+     "TITLE": {
+      "nearest": "LORD",
+      "d": 0.943,
+      "second": "KIN",
+      "d2": 1.002
+     }
+    },
+    "dist_matrix": {
+     "rows": [
+      "BFISH",
+      "CLOSER",
+      "CONN",
+      "FISH",
+      "NOUN",
+      "NUM",
+      "OPEN",
+      "POST",
+      "TITLE"
+     ],
+     "cols": [
+      "EPITHET",
+      "FATHER",
+      "KIN",
+      "LORD",
+      "OWNER",
+      "SERV",
+      "TITLE"
+     ],
+     "D": [
+      [
+       1.87,
+       1.567,
+       1.649,
+       1.428,
+       1.889,
+       1.336,
+       1.716
+      ],
+      [
+       1.72,
+       1.177,
+       1.217,
+       1.356,
+       1.704,
+       0.92,
+       1.127
+      ],
+      [
+       1.418,
+       1.522,
+       0.512,
+       1.129,
+       1.619,
+       1.088,
+       1.46
+      ],
+      [
+       1.373,
+       1.2,
+       1.133,
+       0.988,
+       1.183,
+       1.146,
+       1.061
+      ],
+      [
+       2.59,
+       2.675,
+       2.921,
+       2.72,
+       2.451,
+       2.97,
+       1.955
+      ],
+      [
+       1.244,
+       1.373,
+       1.161,
+       1.111,
+       1.27,
+       1.428,
+       0.725
+      ],
+      [
+       1.413,
+       1.42,
+       1.267,
+       0.809,
+       0.981,
+       1.353,
+       1.164
+      ],
+      [
+       1.595,
+       1.079,
+       1.283,
+       1.199,
+       1.713,
+       0.85,
+       1.269
+      ],
+      [
+       1.155,
+       1.078,
+       1.002,
+       0.943,
+       1.288,
+       1.15,
+       1.086
+      ]
+     ]
+    },
+    "boot_pair_freq": {
+     "BFISH": {
+      "SERV": 0.07,
+      "FATHER": 0.01,
+      "LORD": 0.01
+     },
+     "CONN": {
+      "KIN": 0.97,
+      "LORD": 0.02
+     },
+     "FISH": {
+      "LORD": 0.76,
+      "OWNER": 0.2,
+      "KIN": 0.03,
+      "EPITHET": 0.01
+     },
+     "NUM": {
+      "TITLE": 1.0
+     },
+     "OPEN": {
+      "OWNER": 0.8,
+      "LORD": 0.2
+     },
+     "POST": {
+      "FATHER": 0.62,
+      "SERV": 0.38
+     },
+     "TITLE": {
+      "EPITHET": 0.99,
+      "LORD": 0.01
+     },
+     "CLOSER": {
+      "SERV": 0.55,
+      "FATHER": 0.37
+     }
+    },
+    "boot_accept_freq": {
+     "BFISH": {
+      "none": 0.68,
+      "SERV": 0.04
+     },
+     "CLOSER": {
+      "none": 1.0
+     },
+     "CONN": {
+      "KIN": 0.8,
+      "none": 0.2
+     },
+     "FISH": {
+      "none": 1.0
+     },
+     "NOUN": {
+      "none": 1.0
+     },
+     "NUM": {
+      "TITLE": 0.91,
+      "none": 0.09
+     },
+     "OPEN": {
+      "none": 0.74,
+      "LORD": 0.26
+     },
+     "POST": {
+      "none": 0.95,
+      "SERV": 0.05
+     },
+     "TITLE": {
+      "none": 1.0
+     }
+    }
+   },
+   "ob": {
+    "pairs": [
+     [
+      "BFISH",
+      "CONJ",
+      1.602
+     ],
+     [
+      "CLOSER",
+      "LORD",
+      0.937
+     ],
+     [
+      "CONN",
+      "KIN",
+      0.643
+     ],
+     [
+      "FISH",
+      "FATHER",
+      1.085
+     ],
+     [
+      "NOUN",
+      "OWNER",
+      1.957
+     ],
+     [
+      "NUM",
+      "TITLE",
+      1.12
+     ],
+     [
+      "OPEN",
+      "SEAL_OF",
+      1.025
+     ],
+     [
+      "POST",
+      "EPITHET",
+      0.783
+     ],
+     [
+      "TITLE",
+      "SERV",
+      0.791
+     ]
+    ],
+    "mean_dist": 1.1048606899932438,
+    "colperm_p": 0.0074962518740629685,
+    "null_mean": 1.1927216864545254,
+    "null_q05": 1.1369588386121934,
+    "pairs_with_dummy_tau": [
+     [
+      "BFISH",
+      null,
+      0.803
+     ],
+     [
+      "CLOSER",
+      null,
+      0.803
+     ],
+     [
+      "CONN",
+      "KIN",
+      0.643
+     ],
+     [
+      "FISH",
+      null,
+      0.803
+     ],
+     [
+      "NOUN",
+      null,
+      0.803
+     ],
+     [
+      "NUM",
+      null,
+      0.803
+     ],
+     [
+      "OPEN",
+      null,
+      0.803
+     ],
+     [
+      "POST",
+      "EPITHET",
+      0.783
+     ],
+     [
+      "TITLE",
+      "TITLE",
+      0.719
+     ]
+    ],
+    "nearest": {
+     "BFISH": {
+      "nearest": "EPITHET",
+      "d": 1.2,
+      "second": "LORD",
+      "d2": 1.345
+     },
+     "CLOSER": {
+      "nearest": "LORD",
+      "d": 0.937,
+      "second": "EPITHET",
+      "d2": 1.033
+     },
+     "CONN": {
+      "nearest": "KIN",
+      "d": 0.643,
+      "second": "SERV",
+      "d2": 0.812
+     },
+     "FISH": {
+      "nearest": "TITLE",
+      "d": 0.857,
+      "second": "SERV",
+      "d2": 0.968
+     },
+     "NOUN": {
+      "nearest": "OWNER",
+      "d": 1.957,
+      "second": "LORD",
+      "d2": 2.361
+     },
+     "NUM": {
+      "nearest": "TITLE",
+      "d": 1.12,
+      "second": "EPITHET",
+      "d2": 1.184
+     },
+     "OPEN": {
+      "nearest": "SEAL_OF",
+      "d": 1.025,
+      "second": "TITLE",
+      "d2": 1.114
+     },
+     "POST": {
+      "nearest": "EPITHET",
+      "d": 0.783,
+      "second": "LORD",
+      "d2": 0.99
+     },
+     "TITLE": {
+      "nearest": "TITLE",
+      "d": 0.719,
+      "second": "EPITHET",
+      "d2": 0.748
+     }
+    },
+    "dist_matrix": {
+     "rows": [
+      "BFISH",
+      "CLOSER",
+      "CONN",
+      "FISH",
+      "NOUN",
+      "NUM",
+      "OPEN",
+      "POST",
+      "TITLE"
+     ],
+     "cols": [
+      "CONJ",
+      "EPITHET",
+      "FATHER",
+      "KIN",
+      "LORD",
+      "OWNER",
+      "SEAL_OF",
+      "SERV",
+      "TITLE"
+     ],
+     "D": [
+      [
+       1.602,
+       1.2,
+       1.635,
+       1.646,
+       1.345,
+       1.603,
+       1.819,
+       1.445,
+       1.49
+      ],
+      [
+       1.212,
+       1.033,
+       1.284,
+       1.29,
+       0.937,
+       1.821,
+       1.485,
+       1.046,
+       1.205
+      ],
+      [
+       1.11,
+       1.336,
+       1.521,
+       0.643,
+       1.567,
+       2.032,
+       1.497,
+       0.812,
+       1.403
+      ],
+      [
+       1.083,
+       1.094,
+       1.085,
+       1.213,
+       1.203,
+       1.495,
+       1.139,
+       0.968,
+       0.857
+      ],
+      [
+       3.064,
+       2.688,
+       2.65,
+       2.955,
+       2.361,
+       1.957,
+       2.894,
+       2.908,
+       2.503
+      ],
+      [
+       1.519,
+       1.184,
+       1.354,
+       1.221,
+       1.231,
+       1.678,
+       1.455,
+       1.22,
+       1.12
+      ],
+      [
+       1.362,
+       1.303,
+       1.312,
+       1.312,
+       1.391,
+       1.46,
+       1.025,
+       1.213,
+       1.114
+      ],
+      [
+       1.304,
+       0.783,
+       1.281,
+       1.378,
+       0.99,
+       1.917,
+       1.602,
+       1.114,
+       1.113
+      ],
+      [
+       1.172,
+       0.748,
+       0.963,
+       0.984,
+       1.05,
+       1.694,
+       1.376,
+       0.791,
+       0.719
+      ]
+     ]
+    },
+    "boot_pair_freq": {
+     "BFISH": {
+      "CONJ": 0.41,
+      "EPITHET": 0.16,
+      "FATHER": 0.06,
+      "LORD": 0.06,
+      "SERV": 0.03
+     },
+     "CLOSER": {
+      "LORD": 0.82,
+      "CONJ": 0.12,
+      "SERV": 0.06
+     },
+     "CONN": {
+      "KIN": 1.0
+     },
+     "FISH": {
+      "SERV": 0.52,
+      "CONJ": 0.2,
+      "FATHER": 0.16,
+      "TITLE": 0.12
+     },
+     "NOUN": {
+      "OWNER": 1.0
+     },
+     "NUM": {
+      "TITLE": 0.44,
+      "FATHER": 0.42,
+      "SERV": 0.12,
+      "LORD": 0.02
+     },
+     "OPEN": {
+      "SEAL_OF": 1.0
+     },
+     "POST": {
+      "EPITHET": 0.84,
+      "LORD": 0.1,
+      "CONJ": 0.05,
+      "FATHER": 0.01
+     },
+     "TITLE": {
+      "TITLE": 0.44,
+      "FATHER": 0.29,
+      "SERV": 0.27
+     }
+    },
+    "boot_accept_freq": {
+     "BFISH": {
+      "none": 0.61,
+      "EPITHET": 0.11
+     },
+     "CLOSER": {
+      "none": 1.0
+     },
+     "CONN": {
+      "KIN": 1.0
+     },
+     "FISH": {
+      "none": 0.91,
+      "SERV": 0.07,
+      "TITLE": 0.02
+     },
+     "NOUN": {
+      "none": 1.0
+     },
+     "NUM": {
+      "none": 1.0
+     },
+     "OPEN": {
+      "none": 1.0
+     },
+     "POST": {
+      "EPITHET": 0.61,
+      "none": 0.39
+     },
+     "TITLE": {
+      "TITLE": 0.88,
+      "none": 0.07,
+      "EPITHET": 0.03,
+      "SERV": 0.02
+     }
+    }
+   }
+  },
+  "blind_classes_vs_roles": {
+   "c1": {
+    "CORE": 2299,
+    "CONN": 443,
+    "TITLE": 261,
+    "CLOSER": 51
+   },
+   "c3": {
+    "CORE": 261,
+    "TITLE": 222,
+    "CLOSER": 4,
+    "OPEN": 3
+   },
+   "c4": {
+    "CLOSER": 906,
+    "POST": 143,
+    "CORE": 28,
+    "TITLE": 14
+   },
+   "c5": {
+    "CORE": 125,
+    "CONN": 4
+   },
+   "R": {
+    "CORE": 334,
+    "CLOSER": 10,
+    "OPEN": 9
+   },
+   "c0": {
+    "OPEN": 461,
+    "CORE": 82
+   },
+   "c2": {
+    "CORE": 148,
+    "OPEN": 37
+   }
+  },
+  "blind_dev": {
+   "n_texts": 1240,
+   "indus_fingerprint": {
+    "c1": {
+     "occ": 0.901,
+     "pos": 0.379,
+     "first": 0.351,
+     "last": 0.125,
+     "len": 0.774,
+     "ttr100": 0.814,
+     "top1": 0.052,
+     "H100": 0.935,
+     "zipf": 0.631,
+     "short_ret": -0.154,
+     "recur": 0.248,
+     "share": 0.0,
+     "alone": 0.051,
+     "maxlift": 0.056,
+     "minlift": -0.074
+    },
+    "c4": {
+     "occ": 0.722,
+     "pos": 0.928,
+     "first": 0.008,
+     "last": 0.87,
+     "len": 0.134,
+     "ttr100": 0.196,
+     "top1": 0.487,
+     "H100": 0.433,
+     "zipf": 1.651,
+     "short_ret": -0.295,
+     "recur": 0.061,
+     "share": 0.0,
+     "alone": 0.012,
+     "maxlift": 0.134,
+     "minlift": -0.165
+    },
+    "c5": {
+     "occ": 0.094,
+     "pos": 0.483,
+     "first": 0.098,
+     "last": 0.146,
+     "len": 0.04,
+     "ttr100": 0.178,
+     "top1": 0.161,
+     "H100": 0.576,
+     "zipf": 1.032,
+     "short_ret": -1.488,
+     "recur": 0.06,
+     "share": 0.0,
+     "alone": 0.009,
+     "maxlift": 0.407,
+     "minlift": -0.305
+    },
+    "c3": {
+     "occ": 0.327,
+     "pos": 0.501,
+     "first": 0.179,
+     "last": 0.064,
+     "len": 0.119,
+     "ttr100": 0.368,
+     "top1": 0.101,
+     "H100": 0.718,
+     "zipf": 1.065,
+     "short_ret": -0.987,
+     "recur": 0.071,
+     "share": 0.0,
+     "alone": 0.025,
+     "maxlift": 0.134,
+     "minlift": -0.53
+    },
+    "R": {
+     "occ": 0.247,
+     "pos": 0.42,
+     "first": 0.345,
+     "last": 0.201,
+     "len": 0.061,
+     "ttr100": 0.828,
+     "top1": 0.012,
+     "H100": 0.946,
+     "zipf": 0.244,
+     "short_ret": -0.544,
+     "recur": 0.078,
+     "share": 0.0,
+     "alone": 0.062,
+     "maxlift": 0.407,
+     "minlift": -0.53
+    },
+    "c0": {
+     "occ": 0.395,
+     "pos": 0.157,
+     "first": 0.727,
+     "last": 0.053,
+     "len": 0.032,
+     "ttr100": 0.19,
+     "top1": 0.335,
+     "H100": 0.465,
+     "zipf": 1.604,
+     "short_ret": -1.032,
+     "recur": 0.065,
+     "share": 0.0,
+     "alone": 0.004,
+     "maxlift": 0.056,
+     "minlift": -0.289
+    },
+    "c2": {
+     "occ": 0.136,
+     "pos": 0.322,
+     "first": 0.426,
+     "last": 0.068,
+     "len": 0.044,
+     "ttr100": 0.228,
+     "top1": 0.147,
+     "H100": 0.628,
+     "zipf": 0.917,
+     "short_ret": -1.664,
+     "recur": 0.041,
+     "share": 0.0,
+     "alone": 0.006,
+     "maxlift": 0.33,
+     "minlift": -0.35
+    }
+   },
+   "ur3": {
+    "pairs": [
+     [
+      "R",
+      "OWNER",
+      1.343
+     ],
+     [
+      "c0",
+      "KIN",
+      1.32
+     ],
+     [
+      "c1",
+      "TITLE",
+      1.369
+     ],
+     [
+      "c2",
+      "LORD",
+      0.927
+     ],
+     [
+      "c3",
+      "FATHER",
+      1.234
+     ],
+     [
+      "c4",
+      "SERV",
+      1.092
+     ],
+     [
+      "c5",
+      "EPITHET",
+      1.389
+     ]
+    ],
+    "mean_dist": 1.2391454864582554,
+    "colperm_p": 0.1469265367316342,
+    "null_mean": 1.2658919739607963,
+    "null_q05": 1.2187574824069825,
+    "pairs_with_dummy_tau": [
+     [
+      "R",
+      null,
+      0.803
+     ],
+     [
+      "c0",
+      null,
+      0.803
+     ],
+     [
+      "c1",
+      null,
+      0.803
+     ],
+     [
+      "c2",
+      null,
+      0.803
+     ],
+     [
+      "c3",
+      null,
+      0.803
+     ],
+     [
+      "c4",
+      null,
+      0.803
+     ],
+     [
+      "c5",
+      null,
+      0.803
+     ]
+    ],
+    "nearest": {
+     "R": {
+      "nearest": "OWNER",
+      "d": 1.343,
+      "second": "TITLE",
+      "d2": 1.44
+     },
+     "c0": {
+      "nearest": "LORD",
+      "d": 1.071,
+      "second": "OWNER",
+      "d2": 1.093
+     },
+     "c1": {
+      "nearest": "TITLE",
+      "d": 1.369,
+      "second": "OWNER",
+      "d2": 1.985
+     },
+     "c2": {
+      "nearest": "LORD",
+      "d": 0.927,
+      "second": "OWNER",
+      "d2": 1.154
+     },
+     "c3": {
+      "nearest": "TITLE",
+      "d": 0.983,
+      "second": "LORD",
+      "d2": 1.166
+     },
+     "c4": {
+      "nearest": "TITLE",
+      "d": 1.033,
+      "second": "SERV",
+      "d2": 1.092
+     },
+     "c5": {
+      "nearest": "LORD",
+      "d": 1.018,
+      "second": "TITLE",
+      "d2": 1.037
+     }
+    },
+    "dist_matrix": {
+     "rows": [
+      "R",
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+     ],
+     "cols": [
+      "EPITHET",
+      "FATHER",
+      "KIN",
+      "LORD",
+      "OWNER",
+      "SERV",
+      "TITLE"
+     ],
+     "D": [
+      [
+       1.839,
+       1.545,
+       2.007,
+       1.481,
+       1.343,
+       1.863,
+       1.44
+      ],
+      [
+       1.55,
+       1.479,
+       1.32,
+       1.071,
+       1.093,
+       1.433,
+       1.106
+      ],
+      [
+       2.09,
+       2.198,
+       2.486,
+       2.28,
+       1.985,
+       2.532,
+       1.369
+      ],
+      [
+       1.442,
+       1.264,
+       1.358,
+       0.927,
+       1.154,
+       1.272,
+       1.173
+      ],
+      [
+       1.487,
+       1.234,
+       1.444,
+       1.166,
+       1.186,
+       1.401,
+       0.983
+      ],
+      [
+       1.748,
+       1.139,
+       1.439,
+       1.439,
+       1.654,
+       1.092,
+       1.033
+      ],
+      [
+       1.389,
+       1.231,
+       1.344,
+       1.018,
+       1.354,
+       1.158,
+       1.037
+      ]
+     ]
+    },
+    "boot_pair_freq": {
+     "R": {
+      "OWNER": 0.99,
+      "FATHER": 0.01
+     },
+     "c0": {
+      "KIN": 0.98,
+      "OWNER": 0.01,
+      "LORD": 0.01
+     },
+     "c1": {
+      "TITLE": 0.97,
+      "EPITHET": 0.03
+     },
+     "c2": {
+      "LORD": 0.93,
+      "EPITHET": 0.03,
+      "FATHER": 0.02,
+      "KIN": 0.02
+     },
+     "c3": {
+      "FATHER": 0.72,
+      "EPITHET": 0.25,
+      "TITLE": 0.03
+     },
+     "c4": {
+      "SERV": 0.79,
+      "FATHER": 0.21
+     },
+     "c5": {
+      "EPITHET": 0.69,
+      "SERV": 0.21,
+      "LORD": 0.06,
+      "FATHER": 0.04
+     }
+    },
+    "boot_accept_freq": {
+     "R": {
+      "none": 1.0
+     },
+     "c0": {
+      "none": 1.0
+     },
+     "c1": {
+      "none": 1.0
+     },
+     "c2": {
+      "none": 0.95,
+      "LORD": 0.05
+     },
+     "c3": {
+      "none": 1.0
+     },
+     "c4": {
+      "none": 1.0
+     },
+     "c5": {
+      "none": 1.0
+     }
+    }
+   },
+   "ob": {
+    "pairs": [
+     [
+      "R",
+      "OWNER",
+      0.865
+     ],
+     [
+      "c0",
+      "SEAL_OF",
+      0.97
+     ],
+     [
+      "c1",
+      "LORD",
+      1.93
+     ],
+     [
+      "c2",
+      "TITLE",
+      0.924
+     ],
+     [
+      "c3",
+      "FATHER",
+      1.124
+     ],
+     [
+      "c4",
+      "EPITHET",
+      1.184
+     ],
+     [
+      "c5",
+      "SERV",
+      1.126
+     ]
+    ],
+    "mean_dist": 1.1604853413643295,
+    "colperm_p": 0.037481259370314844,
+    "null_mean": 1.2164815440792272,
+    "null_q05": 1.1654403590620102,
+    "pairs_with_dummy_tau": [
+     [
+      "R",
+      null,
+      0.803
+     ],
+     [
+      "c0",
+      null,
+      0.803
+     ],
+     [
+      "c1",
+      null,
+      0.803
+     ],
+     [
+      "c2",
+      null,
+      0.803
+     ],
+     [
+      "c3",
+      null,
+      0.803
+     ],
+     [
+      "c4",
+      null,
+      0.803
+     ],
+     [
+      "c5",
+      null,
+      0.803
+     ]
+    ],
+    "nearest": {
+     "R": {
+      "nearest": "OWNER",
+      "d": 0.865,
+      "second": "TITLE",
+      "d2": 1.326
+     },
+     "c0": {
+      "nearest": "SEAL_OF",
+      "d": 0.97,
+      "second": "TITLE",
+      "d2": 1.161
+     },
+     "c1": {
+      "nearest": "OWNER",
+      "d": 1.744,
+      "second": "LORD",
+      "d2": 1.93
+     },
+     "c2": {
+      "nearest": "TITLE",
+      "d": 0.924,
+      "second": "FATHER",
+      "d2": 1.13
+     },
+     "c3": {
+      "nearest": "TITLE",
+      "d": 0.927,
+      "second": "FATHER",
+      "d2": 1.124
+     },
+     "c4": {
+      "nearest": "LORD",
+      "d": 1.032,
+      "second": "EPITHET",
+      "d2": 1.184
+     },
+     "c5": {
+      "nearest": "TITLE",
+      "d": 0.897,
+      "second": "EPITHET",
+      "d2": 1.054
+     }
+    },
+    "dist_matrix": {
+     "rows": [
+      "R",
+      "c0",
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5"
+     ],
+     "cols": [
+      "CONJ",
+      "EPITHET",
+      "FATHER",
+      "KIN",
+      "LORD",
+      "OWNER",
+      "SEAL_OF",
+      "SERV",
+      "TITLE"
+     ],
+     "D": [
+      [
+       1.953,
+       1.562,
+       1.444,
+       2.03,
+       1.44,
+       0.865,
+       1.825,
+       1.827,
+       1.326
+      ],
+      [
+       1.355,
+       1.381,
+       1.374,
+       1.382,
+       1.416,
+       1.5,
+       0.97,
+       1.27,
+       1.161
+      ],
+      [
+       2.613,
+       2.234,
+       2.155,
+       2.537,
+       1.93,
+       1.744,
+       2.424,
+       2.457,
+       1.959
+      ],
+      [
+       1.256,
+       1.143,
+       1.13,
+       1.404,
+       1.242,
+       1.491,
+       1.186,
+       1.164,
+       0.924
+      ],
+      [
+       1.401,
+       1.184,
+       1.124,
+       1.506,
+       1.143,
+       1.254,
+       1.379,
+       1.269,
+       0.927
+      ],
+      [
+       1.492,
+       1.184,
+       1.365,
+       1.605,
+       1.032,
+       1.685,
+       1.672,
+       1.356,
+       1.259
+      ],
+      [
+       1.205,
+       1.054,
+       1.138,
+       1.404,
+       1.118,
+       1.576,
+       1.337,
+       1.126,
+       0.897
+      ]
+     ]
+    },
+    "boot_pair_freq": {
+     "R": {
+      "OWNER": 0.82,
+      "FATHER": 0.17,
+      "LORD": 0.01
+     },
+     "c0": {
+      "SEAL_OF": 1.0
+     },
+     "c1": {
+      "LORD": 0.7,
+      "OWNER": 0.18,
+      "TITLE": 0.08,
+      "FATHER": 0.04
+     },
+     "c2": {
+      "SERV": 0.38,
+      "TITLE": 0.26,
+      "FATHER": 0.18,
+      "CONJ": 0.14,
+      "EPITHET": 0.04
+     },
+     "c3": {
+      "FATHER": 0.61,
+      "TITLE": 0.39
+     },
+     "c4": {
+      "EPITHET": 0.72,
+      "LORD": 0.28
+     },
+     "c5": {
+      "TITLE": 0.27,
+      "SERV": 0.25,
+      "EPITHET": 0.24,
+      "CONJ": 0.23,
+      "LORD": 0.01
+     }
+    },
+    "boot_accept_freq": {
+     "R": {
+      "none": 0.95,
+      "OWNER": 0.05
+     },
+     "c0": {
+      "none": 1.0
+     },
+     "c1": {
+      "none": 1.0
+     },
+     "c2": {
+      "none": 1.0
+     },
+     "c3": {
+      "none": 0.95,
+      "TITLE": 0.05
+     },
+     "c4": {
+      "none": 1.0
+     },
+     "c5": {
+      "none": 0.99,
+      "TITLE": 0.01
+     }
+    }
+   }
+  }
+ }
+}

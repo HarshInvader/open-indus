@@ -1,0 +1,1132 @@
+{
+ "nonseal": {
+  "objset": "nonseal",
+  "sites": {
+   "Chanhu-daro": {
+    "linked_units": 5,
+    "distinct_text_records": 9,
+    "eligible_signs": 0
+   },
+   "Harappa": {
+    "linked_units": 41,
+    "distinct_text_records": 383,
+    "eligible_signs": 51
+   },
+   "Lothal": {
+    "linked_units": 55,
+    "distinct_text_records": 66,
+    "eligible_signs": 14
+   },
+   "Mohenjo-daro": {
+    "linked_units": 74,
+    "distinct_text_records": 144,
+    "eligible_signs": 29
+   }
+  },
+  "contexts": {
+   "BEAD": {
+    "Chanhu-daro": {
+     "ctx_units": 3,
+     "other_units": 2
+    },
+    "Harappa": {
+     "ctx_units": 1,
+     "other_units": 40
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 0,
+     "other_units": 74
+    }
+   },
+   "SHELL": {
+    "Chanhu-daro": {
+     "ctx_units": 3,
+     "other_units": 2
+    },
+    "Harappa": {
+     "ctx_units": 2,
+     "other_units": 39
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 1,
+     "other_units": 73
+    }
+   },
+   "COPPER": {
+    "Chanhu-daro": {
+     "ctx_units": 1,
+     "other_units": 4
+    },
+    "Harappa": {
+     "ctx_units": 3,
+     "other_units": 38
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 2,
+     "other_units": 72
+    }
+   },
+   "SEALCUT": {
+    "Chanhu-daro": {
+     "ctx_units": 1,
+     "other_units": 4
+    },
+    "Harappa": {
+     "ctx_units": 8,
+     "other_units": 33
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 0,
+     "other_units": 74
+    }
+   },
+   "WEIGHT": {
+    "Chanhu-daro": {
+     "ctx_units": 3,
+     "other_units": 2
+    },
+    "Harappa": {
+     "ctx_units": 23,
+     "other_units": 18
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 2,
+     "other_units": 72
+    }
+   },
+   "KILN": {
+    "Chanhu-daro": {
+     "ctx_units": 1,
+     "other_units": 4
+    },
+    "Harappa": {
+     "ctx_units": 0,
+     "other_units": 41
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 1,
+     "other_units": 73
+    }
+   },
+   "STORAGE": {
+    "Chanhu-daro": {
+     "ctx_units": 0,
+     "other_units": 5
+    },
+    "Harappa": {
+     "ctx_units": 9,
+     "other_units": 32
+    },
+    "Lothal": {
+     "ctx_units": 48,
+     "other_units": 7
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 0,
+     "other_units": 74
+    }
+   }
+  },
+  "K": 49,
+  "alpha_pair": 0.031943828249996996,
+  "G": 0,
+  "G_null_mean": 0.0051,
+  "G_p": 1.0,
+  "replicated": [],
+  "testable_contexts": [
+   "COPPER",
+   "STORAGE",
+   "WEIGHT"
+  ],
+  "power": {
+   "COPPER": {
+    "sites": [
+     "Harappa",
+     "Mohenjo-daro"
+    ],
+    "OR3": 0.0,
+    "OR5": 0.045
+   },
+   "WEIGHT": {
+    "sites": [
+     "Harappa",
+     "Mohenjo-daro"
+    ],
+    "OR3": 0.0,
+    "OR5": 0.0
+   },
+   "STORAGE": {
+    "sites": [
+     "Lothal",
+     "Harappa"
+    ],
+    "OR3": 0.0,
+    "OR5": 0.0
+   }
+  },
+  "top_pairs": [
+   {
+    "sign_W": 90,
+    "sign_M": "M1",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 4,
+    "expA": 2.55,
+    "pA": 0.25507449255074494,
+    "siteB": "Lothal",
+    "obsB": 12,
+    "expB": 10.47,
+    "pB": 0.1615838416158384
+   },
+   {
+    "sign_W": 840,
+    "sign_M": "M403",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 9,
+    "expA": 7.23,
+    "pA": 0.28657134286571345,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 0.23,
+    "pB": 0.22137786221377861
+   },
+   {
+    "sign_W": 90,
+    "sign_M": "M1",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 2,
+    "expA": 0.57,
+    "pA": 0.1561843815618438,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 0.41,
+    "pB": 0.32996700329967005
+   },
+   {
+    "sign_W": 803,
+    "sign_M": "M387",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 0.42,
+    "pA": 0.38586141385861417,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 0.18,
+    "pB": 0.17798220177982202
+   },
+   {
+    "sign_W": 803,
+    "sign_M": "M387",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 5,
+    "expA": 4.25,
+    "pA": 0.41825817418258177,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 0.17,
+    "pB": 0.16978302169783022
+   },
+   {
+    "sign_W": 220,
+    "sign_M": "M59",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 3,
+    "expA": 2.4,
+    "pA": 0.39586041395860416,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 0.53,
+    "pB": 0.4236576342365763
+   },
+   {
+    "sign_W": 741,
+    "sign_M": "M343",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 2,
+    "expA": 1.6,
+    "pA": 0.5258474152584741,
+    "siteB": "Lothal",
+    "obsB": 11,
+    "expB": 9.6,
+    "pB": 0.19058094190580943
+   },
+   {
+    "sign_W": 32,
+    "sign_M": "M87",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 3,
+    "expA": 3.36,
+    "pA": 0.5477452254774523,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 0.36,
+    "pB": 0.33026697330266974
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 7,
+    "expA": 8.87,
+    "pA": 0.6207379262073792,
+    "siteB": "Mohenjo-daro",
+    "obsB": 2,
+    "expB": 2.08,
+    "pB": 0.6573342665733427
+   },
+   {
+    "sign_W": 2,
+    "sign_M": "M99",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 3,
+    "expA": 3.22,
+    "pA": 0.7229277072292771,
+    "siteB": "Lothal",
+    "obsB": 26,
+    "expB": 26.21,
+    "pB": 0.6987301269873013
+   },
+   {
+    "sign_W": 220,
+    "sign_M": "M59",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 8,
+    "expA": 9.98,
+    "pA": 0.7901209879012099,
+    "siteB": "Lothal",
+    "obsB": 17,
+    "expB": 15.71,
+    "pB": 0.2576742325767423
+   },
+   {
+    "sign_W": 861,
+    "sign_M": "M267",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 1.92,
+    "pA": 0.8772122787721228,
+    "siteB": "Lothal",
+    "obsB": 6,
+    "expB": 5.24,
+    "pB": 0.42515748425157485
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 24,
+    "expA": 35.77,
+    "pA": 0.8841115888411158,
+    "siteB": "Lothal",
+    "obsB": 27,
+    "expB": 27.07,
+    "pB": 0.6674332566743326
+   },
+   {
+    "sign_W": 817,
+    "sign_M": "M267",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 2,
+    "expA": 3.53,
+    "pA": 0.9088091190880911,
+    "siteB": "Lothal",
+    "obsB": 10,
+    "expB": 8.73,
+    "pB": 0.2243775622437756
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 117,
+    "expA": 81.63,
+    "pA": 9.999000099990002e-05,
+    "siteB": "Mohenjo-daro",
+    "obsB": 1,
+    "expB": 2.08,
+    "pB": 0.9392060793920608
+   },
+   {
+    "sign_W": 390,
+    "sign_M": "M161",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 2.89,
+    "pA": 0.9588041195880412,
+    "siteB": "Lothal",
+    "obsB": 4,
+    "expB": 4.38,
+    "pB": 0.8869113088691131
+   },
+   {
+    "sign_W": 32,
+    "sign_M": "M87",
+    "context": "STORAGE",
+    "siteA": "Harappa",
+    "obsA": 5,
+    "expA": 13.56,
+    "pA": 0.9818018198180182,
+    "siteB": "Lothal",
+    "obsB": 6,
+    "expB": 5.24,
+    "pB": 0.4236576342365763
+   },
+   {
+    "sign_W": 2,
+    "sign_M": "M99",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 0.71,
+    "pA": 0.5958404159584042,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.53,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 33,
+    "sign_M": "M89",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 5,
+    "expA": 2.86,
+    "pA": 0.19338066193380662,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.12,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 100,
+    "sign_M": "M8",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 0,
+    "expA": 0.86,
+    "pA": 1.0,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.12,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 176,
+    "sign_M": "M48",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 1.06,
+    "pA": 0.5901409859014098,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.3,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 235,
+    "sign_M": "M65",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 0.55,
+    "pA": 0.46055394460553944,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.23,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 240,
+    "sign_M": "M67",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 1.41,
+    "pA": 0.6352364763523648,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.41,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 400,
+    "sign_M": "M176",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 7,
+    "expA": 6.88,
+    "pA": 0.43395660433956607,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.3,
+    "pB": 1.0
+   },
+   {
+    "sign_W": 407,
+    "sign_M": "M169",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 1,
+    "expA": 0.56,
+    "pA": 0.46325367463253675,
+    "siteB": "Mohenjo-daro",
+    "obsB": 0,
+    "expB": 0.35,
+    "pB": 1.0
+   }
+  ]
+ },
+ "all": {
+  "objset": "all",
+  "sites": {
+   "Chanhu-daro": {
+    "linked_units": 19,
+    "distinct_text_records": 59,
+    "eligible_signs": 12
+   },
+   "Harappa": {
+    "linked_units": 60,
+    "distinct_text_records": 597,
+    "eligible_signs": 77
+   },
+   "Mohenjo-daro": {
+    "linked_units": 200,
+    "distinct_text_records": 912,
+    "eligible_signs": 120
+   },
+   "Lothal": {
+    "linked_units": 55,
+    "distinct_text_records": 66,
+    "eligible_signs": 14
+   }
+  },
+  "contexts": {
+   "BEAD": {
+    "Chanhu-daro": {
+     "ctx_units": 4,
+     "other_units": 15
+    },
+    "Harappa": {
+     "ctx_units": 1,
+     "other_units": 59
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 0,
+     "other_units": 200
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    }
+   },
+   "SHELL": {
+    "Chanhu-daro": {
+     "ctx_units": 6,
+     "other_units": 13
+    },
+    "Harappa": {
+     "ctx_units": 3,
+     "other_units": 57
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 1,
+     "other_units": 199
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    }
+   },
+   "COPPER": {
+    "Chanhu-daro": {
+     "ctx_units": 1,
+     "other_units": 18
+    },
+    "Harappa": {
+     "ctx_units": 3,
+     "other_units": 57
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 3,
+     "other_units": 197
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    }
+   },
+   "SEALCUT": {
+    "Chanhu-daro": {
+     "ctx_units": 4,
+     "other_units": 15
+    },
+    "Harappa": {
+     "ctx_units": 8,
+     "other_units": 52
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 0,
+     "other_units": 200
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    }
+   },
+   "WEIGHT": {
+    "Chanhu-daro": {
+     "ctx_units": 4,
+     "other_units": 15
+    },
+    "Harappa": {
+     "ctx_units": 30,
+     "other_units": 30
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 5,
+     "other_units": 195
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    }
+   },
+   "KILN": {
+    "Chanhu-daro": {
+     "ctx_units": 1,
+     "other_units": 18
+    },
+    "Harappa": {
+     "ctx_units": 0,
+     "other_units": 60
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 3,
+     "other_units": 197
+    },
+    "Lothal": {
+     "ctx_units": 0,
+     "other_units": 55
+    }
+   },
+   "STORAGE": {
+    "Chanhu-daro": {
+     "ctx_units": 0,
+     "other_units": 19
+    },
+    "Harappa": {
+     "ctx_units": 9,
+     "other_units": 51
+    },
+    "Mohenjo-daro": {
+     "ctx_units": 0,
+     "other_units": 200
+    },
+    "Lothal": {
+     "ctx_units": 48,
+     "other_units": 7
+    }
+   }
+  },
+  "K": 193,
+  "alpha_pair": 0.01609556949949126,
+  "G": 0,
+  "G_null_mean": 0.072,
+  "G_p": 1.0,
+  "replicated": [],
+  "testable_contexts": [
+   "COPPER",
+   "SEALCUT",
+   "SHELL",
+   "STORAGE",
+   "WEIGHT"
+  ],
+  "power": {
+   "SHELL": {
+    "sites": [
+     "Chanhu-daro",
+     "Harappa"
+    ],
+    "OR3": 0.0,
+    "OR5": 0.005
+   },
+   "SEALCUT": {
+    "sites": [
+     "Harappa",
+     "Chanhu-daro"
+    ],
+    "OR3": 0.035,
+    "OR5": 0.14
+   },
+   "WEIGHT": {
+    "sites": [
+     "Harappa",
+     "Mohenjo-daro"
+    ],
+    "OR3": 0.005,
+    "OR5": 0.05
+   },
+   "COPPER": {
+    "sites": [
+     "Mohenjo-daro",
+     "Harappa"
+    ],
+    "OR3": 0.03,
+    "OR5": 0.13
+   },
+   "STORAGE": {
+    "sites": [
+     "Lothal",
+     "Harappa"
+    ],
+    "OR3": 0.0,
+    "OR5": 0.0
+   }
+  },
+  "top_pairs": [
+   {
+    "sign_W": 575,
+    "sign_M": "M197",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 10,
+    "expA": 5.13,
+    "pA": 0.0026997300269973002,
+    "siteB": "Mohenjo-daro",
+    "obsB": 3,
+    "expB": 0.4,
+    "pB": 0.0018998100189981002
+   },
+   {
+    "sign_W": 32,
+    "sign_M": "M87",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 8,
+    "expA": 2.29,
+    "pA": 0.0051994800519948,
+    "siteB": "Harappa",
+    "obsB": 59,
+    "expB": 37.54,
+    "pB": 0.00029997000299970003
+   },
+   {
+    "sign_W": 220,
+    "sign_M": "M59",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 5,
+    "expA": 1.25,
+    "pA": 0.007399260073992601,
+    "siteB": "Harappa",
+    "obsB": 46,
+    "expB": 29.74,
+    "pB": 0.0013998600139986002
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 12,
+    "expA": 5.03,
+    "pA": 0.008399160083991601,
+    "siteB": "Harappa",
+    "obsB": 192,
+    "expB": 118.14,
+    "pB": 9.999000099990002e-05
+   },
+   {
+    "sign_W": 176,
+    "sign_M": "M48",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 25,
+    "expA": 13.85,
+    "pA": 9.999000099990002e-05,
+    "siteB": "Mohenjo-daro",
+    "obsB": 4,
+    "expB": 1.35,
+    "pB": 0.0367963203679632
+   },
+   {
+    "sign_W": 60,
+    "sign_M": "M123",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 13,
+    "expA": 6.74,
+    "pA": 0.0016998300169983002,
+    "siteB": "Mohenjo-daro",
+    "obsB": 6,
+    "expB": 2.68,
+    "pB": 0.06579342065793421
+   },
+   {
+    "sign_W": 240,
+    "sign_M": "M67",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 4,
+    "expA": 1.9,
+    "pA": 0.07799220077992201,
+    "siteB": "Harappa",
+    "obsB": 37,
+    "expB": 22.45,
+    "pB": 0.0015998400159984002
+   },
+   {
+    "sign_W": 390,
+    "sign_M": "M161",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 4,
+    "expA": 1.67,
+    "pA": 0.07899210078992101,
+    "siteB": "Harappa",
+    "obsB": 24,
+    "expB": 14.19,
+    "pB": 0.0032996700329967
+   },
+   {
+    "sign_W": 803,
+    "sign_M": "M387",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 10,
+    "expA": 6.77,
+    "pA": 0.0861913808619138,
+    "siteB": "Mohenjo-daro",
+    "obsB": 4,
+    "expB": 1.5,
+    "pB": 0.0451954804519548
+   },
+   {
+    "sign_W": 31,
+    "sign_M": "M86",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 5,
+    "expA": 2.71,
+    "pA": 0.0897910208979102,
+    "siteB": "Harappa",
+    "obsB": 21,
+    "expB": 12.48,
+    "pB": 0.0038996100389961006
+   },
+   {
+    "sign_W": 235,
+    "sign_M": "M65",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 4,
+    "expA": 1.26,
+    "pA": 0.024797520247975203,
+    "siteB": "Harappa",
+    "obsB": 13,
+    "expB": 9.61,
+    "pB": 0.11678832116788321
+   },
+   {
+    "sign_W": 33,
+    "sign_M": "M89",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 47,
+    "expA": 28.49,
+    "pA": 9.999000099990002e-05,
+    "siteB": "Mohenjo-daro",
+    "obsB": 4,
+    "expB": 1.76,
+    "pB": 0.12808719128087193
+   },
+   {
+    "sign_W": 2,
+    "sign_M": "M99",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 7,
+    "expA": 3.54,
+    "pA": 0.12888711128887112,
+    "siteB": "Harappa",
+    "obsB": 55,
+    "expB": 37.83,
+    "pB": 0.0017998200179982
+   },
+   {
+    "sign_W": 33,
+    "sign_M": "M89",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 6,
+    "expA": 3.05,
+    "pA": 0.13018698130186981,
+    "siteB": "Mohenjo-daro",
+    "obsB": 3,
+    "expB": 0.98,
+    "pB": 0.10368963103689631
+   },
+   {
+    "sign_W": 817,
+    "sign_M": "M267",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 4,
+    "expA": 1.66,
+    "pA": 0.13238676132386762,
+    "siteB": "Harappa",
+    "obsB": 26,
+    "expB": 16.74,
+    "pB": 0.0026997300269973002
+   },
+   {
+    "sign_W": 220,
+    "sign_M": "M59",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 7,
+    "expA": 3.27,
+    "pA": 0.1327867213278672,
+    "siteB": "Mohenjo-daro",
+    "obsB": 6,
+    "expB": 2.23,
+    "pB": 0.07389261073892611
+   },
+   {
+    "sign_W": 717,
+    "sign_M": "M341",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 2,
+    "expA": 0.57,
+    "pA": 0.13888611138886112,
+    "siteB": "Mohenjo-daro",
+    "obsB": 2,
+    "expB": 0.28,
+    "pB": 0.0448955104489551
+   },
+   {
+    "sign_W": 17,
+    "sign_M": "M110",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 7,
+    "expA": 4.88,
+    "pA": 0.1421857814218578,
+    "siteB": "Mohenjo-daro",
+    "obsB": 3,
+    "expB": 0.89,
+    "pB": 0.05319468053194681
+   },
+   {
+    "sign_W": 3,
+    "sign_M": "M102",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 13,
+    "expA": 8.5,
+    "pA": 0.0760923907609239,
+    "siteB": "Mohenjo-daro",
+    "obsB": 4,
+    "expB": 2.02,
+    "pB": 0.1526847315268473
+   },
+   {
+    "sign_W": 861,
+    "sign_M": "M267",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 3,
+    "expA": 1.21,
+    "pA": 0.1386861313868613,
+    "siteB": "Mohenjo-daro",
+    "obsB": 3,
+    "expB": 1.36,
+    "pB": 0.16448355164483552
+   },
+   {
+    "sign_W": 760,
+    "sign_M": "M347",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 9,
+    "expA": 5.56,
+    "pA": 0.0654934506549345,
+    "siteB": "Mohenjo-daro",
+    "obsB": 3,
+    "expB": 1.41,
+    "pB": 0.16818318168183183
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "WEIGHT",
+    "siteA": "Chanhu-daro",
+    "obsA": 12,
+    "expA": 5.03,
+    "pA": 0.008399160083991601,
+    "siteB": "Mohenjo-daro",
+    "obsB": 20,
+    "expB": 14.74,
+    "pB": 0.1944805519448055
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "WEIGHT",
+    "siteA": "Harappa",
+    "obsA": 192,
+    "expA": 118.14,
+    "pA": 9.999000099990002e-05,
+    "siteB": "Mohenjo-daro",
+    "obsB": 20,
+    "expB": 14.74,
+    "pB": 0.1944805519448055
+   },
+   {
+    "sign_W": 415,
+    "sign_M": "M171",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 3,
+    "expA": 1.43,
+    "pA": 0.19808019198080193,
+    "siteB": "Mohenjo-daro",
+    "obsB": 2,
+    "expB": 0.69,
+    "pB": 0.17198280171982802
+   },
+   {
+    "sign_W": 740,
+    "sign_M": "M342",
+    "context": "COPPER",
+    "siteA": "Harappa",
+    "obsA": 18,
+    "expA": 11.73,
+    "pA": 0.20317968203179682,
+    "siteB": "Mohenjo-daro",
+    "obsB": 13,
+    "expB": 8.02,
+    "pB": 0.13938606139386062
+   }
+  ]
+ },
+ "verdict": {
+  "primary_nonseal": "INCONCLUSIVE (0 replicated of K=49; planted power OR3 = 0.00, OR5 <= 0.045)",
+  "secondary_all": "INCONCLUSIVE (0 replicated of K=193; power OR3 <= 0.035, OR5 <= 0.14)",
+  "nearest_miss": "M197/W575 WEIGHT with seals: Harappa 10 vs 5.13 (p 0.0027), Mohenjo-daro 3 vs 0.40 (p 0.0019); fails O/E>=2 at Harappa (1.95); Harappa WEIGHT squares are find-rich, so all common signs look enriched there",
+  "exploratory_lead_dead": "M1/W090 in storage (Harappa granary area 4/56 vs 4/327; Lothal warehouse 12/56 vs 0/10): 11 of 12 Lothal hits are impressions of one seal text"
+ },
+ "exploratory_size_conditioned": {
+  "all": {
+   "n_testable": 169,
+   "both_p05": [
+    {
+     "Harappa": {
+      "site": "Harappa",
+      "context": "WEIGHT",
+      "sign_W": 176,
+      "sign_M": "M48",
+      "in": "25/484",
+      "out": "2/113",
+      "p": 0.015996800639872025
+     },
+     "Mohenjo-daro": {
+      "site": "Mohenjo-daro",
+      "context": "WEIGHT",
+      "sign_W": 176,
+      "sign_M": "M48",
+      "in": "4/38",
+      "out": "29/874",
+      "p": 0.03719256148770246
+     }
+    },
+    {
+     "Harappa": {
+      "site": "Harappa",
+      "context": "STORAGE",
+      "sign_W": 741,
+      "sign_M": "M343",
+      "in": "5/94",
+      "out": "17/503",
+      "p": 0.04559088182363527
+     },
+     "Lothal": {
+      "site": "Lothal",
+      "context": "STORAGE",
+      "sign_W": 741,
+      "sign_M": "M343",
+      "in": "11/56",
+      "out": "0/10",
+      "p": 0.008998200359928014
+     }
+    }
+   ]
+  },
+  "nonseal": {
+   "n_testable": 49,
+   "both_p05": [
+    {
+     "Harappa": {
+      "site": "Harappa",
+      "context": "STORAGE",
+      "sign_W": 90,
+      "sign_M": "M1",
+      "in": "4/56",
+      "out": "4/327",
+      "p": 0.01879624075184963
+     },
+     "Lothal": {
+      "site": "Lothal",
+      "context": "STORAGE",
+      "sign_W": 90,
+      "sign_M": "M1",
+      "in": "12/56",
+      "out": "0/10",
+      "p": 0.005198960207958408
+     }
+    }
+   ]
+  }
+ }
+}

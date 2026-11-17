@@ -1,0 +1,20 @@
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] K1inj_1.0  score/tok=2.326 acc=1.000 cons=1.000 cov=0.9988244514106583 gain=1.322 oracle/tok=2.327 oracc=1.000 wrong>or=False t=100s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] K1inj_0.5  score/tok=1.623 acc=0.987 cons=0.987 cov=0.4992163009404389 gain=0.625 oracle/tok=1.672 oracc=0.998 wrong>or=False t=216s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] K1inj_0.2  score/tok=1.202 acc=0.541 cons=0.581 cov=0.2006269592476489 gain=0.213 oracle/tok=1.386 oracc=0.956 wrong>or=False t=334s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] K1         score/tok=1.188 acc=0.246 cons=0.330 cov=0.08699059561128526 gain=0.186 oracle/tok=1.254 oracc=0.874 wrong>or=False t=440s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] K2         score/tok=1.046 acc=0.212 cons=0.237 cov=0.07053291536050156 gain=0.161 oracle/tok=1.040 oracc=0.599 wrong>or=True t=525s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] W:lat      score/tok=1.219 acc=0.171 cons=0.223 cov=0.001567398119122257 gain=0.249  t=628s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] W:fin      score/tok=1.201 acc=0.038 cons=0.092 cov=0.0109717868338558 gain=0.206  t=733s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] W:sux      score/tok=1.155 acc=0.040 cons=0.088 cov=0.009404388714733543 gain=0.141  t=840s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] R:tam      score/tok=1.228 acc=0.230 cons=0.265 cov=0.054858934169279 gain=0.237  t=941s
+[san 10003tok logo=0.0(0.00) gold rep0 units=1786] K2shuf     score/tok=0.914 acc=0.124 cons=0.136 cov=None gain=nan  t=1000s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] K1inj_1.0  score/tok=2.478 acc=0.999 cons=0.999 cov=0.998280309544282 gain=1.419 oracle/tok=2.480 oracc=1.000 wrong>or=False t=140s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] K1inj_0.5  score/tok=1.581 acc=0.913 cons=0.926 cov=0.5064488392089423 gain=0.513 oracle/tok=1.784 oracc=0.995 wrong>or=False t=293s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] K1inj_0.2  score/tok=1.255 acc=0.224 cons=0.367 cov=0.1994840928632846 gain=0.198 oracle/tok=1.463 oracc=0.966 wrong>or=False t=448s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] K1         score/tok=1.265 acc=0.484 cons=0.542 cov=0.05331040412725709 gain=0.196 oracle/tok=1.320 oracc=0.874 wrong>or=False t=583s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] K2         score/tok=1.098 acc=0.197 cons=0.255 cov=0.061478933791917455 gain=0.154 oracle/tok=1.084 oracc=0.543 wrong>or=True t=718s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] W:lat      score/tok=1.294 acc=0.094 cons=0.196 cov=0.0017196904557179708 gain=0.249  t=875s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] W:fin      score/tok=1.286 acc=0.105 cons=0.164 cov=0.009888220120378332 gain=0.211  t=1032s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] W:sux      score/tok=1.215 acc=0.010 cons=0.076 cov=0.005159071367153913 gain=0.138  t=1179s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] R:tam      score/tok=1.310 acc=0.180 cons=0.221 cov=0.04471195184866724 gain=0.255  t=1326s
+[san 10005tok logo=0.2(0.20) gold rep0 units=1986] K2shuf     score/tok=0.967 acc=0.000 cons=0.015 cov=None gain=nan  t=1412s

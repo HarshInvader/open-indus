@@ -1,0 +1,464 @@
+{
+ "experiment": "reg_findspot",
+ "prereg": "docs/prereg/reg_findspot.md (sha256 666f7130...)",
+ "data": {
+  "linked_with_text": 639,
+  "kind": {
+   "house": 405,
+   "street": 153,
+   "room_only": 69,
+   "block_only": 9,
+   "surface": 3
+  },
+  "flags": {
+   "house_ocr_repaired": 43,
+   "house_room_split": 2,
+   "block_junk_stripped": 7,
+   "block_unreadable": 25,
+   "house_unreadable": 4,
+   "room_unreadable": 3,
+   "street": 153,
+   "surface": 3
+  },
+  "depth_src": {
+   "register": 509,
+   "register_spilled": 80,
+   "m77_level": 42,
+   "m77_level(replaced outlier)": 5,
+   "NaN": 3
+  },
+  "depth_vs_m77_within1ft": "631/636",
+  "houses": 84,
+  "houses_2plus": 67,
+  "rooms": 315,
+  "rooms_2plus": 86
+ },
+ "F1": {
+  "house": {
+   "opener": {
+    "mean_same": 0.03985507246376811,
+    "mean_diff": 0.029594272076372316,
+    "T": 0.010260800387395796,
+    "null_95": [
+     -0.01262841133132718,
+     0.02170540624675729
+    ],
+    "p_two": 0.45635436456354367,
+    "holm_two": 1.0,
+    "power_q0.25": 0.96,
+    "power_q0.5": 1.0
+   },
+   "closer": {
+    "mean_same": 0.12318840579710146,
+    "mean_diff": 0.13031026252983294,
+    "T": -0.0071218567327314825,
+    "null_95": [
+     -0.027722147279582166,
+     0.03865656670471446
+    ],
+    "p_two": 0.6129387061293871,
+    "holm_two": 1.0,
+    "power_q0.25": 0.24,
+    "power_q0.5": 1.0
+   },
+   "core": {
+    "mean_same": 0.038558497779277,
+    "mean_diff": 0.02985480642068115,
+    "T": 0.00870369135859585,
+    "null_95": [
+     -0.0052767648649158965,
+     0.015414523180315103
+    ],
+    "p_two": 0.43875612438756123,
+    "holm_two": 1.0,
+    "power_q0.25": 0.465,
+    "power_q0.5": 1.0
+   },
+   "whole": {
+    "mean_same": 0.057912742106821055,
+    "mean_diff": 0.051225672106132825,
+    "T": 0.0066870700006882305,
+    "null_95": [
+     -0.00658714883324743,
+     0.011073634411644913
+    ],
+    "p_two": 0.28677132286771323,
+    "holm_two": 1.0,
+    "power_q0.25": 0.065,
+    "power_q0.5": 0.985
+   },
+   "n_seals": 345,
+   "n_units": 74,
+   "same_pairs": 552,
+   "diff_pairs": 2095
+  },
+  "room": {
+   "opener": {
+    "mean_same": 0.05747126436781609,
+    "mean_diff": 0.030692362598144184,
+    "T": 0.026778901769671907,
+    "null_95": [
+     -0.0324768022840828,
+     0.05048118339117379
+    ],
+    "p_two": 0.36896310368963103,
+    "holm_two": 1.0,
+    "power_q0.25": 0.465,
+    "power_q0.5": 1.0
+   },
+   "closer": {
+    "mean_same": 0.13793103448275862,
+    "mean_diff": 0.12955032119914348,
+    "T": 0.008380713283615143,
+    "null_95": [
+     -0.07457727239164143,
+     0.05578527652661891
+    ],
+    "p_two": 0.6757324267573243,
+    "holm_two": 1.0,
+    "power_q0.25": 0.06,
+    "power_q0.5": 0.945
+   },
+   "core": {
+    "mean_same": 0.04648640601021553,
+    "mean_diff": 0.03204270293240116,
+    "T": 0.014443703077814368,
+    "null_95": [
+     -0.014257301442820093,
+     0.03346516247275848
+    ],
+    "p_two": 0.49055094490550943,
+    "holm_two": 1.0,
+    "power_q0.25": 0.055,
+    "power_q0.5": 0.9
+   },
+   "whole": {
+    "mean_same": 0.05101517256689671,
+    "mean_diff": 0.05296911316529332,
+    "T": -0.001953940598396618,
+    "null_95": [
+     -0.013826101102368822,
+     0.022039460100400435
+    ],
+    "p_two": 0.6021397860213978,
+    "holm_two": 1.0,
+    "power_q0.25": 0.0,
+    "power_q0.5": 0.03
+   },
+   "n_seals": 417,
+   "n_units": 290,
+   "same_pairs": 87,
+   "diff_pairs": 2802
+  }
+ },
+ "F1_verdict": "no shared elements beyond block+depth (0/8 Holm); household signature at q=0.5 excluded for all house-level elements and room opener/closer/core; personal-ID distinctness not supported",
+ "F2": {
+  "n_pairs": 48,
+  "n_identical": 17,
+  "n_plus1": 31,
+  "same_block": 3,
+  "same_block_null_mean": 2.1029,
+  "p_same_block": 0.3464653534646535,
+  "min_count_sig_block": 6,
+  "same_house": 1,
+  "same_house_null_mean": 0.3565,
+  "p_same_house": 0.30116988301169884,
+  "min_count_sig_house": 2,
+  "same_room": 0,
+  "same_room_null_mean": 0.0483,
+  "p_same_room_exploratory": 1.0,
+  "mean_abs_ddepth": 5.7375,
+  "ddepth_null_mean": 5.922660630952753,
+  "p_ddepth": 0.8117188281171883,
+  "same_block_ddepths": [
+   5.4,
+   2.6999999999999993,
+   11.600000000000001
+  ],
+  "median_same_block_ddepth": 5.4,
+  "holm": {
+   "same_block": 0.9035096490350965,
+   "same_house": 0.9035096490350965,
+   "ddepth": 0.9035096490350965
+  }
+ },
+ "F2_verdict": "copies not co-located (same block 3 vs 2.1, same house 1 vs 0.36) and not contemporaneous (|ddepth| 5.7 vs 5.9 ft); successive vs contemporary unresolved (3 same-block pairs: 2.7, 5.4, 11.6 ft)",
+ "F3": {
+  "levelA_units": {
+   "street": 153,
+   "7": 76,
+   "1": 75,
+   "other": 67,
+   "9": 61,
+   "10": 26,
+   "18": 23,
+   "12": 19,
+   "8": 18,
+   "3": 16,
+   "2": 15,
+   "4": 12,
+   "9A": 11,
+   "16": 10,
+   "21": 10,
+   "6": 10,
+   "22": 9
+  },
+  "levelA_n": 611,
+  "levelB_n": 345,
+  "levelB_houses": 53,
+  "tests": {
+   "M267|A_block": {
+    "G": 15.444111412325597,
+    "null_mean": 17.908668788930967,
+    "p": 0.6224377562243776,
+    "n_feature": 103,
+    "n": 611,
+    "top_unit": "1",
+    "top_obs": 19,
+    "top_exp": 12.643207855973813,
+    "top_n": 75,
+    "q_bh": 0.6339366063393661
+   },
+   "M267|B_house": {
+    "G": 58.75673355368968,
+    "null_mean": 58.14788759875888,
+    "p": 0.44325567443255676,
+    "n_feature": 61,
+    "n": 345,
+    "top_unit": "1/III",
+    "top_obs": 8,
+    "top_exp": 3.0057971014492755,
+    "top_n": 17,
+    "q_bh": 0.5778172182781722
+   },
+   "M293|A_block": {
+    "G": 17.42340851644264,
+    "null_mean": 17.44859983858872,
+    "p": 0.46225377462253775,
+    "n_feature": 36,
+    "n": 611,
+    "top_unit": "18",
+    "top_obs": 4,
+    "top_exp": 1.3551554828150574,
+    "top_n": 23,
+    "q_bh": 0.5778172182781722
+   },
+   "M293|B_house": {
+    "G": 55.83262054468987,
+    "null_mean": 49.209869297250904,
+    "p": 0.08959104089591041,
+    "n_feature": 21,
+    "n": 345,
+    "top_unit": "2/IV",
+    "top_obs": 2,
+    "top_exp": 0.24347826086956523,
+    "top_n": 4,
+    "q_bh": 0.298636802986368
+   },
+   "M391|A_block": {
+    "G": 15.6929421044049,
+    "null_mean": 17.8582328909828,
+    "p": 0.6339366063393661,
+    "n_feature": 53,
+    "n": 611,
+    "top_unit": "3",
+    "top_obs": 4,
+    "top_exp": 1.387888707037643,
+    "top_n": 16,
+    "q_bh": 0.6339366063393661
+   },
+   "M391|B_house": {
+    "G": 56.063794169438054,
+    "null_mean": 55.981172039953734,
+    "p": 0.45025497450254975,
+    "n_feature": 29,
+    "n": 345,
+    "top_unit": "1/VI",
+    "top_obs": 3,
+    "top_exp": 0.5884057971014492,
+    "top_n": 7,
+    "q_bh": 0.5778172182781722
+   },
+   "NUMERAL|A_block": {
+    "G": 20.30675421225618,
+    "null_mean": 16.32683401512552,
+    "p": 0.22807719228077192,
+    "n_feature": 347,
+    "n": 611,
+    "top_unit": "22",
+    "top_obs": 8,
+    "top_exp": 5.111292962356792,
+    "top_n": 9,
+    "q_bh": 0.45615438456154384
+   },
+   "NUMERAL|B_house": {
+    "G": 67.35812493017013,
+    "null_mean": 54.94419688404738,
+    "p": 0.12488751124887511,
+    "n_feature": 185,
+    "n": 345,
+    "top_unit": "1/I",
+    "top_obs": 19,
+    "top_exp": 13.942028985507248,
+    "top_n": 26,
+    "q_bh": 0.3122187781221878
+   },
+   "TICKED_FISH|A_block": {
+    "G": 36.22500329080034,
+    "null_mean": 16.60769107448598,
+    "p": 0.0006999300069993001,
+    "n_feature": 21,
+    "n": 611,
+    "top_unit": "12",
+    "top_obs": 4,
+    "top_exp": 0.6530278232405892,
+    "top_n": 19,
+    "q_bh": 0.006999300069993001
+   },
+   "TICKED_FISH|B_house": {
+    "G": 54.08194181787645,
+    "null_mean": 46.898430441408244,
+    "p": 0.0174982501749825,
+    "n_feature": 12,
+    "n": 345,
+    "top_unit": "6/III",
+    "top_obs": 2,
+    "top_exp": 0.10434782608695653,
+    "top_n": 3,
+    "q_bh": 0.0874912508749125
+   }
+  },
+  "power_M267_3x_A_block": 0.71,
+  "power_M267_3x_B_house": 0.0
+ },
+ "F3_verdict": "ticked fish concentrated by block (p=0.0007, q=0.007); 4 other classes null; house level ticked fish p=0.018 q=0.087",
+ "explore": {
+  "E1_ticked_block_without_12V": [
+   27.455054981432802,
+   0.01759648070385923
+  ],
+  "E1_ticked_house_without_12V": [
+   42.01639949941515,
+   0.033593281343731254
+  ],
+  "E1_variants": {
+   "M60": 11,
+   "M66": 3,
+   "M68": 4,
+   "M71": 2,
+   "M73": 1
+  },
+  "E1_12V": [
+   {
+    "serial": "243",
+    "room_key": "12/V/90",
+    "depth": "-8.8",
+    "seq_side0": "M150 M123 M70 M127 M342"
+   },
+   {
+    "serial": "280",
+    "room_key": "12/V/95",
+    "depth": "-9.7",
+    "seq_side0": "M197 M249 M343 M67 M211"
+   },
+   {
+    "serial": "285",
+    "room_key": "12/V/95",
+    "depth": "-10.0",
+    "seq_side0": "M26 M100 M87 M59 M38 M342"
+   },
+   {
+    "serial": "340",
+    "room_key": "12/V/95",
+    "depth": "-10.9",
+    "seq_side0": "M152 M99 M53 M59 M87 M60"
+   },
+   {
+    "serial": "390",
+    "room_key": "12/V/96",
+    "depth": "-12.3",
+    "seq_side0": "M215 M17 M310 M249 M307"
+   },
+   {
+    "serial": "452",
+    "room_key": "12/V/91",
+    "depth": "-13.4",
+    "seq_side0": "M87 M59 M71"
+   },
+   {
+    "serial": "456",
+    "room_key": "12/V/96",
+    "depth": "-13.5",
+    "seq_side0": "M258 M342 M87 M60 | M87 M272"
+   },
+   {
+    "serial": "467",
+    "room_key": "12/V/91",
+    "depth": "-13.8",
+    "seq_side0": "M8 M342"
+   },
+   {
+    "serial": "517",
+    "room_key": "12/V/92",
+    "depth": "-15.3",
+    "seq_side0": "M336 M51 M342"
+   },
+   {
+    "serial": "567",
+    "room_key": "12/V/89",
+    "depth": "-16.9",
+    "seq_side0": "M391 M99 M105 M59 M342 M1"
+   },
+   {
+    "serial": "575",
+    "room_key": "12/V/96",
+    "depth": "-17.0",
+    "seq_side0": "M336 M89 M211"
+   },
+   {
+    "serial": "580",
+    "room_key": "12/V/92",
+    "depth": "-17.4",
+    "seq_side0": "M267 M99 M48 M342"
+   },
+   {
+    "serial": "630",
+    "room_key": "12/V/96",
+    "depth": "-19.4",
+    "seq_side0": "M267 M99 M17 M38"
+   },
+   {
+    "serial": "645",
+    "room_key": "12/V/95",
+    "depth": "-20.2",
+    "seq_side0": "M100 M17 M60"
+   }
+  ],
+  "E1_plain_fish_block": [
+   18.9326546750702,
+   0.3131373725254949
+  ],
+  "E1_plain_fish_house": [
+   52.86379328615687,
+   0.8722255548890222
+  ],
+  "E2_n_signs": 70,
+  "E2_block_p05": 4,
+  "E2_house_p05": 0,
+  "E2_q05": [],
+  "E3_identical": {
+   "n": 17,
+   "same_block": 1,
+   "same_house": 1,
+   "mean_abs_ddepth": 5.864705882352942
+  },
+  "E3_len4plus": {
+   "n": 16,
+   "same_block": 0,
+   "same_house": 0,
+   "mean_abs_ddepth": 6.03125
+  },
+  "E3_random_pair_same_block": 0.0441667770468159,
+  "E3_random_pair_same_house": 0.007373393968828646
+ }
+}

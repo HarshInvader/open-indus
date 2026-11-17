@@ -1,0 +1,716 @@
+{
+ "area": "modifiers",
+ "date": "2026-11-15",
+ "decomposition": {
+  "pairs": 145,
+  "modifier_classes": 17,
+  "sha256_frozen": "b0c849648852e8d1b40df0b5bf901f1d73ec2d2373c34260522bb9325877291e",
+  "wells_crosscheck": {
+   "pairs_with_both_signs_bridged": 53,
+   "merged_by_wells": [
+    "M417/M415",
+    "M167/M161",
+    "M169/M161"
+   ]
+  }
+ },
+ "dev": {
+  "n_texts": 1603,
+  "n_tests_bh": 39,
+  "bh_q<0.1": [
+   {
+    "modifier": "TICKS4",
+    "feature": "final",
+    "p": 0.000999000999000999,
+    "q": 0.03896103896103896
+   }
+  ],
+  "TICKS4_final": {
+   "z": 11.347150927451356,
+   "T": 9.796781854819933,
+   "up": 8,
+   "down": 3,
+   "p_two": 0.000999000999000999
+  },
+  "TICKS4_nonfish_final": {
+   "z": 5.6302927117204264,
+   "T": 3.623474401112344,
+   "up": 4,
+   "down": 2,
+   "p_two": 0.003996003996003996
+  },
+  "negative_control_calibrated": {
+   "n": 100,
+   "k": 6,
+   "fpr_p<0.05": {
+    "final": 0.07,
+    "init": 0.05
+   }
+  },
+  "negative_control_signflip": [
+   {
+    "k": 7,
+    "n": 500,
+    "rarity_matched": false,
+    "fpr_p<0.05": {
+     "final": 0.012,
+     "init": 0.046,
+     "relpos": 0.048,
+     "seal": 0.032,
+     "partner_cos": 0.052
+    },
+    "share_all_same_final_direction": 0.004
+   },
+   {
+    "k": 7,
+    "n": 500,
+    "rarity_matched": true,
+    "fpr_p<0.05": {
+     "final": 0.032,
+     "init": 0.038,
+     "relpos": 0.046,
+     "seal": 0.04,
+     "partner_cos": 0.056
+    },
+    "share_all_same_final_direction": 0.002
+   },
+   {
+    "k": 5,
+    "n": 500,
+    "rarity_matched": true,
+    "fpr_p<0.05": {
+     "final": 0.0,
+     "init": 0.0,
+     "relpos": 0.0,
+     "seal": 0.0,
+     "partner_cos": 0.0
+    },
+    "share_all_same_final_direction": 0.048
+   }
+  ],
+  "signflip_TICKS4": {
+   "final_p": {
+    "final": 0.015625,
+    "init": 0.25,
+    "relpos": 0.015625,
+    "seal": 0.984375,
+    "partner_cos": 0.015625
+   }
+  }
+ },
+ "confirm": {
+  "heldout_v2": {
+   "n_texts": 523,
+   "primary": {
+    "TICKS4": {
+     "feature": "final",
+     "direction": "up",
+     "T": 4.6488989508754,
+     "z": 5.869301620532055,
+     "p_one_sided": 0.0014992503748125937,
+     "up": 6,
+     "down": 3,
+     "k": 9,
+     "verdict": "confirmed"
+    },
+    "TICKS4_nonfish": {
+     "feature": "final",
+     "direction": "up",
+     "T": 0.7489170938057141,
+     "z": 2.1868119787619573,
+     "p_one_sided": 0.14442778610694654,
+     "up": 3,
+     "down": 2,
+     "k": 5,
+     "verdict": "not confirmed"
+    },
+    "CANOPY": {
+     "feature": "final",
+     "direction": "up",
+     "T": 0.0,
+     "z": 0.7238423518714864,
+     "p_one_sided": 0.767616191904048,
+     "up": 1,
+     "down": 1,
+     "k": 3,
+     "verdict": "not confirmed"
+    },
+    "INSERT_container": {
+     "feature": "final",
+     "direction": "down",
+     "T": -1.9884793535915801,
+     "z": -7.940368880170996,
+     "p_one_sided": 0.019490254872563718,
+     "up": 0,
+     "down": 3,
+     "k": 3,
+     "verdict": "confirmed"
+    }
+   },
+   "paradigm_min_p": {
+    "modifier": "ROOF",
+    "feature": "init",
+    "p_two": 0.006496751624187906,
+    "q": 0.2143928035982009
+   },
+   "paradigm_n_tests": 33
+  },
+  "icit_all": {
+   "n_texts": 2396,
+   "primary": {
+    "TICKS4": {
+     "feature": "final",
+     "direction": "up",
+     "T": 11.750693985250603,
+     "z": 14.251716095965595,
+     "p_one_sided": 0.0004997501249375312,
+     "up": 9,
+     "down": 5,
+     "k": 14,
+     "verdict": "confirmed"
+    },
+    "TICKS4_nonfish": {
+     "feature": "final",
+     "direction": "up",
+     "T": 2.890706117337048,
+     "z": 5.0992438723816225,
+     "p_one_sided": 0.02148925537231384,
+     "up": 4,
+     "down": 5,
+     "k": 9,
+     "verdict": "confirmed"
+    },
+    "CANOPY": {
+     "feature": "final",
+     "direction": "up",
+     "T": 2.323181981069223,
+     "z": 4.066769115744657,
+     "p_one_sided": 0.02948525737131434,
+     "up": 3,
+     "down": 1,
+     "k": 6,
+     "verdict": "confirmed"
+    },
+    "INSERT_container": {
+     "verdict": "untestable (k<3)",
+     "k": 2
+    }
+   },
+   "paradigm_min_p": {
+    "modifier": "INSERT",
+    "feature": "seal",
+    "p_two": 0.010494752623688156,
+    "q": 0.2143928035982009
+   },
+   "paradigm_n_tests": 39
+  },
+  "icit_newsites_fixed": {
+   "n_texts": 235,
+   "primary": {
+    "TICKS4": {
+     "feature": "final",
+     "direction": "up",
+     "T": 1.1501722202582383,
+     "z": 2.920226179815983,
+     "p_one_sided": 0.07596201899050475,
+     "up": 2,
+     "down": 1,
+     "k": 3,
+     "verdict": "not confirmed"
+    },
+    "TICKS4_nonfish": {
+     "verdict": "untestable (k<3)",
+     "k": 0
+    },
+    "CANOPY": {
+     "verdict": "untestable (k<3)",
+     "k": 0
+    },
+    "INSERT_container": {
+     "verdict": "untestable (k<3)",
+     "k": 2
+    }
+   }
+  },
+  "icit_newsites_as_hashed_buggy": {
+   "n_texts": 1400,
+   "primary": {
+    "TICKS4": {
+     "feature": "final",
+     "direction": "up",
+     "T": 11.274719877535212,
+     "z": 14.27913264706872,
+     "p_one_sided": 0.0004997501249375312,
+     "up": 9,
+     "down": 2,
+     "k": 13,
+     "verdict": "confirmed"
+    },
+    "TICKS4_nonfish": {
+     "feature": "final",
+     "direction": "up",
+     "T": 3.1468503872317055,
+     "z": 4.7877130142642095,
+     "p_one_sided": 0.011494252873563218,
+     "up": 4,
+     "down": 2,
+     "k": 8,
+     "verdict": "confirmed"
+    },
+    "CANOPY": {
+     "feature": "final",
+     "direction": "up",
+     "T": 1.8904646748681349,
+     "z": 3.8238327681585416,
+     "p_one_sided": 0.029985007496251874,
+     "up": 2,
+     "down": 1,
+     "k": 4,
+     "verdict": "confirmed"
+    },
+    "INSERT_container": {
+     "verdict": "untestable (k<3)",
+     "k": 2
+    }
+   },
+   "note": "site filter bug: kept Mohenjo-daro/Chanhu-daro; effectively ICIT minus Harappa, Kalibangan, Lothal"
+  }
+ },
+ "power_T_final": {
+  "heldout_v2": {
+   "BRACKET": {
+    "k": 3,
+    "+0.2": 0.1825,
+    "+0.5": 0.55
+   },
+   "CANOPY": {
+    "k": 3,
+    "+0.2": 0.215,
+    "+0.5": 0.6675
+   },
+   "COMB": {
+    "k": 7,
+    "+0.2": 0.43,
+    "+0.5": 0.9825
+   },
+   "DOUBLE": {
+    "k": 9,
+    "+0.2": 0.38,
+    "+0.5": 0.99
+   },
+   "HATCH": {
+    "k": 4,
+    "+0.2": 0.27,
+    "+0.5": 0.9025
+   },
+   "INNERCHEVRON": {
+    "k": 3,
+    "+0.2": 0.1975,
+    "+0.5": 0.69
+   },
+   "INSERT": {
+    "k": 14,
+    "+0.2": 0.835,
+    "+0.5": 1.0
+   },
+   "LEFTPOST": {
+    "k": 3,
+    "+0.2": 0.1225,
+    "+0.5": 0.505
+   },
+   "OUTLINE": {
+    "k": 3,
+    "+0.2": 0.3525,
+    "+0.5": 0.945
+   },
+   "PAIRTICKS4": {
+    "k": 3,
+    "+0.2": 0.0425,
+    "+0.5": 0.35
+   },
+   "ROOF": {
+    "k": 7,
+    "+0.2": 0.5425,
+    "+0.5": 1.0
+   },
+   "THROUGH": {
+    "k": 5,
+    "+0.2": 0.315,
+    "+0.5": 0.945
+   },
+   "TICKS4": {
+    "k": 9,
+    "+0.2": 0.5775,
+    "+0.5": 1.0
+   },
+   "TICKS4_nonfish": {
+    "k": 5,
+    "+0.2": 0.2575,
+    "+0.5": 0.8075
+   },
+   "TICKS4_fish": {
+    "k": 4,
+    "+0.2": 0.4725,
+    "+0.5": 0.99
+   },
+   "INSERT_container": {
+    "k": 3,
+    "+0.2": 0.435,
+    "+0.5": 0.9825
+   }
+  },
+  "icit_all": {
+   "BRACKET": {
+    "k": 7,
+    "+0.2": 0.4025,
+    "+0.5": 0.985
+   },
+   "CANOPY": {
+    "k": 6,
+    "+0.2": 0.35,
+    "+0.5": 0.995
+   },
+   "COMB": {
+    "k": 9,
+    "+0.2": 0.5575,
+    "+0.5": 1.0
+   },
+   "DOUBLE": {
+    "k": 15,
+    "+0.2": 0.7625,
+    "+0.5": 1.0
+   },
+   "FRAME": {
+    "k": 4,
+    "+0.2": 0.4075,
+    "+0.5": 0.88
+   },
+   "HATCH": {
+    "k": 5,
+    "+0.2": 0.3275,
+    "+0.5": 1.0
+   },
+   "INNERCHEVRON": {
+    "k": 3,
+    "+0.2": 0.63,
+    "+0.5": 1.0
+   },
+   "INSERT": {
+    "k": 16,
+    "+0.2": 1.0,
+    "+0.5": 1.0
+   },
+   "LEFTPOST": {
+    "k": 5,
+    "+0.2": 0.2625,
+    "+0.5": 0.815
+   },
+   "OUTLINE": {
+    "k": 4,
+    "+0.2": 0.73,
+    "+0.5": 1.0
+   },
+   "PAIRBARS": {
+    "k": 6,
+    "+0.2": 0.29,
+    "+0.5": 0.83
+   },
+   "PAIRTICKS4": {
+    "k": 5,
+    "+0.2": 0.195,
+    "+0.5": 0.76
+   },
+   "ROOF": {
+    "k": 6,
+    "+0.2": 0.4875,
+    "+0.5": 1.0
+   },
+   "THROUGH": {
+    "k": 6,
+    "+0.2": 0.3725,
+    "+0.5": 0.995
+   },
+   "TICKS4": {
+    "k": 14,
+    "+0.2": 0.9425,
+    "+0.5": 1.0
+   },
+   "TICKS4_nonfish": {
+    "k": 9,
+    "+0.2": 0.4875,
+    "+0.5": 0.9975
+   },
+   "TICKS4_fish": {
+    "k": 5,
+    "+0.2": 0.805,
+    "+0.5": 1.0
+   }
+  },
+  "dev": {
+   "BRACKET": {
+    "k": 6,
+    "+0.2": 0.5775,
+    "+0.5": 0.995
+   },
+   "CANOPY": {
+    "k": 7,
+    "+0.2": 0.37,
+    "+0.5": 0.9925
+   },
+   "COMB": {
+    "k": 11,
+    "+0.2": 0.7075,
+    "+0.5": 1.0
+   },
+   "DOUBLE": {
+    "k": 8,
+    "+0.2": 0.65,
+    "+0.5": 1.0
+   },
+   "FRAME": {
+    "k": 4,
+    "+0.2": 0.4125,
+    "+0.5": 0.83
+   },
+   "HATCH": {
+    "k": 6,
+    "+0.2": 0.49,
+    "+0.5": 0.9875
+   },
+   "INSERT": {
+    "k": 14,
+    "+0.2": 0.9975,
+    "+0.5": 1.0
+   },
+   "LEFTPOST": {
+    "k": 4,
+    "+0.2": 0.175,
+    "+0.5": 0.54
+   },
+   "OUTLINE": {
+    "k": 3,
+    "+0.2": 0.5375,
+    "+0.5": 1.0
+   },
+   "PAIRBARS": {
+    "k": 3,
+    "+0.2": 0.27,
+    "+0.5": 0.7875
+   },
+   "ROOF": {
+    "k": 9,
+    "+0.2": 0.71,
+    "+0.5": 1.0
+   },
+   "THROUGH": {
+    "k": 6,
+    "+0.2": 0.76,
+    "+0.5": 1.0
+   },
+   "TICKS4": {
+    "k": 12,
+    "+0.2": 0.9075,
+    "+0.5": 1.0
+   },
+   "TICKS4_nonfish": {
+    "k": 7,
+    "+0.2": 0.5575,
+    "+0.5": 0.9875
+   },
+   "TICKS4_fish": {
+    "k": 5,
+    "+0.2": 0.7275,
+    "+0.5": 1.0
+   },
+   "INSERT_container": {
+    "k": 3,
+    "+0.2": 0.3125,
+    "+0.5": 1.0
+   }
+  }
+ },
+ "partner_shift": {
+  "heldout_v2": {
+   "COMB": {
+    "k": 4,
+    "cos": 0.13530386235519254,
+    "p": 0.25
+   },
+   "DOUBLE": {
+    "k": 5,
+    "cos": -0.08674375388970265,
+    "p": 0.75
+   },
+   "HATCH": {
+    "k": 4,
+    "cos": 0.0220996722145681,
+    "p": 0.5
+   },
+   "INSERT": {
+    "k": 9,
+    "cos": 0.04786864235120261,
+    "p": 0.17578125
+   },
+   "OUTLINE": {
+    "k": 3,
+    "cos": 0.17745708028714913,
+    "p": 0.25
+   },
+   "ROOF": {
+    "k": 5,
+    "cos": 0.2962648908940824,
+    "p": 0.125
+   },
+   "THROUGH": {
+    "k": 3,
+    "cos": 0.04057759766420813,
+    "p": 0.5
+   },
+   "TICKS4": {
+    "k": 7,
+    "cos": 0.24239769723950355,
+    "p": 0.078125
+   },
+   "TICKS4_nonfish": {
+    "k": 3,
+    "cos": -0.07307489424302081,
+    "p": 0.75
+   },
+   "TICKS4_fish": {
+    "k": 4,
+    "cos": 0.3003368728614723,
+    "p": 0.25
+   }
+  },
+  "icit_all": {
+   "BRACKET": {
+    "k": 4,
+    "cos": -0.1268682021275986,
+    "p": 0.75
+   },
+   "CANOPY": {
+    "k": 3,
+    "cos": -0.14930434238068874,
+    "p": 1.0
+   },
+   "COMB": {
+    "k": 7,
+    "cos": 0.05994185958960615,
+    "p": 0.25
+   },
+   "DOUBLE": {
+    "k": 10,
+    "cos": -0.007514577956072911,
+    "p": 0.513671875
+   },
+   "HATCH": {
+    "k": 4,
+    "cos": 0.08973866368797305,
+    "p": 0.25
+   },
+   "INNERCHEVRON": {
+    "k": 3,
+    "cos": 0.5304389586836904,
+    "p": 0.25
+   },
+   "INSERT": {
+    "k": 13,
+    "cos": 0.01930203901650899,
+    "p": 0.2568359375
+   },
+   "OUTLINE": {
+    "k": 4,
+    "cos": 0.22495862695886237,
+    "p": 0.125
+   },
+   "ROOF": {
+    "k": 4,
+    "cos": 0.4939798915329486,
+    "p": 0.125
+   },
+   "THROUGH": {
+    "k": 4,
+    "cos": -0.03921900858161128,
+    "p": 0.625
+   },
+   "TICKS4": {
+    "k": 10,
+    "cos": 0.31960531242865786,
+    "p": 0.005859375
+   },
+   "TICKS4_nonfish": {
+    "k": 5,
+    "cos": 0.08274874705989085,
+    "p": 0.125
+   },
+   "TICKS4_fish": {
+    "k": 5,
+    "cos": 0.5848181577510381,
+    "p": 0.0625
+   }
+  },
+  "dev": {
+   "BRACKET": {
+    "k": 4,
+    "cos": -0.12711679930905587,
+    "p": 0.875
+   },
+   "CANOPY": {
+    "k": 3,
+    "cos": -0.14390594231914675,
+    "p": 1.0
+   },
+   "COMB": {
+    "k": 7,
+    "cos": -0.07601175390632653,
+    "p": 0.859375
+   },
+   "DOUBLE": {
+    "k": 6,
+    "cos": -0.011336601089034398,
+    "p": 0.53125
+   },
+   "HATCH": {
+    "k": 5,
+    "cos": -0.07486890393691632,
+    "p": 0.75
+   },
+   "INSERT": {
+    "k": 12,
+    "cos": 0.053213148396186086,
+    "p": 0.109375
+   },
+   "OUTLINE": {
+    "k": 3,
+    "cos": 0.3978365015981729,
+    "p": 0.25
+   },
+   "ROOF": {
+    "k": 6,
+    "cos": 0.046622278560228304,
+    "p": 0.25
+   },
+   "THROUGH": {
+    "k": 6,
+    "cos": -0.005372031516094302,
+    "p": 0.5625
+   },
+   "TICKS4": {
+    "k": 9,
+    "cos": 0.29596216473341763,
+    "p": 0.01171875
+   },
+   "TICKS4_nonfish": {
+    "k": 4,
+    "cos": 0.026815992910078856,
+    "p": 0.375
+   },
+   "TICKS4_fish": {
+    "k": 5,
+    "cos": 0.4398372019603224,
+    "p": 0.0625
+   }
+  }
+ },
+ "verdict": "Ticks are the only graphic modifier with a confirmed slot effect (closing slot). No paradigm: 0 of the other modifier classes passes correction in dev, held-out or ICIT. Inserted strokes in a jar/cup lower final share (held-out confirmed; known jar effect). Ticks on non-fish bases: dev and ICIT yes, held-out no (inconclusive). ROOF -> more initial is an unconfirmed lead (held-out p=0.006, ICIT p=0.04, not pre-registered as primary)."
+}

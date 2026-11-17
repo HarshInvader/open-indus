@@ -1,0 +1,164 @@
+{
+ "label": "dev half A -> dev half B (rehearsal)",
+ "n_two_types": 177,
+ "HD1_HFI_prod": {
+  "mean": 0.424,
+  "lo": 0.342,
+  "hi": 0.509,
+  "share_pos": 0.039,
+  "observed": 0.417,
+  "order_null_p": 0.0415
+ },
+ "HD2_hub_pos2": {
+  "mean": 0.473,
+  "lo": 0.439,
+  "hi": 0.508,
+  "share_pos": 0.054,
+  "observed": 0.464,
+  "order_null_p": 0.073
+ },
+ "head_other": {
+  "logV": -0.154,
+  "HFI_sa": 0.462
+ },
+ "calibration_at_n": {
+  "sanskrit": {
+   "HFI_prod": {
+    "mean": 0.568,
+    "lo": 0.461,
+    "hi": 0.67,
+    "share_pos": 0.884
+   },
+   "logV": {
+    "mean": 0.068,
+    "lo": -0.036,
+    "hi": 0.176,
+    "share_pos": 0.877
+   },
+   "hub_pos2": {
+    "mean": 0.617,
+    "lo": 0.423,
+    "hi": 0.816,
+    "share_pos": 0.864
+   },
+   "HFI_sa": {
+    "mean": 0.522,
+    "lo": 0.4,
+    "hi": 0.644,
+    "share_pos": 0.613
+   }
+  },
+  "ur3": {
+   "HFI_prod": {
+    "mean": 0.212,
+    "lo": 0.147,
+    "hi": 0.277,
+    "share_pos": 0.0
+   },
+   "logV": {
+    "mean": -0.745,
+    "lo": -0.931,
+    "hi": -0.564,
+    "share_pos": 0.0
+   },
+   "hub_pos2": {
+    "mean": 0.202,
+    "lo": 0.116,
+    "hi": 0.279,
+    "share_pos": 0.0
+   },
+   "HFI_sa": {
+    "mean": 0.394,
+    "lo": 0.299,
+    "hi": 0.487,
+    "share_pos": 0.012
+   }
+  }
+ },
+ "HD3_pair_order": {
+  "train_pairs_with_majority": 89,
+  "test_pairs": 65,
+  "test_occurrences": 224,
+  "agree": 212,
+  "share": 0.946,
+  "p": 9.699743105888435e-49
+ },
+ "n_signs": 92,
+ "SC1": {
+  "members": [
+   "M59",
+   "M67",
+   "M65",
+   "M72",
+   "M70",
+   "M75",
+   "M62"
+  ],
+  "obs": 0.1752,
+  "null_mean": 0.0632,
+  "p": 0.0002
+ },
+ "SC3": {
+  "fish": [
+   "M59",
+   "M67",
+   "M65",
+   "M72",
+   "M70",
+   "M75",
+   "M62"
+  ],
+  "fish_mean": 24.429,
+  "null_mean": 15.217,
+  "p": 0.0001999600079984003
+ },
+ "SC4": {
+  "fish": [
+   "M59",
+   "M67",
+   "M65",
+   "M72",
+   "M70",
+   "M75",
+   "M62"
+  ],
+  "fish_mean": 2.721,
+  "null_mean": 2.416,
+  "p": 0.057388522295540895
+ },
+ "SC6": {
+  "rho": 0.1027,
+  "p": 0.0085
+ },
+ "SC5_fish_fish": {
+  "n_cores": 319,
+  "obs": 0.1317,
+  "null_mean": 0.0896,
+  "p": 0.0001999600079984003
+ },
+ "SC7_fish_partner_set": {
+  "partner_set": [
+   "M53",
+   "M387",
+   "M343",
+   "M389",
+   "M171"
+  ],
+  "test_fish_partner_tokens": 200,
+  "hits": 79,
+  "share": 0.395,
+  "baseline_share": 0.194,
+  "p": 4.6763609398785574e-11
+ },
+ "verdicts": {
+  "HD1": true,
+  "HD2": true,
+  "HD3": true,
+  "SC1": true,
+  "SC3": true,
+  "SC4": false,
+  "SC5": true,
+  "SC6": false,
+  "SC7": true
+ }
+}

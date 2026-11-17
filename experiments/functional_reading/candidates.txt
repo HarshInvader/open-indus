@@ -1,0 +1,450 @@
+4.88	7080/0	Lothal	seal	dev	M86 M197 M99 M65 M8 M342 M1
+	[NUMBER+NOUN: M86+M197] [CONNECTIVE: M99] [FISH-NOUN: M65] [TITLE: M8] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	number + noun (counted or name element); tall-stroke value 1; connective after opener (personal-seal grammar); fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends; suffix after the closer
+4.50	1109/0	Mohenjodaro	seal	dev	M391 M97 M65 M67 M342 M1
+	[OPENER: M391] [NUMBER-NAME: M97+M65] [FISH-NOUN: M67] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula; number + fish-class name element; short-stroke value 1; fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+4.36	1468/0	Mohenjodaro	seal	dev	M391 M99 M87 M59 M72 M8 M342
+	[OPENER: M391+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M72] [TITLE: M8] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends
+4.07	1014/0	Mohenjodaro	seal	dev	M267 M99 M87 M59 M67 M194 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M67] [TITLE: M194] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+4.07	2338/0	Mohenjodaro	seal	dev	M267 M99 M67 M171 M8 M342 M1
+	[OPENER: M267+M99] [FISH-NOUN: M67] [NOUN: M171] [TITLE: M8] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula + connective; fish-class name element; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends; suffix after the closer
+4.07	8062/0	Kalibangan	seal	dev	M391 M99 M87 M59 M70 M194 M342
+	[OPENER: M391+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M70] [TITLE: M194] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+4.00	3039/0	Mohenjodaro	seal	dev	M267 M99 M86 M103 M403 M342
+	[OPENER: M267+M99] [NUMERAL: M86] [NUMBER-NAME: M103+M403] [CLOSER(jar): M342]
+	opening formula + connective; number 1 qualifying the next unit; fixed numeral compound 3(2-over-1)+M403; closing word (jar); marks title/office-type legends
+4.00	9071/0	Other sites	seal	dev	M267 M99 M98 M67 M72 M182 M293 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M98+M67] [FISH-NOUN: M72] [FORMULA: M182+M293] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; short-stroke value 1; fish-class name element; recurrent fixed unit (dev); meaning unknown; closing word (jar); marks title/office-type legends
+3.97	1401/0	Mohenjodaro	seal	dev	M391 M97 M389 M67 M178 M389 M8 M342
+	[OPENER: M391] [NUMBER+NOUN: M97+M389] [FISH-NOUN: M67] [FORMULA: M178+M389] [TITLE: M8] [CLOSER(jar): M342]
+	opening formula; number + noun (counted or name element); short-stroke value 1; fish-class name element; recurrent fixed unit (dev); meaning unknown; title element before the jar; closing word (jar); marks title/office-type legends
+3.92	2419/0	Mohenjodaro	seal	dev	M267 M402 M123 M72 M342 M1
+	[OPENER: M267] [NOUN: M402] [CONNECTIVE: M123] [FISH-NOUN: M72] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula; unknown noun; connective after opener; fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+3.83	1087/0	Mohenjodaro	seal	dev	M87 M244 M28 M162 M99 M65 M67 M87 M59 M51 M130 M149 M342
+	[NUMBER+NOUN: M87+M244] [NOUN: M28] [NOUN: M162] [CONNECTIVE: M99] [FISH-NOUN: M65] [FISH-NOUN: M67] [NUMBER-NAME: M87+M59] [TITLE-BLOCK: M51+M130+M149] [CLOSER(jar): M342]
+	number + noun (counted or name element); tall-stroke value 2; unknown noun; closer-class word (counted by short strokes); connective after opener (personal-seal grammar); fish-class name element; fish-class name element; number + fish-class name element; tall-stroke value 2; title/office block (M51-M130-M149 + jar); closing word (jar); marks title/office-type legends
+3.76	1529/0	Mohenjodaro	ivory/bone rod	dev	M67 M103 M403 M342 M176
+	[FISH-NOUN: M67] [NUMBER-NAME: M103+M403] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; fixed numeral compound 3(2-over-1)+M403; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.76	4164/0	Harappa	seal	dev	M102 M59 M342 M1 M176
+	[NUMBER-NAME: M102+M59] [CLOSER(jar): M342] [POST-CLOSER: M1] [DOC-TYPE CLITIC: M176]
+	number + fish-class name element; short-stroke value 3; closing word (jar); marks title/office-type legends; suffix after the closer; document-type clitic (tablet/rod register)
+3.76	5487/0	Harappa	miniature tablet	dev	M72 M87 M403 M342 M176
+	[FISH-NOUN: M72] [NUMBER+NOUN: M87+M403] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; number + noun (counted or name element); tall-stroke value 2; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.76	7066/0	Lothal	seal	dev	M267 M99 M72 M342 M1
+	[OPENER: M267+M99] [FISH-NOUN: M72] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula + connective; fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+3.76	8302/1	Kalibangan	bronze implement	dev	M267 M99 M67 M342 M1
+	[OPENER: M267+M99] [FISH-NOUN: M67] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula + connective; fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+3.75	1104/0	Mohenjodaro	seal	dev	M267 M99 M387 M72 M336 M89 M348 M342
+	[OPENER: M267+M99] [NOUN: M387] [FISH-NOUN: M72] [TITLE-BLOCK: M336+M89] [TITLE: M348] [CLOSER(jar): M342]
+	opening formula + connective; round-seal-favoured noun; fish-class name element; title/office block shared across unrelated names; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.75	2054/0	Mohenjodaro	seal	dev	M267 M99 M87 M59 M65 M253 M230 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M65] [FORMULA: M253+M230] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; recurrent fixed unit (dev); meaning unknown; closing word (jar); marks title/office-type legends
+3.67	4119/0	Harappa	seal	dev	M267 M99 M53 M182 M293 M112 M197 M342 M176
+	[OPENER: M267+M99] [NOUN: M53] [FORMULA: M182+M293] [NUMBER-NAME: M112+M197] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	opening formula + connective; unknown noun; recurrent fixed unit (dev); meaning unknown; 7(4-over-3)+M197; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.65	2233/0	Mohenjodaro	seal	dev	M215 M298 M86 M109 M59 M342 M1
+	[OPENER: M215] [NOUN: M298] [NUMERAL: M86] [NUMBER-NAME: M109+M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula; unknown noun; number 1 qualifying the next unit; 6 + fish compound (Parpola 'Pleiades' reading untested); closing word (jar); marks title/office-type legends; suffix after the closer
+3.60	3090/0	Mohenjodaro	seal	heldout	M267 M99 M72 M97 M347 M342
+	[OPENER: M267+M99] [FISH-NOUN: M72] [NUMBER+NOUN: M97+M347] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; number + noun (counted or name element); short-stroke value 1; closing word (jar); marks title/office-type legends
+3.60	6129/0	Chanhudaro	seal	dev	M267 M99 M87 M59 M70 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M70] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; closing word (jar); marks title/office-type legends
+3.57	4106/0	Harappa	seal	dev	M121 M121 M171 M123 M67 M348 M342
+	[NUMBER+NOUN: M121+M121+M171] [CONNECTIVE: M123] [FISH-NOUN: M67] [TITLE: M348] [CLOSER(jar): M342]
+	number + noun (counted or name element); short-stroke value 12+12; connective after opener; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.52	1098/0	Mohenjodaro	seal	dev	M267 M99 M65 M347 M342
+	[OPENER: M267+M99] [FISH-NOUN: M65] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends
+3.52	2164/0	Mohenjodaro	seal	dev	M391 M99 M59 M8 M342
+	[OPENER: M391+M99] [FISH-NOUN: M59] [TITLE: M8] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends
+3.50	4619/0	Harappa	seal	dev	M287 M87 M180 M99 M67 M112 M194 M342
+	[NOUN: M287] [NUMBER+NOUN: M87+M180] [CONNECTIVE: M99] [FISH-NOUN: M67] [NUMBER-NAME: M112+M194] [CLOSER(jar): M342]
+	unknown noun; number + noun (counted or name element); tall-stroke value 2; connective after opener (personal-seal grammar); fish-class name element; 7(4-over-3)+M194, copper-tablet formula; closing word (jar); marks title/office-type legends
+3.50	5058/0	Harappa	seal	dev	M267 M99 M72 M336 M89 M327 M128 M342
+	[OPENER: M267+M99] [FISH-NOUN: M72] [TITLE-BLOCK: M336+M89] [NOUN: M327] [TITLE: M128] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; title/office block shared across unrelated names; unknown noun; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.48	2480/0	Mohenjodaro	seal	dev	M391 M99 M70 M87 M59 M387 M342
+	[OPENER: M391+M99] [FISH-NOUN: M70] [NUMBER-NAME: M87+M59] [NOUN: M387] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; number + fish-class name element; tall-stroke value 2; round-seal-favoured noun; closing word (jar); marks title/office-type legends
+3.44	2177/0	Mohenjodaro	seal	dev	M267 M99 M48 M342 M1
+	[OPENER: M267+M99] [TITLE: M48] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula + connective; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends; suffix after the closer
+3.43	2481/0	Mohenjodaro	seal	dev	M267 M99 M103 M403 M48 M8 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M103+M403] [NOUN: M48] [TITLE: M8] [CLOSER(jar): M342]
+	opening formula + connective; fixed numeral compound 3(2-over-1)+M403; pre-jar title element? (unknown meaning); title element before the jar; closing word (jar); marks title/office-type legends
+3.43	3505/0	Mohenjodaro	ivory/bone rod	dev	M216 M267 M121 M87 M347 M342 M176
+	[OPENER: M216+M267] [NUMBER+NOUN: M121+M87+M347] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	opening formula; number + noun (counted or name element); mixed-stroke value 12+2; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.43	4264/0	Harappa	seal	dev	M267 M99 M102 M59 M249 M169 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M102+M59] [TITLE-BLOCK: M249+M169] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; short-stroke value 3; title/office block; closing word (jar); marks title/office-type legends
+3.43	7239/0	Lothal	sealing	dev	M209 M343 M98 M121 M59 M342 M1
+	[FORMULA: M209+M343] [NUMBER-NAME: M98+M121+M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	recurrent fixed unit (dev); meaning unknown; number + fish-class name element; short-stroke value 1+12; closing word (jar); marks title/office-type legends; suffix after the closer
+3.43	4271/0	Harappa	seal	dev	M54 M58 M197 M252 M99 M121 M336 M89 M67 M72 M403 M87 M342
+	[NOUN: M54] [NOUN: M58] [NOUN: M197] [NOUN: M252] [CONNECTIVE: M99] [NUMERAL: M121] [TITLE-BLOCK: M336+M89] [FISH-NOUN: M67] [FISH-NOUN: M72] [NOUN: M403] [NUMBER+CLOSER: M87+M342]
+	opener-class/core noun (unknown meaning); unknown noun; unknown noun; unknown noun; connective after opener (personal-seal grammar); number 12 qualifying the next unit; title/office block shared across unrelated names; fish-class name element; fish-class name element; noun bound to M103 (3 as 2-over-1); number + closer-class word; tall-stroke value 2
+3.40	2848/1	Mohenjodaro	sealing	dev	M67 M8 M342 M176
+	[FISH-NOUN: M67] [TITLE: M8] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.40	4073/0	Harappa	seal	dev	M267 M99 M102 M59 M347 M12
+	[OPENER: M267+M99] [NUMBER-NAME: M102+M59] [TITLE: M347] [CLOSER: M12]
+	opening formula + connective; number + fish-class name element; short-stroke value 3; title element before the jar; closer/post-closer
+3.40	4342/1	Harappa	sealing	dev	M65 M8 M342 M176
+	[FISH-NOUN: M65] [TITLE: M8] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.40	6219/0	Chanhudaro	seal	dev	M267 M99 M87 M59 M67 M8
+	[OPENER: M267+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M67] [TITLE: M8]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; title element before the jar
+3.33	1114/0	Mohenjodaro	seal	dev	M391 M99 M87 M59 M296 M342
+	[OPENER: M391+M99] [NUMBER-NAME: M87+M59] [TITLE: M296] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.32	4103/0	Harappa	seal	heldout	M94 M400 M402 M99 M67 M171 M8 M342
+	[NUMBER+NOUN: M94+M400] [NOUN: M402] [CONNECTIVE: M99] [FISH-NOUN: M67] [NOUN: M171] [TITLE: M8] [CLOSER(jar): M342]
+	number + noun (counted or name element); tall-stroke value 3; unknown noun; connective after opener (personal-seal grammar); fish-class name element; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+3.30	4338/1	Harappa	sealing	dev	M204 M112 M342 M176
+	[OPENER: M204] [NUMERAL: M112] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	opening formula; number 7 qualifying the next unit; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.29	2348/0	Mohenjodaro	seal	heldout	M249 M102 M287 M99 M67 M348 M342
+	[NOUN: M249] [NUMBER+NOUN: M102+M287] [CONNECTIVE: M99] [FISH-NOUN: M67] [TITLE: M348] [CLOSER(jar): M342]
+	unknown noun; number + noun (counted or name element); short-stroke value 3; connective after opener (personal-seal grammar); fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.28	1549/0	Mohenjodaro	seal	heldout	M391 M341 M99 M87 M59 M51 M130 M149 M342
+	[OPENER: M391] [NOUN: M341] [CONNECTIVE: M99] [NUMBER-NAME: M87+M59] [TITLE-BLOCK: M51+M130+M149] [CLOSER(jar): M342]
+	opening formula; unknown noun; connective after opener (personal-seal grammar); number + fish-class name element; tall-stroke value 2; title/office block (M51-M130-M149 + jar); closing word (jar); marks title/office-type legends
+3.26	1079/0	Mohenjodaro	seal	dev	M391 M99 M87 M59 M67 M121 M14
+	[OPENER: M391+M99] [NUMBER-NAME: M87+M59] [FISH-NOUN: M67] [NUMBER+CLOSER: M121+M14]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; fish-class name element; number + closer-class word; short-stroke value 12
+3.26	2029/0	Mohenjodaro	seal	dev	M391 M391 M97 M72 M182 M293 M342
+	[OPENER: M391+M391] [NUMBER-NAME: M97+M72] [FORMULA: M182+M293] [CLOSER(jar): M342]
+	opening formula; number + fish-class name element; short-stroke value 1; recurrent fixed unit (dev); meaning unknown; closing word (jar); marks title/office-type legends
+3.26	3164/0	Mohenjodaro	seal	dev	M267 M99 M87 M59 M192 M347 M342
+	[OPENER: M267+M99] [NUMBER-NAME: M87+M59] [NOUN: M192] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+3.26	4141/0	Harappa	seal	dev	M155 M162 M99 M102 M59 M342 M1
+	[NOUN: M155] [NOUN: M162] [CONNECTIVE: M99] [NUMBER-NAME: M102+M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	unknown noun; closer-class word (counted by short strokes); connective after opener (personal-seal grammar); number + fish-class name element; short-stroke value 3; closing word (jar); marks title/office-type legends; suffix after the closer
+3.20	1057/0	Mohenjodaro	seal	dev	M267 M99 M65 M342 M139
+	[OPENER: M267+M99] [FISH-NOUN: M65] [CLOSER(jar): M342] [POST-CLOSER: M139]
+	opening formula + connective; fish-class name element; closing word (jar); marks title/office-type legends; post-closer element (unknown meaning)
+3.20	1116/0	Mohenjodaro	seal	dev	M102 M17 M8 M342 M176
+	[NUMBER+NOUN: M102+M17] [TITLE: M8] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	number + noun (counted or name element); short-stroke value 3; title element before the jar; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.20	1351/0	Mohenjodaro	seal	dev	M267 M99 M67 M296 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [TITLE: M296] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.20	1554/0	Mohenjodaro	seal	dev	M267 M99 M59 M211 M242
+	[OPENER: M267+M99] [FISH-NOUN: M59] [CLOSER: M211] [POST-CLOSER: M242]
+	opening formula + connective; fish-class name element; closer of a title block; post-closer element (unknown meaning)
+3.20	2457/0	Mohenjodaro	seal	dev	M67 M204 M112 M342 M176
+	[FISH-NOUN: M67] [NOUN: M204] [NUMERAL: M112] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; opener-class/core noun (unknown meaning); number 7 qualifying the next unit; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.20	3121/0	Mohenjodaro	seal	heldout	M267 M99 M67 M48 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [TITLE: M48] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.20	4021/0	Harappa	seal	heldout	M267 M99 M336 M89 M112 M194 M342
+	[OPENER: M267+M99] [TITLE-BLOCK: M336+M89] [NUMBER-NAME: M112+M194] [CLOSER(jar): M342]
+	opening formula + connective; title/office block shared across unrelated names; 7(4-over-3)+M194, copper-tablet formula; closing word (jar); marks title/office-type legends
+3.20	4057/0	Harappa	seal	heldout	M267 M99 M65 M135 M342
+	[OPENER: M267+M99] [FISH-NOUN: M65] [TITLE: M135] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.20	4314/1	Harappa	sealing	dev	M267 M99 M67 M294 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [TITLE: M294] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.20	4315/1	Harappa	sealing	dev	M210 M169 M99 M67 M211
+	[OPENER: M210] [NOUN: M169] [CONNECTIVE: M99] [FISH-NOUN: M67] [CLOSER: M211]
+	opening formula; closer (copper-tablet / round-seal register); connective after opener (personal-seal grammar); fish-class name element; closer of a title block
+3.20	4325/1	Harappa	sealing	heldout	M171 M8 M342 M1 M176
+	[NOUN: M171] [TITLE: M8] [CLOSER(jar): M342] [POST-CLOSER: M1] [DOC-TYPE CLITIC: M176]
+	unknown noun; title element before the jar; closing word (jar); marks title/office-type legends; suffix after the closer; document-type clitic (tablet/rod register)
+3.20	4343/1	Harappa	sealing	heldout	M267 M99 M67 M135 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [TITLE: M135] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.20	4440/1	Harappa	miniature tablet	dev	M65 M87 M294 M342 M176
+	[FISH-NOUN: M65] [NUMBER+NOUN: M87+M294] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; number + noun (counted or name element); tall-stroke value 2; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.20	5276/1	Harappa	sealing	dev	M65 M249 M169 M342 M176
+	[FISH-NOUN: M65] [TITLE-BLOCK: M249+M169] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; title/office block; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.20	7088/0	Lothal	seal	dev	M267 M99 M70 M348 M342
+	[OPENER: M267+M99] [FISH-NOUN: M70] [TITLE: M348] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.17	2567/0	Mohenjodaro	seal	heldout	M391 M99 M105 M59 M342 M1
+	[OPENER: M391+M99] [NOUN: M105] [FISH-NOUN: M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula + connective; unknown noun (unseen in dev); fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+3.15	7224/0	Lothal	sealing	heldout	M336 M209 M343 M98 M121 M59 M342 M1
+	[NOUN: M336] [FORMULA: M209+M343] [NUMBER-NAME: M98+M121+M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	unknown noun; recurrent fixed unit (dev); meaning unknown; number + fish-class name element; short-stroke value 1+12; closing word (jar); marks title/office-type legends; suffix after the closer
+3.15	2335/0	Mohenjodaro	seal	dev	M391 M99 M386 M53 M171 M59 M72 M249 M162 M342
+	[OPENER: M391+M99] [NOUN: M386] [NOUN: M53] [FORMULA: M171+M59] [FISH-NOUN: M72] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opening formula + connective; opener-class/core noun (unknown meaning); unknown noun; recurrent fixed unit (dev); meaning unknown; fish-class name element; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+3.15	1105/0	Mohenjodaro	seal	dev	M391 M99 M121 M389 M59 M336 M89 M211
+	[OPENER: M391+M99] [NUMBER+NOUN: M121+M389] [FISH-NOUN: M59] [TITLE-BLOCK: M336+M89+M211]
+	opening formula + connective; number + noun (counted or name element); short-stroke value 12; fish-class name element; title/office block shared across unrelated names
+3.14	1024/0	Mohenjodaro	seal	dev	M293 M123 M343 M72 M65 M8 M342
+	[OPENER: M293+M123] [NOUN: M343] [FISH-NOUN: M72] [FISH-NOUN: M65] [TITLE: M8] [CLOSER(jar): M342]
+	opening formula + connective; handled-jar noun (distinct from the jar closer); fish-class name element; fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends
+3.14	2337/0	Mohenjodaro	seal	dev	M293 M123 M344 M70 M387 M347 M342
+	[OPENER: M293+M123] [NOUN: M344] [FISH-NOUN: M70] [NOUN: M387] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula + connective; jar+2 strokes: medial name element; fish-class name element; round-seal-favoured noun; title element before the jar; closing word (jar); marks title/office-type legends
+3.14	3104/0	Mohenjodaro	seal	dev	M203 M343 M87 M59 M8 M342 M1
+	[NOUN: M203] [NOUN: M343] [NUMBER-NAME: M87+M59] [TITLE: M8] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	unknown noun; handled-jar noun (distinct from the jar closer); number + fish-class name element; tall-stroke value 2; title element before the jar; closing word (jar); marks title/office-type legends; suffix after the closer
+3.13	1433/0	Mohenjodaro	seal	heldout	M267 M99 M65 M249 M162 M342
+	[OPENER: M267+M99] [FISH-NOUN: M65] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+3.13	2048/0	Mohenjodaro	seal	dev	M267 M99 M67 M171 M8 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [NOUN: M171] [TITLE: M8] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+3.13	2260/0	Mohenjodaro	seal	dev	M87 M59 M67 M89 M381 M342
+	[NUMBER-NAME: M87+M59] [FISH-NOUN: M67] [NUMBER+NOUN: M89+M381] [CLOSER(jar): M342]
+	number + fish-class name element; tall-stroke value 2; fish-class name element; number + noun (counted or name element); tall-stroke value 3; closing word (jar); marks title/office-type legends
+3.13	2521/0	Mohenjodaro	seal	heldout	M391 M123 M98 M249 M162 M342
+	[OPENER: M391+M123] [NUMERAL: M98] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opening formula + connective; number 1 qualifying the next unit; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+3.13	4101/0	Harappa	seal	dev	M267 M99 M59 M70 M296 M342
+	[OPENER: M267+M99] [FISH-NOUN: M59] [FISH-NOUN: M70] [TITLE: M296] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.11	1621/0	Mohenjodaro	sealing	heldout	M267 M99 M53 M171 M59 M89 M89 M347 M342
+	[OPENER: M267+M99] [NOUN: M53] [FORMULA: M171+M59] [NUMBER+NOUN: M89+M89+M347] [CLOSER(jar): M342]
+	opening formula + connective; unknown noun; recurrent fixed unit (dev); meaning unknown; number + noun (counted or name element); tall-stroke value 3+3; closing word (jar); marks title/office-type legends
+3.11	1306/0	Mohenjodaro	seal	dev	M244 M81 M99 M98 M72 M65 M53 M342 M224
+	[NOUN: M244] [NOUN: M81] [CONNECTIVE: M99] [NUMBER-NAME: M98+M72] [FISH-NOUN: M65] [NOUN: M53] [CLOSER(jar): M342] [POST-CLOSER: M224]
+	opener-class/core noun (unknown meaning); unknown noun; connective after opener (personal-seal grammar); number + fish-class name element; short-stroke value 1; fish-class name element; unknown noun; closing word (jar); marks title/office-type legends; post-closer element (unknown meaning)
+3.10	2197/0	Mohenjodaro	seal	dev	M87 M322 M99 M65 M72 M336 M89 M390 M327 M342
+	[NUMBER+NOUN: M87+M322] [CONNECTIVE: M99] [FISH-NOUN: M65] [FISH-NOUN: M72] [TITLE-BLOCK: M336+M89] [NOUN: M390] [NOUN: M327] [CLOSER(jar): M342]
+	number + noun (counted or name element); tall-stroke value 2; connective after opener (personal-seal grammar); fish-class name element; fish-class name element; title/office block shared across unrelated names; unknown noun; unknown noun; closing word (jar); marks title/office-type legends
+3.10	6228/0	Chanhudaro	seal	dev	M67 M8 M342 M12
+	[FISH-NOUN: M67] [TITLE: M8] [CLOSER(jar): M342] [POST-CLOSER: M12]
+	fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends; closer/post-closer
+3.08	2327/1	Mohenjodaro	seal	heldout	M267 M99 M65 M67 M127 M347 M342
+	[OPENER: M267+M99] [FISH-NOUN: M65] [FISH-NOUN: M67] [NOUN: M127] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; fish-class name element; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+3.08	4358/1	Harappa	sealing	dev	M387 M65 M72 M336 M89 M342 M176
+	[NOUN: M387] [FISH-NOUN: M65] [FISH-NOUN: M72] [TITLE-BLOCK: M336+M89] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	round-seal-favoured noun; fish-class name element; fish-class name element; title/office block shared across unrelated names; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.07	2013/0	Mohenjodaro	seal	dev	M267 M99 M112 M197 M342 M139
+	[OPENER: M267+M99] [NUMBER-NAME: M112+M197] [CLOSER(jar): M342] [POST-CLOSER: M139]
+	opening formula + connective; 7(4-over-3)+M197; closing word (jar); marks title/office-type legends; post-closer element (unknown meaning)
+3.06	2120/0	Mohenjodaro	seal	dev	M214 M99 M389 M67 M112 M197 M342 M139
+	[NOUN: M214] [CONNECTIVE: M99] [NOUN: M389] [FISH-NOUN: M67] [NUMBER-NAME: M112+M197] [CLOSER(jar): M342] [POST-CLOSER: M139]
+	unknown noun; connective after opener (personal-seal grammar); unknown noun; fish-class name element; 7(4-over-3)+M197; closing word (jar); marks title/office-type legends; post-closer element (unknown meaning)
+3.05	1540/0	Mohenjodaro	seal	heldout	M341 M206 M99 M387 M65 M171 M59 M87 M294 M342
+	[NOUN: M341] [NOUN: M206] [CONNECTIVE: M99] [NOUN: M387] [FISH-NOUN: M65] [FORMULA: M171+M59] [NUMBER+NOUN: M87+M294] [CLOSER(jar): M342]
+	unknown noun; unknown noun; connective after opener (personal-seal grammar); round-seal-favoured noun; fish-class name element; recurrent fixed unit (dev); meaning unknown; number + noun (counted or name element); tall-stroke value 2; closing word (jar); marks title/office-type legends
+3.03	3096/0	Mohenjodaro	seal	dev	M267 M99 M53 M72 M112 M197 M342
+	[OPENER: M267+M99] [NOUN: M53] [FISH-NOUN: M72] [NUMBER-NAME: M112+M197] [CLOSER(jar): M342]
+	opening formula + connective; unknown noun; fish-class name element; 7(4-over-3)+M197; closing word (jar); marks title/office-type legends
+3.03	3153/0	Mohenjodaro	seal	dev	M387 M267 M99 M336 M89 M135 M342
+	[OPENER: M387+M267+M99] [TITLE-BLOCK: M336+M89] [TITLE: M135] [CLOSER(jar): M342]
+	opening formula + connective; title/office block shared across unrelated names; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.03	4075/1	Harappa	seal	dev	M267 M99 M87 M155 M249 M162 M342
+	[OPENER: M267+M99] [NUMBER+NOUN: M87+M155] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opening formula + connective; number + noun (counted or name element); tall-stroke value 2; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+3.00	1081/0	Mohenjodaro	seal	dev	M87 M249 M162 M343 M87 M59 M127 M342
+	[NUMERAL: M87] [TITLE-BLOCK: M249+M162] [NOUN: M343] [NUMBER-NAME: M87+M59] [NOUN: M127] [CLOSER(jar): M342]
+	number 2 qualifying the next unit; title/office block (M249-M162/M169 + jar); handled-jar noun (distinct from the jar closer); number + fish-class name element; tall-stroke value 2; unknown noun; closing word (jar); marks title/office-type legends
+3.00	1227/2	Mohenjodaro	seal	dev	M403 M87 M342 M1 M176
+	[NOUN: M403] [NUMBER+CLOSER: M87+M342] [POST-CLOSER: M1] [DOC-TYPE CLITIC: M176]
+	noun bound to M103 (3 as 2-over-1); number + closer-class word; tall-stroke value 2; suffix after the closer; document-type clitic (tablet/rod register)
+3.00	1295/0	Mohenjodaro	seal	dev	M72 M48 M342 M1
+	[FISH-NOUN: M72] [TITLE: M48] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends; suffix after the closer
+3.00	2171/0	Mohenjodaro	seal	dev	M87 M322 M99 M87 M59 M71
+	[NUMBER+NOUN: M87+M322] [CONNECTIVE: M99] [NUMBER-NAME: M87+M59] [BRACKETED-FISH CLOSER: M71]
+	number + noun (counted or name element); tall-stroke value 2; connective after opener (personal-seal grammar); number + fish-class name element; tall-stroke value 2; fish-class element in the closer slot (bracketed fish)
+3.00	4079/0	Harappa	seal	dev	M204 M329 M99 M67 M48 M342
+	[OPENER: M204] [NOUN: M329] [CONNECTIVE: M99] [FISH-NOUN: M67] [TITLE: M48] [CLOSER(jar): M342]
+	opening formula; unknown noun; connective after opener (personal-seal grammar); fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+3.00	4384/1	Harappa	sealing	dev	M342 M1 M176
+	[CLOSER(jar): M342] [POST-CLOSER: M1] [DOC-TYPE CLITIC: M176]
+	closing word (jar); marks title/office-type legends; suffix after the closer; document-type clitic (tablet/rod register)
+3.00	4519/1	Harappa	miniature tablet	dev	M103 M403 M342 M176
+	[NUMBER-NAME: M103+M403] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fixed numeral compound 3(2-over-1)+M403; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.00	5277/1	Harappa	sealing	dev	M70 M48 M342 M176
+	[FISH-NOUN: M70] [TITLE: M48] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+3.00	8215/0	Kalibangan	pottery graffito	dev	M121 M342 M176
+	[NUMERAL: M121] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	number 12 qualifying the next unit; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.98	2271/0	Mohenjodaro	seal	dev	M391 M28 M169 M99 M65 M72 M67 M244 M342
+	[OPENER: M391] [NOUN: M28] [NOUN: M169] [CONNECTIVE: M99] [FISH-NOUN: M65] [FISH-NOUN: M72] [FISH-NOUN: M67] [NOUN: M244] [CLOSER(jar): M342]
+	opening formula; unknown noun; closer (copper-tablet / round-seal register); connective after opener (personal-seal grammar); fish-class name element; fish-class name element; fish-class name element; opener-class/core noun (unknown meaning); closing word (jar); marks title/office-type legends
+2.97	2083/0	Mohenjodaro	seal	dev	M267 M99 M72 M67 M8 M342 | M144
+	[OPENER: M267+M99] [FISH-NOUN: M72] [FISH-NOUN: M67] [TITLE: M8] [CLOSER(jar): M342] || [NOUN: M144]
+	opening formula + connective; fish-class name element; fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends / next line: unknown noun
+2.96	2574/0	Mohenjodaro	seal	dev	M264 M65 M59 M342 M1
+	[OPENER: M264] [FISH-NOUN: M65] [FISH-NOUN: M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opening formula; fish-class name element; fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+2.96	2835/2	Mohenjodaro	sealing	heldout	M67 M387 M194 M342 M176
+	[FISH-NOUN: M67] [NOUN: M387] [TITLE: M194] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; round-seal-favoured noun; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.96	4049/0	Harappa	seal	heldout	M65 M336 M89 M347 M342
+	[FISH-NOUN: M65] [TITLE-BLOCK: M336+M89] [TITLE: M347] [CLOSER(jar): M342]
+	fish-class name element; title/office block shared across unrelated names; title element before the jar; closing word (jar); marks title/office-type legends
+2.96	4373/1	Harappa	sealing	dev	M67 M72 M342 M388 M176
+	[FISH-NOUN: M67] [FISH-NOUN: M72] [CLOSER(jar): M342] [CLOSER: M388] [DOC-TYPE CLITIC: M176]
+	fish-class name element; fish-class name element; closing word (jar); marks title/office-type legends; closer-class/core noun (unknown meaning); document-type clitic (tablet/rod register)
+2.96	4448/1	Harappa	miniature tablet	dev	M173 M59 M347 M342 M176
+	[NOUN: M173] [FISH-NOUN: M59] [TITLE: M347] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	opener-class/core noun (unknown meaning); fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.96	4646/1	Harappa	sealing	dev	M65 M249 M162 M342 M176
+	[FISH-NOUN: M65] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.96	4661/1	Harappa	sealing	dev	M72 M182 M293 M342 M176
+	[FISH-NOUN: M72] [FORMULA: M182+M293] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	fish-class name element; recurrent fixed unit (dev); meaning unknown; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.96	7023/0	Lothal	seal	dev	M150 M123 M48 M342 M176
+	[OPENER: M150+M123] [TITLE: M48] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	opening formula + connective; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.96	7277/1	Lothal	sealing	heldout	M402 M99 M70 M8 M342
+	[NOUN: M402] [CONNECTIVE: M99] [FISH-NOUN: M70] [TITLE: M8] [CLOSER(jar): M342]
+	unknown noun; connective after opener (personal-seal grammar); fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends
+2.96	1006/0	Mohenjodaro	seal	dev	M233 M81 M99 M389 M65 M336 M89 M87 M155 M124 M169
+	[NOUN: M233] [NOUN: M81] [CONNECTIVE: M99] [NOUN: M389] [FISH-NOUN: M65] [TITLE-BLOCK: M336+M89] [NUMBER+NOUN: M87+M155] [NOUN: M124] [CLOSER: M169]
+	unknown noun; unknown noun; connective after opener (personal-seal grammar); unknown noun; fish-class name element; title/office block shared across unrelated names; number + noun (counted or name element); tall-stroke value 2; unknown noun; closer (copper-tablet / round-seal register)
+2.95	2237/0	Mohenjodaro	seal	heldout	M267 M343 M87 M155 M124 M169 M296 M342
+	[OPENER: M267] [NOUN: M343] [NUMBER+NOUN: M87+M155] [NOUN: M124] [NOUN: M169] [TITLE: M296] [CLOSER(jar): M342]
+	opening formula; handled-jar noun (distinct from the jar closer); number + noun (counted or name element); tall-stroke value 2; unknown noun; closer (copper-tablet / round-seal register); pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+2.93	1077/0	Mohenjodaro	seal	dev	M89 M381 M307 M81 M99 M67 M403 M87 M342
+	[NUMBER+NOUN: M89+M381] [NOUN: M307] [NOUN: M81] [CONNECTIVE: M99] [FISH-NOUN: M67] [NOUN: M403] [NUMBER+CLOSER: M87+M342]
+	number + noun (counted or name element); tall-stroke value 3; unknown noun; unknown noun; connective after opener (personal-seal grammar); fish-class name element; noun bound to M103 (3 as 2-over-1); number + closer-class word; tall-stroke value 2
+2.93	2326/0	Mohenjodaro	seal	dev	M391 M123 M65 M67 M296 M342
+	[OPENER: M391+M123] [FISH-NOUN: M65] [FISH-NOUN: M67] [TITLE: M296] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+2.93	2405/1	Mohenjodaro	seal	dev	M293 M123 M343 M65 M294 M342
+	[OPENER: M293+M123] [NOUN: M343] [FISH-NOUN: M65] [TITLE: M294] [CLOSER(jar): M342]
+	opening formula + connective; handled-jar noun (distinct from the jar closer); fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+2.93	2655/0	Mohenjodaro	seal	dev	M387 M72 M336 M89 M347 M342
+	[NOUN: M387] [FISH-NOUN: M72] [TITLE-BLOCK: M336+M89] [TITLE: M347] [CLOSER(jar): M342]
+	round-seal-favoured noun; fish-class name element; title/office block shared across unrelated names; title element before the jar; closing word (jar); marks title/office-type legends
+2.89	4104/0	Harappa	seal	dev	M293 M123 M345 M65 M67 M70 M249 M162 M342
+	[OPENER: M293+M123] [NOUN: M345] [FISH-NOUN: M65] [FISH-NOUN: M67] [FISH-NOUN: M70] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opening formula + connective; jar+3 strokes: medial name element; fish-class name element; fish-class name element; fish-class name element; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+2.87	1028/0	Mohenjodaro	seal	dev	M86 M381 M99 M48 M8 M342
+	[NUMBER+NOUN: M86+M381] [CONNECTIVE: M99] [NOUN: M48] [TITLE: M8] [CLOSER(jar): M342]
+	number + noun (counted or name element); tall-stroke value 1; connective after opener (personal-seal grammar); pre-jar title element? (unknown meaning); title element before the jar; closing word (jar); marks title/office-type legends
+2.87	1314/0	Mohenjodaro	seal	heldout	M216 M173 M99 M109 M59 M211
+	[OPENER: M216] [NOUN: M173] [CONNECTIVE: M99] [NUMBER-NAME: M109+M59] [CLOSER: M211]
+	opening formula; opener-class/core noun (unknown meaning); connective after opener (personal-seal grammar); 6 + fish compound (Parpola 'Pleiades' reading untested); closer of a title block
+2.87	1615/0	Mohenjodaro	sealing	dev	M389 M65 M249 M169 M342 M176
+	[NOUN: M389] [FISH-NOUN: M65] [TITLE-BLOCK: M249+M169] [CLOSER(jar): M342] [DOC-TYPE CLITIC: M176]
+	unknown noun; fish-class name element; title/office block; closing word (jar); marks title/office-type legends; document-type clitic (tablet/rod register)
+2.87	2141/0	Mohenjodaro	seal	dev	M202 M403 M99 M78 M347 M342
+	[OPENER: M202] [NOUN: M403] [CONNECTIVE: M99] [NOUN: M78] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula; noun bound to M103 (3 as 2-over-1); connective after opener (personal-seal grammar); unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+2.87	2489/0	Mohenjodaro	seal	dev	M25 M99 M87 M59 M294 M342
+	[NOUN: M25] [CONNECTIVE: M99] [NUMBER-NAME: M87+M59] [TITLE: M294] [CLOSER(jar): M342]
+	unknown noun; connective after opener (personal-seal grammar); number + fish-class name element; tall-stroke value 2; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+2.87	2660/0	Mohenjodaro	seal	dev	M267 M99 M249 M162 M342 M242
+	[OPENER: M267+M99] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342] [POST-CLOSER: M242]
+	opening formula + connective; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends; post-closer element (unknown meaning)
+2.87	4270/0	Harappa	seal	dev	M267 M99 M389 M70 M348 M342
+	[OPENER: M267+M99] [NOUN: M389] [FISH-NOUN: M70] [TITLE: M348] [CLOSER(jar): M342]
+	opening formula + connective; unknown noun; fish-class name element; pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+2.87	7215/2	Lothal	sealing	dev	M286 M99 M87 M249 M162 M342
+	[OPENER: M286+M99] [NUMERAL: M87] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opening formula + connective; number 2 qualifying the next unit; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+2.86	2537/0	Mohenjodaro	seal	dev	M293 M123 M344 M389 M171 M59 M67 M51 M130 M149 M342
+	[OPENER: M293+M123] [NOUN: M344] [NOUN: M389] [FORMULA: M171+M59] [FISH-NOUN: M67] [TITLE-BLOCK: M51+M130+M149] [CLOSER(jar): M342]
+	opening formula + connective; jar+2 strokes: medial name element; unknown noun; recurrent fixed unit (dev); meaning unknown; fish-class name element; title/office block (M51-M130-M149 + jar); closing word (jar); marks title/office-type legends
+2.86	1342/0	Mohenjodaro	seal	dev	M87 M186 M344 M70 M78 M347 M342
+	[NUMBER+NOUN: M87+M186] [NOUN: M344] [FISH-NOUN: M70] [NOUN: M78] [TITLE: M347] [CLOSER(jar): M342]
+	number + noun (counted or name element); tall-stroke value 2; jar+2 strokes: medial name element; fish-class name element; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+2.86	1456/0	Mohenjodaro	seal	dev	M267 M99 M72 M336 M89 M216 M254
+	[OPENER: M267+M99] [FISH-NOUN: M72] [TITLE-BLOCK: M336+M89] [NOUN: M216] [CLOSER: M254]
+	opening formula + connective; fish-class name element; title/office block shared across unrelated names; opener-class/core noun (unknown meaning); closer of M216/M222/M226 formulae
+2.86	2224/0	Mohenjodaro	seal	dev	M267 M99 M67 M153 M153 M347 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [NOUN: M153] [NOUN: M153] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula + connective; fish-class name element; unknown noun; unknown noun; title element before the jar; closing word (jar); marks title/office-type legends
+2.86	2307/0	Mohenjodaro	seal	dev	M391 M99 M53 M336 M89 M67 M66
+	[OPENER: M391+M99] [NOUN: M53] [TITLE-BLOCK: M336+M89] [FISH-NOUN: M67] [BRACKETED-FISH CLOSER: M66]
+	opening formula + connective; unknown noun; title/office block shared across unrelated names; fish-class name element; fish-class element in the closer slot (bracketed fish)
+2.86	2583/0	Mohenjodaro	seal	heldout	M267 M99 M65 M336 M89 M222 M254
+	[OPENER: M267+M99] [FISH-NOUN: M65] [TITLE-BLOCK: M336+M89] [NOUN: M222] [CLOSER: M254]
+	opening formula + connective; fish-class name element; title/office block shared across unrelated names; unknown noun; closer of M216/M222/M226 formulae
+2.86	2675/0	Mohenjodaro	seal	dev	M87 M19 M54 M99 M65 M59 M211
+	[NUMBER+NOUN: M87+M19] [NOUN: M54] [CONNECTIVE: M99] [FISH-NOUN: M65] [FISH-NOUN: M59] [CLOSER: M211]
+	number + noun (counted or name element); tall-stroke value 2; opener-class/core noun (unknown meaning); connective after opener (personal-seal grammar); fish-class name element; fish-class name element; closer of a title block
+2.86	2694/0	Mohenjodaro	seal	dev	M17 M303 M99 M65 M67 M342 M1
+	[NOUN: M17] [NOUN: M303] [CONNECTIVE: M99] [FISH-NOUN: M65] [FISH-NOUN: M67] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opener-class/core noun (unknown meaning); unknown noun; connective after opener (personal-seal grammar); fish-class name element; fish-class name element; closing word (jar); marks title/office-type legends; suffix after the closer
+2.86	4016/0	Harappa	seal	dev	M391 M97 M53 M67 M70 M327 M342
+	[OPENER: M391] [NUMBER+NOUN: M97+M53] [FISH-NOUN: M67] [FISH-NOUN: M70] [NOUN: M327] [CLOSER(jar): M342]
+	opening formula; number + noun (counted or name element); short-stroke value 1; fish-class name element; fish-class name element; unknown noun; closing word (jar); marks title/office-type legends
+2.86	4084/0	Harappa	seal	dev	M102 M287 M329 M343 M67 M8 M342
+	[NUMBER+NOUN: M102+M287] [NOUN: M329] [NOUN: M343] [FISH-NOUN: M67] [TITLE: M8] [CLOSER(jar): M342]
+	number + noun (counted or name element); short-stroke value 3; unknown noun; handled-jar noun (distinct from the jar closer); fish-class name element; title element before the jar; closing word (jar); marks title/office-type legends
+2.85	3110/0	Mohenjodaro	seal	dev	M186 M293 M99 M387 M336 M89 M347 M342
+	[OPENER: M186+M293+M99] [NOUN: M387] [TITLE-BLOCK: M336+M89] [TITLE: M347] [CLOSER(jar): M342]
+	opening formula + connective; round-seal-favoured noun; title/office block shared across unrelated names; title element before the jar; closing word (jar); marks title/office-type legends
+2.85	9822/0	West Asian finds	seal	dev	M173 M403 M123 M102 M59 M249 M162 M342
+	[NOUN: M173] [NOUN: M403] [CONNECTIVE: M123] [NUMBER-NAME: M102+M59] [TITLE-BLOCK: M249+M162] [CLOSER(jar): M342]
+	opener-class/core noun (unknown meaning); noun bound to M103 (3 as 2-over-1); connective after opener; number + fish-class name element; short-stroke value 3; title/office block (M249-M162/M169 + jar); closing word (jar); marks title/office-type legends
+2.85	1369/0	Mohenjodaro	seal	dev	M267 M99 M65 M403 M87 M342
+	[OPENER: M267+M99] [FISH-NOUN: M65] [NOUN: M403] [NUMBER+CLOSER: M87+M342]
+	opening formula + connective; fish-class name element; noun bound to M103 (3 as 2-over-1); number + closer-class word; tall-stroke value 2
+2.85	1629/1	Mohenjodaro	sealing	dev	M267 M99 M67 M403 M87 M342
+	[OPENER: M267+M99] [FISH-NOUN: M67] [NOUN: M403] [NUMBER+CLOSER: M87+M342]
+	opening formula + connective; fish-class name element; noun bound to M103 (3 as 2-over-1); number + closer-class word; tall-stroke value 2
+2.85	5084/0	Harappa	seal	dev	M267 M99 M72 M403 M87 M342
+	[OPENER: M267+M99] [FISH-NOUN: M72] [NOUN: M403] [NUMBER+CLOSER: M87+M342]
+	opening formula + connective; fish-class name element; noun bound to M103 (3 as 2-over-1); number + closer-class word; tall-stroke value 2
+2.84	7013/0	Lothal	seal	dev	M293 M123 M387 M87 M59 M294 M249 M169 M342
+	[OPENER: M293+M123] [NOUN: M387] [NUMBER-NAME: M87+M59] [NOUN: M294] [TITLE-BLOCK: M249+M169] [CLOSER(jar): M342]
+	opening formula + connective; round-seal-favoured noun; number + fish-class name element; tall-stroke value 2; pre-jar title element? (unknown meaning); title/office block; closing word (jar); marks title/office-type legends
+2.82	1019/0	Mohenjodaro	seal	dev	M267 M99 M104 M59 M211
+	[OPENER: M267+M99] [NUMBER-NAME: M104+M59] [CLOSER: M211]
+	opening formula + connective; number + fish-class name element; short-stroke value 4; closer of a title block
+2.82	1551/0	Mohenjodaro	seal	dev	M267 M99 M87 M59 M211
+	[OPENER: M267+M99] [NUMBER-NAME: M87+M59] [CLOSER: M211]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; closer of a title block
+2.82	2011/0	Mohenjodaro	seal	dev	M267 M99 M111 M347 M342
+	[OPENER: M267+M99] [NUMBER+NOUN: M111+M347] [CLOSER(jar): M342]
+	opening formula + connective; number + noun (counted or name element); short-stroke value 7; closing word (jar); marks title/office-type legends
+2.82	2450/0	Mohenjodaro	seal	dev	M267 M99 M98 M347 M342
+	[OPENER: M267+M99] [NUMBER+NOUN: M98+M347] [CLOSER(jar): M342]
+	opening formula + connective; number + noun (counted or name element); short-stroke value 1; closing word (jar); marks title/office-type legends
+2.82	2504/0	Mohenjodaro	seal	dev	M267 M99 M86 M72 M211
+	[OPENER: M267+M99] [NUMBER-NAME: M86+M72] [CLOSER: M211]
+	opening formula + connective; number + fish-class name element; tall-stroke value 1; closer of a title block
+2.82	4071/0	Harappa	seal	dev	M391 M99 M87 M59 M211
+	[OPENER: M391+M99] [NUMBER-NAME: M87+M59] [CLOSER: M211]
+	opening formula + connective; number + fish-class name element; tall-stroke value 2; closer of a title block
+2.80	1023/0	Mohenjodaro	seal	heldout	M267 M99 M53 M87 M59 M48 M294 M342
+	[OPENER: M267+M99] [NOUN: M53] [NUMBER-NAME: M87+M59] [TITLE: M48] [TITLE: M294] [CLOSER(jar): M342]
+	opening formula + connective; unknown noun; number + fish-class name element; tall-stroke value 2; pre-jar title element? (unknown meaning); pre-jar title element? (unknown meaning); closing word (jar); marks title/office-type legends
+2.80	2128/0	Mohenjodaro	seal	heldout	M17 M293 M54 M180 M99 M109 M59 M342 M1
+	[NOUN: M17] [NOUN: M293] [NOUN: M54] [NOUN: M180] [CONNECTIVE: M99] [NUMBER-NAME: M109+M59] [CLOSER(jar): M342] [POST-CLOSER: M1]
+	opener-class/core noun (unknown meaning); opening-formula word (with M123); opener-class/core noun (unknown meaning); unknown noun; connective after opener (personal-seal grammar); 6 + fish compound (Parpola 'Pleiades' reading untested); closing word (jar); marks title/office-type legends; suffix after the closer
+2.80	2532/0	Mohenjodaro	seal	dev	M109 M129 M123 M65 M59 M211
+	[NUMBER+NOUN: M109+M129] [CONNECTIVE: M123] [FISH-NOUN: M65] [FISH-NOUN: M59] [CLOSER: M211]
+	number + noun (counted or name element); short-stroke value 6; connective after opener; fish-class name element; fish-class name element; closer of a title block
+2.80	4081/0	Harappa	seal	dev	M121 M65 M336 M89 M389 M102 M287 M342
+	[NUMBER-NAME: M121+M65] [TITLE-BLOCK: M336+M89] [NOUN: M389] [NUMBER+NOUN: M102+M287] [CLOSER(jar): M342]
+	number + fish-class name element; short-stroke value 12; title/office block shared across unrelated names; unknown noun; number + noun (counted or name element); short-stroke value 3; closing word (jar); marks title/office-type legends
+2.78	1327/0	Mohenjodaro	seal	dev	M391 M99 M70 M211
+	[OPENER: M391+M99] [FISH-NOUN: M70] [CLOSER: M211]
+	opening formula + connective; fish-class name element; closer of a title block
+2.78	2132/0	Mohenjodaro	seal	dev	M267 M99 M70 M211
+	[OPENER: M267+M99] [FISH-NOUN: M70] [CLOSER: M211]
+	opening formula + connective; fish-class name element; closer of a title block
+2.78	2590/0	Mohenjodaro	seal	dev	M267 M99 M59 M211
+	[OPENER: M267+M99] [FISH-NOUN: M59] [CLOSER: M211]
+	opening formula + connective; fish-class name element; closer of a title block

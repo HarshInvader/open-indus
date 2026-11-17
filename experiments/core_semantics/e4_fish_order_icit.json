@@ -1,0 +1,21 @@
+{
+ "m77_dev_crude": {
+  "n": 432,
+  "fish_first": 250,
+  "share": 0.579,
+  "p_two_sided": 0.0012403748395894989
+ },
+ "m77_heldout_crude": {
+  "n": 97,
+  "fish_first": 62,
+  "share": 0.639,
+  "p_two_sided": 0.007959455422446686
+ },
+ "icit_new_sites": {
+  "n": 42,
+  "fish_first": 24,
+  "share": 0.571,
+  "p_two_sided": 0.44079906734259566,
+  "n_texts": 408
+ }
+}

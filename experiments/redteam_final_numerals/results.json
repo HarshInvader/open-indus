@@ -1,0 +1,204 @@
+{
+ "pool_sizes": {
+  "SQ": 1507,
+  "CIRC": 8,
+  "RECT": 350
+ },
+ "home_rates": {
+  "SQ": {
+   "numeral_final": 0.0457863304578633,
+   "count_final": 0.0225613802256138
+  },
+  "CIRC": {
+   "numeral_final": 0.25,
+   "count_final": 0.25
+  },
+  "RECT": {
+   "numeral_final": 0.06571428571428571,
+   "count_final": 0.04
+  }
+ },
+ "home_circ_final_signs": [
+  [
+   "W003",
+   1
+  ],
+  [
+   "W375",
+   1
+  ],
+  [
+   "W806",
+   1
+  ],
+  [
+   "W400",
+   1
+  ],
+  [
+   "W324",
+   1
+  ],
+  [
+   "W055",
+   1
+  ],
+  [
+   "W140",
+   1
+  ],
+  [
+   "W256",
+   1
+  ]
+ ],
+ "repro_ALL_SQ": {
+  "n": 40,
+  "obs": 9,
+  "null_mean": 2.084,
+  "p": 0.00025
+ },
+ "repro_SEC_SQ": {
+  "n": 20,
+  "obs": 6,
+  "null_mean": 0.727,
+  "p": 5e-05
+ },
+ "A1_round_vs_circ": {
+  "round": [
+   7,
+   23
+  ],
+  "circ": [
+   2,
+   8
+  ],
+  "fisher_p": 0.5755979578448989,
+  "power": 0.135
+ },
+ "A2_round_vs_rect_lenmatched": {
+  "n": 23,
+  "obs": 7,
+  "null_mean": 1.747,
+  "p": 0.0012
+ },
+ "A2b_round_vs_sq_lenmatched": {
+  "n": 23,
+  "obs": 7,
+  "null_mean": 0.977,
+  "p": 5e-05
+ },
+ "A_nonround_foreign_vs_sq": {
+  "n": 17,
+  "obs": 2,
+  "null_mean": 1.1,
+  "p": 0.30335
+ },
+ "round_ids_numeral_final": [
+  "UR-02",
+  "UR-04",
+  "UR-05",
+  "BAHRAIN-04",
+  "BAHRAIN-06",
+  "BAHRAIN-07",
+  "UNPROV-04"
+ ],
+ "B_ALL_m77": {
+  "n": 40,
+  "obs": 11,
+  "null_mean": 2.089,
+  "p": 0.0
+ },
+ "B_SEC_m77": {
+  "n": 20,
+  "obs": 7,
+  "null_mean": 0.72,
+  "p": 0.0
+ },
+ "B_disagreements": [
+  [
+   "SALUT-01",
+   false,
+   true,
+   "M104"
+  ],
+  [
+   "SHORT-01",
+   false,
+   true,
+   "M102"
+  ]
+ ],
+ "B_n_compared": 39,
+ "C_ALL_count": {
+  "n": 40,
+  "obs": 4,
+  "null_mean": 1.059,
+  "p": 0.0194
+ },
+ "C_SEC_count": {
+  "n": 20,
+  "obs": 4,
+  "null_mean": 0.436,
+  "p": 0.00055
+ },
+ "C_foreign_final_numeral_signs": [
+  [
+   "W002",
+   3
+  ],
+  [
+   "W033",
+   2
+  ],
+  [
+   "W001",
+   1
+  ],
+  [
+   "W004",
+   1
+  ],
+  [
+   "W031",
+   1
+  ],
+  [
+   "W055",
+   1
+  ]
+ ],
+ "C_home_final_share_of_sign": {
+  "W002": [
+   16,
+   488,
+   0.033
+  ],
+  "W033": [
+   7,
+   108,
+   0.065
+  ],
+  "W001": [
+   6,
+   86,
+   0.07
+  ],
+  "W004": [
+   2,
+   31,
+   0.065
+  ],
+  "W031": [
+   13,
+   114,
+   0.114
+  ],
+  "W055": [
+   1,
+   21,
+   0.048
+  ]
+ },
+ "planted_power_r0.3": 1.0
+}

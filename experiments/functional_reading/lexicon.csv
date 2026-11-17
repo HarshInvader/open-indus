@@ -1,0 +1,414 @@
+item,kind,dev_texts,roles,meaning_category,evidence,role_grade,meaning_grade,source
+M342,sign,724,CLOSER 1.00,closing word (jar); marks title/office-type legends,"final 72% dev, also in L-R texts (structure §1); texts with jar recur across cities, replicated (context Q3)",A,B,hand
+M99,sign,406,CONNECTIVE 1.00,connective after opener (personal-seal grammar),"91% medial, after M267/M391; never dropped (phonetic_grid §5); seal-enriched, absent from copper/tablets, replicated ICIT (context Q2)",A,B,hand
+M59,sign,223,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),B,C,hand
+M267,sign,206,OPENER 1.00,opening-formula word,initial 76% dev; K=3 opener class replicated held-out+ICIT (structure §3); M267-M99 top segment,A,none,hand
+M87,sign,170,NUMERAL(tall) 1.00,tall-stroke numeral 2,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M67,sign,160,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),B,C,hand
+M176,sign,145,POST-CLOSER CLITIC 1.00,document-type clitic (tablet/rod register),"optional post-closer (novel_methods exp1, phonetic_grid); rods/tablets enriched, seals 0.2x, replicated ICIT W400 (context Q2)",A,B,hand
+M211,sign,142,CLOSER 1.00,closer of a title block,final 80% dev; tall-stroke counted (F8); closes title block M59-M336-M89 (F28),A,B,hand
+M336,sign,141,NOUN 1.00,unknown noun,dev n=141 texts; initial 0.20 final 0.04,unassigned,none,dev-positional
+M123,sign,141,CONNECTIVE 0.83; NOUN 0.17,connective after opener,"92% medial; follows M293 42x, M150 32x in dev; HMM connective slot (novel_methods exp2)",B,none,hand
+M65,sign,130,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),B,C,hand
+M391,sign,127,OPENER 1.00,opening-formula word (seal register),"opener class (structure §3); seal-enriched, replicated ICIT W820 (context Q2)",A,B,hand
+M343,sign,126,NOUN 1.00,handled-jar noun (distinct from the jar closer),"mid-text 86%, contexts at null vs M342 (novel_methods exp3); square only (F19); smaller seals (F12, suggestive)",A,C,hand
+M162,sign,122,NOUN 0.56; CLOSER 0.44,closer-class word (counted by short strokes),final 42%; counted by short strokes (F2),B,none,hand
+M72,sign,121,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),B,C,hand
+M89,sign,117,NUMERAL(tall) 1.00,tall-stroke numeral 3,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M86,sign,106,NUMERAL(tall) 1.00,tall-stroke numeral 1,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M169,sign,102,CLOSER 0.59; NOUN 0.41,closer (copper-tablet / round-seal register),final 68%; copper-enriched replicated ICIT W407 (context Q2); round-seal closer (F19),A,B,hand
+M293,sign,96,OPENER 0.63; NOUN 0.37,opening-formula word (with M123),initial 57% dev; M293-M123(-M343) formula (structure §4),B,none,hand
+M249,sign,85,NOUN 1.00,unknown noun,dev n=85 texts; initial 0.20 final 0.13,unassigned,none,dev-positional
+M53,sign,83,NOUN 1.00,unknown noun,dev n=83 texts; initial 0.27 final 0.02,unassigned,none,dev-positional
+M102,sign,75,NUMERAL(short) 1.00,short-stroke numeral 3,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M17,sign,70,NOUN 0.73; OPENER 0.27,opener-class/core noun (unknown meaning),dev n=70 texts; initial 0.44 final 0.09,C,none,dev-positional
+M48,sign,69,NOUN 0.52; TITLE ELEMENT 0.48,pre-jar title element? (unknown meaning),dev n=69 texts; initial 0.26 final 0.06; before jar 0.60,C,none,dev-positional
+M347,sign,69,TITLE ELEMENT 1.00,title element before the jar,followed by M342 in 63/69 dev; M347-M342 top segment,B,C,hand
+M387,sign,68,NOUN 0.97; OPENER 0.03,round-seal-favoured noun,round seals 3x (F19),B,C,hand
+M402,sign,67,NOUN 1.00,unknown noun,dev n=67 texts; initial 0.10 final 0.29,unassigned,none,dev-positional
+M51,sign,67,NOUN 1.00,unknown noun,dev n=67 texts; initial 0.22 final 0.09,unassigned,none,dev-positional
+M171,sign,67,NOUN 1.00,unknown noun,dev n=67 texts; initial 0.19 final 0.06,unassigned,none,dev-positional
+M245,sign,65,NOUN 1.00,unknown noun,dev n=65 texts; initial 0.15 final 0.22,unassigned,none,dev-positional
+M389,sign,65,NOUN 1.00,unknown noun,dev n=65 texts; initial 0.36 final 0.03,unassigned,none,dev-positional
+M1,sign,65,POST-CLOSER CLITIC 0.90; CLOSER 0.10,suffix after the closer,after M342 in 52/66 dev; closer class,A,none,hand
+M8,sign,59,TITLE ELEMENT 1.00,title element before the jar,followed by M342 in 51/59 dev,B,C,hand
+M97,sign,55,NUMERAL(short) 1.00,short-stroke numeral 1,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M15,sign,55,CLOSER 1.00,closer-class word,final 70% dev,B,none,hand
+M70,sign,54,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),B,C,hand
+M216,sign,50,NOUN 0.67; OPENER 0.33,opener-class/core noun (unknown meaning),dev n=50 texts; initial 0.43 final 0.14,C,none,dev-positional
+M244,sign,49,NOUN 0.93; OPENER 0.07,opener-class/core noun (unknown meaning),dev n=49 texts; initial 0.40 final 0.06,C,none,dev-positional
+M98,sign,47,NUMERAL(short) 1.00,short-stroke numeral 1,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M403,sign,47,NOUN 1.00,noun bound to M103 (3 as 2-over-1),"M103->M403 27/28 (shaunmortal F7, replicated per site)",A,none,hand
+M287,sign,45,NOUN 1.00,unknown noun,dev n=45 texts; initial 0.24 final 0.10,unassigned,none,dev-positional
+M112,sign,44,NUMERAL(short) 1.00,short-stroke numeral 7,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M197,sign,43,NOUN 1.00,unknown noun,dev n=43 texts; initial 0.35 final 0.12,unassigned,none,dev-positional
+M254,sign,43,CLOSER 1.00,closer of M216/M222/M226 formulae,final 82%; follows M216/M222/M226,B,none,hand
+M230,sign,42,NOUN 1.00,unknown noun,dev n=42 texts; initial 0.07 final 0.10,unassigned,none,dev-positional
+M150,sign,41,OPENER 1.00,opening-formula word (with M123),initial 86% dev; M150-M123 segment,B,none,hand
+M149,sign,40,NOUN 0.59; TITLE ELEMENT 0.41,pre-jar title element? (unknown meaning),dev n=40 texts; initial 0.10 final 0.25; before jar 0.71,C,none,dev-positional
+M28,sign,40,NOUN 1.00,unknown noun,dev n=40 texts; initial 0.38 final 0.12,unassigned,none,dev-positional
+M124,sign,39,NOUN 1.00,unknown noun,dev n=39 texts; initial 0.21 final 0.08,unassigned,none,dev-positional
+M12,sign,39,CLOSER 0.84; POST-CLOSER CLITIC 0.16,closer/post-closer,final 88% dev; probable allograph M14 (structure §2c),B,none,hand
+M130,sign,37,NOUN 1.00,unknown noun,dev n=37 texts; initial 0.03 final 0.11,unassigned,none,dev-positional
+M175,sign,37,NOUN 1.00,unknown noun,dev n=37 texts; initial 0.35 final 0.08,unassigned,none,dev-positional
+M204,sign,35,NOUN 0.69; OPENER 0.31,opener-class/core noun (unknown meaning),dev n=35 texts; initial 0.40 final 0.03,C,none,dev-positional
+M121,sign,34,NUMERAL(short) 1.00,short-stroke numeral 12,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M104,sign,34,NUMERAL(short) 1.00,short-stroke numeral 4,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M180,sign,34,NOUN 1.00,unknown noun,dev n=34 texts; initial 0.12 final 0.15,unassigned,none,dev-positional
+M294,sign,34,TITLE ELEMENT 0.68; NOUN 0.32,pre-jar title element? (unknown meaning),dev n=34 texts; initial 0.09 final 0.03; before jar 0.59,C,none,dev-positional
+M328,sign,33,NOUN 0.62; UNIT/MEASURE 0.38,measure/commodity unit (docket formula),"counted only by tall strokes (shaunmortal F2/F5/F8); tablet reverses F15; seal-depleted, tablet-enriched (context Q2)",A,B,hand
+M155,sign,32,NOUN 1.00,unknown noun,dev n=32 texts; initial 0.12 final 0.03,unassigned,none,dev-positional
+M194,sign,31,TITLE ELEMENT 0.82; NOUN 0.18,pre-jar title element? (unknown meaning),dev n=31 texts; initial 0.12 final 0.06; before jar 0.52,C,none,dev-positional
+M375,sign,30,NOUN 1.00,unknown noun,dev n=30 texts; initial 0.21 final 0.26,unassigned,none,dev-positional
+M252,sign,29,NOUN 1.00,unknown noun,dev n=29 texts; initial 0.07 final 0.37,unassigned,none,dev-positional
+M341,sign,29,NOUN 1.00,unknown noun,dev n=29 texts; initial 0.34 final 0.03,unassigned,none,dev-positional
+M327,sign,28,NOUN 1.00,unknown noun,dev n=28 texts; initial 0.29 final 0.00,unassigned,none,dev-positional
+M307,sign,28,NOUN 1.00,unknown noun,dev n=28 texts; initial 0.25 final 0.21,unassigned,none,dev-positional
+M344,sign,27,NOUN 1.00,jar+2 strokes: medial name element,mid-text (F16); not a jar variant (novel_methods exp3),A,none,hand
+M127,sign,25,NOUN 1.00,unknown noun,dev n=25 texts; initial 0.15 final 0.04,unassigned,none,dev-positional
+M345,sign,25,NOUN 1.00,jar+3 strokes: medial name element,mid-text (F16); not a jar variant (novel_methods exp3),A,none,hand
+M186,sign,25,NOUN 0.64; OPENER 0.36,opener-class/core noun (unknown meaning),dev n=25 texts; initial 0.44 final 0.08,C,none,dev-positional
+M182,sign,25,NOUN 1.00,unknown noun,dev n=25 texts; initial 0.32 final 0.08,unassigned,none,dev-positional
+M106,sign,23,NUMERAL(short) 1.00,short-stroke numeral 5,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M296,sign,22,TITLE ELEMENT 0.93; NOUN 0.07,pre-jar title element? (unknown meaning),dev n=22 texts; initial 0.09 final 0.05; before jar 0.90,C,none,dev-positional
+M284,sign,22,NOUN 0.53; OPENER 0.47,opener-class/core noun (unknown meaning),dev n=22 texts; initial 0.55 final 0.23,C,none,dev-positional
+M25,sign,21,NOUN 1.00,unknown noun,dev n=21 texts; initial 0.24 final 0.05,unassigned,none,dev-positional
+M373,sign,21,NOUN 1.00,unknown noun,dev n=21 texts; initial 0.35 final 0.27,unassigned,none,dev-positional
+M109,sign,19,NUMERAL(short) 1.00,short-stroke numeral 6,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M100,sign,19,NUMERAL(short) 0.74; CONNECTIVE 0.26,short-2 variant (not M99),look-alike but distinct from M99 (structure §2c),C,none,hand
+M173,sign,19,NOUN 0.95; OPENER 0.05,opener-class/core noun (unknown meaning),dev n=19 texts; initial 0.47 final 0.16,C,none,dev-positional
+M326,sign,19,NOUN 0.71; TITLE ELEMENT 0.29,pre-jar title element? (unknown meaning),dev n=19 texts; initial 0.20 final 0.05; before jar 0.60,C,none,dev-positional
+M135,sign,19,TITLE ELEMENT 0.59; NOUN 0.41,pre-jar title element? (unknown meaning),dev n=19 texts; initial 0.32 final 0.00; before jar 0.68,C,none,dev-positional
+M233,sign,18,NOUN 1.00,unknown noun,dev n=18 texts; initial 0.11 final 0.16,unassigned,none,dev-positional
+M60,sign,18,BRACKETED-FISH CLOSER 1.00; FISH-CLASS NOUN 0.00,fish-class element in the closer slot (bracketed fish),final 60% vs 5% for plain fish; replicated held-out p=0.03 (novel_methods T6),B,C,hand
+M242,sign,18,POST-CLOSER CLITIC 0.59; CLOSER 0.41,post-closer element (unknown meaning),dev n=18 texts; initial 0.11 final 0.61; after closer 0.82,C,none,dev-positional
+M319,sign,17,NOUN 1.00,unknown noun,dev n=17 texts; initial 0.29 final 0.24,unassigned,none,dev-positional
+M407,sign,16,NOUN 1.00,copper-tablet register element,"copper 9 vs 0.8 exp, replicated ICIT W845 (context Q2)",B,B,hand
+M178,sign,16,NOUN 1.00,unknown noun,dev n=16 texts; initial 0.25 final 0.00,unassigned,none,dev-positional
+M261,sign,16,NOUN 1.00,unknown noun,dev n=16 texts; initial 0.31 final 0.12,unassigned,none,dev-positional
+M348,sign,15,TITLE ELEMENT 0.98; NOUN 0.02,pre-jar title element? (unknown meaning),dev n=15 texts; initial 0.07 final 0.07; before jar 1.00,C,none,dev-positional
+M139,sign,14,POST-CLOSER CLITIC 0.85; CLOSER 0.15,post-closer element (unknown meaning),dev n=14 texts; initial 0.07 final 0.93; after closer 0.77,C,none,dev-positional
+M253,sign,14,NOUN 0.87; OPENER 0.13,opener-class/core noun (unknown meaning),dev n=14 texts; initial 0.43 final 0.00,C,none,dev-positional
+M209,sign,14,NOUN 1.00,unknown noun,dev n=14 texts; initial 0.29 final 0.14,unassigned,none,dev-positional
+M190,sign,14,UNIT/MEASURE 1.00,measure word of the short-stroke system?,preceded by a numeral 95% (shaunmortal F2); 12/14 after M102 in dev,B,C,hand
+M81,sign,13,NOUN 1.00,unknown noun,dev n=13 texts; initial 0.00 final 0.23,unassigned,none,dev-positional
+M54,sign,13,NOUN 0.74; OPENER 0.26,opener-class/core noun (unknown meaning),dev n=13 texts; initial 0.47 final 0.07,C,none,dev-positional
+M96,sign,13,NUMERAL(tall) 1.00,tall-stroke numeral 5,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M18,sign,13,NOUN 0.86; OPENER 0.14,copper-tablet register element,"copper-enriched, replicated ICIT W095 (context Q2)",B,B,hand
+M205,sign,13,OPENER 1.00,opener-class word (unknown meaning),dev n=13 texts; initial 0.69 final 0.00,C,none,dev-positional
+M153,sign,12,NOUN 1.00,unknown noun,dev n=12 texts; initial 0.35 final 0.00,unassigned,none,dev-positional
+M409,sign,12,NOUN 0.96; OPENER 0.04,opener-class/core noun (unknown meaning),dev n=12 texts; initial 0.50 final 0.00,C,none,dev-positional
+M125,sign,12,NOUN 1.00,unknown noun,dev n=12 texts; initial 0.08 final 0.00,unassigned,none,dev-positional
+M76,sign,11,OPENER 1.00,opener-class word (unknown meaning),dev n=11 texts; initial 0.73 final 0.00,C,none,dev-positional
+M381,sign,11,NOUN 1.00,unknown noun,dev n=11 texts; initial 0.00 final 0.09,unassigned,none,dev-positional
+M358,sign,11,TITLE ELEMENT 0.99; NOUN 0.01,pre-jar title element? (unknown meaning),dev n=11 texts; initial 0.00 final 0.00; before jar 1.00,C,none,dev-positional
+M224,sign,11,POST-CLOSER CLITIC 0.50; CLOSER 0.50,post-closer element (unknown meaning),dev n=11 texts; initial 0.00 final 0.82; after closer 0.50,C,none,dev-positional
+M214,sign,11,NOUN 1.00,unknown noun,dev n=11 texts; initial 0.36 final 0.09,unassigned,none,dev-positional
+M226,sign,11,NOUN 1.00,unknown noun,dev n=11 texts; initial 0.18 final 0.00,unassigned,none,dev-positional
+M75,sign,10,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M400,sign,10,NOUN 1.00,unknown noun,dev n=10 texts; initial 0.30 final 0.10,unassigned,none,dev-positional
+M325,sign,10,NOUN 0.98; OPENER 0.02,opener-class/core noun (unknown meaning),dev n=10 texts; initial 0.40 final 0.00,C,none,dev-positional
+M47,sign,10,NOUN 1.00,unknown noun,dev n=10 texts; initial 0.10 final 0.20,unassigned,none,dev-positional
+M66,sign,10,BRACKETED-FISH CLOSER 0.59; FISH-CLASS NOUN 0.41,fish-class element in the closer slot (bracketed fish),final 60% vs 5% for plain fish; replicated held-out p=0.03 (novel_methods T6),B,C,hand
+M302,sign,10,NOUN 1.00,unknown noun,dev n=10 texts; initial 0.20 final 0.10,unassigned,none,dev-positional
+M264,sign,10,OPENER 1.00,opener-class word (unknown meaning),dev n=10 texts; initial 0.90 final 0.00,C,none,dev-positional
+M9,sign,9,NOUN 0.81; TITLE ELEMENT 0.19,pre-jar title element? (unknown meaning),dev n=9 texts; initial 0.11 final 0.11; before jar 0.62,C,none,dev-positional
+M397,sign,9,OPENER 1.00,opener-class word (unknown meaning),dev n=9 texts; initial 0.67 final 0.00,C,none,dev-positional
+M222,sign,9,NOUN 1.00,unknown noun,dev n=9 texts; initial 0.11 final 0.00,unassigned,none,dev-positional
+M32,sign,9,NOUN 1.00,unknown noun,dev n=9 texts; initial 0.22 final 0.22,unassigned,none,dev-positional
+M103,sign,9,NUMERAL(short) 1.00,"numeral 3 (2-over-1 layout), bound to M403",M103->M403 fixed compound (F7),A,B,hand
+M41,sign,9,OPENER 0.53; NOUN 0.47,opener-class/core noun (unknown meaning),dev n=9 texts; initial 0.56 final 0.00,C,none,dev-positional
+M303,sign,9,NOUN 1.00,unknown noun,dev n=9 texts; initial 0.33 final 0.11,unassigned,none,dev-positional
+M136,sign,9,NOUN 1.00,unknown noun,dev n=9 texts; initial 0.11 final 0.00,unassigned,none,dev-positional
+M192,sign,9,NOUN 1.00,unknown noun,dev n=9 texts; initial 0.22 final 0.11,unassigned,none,dev-positional
+M193,sign,9,TITLE ELEMENT 0.84; NOUN 0.16,pre-jar title element? (unknown meaning),dev n=9 texts; initial 0.11 final 0.00; before jar 0.78,C,none,dev-positional
+M219,sign,8,OPENER 1.00,opener-class word (unknown meaning),dev n=8 texts; initial 0.62 final 0.00,C,none,dev-positional
+M14,sign,8,CLOSER 1.00,closer-class word (unknown meaning),dev n=8 texts; initial 0.00 final 0.88,C,none,dev-positional
+M2,sign,8,NOUN 1.00,unknown noun,dev n=8 texts; initial 0.25 final 0.00,unassigned,none,dev-positional
+M286,sign,8,OPENER 1.00,opener-class word (unknown meaning),dev n=8 texts; initial 0.88 final 0.00,C,none,dev-positional
+M215,sign,8,OPENER 1.00,opener-class word (unknown meaning),dev n=8 texts; initial 1.00 final 0.00,C,none,dev-positional
+M137,sign,8,NOUN 1.00,unknown noun,dev n=8 texts; initial 0.25 final 0.38,unassigned,none,dev-positional
+M301,sign,8,NOUN 1.00,unknown noun,dev n=8 texts; initial 0.12 final 0.25,unassigned,none,dev-positional
+M84,sign,8,OPENER 1.00,opener-class word (unknown meaning),dev n=8 texts; initial 0.62 final 0.00,C,none,dev-positional
+M386,sign,8,NOUN 0.82; OPENER 0.18,opener-class/core noun (unknown meaning),dev n=8 texts; initial 0.50 final 0.12,C,none,dev-positional
+M406,sign,8,NOUN 1.00,unknown noun,dev n=8 texts; initial 0.25 final 0.12,unassigned,none,dev-positional
+M177,sign,8,OPENER 1.00,opener-class word (unknown meaning),dev n=8 texts; initial 0.62 final 0.12,C,none,dev-positional
+M93,sign,8,NUMERAL(tall) 1.00,tall-stroke numeral 3,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M393,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.00 final 0.29,unassigned,none,dev-positional
+M19,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.00 final 0.14,unassigned,none,dev-positional
+M210,sign,7,NOUN 0.74; OPENER 0.26,opener-class/core noun (unknown meaning),dev n=7 texts; initial 0.43 final 0.14,C,none,dev-positional
+M78,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.14 final 0.00,unassigned,none,dev-positional
+M128,sign,7,TITLE ELEMENT 0.71; NOUN 0.29,pre-jar title element? (unknown meaning),dev n=7 texts; initial 0.00 final 0.00; before jar 0.86,C,none,dev-positional
+M330,sign,7,NOUN 0.75; OPENER 0.25,opener-class/core noun (unknown meaning),dev n=7 texts; initial 0.57 final 0.00,C,none,dev-positional
+M202,sign,7,OPENER 1.00,opener-class word (unknown meaning),dev n=7 texts; initial 0.71 final 0.14,C,none,dev-positional
+M56,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.29 final 0.14,unassigned,none,dev-positional
+M323,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.30 final 0.00,unassigned,none,dev-positional
+M68,sign,7,BRACKETED-FISH CLOSER 0.99; FISH-CLASS NOUN 0.01,fish-class element in the closer slot (bracketed fish),final 60% vs 5% for plain fish; replicated held-out p=0.03 (novel_methods T6),B,C,hand
+M379,sign,7,NOUN 0.69; OPENER 0.31,opener-class/core noun (unknown meaning),dev n=7 texts; initial 0.57 final 0.00,C,none,dev-positional
+M134,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.14 final 0.00,unassigned,none,dev-positional
+M277,sign,7,NOUN 1.00,unknown noun,dev n=7 texts; initial 0.00 final 0.43,unassigned,none,dev-positional
+M415,sign,6,NOUN 0.89; OPENER 0.11,opener-class/core noun (unknown meaning),dev n=6 texts; initial 0.50 final 0.33,C,none,dev-positional
+M95,sign,6,NUMERAL(tall) 1.00,tall-stroke numeral 4,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M250,sign,6,NOUN 1.00,unknown noun,dev n=6 texts; initial 0.33 final 0.17,unassigned,none,dev-positional
+M58,sign,6,NOUN 1.00,unknown noun,dev n=6 texts; initial 0.00 final 0.00,unassigned,none,dev-positional
+M160,sign,6,NOUN 1.00,unknown noun,dev n=6 texts; initial 0.33 final 0.00,unassigned,none,dev-positional
+M295,sign,6,OPENER 1.00,opener-class word (unknown meaning),dev n=6 texts; initial 1.00 final 0.00,C,none,dev-positional
+M398,sign,6,OPENER 1.00,opener-class word (unknown meaning),dev n=6 texts; initial 0.67 final 0.00,C,none,dev-positional
+M217,sign,6,NOUN 1.00,unknown noun,dev n=6 texts; initial 0.17 final 0.17,unassigned,none,dev-positional
+M174,sign,6,NOUN 1.00,unknown noun,dev n=6 texts; initial 0.17 final 0.17,unassigned,none,dev-positional
+M367,sign,5,NOUN 1.00,unknown noun,dev n=5 texts; initial 0.00 final 0.20,unassigned,none,dev-positional
+M114,sign,5,NUMERAL(short) 1.00,short-stroke numeral 8,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M50,sign,5,OPENER 1.00,opener-class word (unknown meaning),dev n=5 texts; initial 0.60 final 0.00,C,none,dev-positional
+M331,sign,5,OPENER 1.00,opener-class word (unknown meaning),dev n=5 texts; initial 0.60 final 0.00,C,none,dev-positional
+M395,sign,5,NOUN 0.51; OPENER 0.49,opener-class/core noun (unknown meaning),dev n=5 texts; initial 0.40 final 0.20,C,none,dev-positional
+M247,sign,5,TITLE ELEMENT 0.99; NOUN 0.01,pre-jar title element? (unknown meaning),dev n=5 texts; initial 0.20 final 0.00; before jar 0.80,C,none,dev-positional
+M329,sign,5,NOUN 1.00,unknown noun,dev n=5 texts; initial 0.20 final 0.00,unassigned,none,dev-positional
+M73,sign,5,BRACKETED-FISH CLOSER 0.98; FISH-CLASS NOUN 0.02,fish-class element in the closer slot (bracketed fish),final 60% vs 5% for plain fish; replicated held-out p=0.03 (novel_methods T6),B,C,hand
+M388,sign,5,CLOSER 0.99; NOUN 0.01,closer-class/core noun (unknown meaning),dev n=5 texts; initial 0.00 final 0.60,C,none,dev-positional
+M234,sign,5,OPENER 1.00,opener-class word (unknown meaning),dev n=5 texts; initial 0.80 final 0.00,C,none,dev-positional
+M38,sign,5,NOUN 1.00,unknown noun,dev n=5 texts; initial 0.00 final 0.20,unassigned,none,dev-positional
+M62,sign,5,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M3,sign,5,NOUN 0.72; OPENER 0.28,opener-class/core noun (unknown meaning),dev n=5 texts; initial 0.40 final 0.00,C,none,dev-positional
+M113,sign,5,NOUN 1.00,unknown noun,dev n=5 texts; initial 0.00 final 0.20,unassigned,none,dev-positional
+M201,sign,5,OPENER 1.00,opener-class word (unknown meaning),dev n=5 texts; initial 1.00 final 0.00,C,none,dev-positional
+M404,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M223,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M163,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M289,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M94,sign,4,NUMERAL(tall) 1.00,tall-stroke numeral 3,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M374,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M71,sign,4,BRACKETED-FISH CLOSER 0.64; FISH-CLASS NOUN 0.36,fish-class element in the closer slot (bracketed fish),final 60% vs 5% for plain fish; replicated held-out p=0.03 (novel_methods T6),B,C,hand
+M107,sign,4,NUMERAL(short) 1.00,short-stroke numeral 5,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M412,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M57,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M212,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M167,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M229,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M206,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M334,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M126,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M80,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M7,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M322,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M380,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M384,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M228,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M225,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M40,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M258,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M268,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M237,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M263,sign,4,NOUN 1.00,unknown noun,rare in dev (4 texts),unassigned,none,default
+M158,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M108,sign,3,NUMERAL(short) 1.00,short-stroke numeral 6,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M282,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M83,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M129,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M132,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M240,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M110,sign,3,NUMERAL(short) 1.00,short-stroke numeral 7,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M195,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M161,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M184,sign,3,NOUN 1.00,emblem logogram (copper one-sign face)?,context Q2b,C,C,hand
+M390,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M298,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M198,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M6,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M256,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M332,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M272,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M321,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M283,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M364,sign,3,NOUN 1.00,unknown noun,rare in dev (3 texts),unassigned,none,default
+M55,sign,2,NOUN 0.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M189,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M27,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M297,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M311,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M257,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M371,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M5,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M4,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M49,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M35,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M120,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M10,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M159,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M238,sign,2,NOUN 0.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M376,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M187,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M199,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M338,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M394,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M259,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M146,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M183,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M111,sign,2,NUMERAL(short) 1.00,short-stroke numeral 7,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M417,sign,2,NOUN 0.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M292,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M29,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M213,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M36,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M143,sign,2,NOUN 0.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M305,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M90,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M203,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M333,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M64,sign,2,FISH-CLASS NOUN 0.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M290,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M43,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M45,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M359,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M138,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M188,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M116,sign,2,NUMERAL(short) 1.00,short-stroke numeral 9,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M141,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M335,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M77,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M22,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M280,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M276,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M304,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M365,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M313,sign,2,NOUN 1.00,unknown noun,rare in dev (2 texts),unassigned,none,default
+M34,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M82,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M266,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M349,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M164,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M31,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M79,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M316,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M355,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M39,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M37,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M262,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M61,sign,1,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M165,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M140,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M74,sign,1,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M179,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M360,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M239,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M156,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M318,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M63,sign,1,FISH-CLASS NOUN 1.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M101,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M131,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M88,sign,1,NUMERAL(tall) 0.00,tall-stroke numeral 3,tall strokes count M328/M211/M60 only (F2/F8); side-2 docket formula (F15); values 2-3 favoured,A,B,hand
+M288,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M144,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M377,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M147,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M220,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M23,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M392,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M235,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M243,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M354,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M306,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M26,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M152,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M20,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M310,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M231,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M172,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M350,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M285,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M191,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M30,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M69,sign,1,FISH-CLASS NOUN 0.00,fish-class name element,fish paradigm: M65/67/70/72 swap with M59 in identical frames 10 vs 2.4 (novel_methods exp1/3),C,C,hand
+M52,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M16,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M151,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M399,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M91,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M260,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M352,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M363,sign,1,NOUN 1.00,emblem logogram (copper one-sign face)?,"context Q2b, n=6",C,C,hand
+M405,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M315,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M309,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M145,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M218,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M346,sign,1,NOUN 1.00,emblem logogram (copper one-sign face)?,context Q2b,C,C,hand
+M366,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M300,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M317,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M119,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M378,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M170,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M382,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M281,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M385,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M413,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M241,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M42,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M44,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M275,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M142,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M410,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M118,sign,1,NUMERAL(short) 0.00,short-stroke numeral 10,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M115,sign,1,NUMERAL(short) 0.00,short-stroke numeral 9,"two stroke systems with complementary heads (shaunmortal F2/F5/F8, ICIT replicated); numeral precedes head",A,B,hand
+M221,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M270,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M411,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M369,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M401,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M351,sign,1,NOUN 0.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M314,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M320,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M339,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M361,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M299,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M278,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M232,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M356,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M370,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M308,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M324,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M269,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M236,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M340,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M166,sign,1,NOUN 1.00,unknown noun,rare in dev (1 texts),unassigned,none,default
+M267-M99,sequence:FORMULA,158,,recurrent fixed unit; meaning unknown,"dev bigram n=158, conditional share >=0.5",B,none,dev
+M336-M89,sequence:TITLE-BLOCK,79,,title/office block shared across unrelated names,M59-M336-M89+M211 ends 21 unique names at 5 sites (shaunmortal F28),A,B,hand (evidence from other teams)
+M347-M342,sequence:FORMULA,63,,recurrent fixed unit; meaning unknown,"dev bigram n=63, conditional share >=0.5",B,none,dev
+M342-M176,sequence:REGISTER,57,,tablet/rod ending (jar + document-type clitic),rods 9 vs 0.5; ICIT tablets 99 vs 59 (context Q2),A,B,hand (evidence from other teams)
+M342-M1,sequence:FORMULA,52,,recurrent fixed unit; meaning unknown,"dev bigram n=52, conditional share >=0.5",B,none,dev
+M8-M342,sequence:FORMULA,51,,recurrent fixed unit; meaning unknown,"dev bigram n=51, conditional share >=0.5",B,none,dev
+M171-M59,sequence:FORMULA,39,,recurrent fixed unit; meaning unknown,"dev bigram n=39, conditional share >=0.5",B,none,dev
+M48-M342,sequence:FORMULA,39,,recurrent fixed unit; meaning unknown,"dev bigram n=39, conditional share >=0.5",B,none,dev
+M51-M130,sequence:TITLE-BLOCK,34,,title/office block (M51-M130-M149 + jar),"10 unique names incl. Kalibangan, Rakhigarhi (F28)",A,B,hand (evidence from other teams)
+M150-M123,sequence:FORMULA,32,,recurrent fixed unit; meaning unknown,"dev bigram n=32, conditional share >=0.5",B,none,dev
+M249-M162,sequence:TITLE-BLOCK,30,,title/office block (M249-M162/M169 + jar),M249-M162-M342 / M249-M169-M342 segments (structure §4),B,C,hand (evidence from other teams)
+M130-M149,sequence:FORMULA,22,,recurrent fixed unit; meaning unknown,"dev bigram n=22, conditional share >=0.5",B,none,dev
+M249-M169,sequence:TITLE-BLOCK,21,,title/office block,structure §4,B,C,hand (evidence from other teams)
+M294-M342,sequence:FORMULA,20,,recurrent fixed unit; meaning unknown,"dev bigram n=20, conditional share >=0.5",B,none,dev
+M149-M342,sequence:FORMULA,20,,recurrent fixed unit; meaning unknown,"dev bigram n=20, conditional share >=0.5",B,none,dev
+M296-M342,sequence:FORMULA,19,,recurrent fixed unit; meaning unknown,"dev bigram n=19, conditional share >=0.5",B,none,dev
+M182-M293,sequence:FORMULA,18,,recurrent fixed unit; meaning unknown,"dev bigram n=18, conditional share >=0.5",B,none,dev
+M348-M342,sequence:FORMULA,14,,recurrent fixed unit; meaning unknown,"dev bigram n=14, conditional share >=0.5",B,none,dev
+M135-M342,sequence:FORMULA,13,,recurrent fixed unit; meaning unknown,"dev bigram n=13, conditional share >=0.5",B,none,dev
+M112-M197,sequence:NUMBER-NAME,13,,7(4-over-3)+M197,F7,B,none,hand (evidence from other teams)
+M112-M194,sequence:NUMBER-NAME,12,,"7(4-over-3)+M194, copper-tablet formula",F7 (copper 10/10),B,B,hand (evidence from other teams)
+M102-M190,sequence:FORMULA,12,,recurrent fixed unit; meaning unknown,"dev bigram n=12, conditional share >=0.5",B,none,dev
+M178-M389,sequence:FORMULA,12,,recurrent fixed unit; meaning unknown,"dev bigram n=12, conditional share >=0.5",B,none,dev
+M407-M169,sequence:REGISTER,11,,copper-tablet closing formula,context Q2,B,B,hand (evidence from other teams)
+M358-M342,sequence:FORMULA,11,,recurrent fixed unit; meaning unknown,"dev bigram n=11, conditional share >=0.5",B,none,dev
+M87-M60,sequence:FORMULA,10,,recurrent fixed unit; meaning unknown,"dev bigram n=10, conditional share >=0.5",B,none,dev
+M409-M96,sequence:FORMULA,10,,recurrent fixed unit; meaning unknown,"dev bigram n=10, conditional share >=0.5",B,none,dev
+M253-M230,sequence:FORMULA,10,,recurrent fixed unit; meaning unknown,"dev bigram n=10, conditional share >=0.5",B,none,dev
+M342-M139,sequence:FORMULA,10,,recurrent fixed unit; meaning unknown,"dev bigram n=10, conditional share >=0.5",B,none,dev
+M209-M343,sequence:FORMULA,9,,recurrent fixed unit; meaning unknown,"dev bigram n=9, conditional share >=0.5",B,none,dev
+M125-M59,sequence:FORMULA,9,,recurrent fixed unit; meaning unknown,"dev bigram n=9, conditional share >=0.5",B,none,dev
+M222-M254,sequence:FORMULA,9,,recurrent fixed unit; meaning unknown,"dev bigram n=9, conditional share >=0.5",B,none,dev
+M109-M59,sequence:NUMBER-NAME,8,,6 + fish compound (Parpola 'Pleiades' reading untested),"12/28 six-stroke tokens followed by fish vs 13% base, p=1e-4, held-out 4/7 (language A2)",A,C,hand (evidence from other teams)
+M103-M403,sequence:NUMBER-NAME,8,,fixed numeral compound 3(2-over-1)+M403,F7,A,none,hand (evidence from other teams)
+M406-M162,sequence:FORMULA,7,,recurrent fixed unit; meaning unknown,"dev bigram n=7, conditional share >=0.5",B,none,dev
+M226-M254,sequence:FORMULA,7,,recurrent fixed unit; meaning unknown,"dev bigram n=7, conditional share >=0.5",B,none,dev
+M193-M342,sequence:FORMULA,7,,recurrent fixed unit; meaning unknown,"dev bigram n=7, conditional share >=0.5",B,none,dev
+M128-M342,sequence:FORMULA,6,,recurrent fixed unit; meaning unknown,"dev bigram n=6, conditional share >=0.5",B,none,dev
+M252-M97,sequence:REGISTER,6,,copper-tablet formula,"context Q2, replicated",B,B,hand (evidence from other teams)
+M97-M25,sequence:REGISTER,3,,copper-tablet formula,"context Q2, replicated ICIT W001-W142",B,B,hand (evidence from other teams)
+M249-M161,sequence:TITLE-BLOCK,0,,"title/office block (M59-M249-M161 + jar), reaches Kish",F28,B,B,hand (evidence from other teams)

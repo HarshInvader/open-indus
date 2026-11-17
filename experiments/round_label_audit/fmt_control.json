@@ -1,0 +1,109 @@
+{
+ "home_circular_vs_home_seals": {
+  "n": 9,
+  "bits": 6.865574795204454,
+  "native_matched": 5.021689780350009,
+  "diff": 1.843885014854445,
+  "ci95": [
+   1.0432063520709782,
+   2.7427949506550986
+  ],
+  "p": 9.999000099990002e-05
+ },
+ "foreign_round_vs_home_seals": {
+  "n": 18,
+  "bits": 7.23683004084995,
+  "native_matched": 5.024005482484898,
+  "diff": 2.2128245583650523,
+  "ci95": [
+   1.65955153826072,
+   2.7313357476601645
+  ],
+  "p": 9.999000099990002e-05
+ },
+ "foreign_round_minus_home_circular": {
+  "n_foreign": 18,
+  "n_home": 9,
+  "foreign": 7.23683004084995,
+  "home": 6.865574795204454,
+  "diff": 0.3712552456454965,
+  "p_two_sided": 0.47957602119894005
+ },
+ "gain_foreign_round": {
+  "n": 18,
+  "bigram_gain": -0.24590771373806491
+ },
+ "gain_home_circular": {
+  "n": 9,
+  "bigram_gain": 0.18083510962325772
+ },
+ "gain_home_square_rect": {
+  "n": 1835,
+  "bigram_gain": 1.358552903388829
+ },
+ "home_circular_texts": [
+  {
+   "id": "114.1",
+   "site": "Chanhu-daro",
+   "type": "SEAL:C",
+   "seq": "W632 W390 W400 W375",
+   "bits": 6.52
+  },
+  {
+   "id": "1388.1",
+   "site": "Harappa",
+   "type": "SEAL:CY",
+   "seq": "W741 W390 W741 W031 W705 W033 W368",
+   "bits": 5.24
+  },
+  {
+   "id": "2419.2",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "seq": "W001 W140",
+   "bits": 6.34
+  },
+  {
+   "id": "2911.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "seq": "W832 W256",
+   "bits": 5.33
+  },
+  {
+   "id": "2912.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "seq": "W016 W405 W001 W255 W324",
+   "bits": 7.94
+  },
+  {
+   "id": "2977.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "seq": "W700 W003 W692 W900 W003 W140 W592 W400",
+   "bits": 6.82
+  },
+  {
+   "id": "3668.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "seq": "W820 W060 W002 W832 W140 W592 W055",
+   "bits": 6.44
+  },
+  {
+   "id": "4247.1",
+   "site": "Dholavira",
+   "type": "SEAL:C",
+   "seq": "W255 W368 W001 W091 W806",
+   "bits": 7.31
+  },
+  {
+   "id": "5468.1",
+   "site": "Rakhigarhi",
+   "type": "SEAL:CY",
+   "seq": "W688 W317 W002 W361",
+   "bits": 9.84
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+sequence,M77_distinct,ICIT_distinct,examples
+T3 + T3,6,9,M77 Mohenjodaro: M89 M89 ; M77 Mohenjodaro: M89 M89 ; M77 Mohenjodaro: M89 M89
+S1 + S3,5,9,M77 Mohenjodaro: M97 M102 ; M77 Mohenjodaro: M97 M102 ; M77 Mohenjodaro: M97 M102
+S1 + S4,5,6,M77 Mohenjodaro: M97 M104 ; M77 Mohenjodaro: M97 M104 ; M77 Mohenjodaro: M97 M104
+T3 + T2,4,5,M77 Mohenjodaro: M89 M87 ; M77 Mohenjodaro: M89 M87 ; M77 Mohenjodaro: M89 M87
+S1 + S12,7,2,M77 Mohenjodaro: M97 M121 ; M77 Lothal: M98 M121 ; M77 Lothal: M98 M121
+T1 + T2,0,9,ICIT Chanhu-daro: W031 W032 ; ICIT Chanhu-daro: W031 W032 ; ICIT Chanhu-daro: W031 W032
+S1 + T1,4,4,M77 Mohenjodaro: M97 M86 ; M77 Mohenjodaro: M98 M86 ; M77 Mohenjodaro: M97 M86
+T1 + S1,2,6,M77 Mohenjodaro: M86 M98 ; M77 Mohenjodaro: M86 M98 ; ICIT Harappa: W031 W001
+T3 + S7,4,4,M77 Mohenjodaro: M89 M112 ; M77 Mohenjodaro: M89 M112 ; M77 Harappa: M89 M112
+T2 + T1,0,7,ICIT Harappa: W032 W031 ; ICIT Harappa: W032 W031 ; ICIT Harappa: W032 W031
+S1 + T2,2,4,M77 Mohenjodaro: M98 M87 ; M77 Mohenjodaro: M98 M87 ; ICIT Harappa: W001 W032
+T1 + S3,2,4,M77 Mohenjodaro: M86 M102 ; M77 Mohenjodaro: M86 M103 ; ICIT Mohenjo-daro: W031 W003
+S1 + S5,3,2,M77 Mohenjodaro: M97 M106 ; M77 Lothal: M97 M106 ; M77 Kalibangan: M98 M107
+T2 + S1,3,2,M77 Mohenjodaro: M87 M97 ; M77 Mohenjodaro: M87 M97 ; M77 Harappa: M87 M98
+V8 + T2,2,2,M77 Harappa: M119 M87 ; M77 Harappa: M119 M87 ; ICIT Harappa: W059 W032
+V9 + T2,1,2,M77 Mohenjodaro: M120 M87 ; ICIT Mohenjo-daro: W029 W032 ; ICIT Lakhanjo-daro: W029 W032
+T2 + S7,1,2,M77 Mohenjodaro: M87 M112 ; ICIT Mohenjo-daro: W032 W017 ; ICIT Mohenjo-daro: W032 W017
+T3 + S1,1,2,M77 Mohenjodaro: M89 M98 ; ICIT Mohenjo-daro: W033 W001 ; ICIT Mohenjo-daro: W033 W001
+T1 + S12,1,2,M77 Mohenjodaro: M86 M121 ; ICIT Mohenjo-daro: W031 W055 ; ICIT Susa: W031 W055
+T3 + T1,1,2,M77 Mohenjodaro: M89 M86 ; ICIT Harappa: W033 W031 ; ICIT Mohenjo-daro: W033 W031
+S12 + S12,3,0,M77 Harappa: M121 M121 ; M77 Lothal: M121 M121 ; M77 Kalibangan: M121 M121
+S3 + S4,1,2,M77 Harappa: M102 M104 ; ICIT Harappa: W013 W004 ; ICIT Dholavira: W013 W004
+S3 + S3,0,3,ICIT Bhirrana: W003 W003 ; ICIT Harappa: W013 W003 ; ICIT Mohenjo-daro: W003 W003
+D5 + T2,0,3,ICIT Harappa: W025 W032 ; ICIT Harappa: W025 W032 ; ICIT Harappa: W025 W032
+S2 + T2,2,0,M77 Mohenjodaro: M100 M87 ; M77 Mohenjodaro: M100 M87
+S1 + S8,1,1,M77 Mohenjodaro: M97 M114 ; ICIT Mohenjo-daro: W001 W018
+T3 + S12,1,1,M77 Mohenjodaro: M89 M121 ; ICIT Mohenjo-daro: W033 W055
+S1 + S6,1,1,M77 Mohenjodaro: M98 M109 ; ICIT Mohenjo-daro: W001 W016
+S3 + S1,1,1,M77 Mohenjodaro: M102 M97 ; ICIT Mohenjo-daro: W003 W001
+S1 + S7,1,1,M77 Mohenjodaro: M98 M112 ; ICIT Mohenjo-daro: W001 W017
+T1 + S6,1,1,M77 Mohenjodaro: M86 M109 ; ICIT Mohenjo-daro: W031 W016
+S1 + T3,1,1,M77 Mohenjodaro: M97 M89 ; ICIT Harappa: W001 W033
+S1 + S12 + T2,1,1,M77 Mohenjodaro: M98 M121 M87 ; ICIT Mohenjo-daro: W001 W055 W032
+T3 + S5,1,1,M77 Harappa: M89 M106 ; ICIT Harappa: W033 W005
+T3 + T3 + S12,1,1,M77 Harappa: M89 M89 M121 ; ICIT Harappa: W033 W033 W055
+S3 + T2,0,2,ICIT Chanhu-daro: W013 W032 ; ICIT Harappa: W013 W032
+D8 + T2,0,2,ICIT Harappa: W028 W032 ; ICIT Harappa: W028 W032
+D7 + T2,0,2,ICIT Harappa: W027 W032 ; ICIT Harappa: W027 W032
+S3 + S6,0,2,ICIT Harappa: W013 W016 ; ICIT Khirsara: W013 W016
+S4 + S5 + A1,1,0,M77 Mohenjodaro: M104 M106 M312
+S6 + A7,1,0,M77 Mohenjodaro: M108 M315
+S4 + S7,1,0,M77 Mohenjodaro: M104 M110
+S4 + S4,1,0,M77 Mohenjodaro: M104 M104
+S2 + T1,1,0,M77 Mohenjodaro: M100 M86
+S12 + T2,1,0,M77 Mohenjodaro: M121 M87
+A1 + S3,1,0,M77 Harappa: M312 M102
+A2 + S3,1,0,M77 Harappa: M313 M102
+S2 + S4,1,0,M77 Harappa: M100 M104
+A3 + S5,1,0,M77 Chanhudaro: M314 M106
+T4 + T1,0,1,ICIT Harappa: W034 W031
+S1 + T4,0,1,ICIT Harappa: W001 W034
+S5 + T2,0,1,ICIT Harappa: W015 W032
+T2 + T2,0,1,ICIT Harappa: W032 W032
+S4 + T2,0,1,ICIT Harappa: W014 W032
+T1 + T4,0,1,ICIT Harappa: W031 W034
+T1 + S10,0,1,ICIT Harappa: W031 W020
+S12 + S1,0,1,ICIT Harappa: W055 W001
+T4 + T3,0,1,ICIT Harappa: W034 W033
+S5 + T1,0,1,ICIT Harappa: W005 W031
+S3 + T1,0,1,ICIT Kalibangan: W003 W031
+S3 + S7,0,1,ICIT Kalibangan: W003 W017
+T1 + S3 + S5,0,1,ICIT Kalibangan: W031 W013 W015
+S3 + T3,0,1,ICIT Kot-Diji: W003 W033
+T1 + S21,0,1,ICIT Lothal: W031 W056
+T1 + S1 + S5,0,1,ICIT Lothal: W031 W001 W015
+T1 + S2 + T1,0,1,ICIT Mohenjo-daro: W031 W012 W031
+S4 + S5,0,1,ICIT Mohenjo-daro: W004 W005
+T1 + T1,0,1,ICIT Mohenjo-daro: W031 W031
+T2 + T3,0,1,ICIT Mohenjo-daro: W032 W033
+T1 + S7,0,1,ICIT Mohenjo-daro: W031 W017
+S5 + T3 + T5,0,1,ICIT Mohenjo-daro: W005 W033 W035
+T2 + T2 + T4,0,1,ICIT Harappa: W032 W032 W034
+T2 + T5,0,1,ICIT Mohenjo-daro: W032 W035
+V9 + T6,0,1,ICIT Harappa: W029 W036
+S12 + T1,0,1,ICIT Dholavira: W055 W031
+S5 + T1 + S3,0,1,ICIT Dholavira: W005 W031 W003
+T2 + S1 + T3,0,1,ICIT Karzakan: W032 W001 W033
+S3 + T3 + T3,0,1,ICIT Kalibangan: W003 W033 W033
+T4 + S7,0,1,ICIT Kalibangan: W034 W007
+T3 + T3 + T4,0,1,ICIT Kalibangan: W033 W033 W034
+T3 + S4,0,1,ICIT Mohenjo-daro: W033 W004

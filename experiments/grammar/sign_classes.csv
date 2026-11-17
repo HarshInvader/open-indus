@@ -1,0 +1,370 @@
+sign,dev_tokens,label_raw,fine_class,confidence,confidence_kind,wells_signs,wells_label,wells_check,seed,final_class
+M342,776,closer,8,1.0,bootstrap,W740,closer,agree,closer,closer
+M99,445,connective,1,1.0,bootstrap,W002,connective,agree,connective,connective
+M267,254,opener,2,0.995,bootstrap,W817;W861,opener,agree,opener,opener
+M59,234,medial,0,0.985,bootstrap,W220,medial,agree,medial,medial
+M87,191,numeral,4,0.75,bootstrap,W032,numeral,agree,numeral,unclassified
+M67,173,medial,5,1.0,bootstrap,W240,medial,agree,medial,medial
+M336,155,medial,6,0.895,bootstrap,W704;W705;W706,medial,agree,medial,medial
+M176,153,post-closer,7,0.7,bootstrap,W400,post-closer,agree,post-closer,unclassified
+M211,142,closer,8,1.0,bootstrap,W520,closer,agree,closer,closer
+M391,142,opener,2,0.995,bootstrap,W820,opener,agree,opener,opener
+M162,140,medial,3,0.61,bootstrap,W390;W405,closer,differs:closer,medial,unclassified
+M89,134,numeral,11,0.545,bootstrap,W033,medial,differs:medial,numeral,unclassified
+M123,132,connective,1,0.905,bootstrap,W060,connective,agree,connective,connective
+M65,129,medial,5,0.96,bootstrap,W235,medial,agree,medial,medial
+M343,124,medial,14,0.825,bootstrap,W741,medial,agree,medial,medial
+M72,123,medial,5,0.985,bootstrap,W233,medial,agree,medial,medial
+M169,111,medial,3,0.555,bootstrap,W390;W405;W406;W407,closer,differs:closer,closer,unclassified
+M249,108,medial,15,0.825,bootstrap,W590,medial,agree,medial,medial
+M245,105,medial,3,0.935,bootstrap,W615,medial,agree,medial,medial
+M293,99,opener,9,0.75,bootstrap,W920,opener,agree,opener,opener
+M86,92,medial,14,0.525,bootstrap,W031,opener,differs:opener,numeral,unclassified
+M53,91,medial,5,0.995,bootstrap,W798,medial,agree,medial,medial
+M171,85,numeral,4,0.47,bootstrap,W415,numeral,agree,medial,unclassified
+M1,80,post-closer,7,0.7,bootstrap,W090,post-closer,agree,post-closer,unclassified
+M387,80,medial,5,0.96,bootstrap,W803;W806,medial,agree,medial,medial
+M102,77,numeral,4,0.62,bootstrap,W003,numeral,agree,numeral,unclassified
+M48,72,medial,10,0.975,bootstrap,W176,medial,agree,medial,medial
+M51,72,medial,10,0.7,bootstrap,W255,medial,agree,medial,medial
+M8,72,medial,12,0.995,bootstrap,W100,medial,agree,medial,medial
+M389,69,medial,5,0.945,bootstrap,,,n/a,opener,medial
+M347,68,medial,12,0.975,bootstrap,W760,medial,agree,medial,medial
+M15,58,closer,8,1.0,bootstrap,W156;W154,closer,agree,closer,closer
+M17,55,medial,15,0.41,bootstrap,W140,opener,differs:opener,opener,unclassified
+M402,53,medial,13,0.665,bootstrap,W368,connective,differs:connective,medial,unclassified
+M70,53,medial,5,0.995,bootstrap,W231,medial,agree,medial,medial
+M97,51,connective,1,0.535,bootstrap,W001,medial,differs:medial,numeral,unclassified
+M98,50,medial,14,0.81,bootstrap,W001,medial,agree,numeral,medial
+M216,49,medial,10,0.545,bootstrap,W550;W798,medial,agree,opener,unclassified
+M403,49,numeral,11,0.01,bootstrap,W840,medial,differs:medial,medial,unclassified
+M112,48,numeral,4,0.28,bootstrap,W017,numeral,agree,numeral,unclassified
+M149,47,numeral,11,0.055,bootstrap,W690,medial,differs:medial,medial,unclassified
+M254,47,closer,8,0.8,bootstrap,W526;W527,closer,agree,closer,closer
+M197,44,medial,0,0.76,bootstrap,W575,opener,differs:opener,opener,unclassified
+M244,44,medial,10,0.845,bootstrap,W630;W632;W636,medial,agree,medial,medial
+M12,42,closer,8,0.88,bootstrap,W151,closer,agree,closer,closer
+M204,42,medial,15,0.55,bootstrap,W503,medial,agree,opener,unclassified
+M328,42,medial,13,0.575,bootstrap,W700,closer,differs:closer,closer,unclassified
+M121,40,medial,5,0.935,bootstrap,W055,medial,agree,numeral,medial
+M375,40,medial,13,0.645,bootstrap,W808;W832,opener,differs:opener,opener,unclassified
+M341,39,medial,10,0.865,bootstrap,W711;W717,medial,agree,medial,medial
+M175,38,medial,15,0.545,bootstrap,W350,medial,agree,opener,unclassified
+M294,38,medial,10,1.0,bootstrap,W904,medial,agree,medial,medial
+M124,37,medial,15,0.72,bootstrap,W061,medial,agree,medial,medial
+M287,37,medial,0,0.9,bootstrap,W900,medial,agree,medial,medial
+M104,35,medial,15,0.68,bootstrap,W004,medial,agree,numeral,unclassified
+M130,35,medial,6,0.655,bootstrap,W435,medial,agree,medial,unclassified
+M150,35,opener,2,0.975,bootstrap,W692,opener,agree,opener,opener
+M180,35,opener,9,0.22,bootstrap,W297;W298,closer,differs:closer,medial,unclassified
+M155,34,medial,10,0.915,bootstrap,W070,medial,agree,medial,medial
+M194,34,medial,12,0.955,bootstrap,W585,medial,agree,medial,medial
+M230,33,medial,3,0.805,bootstrap,W460,medial,agree,medial,medial
+M252,31,medial,13,0.7,bootstrap,W595,connective,differs:connective,medial,unclassified
+M28,31,medial,13,0.69,bootstrap,W125,medial,agree,opener,unclassified
+M345,31,medial,14,0.82,bootstrap,W745,medial,agree,opener,medial
+M373,30,numeral,4,0.145,bootstrap,W790,medial,differs:medial,opener,unclassified
+M127,28,medial,10,0.79,bootstrap,W440,medial,agree,medial,medial
+M307,28,medial,13,0.735,bootstrap,W892,closer,differs:closer,opener,unclassified
+M186,26,medial,13,0.71,bootstrap,W315;W317,medial,agree,opener,medial
+M25,24,medial,15,0.77,bootstrap,W142,medial,agree,medial,medial
+M344,24,medial,14,0.855,bootstrap,W742,medial,agree,medial,medial
+M173,23,medial,13,0.305,bootstrap,W416,numeral,differs:numeral,opener,unclassified
+M182,23,medial,6,0.555,bootstrap,W320,numeral,differs:numeral,opener,unclassified
+M284,23,medial,0,0.685,bootstrap,W877,medial,agree,opener,unclassified
+M242,22,post-closer,7,0.7,bootstrap,W621,post-closer,agree,post-closer,unclassified
+M296,21,medial,12,1.0,bootstrap,W923,medial,agree,medial,medial
+M327,21,medial,10,0.875,bootstrap,W388,medial,agree,medial,medial
+M60,21,medial,0,0.395,bootstrap,W226,medial,agree,closer,unclassified
+M153,20,medial,5,0.955,bootstrap,,,n/a,medial,medial
+M135,18,medial,12,1.0,bootstrap,W482,medial,agree,medial,medial
+M178,18,medial,14,0.859,bootstrap,,,n/a,medial,medial
+M222,18,medial,12,0.865,bootstrap,W555,medial,agree,medial,medial
+M326,18,medial,0,0.885,bootstrap,W384,medial,agree,medial,medial
+M407,18,medial,15,0.905,bootstrap,W845,medial,agree,medial,medial
+M100,17,medial,14,0.635,bootstrap,W002,connective,differs:connective,numeral,unclassified
+M109,17,medial,15,0.43,bootstrap,W016,numeral,differs:numeral,numeral,unclassified
+M233,17,numeral,4,0.475,bootstrap,W455,numeral,agree,medial,unclassified
+M348,17,medial,12,0.995,bootstrap,W772;W773,medial,agree,medial,medial
+M409,17,opener,9,0.315,bootstrap,W171,opener,agree,opener,unclassified
+M193,16,medial,12,0.908,bootstrap,W336;W337,medial,agree,medial,medial
+M106,15,medial,15,0.645,bootstrap,W005,medial,agree,numeral,unclassified
+M81,15,medial,3,0.75,bootstrap,W269,medial,agree,medial,medial
+M205,14,medial,15,0.425,bootstrap,W491,opener,differs:opener,opener,unclassified
+M209,14,numeral,11,0.38,bootstrap,W500,connective,differs:connective,medial,unclassified
+M54,14,medial,13,0.515,bootstrap,W190,medial,agree,opener,unclassified
+M96,14,medial,13,0.505,bootstrap,W035,medial,agree,numeral,unclassified
+M103,13,medial,6,0.636,bootstrap,W003;W013,numeral,differs:numeral,numeral,unclassified
+M139,13,post-closer,7,0.697,bootstrap,W679,post-closer,agree,post-closer,unclassified
+M18,12,medial,10,0.71,bootstrap,W095,medial,agree,opener,medial
+M261,12,opener,9,0.38,bootstrap,W625;W790;W850,opener,agree,opener,unclassified
+M190,11,medial,0,0.49,bootstrap,W421,medial,agree,numeral,unclassified
+M381,11,medial,13,0.775,bootstrap,W812;W814,connective,differs:connective,medial,unclassified
+M9,11,medial,10,0.859,bootstrap,W101,medial,agree,medial,medial
+M125,10,numeral,4,0.45,bootstrap,W061,medial,differs:medial,medial,unclassified
+M226,10,medial,12,0.839,bootstrap,W554,medial,agree,medial,medial
+M253,10,medial,15,0.595,bootstrap,W510,opener,differs:opener,opener,unclassified
+M286,10,opener,2,0.925,bootstrap,W880,opener,agree,opener,opener
+M319,10,medial,13,0.61,bootstrap,W165,closer,differs:closer,opener,unclassified
+M358,10,medial,12,0.995,bootstrap,W760;W752,medial,agree,medial,medial
+M406,10,medial,15,0.809,bootstrap,W844,medial,agree,medial,medial
+M2,9,medial,12,0.835,bootstrap,W097,medial,agree,medial,medial
+M258,9,numeral,4,0.116,bootstrap,,,n/a,medial,unclassified
+M264,9,medial,14,0.751,bootstrap,W853,medial,agree,opener,medial
+M301,9,medial,14,0.618,bootstrap,W921,medial,agree,medial,unclassified
+M325,9,medial,10,0.934,bootstrap,W382,medial,agree,medial,medial
+M400,9,opener,9,0.338,bootstrap,W374,opener,agree,opener,unclassified
+M75,9,medial,15,0.755,bootstrap,W243,medial,agree,opener,medial
+M94,9,medial,13,0.568,bootstrap,,,n/a,numeral,unclassified
+M137,8,medial,0,0.603,bootstrap,W645,medial,agree,closer,unclassified
+M177,8,numeral,4,0.141,bootstrap,W413,opener,differs:opener,opener,unclassified
+M215,8,medial,14,0.355,bootstrap,W545,opener,differs:opener,opener,unclassified
+M219,8,medial,13,0.528,bootstrap,,,n/a,opener,unclassified
+M224,8,post-closer,7,0.513,bootstrap,W565,post-closer,agree,post-closer,unclassified
+M397,8,medial,15,0.663,bootstrap,W370;W371,opener,differs:opener,opener,unclassified
+M62,8,medial,12,0.995,bootstrap,W222,medial,agree,medial,medial
+M66,8,closer,8,0.621,bootstrap,W236,closer,agree,closer,unclassified
+M93,8,post-closer,7,0.685,bootstrap,,,n/a,numeral,unclassified
+M114,7,numeral,4,0.254,bootstrap,W018,medial,differs:medial,numeral,unclassified
+M134,7,medial,13,0.736,bootstrap,W480,opener,differs:opener,medial,unclassified
+M136,7,numeral,4,0.187,bootstrap,W484,numeral,agree,medial,unclassified
+M14,7,closer,8,0.954,bootstrap,W161,closer,agree,closer,closer
+M19,7,opener,9,0.146,bootstrap,W130,closer,differs:closer,medial,unclassified
+M192,7,medial,10,0.92,bootstrap,W335,medial,agree,medial,medial
+M214,7,opener,9,0.254,bootstrap,,,n/a,medial,unclassified
+M237,7,medial,15,0.793,bootstrap,,,n/a,medial,medial
+M386,7,medial,14,0.843,bootstrap,W838,medial,agree,medial,medial
+M47,7,medial,10,0.799,bootstrap,W175,medial,agree,medial,medial
+M76,7,medial,13,0.421,bootstrap,W260,numeral,differs:numeral,opener,unclassified
+M174,6,medial,15,0.688,bootstrap,W350,medial,agree,medial,unclassified
+M202,6,opener,9,0.356,bootstrap,W360,opener,agree,opener,unclassified
+M206,6,medial,3,0.605,bootstrap,W504,closer,differs:closer,medial,unclassified
+M210,6,medial,13,0.487,bootstrap,W501,opener,differs:opener,medial,unclassified
+M217,6,medial,10,0.755,bootstrap,,,n/a,medial,medial
+M247,6,medial,10,0.862,bootstrap,W626,medial,agree,medial,medial
+M295,6,medial,14,0.649,bootstrap,,,n/a,opener,unclassified
+M302,6,medial,13,0.596,bootstrap,W250,closer,differs:closer,medial,unclassified
+M321,6,numeral,11,0.462,bootstrap,,,n/a,medial,unclassified
+M323,6,medial,13,0.702,bootstrap,,,n/a,medial,medial
+M329,6,medial,13,0.611,bootstrap,,,n/a,medial,unclassified
+M41,6,medial,14,0.581,bootstrap,W104,opener,differs:opener,opener,unclassified
+M110,5,medial,3,0.69,bootstrap,W017,numeral,differs:numeral,numeral,unclassified
+M128,5,medial,12,0.932,bootstrap,W443,closer,differs:closer,medial,unclassified
+M167,5,medial,3,0.756,bootstrap,W390;W405,closer,differs:closer,medial,unclassified
+M201,5,medial,10,0.495,bootstrap,,,n/a,opener,unclassified
+M277,5,closer,8,0.319,bootstrap,,,n/a,medial,unclassified
+M303,5,medial,13,0.73,bootstrap,W906,closer,differs:closer,medial,unclassified
+M374,5,post-closer,7,0.688,bootstrap,W790,medial,differs:medial,medial,unclassified
+M384,5,opener,9,0.342,bootstrap,,,n/a,medial,unclassified
+M398,5,medial,13,0.479,bootstrap,W518,opener,differs:opener,opener,unclassified
+M50,5,medial,13,0.582,bootstrap,,,n/a,opener,unclassified
+M58,5,medial,0,0.713,bootstrap,W794,connective,differs:connective,medial,unclassified
+M73,5,post-closer,7,0.109,bootstrap,,,n/a,closer,unclassified
+M84,5,opener,9,0.283,bootstrap,,,n/a,opener,unclassified
+M95,5,opener,9,0.282,bootstrap,W034,opener,agree,numeral,unclassified
+M107,4,medial,15,0.679,bootstrap,W005,medial,agree,numeral,unclassified
+M141,4,medial,0,0.739,bootstrap,,,n/a,medial,medial
+M189,4,numeral,11,0.316,bootstrap,W420,closer,differs:closer,medial,unclassified
+M212,4,post-closer,7,0.315,bootstrap,,,n/a,medial,unclassified
+M225,4,medial,13,0.62,bootstrap,W530,medial,agree,medial,unclassified
+M228,4,medial,10,0.782,bootstrap,W531,medial,agree,medial,medial
+M229,4,medial,13,0.565,bootstrap,,,n/a,medial,unclassified
+M238,4,opener,9,0.629,bootstrap,,,n/a,medial,unclassified
+M250,4,medial,13,0.655,bootstrap,,,n/a,medial,unclassified
+M256,4,opener,9,0.246,bootstrap,W611,connective,differs:connective,medial,unclassified
+M268,4,opener,9,0.087,bootstrap,W202,closer,differs:closer,medial,unclassified
+M297,4,numeral,11,0.069,bootstrap,,,n/a,medial,unclassified
+M298,4,medial,10,0.605,bootstrap,,,n/a,medial,unclassified
+M3,4,medial,14,0.593,bootstrap,,,n/a,medial,unclassified
+M32,4,opener,9,0.445,bootstrap,,,n/a,medial,unclassified
+M330,4,opener,2,0.524,bootstrap,,,n/a,medial,unclassified
+M331,4,medial,15,0.685,bootstrap,,,n/a,opener,unclassified
+M367,4,medial,3,0.808,bootstrap,,,n/a,medial,medial
+M379,4,medial,14,0.596,bootstrap,W831,opener,differs:opener,opener,unclassified
+M388,4,closer,8,0.763,bootstrap,W804,closer,agree,closer,closer
+M393,4,post-closer,7,0.473,bootstrap,,,n/a,medial,unclassified
+M40,4,medial,13,0.558,bootstrap,W137,closer,differs:closer,medial,unclassified
+M412,4,opener,2,0.978,bootstrap,W201,opener,agree,medial,opener
+M417,4,opener,9,0.599,bootstrap,W215,opener,agree,medial,unclassified
+M56,4,numeral,11,0.348,bootstrap,,,n/a,medial,unclassified
+M57,4,medial,13,0.65,bootstrap,,,n/a,medial,unclassified
+M6,4,opener,9,0.559,bootstrap,,,n/a,medial,unclassified
+M10,3,opener,9,0.131,bootstrap,,,n/a,medial,unclassified
+M111,3,medial,10,0.843,bootstrap,,,n/a,numeral,medial
+M113,3,medial,10,0.581,bootstrap,,,n/a,medial,unclassified
+M126,3,medial,13,0.411,bootstrap,,,n/a,medial,unclassified
+M129,3,opener,9,0.241,bootstrap,,,n/a,medial,unclassified
+M138,3,medial,6,0.215,bootstrap,,,n/a,medial,unclassified
+M146,3,opener,2,0.747,bootstrap,,,n/a,medial,opener
+M158,3,medial,15,0.722,bootstrap,,,n/a,medial,medial
+M160,3,medial,13,0.534,bootstrap,,,n/a,medial,unclassified
+M163,3,post-closer,7,0.129,bootstrap,,,n/a,medial,unclassified
+M184,3,medial,14,0.728,bootstrap,,,n/a,medial,medial
+M187,3,numeral,11,0.191,bootstrap,,,n/a,medial,unclassified
+M221,3,opener,9,0.416,bootstrap,,,n/a,medial,unclassified
+M223,3,medial,10,0.848,bootstrap,,,n/a,medial,medial
+M234,3,opener,9,0.179,bootstrap,W456,medial,differs:medial,opener,unclassified
+M240,3,medial,13,0.579,bootstrap,,,n/a,medial,unclassified
+M259,3,medial,12,0.963,bootstrap,,,n/a,medial,medial
+M263,3,medial,13,0.513,bootstrap,,,n/a,medial,unclassified
+M289,3,medial,5,0.92,bootstrap,,,n/a,medial,medial
+M290,3,medial,13,0.503,bootstrap,W903,opener,differs:opener,medial,unclassified
+M304,3,medial,15,0.726,bootstrap,W890,medial,agree,medial,medial
+M332,3,numeral,4,0.085,bootstrap,,,n/a,medial,unclassified
+M338,3,medial,10,0.586,bootstrap,,,n/a,medial,unclassified
+M365,3,opener,9,0.168,bootstrap,,,n/a,medial,unclassified
+M371,3,numeral,4,0.329,bootstrap,,,n/a,medial,unclassified
+M380,3,opener,9,0.293,bootstrap,,,n/a,medial,unclassified
+M395,3,opener,2,0.97,bootstrap,,,n/a,medial,opener
+M404,3,post-closer,7,0.241,bootstrap,,,n/a,medial,unclassified
+M68,3,numeral,4,0.477,bootstrap,W241,closer,differs:closer,closer,unclassified
+M7,3,opener,9,0.207,bootstrap,,,n/a,medial,unclassified
+M71,3,medial,5,0.709,bootstrap,W232,closer,differs:closer,closer,unclassified
+M78,3,medial,10,0.895,bootstrap,,,n/a,medial,medial
+M108,2,medial,3,0.791,bootstrap,W016,numeral,differs:numeral,numeral,unclassified
+M11,2,numeral,4,0.252,bootstrap,,,n/a,,unclassified
+M116,2,medial,15,0.686,bootstrap,,,n/a,numeral,unclassified
+M119,2,medial,14,0.566,bootstrap,W027;W028,opener,differs:opener,medial,unclassified
+M132,2,medial,13,0.509,bootstrap,,,n/a,medial,unclassified
+M143,2,medial,15,0.467,bootstrap,,,n/a,medial,unclassified
+M161,2,medial,13,0.475,bootstrap,W064;W390;W405,closer,differs:closer,medial,unclassified
+M181,2,opener,9,0.254,bootstrap,,,n/a,,unclassified
+M183,2,medial,15,0.825,bootstrap,,,n/a,medial,medial
+M195,2,connective,1,0.581,bootstrap,W572,connective,agree,medial,unclassified
+M198,2,opener,9,0.455,bootstrap,,,n/a,medial,unclassified
+M203,2,medial,13,0.437,bootstrap,,,n/a,medial,unclassified
+M21,2,medial,5,0.938,bootstrap,,,n/a,,medial
+M213,2,medial,13,0.537,bootstrap,,,n/a,medial,unclassified
+M22,2,medial,6,0.728,bootstrap,,,n/a,medial,medial
+M24,2,medial,3,0.672,bootstrap,,,n/a,,unclassified
+M257,2,opener,9,0.474,bootstrap,,,n/a,medial,unclassified
+M27,2,medial,13,0.5,bootstrap,,,n/a,medial,unclassified
+M272,2,closer,8,0.622,bootstrap,,,n/a,medial,unclassified
+M275,2,numeral,11,0.561,bootstrap,W868,medial,differs:medial,medial,unclassified
+M276,2,numeral,4,0.27,bootstrap,,,n/a,medial,unclassified
+M283,2,medial,13,0.628,bootstrap,,,n/a,medial,unclassified
+M29,2,medial,10,0.508,bootstrap,,,n/a,medial,unclassified
+M292,2,medial,12,0.968,bootstrap,,,n/a,medial,medial
+M305,2,opener,2,0.978,bootstrap,,,n/a,medial,opener
+M311,2,medial,10,0.675,bootstrap,,,n/a,medial,unclassified
+M322,2,medial,0,0.829,bootstrap,,,n/a,medial,medial
+M337,2,opener,9,0.344,bootstrap,,,n/a,,unclassified
+M340,2,medial,10,0.634,bootstrap,W712,,n/a,medial,unclassified
+M35,2,closer,8,0.627,bootstrap,,,n/a,medial,unclassified
+M364,2,medial,5,0.891,bootstrap,,,n/a,medial,medial
+M369,2,medial,3,0.833,bootstrap,,,n/a,medial,medial
+M38,2,medial,3,0.306,bootstrap,,,n/a,medial,unclassified
+M390,2,numeral,4,0.158,bootstrap,,,n/a,medial,unclassified
+M4,2,opener,2,0.683,bootstrap,,,n/a,medial,unclassified
+M415,2,medial,5,0.463,bootstrap,W215,opener,differs:opener,medial,unclassified
+M55,2,medial,6,0.718,bootstrap,W190,medial,agree,medial,medial
+M64,2,opener,9,0.702,bootstrap,,,n/a,medial,opener
+M69,2,medial,13,0.455,bootstrap,,,n/a,medial,unclassified
+M74,2,medial,6,0.629,bootstrap,,,n/a,medial,unclassified
+M77,2,medial,10,0.767,bootstrap,,,n/a,medial,medial
+M80,2,medial,10,0.714,bootstrap,,,n/a,medial,medial
+M83,2,opener,9,0.445,bootstrap,,,n/a,medial,unclassified
+M105,1,numeral,,0.684,context-posterior,W004,,n/a (rare),,unclassified
+M117,1,medial,,0.705,context-posterior,,,n/a (rare),,unclassified
+M118,1,medial,,0.616,context-posterior,,,n/a (rare),numeral,unclassified
+M120,1,medial,,0.921,context-posterior,,,n/a (rare),medial,medial
+M140,1,medial,,0.678,context-posterior,,,n/a (rare),medial,unclassified
+M142,1,medial,,0.843,context-posterior,,,n/a (rare),medial,unclassified
+M144,1,post-closer,,0.879,context-posterior,,,n/a (rare),medial,unclassified
+M148,1,medial,,0.746,context-posterior,,,n/a (rare),,unclassified
+M151,1,opener,,0.869,context-posterior,,,n/a (rare),medial,unclassified
+M152,1,opener,,0.869,context-posterior,,,n/a (rare),medial,unclassified
+M154,1,medial,,0.467,context-posterior,,,n/a (rare),,unclassified
+M156,1,medial,,0.582,context-posterior,,,n/a (rare),medial,unclassified
+M159,1,medial,,0.487,context-posterior,,,n/a (rare),medial,unclassified
+M170,1,medial,,0.807,context-posterior,,,n/a (rare),medial,unclassified
+M179,1,medial,,0.471,context-posterior,,,n/a (rare),medial,unclassified
+M185,1,medial,,0.667,context-posterior,,,n/a (rare),,unclassified
+M188,1,medial,,0.586,context-posterior,,,n/a (rare),medial,unclassified
+M200,1,medial,,0.56,context-posterior,,,n/a (rare),,unclassified
+M207,1,medial,,0.524,context-posterior,,,n/a (rare),,unclassified
+M208,1,opener,,0.869,context-posterior,,,n/a (rare),,unclassified
+M218,1,medial,,0.754,context-posterior,,,n/a (rare),medial,unclassified
+M227,1,connective,,0.626,context-posterior,,,n/a (rare),,unclassified
+M23,1,medial,,0.754,context-posterior,,,n/a (rare),medial,unclassified
+M231,1,closer,,0.784,context-posterior,,,n/a (rare),medial,unclassified
+M232,1,medial,,0.562,context-posterior,,,n/a (rare),medial,unclassified
+M236,1,connective,,0.727,context-posterior,,,n/a (rare),medial,unclassified
+M239,1,medial,,0.739,context-posterior,,,n/a (rare),medial,unclassified
+M241,1,numeral,,0.569,context-posterior,,,n/a (rare),medial,unclassified
+M243,1,medial,,0.56,context-posterior,,,n/a (rare),medial,unclassified
+M246,1,medial,,0.807,context-posterior,,,n/a (rare),,unclassified
+M251,1,numeral,,0.577,context-posterior,,,n/a (rare),,unclassified
+M255,1,medial,,0.705,context-posterior,,,n/a (rare),,unclassified
+M262,1,post-closer,,0.535,context-posterior,,,n/a (rare),medial,unclassified
+M266,1,post-closer,,0.879,context-posterior,,,n/a (rare),medial,unclassified
+M269,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M270,1,opener,,0.869,context-posterior,,,n/a (rare),medial,unclassified
+M271,1,medial,,0.705,context-posterior,,,n/a (rare),,unclassified
+M273,1,medial,,0.817,context-posterior,,,n/a (rare),,unclassified
+M274,1,post-closer,,0.879,context-posterior,,,n/a (rare),,unclassified
+M278,1,medial,,0.524,context-posterior,,,n/a (rare),medial,unclassified
+M280,1,medial,,0.487,context-posterior,,,n/a (rare),medial,unclassified
+M281,1,medial,,0.797,context-posterior,,,n/a (rare),medial,unclassified
+M282,1,closer,,0.347,context-posterior,,,n/a (rare),medial,unclassified
+M285,1,medial,,0.711,context-posterior,,,n/a (rare),medial,unclassified
+M291,1,medial,,0.754,context-posterior,,,n/a (rare),,unclassified
+M300,1,medial,,0.807,context-posterior,,,n/a (rare),medial,unclassified
+M306,1,medial,,0.705,context-posterior,,,n/a (rare),medial,unclassified
+M309,1,medial,,0.677,context-posterior,,,n/a (rare),medial,unclassified
+M310,1,medial,,0.688,context-posterior,,,n/a (rare),medial,unclassified
+M312,1,medial,,0.705,context-posterior,,,n/a (rare),,unclassified
+M313,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M314,1,connective,,0.602,context-posterior,,,n/a (rare),medial,unclassified
+M317,1,medial,,0.562,context-posterior,,,n/a (rare),medial,unclassified
+M318,1,post-closer,,0.879,context-posterior,,,n/a (rare),medial,unclassified
+M320,1,medial,,0.784,context-posterior,,,n/a (rare),medial,unclassified
+M33,1,medial,,0.48,context-posterior,,,n/a (rare),,unclassified
+M333,1,medial,,0.797,context-posterior,,,n/a (rare),medial,unclassified
+M334,1,medial,,0.902,context-posterior,,,n/a (rare),medial,medial
+M335,1,medial,,0.856,context-posterior,,,n/a (rare),medial,unclassified
+M339,1,medial,,0.792,context-posterior,,,n/a (rare),medial,unclassified
+M34,1,opener,,0.869,context-posterior,,,n/a (rare),medial,unclassified
+M350,1,opener,,0.869,context-posterior,,,n/a (rare),medial,unclassified
+M351,1,medial,,0.487,context-posterior,,,n/a (rare),medial,unclassified
+M352,1,medial,,0.586,context-posterior,,,n/a (rare),medial,unclassified
+M353,1,opener,,0.695,context-posterior,,,n/a (rare),,unclassified
+M355,1,medial,,0.754,context-posterior,,,n/a (rare),medial,unclassified
+M356,1,medial,,0.866,context-posterior,,,n/a (rare),medial,unclassified
+M359,1,medial,,0.902,context-posterior,,,n/a (rare),medial,medial
+M36,1,medial,,0.936,context-posterior,,,n/a (rare),medial,medial
+M360,1,medial,,0.549,context-posterior,,,n/a (rare),medial,unclassified
+M363,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M366,1,medial,,0.807,context-posterior,,,n/a (rare),medial,unclassified
+M368,1,medial,,0.87,context-posterior,,,n/a (rare),,unclassified
+M37,1,medial,,0.797,context-posterior,,,n/a (rare),medial,unclassified
+M372,1,opener,,0.869,context-posterior,,,n/a (rare),,unclassified
+M376,1,medial,,0.466,context-posterior,,,n/a (rare),medial,unclassified
+M377,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M378,1,medial,,0.562,context-posterior,,,n/a (rare),medial,unclassified
+M382,1,medial,,0.556,context-posterior,,,n/a (rare),medial,unclassified
+M383,1,medial,,0.711,context-posterior,,,n/a (rare),,unclassified
+M385,1,medial,,0.818,context-posterior,,,n/a (rare),medial,unclassified
+M39,1,medial,,0.564,context-posterior,,,n/a (rare),medial,unclassified
+M392,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M394,1,closer,,0.768,context-posterior,,,n/a (rare),medial,unclassified
+M396,1,medial,,0.719,context-posterior,,,n/a (rare),,unclassified
+M399,1,medial,,0.921,context-posterior,,,n/a (rare),medial,medial
+M401,1,post-closer,,0.525,context-posterior,,,n/a (rare),medial,unclassified
+M405,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M408,1,medial,,0.616,context-posterior,,,n/a (rare),,unclassified
+M410,1,closer,,0.347,context-posterior,,,n/a (rare),medial,unclassified
+M413,1,closer,,0.396,context-posterior,,,n/a (rare),medial,unclassified
+M416,1,medial,,0.754,context-posterior,,,n/a (rare),,unclassified
+M42,1,medial,,0.797,context-posterior,,,n/a (rare),medial,unclassified
+M43,1,medial,,0.784,context-posterior,,,n/a (rare),medial,unclassified
+M45,1,closer,,0.822,context-posterior,,,n/a (rare),medial,unclassified
+M46,1,closer,,0.496,context-posterior,,,n/a (rare),,unclassified
+M49,1,numeral,,0.636,context-posterior,,,n/a (rare),medial,unclassified
+M61,1,connective,,0.505,context-posterior,,,n/a (rare),medial,unclassified
+M63,1,medial,,0.616,context-posterior,,,n/a (rare),medial,unclassified
+M85,1,medial,,0.616,context-posterior,,,n/a (rare),,unclassified
+M88,1,medial,,0.616,context-posterior,,,n/a (rare),numeral,unclassified
+M90,1,medial,,0.754,context-posterior,,,n/a (rare),medial,unclassified
+M91,1,medial,,0.453,context-posterior,,,n/a (rare),medial,unclassified
+M92,1,opener,,0.695,context-posterior,,,n/a (rare),,unclassified

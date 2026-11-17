@@ -1,0 +1,300 @@
+{
+ "H1": {
+  "T347": {
+   "a": 0,
+   "n_in": 3,
+   "b": 1,
+   "n_out": 52,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.0,
+   "p_holm": 1
+  },
+  "T8": {
+   "a": 0,
+   "n_in": 3,
+   "b": 2,
+   "n_out": 52,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.16715,
+   "p_holm": 1
+  },
+  "TB336": {
+   "a": 0,
+   "n_in": 3,
+   "b": 1,
+   "n_out": 52,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.0,
+   "p_holm": 1
+  },
+  "TB249": {
+   "a": 0,
+   "n_in": 3,
+   "b": 3,
+   "n_out": 52,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.1695,
+   "p_holm": 1
+  }
+ },
+ "H1_power": {
+  "T347": {
+   "p_in_planted": 0.057692307692307696,
+   "r_out": 0.019230769230769232,
+   "n_in": 3,
+   "power": 0.012
+  },
+  "T8": {
+   "p_in_planted": 0.11538461538461539,
+   "r_out": 0.038461538461538464,
+   "n_in": 3,
+   "power": 0.004
+  },
+  "TB336": {
+   "p_in_planted": 0.057692307692307696,
+   "r_out": 0.019230769230769232,
+   "n_in": 3,
+   "power": 0.012
+  },
+  "TB249": {
+   "p_in_planted": 0.17307692307692307,
+   "r_out": 0.057692307692307696,
+   "n_in": 3,
+   "power": 0.004
+  }
+ },
+ "H1_verdict": "untestable at this n",
+ "H1_distinct": {
+  "T347": {
+   "a": 0,
+   "n_in": 3,
+   "b": 1,
+   "n_out": 49,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.0,
+   "p_holm": 1
+  },
+  "T8": {
+   "a": 0,
+   "n_in": 3,
+   "b": 2,
+   "n_out": 49,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.17425,
+   "p_holm": 1
+  },
+  "TB336": {
+   "a": 0,
+   "n_in": 3,
+   "b": 1,
+   "n_out": 49,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.0,
+   "p_holm": 1
+  },
+  "TB249": {
+   "a": 0,
+   "n_in": 3,
+   "b": 3,
+   "n_out": 49,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.2272,
+   "p_holm": 1
+  }
+ },
+ "H1_distinct_noele": {
+  "T347": {
+   "a": 0,
+   "n_in": 3,
+   "b": 1,
+   "n_out": 48,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.0,
+   "p_holm": 1
+  },
+  "T8": {
+   "a": 0,
+   "n_in": 3,
+   "b": 2,
+   "n_out": 48,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.16615,
+   "p_holm": 1
+  },
+  "TB336": {
+   "a": 0,
+   "n_in": 3,
+   "b": 1,
+   "n_out": 48,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.0,
+   "p_holm": 1
+  },
+  "TB249": {
+   "a": 0,
+   "n_in": 3,
+   "b": 3,
+   "n_out": 48,
+   "ER": 0.0,
+   "p": 1.0,
+   "null_mean": 0.2467,
+   "p_holm": 1
+  }
+ },
+ "S0": {
+  "ANY": {
+   "a": 1,
+   "n_in": 19,
+   "b": 5,
+   "n_out": 36,
+   "ER": 0.3789473684210526,
+   "p": 0.9376531173441328,
+   "null_mean": 2.1349,
+   "p_holm": 0.9376531173441328
+  }
+ },
+ "S1": {
+  "n_target_faces": 22,
+  "on_multi": 12,
+  "share": 0.5454545454545454,
+  "null_mean": 7.517,
+  "p": 0.02439878006099695
+ },
+ "S1_lothal": {
+  "n_target_faces": 10,
+  "on_multi": 6,
+  "share": 0.6,
+  "null_mean": 4.49655,
+  "p": 0.24853757312134395
+ },
+ "S1_per_title": {
+  "T347": {
+   "n_target_faces": 7,
+   "on_multi": 6,
+   "share": 0.8571428571428571,
+   "null_mean": 1.9694,
+   "p": 0.0006499675016249188
+  },
+  "T8": {
+   "n_target_faces": 7,
+   "on_multi": 1,
+   "share": 0.14285714285714285,
+   "null_mean": 2.21045,
+   "p": 0.944052797360132
+  },
+  "TB336": {
+   "n_target_faces": 3,
+   "on_multi": 2,
+   "share": 0.6666666666666666,
+   "null_mean": 1.26015,
+   "p": 0.38113094345282733
+  },
+  "TB249": {
+   "n_target_faces": 5,
+   "on_multi": 3,
+   "share": 0.6,
+   "null_mean": 2.08145,
+   "p": 0.34268286585670715
+  }
+ },
+ "S1_closers": {
+  "jar": {
+   "n_target_faces": 61,
+   "on_multi": 22,
+   "share": 0.36065573770491804,
+   "null_mean": 19.325,
+   "p": 0.22113894305284737
+  },
+  "arrow": {
+   "n_target_faces": 12,
+   "on_multi": 5,
+   "share": 0.4166666666666667,
+   "null_mean": 3.2894,
+   "p": 0.1911904404779761
+  }
+ },
+ "S2": {
+  "n_sealings": 26,
+  "n_pairs": 41,
+  "title_faces": 9,
+  "mixed": 12,
+  "null_mean": 10.89215,
+  "p": 0.39633018349082544,
+  "title_with_nontitle_only": 7,
+  "null_share_nontitle_only": 0.8353277777777778
+ },
+ "S1_m77": {
+  "n_target_faces": 38,
+  "on_multi": 16,
+  "share": 0.42105263157894735,
+  "null_mean": 14.1434,
+  "p": 0.31148442577871105
+ },
+ "S2_m77": {
+  "n_sealings": 46,
+  "n_pairs": 74,
+  "title_faces": 16,
+  "mixed": 21,
+  "null_mean": 19.6223,
+  "p": 0.3791310434478276,
+  "title_with_nontitle_only": 12,
+  "null_share_nontitle_only": 0.842221875
+ },
+ "secondary_alpha": 0.016666666666666666,
+ "verdicts": {
+  "H1": "untestable at this n",
+  "S0": "not supported",
+  "S1": "not supported",
+  "S1_always": false,
+  "S2": "not supported"
+ },
+ "post_hoc_T347": {
+  "icit_raw": {
+   "n_target_faces": 7,
+   "on_multi": 6,
+   "share": 0.8571428571428571,
+   "null_mean": 1.96695,
+   "p": 0.00044997750112494374
+  },
+  "icit_dedup": {
+   "n_target_faces": 5,
+   "on_multi": 4,
+   "share": 0.8,
+   "null_mean": 1.25005,
+   "p": 0.005699715014249288
+  },
+  "m77_dedup": {
+   "n_target_faces": 12,
+   "on_multi": 5,
+   "share": 0.4166666666666667,
+   "null_mean": 4.52955,
+   "p": 0.49512524373781314
+  }
+ },
+ "data": {
+  "sealings_csv_objects": 238,
+  "with_reverse_type": 93,
+  "diagnostic_reverse": 75,
+  "diagnostic_with_legible_text": 55,
+  "door_pegs_on_wall_total": 9,
+  "door_with_legible_text": 3,
+  "multi_impression_icit_objects": 49,
+  "m77_nonHarappa_sealing_objects": 223,
+  "m77_multi": 51,
+  "reverse_types_other_sites": "not available in open sources"
+ },
+ "amendments": [
+  "A1: TB336 Wells code W33 -> W033 (zero-padding); first run kept in analyze_run1_bug.log"
+ ]
+}

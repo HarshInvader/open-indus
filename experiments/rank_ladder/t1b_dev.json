@@ -1,0 +1,158 @@
+{
+ "M77": {
+  "OPEN": {
+   "nodes": 5,
+   "edges": 7,
+   "triads": 2,
+   "cyclic": 0,
+   "viol": 14,
+   "obs": 374,
+   "agree_share": 0.9625668449197861,
+   "order": [
+    "OP_M391",
+    "OP_M267",
+    "OP_M293",
+    "CN_M123",
+    "CN_M99"
+   ],
+   "null_agree_mean": 0.5434718249411029,
+   "null_agree_p95": 0.5737265415549597,
+   "p": 0.004975124378109453,
+   "null_cyc_share": 0.2302876480541455
+  },
+  "TITLE": {
+   "nodes": 8,
+   "edges": 17,
+   "triads": 14,
+   "cyclic": 0,
+   "viol": 20,
+   "obs": 202,
+   "agree_share": 0.900990099009901,
+   "order": [
+    "MJ_M343",
+    "TI_M48",
+    "TB_M336",
+    "TB_M51",
+    "TB_M89",
+    "TB_M249",
+    "TI_M8",
+    "TI_M347"
+   ],
+   "null_agree_mean": 0.5927220048615701,
+   "null_agree_p95": 0.6326530612244898,
+   "p": 0.004975124378109453,
+   "null_cyc_share": 0.23070378232878233
+  },
+  "CLOSE": {
+   "nodes": 8,
+   "edges": 12,
+   "triads": 5,
+   "cyclic": 0,
+   "viol": 21,
+   "obs": 263,
+   "agree_share": 0.9201520912547528,
+   "order": [
+    "CL_M162",
+    "CL_M169",
+    "CL_M342",
+    "CL_M15",
+    "CL_M211",
+    "CL_M12",
+    "PC_M1",
+    "PC_M176"
+   ],
+   "null_agree_mean": 0.5751553258871446,
+   "null_agree_p95": 0.6107142857142858,
+   "p": 0.004975124378109453,
+   "null_cyc_share": 0.2049734106840706
+  },
+  "ALL": {
+   "viol": 55,
+   "obs": 839,
+   "agree_share": 0.934445768772348,
+   "null_agree_mean": 0.564898761420841,
+   "null_agree_p95": 0.5823451910408433,
+   "p": 0.004975124378109453
+  }
+ },
+ "ICIT": {
+  "OPEN": {
+   "nodes": 6,
+   "edges": 9,
+   "triads": 5,
+   "cyclic": 0,
+   "viol": 9,
+   "obs": 397,
+   "agree_share": 0.9773299748110831,
+   "order": [
+    "OP_W861",
+    "OP_W817",
+    "OP_W920",
+    "OP_W820",
+    "CN_W060",
+    "CN_W002"
+   ],
+   "null_agree_mean": 0.550641928615777,
+   "null_agree_p95": 0.5763157894736842,
+   "p": 0.004975124378109453,
+   "null_cyc_share": 0.24547008547008548
+  },
+  "TITLE": {
+   "nodes": 8,
+   "edges": 19,
+   "triads": 19,
+   "cyclic": 0,
+   "viol": 16,
+   "obs": 238,
+   "agree_share": 0.9327731092436975,
+   "order": [
+    "MJ_W741",
+    "TB_W70x",
+    "TB_W033",
+    "TI_W176",
+    "TB_W590",
+    "TI_W760",
+    "TB_W255",
+    "TI_W100"
+   ],
+   "null_agree_mean": 0.5940152152203754,
+   "null_agree_p95": 0.6435643564356436,
+   "p": 0.004975124378109453,
+   "null_cyc_share": 0.23664632634737123
+  },
+  "CLOSE": {
+   "nodes": 11,
+   "edges": 21,
+   "triads": 17,
+   "cyclic": 1,
+   "viol": 37,
+   "obs": 396,
+   "agree_share": 0.9065656565656566,
+   "order": [
+    "CL_W368",
+    "CL_W390",
+    "CL_W405",
+    "CL_W15x",
+    "CL_W520",
+    "CL_W740",
+    "CL_W527",
+    "CL_W407",
+    "CL_W151",
+    "PC_W090",
+    "PC_W400"
+   ],
+   "null_agree_mean": 0.5709906170747638,
+   "null_agree_p95": 0.6005025125628141,
+   "p": 0.004975124378109453,
+   "null_cyc_share": 0.2335146959163987
+  },
+  "ALL": {
+   "viol": 62,
+   "obs": 1031,
+   "agree_share": 0.9398642095053347,
+   "null_agree_mean": 0.5676543060095043,
+   "null_agree_p95": 0.5811881188118813,
+   "p": 0.004975124378109453
+  }
+ }
+}

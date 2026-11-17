@@ -1,0 +1,112 @@
+{
+ "dev_pooled": {
+  "N": 884,
+  "P": {
+   "opener": 0.21832579185520362,
+   "medial": 0.2097737556561086,
+   "closer": 0.1074660633484163
+  },
+  "share": {
+   "opener": 0.4076546130449476,
+   "medial": 0.39168638053396415,
+   "closer": 0.2006590064210882
+  },
+  "top": "opener",
+  "second": "medial",
+  "low": "closer",
+  "ratio_top_second": 1.04076790336497,
+  "ratio_max_min": 2.031578947368421,
+  "ci_ratio_top_second": [
+   0.9180862825341591,
+   1.1153228687746217
+  ],
+  "ci_ratio_max_min": [
+   1.8358870967741936,
+   2.3625958378970426
+  ],
+  "ci_share_top": [
+   0.38514061405771993,
+   0.42726115912724344
+  ],
+  "ci_P_sub": {
+   "opener": [
+    0.2283946251768034,
+    0.26591230551626593
+   ],
+   "medial": [
+    0.22997171145686,
+    0.26223479490806223
+   ],
+   "closer": [
+    0.10816831683168317,
+    0.13228429985855725
+   ]
+  },
+  "ratio_minOM_over_closer": 1.9519999999999997,
+  "ci_ratio_minOM_over_closer": [
+   1.792467398764585,
+   2.285904159132007
+  ]
+ },
+ "dev_windows": {
+  "start": {
+   "novel_rate": 0.5299600532623169,
+   "novel_common_combo_rate": 0.22503328894806923,
+   "frac_novel_common": 0.42462311557788945,
+   "N": 751
+  },
+  "interior": {
+   "novel_rate": 0.6528894806924102,
+   "novel_common_combo_rate": 0.3589880159786951,
+   "frac_novel_common": 0.5498449991842063,
+   "N": 751
+  },
+  "end": {
+   "novel_rate": 0.37017310252996005,
+   "novel_common_combo_rate": 0.12916111850865514,
+   "frac_novel_common": 0.3489208633093525,
+   "N": 751
+  }
+ },
+ "stability_dev->n276": {
+  "labels": {
+   "mixed": 100
+  },
+  "p2_pass": 1.0
+ },
+ "stability_devMD->n221": {
+  "labels": {
+   "mixed": 99,
+   "single": 1
+  },
+  "p2_pass": 1.0
+ },
+ "stability_dev->n129": {
+  "labels": {
+   "mixed": 99,
+   "even": 1
+  },
+  "p2_pass": 0.95
+ },
+ "neg_shuffled_n276": {
+  "even": 50
+ },
+ "pos_ur3_words_n276": {
+  "labels": {
+   "mixed": 50
+  },
+  "top_low": {
+   "('opener', 'medial')": 44,
+   "('closer', 'medial')": 6
+  }
+ },
+ "pos_ur3_merged_n276": {
+  "labels": {
+   "mixed": 50
+  },
+  "top_low": {
+   "('opener', 'medial')": 37,
+   "('closer', 'medial')": 13
+  }
+ }
+}

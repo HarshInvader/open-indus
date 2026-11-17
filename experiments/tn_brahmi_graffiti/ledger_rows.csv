@@ -1,0 +1,2 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+tnb_gate,Specific graffiti marks go with specific Tamil-Brahmi words/name endings,tn_brahmi_graffiti,experiments/tn_brahmi_graffiti/RESULTS.md,20 sherds with text+mark; 0 marks identified,,not run,,20 sherds,yes (sherds),all,confirmatory,tn_brahmi:gate,1,no,,,,,,gate (>=30 identified) not passed; power 0.25 at OR3 / 0.57 at OR10 for n=20

@@ -1,0 +1,2 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+onom_rep,Sumerian/Akkadian/Amorite names repeat a syllable less than a within-language permutation null (0.096/0.085/0.042 vs 0.139/0.101/0.123),onomasticon,experiments/onomasticon/RESULTS.md,observed vs permutation rate,,descriptive,,1299/1922/95 distinct names,yes,none,descriptive,onomasticon,1,no,,,,,,not an Indus test; language labels heuristic

@@ -1,0 +1,306 @@
+{
+ "n_rows": 28,
+ "n_candidate_objects_checked": 190,
+ "status_counts": {
+  "known": 11,
+  "known_presumed": 1,
+  "known_probable": 3,
+  "new": 12,
+  "possible_known": 1
+ },
+ "P12_direction": {
+  "n_determinable": 1,
+  "rl": 1,
+  "evaluable": false
+ },
+ "primary": {
+  "n_texts": 2,
+  "texts": {
+   "binjor_tcseal": [
+    "M1",
+    "M342",
+    "M1"
+   ],
+   "khirsara_graffito_b": [
+    "M137"
+   ]
+  },
+  "scores": {
+   "P1": {
+    "k": 0,
+    "n": 1,
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.793
+    ],
+    "evaluable": false
+   },
+   "P1c": {
+    "k": 0,
+    "n": 1,
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.793
+    ],
+    "evaluable": false,
+    "pass": false
+   },
+   "P2": {
+    "k": 1,
+    "n": 2,
+    "share": 0.5,
+    "ci": [
+     0.095,
+     0.905
+    ],
+    "evaluable": false,
+    "p_vs_0.5": 0.75,
+    "pass": false
+   },
+   "P3": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P4": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P5": {
+    "n": 1,
+    "evaluable": false,
+    "k": 1,
+    "share": 1.0,
+    "ci": [
+     0.207,
+     1.0
+    ]
+   },
+   "P6": {
+    "k": 1,
+    "n": 1,
+    "share": 1.0,
+    "ci": [
+     0.207,
+     1.0
+    ],
+    "evaluable": false
+   },
+   "P7": {
+    "k": 1,
+    "n": 1,
+    "share": 1.0,
+    "ci": [
+     0.207,
+     1.0
+    ],
+    "evaluable": false
+   },
+   "P8": {
+    "k": 4,
+    "n": 4,
+    "share": 1.0,
+    "ci": [
+     0.51,
+     1.0
+    ],
+    "evaluable": false
+   },
+   "P9": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P10": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P11": {
+    "n": 2,
+    "mean_len": 2.0,
+    "evaluable": false
+   },
+   "P13": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P14_fish_first": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   }
+  },
+  "n_evaluable_predictions": 0
+ },
+ "sensitivity_all_readable": {
+  "n_texts": 6,
+  "texts": {
+   "binjor_seal1": [
+    "M87",
+    "M144"
+   ],
+   "binjor_tcseal": [
+    "M1",
+    "M342",
+    "M1"
+   ],
+   "khirsara_graffito_b": [
+    "M137"
+   ],
+   "khirsara_graffito_a": [
+    "M132"
+   ],
+   "khirsara_graffito_c": [
+    "M167"
+   ],
+   "khirsara_seal_bison": [
+    "M326",
+    "M109",
+    "M162"
+   ]
+  },
+  "scores": {
+   "P1": {
+    "k": 0,
+    "n": 3,
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.562
+    ],
+    "evaluable": false
+   },
+   "P1c": {
+    "k": 0,
+    "n": 1,
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.793
+    ],
+    "evaluable": false,
+    "pass": false
+   },
+   "P2": {
+    "k": 2,
+    "n": 3,
+    "share": 0.667,
+    "ci": [
+     0.208,
+     0.939
+    ],
+    "evaluable": false,
+    "p_vs_0.5": 0.5,
+    "pass": false
+   },
+   "P3": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P4": {
+    "k": 0,
+    "n": 1,
+    "share": 0.0,
+    "ci": [
+     0.0,
+     0.793
+    ],
+    "evaluable": false
+   },
+   "P5": {
+    "n": 3,
+    "evaluable": false,
+    "k": 3,
+    "share": 1.0,
+    "ci": [
+     0.438,
+     1.0
+    ]
+   },
+   "P6": {
+    "k": 3,
+    "n": 3,
+    "share": 1.0,
+    "ci": [
+     0.438,
+     1.0
+    ],
+    "evaluable": false
+   },
+   "P7": {
+    "k": 3,
+    "n": 3,
+    "share": 1.0,
+    "ci": [
+     0.438,
+     1.0
+    ],
+    "evaluable": false
+   },
+   "P8": {
+    "k": 11,
+    "n": 11,
+    "share": 1.0,
+    "ci": [
+     0.741,
+     1.0
+    ],
+    "evaluable": false
+   },
+   "P9": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P10": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P11": {
+    "n": 6,
+    "mean_len": 1.83,
+    "evaluable": false
+   },
+   "P13": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   },
+   "P14_fish_first": {
+    "k": 0,
+    "n": 0,
+    "share": null,
+    "ci": null,
+    "evaluable": false
+   }
+  }
+ },
+ "verdict": "untestable: no frozen prediction reached its minimum n"
+}

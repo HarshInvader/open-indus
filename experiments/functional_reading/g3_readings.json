@@ -1,0 +1,52 @@
+{
+ "n_readings": 3445,
+ "parsed": 2904,
+ "bands": {
+  "medium": 1267,
+  "low": 844,
+  "high": 1334
+ },
+ "label_counts": {
+  "FISH-NOUN": 943,
+  "TITLE": 478,
+  "CLOSER(jar)": 1323,
+  "NOUN": 4060,
+  "NUMBER+NOUN": 422,
+  "OPENER": 1025,
+  "NUMBER-NAME": 229,
+  "TITLE-BLOCK": 285,
+  "CONNECTIVE": 240,
+  "CLOSER": 558,
+  "NUMBER+CLOSER": 264,
+  "REGISTER": 41,
+  "FORMULA": 176,
+  "BREAK": 52,
+  "NUMERAL": 82,
+  "DOC-TYPE CLITIC": 355,
+  "POST-CLOSER": 148,
+  "BRACKETED-FISH CLOSER": 49,
+  "UNIT/MEASURE": 16,
+  "COUNT+MEASURE": 278
+ },
+ "token_share_role_grade": {
+  "B": 0.202,
+  "A": 0.406,
+  "unknown noun": 0.267,
+  "dev-positional C": 0.113,
+  "C": 0.007,
+  "unseen": 0.005
+ },
+ "token_share_meaning_grade": {
+  "C": 0.145,
+  "B": 0.341,
+  "-": 0.514
+ },
+ "lexicon_counts": {
+  "sign|A": 38,
+  "sign|B": 23,
+  "sign|unassigned": 247,
+  "sign|C": 64,
+  "sequence|B": 36,
+  "sequence|A": 5
+ }
+}

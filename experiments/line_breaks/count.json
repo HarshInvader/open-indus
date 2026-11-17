@@ -1,0 +1,96 @@
+{
+ "m77_multiline_objects": 122,
+ "m77_multiline_distinct": 117,
+ "m77_multiline_distinct_by_type": {
+  "seal": 107,
+  "miscellaneous": 1,
+  "copper tablet": 3,
+  "sealing": 4,
+  "pottery graffito": 2
+ },
+ "m77_usable": 74,
+ "m77_exclusions": {
+  "incomplete": 24,
+  "ok": 74,
+  "not exactly 2 non-empty lines": 8,
+  "mixed direction": 5,
+  "<3 signs": 5,
+  "break mark": 1
+ },
+ "m77_usable_by_type": {
+  "seal": 67,
+  "miscellaneous": 1,
+  "copper tablet": 2,
+  "sealing": 3,
+  "pottery graffito": 1
+ },
+ "m77_usable_heldout_family": 23,
+ "m77_usable_line_lengths": {
+  "line1_mean": 4.364864864864865,
+  "line2_mean": 2.445945945945946,
+  "line2_single_sign_share": 0.35135135135135137,
+  "line2_longer_than_line1": 13
+ },
+ "icit_multiline_objects": 118,
+ "icit_multiline_distinct": 117,
+ "icit_multiline_distinct_by_type": {
+  "SEAL": 96,
+  "MISC": 2,
+  "POT": 11,
+  "TAB": 3,
+  "IMPL": 3,
+  "BNGL": 1,
+  "TAG": 1
+ },
+ "icit_multiline_not_matched_to_any_m77_text": 82,
+ "icit_unmatched_by_site": {
+  "Allahdino": 1,
+  "Banawali": 1,
+  "Chanhu-daro": 11,
+  "Dholavira": 4,
+  "Harappa": 17,
+  "Kalibangan": 2,
+  "Lothal": 2,
+  "Mohenjo-daro": 41,
+  "Nausharo": 1,
+  "Unknown": 1,
+  "Karzakan": 1
+ },
+ "icit_usable": 67,
+ "icit_usable_by_type": {
+  "SEAL": 61,
+  "POT": 3,
+  "TAB": 3
+ },
+ "icit_usable_unmatched_extra": 39,
+ "union_usable_estimate": 113,
+ "wrap_check": {
+  "n_two_line_seals_with_width": 57,
+  "line1_length_percentile_among_single_line_seals_same_width_median": 0.4318181818181818,
+  "share_line1_at_or_above_p90_of_single_line": 0.08771929824561403,
+  "share_line1_below_median_single_line": 0.5789473684210527,
+  "total_length_two_line_minus_p90_single_mean": -0.1368421052631579,
+  "line2_single_sign_share": 0.15789473684210525
+ },
+ "single_line_len_vs_width_spearman": 0.35562977361349596,
+ "m77_direction_combos": {
+  "right-to-left + right-to-left": 56,
+  "right-to-left + single sign": 29,
+  "right-to-left + left-to-right": 7,
+  "single sign + single sign": 5,
+  "left-to-right + single sign": 3,
+  "right-to-left + no text": 3,
+  "single sign + left-to-right": 2,
+  "left-to-right + left-to-right": 2,
+  "single sign + doubtful + right-to-left": 1,
+  "single sign + right-to-left": 1,
+  "right-to-left + right-to-left + right-to-left": 1,
+  "right-to-left + right-to-left + no text": 1,
+  "no text + no text": 1,
+  "left-to-right + right-to-left": 1,
+  "right-to-left + right-to-left + single sign": 1,
+  "right-to-left + single sign + single sign": 1,
+  "no text + single sign": 1,
+  "right-to-left + left-to-right + right-to-left": 1
+ }
+}

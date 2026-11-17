@@ -1,0 +1,25 @@
+{
+ "area": "language_vs_code",
+ "date": "2026-11-14",
+ "prereg": "docs/prereg/2026-11-14_language_vs_code.md",
+ "comparators": {"language": ["ur3","linb","lat_edh","lat_cae","fin_kal","san_wiki","tam_wiki","W_ur3","W_linb","W_lat_edh","W_lat_cae","W_fin_kal","W_san_wiki","W_tam_wiki"],
+                 "code": ["heraldry","khipu","icd10","plates","sigil_rebuild","slot"],
+                 "unlabelled": ["proto_elamite","indus_bigram"]},
+ "calibration_loco": {
+   "dev_size_1680": {"all_metrics_balanced_acc": 0.68, "lang_called_L": "12/14", "codes_called_L": "3/6"},
+   "heldout_size_565": {"all_metrics_balanced_acc": 0.61, "lang_called_L": "10/14", "codes_called_L": "3/6",
+                        "ldd_only_balanced_acc": 0.40, "menzerath_abbrev_balanced_acc": 0.57}},
+ "single_metric_auc_heldout_size": {"edge_ldd": 0.45, "skip_cmi": 0.49, "mal_surp": 0.45, "mal_seg": 0.38, "open_edge": 0.24, "heaps": 0.74, "abbrev": 0.77, "repeat": 0.68},
+ "indus": {
+   "dev_full": {"edge_ldd": 0.77, "skip_cmi": 15.25, "mal_surp": -6.00, "mal_seg": -16.54, "open_edge": -0.14, "heaps": 0.29, "abbrev": -11.13, "repeat": -0.71, "raw_P_language": 0.49, "calibrated_posterior": 0.27},
+   "heldout_full": {"edge_ldd": -2.03, "skip_cmi": 2.32, "mal_surp": -5.14, "mal_seg": -1.21, "open_edge": -0.14, "heaps": 0.39, "abbrev": -5.30, "repeat": -0.17, "raw_P_language": 0.51, "calibrated_posterior": 0.58}},
+ "prereg_tests": {"T1_power_gate": "fail (0.61 balanced acc, 3/6 codes called L; needed >=0.80 and <=1/6)",
+                  "T2_heldout_undecided_band": "pass (0.51 in [0.40,0.60])",
+                  "T3_replication_of_values": "fail (5/8 inside dev 95% ranges; mal_seg, open_edge, repeat outside)",
+                  "T4a_no_opener_closer_dependency": "pass (edge_ldd -2.03)",
+                  "T4b_menzerath_segments": "fail (-1.21)",
+                  "T4c_abbrev_segments": "pass (-5.30)",
+                  "T4d_longer_texts_more_frequent_signs": "pass (-5.14)"},
+ "posterior_writes_language": {"value": 0.5, "range_across_classifiers": [0.27, 0.58], "verdict": "discriminators lack power at Indus size; posterior stays at prior"},
+ "tests_run": {"confirmatory": 7, "descriptive": "8 metrics x 22 corpora x 2 sizes x 25 reps + 4 classifier variants"}
+}

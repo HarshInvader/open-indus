@@ -1,0 +1,910 @@
+{
+ "observed": {
+  "all": 34,
+  "formula": 14,
+  "other": 20,
+  "formula_frame": 18,
+  "formula_texts_rep": 5
+ },
+ "R1a": {
+  "N2": {
+   "all": {
+    "mean": 7.6,
+    "lo": 0.0,
+    "hi": 16.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.13,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 7.47,
+    "lo": 0.0,
+    "hi": 16.0,
+    "p_ge": 0.005988023952095809,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 1.296,
+    "lo": 0.0,
+    "hi": 4.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.064,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "TRI-A": {
+   "all": {
+    "mean": 18.526,
+    "lo": 8.0,
+    "hi": 30.524999999999977,
+    "p_ge": 0.005988023952095809,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.682,
+    "lo": 0.0,
+    "hi": 4.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 17.844,
+    "lo": 7.475000000000001,
+    "hi": 30.0,
+    "p_ge": 0.3712574850299401,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 2.8,
+    "lo": 0.0,
+    "hi": 7.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.32,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "TRI-L": {
+   "all": {
+    "mean": 18.656,
+    "lo": 8.0,
+    "hi": 30.524999999999977,
+    "p_ge": 0.011976047904191617,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.056,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 18.6,
+    "lo": 8.0,
+    "hi": 30.0,
+    "p_ge": 0.42115768463073855,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 0.644,
+    "lo": 0.0,
+    "hi": 3.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.028,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "SLOT-A": {
+   "all": {
+    "mean": 9.028,
+    "lo": 2.0,
+    "hi": 18.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.308,
+    "lo": 0.0,
+    "hi": 2.5249999999999773,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 8.72,
+    "lo": 2.0,
+    "hi": 18.0,
+    "p_ge": 0.015968063872255488,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 1.886,
+    "lo": 0.0,
+    "hi": 5.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.144,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "SLOT-L": {
+   "all": {
+    "mean": 14.444,
+    "lo": 4.0,
+    "hi": 26.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.084,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 14.36,
+    "lo": 4.0,
+    "hi": 26.0,
+    "p_ge": 0.18363273453093812,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 0.808,
+    "lo": 0.0,
+    "hi": 3.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.042,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "TRI-A_l80": {
+   "all": {
+    "mean": 49.526,
+    "lo": 30.0,
+    "hi": 68.52499999999998,
+    "p_ge": 0.9600798403193613,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 1.142,
+    "lo": 0.0,
+    "hi": 5.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 48.384,
+    "lo": 29.0,
+    "hi": 68.0,
+    "p_ge": 0.998003992015968,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 4.006,
+    "lo": 0.0,
+    "hi": 8.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.534,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "TRI-A_l40": {
+   "all": {
+    "mean": 5.044,
+    "lo": 0.0,
+    "hi": 11.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.136,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 4.908,
+    "lo": 0.0,
+    "hi": 11.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 1.526,
+    "lo": 0.0,
+    "hi": 4.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.064,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  },
+  "TRI-L_l80": {
+   "all": {
+    "mean": 54.834,
+    "lo": 38.0,
+    "hi": 73.0,
+    "p_ge": 0.9920159680638723,
+    "obs": 34
+   },
+   "formula": {
+    "mean": 0.164,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 14
+   },
+   "other": {
+    "mean": 54.67,
+    "lo": 38.0,
+    "hi": 73.0,
+    "p_ge": 1.0,
+    "obs": 20
+   },
+   "formula_frame": {
+    "mean": 1.082,
+    "lo": 0.0,
+    "hi": 3.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 18
+   },
+   "formula_texts_rep": {
+    "mean": 0.08,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 0.001996007984031936,
+    "obs": 5
+   }
+  }
+ },
+ "R1a_cv_loglik": {
+  "trigram_joint_l30": -20.61190829337224,
+  "trigram_joint_l40": -20.65424186283519,
+  "trigram_joint_l50": -20.75110228205367,
+  "trigram_joint_l70": -21.17591507820321,
+  "trigram_joint_l80": -21.601592853396816,
+  "bigram_joint": -21.440612629860794,
+  "trigram_joint": -20.91535901362967,
+  "bigram_cond": -19.114110074241577,
+  "slot_cond": -20.170498887271744,
+  "trigram_joint_l30_formula_texts": -11.213407392689062,
+  "trigram_joint_l40_formula_texts": -11.011216503099371,
+  "trigram_joint_l50_formula_texts": -10.844173521435543,
+  "trigram_joint_l70_formula_texts": -10.627859210890001,
+  "trigram_joint_l80_formula_texts": -10.607565540438726,
+  "bigram_joint_formula_texts": -11.56841188735973,
+  "trigram_joint_formula_texts": -10.713863459775423,
+  "bigram_cond_formula_texts": -9.345326170637584,
+  "slot_cond_formula_texts": -8.716372263269939,
+  "n_test_texts": 517,
+  "n_formula_test_texts": 9,
+  "trigram_minus_bigram_joint_nats_per_text": 0.5252536162311259,
+  "slot_minus_bigram_cond_nats_per_text": -1.0563888130301677
+ },
+ "formula_context": {
+  "distinct_texts_with_frame": {
+   "inside_longer": 3,
+   "len4": 9
+  },
+  "next_after_opener_W002_num": [
+   [
+    "W390",
+    12
+   ],
+   [
+    "W220",
+    6
+   ],
+   [
+    "W585",
+    3
+   ],
+   [
+    "W575",
+    2
+   ],
+   [
+    "W900",
+    2
+   ],
+   [
+    "W407",
+    2
+   ],
+   [
+    "W405",
+    2
+   ],
+   [
+    "W840",
+    1
+   ],
+   [
+    "W861",
+    1
+   ],
+   [
+    "W140",
+    1
+   ]
+  ]
+ },
+ "R1b_prior_records": [
+  {
+   "file": "sources/shaunmortal_indus/STATE.md",
+   "line": 336,
+   "text": "1296 square seals with >=3 signs carry 1219 distinct texts: 1167 texts (96%) occur on exactly one seal; 36 on two, 10 on three, 3 on four, 3 on five. 90% of all seals carry a text found on no other seal. Repeated texts are shorter (mean 3.6 signs vs 5.2 for unique) and formulaic: opener + stroke + t"
+  }
+ ],
+ "R1c": {
+  "objects": [
+   {
+    "obj": "61",
+    "cisi": "C-66",
+    "site": "Chanhu-daro",
+    "text": "W817 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 23.1,
+    "h": 23.1,
+    "symbol": "Bull1:W",
+    "period": "-",
+    "area": "--",
+    "flags": []
+   },
+   {
+    "obj": "136",
+    "cisi": "-",
+    "site": "Dholavira",
+    "text": "W861 W002 W016 W390",
+    "type": "SEAL:R",
+    "material": "Steatite",
+    "w": 34.0,
+    "h": 35.0,
+    "symbol": "None",
+    "period": "-",
+    "area": "",
+    "flags": [
+     "no CISI"
+    ]
+   },
+   {
+    "obj": "634",
+    "cisi": "H-1680",
+    "site": "Harappa",
+    "text": "W820 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 20.4,
+    "h": 20.4,
+    "symbol": "Bull1:W",
+    "period": "3",
+    "area": "E-ETTrench 10E",
+    "flags": []
+   },
+   {
+    "obj": "951",
+    "cisi": "-",
+    "site": "Dholavira",
+    "text": "W817 W002 W004 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 22.0,
+    "h": 22.0,
+    "symbol": "Bull1:U",
+    "period": "2",
+    "area": "",
+    "flags": [
+     "no CISI"
+    ]
+   },
+   {
+    "obj": "1412",
+    "cisi": "H-407",
+    "site": "Harappa",
+    "text": "W817 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 29.2,
+    "h": 29.2,
+    "symbol": "Bull1:W",
+    "period": "-",
+    "area": "J-",
+    "flags": []
+   },
+   {
+    "obj": "2228",
+    "cisi": "M-1697",
+    "site": "Mohenjo-daro",
+    "text": "W861 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 31.8,
+    "h": 31.8,
+    "symbol": "Bull1:W",
+    "period": "Late",
+    "area": "DKG. (S)",
+    "flags": []
+   },
+   {
+    "obj": "2386",
+    "cisi": "M-1729",
+    "site": "Mohenjo-daro",
+    "text": "W820 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Faience",
+    "w": 27.9,
+    "h": 27.9,
+    "symbol": "Bull1:W",
+    "period": "Intermediate",
+    "area": "DKG",
+    "flags": [
+     "material Faience"
+    ]
+   },
+   {
+    "obj": "2418",
+    "cisi": "M-1844",
+    "site": "Mohenjo-daro",
+    "text": "W817 W002 W004 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 21.6,
+    "h": 21.6,
+    "symbol": "Bull1:U",
+    "period": "-",
+    "area": "DKE",
+    "flags": []
+   },
+   {
+    "obj": "2453",
+    "cisi": "M-984",
+    "site": "Mohenjo-daro",
+    "text": "W817 W002 W004 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 20.3,
+    "h": 20.3,
+    "symbol": "Bull1",
+    "period": "-",
+    "area": "HR-",
+    "flags": []
+   },
+   {
+    "obj": "2560",
+    "cisi": "M-32",
+    "site": "Mohenjo-daro",
+    "text": "W817 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 31.8,
+    "h": 31.8,
+    "symbol": "Bull1:J",
+    "period": "Late",
+    "area": "DKG. (S)",
+    "flags": []
+   },
+   {
+    "obj": "3137",
+    "cisi": "M-712",
+    "site": "Mohenjo-daro",
+    "text": "W861 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 31.8,
+    "h": 33.0,
+    "symbol": "Bull1:W",
+    "period": "-",
+    "area": "DKB",
+    "flags": []
+   },
+   {
+    "obj": "3855",
+    "cisi": "Ns-7",
+    "site": "Nausharo",
+    "text": "W820 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "Steatite",
+    "w": 27.5,
+    "h": 27.0,
+    "symbol": "Bull1:J",
+    "period": "3",
+    "area": "--",
+    "flags": []
+   },
+   {
+    "obj": "3990",
+    "cisi": "M-1806",
+    "site": "Mohenjo-daro",
+    "text": "W820 W002 W003 W390",
+    "type": "SEAL:S",
+    "material": "-",
+    "w": 23.0,
+    "h": 23.0,
+    "symbol": "Bull1:S",
+    "period": "-",
+    "area": "DKB",
+    "flags": []
+   },
+   {
+    "obj": "4260",
+    "cisi": "-",
+    "site": "Dholavira",
+    "text": "W861 W002 W016 W390",
+    "type": "SEAL:R",
+    "material": "-",
+    "w": 18.7,
+    "h": 11.4,
+    "symbol": "None",
+    "period": "6",
+    "area": "",
+    "flags": [
+     "no CISI"
+    ]
+   }
+  ],
+  "n_flagged": 4,
+  "observed_after_drop": {
+   "all": 30,
+   "formula": 10,
+   "other": 20,
+   "formula_frame": 14,
+   "formula_texts_rep": 4
+  },
+  "nulls_after_drop": {
+   "N2": {
+    "formula": {
+     "mean": 0.144,
+     "lo": 0.0,
+     "hi": 2.0,
+     "p_ge": 0.001996007984031936,
+     "obs": 10
+    },
+    "other": {
+     "mean": 7.656,
+     "lo": 0.9500000000000028,
+     "hi": 16.0,
+     "p_ge": 0.005988023952095809,
+     "obs": 20
+    },
+    "formula_frame": {
+     "mean": 1.27,
+     "lo": 0.0,
+     "hi": 4.0,
+     "p_ge": 0.001996007984031936,
+     "obs": 14
+    }
+   },
+   "TRI-L": {
+    "formula": {
+     "mean": 0.07,
+     "lo": 0.0,
+     "hi": 2.0,
+     "p_ge": 0.001996007984031936,
+     "obs": 10
+    },
+    "other": {
+     "mean": 18.056,
+     "lo": 7.475000000000001,
+     "hi": 30.524999999999977,
+     "p_ge": 0.39520958083832336,
+     "obs": 20
+    },
+    "formula_frame": {
+     "mean": 0.64,
+     "lo": 0.0,
+     "hi": 3.0,
+     "p_ge": 0.001996007984031936,
+     "obs": 14
+    }
+   },
+   "SLOT-L": {
+    "formula": {
+     "mean": 0.032,
+     "lo": 0.0,
+     "hi": 0.0,
+     "p_ge": 0.001996007984031936,
+     "obs": 10
+    },
+    "other": {
+     "mean": 13.81,
+     "lo": 5.0,
+     "hi": 26.0,
+     "p_ge": 0.1497005988023952,
+     "obs": 20
+    },
+    "formula_frame": {
+     "mean": 0.746,
+     "lo": 0.0,
+     "hi": 3.0,
+     "p_ge": 0.001996007984031936,
+     "obs": 14
+    }
+   }
+  },
+  "sites": [
+   "Chanhu-daro",
+   "Dholavira",
+   "Harappa",
+   "Mohenjo-daro",
+   "Nausharo"
+  ]
+ },
+ "R1c_m77_frame": {
+  "n_seal_objects": 16,
+  "by_text": [
+   [
+    "M267 M99 M102 M162",
+    6
+   ],
+   [
+    "M267 M99 M104 M162",
+    2
+   ],
+   [
+    "M267 M99 M104 M169",
+    2
+   ],
+   [
+    "M391 M99 M102 M162",
+    2
+   ],
+   [
+    "M391 M99 M104 M162",
+    1
+   ],
+   [
+    "M267 M99 M106 M162",
+    1
+   ],
+   [
+    "M267 M99 M107 M162",
+    1
+   ],
+   [
+    "M391 M99 M104 M169",
+    1
+   ]
+  ],
+  "by_site": {
+   "Mohenjo-daro": 14,
+   "Harappa": 1,
+   "Chanhu-daro": 1
+  },
+  "closers": {
+   "M162": 13,
+   "M169": 3
+  },
+  "connective": {
+   "M99": 16
+  },
+  "other_classes": {
+   "moulded_tablet": 1,
+   "sealing": 2
+  }
+ },
+ "R1d": {
+  "dev_observed": {
+   "frame": 16,
+   "frame_strict": 0,
+   "frame_rep_texts": 4,
+   "frame_rep_objects": 12,
+   "rep45_objects": 45
+  },
+  "heldout_observed": {
+   "frame": 0,
+   "frame_strict": 0,
+   "frame_rep_texts": 0,
+   "frame_rep_objects": 0,
+   "rep45_objects": 5
+  },
+  "n_dev_seals": 1059,
+  "n_heldout_seals": 370,
+  "heldout_frame_texts": [],
+  "dev_frame_texts": [
+   [
+    "M267 M99 M102 M162",
+    6
+   ],
+   [
+    "M267 M99 M104 M162",
+    2
+   ],
+   [
+    "M267 M99 M104 M169",
+    2
+   ],
+   [
+    "M391 M99 M102 M162",
+    2
+   ],
+   [
+    "M391 M99 M104 M162",
+    1
+   ],
+   [
+    "M267 M99 M106 M162",
+    1
+   ],
+   [
+    "M267 M99 M107 M162",
+    1
+   ],
+   [
+    "M391 M99 M104 M169",
+    1
+   ]
+  ],
+  "bigram_dev": {
+   "frame": {
+    "mean": 0.54,
+    "lo": 0.0,
+    "hi": 3.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_strict": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_rep_texts": {
+    "mean": 0.024,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_rep_objects": {
+    "mean": 0.05,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "rep45_objects": {
+    "mean": 1.344,
+    "lo": 0.0,
+    "hi": 5.0,
+    "p_ge": 0.03992015968063872,
+    "obs": 5
+   }
+  },
+  "trigram_dev": {
+   "frame": {
+    "mean": 0.948,
+    "lo": 0.0,
+    "hi": 3.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_strict": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_rep_texts": {
+    "mean": 0.046,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_rep_objects": {
+    "mean": 0.092,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "rep45_objects": {
+    "mean": 1.95,
+    "lo": 0.0,
+    "hi": 6.0,
+    "p_ge": 0.06986027944111776,
+    "obs": 5
+   }
+  },
+  "slot_dev": {
+   "frame": {
+    "mean": 1.192,
+    "lo": 0.0,
+    "hi": 4.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_strict": {
+    "mean": 0.0,
+    "lo": 0.0,
+    "hi": 0.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_rep_texts": {
+    "mean": 0.076,
+    "lo": 0.0,
+    "hi": 1.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "frame_rep_objects": {
+    "mean": 0.16,
+    "lo": 0.0,
+    "hi": 2.0,
+    "p_ge": 1.0,
+    "obs": 0
+   },
+   "rep45_objects": {
+    "mean": 0.994,
+    "lo": 0.0,
+    "hi": 4.0,
+    "p_ge": 0.01996007984031936,
+    "obs": 5
+   }
+  }
+ },
+ "R1d_icit_new_sites": {
+  "formula_frame_seals": {
+   "Dholavira": 3,
+   "Nausharo": 1
+  },
+  "all_formula_frame_seals": {
+   "Chanhu-daro": 1,
+   "Dholavira": 3,
+   "Harappa": 2,
+   "Mohenjo-daro": 11,
+   "Nausharo": 1
+  }
+ }
+}

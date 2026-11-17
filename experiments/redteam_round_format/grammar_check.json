@@ -1,0 +1,116 @@
+{
+ "units": [
+  {
+   "key": "W632 W390 W400 W375",
+   "site": "Chanhu-daro",
+   "n": 4,
+   "grammar": 5.83,
+   "kn": 7.1
+  },
+  {
+   "key": "W740",
+   "site": "Daimabad",
+   "n": 1,
+   "grammar": 4.29,
+   "kn": 3.78
+  },
+  {
+   "key": "W741 W390 W741 W031 W705 W033 W368",
+   "site": "Harappa",
+   "n": 7,
+   "grammar": 5.57,
+   "kn": 5.32
+  },
+  {
+   "key": "W003 # # W003",
+   "site": "Mohenjo-daro",
+   "n": 2,
+   "grammar": 4.81,
+   "kn": 5.34
+  },
+  {
+   "key": "# # W001 W140",
+   "site": "Mohenjo-daro",
+   "n": 2,
+   "grammar": 5.8,
+   "kn": 6.24
+  },
+  {
+   "key": "W832 W256",
+   "site": "Mohenjo-daro",
+   "n": 2,
+   "grammar": 5.18,
+   "kn": 5.13
+  },
+  {
+   "key": "W016 W405 W001 W255 W324",
+   "site": "Mohenjo-daro",
+   "n": 5,
+   "grammar": 7.44,
+   "kn": 7.82
+  },
+  {
+   "key": "W140 #",
+   "site": "Mohenjo-daro",
+   "n": 1,
+   "grammar": 6.24,
+   "kn": 6.18
+  },
+  {
+   "key": "W700 W003 W692 W900 W003 W140 W592 W400",
+   "site": "Mohenjo-daro",
+   "n": 8,
+   "grammar": 6.7,
+   "kn": 7.27
+  },
+  {
+   "key": "W820 W060 W002 W832 W140 W592 W055 #",
+   "site": "Mohenjo-daro",
+   "n": 7,
+   "grammar": 7.12,
+   "kn": 7.22
+  },
+  {
+   "key": "# W255 W368 W001 W091 W806",
+   "site": "Dholavira",
+   "n": 5,
+   "grammar": 7.43,
+   "kn": 7.97
+  },
+  {
+   "key": "W688 W317 # W002 W361",
+   "site": "Rakhigarhi",
+   "n": 4,
+   "grammar": 7.16,
+   "kn": 7.64
+  }
+ ],
+ "all_grammar": {
+  "n": 12,
+  "bits": 6.13044214963719,
+  "matched": 5.723606679861078,
+  "diff": 0.4068354697761123,
+  "p": 0.1827817218278172
+ },
+ "all_kn": {
+  "n": 12,
+  "bits": 6.418718557137162,
+  "matched": 5.510316062757313,
+  "diff": 0.9084024943798497,
+  "p": 0.031096890310968902
+ },
+ "corrected_grammar": {
+  "n": 8,
+  "bits": 6.581495592822379,
+  "matched": 5.620808155072856,
+  "diff": 0.9606874377495229,
+  "p": 0.024697530246975304
+ },
+ "corrected_kn": {
+  "n": 8,
+  "bits": 7.050724487124878,
+  "matched": 5.392630688138909,
+  "diff": 1.658093798985969,
+  "p": 0.0005999400059994001
+ }
+}

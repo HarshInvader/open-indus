@@ -1,0 +1,5 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+dw_t1,Dominik: W090 follows W740 but not W520 (ICIT; prereg primary = listing order),dominik_w090,experiments/dominik_w090/RESULTS.md,1/160 vs 3/1257,0.93,fisher,,3504 distinct ICIT,yes,all,confirmatory,dominik_w090,7,no,,,,,,not replicated in prereg order
+dw_t1r,Dominik contrast in reading order (ICIT),dominik_w090,experiments/dominik_w090/RESULTS.md,1/40 vs 90/388,0.0005,fisher,,3504 distinct ICIT,yes,all,exploratory,dominik_w090:secondary,5,no,,,,,,secondary; Mohenjo-daro carries it (p 0.004)
+dw_t2r,Dominik contrast reading order on M77 held-out v2,dominik_w090,experiments/dominik_w090/RESULTS.md,0/8 vs 10/62,0.27,fisher,,571 held-out texts,yes,heldout,exploratory,dominik_w090:secondary,5,no,,,,,,power 0.24: untestable
+dw_t3r,Sharp zero-cell contrasts common (reading order),dominik_w090,experiments/dominik_w090/RESULTS.md,24/57 zero cells vs within-text null 10,0.005,permutation,,3504 distinct ICIT,yes,all,exploratory,dominik_w090:secondary,5,no,,,,,,claim ranks 18/57

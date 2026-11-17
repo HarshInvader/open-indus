@@ -1,0 +1,21 @@
+[san p=1.0 e=0.0 reg=0.3] acc=0.998 cons=0.998 score/tok=2.282 shuf=1.003 oracle_acc=1.000 oracle/tok=2.290 wrong>or=False t=238s
+[san p=1.0 e=0.1 reg=0.0] acc=0.993 cons=0.993 score/tok=1.980 shuf=0.999 oracle_acc=1.000 oracle/tok=2.020 wrong>or=False t=247s
+[san p=1.0 e=0.2 reg=0.0] acc=0.920 cons=0.928 score/tok=1.553 shuf=1.003 oracle_acc=1.000 oracle/tok=1.786 wrong>or=False t=236s
+[san p=1.0 e=0.3 reg=0.0] acc=0.758 cons=0.785 score/tok=1.276 shuf=1.010 oracle_acc=0.997 oracle/tok=1.612 wrong>or=False t=227s
+[san p=1.0 e=0.2 reg=0.3] acc=0.962 cons=0.962 score/tok=1.646 shuf=1.008 oracle_acc=0.999 oracle/tok=1.757 wrong>or=False t=282s
+[san p=0.5 e=0.1 reg=0.3] acc=0.755 cons=0.776 score/tok=1.318 shuf=1.000 oracle_acc=0.984 oracle/tok=1.544 wrong>or=False t=255s
+[san p=0.5 e=0.2 reg=0.0] acc=0.267 cons=0.389 score/tok=1.189 shuf=0.994 oracle_acc=0.993 oracle/tok=1.455 wrong>or=False t=233s
+[san p=0.3 e=0.0 reg=0.0] acc=0.517 cons=0.543 score/tok=1.233 shuf=0.990 oracle_acc=0.986 oracle/tok=1.470 wrong>or=False t=238s
+[san p=0.3 e=0.1 reg=0.0] acc=0.270 cons=0.394 score/tok=1.183 shuf=0.993 oracle_acc=0.980 oracle/tok=1.391 wrong>or=False t=242s
+[tam p=1.0 e=0.0 reg=0.3] acc=1.000 cons=1.000 score/tok=1.619 shuf=0.723 oracle_acc=1.000 oracle/tok=1.619 wrong>or=False t=156s
+[tam p=1.0 e=0.1 reg=0.0] acc=0.999 cons=0.999 score/tok=1.435 shuf=0.729 oracle_acc=1.000 oracle/tok=1.449 wrong>or=False t=166s
+[tam p=1.0 e=0.2 reg=0.0] acc=0.981 cons=0.981 score/tok=1.224 shuf=0.733 oracle_acc=1.000 oracle/tok=1.272 wrong>or=False t=173s
+[tam p=1.0 e=0.3 reg=0.0] acc=0.976 cons=0.976 score/tok=1.087 shuf=0.726 oracle_acc=0.996 oracle/tok=1.149 wrong>or=False t=161s
+[tam p=1.0 e=0.2 reg=0.3] acc=0.974 cons=0.975 score/tok=1.202 shuf=0.734 oracle_acc=1.000 oracle/tok=1.246 wrong>or=False t=233s
+[tam p=0.5 e=0.1 reg=0.3] acc=0.928 cons=0.977 score/tok=1.062 shuf=0.720 oracle_acc=0.993 oracle/tok=1.094 wrong>or=False t=244s
+[tam p=0.5 e=0.2 reg=0.0] acc=0.824 cons=0.884 score/tok=0.939 shuf=0.724 oracle_acc=0.992 oracle/tok=1.037 wrong>or=False t=242s
+[tam p=0.3 e=0.0 reg=0.0] acc=0.895 cons=0.945 score/tok=1.013 shuf=0.719 oracle_acc=0.988 oracle/tok=1.046 wrong>or=False t=206s
+[tam p=0.3 e=0.1 reg=0.0] acc=0.814 cons=0.876 score/tok=0.937 shuf=0.718 oracle_acc=0.973 oracle/tok=0.997 wrong>or=False t=220s
+[LinB Homer10k + 216 cognates (p=0.25)] acc=0.000 cons=0.194 oracle_acc=0.749 wrong>or=False
+[LinB Homer10k + 438 cognates (p=0.5)] acc=0.000 cons=0.189 oracle_acc=0.848 wrong>or=False
+[LinB Homer10k + 616 cognates (p=0.75)] acc=0.071 cons=0.204 oracle_acc=0.845 wrong>or=False

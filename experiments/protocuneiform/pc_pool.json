@@ -1,0 +1,2194 @@
+{
+ "ERIM~a": {
+  "n_lines": 199,
+  "counted_rate": 0.7537688442211056,
+  "header_rate": 0.03015075376884422,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ERIM~a.jpg"
+ },
+ "URUDU~a": {
+  "n_lines": 36,
+  "counted_rate": 0.7777777777777778,
+  "header_rate": 0.08333333333333333,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/URUDU~a.jpg"
+ },
+ "ZATU764": {
+  "n_lines": 21,
+  "counted_rate": 1.0,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU764.jpg"
+ },
+ "SZUM": {
+  "n_lines": 31,
+  "counted_rate": 0.8387096774193549,
+  "header_rate": 0.03225806451612903,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZUM.jpg"
+ },
+ "SILA3~a": {
+  "n_lines": 47,
+  "counted_rate": 0.6382978723404256,
+  "header_rate": 0.19148936170212766,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SILA3~a.jpg"
+ },
+ "GUG2": {
+  "n_lines": 139,
+  "counted_rate": 0.8057553956834532,
+  "header_rate": 0.05755395683453238,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GUG2.jpg"
+ },
+ "LU2": {
+  "n_lines": 41,
+  "counted_rate": 0.6341463414634146,
+  "header_rate": 0.12195121951219512,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LU2.jpg"
+ },
+ "TAG~a1": {
+  "n_lines": 21,
+  "counted_rate": 0.9047619047619048,
+  "header_rate": 0.047619047619047616,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TAG~a1.jpg"
+ },
+ "SANGA~a": {
+  "n_lines": 558,
+  "counted_rate": 0.5645161290322581,
+  "header_rate": 0.07347670250896057,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SANGA~a.jpg"
+ },
+ "NUN~a": {
+  "n_lines": 547,
+  "counted_rate": 0.5813528336380256,
+  "header_rate": 0.113345521023766,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NUN~a.jpg"
+ },
+ "NUNUZ~a1": {
+  "n_lines": 147,
+  "counted_rate": 0.7142857142857143,
+  "header_rate": 0.08843537414965986,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/NUNUZ~a1.jpg"
+ },
+ "USZ~a": {
+  "n_lines": 67,
+  "counted_rate": 0.8656716417910447,
+  "header_rate": 0.014925373134328358,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/USZ~a.jpg"
+ },
+ "EN~a": {
+  "n_lines": 1446,
+  "counted_rate": 0.6182572614107884,
+  "header_rate": 0.06293222683264177,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/EN~a.jpg"
+ },
+ "U4": {
+  "n_lines": 423,
+  "counted_rate": 0.6784869976359338,
+  "header_rate": 0.04018912529550828,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/U4.jpg"
+ },
+ "DU8~c": {
+  "n_lines": 39,
+  "counted_rate": 0.8974358974358975,
+  "header_rate": 0.02564102564102564,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DU8~c.jpg"
+ },
+ "DUG~a": {
+  "n_lines": 248,
+  "counted_rate": 0.6975806451612904,
+  "header_rate": 0.05241935483870968,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/DUG~b.jpg"
+ },
+ "GAL~a": {
+  "n_lines": 507,
+  "counted_rate": 0.6706114398422091,
+  "header_rate": 0.05917159763313609,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GAL~a.jpg"
+ },
+ "SIG2~a2": {
+  "n_lines": 21,
+  "counted_rate": 0.8095238095238095,
+  "header_rate": 0.09523809523809523,
+  "class": "TEXTILE",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SIG2~a2.jpg"
+ },
+ "SZIM~a": {
+  "n_lines": 52,
+  "counted_rate": 0.6346153846153846,
+  "header_rate": 0.019230769230769232,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZIM~a.jpg"
+ },
+ "KAB": {
+  "n_lines": 106,
+  "counted_rate": 0.660377358490566,
+  "header_rate": 0.07547169811320754,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KAB.jpg"
+ },
+ "NAM2": {
+  "n_lines": 280,
+  "counted_rate": 0.6285714285714286,
+  "header_rate": 0.08571428571428572,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NAM2.jpg"
+ },
+ "HI@g~a": {
+  "n_lines": 159,
+  "counted_rate": 0.9119496855345912,
+  "header_rate": 0.012578616352201259,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/HI@g~a.jpg"
+ },
+ "SZE~a": {
+  "n_lines": 1010,
+  "counted_rate": 0.8534653465346534,
+  "header_rate": 0.041584158415841586,
+  "class": "GRAIN_FOOD",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZE~b.jpg"
+ },
+ "MUSZ3~a": {
+  "n_lines": 259,
+  "counted_rate": 0.7142857142857143,
+  "header_rate": 0.05791505791505792,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MUSZ3~a.jpg"
+ },
+ "AN": {
+  "n_lines": 798,
+  "counted_rate": 0.7142857142857143,
+  "header_rate": 0.04887218045112782,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AN.jpg"
+ },
+ "SIG": {
+  "n_lines": 82,
+  "counted_rate": 0.6097560975609756,
+  "header_rate": 0.06097560975609756,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SIG.jpg"
+ },
+ "NAGAR~b": {
+  "n_lines": 20,
+  "counted_rate": 0.4,
+  "header_rate": 0.05,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NAGAR~b.jpg"
+ },
+ "A": {
+  "n_lines": 473,
+  "counted_rate": 0.678646934460888,
+  "header_rate": 0.0613107822410148,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/A.jpg"
+ },
+ "EZEN~b": {
+  "n_lines": 73,
+  "counted_rate": 0.6438356164383562,
+  "header_rate": 0.0958904109589041,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/EZEN~b.jpg"
+ },
+ "BA": {
+  "n_lines": 742,
+  "counted_rate": 0.7210242587601078,
+  "header_rate": 0.03369272237196765,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BA.jpg"
+ },
+ "SZITA~a1": {
+  "n_lines": 275,
+  "counted_rate": 0.7527272727272727,
+  "header_rate": 0.07272727272727272,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZITA~a1.jpg"
+ },
+ "HI": {
+  "n_lines": 264,
+  "counted_rate": 0.6704545454545454,
+  "header_rate": 0.041666666666666664,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/HI.jpg"
+ },
+ "SIG7": {
+  "n_lines": 62,
+  "counted_rate": 0.8387096774193549,
+  "header_rate": 0.08064516129032258,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SIG7.jpg"
+ },
+ "BU~a": {
+  "n_lines": 435,
+  "counted_rate": 0.6620689655172414,
+  "header_rate": 0.03908045977011494,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BU~a.jpg"
+ },
+ "TUR": {
+  "n_lines": 327,
+  "counted_rate": 0.7981651376146789,
+  "header_rate": 0.03058103975535168,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TUR.jpg"
+ },
+ "TE": {
+  "n_lines": 257,
+  "counted_rate": 0.7509727626459144,
+  "header_rate": 0.03501945525291829,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TE.jpg"
+ },
+ "ZATU697~a": {
+  "n_lines": 31,
+  "counted_rate": 0.8064516129032258,
+  "header_rate": 0.0967741935483871,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU697~a.jpg"
+ },
+ "UDU~a": {
+  "n_lines": 551,
+  "counted_rate": 0.8421052631578947,
+  "header_rate": 0.047186932849364795,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/UDU~a.jpg"
+ },
+ "SZITA~b1": {
+  "n_lines": 22,
+  "counted_rate": 0.7727272727272727,
+  "header_rate": 0.045454545454545456,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZITA~b1.jpg"
+ },
+ "KU3~a": {
+  "n_lines": 194,
+  "counted_rate": 0.7783505154639175,
+  "header_rate": 0.04639175257731959,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KU3~a.jpg"
+ },
+ "ZATU714": {
+  "n_lines": 37,
+  "counted_rate": 0.8108108108108109,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU714.jpg"
+ },
+ "MU": {
+  "n_lines": 129,
+  "counted_rate": 0.7286821705426356,
+  "header_rate": 0.015503875968992248,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MU.jpg"
+ },
+ "SAG": {
+  "n_lines": 339,
+  "counted_rate": 0.6283185840707964,
+  "header_rate": 0.06784660766961652,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SAG.jpg"
+ },
+ "GESZTU~b": {
+  "n_lines": 75,
+  "counted_rate": 0.6666666666666666,
+  "header_rate": 0.08,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GESZTU~b.jpg"
+ },
+ "MASZ": {
+  "n_lines": 201,
+  "counted_rate": 0.8606965174129353,
+  "header_rate": 0.014925373134328358,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/MASZ.jpg"
+ },
+ "GAR3": {
+  "n_lines": 29,
+  "counted_rate": 1.0,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GAR3.jpg"
+ },
+ "KASZ~b": {
+  "n_lines": 112,
+  "counted_rate": 0.7410714285714286,
+  "header_rate": 0.08928571428571429,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KASZ~b.jpg"
+ },
+ "EN~b": {
+  "n_lines": 68,
+  "counted_rate": 0.8382352941176471,
+  "header_rate": 0.014705882352941176,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/EN~b.jpg"
+ },
+ "UTUA~a": {
+  "n_lines": 121,
+  "counted_rate": 0.8925619834710744,
+  "header_rate": 0.03305785123966942,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UTUA~a.jpg"
+ },
+ "NUN~b": {
+  "n_lines": 114,
+  "counted_rate": 0.8859649122807017,
+  "header_rate": 0.03508771929824561,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NUN~b.jpg"
+ },
+ "UD5~a": {
+  "n_lines": 205,
+  "counted_rate": 0.848780487804878,
+  "header_rate": 0.02926829268292683,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/UD5~a.jpg"
+ },
+ "GUKKAL~a": {
+  "n_lines": 26,
+  "counted_rate": 0.9615384615384616,
+  "header_rate": 0.0,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GUKKAL~a.jpg"
+ },
+ "ZATU720": {
+  "n_lines": 20,
+  "counted_rate": 0.75,
+  "header_rate": 0.05,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU720.jpg"
+ },
+ "KAK~a": {
+  "n_lines": 29,
+  "counted_rate": 0.6551724137931034,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KAK~a.jpg"
+ },
+ "IDIGNA": {
+  "n_lines": 50,
+  "counted_rate": 0.7,
+  "header_rate": 0.08,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/IDIGNA.jpg"
+ },
+ "ZATU753": {
+  "n_lines": 138,
+  "counted_rate": 0.7101449275362319,
+  "header_rate": 0.050724637681159424,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU753.jpg"
+ },
+ "AL": {
+  "n_lines": 103,
+  "counted_rate": 0.7864077669902912,
+  "header_rate": 0.019417475728155338,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AL.jpg"
+ },
+ "ADAB": {
+  "n_lines": 35,
+  "counted_rate": 0.7428571428571429,
+  "header_rate": 0.11428571428571428,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ADAB.jpg"
+ },
+ "U8": {
+  "n_lines": 172,
+  "counted_rate": 0.8546511627906976,
+  "header_rate": 0.06976744186046512,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/U8.jpg"
+ },
+ "LAGAR~a": {
+  "n_lines": 37,
+  "counted_rate": 0.7567567567567568,
+  "header_rate": 0.02702702702702703,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LAGAR~a.jpg"
+ },
+ "LAGAB~a": {
+  "n_lines": 38,
+  "counted_rate": 0.7894736842105263,
+  "header_rate": 0.02631578947368421,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LAGAB~a.jpg"
+ },
+ "TA~c": {
+  "n_lines": 20,
+  "counted_rate": 0.85,
+  "header_rate": 0.05,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TA~c.jpg"
+ },
+ "SAL": {
+  "n_lines": 731,
+  "counted_rate": 0.8303693570451436,
+  "header_rate": 0.03419972640218878,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SAL.jpg"
+ },
+ "KI": {
+  "n_lines": 382,
+  "counted_rate": 0.5968586387434555,
+  "header_rate": 0.06806282722513089,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KI.jpg"
+ },
+ "SZA3~a1": {
+  "n_lines": 79,
+  "counted_rate": 0.7468354430379747,
+  "header_rate": 0.0379746835443038,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZA3~a1.jpg"
+ },
+ "SA~a": {
+  "n_lines": 23,
+  "counted_rate": 0.8695652173913043,
+  "header_rate": 0.043478260869565216,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SA~a.jpg"
+ },
+ "ZATU759": {
+  "n_lines": 45,
+  "counted_rate": 0.7555555555555555,
+  "header_rate": 0.06666666666666667,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU759.jpg"
+ },
+ "KISAL~b1": {
+  "n_lines": 193,
+  "counted_rate": 0.5906735751295337,
+  "header_rate": 0.03626943005181347,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KISAL~b1.jpg"
+ },
+ "AMAR": {
+  "n_lines": 108,
+  "counted_rate": 0.8148148148148148,
+  "header_rate": 0.037037037037037035,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/AMAR.jpg"
+ },
+ "NA2~a": {
+  "n_lines": 72,
+  "counted_rate": 0.5833333333333334,
+  "header_rate": 0.1111111111111111,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NA2~a.jpg"
+ },
+ "NU11": {
+  "n_lines": 36,
+  "counted_rate": 0.75,
+  "header_rate": 0.027777777777777776,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NU11.jpg"
+ },
+ "SI": {
+  "n_lines": 332,
+  "counted_rate": 0.7259036144578314,
+  "header_rate": 0.02710843373493976,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SI.jpg"
+ },
+ "DUG~c": {
+  "n_lines": 197,
+  "counted_rate": 0.8730964467005076,
+  "header_rate": 0.015228426395939087,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/DUG~c.jpg"
+ },
+ "GA2~a1": {
+  "n_lines": 95,
+  "counted_rate": 0.6842105263157895,
+  "header_rate": 0.031578947368421054,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GA2~a1.jpg"
+ },
+ "ESZDA": {
+  "n_lines": 36,
+  "counted_rate": 0.8611111111111112,
+  "header_rate": 0.05555555555555555,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ESZDA.jpg"
+ },
+ "SZE3": {
+  "n_lines": 149,
+  "counted_rate": 0.8187919463087249,
+  "header_rate": 0.03355704697986577,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZE3.jpg"
+ },
+ "SI4~a": {
+  "n_lines": 69,
+  "counted_rate": 0.7101449275362319,
+  "header_rate": 0.043478260869565216,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SI4~a.jpg"
+ },
+ "RU": {
+  "n_lines": 162,
+  "counted_rate": 0.6358024691358025,
+  "header_rate": 0.07407407407407407,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/RU.jpg"
+ },
+ "AB~a": {
+  "n_lines": 338,
+  "counted_rate": 0.591715976331361,
+  "header_rate": 0.05325443786982249,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AB~a.jpg"
+ },
+ "TUM~a": {
+  "n_lines": 23,
+  "counted_rate": 0.6956521739130435,
+  "header_rate": 0.043478260869565216,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TUM~a.jpg"
+ },
+ "DUB~a": {
+  "n_lines": 135,
+  "counted_rate": 0.7407407407407407,
+  "header_rate": 0.05185185185185185,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DUB~a.jpg"
+ },
+ "AB2": {
+  "n_lines": 252,
+  "counted_rate": 0.7817460317460317,
+  "header_rate": 0.05952380952380952,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/AB2.jpg"
+ },
+ "MEN~a": {
+  "n_lines": 46,
+  "counted_rate": 0.6304347826086957,
+  "header_rate": 0.10869565217391304,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MEN~a.jpg"
+ },
+ "SZITA@g~a": {
+  "n_lines": 24,
+  "counted_rate": 0.7083333333333334,
+  "header_rate": 0.041666666666666664,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZITA@g~a.jpg"
+ },
+ "UDUNITA~a": {
+  "n_lines": 192,
+  "counted_rate": 0.8854166666666666,
+  "header_rate": 0.026041666666666668,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/UDUNITA~a.jpg"
+ },
+ "DUG~b": {
+  "n_lines": 103,
+  "counted_rate": 0.8932038834951457,
+  "header_rate": 0.02912621359223301,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/DUG~b.jpg"
+ },
+ "GAN~b": {
+  "n_lines": 27,
+  "counted_rate": 0.7777777777777778,
+  "header_rate": 0.07407407407407407,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GAN~b.jpg"
+ },
+ "MA": {
+  "n_lines": 179,
+  "counted_rate": 0.8212290502793296,
+  "header_rate": 0.0670391061452514,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MA.jpg"
+ },
+ "ZATU662": {
+  "n_lines": 21,
+  "counted_rate": 0.9523809523809523,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU662.jpg"
+ },
+ "HASZHUR": {
+  "n_lines": 106,
+  "counted_rate": 0.8584905660377359,
+  "header_rate": 0.0660377358490566,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/HASZHUR.jpg"
+ },
+ "SZU2": {
+  "n_lines": 275,
+  "counted_rate": 0.8545454545454545,
+  "header_rate": 0.04727272727272727,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZU2.jpg"
+ },
+ "KA~a": {
+  "n_lines": 75,
+  "counted_rate": 0.5866666666666667,
+  "header_rate": 0.13333333333333333,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KA~a.jpg"
+ },
+ "GI": {
+  "n_lines": 540,
+  "counted_rate": 0.662962962962963,
+  "header_rate": 0.053703703703703705,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GI.jpg"
+ },
+ "MAR~a": {
+  "n_lines": 136,
+  "counted_rate": 0.7573529411764706,
+  "header_rate": 0.014705882352941176,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MAR~a.jpg"
+ },
+ "IB~a": {
+  "n_lines": 266,
+  "counted_rate": 0.5413533834586466,
+  "header_rate": 0.09022556390977443,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/IB~a.jpg"
+ },
+ "PAP~a": {
+  "n_lines": 763,
+  "counted_rate": 0.7142857142857143,
+  "header_rate": 0.03145478374836173,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/PAP~a.jpg"
+ },
+ "NIM~a": {
+  "n_lines": 53,
+  "counted_rate": 0.7735849056603774,
+  "header_rate": 0.09433962264150944,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NIM~a.jpg"
+ },
+ "GA~a": {
+  "n_lines": 185,
+  "counted_rate": 0.5783783783783784,
+  "header_rate": 0.07567567567567568,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GA~a.jpg"
+ },
+ "SUKKAL": {
+  "n_lines": 87,
+  "counted_rate": 0.6551724137931034,
+  "header_rate": 0.05747126436781609,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SUKKAL.jpg"
+ },
+ "ZATU693": {
+  "n_lines": 27,
+  "counted_rate": 0.8888888888888888,
+  "header_rate": 0.037037037037037035,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU693.jpg"
+ },
+ "PAD~a": {
+  "n_lines": 28,
+  "counted_rate": 0.6428571428571429,
+  "header_rate": 0.03571428571428571,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/PAD~a.jpg"
+ },
+ "GADA~a": {
+  "n_lines": 94,
+  "counted_rate": 0.8085106382978723,
+  "header_rate": 0.06382978723404255,
+  "class": "TEXTILE",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GADA~a.jpg"
+ },
+ "NAGAR~a": {
+  "n_lines": 72,
+  "counted_rate": 0.7916666666666666,
+  "header_rate": 0.027777777777777776,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NAGAR~a.jpg"
+ },
+ "DUB~b": {
+  "n_lines": 64,
+  "counted_rate": 0.828125,
+  "header_rate": 0.0625,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DUB~b.jpg"
+ },
+ "SZU": {
+  "n_lines": 508,
+  "counted_rate": 0.7224409448818898,
+  "header_rate": 0.04330708661417323,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZU.jpg"
+ },
+ "UKKIN~a": {
+  "n_lines": 104,
+  "counted_rate": 0.7596153846153846,
+  "header_rate": 0.028846153846153848,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UKKIN~a.jpg"
+ },
+ "GURUSZDA": {
+  "n_lines": 60,
+  "counted_rate": 0.6833333333333333,
+  "header_rate": 0.06666666666666667,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GURUSZDA.jpg"
+ },
+ "UNUG~a": {
+  "n_lines": 250,
+  "counted_rate": 0.58,
+  "header_rate": 0.088,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UNUG~a.jpg"
+ },
+ "NESAG2~a": {
+  "n_lines": 48,
+  "counted_rate": 0.75,
+  "header_rate": 0.0625,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NESAG2~a.jpg"
+ },
+ "TU~a": {
+  "n_lines": 25,
+  "counted_rate": 0.64,
+  "header_rate": 0.04,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TU~a.jpg"
+ },
+ "MASZ2": {
+  "n_lines": 150,
+  "counted_rate": 0.88,
+  "header_rate": 0.03333333333333333,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/MASZ2.jpg"
+ },
+ "DUR~a": {
+  "n_lines": 24,
+  "counted_rate": 0.7916666666666666,
+  "header_rate": 0.08333333333333333,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DUR~a.jpg"
+ },
+ "AMA~a": {
+  "n_lines": 90,
+  "counted_rate": 0.6555555555555556,
+  "header_rate": 0.05555555555555555,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AMA~a.jpg"
+ },
+ "SILA4~c": {
+  "n_lines": 61,
+  "counted_rate": 0.7868852459016393,
+  "header_rate": 0.03278688524590164,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SILA4~c.jpg"
+ },
+ "ZATU752": {
+  "n_lines": 128,
+  "counted_rate": 0.625,
+  "header_rate": 0.0703125,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU752.jpg"
+ },
+ "APIN~a": {
+  "n_lines": 193,
+  "counted_rate": 0.6528497409326425,
+  "header_rate": 0.08290155440414508,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/APIN~a.jpg"
+ },
+ "GURUSZ~a": {
+  "n_lines": 59,
+  "counted_rate": 0.7627118644067796,
+  "header_rate": 0.06779661016949153,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GURUSZ~a.jpg"
+ },
+ "NIMGIR": {
+  "n_lines": 67,
+  "counted_rate": 0.7910447761194029,
+  "header_rate": 0.014925373134328358,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NIMGIR.jpg"
+ },
+ "KU6~a": {
+  "n_lines": 295,
+  "counted_rate": 0.6474576271186441,
+  "header_rate": 0.05084745762711865,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KU6~a.jpg"
+ },
+ "ZATU659": {
+  "n_lines": 109,
+  "counted_rate": 0.8073394495412844,
+  "header_rate": 0.03669724770642202,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU659.jpg"
+ },
+ "ME~a": {
+  "n_lines": 337,
+  "counted_rate": 0.685459940652819,
+  "header_rate": 0.06824925816023739,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ME~a.jpg"
+ },
+ "DIN": {
+  "n_lines": 79,
+  "counted_rate": 0.7974683544303798,
+  "header_rate": 0.02531645569620253,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DIN.jpg"
+ },
+ "BAR": {
+  "n_lines": 393,
+  "counted_rate": 0.7251908396946565,
+  "header_rate": 0.04834605597964377,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BAR.jpg"
+ },
+ "ZATU644~a": {
+  "n_lines": 56,
+  "counted_rate": 0.8928571428571429,
+  "header_rate": 0.03571428571428571,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU644~a.jpg"
+ },
+ "ZATU758": {
+  "n_lines": 24,
+  "counted_rate": 0.625,
+  "header_rate": 0.16666666666666666,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU758.jpg"
+ },
+ "UB": {
+  "n_lines": 155,
+  "counted_rate": 0.6645161290322581,
+  "header_rate": 0.04516129032258064,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UB.jpg"
+ },
+ "SUHUR": {
+  "n_lines": 233,
+  "counted_rate": 0.8583690987124464,
+  "header_rate": 0.06866952789699571,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SUHUR.jpg"
+ },
+ "DA~a": {
+  "n_lines": 202,
+  "counted_rate": 0.6485148514851485,
+  "header_rate": 0.054455445544554455,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DA~a.jpg"
+ },
+ "PA~a": {
+  "n_lines": 384,
+  "counted_rate": 0.640625,
+  "header_rate": 0.052083333333333336,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/PA~a.jpg"
+ },
+ "SZUBUR": {
+  "n_lines": 192,
+  "counted_rate": 0.703125,
+  "header_rate": 0.052083333333333336,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZUBUR.jpg"
+ },
+ "NU": {
+  "n_lines": 32,
+  "counted_rate": 0.6875,
+  "header_rate": 0.03125,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NU.jpg"
+ },
+ "TI": {
+  "n_lines": 81,
+  "counted_rate": 0.7777777777777778,
+  "header_rate": 0.07407407407407407,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TI.jpg"
+ },
+ "TUG2~a": {
+  "n_lines": 295,
+  "counted_rate": 0.847457627118644,
+  "header_rate": 0.04067796610169491,
+  "class": "TEXTILE",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/TUG2~a.jpg"
+ },
+ "UMUN2": {
+  "n_lines": 61,
+  "counted_rate": 0.6229508196721312,
+  "header_rate": 0.09836065573770492,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UMUN2.jpg"
+ },
+ "SUG5": {
+  "n_lines": 79,
+  "counted_rate": 0.5189873417721519,
+  "header_rate": 0.02531645569620253,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SUG5.jpg"
+ },
+ "ISZ~b": {
+  "n_lines": 40,
+  "counted_rate": 0.725,
+  "header_rate": 0.025,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ISZ~b.jpg"
+ },
+ "SZITA~a3": {
+  "n_lines": 25,
+  "counted_rate": 0.72,
+  "header_rate": 0.04,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZITA~a3.jpg"
+ },
+ "GU4": {
+  "n_lines": 143,
+  "counted_rate": 0.7762237762237763,
+  "header_rate": 0.03496503496503497,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GU4.jpg"
+ },
+ "SZA": {
+  "n_lines": 93,
+  "counted_rate": 0.7526881720430108,
+  "header_rate": 0.03225806451612903,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZA.jpg"
+ },
+ "RAD~a": {
+  "n_lines": 199,
+  "counted_rate": 0.47738693467336685,
+  "header_rate": 0.06532663316582915,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/RAD~a.jpg"
+ },
+ "ERIN": {
+  "n_lines": 84,
+  "counted_rate": 0.8809523809523809,
+  "header_rate": 0.011904761904761904,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ERIN.jpg"
+ },
+ "GISZ": {
+  "n_lines": 122,
+  "counted_rate": 0.8442622950819673,
+  "header_rate": 0.06557377049180328,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GISZ.jpg"
+ },
+ "GAR": {
+  "n_lines": 311,
+  "counted_rate": 0.8585209003215434,
+  "header_rate": 0.03215434083601286,
+  "class": "GRAIN_FOOD",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GAR.jpg"
+ },
+ "SIG2~b": {
+  "n_lines": 121,
+  "counted_rate": 0.8264462809917356,
+  "header_rate": 0.05785123966942149,
+  "class": "TEXTILE",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SIG2~b.jpg"
+ },
+ "KASZ~a": {
+  "n_lines": 119,
+  "counted_rate": 0.865546218487395,
+  "header_rate": 0.03361344537815126,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KASZ~a.jpg"
+ },
+ "U2~b": {
+  "n_lines": 126,
+  "counted_rate": 0.6904761904761905,
+  "header_rate": 0.0873015873015873,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/U2~b.jpg"
+ },
+ "MUSZEN": {
+  "n_lines": 195,
+  "counted_rate": 0.7076923076923077,
+  "header_rate": 0.03076923076923077,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/MUSZEN.jpg"
+ },
+ "KASKAL": {
+  "n_lines": 45,
+  "counted_rate": 0.6888888888888889,
+  "header_rate": 0.044444444444444446,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KASKAL.jpg"
+ },
+ "GI6": {
+  "n_lines": 98,
+  "counted_rate": 0.7551020408163265,
+  "header_rate": 0.09183673469387756,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GI6.jpg"
+ },
+ "TUN3~a": {
+  "n_lines": 87,
+  "counted_rate": 0.8275862068965517,
+  "header_rate": 0.06896551724137931,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TUN3~a.jpg"
+ },
+ "I": {
+  "n_lines": 38,
+  "counted_rate": 0.5526315789473685,
+  "header_rate": 0.05263157894736842,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/I.jpg"
+ },
+ "UMBIN~a": {
+  "n_lines": 40,
+  "counted_rate": 0.85,
+  "header_rate": 0.075,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UMBIN~a.jpg"
+ },
+ "UTUL~a": {
+  "n_lines": 27,
+  "counted_rate": 0.7037037037037037,
+  "header_rate": 0.1111111111111111,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/UTUL~a.jpg"
+ },
+ "SZAM2": {
+  "n_lines": 64,
+  "counted_rate": 0.65625,
+  "header_rate": 0.015625,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZAM2.jpg"
+ },
+ "LAL2~a": {
+  "n_lines": 34,
+  "counted_rate": 0.7352941176470589,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LAL2~a.jpg"
+ },
+ "DI": {
+  "n_lines": 90,
+  "counted_rate": 0.7333333333333333,
+  "header_rate": 0.06666666666666667,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DI.jpg"
+ },
+ "DIM~a": {
+  "n_lines": 46,
+  "counted_rate": 0.7391304347826086,
+  "header_rate": 0.06521739130434782,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DIM~a.jpg"
+ },
+ "ZATU726~d": {
+  "n_lines": 23,
+  "counted_rate": 0.9565217391304348,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU726~d.jpg"
+ },
+ "SZAGAN": {
+  "n_lines": 57,
+  "counted_rate": 0.5789473684210527,
+  "header_rate": 0.08771929824561403,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZAGAN.jpg"
+ },
+ "NAMESZDA": {
+  "n_lines": 51,
+  "counted_rate": 0.7058823529411765,
+  "header_rate": 0.0392156862745098,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NAMESZDA.jpg"
+ },
+ "AB~b": {
+  "n_lines": 84,
+  "counted_rate": 0.5238095238095238,
+  "header_rate": 0.05952380952380952,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AB~b.jpg"
+ },
+ "URI": {
+  "n_lines": 20,
+  "counted_rate": 1.0,
+  "header_rate": 0.0,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/URI.jpg"
+ },
+ "NUNUZ~c": {
+  "n_lines": 20,
+  "counted_rate": 0.75,
+  "header_rate": 0.0,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/NUNUZ~c.jpg"
+ },
+ "TUR3~a": {
+  "n_lines": 137,
+  "counted_rate": 0.7445255474452555,
+  "header_rate": 0.08029197080291971,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TUR3~a.jpg"
+ },
+ "KINGAL": {
+  "n_lines": 20,
+  "counted_rate": 0.75,
+  "header_rate": 0.0,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KINGAL.jpg"
+ },
+ "E2~b": {
+  "n_lines": 138,
+  "counted_rate": 0.7391304347826086,
+  "header_rate": 0.043478260869565216,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/E2~b.jpg"
+ },
+ "ZAG~a": {
+  "n_lines": 39,
+  "counted_rate": 0.7948717948717948,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZAG~a.jpg"
+ },
+ "ZATU647": {
+  "n_lines": 48,
+  "counted_rate": 0.6666666666666666,
+  "header_rate": 0.0625,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU647.jpg"
+ },
+ "ZATU628~a": {
+  "n_lines": 30,
+  "counted_rate": 0.8666666666666667,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU628~a.jpg"
+ },
+ "NE~a": {
+  "n_lines": 276,
+  "counted_rate": 0.782608695652174,
+  "header_rate": 0.06159420289855073,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NE~a.jpg"
+ },
+ "NAGA~a": {
+  "n_lines": 134,
+  "counted_rate": 0.6716417910447762,
+  "header_rate": 0.05223880597014925,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/NAGA~a.jpg"
+ },
+ "GISZIMMAR~b1": {
+  "n_lines": 35,
+  "counted_rate": 0.7142857142857143,
+  "header_rate": 0.05714285714285714,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GISZIMMAR~b1.jpg"
+ },
+ "PIRIG~b1": {
+  "n_lines": 118,
+  "counted_rate": 0.6864406779661016,
+  "header_rate": 0.07627118644067797,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/PIRIG~b1.jpg"
+ },
+ "SU~a": {
+  "n_lines": 220,
+  "counted_rate": 0.7181818181818181,
+  "header_rate": 0.06818181818181818,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SU~a.jpg"
+ },
+ "GUM~b": {
+  "n_lines": 33,
+  "counted_rate": 0.6666666666666666,
+  "header_rate": 0.030303030303030304,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GUM~b.jpg"
+ },
+ "NINDA2": {
+  "n_lines": 20,
+  "counted_rate": 0.8,
+  "header_rate": 0.05,
+  "class": "GRAIN_FOOD",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/NINDA2.jpg"
+ },
+ "NI~a": {
+  "n_lines": 240,
+  "counted_rate": 0.7333333333333333,
+  "header_rate": 0.0375,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/NI~a.jpg"
+ },
+ "SZEG9": {
+  "n_lines": 30,
+  "counted_rate": 0.5666666666666667,
+  "header_rate": 0.06666666666666667,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZEG9.jpg"
+ },
+ "GIBIL": {
+  "n_lines": 95,
+  "counted_rate": 0.5368421052631579,
+  "header_rate": 0.05263157894736842,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GIBIL.jpg"
+ },
+ "LAM~b": {
+  "n_lines": 55,
+  "counted_rate": 0.6909090909090909,
+  "header_rate": 0.05454545454545454,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LAM~b.jpg"
+ },
+ "KUR~a": {
+  "n_lines": 215,
+  "counted_rate": 0.8744186046511628,
+  "header_rate": 0.023255813953488372,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KUR~a.jpg"
+ },
+ "SZAB~a": {
+  "n_lines": 25,
+  "counted_rate": 0.76,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZAB~a.jpg"
+ },
+ "KALAM~a": {
+  "n_lines": 27,
+  "counted_rate": 0.5185185185185185,
+  "header_rate": 0.1111111111111111,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KALAM~a.jpg"
+ },
+ "URU~a1": {
+  "n_lines": 128,
+  "counted_rate": 0.59375,
+  "header_rate": 0.0703125,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/URU~a1.jpg"
+ },
+ "UR~a": {
+  "n_lines": 57,
+  "counted_rate": 0.7017543859649122,
+  "header_rate": 0.017543859649122806,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UR~a.jpg"
+ },
+ "ESZGAR": {
+  "n_lines": 22,
+  "counted_rate": 0.9545454545454546,
+  "header_rate": 0.0,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/ESZGAR.jpg"
+ },
+ "SZESZ~a": {
+  "n_lines": 23,
+  "counted_rate": 0.8695652173913043,
+  "header_rate": 0.0,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZESZ~a.jpg"
+ },
+ "UR2": {
+  "n_lines": 101,
+  "counted_rate": 0.6237623762376238,
+  "header_rate": 0.0594059405940594,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UR2.jpg"
+ },
+ "E2~a": {
+  "n_lines": 484,
+  "counted_rate": 0.6508264462809917,
+  "header_rate": 0.07644628099173553,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/E2~a.jpg"
+ },
+ "AK~a": {
+  "n_lines": 30,
+  "counted_rate": 0.6,
+  "header_rate": 0.06666666666666667,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AK~a.jpg"
+ },
+ "ZATU629": {
+  "n_lines": 22,
+  "counted_rate": 0.5,
+  "header_rate": 0.09090909090909091,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU629.jpg"
+ },
+ "LAGAB~b": {
+  "n_lines": 127,
+  "counted_rate": 0.8346456692913385,
+  "header_rate": 0.023622047244094488,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LAGAB~b.jpg"
+ },
+ "SAR~a": {
+  "n_lines": 54,
+  "counted_rate": 0.6296296296296297,
+  "header_rate": 0.09259259259259259,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SAR~a.jpg"
+ },
+ "GISZ@t": {
+  "n_lines": 28,
+  "counted_rate": 0.8928571428571429,
+  "header_rate": 0.07142857142857142,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GISZ@t.jpg"
+ },
+ "NAR": {
+  "n_lines": 107,
+  "counted_rate": 0.6542056074766355,
+  "header_rate": 0.04672897196261682,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NAR.jpg"
+ },
+ "DILMUN": {
+  "n_lines": 21,
+  "counted_rate": 0.8571428571428571,
+  "header_rate": 0.047619047619047616,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DILMUN.jpg"
+ },
+ "GI4~a": {
+  "n_lines": 24,
+  "counted_rate": 0.5833333333333334,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GI4~a.jpg"
+ },
+ "MUN~a1": {
+  "n_lines": 58,
+  "counted_rate": 0.9310344827586207,
+  "header_rate": 0.017241379310344827,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/MUN~a1.jpg"
+ },
+ "SILA4~b": {
+  "n_lines": 23,
+  "counted_rate": 0.43478260869565216,
+  "header_rate": 0.043478260869565216,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SILA4~b.jpg"
+ },
+ "BARA2~a": {
+  "n_lines": 73,
+  "counted_rate": 0.863013698630137,
+  "header_rate": 0.0273972602739726,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BARA2~a.jpg"
+ },
+ "GU7": {
+  "n_lines": 310,
+  "counted_rate": 0.3258064516129032,
+  "header_rate": 0.04838709677419355,
+  "class": "GRAIN_FOOD",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GU7.jpg"
+ },
+ "NA~a": {
+  "n_lines": 140,
+  "counted_rate": 0.7357142857142858,
+  "header_rate": 0.05714285714285714,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NA~a.jpg"
+ },
+ "SA~c": {
+  "n_lines": 52,
+  "counted_rate": 0.7884615384615384,
+  "header_rate": 0.038461538461538464,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SA~c.jpg"
+ },
+ "SZA3~a2": {
+  "n_lines": 28,
+  "counted_rate": 0.6785714285714286,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZA3~a2.jpg"
+ },
+ "KAR2~a": {
+  "n_lines": 44,
+  "counted_rate": 0.5227272727272727,
+  "header_rate": 0.13636363636363635,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KAR2~a.jpg"
+ },
+ "TAK4~a": {
+  "n_lines": 130,
+  "counted_rate": 0.7,
+  "header_rate": 0.046153846153846156,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TAK4~a.jpg"
+ },
+ "DUR2": {
+  "n_lines": 49,
+  "counted_rate": 0.673469387755102,
+  "header_rate": 0.061224489795918366,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DUR2.jpg"
+ },
+ "SUM~a": {
+  "n_lines": 20,
+  "counted_rate": 0.55,
+  "header_rate": 0.2,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SUM~a.jpg"
+ },
+ "SIG2~a1": {
+  "n_lines": 22,
+  "counted_rate": 0.7272727272727273,
+  "header_rate": 0.0,
+  "class": "TEXTILE",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SIG2~a1.jpg"
+ },
+ "KISZ": {
+  "n_lines": 154,
+  "counted_rate": 0.8116883116883117,
+  "header_rate": 0.045454545454545456,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KISZ.jpg"
+ },
+ "GIR3~c": {
+  "n_lines": 95,
+  "counted_rate": 0.6842105263157895,
+  "header_rate": 0.031578947368421054,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GIR3~c.jpg"
+ },
+ "ZATU686~a": {
+  "n_lines": 36,
+  "counted_rate": 0.2777777777777778,
+  "header_rate": 0.08333333333333333,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU686~a.jpg"
+ },
+ "TAR~a": {
+  "n_lines": 94,
+  "counted_rate": 0.8191489361702128,
+  "header_rate": 0.010638297872340425,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/TAR~a.jpg"
+ },
+ "IM~a": {
+  "n_lines": 45,
+  "counted_rate": 0.6888888888888889,
+  "header_rate": 0.022222222222222223,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/IM~a.jpg"
+ },
+ "GIR3@g~b": {
+  "n_lines": 73,
+  "counted_rate": 0.589041095890411,
+  "header_rate": 0.0273972602739726,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GIR3@g~b.jpg"
+ },
+ "KASZ~c": {
+  "n_lines": 132,
+  "counted_rate": 0.7954545454545454,
+  "header_rate": 0.045454545454545456,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KASZ~c.jpg"
+ },
+ "GAN2": {
+  "n_lines": 250,
+  "counted_rate": 0.788,
+  "header_rate": 0.04,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GAN2.jpg"
+ },
+ "SZIDIM": {
+  "n_lines": 30,
+  "counted_rate": 0.6666666666666666,
+  "header_rate": 0.06666666666666667,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZIDIM.jpg"
+ },
+ "U2~a": {
+  "n_lines": 125,
+  "counted_rate": 0.776,
+  "header_rate": 0.088,
+  "class": "OTHER_GOODS",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/U2~a.jpg"
+ },
+ "SZELU": {
+  "n_lines": 30,
+  "counted_rate": 0.9333333333333333,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZELU.jpg"
+ },
+ "NIR~a": {
+  "n_lines": 23,
+  "counted_rate": 0.4782608695652174,
+  "header_rate": 0.17391304347826086,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NIR~a.jpg"
+ },
+ "ZATU795": {
+  "n_lines": 22,
+  "counted_rate": 0.7272727272727273,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU795.jpg"
+ },
+ "E~a": {
+  "n_lines": 84,
+  "counted_rate": 0.5357142857142857,
+  "header_rate": 0.011904761904761904,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/E~a.jpg"
+ },
+ "ZATU710": {
+  "n_lines": 51,
+  "counted_rate": 0.9019607843137255,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU710.jpg"
+ },
+ "ZATU703": {
+  "n_lines": 20,
+  "counted_rate": 0.85,
+  "header_rate": 0.05,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU703.jpg"
+ },
+ "KISIM~a": {
+  "n_lines": 61,
+  "counted_rate": 0.7868852459016393,
+  "header_rate": 0.0,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KISIM~a.jpg"
+ },
+ "SZEN~b": {
+  "n_lines": 48,
+  "counted_rate": 0.8958333333333334,
+  "header_rate": 0.020833333333333332,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZEN~b.jpg"
+ },
+ "GA2~a2": {
+  "n_lines": 35,
+  "counted_rate": 0.42857142857142855,
+  "header_rate": 0.05714285714285714,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GA2~a2.jpg"
+ },
+ "NIM~b1": {
+  "n_lines": 64,
+  "counted_rate": 0.53125,
+  "header_rate": 0.03125,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NIM~b1.jpg"
+ },
+ "HAL": {
+  "n_lines": 81,
+  "counted_rate": 0.6049382716049383,
+  "header_rate": 0.08641975308641975,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/HAL.jpg"
+ },
+ "BUR2": {
+  "n_lines": 40,
+  "counted_rate": 0.775,
+  "header_rate": 0.025,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BUR2.jpg"
+ },
+ "ZI~a": {
+  "n_lines": 102,
+  "counted_rate": 0.6176470588235294,
+  "header_rate": 0.0392156862745098,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZI~a.jpg"
+ },
+ "GARA2~a": {
+  "n_lines": 40,
+  "counted_rate": 0.7,
+  "header_rate": 0.1,
+  "class": "LIQUID_DAIRY",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/GARA2~a.jpg"
+ },
+ "ABGAL": {
+  "n_lines": 22,
+  "counted_rate": 0.7272727272727273,
+  "header_rate": 0.0,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ABGAL.jpg"
+ },
+ "ZATU751~a": {
+  "n_lines": 26,
+  "counted_rate": 0.8076923076923077,
+  "header_rate": 0.038461538461538464,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU751~a.jpg"
+ },
+ "GAN~c": {
+  "n_lines": 34,
+  "counted_rate": 0.6764705882352942,
+  "header_rate": 0.08823529411764706,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GAN~c.jpg"
+ },
+ "URI3~a": {
+  "n_lines": 79,
+  "counted_rate": 0.6962025316455697,
+  "header_rate": 0.0759493670886076,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/URI3~a.jpg"
+ },
+ "LA2": {
+  "n_lines": 79,
+  "counted_rate": 0.6329113924050633,
+  "header_rate": 0.02531645569620253,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/LA2.jpg"
+ },
+ "BAHAR2~b": {
+  "n_lines": 22,
+  "counted_rate": 0.5454545454545454,
+  "header_rate": 0.045454545454545456,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BAHAR2~b.jpg"
+ },
+ "KALAM~b": {
+  "n_lines": 53,
+  "counted_rate": 0.5660377358490566,
+  "header_rate": 0.05660377358490566,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KALAM~b.jpg"
+ },
+ "ZABALAM~a": {
+  "n_lines": 45,
+  "counted_rate": 0.5555555555555556,
+  "header_rate": 0.06666666666666667,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZABALAM~a.jpg"
+ },
+ "MUD": {
+  "n_lines": 107,
+  "counted_rate": 0.6074766355140186,
+  "header_rate": 0.037383177570093455,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MUD.jpg"
+ },
+ "KID~b": {
+  "n_lines": 61,
+  "counted_rate": 0.8360655737704918,
+  "header_rate": 0.03278688524590164,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KID~b.jpg"
+ },
+ "GAN~a": {
+  "n_lines": 20,
+  "counted_rate": 0.75,
+  "header_rate": 0.1,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GAN~a.jpg"
+ },
+ "E~b": {
+  "n_lines": 23,
+  "counted_rate": 0.6086956521739131,
+  "header_rate": 0.0,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/E~b.jpg"
+ },
+ "SZAKIR~c": {
+  "n_lines": 35,
+  "counted_rate": 0.7142857142857143,
+  "header_rate": 0.08571428571428572,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZAKIR~c.jpg"
+ },
+ "GU": {
+  "n_lines": 58,
+  "counted_rate": 0.6896551724137931,
+  "header_rate": 0.06896551724137931,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GU.jpg"
+ },
+ "GIR2~a": {
+  "n_lines": 24,
+  "counted_rate": 0.7083333333333334,
+  "header_rate": 0.16666666666666666,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GIR2~a.jpg"
+ },
+ "ZATU773~a": {
+  "n_lines": 44,
+  "counted_rate": 0.5909090909090909,
+  "header_rate": 0.045454545454545456,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU773~a.jpg"
+ },
+ "SILANITA": {
+  "n_lines": 25,
+  "counted_rate": 0.92,
+  "header_rate": 0.0,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SILANITA.jpg"
+ },
+ "DAR~a": {
+  "n_lines": 22,
+  "counted_rate": 0.7272727272727273,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DAR~a.jpg"
+ },
+ "NIN": {
+  "n_lines": 101,
+  "counted_rate": 0.6732673267326733,
+  "header_rate": 0.0297029702970297,
+  "class": "OFFICE_PERSON",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NIN.jpg"
+ },
+ "ZATU648": {
+  "n_lines": 52,
+  "counted_rate": 0.5192307692307693,
+  "header_rate": 0.057692307692307696,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU648.jpg"
+ },
+ "NI2": {
+  "n_lines": 25,
+  "counted_rate": 0.56,
+  "header_rate": 0.16,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/NI2.jpg"
+ },
+ "DUR~b": {
+  "n_lines": 48,
+  "counted_rate": 0.9583333333333334,
+  "header_rate": 0.020833333333333332,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DUR~b.jpg"
+ },
+ "UR5~a": {
+  "n_lines": 72,
+  "counted_rate": 0.7916666666666666,
+  "header_rate": 0.013888888888888888,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/UR5~a.jpg"
+ },
+ "SAGSZU": {
+  "n_lines": 29,
+  "counted_rate": 0.5862068965517241,
+  "header_rate": 0.034482758620689655,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SAGSZU.jpg"
+ },
+ "SZURUPPAK~a": {
+  "n_lines": 47,
+  "counted_rate": 0.3404255319148936,
+  "header_rate": 0.19148936170212766,
+  "class": "PLACE_INST",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SZURUPPAK~a.jpg"
+ },
+ "AD~a": {
+  "n_lines": 28,
+  "counted_rate": 0.6428571428571429,
+  "header_rate": 0.03571428571428571,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/AD~a.jpg"
+ },
+ "ZATU694~c": {
+  "n_lines": 73,
+  "counted_rate": 0.726027397260274,
+  "header_rate": 0.0547945205479452,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU694~c.jpg"
+ },
+ "KU~b1": {
+  "n_lines": 72,
+  "counted_rate": 0.7638888888888888,
+  "header_rate": 0.027777777777777776,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KU~b1.jpg"
+ },
+ "KITI": {
+  "n_lines": 23,
+  "counted_rate": 0.4782608695652174,
+  "header_rate": 0.08695652173913043,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KITI.jpg"
+ },
+ "SI4~f": {
+  "n_lines": 72,
+  "counted_rate": 0.6111111111111112,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/SI4~f.jpg"
+ },
+ "DAR~b": {
+  "n_lines": 26,
+  "counted_rate": 0.8076923076923077,
+  "header_rate": 0.038461538461538464,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/DAR~b.jpg"
+ },
+ "DARA4~c2": {
+  "n_lines": 27,
+  "counted_rate": 0.8518518518518519,
+  "header_rate": 0.037037037037037035,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/DARA4~c2.jpg"
+ },
+ "BUR~a": {
+  "n_lines": 27,
+  "counted_rate": 0.8888888888888888,
+  "header_rate": 0.037037037037037035,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/BUR~a.jpg"
+ },
+ "BULUG3": {
+  "n_lines": 34,
+  "counted_rate": 0.6764705882352942,
+  "header_rate": 0.058823529411764705,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/BULUG3.jpg"
+ },
+ "ZATU649": {
+  "n_lines": 44,
+  "counted_rate": 0.7045454545454546,
+  "header_rate": 0.022727272727272728,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU649.jpg"
+ },
+ "MIR~a": {
+  "n_lines": 22,
+  "counted_rate": 0.9545454545454546,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/MIR~a.jpg"
+ },
+ "KU~b2": {
+  "n_lines": 21,
+  "counted_rate": 0.6666666666666666,
+  "header_rate": 0.047619047619047616,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/KU~b2.jpg"
+ },
+ "GISZ3~b": {
+  "n_lines": 50,
+  "counted_rate": 0.88,
+  "header_rate": 0.0,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/GISZ3~b.jpg"
+ },
+ "SZEN~c@t": {
+  "n_lines": 27,
+  "counted_rate": 0.9259259259259259,
+  "header_rate": 0.0,
+  "class": "VESSEL",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/SZEN~c@t.jpg"
+ },
+ "ZATU788": {
+  "n_lines": 27,
+  "counted_rate": 0.8518518518518519,
+  "header_rate": 0.07407407407407407,
+  "class": "UNKNOWN",
+  "commodity": false,
+  "image": "raw/pc_cdli/archsigns/ZATU788.jpg"
+ },
+ "KIR11": {
+  "n_lines": 22,
+  "counted_rate": 1.0,
+  "header_rate": 0.0,
+  "class": "LIVESTOCK",
+  "commodity": true,
+  "image": "raw/pc_cdli/archsigns/KIR11.jpg"
+ }
+}

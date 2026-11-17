@@ -1,0 +1,3 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+ns_legend,"Foreign Indus texts not shaped like Ur III seal legends (shared initial 0.375 vs 0.70)",name_structure,experiments/name_structure/RESULTS.md,S4 vs length-matched draws,0.001,computed (<1/2000),,40 texts,yes,foreign,confirmatory,name_structure,20,no,,,,,,prereg foreign_name_structure
+ns_akk,"Foreign texts nearest Akkadian names (D 1.78) but home Indus seals not rejected (D 3.08)",name_structure,experiments/name_structure/RESULTS.md,z-distance assignment,,descriptive,,40 texts,yes,foreign,confirmatory,name_structure,20,no,,,,,,power 0.81; Akk/Indus confusion 7-21%

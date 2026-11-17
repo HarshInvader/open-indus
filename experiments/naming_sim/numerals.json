@@ -1,0 +1,153 @@
+{
+ "sanskrit": {
+  "types": 7431,
+  "share_with_numeral": 0.0117,
+  "share_numeral_initial": 1.0,
+  "recurring_formulas": [
+   [
+    "tri+Buvana",
+    2
+   ],
+   [
+    "tri+locana",
+    2
+   ],
+   [
+    "tri+vikrama",
+    2
+   ]
+  ],
+  "examples": [
+   "Sata Bizaj",
+   "Sata Bizaksena",
+   "Sata Danu",
+   "Sata Danus",
+   "Sata Dara",
+   "Sata SIrza"
+  ]
+ },
+ "chinese_given": {
+  "types": 30653,
+  "share_with_numeral": 0.0159,
+  "share_numeral_initial": 0.854,
+  "recurring_formulas": [],
+  "examples": [
+   "一",
+   "一 丁",
+   "一 中",
+   "一 丹",
+   "一 义",
+   "一 之"
+  ]
+ },
+ "chinese_full": {
+  "types": 60000,
+  "share_with_numeral": 0.0161,
+  "share_numeral_initial": 0.173,
+  "recurring_formulas": [
+   [
+    "一+凡",
+    11
+   ],
+   [
+    "一+鸣",
+    10
+   ],
+   [
+    "万+华",
+    9
+   ],
+   [
+    "万+国",
+    7
+   ],
+   [
+    "万+金",
+    7
+   ]
+  ],
+  "examples": [
+   "丁 一 刚",
+   "丁 一 山",
+   "丁 一 川",
+   "丁 四 保",
+   "万 世 军",
+   "万 世 德"
+  ]
+ },
+ "plains": {
+  "types": 101,
+  "share_with_numeral": 0.0198,
+  "share_numeral_initial": 1.0,
+  "recurring_formulas": [],
+  "examples": [
+   "one bull",
+   "two strike"
+  ]
+ },
+ "old_english": {
+  "types": 1043,
+  "share_with_numeral": 0.0,
+  "share_numeral_initial": 0.0,
+  "recurring_formulas": [],
+  "examples": []
+ },
+ "greek": {
+  "types": 962,
+  "share_with_numeral": 0.0062,
+  "share_numeral_initial": 1.0,
+  "recurring_formulas": [],
+  "examples": [
+   "πολυ βους",
+   "πολυ γνωτος",
+   "πολυ δωρον ος",
+   "πολυ κλειτος",
+   "πολυ ποιεω της",
+   "πολυ φημη ος"
+  ]
+ },
+ "mixtec": {
+  "types": 3000,
+  "share_with_numeral": 1.0,
+  "share_numeral_initial": 1.0,
+  "recurring_formulas": [
+   [
+    "num1+day11",
+    20
+   ],
+   [
+    "num3+day10",
+    20
+   ],
+   [
+    "num1+day3",
+    19
+   ],
+   [
+    "num10+day4",
+    19
+   ],
+   [
+    "num2+day1",
+    19
+   ]
+  ],
+  "examples": [
+   "num1 day0",
+   "num1 day0 pn0 pn9",
+   "num1 day0 pn15",
+   "num1 day0 pn16",
+   "num1 day0 pn175 pn23",
+   "num1 day0 pn22"
+  ]
+ },
+ "sangam": {
+  "types": 540,
+  "share_with_numeral": 0.0019,
+  "share_numeral_initial": 1.0,
+  "recurring_formulas": [],
+  "examples": [
+   "oru sirai periyanar"
+  ]
+ }
+}

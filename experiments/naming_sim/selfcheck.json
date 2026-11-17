@@ -1,0 +1,158 @@
+{
+ "indus_dev": {
+  "D2": 113.1,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 0.1,
+   "standalone": -24.2,
+   "both_orders": 0.6,
+   "hfi": -1.2,
+   "pol_ex": 0.8,
+   "both_pos": -2.4
+  }
+ },
+ "old_english": {
+  "D2": 63.6,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 3.0,
+   "standalone": -3.5,
+   "both_orders": 19.2,
+   "hfi": -1.0,
+   "pol_ex": -0.9,
+   "both_pos": -2.8
+  }
+ },
+ "old_high_german": {
+  "D2": 115.8,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 1.3,
+   "standalone": -9.1,
+   "both_orders": 29.6,
+   "hfi": -0.1,
+   "pol_ex": -3.4,
+   "both_pos": 2.9
+  }
+ },
+ "old_norse": {
+  "D2": 12.0,
+  "p": 0.0594059405940594,
+  "z": {
+   "len1": 1.4,
+   "standalone": -3.2,
+   "both_orders": NaN,
+   "hfi": -2.1,
+   "pol_ex": -0.7,
+   "both_pos": -0.0
+  }
+ },
+ "germanic_pooled": {
+  "D2": 361.0,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 3.1,
+   "standalone": -16.4,
+   "both_orders": 25.6,
+   "hfi": -3.4,
+   "pol_ex": -0.2,
+   "both_pos": -1.8
+  }
+ },
+ "greek": {
+  "D2": 366.6,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 4.0,
+   "standalone": -17.2,
+   "both_orders": Infinity,
+   "hfi": 2.0,
+   "pol_ex": -0.6,
+   "both_pos": 0.5
+  }
+ },
+ "sanskrit": {
+  "D2": 45.9,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": -0.4,
+   "standalone": -5.0,
+   "both_orders": Infinity,
+   "hfi": -4.6,
+   "pol_ex": -2.1,
+   "both_pos": 2.2
+  }
+ },
+ "egyptian": {
+  "D2": 15.2,
+  "p": 0.019801980198019802,
+  "z": {
+   "len1": 0.4,
+   "standalone": -3.8,
+   "both_orders": 3.4,
+   "hfi": -0.0,
+   "pol_ex": -0.3,
+   "both_pos": 0.9
+  }
+ },
+ "ur3": {
+  "D2": 16.0,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 2.7,
+   "standalone": -3.0,
+   "both_orders": 0.3,
+   "hfi": -0.5,
+   "pol_ex": 0.3,
+   "both_pos": 0.9
+  }
+ },
+ "chinese_given": {
+  "D2": 113.6,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 7.3,
+   "standalone": -0.7,
+   "both_orders": 0.8,
+   "hfi": 0.1,
+   "pol_ex": 8.0,
+   "both_pos": -7.3
+  }
+ },
+ "chinese_full": {
+  "D2": 2.0,
+  "p": 0.46534653465346537,
+  "z": {
+   "len1": -0.9,
+   "standalone": NaN,
+   "both_orders": -1.7,
+   "hfi": -1.2,
+   "pol_ex": 0.4,
+   "both_pos": -0.5
+  }
+ },
+ "plains": {
+  "D2": 4.3,
+  "p": 0.36633663366336633,
+  "z": {
+   "len1": -0.4,
+   "standalone": -0.6,
+   "both_orders": -0.3,
+   "hfi": 1.8,
+   "pol_ex": -0.8,
+   "both_pos": 0.9
+  }
+ },
+ "sangam": {
+  "D2": 67.6,
+  "p": 0.009900990099009901,
+  "z": {
+   "len1": 0.3,
+   "standalone": Infinity,
+   "both_orders": NaN,
+   "hfi": -0.0,
+   "pol_ex": 1.7,
+   "both_pos": -1.9
+  }
+ }
+}

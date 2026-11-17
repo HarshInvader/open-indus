@@ -1,0 +1,651 @@
+{
+ "date": "2026-11-14",
+ "A1_yajnadevam": {
+  "free_choices": {
+   "n_readings": 1648,
+   "per_reading": {
+    "n_signs": 4.73,
+    "key_cons": 4.39,
+    "read_cons": 4.41,
+    "vowels": 4.1,
+    "a_vowels": 3.9,
+    "breaks": 0.96,
+    "subs": 0.88,
+    "ins": 0.11,
+    "dels": 0.08,
+    "mh": 0.12
+   },
+   "share_consonants_exact": 0.325,
+   "a_share_of_vowels": 0.953,
+   "choices_per_sign": 1.32,
+   "top_subs": [
+    [
+     "s->h",
+     354
+    ],
+    [
+     "s->S",
+     200
+    ],
+    [
+     "n->m",
+     183
+    ],
+    [
+     "n->R",
+     156
+    ],
+    [
+     "d->D",
+     85
+    ],
+    [
+     "b->B",
+     78
+    ],
+    [
+     "n->Y",
+     74
+    ],
+    [
+     "t->T",
+     50
+    ],
+    [
+     "s->z",
+     46
+    ],
+    [
+     "k->K",
+     24
+    ],
+    [
+     "t->w",
+     17
+    ],
+    [
+     "s->m",
+     10
+    ],
+    [
+     "c->C",
+     10
+    ],
+    [
+     "d->q",
+     8
+    ],
+    [
+     "c->n",
+     8
+    ],
+    [
+     "j->c",
+     7
+    ],
+    [
+     "n->K",
+     5
+    ],
+    [
+     "m->S",
+     5
+    ],
+    [
+     "n->r",
+     4
+    ],
+    [
+     "n->B",
+     4
+    ],
+    [
+     "n->N",
+     4
+    ],
+    [
+     "n->z",
+     4
+    ],
+    [
+     "p->P",
+     3
+    ],
+    [
+     "r->D",
+     3
+    ],
+    [
+     "v->r",
+     3
+    ]
+   ]
+  },
+  "reading_words_in_MW": 0.988,
+  "generous_matcher": {
+   "yj_cpw": 3.022450110864745,
+   "perm_mean": 2.928650925972781,
+   "perm_sd": 0.09358506233725064,
+   "z": 1.002287999274306,
+   "p": 0.15422885572139303,
+   "fitted_real": [
+    4.472696245733788,
+    4.497716894977169,
+    4.391117478510028,
+    4.41873417721519
+   ],
+   "fitted_unigram_random": [
+    4.478927203065134,
+    4.383571428571429,
+    4.52683461117196,
+    4.380107401354191
+   ],
+   "fitted_bigram_random": [
+    4.4491710296684115,
+    4.354558969276511,
+    4.359249942831008,
+    4.417101383533681
+   ],
+   "true_key_on_planted_sanskrit": [
+    3.1624445024810655,
+    3.1599686847599164,
+    3.167407794925451,
+    3.170725320764598
+   ]
+  },
+  "strict_matcher": {
+   "yj_cpw": 3.0174322080796903,
+   "perm_mean": 2.9060442936296567,
+   "z": 1.4457233524762247,
+   "p": 0.03980099502487562,
+   "fitted_real": [
+    3.873889437314906,
+    3.9198763670946266,
+    3.9742889647326507,
+    3.957507660878447
+   ],
+   "fitted_unigram_random": [
+    3.9012785579543072,
+    4.0,
+    3.8854415274463006,
+    3.9611036597049245
+   ]
+  }
+ },
+ "A2_parpola_mahadevan": {
+  "six_fish": {
+   "all": {
+    "N": 28,
+    "fish": 12,
+    "rate": 0.429,
+    "p_greater": 0.0001
+   },
+   "heldout": {
+    "N": 7,
+    "fish": 4,
+    "rate": 0.571,
+    "p_greater": 0.0018
+   },
+   "pooled_rate_all": 0.129,
+   "note": "all 12 cases are M109 (two-tier 3-over-3) + M59"
+  },
+  "seven_fish": {
+   "all": {
+    "N": 60,
+    "fish": 1,
+    "rate": 0.017,
+    "p_greater": 0.9998
+   },
+   "heldout": {
+    "N": 13,
+    "fish": 0,
+    "rate": 0.0,
+    "p_greater": 1.0
+   },
+   "p_depleted_binomial": 0.0025
+  },
+  "three_fish_plain": {
+   "dev": {
+    "N": 71,
+    "fish": 14,
+    "rate": 0.197,
+    "p_greater": 0.0054
+   },
+   "heldout": {
+    "N": 22,
+    "fish": 2,
+    "rate": 0.091,
+    "p_greater": 0.4237
+   }
+  },
+  "P2_context_similarity_all": {
+   "M60": [
+    0.628,
+    0.968
+   ],
+   "M65": [
+    0.49,
+    0.875
+   ],
+   "M66": [
+    0.428,
+    0.833
+   ],
+   "M67": [
+    0.515,
+    1.0
+   ],
+   "M68": [
+    0.298,
+    0.475
+   ],
+   "M70": [
+    0.598,
+    1.0
+   ],
+   "M71": [
+    0.345,
+    0.64
+   ],
+   "M72": [
+    0.597,
+    1.0
+   ],
+   "M73": [
+    0.438,
+    0.911
+   ],
+   "M75": [
+    0.295,
+    0.444
+   ]
+  },
+  "P2_heldout": {
+   "M60": [
+    0.679,
+    1.0
+   ],
+   "M65": [
+    0.494,
+    0.792
+   ],
+   "M67": [
+    0.484,
+    0.727
+   ],
+   "M70": [
+    0.415,
+    0.508
+   ],
+   "M72": [
+    0.454,
+    0.686
+   ]
+  },
+  "P3": {
+   "all": {
+    "texts_with_both": 66,
+    "null_mean": 69.7,
+    "p_low": 0.319,
+    "p_high": 0.724,
+    "adjacent": 48,
+    "adj_null_mean": 31.1,
+    "adj_p_high": 0.002,
+    "adj_p_low": 0.9985
+   },
+   "heldout": {
+    "texts_with_both": 13,
+    "null_mean": 14.2,
+    "p_low": 0.4155,
+    "p_high": 0.6985,
+    "adjacent": 6,
+    "adj_null_mean": 6.2,
+    "adj_p_high": 0.592,
+    "adj_p_low": 0.572
+   }
+  },
+  "P4": {
+   "all": {
+    "plain": [
+     39,
+     301,
+     0.13
+    ],
+    "marked": [
+     20,
+     681,
+     0.029
+    ],
+    "fisher_p_plain_greater": 0.0
+   },
+   "heldout": {
+    "plain": [
+     8,
+     66,
+     0.121
+    ],
+    "marked": [
+     3,
+     157,
+     0.019
+    ],
+    "fisher_p_plain_greater": 0.0031
+   }
+  },
+  "P5_jar": {
+   "final_share": 0.726,
+   "final_expected_if_uniform": 0.226,
+   "left_diversity_at_60": 35.7,
+   "null_mean": 23.6,
+   "percentile": 0.944,
+   "heldout_percentile": 1.0
+  }
+ },
+ "B3_typology": {
+  "within_spec_A_cv_acc": {
+   "RF": 0.941,
+   "LR": 0.957,
+   "chance": 0.143
+  },
+  "leave_one_spec_out_acc": {
+   "RF": {
+    "A": 0.975,
+    "B": 0.829,
+    "C": 0.621,
+    "D": 0.779,
+    "E": 0.854
+   },
+   "LR": {
+    "A": 0.975,
+    "B": 0.857,
+    "C": 0.586,
+    "D": 0.786,
+    "E": 0.893
+   }
+  },
+  "binary_loso": {
+   "binary_DRA_vs_IA_loso": [
+    1.0,
+    1.0,
+    0.662,
+    0.925,
+    0.787
+   ],
+   "binary_DRA_vs_MUN_loso": [
+    1.0,
+    0.725,
+    0.925,
+    0.787,
+    0.988
+   ],
+   "binary_DRA_vs_ELA_loso": [
+    0.938,
+    0.938,
+    0.8,
+    0.9,
+    0.9
+   ],
+   "binary_IA_vs_MUN_loso": [
+    1.0,
+    0.988,
+    0.887,
+    0.887,
+    0.688
+   ]
+  },
+  "real_controls": {
+   "latin": {
+    "RF": {
+     "argmax_counts": {
+      "MUN": 8,
+      "NONLING": 2
+     },
+     "mean_probs": {
+      "BUR": 0.098,
+      "DRA": 0.224,
+      "ELA": 0.078,
+      "IA": 0.145,
+      "MUN": 0.304,
+      "NONLING": 0.128,
+      "SUM": 0.022
+     }
+    },
+    "LR": {
+     "argmax_counts": {
+      "MUN": 5,
+      "IA": 4,
+      "ELA": 1
+     },
+     "mean_probs": {
+      "BUR": 0.024,
+      "DRA": 0.089,
+      "ELA": 0.128,
+      "IA": 0.303,
+      "MUN": 0.445,
+      "NONLING": 0.005,
+      "SUM": 0.004
+     }
+    }
+   },
+   "linearb": {
+    "RF": {
+     "argmax_counts": {
+      "MUN": 1
+     },
+     "mean_probs": {
+      "BUR": 0.053,
+      "DRA": 0.085,
+      "ELA": 0.025,
+      "IA": 0.171,
+      "MUN": 0.515,
+      "NONLING": 0.13,
+      "SUM": 0.021
+     }
+    },
+    "LR": {
+     "argmax_counts": {
+      "IA": 1
+     },
+     "mean_probs": {
+      "BUR": 0.001,
+      "DRA": 0.0,
+      "ELA": 0.001,
+      "IA": 0.987,
+      "MUN": 0.001,
+      "NONLING": 0.007,
+      "SUM": 0.002
+     }
+    }
+   },
+   "ur3_real": {
+    "RF": {
+     "argmax_counts": {
+      "SUM": 10
+     },
+     "mean_probs": {
+      "BUR": 0.067,
+      "DRA": 0.047,
+      "ELA": 0.017,
+      "IA": 0.021,
+      "MUN": 0.051,
+      "NONLING": 0.085,
+      "SUM": 0.713
+     }
+    },
+    "LR": {
+     "argmax_counts": {
+      "SUM": 10
+     },
+     "mean_probs": {
+      "BUR": 0.015,
+      "DRA": 0.0,
+      "ELA": 0.0,
+      "IA": 0.001,
+      "MUN": 0.001,
+      "NONLING": 0.0,
+      "SUM": 0.983
+     }
+    }
+   }
+  },
+  "indus_posterior_pooled": {
+   "RF/M77_all": {
+    "BUR": 0.036,
+    "DRA": 0.076,
+    "ELA": 0.143,
+    "IA": 0.435,
+    "MUN": 0.09,
+    "NONLING": 0.176,
+    "SUM": 0.044
+   },
+   "RF/M77_dev": {
+    "BUR": 0.038,
+    "DRA": 0.076,
+    "ELA": 0.143,
+    "IA": 0.524,
+    "MUN": 0.077,
+    "NONLING": 0.125,
+    "SUM": 0.017
+   },
+   "RF/ICIT_all": {
+    "BUR": 0.079,
+    "DRA": 0.053,
+    "ELA": 0.169,
+    "IA": 0.42,
+    "MUN": 0.177,
+    "NONLING": 0.099,
+    "SUM": 0.003
+   },
+   "LR/M77_all": {
+    "BUR": 0.17,
+    "DRA": 0.0,
+    "ELA": 0.004,
+    "IA": 0.494,
+    "MUN": 0.014,
+    "NONLING": 0.311,
+    "SUM": 0.005
+   },
+   "LR/M77_dev": {
+    "BUR": 0.283,
+    "DRA": 0.002,
+    "ELA": 0.009,
+    "IA": 0.391,
+    "MUN": 0.024,
+    "NONLING": 0.289,
+    "SUM": 0.001
+   },
+   "LR/ICIT_all": {
+    "BUR": 0.012,
+    "DRA": 0.003,
+    "ELA": 0.011,
+    "IA": 0.946,
+    "MUN": 0.0,
+    "NONLING": 0.028,
+    "SUM": 0.0
+   }
+  },
+  "indus_posterior_spec_E_only": {
+   "RF/M77_all": {
+    "BUR": 0.036,
+    "DRA": 0.028,
+    "ELA": 0.06,
+    "IA": 0.393,
+    "MUN": 0.434,
+    "NONLING": 0.047,
+    "SUM": 0.003
+   },
+   "RF/M77_dev": {
+    "BUR": 0.028,
+    "DRA": 0.022,
+    "ELA": 0.048,
+    "IA": 0.431,
+    "MUN": 0.431,
+    "NONLING": 0.039,
+    "SUM": 0.001
+   },
+   "RF/ICIT_all": {
+    "BUR": 0.16,
+    "DRA": 0.12,
+    "ELA": 0.11,
+    "IA": 0.326,
+    "MUN": 0.251,
+    "NONLING": 0.031,
+    "SUM": 0.002
+   },
+   "LR/M77_all": {
+    "BUR": 0.239,
+    "DRA": 0.001,
+    "ELA": 0.009,
+    "IA": 0.292,
+    "MUN": 0.353,
+    "NONLING": 0.093,
+    "SUM": 0.013
+   },
+   "LR/M77_dev": {
+    "BUR": 0.222,
+    "DRA": 0.004,
+    "ELA": 0.013,
+    "IA": 0.341,
+    "MUN": 0.343,
+    "NONLING": 0.073,
+    "SUM": 0.004
+   },
+   "LR/ICIT_all": {
+    "BUR": 0.038,
+    "DRA": 0.002,
+    "ELA": 0.011,
+    "IA": 0.908,
+    "MUN": 0.028,
+    "NONLING": 0.01,
+    "SUM": 0.003
+   }
+  },
+  "verdict": "within-simulator power 94-96% (spec A) and 81% leave-one-spec-out, but the classifier fails real-language controls (Latin -> MUN 8/10, never IA) and the Indus label flips IA<->MUN with specification; no language identification is supported",
+  "indus_text_bootstrap_specA": {
+   "BUR": [
+    0.041,
+    0.02,
+    0.057
+   ],
+   "DRA": [
+    0.034,
+    0.025,
+    0.047
+   ],
+   "ELA": [
+    0.037,
+    0.011,
+    0.067
+   ],
+   "IA": [
+    0.425,
+    0.357,
+    0.541
+   ],
+   "MUN": [
+    0.166,
+    0.127,
+    0.192
+   ],
+   "NONLING": [
+    0.233,
+    0.186,
+    0.286
+   ],
+   "SUM": [
+    0.064,
+    0.055,
+    0.075
+   ]
+  },
+  "max_posterior_any_model": {
+   "BUR": 0.417,
+   "DRA": 0.177,
+   "ELA": 0.294,
+   "IA": 0.979,
+   "MUN": 0.434,
+   "NONLING": 0.392,
+   "SUM": 0.076
+  }
+ }
+}

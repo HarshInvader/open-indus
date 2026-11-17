@@ -1,0 +1,1730 @@
+{
+ "A1_raw": {
+  "dev_M99": {
+   "n_occ": 385,
+   "n_texts": 384,
+   "initial": 0.04155844155844156,
+   "final": 0.007792207792207792,
+   "in_len_le2": 0.007792207792207792,
+   "in_len_le3": 0.07532467532467532,
+   "after_opener": 0.6415584415584416,
+   "distinct_left": 65,
+   "distinct_right": 88,
+   "texts_le2_share_corpus": 0.12060301507537688
+  },
+  "heldout_M99": {
+   "n_occ": 91,
+   "n_texts": 91,
+   "initial": 0.03296703296703297,
+   "final": 0.054945054945054944,
+   "in_len_le2": 0.04395604395604396,
+   "in_len_le3": 0.07692307692307693,
+   "after_opener": 0.25274725274725274,
+   "distinct_left": 42,
+   "distinct_right": 45,
+   "texts_le2_share_corpus": 0.215311004784689
+  },
+  "icit_M99(WW002)": {
+   "n_occ": 41,
+   "n_texts": 41,
+   "initial": 0.0,
+   "final": 0.04878048780487805,
+   "in_len_le2": 0.024390243902439025,
+   "in_len_le3": 0.07317073170731707,
+   "after_opener": 0.4146341463414634,
+   "distinct_left": 23,
+   "distinct_right": 30,
+   "texts_le2_share_corpus": 0.2807017543859649
+  },
+  "dev_M123": {
+   "n_occ": 114,
+   "n_texts": 112,
+   "initial": 0.017543859649122806,
+   "final": 0.02631578947368421,
+   "in_len_le2": 0.017543859649122806,
+   "in_len_le3": 0.06140350877192982,
+   "after_opener": 0.6491228070175439,
+   "distinct_left": 24,
+   "distinct_right": 42,
+   "texts_le2_share_corpus": 0.12060301507537688
+  }
+ },
+ "A2_R0_grammar": {
+  "dev": {
+   "fp": {
+    "occ": 0.358,
+    "mpos": 0.348,
+    "first": 0.0,
+    "last": 0.0,
+    "rlen": 1.0,
+    "types20": 2.033,
+    "short": 0.0,
+    "recur": 0.007,
+    "alone": 0.0,
+    "longdiff": 0.824,
+    "edge_s": 0.0,
+    "top": 0.749
+   },
+   "ur3_full": {
+    "hungarian": [
+     "KIN",
+     0.5935646200787413
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.594,
+    "d_nearest": 0.594
+   },
+   "ur3_nodef": {
+    "hungarian": [
+     "KIN",
+     0.648905964061993
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.649,
+    "d_nearest": 0.649
+   },
+   "ob_full": {
+    "hungarian": [
+     "KIN",
+     0.3469653197251891
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.347,
+    "d_nearest": 0.347
+   },
+   "ob_nodef": {
+    "hungarian": [
+     "KIN",
+     0.3515112572970948
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.352,
+    "d_nearest": 0.352
+   },
+   "ur3_boot_hungarian": {
+    "KIN": 1.0
+   },
+   "ob_boot_hungarian": {
+    "KIN": 1.0
+   }
+  },
+  "heldout": {
+   "fp": {
+    "occ": 0.35,
+    "mpos": 0.356,
+    "first": 0.0,
+    "last": 0.0,
+    "rlen": 1.0,
+    "types20": 2.0,
+    "short": 0.0,
+    "recur": 0.007,
+    "alone": 0.0,
+    "longdiff": 0.76,
+    "edge_s": 0.0,
+    "top": 0.79
+   },
+   "ur3_full": {
+    "hungarian": [
+     "KIN",
+     0.5906155542511787
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.591,
+    "d_nearest": 0.591
+   },
+   "ur3_nodef": {
+    "hungarian": [
+     "KIN",
+     0.6568887829113428
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.657,
+    "d_nearest": 0.657
+   },
+   "ob_full": {
+    "hungarian": [
+     "KIN",
+     0.3479167419749526
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.348,
+    "d_nearest": 0.348
+   },
+   "ob_nodef": {
+    "hungarian": [
+     "SERV",
+     0.47762582802531756
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.371,
+    "d_nearest": 0.371
+   },
+   "ur3_boot_hungarian": {
+    "KIN": 1.0
+   },
+   "ob_boot_hungarian": {
+    "KIN": 1.0
+   }
+  }
+ },
+ "A2_R1_signlist": {
+  "dev": {
+   "fp": {
+    "occ": 0.415,
+    "mpos": 0.367,
+    "first": 0.036,
+    "last": 0.012,
+    "rlen": 1.0,
+    "types20": 2.0,
+    "short": 0.015,
+    "recur": 0.008,
+    "alone": 0.0,
+    "longdiff": 0.867,
+    "edge_s": 0.048,
+    "top": 0.772
+   },
+   "ur3_full": {
+    "hungarian": [
+     "KIN",
+     0.5295401165839808
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.53,
+    "d_nearest": 0.53
+   },
+   "ur3_nodef": {
+    "hungarian": [
+     "KIN",
+     0.577792876233146
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.578,
+    "d_nearest": 0.578
+   },
+   "ob_full": {
+    "hungarian": [
+     "KIN",
+     0.28579780652442477
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.286,
+    "d_nearest": 0.286
+   },
+   "ob_nodef": {
+    "hungarian": [
+     "KIN",
+     0.2818536806436313
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.282,
+    "d_nearest": 0.282
+   },
+   "ur3_boot_hungarian": {
+    "KIN": 1.0
+   },
+   "ob_boot_hungarian": {
+    "KIN": 1.0
+   }
+  },
+  "heldout": {
+   "fp": {
+    "occ": 0.313,
+    "mpos": 0.389,
+    "first": 0.038,
+    "last": 0.038,
+    "rlen": 1.0,
+    "types20": 2.0,
+    "short": 0.022,
+    "recur": 0.008,
+    "alone": 0.0,
+    "longdiff": 0.757,
+    "edge_s": 0.076,
+    "top": 0.689
+   },
+   "ur3_full": {
+    "hungarian": [
+     "KIN",
+     0.6433081440579961
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.643,
+    "d_nearest": 0.643
+   },
+   "ur3_nodef": {
+    "hungarian": [
+     "KIN",
+     0.6897331920828859
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.69,
+    "d_nearest": 0.69
+   },
+   "ob_full": {
+    "hungarian": [
+     "KIN",
+     0.4251351643306761
+    ],
+    "nearest": "SERV",
+    "d_KIN": 0.425,
+    "d_nearest": 0.401
+   },
+   "ob_nodef": {
+    "hungarian": [
+     "KIN",
+     0.42367720659995095
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.424,
+    "d_nearest": 0.424
+   },
+   "ur3_boot_hungarian": {
+    "KIN": 0.91,
+    "TITLE": 0.09
+   },
+   "ob_boot_hungarian": {
+    "SERV": 0.32,
+    "KIN": 0.68
+   }
+  }
+ },
+ "A2_R1_M99only": {
+  "dev": {
+   "fp": {
+    "occ": 0.322,
+    "mpos": 0.364,
+    "first": 0.042,
+    "last": 0.008,
+    "rlen": 1.0,
+    "types20": 1.0,
+    "short": 0.009,
+    "recur": 0.003,
+    "alone": 0.0,
+    "longdiff": 0.809,
+    "edge_s": 0.049,
+    "top": 1.0
+   },
+   "ur3_full": {
+    "hungarian": [
+     "KIN",
+     0.5932783902670704
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.593,
+    "d_nearest": 0.593
+   },
+   "ur3_nodef": {
+    "hungarian": [
+     "KIN",
+     0.6847673630052232
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.685,
+    "d_nearest": 0.685
+   },
+   "ob_full": {
+    "hungarian": [
+     "KIN",
+     0.35019908458858917
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.35,
+    "d_nearest": 0.35
+   },
+   "ob_nodef": {
+    "hungarian": [
+     "KIN",
+     0.4003524204757914
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.4,
+    "d_nearest": 0.4
+   },
+   "ur3_boot_hungarian": {
+    "KIN": 1.0
+   },
+   "ob_boot_hungarian": {
+    "KIN": 1.0
+   }
+  },
+  "heldout": {
+   "fp": {
+    "occ": 0.218,
+    "mpos": 0.392,
+    "first": 0.033,
+    "last": 0.055,
+    "rlen": 1.0,
+    "types20": 1.0,
+    "short": 0.02,
+    "recur": 0.0,
+    "alone": 0.0,
+    "longdiff": 0.632,
+    "edge_s": 0.088,
+    "top": 1.0
+   },
+   "ur3_full": {
+    "hungarian": [
+     "KIN",
+     0.7057376100114952
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.706,
+    "d_nearest": 0.706
+   },
+   "ur3_nodef": {
+    "hungarian": [
+     "KIN",
+     0.814670552558678
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.815,
+    "d_nearest": 0.815
+   },
+   "ob_full": {
+    "hungarian": [
+     "KIN",
+     0.4919629518959774
+    ],
+    "nearest": "KIN",
+    "d_KIN": 0.492,
+    "d_nearest": 0.492
+   },
+   "ob_nodef": {
+    "hungarian": [
+     "SERV",
+     0.5354727978984912
+    ],
+    "nearest": "TITLE",
+    "d_KIN": 0.565,
+    "d_nearest": 0.374
+   },
+   "ur3_boot_hungarian": {
+    "KIN": 1.0
+   },
+   "ob_boot_hungarian": {
+    "KIN": 0.94,
+    "SERV": 0.06
+   }
+  }
+ },
+ "A3_pseudo_null": {
+  "real": {
+   "CONN{M99,M123}": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.53
+    ],
+    "ob": [
+     "KIN",
+     "KIN",
+     0.286
+    ]
+   },
+   "M99": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.593
+    ],
+    "ob": [
+     "KIN",
+     "KIN",
+     0.35
+    ]
+   }
+  },
+  "summary": {
+   "ur3": {
+    "n_pseudo": 36,
+    "share_pseudo_hungarian_KIN": 0.972,
+    "share_pseudo_nearest_KIN": 0.25,
+    "M99_dKIN": 0.593,
+    "p_pseudo_dKIN_le_M99": 0.027,
+    "median_pseudo_dKIN": 0.994
+   },
+   "ob": {
+    "n_pseudo": 36,
+    "share_pseudo_hungarian_KIN": 0.056,
+    "share_pseudo_nearest_KIN": 0.028,
+    "M99_dKIN": 0.35,
+    "p_pseudo_dKIN_le_M99": 0.027,
+    "median_pseudo_dKIN": 0.823
+   }
+  },
+  "pseudo": {
+   "M67": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.862
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.664
+    ]
+   },
+   "M72": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.904
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.713
+    ]
+   },
+   "M8": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     0.951
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.804
+    ]
+   },
+   "M86": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.092
+    ],
+    "ob": [
+     "KIN",
+     "KIN",
+     0.915
+    ]
+   },
+   "M336": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.864
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.669
+    ]
+   },
+   "M89": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     0.93
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.772
+    ]
+   },
+   "M59": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.804
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.622
+    ]
+   },
+   "M245": {
+    "ur3": [
+     "LORD",
+     "LORD",
+     2.775
+    ],
+    "ob": [
+     "TITLE",
+     "TITLE",
+     2.724
+    ]
+   },
+   "M343": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.898
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.701
+    ]
+   },
+   "M389": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     1.048
+    ],
+    "ob": [
+     "SERV",
+     "TITLE",
+     0.871
+    ]
+   },
+   "M65": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.937
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.744
+    ]
+   },
+   "M87": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     0.904
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.727
+    ]
+   },
+   "M124": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.018
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.862
+    ]
+   },
+   "M162": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.056
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.967
+    ]
+   },
+   "M402": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.092
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.967
+    ]
+   },
+   "M48": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     0.987
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.824
+    ]
+   },
+   "M171": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.956
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.766
+    ]
+   },
+   "M17": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.176
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     1.014
+    ]
+   },
+   "M51": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     0.984
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.816
+    ]
+   },
+   "M149": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.019
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.869
+    ]
+   },
+   "M387": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.045
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.871
+    ]
+   },
+   "M194": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.036
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.905
+    ]
+   },
+   "M53": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     0.976
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.799
+    ]
+   },
+   "M204": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.128
+    ],
+    "ob": [
+     "KIN",
+     "TITLE",
+     0.948
+    ]
+   },
+   "M112": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     1.0
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.816
+    ]
+   },
+   "M197": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.091
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.921
+    ]
+   },
+   "M347": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.959
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.821
+    ]
+   },
+   "M97": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     0.961
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.8
+    ]
+   },
+   "M102": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.031
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.862
+    ]
+   },
+   "M249": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     0.959
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.784
+    ]
+   },
+   "M175": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     1.069
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.893
+    ]
+   },
+   "M180": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.048
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.911
+    ]
+   },
+   "M216": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     1.199
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     1.047
+    ]
+   },
+   "M70": {
+    "ur3": [
+     "KIN",
+     "KIN",
+     0.952
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.786
+    ]
+   },
+   "M403": {
+    "ur3": [
+     "KIN",
+     "TITLE",
+     1.015
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.828
+    ]
+   },
+   "M98": {
+    "ur3": [
+     "KIN",
+     "SERV",
+     0.96
+    ],
+    "ob": [
+     "SERV",
+     "SERV",
+     0.801
+    ]
+   }
+  }
+ },
+ "A4_clusters": {
+  "k5_s0": {
+   "cluster": "K3",
+   "members": [
+    "M99",
+    "M59",
+    "M87",
+    "M67",
+    "M336",
+    "M123",
+    "M65",
+    "M72",
+    "M343",
+    "M89",
+    "M249",
+    "M171",
+    "M53",
+    "M102",
+    "M389"
+   ],
+   "n_members": 42,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 4.692,
+    "types20": 17.9
+   },
+   "ur3_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 3.33,
+    "types20": 17.8
+   },
+   "ob_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 4.683,
+    "types20": 17.9
+   },
+   "ob_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 3.315,
+    "types20": 17.8
+   }
+  },
+  "k5_s1": {
+   "cluster": "K0",
+   "members": [
+    "M99",
+    "M59",
+    "M87",
+    "M67",
+    "M336",
+    "M65",
+    "M72",
+    "M89",
+    "M249",
+    "M171",
+    "M387",
+    "M53",
+    "M102",
+    "M389",
+    "M51"
+   ],
+   "n_members": 37,
+   "M123_same": false,
+   "ur3_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 4.489,
+    "types20": 17.3
+   },
+   "ur3_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 2.942,
+    "types20": 17.2
+   },
+   "ob_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "OWNER",
+    "nearest": "LORD",
+    "dKIN": 4.479,
+    "types20": 17.3
+   },
+   "ob_ho": {
+    "hung": "LORD",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 2.923,
+    "types20": 17.2
+   }
+  },
+  "k5_s2": {
+   "cluster": "K3",
+   "members": [
+    "M99",
+    "M59",
+    "M87",
+    "M67",
+    "M336",
+    "M123",
+    "M65",
+    "M72",
+    "M343",
+    "M89",
+    "M249",
+    "M171",
+    "M53",
+    "M102",
+    "M389"
+   ],
+   "n_members": 43,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 4.709,
+    "types20": 18.2
+   },
+   "ur3_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 3.467,
+    "types20": 17.3
+   },
+   "ob_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 4.7,
+    "types20": 18.2
+   },
+   "ob_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 3.453,
+    "types20": 17.3
+   }
+  },
+  "k6_s0": {
+   "cluster": "K5",
+   "members": [
+    "M99",
+    "M123",
+    "M162",
+    "M343",
+    "M245",
+    "M402",
+    "M97",
+    "M180",
+    "M403",
+    "M375",
+    "M287",
+    "M230",
+    "M155",
+    "M127",
+    "M28"
+   ],
+   "n_members": 25,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "LORD",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.441,
+    "types20": 11.5
+   },
+   "ur3_ho": {
+    "hung": "LORD",
+    "hung_nodef": "LORD",
+    "nearest": "LORD",
+    "dKIN": 1.669,
+    "types20": 13.8
+   },
+   "ob_dev": {
+    "hung": "KIN",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.406,
+    "types20": 11.5
+   },
+   "ob_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "FATHER",
+    "nearest": "LORD",
+    "dKIN": 1.636,
+    "types20": 13.8
+   }
+  },
+  "k6_s1": {
+   "cluster": "K1",
+   "members": [
+    "M99",
+    "M123",
+    "M162",
+    "M343",
+    "M245",
+    "M402",
+    "M97",
+    "M180",
+    "M403",
+    "M375",
+    "M287",
+    "M230",
+    "M155",
+    "M127",
+    "M28"
+   ],
+   "n_members": 24,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "LORD",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.437,
+    "types20": 11.6
+   },
+   "ur3_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 1.599,
+    "types20": 13.4
+   },
+   "ob_dev": {
+    "hung": "KIN",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.402,
+    "types20": 11.6
+   },
+   "ob_ho": {
+    "hung": "KIN",
+    "hung_nodef": "FATHER",
+    "nearest": "LORD",
+    "dKIN": 1.564,
+    "types20": 13.4
+   }
+  },
+  "k6_s2": {
+   "cluster": "K3",
+   "members": [
+    "M99",
+    "M343",
+    "M86",
+    "M102",
+    "M51",
+    "M17",
+    "M112",
+    "M97",
+    "M98",
+    "M175",
+    "M204",
+    "M28",
+    "M345",
+    "M130",
+    "M344"
+   ],
+   "n_members": 21,
+   "M123_same": false,
+   "ur3_dev": {
+    "hung": "KIN",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.196,
+    "types20": 11.1
+   },
+   "ur3_ho": {
+    "hung": "LORD",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.483,
+    "types20": 11.4
+   },
+   "ob_dev": {
+    "hung": "KIN",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.137,
+    "types20": 11.1
+   },
+   "ob_ho": {
+    "hung": "KIN",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.423,
+    "types20": 11.4
+   }
+  },
+  "k8_s0": {
+   "cluster": "K0",
+   "members": [
+    "M99",
+    "M123",
+    "M162",
+    "M343",
+    "M245",
+    "M402",
+    "M97",
+    "M180",
+    "M403",
+    "M375",
+    "M230",
+    "M155",
+    "M252",
+    "M307",
+    "M344"
+   ],
+   "n_members": 17,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "TITLE",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.2,
+    "types20": 10.9
+   },
+   "ur3_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.37,
+    "types20": 11.6
+   },
+   "ob_dev": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.154,
+    "types20": 10.9
+   },
+   "ob_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "FATHER",
+    "nearest": "TITLE",
+    "dKIN": 1.32,
+    "types20": 11.6
+   }
+  },
+  "k8_s1": {
+   "cluster": "K7",
+   "members": [
+    "M99",
+    "M87",
+    "M343",
+    "M86",
+    "M102",
+    "M51",
+    "M17",
+    "M112",
+    "M98",
+    "M175",
+    "M204",
+    "M28",
+    "M345",
+    "M130",
+    "M344"
+   ],
+   "n_members": 22,
+   "M123_same": false,
+   "ur3_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.376,
+    "types20": 11.5
+   },
+   "ur3_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "LORD",
+    "nearest": "LORD",
+    "dKIN": 1.701,
+    "types20": 12.8
+   },
+   "ob_dev": {
+    "hung": "KIN",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.325,
+    "types20": 11.5
+   },
+   "ob_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.645,
+    "types20": 12.8
+   }
+  },
+  "k8_s2": {
+   "cluster": "K0",
+   "members": [
+    "M99",
+    "M59",
+    "M87",
+    "M67",
+    "M336",
+    "M123",
+    "M65",
+    "M72",
+    "M343",
+    "M89",
+    "M249",
+    "M171",
+    "M53",
+    "M389",
+    "M70"
+   ],
+   "n_members": 34,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 4.188,
+    "types20": 17.0
+   },
+   "ur3_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 3.189,
+    "types20": 16.9
+   },
+   "ob_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 4.177,
+    "types20": 17.0
+   },
+   "ob_ho": {
+    "hung": "LORD",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 3.172,
+    "types20": 16.9
+   }
+  },
+  "k10_s0": {
+   "cluster": "K0",
+   "members": [
+    "M99",
+    "M59",
+    "M87",
+    "M67",
+    "M336",
+    "M65",
+    "M72",
+    "M89",
+    "M249",
+    "M171",
+    "M102",
+    "M389",
+    "M70",
+    "M98",
+    "M124"
+   ],
+   "n_members": 19,
+   "M123_same": false,
+   "ur3_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 3.21,
+    "types20": 14.6
+   },
+   "ur3_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 2.46,
+    "types20": 14.9
+   },
+   "ob_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 3.193,
+    "types20": 14.6
+   },
+   "ob_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 2.427,
+    "types20": 14.9
+   }
+  },
+  "k10_s1": {
+   "cluster": "K6",
+   "members": [
+    "M99",
+    "M59",
+    "M336",
+    "M123",
+    "M343",
+    "M89",
+    "M53",
+    "M48",
+    "M97",
+    "M403",
+    "M121",
+    "M287",
+    "M155",
+    "M127",
+    "M344"
+   ],
+   "n_members": 20,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.556,
+    "types20": 11.2
+   },
+   "ur3_ho": {
+    "hung": "FATHER",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 1.379,
+    "types20": 12.6
+   },
+   "ob_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "unmatched",
+    "nearest": "TITLE",
+    "dKIN": 1.519,
+    "types20": 11.2
+   },
+   "ob_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "TITLE",
+    "dKIN": 1.333,
+    "types20": 12.6
+   }
+  },
+  "k10_s2": {
+   "cluster": "K1",
+   "members": [
+    "M99",
+    "M59",
+    "M87",
+    "M67",
+    "M336",
+    "M123",
+    "M65",
+    "M72",
+    "M343",
+    "M89",
+    "M249",
+    "M171",
+    "M53",
+    "M102",
+    "M389"
+   ],
+   "n_members": 30,
+   "M123_same": true,
+   "ur3_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 4.073,
+    "types20": 16.7
+   },
+   "ur3_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "TITLE",
+    "nearest": "LORD",
+    "dKIN": 2.942,
+    "types20": 15.9
+   },
+   "ob_dev": {
+    "hung": "unmatched",
+    "hung_nodef": "unmatched",
+    "nearest": "LORD",
+    "dKIN": 4.061,
+    "types20": 16.7
+   },
+   "ob_ho": {
+    "hung": "unmatched",
+    "hung_nodef": "KIN",
+    "nearest": "LORD",
+    "dKIN": 2.921,
+    "types20": 15.9
+   }
+  }
+ },
+ "A4_tally": {
+  "ur3|dev|FATHER": 0.25,
+  "ur3|ho|FATHER": 0.5,
+  "ob|dev|FATHER": 0.3333333333333333,
+  "ob|ho|FATHER": 0.3333333333333333,
+  "ob|ho|LORD": 0.16666666666666666,
+  "ur3|dev|LORD": 0.16666666666666666,
+  "ur3|ho|LORD": 0.16666666666666666,
+  "ob|dev|KIN": 0.3333333333333333,
+  "ob|ho|KIN": 0.16666666666666666,
+  "ur3|dev|KIN": 0.08333333333333333,
+  "ur3|dev|TITLE": 0.08333333333333333,
+  "ur3|dev|unmatched": 0.4166666666666667,
+  "ur3|ho|unmatched": 0.3333333333333333,
+  "ob|ho|unmatched": 0.3333333333333333,
+  "ob|dev|unmatched": 0.3333333333333333
+ },
+ "A5_token": {
+  "ur3": {
+   "dev": {
+    "nearest": "TITLE",
+    "d": {
+     "TITLE": 0.483,
+     "SERV": 1.195,
+     "KIN": 0.666,
+     "LORD": 0.827,
+     "NAME": 1.306
+    },
+    "nearest_words": [
+     [
+      "dub-sar",
+      0.44
+     ],
+     [
+      "aga3-us2",
+      0.47
+     ],
+     [
+      "muhaldim",
+      0.47
+     ],
+     [
+      "sipa",
+      0.48
+     ],
+     [
+      "ugula",
+      0.51
+     ]
+    ]
+   },
+   "ho": {
+    "nearest": "TITLE",
+    "d": {
+     "TITLE": 0.665,
+     "SERV": 1.365,
+     "KIN": 1.046,
+     "LORD": 1.033,
+     "NAME": 1.375
+    },
+    "nearest_words": [
+     [
+      "aga3-us2",
+      0.64
+     ],
+     [
+      "sagi",
+      0.73
+     ],
+     [
+      "dub-sar",
+      0.78
+     ],
+     [
+      "sipa",
+      0.82
+     ],
+     [
+      "ugula",
+      0.86
+     ]
+    ]
+   },
+   "frequent_signs_nearest_class": {
+    "TITLE": 20,
+    "LORD": 15,
+    "NAME": 25
+   }
+  },
+  "ob": {
+   "dev": {
+    "nearest": "TITLE",
+    "d": {
+     "SEAL_OF": 3.57,
+     "TITLE": 0.335,
+     "SERV": 0.547,
+     "KIN": 0.619,
+     "LORD": 0.942,
+     "NAME": 1.309
+    },
+    "nearest_words": [
+     [
+      "dub-sar",
+      0.15
+     ],
+     [
+      "lugal",
+      0.33
+     ],
+     [
+      "sza",
+      0.38
+     ],
+     [
+      "u3",
+      0.39
+     ],
+     [
+      "geme2",
+      0.41
+     ]
+    ]
+   },
+   "ho": {
+    "nearest": "SERV",
+    "d": {
+     "SEAL_OF": 3.672,
+     "TITLE": 0.393,
+     "SERV": 0.307,
+     "KIN": 0.69,
+     "LORD": 1.131,
+     "NAME": 1.538
+    },
+    "nearest_words": [
+     [
+      "arad2",
+      0.27
+     ],
+     [
+      "arad",
+      0.31
+     ],
+     [
+      "gudu4",
+      0.31
+     ],
+     [
+      "ugula",
+      0.37
+     ],
+     [
+      "lugal",
+      0.39
+     ]
+    ]
+   },
+   "frequent_signs_nearest_class": {
+    "TITLE": 29,
+    "LORD": 27,
+    "SERV": 1,
+    "NAME": 3
+   }
+  },
+  "fresh": {
+   "dev": {
+    "nearest": "SERV",
+    "d": {
+     "SEAL_OF": 1.208,
+     "TITLE": 1.691,
+     "SERV": 0.57,
+     "KIN": 1.457,
+     "LORD": 0.871,
+     "NAME": 2.125
+    },
+    "nearest_words": [
+     [
+      "a-ga-de3{ki}",
+      0.27
+     ],
+     [
+      "lugal",
+      0.36
+     ],
+     [
+      "arad2",
+      0.39
+     ],
+     [
+      "arhusz",
+      0.57
+     ],
+     [
+      "ensi2",
+      0.59
+     ]
+    ]
+   },
+   "ho": {
+    "nearest": "SERV",
+    "d": {
+     "SEAL_OF": 1.1,
+     "TITLE": 1.375,
+     "SERV": 0.709,
+     "KIN": 1.423,
+     "LORD": 0.758,
+     "NAME": 1.862
+    },
+    "nearest_words": [
+     [
+      "gal",
+      0.4
+     ],
+     [
+      "lugal",
+      0.48
+     ],
+     [
+      "arad",
+      0.56
+     ],
+     [
+      "dingir",
+      0.62
+     ],
+     [
+      "a-ga-de3{ki}",
+      0.68
+     ]
+    ]
+   },
+   "frequent_signs_nearest_class": {
+    "SERV": 30,
+    "SEAL_OF": 9,
+    "TITLE": 11,
+    "LORD": 8,
+    "NAME": 2
+   }
+  }
+ }
+}

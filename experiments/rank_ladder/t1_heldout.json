@@ -1,0 +1,28 @@
+{
+ "M77": {
+  "obs_agree": 432,
+  "obs_total": 522,
+  "obs_share": 0.8275862068965517,
+  "p_obs": 6.931121835949103e-55,
+  "pairs_agree": 40,
+  "pairs_total": 48,
+  "pairs_share": 0.8333333333333334,
+  "p_pairs": 1.6526333546096341e-06,
+  "heldout_cyc": 1,
+  "heldout_triads": 36,
+  "heldout_viol_share": 0.08651399491094147
+ },
+ "ICIT": {
+  "obs_agree": 686,
+  "obs_total": 839,
+  "obs_share": 0.8176400476758046,
+  "p_obs": 1.436006971480333e-81,
+  "pairs_agree": 67,
+  "pairs_total": 79,
+  "pairs_share": 0.8481012658227848,
+  "p_pairs": 1.0244205864053775e-10,
+  "heldout_cyc": 1,
+  "heldout_triads": 100,
+  "heldout_viol_share": 0.12011577424023155
+ }
+}

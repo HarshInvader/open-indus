@@ -1,0 +1,17 @@
+{
+ "area": "firing_stage",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/firing_stage.md (hashed in docs/prereg/HASHES.txt, tag firing_stage)",
+ "table": {"rows": 650, "icit_pottery_rows": 636, "literature_only_rows": 14,
+   "firing_stage_recorded_per_object": 36, "of_which_painted_pre": 29, "of_which_certain_post_with_text": 3, "mixed": 2, "literature_without_transcription": 4,
+   "pre_by_class_stamped": 74, "pre_by_class_moulded": 3, "unknown_stage_graffiti": 535, "vessel_form_recorded": 86, "vessel_size_recorded": 0},
+ "units_distinct_site_class_text": {"P1_pre_dev": 61, "P1_pre_heldout": 16, "post_dev": 273, "post_heldout": 111, "painted_dev": 10, "painted_heldout": 15},
+ "P1_all_prefiring_vs_graffiti": {"S": ["W016", "W540", "W692", "W697", "W705(M336)", "W790(M373/374)"], "heldout_pre_with_S": "1/16", "heldout_post_with_S": "5/111", "R_ho": 1.80, "p_within_site": 1.0, "power": 0.059, "verdict": "FAIL (underpowered; not a refutation)"},
+ "P2_painted_vs_graffiti": {"S": [], "verdict": "INCONCLUSIVE"},
+ "secondary_form": {"table": {"goblet": [8, 30], "dish/bowl": [1, 6], "jar": [0, 16]}, "p": 0.082, "verdict": "FAIL (technique-confounded)", "size": "UNTESTABLE"},
+ "exploratory": {"M391_W820": {"painted": "4/25", "graffiti": "7/384", "stamped": "1/52", "fisher_p": 0.0027, "note": "3/4 Kutch; stand-alone on painted, opener on graffiti; sign list seen before prereg"},
+   "M343_W741": {"painted": "3/25", "graffiti": "6/384", "fisher_p": 0.013},
+   "M267_W861": {"painted": "3/25", "graffiti": "11/384", "fisher_p": 0.047},
+   "M342_W740": {"painted": "1/25", "graffiti": "70/384", "stamped": "8/52", "fisher_p": 0.098}},
+ "conclusion": "Too few vessels have a recorded firing stage to answer the question. Formal test fails at 6% power. Lead: painted (pre-firing) vessels carry the opener-type signs M391/M343/M267, often alone, not the jar closer M342."
+}

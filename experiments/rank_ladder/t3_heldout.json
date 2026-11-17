@@ -1,0 +1,320 @@
+{
+ "split": "heldout",
+ "n_texts": 492,
+ "emblems": {
+  "none": 15,
+  "other": 17,
+  "goat": 5,
+  "unicorn": 369,
+  "buffalo": 4,
+  "zebu": 19,
+  "shorthorn": 11,
+  "tiger": 6,
+  "gaur": 26,
+  "elephant": 11,
+  "rhino": 9
+ },
+ "features": [
+  "OP_W817",
+  "OP_W861",
+  "OP_W820",
+  "OP_W920",
+  "CN_W002",
+  "CN_W060",
+  "TI_W760",
+  "TI_W100",
+  "TI_W176",
+  "TB_W70x",
+  "TB_W033",
+  "TB_W255",
+  "TB_W590",
+  "MJ_W741",
+  "CL_W740",
+  "CL_W520",
+  "CL_W390",
+  "CL_W527",
+  "CL_W368",
+  "CL_W151",
+  "CL_W15x",
+  "PC_W400",
+  "PC_W090"
+ ],
+ "global": {
+  "stat": 187.86726941539496,
+  "null_mean": 203.30184931518855,
+  "p": 0.7496251874062968
+ },
+ "unicorn_vs_other": {
+  "OP_W817": {
+   "obs_nonunicorn": 3,
+   "exp": 5.0755,
+   "n_nonunicorn": 91,
+   "p": 0.31134432783608196
+  },
+  "OP_W861": {
+   "obs_nonunicorn": 3,
+   "exp": 5.46,
+   "n_nonunicorn": 91,
+   "p": 0.22988505747126436
+  },
+  "OP_W820": {
+   "obs_nonunicorn": 8,
+   "exp": 9.256,
+   "n_nonunicorn": 91,
+   "p": 0.6796601699150425
+  },
+  "OP_W920": {
+   "obs_nonunicorn": 4,
+   "exp": 3.9935,
+   "n_nonunicorn": 91,
+   "p": 1.0
+  },
+  "CN_W002": {
+   "obs_nonunicorn": 17,
+   "exp": 20.6895,
+   "n_nonunicorn": 91,
+   "p": 0.2623688155922039
+  },
+  "CN_W060": {
+   "obs_nonunicorn": 6,
+   "exp": 8.3385,
+   "n_nonunicorn": 91,
+   "p": 0.39480259870064965
+  },
+  "TI_W760": {
+   "obs_nonunicorn": 3,
+   "exp": 1.9145,
+   "n_nonunicorn": 91,
+   "p": 0.384807596201899
+  },
+  "TI_W100": {
+   "obs_nonunicorn": 1,
+   "exp": 1.529,
+   "n_nonunicorn": 91,
+   "p": 0.6876561719140429
+  },
+  "TI_W176": {
+   "obs_nonunicorn": 0,
+   "exp": 2.9395,
+   "n_nonunicorn": 91,
+   "p": 0.07146426786606697
+  },
+  "TB_W70x": {
+   "obs_nonunicorn": 4,
+   "exp": 4.016,
+   "n_nonunicorn": 91,
+   "p": 1.0
+  },
+  "TB_W033": {
+   "obs_nonunicorn": 2,
+   "exp": 2.362,
+   "n_nonunicorn": 91,
+   "p": 1.0
+  },
+  "TB_W255": {
+   "obs_nonunicorn": 2,
+   "exp": 3.0955,
+   "n_nonunicorn": 91,
+   "p": 0.5282358820589705
+  },
+  "TB_W590": {
+   "obs_nonunicorn": 4,
+   "exp": 2.934,
+   "n_nonunicorn": 91,
+   "p": 0.48425787106446777
+  },
+  "MJ_W741": {
+   "obs_nonunicorn": 6,
+   "exp": 10.2565,
+   "n_nonunicorn": 91,
+   "p": 0.10344827586206896
+  },
+  "CL_W740": {
+   "obs_nonunicorn": 27,
+   "exp": 33.0275,
+   "n_nonunicorn": 91,
+   "p": 0.10644677661169415
+  },
+  "CL_W520": {
+   "obs_nonunicorn": 10,
+   "exp": 9.7535,
+   "n_nonunicorn": 91,
+   "p": 1.0
+  },
+  "CL_W390": {
+   "obs_nonunicorn": 9,
+   "exp": 9.688,
+   "n_nonunicorn": 91,
+   "p": 0.8190904547726137
+  },
+  "CL_W527": {
+   "obs_nonunicorn": 2,
+   "exp": 3.132,
+   "n_nonunicorn": 91,
+   "p": 0.46976511744127936
+  },
+  "CL_W368": {
+   "obs_nonunicorn": 6,
+   "exp": 5.9045,
+   "n_nonunicorn": 91,
+   "p": 1.0
+  },
+  "CL_W151": {
+   "obs_nonunicorn": 2,
+   "exp": 4.2905,
+   "n_nonunicorn": 91,
+   "p": 0.223888055972014
+  },
+  "CL_W15x": {
+   "obs_nonunicorn": 6,
+   "exp": 4.279,
+   "n_nonunicorn": 91,
+   "p": 0.3873063468265867
+  },
+  "PC_W400": {
+   "obs_nonunicorn": 4,
+   "exp": 4.261,
+   "n_nonunicorn": 91,
+   "p": 1.0
+  },
+  "PC_W090": {
+   "obs_nonunicorn": 1,
+   "exp": 1.994,
+   "n_nonunicorn": 91,
+   "p": 0.6981509245377311
+  }
+ },
+ "cells": {
+  "OP_W820|rhino": {
+   "obs": 3,
+   "exp": 0.7225,
+   "n_class": 9,
+   "p": 0.02699325168707823
+  },
+  "OP_W820|zebu": {
+   "obs": 3,
+   "exp": 2.7435,
+   "n_class": 19,
+   "p": 1.0
+  },
+  "CN_W002|gaur": {
+   "obs": 5,
+   "exp": 6.108,
+   "n_class": 26,
+   "p": 0.5876030992251937
+  },
+  "CN_W002|none": {
+   "obs": 5,
+   "exp": 2.16725,
+   "n_class": 15,
+   "p": 0.02174456385903524
+  },
+  "CN_W002|other": {
+   "obs": 4,
+   "exp": 3.6725,
+   "n_class": 17,
+   "p": 1.0
+  },
+  "CN_W002|rhino": {
+   "obs": 3,
+   "exp": 2.265,
+   "n_class": 9,
+   "p": 0.6660834791302175
+  },
+  "CN_W002|zebu": {
+   "obs": 5,
+   "exp": 3.87375,
+   "n_class": 19,
+   "p": 0.48562859285178706
+  },
+  "CN_W060|zebu": {
+   "obs": 3,
+   "exp": 1.8275,
+   "n_class": 19,
+   "p": 0.3549112721819545
+  },
+  "TB_W70x|zebu": {
+   "obs": 3,
+   "exp": 1.0185,
+   "n_class": 19,
+   "p": 0.057485628592851785
+  },
+  "TB_W590|gaur": {
+   "obs": 3,
+   "exp": 0.9355,
+   "n_class": 26,
+   "p": 0.055236190952261933
+  },
+  "CL_W740|gaur": {
+   "obs": 8,
+   "exp": 9.64575,
+   "n_class": 26,
+   "p": 0.5001249687578105
+  },
+  "CL_W740|none": {
+   "obs": 2,
+   "exp": 5.02175,
+   "n_class": 15,
+   "p": 0.02899275181204699
+  },
+  "CL_W740|other": {
+   "obs": 7,
+   "exp": 5.51075,
+   "n_class": 17,
+   "p": 0.5476130967258186
+  },
+  "CL_W740|rhino": {
+   "obs": 4,
+   "exp": 3.02325,
+   "n_class": 9,
+   "p": 0.6870782304423894
+  },
+  "CL_W740|shorthorn": {
+   "obs": 4,
+   "exp": 2.357,
+   "n_class": 11,
+   "p": 0.22369407648087977
+  },
+  "CL_W740|tiger": {
+   "obs": 3,
+   "exp": 1.649,
+   "n_class": 6,
+   "p": 0.3059235191202199
+  },
+  "CL_W740|zebu": {
+   "obs": 4,
+   "exp": 4.87875,
+   "n_class": 19,
+   "p": 0.741314671332167
+  },
+  "CL_W520|elephant": {
+   "obs": 3,
+   "exp": 0.641,
+   "n_class": 11,
+   "p": 0.016745813546613347
+  },
+  "CL_W390|gaur": {
+   "obs": 4,
+   "exp": 2.43425,
+   "n_class": 26,
+   "p": 0.28517870532366907
+  },
+  "CL_W390|none": {
+   "obs": 3,
+   "exp": 1.942,
+   "n_class": 15,
+   "p": 0.23319170207448137
+  }
+ },
+ "n_cells": 20,
+ "classifier": {
+  "n_dev": 985,
+  "n_heldout": 460,
+  "heldout_nonunicorn": 91,
+  "auc": 0.5289019923166265,
+  "auc_length_only": 0.5722922064385478,
+  "null_mean": 0.5033066797700945,
+  "null_p95": 0.5628249798981506,
+  "p": 0.22577422577422576
+ }
+}

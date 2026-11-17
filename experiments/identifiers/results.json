@@ -1,0 +1,949 @@
+{
+ "verdict": "Seal texts are unique combinations (identifier-like counts) but the texts that do repeat are short shared formulas spread across cities at random (label-like); no identifier repulsion among co-found seals.",
+ "S3": {
+  "P1_seal_vs_tablet_newrate": {
+   "verdict": "pass in ICIT (5/5), fails in M77 held-out (1/2; Harappa tablets n=20, CIs overlap)",
+   "rows": [
+    {
+     "dataset": "M77ho",
+     "site": "Mohenjo-daro",
+     "control": "moulded_tablet",
+     "seal_new": 0.8965684365870062,
+     "ctrl_new": 0.3262411347517731,
+     "diff": 0.5703273018352332,
+     "separated": true
+    },
+    {
+     "dataset": "M77ho",
+     "site": "Harappa",
+     "control": "tablet",
+     "seal_new": 0.8775578168362628,
+     "ctrl_new": 0.5896551724137931,
+     "diff": 0.2879026444224697,
+     "separated": false
+    },
+    {
+     "dataset": "ICIT",
+     "site": "Harappa",
+     "control": "moulded_tablet",
+     "seal_new": 0.9363715540837977,
+     "ctrl_new": 0.5892183344594323,
+     "diff": 0.3471532196243654,
+     "separated": true
+    },
+    {
+     "dataset": "ICIT",
+     "site": "Harappa",
+     "control": "incised_tablet",
+     "seal_new": 0.9363715540837977,
+     "ctrl_new": 0.5834073500243754,
+     "diff": 0.3529642040594223,
+     "separated": true
+    },
+    {
+     "dataset": "ICIT",
+     "site": "Mohenjo-daro",
+     "control": "copper_tablet",
+     "seal_new": 0.9267551864807996,
+     "ctrl_new": 0.22562176885139695,
+     "diff": 0.7011334176294026,
+     "separated": true
+    },
+    {
+     "dataset": "ICIT",
+     "site": "Mohenjo-daro",
+     "control": "moulded_tablet",
+     "seal_new": 0.9267551864807996,
+     "ctrl_new": 0.47491356775444804,
+     "diff": 0.45184161872635153,
+     "separated": true
+    },
+    {
+     "dataset": "ICIT",
+     "site": "Lothal",
+     "control": "sealing",
+     "seal_new": 0.9622646576961298,
+     "ctrl_new": 0.31880466472303204,
+     "diff": 0.6434599929730977,
+     "separated": true
+    }
+   ]
+  },
+  "P2_no_saturation": {
+   "verdict": "pass (all sites completeness<=0.13, S(2n)/S>=1.87); weak discriminator: Harappa moulded tablets completeness 0.24 also"
+  },
+  "P3_cross_site_R": {
+   "verdict": "shared-label pattern; unlike Ur III personal seals",
+   "indus_text": {
+    "R_vs_MD": [
+     1.3995593042799392,
+     [
+      0.8129649393705335,
+      1.6515119564738916
+     ]
+    ],
+    "R_all": [
+     0.8901598430188508,
+     [
+      0.462272967045294,
+      1.1381454830810211
+     ]
+    ]
+   },
+   "indus_core": {
+    "R_vs_MD": [
+     1.1924033680330282,
+     [
+      0.9322470158385198,
+      1.348281599853916
+     ]
+    ],
+    "R_all": [
+     1.0193667844328729,
+     [
+      0.7169179292905814,
+      1.135911655818507
+     ]
+    ]
+   },
+   "indus_frame": {
+    "R_vs_MD": [
+     1.0784000613089813,
+     [
+      0.9840759253780158,
+      1.119370966606655
+     ]
+    ],
+    "R_all": [
+     0.9470016047631029,
+     [
+      0.859614245193429,
+      0.9832040574340906
+     ]
+    ]
+   },
+   "ur3_seal": {
+    "R_all": [
+     0.18417025270695053,
+     [
+      0.10428907182443563,
+      0.1886210807898715
+     ]
+    ]
+   },
+   "ur3_name": {
+    "R_all": [
+     0.5080216602580611,
+     [
+      0.4373515206128798,
+      0.4840592898881497
+     ]
+    ]
+   },
+   "repeated_multisite": {
+    "obs": 0.6617647058823529,
+    "null_mean": 0.6679191176470588,
+    "p_local": 0.49725137431284355
+   }
+  },
+  "V1_dev_to_heldout": {
+   "verdict": "calibrated 7/8 cells (pass)",
+   "rows": [
+    {
+     "site": "Mohenjo-daro",
+     "cls": "seal",
+     "n_dev": 715,
+     "n_ho": 281,
+     "pred_new": 0.8612645124315259,
+     "pi": [
+      0.8109560002304359,
+      0.9071944172245128
+     ],
+     "obs_new": 0.8965684365870062,
+     "calibrated": true
+    },
+    {
+     "site": "Mohenjo-daro",
+     "cls": "moulded_tablet",
+     "n_dev": 57,
+     "n_ho": 24,
+     "pred_new": 0.5144976608225676,
+     "pi": [
+      0.27785996055226825,
+      0.7392857142857143
+     ],
+     "obs_new": 0.3262411347517731,
+     "calibrated": true
+    },
+    {
+     "site": "Mohenjo-daro",
+     "cls": "copper_tablet",
+     "n_dev": 92,
+     "n_ho": 10,
+     "pred_new": 0.10654566125824405,
+     "pi": [
+      0.0,
+      0.3789473684210527
+     ],
+     "obs_new": 0.18000000000000005,
+     "calibrated": true
+    },
+    {
+     "site": "Harappa",
+     "cls": "seal",
+     "n_dev": 194,
+     "n_ho": 50,
+     "pred_new": 0.9675291460015465,
+     "pi": [
+      0.9183702391496901,
+      0.9991677070328756
+     ],
+     "obs_new": 0.8775578168362628,
+     "calibrated": false
+    },
+    {
+     "site": "Harappa",
+     "cls": "moulded_tablet",
+     "n_dev": 181,
+     "n_ho": 15,
+     "pred_new": 0.49437212125420227,
+     "pi": [
+      0.07090277777777784,
+      0.8667452830188679
+     ],
+     "obs_new": 0.590625,
+     "calibrated": true
+    },
+    {
+     "site": "Harappa",
+     "cls": "tablet",
+     "n_dev": 126,
+     "n_ho": 20,
+     "pred_new": 0.4530849721078365,
+     "pi": [
+      0.0,
+      0.7896103896103897
+     ],
+     "obs_new": 0.5896551724137931,
+     "calibrated": true
+    },
+    {
+     "site": "Lothal",
+     "cls": "seal",
+     "n_dev": 54,
+     "n_ho": 14,
+     "pred_new": 0.9496887821507538,
+     "pi": [
+      0.8462929475587704,
+      0.9883040935672515
+     ],
+     "obs_new": 0.9883040935672515,
+     "calibrated": true
+    },
+    {
+     "site": "Kalibangan",
+     "cls": "seal",
+     "n_dev": 34,
+     "n_ho": 12,
+     "pred_new": 0.9248085927238642,
+     "pi": [
+      0.8184523809523809,
+      0.983739837398374
+     ],
+     "obs_new": 0.983739837398374,
+     "calibrated": true
+    }
+   ]
+  },
+  "V2_HARP_vs_preHARP": {
+   "verdict": "seals text/core/frame calibrated; tablets far below PI (mould texts local)",
+   "rows": [
+    {
+     "label": "V2 HARP<-Vats seal",
+     "kind": "text",
+     "n_ref": 241,
+     "n_tgt": 27,
+     "pred_match": 0.062448086890041,
+     "pred_new": 0.937551913109959,
+     "obs_match": 0.037037037037037035,
+     "obs_new": 0.962962962962963,
+     "pi_match": [
+      0.0,
+      0.2222222222222222
+     ],
+     "R": 0.5930852149602612,
+     "calibrated": true
+    },
+    {
+     "label": "V2 HARP<-Vats seal",
+     "kind": "core",
+     "n_ref": 241,
+     "n_tgt": 27,
+     "pred_match": 0.1663898351597335,
+     "pred_new": 0.8336101648402665,
+     "obs_match": 0.14814814814814814,
+     "obs_new": 0.8518518518518519,
+     "pi_match": [
+      0.037037037037037035,
+      0.37037037037037035
+     ],
+     "R": 0.8903677800144858,
+     "calibrated": true
+    },
+    {
+     "label": "V2 HARP<-Vats seal",
+     "kind": "frame",
+     "n_ref": 241,
+     "n_tgt": 27,
+     "pred_match": 0.6268324370145366,
+     "pred_new": 0.3731675629854634,
+     "obs_match": 0.7037037037037037,
+     "obs_new": 0.2962962962962963,
+     "pi_match": [
+      0.4444444444444444,
+      0.8342592592592584
+     ],
+     "R": 1.1226344747813113,
+     "calibrated": true
+    },
+    {
+     "label": "V2 HARP<-Vats moulded_tablet",
+     "kind": "text",
+     "n_ref": 242,
+     "n_tgt": 143,
+     "pred_match": 0.446931781118008,
+     "pred_new": 0.553068218881992,
+     "obs_match": 0.09090909090909091,
+     "obs_new": 0.9090909090909091,
+     "pi_match": [
+      0.3916083916083916,
+      0.6013986013986014
+     ],
+     "R": 0.2034070852640646,
+     "calibrated": false
+    },
+    {
+     "label": "V2 HARP<-Vats incised_tablet",
+     "kind": "text",
+     "n_ref": 170,
+     "n_tgt": 104,
+     "pred_match": 0.4363363950231256,
+     "pred_new": 0.5636636049768744,
+     "obs_match": 0.057692307692307696,
+     "obs_new": 0.9423076923076923,
+     "pi_match": [
+      0.375,
+      0.6153846153846154
+     ],
+     "R": 0.13221979268827674,
+     "calibrated": false
+    }
+   ]
+  },
+  "V3_new_sites": {
+   "verdict": "calibrated 6/6",
+   "rows": [
+    {
+     "label": "V3 newsites<-oldsites seal",
+     "kind": "text",
+     "n_ref": 1379,
+     "n_tgt": 166,
+     "pred_match": 0.10808719899761954,
+     "pred_new": 0.8919128010023805,
+     "obs_match": 0.0963855421686747,
+     "obs_new": 0.9036144578313253,
+     "pi_match": [
+      0.07228915662650602,
+      0.18388554216867456
+     ],
+     "R": 0.8917387355999248,
+     "calibrated": true
+    },
+    {
+     "label": "V3 Dholavira<-oldsites seal",
+     "kind": "text",
+     "n_ref": 1379,
+     "n_tgt": 69,
+     "pred_match": 0.10808719899761954,
+     "pred_new": 0.8919128010023805,
+     "obs_match": 0.07246376811594203,
+     "obs_new": 0.927536231884058,
+     "pi_match": [
+      0.043478260869565216,
+      0.2028985507246377
+     ],
+     "R": 0.6704195204238564,
+     "calibrated": true
+    },
+    {
+     "label": "V3 newsites<-oldsites seal",
+     "kind": "core",
+     "n_ref": 1379,
+     "n_tgt": 166,
+     "pred_match": 0.29881879066842687,
+     "pred_new": 0.7011812093315731,
+     "obs_match": 0.3132530120481928,
+     "obs_new": 0.6867469879518072,
+     "pi_match": [
+      0.24096385542168675,
+      0.39759036144578314
+     ],
+     "R": 1.048304262752279,
+     "calibrated": true
+    },
+    {
+     "label": "V3 Dholavira<-oldsites seal",
+     "kind": "core",
+     "n_ref": 1379,
+     "n_tgt": 69,
+     "pred_match": 0.29881879066842687,
+     "pred_new": 0.7011812093315731,
+     "obs_match": 0.30434782608695654,
+     "obs_new": 0.6956521739130435,
+     "pi_match": [
+      0.2028985507246377,
+      0.42028985507246375
+     ],
+     "R": 1.018502971001796,
+     "calibrated": true
+    },
+    {
+     "label": "V3 newsites<-oldsites seal",
+     "kind": "frame",
+     "n_ref": 1379,
+     "n_tgt": 166,
+     "pred_match": 0.7447930764304562,
+     "pred_new": 0.2552069235695438,
+     "obs_match": 0.8012048192771084,
+     "obs_new": 0.1987951807228916,
+     "pi_match": [
+      0.6987951807228916,
+      0.8313253012048193
+     ],
+     "R": 1.0757414973793993,
+     "calibrated": true
+    },
+    {
+     "label": "V3 Dholavira<-oldsites seal",
+     "kind": "frame",
+     "n_ref": 1379,
+     "n_tgt": 69,
+     "pred_match": 0.7447930764304562,
+     "pred_new": 0.2552069235695438,
+     "obs_match": 0.7971014492753623,
+     "obs_new": 0.2028985507246377,
+     "pi_match": [
+      0.6666666666666666,
+      0.8695652173913043
+     ],
+     "R": 1.070232087945289,
+     "calibrated": true
+    }
+   ]
+  },
+  "by_length": [
+   {
+    "length": 1,
+    "objects": 42,
+    "share_on_repeated": 0.21428571428571427,
+    "new_rate": 0.782245348470514,
+    "repeated_multisite": 4,
+    "repeated": 4
+   },
+   {
+    "length": 2,
+    "objects": 229,
+    "share_on_repeated": 0.44541484716157204,
+    "new_rate": 0.5538201022758146,
+    "repeated_multisite": 26,
+    "repeated": 36
+   },
+   {
+    "length": 3,
+    "objects": 236,
+    "share_on_repeated": 0.1440677966101695,
+    "new_rate": 0.8556438043826655,
+    "repeated_multisite": 8,
+    "repeated": 13
+   },
+   {
+    "length": 4,
+    "objects": 239,
+    "share_on_repeated": 0.1087866108786611,
+    "new_rate": 0.8910376212550717,
+    "repeated_multisite": 5,
+    "repeated": 10
+   },
+   {
+    "length": 5,
+    "objects": 298,
+    "share_on_repeated": 0.026845637583892617,
+    "new_rate": 0.9730639814588142,
+    "repeated_multisite": 2,
+    "repeated": 4
+   },
+   {
+    "length": 6,
+    "objects": 207,
+    "share_on_repeated": 0.0,
+    "new_rate": 0.9999528724256562,
+    "repeated_multisite": 0,
+    "repeated": 0
+   },
+   {
+    "length": 7,
+    "objects": 148,
+    "share_on_repeated": 0.013513513513513514,
+    "new_rate": 0.9863945663889757,
+    "repeated_multisite": 0,
+    "repeated": 1
+   },
+   {
+    "length": 8,
+    "objects": 67,
+    "share_on_repeated": 0.0,
+    "new_rate": 0.9995410738871042,
+    "repeated_multisite": 0,
+    "repeated": 0
+   }
+  ],
+  "top_repeated": [
+   [
+    "W003 W156",
+    7,
+    [
+     "Harappa",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W016 W390",
+    6,
+    [
+     "Harappa",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W061 W740",
+    5,
+    [
+     "Banawali",
+     "Harappa",
+     "Lakhanjo-daro",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W003 W390",
+    5,
+    [
+     "Harappa",
+     "Kalibangan",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W031 W156",
+    5,
+    [
+     "Harappa",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W817 W002",
+    4,
+    [
+     "Banawali",
+     "Kalibangan"
+    ]
+   ],
+   [
+    "W820 W002 W003 W390",
+    4,
+    [
+     "Harappa",
+     "Mohenjo-daro",
+     "Nausharo"
+    ]
+   ],
+   [
+    "W013 W840 W740",
+    4,
+    [
+     "Harappa",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W468 W806 W154",
+    4,
+    [
+     "Harappa",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W005 W900 W740",
+    4,
+    [
+     "Harappa",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W004 W390",
+    3,
+    [
+     "Banawali",
+     "Kalibangan",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W803 W740",
+    3,
+    [
+     "Banawali",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W817 W002 W003 W390",
+    3,
+    [
+     "Chanhu-daro",
+     "Harappa",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W235 W482 W740",
+    3,
+    [
+     "Chanhu-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   ],
+   [
+    "W740",
+    3,
+    [
+     "Bhirrana",
+     "Daimabad",
+     "Mohenjo-daro"
+    ]
+   ]
+  ],
+  "matched_m100": [
+   {
+    "ref": "Indus",
+    "site": "Mohenjo-daro",
+    "kind": "text",
+    "n": 970,
+    "new_rate_m": 0.988667080387233
+   },
+   {
+    "ref": "Indus",
+    "site": "Mohenjo-daro",
+    "kind": "core",
+    "n": 970,
+    "new_rate_m": 0.9188278997709107
+   },
+   {
+    "ref": "Indus",
+    "site": "Mohenjo-daro",
+    "kind": "frame",
+    "n": 970,
+    "new_rate_m": 0.5257417513732175
+   },
+   {
+    "ref": "Indus",
+    "site": "Harappa",
+    "kind": "text",
+    "n": 268,
+    "new_rate_m": 0.9738585311173287
+   },
+   {
+    "ref": "Indus",
+    "site": "Harappa",
+    "kind": "core",
+    "n": 268,
+    "new_rate_m": 0.9143967658222099
+   },
+   {
+    "ref": "Indus",
+    "site": "Harappa",
+    "kind": "frame",
+    "n": 268,
+    "new_rate_m": 0.45927737531900936
+   },
+   {
+    "ref": "UrIII",
+    "site": "Umma",
+    "kind": "legend",
+    "n": 1330,
+    "new_rate_m": 0.9954320532355421
+   },
+   {
+    "ref": "UrIII",
+    "site": "Umma",
+    "kind": "name line",
+    "n": 1261,
+    "new_rate_m": 0.6685709925178027
+   },
+   {
+    "ref": "UrIII",
+    "site": "Girsu",
+    "kind": "legend",
+    "n": 1254,
+    "new_rate_m": 0.9944994436500653
+   },
+   {
+    "ref": "UrIII",
+    "site": "Girsu",
+    "kind": "name line",
+    "n": 1195,
+    "new_rate_m": 0.5763950516903475
+   },
+   {
+    "ref": "UrIII",
+    "site": "Puzri\u0161-Dagan",
+    "kind": "legend",
+    "n": 411,
+    "new_rate_m": 0.9832195574646488
+   },
+   {
+    "ref": "UrIII",
+    "site": "Puzri\u0161-Dagan",
+    "kind": "name line",
+    "n": 227,
+    "new_rate_m": 0.7208524711569554
+   },
+   {
+    "ref": "UrIII",
+    "site": "Nippur",
+    "kind": "legend",
+    "n": 563,
+    "new_rate_m": 0.9981226651833267
+   },
+   {
+    "ref": "UrIII",
+    "site": "Nippur",
+    "kind": "name line",
+    "n": 503,
+    "new_rate_m": 0.741398558756783
+   },
+   {
+    "ref": "UrIII",
+    "site": "Gar\u0161ana",
+    "kind": "legend",
+    "n": 118,
+    "new_rate_m": 0.9856584093872358
+   },
+   {
+    "ref": "UrIII",
+    "site": "Gar\u0161ana",
+    "kind": "name line",
+    "n": 105,
+    "new_rate_m": 0.5376546724842798
+   },
+   {
+    "ref": "UrIII",
+    "site": "Ur",
+    "kind": "legend",
+    "n": 226,
+    "new_rate_m": 0.9883185840707954
+   },
+   {
+    "ref": "UrIII",
+    "site": "Ur",
+    "kind": "name line",
+    "n": 194,
+    "new_rate_m": 0.7295896389955666
+   },
+   {
+    "ref": "UrIII",
+    "site": "Irisagrig",
+    "kind": "legend",
+    "n": 185,
+    "new_rate_m": 0.976733254994123
+   },
+   {
+    "ref": "UrIII",
+    "site": "Irisagrig",
+    "kind": "name line",
+    "n": 156,
+    "new_rate_m": 0.7479138208798644
+   }
+  ]
+ },
+ "S4": {
+  "R1_seals": {
+   "verdict": "null (no repulsion, no clustering); strong repulsion excluded",
+   "icit": {
+    "units": 801,
+    "groups": 24,
+    "obs": {
+     "nn": 0.6252838784252397,
+     "pw": 0.9395596210629653,
+     "shared": 0.5028205475088833,
+     "sh_norm": 0.12272424800565794
+    },
+    "null_mean": {
+     "nn": 0.6295012884617455,
+     "pw": 0.9403894063572551,
+     "shared": 0.50239122997272,
+     "sh_norm": 0.12264957508876898
+    },
+    "z": {
+     "nn": -1.1162139803617521,
+     "pw": -1.0488720549071076,
+     "shared": 0.07684433874702011,
+     "sh_norm": 0.05010336507826985
+    },
+    "p_repel": {
+     "nn": 0.8731268731268731,
+     "pw": 0.8501498501498501,
+     "shared": 0.5244755244755245,
+     "sh_norm": 0.5304695304695305
+    },
+    "p_cluster": {
+     "nn": 0.12787212787212787,
+     "pw": 0.15084915084915085,
+     "shared": 0.47652347652347654,
+     "sh_norm": 0.47052947052947053
+    }
+   },
+   "m77_heldout": {
+    "units": 360,
+    "groups": 29,
+    "obs": {
+     "nn": 0.759087766316682,
+     "pw": 0.951240818669614,
+     "shared": 0.394967259146476,
+     "sh_norm": 0.1071191421487158
+    },
+    "null_mean": {
+     "nn": 0.7603642908600621,
+     "pw": 0.9512331435436853,
+     "shared": 0.4005254365438186,
+     "sh_norm": 0.10789874560489963
+    },
+    "z": {
+     "nn": -0.17973607285396684,
+     "pw": 0.00337080665534566,
+     "shared": -0.39125508053625796,
+     "sh_norm": -0.1873656116973849
+    },
+    "p_repel": {
+     "nn": 0.5654345654345654,
+     "pw": 0.5294705294705294,
+     "shared": 0.37162837162837165,
+     "sh_norm": 0.44655344655344653
+    },
+    "p_cluster": {
+     "nn": 0.4355644355644356,
+     "pw": 0.47152847152847155,
+     "shared": 0.6293706293706294,
+     "sh_norm": 0.5544455544455544
+    }
+   }
+  },
+  "R2_tablets_control": {
+   "verdict": "pass: tablets not repelled; they CLUSTER (moulded p_cluster 0.001, incised 0.046)",
+   "moulded": {
+    "units": 232,
+    "groups": 11,
+    "obs": {
+     "nn": 0.6055840326308988,
+     "pw": 0.8944822240434117,
+     "shared": 1.0407430520417533,
+     "sh_norm": 0.23031409914793843
+    },
+    "null_mean": {
+     "nn": 0.6421103289605994,
+     "pw": 0.9178556669999886,
+     "shared": 0.9994157389292403,
+     "sh_norm": 0.2195643230966773
+    },
+    "z": {
+     "nn": -4.205065573204773,
+     "pw": -10.525214151594078,
+     "shared": 2.6503350102881154,
+     "sh_norm": 3.0079144913073534
+    },
+    "p_repel": {
+     "nn": 1.0,
+     "pw": 1.0,
+     "shared": 0.994005994005994,
+     "sh_norm": 0.999000999000999
+    },
+    "p_cluster": {
+     "nn": 0.000999000999000999,
+     "pw": 0.000999000999000999,
+     "shared": 0.006993006993006993,
+     "sh_norm": 0.001998001998001998
+    }
+   },
+   "incised": {
+    "units": 183,
+    "groups": 10,
+    "obs": {
+     "nn": 0.5917901234567902,
+     "pw": 0.8915735514458549,
+     "shared": 1.0870987842464603,
+     "sh_norm": 0.24215444266233455
+    },
+    "null_mean": {
+     "nn": 0.6122686714323442,
+     "pw": 0.9092727059165532,
+     "shared": 1.0672457419858348,
+     "sh_norm": 0.23790531644843502
+    },
+    "z": {
+     "nn": -1.7779463762397691,
+     "pw": -5.2318234307509925,
+     "shared": 0.9073411284689668,
+     "sh_norm": 0.773987884265293
+    },
+    "p_repel": {
+     "nn": 0.955044955044955,
+     "pw": 1.0,
+     "shared": 0.8181818181818182,
+     "sh_norm": 0.7782217782217782
+    },
+    "p_cluster": {
+     "nn": 0.04595404595404595,
+     "pw": 0.000999000999000999,
+     "shared": 0.18281718281718282,
+     "sh_norm": 0.22277722277722278
+    }
+   }
+  },
+  "power": {
+   "M77dev_cluster_0.5": {
+    "cluster_0.5": 0.9
+   },
+   "ICIT_repel_1.0": {
+    "repel_1.0": 0.8333333333333334
+   },
+   "ICIT_repel_0.5": {
+    "repel_0.5": 0.23333333333333334
+   },
+   "ICIT_cluster_0.5": {
+    "cluster_0.5": 0.5
+   },
+   "M77dev_repel_0.5": {
+    "repel_0.5": 0.6
+   },
+   "M77dev_repel_1.0": {
+    "repel_1.0": 1.0
+   }
+  }
+ }
+}

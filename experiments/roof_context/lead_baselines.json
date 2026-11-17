@@ -1,0 +1,70 @@
+{
+ "L1_roof_initial": {
+  "roofed_initial": 69,
+  "roofed_n": 213,
+  "base_initial": 84,
+  "base_n": 750,
+  "roofed_share": 0.323943661971831,
+  "base_share": 0.112
+ },
+ "L3_ticked_final": {
+  "ticked_final": 32,
+  "ticked_n": 56,
+  "plain_final": 58,
+  "plain_n": 909
+ },
+ "L4_numeral_before_M59": {
+  "tall2": 65,
+  "short3": 16,
+  "short6": 12,
+  "short4": 5,
+  "tall1": 5,
+  "short12": 4,
+  "short7": 1,
+  "tall4": 1,
+  "short1": 1
+ },
+ "L6_lexeme_heads_all_M77": {
+  "M211": "39/41",
+  "M59": "65/71",
+  "M342": "26/35",
+  "M60": "13/13",
+  "M197": "14/14",
+  "M15": "8/10",
+  "M194": "19/19",
+  "M403": "11/11",
+  "M25": "9/11",
+  "M284": "10/11",
+  "M190": "14/14"
+ },
+ "L6_pooled_expected_share": 0.325,
+ "L5_M93": {
+  "texts": 11,
+  "sites": {
+   "Chanhudaro": 11
+  },
+  "position": {
+   "line_final_or_alone": 10,
+   "medial": 1
+  }
+ },
+ "L2_oval_bangle": {
+  "bangle_texts": 41,
+  "with_W790": 6,
+  "with_W840_M403": 5,
+  "other_short_texts": 1775,
+  "other_short_with_W790": 16,
+  "other_short_with_W840": 25
+ },
+ "L7_seal_size_icit_square": {
+  "none": {
+   "n": 51,
+   "median_mm": 21.6
+  },
+  "animal": {
+   "n": 1235,
+   "median_mm": 26.7
+  },
+  "ratio": 0.8089887640449439
+ }
+}

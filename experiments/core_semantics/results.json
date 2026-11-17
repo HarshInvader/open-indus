@@ -1,0 +1,495 @@
+{
+ "date": "2026-11-14",
+ "prereg": "docs/prereg/2026-11-14_core_semantics.md",
+ "heldout_verdicts": {
+  "HD1": true,
+  "HD2": true,
+  "HD3": true,
+  "SC1": true,
+  "SC3": true,
+  "SC4": false,
+  "SC5": true,
+  "SC6": true,
+  "SC7": true
+ },
+ "heldout_passed": "8/9",
+ "head_direction": {
+  "dev": {
+   "HFI_prod": 0.454,
+   "logV": -0.037,
+   "hub_pos2": 0.488,
+   "HFI_sa": 0.583,
+   "n": 310
+  },
+  "heldout_HFI_prod": {
+   "mean": 0.446,
+   "lo": 0.359,
+   "hi": 0.539,
+   "share_pos": 0.115,
+   "observed": 0.466,
+   "order_null_p": 0.4478
+  },
+  "heldout_hub_pos2": {
+   "mean": 0.495,
+   "lo": 0.455,
+   "hi": 0.534,
+   "share_pos": 0.386,
+   "observed": 0.49,
+   "order_null_p": 0.7471
+  },
+  "pooled": {
+   "observed": {
+    "HFI_prod": 0.444,
+    "logV": 0.008,
+    "hub_pos2": 0.493,
+    "HFI_sa": 0.549,
+    "n": 430
+   },
+   "HFI_boot": {
+    "mean": 0.45,
+    "lo": 0.399,
+    "hi": 0.499,
+    "share_pos": 0.021
+   },
+   "hub_boot": {
+    "mean": 0.499,
+    "lo": 0.483,
+    "hi": 0.515,
+    "share_pos": 0.404
+   },
+   "order_null_p": {
+    "HFI_prod": 0.022,
+    "logV": 0.8701,
+    "hub_pos2": 0.5095,
+    "HFI_sa": 0.3816
+   }
+  },
+  "calibration_pooled_n430": {
+   "sanskrit (head-final)": {
+    "HFI_prod": {
+     "mean": 0.555,
+     "lo": 0.5,
+     "hi": 0.61,
+     "share_pos": 0.972
+    },
+    "logV": {
+     "mean": 0.069,
+     "lo": -0.014,
+     "hi": 0.153,
+     "share_pos": 0.947
+    },
+    "hub_pos2": {
+     "mean": 0.587,
+     "lo": 0.52,
+     "hi": 0.658,
+     "share_pos": 0.994
+    },
+    "HFI_sa": {
+     "mean": 0.523,
+     "lo": 0.445,
+     "hi": 0.596,
+     "share_pos": 0.718
+    }
+   },
+   "ur3 (head-initial)": {
+    "HFI_prod": {
+     "mean": 0.224,
+     "lo": 0.191,
+     "hi": 0.256,
+     "share_pos": 0.0
+    },
+    "logV": {
+     "mean": -0.866,
+     "lo": -0.977,
+     "hi": -0.753,
+     "share_pos": 0.0
+    },
+    "hub_pos2": {
+     "mean": 0.297,
+     "lo": 0.262,
+     "hi": 0.328,
+     "share_pos": 0.0
+    },
+    "HFI_sa": {
+     "mean": 0.393,
+     "lo": 0.349,
+     "hi": 0.438,
+     "share_pos": 0.0
+    }
+   },
+   "chinese given (no fixed head)": {
+    "HFI_prod": {
+     "mean": 0.502,
+     "lo": 0.452,
+     "hi": 0.554,
+     "share_pos": 0.506
+    },
+    "logV": {
+     "mean": 0.001,
+     "lo": -0.086,
+     "hi": 0.095,
+     "share_pos": 0.503
+    },
+    "hub_pos2": {
+     "mean": 0.503,
+     "lo": 0.456,
+     "hi": 0.552,
+     "share_pos": 0.528
+    },
+    "HFI_sa": {
+     "mean": 0.664,
+     "lo": 0.47,
+     "hi": 0.833,
+     "share_pos": 0.945
+    }
+   },
+   "synthetic head-final": {
+    "HFI_prod": {
+     "mean": 0.98,
+     "lo": 0.962,
+     "hi": 0.993,
+     "share_pos": 1.0
+    },
+    "logV": {
+     "mean": 1.691,
+     "lo": 1.639,
+     "hi": 1.745,
+     "share_pos": 1.0
+    },
+    "hub_pos2": {
+     "mean": 0.791,
+     "lo": 0.748,
+     "hi": 0.836,
+     "share_pos": 1.0
+    }
+   },
+   "synthetic head-initial": {
+    "HFI_prod": {
+     "mean": 0.019,
+     "lo": 0.005,
+     "hi": 0.038,
+     "share_pos": 0.0
+    },
+    "logV": {
+     "mean": -1.692,
+     "lo": -1.744,
+     "hi": -1.639,
+     "share_pos": 0.0
+    },
+    "hub_pos2": {
+     "mean": 0.206,
+     "lo": 0.165,
+     "hi": 0.247,
+     "share_pos": 0.0
+    }
+   }
+  },
+  "pair_order_pooled": {
+   "n_pairs": 92,
+   "both_orders_obs": 0.261,
+   "both_orders_free_exp": 0.694,
+   "majority_order_token_share": 0.908
+  },
+  "HD3_heldout": {
+   "train_pairs_with_majority": 162,
+   "test_pairs": 65,
+   "test_occurrences": 138,
+   "agree": 115,
+   "share": 0.833,
+   "p": 3.2647115690143374e-16
+  },
+  "fish_first_exploratory": {
+   "pooled_parse": "75/107=0.70; HFI_prod without fish pairs 0.514",
+   "crude": {
+    "m77_dev_crude": {
+     "n": 432,
+     "fish_first": 250,
+     "share": 0.579,
+     "p_two_sided": 0.0012403748395894989
+    },
+    "m77_heldout_crude": {
+     "n": 97,
+     "fish_first": 62,
+     "share": 0.639,
+     "p_two_sided": 0.007959455422446686
+    },
+    "icit_new_sites": {
+     "n": 42,
+     "fish_first": 24,
+     "share": 0.571,
+     "p_two_sided": 0.44079906734259566,
+     "n_texts": 408
+    }
+   }
+  }
+ },
+ "classes": {
+  "SC1_fish_coherence": {
+   "members": [
+    "M59",
+    "M65",
+    "M67",
+    "M72",
+    "M70",
+    "M75"
+   ],
+   "obs": 0.1654,
+   "null_mean": 0.059,
+   "p": 0.0002
+  },
+  "SC3_fish_R": {
+   "fish": [
+    "M59",
+    "M65",
+    "M67",
+    "M72",
+    "M70",
+    "M75"
+   ],
+   "fish_mean": 19.667,
+   "null_mean": 12.756,
+   "p": 0.0001999600079984003
+  },
+  "SC4_fish_PH": {
+   "fish": [
+    "M59",
+    "M65",
+    "M67",
+    "M72",
+    "M70",
+    "M75"
+   ],
+   "fish_mean": 2.353,
+   "null_mean": 2.005,
+   "p": 0.013997200559888023
+  },
+  "SC5_fish_fish": {
+   "n_cores": 278,
+   "obs": 0.1007,
+   "null_mean": 0.0602,
+   "p": 0.0003999200159968006
+  },
+  "SC6_mantel_objtype": {
+   "rho": 0.119,
+   "p": 0.002
+  },
+  "SC7_fish_partner_set": {
+   "partner_set": [
+    "M53",
+    "M387",
+    "M343",
+    "M171",
+    "M389"
+   ],
+   "test_fish_partner_tokens": 135,
+   "hits": 32,
+   "share": 0.237,
+   "baseline_share": 0.126,
+   "p": 0.0002680019978027718
+  },
+  "dev_referent_coherence": {
+   "n_signs": 69,
+   "obs": -0.0033,
+   "null_mean": 0.0,
+   "p": 0.795
+  },
+  "heldout_referent_coherence": {
+   "obs": 0.0,
+   "p": 0.49
+  },
+  "calib_theophoric_AUC": {
+   "ur3": {
+    "T": {
+     "mean": 0.323,
+     "lo": 0.217,
+     "hi": 0.47
+    },
+    "R": {
+     "mean": 0.202,
+     "lo": 0.12,
+     "hi": 0.298
+    },
+    "D": {
+     "mean": 0.704,
+     "lo": 0.647,
+     "hi": 0.756
+    },
+    "PH": {
+     "mean": 0.954,
+     "lo": 0.898,
+     "hi": 0.995
+    },
+    "S": {
+     "mean": 0.32,
+     "lo": 0.176,
+     "hi": 0.506
+    },
+    "n_deity": {
+     "mean": 9.063,
+     "lo": 6.0,
+     "hi": 12.0
+    },
+    "n_el": {
+     "mean": 49.177,
+     "lo": 44.0,
+     "hi": 54.0
+    }
+   },
+   "sanskrit": {
+    "T": {
+     "mean": 0.542,
+     "lo": 0.362,
+     "hi": 0.729
+    },
+    "R": {
+     "mean": 0.565,
+     "lo": 0.404,
+     "hi": 0.74
+    },
+    "D": {
+     "mean": 0.484,
+     "lo": 0.357,
+     "hi": 0.53
+    },
+    "PH": {
+     "mean": 0.599,
+     "lo": 0.39,
+     "hi": 0.786
+    },
+    "S": {
+     "mean": 0.504,
+     "lo": 0.438,
+     "hi": 0.547
+    },
+    "n_deity": {
+     "mean": 8.303,
+     "lo": 6.0,
+     "hi": 11.0
+    },
+    "n_el": {
+     "mean": 37.34,
+     "lo": 31.0,
+     "hi": 44.0
+    }
+   }
+  },
+  "calib_coherence": {
+   "ur3": {
+    "reps": 99,
+    "share_p_lt_05": 0.101,
+    "median_p": 0.2587
+   },
+   "sanskrit": {
+    "reps": 100,
+    "share_p_lt_05": 0.04,
+    "median_p": 0.4801
+   }
+  },
+  "dev_fish_freq_matched": {
+   "T": {
+    "fish_mean": 0.247,
+    "null_mean": 0.539,
+    "p_one_sided": 0.7638
+   },
+   "D": {
+    "fish_mean": 0.641,
+    "null_mean": 0.928,
+    "p_one_sided": 0.9808
+   },
+   "S": {
+    "fish_mean": 0.245,
+    "null_mean": 0.195,
+    "p_one_sided": 0.7938
+   },
+   "R": {
+    "fish_mean": 46.429,
+    "null_mean": 28.687,
+    "p_one_sided": 0.0002
+   },
+   "PH": {
+    "fish_mean": 3.341,
+    "null_mean": 2.898,
+    "p_one_sided": 0.0036
+   }
+  },
+  "dev_number_adjacent_top": [
+   [
+    "M284",
+    0.71,
+    14
+   ],
+   [
+    "M19",
+    0.71,
+    7
+   ],
+   [
+    "M409",
+    0.5,
+    16
+   ],
+   [
+    "M287",
+    0.49,
+    35
+   ],
+   [
+    "M325",
+    0.44,
+    9
+   ],
+   [
+    "M197",
+    0.43,
+    44
+   ],
+   [
+    "M403",
+    0.42,
+    48
+   ],
+   [
+    "M137",
+    0.38,
+    8
+   ],
+   [
+    "M2",
+    0.33,
+    9
+   ],
+   [
+    "M174",
+    0.33,
+    6
+   ],
+   [
+    "M18",
+    0.27,
+    11
+   ],
+   [
+    "M59",
+    0.25,
+    232
+   ],
+   [
+    "M261",
+    0.25,
+    12
+   ],
+   [
+    "M75",
+    0.22,
+    9
+   ],
+   [
+    "M319",
+    0.2,
+    10
+   ]
+  ],
+  "tool_cluster_dev_hypergeom_p": 0.0024,
+  "tool_cluster_heldout_coherence_p": 0.66
+ }
+}

@@ -1,0 +1,87 @@
+<!--
+  Open Indus newsletter form. Drop into any page. Unstyled: style via the class names.
+  Set NEWSLETTER_ENDPOINT below (production: https://hardy-capybara-487.convex.site/subscribe).
+  The page's origin must be listed in the deployment's ALLOWED_ORIGINS (see newsletter/README.md).
+-->
+<form class="newsletter" id="newsletter-form" novalidate>
+  <label class="newsletter__label" for="newsletter-email">Get updates by email</label>
+  <div class="newsletter__row">
+    <input class="newsletter__input" id="newsletter-email" name="email" type="email"
+           autocomplete="email" inputmode="email" spellcheck="false" required
+           placeholder="you@example.com" aria-describedby="newsletter-privacy newsletter-status">
+    <button class="newsletter__button" type="submit">Subscribe</button>
+  </div>
+  <!-- Honeypot: hidden from people and screen readers; bots fill it. -->
+  <div class="newsletter__hp" aria-hidden="true" style="position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden">
+    <label for="newsletter-website">Website</label>
+    <input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off">
+  </div>
+  <p class="newsletter__status" id="newsletter-status" role="status" aria-live="polite"></p>
+  <p class="newsletter__privacy" id="newsletter-privacy">
+    We store your email address and the date you signed up, and use them only to send these updates.
+    Every email has an unsubscribe link.
+  </p>
+</form>
+
+<script>
+(function () {
+  var NEWSLETTER_ENDPOINT = "https://hardy-capybara-487.convex.site/subscribe";
+
+  var form = document.getElementById("newsletter-form");
+  if (!form) return;
+  var input = form.querySelector("#newsletter-email");
+  var button = form.querySelector("button[type=submit]");
+  var status = form.querySelector("#newsletter-status");
+
+  function say(text, state) {
+    status.textContent = text;
+    form.setAttribute("data-state", state); // idle | sending | success | error
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var email = input.value.trim();
+    if (!email || !input.checkValidity()) {
+      input.setAttribute("aria-invalid", "true");
+      say("Please enter a valid email address.", "error");
+      input.focus();
+      return;
+    }
+    input.removeAttribute("aria-invalid");
+    if (navigator.onLine === false) {
+      say("You seem to be offline. Try again when you are connected.", "error");
+      return;
+    }
+    button.disabled = true;
+    say("Sending...", "sending");
+
+    fetch(NEWSLETTER_ENDPOINT, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email: email,
+        source: location.pathname,
+        website: form.querySelector("#newsletter-website").value
+      })
+    })
+      .then(function (res) {
+        return res.json().catch(function () { return {}; }).then(function (data) {
+          if (res.ok && data.ok) {
+            form.reset();
+            say(data.message || "Thanks. Check your inbox to confirm.", "success");
+          } else if (res.status === 429) {
+            say("Too many tries. Please wait a few minutes and try again.", "error");
+          } else {
+            say(data.message || "Something went wrong. Please try again.", "error");
+          }
+        });
+      })
+      .catch(function () {
+        say(navigator.onLine === false
+          ? "You seem to be offline. Try again when you are connected."
+          : "Could not reach the server. Please try again.", "error");
+      })
+      .then(function () { button.disabled = false; });
+  });
+})();
+</script>

@@ -1,0 +1,505 @@
+{
+ "area": "numeral_class",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/numeral_class.md",
+ "verdict": "NO WIN",
+ "decision": {
+  "top_pooled": "E",
+  "c1_pooled_bf_gt10": false,
+  "log10_bf_pooled": 0.5625597350263865,
+  "c2_sites": {
+   "site:Mohenjodaro": false,
+   "site:Harappa": true,
+   "site:Lothal": false,
+   "site:Kalibangan": false
+  },
+  "c3_types": {
+   "type:SEAL": false,
+   "type:TABLET": false
+  },
+  "c4_icit": false,
+  "icit_top": "D",
+  "win": false,
+  "adequate": false,
+  "verdict": "NO WIN"
+ },
+ "strata_top": {
+  "M77_pooled": {
+   "n": 568,
+   "top": "E",
+   "log10_bf": 0.56,
+   "order": [
+    "E",
+    "D",
+    "H",
+    "I",
+    "A",
+    "G",
+    "C",
+    "F",
+    "B"
+   ]
+  },
+  "site:Mohenjodaro": {
+   "n": 323,
+   "top": "H",
+   "log10_bf": 4.28,
+   "order": [
+    "H",
+    "D",
+    "E",
+    "A",
+    "I",
+    "C",
+    "G",
+    "F",
+    "B"
+   ]
+  },
+  "site:Harappa": {
+   "n": 149,
+   "top": "E",
+   "log10_bf": 1.84,
+   "order": [
+    "E",
+    "D",
+    "H",
+    "G",
+    "I",
+    "C",
+    "F",
+    "B",
+    "A"
+   ]
+  },
+  "site:Lothal": {
+   "n": 37,
+   "top": "A",
+   "log10_bf": 0.95,
+   "order": [
+    "A",
+    "H",
+    "C",
+    "D",
+    "B",
+    "I",
+    "E",
+    "F",
+    "G"
+   ]
+  },
+  "site:Kalibangan": {
+   "n": 25,
+   "top": "H",
+   "log10_bf": 0.16,
+   "order": [
+    "H",
+    "C",
+    "I",
+    "B",
+    "F",
+    "A",
+    "E",
+    "G",
+    "D"
+   ]
+  },
+  "type:SEAL": {
+   "n": 416,
+   "top": "E",
+   "log10_bf": 0.19,
+   "order": [
+    "E",
+    "D",
+    "H",
+    "A",
+    "I",
+    "G",
+    "C",
+    "F",
+    "B"
+   ]
+  },
+  "type:TABLET": {
+   "n": 46,
+   "top": "E",
+   "log10_bf": 0.24,
+   "order": [
+    "E",
+    "I",
+    "F",
+    "H",
+    "C",
+    "B",
+    "D",
+    "G",
+    "A"
+   ]
+  },
+  "sens:first": {
+   "n": 522,
+   "top": "E",
+   "log10_bf": 0.38,
+   "order": [
+    "E",
+    "D",
+    "H",
+    "I",
+    "A",
+    "G",
+    "C",
+    "F",
+    "B"
+   ]
+  },
+  "sens:types": {
+   "n": 207,
+   "top": "A",
+   "log10_bf": 2.27,
+   "order": [
+    "A",
+    "H",
+    "D",
+    "E",
+    "C",
+    "I",
+    "F",
+    "B",
+    "G"
+   ]
+  },
+  "sens:noformula": {
+   "n": 483,
+   "top": "H",
+   "log10_bf": 5.13,
+   "order": [
+    "H",
+    "E",
+    "D",
+    "A",
+    "C",
+    "I",
+    "F",
+    "G",
+    "B"
+   ]
+  },
+  "ICIT_pooled": {
+   "n": 746,
+   "top": "D",
+   "log10_bf": 2.25,
+   "order": [
+    "D",
+    "E",
+    "G",
+    "H",
+    "I",
+    "C",
+    "F",
+    "A",
+    "B"
+   ]
+  },
+  "ICIT_type:SEAL": {
+   "n": 512,
+   "top": "D",
+   "log10_bf": 2.35,
+   "order": [
+    "D",
+    "E",
+    "H",
+    "I",
+    "G",
+    "C",
+    "A",
+    "F",
+    "B"
+   ]
+  },
+  "ICIT_type:TABLET": {
+   "n": 119,
+   "top": "G",
+   "log10_bf": 1.51,
+   "order": [
+    "G",
+    "D",
+    "I",
+    "E",
+    "H",
+    "C",
+    "F",
+    "A",
+    "B"
+   ]
+  },
+  "ICIT_site:Harappa": {
+   "n": 210,
+   "top": "D",
+   "log10_bf": 0.81,
+   "order": [
+    "D",
+    "E",
+    "G",
+    "I",
+    "H",
+    "C",
+    "F",
+    "A",
+    "B"
+   ]
+  },
+  "ICIT_site:Dholavira": {
+   "n": 41,
+   "top": "H",
+   "log10_bf": 0.71,
+   "order": [
+    "H",
+    "I",
+    "A",
+    "C",
+    "E",
+    "G",
+    "D",
+    "F",
+    "B"
+   ]
+  },
+  "ICIT_site:Mohenjo-daro": {
+   "n": 356,
+   "top": "D",
+   "log10_bf": 1.21,
+   "order": [
+    "D",
+    "H",
+    "E",
+    "I",
+    "C",
+    "G",
+    "A",
+    "F",
+    "B"
+   ]
+  }
+ },
+ "ppc_best_component_per_class": {
+  "A": {
+   "component": "A6_tags_labels|exact",
+   "G": 412.8,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.032,
+   "exp_share12": 0.016
+  },
+  "B": {
+   "component": "B_month|exact",
+   "G": 481.4,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.1,
+   "exp_share12": 0.1
+  },
+  "C": {
+   "component": "C_day_cdli|exact",
+   "G": 291.6,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.085,
+   "exp_share12": 0.08
+  },
+  "D": {
+   "component": "D_regnal_cdli|exact",
+   "G": 775.4,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.153,
+   "exp_share12": 0.014
+  },
+  "E": {
+   "component": "E1_sanskrit_names|exact",
+   "G": 638.3,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.056,
+   "exp_share12": 0.008
+  },
+  "F": {
+   "component": "F_age_latin|exact",
+   "G": 512.9,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.089,
+   "exp_share12": 0.071
+  },
+  "G": {
+   "component": "G_rigveda|exact",
+   "G": 498.1,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.218,
+   "exp_share12": 0.007
+  },
+  "H": {
+   "component": "H3_geometric|ceiling",
+   "G": 119.7,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.058,
+   "exp_share12": 0.065
+  },
+  "I": {
+   "component": "I_legion_latin|exact",
+   "G": 282.5,
+   "p_upper": "<1e-4",
+   "exp_share7": 0.125,
+   "exp_share12": 0.015
+  }
+ },
+ "indus_obs_share7": 0.121,
+ "indus_obs_share12": 0.092,
+ "reference_sizes": {
+  "A5_linear_b": 4062,
+  "F_age_latin": 7451,
+  "I_legion_latin": 6077,
+  "E3_latin_numeral_names": 11203,
+  "E1_sanskrit_names": 61,
+  "E2_chinese_given_names": 361,
+  "G_rigveda": 942,
+  "A4_proto_cuneiform": 18444,
+  "A6_tags_labels": 1456,
+  "A3_proto_elamite": 6357,
+  "C_day_cdli": 25915,
+  "A2_old_akkadian_admin": 8264,
+  "A1_ur3_admin_short": 27266,
+  "D_regnal_cdli": 57
+ },
+ "exploratory": {
+  "flat_benchmark_log10": -473.4,
+  "best_class_log10": -485.1,
+  "spikes": {
+   "INDUS_M77": {
+    "E7": 1.449108894058929,
+    "r12": 17.5,
+    "share7": 0.12147887323943662
+   },
+   "INDUS_noformula": {
+    "E7": 0.7773148379695529,
+    "r12": 17.5,
+    "share7": 0.07246376811594203
+   },
+   "A5_linear_b": {
+    "E7": -0.09825538877774687,
+    "r12": 0.7933333333333333,
+    "share7": 0.03156787092248334
+   },
+   "F_age_latin": {
+    "E7": 0.1150719457168794,
+    "r12": 0.630901287553648,
+    "share7": 0.08940719144800778
+   },
+   "I_legion_latin": {
+    "E7": 0.5819138707685259,
+    "r12": 0.25392670157068065,
+    "share7": 0.12488144166930129
+   },
+   "E3_latin_numeral_names": {
+    "E7": 0.608075901745976,
+    "r12": 0.0015174506828528073,
+    "share7": 0.1310070400979492
+   },
+   "E1_sanskrit_names": {
+    "E7": 0.04257890417015342,
+    "r12": 0.06666666666666667,
+    "share7": 0.05172413793103448
+   },
+   "E2_chinese_given_names": {
+    "E7": 0.5661144497335475,
+    "r12": 0.03333333333333333,
+    "share7": 0.015625
+   },
+   "G_rigveda": {
+    "E7": 3.046686373369141,
+    "r12": 0.08527131782945736,
+    "share7": 0.2185929648241206
+   },
+   "A4_proto_cuneiform": {
+    "E7": -0.19431209039285147,
+    "r12": 0.28695652173913044,
+    "share7": 0.020468375437949476
+   },
+   "A6_tags_labels": {
+    "E7": -0.231572976940293,
+    "r12": 0.4492753623188406,
+    "share7": 0.03118712273641851
+   },
+   "A3_proto_elamite": {
+    "E7": -0.31368291921786895,
+    "r12": 0.31837606837606836,
+    "share7": 0.02064746367575835
+   },
+   "C_day_cdli": {
+    "E7": -0.039091247627221826,
+    "r12": 1.0860433604336044,
+    "share7": 0.08503810669875651
+   },
+   "A2_old_akkadian_admin": {
+    "E7": -0.6653504792408169,
+    "r12": 0.22151898734177214,
+    "share7": 0.025338575797291395
+   },
+   "A1_ur3_admin_short": {
+    "E7": -0.44945571811452645,
+    "r12": 0.519434628975265,
+    "share7": 0.027079761130491337
+   },
+   "D_regnal_cdli": {
+    "E7": 0.875634053936659,
+    "r12": 0.07142857142857142,
+    "share7": 0.16129032258064516
+   }
+  },
+  "no_peaks": {
+   "order": [
+    "H",
+    "E",
+    "D",
+    "A",
+    "I",
+    "G",
+    "C",
+    "F",
+    "B"
+   ],
+   "log10_bf": 5.290758984570174,
+   "best": [
+    [
+     "H3_geometric",
+     "exact",
+     -311.1813105730175
+    ],
+    [
+     "H3_geometric",
+     "ceiling",
+     -312.0519843018977
+    ],
+    [
+     "E1_sanskrit_names",
+     "exact",
+     -316.69454643732524
+    ],
+    [
+     "E2_chinese_given_names",
+     "exact",
+     -317.55995661120227
+    ]
+   ],
+   "ppc": {
+    "G_obs": 45.79843061644039,
+    "p": 0.0,
+    "N": 447
+   }
+  },
+  "noformula_ppc": {
+   "component": "H3_geometric|ceiling",
+   "G_obs": 62.81814070738395,
+   "p": 0.0,
+   "N": 483
+  },
+  "adjacent_short_pairs": {
+   "n": 32,
+   "one_plus_twelve": 8,
+   "twelve_plus_twelve": 3
+  }
+ }
+}

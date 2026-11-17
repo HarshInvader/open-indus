@@ -1,0 +1,510 @@
+{
+ "n_scored": 39,
+ "n_flag_base": 10,
+ "T1T2_variants": {
+  "UR-02": [
+   [
+    "as corpus",
+    0.0891891891891892
+   ],
+   [
+    "M77 reading W415-W803-W001-W711-W005",
+    0.004739336492890996
+   ]
+  ],
+  "UR-05": [
+   [
+    "as corpus",
+    0.07692307692307693
+   ],
+   [
+    "M77 reading W350-W151-W320",
+    0.0410958904109589
+   ]
+  ],
+  "SUSA-02": [
+   [
+    "as corpus",
+    0.010810810810810811
+   ],
+   [
+    "reversed",
+    0.024324324324324326
+   ],
+   [
+    "M77 reading W416-#-W001-W055-#-W001-#-#",
+    0.2542372881355932
+   ],
+   [
+    "M77 reading reversed",
+    0.2033898305084746
+   ]
+  ],
+  "FAILAKA-01": [
+   [
+    "as corpus",
+    0.07333333333333333
+   ],
+   [
+    "reversed",
+    0.02
+   ]
+  ],
+  "BAHRAIN-01": [
+   [
+    "as corpus",
+    0.004739336492890996
+   ],
+   [
+    "reversed",
+    0.004739336492890996
+   ]
+  ]
+ },
+ "T1T2_survivors": [
+  "BAHRAIN-01",
+  "BAHRAIN-06",
+  "BAHRAIN-07",
+  "GIRSU-02",
+  "SALUT-01",
+  "UNPROV-02",
+  "UNPROV-03",
+  "UR-01",
+  "UR-10"
+ ],
+ "T1T2_n_survivors": 9,
+ "T1T2_binom_p": 0.00010507967629816214,
+ "T1_native_reversed_flag_rate": 0.4396709323583181,
+ "T1_native_reversed_n": 1094,
+ "T3_allregister_flags": [
+  "BAHRAIN-01",
+  "BAHRAIN-06",
+  "BAHRAIN-07",
+  "GIRSU-02",
+  "LURISTAN-01",
+  "SALUT-01",
+  "SUSA-01",
+  "SUSA-02",
+  "UNPROV-02",
+  "UNPROV-03",
+  "UR-01",
+  "UR-10"
+ ],
+ "T3_shift018_flags": [
+  "BAHRAIN-01",
+  "BAHRAIN-06",
+  "BAHRAIN-07",
+  "GIRSU-02",
+  "SALUT-01",
+  "SUSA-02",
+  "UNPROV-02",
+  "UNPROV-03",
+  "UR-01",
+  "UR-10"
+ ],
+ "T3_allregister_flags_n": 12,
+ "T3_allregister_flags_binom_p": 2.679498072075085e-07,
+ "T3_shift018_flags_n": 10,
+ "T3_shift018_flags_binom_p": 1.6241391155028556e-05,
+ "T4_bridged_native_flag_rate": 0.04918032786885246,
+ "T4_n": 366,
+ "T4_m77only_scored": [
+  "UR-10",
+  "UR-07",
+  "UNPROV-02",
+  "UNPROV-08",
+  "UNPROV-10"
+ ],
+ "T4_m77only_flagged": [
+  "UR-10",
+  "UNPROV-02"
+ ],
+ "T5": {
+  "n_scored": 31,
+  "n_flag": 8,
+  "binom_p": 0.00010908956821746719
+ },
+ "T6_f1_one_misreading_flag_rate": 0.08247422680412371,
+ "T6_base_k": 10,
+ "T6_base_expected": 2.924226804123711,
+ "T6_base_p": 0.00045908737804404426,
+ "T6_survivors_k": 9,
+ "T6_survivors_expected": 2.924226804123711,
+ "T6_survivors_p": 0.0019678192820953054,
+ "T7_native_q_median": 0.0,
+ "T7_native_q90": 0.2197500000000001,
+ "T7_native_n": 1094,
+ "T7_flagged_q": {
+  "UR-01": 0.605,
+  "UR-10": 0.6,
+  "GIRSU-02": 1.0,
+  "SUSA-02": 0.6,
+  "BAHRAIN-01": 0.269,
+  "BAHRAIN-06": 0.67,
+  "BAHRAIN-07": 0.844,
+  "SALUT-01": 0.084,
+  "UNPROV-02": 0.414,
+  "UNPROV-03": 0.303
+ },
+ "T7_flagged_q_median": 0.6,
+ "T7_mwu_p": 8.492412883642824e-08,
+ "T7_order_driven": [
+  "BAHRAIN-01",
+  "BAHRAIN-06",
+  "BAHRAIN-07",
+  "GIRSU-02",
+  "SUSA-02",
+  "UNPROV-02",
+  "UNPROV-03",
+  "UR-01",
+  "UR-10"
+ ],
+ "T7_all_foreign_q": {
+  "UR-01": 0.605,
+  "UR-02": 0.924,
+  "UR-05": 0.4,
+  "UR-10": 0.6,
+  "UR-07": 0.0,
+  "KISH-02": 0.0,
+  "UMMA-01": 0.034,
+  "GIRSU-01": 0.0,
+  "GIRSU-02": 1.0,
+  "SUSA-01": 0.0,
+  "SUSA-02": 0.6,
+  "LURISTAN-01": 0.261,
+  "FAILAKA-01": 0.13,
+  "FAILAKA-02": 0.0,
+  "BAHRAIN-01": 0.269,
+  "BAHRAIN-03": 0.0,
+  "BAHRAIN-04": 0.652,
+  "BAHRAIN-06": 0.67,
+  "BAHRAIN-07": 0.844,
+  "SALUT-01": 0.084,
+  "RJ-02": 0.0,
+  "RJ-04": 0.2,
+  "GONUR-01": 0.0,
+  "UNPROV-01": 0.271,
+  "UNPROV-02": 0.414,
+  "UNPROV-03": 0.303,
+  "UNPROV-04": 0.0,
+  "UNPROV-05": 0.378,
+  "UNPROV-06": 0.0,
+  "UNPROV-08": 0.073,
+  "UNPROV-10": 0.0
+ },
+ "verdict": "holds",
+ "per_text": [
+  {
+   "id": "UR-01",
+   "bits": 7.749643332054078,
+   "p": 0.018957345971563982,
+   "region": "Mesopotamia",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UR-02",
+   "bits": 7.177649975073672,
+   "p": 0.0891891891891892,
+   "region": "Mesopotamia",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UR-03",
+   "bits": 5.952239019822515,
+   "p": 0.3592233009708738,
+   "region": "Mesopotamia",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UR-05",
+   "bits": 8.346362099295638,
+   "p": 0.07692307692307693,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UR-10",
+   "bits": 8.096873262478939,
+   "p": 0.0410958904109589,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "M77"
+  },
+  {
+   "id": "UR-07",
+   "bits": 6.592582659166285,
+   "p": 0.2391304347826087,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "M77"
+  },
+  {
+   "id": "KISH-01",
+   "bits": 7.89774012242013,
+   "p": 0.16666666666666666,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "KISH-02",
+   "bits": 4.69866936958891,
+   "p": 0.7648648648648648,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UMMA-01",
+   "bits": 5.947609259963094,
+   "p": 0.25118483412322273,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "GIRSU-01",
+   "bits": 6.136919808565353,
+   "p": 0.3389830508474576,
+   "region": "Mesopotamia",
+   "conf": "probable",
+   "origin": "ICIT"
+  },
+  {
+   "id": "GIRSU-02",
+   "bits": 8.94902683224022,
+   "p": 0.03389830508474576,
+   "region": "Mesopotamia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "SUSA-01",
+   "bits": 8.092038799452741,
+   "p": 0.06521739130434782,
+   "region": "Iran",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "SUSA-02",
+   "bits": 8.364003303997439,
+   "p": 0.010810810810810811,
+   "region": "Iran",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "LURISTAN-01",
+   "bits": 7.617734772557983,
+   "p": 0.05333333333333334,
+   "region": "Iran",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "YAHYA-01",
+   "bits": 7.003495195258559,
+   "p": 0.32222222222222224,
+   "region": "Iran",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "FAILAKA-01",
+   "bits": 7.4184672446692,
+   "p": 0.07333333333333333,
+   "region": "Gulf",
+   "conf": "probable",
+   "origin": "ICIT"
+  },
+  {
+   "id": "FAILAKA-02",
+   "bits": 7.229488911692467,
+   "p": 0.15384615384615385,
+   "region": "Gulf",
+   "conf": "uncertain",
+   "origin": "ICIT"
+  },
+  {
+   "id": "BAHRAIN-01",
+   "bits": 8.381917764675727,
+   "p": 0.004739336492890996,
+   "region": "Gulf",
+   "conf": "uncertain",
+   "origin": "ICIT"
+  },
+  {
+   "id": "BAHRAIN-03",
+   "bits": 5.713154399804191,
+   "p": 0.31333333333333335,
+   "region": "Gulf",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "BAHRAIN-04",
+   "bits": 6.7540479192694844,
+   "p": 0.17333333333333334,
+   "region": "Gulf",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "BAHRAIN-05",
+   "bits": 4.868007518626155,
+   "p": 0.6407766990291263,
+   "region": "Gulf",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "BAHRAIN-06",
+   "bits": 7.885870339442526,
+   "p": 0.024324324324324326,
+   "region": "Gulf",
+   "conf": "probable",
+   "origin": "ICIT"
+  },
+  {
+   "id": "BAHRAIN-07",
+   "bits": 8.50430595608531,
+   "p": 0.005405405405405406,
+   "region": "Gulf",
+   "conf": "probable",
+   "origin": "ICIT"
+  },
+  {
+   "id": "SALUT-01",
+   "bits": 7.340498419482656,
+   "p": 0.04265402843601896,
+   "region": "Oman",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "RJ-02",
+   "bits": 4.742724862120594,
+   "p": 0.6794871794871795,
+   "region": "Oman",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "RJ-03",
+   "bits": 4.243114546348006,
+   "p": 0.7864077669902912,
+   "region": "Oman",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "RJ-04",
+   "bits": 4.604372289426941,
+   "p": 0.7328767123287672,
+   "region": "Oman",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "HAJAR-01",
+   "bits": 4.647794418341619,
+   "p": 0.6990291262135923,
+   "region": "Oman",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "GONUR-01",
+   "bits": 4.548832189868758,
+   "p": 0.8189189189189189,
+   "region": "Central Asia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "ALTYN-01",
+   "bits": 4.282393821502056,
+   "p": 0.7864077669902912,
+   "region": "Central Asia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "SHORT-01",
+   "bits": 5.852618769016201,
+   "p": 0.3786407766990291,
+   "region": "Central Asia",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UNPROV-01",
+   "bits": 6.592823280277226,
+   "p": 0.13744075829383887,
+   "region": "unknown-WA",
+   "conf": "confirmed",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UNPROV-02",
+   "bits": 7.455005180972852,
+   "p": 0.037914691943127965,
+   "region": "unknown-WA",
+   "conf": "probable",
+   "origin": "M77"
+  },
+  {
+   "id": "UNPROV-03",
+   "bits": 8.805333095742238,
+   "p": 0.043478260869565216,
+   "region": "unknown-WA",
+   "conf": "probable",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UNPROV-04",
+   "bits": 5.588134347518629,
+   "p": 0.44871794871794873,
+   "region": "unknown-WA",
+   "conf": "probable",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UNPROV-05",
+   "bits": 6.4382322400364895,
+   "p": 0.2391304347826087,
+   "region": "unknown-WA",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UNPROV-06",
+   "bits": 6.526436876793198,
+   "p": 0.288135593220339,
+   "region": "unknown-WA",
+   "conf": "corpus only",
+   "origin": "ICIT"
+  },
+  {
+   "id": "UNPROV-08",
+   "bits": 6.511226470449551,
+   "p": 0.1891891891891892,
+   "region": "unknown-WA",
+   "conf": "corpus only",
+   "origin": "M77"
+  },
+  {
+   "id": "UNPROV-10",
+   "bits": 5.585184460337702,
+   "p": 0.4520547945205479,
+   "region": "unknown-WA",
+   "conf": "corpus only",
+   "origin": "M77"
+  }
+ ]
+}

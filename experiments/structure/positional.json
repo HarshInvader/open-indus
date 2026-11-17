@@ -1,0 +1,8130 @@
+{
+ "M77_full": {
+  "label": "M77 distinct clean",
+  "texts": 1758,
+  "signs_n_ge_min": 124,
+  "K": 3,
+  "stability": {
+   "2": {
+    "ARI_mean": 0.6284273010749293,
+    "ARI_sd": 0.3141209584550462,
+    "silhouette": 0.5879866045391644
+   },
+   "3": {
+    "ARI_mean": 0.6657920050201229,
+    "ARI_sd": 0.06773256150456698,
+    "silhouette": 0.5104319351586293
+   },
+   "4": {
+    "ARI_mean": 0.5199729955779103,
+    "ARI_sd": 0.07440737670447096,
+    "silhouette": 0.47422899707249966
+   },
+   "5": {
+    "ARI_mean": 0.5327423276368087,
+    "ARI_sd": 0.10137037511316005,
+    "silhouette": 0.4866901009127627
+   },
+   "6": {
+    "ARI_mean": 0.47037744446994656,
+    "ARI_sd": 0.07062050068713116,
+    "silhouette": 0.4660628605089415
+   },
+   "7": {
+    "ARI_mean": 0.41264287988300097,
+    "ARI_sd": 0.041791557028618816,
+    "silhouette": 0.44038820220871716
+   },
+   "8": {
+    "ARI_mean": 0.4133317560187296,
+    "ARI_sd": 0.04306655309111729,
+    "silhouette": 0.4270395861280252
+   }
+  },
+  "classes_summary": {
+   "medial-core": {
+    "n_signs": 70,
+    "centroid": {
+     "initial": 0.14821630835763697,
+     "medial": 0.7869689541159438,
+     "final": 0.05739243977933914,
+     "standalone": 0.007422297747080191
+    },
+    "tokens": 4271,
+    "members_top": [
+     "M99",
+     "M59",
+     "M87",
+     "M67",
+     "M162",
+     "M336",
+     "M123",
+     "M65",
+     "M343",
+     "M89",
+     "M72",
+     "M245",
+     "M249",
+     "M102",
+     "M53"
+    ],
+    "stroke_signs_in_class": [
+     "M99",
+     "M87",
+     "M89",
+     "M102",
+     "M97",
+     "M98",
+     "M104",
+     "M112",
+     "M121",
+     "M100",
+     "M96"
+    ]
+   },
+   "closer": {
+    "n_signs": 17,
+    "centroid": {
+     "initial": 0.06947339957570134,
+     "medial": 0.21695046379180682,
+     "final": 0.6909469239040311,
+     "standalone": 0.022629212728460735
+    },
+    "tokens": 1719,
+    "members_top": [
+     "M342",
+     "M176",
+     "M211",
+     "M169",
+     "M1",
+     "M15",
+     "M12",
+     "M254",
+     "M328",
+     "M60",
+     "M242",
+     "M190",
+     "M139",
+     "M66",
+     "M14"
+    ],
+    "stroke_signs_in_class": []
+   },
+   "opener": {
+    "n_signs": 37,
+    "centroid": {
+     "initial": 0.47210551137033757,
+     "medial": 0.4437359368839192,
+     "final": 0.07598287607006741,
+     "standalone": 0.00817567567567567
+    },
+    "tokens": 1496,
+    "members_top": [
+     "M267",
+     "M391",
+     "M86",
+     "M293",
+     "M389",
+     "M17",
+     "M216",
+     "M197",
+     "M150",
+     "M28",
+     "M204",
+     "M175",
+     "M307",
+     "M375",
+     "M373"
+    ],
+    "stroke_signs_in_class": [
+     "M86",
+     "M106",
+     "M109",
+     "M103"
+    ]
+   }
+  },
+  "n_positional_q05": 82,
+  "per_sign": {
+   "M342": {
+    "ntext": 831,
+    "tokens": 847,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.30578512396694213,
+     "final": 0.6942148760330579,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     259.0,
+     588.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.0027825183646212064,
+    "final_ratio_vs_shuffle": 3.2801961986511343
+   },
+   "M99": {
+    "ntext": 452,
+    "tokens": 453,
+    "profile": {
+     "initial": 0.004415011037527594,
+     "medial": 0.9801324503311258,
+     "final": 0.01545253863134658,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     444.0,
+     7.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.031279976644284106,
+    "final_ratio_vs_shuffle": 0.09443861490031479
+   },
+   "M267": {
+    "ntext": 244,
+    "tokens": 246,
+    "profile": {
+     "initial": 0.7642276422764228,
+     "medial": 0.2032520325203252,
+     "final": 0.032520325203252036,
+     "standalone": 0.0
+    },
+    "counts": [
+     188.0,
+     50.0,
+     8.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 3.8632326820603904,
+    "final_ratio_vs_shuffle": 0.17535414660981982
+   },
+   "M59": {
+    "ntext": 221,
+    "tokens": 230,
+    "profile": {
+     "initial": 0.10869565217391304,
+     "medial": 0.8434782608695652,
+     "final": 0.04782608695652174,
+     "standalone": 0.0
+    },
+    "counts": [
+     25.0,
+     194.0,
+     11.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.5795454545454546,
+    "final_ratio_vs_shuffle": 0.26122510789732717
+   },
+   "M87": {
+    "ntext": 188,
+    "tokens": 202,
+    "profile": {
+     "initial": 0.22277227722772278,
+     "medial": 0.7029702970297029,
+     "final": 0.07425742574257425,
+     "standalone": 0.0
+    },
+    "counts": [
+     45.0,
+     142.0,
+     15.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.196004556207833,
+    "final_ratio_vs_shuffle": 0.3979460847240051
+   },
+   "M67": {
+    "ntext": 170,
+    "tokens": 170,
+    "profile": {
+     "initial": 0.21176470588235294,
+     "medial": 0.7823529411764706,
+     "final": 0.0,
+     "standalone": 0.0058823529411764705
+    },
+    "counts": [
+     36.0,
+     133.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.136599543284202,
+    "final_ratio_vs_shuffle": 0.015372002459520395
+   },
+   "M176": {
+    "ntext": 165,
+    "tokens": 175,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.19428571428571428,
+     "final": 0.8057142857142857,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     34.0,
+     141.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.01126041588469334,
+    "final_ratio_vs_shuffle": 3.1409544950055497
+   },
+   "M211": {
+    "ntext": 155,
+    "tokens": 156,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.19230769230769232,
+     "final": 0.8076923076923077,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     30.0,
+     126.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.014694357366771162,
+    "final_ratio_vs_shuffle": 3.821367435303595
+   },
+   "M336": {
+    "ntext": 150,
+    "tokens": 150,
+    "profile": {
+     "initial": 0.17333333333333334,
+     "medial": 0.8066666666666666,
+     "final": 0.013333333333333334,
+     "standalone": 0.006666666666666667
+    },
+    "counts": [
+     26.0,
+     121.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.949820788530466,
+    "final_ratio_vs_shuffle": 0.08722958827634333
+   },
+   "M391": {
+    "ntext": 149,
+    "tokens": 159,
+    "profile": {
+     "initial": 0.6981132075471698,
+     "medial": 0.2138364779874214,
+     "final": 0.0880503144654088,
+     "standalone": 0.0
+    },
+    "counts": [
+     111.0,
+     34.0,
+     14.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 3.4111768305119314,
+    "final_ratio_vs_shuffle": 0.4567888270502993
+   },
+   "M123": {
+    "ntext": 147,
+    "tokens": 148,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9864864864864865,
+     "final": 0.013513513513513514,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     146.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.018368846436443792,
+    "final_ratio_vs_shuffle": 0.0901117385558092
+   },
+   "M162": {
+    "ntext": 142,
+    "tokens": 155,
+    "profile": {
+     "initial": 0.05806451612903226,
+     "medial": 0.5483870967741935,
+     "final": 0.3870967741935484,
+     "standalone": 0.0064516129032258064
+    },
+    "counts": [
+     9.0,
+     85.0,
+     60.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.27129938124702524,
+    "final_ratio_vs_shuffle": 1.738505747126437
+   },
+   "M65": {
+    "ntext": 140,
+    "tokens": 140,
+    "profile": {
+     "initial": 0.32857142857142857,
+     "medial": 0.6571428571428571,
+     "final": 0.007142857142857143,
+     "standalone": 0.007142857142857143
+    },
+    "counts": [
+     46.0,
+     92.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.7578125,
+    "final_ratio_vs_shuffle": 0.0549182328533073
+   },
+   "M343": {
+    "ntext": 132,
+    "tokens": 133,
+    "profile": {
+     "initial": 0.12781954887218044,
+     "medial": 0.849624060150376,
+     "final": 0.022556390977443608,
+     "standalone": 0.0
+    },
+    "counts": [
+     17.0,
+     113.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.7201646090534979,
+    "final_ratio_vs_shuffle": 0.14630068273651944
+   },
+   "M72": {
+    "ntext": 128,
+    "tokens": 128,
+    "profile": {
+     "initial": 0.203125,
+     "medial": 0.796875,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     26.0,
+     102.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.0615569501936173,
+    "final_ratio_vs_shuffle": 0.019564366766662317
+   },
+   "M89": {
+    "ntext": 124,
+    "tokens": 130,
+    "profile": {
+     "initial": 0.11538461538461539,
+     "medial": 0.8076923076923077,
+     "final": 0.06923076923076923,
+     "standalone": 0.007692307692307693
+    },
+    "counts": [
+     15.0,
+     105.0,
+     9.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.6590136054421769,
+    "final_ratio_vs_shuffle": 0.4029407606390499
+   },
+   "M169": {
+    "ntext": 110,
+    "tokens": 115,
+    "profile": {
+     "initial": 0.017391304347826087,
+     "medial": 0.4,
+     "final": 0.5739130434782609,
+     "standalone": 0.008695652173913044
+    },
+    "counts": [
+     2.0,
+     46.0,
+     66.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.10236113006687594,
+    "final_ratio_vs_shuffle": 2.665686798503474
+   },
+   "M86": {
+    "ntext": 109,
+    "tokens": 110,
+    "profile": {
+     "initial": 0.43636363636363634,
+     "medial": 0.4818181818181818,
+     "final": 0.08181818181818182,
+     "standalone": 0.0
+    },
+    "counts": [
+     48.0,
+     53.0,
+     9.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.823765354725495,
+    "final_ratio_vs_shuffle": 0.3527664314890457
+   },
+   "M249": {
+    "ntext": 99,
+    "tokens": 99,
+    "profile": {
+     "initial": 0.2222222222222222,
+     "medial": 0.7070707070707071,
+     "final": 0.06060606060606061,
+     "standalone": 0.010101010101010102
+    },
+    "counts": [
+     22.0,
+     70.0,
+     6.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.187961985216473,
+    "final_ratio_vs_shuffle": 0.34222534222534223
+   },
+   "M293": {
+    "ntext": 98,
+    "tokens": 103,
+    "profile": {
+     "initial": 0.5922330097087378,
+     "medial": 0.3786407766990291,
+     "final": 0.02912621359223301,
+     "standalone": 0.0
+    },
+    "counts": [
+     61.0,
+     39.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 3.2993562231759657,
+    "final_ratio_vs_shuffle": 0.1876005002680007
+   },
+   "M102": {
+    "ntext": 87,
+    "tokens": 87,
+    "profile": {
+     "initial": 0.3218390804597701,
+     "medial": 0.632183908045977,
+     "final": 0.034482758620689655,
+     "standalone": 0.011494252873563218
+    },
+    "counts": [
+     28.0,
+     55.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.3830475574247818,
+    "final_ratio_vs_shuffle": 0.1688374336710082
+   },
+   "M53": {
+    "ntext": 86,
+    "tokens": 86,
+    "profile": {
+     "initial": 0.1744186046511628,
+     "medial": 0.8255813953488372,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     15.0,
+     71.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.0104302477183833,
+    "final_ratio_vs_shuffle": 0.033707865168539325
+   },
+   "M48": {
+    "ntext": 77,
+    "tokens": 77,
+    "profile": {
+     "initial": 0.2077922077922078,
+     "medial": 0.7792207792207793,
+     "final": 0.012987012987012988,
+     "standalone": 0.0
+    },
+    "counts": [
+     16.0,
+     60.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.9351974305686755,
+    "final_ratio_vs_shuffle": 0.08715862870424172
+   },
+   "M387": {
+    "ntext": 77,
+    "tokens": 77,
+    "profile": {
+     "initial": 0.33766233766233766,
+     "medial": 0.6623376623376623,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     26.0,
+     51.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.7148403796376186,
+    "final_ratio_vs_shuffle": 0.031942078364565585
+   },
+   "M347": {
+    "ntext": 76,
+    "tokens": 76,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9868421052631579,
+     "final": 0.013157894736842105,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     75.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.03397508493771234,
+    "final_ratio_vs_shuffle": 0.0998003992015968
+   },
+   "M402": {
+    "ntext": 75,
+    "tokens": 76,
+    "profile": {
+     "initial": 0.06578947368421052,
+     "medial": 0.631578947368421,
+     "final": 0.3026315789473684,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     48.0,
+     23.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012483640390617137,
+    "init_ratio_vs_shuffle": 0.3080082135523614,
+    "final_ratio_vs_shuffle": 1.3565518568404848
+   },
+   "M171": {
+    "ntext": 72,
+    "tokens": 72,
+    "profile": {
+     "initial": 0.2222222222222222,
+     "medial": 0.75,
+     "final": 0.027777777777777776,
+     "standalone": 0.0
+    },
+    "counts": [
+     16.0,
+     54.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.218011811023622,
+    "final_ratio_vs_shuffle": 0.181422351233672
+   },
+   "M1": {
+    "ntext": 72,
+    "tokens": 77,
+    "profile": {
+     "initial": 0.05194805194805195,
+     "medial": 0.2077922077922078,
+     "final": 0.7272727272727273,
+     "standalone": 0.012987012987012988
+    },
+    "counts": [
+     4.0,
+     16.0,
+     56.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.2887700534759358,
+    "final_ratio_vs_shuffle": 3.614843250159949
+   },
+   "M245": {
+    "ntext": 70,
+    "tokens": 112,
+    "profile": {
+     "initial": 0.14285714285714285,
+     "medial": 0.6517857142857143,
+     "final": 0.20535714285714285,
+     "standalone": 0.0
+    },
+    "counts": [
+     16.0,
+     73.0,
+     23.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.3953488372093023,
+    "q": 0.4226142742582197,
+    "init_ratio_vs_shuffle": 0.7722308892355694,
+    "final_ratio_vs_shuffle": 1.0745313214449017
+   },
+   "M389": {
+    "ntext": 68,
+    "tokens": 70,
+    "profile": {
+     "initial": 0.38571428571428573,
+     "medial": 0.6142857142857143,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     27.0,
+     43.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.03001968503937,
+    "final_ratio_vs_shuffle": 0.03808073115003808
+   },
+   "M8": {
+    "ntext": 68,
+    "tokens": 68,
+    "profile": {
+     "initial": 0.014705882352941176,
+     "medial": 0.9852941176470589,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     67.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.11166253101736973,
+    "final_ratio_vs_shuffle": 0.03738783649052842
+   },
+   "M17": {
+    "ntext": 67,
+    "tokens": 67,
+    "profile": {
+     "initial": 0.44776119402985076,
+     "medial": 0.5223880597014925,
+     "final": 0.029850746268656716,
+     "standalone": 0.0
+    },
+    "counts": [
+     30.0,
+     35.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.232796486090776,
+    "final_ratio_vs_shuffle": 0.183060776177691
+   },
+   "M15": {
+    "ntext": 67,
+    "tokens": 67,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.26865671641791045,
+     "final": 0.7164179104477612,
+     "standalone": 0.014925373134328358
+    },
+    "counts": [
+     0.0,
+     18.0,
+     48.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.026014568158168577,
+    "final_ratio_vs_shuffle": 2.561619718309859
+   },
+   "M97": {
+    "ntext": 66,
+    "tokens": 69,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9565217391304348,
+     "final": 0.043478260869565216,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     66.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.04037685060565276,
+    "final_ratio_vs_shuffle": 0.2867285636264336
+   },
+   "M51": {
+    "ntext": 65,
+    "tokens": 65,
+    "profile": {
+     "initial": 0.2153846153846154,
+     "medial": 0.7384615384615385,
+     "final": 0.03076923076923077,
+     "standalone": 0.015384615384615385
+    },
+    "counts": [
+     14.0,
+     48.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.1037807663029688,
+    "final_ratio_vs_shuffle": 0.19577133907595928
+   },
+   "M98": {
+    "ntext": 61,
+    "tokens": 61,
+    "profile": {
+     "initial": 0.04918032786885246,
+     "medial": 0.8360655737704918,
+     "final": 0.11475409836065574,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     51.0,
+     7.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.009966777408637873,
+    "q": 0.017655434266729945,
+    "init_ratio_vs_shuffle": 0.2949438202247191,
+    "final_ratio_vs_shuffle": 0.6399317406143344
+   },
+   "M12": {
+    "ntext": 58,
+    "tokens": 58,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.15517241379310345,
+     "final": 0.8448275862068966,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     9.0,
+     49.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.029827003380393718,
+    "final_ratio_vs_shuffle": 2.931306750888275
+   },
+   "M254": {
+    "ntext": 55,
+    "tokens": 55,
+    "profile": {
+     "initial": 0.05454545454545454,
+     "medial": 0.12727272727272726,
+     "final": 0.8181818181818182,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     7.0,
+     45.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.24752475247524752,
+    "final_ratio_vs_shuffle": 3.256202290076336
+   },
+   "M403": {
+    "ntext": 54,
+    "tokens": 54,
+    "profile": {
+     "initial": 0.2037037037037037,
+     "medial": 0.7962962962962963,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     43.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.0002899391127864,
+    "final_ratio_vs_shuffle": 0.043949604453559915
+   },
+   "M216": {
+    "ntext": 54,
+    "tokens": 55,
+    "profile": {
+     "initial": 0.41818181818181815,
+     "medial": 0.509090909090909,
+     "final": 0.05454545454545454,
+     "standalone": 0.01818181818181818
+    },
+    "counts": [
+     23.0,
+     28.0,
+     3.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.9988658916926567,
+    "final_ratio_vs_shuffle": 0.2875924404272802
+   },
+   "M287": {
+    "ntext": 51,
+    "tokens": 56,
+    "profile": {
+     "initial": 0.19642857142857142,
+     "medial": 0.7678571428571429,
+     "final": 0.03571428571428571,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     43.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.022886674049464747,
+    "init_ratio_vs_shuffle": 1.000870322019147,
+    "final_ratio_vs_shuffle": 0.22434938677834282
+   },
+   "M70": {
+    "ntext": 51,
+    "tokens": 51,
+    "profile": {
+     "initial": 0.19607843137254902,
+     "medial": 0.803921568627451,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     41.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.0479041916167666,
+    "final_ratio_vs_shuffle": 0.04767959313413859
+   },
+   "M104": {
+    "ntext": 46,
+    "tokens": 47,
+    "profile": {
+     "initial": 0.2978723404255319,
+     "medial": 0.6382978723404256,
+     "final": 0.06382978723404255,
+     "standalone": 0.0
+    },
+    "counts": [
+     14.0,
+     30.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012483640390617137,
+    "init_ratio_vs_shuffle": 1.1021028629338738,
+    "final_ratio_vs_shuffle": 0.25528811086797953
+   },
+   "M124": {
+    "ntext": 45,
+    "tokens": 45,
+    "profile": {
+     "initial": 0.2222222222222222,
+     "medial": 0.7777777777777778,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     35.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.059892328398385,
+    "final_ratio_vs_shuffle": 0.05108991825613079
+   },
+   "M244": {
+    "ntext": 44,
+    "tokens": 45,
+    "profile": {
+     "initial": 0.28888888888888886,
+     "medial": 0.7111111111111111,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     13.0,
+     32.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.4552641034854472,
+    "final_ratio_vs_shuffle": 0.054190751445086706
+   },
+   "M328": {
+    "ntext": 43,
+    "tokens": 50,
+    "profile": {
+     "initial": 0.26,
+     "medial": 0.32,
+     "final": 0.4,
+     "standalone": 0.02
+    },
+    "counts": [
+     13.0,
+     16.0,
+     20.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.053156146179401995,
+    "q": 0.0757627830602971,
+    "init_ratio_vs_shuffle": 0.953614315987756,
+    "final_ratio_vs_shuffle": 1.4670801526717558
+   },
+   "M197": {
+    "ntext": 42,
+    "tokens": 42,
+    "profile": {
+     "initial": 0.40476190476190477,
+     "medial": 0.5476190476190477,
+     "final": 0.047619047619047616,
+     "standalone": 0.0
+    },
+    "counts": [
+     17.0,
+     23.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.9365547768351161,
+    "final_ratio_vs_shuffle": 0.2740226525392766
+   },
+   "M150": {
+    "ntext": 41,
+    "tokens": 42,
+    "profile": {
+     "initial": 0.7857142857142857,
+     "medial": 0.19047619047619047,
+     "final": 0.023809523809523808,
+     "standalone": 0.0
+    },
+    "counts": [
+     33.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 3.859447004608295,
+    "final_ratio_vs_shuffle": 0.1730769230769231
+   },
+   "M149": {
+    "ntext": 41,
+    "tokens": 41,
+    "profile": {
+     "initial": 0.07317073170731707,
+     "medial": 0.7560975609756098,
+     "final": 0.17073170731707318,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     31.0,
+     7.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.026578073089700997,
+    "q": 0.04068742053238178,
+    "init_ratio_vs_shuffle": 0.3871681415929204,
+    "final_ratio_vs_shuffle": 0.8741258741258742
+   },
+   "M28": {
+    "ntext": 41,
+    "tokens": 41,
+    "profile": {
+     "initial": 0.3170731707317073,
+     "medial": 0.5853658536585366,
+     "final": 0.0975609756097561,
+     "standalone": 0.0
+    },
+    "counts": [
+     13.0,
+     24.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.053156146179401995,
+    "q": 0.0757627830602971,
+    "init_ratio_vs_shuffle": 1.5317700453857792,
+    "final_ratio_vs_shuffle": 0.49486803519061584
+   },
+   "M112": {
+    "ntext": 41,
+    "tokens": 41,
+    "profile": {
+     "initial": 0.1951219512195122,
+     "medial": 0.8048780487804879,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     33.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.9156193895870737,
+    "final_ratio_vs_shuffle": 0.052521008403361345
+   },
+   "M204": {
+    "ntext": 40,
+    "tokens": 40,
+    "profile": {
+     "initial": 0.525,
+     "medial": 0.45,
+     "final": 0.025,
+     "standalone": 0.0
+    },
+    "counts": [
+     21.0,
+     18.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.298645759087669,
+    "final_ratio_vs_shuffle": 0.15474552957359008
+   },
+   "M230": {
+    "ntext": 39,
+    "tokens": 39,
+    "profile": {
+     "initial": 0.05128205128205128,
+     "medial": 0.8974358974358975,
+     "final": 0.05128205128205128,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     35.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.280688622754491,
+    "final_ratio_vs_shuffle": 0.2763448784082535
+   },
+   "M155": {
+    "ntext": 38,
+    "tokens": 38,
+    "profile": {
+     "initial": 0.13157894736842105,
+     "medial": 0.868421052631579,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     33.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012483640390617137,
+    "init_ratio_vs_shuffle": 0.7227332457293035,
+    "final_ratio_vs_shuffle": 0.06610841780520053
+   },
+   "M175": {
+    "ntext": 38,
+    "tokens": 38,
+    "profile": {
+     "initial": 0.34210526315789475,
+     "medial": 0.6052631578947368,
+     "final": 0.05263157894736842,
+     "standalone": 0.0
+    },
+    "counts": [
+     13.0,
+     23.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.009966777408637873,
+    "q": 0.017655434266729945,
+    "init_ratio_vs_shuffle": 1.8442622950819672,
+    "final_ratio_vs_shuffle": 0.3395201448619285
+   },
+   "M341": {
+    "ntext": 38,
+    "tokens": 38,
+    "profile": {
+     "initial": 0.2631578947368421,
+     "medial": 0.6578947368421053,
+     "final": 0.07894736842105263,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     25.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.07308970099667775,
+    "q": 0.09851220569117436,
+    "init_ratio_vs_shuffle": 1.1107193229901269,
+    "final_ratio_vs_shuffle": 0.38461538461538464
+   },
+   "M121": {
+    "ntext": 37,
+    "tokens": 40,
+    "profile": {
+     "initial": 0.25,
+     "medial": 0.725,
+     "final": 0.025,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     29.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.023255813953488372,
+    "q": 0.03650279658522225,
+    "init_ratio_vs_shuffle": 1.3174404015056462,
+    "final_ratio_vs_shuffle": 0.18137847642079807
+   },
+   "M127": {
+    "ntext": 36,
+    "tokens": 37,
+    "profile": {
+     "initial": 0.16216216216216217,
+     "medial": 0.7027027027027027,
+     "final": 0.10810810810810811,
+     "standalone": 0.02702702702702703
+    },
+    "counts": [
+     6.0,
+     26.0,
+     4.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.3953488372093023,
+    "q": 0.4226142742582197,
+    "init_ratio_vs_shuffle": 0.8779828905898244,
+    "final_ratio_vs_shuffle": 0.6218332565637955
+   },
+   "M307": {
+    "ntext": 36,
+    "tokens": 38,
+    "profile": {
+     "initial": 0.2631578947368421,
+     "medial": 0.5526315789473685,
+     "final": 0.18421052631578946,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     21.0,
+     7.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.6744186046511628,
+    "q": 0.6911397270805305,
+    "init_ratio_vs_shuffle": 1.177570093457944,
+    "final_ratio_vs_shuffle": 0.8370535714285714
+   },
+   "M130": {
+    "ntext": 35,
+    "tokens": 35,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.8857142857142857,
+     "final": 0.11428571428571428,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     31.0,
+     4.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.028216447458244212,
+    "init_ratio_vs_shuffle": 0.07660878447395301,
+    "final_ratio_vs_shuffle": 0.689831374552887
+   },
+   "M180": {
+    "ntext": 35,
+    "tokens": 35,
+    "profile": {
+     "initial": 0.02857142857142857,
+     "medial": 0.8,
+     "final": 0.17142857142857143,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     28.0,
+     6.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.04983388704318937,
+    "q": 0.07269884698065272,
+    "init_ratio_vs_shuffle": 0.21428571428571427,
+    "final_ratio_vs_shuffle": 0.9325681492109039
+   },
+   "M194": {
+    "ntext": 34,
+    "tokens": 35,
+    "profile": {
+     "initial": 0.05714285714285714,
+     "medial": 0.8857142857142857,
+     "final": 0.05714285714285714,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     31.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.33783783783783783,
+    "final_ratio_vs_shuffle": 0.33967391304347827
+   },
+   "M294": {
+    "ntext": 32,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.06060606060606061,
+     "medial": 0.9393939393939394,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     31.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.3507951356407858,
+    "final_ratio_vs_shuffle": 0.07278020378457059
+   },
+   "M252": {
+    "ntext": 31,
+    "tokens": 32,
+    "profile": {
+     "initial": 0.0625,
+     "medial": 0.625,
+     "final": 0.3125,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     20.0,
+     10.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.059800664451827246,
+    "q": 0.0823920265780731,
+    "init_ratio_vs_shuffle": 0.37091988130563797,
+    "final_ratio_vs_shuffle": 1.5180722891566265
+   },
+   "M345": {
+    "ntext": 30,
+    "tokens": 30,
+    "profile": {
+     "initial": 0.4,
+     "medial": 0.5333333333333333,
+     "final": 0.06666666666666667,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     16.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.023255813953488372,
+    "q": 0.03650279658522225,
+    "init_ratio_vs_shuffle": 1.6527104451300132,
+    "final_ratio_vs_shuffle": 0.33274179236912155
+   },
+   "M375": {
+    "ntext": 30,
+    "tokens": 36,
+    "profile": {
+     "initial": 0.25,
+     "medial": 0.5555555555555556,
+     "final": 0.19444444444444445,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     20.0,
+     7.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.9036544850498339,
+    "q": 0.9036544850498339,
+    "init_ratio_vs_shuffle": 1.118085523734798,
+    "final_ratio_vs_shuffle": 0.9146341463414634
+   },
+   "M25": {
+    "ntext": 29,
+    "tokens": 29,
+    "profile": {
+     "initial": 0.20689655172413793,
+     "medial": 0.7586206896551724,
+     "final": 0.034482758620689655,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     22.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.009966777408637873,
+    "q": 0.017655434266729945,
+    "init_ratio_vs_shuffle": 0.8682101513802316,
+    "final_ratio_vs_shuffle": 0.1983252534156016
+   },
+   "M344": {
+    "ntext": 28,
+    "tokens": 29,
+    "profile": {
+     "initial": 0.10344827586206896,
+     "medial": 0.7931034482758621,
+     "final": 0.06896551724137931,
+     "standalone": 0.034482758620689655
+    },
+    "counts": [
+     3.0,
+     23.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.05647840531561462,
+    "q": 0.0786890141475979,
+    "init_ratio_vs_shuffle": 0.5794701986754967,
+    "final_ratio_vs_shuffle": 0.42541123085649457
+   },
+   "M173": {
+    "ntext": 27,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.5185185185185185,
+     "medial": 0.2962962962962963,
+     "final": 0.18518518518518517,
+     "standalone": 0.0
+    },
+    "counts": [
+     14.0,
+     8.0,
+     5.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.263267429760666,
+    "final_ratio_vs_shuffle": 0.8303975842979366
+   },
+   "M327": {
+    "ntext": 26,
+    "tokens": 26,
+    "profile": {
+     "initial": 0.23076923076923078,
+     "medial": 0.7307692307692307,
+     "final": 0.038461538461538464,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     19.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0664451827242525,
+    "q": 0.09054068854733308,
+    "init_ratio_vs_shuffle": 1.0416666666666667,
+    "final_ratio_vs_shuffle": 0.24698133918770582
+   },
+   "M106": {
+    "ntext": 25,
+    "tokens": 25,
+    "profile": {
+     "initial": 0.32,
+     "medial": 0.6,
+     "final": 0.04,
+     "standalone": 0.04
+    },
+    "counts": [
+     8.0,
+     15.0,
+     1.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.04318936877076412,
+    "q": 0.06375573485208037,
+    "init_ratio_vs_shuffle": 1.312403499742666,
+    "final_ratio_vs_shuffle": 0.23183925811437403
+   },
+   "M296": {
+    "ntext": 24,
+    "tokens": 24,
+    "profile": {
+     "initial": 0.08333333333333333,
+     "medial": 0.9166666666666666,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     22.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.4520795660036166,
+    "final_ratio_vs_shuffle": 0.08566533409480297
+   },
+   "M373": {
+    "ntext": 24,
+    "tokens": 32,
+    "profile": {
+     "initial": 0.3125,
+     "medial": 0.46875,
+     "final": 0.21875,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     15.0,
+     7.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.24916943521594684,
+    "q": 0.2834588070346551,
+    "init_ratio_vs_shuffle": 1.4043691484618814,
+    "final_ratio_vs_shuffle": 1.0026737967914439
+   },
+   "M284": {
+    "ntext": 24,
+    "tokens": 24,
+    "profile": {
+     "initial": 0.5,
+     "medial": 0.2916666666666667,
+     "final": 0.20833333333333334,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     7.0,
+     5.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.07973421926910298,
+    "q": 0.10407413883546074,
+    "init_ratio_vs_shuffle": 1.6801075268817203,
+    "final_ratio_vs_shuffle": 0.6903765690376569
+   },
+   "M60": {
+    "ntext": 23,
+    "tokens": 23,
+    "profile": {
+     "initial": 0.08695652173913043,
+     "medial": 0.30434782608695654,
+     "final": 0.6086956521739131,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     7.0,
+     14.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.38422131147540983,
+    "final_ratio_vs_shuffle": 2.2979397781299524
+   },
+   "M186": {
+    "ntext": 23,
+    "tokens": 23,
+    "profile": {
+     "initial": 0.30434782608695654,
+     "medial": 0.5652173913043478,
+     "final": 0.13043478260869565,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     13.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.33554817275747506,
+    "q": 0.3682121541763443,
+    "init_ratio_vs_shuffle": 1.6691394658753709,
+    "final_ratio_vs_shuffle": 0.8183943881527669
+   },
+   "M182": {
+    "ntext": 23,
+    "tokens": 23,
+    "profile": {
+     "initial": 0.34782608695652173,
+     "medial": 0.5217391304347826,
+     "final": 0.13043478260869565,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     12.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.19601328903654486,
+    "q": 0.22929856453331662,
+    "init_ratio_vs_shuffle": 1.6865079365079365,
+    "final_ratio_vs_shuffle": 0.7251381215469612
+   },
+   "M100": {
+    "ntext": 22,
+    "tokens": 22,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.6818181818181818,
+     "final": 0.0,
+     "standalone": 0.045454545454545456
+    },
+    "counts": [
+     6.0,
+     15.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.029900332225913623,
+    "q": 0.045215136536747434,
+    "init_ratio_vs_shuffle": 1.3800424628450105,
+    "final_ratio_vs_shuffle": 0.10861694424330195
+   },
+   "M326": {
+    "ntext": 22,
+    "tokens": 23,
+    "profile": {
+     "initial": 0.2608695652173913,
+     "medial": 0.6086956521739131,
+     "final": 0.08695652173913043,
+     "standalone": 0.043478260869565216
+    },
+    "counts": [
+     6.0,
+     14.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.026578073089700997,
+    "q": 0.04068742053238178,
+    "init_ratio_vs_shuffle": 0.9853461344113188,
+    "final_ratio_vs_shuffle": 0.3826530612244898
+   },
+   "M109": {
+    "ntext": 21,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.47619047619047616,
+     "medial": 0.5238095238095238,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 1.9195612431444242,
+    "final_ratio_vs_shuffle": 0.08933889219773675
+   },
+   "M242": {
+    "ntext": 21,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.14285714285714285,
+     "medial": 0.0,
+     "final": 0.8571428571428571,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     0.0,
+     18.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.637910085054678,
+    "final_ratio_vs_shuffle": 3.453640323584319
+   },
+   "M233": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.15,
+     "medial": 0.8,
+     "final": 0.05,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     16.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.12956810631229235,
+    "q": 0.16228732507802274,
+    "init_ratio_vs_shuffle": 0.7714915503306392,
+    "final_ratio_vs_shuffle": 0.35128805620608905
+   },
+   "M319": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.3,
+     "medial": 0.45,
+     "final": 0.25,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     9.0,
+     5.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.6910299003322259,
+    "q": 0.7023582593540657,
+    "init_ratio_vs_shuffle": 1.2524084778420037,
+    "final_ratio_vs_shuffle": 1.048951048951049
+   },
+   "M348": {
+    "ntext": 19,
+    "tokens": 19,
+    "profile": {
+     "initial": 0.05263157894736842,
+     "medial": 0.8947368421052632,
+     "final": 0.0,
+     "standalone": 0.05263157894736842
+    },
+    "counts": [
+     1.0,
+     17.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.3391107761868877,
+    "final_ratio_vs_shuffle": 0.11415525114155252
+   },
+   "M135": {
+    "ntext": 19,
+    "tokens": 19,
+    "profile": {
+     "initial": 0.15789473684210525,
+     "medial": 0.7894736842105263,
+     "final": 0.05263157894736842,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     15.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.07641196013289037,
+    "q": 0.10079875591998304,
+    "init_ratio_vs_shuffle": 0.744153082919915,
+    "final_ratio_vs_shuffle": 0.3189227498228207
+   },
+   "M205": {
+    "ntext": 18,
+    "tokens": 18,
+    "profile": {
+     "initial": 0.6666666666666666,
+     "medial": 0.3333333333333333,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     6.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.6785714285714284,
+    "final_ratio_vs_shuffle": 0.10351966873706003
+   },
+   "M81": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.8235294117647058,
+     "final": 0.17647058823529413,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     14.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.08970099667774087,
+    "q": 0.11586378737541529,
+    "init_ratio_vs_shuffle": 0.12562814070351758,
+    "final_ratio_vs_shuffle": 0.9476534296028881
+   },
+   "M178": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.23529411764705882,
+     "medial": 0.7647058823529411,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     13.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.21262458471760798,
+    "q": 0.2464060607942373,
+    "init_ratio_vs_shuffle": 1.2053571428571428,
+    "final_ratio_vs_shuffle": 0.14326647564469913
+   },
+   "M193": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.058823529411764705,
+     "medial": 0.9411764705882353,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     16.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.022886674049464747,
+    "init_ratio_vs_shuffle": 0.39096437880104257,
+    "final_ratio_vs_shuffle": 0.12234910277324634
+   },
+   "M261": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.47058823529411764,
+     "medial": 0.47058823529411764,
+     "final": 0.058823529411764705,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.64797507788162,
+    "final_ratio_vs_shuffle": 0.496141124586549
+   },
+   "M409": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.4375,
+     "medial": 0.5,
+     "final": 0.0,
+     "standalone": 0.0625
+    },
+    "counts": [
+     7.0,
+     8.0,
+     0.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.023255813953488372,
+    "q": 0.03650279658522225,
+    "init_ratio_vs_shuffle": 1.913265306122449,
+    "final_ratio_vs_shuffle": 0.12636899747262006
+   },
+   "M54": {
+    "ntext": 15,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.47058823529411764,
+     "medial": 0.47058823529411764,
+     "final": 0.058823529411764705,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.009966777408637873,
+    "q": 0.017655434266729945,
+    "init_ratio_vs_shuffle": 1.9906323185011712,
+    "final_ratio_vs_shuffle": 0.36437246963562747
+   },
+   "M253": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.4,
+     "medial": 0.5333333333333333,
+     "final": 0.06666666666666667,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.14950166112956811,
+    "q": 0.1799825823307422,
+    "init_ratio_vs_shuffle": 1.5853658536585367,
+    "final_ratio_vs_shuffle": 0.36945812807881767
+   },
+   "M222": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.06666666666666667,
+     "medial": 0.9333333333333333,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     14.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.023255813953488372,
+    "q": 0.03650279658522225,
+    "init_ratio_vs_shuffle": 0.4197761194029851,
+    "final_ratio_vs_shuffle": 0.13513513513513511
+   },
+   "M407": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9285714285714286,
+     "final": 0.07142857142857142,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     13.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03295681063122923,
+    "init_ratio_vs_shuffle": 0.16129032258064516,
+    "final_ratio_vs_shuffle": 0.48231511254019294
+   },
+   "M96": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.14285714285714285,
+     "medial": 0.5714285714285714,
+     "final": 0.21428571428571427,
+     "standalone": 0.07142857142857142
+    },
+    "counts": [
+     2.0,
+     8.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.40863787375415284,
+    "q": 0.4330862935514099,
+    "init_ratio_vs_shuffle": 0.6067961165048543,
+    "final_ratio_vs_shuffle": 0.8474576271186441
+   },
+   "M125": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9285714285714286,
+     "final": 0.07142857142857142,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     13.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.07641196013289037,
+    "q": 0.10079875591998304,
+    "init_ratio_vs_shuffle": 0.16835016835016833,
+    "final_ratio_vs_shuffle": 0.5226480836236934
+   },
+   "M190": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.07142857142857142,
+     "medial": 0.21428571428571427,
+     "final": 0.7142857142857143,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     3.0,
+     10.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.38461538461538464,
+    "final_ratio_vs_shuffle": 2.9166666666666665
+   },
+   "M76": {
+    "ntext": 13,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.7142857142857143,
+     "medial": 0.2857142857142857,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     4.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 2.644836272040302,
+    "final_ratio_vs_shuffle": 0.12942191544434858
+   },
+   "M139": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.07692307692307693,
+     "medial": 0.0,
+     "final": 0.8461538461538461,
+     "standalone": 0.07692307692307693
+    },
+    "counts": [
+     1.0,
+     0.0,
+     11.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.5190311418685121,
+    "final_ratio_vs_shuffle": 3.6392405063291138
+   },
+   "M136": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.23076923076923078,
+     "medial": 0.7692307692307693,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.1362126245847176,
+    "q": 0.16890365448504985,
+    "init_ratio_vs_shuffle": 1.1182108626198084,
+    "final_ratio_vs_shuffle": 0.1592356687898089
+   },
+   "M66": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.15384615384615385,
+     "medial": 0.38461538461538464,
+     "final": 0.38461538461538464,
+     "standalone": 0.07692307692307693
+    },
+    "counts": [
+     2.0,
+     5.0,
+     5.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.36212624584717606,
+    "q": 0.3938917060092091,
+    "init_ratio_vs_shuffle": 0.7142857142857143,
+    "final_ratio_vs_shuffle": 1.5972894482090998
+   },
+   "M302": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.15384615384615385,
+     "medial": 0.6923076923076923,
+     "final": 0.15384615384615385,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     9.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.8172757475083057,
+    "q": 0.823920265780731,
+    "init_ratio_vs_shuffle": 0.8152173913043478,
+    "final_ratio_vs_shuffle": 0.8029978586723769
+   },
+   "M134": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.15384615384615385,
+     "medial": 0.8461538461538461,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.2724252491694352,
+    "q": 0.30433090898207177,
+    "init_ratio_vs_shuffle": 0.9933774834437087,
+    "final_ratio_vs_shuffle": 0.19815059445178335
+   },
+   "M400": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.5833333333333334,
+     "final": 0.08333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     7.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.12956810631229235,
+    "q": 0.16228732507802274,
+    "init_ratio_vs_shuffle": 1.9452449567723342,
+    "final_ratio_vs_shuffle": 0.5905511811023622
+   },
+   "M381": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9166666666666666,
+     "final": 0.08333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     11.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.12956810631229235,
+    "q": 0.16228732507802274,
+    "init_ratio_vs_shuffle": 0.20576131687242802,
+    "final_ratio_vs_shuffle": 0.6024096385542168
+   },
+   "M14": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.08333333333333333,
+     "final": 0.9166666666666666,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     1.0,
+     11.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.11867088607594937,
+    "final_ratio_vs_shuffle": 2.8654485049833887
+   },
+   "M224": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.08333333333333333,
+     "medial": 0.16666666666666666,
+     "final": 0.6666666666666666,
+     "standalone": 0.08333333333333333
+    },
+    "counts": [
+     1.0,
+     2.0,
+     8.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 0.47071129707112974,
+    "final_ratio_vs_shuffle": 2.610030706243603
+   },
+   "M214": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.25,
+     "medial": 0.5833333333333334,
+     "final": 0.08333333333333333,
+     "standalone": 0.08333333333333333
+    },
+    "counts": [
+     3.0,
+     7.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.521594684385382,
+    "q": 0.5389811738648949,
+    "init_ratio_vs_shuffle": 1.640625,
+    "final_ratio_vs_shuffle": 0.6998444790046655
+   },
+   "M18": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.5833333333333334,
+     "medial": 0.4166666666666667,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     5.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012483640390617137,
+    "init_ratio_vs_shuffle": 3.2467532467532467,
+    "final_ratio_vs_shuffle": 0.2068965517241379
+   },
+   "M75": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.36363636363636365,
+     "medial": 0.5454545454545454,
+     "final": 0.09090909090909091,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     6.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.5182724252491694,
+    "q": 0.5389811738648949,
+    "init_ratio_vs_shuffle": 1.4754098360655739,
+    "final_ratio_vs_shuffle": 0.5061867266591676
+   },
+   "M153": {
+    "ntext": 11,
+    "tokens": 18,
+    "profile": {
+     "initial": 0.2777777777777778,
+     "medial": 0.6666666666666666,
+     "final": 0.05555555555555555,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     12.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.2691029900332226,
+    "q": 0.3033524614919964,
+    "init_ratio_vs_shuffle": 1.371571072319202,
+    "final_ratio_vs_shuffle": 0.39096437880104257
+   },
+   "M358": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.0,
+     "medial": 1.0,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.036544850498338874,
+    "q": 0.05459712604571109,
+    "init_ratio_vs_shuffle": 0.18270401948842874,
+    "final_ratio_vs_shuffle": 0.18137847642079805
+   },
+   "M406": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.18181818181818182,
+     "medial": 0.7272727272727273,
+     "final": 0.09090909090909091,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.16611295681063123,
+    "q": 0.19805775619729107,
+    "init_ratio_vs_shuffle": 0.7302823758519961,
+    "final_ratio_vs_shuffle": 0.4233301975540922
+   },
+   "M47": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.6363636363636364,
+     "final": 0.0,
+     "standalone": 0.09090909090909091
+    },
+    "counts": [
+     3.0,
+     7.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.2425249169435216,
+    "q": 0.27845453426848776,
+    "init_ratio_vs_shuffle": 1.3174404015056462,
+    "final_ratio_vs_shuffle": 0.1925545571245186
+   },
+   "M2": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.7272727272727273,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     8.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03295681063122923,
+    "init_ratio_vs_shuffle": 0.8982035928143713,
+    "final_ratio_vs_shuffle": 0.12798634812286688
+   },
+   "M137": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.18181818181818182,
+     "medial": 0.36363636363636365,
+     "final": 0.36363636363636365,
+     "standalone": 0.09090909090909091
+    },
+    "counts": [
+     2.0,
+     4.0,
+     4.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.4152823920265781,
+    "q": 0.436398445858438,
+    "init_ratio_vs_shuffle": 0.8571428571428572,
+    "final_ratio_vs_shuffle": 1.6187050359712232
+   },
+   "M177": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.45454545454545453,
+     "medial": 0.2727272727272727,
+     "final": 0.18181818181818182,
+     "standalone": 0.09090909090909091
+    },
+    "counts": [
+     5.0,
+     3.0,
+     2.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.19269102990033224,
+    "q": 0.2275589305489638,
+    "init_ratio_vs_shuffle": 1.8581081081081081,
+    "final_ratio_vs_shuffle": 0.8455467869222097
+   },
+   "M103": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.36363636363636365,
+     "medial": 0.5454545454545454,
+     "final": 0.0,
+     "standalone": 0.09090909090909091
+    },
+    "counts": [
+     4.0,
+     6.0,
+     0.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.14950166112956811,
+    "q": 0.1799825823307422,
+    "init_ratio_vs_shuffle": 1.7509727626459146,
+    "final_ratio_vs_shuffle": 0.19893899204244034
+   },
+   "M192": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.09090909090909091,
+     "medial": 0.9090909090909091,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.292358803986711,
+    "q": 0.3236829615567158,
+    "init_ratio_vs_shuffle": 0.7109004739336492,
+    "final_ratio_vs_shuffle": 0.22123893805309736
+   },
+   "M9": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.8,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     8.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.1461794019933555,
+    "q": 0.17946778066510974,
+    "init_ratio_vs_shuffle": 0.9907529722589168,
+    "final_ratio_vs_shuffle": 0.17772511848341233
+   },
+   "M397": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.7,
+     "medial": 0.2,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     2.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012483640390617137,
+    "init_ratio_vs_shuffle": 2.5,
+    "final_ratio_vs_shuffle": 0.49126637554585156
+   },
+   "M379": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.5,
+     "medial": 0.5,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     5.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.05647840531561462,
+    "q": 0.0786890141475979,
+    "init_ratio_vs_shuffle": 1.8435754189944134,
+    "final_ratio_vs_shuffle": 0.16411378555798686
+   },
+   "M264": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.9,
+     "medial": 0.1,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.006753444801481401,
+    "init_ratio_vs_shuffle": 4.048295454545454,
+    "final_ratio_vs_shuffle": 0.195822454308094
+   }
+  },
+  "_centers": [
+   [
+    0.14821630835763697,
+    0.7869689541159438,
+    0.05739243977933914,
+    0.007422297747080191
+   ],
+   [
+    0.06947339957570134,
+    0.21695046379180682,
+    0.6909469239040311,
+    0.022629212728460735
+   ],
+   [
+    0.47210551137033757,
+    0.4437359368839192,
+    0.07598287607006741,
+    0.00817567567567567
+   ]
+  ],
+  "_names": [
+   "medial-core",
+   "closer",
+   "opener"
+  ]
+ },
+ "M77_dev": {
+  "label": "M77 dev clean",
+  "texts": 1319,
+  "signs_n_ge_min": 103,
+  "K": 3,
+  "stability": {
+   "2": {
+    "ARI_mean": 0.822398874245155,
+    "ARI_sd": 0.2130595847382006,
+    "silhouette": 0.6201577474924558
+   },
+   "3": {
+    "ARI_mean": 0.653936273010661,
+    "ARI_sd": 0.09047810787190101,
+    "silhouette": 0.5124442784286287
+   },
+   "4": {
+    "ARI_mean": 0.5486078342279704,
+    "ARI_sd": 0.08125463505228903,
+    "silhouette": 0.46908796418372906
+   },
+   "5": {
+    "ARI_mean": 0.5272193855537529,
+    "ARI_sd": 0.09390071386438997,
+    "silhouette": 0.48727835461545477
+   },
+   "6": {
+    "ARI_mean": 0.4368589332929796,
+    "ARI_sd": 0.057803986922261165,
+    "silhouette": 0.45943573052165926
+   },
+   "7": {
+    "ARI_mean": 0.4044638110343157,
+    "ARI_sd": 0.05534523292371215,
+    "silhouette": 0.44606077551365697
+   },
+   "8": {
+    "ARI_mean": 0.38531044647914076,
+    "ARI_sd": 0.05724827158914346,
+    "silhouette": 0.42120317068903573
+   }
+  },
+  "classes_summary": {
+   "medial-core": {
+    "n_signs": 65,
+    "centroid": {
+     "initial": 0.17386877065072182,
+     "medial": 0.7577764326482292,
+     "final": 0.06356250645262523,
+     "standalone": 0.004792290248423708
+    },
+    "tokens": 3327,
+    "members_top": [
+     "M99",
+     "M59",
+     "M87",
+     "M67",
+     "M123",
+     "M336",
+     "M162",
+     "M65",
+     "M343",
+     "M72",
+     "M89",
+     "M245",
+     "M249",
+     "M53",
+     "M102"
+    ],
+    "stroke_signs_in_class": [
+     "M99",
+     "M87",
+     "M89",
+     "M102",
+     "M97",
+     "M98",
+     "M104",
+     "M112",
+     "M121",
+     "M100",
+     "M96"
+    ]
+   },
+   "closer": {
+    "n_signs": 14,
+    "centroid": {
+     "initial": 0.040918907813572686,
+     "medial": 0.20230351539794433,
+     "final": 0.746986517507628,
+     "standalone": 0.0097910592808552
+    },
+    "tokens": 1255,
+    "members_top": [
+     "M342",
+     "M176",
+     "M211",
+     "M169",
+     "M1",
+     "M15",
+     "M254",
+     "M12",
+     "M242",
+     "M60",
+     "M139",
+     "M190",
+     "M224",
+     "M66"
+    ],
+    "stroke_signs_in_class": []
+   },
+   "opener": {
+    "n_signs": 24,
+    "centroid": {
+     "initial": 0.5009202301944412,
+     "medial": 0.41064352399386805,
+     "final": 0.08105996196481867,
+     "standalone": 0.007376283846872082
+    },
+    "tokens": 894,
+    "members_top": [
+     "M267",
+     "M391",
+     "M86",
+     "M293",
+     "M17",
+     "M216",
+     "M150",
+     "M328",
+     "M28",
+     "M204",
+     "M182",
+     "M106",
+     "M373",
+     "M173",
+     "M284"
+    ],
+    "stroke_signs_in_class": [
+     "M86",
+     "M106",
+     "M109",
+     "M103"
+    ]
+   }
+  },
+  "n_positional_q05": 66,
+  "per_sign": {
+   "M342": {
+    "ntext": 634,
+    "tokens": 644,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.3136645962732919,
+     "final": 0.6863354037267081,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     202.0,
+     442.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.00364449195782108,
+    "final_ratio_vs_shuffle": 3.2199771994081545
+   },
+   "M99": {
+    "ntext": 335,
+    "tokens": 336,
+    "profile": {
+     "initial": 0.002976190476190476,
+     "medial": 0.9851190476190477,
+     "final": 0.011904761904761904,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     331.0,
+     4.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.02523977788995457,
+    "final_ratio_vs_shuffle": 0.07564296520423601
+   },
+   "M59": {
+    "ntext": 177,
+    "tokens": 185,
+    "profile": {
+     "initial": 0.10810810810810811,
+     "medial": 0.8756756756756757,
+     "final": 0.016216216216216217,
+     "standalone": 0.0
+    },
+    "counts": [
+     20.0,
+     162.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.5868880618379616,
+    "final_ratio_vs_shuffle": 0.1011171032357473
+   },
+   "M267": {
+    "ntext": 172,
+    "tokens": 174,
+    "profile": {
+     "initial": 0.7758620689655172,
+     "medial": 0.19540229885057472,
+     "final": 0.028735632183908046,
+     "standalone": 0.0
+    },
+    "counts": [
+     135.0,
+     34.0,
+     5.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 3.858932978925384,
+    "final_ratio_vs_shuffle": 0.15766841853798375
+   },
+   "M87": {
+    "ntext": 142,
+    "tokens": 155,
+    "profile": {
+     "initial": 0.23870967741935484,
+     "medial": 0.6838709677419355,
+     "final": 0.07741935483870968,
+     "standalone": 0.0
+    },
+    "counts": [
+     37.0,
+     106.0,
+     12.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.266749239950456,
+    "final_ratio_vs_shuffle": 0.41454786646031394
+   },
+   "M67": {
+    "ntext": 133,
+    "tokens": 133,
+    "profile": {
+     "initial": 0.19548872180451127,
+     "medial": 0.7969924812030075,
+     "final": 0.0,
+     "standalone": 0.007518796992481203
+    },
+    "counts": [
+     26.0,
+     106.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.0875512995896033,
+    "final_ratio_vs_shuffle": 0.02044153720359771
+   },
+   "M211": {
+    "ntext": 128,
+    "tokens": 129,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.17829457364341086,
+     "final": 0.8217054263565892,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     23.0,
+     106.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.018105009052504527,
+    "final_ratio_vs_shuffle": 3.9096916299559474
+   },
+   "M176": {
+    "ntext": 128,
+    "tokens": 136,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.20588235294117646,
+     "final": 0.7941176470588235,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     28.0,
+     108.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.014645577035735208,
+    "final_ratio_vs_shuffle": 3.150101616181167
+   },
+   "M123": {
+    "ntext": 118,
+    "tokens": 119,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9831932773109243,
+     "final": 0.01680672268907563,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     117.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.02249212775528565,
+    "final_ratio_vs_shuffle": 0.11106175033318524
+   },
+   "M391": {
+    "ntext": 115,
+    "tokens": 122,
+    "profile": {
+     "initial": 0.7213114754098361,
+     "medial": 0.19672131147540983,
+     "final": 0.08196721311475409,
+     "standalone": 0.0
+    },
+    "counts": [
+     88.0,
+     24.0,
+     10.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 3.5551687198714514,
+    "final_ratio_vs_shuffle": 0.42134831460674155
+   },
+   "M336": {
+    "ntext": 114,
+    "tokens": 114,
+    "profile": {
+     "initial": 0.15789473684210525,
+     "medial": 0.8245614035087719,
+     "final": 0.008771929824561403,
+     "standalone": 0.008771929824561403
+    },
+    "counts": [
+     18.0,
+     94.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.8547666718004003,
+    "final_ratio_vs_shuffle": 0.06981073533974558
+   },
+   "M162": {
+    "ntext": 108,
+    "tokens": 114,
+    "profile": {
+     "initial": 0.06140350877192982,
+     "medial": 0.5350877192982456,
+     "final": 0.40350877192982454,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     61.0,
+     46.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.29381039435884043,
+    "final_ratio_vs_shuffle": 1.830228286538966
+   },
+   "M65": {
+    "ntext": 107,
+    "tokens": 107,
+    "profile": {
+     "initial": 0.32710280373831774,
+     "medial": 0.6542056074766355,
+     "final": 0.009345794392523364,
+     "standalone": 0.009345794392523364
+    },
+    "counts": [
+     35.0,
+     70.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.7097447423342431,
+    "final_ratio_vs_shuffle": 0.07218479307025986
+   },
+   "M343": {
+    "ntext": 101,
+    "tokens": 102,
+    "profile": {
+     "initial": 0.14705882352941177,
+     "medial": 0.8235294117647058,
+     "final": 0.029411764705882353,
+     "standalone": 0.0
+    },
+    "counts": [
+     15.0,
+     84.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.8303571428571428,
+    "final_ratio_vs_shuffle": 0.18200728029121163
+   },
+   "M72": {
+    "ntext": 100,
+    "tokens": 100,
+    "profile": {
+     "initial": 0.21,
+     "medial": 0.79,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     21.0,
+     79.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.0960067969413763,
+    "final_ratio_vs_shuffle": 0.02537641684994079
+   },
+   "M89": {
+    "ntext": 95,
+    "tokens": 98,
+    "profile": {
+     "initial": 0.11224489795918367,
+     "medial": 0.8163265306122449,
+     "final": 0.061224489795918366,
+     "standalone": 0.01020408163265306
+    },
+    "counts": [
+     11.0,
+     80.0,
+     6.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.6307129798903107,
+    "final_ratio_vs_shuffle": 0.35609934258582904
+   },
+   "M86": {
+    "ntext": 88,
+    "tokens": 88,
+    "profile": {
+     "initial": 0.42045454545454547,
+     "medial": 0.48863636363636365,
+     "final": 0.09090909090909091,
+     "standalone": 0.0
+    },
+    "counts": [
+     37.0,
+     43.0,
+     8.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.7379885678974198,
+    "final_ratio_vs_shuffle": 0.3915847665847666
+   },
+   "M169": {
+    "ntext": 81,
+    "tokens": 86,
+    "profile": {
+     "initial": 0.011627906976744186,
+     "medial": 0.37209302325581395,
+     "final": 0.6162790697674418,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     32.0,
+     53.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.08100810081008102,
+    "final_ratio_vs_shuffle": 2.9245626822157433
+   },
+   "M293": {
+    "ntext": 79,
+    "tokens": 84,
+    "profile": {
+     "initial": 0.5595238095238095,
+     "medial": 0.40476190476190477,
+     "final": 0.03571428571428571,
+     "standalone": 0.0
+    },
+    "counts": [
+     47.0,
+     34.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 3.0857514075357297,
+    "final_ratio_vs_shuffle": 0.23322967569968903
+   },
+   "M249": {
+    "ntext": 68,
+    "tokens": 68,
+    "profile": {
+     "initial": 0.17647058823529413,
+     "medial": 0.7647058823529411,
+     "final": 0.04411764705882353,
+     "standalone": 0.014705882352941176
+    },
+    "counts": [
+     12.0,
+     52.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.9541984732824428,
+    "final_ratio_vs_shuffle": 0.2740083507306889
+   },
+   "M53": {
+    "ntext": 67,
+    "tokens": 67,
+    "profile": {
+     "initial": 0.1791044776119403,
+     "medial": 0.8208955223880597,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     55.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.009966777408637873,
+    "q": 0.02138704318936877,
+    "init_ratio_vs_shuffle": 1.0539629005059021,
+    "final_ratio_vs_shuffle": 0.04200504060487258
+   },
+   "M102": {
+    "ntext": 66,
+    "tokens": 66,
+    "profile": {
+     "initial": 0.3181818181818182,
+     "medial": 0.6363636363636364,
+     "final": 0.030303030303030304,
+     "standalone": 0.015151515151515152
+    },
+    "counts": [
+     21.0,
+     42.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.355611601513241,
+    "final_ratio_vs_shuffle": 0.15776188472864958
+   },
+   "M387": {
+    "ntext": 57,
+    "tokens": 57,
+    "profile": {
+     "initial": 0.3508771929824561,
+     "medial": 0.6491228070175439,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     20.0,
+     37.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.8391148325358853,
+    "final_ratio_vs_shuffle": 0.04482964734010759
+   },
+   "M347": {
+    "ntext": 57,
+    "tokens": 57,
+    "profile": {
+     "initial": 0.0,
+     "medial": 1.0,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     57.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.04240882103477524,
+    "final_ratio_vs_shuffle": 0.042348955392433656
+   },
+   "M48": {
+    "ntext": 57,
+    "tokens": 57,
+    "profile": {
+     "initial": 0.24561403508771928,
+     "medial": 0.7543859649122807,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     14.0,
+     43.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.1165297741273101,
+    "final_ratio_vs_shuffle": 0.03898128898128898
+   },
+   "M1": {
+    "ntext": 57,
+    "tokens": 60,
+    "profile": {
+     "initial": 0.03333333333333333,
+     "medial": 0.2,
+     "final": 0.75,
+     "standalone": 0.016666666666666666
+    },
+    "counts": [
+     2.0,
+     12.0,
+     45.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.20074946466809424,
+    "final_ratio_vs_shuffle": 3.705211726384365
+   },
+   "M402": {
+    "ntext": 56,
+    "tokens": 57,
+    "profile": {
+     "initial": 0.07017543859649122,
+     "medial": 0.6491228070175439,
+     "final": 0.2807017543859649,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     37.0,
+     16.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.025825863473954744,
+    "init_ratio_vs_shuffle": 0.32537960954446854,
+    "final_ratio_vs_shuffle": 1.2114537444933922
+   },
+   "M245": {
+    "ntext": 55,
+    "tokens": 90,
+    "profile": {
+     "initial": 0.15555555555555556,
+     "medial": 0.6333333333333333,
+     "final": 0.2111111111111111,
+     "standalone": 0.0
+    },
+    "counts": [
+     14.0,
+     57.0,
+     19.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.5514950166112956,
+    "q": 0.5856081104223037,
+    "init_ratio_vs_shuffle": 0.821529745042493,
+    "final_ratio_vs_shuffle": 1.1213341000575043
+   },
+   "M51": {
+    "ntext": 55,
+    "tokens": 55,
+    "profile": {
+     "initial": 0.23636363636363636,
+     "medial": 0.7090909090909091,
+     "final": 0.03636363636363636,
+     "standalone": 0.01818181818181818
+    },
+    "counts": [
+     13.0,
+     39.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.025825863473954744,
+    "init_ratio_vs_shuffle": 1.1797261870084474,
+    "final_ratio_vs_shuffle": 0.2268602540834846
+   },
+   "M389": {
+    "ntext": 53,
+    "tokens": 55,
+    "profile": {
+     "initial": 0.34545454545454546,
+     "medial": 0.6545454545454545,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     19.0,
+     36.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.8708026862807803,
+    "final_ratio_vs_shuffle": 0.04935834155972359
+   },
+   "M17": {
+    "ntext": 52,
+    "tokens": 52,
+    "profile": {
+     "initial": 0.4423076923076923,
+     "medial": 0.5192307692307693,
+     "final": 0.038461538461538464,
+     "standalone": 0.0
+    },
+    "counts": [
+     23.0,
+     27.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 2.1487351417250835,
+    "final_ratio_vs_shuffle": 0.23069824669332514
+   },
+   "M171": {
+    "ntext": 52,
+    "tokens": 52,
+    "profile": {
+     "initial": 0.19230769230769232,
+     "medial": 0.7692307692307693,
+     "final": 0.038461538461538464,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     40.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.025825863473954744,
+    "init_ratio_vs_shuffle": 1.0324483775811208,
+    "final_ratio_vs_shuffle": 0.2509200401472064
+   },
+   "M97": {
+    "ntext": 49,
+    "tokens": 52,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9807692307692307,
+     "final": 0.019230769230769232,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     51.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.0589159465828751,
+    "final_ratio_vs_shuffle": 0.16538037486218302
+   },
+   "M15": {
+    "ntext": 49,
+    "tokens": 49,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.2653061224489796,
+     "final": 0.7142857142857143,
+     "standalone": 0.02040816326530612
+    },
+    "counts": [
+     0.0,
+     13.0,
+     35.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.03508771929824561,
+    "final_ratio_vs_shuffle": 2.5147579693034237
+   },
+   "M8": {
+    "ntext": 47,
+    "tokens": 47,
+    "profile": {
+     "initial": 0.02127659574468085,
+     "medial": 0.9787234042553191,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     46.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.15767344078486334,
+    "final_ratio_vs_shuffle": 0.05289139633286319
+   },
+   "M403": {
+    "ntext": 40,
+    "tokens": 40,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.8,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     32.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.0163411717815862,
+    "final_ratio_vs_shuffle": 0.058985450255603616
+   },
+   "M254": {
+    "ntext": 39,
+    "tokens": 39,
+    "profile": {
+     "initial": 0.07692307692307693,
+     "medial": 0.10256410256410256,
+     "final": 0.8205128205128205,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     4.0,
+     32.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.359465936323177,
+    "final_ratio_vs_shuffle": 3.3643892339544514
+   },
+   "M70": {
+    "ntext": 39,
+    "tokens": 39,
+    "profile": {
+     "initial": 0.20512820512820512,
+     "medial": 0.7948717948717948,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     31.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02899938059575427,
+    "init_ratio_vs_shuffle": 1.0841836734693877,
+    "final_ratio_vs_shuffle": 0.06289308176100629
+   },
+   "M98": {
+    "ntext": 38,
+    "tokens": 38,
+    "profile": {
+     "initial": 0.07894736842105263,
+     "medial": 0.7894736842105263,
+     "final": 0.13157894736842105,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     30.0,
+     5.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.08305647840531562,
+    "q": 0.1096771445608655,
+    "init_ratio_vs_shuffle": 0.45122475290073055,
+    "final_ratio_vs_shuffle": 0.7300884955752213
+   },
+   "M287": {
+    "ntext": 38,
+    "tokens": 43,
+    "profile": {
+     "initial": 0.18604651162790697,
+     "medial": 0.7674418604651163,
+     "final": 0.046511627906976744,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     33.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.03986710963455149,
+    "q": 0.05866160417655434,
+    "init_ratio_vs_shuffle": 0.9166067577282531,
+    "final_ratio_vs_shuffle": 0.2813203300825206
+   },
+   "M216": {
+    "ntext": 37,
+    "tokens": 38,
+    "profile": {
+     "initial": 0.42105263157894735,
+     "medial": 0.5,
+     "final": 0.07894736842105263,
+     "standalone": 0.0
+    },
+    "counts": [
+     16.0,
+     19.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 1.872871736662883,
+    "final_ratio_vs_shuffle": 0.3987846562856057
+   },
+   "M12": {
+    "ntext": 36,
+    "tokens": 36,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.1111111111111111,
+     "final": 0.8888888888888888,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     4.0,
+     32.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.04403992953611274,
+    "final_ratio_vs_shuffle": 2.9113168109883545
+   },
+   "M230": {
+    "ntext": 34,
+    "tokens": 34,
+    "profile": {
+     "initial": 0.058823529411764705,
+     "medial": 0.8823529411764706,
+     "final": 0.058823529411764705,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     30.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.3142019271051529,
+    "final_ratio_vs_shuffle": 0.30463038180341184
+   },
+   "M124": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.24242424242424243,
+     "medial": 0.7575757575757576,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     25.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.025825863473954744,
+    "init_ratio_vs_shuffle": 1.1096605744125325,
+    "final_ratio_vs_shuffle": 0.06619593998234774
+   },
+   "M150": {
+    "ntext": 33,
+    "tokens": 34,
+    "profile": {
+     "initial": 0.8529411764705882,
+     "medial": 0.14705882352941177,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     29.0,
+     5.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 4.236476783149833,
+    "final_ratio_vs_shuffle": 0.07119126720455624
+   },
+   "M28": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.36363636363636365,
+     "medial": 0.5454545454545454,
+     "final": 0.09090909090909091,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     18.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.026578073089700997,
+    "q": 0.04211602351137235,
+    "init_ratio_vs_shuffle": 1.783166904422254,
+    "final_ratio_vs_shuffle": 0.48231511254019294
+   },
+   "M197": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.6060606060606061,
+     "final": 0.06060606060606061,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     20.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.03986710963455149,
+    "q": 0.05866160417655434,
+    "init_ratio_vs_shuffle": 1.64756446991404,
+    "final_ratio_vs_shuffle": 0.34965034965034963
+   },
+   "M104": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.6666666666666666,
+     "final": 0.06060606060606061,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     22.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.023255813953488372,
+    "q": 0.038021410114433364,
+    "init_ratio_vs_shuffle": 0.9865005192107995,
+    "final_ratio_vs_shuffle": 0.26824034334763946
+   },
+   "M112": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.18181818181818182,
+     "medial": 0.8181818181818182,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     27.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.014561391107655334,
+    "init_ratio_vs_shuffle": 0.81419624217119,
+    "final_ratio_vs_shuffle": 0.06643046944198405
+   },
+   "M244": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.7272727272727273,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     24.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03365829747835085,
+    "init_ratio_vs_shuffle": 1.410192973775359,
+    "final_ratio_vs_shuffle": 0.07492507492507493
+   },
+   "M149": {
+    "ntext": 31,
+    "tokens": 31,
+    "profile": {
+     "initial": 0.06451612903225806,
+     "medial": 0.7096774193548387,
+     "final": 0.22580645161290322,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     22.0,
+     7.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.06976744186046512,
+    "q": 0.09710873664362037,
+    "init_ratio_vs_shuffle": 0.3566333808844508,
+    "final_ratio_vs_shuffle": 1.0959571358986848
+   },
+   "M175": {
+    "ntext": 31,
+    "tokens": 31,
+    "profile": {
+     "initial": 0.3548387096774194,
+     "medial": 0.6129032258064516,
+     "final": 0.03225806451612903,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     19.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.013289036544850499,
+    "q": 0.025825863473954744,
+    "init_ratio_vs_shuffle": 1.8478843063738617,
+    "final_ratio_vs_shuffle": 0.23316062176165803
+   },
+   "M130": {
+    "ntext": 30,
+    "tokens": 30,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     27.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02899938059575427,
+    "init_ratio_vs_shuffle": 0.09208103130755065,
+    "final_ratio_vs_shuffle": 0.6398537477148081
+   },
+   "M328": {
+    "ntext": 29,
+    "tokens": 34,
+    "profile": {
+     "initial": 0.2647058823529412,
+     "medial": 0.35294117647058826,
+     "final": 0.35294117647058826,
+     "standalone": 0.029411764705882353
+    },
+    "counts": [
+     9.0,
+     12.0,
+     12.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.4750830564784053,
+    "q": 0.5097245293466224,
+    "init_ratio_vs_shuffle": 0.965774313791935,
+    "final_ratio_vs_shuffle": 1.2873326467559216
+   },
+   "M180": {
+    "ntext": 28,
+    "tokens": 28,
+    "profile": {
+     "initial": 0.03571428571428571,
+     "medial": 0.8214285714285714,
+     "final": 0.14285714285714285,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     23.0,
+     4.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.08305647840531562,
+    "q": 0.1096771445608655,
+    "init_ratio_vs_shuffle": 0.26392961876832843,
+    "final_ratio_vs_shuffle": 0.7964601769911503
+   },
+   "M155": {
+    "ntext": 27,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.14814814814814814,
+     "medial": 0.8518518518518519,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     23.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02899938059575427,
+    "init_ratio_vs_shuffle": 0.7992895204262878,
+    "final_ratio_vs_shuffle": 0.08356545961002786
+   },
+   "M204": {
+    "ntext": 27,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.48148148148148145,
+     "medial": 0.48148148148148145,
+     "final": 0.037037037037037035,
+     "standalone": 0.0
+    },
+    "counts": [
+     13.0,
+     13.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 2.098445595854922,
+    "final_ratio_vs_shuffle": 0.23734177215189872
+   },
+   "M307": {
+    "ntext": 26,
+    "tokens": 26,
+    "profile": {
+     "initial": 0.19230769230769232,
+     "medial": 0.6153846153846154,
+     "final": 0.19230769230769232,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     16.0,
+     5.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.7774086378737541,
+    "q": 0.7928028683266998,
+    "init_ratio_vs_shuffle": 0.8418367346938775,
+    "final_ratio_vs_shuffle": 0.8580343213728548
+   },
+   "M121": {
+    "ntext": 25,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.2222222222222222,
+     "medial": 0.7407407407407407,
+     "final": 0.037037037037037035,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     20.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.10299003322259136,
+    "q": 0.12334852816194082,
+    "init_ratio_vs_shuffle": 1.1403508771929824,
+    "final_ratio_vs_shuffle": 0.2745576571079927
+   },
+   "M294": {
+    "ntext": 25,
+    "tokens": 26,
+    "profile": {
+     "initial": 0.07692307692307693,
+     "medial": 0.9230769230769231,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     24.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.014561391107655334,
+    "init_ratio_vs_shuffle": 0.44039929536112743,
+    "final_ratio_vs_shuffle": 0.08792497069167644
+   },
+   "M127": {
+    "ntext": 24,
+    "tokens": 25,
+    "profile": {
+     "initial": 0.16,
+     "medial": 0.76,
+     "final": 0.04,
+     "standalone": 0.04
+    },
+    "counts": [
+     4.0,
+     19.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.09302325581395349,
+    "q": 0.11543849817876155,
+    "init_ratio_vs_shuffle": 0.872093023255814,
+    "final_ratio_vs_shuffle": 0.27812113720642767
+   },
+   "M344": {
+    "ntext": 24,
+    "tokens": 25,
+    "profile": {
+     "initial": 0.12,
+     "medial": 0.8,
+     "final": 0.04,
+     "standalone": 0.04
+    },
+    "counts": [
+     3.0,
+     20.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.08637873754152824,
+    "q": 0.10983962921947418,
+    "init_ratio_vs_shuffle": 0.6949040370615486,
+    "final_ratio_vs_shuffle": 0.2980132450331126
+   },
+   "M194": {
+    "ntext": 23,
+    "tokens": 24,
+    "profile": {
+     "initial": 0.08333333333333333,
+     "medial": 0.875,
+     "final": 0.041666666666666664,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     21.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.029900332225913623,
+    "q": 0.0466626396858955,
+    "init_ratio_vs_shuffle": 0.4841833440929632,
+    "final_ratio_vs_shuffle": 0.3002001334222815
+   },
+   "M341": {
+    "ntext": 23,
+    "tokens": 23,
+    "profile": {
+     "initial": 0.2608695652173913,
+     "medial": 0.6956521739130435,
+     "final": 0.043478260869565216,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     16.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.059800664451827246,
+    "q": 0.08437627997997543,
+    "init_ratio_vs_shuffle": 1.079734219269103,
+    "final_ratio_vs_shuffle": 0.2511160714285714
+   },
+   "M182": {
+    "ntext": 22,
+    "tokens": 22,
+    "profile": {
+     "initial": 0.36363636363636365,
+     "medial": 0.5454545454545454,
+     "final": 0.09090909090909091,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     12.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.08305647840531562,
+    "q": 0.1096771445608655,
+    "init_ratio_vs_shuffle": 1.8626734842951058,
+    "final_ratio_vs_shuffle": 0.5266853932584269
+   },
+   "M296": {
+    "ntext": 21,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.09523809523809523,
+     "medial": 0.9047619047619048,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     19.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.5112474437627812,
+    "final_ratio_vs_shuffle": 0.09797517962116263
+   },
+   "M252": {
+    "ntext": 21,
+    "tokens": 22,
+    "profile": {
+     "initial": 0.09090909090909091,
+     "medial": 0.5909090909090909,
+     "final": 0.3181818181818182,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     13.0,
+     7.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.27906976744186046,
+    "q": 0.3090772693173294,
+    "init_ratio_vs_shuffle": 0.5122950819672131,
+    "final_ratio_vs_shuffle": 1.4783180026281209
+   },
+   "M106": {
+    "ntext": 21,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.38095238095238093,
+     "medial": 0.5238095238095238,
+     "final": 0.047619047619047616,
+     "standalone": 0.047619047619047616
+    },
+    "counts": [
+     8.0,
+     11.0,
+     1.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.03322259136212625,
+    "q": 0.051073535974612,
+    "init_ratio_vs_shuffle": 1.5124555160142348,
+    "final_ratio_vs_shuffle": 0.25936599423631124
+   },
+   "M345": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.35,
+     "medial": 0.65,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     13.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02899938059575427,
+    "init_ratio_vs_shuffle": 1.4783180026281209,
+    "final_ratio_vs_shuffle": 0.0981675392670157
+   },
+   "M327": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.25,
+     "medial": 0.75,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     15.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.04318936877076412,
+    "q": 0.0626549997660381,
+    "init_ratio_vs_shuffle": 1.1209239130434783,
+    "final_ratio_vs_shuffle": 0.1012829169480081
+   },
+   "M186": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.3,
+     "medial": 0.6,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     12.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.20930232558139536,
+    "q": 0.23690263225146946,
+    "init_ratio_vs_shuffle": 1.703056768558952,
+    "final_ratio_vs_shuffle": 0.6499133448873483
+   },
+   "M375": {
+    "ntext": 20,
+    "tokens": 24,
+    "profile": {
+     "initial": 0.25,
+     "medial": 0.5416666666666666,
+     "final": 0.20833333333333334,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     13.0,
+     5.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.9136212624584718,
+    "q": 0.9225783336590451,
+    "init_ratio_vs_shuffle": 1.0478237506716819,
+    "final_ratio_vs_shuffle": 0.870712401055409
+   },
+   "M326": {
+    "ntext": 20,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.2857142857142857,
+     "medial": 0.5714285714285714,
+     "final": 0.09523809523809523,
+     "standalone": 0.047619047619047616
+    },
+    "counts": [
+     6.0,
+     12.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.12956810631229235,
+    "q": 0.15165357897916037,
+    "init_ratio_vs_shuffle": 1.097972972972973,
+    "final_ratio_vs_shuffle": 0.42016806722689076
+   },
+   "M25": {
+    "ntext": 19,
+    "tokens": 19,
+    "profile": {
+     "initial": 0.2631578947368421,
+     "medial": 0.6842105263157895,
+     "final": 0.05263157894736842,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     13.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.09634551495016612,
+    "q": 0.11813795285556085,
+    "init_ratio_vs_shuffle": 1.0826771653543308,
+    "final_ratio_vs_shuffle": 0.28994845360824745
+   },
+   "M173": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.5294117647058824,
+     "medial": 0.29411764705882354,
+     "final": 0.17647058823529413,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     5.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 2.537845057880677,
+    "final_ratio_vs_shuffle": 0.9178321678321678
+   },
+   "M284": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.5882352941176471,
+     "medial": 0.17647058823529413,
+     "final": 0.23529411764705882,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     3.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.036544850498338874,
+    "q": 0.05535470001954271,
+    "init_ratio_vs_shuffle": 1.8442622950819672,
+    "final_ratio_vs_shuffle": 0.8256880733944953
+   },
+   "M242": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.11764705882352941,
+     "medial": 0.0,
+     "final": 0.8823529411764706,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     0.0,
+     15.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.5179558011049723,
+    "final_ratio_vs_shuffle": 3.3381191672648955
+   },
+   "M100": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.3125,
+     "medial": 0.6875,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.08637873754152824,
+    "q": 0.10983962921947418,
+    "init_ratio_vs_shuffle": 1.4175257731958764,
+    "final_ratio_vs_shuffle": 0.12755102040816327
+   },
+   "M319": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.3125,
+     "medial": 0.4375,
+     "final": 0.25,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     7.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.6445182724252492,
+    "q": 0.6774018577530679,
+    "init_ratio_vs_shuffle": 1.3105639396346305,
+    "final_ratio_vs_shuffle": 1.0714285714285714
+   },
+   "M373": {
+    "ntext": 16,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.42857142857142855,
+     "final": 0.23809523809523808,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     9.0,
+     5.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.2823920265780731,
+    "q": 0.3094295610376758,
+    "init_ratio_vs_shuffle": 1.4725130890052356,
+    "final_ratio_vs_shuffle": 1.048951048951049
+   },
+   "M60": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.06666666666666667,
+     "medial": 0.3333333333333333,
+     "final": 0.6,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     5.0,
+     9.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.3655564581640942,
+    "final_ratio_vs_shuffle": 2.3730224812656115
+   },
+   "M135": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.8,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     12.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.046511627906976744,
+    "q": 0.0665374677002584,
+    "init_ratio_vs_shuffle": 0.9043927648578811,
+    "final_ratio_vs_shuffle": 0.12647554806070826
+   },
+   "M178": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.2857142857142857,
+     "medial": 0.7142857142857143,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.16943521594684385,
+    "q": 0.1960879465452238,
+    "init_ratio_vs_shuffle": 1.5117581187010078,
+    "final_ratio_vs_shuffle": 0.15739769150052466
+   },
+   "M348": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.07142857142857142,
+     "medial": 0.9285714285714286,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     13.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02899938059575427,
+    "init_ratio_vs_shuffle": 0.38927335640138405,
+    "final_ratio_vs_shuffle": 0.13537906137184116
+   },
+   "M233": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.07692307692307693,
+     "medial": 0.8461538461538461,
+     "final": 0.07692307692307693,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     11.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.23920265780730898,
+    "q": 0.26780297558861765,
+    "init_ratio_vs_shuffle": 0.5160550458715596,
+    "final_ratio_vs_shuffle": 0.5079006772009029
+   },
+   "M109": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.5384615384615384,
+     "medial": 0.46153846153846156,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     6.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.023255813953488372,
+    "q": 0.038021410114433364,
+    "init_ratio_vs_shuffle": 2.0699172033118676,
+    "final_ratio_vs_shuffle": 0.14563106796116507
+   },
+   "M253": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.38461538461538464,
+     "medial": 0.6153846153846154,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     8.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.10963455149501661,
+    "q": 0.12979722763203116,
+    "init_ratio_vs_shuffle": 1.5625,
+    "final_ratio_vs_shuffle": 0.14792899408284024
+   },
+   "M54": {
+    "ntext": 12,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.42857142857142855,
+     "medial": 0.5,
+     "final": 0.07142857142857142,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     7.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.08970099667774087,
+    "q": 0.11267320314399158,
+    "init_ratio_vs_shuffle": 1.8327067669172932,
+    "final_ratio_vs_shuffle": 0.4094631483166515
+   },
+   "M96": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.16666666666666666,
+     "medial": 0.5833333333333334,
+     "final": 0.25,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     7.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.42524916943521596,
+    "q": 0.46105962580870785,
+    "init_ratio_vs_shuffle": 0.6366723259762309,
+    "final_ratio_vs_shuffle": 0.9020618556701031
+   },
+   "M139": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.08333333333333333,
+     "medial": 0.0,
+     "final": 0.9166666666666666,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     0.0,
+     11.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.4849137931034483,
+    "final_ratio_vs_shuffle": 3.6858974358974357
+   },
+   "M205": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.75,
+     "medial": 0.25,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     3.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 2.8557114228456912,
+    "final_ratio_vs_shuffle": 0.14591439688715954
+   },
+   "M190": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.08333333333333333,
+     "medial": 0.25,
+     "final": 0.6666666666666666,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     3.0,
+     8.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03365829747835085,
+    "init_ratio_vs_shuffle": 0.44510385756676557,
+    "final_ratio_vs_shuffle": 2.5525525525525525
+   },
+   "M81": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.8181818181818182,
+     "final": 0.18181818181818182,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     9.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.19933554817275748,
+    "q": 0.22812846068660023,
+    "init_ratio_vs_shuffle": 0.19181585677749363,
+    "final_ratio_vs_shuffle": 0.972762645914397
+   },
+   "M409": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.45454545454545453,
+     "medial": 0.5454545454545454,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     6.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.07641196013289037,
+    "q": 0.1049390919158361,
+    "init_ratio_vs_shuffle": 1.8111964873765094,
+    "final_ratio_vs_shuffle": 0.1529051987767584
+   },
+   "M261": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.45454545454545453,
+     "medial": 0.5454545454545454,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     6.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02899938059575427,
+    "init_ratio_vs_shuffle": 2.4849397590361444,
+    "final_ratio_vs_shuffle": 0.21770682148040638
+   },
+   "M75": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.3,
+     "medial": 0.6,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     6.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.6744186046511628,
+    "q": 0.6946511627906976,
+    "init_ratio_vs_shuffle": 1.2266355140186915,
+    "final_ratio_vs_shuffle": 0.5376344086021505
+   },
+   "M76": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.8,
+     "medial": 0.2,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 3.256704980842912,
+    "final_ratio_vs_shuffle": 0.16853932584269662
+   },
+   "M358": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.0,
+     "medial": 1.0,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.026578073089700997,
+    "q": 0.04211602351137235,
+    "init_ratio_vs_shuffle": 0.19920318725099603,
+    "final_ratio_vs_shuffle": 0.20242914979757087
+   },
+   "M224": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.1,
+     "final": 0.8,
+     "standalone": 0.1
+    },
+    "counts": [
+     0.0,
+     1.0,
+     8.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.007604282022886675,
+    "init_ratio_vs_shuffle": 0.1913265306122449,
+    "final_ratio_vs_shuffle": 3.068592057761733
+   },
+   "M66": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.1,
+     "medial": 0.4,
+     "final": 0.5,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     4.0,
+     5.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.09966777408637874,
+    "q": 0.12077389095172952,
+    "init_ratio_vs_shuffle": 0.5325443786982248,
+    "final_ratio_vs_shuffle": 1.9784172661870505
+   },
+   "M302": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.7,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     7.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.6611295681063123,
+    "q": 0.6878418738883856,
+    "init_ratio_vs_shuffle": 0.9907529722589168,
+    "final_ratio_vs_shuffle": 0.5798969072164949
+   },
+   "M103": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.4,
+     "medial": 0.5,
+     "final": 0.0,
+     "standalone": 0.1
+    },
+    "counts": [
+     4.0,
+     5.0,
+     0.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.08637873754152824,
+    "q": 0.10983962921947418,
+    "init_ratio_vs_shuffle": 1.8698060941828254,
+    "final_ratio_vs_shuffle": 0.2051983584131327
+   },
+   "M214": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.6,
+     "final": 0.1,
+     "standalone": 0.1
+    },
+    "counts": [
+     2.0,
+     6.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 1.0,
+    "q": 1.0,
+    "init_ratio_vs_shuffle": 1.2135922330097086,
+    "final_ratio_vs_shuffle": 0.7950530035335689
+   }
+  },
+  "_centers": [
+   [
+    0.17386877065072182,
+    0.7577764326482292,
+    0.06356250645262523,
+    0.004792290248423708
+   ],
+   [
+    0.040918907813572686,
+    0.20230351539794433,
+    0.746986517507628,
+    0.0097910592808552
+   ],
+   [
+    0.5009202301944412,
+    0.41064352399386805,
+    0.08105996196481867,
+    0.007376283846872082
+   ]
+  ],
+  "_names": [
+   "medial-core",
+   "closer",
+   "opener"
+  ]
+ },
+ "heldout_check": {
+  "signs_with_ge5_heldout_texts": 80,
+  "nearest_centroid_agreement": 0.875,
+  "chance_agreement_label_shuffle": 0.4710151757941371,
+  "heldout_class_profiles": {
+   "closer": {
+    "initial": 0.017902813299232736,
+    "medial": 0.26854219948849106,
+    "final": 0.7058823529411765,
+    "standalone": 0.0076726342710997444
+   },
+   "medial-core": {
+    "initial": 0.1544256120527307,
+    "medial": 0.7674199623352166,
+    "final": 0.0743879472693032,
+    "standalone": 0.003766478342749529
+   },
+   "opener": {
+    "initial": 0.5317725752508361,
+    "medial": 0.3712374581939799,
+    "final": 0.0903010033444816,
+    "standalone": 0.006688963210702341
+   }
+  }
+ },
+ "ICIT": {
+  "label": "ICIT distinct clean",
+  "texts": 2190,
+  "signs_n_ge_min": 133,
+  "K": 3,
+  "stability": {
+   "2": {
+    "ARI_mean": 0.6653794943888134,
+    "ARI_sd": 0.21129684545302244,
+    "silhouette": 0.5513396609190996
+   },
+   "3": {
+    "ARI_mean": 0.6668835663873426,
+    "ARI_sd": 0.06413136475220992,
+    "silhouette": 0.5115428223039882
+   },
+   "4": {
+    "ARI_mean": 0.5683358104334351,
+    "ARI_sd": 0.06015084698099589,
+    "silhouette": 0.46022683686127264
+   },
+   "5": {
+    "ARI_mean": 0.3976355186307555,
+    "ARI_sd": 0.07445324566451608,
+    "silhouette": 0.45797806096143284
+   },
+   "6": {
+    "ARI_mean": 0.45903408152692354,
+    "ARI_sd": 0.054909147287102576,
+    "silhouette": 0.4591702155855954
+   },
+   "7": {
+    "ARI_mean": 0.4270448638689595,
+    "ARI_sd": 0.04185802976489602,
+    "silhouette": 0.42819229770319445
+   },
+   "8": {
+    "ARI_mean": 0.41791327792875177,
+    "ARI_sd": 0.04350986941735609,
+    "silhouette": 0.4241451689716616
+   }
+  },
+  "classes_summary": {
+   "opener": {
+    "n_signs": 39,
+    "centroid": {
+     "initial": 0.48669893097562156,
+     "medial": 0.3961226752841956,
+     "final": 0.10886139475315627,
+     "standalone": 0.00831699898702657
+    },
+    "tokens": 1627,
+    "members_top": [
+     "W861",
+     "W820",
+     "W031",
+     "W817",
+     "W003",
+     "W920",
+     "W550",
+     "W140",
+     "W692",
+     "W575",
+     "W892",
+     "W005",
+     "W790",
+     "W503",
+     "W016"
+    ],
+    "stroke_signs_in_class": []
+   },
+   "medial-core": {
+    "n_signs": 72,
+    "centroid": {
+     "initial": 0.16884831355251992,
+     "medial": 0.7698665848327415,
+     "final": 0.05370327156751925,
+     "standalone": 0.007581830047219209
+    },
+    "tokens": 4477,
+    "members_top": [
+     "W002",
+     "W032",
+     "W220",
+     "W240",
+     "W060",
+     "W033",
+     "W741",
+     "W235",
+     "W001",
+     "W233",
+     "W590",
+     "W705",
+     "W798",
+     "W803",
+     "W415"
+    ],
+    "stroke_signs_in_class": []
+   },
+   "closer": {
+    "n_signs": 22,
+    "centroid": {
+     "initial": 0.06527994258382352,
+     "medial": 0.24146634794502697,
+     "final": 0.6805866557295195,
+     "standalone": 0.012667053741629911
+    },
+    "tokens": 2169,
+    "members_top": [
+     "W740",
+     "W400",
+     "W390",
+     "W520",
+     "W090",
+     "W151",
+     "W700",
+     "W407",
+     "W405",
+     "W617",
+     "W527",
+     "W156",
+     "W154",
+     "W226",
+     "W158"
+    ],
+    "stroke_signs_in_class": []
+   }
+  },
+  "n_positional_q05": 85,
+  "per_sign": {
+   "W740": {
+    "ntext": 966,
+    "tokens": 985,
+    "profile": {
+     "initial": 0.006091370558375634,
+     "medial": 0.30253807106598984,
+     "final": 0.6903553299492385,
+     "standalone": 0.0010152284263959391
+    },
+    "counts": [
+     6.0,
+     298.0,
+     680.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.030167545908816658,
+    "final_ratio_vs_shuffle": 3.12485649997704
+   },
+   "W002": {
+    "ntext": 515,
+    "tokens": 516,
+    "profile": {
+     "initial": 0.01937984496124031,
+     "medial": 0.9534883720930233,
+     "final": 0.025193798449612403,
+     "standalone": 0.001937984496124031
+    },
+    "counts": [
+     10.0,
+     492.0,
+     13.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.10939399201250218,
+    "final_ratio_vs_shuffle": 0.14070805683910642
+   },
+   "W032": {
+    "ntext": 241,
+    "tokens": 255,
+    "profile": {
+     "initial": 0.24705882352941178,
+     "medial": 0.6627450980392157,
+     "final": 0.08627450980392157,
+     "standalone": 0.00392156862745098
+    },
+    "counts": [
+     63.0,
+     169.0,
+     22.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.1684965957185793,
+    "final_ratio_vs_shuffle": 0.40993562492408603
+   },
+   "W220": {
+    "ntext": 233,
+    "tokens": 237,
+    "profile": {
+     "initial": 0.10548523206751055,
+     "medial": 0.8396624472573839,
+     "final": 0.05485232067510549,
+     "standalone": 0.0
+    },
+    "counts": [
+     25.0,
+     199.0,
+     13.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.5475236186659033,
+    "final_ratio_vs_shuffle": 0.2886054300577211
+   },
+   "W400": {
+    "ntext": 204,
+    "tokens": 208,
+    "profile": {
+     "initial": 0.004807692307692308,
+     "medial": 0.12980769230769232,
+     "final": 0.8653846153846154,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     27.0,
+     180.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.026639829505091167,
+    "final_ratio_vs_shuffle": 3.187168922895821
+   },
+   "W240": {
+    "ntext": 191,
+    "tokens": 191,
+    "profile": {
+     "initial": 0.193717277486911,
+     "medial": 0.7905759162303665,
+     "final": 0.015706806282722512,
+     "standalone": 0.0
+    },
+    "counts": [
+     37.0,
+     151.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.0128747636625552,
+    "final_ratio_vs_shuffle": 0.09624197983501374
+   },
+   "W390": {
+    "ntext": 174,
+    "tokens": 182,
+    "profile": {
+     "initial": 0.04945054945054945,
+     "medial": 0.5054945054945055,
+     "final": 0.43956043956043955,
+     "standalone": 0.005494505494505495
+    },
+    "counts": [
+     9.0,
+     92.0,
+     80.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.22215293475719072,
+    "final_ratio_vs_shuffle": 1.8935236004390779
+   },
+   "W520": {
+    "ntext": 171,
+    "tokens": 172,
+    "profile": {
+     "initial": 0.011627906976744186,
+     "medial": 0.1744186046511628,
+     "final": 0.813953488372093,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     30.0,
+     140.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.06398225558778366,
+    "final_ratio_vs_shuffle": 3.595802764033442
+   },
+   "W060": {
+    "ntext": 171,
+    "tokens": 172,
+    "profile": {
+     "initial": 0.011627906976744186,
+     "medial": 0.9767441860465116,
+     "final": 0.011627906976744186,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     168.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.07700205338809034,
+    "final_ratio_vs_shuffle": 0.0764915859255482
+   },
+   "W861": {
+    "ntext": 167,
+    "tokens": 167,
+    "profile": {
+     "initial": 0.7065868263473054,
+     "medial": 0.23952095808383234,
+     "final": 0.05389221556886228,
+     "standalone": 0.0
+    },
+    "counts": [
+     118.0,
+     40.0,
+     9.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 3.289534560932729,
+    "final_ratio_vs_shuffle": 0.26798307475317346
+   },
+   "W033": {
+    "ntext": 160,
+    "tokens": 169,
+    "profile": {
+     "initial": 0.1834319526627219,
+     "medial": 0.7218934911242604,
+     "final": 0.08875739644970414,
+     "standalone": 0.005917159763313609
+    },
+    "counts": [
+     31.0,
+     122.0,
+     15.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.8565989847715736,
+    "final_ratio_vs_shuffle": 0.41230714665720875
+   },
+   "W820": {
+    "ntext": 158,
+    "tokens": 163,
+    "profile": {
+     "initial": 0.7423312883435583,
+     "medial": 0.17177914110429449,
+     "final": 0.08588957055214724,
+     "standalone": 0.0
+    },
+    "counts": [
+     121.0,
+     28.0,
+     14.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 3.51630329924754,
+    "final_ratio_vs_shuffle": 0.42372881355932207
+   },
+   "W741": {
+    "ntext": 150,
+    "tokens": 151,
+    "profile": {
+     "initial": 0.11258278145695365,
+     "medial": 0.8675496688741722,
+     "final": 0.019867549668874173,
+     "standalone": 0.0
+    },
+    "counts": [
+     17.0,
+     131.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.6121735074626866,
+    "final_ratio_vs_shuffle": 0.1214574898785425
+   },
+   "W031": {
+    "ntext": 150,
+    "tokens": 155,
+    "profile": {
+     "initial": 0.3161290322580645,
+     "medial": 0.5419354838709678,
+     "final": 0.13548387096774195,
+     "standalone": 0.0064516129032258064
+    },
+    "counts": [
+     49.0,
+     84.0,
+     21.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.009966777408637873,
+    "q": 0.018158649251353933,
+    "init_ratio_vs_shuffle": 1.3343516937730255,
+    "final_ratio_vs_shuffle": 0.579306628345608
+   },
+   "W235": {
+    "ntext": 145,
+    "tokens": 145,
+    "profile": {
+     "initial": 0.33793103448275863,
+     "medial": 0.6482758620689655,
+     "final": 0.006896551724137931,
+     "standalone": 0.006896551724137931
+    },
+    "counts": [
+     49.0,
+     94.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.702005730659026,
+    "final_ratio_vs_shuffle": 0.05122367672168469
+   },
+   "W001": {
+    "ntext": 138,
+    "tokens": 139,
+    "profile": {
+     "initial": 0.05755395683453238,
+     "medial": 0.8489208633093526,
+     "final": 0.08633093525179857,
+     "standalone": 0.007194244604316547
+    },
+    "counts": [
+     8.0,
+     118.0,
+     12.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.33350771645304733,
+    "final_ratio_vs_shuffle": 0.47990785769132327
+   },
+   "W817": {
+    "ntext": 134,
+    "tokens": 134,
+    "profile": {
+     "initial": 0.8656716417910447,
+     "medial": 0.08955223880597014,
+     "final": 0.04477611940298507,
+     "standalone": 0.0
+    },
+    "counts": [
+     116.0,
+     12.0,
+     6.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 4.014933946008042,
+    "final_ratio_vs_shuffle": 0.2231121281464531
+   },
+   "W233": {
+    "ntext": 129,
+    "tokens": 129,
+    "profile": {
+     "initial": 0.1937984496124031,
+     "medial": 0.7829457364341085,
+     "final": 0.023255813953488372,
+     "standalone": 0.0
+    },
+    "counts": [
+     25.0,
+     101.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.9572072072072072,
+    "final_ratio_vs_shuffle": 0.13224181360201512
+   },
+   "W590": {
+    "ntext": 122,
+    "tokens": 122,
+    "profile": {
+     "initial": 0.22950819672131148,
+     "medial": 0.680327868852459,
+     "final": 0.09016393442622951,
+     "standalone": 0.0
+    },
+    "counts": [
+     28.0,
+     83.0,
+     11.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.1481133342285483,
+    "final_ratio_vs_shuffle": 0.46906866077498305
+   },
+   "W003": {
+    "ntext": 117,
+    "tokens": 121,
+    "profile": {
+     "initial": 0.36363636363636365,
+     "medial": 0.5785123966942148,
+     "final": 0.049586776859504134,
+     "standalone": 0.008264462809917356
+    },
+    "counts": [
+     44.0,
+     70.0,
+     6.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.3529948312557007,
+    "final_ratio_vs_shuffle": 0.1985945615643141
+   },
+   "W705": {
+    "ntext": 105,
+    "tokens": 105,
+    "profile": {
+     "initial": 0.21904761904761905,
+     "medial": 0.7619047619047619,
+     "final": 0.01904761904761905,
+     "standalone": 0.0
+    },
+    "counts": [
+     23.0,
+     80.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.1426256077795787,
+    "final_ratio_vs_shuffle": 0.11902872559911125
+   },
+   "W920": {
+    "ntext": 100,
+    "tokens": 102,
+    "profile": {
+     "initial": 0.6372549019607843,
+     "medial": 0.3235294117647059,
+     "final": 0.0392156862745098,
+     "standalone": 0.0
+    },
+    "counts": [
+     65.0,
+     33.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 3.4359153698198988,
+    "final_ratio_vs_shuffle": 0.244122965641953
+   },
+   "W090": {
+    "ntext": 97,
+    "tokens": 99,
+    "profile": {
+     "initial": 0.08080808080808081,
+     "medial": 0.21212121212121213,
+     "final": 0.696969696969697,
+     "standalone": 0.010101010101010102
+    },
+    "counts": [
+     8.0,
+     21.0,
+     69.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.4022082018927445,
+    "final_ratio_vs_shuffle": 3.3488596209444266
+   },
+   "W798": {
+    "ntext": 92,
+    "tokens": 92,
+    "profile": {
+     "initial": 0.17391304347826086,
+     "medial": 0.8152173913043478,
+     "final": 0.010869565217391304,
+     "standalone": 0.0
+    },
+    "counts": [
+     16.0,
+     75.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.0329716193656093,
+    "final_ratio_vs_shuffle": 0.09072580645161289
+   },
+   "W803": {
+    "ntext": 92,
+    "tokens": 92,
+    "profile": {
+     "initial": 0.33695652173913043,
+     "medial": 0.6630434782608695,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     31.0,
+     61.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.6981132075471697,
+    "final_ratio_vs_shuffle": 0.02794857462269424
+   },
+   "W415": {
+    "ntext": 89,
+    "tokens": 89,
+    "profile": {
+     "initial": 0.2247191011235955,
+     "medial": 0.7191011235955056,
+     "final": 0.0449438202247191,
+     "standalone": 0.011235955056179775
+    },
+    "counts": [
+     20.0,
+     64.0,
+     4.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.1736641221374047,
+    "final_ratio_vs_shuffle": 0.25961538461538464
+   },
+   "W176": {
+    "ntext": 87,
+    "tokens": 87,
+    "profile": {
+     "initial": 0.19540229885057472,
+     "medial": 0.7931034482758621,
+     "final": 0.011494252873563218,
+     "standalone": 0.0
+    },
+    "counts": [
+     17.0,
+     69.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.9090909090909091,
+    "final_ratio_vs_shuffle": 0.07777393708952644
+   },
+   "W100": {
+    "ntext": 82,
+    "tokens": 82,
+    "profile": {
+     "initial": 0.024390243902439025,
+     "medial": 0.9512195121951219,
+     "final": 0.024390243902439025,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     78.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.15157639450282945,
+    "final_ratio_vs_shuffle": 0.1502403846153846
+   },
+   "W368": {
+    "ntext": 80,
+    "tokens": 81,
+    "profile": {
+     "initial": 0.04938271604938271,
+     "medial": 0.654320987654321,
+     "final": 0.2962962962962963,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     53.0,
+     24.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.242152466367713,
+    "final_ratio_vs_shuffle": 1.322418136020151
+   },
+   "W760": {
+    "ntext": 77,
+    "tokens": 77,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.987012987012987,
+     "final": 0.012987012987012988,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     76.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.03350457895912441,
+    "final_ratio_vs_shuffle": 0.10231923601637108
+   },
+   "W806": {
+    "ntext": 74,
+    "tokens": 76,
+    "profile": {
+     "initial": 0.34210526315789475,
+     "medial": 0.6447368421052632,
+     "final": 0.013157894736842105,
+     "standalone": 0.0
+    },
+    "counts": [
+     26.0,
+     49.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.7222703639514731,
+    "final_ratio_vs_shuffle": 0.10178692603483375
+   },
+   "W550": {
+    "ntext": 72,
+    "tokens": 73,
+    "profile": {
+     "initial": 0.3972602739726027,
+     "medial": 0.5205479452054794,
+     "final": 0.0684931506849315,
+     "standalone": 0.0136986301369863
+    },
+    "counts": [
+     29.0,
+     38.0,
+     5.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.7753259779338013,
+    "final_ratio_vs_shuffle": 0.3256364712847839
+   },
+   "W140": {
+    "ntext": 72,
+    "tokens": 72,
+    "profile": {
+     "initial": 0.4305555555555556,
+     "medial": 0.5138888888888888,
+     "final": 0.05555555555555555,
+     "standalone": 0.0
+    },
+    "counts": [
+     31.0,
+     37.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 2.020525978191148,
+    "final_ratio_vs_shuffle": 0.28607755880483154
+   },
+   "W255": {
+    "ntext": 69,
+    "tokens": 69,
+    "profile": {
+     "initial": 0.2608695652173913,
+     "medial": 0.6956521739130435,
+     "final": 0.043478260869565216,
+     "standalone": 0.0
+    },
+    "counts": [
+     18.0,
+     48.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.009966777408637873,
+    "q": 0.018158649251353933,
+    "init_ratio_vs_shuffle": 1.269441903019213,
+    "final_ratio_vs_shuffle": 0.24126838235294118
+   },
+   "W840": {
+    "ntext": 66,
+    "tokens": 66,
+    "profile": {
+     "initial": 0.18181818181818182,
+     "medial": 0.7575757575757576,
+     "final": 0.045454545454545456,
+     "standalone": 0.015151515151515152
+    },
+    "counts": [
+     12.0,
+     50.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.832408435072142,
+    "final_ratio_vs_shuffle": 0.23479427549194992
+   },
+   "W004": {
+    "ntext": 63,
+    "tokens": 64,
+    "profile": {
+     "initial": 0.3125,
+     "medial": 0.625,
+     "final": 0.046875,
+     "standalone": 0.015625
+    },
+    "counts": [
+     20.0,
+     40.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.072362685265911,
+    "final_ratio_vs_shuffle": 0.19052803483941208
+   },
+   "W151": {
+    "ntext": 61,
+    "tokens": 61,
+    "profile": {
+     "initial": 0.01639344262295082,
+     "medial": 0.14754098360655737,
+     "final": 0.819672131147541,
+     "standalone": 0.01639344262295082
+    },
+    "counts": [
+     1.0,
+     9.0,
+     50.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.08272058823529412,
+    "final_ratio_vs_shuffle": 2.865519198032911
+   },
+   "W231": {
+    "ntext": 59,
+    "tokens": 59,
+    "profile": {
+     "initial": 0.1864406779661017,
+     "medial": 0.7966101694915254,
+     "final": 0.01694915254237288,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     47.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.9410801963993453,
+    "final_ratio_vs_shuffle": 0.12041744715012041
+   },
+   "W900": {
+    "ntext": 59,
+    "tokens": 60,
+    "profile": {
+     "initial": 0.16666666666666666,
+     "medial": 0.8166666666666667,
+     "final": 0.016666666666666666,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     49.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.8135330578512396,
+    "final_ratio_vs_shuffle": 0.11133102424542306
+   },
+   "W706": {
+    "ntext": 58,
+    "tokens": 58,
+    "profile": {
+     "initial": 0.20689655172413793,
+     "medial": 0.7241379310344828,
+     "final": 0.05172413793103448,
+     "standalone": 0.017241379310344827
+    },
+    "counts": [
+     12.0,
+     42.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.0053619302949062,
+    "final_ratio_vs_shuffle": 0.2776308831306187
+   },
+   "W700": {
+    "ntext": 56,
+    "tokens": 56,
+    "profile": {
+     "initial": 0.21428571428571427,
+     "medial": 0.2857142857142857,
+     "final": 0.5,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     16.0,
+     28.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.013289036544850499,
+    "q": 0.02356589147286822,
+    "init_ratio_vs_shuffle": 0.6913716814159293,
+    "final_ratio_vs_shuffle": 1.5745856353591159
+   },
+   "W690": {
+    "ntext": 54,
+    "tokens": 54,
+    "profile": {
+     "initial": 0.12962962962962962,
+     "medial": 0.6851851851851852,
+     "final": 0.18518518518518517,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     37.0,
+     10.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.15282392026578073,
+    "q": 0.18477801268498945,
+    "init_ratio_vs_shuffle": 0.6302521008403361,
+    "final_ratio_vs_shuffle": 0.8420208500400962
+   },
+   "W405": {
+    "ntext": 52,
+    "tokens": 52,
+    "profile": {
+     "initial": 0.019230769230769232,
+     "medial": 0.4230769230769231,
+     "final": 0.5576923076923077,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     22.0,
+     29.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.11980830670926518,
+    "final_ratio_vs_shuffle": 2.3505976095617527
+   },
+   "W692": {
+    "ntext": 51,
+    "tokens": 52,
+    "profile": {
+     "initial": 0.7307692307692307,
+     "medial": 0.19230769230769232,
+     "final": 0.057692307692307696,
+     "standalone": 0.019230769230769232
+    },
+    "counts": [
+     38.0,
+     10.0,
+     3.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 3.513842409491938,
+    "final_ratio_vs_shuffle": 0.31626506024096385
+   },
+   "W407": {
+    "ntext": 51,
+    "tokens": 53,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.3584905660377358,
+     "final": 0.6415094339622641,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     19.0,
+     34.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.04302925989672978,
+    "final_ratio_vs_shuffle": 2.931180968564146
+   },
+   "W017": {
+    "ntext": 50,
+    "tokens": 50,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.8,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     40.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012807549713515335,
+    "init_ratio_vs_shuffle": 0.914103308183401,
+    "final_ratio_vs_shuffle": 0.04519433564326605
+   },
+   "W617": {
+    "ntext": 47,
+    "tokens": 47,
+    "profile": {
+     "initial": 0.1702127659574468,
+     "medial": 0.2553191489361702,
+     "final": 0.574468085106383,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     12.0,
+     27.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.7057846664821478,
+    "final_ratio_vs_shuffle": 2.2802653399668324
+   },
+   "W125": {
+    "ntext": 46,
+    "tokens": 46,
+    "profile": {
+     "initial": 0.2826086956521739,
+     "medial": 0.6521739130434783,
+     "final": 0.06521739130434782,
+     "standalone": 0.0
+    },
+    "counts": [
+     13.0,
+     30.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.04983388704318937,
+    "q": 0.07204246713852376,
+    "init_ratio_vs_shuffle": 1.416579223504722,
+    "final_ratio_vs_shuffle": 0.37919826652221017
+   },
+   "W575": {
+    "ntext": 46,
+    "tokens": 46,
+    "profile": {
+     "initial": 0.41304347826086957,
+     "medial": 0.5434782608695652,
+     "final": 0.021739130434782608,
+     "standalone": 0.021739130434782608
+    },
+    "counts": [
+     19.0,
+     25.0,
+     1.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.9409422694094227,
+    "final_ratio_vs_shuffle": 0.1493032514930325
+   },
+   "W061": {
+    "ntext": 45,
+    "tokens": 45,
+    "profile": {
+     "initial": 0.2222222222222222,
+     "medial": 0.7777777777777778,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     35.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.0787671232876712,
+    "final_ratio_vs_shuffle": 0.05268703898840885
+   },
+   "W142": {
+    "ntext": 44,
+    "tokens": 44,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.7045454545454546,
+     "final": 0.022727272727272728,
+     "standalone": 0.0
+    },
+    "counts": [
+     12.0,
+     31.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.0282423910063065,
+    "final_ratio_vs_shuffle": 0.12813211845102504
+   },
+   "W527": {
+    "ntext": 43,
+    "tokens": 43,
+    "profile": {
+     "initial": 0.046511627906976744,
+     "medial": 0.09302325581395349,
+     "final": 0.8604651162790697,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     4.0,
+     37.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.2220906129700918,
+    "final_ratio_vs_shuffle": 3.3957138545125267
+   },
+   "W892": {
+    "ntext": 41,
+    "tokens": 41,
+    "profile": {
+     "initial": 0.2682926829268293,
+     "medial": 0.5121951219512195,
+     "final": 0.21951219512195122,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     21.0,
+     9.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.760797342192691,
+    "q": 0.7665609584214236,
+    "init_ratio_vs_shuffle": 0.9922346850733391,
+    "final_ratio_vs_shuffle": 0.8407079646017699
+   },
+   "W350": {
+    "ntext": 37,
+    "tokens": 37,
+    "profile": {
+     "initial": 0.16216216216216217,
+     "medial": 0.8108108108108109,
+     "final": 0.02702702702702703,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     30.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.059800664451827246,
+    "q": 0.08284883720930233,
+    "init_ratio_vs_shuffle": 0.9794073329984933,
+    "final_ratio_vs_shuffle": 0.2387267904509284
+   },
+   "W435": {
+    "ntext": 37,
+    "tokens": 37,
+    "profile": {
+     "initial": 0.05405405405405406,
+     "medial": 0.8648648648648649,
+     "final": 0.08108108108108109,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     32.0,
+     3.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02869223799456358,
+    "init_ratio_vs_shuffle": 0.36496350364963503,
+    "final_ratio_vs_shuffle": 0.49111318989710007
+   },
+   "W156": {
+    "ntext": 36,
+    "tokens": 36,
+    "profile": {
+     "initial": 0.027777777777777776,
+     "medial": 0.2222222222222222,
+     "final": 0.7222222222222222,
+     "standalone": 0.027777777777777776
+    },
+    "counts": [
+     1.0,
+     8.0,
+     26.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.12964563526361278,
+    "final_ratio_vs_shuffle": 2.232518955349621
+   },
+   "W388": {
+    "ntext": 36,
+    "tokens": 36,
+    "profile": {
+     "initial": 0.3055555555555556,
+     "medial": 0.6666666666666666,
+     "final": 0.027777777777777776,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     24.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012807549713515335,
+    "init_ratio_vs_shuffle": 1.2356733524355301,
+    "final_ratio_vs_shuffle": 0.1632208922742111
+   },
+   "W055": {
+    "ntext": 36,
+    "tokens": 37,
+    "profile": {
+     "initial": 0.2972972972972973,
+     "medial": 0.6486486486486487,
+     "final": 0.05405405405405406,
+     "standalone": 0.0
+    },
+    "counts": [
+     11.0,
+     24.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.059800664451827246,
+    "q": 0.08284883720930233,
+    "init_ratio_vs_shuffle": 1.430941518042306,
+    "final_ratio_vs_shuffle": 0.31779661016949157
+   },
+   "W005": {
+    "ntext": 35,
+    "tokens": 35,
+    "profile": {
+     "initial": 0.42857142857142855,
+     "medial": 0.5142857142857142,
+     "final": 0.02857142857142857,
+     "standalone": 0.02857142857142857
+    },
+    "counts": [
+     15.0,
+     18.0,
+     1.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 1.405683192261185,
+    "final_ratio_vs_shuffle": 0.13392857142857142
+   },
+   "W717": {
+    "ntext": 34,
+    "tokens": 34,
+    "profile": {
+     "initial": 0.29411764705882354,
+     "medial": 0.6764705882352942,
+     "final": 0.029411764705882353,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     23.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.029900332225913623,
+    "q": 0.04678522571819426,
+    "init_ratio_vs_shuffle": 1.4259846084200996,
+    "final_ratio_vs_shuffle": 0.20380434782608695
+   },
+   "W790": {
+    "ntext": 34,
+    "tokens": 35,
+    "profile": {
+     "initial": 0.2571428571428571,
+     "medial": 0.4,
+     "final": 0.3142857142857143,
+     "standalone": 0.02857142857142857
+    },
+    "counts": [
+     9.0,
+     14.0,
+     11.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.7475083056478405,
+    "q": 0.7589206461920824,
+    "init_ratio_vs_shuffle": 0.9770311964346933,
+    "final_ratio_vs_shuffle": 1.1643604454944312
+   },
+   "W904": {
+    "ntext": 33,
+    "tokens": 36,
+    "profile": {
+     "initial": 0.16666666666666666,
+     "medial": 0.7777777777777778,
+     "final": 0.05555555555555555,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     28.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.036544850498338874,
+    "q": 0.055867415129644486,
+    "init_ratio_vs_shuffle": 0.8224377899620413,
+    "final_ratio_vs_shuffle": 0.3132832080200501
+   },
+   "W440": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.21212121212121213,
+     "medial": 0.6666666666666666,
+     "final": 0.09090909090909091,
+     "standalone": 0.030303030303030304
+    },
+    "counts": [
+     7.0,
+     22.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.3089700996677741,
+    "q": 0.3368280594738849,
+    "init_ratio_vs_shuffle": 1.0245901639344261,
+    "final_ratio_vs_shuffle": 0.5136986301369862
+   },
+   "W503": {
+    "ntext": 33,
+    "tokens": 33,
+    "profile": {
+     "initial": 0.48484848484848486,
+     "medial": 0.48484848484848486,
+     "final": 0.030303030303030304,
+     "standalone": 0.0
+    },
+    "counts": [
+     16.0,
+     16.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 2.150304083405734,
+    "final_ratio_vs_shuffle": 0.19388194743644982
+   },
+   "W154": {
+    "ntext": 32,
+    "tokens": 32,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.21875,
+     "final": 0.78125,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     7.0,
+     25.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.05567928730512249,
+    "final_ratio_vs_shuffle": 2.7607361963190185
+   },
+   "W455": {
+    "ntext": 31,
+    "tokens": 31,
+    "profile": {
+     "initial": 0.1935483870967742,
+     "medial": 0.6774193548387096,
+     "final": 0.0967741935483871,
+     "standalone": 0.03225806451612903
+    },
+    "counts": [
+     6.0,
+     21.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.26245847176079734,
+    "q": 0.29582183681513596,
+    "init_ratio_vs_shuffle": 0.9591736350221348,
+    "final_ratio_vs_shuffle": 0.5316455696202532
+   },
+   "W585": {
+    "ntext": 31,
+    "tokens": 31,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9354838709677419,
+     "final": 0.06451612903225806,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     29.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.07890583903208837,
+    "final_ratio_vs_shuffle": 0.37897928246589185
+   },
+   "W016": {
+    "ntext": 30,
+    "tokens": 30,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.5666666666666667,
+     "final": 0.06666666666666667,
+     "standalone": 0.03333333333333333
+    },
+    "counts": [
+     10.0,
+     17.0,
+     2.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.04983388704318937,
+    "q": 0.07204246713852376,
+    "init_ratio_vs_shuffle": 1.4049955396966993,
+    "final_ratio_vs_shuffle": 0.33185840707964603
+   },
+   "W615": {
+    "ntext": 30,
+    "tokens": 30,
+    "profile": {
+     "initial": 0.23333333333333334,
+     "medial": 0.7,
+     "final": 0.06666666666666667,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     21.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.07308970099667775,
+    "q": 0.09624683398572417,
+    "init_ratio_vs_shuffle": 1.043115438108484,
+    "final_ratio_vs_shuffle": 0.3522780648191639
+   },
+   "W595": {
+    "ntext": 30,
+    "tokens": 30,
+    "profile": {
+     "initial": 0.1,
+     "medial": 0.6,
+     "final": 0.3,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     18.0,
+     9.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.14950166112956811,
+    "q": 0.18410852713178297,
+    "init_ratio_vs_shuffle": 0.5131964809384164,
+    "final_ratio_vs_shuffle": 1.4067127344521224
+   },
+   "W742": {
+    "ntext": 30,
+    "tokens": 30,
+    "profile": {
+     "initial": 0.1,
+     "medial": 0.7666666666666667,
+     "final": 0.1,
+     "standalone": 0.03333333333333333
+    },
+    "counts": [
+     3.0,
+     23.0,
+     3.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.059800664451827246,
+    "q": 0.08284883720930233,
+    "init_ratio_vs_shuffle": 0.5474452554744526,
+    "final_ratio_vs_shuffle": 0.5255255255255256
+   },
+   "W013": {
+    "ntext": 29,
+    "tokens": 29,
+    "profile": {
+     "initial": 0.20689655172413793,
+     "medial": 0.7586206896551724,
+     "final": 0.0,
+     "standalone": 0.034482758620689655
+    },
+    "counts": [
+     6.0,
+     22.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.956820412168793,
+    "final_ratio_vs_shuffle": 0.07295719844357977
+   },
+   "W416": {
+    "ntext": 28,
+    "tokens": 28,
+    "profile": {
+     "initial": 0.4642857142857143,
+     "medial": 0.32142857142857145,
+     "final": 0.17857142857142858,
+     "standalone": 0.03571428571428571
+    },
+    "counts": [
+     13.0,
+     9.0,
+     5.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 2.1915584415584415,
+    "final_ratio_vs_shuffle": 0.8405501782985227
+   },
+   "W070": {
+    "ntext": 28,
+    "tokens": 28,
+    "profile": {
+     "initial": 0.10714285714285714,
+     "medial": 0.8928571428571429,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     25.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03273040482342808,
+    "init_ratio_vs_shuffle": 0.682704811443433,
+    "final_ratio_vs_shuffle": 0.09404388714733543
+   },
+   "W460": {
+    "ntext": 27,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.037037037037037035,
+     "medial": 0.9629629629629629,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     26.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.2357255107386066,
+    "final_ratio_vs_shuffle": 0.08060182697474476
+   },
+   "W226": {
+    "ntext": 27,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.1111111111111111,
+     "medial": 0.2962962962962963,
+     "final": 0.5925925925925926,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     8.0,
+     16.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.44967880085653106,
+    "final_ratio_vs_shuffle": 2.199022656597068
+   },
+   "W850": {
+    "ntext": 27,
+    "tokens": 27,
+    "profile": {
+     "initial": 0.2962962962962963,
+     "medial": 0.5555555555555556,
+     "final": 0.14814814814814814,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     15.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.4152823920265781,
+    "q": 0.4383536360280546,
+    "init_ratio_vs_shuffle": 1.3843648208469057,
+    "final_ratio_vs_shuffle": 0.7127771911298838
+   },
+   "W923": {
+    "ntext": 26,
+    "tokens": 26,
+    "profile": {
+     "initial": 0.07692307692307693,
+     "medial": 0.9230769230769231,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     24.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.39184952978056425,
+    "final_ratio_vs_shuffle": 0.07940709370037057
+   },
+   "W832": {
+    "ntext": 25,
+    "tokens": 25,
+    "profile": {
+     "initial": 0.24,
+     "medial": 0.4,
+     "final": 0.36,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     10.0,
+     9.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.2591362126245847,
+    "q": 0.2945736434108527,
+    "init_ratio_vs_shuffle": 1.0230849947534102,
+    "final_ratio_vs_shuffle": 1.4607893388006152
+   },
+   "W413": {
+    "ntext": 22,
+    "tokens": 22,
+    "profile": {
+     "initial": 0.4090909090909091,
+     "medial": 0.2727272727272727,
+     "final": 0.2727272727272727,
+     "standalone": 0.045454545454545456
+    },
+    "counts": [
+     9.0,
+     6.0,
+     6.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.07308970099667775,
+    "q": 0.09624683398572417,
+    "init_ratio_vs_shuffle": 1.659871869539895,
+    "final_ratio_vs_shuffle": 1.1149228130360205
+   },
+   "W158": {
+    "ntext": 21,
+    "tokens": 21,
+    "profile": {
+     "initial": 0.047619047619047616,
+     "medial": 0.5238095238095238,
+     "final": 0.42857142857142855,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     11.0,
+     9.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.21047708138447146,
+    "final_ratio_vs_shuffle": 1.3342696629213482
+   },
+   "W495": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.5,
+     "medial": 0.5,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     10.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 2.0778364116094985,
+    "final_ratio_vs_shuffle": 0.10359116022099446
+   },
+   "W480": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.3,
+     "medial": 0.6,
+     "final": 0.05,
+     "standalone": 0.05
+    },
+    "counts": [
+     6.0,
+     12.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.24584717607973422,
+    "q": 0.28432760364004045,
+    "init_ratio_vs_shuffle": 1.3476157567380789,
+    "final_ratio_vs_shuffle": 0.32894736842105265
+   },
+   "W621": {
+    "ntext": 20,
+    "tokens": 20,
+    "profile": {
+     "initial": 0.15,
+     "medial": 0.1,
+     "final": 0.75,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     2.0,
+     15.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.6603773584905661,
+    "final_ratio_vs_shuffle": 2.961783439490446
+   },
+   "W482": {
+    "ntext": 19,
+    "tokens": 19,
+    "profile": {
+     "initial": 0.05263157894736842,
+     "medial": 0.8947368421052632,
+     "final": 0.05263157894736842,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     17.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03273040482342808,
+    "init_ratio_vs_shuffle": 0.3416856492027334,
+    "final_ratio_vs_shuffle": 0.32798833819241985
+   },
+   "W236": {
+    "ntext": 18,
+    "tokens": 18,
+    "profile": {
+     "initial": 0.05555555555555555,
+     "medial": 0.5,
+     "final": 0.3888888888888889,
+     "standalone": 0.05555555555555555
+    },
+    "counts": [
+     1.0,
+     9.0,
+     7.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.06976744186046512,
+    "q": 0.09372797744890769,
+    "init_ratio_vs_shuffle": 0.3515625,
+    "final_ratio_vs_shuffle": 1.7942583732057418
+   },
+   "W165": {
+    "ntext": 18,
+    "tokens": 18,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.4444444444444444,
+     "final": 0.2222222222222222,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     8.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.5448504983388704,
+    "q": 0.5617450874346495,
+    "init_ratio_vs_shuffle": 1.4008620689655173,
+    "final_ratio_vs_shuffle": 1.0376633358954652
+   },
+   "W384": {
+    "ntext": 18,
+    "tokens": 18,
+    "profile": {
+     "initial": 0.05555555555555555,
+     "medial": 0.8333333333333334,
+     "final": 0.05555555555555555,
+     "standalone": 0.05555555555555555
+    },
+    "counts": [
+     1.0,
+     15.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.023255813953488372,
+    "q": 0.03726534043149342,
+    "init_ratio_vs_shuffle": 0.3450920245398773,
+    "final_ratio_vs_shuffle": 0.36202735317779566
+   },
+   "W555": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.058823529411764705,
+     "medial": 0.8823529411764706,
+     "final": 0.058823529411764705,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     15.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.026578073089700997,
+    "q": 0.042081949058693245,
+    "init_ratio_vs_shuffle": 0.3504672897196262,
+    "final_ratio_vs_shuffle": 0.3461538461538461
+   },
+   "W752": {
+    "ntext": 17,
+    "tokens": 17,
+    "profile": {
+     "initial": 0.058823529411764705,
+     "medial": 0.9411764705882353,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     16.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.009966777408637873,
+    "q": 0.018158649251353933,
+    "init_ratio_vs_shuffle": 0.3582802547770701,
+    "final_ratio_vs_shuffle": 0.12386457473162674
+   },
+   "W632": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.375,
+     "medial": 0.625,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.006644518272425249,
+    "q": 0.012807549713515335,
+    "init_ratio_vs_shuffle": 2.159468438538206,
+    "final_ratio_vs_shuffle": 0.1513622603430878
+   },
+   "W745": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.3125,
+     "medial": 0.6875,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.07973421926910298,
+    "q": 0.1039671682626539,
+    "init_ratio_vs_shuffle": 1.3807531380753137,
+    "final_ratio_vs_shuffle": 0.12489592006661114
+   },
+   "W104": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.5,
+     "medial": 0.3125,
+     "final": 0.1875,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     5.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.06976744186046512,
+    "q": 0.09372797744890769,
+    "init_ratio_vs_shuffle": 1.8613138686131387,
+    "final_ratio_vs_shuffle": 0.7467994310099574
+   },
+   "W175": {
+    "ntext": 16,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.4375,
+     "medial": 0.5625,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     7.0,
+     9.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03273040482342808,
+    "init_ratio_vs_shuffle": 1.9019442096365173,
+    "final_ratio_vs_shuffle": 0.12427506213753106
+   },
+   "W034": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.4,
+     "medial": 0.26666666666666666,
+     "final": 0.3333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     4.0,
+     5.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.9401993355481728,
+    "q": 0.9401993355481728,
+    "init_ratio_vs_shuffle": 1.138353765323993,
+    "final_ratio_vs_shuffle": 0.9654768870684611
+   },
+   "W831": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.5333333333333333,
+     "medial": 0.4,
+     "final": 0.06666666666666667,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     6.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.04318936877076412,
+    "q": 0.06454141625293963,
+    "init_ratio_vs_shuffle": 1.8358531317494602,
+    "final_ratio_vs_shuffle": 0.3343239227340268
+   },
+   "W335": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.06666666666666667,
+     "medial": 0.8666666666666667,
+     "final": 0.06666666666666667,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     13.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.21926910299003322,
+    "q": 0.2603820598006644,
+    "init_ratio_vs_shuffle": 0.49396267837541163,
+    "final_ratio_vs_shuffle": 0.46875
+   },
+   "W171": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.5333333333333333,
+     "medial": 0.4666666666666667,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     7.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.013289036544850499,
+    "q": 0.02356589147286822,
+    "init_ratio_vs_shuffle": 2.2911051212938007,
+    "final_ratio_vs_shuffle": 0.13850415512465375
+   },
+   "W463": {
+    "ntext": 15,
+    "tokens": 16,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.875,
+     "final": 0.0625,
+     "standalone": 0.0625
+    },
+    "counts": [
+     0.0,
+     14.0,
+     1.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.036544850498338874,
+    "q": 0.055867415129644486,
+    "init_ratio_vs_shuffle": 0.14436958614051973,
+    "final_ratio_vs_shuffle": 0.4596527068437181
+   },
+   "W877": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.5333333333333333,
+     "final": 0.13333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     8.0,
+     2.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.46511627906976744,
+    "q": 0.4870902765061344,
+    "init_ratio_vs_shuffle": 1.288056206088993,
+    "final_ratio_vs_shuffle": 0.561377245508982
+   },
+   "W845": {
+    "ntext": 15,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.9333333333333333,
+     "final": 0.06666666666666667,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     14.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.03986710963455149,
+    "q": 0.060253699788583505,
+    "init_ratio_vs_shuffle": 0.15889830508474578,
+    "final_ratio_vs_shuffle": 0.4988913525498891
+   },
+   "W679": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.14285714285714285,
+     "medial": 0.0,
+     "final": 0.7857142857142857,
+     "standalone": 0.07142857142857142
+    },
+    "counts": [
+     2.0,
+     0.0,
+     11.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.8333333333333334,
+    "final_ratio_vs_shuffle": 3.612565445026178
+   },
+   "W095": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.35714285714285715,
+     "medial": 0.5714285714285714,
+     "final": 0.07142857142857142,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.1362126245847176,
+    "q": 0.16931101934362097,
+    "init_ratio_vs_shuffle": 1.8151815181518154,
+    "final_ratio_vs_shuffle": 0.4573170731707317
+   },
+   "W035": {
+    "ntext": 14,
+    "tokens": 14,
+    "profile": {
+     "initial": 0.14285714285714285,
+     "medial": 0.6428571428571429,
+     "final": 0.14285714285714285,
+     "standalone": 0.07142857142857142
+    },
+    "counts": [
+     2.0,
+     9.0,
+     2.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.2857142857142857,
+    "q": 0.3140495867768595,
+    "init_ratio_vs_shuffle": 0.6399317406143344,
+    "final_ratio_vs_shuffle": 0.6302521008403361
+   },
+   "W630": {
+    "ntext": 14,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.26666666666666666,
+     "medial": 0.7333333333333333,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.12624584717607973,
+    "q": 0.1599114064230343,
+    "init_ratio_vs_shuffle": 1.3527054108216432,
+    "final_ratio_vs_shuffle": 0.1482213438735178
+   },
+   "W921": {
+    "ntext": 13,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.3076923076923077,
+     "medial": 0.6153846153846154,
+     "final": 0.07692307692307693,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.40863787375415284,
+    "q": 0.4347906976744186,
+    "init_ratio_vs_shuffle": 1.5535097813578826,
+    "final_ratio_vs_shuffle": 0.5306603773584906
+   },
+   "W072": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.4166666666666667,
+     "medial": 0.5,
+     "final": 0.08333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     6.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.2591362126245847,
+    "q": 0.2945736434108527,
+    "init_ratio_vs_shuffle": 1.751592356687898,
+    "final_ratio_vs_shuffle": 0.5119453924914675
+   },
+   "W297": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.08333333333333333,
+     "medial": 0.9166666666666666,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     11.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.06976744186046512,
+    "q": 0.09372797744890769,
+    "init_ratio_vs_shuffle": 0.5454545454545454,
+    "final_ratio_vs_shuffle": 0.17006802721088435
+   },
+   "W374": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.25,
+     "medial": 0.6666666666666666,
+     "final": 0.08333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     8.0,
+     1.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.5149501661129569,
+    "q": 0.5350654069767442,
+    "init_ratio_vs_shuffle": 1.5486725663716816,
+    "final_ratio_vs_shuffle": 0.6502890173410405
+   },
+   "W645": {
+    "ntext": 12,
+    "tokens": 13,
+    "profile": {
+     "initial": 0.15384615384615385,
+     "medial": 0.6923076923076923,
+     "final": 0.15384615384615385,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     9.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.2823920265780731,
+    "q": 0.312984496124031,
+    "init_ratio_vs_shuffle": 0.6824385805277524,
+    "final_ratio_vs_shuffle": 0.6443298969072165
+   },
+   "W382": {
+    "ntext": 12,
+    "tokens": 15,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.4666666666666667,
+     "final": 0.2,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     7.0,
+     3.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.6312292358803987,
+    "q": 0.6457960644007157,
+    "init_ratio_vs_shuffle": 1.2114537444933922,
+    "final_ratio_vs_shuffle": 0.7592190889370932
+   },
+   "W824": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.6666666666666666,
+     "medial": 0.0,
+     "final": 0.3333333333333333,
+     "standalone": 0.0
+    },
+    "counts": [
+     8.0,
+     0.0,
+     4.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 2.1500843170320407,
+    "final_ratio_vs_shuffle": 1.1548331907613345
+   },
+   "W065": {
+    "ntext": 12,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.8333333333333334,
+     "final": 0.16666666666666666,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     10.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.10631229235880399,
+    "q": 0.13595706618962433,
+    "init_ratio_vs_shuffle": 0.17162471395881004,
+    "final_ratio_vs_shuffle": 0.8314855875831485
+   },
+   "W222": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.09090909090909091,
+     "medial": 0.9090909090909091,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     10.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.09302325581395349,
+    "q": 0.1201174079927749,
+    "init_ratio_vs_shuffle": 0.551470588235294,
+    "final_ratio_vs_shuffle": 0.18495684340320592
+   },
+   "W530": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.2727272727272727,
+     "medial": 0.6363636363636364,
+     "final": 0.0,
+     "standalone": 0.09090909090909091
+    },
+    "counts": [
+     3.0,
+     7.0,
+     0.0,
+     1.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.26578073089701,
+    "q": 0.2970490521790112,
+    "init_ratio_vs_shuffle": 1.4285714285714284,
+    "final_ratio_vs_shuffle": 0.20134228187919462
+   },
+   "W161": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.09090909090909091,
+     "medial": 0.0,
+     "final": 0.9090909090909091,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     0.0,
+     10.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.37656903765690375,
+    "final_ratio_vs_shuffle": 2.6854219948849103
+   },
+   "W500": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.18181818181818182,
+     "medial": 0.8181818181818182,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     9.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.21926910299003322,
+    "q": 0.2603820598006644,
+    "init_ratio_vs_shuffle": 0.9316770186335405,
+    "final_ratio_vs_shuffle": 0.2
+   },
+   "W491": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.8181818181818182,
+     "medial": 0.18181818181818182,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 2.9320987654320985,
+    "final_ratio_vs_shuffle": 0.14563106796116507
+   },
+   "W565": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.09090909090909091,
+     "medial": 0.18181818181818182,
+     "final": 0.6363636363636364,
+     "standalone": 0.09090909090909091
+    },
+    "counts": [
+     1.0,
+     2.0,
+     7.0,
+     1.0
+    ],
+    "class": "closer",
+    "p_positional": 0.009966777408637873,
+    "q": 0.018158649251353933,
+    "init_ratio_vs_shuffle": 0.48913043478260865,
+    "final_ratio_vs_shuffle": 2.3910733262486716
+   },
+   "W241": {
+    "ntext": 11,
+    "tokens": 11,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.18181818181818182,
+     "final": 0.8181818181818182,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     2.0,
+     9.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 0.15,
+    "final_ratio_vs_shuffle": 2.85
+   },
+   "W510": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.6,
+     "medial": 0.4,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     6.0,
+     4.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.023255813953488372,
+    "q": 0.03726534043149342,
+    "init_ratio_vs_shuffle": 2.0376175548589344,
+    "final_ratio_vs_shuffle": 0.1594048884165781
+   },
+   "W821": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.4,
+     "medial": 0.5,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     5.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.15282392026578073,
+    "q": 0.18477801268498945,
+    "init_ratio_vs_shuffle": 1.9203413940256047,
+    "final_ratio_vs_shuffle": 0.6320224719101124
+   },
+   "W365": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.0,
+     "medial": 0.8,
+     "final": 0.2,
+     "standalone": 0.0
+    },
+    "counts": [
+     0.0,
+     8.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.059800664451827246,
+    "q": 0.08284883720930233,
+    "init_ratio_vs_shuffle": 0.1687289088863892,
+    "final_ratio_vs_shuffle": 0.8710801393728222
+   },
+   "W540": {
+    "ntext": 10,
+    "tokens": 12,
+    "profile": {
+     "initial": 0.3333333333333333,
+     "medial": 0.5,
+     "final": 0.08333333333333333,
+     "standalone": 0.08333333333333333
+    },
+    "counts": [
+     4.0,
+     6.0,
+     1.0,
+     1.0
+    ],
+    "class": "opener",
+    "p_positional": 0.23920265780730898,
+    "q": 0.2790697674418605,
+    "init_ratio_vs_shuffle": 1.2195121951219512,
+    "final_ratio_vs_shuffle": 0.40394973070017953
+   },
+   "W838": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.3,
+     "medial": 0.7,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     7.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.3521594684385382,
+    "q": 0.38079031953110226,
+    "init_ratio_vs_shuffle": 1.4,
+    "final_ratio_vs_shuffle": 0.21156558533145275
+   },
+   "W320": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.2,
+     "medial": 0.8,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     2.0,
+     8.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.3920265780730897,
+    "q": 0.4204801200300075,
+    "init_ratio_vs_shuffle": 1.1363636363636362,
+    "final_ratio_vs_shuffle": 0.23400936037441497
+   },
+   "W091": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.9,
+     "medial": 0.1,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 3.260869565217391,
+    "final_ratio_vs_shuffle": 0.16519823788546253
+   },
+   "W097": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.3,
+     "medial": 0.7,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     3.0,
+     7.0,
+     0.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.019933554817275746,
+    "q": 0.03273040482342808,
+    "init_ratio_vs_shuffle": 1.0304219823356233,
+    "final_ratio_vs_shuffle": 0.13953488372093023
+   },
+   "W064": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.1,
+     "medial": 0.2,
+     "final": 0.7,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     2.0,
+     7.0,
+     0.0
+    ],
+    "class": "closer",
+    "p_positional": 0.016611295681063124,
+    "q": 0.02869223799456358,
+    "init_ratio_vs_shuffle": 0.43310875842155916,
+    "final_ratio_vs_shuffle": 2.1887159533073928
+   },
+   "W906": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.4,
+     "medial": 0.5,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     4.0,
+     5.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.23588039867109634,
+    "q": 0.277629141798724,
+    "init_ratio_vs_shuffle": 1.762402088772846,
+    "final_ratio_vs_shuffle": 0.5754475703324808
+   },
+   "W190": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.5,
+     "medial": 0.4,
+     "final": 0.1,
+     "standalone": 0.0
+    },
+    "counts": [
+     5.0,
+     4.0,
+     1.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.04983388704318937,
+    "q": 0.07204246713852376,
+    "init_ratio_vs_shuffle": 2.1767810026385224,
+    "final_ratio_vs_shuffle": 0.6206896551724137
+   },
+   "W853": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.9,
+     "medial": 0.1,
+     "final": 0.0,
+     "standalone": 0.0
+    },
+    "counts": [
+     9.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "class": "opener",
+    "p_positional": 0.0033222591362126247,
+    "q": 0.0066948555320648345,
+    "init_ratio_vs_shuffle": 3.779840848806366,
+    "final_ratio_vs_shuffle": 0.20435967302452315
+   },
+   "W130": {
+    "ntext": 10,
+    "tokens": 10,
+    "profile": {
+     "initial": 0.1,
+     "medial": 0.7,
+     "final": 0.2,
+     "standalone": 0.0
+    },
+    "counts": [
+     1.0,
+     7.0,
+     2.0,
+     0.0
+    ],
+    "class": "medial-core",
+    "p_positional": 0.1362126245847176,
+    "q": 0.16931101934362097,
+    "init_ratio_vs_shuffle": 0.43945312499999994,
+    "final_ratio_vs_shuffle": 0.7560483870967742
+   }
+  },
+  "_centers": [
+   [
+    0.48669893097562156,
+    0.3961226752841956,
+    0.10886139475315627,
+    0.00831699898702657
+   ],
+   [
+    0.16884831355251992,
+    0.7698665848327415,
+    0.05370327156751925,
+    0.007581830047219209
+   ],
+   [
+    0.06527994258382352,
+    0.24146634794502697,
+    0.6805866557295195,
+    0.012667053741629911
+   ]
+  ],
+  "_names": [
+   "opener",
+   "medial-core",
+   "closer"
+  ]
+ },
+ "Dholavira_profile_by_ICIT_class": {
+  "closer": {
+   "initial": 0.01639344262295082,
+   "medial": 0.26229508196721313,
+   "final": 0.7213114754098361,
+   "standalone": 0.0,
+   "n": 61.0
+  },
+  "medial-core": {
+   "initial": 0.19858156028368795,
+   "medial": 0.7375886524822695,
+   "final": 0.06382978723404255,
+   "standalone": 0.0,
+   "n": 141.0
+  },
+  "opener": {
+   "initial": 0.4426229508196721,
+   "medial": 0.4262295081967213,
+   "final": 0.13114754098360656,
+   "standalone": 0.0,
+   "n": 61.0
+  }
+ },
+ "M77_vs_ICIT_class_crosstab": {
+  "closer | closer": 16,
+  "medial-core | medial-core": 55,
+  "opener | opener": 26,
+  "medial-core | opener": 2,
+  "opener | medial-core": 5,
+  "closer | medial-core": 1
+ },
+ "M77_vs_ICIT_profile_rho_bridged": {
+  "initial": 0.9263640316727356,
+  "medial": 0.9232569721310367,
+  "final": 0.7974030589295361,
+  "standalone": 0.4789356945614071
+ },
+ "n_bridged_signs": 105,
+ "dev_vs_full_class_agreement": 0.912621359223301
+}

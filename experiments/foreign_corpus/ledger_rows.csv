@@ -1,0 +1,2 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+fc_order1,Foreign Indus texts break Indus sign order more often than native seals (per-text grammar flag p<0.05),foreign_corpus,experiments/foreign_corpus/RESULTS.md,10/39 flagged vs 1.95 expected,1.6e-05,computed,,39 texts,yes,none (all foreign),confirmatory,foreign_corpus:order,1,no,,,,,,KN bigram 13/39; 3 flagged/borderline texts have disputed reading direction

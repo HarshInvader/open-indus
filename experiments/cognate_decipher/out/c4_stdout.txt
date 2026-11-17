@@ -1,0 +1,33 @@
+[LinB-L2] greek_homer: score/tok=1.950 shuf/tok=1.705 acc=0.14712847838957963
+[LinB-L2] lat: score/tok=1.787 shuf/tok=1.567 acc=0.06512729425695678
+[LinB-L2] san: score/tok=1.830 shuf/tok=1.695 acc=0.09117821195973949
+[LinB-L2] fin: score/tok=1.871 shuf/tok=1.710 acc=0.04766133806986383
+[LinB-L2] sux: score/tok=1.885 shuf/tok=1.733 acc=0.014801657785671996
+[LinB-L2] tam: score/tok=1.874 shuf/tok=1.709 acc=0.0
+   greek_homer - lat: raw +0.163 [+0.137,+0.189]  gain-adjusted +0.026
+   greek_homer - san: raw +0.120 [+0.093,+0.145]  gain-adjusted +0.110
+   greek_homer - fin: raw +0.079 [+0.052,+0.105]  gain-adjusted +0.084
+   greek_homer - sux: raw +0.065 [+0.038,+0.091]  gain-adjusted +0.094
+   greek_homer - tam: raw +0.076 [+0.050,+0.102]  gain-adjusted +0.080
+[san-10k] K2: score/tok=1.040 shuf/tok=0.884 acc=0.10316904928521443
+[san-10k] K1: score/tok=1.182 shuf/tok=1.008 acc=0.2987103868839348
+[san-10k] W:lat: score/tok=1.223 shuf/tok=0.969 acc=0.03838848345496351
+[san-10k] W:fin: score/tok=1.206 shuf/tok=1.005 acc=0.09537138858342498
+[san-10k] W:sux: score/tok=1.150 shuf/tok=1.014 acc=0.03958812356293112
+[san-10k] R:tam: score/tok=1.221 shuf/tok=1.000 acc=0.3208037588723383
+   K2 - K1: raw -0.142 [-0.161,-0.123]  gain-adjusted -0.018
+   K2 - W:lat: raw -0.183 [-0.201,-0.164]  gain-adjusted -0.098
+   K2 - W:fin: raw -0.166 [-0.184,-0.147]  gain-adjusted -0.044
+   K2 - W:sux: raw -0.110 [-0.127,-0.093]  gain-adjusted +0.020
+   K2 - R:tam: raw -0.181 [-0.200,-0.163]  gain-adjusted -0.066
+[tam-10k] K2: score/tok=0.874 shuf/tok=0.708 acc=0.2866
+[tam-10k] K1: score/tok=0.866 shuf/tok=0.713 acc=0.446
+[tam-10k] W:lat: score/tok=0.839 shuf/tok=0.700 acc=0.0538
+[tam-10k] W:fin: score/tok=0.836 shuf/tok=0.722 acc=0.1006
+[tam-10k] W:sux: score/tok=0.804 shuf/tok=0.724 acc=0.0729
+[tam-10k] R:san: score/tok=0.740 shuf/tok=0.652 acc=0.0845
+   K2 - K1: raw +0.008 [-0.004,+0.019]  gain-adjusted +0.013
+   K2 - W:lat: raw +0.035 [+0.023,+0.046]  gain-adjusted +0.027
+   K2 - W:fin: raw +0.038 [+0.027,+0.049]  gain-adjusted +0.052
+   K2 - W:sux: raw +0.070 [+0.058,+0.082]  gain-adjusted +0.086
+   K2 - R:san: raw +0.134 [+0.118,+0.148]  gain-adjusted +0.077

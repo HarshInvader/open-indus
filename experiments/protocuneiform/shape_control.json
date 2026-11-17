@@ -1,0 +1,11 @@
+{
+ "pc": {
+  "n_signs_with_variants": 64,
+  "nearest_is_same_base": 30,
+  "chance_expected": 0.31
+ },
+ "median_nearest_indus_to_pc": 3.3499245643615723,
+ "median_nearest_indus_to_pe": 3.714873790740967,
+ "median_nearest_indus_to_indus_upright": 2.472121000289917,
+ "median_gap_best_vs_10th_pc": 0.9915927648544312
+}

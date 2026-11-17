@@ -1,0 +1,77 @@
+<section class="page-head wrap">
+  <div class="hero-text">
+    <p class="kicker">Contribute</p>
+    <h1>Point a strong AI agent at an open task and the work moves fastest</h1>
+    <p class="state">If you can run Claude Fable or Opus class agents, or equivalent, give one a task from our list.</p>
+    <p class="lede">The rules, the brief and the test bench are written so an agent can claim a task, seal its plan, run it and submit the result. People are needed too, in this order: collection holders and scholars with data, careful readers of photographs, red-teamers and anyone who spots an error.</p>
+    <nav class="jump" aria-label="On this page"><a href="#agents">Run an agent</a><a href="#collections">Share data</a><a href="#check">Check readings</a><a href="#redteam">Break a result</a><a href="#readings">Test your reading</a></nav>
+  </div>
+  <div class="figs head-figs">{{FIG_C}}</div>
+</section>
+
+<section class="block wrap" aria-labelledby="agents">
+  <p class="rail"><span>01</span>Agents</p>
+  <div class="content">
+    <h2 id="agents">Your agent can take a task from claim to result on a laptop</h2>
+    <ol class="flow plain">
+      <li class="step"><span class="dot" aria-hidden="true">1</span><div><div class="sh">Give it three things</div><p>The repository, the brief at <a href="{{REPO}}/blob/main/docs/AGENT_BRIEF.md">docs/AGENT_BRIEF.md</a>, and one starter task from the list below. The Indus texts are not in the repository, so the agent first rebuilds them with <code>corpus/build.py</code> from the public sources it lists.</p></div></li>
+      <li class="step"><span class="dot" aria-hidden="true">2</span><div><div class="sh">Hold it to five rules</div><p>Seal the plan before looking at results. Test on texts kept aside. Recover a planted answer first. Hand any positive result to someone else to break. Publish failures too. The <a href="approach.html#rules">Approach page</a> explains why.</p></div></li>
+      <li class="step"><span class="dot" aria-hidden="true">3</span><div><div class="sh">Most tasks need only a laptop</div><p>The main corpus holds about 13,000 signs. Python with numpy, scipy and pandas covers most tasks, and two worker processes are enough.</p></div></li>
+      <li class="step"><span class="dot" aria-hidden="true">4</span><div><div class="sh">Submit through GitHub</div><p>Claim the task in an issue titled with its id. Commit the sealed plan and its fingerprint before the results. Then open a pull request with the plan's fingerprint and the planted control.</p></div></li>
+    </ol>
+    <h3>Starter tasks for an agent</h3>
+    {{ST_CODE}}
+    {{ST_STATS}}
+    <p class="note">Ready for a bigger question? The <a href="approach.html#directions">seven research directions</a> are open for any agent to design a test for, from whether the signs are language at all to whether our sign list is right.</p>
+    <details class="more" id="open"><summary>The agent team's own open tasks</summary>{{BOARD_OPEN}}</details>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="collections">
+  <p class="rail"><span>02</span>Data</p>
+  <div class="content">
+    <h2 id="collections">Data and photographs unblock tests that code cannot</h2>
+    <p class="intro">Most stalled tests wait on data. If you hold any of the records below, offer them through the <a href="{{REPO}}/issues/new?template=offer-data.yml">data offer form</a>. We agree terms of use before anything is published.</p>
+    {{ASKS}}
+    <h3 id="specialist">Tasks for epigraphists, archaeologists and Assyriologists</h3>
+    {{ST_SPEC}}
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="check">
+  <p class="rail"><span>03</span>Check</p>
+  <div class="content">
+    <h2 id="check">A careful reader of photographs catches errors no test can</h2>
+    <p class="intro">Every statistic rests on how each sign was read. Compare a reading with a published photograph or drawing, and report any mismatch with the <a href="{{REPO}}/issues/new?template=report-error.yml">error form</a>. The same form takes any other error on the site or in the code.</p>
+    {{ST_ANY}}
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="redteam">
+  <p class="rail"><span>04</span>Red team</p>
+  <div class="content">
+    <h2 id="redteam">Breaking one of our results counts as much as adding one</h2>
+    <ol class="steps-small">
+      <li>Pick a finding and name the attack: a confound, a leak between the test texts and the rest, or a weak comparison with chance.</li>
+      <li>Open a <a href="{{REPO}}/issues/new?template=propose-test.yml">test proposal</a> with your pass and fail marks.</li>
+      <li>Seal it, run it and report it, whichever way it goes. A broken result is credited like any other.</li>
+    </ol>
+    <p class="note">Specialist reviews are welcome too. The round-seal finding most needs one before it goes into a paper.</p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="readings">
+  <p class="rail"><span>05</span>Readings</p>
+  <div class="content">
+    <h2 id="readings">Your own reading is scored the same way as every other</h2>
+    <p class="intro">Five published readings have been scored here, and none beat its own sounds shuffled among the signs.</p>
+    <ol class="flow plain">
+      <li class="step"><span class="dot" aria-hidden="true">1</span><div><div class="sh">Fix your key before it is scored</div><p>Give one sound per sign, by sign number in Mahadevan 1977 or Wells. Name the language and the dictionary to score against. Nothing changes after the run.</p></div></li>
+      <li class="step"><span class="dot" aria-hidden="true">2</span><div><div class="sh">Submit it on GitHub</div><p>Use the <a href="{{REPO}}/issues/new?template=submit-reading.yml">reading submission form</a>. The key and its fingerprint are logged in public before any score exists.</p></div></li>
+      <li class="step"><span class="dot" aria-hidden="true">3</span><div><div class="sh">It is scored on texts it was not built from</div><p>It must beat the same key with its sounds shuffled, and keys fitted to random sign strings.</p></div></li>
+      <li class="step"><span class="dot" aria-hidden="true">4</span><div><div class="sh">The result is published either way</div><p>A key that passes goes to the red team. A key that fails joins the closed routes, with credit to you.</p></div></li>
+    </ol>
+    <p class="note">Today the bench runs by hand from <code>experiments/bench_pierson/</code>. Turning it into a one-command tool is starter task <a href="#S5">S5</a>.</p>
+    <p class="note">Everyone taking part follows the <a href="{{REPO}}/blob/main/CODE_OF_CONDUCT.md">code of conduct</a>. Writing about the project? The <a href="resources.html#font">typeface</a> and <a href="resources.html#logo">logo</a> are free to download.</p>
+  </div>
+</section>

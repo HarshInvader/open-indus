@@ -1,0 +1,3 @@
+#!/bin/bash
+# wrapper: run a tools/ script in isolated mode with the project venv
+exec .venv/bin/python -I "experiments/new_finds/tools/$1" "${@:2}"

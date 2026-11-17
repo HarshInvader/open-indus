@@ -1,0 +1,425 @@
+{
+ "question": "Do Mature Harappan frame signs descend from Early Harappan pottery marks, and were those marks restricted to one vessel type?",
+ "prereg": "docs/prereg/potters_marks.md (hashes in docs/prereg/HASHES.txt, tags potters_marks and potters_marks_A1)",
+ "catalogue": {
+  "file": "experiments/potters_marks/marks.csv",
+  "rows": 233,
+  "marks": 931,
+  "sources": [
+   "Kenoyer 2020 Harappa",
+   "Kenoyer MJD journal (Ravi/Kot Diji)",
+   "Halim 1972 Sarai Khola",
+   "Khan 1965 Kot Diji",
+   "Quivron 1980 Mehrgarh",
+   "Dales 1974 Balakot",
+   "ICIT pre-Mature pottery rows"
+  ]
+ },
+ "verdicts": {
+  "a": "INCONCLUSIVE",
+  "b": "NOT SUPPORTED (underpowered, cannot refute)",
+  "c": "UNTESTABLE"
+ },
+ "key_facts": {
+  "M342_early": "attested in Harappa Periods 1-2 (Kenoyer 2020 figs 6a,6b) and Balakot I; post-firing graffiti, vessel type unpublished",
+  "M347_early": "M342-M347 sequence in Harappa Period 2",
+  "openers_M267_M391": "no early attestation under any definition",
+  "closer_M211": "only 1 loose match",
+  "typed_frame_signs": "none of the named frame signs has an early occurrence with a published vessel type",
+  "correction": "contradicts paragorth S-DARK-57 ('0 frame signs early') for M342/M347"
+ },
+ "tests": {
+  "a": {
+   "P1": {
+    "defn": "P1",
+    "frame_with": 5,
+    "frame_n": 52,
+    "core_with": 8,
+    "core_n": 103,
+    "frame_rate": 0.09615384615384616,
+    "core_rate": 0.07766990291262135,
+    "fisher_or": 1.2632978723404256,
+    "fisher_p": 0.45485640471014027,
+    "diff": 0.018483943241224807,
+    "p_strat_perm": 0.39066093390660933,
+    "logit": {
+     "beta_frame": 0.23541712597661546,
+     "p_frame": 0.7045158972804912,
+     "beta_ink": -0.5083890870052471,
+     "beta_logfreq": 0.2907515785486382
+    },
+    "power_fisher": {
+     "2x": 0.33,
+     "3x": 0.778
+    },
+    "frame_hits": [
+     "M139",
+     "M177",
+     "M294",
+     "M342",
+     "M347"
+    ],
+    "core_hits": [
+     "M59",
+     "M134",
+     "M137",
+     "M214",
+     "M245",
+     "M287",
+     "M303",
+     "M328"
+    ],
+    "numeral_hits": [
+     "M86",
+     "M87",
+     "M89",
+     "M95",
+     "M96"
+    ]
+   },
+   "P2": {
+    "defn": "P2",
+    "frame_with": 5,
+    "frame_n": 52,
+    "core_with": 5,
+    "core_n": 103,
+    "frame_rate": 0.09615384615384616,
+    "core_rate": 0.04854368932038835,
+    "fisher_or": 2.0851063829787235,
+    "fisher_p": 0.2107078638930918,
+    "diff": 0.04761015683345781,
+    "p_strat_perm": 0.13758624137586242,
+    "logit": {
+     "beta_frame": 0.28279851439887277,
+     "p_frame": 0.7254106398740863,
+     "beta_ink": -1.4080108165167482,
+     "beta_logfreq": 0.925523383616165
+    },
+    "power_fisher": {
+     "2x": 0.234,
+     "3x": 0.538
+    },
+    "frame_hits": [
+     "M99",
+     "M169",
+     "M177",
+     "M342",
+     "M347"
+    ],
+    "core_hits": [
+     "M59",
+     "M134",
+     "M162",
+     "M287",
+     "M328"
+    ],
+    "numeral_hits": [
+     "M86",
+     "M87",
+     "M89",
+     "M95",
+     "M96",
+     "M97",
+     "M98",
+     "M100",
+     "M102",
+     "M103",
+     "M104",
+     "M106"
+    ]
+   },
+   "P3": {
+    "defn": "P3",
+    "frame_with": 11,
+    "frame_n": 52,
+    "core_with": 15,
+    "core_n": 103,
+    "frame_rate": 0.21153846153846154,
+    "core_rate": 0.14563106796116504,
+    "fisher_or": 1.5739837398373984,
+    "fisher_p": 0.20765080858424462,
+    "diff": 0.0659073935772965,
+    "p_strat_perm": 0.1733826617338266,
+    "logit": {
+     "beta_frame": 0.4968520697036442,
+     "p_frame": 0.3017070025375652,
+     "beta_ink": -0.7336358913811428,
+     "beta_logfreq": 0.4485617127203772
+    },
+    "power_fisher": {
+     "2x": 0.62,
+     "3x": 0.964
+    },
+    "frame_hits": [
+     "M14",
+     "M99",
+     "M139",
+     "M169",
+     "M176",
+     "M177",
+     "M211",
+     "M215",
+     "M294",
+     "M342",
+     "M347"
+    ],
+    "core_hits": [
+     "M59",
+     "M127",
+     "M134",
+     "M137",
+     "M153",
+     "M162",
+     "M186",
+     "M214",
+     "M217",
+     "M245",
+     "M287",
+     "M303",
+     "M328",
+     "M336",
+     "M373"
+    ],
+    "numeral_hits": [
+     "M86",
+     "M87",
+     "M89",
+     "M95",
+     "M96",
+     "M97",
+     "M98",
+     "M100",
+     "M102",
+     "M103",
+     "M104",
+     "M106",
+     "M109"
+    ]
+   }
+  },
+  "named": {
+   "M342": {
+    "P1": 7,
+    "P2": 8,
+    "P3": 11,
+    "role": "CLOSER"
+   },
+   "M328": {
+    "P1": 7,
+    "P2": 6,
+    "P3": 54,
+    "role": "NOUN"
+   },
+   "M211": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 1,
+    "role": "CLOSER"
+   },
+   "M162": {
+    "P1": 0,
+    "P2": 1,
+    "P3": 14,
+    "role": "NOUN"
+   },
+   "M169": {
+    "P1": 0,
+    "P2": 1,
+    "P3": 2,
+    "role": "CLOSER"
+   },
+   "M267": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "role": "OPENER"
+   },
+   "M391": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "role": "OPENER"
+   },
+   "M99": {
+    "P1": 0,
+    "P2": 1,
+    "P3": 82,
+    "role": "CONNECTIVE"
+   }
+  },
+  "b": {
+   "n_typed": 32,
+   "jar": 19,
+   "bowl": 13,
+   "families": {
+    "strokes": {
+     "n": 11,
+     "jar": 7,
+     "bowl": 4,
+     "jar_share": 0.6363636363636364,
+     "p_binom_two_sided": 1.0,
+     "q_bh": 1.0
+    },
+    "cross_T": {
+     "n": 4,
+     "jar": 1,
+     "bowl": 3,
+     "jar_share": 0.25,
+     "p_binom_two_sided": 0.3135401629621042,
+     "q_bh": 0.7838504074052605
+    },
+    "V": {
+     "n": 4,
+     "jar": 1,
+     "bowl": 3,
+     "jar_share": 0.25,
+     "p_binom_two_sided": 0.3135401629621042,
+     "q_bh": 0.7838504074052605
+    },
+    "W_N": {
+     "n": 5,
+     "jar": 4,
+     "bowl": 1,
+     "jar_share": 0.8,
+     "p_binom_two_sided": 0.6550792937050967,
+     "q_bh": 0.8188491171313708
+    },
+    "chevron_arrow": {
+     "n": 5,
+     "jar": 4,
+     "bowl": 1,
+     "jar_share": 0.8,
+     "p_binom_two_sided": 0.6550792937050967,
+     "q_bh": 0.8188491171313708
+    }
+   },
+   "chi2": 5.726336898395721,
+   "p_perm": 0.22997700229977003,
+   "restricted": [],
+   "power": {
+    "plant_4_all_jar": 0.11333333333333333,
+    "plant_6_all_jar": 0.22,
+    "plant_10_all_jar": 0.45
+   },
+   "note": "only Sarai Khola has per-mark vessel type; Mehrgarh (Quivron 1980) states marks are on goblets, cups and jars alike, without counts"
+  },
+  "typed_by_match": {
+   "M86|M97": {
+    "jar": 3
+   },
+   "M87|M99": {
+    "jar": 2,
+    "bowl": 3
+   },
+   "M89|M102": {
+    "bowl": 1,
+    "jar": 1
+   },
+   "M95|M104": {
+    "jar": 1
+   },
+   "M134": {
+    "bowl": 1,
+    "jar": 4
+   },
+   "M126|M161": {
+    "bowl": 1
+   },
+   "M153": {
+    "jar": 1
+   },
+   "M132": {
+    "jar": 3,
+    "bowl": 1
+   },
+   "M365|M328": {
+    "lid": 1,
+    "bowl": 1
+   },
+   "M161": {
+    "jar": 1
+   },
+   "M162|M336": {
+    "bowl": 1
+   },
+   "M365|M132": {
+    "bowl": 1
+   }
+  },
+  "c": {
+   "verdict": "untestable",
+   "reason": "neither ICIT nor M77 records the vessel form of inscribed pottery",
+   "descriptive": {
+    "POT:T:p": {
+     "n": 15,
+     "counts": {
+      "M342": 1,
+      "M328": 0,
+      "M211": 0,
+      "M162": 1,
+      "M169": 1,
+      "M267": 2,
+      "M391": 2,
+      "M99": 2,
+      "M347": 0,
+      "M176": 0,
+      "M177": 0,
+      "M294": 0
+     }
+    },
+    "POT:T:g": {
+     "n": 328,
+     "counts": {
+      "M342": 58,
+      "M328": 14,
+      "M211": 8,
+      "M162": 19,
+      "M169": 24,
+      "M267": 14,
+      "M391": 7,
+      "M99": 23,
+      "M347": 3,
+      "M176": 14,
+      "M177": 2,
+      "M294": 1
+     }
+    },
+    "POT:T:s": {
+     "n": 50,
+     "counts": {
+      "M342": 8,
+      "M328": 1,
+      "M211": 0,
+      "M162": 0,
+      "M169": 0,
+      "M267": 2,
+      "M391": 1,
+      "M99": 4,
+      "M347": 0,
+      "M176": 1,
+      "M177": 0,
+      "M294": 2
+     }
+    },
+    "SEAL": {
+     "n": 2068,
+     "counts": {
+      "M342": 856,
+      "M328": 16,
+      "M211": 178,
+      "M162": 220,
+      "M169": 273,
+      "M267": 301,
+      "M391": 166,
+      "M99": 584,
+      "M347": 82,
+      "M176": 79,
+      "M177": 10,
+      "M294": 30
+     }
+    }
+   }
+  }
+ },
+ "deviation": "Amendment A1: descriptive listing crashed on empty n_marks after hashing; patched (empty=1); tests (a),(b) reran with identical seeded output."
+}

@@ -1,0 +1,98 @@
+{
+ "A_icit_sealing": {
+  "units": 2271,
+  "ctx_rate_all_units": 0.08190224570673713,
+  "k_bases": 5,
+  "derived_tokens": {
+   "W235": 159,
+   "W391": 7,
+   "W361": 2,
+   "W573": 1,
+   "W236": 16
+  },
+  "base_tokens": {
+   "W220": 280,
+   "W390": 192,
+   "W360": 9,
+   "W572": 6,
+   "W226": 30
+  },
+  "power_OR2": 0.523,
+  "power_OR3": 0.864
+ },
+ "A_m77_sealing_trueSites": {
+  "units": 254,
+  "ctx_rate_all_units": 0.3779527559055118,
+  "k_bases": 4,
+  "derived_tokens": {
+   "M65": 14,
+   "M92": 1,
+   "M163": 1,
+   "M66": 4
+  },
+  "base_tokens": {
+   "M59": 27,
+   "M89": 12,
+   "M162": 21,
+   "M60": 4
+  },
+  "power_OR2": 0.325,
+  "power_OR3": 0.555
+ },
+ "B_merged_citadel": {
+  "units": 2614,
+  "ctx_rate_all_units": 0.08951798010711554,
+  "k_bases": 6,
+  "derived_tokens": {
+   "W235": 159,
+   "W678": 2,
+   "W391": 4,
+   "W361": 2,
+   "W573": 1,
+   "W236": 12
+  },
+  "base_tokens": {
+   "W220": 276,
+   "W645": 14,
+   "W390": 170,
+   "W360": 11,
+   "W572": 4,
+   "W226": 22
+  },
+  "power_OR2": 0.61,
+  "power_OR3": 0.96
+ },
+ "B_m77_locus_citadel": {
+  "units": 2026,
+  "ctx_rate_all_units": 0.08193484698914116,
+  "k_bases": 9,
+  "derived_tokens": {
+   "M65": 149,
+   "M138": 3,
+   "M159": 2,
+   "M163": 4,
+   "M334": 4,
+   "M203": 2,
+   "M196": 1,
+   "M14": 10,
+   "M66": 8
+  },
+  "base_tokens": {
+   "M59": 259,
+   "M137": 11,
+   "M158": 1,
+   "M162": 146,
+   "M333": 3,
+   "M202": 8,
+   "M195": 3,
+   "M12": 49,
+   "M60": 20
+  },
+  "power_OR2": 0.731,
+  "power_OR3": 0.991
+ },
+ "A2_lothal_backs": {
+  "sealings_with_diag_back": 75,
+  "with_roofed_sign": 2
+ }
+}

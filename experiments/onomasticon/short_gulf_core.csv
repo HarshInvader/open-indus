@@ -1,0 +1,29 @@
+syllables,n_syll,written,name,language,attestations,source,source_text_id,role,kind
+na.na.sa,3,na-na-sa3,Nanasa / Nanaza,Meluhhan?,4,experiments/meluhha/catalogue.csv,P516138; P516366; P453801; BDTNS 205179,yes (i3-ba lu2 me-luh-ha{ki}-me); personal name,person
+sa.mar,2,sa6-ma-ar,Samar,Meluhhan?,4,experiments/meluhha/catalogue.csv,P516138; P516366; P453801; BDTNS 205179,yes (same lines); personal name,person
+a.li.a.hi,4,a-li-a-hi,Ali-ahi (wife of Samar),Akkadian,4,experiments/meluhha/catalogue.csv,P516138; P516366; P453801; BDTNS 205179,yes (household of lu2 me-luh-ha); personal name,person
+ur.lam.ma,3,ur-{d}lamma,Ur-Lamma,Sumerian,8,experiments/meluhha/catalogue.csv,P102519; P108448; P123177; P136196; P202783; P207485; P318542; (MVN 7 420 P115266?),yes ('son of Meluhha'); personal name,person
+ur.ig.a.lim,4,ur-{d}ig-alim,Ur-Igalim,Sumerian,1,experiments/meluhha/catalogue.csv,P124739,yes; personal name,person
+lu.sun.zi.da,4,lu2-sun2-zi-da,Lu-sunzida,Sumerian,1,experiments/meluhha/catalogue.csv,P212982,yes; 'man of the just wild cow (buffalo?)',person
+lu.mar.za,3,lu2-mar-za,Lu-marza,Sumerian,1,experiments/meluhha/catalogue.csv,P467759,yes; personal name,person
+i.li.a.hi,4,ili-ahi,Ili-ahi,Akkadian,1,experiments/meluhha/catalogue.csv,P253274,yes; personal name,person
+da.di,2,da-di3,Dadi,unknown,1,experiments/meluhha/catalogue.csv,P212842,in service of 'the Meluhha ship'; personal name + title,person
+su.i.li.su,4,su-i-li-su,Su-ilisu,Akkadian,1,experiments/meluhha/catalogue.csv,Louvre AO 22310,no (interpreter); interpreter of Meluhha,person
+ur.ab.ba,3,ur-ab-ba,Ur-abba,Sumerian,1,experiments/meluhha/catalogue.csv,P213104,title; rider/courier of Meluhha,person
+u.tu.il.lat,4,{d}utu-illat,Utu-illat,Akkadian,1,experiments/meluhha/catalogue.csv,P320486,no (Mesopotamian envoy); envoy who went to Meluhha,person
+e.lum.me.luh,4,e-lum-me-luh,Elum-meluh(?),unknown,1,experiments/meluhha/catalogue.csv,P135796,unclear; personal name?,person
+za.si.ri,3,za-si-ri2,Zasiri (Gulf seal owner),unknown,1,experiments/meluhha/catalogue.csv,LEI 22 / P247651,Gulf-type seal; seal owner name,person
+na.du.be.li,4,na-du-be2-li2,Nadubeli (Magan),Akkadian,1,experiments/meluhha/catalogue.csv,P108701,Magan; ruler of Magan,person
+ma.ni.um,3,ma-ni-um,Manium (Magan),unknown,1,experiments/meluhha/catalogue.csv,RIME 2.01.04 (Naram-Sin statue),Magan; lord of Magan,person
+ri.mum,2,ri-mu-um,Rimum (Dilmun),Amorite,1,experiments/meluhha/catalogue.csv,Durand Stone,Dilmun; ruler/official of Dilmun,person
+yag.li.el,3,ya-ag-li-el,Yagli-El (Dilmun),Amorite,1,experiments/meluhha/catalogue.csv,vessels + seals,Dilmun; king of Dilmun,person
+e.a.na.ṣir,4,e-a-na-ṣi-ir,Ea-nasir,Akkadian,1,Oppenheim 1954 JAOS 74; Leemans 1960 Foreign trade in the OB period,UET 5 81 (and Ea-nasir archive UET 5),alik Tilmun (Dilmun trader) at Ur,person
+nan.ni,2,na-an-ni,Nanni,unknown,1,Oppenheim 1954,UET 5 81,writer of complaint letter to the Dilmun trader Ea-nasir,person
+lu.en.lil.la,4,lu2-{d}en-lil2-la2,Lu-Enlilla,Sumerian,1,Oppenheim 1954; Leemans 1960,UET 3 (text number not checked),Ur merchant receiving goods for a Magan voyage,person
+in.zak,2,{d}in-za-ak,Inzak,Dilmunite,,Durand stone; Failaka inscriptions (Glassner 1984; Andersen & Hojlund),Durand stone,chief god of Dilmun; seal formula 'ARAD Inzak' [literature; spelling not checked against a photo],deity
+en.sag,2,{d}en-sa6-ag2,Enzag (Sumerian form of Inzak),Sumerian rendering,,ETCSL 1.1.1,P469514 (CDLI composite),god born to Enki for Dilmun in Enki and Ninhursaga [form from memory; ETCSL composite in dump not searched for this line],deity
+nin.si.kil.la,4,{d}nin-sikil-la,Ninsikila,Sumerian,,Enki and Ninhursaga; Enki and the World Order 239,P469514; P469516,goddess of Dilmun [verified in CDLI dump],deity
+mes.ki.lak,3,{d}mes-ki-la-ak,Meskilak,Dilmunite,,literature (Glassner; Potts 1990),,Dilmun goddess (consort of Inzak) [literature; spelling unverified],deity
+en.ki,2,{d}en-ki,Enki,Sumerian,,ETCSL 1.1.1,P469514,god tied to Dilmun in Enki and Ninhursaga [verified in CDLI dump],deity
+pa.ni.pa,3,pa-ni-pa,Panipa,unknown,,per board task #2 brief citing Laursen et al. 2026,,deity in 'Yagli-El servant of Panipa' (Bahrain tokens) [UNVERIFIED (task brief only; paper not read)],deity
+a.ga.rum,3,a-ga-ru-um,Agarum,Dilmunite?,,Durand stone (Glassner 1984),Durand stone,'man of Agarum' (Dilmun tribe/land) on Durand stone [literature; not in CDLI dump],place

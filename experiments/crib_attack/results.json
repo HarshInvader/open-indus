@@ -1,0 +1,100 @@
+{
+ "A_main": {
+  "20": {
+   "n": 20,
+   "null_S_q95": 71.0,
+   "planted_S_med": 66.0,
+   "S_true_med": 38.0,
+   "power_S": 0.0,
+   "fpr_S": 0.0,
+   "null_E_q95": 14.100000000000001,
+   "E_true_med": 7.5,
+   "power_E": 0.1,
+   "fpr_E": 0.0,
+   "precision_med": 0.02817460317460317,
+   "recall_med": 0.04096989966555184,
+   "recall_rep2_med": 0.027777777777777776,
+   "search_adequacy": 1.0,
+   "unicity_S_true_gt_null_q95": false,
+   "works": false,
+   "n_runs": {
+    "planted": 10,
+    "wronglang": 10,
+    "shuffle": 20
+   },
+   "null_S_mean_per_text": 3.3225000000000002
+  },
+  "30": {
+   "n": 30,
+   "null_S_q95": 88.30000000000001,
+   "planted_S_med": 87.5,
+   "S_true_med": 63.5,
+   "power_S": 0.4,
+   "fpr_S": 0.1,
+   "null_E_q95": 15.05,
+   "E_true_med": 9.0,
+   "power_E": 0.0,
+   "fpr_E": 0.1,
+   "precision_med": 0.023268398268398268,
+   "recall_med": 0.02667140825035562,
+   "recall_rep2_med": 0.06111111111111111,
+   "search_adequacy": 1.0,
+   "unicity_S_true_gt_null_q95": false,
+   "works": false,
+   "n_runs": {
+    "planted": 10,
+    "wronglang": 10,
+    "shuffle": 20
+   },
+   "null_S_mean_per_text": 2.8833333333333333
+  },
+  "60": {
+   "n": 60,
+   "null_S_q95": 159.15,
+   "planted_S_med": 154.5,
+   "S_true_med": 128.5,
+   "power_S": 0.1,
+   "fpr_S": 0.0,
+   "null_E_q95": 22.150000000000002,
+   "E_true_med": 20.5,
+   "power_E": 0.0,
+   "fpr_E": 0.0,
+   "precision_med": 0.021831988609397245,
+   "recall_med": 0.02003205128205128,
+   "recall_rep2_med": 0.031754032258064516,
+   "search_adequacy": 1.0,
+   "unicity_S_true_gt_null_q95": false,
+   "works": false,
+   "n_runs": {
+    "planted": 10,
+    "wronglang": 10,
+    "shuffle": 20
+   },
+   "null_S_mean_per_text": 2.518333333333333
+  },
+  "120": {
+   "n": 120,
+   "null_S_q95": 278.0,
+   "planted_S_med": 278.0,
+   "S_true_med": 257.5,
+   "power_S": 0.5,
+   "fpr_S": 0.0,
+   "null_E_q95": 23.0,
+   "E_true_med": 38.5,
+   "power_E": 0.5,
+   "fpr_E": 0.1,
+   "precision_med": 0.0392156862745098,
+   "recall_med": 0.030536130536130537,
+   "recall_rep2_med": 0.043961352657004835,
+   "search_adequacy": 1.0,
+   "unicity_S_true_gt_null_q95": false,
+   "works": false,
+   "n_runs": {
+    "planted": 10,
+    "wronglang": 10,
+    "shuffle": 20
+   },
+   "null_S_mean_per_text": 2.2570833333333336
+  }
+ }
+}

@@ -1,0 +1,63 @@
+== M77: 1698 distinct texts, 1317 complete
+  [M77] K=  8 k=  330 AIC=66520 BIC=68863
+  [M77] K= 12 k=  410 AIC=64895 BIC=67806
+  [M77] K= 16 k=  522 AIC=63570 BIC=67277
+  [M77] K= 20 k=  666 AIC=62668 BIC=67397
+  [M77] K= 24 k=  842 AIC=62240 BIC=68219
+  [M77] K= 30 k= 1166 AIC=61614 BIC=69893
+  [M77] K= 40 k= 1866 AIC=61695 BIC=74944
+  [M77] K= 50 k= 2766 AIC=62730 BIC=82371
+  [M77] K=16 alpha=0.3: CV 5.277 bits/event
+  [M77] K=16 alpha=1.0: CV 5.248 bits/event
+  [M77] K=16 alpha=3.0: CV 5.241 bits/event
+  [M77] K=16 alpha=10.0: CV 5.310 bits/event
+  [M77] chosen K=16 (BIC), alpha=3.0 (CV)
+  [M77] bootstrap 25/200 (24s)
+  [M77] bootstrap 50/200 (33s)
+  [M77] bootstrap 75/200 (41s)
+  [M77] bootstrap 100/200 (50s)
+  [M77] bootstrap 125/200 (58s)
+  [M77] bootstrap 150/200 (67s)
+  [M77] bootstrap 175/200 (76s)
+  [M77] bootstrap 200/200 (84s)
+Wells dev-like set: 3049 ICIT texts (Indus sites, no near-copy of an M77 held-out text)
+== ICIT: 3049 distinct texts, 1924 complete
+  [ICIT] K=  8 k=  529 AIC=111012 BIC=115003
+  [ICIT] K= 12 k=  609 AIC=109143 BIC=113737
+  [ICIT] K= 16 k=  721 AIC=107535 BIC=112975
+  [ICIT] K= 20 k=  865 AIC=106131 BIC=112658
+  [ICIT] K= 24 k= 1041 AIC=105470 BIC=113324
+  [ICIT] K= 30 k= 1365 AIC=104438 BIC=114736
+  [ICIT] K= 40 k= 2065 AIC=104047 BIC=119626
+  [ICIT] K= 50 k= 2965 AIC=104734 BIC=127104
+  [ICIT] K=20 alpha=0.3: CV 5.531 bits/event
+  [ICIT] K=20 alpha=1.0: CV 5.510 bits/event
+  [ICIT] K=20 alpha=3.0: CV 5.498 bits/event
+  [ICIT] K=20 alpha=10.0: CV 5.543 bits/event
+  [ICIT] chosen K=20 (BIC), alpha=3.0 (CV)
+  [ICIT] bootstrap 25/200 (135s)
+  [ICIT] bootstrap 50/200 (152s)
+  [ICIT] bootstrap 75/200 (170s)
+  [ICIT] bootstrap 100/200 (187s)
+  [ICIT] bootstrap 125/200 (206s)
+  [ICIT] bootstrap 150/200 (225s)
+  [ICIT] bootstrap 175/200 (242s)
+  [ICIT] bootstrap 200/200 (260s)
+bridged M signs with a Wells label: 166
+overall agreement 0.645 vs permutation mean 0.379 (95th 0.422)
+  opener       bridged  17 agree 0.71 (null95 0.35) stability 0.48 tokw 0.80 (n=40) in_wells=True KEEP=True
+  medial       bridged 114 agree 0.64 (null95 0.54) stability 0.71 tokw 0.80 (n=171) in_wells=True KEEP=True
+  connective   bridged   4 agree 0.75 (null95 0.25) stability 0.76 tokw 0.94 (n=4) in_wells=True KEEP=True
+  numeral      bridged  17 agree 0.35 (null95 0.18) stability 0.31 tokw 0.47 (n=27) in_wells=True KEEP=False
+  closer       bridged   8 agree 1.00 (null95 0.38) stability 0.78 tokw 0.98 (n=11) in_wells=True KEEP=True
+  post-closer  bridged   6 agree 0.83 (null95 0.17) stability 0.50 tokw 0.67 (n=12) in_wells=True KEEP=False
+final classes (signs / dev token share):
+  opener         10 signs  0.073 of tokens
+  medial         85 signs  0.348 of tokens
+  connective      2 signs  0.076 of tokens
+  numeral         0 signs  0.000 of tokens
+  closer          7 signs  0.141 of tokens
+  post-closer     0 signs  0.000 of tokens
+  unclassified  265 signs  0.363 of tokens
+agreement of induced label with seed label (frequent signs): 0.565
+done (260s)

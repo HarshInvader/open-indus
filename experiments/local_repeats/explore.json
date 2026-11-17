@@ -1,0 +1,142 @@
+{
+ "E1_locality": {
+  "n_pairs": 28,
+  "share_pairs_same_site": 0.42857142857142855,
+  "random_pair_same_site": 0.45268813709878347,
+  "share_families_one_site": 0.5333333333333333,
+  "random_families_one_site_mean": 0.38621333333333335,
+  "p_more_local": 0.17968203179682032
+ },
+ "E2_formula": {
+  "observed": {
+   "all": 34,
+   "formula": 14,
+   "other": 20,
+   "formula_texts_any": 18
+  },
+  "all": {
+   "mean": 7.606,
+   "lo": 2.0,
+   "hi": 16.0,
+   "p_ge": 0.001996007984031936
+  },
+  "formula": {
+   "mean": 0.154,
+   "lo": 0.0,
+   "hi": 2.0,
+   "p_ge": 0.001996007984031936
+  },
+  "other": {
+   "mean": 7.452,
+   "lo": 2.0,
+   "hi": 16.0,
+   "p_ge": 0.001996007984031936
+  },
+  "formula_texts_any": {
+   "mean": 1.302,
+   "lo": 0.0,
+   "hi": 4.0,
+   "p_ge": 0.001996007984031936
+  }
+ },
+ "E3_time": {
+  "n_dated_same_site_pairs": 4,
+  "pairs": [
+   {
+    "text": "W003 W140 W100 W740",
+    "a": "H-1032",
+    "b": "H-62",
+    "ta": "Period 3C-2",
+    "tb": "Period 3C-2",
+    "same": true
+   },
+   {
+    "text": "W061 W142 W400 W740",
+    "a": "H-1679",
+    "b": "H-451",
+    "ta": "Period 3C",
+    "tb": "Period 3C-2",
+    "same": false
+   },
+   {
+    "text": "W920 W060 W741 W592",
+    "a": "M-1790",
+    "b": "M-854",
+    "ta": "Period 3B/C",
+    "tb": "Period 3C-1",
+    "same": false
+   },
+   {
+    "text": "W176 W740 W400 W033 W700",
+    "a": "H-352",
+    "b": "H-354",
+    "ta": "Period 3B/C",
+    "tb": "Period 3B/C",
+    "same": true
+   }
+  ]
+ },
+ "E1b_pair_rates": {
+  "n_by_site": {
+   "Mohenjo-daro": 683,
+   "Harappa": 177,
+   "Dholavira": 43,
+   "Chanhu-daro": 32,
+   "Lothal": 30,
+   "Kalibangan": 23,
+   "Unknown": 13,
+   "Nausharo": 12
+  },
+  "within_pairs": 12,
+  "between_pairs": 16,
+  "rate_within": 4.785948455335136e-05,
+  "rate_between": 5.278019687013432e-05,
+  "ratio_between_over_within": 1.1028158235030217,
+  "pairs_by_site_pair": {
+   "Harappa / Harappa": 3,
+   "Harappa / Mohenjo-daro": 8,
+   "Mohenjo-daro / Mohenjo-daro": 7,
+   "Chanhu-daro / Harappa": 2,
+   "Chanhu-daro / Mohenjo-daro": 1,
+   "Dholavira / Mohenjo-daro": 2,
+   "Harappa / Nausharo": 1,
+   "Mohenjo-daro / Nausharo": 2,
+   "Dholavira / Dholavira": 1,
+   "Chanhu-daro / Chanhu-daro": 1
+  }
+ },
+ "E4_T1_square_unicorn": {
+  "n_pairs": 7,
+  "untestable": true,
+  "obs": 0.1374722838137473
+ },
+ "E4_T1_square": {
+  "n_pairs": 7,
+  "untestable": true,
+  "obs": 0.1374722838137473
+ },
+ "E4_T2_square_base": {
+  "n_pairs": 10,
+  "obs": 1.0,
+  "null_mean": 0.6382899999999999,
+  "null_ci": [
+   0.3,
+   0.9
+  ],
+  "p_low": 1.0,
+  "p_high": 0.0091990800919908,
+  "untestable": false
+ },
+ "E4_T2_square_full": {
+  "n_pairs": 10,
+  "obs": 0.6,
+  "null_mean": 0.16183000000000003,
+  "null_ci": [
+   0.0,
+   0.4
+  ],
+  "p_low": 0.9997000299970003,
+  "p_high": 0.0017998200179982,
+  "untestable": false
+ }
+}

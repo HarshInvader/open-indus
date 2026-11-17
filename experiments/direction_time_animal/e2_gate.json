@@ -1,0 +1,31 @@
+{
+ "M77": {
+  "steps": {
+   "distinct_LR_len2plus": 150,
+   "no_jar": 102,
+   "ends_not_slot_marked": 18,
+   "not_copy_of_RL": 13
+  },
+  "n_slot_marked_signs": 64
+ },
+ "ICIT": {
+  "steps": {
+   "distinct_LR_len2plus": 151,
+   "no_jar": 94,
+   "ends_not_slot_marked": 24,
+   "not_copy_of_RL": 18
+  },
+  "n_slot_marked_signs": 69
+ },
+ "G1_strict_recorded_criterion": 0,
+ "G2_union_distinct": 31,
+ "G2_types_ICIT": {
+  "POT": 4,
+  "SEAL": 7,
+  "TAB": 8,
+  "ROD": 3
+ },
+ "G3_LR_in_both_editors_by_sequence": 30,
+ "gate_threshold": 100,
+ "decision": "DROPPED"
+}

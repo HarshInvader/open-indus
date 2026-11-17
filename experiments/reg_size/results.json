@@ -1,0 +1,1037 @@
+{
+ "t4_reference_slopes": {
+  "opener": 0.003259932573795215,
+  "connective": 0.013099816344864105,
+  "numeral": -0.004392877023105518,
+  "title": 0.006560461968992528,
+  "jar": -0.009174331271117152,
+  "other_closer": -0.021223332811398647,
+  "ticked_fish": -0.0007999836458772281,
+  "post_closer": -0.009228279811170187
+ },
+ "audit_primary": {
+  "rows": 1344,
+  "drop: type E": 6,
+  "kept objects": 139,
+  "drop: no M77 link": 53,
+  "drop: not square": 387,
+  "drop: text in T4 analysed set": 199,
+  "drop: object in T4 (ICIT id)": 142,
+  "drop: no dims": 278,
+  "drop: material": 23,
+  "drop: incomplete text": 74,
+  "drop: M77 text not a one-face seal": 8,
+  "drop: type I": 3,
+  "drop: type i": 4,
+  "drop: type G": 1,
+  "drop: type C": 5,
+  "drop: type j": 2,
+  "drop: type R": 1,
+  "drop: type c": 4,
+  "drop: type P": 1,
+  "drop: implausible size": 9,
+  "drop: type n": 1,
+  "drop: type h": 4,
+  "distinct texts": 138
+ },
+ "primary": {
+  "n": 138,
+  "n_obj": 139,
+  "by_site": {
+   "Mohenjo-daro": 85,
+   "Harappa": 53
+  },
+  "P1_signs_per_doubling": 1.137687631511817,
+  "P1_p_one_sided": 9.999000099990002e-05,
+  "slopes": {
+   "opener": 0.009715443485687647,
+   "connective": 0.001552657750990237,
+   "numeral": 0.007534702525812635,
+   "title": 0.01375678717187129,
+   "jar": -0.02306557890065418,
+   "other_closer": -0.027413138028316485,
+   "ticked_fish": -0.0005365999575312383,
+   "post_closer": -0.012906564743482115
+  },
+  "mde80": {
+   "opener": 0.03328177752308503,
+   "connective": 0.024261301895490032,
+   "numeral": 0.03831604847869256,
+   "title": 0.023386050814245437,
+   "jar": 0.03148754329944199,
+   "other_closer": 0.03157682633697544,
+   "ticked_fish": 0.011229701305128471,
+   "post_closer": 0.02099299458685543
+  },
+  "p_two_sided": {
+   "opener": 0.41655834416558346,
+   "connective": 0.8558144185581442,
+   "numeral": 0.5877412258774123,
+   "title": 0.10008999100089991,
+   "jar": 0.03899610038996101,
+   "other_closer": 0.013998600139986002,
+   "ticked_fish": 0.8954104589541045,
+   "post_closer": 0.08399160083991601
+  },
+  "directional_p": {
+   "connective": 0.41455854414558546,
+   "other_closer": 0.0064993500649935,
+   "post_closer": 0.039996000399960006
+  },
+  "directional_holm": {
+   "connective": 0.41455854414558546,
+   "other_closer": 0.0194980501949805,
+   "post_closer": 0.07999200079992001
+  },
+  "R1_signs": {
+   "connective": true,
+   "other_closer": true,
+   "post_closer": true
+  },
+  "R1_pass": true,
+  "R2_rho": 0.7857142857142858,
+  "R2_p_one_sided": 0.011397720455908818,
+  "R2_pass": true,
+  "P1_pass": true,
+  "verdict": "replicated",
+  "order_dropped_first_to_kept": [
+   "title",
+   "opener",
+   "numeral",
+   "connective",
+   "ticked_fish",
+   "post_closer",
+   "jar",
+   "other_closer"
+  ],
+  "z_diff_vs_T4": {
+   "opener": 0.5076312037191909,
+   "connective": -1.2019065951240628,
+   "numeral": 0.7774930478125267,
+   "title": 0.7507739217052631,
+   "jar": -1.109104535544362,
+   "other_closer": -0.4785846663083224,
+   "ticked_fish": 0.05928098600367606,
+   "post_closer": -0.4531684481307371
+  }
+ },
+ "sensitivity": {
+  "edit1_excluded": {
+   "n": 59,
+   "n_obj": 59,
+   "by_site": {
+    "Mohenjo-daro": 36,
+    "Harappa": 23
+   },
+   "P1_signs_per_doubling": 1.0018032162719495,
+   "P1_p_one_sided": 0.0007498125468632841,
+   "slopes": {
+    "opener": -0.01656118677738186,
+    "connective": 0.0037152940409248152,
+    "numeral": 0.004242606520728371,
+    "title": -0.008089627286710113,
+    "jar": -0.012912347903211508,
+    "other_closer": -0.008041375438474446,
+    "ticked_fish": 0.005468788514869712,
+    "post_closer": -0.0013728309226616509
+   },
+   "mde80": {
+    "opener": 0.05815446106860393,
+    "connective": 0.041867503572614304,
+    "numeral": 0.05673343273203013,
+    "title": 0.03507710885057567,
+    "jar": 0.042823074633153047,
+    "other_closer": 0.04081520842684608,
+    "ticked_fish": 0.01836624367846039,
+    "post_closer": 0.02802061372018628
+   },
+   "p_two_sided": {
+    "opener": 0.42989252686828294,
+    "connective": 0.8010497375656086,
+    "numeral": 0.8312921769557611,
+    "title": 0.5138715321169708,
+    "jar": 0.40589852536865784,
+    "other_closer": 0.580604848787803,
+    "ticked_fish": 0.4166458385403649,
+    "post_closer": 0.8942764308922769
+   },
+   "directional_p": {
+    "connective": 0.3949012746813297,
+    "other_closer": 0.298175456135966,
+    "post_closer": 0.47188202949262686
+   },
+   "directional_holm": {
+    "connective": 0.8945263684078981,
+    "other_closer": 0.8945263684078981,
+    "post_closer": 0.8945263684078981
+   },
+   "R1_signs": {
+    "connective": true,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": true,
+   "R2_rho": 0.023809523809523815,
+   "R2_p_one_sided": 0.490627343164209,
+   "R2_pass": false,
+   "P1_pass": true,
+   "verdict": "partial",
+   "order_dropped_first_to_kept": [
+    "ticked_fish",
+    "numeral",
+    "connective",
+    "post_closer",
+    "other_closer",
+    "title",
+    "jar",
+    "opener"
+   ],
+   "z_diff_vs_T4": {
+    "opener": -0.93250809428915,
+    "connective": -0.6047533720382948,
+    "numeral": 0.40323035617383995,
+    "title": -1.0948251630863401,
+    "jar": -0.22992328568973272,
+    "other_closer": 0.8294291523725914,
+    "ticked_fish": 0.9175194156776381,
+    "post_closer": 0.7496096870320326
+   }
+  },
+  "plus_MIC": {
+   "n": 153,
+   "n_obj": 154,
+   "by_site": {
+    "Mohenjo-daro": 100,
+    "Harappa": 53
+   },
+   "P1_signs_per_doubling": 0.9900830507452993,
+   "P1_p_one_sided": 0.00024993751562109475,
+   "slopes": {
+    "opener": 0.0022649056618258556,
+    "connective": -0.002226028292680882,
+    "numeral": 0.005105192900842106,
+    "title": 0.013076801916412127,
+    "jar": -0.01628785334604303,
+    "other_closer": -0.01864698144436287,
+    "ticked_fish": 0.000122384629130742,
+    "post_closer": -0.011027713766797995
+   },
+   "mde80": {
+    "opener": 0.029853632242561375,
+    "connective": 0.022187779407184395,
+    "numeral": 0.03376639253428929,
+    "title": 0.022956765691720785,
+    "jar": 0.028405928625048097,
+    "other_closer": 0.029154444373365798,
+    "ticked_fish": 0.01054854370422336,
+    "post_closer": 0.01814275317676103
+   },
+   "p_two_sided": {
+    "opener": 0.8417895526118471,
+    "connective": 0.7745563609097725,
+    "numeral": 0.6785803549112722,
+    "title": 0.11572106973256686,
+    "jar": 0.1087228192951762,
+    "other_closer": 0.07273181704573857,
+    "ticked_fish": 0.9717570607348163,
+    "post_closer": 0.0902274431392152
+   },
+   "directional_p": {
+    "connective": 0.6125968507873032,
+    "other_closer": 0.0379905023744064,
+    "post_closer": 0.04373906523369158
+   },
+   "directional_holm": {
+    "connective": 0.6125968507873032,
+    "other_closer": 0.11397150712321918,
+    "post_closer": 0.11397150712321918
+   },
+   "R1_signs": {
+    "connective": false,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": false,
+   "R2_rho": 0.6666666666666669,
+   "R2_p_one_sided": 0.03499125218695326,
+   "R2_pass": true,
+   "P1_pass": true,
+   "verdict": "partial",
+   "order_dropped_first_to_kept": [
+    "title",
+    "numeral",
+    "opener",
+    "ticked_fish",
+    "connective",
+    "post_closer",
+    "jar",
+    "other_closer"
+   ],
+   "z_diff_vs_T4": {
+    "opener": -0.08592084496657909,
+    "connective": -1.7133030769057178,
+    "numeral": 0.682770035410961,
+    "title": 0.6894200559954519,
+    "jar": -0.6160631675629723,
+    "other_closer": 0.2114090681195678,
+    "ticked_fish": 0.2183290238217815,
+    "post_closer": -0.2503688758449115
+   }
+  },
+  "plus_MIC_CE": {
+   "n": 165,
+   "n_obj": 166,
+   "by_site": {
+    "Mohenjo-daro": 100,
+    "Harappa": 53,
+    "Chanhu-daro": 12
+   },
+   "P1_signs_per_doubling": 0.9530626130097272,
+   "P1_p_one_sided": 0.00024993751562109475,
+   "slopes": {
+    "opener": -0.0005855824801779046,
+    "connective": -0.0036712214738404535,
+    "numeral": 0.0006995868050087079,
+    "title": 0.012072822286532439,
+    "jar": -0.012476866624416962,
+    "other_closer": -0.019678868467983557,
+    "ticked_fish": -0.003847135580156805,
+    "post_closer": -0.010144604728225759
+   },
+   "mde80": {
+    "opener": 0.02886557474531886,
+    "connective": 0.02208469873095827,
+    "numeral": 0.033818881850281826,
+    "title": 0.021043063584388053,
+    "jar": 0.02819792056586661,
+    "other_closer": 0.027713910553760542,
+    "ticked_fish": 0.010914720507493909,
+    "post_closer": 0.016456680244555374
+   },
+   "p_two_sided": {
+    "opener": 0.9560109972506873,
+    "connective": 0.6520869782554362,
+    "numeral": 0.9502624343914021,
+    "title": 0.1092226943264184,
+    "jar": 0.2179455136215946,
+    "other_closer": 0.04548862784303924,
+    "ticked_fish": 0.32191952011997,
+    "post_closer": 0.08397900524868783
+   },
+   "directional_p": {
+    "connective": 0.6603349162709322,
+    "other_closer": 0.02499375156210947,
+    "post_closer": 0.04048987753061734
+   },
+   "directional_holm": {
+    "connective": 0.6603349162709322,
+    "other_closer": 0.07498125468632841,
+    "post_closer": 0.08097975506123468
+   },
+   "R1_signs": {
+    "connective": false,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": false,
+   "R2_rho": 0.7380952380952381,
+   "R2_p_one_sided": 0.02024493876530867,
+   "R2_pass": true,
+   "P1_pass": true,
+   "verdict": "partial",
+   "order_dropped_first_to_kept": [
+    "title",
+    "numeral",
+    "opener",
+    "connective",
+    "ticked_fish",
+    "post_closer",
+    "jar",
+    "other_closer"
+   ],
+   "z_diff_vs_T4": {
+    "opener": -0.34162013303922073,
+    "connective": -1.8817207219007375,
+    "numeral": 0.365645218356949,
+    "title": 0.6217706973129208,
+    "jar": -0.28763905578362997,
+    "other_closer": 0.13144334379040676,
+    "ticked_fish": -0.7018346957939812,
+    "post_closer": -0.13780663754771885
+   }
+  },
+  "animal_seals_only": {
+   "n": 130,
+   "n_obj": 130,
+   "by_site": {
+    "Mohenjo-daro": 80,
+    "Harappa": 50
+   },
+   "P1_signs_per_doubling": 1.103231813670472,
+   "P1_p_one_sided": 0.00024993751562109475,
+   "slopes": {
+    "opener": 0.008595561465438035,
+    "connective": -0.001128679429525643,
+    "numeral": 0.004041192146478501,
+    "title": 0.01708880439830525,
+    "jar": -0.022604311685634624,
+    "other_closer": -0.03207813283181015,
+    "ticked_fish": -0.0005508835536818122,
+    "post_closer": -0.015924860341506846
+   },
+   "mde80": {
+    "opener": 0.03474765065495229,
+    "connective": 0.02474471235436955,
+    "numeral": 0.039832769749376405,
+    "title": 0.024912487963798163,
+    "jar": 0.03261778286712408,
+    "other_closer": 0.033076703247659364,
+    "ticked_fish": 0.011698567782475756,
+    "post_closer": 0.022377454625421494
+   },
+   "p_two_sided": {
+    "opener": 0.49162709322669335,
+    "connective": 0.9035241189702574,
+    "numeral": 0.7813046738315421,
+    "title": 0.054236440889777554,
+    "jar": 0.05623594101474631,
+    "other_closer": 0.005498625343664084,
+    "ticked_fish": 0.894526368407898,
+    "post_closer": 0.0427393151712072
+   },
+   "directional_p": {
+    "connective": 0.5553611597100725,
+    "other_closer": 0.0017495626093476631,
+    "post_closer": 0.0189952511872032
+   },
+   "directional_holm": {
+    "connective": 0.5553611597100725,
+    "other_closer": 0.005248687828042989,
+    "post_closer": 0.0379905023744064
+   },
+   "R1_signs": {
+    "connective": false,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": false,
+   "R2_rho": 0.7142857142857144,
+   "R2_p_one_sided": 0.026243439140214948,
+   "R2_pass": true,
+   "P1_pass": true,
+   "verdict": "partial",
+   "order_dropped_first_to_kept": [
+    "title",
+    "opener",
+    "numeral",
+    "ticked_fish",
+    "connective",
+    "post_closer",
+    "jar",
+    "other_closer"
+   ],
+   "z_diff_vs_T4": {
+    "opener": 0.403982478266463,
+    "connective": -1.4573359627308822,
+    "numeral": 0.5329196248187967,
+    "title": 1.046160641321198,
+    "jar": -1.0420209983957487,
+    "other_closer": -0.8098658119805099,
+    "ticked_fish": 0.054214745289286985,
+    "post_closer": -0.7808848069510842
+   }
+  },
+  "site_x_depth_strata": {
+   "n": 114,
+   "n_obj": 115,
+   "by_site": {
+    "Mohenjo-daro": 66,
+    "Harappa": 48
+   },
+   "P1_signs_per_doubling": 1.26658704375625,
+   "P1_p_one_sided": 0.00024993751562109475,
+   "slopes": {
+    "opener": 0.010831898243042858,
+    "connective": 0.010315489081779308,
+    "numeral": 0.0020891181699167712,
+    "title": 0.016084573630327056,
+    "jar": -0.013538923760140787,
+    "other_closer": -0.033116879516720064,
+    "ticked_fish": 0.002973563633129675,
+    "post_closer": -0.009168701992707215
+   },
+   "mde80": {
+    "opener": 0.036516353049222405,
+    "connective": 0.028294695461070912,
+    "numeral": 0.04479624684766585,
+    "title": 0.028413457733418617,
+    "jar": 0.03279695811837143,
+    "other_closer": 0.039233084601028444,
+    "ticked_fish": 0.014963914499284352,
+    "post_closer": 0.022454177744110675
+   },
+   "p_two_sided": {
+    "opener": 0.4121469632591852,
+    "connective": 0.3091727068232942,
+    "numeral": 0.8967758060484878,
+    "title": 0.1139715071232192,
+    "jar": 0.2591852036990752,
+    "other_closer": 0.018245438640339916,
+    "ticked_fish": 0.5721069732566858,
+    "post_closer": 0.2584353911522119
+   },
+   "directional_p": {
+    "connective": 0.15321169707573107,
+    "other_closer": 0.009747563109222694,
+    "post_closer": 0.13046738315421144
+   },
+   "directional_holm": {
+    "connective": 0.2609347663084229,
+    "other_closer": 0.029242689327668082,
+    "post_closer": 0.2609347663084229
+   },
+   "R1_signs": {
+    "connective": true,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": true,
+   "R2_rho": 0.9047619047619048,
+   "R2_p_one_sided": 0.0032491877030742314,
+   "R2_pass": true,
+   "P1_pass": true,
+   "verdict": "replicated",
+   "order_dropped_first_to_kept": [
+    "title",
+    "opener",
+    "connective",
+    "ticked_fish",
+    "numeral",
+    "post_closer",
+    "jar",
+    "other_closer"
+   ],
+   "z_diff_vs_T4": {
+    "opener": 0.5485820092651171,
+    "connective": -0.2548753831900514,
+    "numeral": 0.3717400679737367,
+    "title": 0.8515466857821943,
+    "jar": -0.33713141356184667,
+    "other_closer": -0.7735037746821997,
+    "ticked_fish": 0.6648343540023907,
+    "post_closer": 0.006926708069562621
+   }
+  },
+  "single_line": {
+   "n": 130,
+   "n_obj": 131,
+   "by_site": {
+    "Mohenjo-daro": 78,
+    "Harappa": 52
+   },
+   "P1_signs_per_doubling": 1.1294243169456128,
+   "P1_p_one_sided": 0.00024993751562109475,
+   "slopes": {
+    "opener": 0.009232356458128099,
+    "connective": 0.0006624444936148058,
+    "numeral": 0.0201151232959695,
+    "title": 0.0133290612033698,
+    "jar": -0.026731068212778823,
+    "other_closer": -0.018583113531531324,
+    "ticked_fish": -0.0010570462498707997,
+    "post_closer": -0.01553176052440091
+   },
+   "mde80": {
+    "opener": 0.034665227983812726,
+    "connective": 0.02536462967938453,
+    "numeral": 0.03822268481647078,
+    "title": 0.023610972163594972,
+    "jar": 0.032250743215975444,
+    "other_closer": 0.03134113623240802,
+    "ticked_fish": 0.011234665778410327,
+    "post_closer": 0.022021032290074235
+   },
+   "p_two_sided": {
+    "opener": 0.4513871532116971,
+    "connective": 0.941764558860285,
+    "numeral": 0.1374656335916021,
+    "title": 0.1132216945763559,
+    "jar": 0.02074481379655086,
+    "other_closer": 0.0947263184203949,
+    "ticked_fish": 0.7885528617845539,
+    "post_closer": 0.04873781554611347
+   },
+   "directional_p": {
+    "connective": 0.4646338415396151,
+    "other_closer": 0.04573856535866033,
+    "post_closer": 0.01749562609347663
+   },
+   "directional_holm": {
+    "connective": 0.4646338415396151,
+    "other_closer": 0.09147713071732066,
+    "post_closer": 0.05248687828042989
+   },
+   "R1_signs": {
+    "connective": true,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": true,
+   "R2_rho": 0.6190476190476191,
+   "R2_p_one_sided": 0.04698825293676581,
+   "R2_pass": true,
+   "P1_pass": true,
+   "verdict": "replicated",
+   "order_dropped_first_to_kept": [
+    "numeral",
+    "title",
+    "opener",
+    "connective",
+    "ticked_fish",
+    "post_closer",
+    "other_closer",
+    "jar"
+   ],
+   "z_diff_vs_T4": {
+    "opener": 0.4531456821053088,
+    "connective": -1.2482050153311177,
+    "numeral": 1.6006437489928929,
+    "title": 0.701025300015789,
+    "jar": -1.3748382435388835,
+    "other_closer": 0.20530104401444593,
+    "ticked_fish": -0.05783743472569802,
+    "post_closer": -0.7453453118411295
+   }
+  },
+  "icit_text_where_linked": {
+   "n": 138,
+   "n_obj": 139,
+   "by_site": {
+    "Mohenjo-daro": 85,
+    "Harappa": 53
+   },
+   "P1_signs_per_doubling": 1.137687631511817,
+   "P1_p_one_sided": 0.00024993751562109475,
+   "slopes": {
+    "opener": 0.009715443485687647,
+    "connective": 0.001552657750990237,
+    "numeral": 0.007534702525812635,
+    "title": 0.01375678717187129,
+    "jar": -0.02306557890065418,
+    "other_closer": -0.027413138028316485,
+    "ticked_fish": -0.005129057952407599,
+    "post_closer": -0.012906564743482115
+   },
+   "mde80": {
+    "opener": 0.03374501900098731,
+    "connective": 0.02427965960598028,
+    "numeral": 0.0380719742454144,
+    "title": 0.02298949896613521,
+    "jar": 0.031266872738740924,
+    "other_closer": 0.03145408383692806,
+    "ticked_fish": 0.013599431081884304,
+    "post_closer": 0.020971740405192372
+   },
+   "p_two_sided": {
+    "opener": 0.4228942764308923,
+    "connective": 0.862784303924019,
+    "numeral": 0.5748562859285179,
+    "title": 0.09222694326418396,
+    "jar": 0.03899025243689078,
+    "other_closer": 0.013996500874781305,
+    "ticked_fish": 0.2854286428392902,
+    "post_closer": 0.0852286928267933
+   },
+   "directional_p": {
+    "connective": 0.43414146463384157,
+    "other_closer": 0.007998000499875032,
+    "post_closer": 0.0379905023744064
+   },
+   "directional_holm": {
+    "connective": 0.43414146463384157,
+    "other_closer": 0.023994001499625096,
+    "post_closer": 0.0759810047488128
+   },
+   "R1_signs": {
+    "connective": true,
+    "other_closer": true,
+    "post_closer": true
+   },
+   "R1_pass": true,
+   "R2_rho": 0.7857142857142858,
+   "R2_p_one_sided": 0.00849787553111722,
+   "R2_pass": true,
+   "P1_pass": true,
+   "verdict": "replicated",
+   "order_dropped_first_to_kept": [
+    "title",
+    "opener",
+    "numeral",
+    "connective",
+    "ticked_fish",
+    "post_closer",
+    "jar",
+    "other_closer"
+   ],
+   "z_diff_vs_T4": {
+    "opener": 0.5015273370213885,
+    "connective": -1.2011672591179017,
+    "numeral": 0.781451201629771,
+    "title": 0.7605454817653645,
+    "jar": -1.1154019782293059,
+    "other_closer": -0.48000258582287997,
+    "ticked_fish": -0.8293781686574666,
+    "post_closer": -0.4535602206520514
+   }
+  },
+  "n_icit_text_swapped": 3
+ },
+ "combined": {
+  "n": 1090,
+  "n_obj": 1152,
+  "by_site": {
+   "Allahdino": 6,
+   "Banawali": 7,
+   "Harappa": 204,
+   "Chanhu-daro": 41,
+   "Dholavira": 24,
+   "Farmana": 2,
+   "Mohenjo-daro": 755,
+   "Kalibangan": 24,
+   "Lothal": 13,
+   "Nausharo": 8,
+   "Bhirrana": 2,
+   "Lakhanjo-daro": 2,
+   "Miri Qalat": 2
+  },
+  "P1_signs_per_doubling": 1.0617739581763173,
+  "P1_p_one_sided": 9.999000099990002e-05,
+  "slopes": {
+   "opener": 0.004248795910793033,
+   "connective": 0.01133100796767654,
+   "numeral": -0.0025657952822441357,
+   "title": 0.0076628041772801156,
+   "jar": -0.011302210175434597,
+   "other_closer": -0.022171495013540068,
+   "ticked_fish": -0.0007596381989368759,
+   "post_closer": -0.009791724155427131
+  },
+  "mde80": {
+   "opener": 0.011860130897862359,
+   "connective": 0.010373515402498116,
+   "numeral": 0.017515739680044468,
+   "title": 0.011622882187974238,
+   "jar": 0.013921330002217165,
+   "other_closer": 0.015824184106785155,
+   "ticked_fish": 0.004900758972367046,
+   "post_closer": 0.008023002486842167
+  },
+  "p_two_sided": {
+   "opener": 0.31396860313968605,
+   "connective": 0.0018998100189981002,
+   "numeral": 0.6774322567743226,
+   "title": 0.0664933506649335,
+   "jar": 0.0225977402259774,
+   "other_closer": 0.00019998000199980003,
+   "ticked_fish": 0.6681331866813318,
+   "post_closer": 0.00039996000399960006
+  },
+  "directional_p": {
+   "connective": 0.0007999200079992001,
+   "other_closer": 9.999000099990002e-05,
+   "post_closer": 0.00029997000299970003
+  },
+  "directional_holm": {
+   "connective": 0.0007999200079992001,
+   "other_closer": 0.00029997000299970003,
+   "post_closer": 0.0005999400059994001
+  },
+  "R1_signs": {
+   "connective": true,
+   "other_closer": true,
+   "post_closer": true
+  },
+  "R1_pass": true,
+  "R2_rho": 0.9761904761904763,
+  "R2_p_one_sided": 0.0005998800239952009,
+  "R2_pass": true,
+  "P1_pass": true,
+  "verdict": "replicated",
+  "order_dropped_first_to_kept": [
+   "connective",
+   "title",
+   "opener",
+   "ticked_fish",
+   "numeral",
+   "post_closer",
+   "jar",
+   "other_closer"
+  ],
+  "z_diff_vs_T4": {
+   "opener": 0.1596255570602082,
+   "connective": -0.3179471995306395,
+   "numeral": 0.19563512566565985,
+   "title": 0.1757321820956855,
+   "jar": -0.28659359894342923,
+   "other_closer": -0.11171417996782708,
+   "ticked_fish": 0.015565372230093966,
+   "post_closer": -0.13324814395197418
+  },
+  "holm_8": {
+   "opener": 0.9419058094190582,
+   "connective": 0.011398860113988602,
+   "numeral": 1.0,
+   "title": 0.265973402659734,
+   "jar": 0.11298870112988701,
+   "other_closer": 0.0015998400159984002,
+   "ticked_fish": 1.0,
+   "post_closer": 0.0027997200279972004
+  },
+  "stability": {
+   "rank_median": {
+    "opener": 3.0,
+    "connective": 1.0,
+    "numeral": 5.0,
+    "title": 2.0,
+    "jar": 7.0,
+    "other_closer": 8.0,
+    "ticked_fish": 4.0,
+    "post_closer": 6.0
+   },
+   "rank_ci95": {
+    "opener": [
+     1,
+     5
+    ],
+    "connective": [
+     1,
+     3
+    ],
+    "numeral": [
+     1,
+     7
+    ],
+    "title": [
+     1,
+     5
+    ],
+    "jar": [
+     5,
+     8
+    ],
+    "other_closer": [
+     6,
+     8
+    ],
+    "ticked_fish": [
+     3,
+     5
+    ],
+    "post_closer": [
+     5,
+     7
+    ]
+   },
+   "sign_kept": {
+    "connective": 1.0,
+    "other_closer": 1.0,
+    "post_closer": 1.0
+   },
+   "p_connective_above_both_closer_classes": 1.0,
+   "mean_rho_bootstrap_vs_point": 0.9092619047619049,
+   "stable": true
+  }
+ },
+ "summary": {
+  "verdict_frozen_rule": "replicated",
+  "n_texts": 138,
+  "n_objects": 139,
+  "P1_signs_per_doubling": 1.137687631511817,
+  "R2_rho": 0.7857142857142858,
+  "R2_p": 0.011397720455908818,
+  "slopes_new": {
+   "connective": 0.001552657750990237,
+   "other_closer": -0.027413138028316485,
+   "post_closer": -0.012906564743482115,
+   "jar": -0.02306557890065418,
+   "title": 0.01375678717187129
+  },
+  "connective_replicates_in_size": false,
+  "closer_side_replicates": true,
+  "measurer_independent": false,
+  "register_vs_icit_within_0_3mm_FEM": 0.9272151898734177,
+  "power_both_criteria": 0.449,
+  "strict_family_independent_subset": {
+   "n": 59,
+   "rho": 0.023809523809523815,
+   "verdict": "partial"
+  },
+  "combined_stable": true,
+  "combined_order": [
+   "connective",
+   "title",
+   "opener",
+   "ticked_fish",
+   "numeral",
+   "post_closer",
+   "jar",
+   "other_closer"
+  ],
+  "prereg": "docs/prereg/reg_size.md",
+  "hashes_tag": "reg_size",
+  "ledger_rows": [
+   "rs_p1",
+   "rs_r1",
+   "rs_r2",
+   "rs_v",
+   "rs_c1",
+   "rs_c2"
+  ]
+ },
+ "coverage": {
+  "t4_texts": 952,
+  "t4_objects": 1013,
+  "set_primary_FEM_EH": {
+   "audit": {
+    "rows": 1344,
+    "drop: type E": 6,
+    "kept objects": 139,
+    "drop: no M77 link": 53,
+    "drop: not square": 387,
+    "drop: text in T4 analysed set": 199,
+    "drop: object in T4 (ICIT id)": 142,
+    "drop: no dims": 278,
+    "drop: material": 23,
+    "drop: incomplete text": 74,
+    "drop: M77 text not a one-face seal": 8,
+    "drop: type I": 3,
+    "drop: type i": 4,
+    "drop: type G": 1,
+    "drop: type C": 5,
+    "drop: type j": 2,
+    "drop: type R": 1,
+    "drop: type c": 4,
+    "drop: type P": 1,
+    "drop: implausible size": 9,
+    "drop: type n": 1,
+    "drop: type h": 4,
+    "distinct texts": 138
+   },
+   "by_site": {
+    "Mohenjo-daro": 85,
+    "Harappa": 53
+   },
+   "n_obj": 139,
+   "length_mean": 5.391304347826087,
+   "area_mm2_median": 707.90181
+  },
+  "set_MIC": {
+   "audit": {
+    "rows": 376,
+    "drop: no dims": 208,
+    "drop: not square": 84,
+    "kept objects": 15,
+    "drop: text in T4 analysed set": 29,
+    "drop: implausible size": 5,
+    "drop: incomplete text": 5,
+    "drop: object in T4 (ICIT id)": 16,
+    "drop: no M77 link": 13,
+    "drop: M77 text not a one-face seal": 1,
+    "distinct texts": 15
+   },
+   "by_site": {
+    "Mohenjo-daro": 15
+   },
+   "n_obj": 15,
+   "length_mean": 5.2,
+   "area_mm2_median": 816.1274000000001
+  },
+  "set_CE": {
+   "audit": {
+    "rows": 91,
+    "drop: not square": 25,
+    "drop: no dims": 21,
+    "drop: no M77 link": 9,
+    "kept objects": 12,
+    "drop: text in T4 analysed set": 16,
+    "drop: object in T4 (ICIT id)": 4,
+    "drop: incomplete text": 4,
+    "distinct texts": 12
+   },
+   "by_site": {
+    "Chanhu-daro": 12
+   },
+   "n_obj": 12,
+   "length_mean": 5.416666666666667,
+   "area_mm2_median": 623.7406879999997
+  },
+  "set_primary_edit1": {
+   "n": 59
+  },
+  "set_primary_animal_only": {
+   "n": 130
+  },
+  "measurement_agreement": {
+   "Mackay1938_FEM": {
+    "n_objects": 158,
+    "n_in_T4": 133,
+    "side_diff_mm_median": 0.0,
+    "side_absdiff_mm_median": 0.029999999999997584,
+    "side_within_0_3mm": 0.9272151898734177,
+    "side_within_1_5mm": 0.9493670886075949,
+    "logarea_diff_sd": 0.14912042479696364,
+    "logarea_diff_mad": 0.0016101921261091334,
+    "logarea_r": 0.948862720940239,
+    "logarea_sd_between_objects": 0.46715233032896364,
+    "reliability": 0.949051989519933
+   },
+   "Vats1940_EH": {
+    "n_objects": 18,
+    "n_in_T4": 11,
+    "side_diff_mm_median": -0.020000000000003126,
+    "side_absdiff_mm_median": 0.029999999999997584,
+    "side_within_0_3mm": 0.9444444444444444,
+    "side_within_1_5mm": 1.0,
+    "logarea_diff_sd": 0.022656728771906474,
+    "logarea_diff_mad": 0.002368266352612558,
+    "logarea_r": 0.998788793129313,
+    "logarea_sd_between_objects": 0.4577602966876024,
+    "reliability": 0.9987751351501872
+   },
+   "Marshall1931_MIC": {
+    "n_objects": 21,
+    "n_in_T4": 17,
+    "side_diff_mm_median": 0.02499999999999858,
+    "side_absdiff_mm_median": 0.08619999999999806,
+    "side_within_0_3mm": 0.6428571428571429,
+    "side_within_1_5mm": 0.7380952380952381,
+    "logarea_diff_sd": 0.3834932872365642,
+    "logarea_diff_mad": 0.015217396361369318,
+    "logarea_r": 0.7688598777435254,
+    "logarea_sd_between_objects": 0.48851598248821143,
+    "reliability": 0.6918742573597446
+   }
+  },
+  "class_agreement_m77_vs_icit": {
+   "n": 221,
+   "all_classes_equal": 0.8144796380090498,
+   "per_class": {
+    "opener": 0.9502262443438914,
+    "connective": 0.9592760180995475,
+    "numeral": 0.9321266968325792,
+    "title": 0.9592760180995475,
+    "jar": 0.9638009049773756,
+    "other_closer": 0.918552036199095,
+    "ticked_fish": 0.995475113122172,
+    "post_closer": 0.9683257918552036
+   }
+  },
+  "power_if_T4_effect_true": {
+   "n_new": 138,
+   "method": "subsample n_new T4 texts vs remaining T4 texts, 1000 draws",
+   "p_signs_all_three": 0.707,
+   "p_rho_ge_0_5": 0.539,
+   "p_both": 0.449
+  }
+ }
+}

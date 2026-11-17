@@ -1,0 +1,24 @@
+id,order_flag,source_checked,published_sign_count,corpus_sign_count,agreement,direction,use_in_crib_attack,note
+UR-01,NON-INDUS ORDER,Gadd 1932 text + Plate I no.2,5,5,count agrees; signs not identifiable in halftone,not checked,yes,Gadd: 'five characters'; first sign over bull's head
+UR-02,BORDERLINE,Gadd 1932 text + Plate III no.16,4,6 (ICIT) / 5 (M77),CONFLICT in count,not checked,sensitivity only,Gadd: 'four characters ... all well known'; ICIT and M77 also disagree on the last signs
+UR-05,BORDERLINE,none (Gadd no. unconfirmed),?,3+,not checked,not checked,sensitivity only,previously merged with M77 9842 in error; that is Gadd 12
+UR-10,excluded,Gadd 1932 text no.12 + Mahadevan App. V,0 (pictorial),3 (M77),M77 reads a picture as signs,n/a,no,water-carrier 'hieroglyphic' device; M12 = water-carrier sign
+UR-03,INDUS-LIKE,Gadd 1932 text no.4,'fish' + fragment,2 (man + W405),CONFLICT,n/a,no,Laursen no.18 cites Gadd 4 but Gadd describes a fish; Mahadevan's Gadd 4 is 9834 = M75 (fish)
+UR-06,not scored,Gadd 1932 text no.4,'fish' + fragment,1 (M75),agrees,n/a,no,single sign
+UR-07,INDUS-LIKE,Gadd 1932 text + Plate III no.15,'crowded and not very distinct',5 (M77),not checkable,not checked,sensitivity only,= Laursen no.20; the duplicate row UR-08 was removed
+UNPROV-01,BORDERLINE,Gadd 1932 text + Plate III no.17,~5 (plate),5,count agrees,not checked,sensitivity only,Gadd: 'well preserved ... best Indian style'
+UNPROV-02,NON-INDUS ORDER,Gadd 1932 text + Plate III no.18,5,5 (M77) / 3 (ICIT),M77 agrees with Gadd's description; ICIT/Laursen 3-sign reading does not,not checked,yes (M77 reading),ICIT 3887 and M77 9902 are ONE object (BM 123059); was double-counted
+SUSA-02,NON-INDUS ORDER,none open,?,8,not checked,DISPUTED (M77 vs ICIT),yes but test both directions,
+BAHRAIN-01,NON-INDUS ORDER,paragorth check of Kjaerum/Al-Sindi,5,5,uncertain (paragorth),DISPUTED (drawing reversed),yes but test both directions,
+BAHRAIN-06,NON-INDUS ORDER,paragorth check of Al-Sindi photo,6,6,probable,not checked,yes,
+BAHRAIN-07,NON-INDUS ORDER,paragorth check of Laursen fig.1a,7,7,probable,not checked,yes,last block 9 or 12 strokes
+GIRSU-02,NON-INDUS ORDER,none open,?,4+,not checked,not checked,yes,
+SALUT-01,NON-INDUS ORDER,none open (harappa.com blocked),5,5,not checked,not checked,yes,local stone; Indus carving technique (Frenez et al. 2016)
+UNPROV-03,NON-INDUS ORDER,paragorth check of Buchanan 1981,6 (drawing),5+,probable; drawing has one more initial sign,not checked,yes,
+SUSA-01,BORDERLINE,paragorth check of Amiet 1972,6,5+,confirmed,not checked,sensitivity only,
+LURISTAN-01,BORDERLINE,paragorth check of Amiet 1973,4,4,confirmed,not checked,sensitivity only,
+FAILAKA-01,BORDERLINE,paragorth check of Kjaerum 1983,4,4,probable,DISPUTED (drawing reversed),sensitivity only,
+FAILAKA-02,BORDERLINE,paragorth check of Kjaerum 1983,more than corpus,3,uncertain,not checked,sensitivity only,
+BAHRAIN-04,BORDERLINE,paragorth check of Laursen fig.1b,4,4,confirmed,not checked,sensitivity only,
+KISH-01,BORDERLINE,none open,?,2+,not checked,not checked,sensitivity only,
+UNPROV-08,BORDERLINE,none open,~6 (Laursen),7 (M77),count differs by one,not checked,sensitivity only,

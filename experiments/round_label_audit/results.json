@@ -1,0 +1,9 @@
+{"task": 22, "verdict": "mixed",
+ "foreign_SEAL_R": 0, "home_SEAL_R": 388, "home_circular_cyl_distinct": 9,
+ "q4_home_round_vs_square": {"old": [0.172, 0.0107, 344], "new": [1.844, 0.0001, 9]},
+ "q4_foreign_vs_home_round": {"old": [2.086, 0.0001], "new": [0.371, 0.48]},
+ "bigram_gain": {"foreign_round": -0.246, "home_circular": 0.181, "home_sq_rect": 1.359, "old_home_round": 1.366},
+ "validate_d": {"gulf_round_old": [1.800, 0.0001], "gulf_round_new": [1.765, 0.0001], "home_round_old": [0.182, 0.011, 318], "home_round_new": [0.407, 0.18, 12]},
+ "task1_flags": {"old": 9, "new": 11, "added": ["SUSA-01", "LURISTAN-01"]},
+ "task11_survivors": {"old": [9, 1.05e-4], "new": [11, 2.2e-6]},
+ "task15_primary_p": {"old": 0.030, "new": 0.044}}

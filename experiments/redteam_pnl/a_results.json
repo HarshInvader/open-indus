@@ -1,0 +1,1638 @@
+{
+ "base": {
+  "variant": "base (numeral before head)",
+  "n_dev_tokens": 708,
+  "n_ho_tokens": 225,
+  "lexeme_heads": {
+   "tall M211": [
+    3,
+    "0.95",
+    41
+   ],
+   "tall M59": [
+    2,
+    "0.91",
+    55
+   ],
+   "tall M342": [
+    2,
+    "0.74",
+    34
+   ],
+   "tall M60": [
+    2,
+    "1.00",
+    11
+   ],
+   "short M197": [
+    7,
+    "1.00",
+    14
+   ],
+   "short M15": [
+    3,
+    "0.88",
+    8
+   ],
+   "short M194": [
+    7,
+    "1.00",
+    16
+   ],
+   "short M403": [
+    3,
+    "1.00",
+    11
+   ],
+   "short M287": [
+    3,
+    "0.87",
+    15
+   ],
+   "short M25": [
+    1,
+    "0.90",
+    10
+   ],
+   "tall M284": [
+    2,
+    "0.90",
+    10
+   ],
+   "short M190": [
+    3,
+    "1.00",
+    10
+   ]
+  },
+  "count_heads": {
+   "short M162": [
+    4,
+    "0.32",
+    31
+   ],
+   "short M169": [
+    4,
+    "0.41",
+    27
+   ],
+   "tall M249": [
+    2,
+    "0.56",
+    16
+   ],
+   "tall M328": [
+    3,
+    "0.43",
+    14
+   ]
+  },
+  "A": {
+   "n": 40,
+   "kept": 29,
+   "share": 0.725,
+   "expected_share": 0.32494047619047617,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M287 (dev mode 3)": "2/10",
+    "short M194 (dev mode 7)": "3/3",
+    "short M190 (dev mode 3)": "4/4",
+    "tall M59 (dev mode 2)": "15/16",
+    "tall M60 (dev mode 2)": "2/2",
+    "short M15 (dev mode 3)": "1/2",
+    "short M25 (dev mode 1)": "0/1",
+    "tall M342 (dev mode 2)": "1/1",
+    "tall M284 (dev mode 2)": "1/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.3458814333814334,
+  "B": {
+   "n": 25,
+   "kept": 13,
+   "share": 0.52,
+   "expected_share": 0.15304761904761904,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M162 (dev mode 4)": "3/8",
+    "short M169 (dev mode 4)": "5/10",
+    "tall M328 (dev mode 3)": "3/5",
+    "tall M249 (dev mode 2)": "2/2"
+   }
+  },
+  "A_vs_B_fisher_p": 0.0790197787326711,
+  "A_families": {
+   "shared_3gram": {
+    "n_families": 23,
+    "majority_kept": 18,
+    "weighted_kept": 18.0,
+    "largest_family_tokens": 8,
+    "family_sizes": [
+     8,
+     7,
+     3,
+     2,
+     2,
+     1,
+     1,
+     1
+    ]
+   },
+   "shared_4gram": {
+    "n_families": 36,
+    "majority_kept": 26,
+    "weighted_kept": 26.0,
+    "largest_family_tokens": 3,
+    "family_sizes": [
+     3,
+     2,
+     2,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "A_leave_one_head_out": {
+   "short M287": "27/30",
+   "short M194": "26/37",
+   "short M190": "25/36",
+   "tall M59": "14/24",
+   "tall M60": "27/38",
+   "short M15": "28/38",
+   "short M25": "29/39",
+   "tall M342": "28/39",
+   "tall M284": "28/39"
+  },
+  "B_families": {
+   "shared_3gram": {
+    "n_families": 21,
+    "majority_kept": 11,
+    "weighted_kept": 11.0,
+    "largest_family_tokens": 3,
+    "family_sizes": [
+     3,
+     3,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "shared_4gram": {
+    "n_families": 25,
+    "majority_kept": 13,
+    "weighted_kept": 13.0,
+    "largest_family_tokens": 1,
+    "family_sizes": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   }
+  },
+  "B_leave_one_head_out": {
+   "short M162": "10/17",
+   "short M169": "8/15",
+   "tall M328": "10/20",
+   "tall M249": "11/23"
+  },
+  "B_tokens": [
+   [
+    "M162",
+    "short",
+    4,
+    "M104 M162"
+   ],
+   [
+    "M162",
+    "short",
+    5,
+    "M17 M106 M162"
+   ],
+   [
+    "M162",
+    "short",
+    5,
+    "M253 M230 M99 M106 M162"
+   ],
+   [
+    "M169",
+    "short",
+    5,
+    "M249 M342 M345 M97 M106 M169"
+   ],
+   [
+    "M169",
+    "short",
+    5,
+    "M106 M169"
+   ],
+   [
+    "M169",
+    "short",
+    6,
+    "M296 M342 M98 M109 M169"
+   ],
+   [
+    "M169",
+    "short",
+    4,
+    "M40 M97 M104 M169"
+   ],
+   [
+    "M328",
+    "tall",
+    3,
+    "M17 M250 M176 | M102 M97 M149 M89 M328"
+   ],
+   [
+    "M249",
+    "tall",
+    2,
+    "M102 M288 M87 M249 M180 M323 M323 M29"
+   ],
+   [
+    "M169",
+    "short",
+    4,
+    "M194 M194 M219 M345 M97 M104 M169"
+   ],
+   [
+    "M162",
+    "short",
+    3,
+    "M175 M28 M99 M102 M162"
+   ],
+   [
+    "M162",
+    "short",
+    3,
+    "M197 M86 M99 M102 M162"
+   ],
+   [
+    "M162",
+    "short",
+    3,
+    "M319 M32 M99 M102 M162"
+   ],
+   [
+    "M169",
+    "short",
+    4,
+    "M104 M169 M98 M121 M87 M342"
+   ],
+   [
+    "M328",
+    "tall",
+    4,
+    "M45 M95 M328 M2 M176"
+   ],
+   [
+    "M328",
+    "tall",
+    3,
+    "M89 M328 M287 M319"
+   ],
+   [
+    "M169",
+    "short",
+    1,
+    "M87 M343 M97 M169"
+   ],
+   [
+    "M162",
+    "short",
+    4,
+    "M104 M162 M176"
+   ],
+   [
+    "M169",
+    "short",
+    4,
+    "M28 M277 M99 M104 M169"
+   ],
+   [
+    "M328",
+    "tall",
+    3,
+    "M267 M99 M86 M336 M12 M89 M328"
+   ],
+   [
+    "M328",
+    "tall",
+    4,
+    "M95 M328"
+   ],
+   [
+    "M249",
+    "tall",
+    2,
+    "M102 M137 M87 M249"
+   ],
+   [
+    "M169",
+    "short",
+    4,
+    "M17 M327 M128 M342 M97 M104 M169"
+   ],
+   [
+    "M169",
+    "short",
+    3,
+    "M400 M344 M102 M169"
+   ],
+   [
+    "M162",
+    "short",
+    4,
+    "M205 M104 M162"
+   ]
+  ],
+  "A_tokens": [
+   [
+    "M287",
+    "short",
+    5,
+    "M28 M162 M343 M106 M287 M342"
+   ],
+   [
+    "M287",
+    "short",
+    5,
+    "M284 M106 M287 M342"
+   ],
+   [
+    "M287",
+    "short",
+    3,
+    "M70 M389 M102 M287"
+   ],
+   [
+    "M287",
+    "short",
+    5,
+    "M106 M287 M342"
+   ],
+   [
+    "M194",
+    "short",
+    7,
+    "M112 M194 M327 M342"
+   ],
+   [
+    "M190",
+    "short",
+    3,
+    "M102 M190"
+   ],
+   [
+    "M194",
+    "short",
+    7,
+    "M70 M112 M194 M18 M211 M87 M169"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M87 M244 M81 M99 M155 M70 | M87 M59 M336 M89"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M123 M87 M59 M65 M155 M211"
+   ],
+   [
+    "M60",
+    "tall",
+    2,
+    "M131 M99 M87 M60 M98"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M267 M99 M87 M59 M65 M253 M230 M342"
+   ],
+   [
+    "M190",
+    "short",
+    3,
+    "M345 M41 M76 M102 M190"
+   ],
+   [
+    "M15",
+    "short",
+    3,
+    "M215 M102 M15"
+   ],
+   [
+    "M59",
+    "tall",
+    1,
+    "M249 M89 M233 M123 M86 M59 M395 M99 M51 M130 M28"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M87 M322 M99 M87 M59 M71"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M389 M87 M59 M67 M121 M342"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M87 M59 M155 M162"
+   ],
+   [
+    "M25",
+    "short",
+    3,
+    "M102 M25"
+   ],
+   [
+    "M190",
+    "short",
+    3,
+    "M86 M327 M99 M102 M190"
+   ],
+   [
+    "M287",
+    "short",
+    5,
+    "M106 M287 M342 M1"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M26 M100 M87 M59 M38 M342"
+   ],
+   [
+    "M60",
+    "tall",
+    2,
+    "M305 M123 M87 M60"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M391 M98 M87 M59 M72 M336 M89"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M87 M59 M71"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M191 M303 M402 M99 M87 M59 M244 M58 M342"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M84 M59 M160 M343 M387 M67 M87 M59 M155 M211"
+   ],
+   [
+    "M342",
+    "tall",
+    2,
+    "M104 M169 M98 M121 M87 M342"
+   ],
+   [
+    "M15",
+    "short",
+    4,
+    "M104 M15"
+   ],
+   [
+    "M194",
+    "short",
+    7,
+    "M59 M112 M194 M18 M211 M87 M169"
+   ],
+   [
+    "M287",
+    "short",
+    4,
+    "M87 M162 M97 M104 M287 M15"
+   ],
+   [
+    "M287",
+    "short",
+    3,
+    "M341 M309 M267 M99 M389 M72 M102 M287 M373 M287 M342 M145 M407 M169"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M267 M99 M87 M59 M192 M347 M342"
+   ],
+   [
+    "M287",
+    "short",
+    5,
+    "M199 M99 M106 M287 M342"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M379 M343 M87 M59 M72 M14"
+   ],
+   [
+    "M287",
+    "short",
+    5,
+    "M391 M99 M106 M287 M342"
+   ],
+   [
+    "M287",
+    "short",
+    5,
+    "M89 M106 M287 M342"
+   ],
+   [
+    "M284",
+    "tall",
+    2,
+    "M171 M198 M87 M284"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M267 M99 M87 M59 M67 M8"
+   ],
+   [
+    "M190",
+    "short",
+    3,
+    "M361 M169 M402 M123 M98 M102 M190"
+   ],
+   [
+    "M59",
+    "tall",
+    2,
+    "M89 M32 M86 M261 M343 M87 M59"
+   ]
+  ],
+  "B_binom_vs_expected": 2.1096834361730313e-05
+ },
+ "generic_collocation_baseline": {
+  "heads": 6,
+  "n": 39,
+  "kept": 20,
+  "share": 0.5128205128205128
+ },
+ "with_2s": {
+  "variant": "with_2s",
+  "n_dev_tokens": 1019,
+  "n_ho_tokens": 283,
+  "lexeme_heads": {
+   "short M72": [
+    2,
+    "0.80",
+    20
+   ],
+   "tall M211": [
+    3,
+    "0.95",
+    41
+   ],
+   "short M389": [
+    2,
+    "0.89",
+    18
+   ],
+   "tall M59": [
+    2,
+    "0.91",
+    55
+   ],
+   "short M48": [
+    2,
+    "0.94",
+    16
+   ],
+   "short M67": [
+    2,
+    "0.93",
+    40
+   ],
+   "short M53": [
+    2,
+    "0.82",
+    17
+   ],
+   "short M336": [
+    2,
+    "0.86",
+    14
+   ],
+   "tall M342": [
+    2,
+    "0.74",
+    34
+   ],
+   "tall M60": [
+    2,
+    "1.00",
+    11
+   ],
+   "short M65": [
+    2,
+    "0.88",
+    34
+   ],
+   "short M387": [
+    2,
+    "1.00",
+    23
+   ],
+   "short M197": [
+    7,
+    "1.00",
+    14
+   ],
+   "short M194": [
+    7,
+    "0.94",
+    17
+   ],
+   "short M403": [
+    3,
+    "0.85",
+    13
+   ],
+   "short M70": [
+    2,
+    "0.94",
+    16
+   ],
+   "tall M284": [
+    2,
+    "0.90",
+    10
+   ],
+   "short M190": [
+    3,
+    "1.00",
+    10
+   ]
+  },
+  "count_heads": {
+   "short M162": [
+    4,
+    "0.31",
+    32
+   ],
+   "short M59": [
+    3,
+    "0.35",
+    43
+   ],
+   "short M169": [
+    4,
+    "0.41",
+    27
+   ],
+   "tall M249": [
+    2,
+    "0.56",
+    16
+   ],
+   "short M342": [
+    7,
+    "0.46",
+    28
+   ],
+   "short M51": [
+    12,
+    "0.38",
+    8
+   ],
+   "tall M328": [
+    3,
+    "0.43",
+    14
+   ]
+  },
+  "A": {
+   "n": 64,
+   "kept": 51,
+   "share": 0.796875,
+   "expected_share": 0.39901134305006586,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M72 (dev mode 2)": "3/4",
+    "short M65 (dev mode 2)": "7/11",
+    "short M336 (dev mode 2)": "1/2",
+    "short M67 (dev mode 2)": "4/6",
+    "short M389 (dev mode 2)": "3/5",
+    "short M387 (dev mode 2)": "3/3",
+    "short M194 (dev mode 7)": "3/3",
+    "short M190 (dev mode 3)": "4/4",
+    "tall M59 (dev mode 2)": "15/16",
+    "tall M60 (dev mode 2)": "2/2",
+    "short M70 (dev mode 2)": "2/2",
+    "short M53 (dev mode 2)": "2/3",
+    "tall M342 (dev mode 2)": "1/1",
+    "tall M284 (dev mode 2)": "1/1",
+    "short M48 (dev mode 2)": "0/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.4554830976970808,
+  "B": {
+   "n": 43,
+   "kept": 14,
+   "share": 0.32558139534883723,
+   "expected_share": 0.11133069828722002,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M162 (dev mode 4)": "3/8",
+    "short M59 (dev mode 3)": "1/12",
+    "short M169 (dev mode 4)": "5/10",
+    "short M342 (dev mode 7)": "0/4",
+    "tall M328 (dev mode 3)": "3/5",
+    "tall M249 (dev mode 2)": "2/2",
+    "short M51 (dev mode 12)": "0/2"
+   }
+  },
+  "A_vs_B_fisher_p": 1.0979479438815701e-06
+ },
+ "strict_tall": {
+  "variant": "strict_tall",
+  "n_dev_tokens": 700,
+  "n_ho_tokens": 224,
+  "lexeme_heads": {
+   "tall M211": [
+    3,
+    "0.95",
+    41
+   ],
+   "tall M59": [
+    2,
+    "0.91",
+    55
+   ],
+   "tall M342": [
+    2,
+    "0.74",
+    34
+   ],
+   "tall M60": [
+    2,
+    "1.00",
+    11
+   ],
+   "short M197": [
+    7,
+    "1.00",
+    14
+   ],
+   "short M15": [
+    3,
+    "0.88",
+    8
+   ],
+   "short M194": [
+    7,
+    "1.00",
+    16
+   ],
+   "short M403": [
+    3,
+    "1.00",
+    11
+   ],
+   "short M287": [
+    3,
+    "0.87",
+    15
+   ],
+   "short M25": [
+    1,
+    "0.90",
+    10
+   ],
+   "tall M284": [
+    2,
+    "0.90",
+    10
+   ],
+   "short M190": [
+    3,
+    "1.00",
+    10
+   ]
+  },
+  "count_heads": {
+   "short M162": [
+    4,
+    "0.32",
+    31
+   ],
+   "short M169": [
+    4,
+    "0.41",
+    27
+   ],
+   "tall M249": [
+    2,
+    "0.56",
+    16
+   ],
+   "tall M328": [
+    3,
+    "0.43",
+    14
+   ]
+  },
+  "A": {
+   "n": 40,
+   "kept": 29,
+   "share": 0.725,
+   "expected_share": 0.327275641025641,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M287 (dev mode 3)": "2/10",
+    "short M194 (dev mode 7)": "3/3",
+    "short M190 (dev mode 3)": "4/4",
+    "tall M59 (dev mode 2)": "15/16",
+    "tall M60 (dev mode 2)": "2/2",
+    "short M15 (dev mode 3)": "1/2",
+    "short M25 (dev mode 1)": "0/1",
+    "tall M342 (dev mode 2)": "1/1",
+    "tall M284 (dev mode 2)": "1/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.3508292383292383,
+  "B": {
+   "n": 25,
+   "kept": 13,
+   "share": 0.52,
+   "expected_share": 0.15184615384615385,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M162 (dev mode 4)": "3/8",
+    "short M169 (dev mode 4)": "5/10",
+    "tall M328 (dev mode 3)": "3/5",
+    "tall M249 (dev mode 2)": "2/2"
+   }
+  },
+  "A_vs_B_fisher_p": 0.0790197787326711
+ },
+ "pure": {
+  "variant": "pure",
+  "n_dev_tokens": 697,
+  "n_ho_tokens": 223,
+  "lexeme_heads": {
+   "tall M211": [
+    3,
+    "0.95",
+    41
+   ],
+   "tall M59": [
+    2,
+    "0.91",
+    55
+   ],
+   "tall M342": [
+    2,
+    "0.74",
+    34
+   ],
+   "tall M60": [
+    2,
+    "1.00",
+    11
+   ],
+   "short M197": [
+    7,
+    "1.00",
+    14
+   ],
+   "short M15": [
+    3,
+    "0.88",
+    8
+   ],
+   "short M194": [
+    7,
+    "1.00",
+    16
+   ],
+   "short M403": [
+    3,
+    "1.00",
+    11
+   ],
+   "short M287": [
+    3,
+    "0.87",
+    15
+   ],
+   "short M25": [
+    1,
+    "0.90",
+    10
+   ],
+   "tall M284": [
+    2,
+    "0.90",
+    10
+   ],
+   "short M190": [
+    3,
+    "1.00",
+    10
+   ]
+  },
+  "count_heads": {
+   "short M162": [
+    4,
+    "0.32",
+    31
+   ],
+   "short M169": [
+    4,
+    "0.41",
+    27
+   ],
+   "tall M249": [
+    2,
+    "0.56",
+    16
+   ],
+   "short M342": [
+    7,
+    "0.42",
+    26
+   ],
+   "tall M328": [
+    3,
+    "0.43",
+    14
+   ]
+  },
+  "A": {
+   "n": 40,
+   "kept": 29,
+   "share": 0.725,
+   "expected_share": 0.32796541693600517,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M287 (dev mode 3)": "2/10",
+    "short M194 (dev mode 7)": "3/3",
+    "short M190 (dev mode 3)": "4/4",
+    "tall M59 (dev mode 2)": "15/16",
+    "tall M60 (dev mode 2)": "2/2",
+    "short M15 (dev mode 3)": "1/2",
+    "short M25 (dev mode 1)": "0/1",
+    "tall M342 (dev mode 2)": "1/1",
+    "tall M284 (dev mode 2)": "1/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.35121497644433425,
+  "B": {
+   "n": 29,
+   "kept": 13,
+   "share": 0.4482758620689655,
+   "expected_share": 0.13842141631188284,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M162 (dev mode 4)": "3/8",
+    "short M169 (dev mode 4)": "5/10",
+    "short M342 (dev mode 7)": "0/4",
+    "tall M328 (dev mode 3)": "3/5",
+    "tall M249 (dev mode 2)": "2/2"
+   }
+  },
+  "A_vs_B_fisher_p": 0.01896093481829914
+ },
+ "cluster_sum": {
+  "variant": "cluster sum",
+  "n_dev_tokens": 708,
+  "n_ho_tokens": 225,
+  "lexeme_heads": {
+   "tall M211": [
+    3,
+    "0.95",
+    41
+   ],
+   "tall M59": [
+    2,
+    "0.91",
+    55
+   ],
+   "tall M342": [
+    2,
+    "0.74",
+    34
+   ],
+   "tall M60": [
+    2,
+    "1.00",
+    11
+   ],
+   "short M197": [
+    7,
+    "1.00",
+    14
+   ],
+   "short M15": [
+    3,
+    "0.88",
+    8
+   ],
+   "short M194": [
+    7,
+    "1.00",
+    16
+   ],
+   "short M403": [
+    3,
+    "1.00",
+    11
+   ],
+   "short M287": [
+    3,
+    "0.87",
+    15
+   ],
+   "short M25": [
+    1,
+    "0.90",
+    10
+   ],
+   "short M190": [
+    3,
+    "0.90",
+    10
+   ]
+  },
+  "count_heads": {
+   "short M162": [
+    4,
+    "0.32",
+    31
+   ],
+   "short M169": [
+    4,
+    "0.37",
+    27
+   ],
+   "tall M249": [
+    2,
+    "0.56",
+    16
+   ],
+   "tall M328": [
+    3,
+    "0.43",
+    14
+   ]
+  },
+  "A": {
+   "n": 39,
+   "kept": 27,
+   "share": 0.6923076923076923,
+   "expected_share": 0.31782661782661786,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M287 (dev mode 3)": "2/10",
+    "short M194 (dev mode 7)": "3/3",
+    "short M190 (dev mode 3)": "3/4",
+    "tall M59 (dev mode 2)": "15/16",
+    "tall M60 (dev mode 2)": "2/2",
+    "short M15 (dev mode 3)": "1/2",
+    "short M25 (dev mode 1)": "0/1",
+    "tall M342 (dev mode 2)": "1/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.33642900309566975,
+  "B": {
+   "n": 25,
+   "kept": 10,
+   "share": 0.4,
+   "expected_share": 0.14104761904761903,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M162 (dev mode 4)": "3/8",
+    "short M169 (dev mode 4)": "2/10",
+    "tall M328 (dev mode 3)": "3/5",
+    "tall M249 (dev mode 2)": "2/2"
+   }
+  },
+  "A_vs_B_fisher_p": 0.02008987187275027
+ },
+ "after": {
+  "variant": "numeral AFTER sign",
+  "n_dev_tokens": 569,
+  "n_ho_tokens": 176,
+  "lexeme_heads": {
+   "tall M336": [
+    3,
+    "1.00",
+    89
+   ],
+   "tall M99": [
+    2,
+    "0.77",
+    43
+   ],
+   "short M204": [
+    7,
+    "0.91",
+    11
+   ],
+   "tall M403": [
+    2,
+    "1.00",
+    23
+   ],
+   "short M342": [
+    1,
+    "0.86",
+    14
+   ],
+   "short M391": [
+    1,
+    "0.85",
+    13
+   ]
+  },
+  "count_heads": {
+   "short M99": [
+    4,
+    "0.21",
+    61
+   ],
+   "short M343": [
+    1,
+    "0.30",
+    20
+   ],
+   "short M59": [
+    1,
+    "0.44",
+    9
+   ],
+   "tall M343": [
+    2,
+    "0.58",
+    12
+   ],
+   "tall M123": [
+    2,
+    "0.44",
+    9
+   ],
+   "short M123": [
+    3,
+    "0.47",
+    15
+   ]
+  },
+  "A": {
+   "n": 40,
+   "kept": 34,
+   "share": 0.85,
+   "expected_share": 0.3873099415204678,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M391 (dev mode 1)": "7/7",
+    "tall M403 (dev mode 2)": "4/4",
+    "tall M336 (dev mode 3)": "10/10",
+    "short M342 (dev mode 1)": "4/4",
+    "tall M99 (dev mode 2)": "8/14",
+    "short M204 (dev mode 7)": "1/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.3963570070545855,
+  "B": {
+   "n": 44,
+   "kept": 13,
+   "share": 0.29545454545454547,
+   "expected_share": 0.2550593655856814,
+   "p_perm": 0.3091727068232942,
+   "per_head": {
+    "short M343 (dev mode 1)": "2/5",
+    "tall M123 (dev mode 2)": "5/9",
+    "short M99 (dev mode 4)": "1/18",
+    "short M123 (dev mode 3)": "0/5",
+    "tall M343 (dev mode 2)": "3/4",
+    "short M59 (dev mode 1)": "2/3"
+   }
+  },
+  "A_vs_B_fisher_p": 2.2971065941460994e-07
+ },
+ "seals_only_heldout": {
+  "variant": "held-out seals only (dev classes from all dev)",
+  "n_dev_tokens": 708,
+  "n_ho_tokens": 175,
+  "lexeme_heads": {
+   "tall M211": [
+    3,
+    "0.95",
+    41
+   ],
+   "tall M59": [
+    2,
+    "0.91",
+    55
+   ],
+   "tall M342": [
+    2,
+    "0.74",
+    34
+   ],
+   "tall M60": [
+    2,
+    "1.00",
+    11
+   ],
+   "short M197": [
+    7,
+    "1.00",
+    14
+   ],
+   "short M15": [
+    3,
+    "0.88",
+    8
+   ],
+   "short M194": [
+    7,
+    "1.00",
+    16
+   ],
+   "short M403": [
+    3,
+    "1.00",
+    11
+   ],
+   "short M287": [
+    3,
+    "0.87",
+    15
+   ],
+   "short M25": [
+    1,
+    "0.90",
+    10
+   ],
+   "tall M284": [
+    2,
+    "0.90",
+    10
+   ],
+   "short M190": [
+    3,
+    "1.00",
+    10
+   ]
+  },
+  "count_heads": {
+   "short M162": [
+    4,
+    "0.32",
+    31
+   ],
+   "short M169": [
+    4,
+    "0.41",
+    27
+   ],
+   "tall M249": [
+    2,
+    "0.56",
+    16
+   ],
+   "tall M328": [
+    3,
+    "0.43",
+    14
+   ]
+  },
+  "A": {
+   "n": 33,
+   "kept": 23,
+   "share": 0.696969696969697,
+   "expected_share": 0.3531771616878,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M287 (dev mode 3)": "2/9",
+    "tall M59 (dev mode 2)": "14/15",
+    "tall M60 (dev mode 2)": "2/2",
+    "short M190 (dev mode 3)": "3/3",
+    "short M15 (dev mode 3)": "1/2",
+    "short M25 (dev mode 1)": "0/1",
+    "tall M342 (dev mode 2)": "1/1"
+   }
+  },
+  "A_expected_from_dev_pool": 0.3615768070313525,
+  "B": {
+   "n": 19,
+   "kept": 10,
+   "share": 0.5263157894736842,
+   "expected_share": 0.14109051193784303,
+   "p_perm": 0.00024993751562109475,
+   "per_head": {
+    "short M162 (dev mode 4)": "3/8",
+    "short M169 (dev mode 4)": "5/9",
+    "tall M328 (dev mode 3)": "1/1",
+    "tall M249 (dev mode 2)": "1/1"
+   }
+  },
+  "A_vs_B_fisher_p": 0.17562748793088062
+ },
+ "minimal_pairs_all_m77": {
+  "tall M211": {
+   "frames": 41,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "short M162": {
+   "frames": 29,
+   "frames_with_2plus_values": 5,
+   "examples": [
+    "_ M162 : [3, 4, 6, 7, 8]",
+    "M391 M99 _ M162 : [3, 4]",
+    "M267 M99 _ M162 : [3, 4, 5]"
+   ]
+  },
+  "tall M59": {
+   "frames": 71,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "short M169": {
+   "frames": 32,
+   "frames_with_2plus_values": 1,
+   "examples": [
+    "_ M169 : [2, 3, 4, 5, 7]"
+   ]
+  },
+  "tall M342": {
+   "frames": 35,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "tall M60": {
+   "frames": 13,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "tall M249": {
+   "frames": 18,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "short M197": {
+   "frames": 14,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "short M15": {
+   "frames": 8,
+   "frames_with_2plus_values": 1,
+   "examples": [
+    "_ M15 : [3, 4, 5]"
+   ]
+  },
+  "short M194": {
+   "frames": 19,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "short M403": {
+   "frames": 11,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "short M287": {
+   "frames": 24,
+   "frames_with_2plus_values": 1,
+   "examples": [
+    "_ M287 M342 : [3, 5]"
+   ]
+  },
+  "short M25": {
+   "frames": 11,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "tall M284": {
+   "frames": 11,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  },
+  "tall M328": {
+   "frames": 14,
+   "frames_with_2plus_values": 3,
+   "examples": [
+    "_ M328 : [1, 2, 3, 4]",
+    "M177 M197 M192 M341 _ M328 : [2, 3]",
+    "M267 M402 M149 _ M328 : [3, 4]"
+   ]
+  },
+  "short M190": {
+   "frames": 14,
+   "frames_with_2plus_values": 0,
+   "examples": []
+  }
+ },
+ "icit": {
+  "icit_all": {
+   "n_texts": 3504,
+   "n_tokens": 1166,
+   "A": {
+    "n": 308,
+    "kept": 260,
+    "share": 0.8441558441558441,
+    "expected_share": 0.3527892561983471,
+    "p_perm": 0.00024993751562109475,
+    "per_head": {
+     "short M403 (dev mode 3)": "9/10",
+     "tall M59 (dev mode 2)": "66/75",
+     "tall M342 (dev mode 2)": "45/60",
+     "tall M211 (dev mode 3)": "49/53",
+     "tall M60 (dev mode 2)": "14/14",
+     "short M287 (dev mode 3)": "15/27",
+     "short M197 (dev mode 7)": "14/15",
+     "short M25 (dev mode 1)": "8/9",
+     "short M15 (dev mode 3)": "9/14",
+     "short M194 (dev mode 7)": "19/19",
+     "tall M284 (dev mode 2)": "10/10",
+     "short M190 (dev mode 3)": "2/2"
+    }
+   },
+   "B": {
+    "n": 74,
+    "kept": 43,
+    "share": 0.581081081081081,
+    "expected_share": 0.2968366093366093,
+    "p_perm": 0.00024993751562109475,
+    "per_head": {
+     "tall M249 (dev mode 2)": "17/25",
+     "tall M328 (dev mode 3)": "15/31",
+     "short M169 (dev mode 4)": "11/18"
+    }
+   },
+   "A_families": {
+    "shared_3gram": {
+     "n_families": 76,
+     "majority_kept": 45,
+     "weighted_kept": 45.43,
+     "largest_family_tokens": 228,
+     "family_sizes": [
+      228,
+      3,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+     ]
+    },
+    "shared_4gram": {
+     "n_families": 216,
+     "majority_kept": 173,
+     "weighted_kept": 173.86,
+     "largest_family_tokens": 24,
+     "family_sizes": [
+      24,
+      7,
+      7,
+      7,
+      6,
+      4,
+      4,
+      4
+     ]
+    }
+   }
+  },
+  "icit_new_sites": {
+   "n_texts": 412,
+   "n_tokens": 130,
+   "A": {
+    "n": 20,
+    "kept": 15,
+    "share": 0.75,
+    "expected_share": 0.33214285714285713,
+    "p_perm": 0.0007498125468632841,
+    "per_head": {
+     "short M403 (dev mode 3)": "1/1",
+     "tall M211 (dev mode 3)": "4/4",
+     "tall M59 (dev mode 2)": "4/7",
+     "short M197 (dev mode 7)": "1/1",
+     "tall M342 (dev mode 2)": "3/4",
+     "tall M284 (dev mode 2)": "1/1",
+     "short M287 (dev mode 3)": "1/1",
+     "short M15 (dev mode 3)": "0/1"
+    }
+   },
+   "B": {
+    "n": 1,
+    "kept": 1,
+    "share": 1.0,
+    "expected_share": 0.36666666666666664,
+    "p_perm": 0.38090477380654836,
+    "per_head": {
+     "tall M249 (dev mode 2)": "1/1"
+    }
+   },
+   "A_families": {
+    "shared_3gram": {
+     "n_families": 19,
+     "majority_kept": 14,
+     "weighted_kept": 14.0,
+     "largest_family_tokens": 2,
+     "family_sizes": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    "shared_4gram": {
+     "n_families": 20,
+     "majority_kept": 15,
+     "weighted_kept": 15.0,
+     "largest_family_tokens": 1,
+     "family_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+     ]
+    }
+   }
+  },
+  "icit_head_value_counts": {
+   "M169 short 4": 11,
+   "M169 short 5": 3,
+   "M169 short 6": 2,
+   "M169 tall 2": 2,
+   "M190 short 3": 2,
+   "M194 short 7": 19,
+   "M194 tall 3": 2,
+   "M197 short 7": 14,
+   "M197 tall 1": 2,
+   "M211 short 1": 3,
+   "M211 tall 1": 2,
+   "M211 tall 2": 2,
+   "M211 tall 3": 49,
+   "M328 short 3": 2,
+   "M328 short 4": 3,
+   "M328 tall 1": 3,
+   "M328 tall 2": 7,
+   "M328 tall 3": 15,
+   "M328 tall 4": 6,
+   "M403 short 3": 9,
+   "M403 tall 2": 5,
+   "M59 short 1": 3,
+   "M59 short 3": 16,
+   "M59 short 4": 5,
+   "M59 short 6": 13,
+   "M59 short 12": 2,
+   "M59 tall 1": 5,
+   "M59 tall 2": 66,
+   "M59 tall 3": 3
+  }
+ }
+}

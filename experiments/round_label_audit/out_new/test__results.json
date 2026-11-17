@@ -1,0 +1,87 @@
+{
+ "home_texts": 1840,
+ "home_final_numeral_rate": 0.04891304347826087,
+ "primary_as_read": {
+  "n": 9,
+  "obs": 2,
+  "null_mean": 0.34,
+  "p": 0.04415,
+  "loo_max_p": 0.2788,
+  "numeral_final_ids": [
+   "BAHRAIN-06",
+   "BAHRAIN-07"
+  ]
+ },
+ "secondary_as_read": {
+  "n": 20,
+  "obs": 6,
+  "null_mean": 0.84,
+  "p": 5e-05,
+  "loo_max_p": 0.00155,
+  "numeral_final_ids": [
+   "BAHRAIN-06",
+   "BAHRAIN-07",
+   "UR-02",
+   "UR-05",
+   "BAHRAIN-04",
+   "UNPROV-08"
+  ]
+ },
+ "primary_reversed": {
+  "n": 9,
+  "obs": 2,
+  "null_mean": 0.34,
+  "p": 0.04395,
+  "loo_max_p": 0.2864,
+  "numeral_final_ids": [
+   "BAHRAIN-06",
+   "BAHRAIN-07"
+  ]
+ },
+ "secondary_reversed": {
+  "n": 20,
+  "obs": 6,
+  "null_mean": 0.83,
+  "p": 5e-05,
+  "loo_max_p": 0.00125,
+  "numeral_final_ids": [
+   "BAHRAIN-06",
+   "BAHRAIN-07",
+   "UR-02",
+   "UR-05",
+   "BAHRAIN-04",
+   "UNPROV-08"
+  ]
+ },
+ "descriptive_all": {
+  "n": 40,
+  "obs": 9,
+  "null_mean": 2.23,
+  "p": 0.0001,
+  "numeral_final_ids": [
+   "UR-02",
+   "UR-04",
+   "UR-05",
+   "YAHYA-01",
+   "BAHRAIN-04",
+   "BAHRAIN-06",
+   "BAHRAIN-07",
+   "UNPROV-04",
+   "UNPROV-08"
+  ]
+ },
+ "survivors_rate": [
+  2,
+  8
+ ],
+ "rest_rate": [
+  7,
+  32
+ ],
+ "primary_critical_T": 2,
+ "power_primary_r0.2": 0.551,
+ "power_primary_r0.3": 0.797,
+ "power_primary_r0.5": 0.9795,
+ "power_secondary_r0.2": 0.7945,
+ "power_secondary_r0.3": 0.9695
+}

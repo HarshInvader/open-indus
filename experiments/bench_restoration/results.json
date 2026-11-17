@@ -1,0 +1,131 @@
+{
+ "n_positions": 1403,
+ "n_test_texts": 296,
+ "leak": {
+  "test_texts_exact_copy_in_train": 20,
+  "test_texts_family_in_train": 107,
+  "n_test_texts": 296,
+  "positions_leaked": 528
+ },
+ "all": {
+  "kn3": {
+   "hit1": 39.91,
+   "hit5": 61.37,
+   "mrr": 0.4996,
+   "n": 1403
+  },
+  "transformer": {
+   "hit1": 36.99,
+   "hit5": 56.95,
+   "mrr": 0.4672,
+   "n": 1403
+  },
+  "blend": {
+   "hit1": 40.77,
+   "hit5": 62.15,
+   "mrr": 0.5082,
+   "n": 1403
+  },
+  "ours_trigram": {
+   "hit1": 41.77,
+   "hit5": 63.29,
+   "mrr": 0.5188,
+   "n": 1403
+  },
+  "unigram": {
+   "hit1": 10.48,
+   "hit5": 23.31,
+   "mrr": 0.1839,
+   "n": 1403
+  }
+ },
+ "clean": {
+  "kn3": {
+   "hit1": 29.71,
+   "hit5": 50.63,
+   "mrr": 0.3972,
+   "n": 875
+  },
+  "transformer": {
+   "hit1": 28.46,
+   "hit5": 48.23,
+   "mrr": 0.3792,
+   "n": 875
+  },
+  "blend": {
+   "hit1": 30.51,
+   "hit5": 51.89,
+   "mrr": 0.4087,
+   "n": 875
+  },
+  "ours_trigram": {
+   "hit1": 29.83,
+   "hit5": 51.43,
+   "mrr": 0.402,
+   "n": 875
+  },
+  "unigram": {
+   "hit1": 8.23,
+   "hit5": 20.57,
+   "mrr": 0.1574,
+   "n": 875
+  }
+ },
+ "leaked": {
+  "kn3": {
+   "hit1": 56.82,
+   "hit5": 79.17,
+   "mrr": 0.6692,
+   "n": 528
+  },
+  "transformer": {
+   "hit1": 51.14,
+   "hit5": 71.4,
+   "mrr": 0.613,
+   "n": 528
+  },
+  "blend": {
+   "hit1": 57.77,
+   "hit5": 79.17,
+   "mrr": 0.6731,
+   "n": 528
+  },
+  "ours_trigram": {
+   "hit1": 61.55,
+   "hit5": 82.95,
+   "mrr": 0.7123,
+   "n": 528
+  },
+  "unigram": {
+   "hit1": 14.2,
+   "hit5": 27.84,
+   "mrr": 0.2278,
+   "n": 528
+  }
+ },
+ "best_ngram_clean": "ours_trigram",
+ "transformer_minus_best_ngram_clean": {
+  "diff_hit1_pts": -1.37,
+  "ci95": [
+   -4.02,
+   1.32
+  ],
+  "p_one_sided": 0.8581
+ },
+ "blend_minus_best_ngram_clean": {
+  "diff_hit1_pts": 0.69,
+  "ci95": [
+   -0.96,
+   2.31
+  ],
+  "p_one_sided": 0.226
+ },
+ "kn3_minus_transformer_clean": {
+  "diff_hit1_pts": 1.26,
+  "ci95": [
+   -1.47,
+   4.03
+  ],
+  "p_one_sided": 0.1965
+ }
+}

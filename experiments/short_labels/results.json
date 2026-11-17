@@ -1,0 +1,405 @@
+{
+ "experiment": "short_labels",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/short_labels.md",
+ "corpora_obtained": {
+  "writing": {
+   "cun_seal_ur3": "CDLI open ATF, Ur III seal legends, 6761 distinct (6068 len<=17), signs",
+   "cun_seal_ob": "CDLI, OB/Old Assyrian seal legends, 3729 distinct (3290 usable)",
+   "cun_seal_oakk": "CDLI, Old Akkadian/ED IIIb/Lagash II seal legends, 189 distinct (168 usable, size B only)",
+   "linb_line": "DAMOS Linear B entry lines (codelib), 12623 usable",
+   "linb_label": "DAMOS Linear B W-series nodules/labels, 80 undamaged distinct: too few, descriptive only",
+   "lina_label": "lineara.xyz/GORILA Linear A nodules, roundels, sealings, vessels, 258 undamaged (244 usable, size B only)",
+   "egy_nom": "TLA v18 Earlier Egyptian (HF, CC BY-SA) verbless phrases pre-1550 BC, 3955 distinct, hieroglyphs",
+   "lat_label": "EDH stamps/owner-artist/labels/instrumentum, 4123 distinct, diplomatic words",
+   "lat_short": "EDH other Latin inscriptions, whole text, 22780 distinct",
+   "cun_tag": "CDLI tags/bullae 1395 distinct, mean 29.7 signs: too long, not used",
+   "cun_brick": "CDLI brick inscriptions, mean 45.8: not used",
+   "proto_cun": "CDLI Uruk IV/III proto-cuneiform entry lines, 21488 (unlabelled reference)"
+  },
+  "codes": {
+   "emoji": "Unicode emoji-test.txt fully-qualified sequences, 3963",
+   "chess_eco": "lichess chess-openings, 3865 named openings, SAN moves",
+   "chords": "McGill Billboard SALAMI chord annotations, 3703 phrases",
+   "metar": "aviationweather.gov METAR cache, 2373 distinct reports (binned groups)",
+   "heraldry/khipu/icd10": "reused from language_vs_code"
+  }
+ },
+ "not_obtained": [
+  "Pictish symbol stones (Strathclyde database dead; Wayback has only the search page, POST/detail pages not archived; Lee et al. 2010 and Sproat 2014 data not public)",
+  "Hawaii livestock brands (open CSV has only brand images and type, no component sequences)",
+  "Proto-Elamite tags as a separate register (only entry lines, already in codelib)",
+  "Chinese clan emblems, Maya name glyphs, Old Persian seal legends, mason's/potter's marks, Vinca signs, tamgas, kamon: no open machine-readable sequence data found",
+  "Kudurru, totem pole, barn star corpora (Sproat 2014): only example texts published"
+ ],
+ "primary": {
+  "size": "A (565 texts, held-out Indus length list)",
+  "set": "genre_real (6 L, 7 C)",
+  "classifier": "all8 logistic C=0.3 (language_vs_code)",
+  "loso_ba": 0.6904761904761905,
+  "loso_L_called_L": "4/6",
+  "loso_C_called_L": "2/7",
+  "lofo_ba": 0.6904761904761905,
+  "perm_p_loso_ba": 0.19900497512437812,
+  "indus": {
+   "indus_dev_sub": {
+    "raw_p": 0.49103322445021846,
+    "p05": 0.46889869133906903,
+    "p95": 0.511705116278351,
+    "calibrated_posterior": 0.36,
+    "n_rows": 40,
+    "percentile_among_LOSO_systems": 0.38461538461538464
+   },
+   "indus_heldout_full": {
+    "raw_p": 0.5030817527796798,
+    "p05": 0.5030817527796798,
+    "p95": 0.5030817527796798,
+    "calibrated_posterior": 0.6521739130434783,
+    "n_rows": 1,
+    "percentile_among_LOSO_systems": 0.5384615384615384
+   }
+  },
+  "loso_p": {
+   "chess_eco": 0.38719703190585303,
+   "chords": 0.4924457502471592,
+   "cun_seal_ob": 0.49865178339485705,
+   "cun_seal_ur3": 0.5232054430318607,
+   "egy_nom": 0.5171157482539355,
+   "emoji": 0.634219450352563,
+   "heraldry": 0.6357942295031231,
+   "icd10": 0.4094324025512881,
+   "khipu": 0.43670318325208274,
+   "lat_label": 0.6177650687652176,
+   "lat_short": 0.605661739907223,
+   "linb_line": 0.48955814724082075,
+   "metar": 0.41253354268291564
+  },
+  "S1_power_gate": "fail",
+  "S2_prediction_percentile_inside": "pass",
+  "S3_stability": "pass (0.503 inside dev 5-95% 0.47-0.51)"
+ },
+ "secondary_C100_genre_plus_synth_A": {
+  "loso_ba": 0.8166666666666667,
+  "loso_L_called_L": "5/6",
+  "loso_C_called_L": "2/10",
+  "lofo_ba": 0.8166666666666667,
+  "perm_p_loso_ba": null,
+  "indus": {
+   "indus_dev_sub": {
+    "raw_p": 0.08860076706563555,
+    "p05": 0.020614303629827455,
+    "p95": 0.3211572857090316,
+    "calibrated_posterior": 0.25,
+    "n_rows": 40,
+    "percentile_among_LOSO_systems": 0.25
+   },
+   "indus_heldout_full": {
+    "raw_p": 0.24985014037857411,
+    "p05": 0.24985014037857411,
+    "p95": 0.24985014037857411,
+    "calibrated_posterior": 0.25,
+    "n_rows": 1,
+    "percentile_among_LOSO_systems": 0.3125
+   }
+  },
+  "loso_p": {
+   "chess_eco": 0.00033568388966662935,
+   "chords": 0.2933794434460552,
+   "cun_seal_ob": 0.8034630696289433,
+   "cun_seal_ur3": 0.9584460726916643,
+   "egy_nom": 0.3776502332092889,
+   "emoji": 0.9806256665110087,
+   "heraldry": 0.9350662537783798,
+   "icd10": 0.001300456312048083,
+   "khipu": 0.4185794631717344,
+   "lat_label": 0.9977379552261321,
+   "lat_short": 0.9472007247962317,
+   "linb_line": 0.9065051256962168,
+   "metar": 0.00168891949242699,
+   "plates": 0.49336028680159866,
+   "sigil": 0.036110133732058645,
+   "slot": 0.12857537600036362
+  },
+  "note": "only cell of 30 with BA>=0.80; forking path; Indus code side on both dev (0.09) and held-out (0.25), but flips at size B (dev 0.27, held-out 0.64)"
+ },
+ "all_cells": {
+  "A/genre_real/all8": {
+   "loso_ba": 0.6904761904761905,
+   "indus": {
+    "indus_dev_sub": 0.491,
+    "indus_heldout_full": 0.503
+   }
+  },
+  "A/genre_real/all8_C100": {
+   "loso_ba": 0.7023809523809523,
+   "indus": {
+    "indus_dev_sub": 0.102,
+    "indus_heldout_full": 0.25
+   }
+  },
+  "A/genre_real/ldd_only": {
+   "loso_ba": 0.7023809523809523,
+   "indus": {
+    "indus_dev_sub": 0.524,
+    "indus_heldout_full": 0.527
+   }
+  },
+  "A/genre_real/menzerath_abbrev": {
+   "loso_ba": 0.4642857142857143,
+   "indus": {
+    "indus_dev_sub": 0.481,
+    "indus_heldout_full": 0.484
+   }
+  },
+  "A/genre_real/no_heaps_no_open": {
+   "loso_ba": 0.7023809523809523,
+   "indus": {
+    "indus_dev_sub": 0.499,
+    "indus_heldout_full": 0.512
+   }
+  },
+  "A/genre_plus_synth/all8": {
+   "loso_ba": 0.7333333333333334,
+   "indus": {
+    "indus_dev_sub": 0.482,
+    "indus_heldout_full": 0.497
+   }
+  },
+  "A/genre_plus_synth/all8_C100": {
+   "loso_ba": 0.8166666666666667,
+   "indus": {
+    "indus_dev_sub": 0.089,
+    "indus_heldout_full": 0.25
+   }
+  },
+  "A/genre_plus_synth/ldd_only": {
+   "loso_ba": 0.6333333333333333,
+   "indus": {
+    "indus_dev_sub": 0.515,
+    "indus_heldout_full": 0.52
+   }
+  },
+  "A/genre_plus_synth/menzerath_abbrev": {
+   "loso_ba": 0.55,
+   "indus": {
+    "indus_dev_sub": 0.48,
+    "indus_heldout_full": 0.482
+   }
+  },
+  "A/genre_plus_synth/no_heaps_no_open": {
+   "loso_ba": 0.7666666666666666,
+   "indus": {
+    "indus_dev_sub": 0.488,
+    "indus_heldout_full": 0.503
+   }
+  },
+  "A/all/all8": {
+   "loso_ba": 0.6833333333333333,
+   "indus": {
+    "indus_dev_sub": 0.478,
+    "indus_heldout_full": 0.499
+   }
+  },
+  "A/all/all8_C100": {
+   "loso_ba": 0.6388888888888888,
+   "indus": {
+    "indus_dev_sub": 0.183,
+    "indus_heldout_full": 0.358
+   }
+  },
+  "A/all/ldd_only": {
+   "loso_ba": 0.5277777777777778,
+   "indus": {
+    "indus_dev_sub": 0.511,
+    "indus_heldout_full": 0.512
+   }
+  },
+  "A/all/menzerath_abbrev": {
+   "loso_ba": 0.6111111111111112,
+   "indus": {
+    "indus_dev_sub": 0.48,
+    "indus_heldout_full": 0.485
+   }
+  },
+  "A/all/no_heaps_no_open": {
+   "loso_ba": 0.5833333333333333,
+   "indus": {
+    "indus_dev_sub": 0.483,
+    "indus_heldout_full": 0.501
+   }
+  },
+  "B/genre_real/all8": {
+   "loso_ba": 0.5892857142857143,
+   "indus": {
+    "indus_dev_sub": 0.505,
+    "indus_heldout_sub": 0.517
+   }
+  },
+  "B/genre_real/all8_C100": {
+   "loso_ba": 0.5178571428571428,
+   "indus": {
+    "indus_dev_sub": 0.305,
+    "indus_heldout_sub": 0.689
+   }
+  },
+  "B/genre_real/ldd_only": {
+   "loso_ba": 0.5982142857142857,
+   "indus": {
+    "indus_dev_sub": 0.505,
+    "indus_heldout_sub": 0.505
+   }
+  },
+  "B/genre_real/menzerath_abbrev": {
+   "loso_ba": 0.5178571428571428,
+   "indus": {
+    "indus_dev_sub": 0.508,
+    "indus_heldout_sub": 0.517
+   }
+  },
+  "B/genre_real/no_heaps_no_open": {
+   "loso_ba": 0.6607142857142857,
+   "indus": {
+    "indus_dev_sub": 0.51,
+    "indus_heldout_sub": 0.523
+   }
+  },
+  "B/genre_plus_synth/all8": {
+   "loso_ba": 0.5625,
+   "indus": {
+    "indus_dev_sub": 0.504,
+    "indus_heldout_sub": 0.516
+   }
+  },
+  "B/genre_plus_synth/all8_C100": {
+   "loso_ba": 0.675,
+   "indus": {
+    "indus_dev_sub": 0.274,
+    "indus_heldout_sub": 0.639
+   }
+  },
+  "B/genre_plus_synth/ldd_only": {
+   "loso_ba": 0.5625,
+   "indus": {
+    "indus_dev_sub": 0.505,
+    "indus_heldout_sub": 0.504
+   }
+  },
+  "B/genre_plus_synth/menzerath_abbrev": {
+   "loso_ba": 0.5125,
+   "indus": {
+    "indus_dev_sub": 0.507,
+    "indus_heldout_sub": 0.515
+   }
+  },
+  "B/genre_plus_synth/no_heaps_no_open": {
+   "loso_ba": 0.5625,
+   "indus": {
+    "indus_dev_sub": 0.506,
+    "indus_heldout_sub": 0.52
+   }
+  },
+  "B/all/all8": {
+   "loso_ba": 0.625,
+   "indus": {
+    "indus_dev_sub": 0.496,
+    "indus_heldout_sub": 0.511
+   }
+  },
+  "B/all/all8_C100": {
+   "loso_ba": 0.675,
+   "indus": {
+    "indus_dev_sub": 0.338,
+    "indus_heldout_sub": 0.57
+   }
+  },
+  "B/all/ldd_only": {
+   "loso_ba": 0.525,
+   "indus": {
+    "indus_dev_sub": 0.505,
+    "indus_heldout_sub": 0.504
+   }
+  },
+  "B/all/menzerath_abbrev": {
+   "loso_ba": 0.55,
+   "indus": {
+    "indus_dev_sub": 0.505,
+    "indus_heldout_sub": 0.509
+   }
+  },
+  "B/all/no_heaps_no_open": {
+   "loso_ba": 0.55,
+   "indus": {
+    "indus_dev_sub": 0.503,
+    "indus_heldout_sub": 0.519
+   }
+  }
+ },
+ "single_metric_auc_A_genre_real": {
+  "edge_ldd": 0.23809523809523808,
+  "skip_cmi": 0.23809523809523808,
+  "mal_surp": 0.5238095238095238,
+  "mal_seg": 0.5238095238095238,
+  "open_edge": 0.47619047619047616,
+  "heaps": 0.8095238095238095,
+  "abbrev": 0.7142857142857143,
+  "repeat": 0.6666666666666666
+ },
+ "nearest_A_genre_real": {
+  "indus_dev_sub": [
+   [
+    1.3768176800100147,
+    "chords"
+   ],
+   [
+    1.6285035558613763,
+    "egy_nom"
+   ],
+   [
+    1.8026270740187016,
+    "cun_seal_ob"
+   ],
+   [
+    1.996467700767161,
+    "cun_seal_ur3"
+   ],
+   [
+    2.0131913013239005,
+    "linb_line"
+   ],
+   [
+    2.9476367385985625,
+    "lat_label"
+   ]
+  ],
+  "indus_heldout_full": [
+   [
+    1.1456428583293603,
+    "egy_nom"
+   ],
+   [
+    1.3610459949443983,
+    "chords"
+   ],
+   [
+    2.055821405084753,
+    "cun_seal_ur3"
+   ],
+   [
+    2.074520488984912,
+    "cun_seal_ob"
+   ],
+   [
+    2.21305687447207,
+    "linb_line"
+   ],
+   [
+    2.676569285888241,
+    "lat_label"
+   ]
+  ]
+ },
+ "tests_run": {
+  "confirmatory": 4,
+  "descriptive_cells": 30
+ }
+}

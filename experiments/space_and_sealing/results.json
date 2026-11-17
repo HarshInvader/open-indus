@@ -1,0 +1,360 @@
+{
+ "prereg": "docs/prereg/space_and_sealing.md (hash 2bee6975..., tag space_and_sealing)",
+ "coverage": {
+  "steatite_square_objects": 1460,
+  "with_dims": 1277,
+  "share": 0.875,
+  "period_share": 0.608,
+  "t4_distinct_complete": 979,
+  "t4_analysed": 952,
+  "strata": 42,
+  "metric_site_texts": 115
+ },
+ "T4": {
+  "P1": {
+   "slope_signs_per_log_area": 1.5120048713531091,
+   "signs_per_doubling": 1.0480419135713104,
+   "null_sd": 0.13478018446835188,
+   "p_one_sided": 9.999000099990002e-05
+  },
+  "P2": {
+   "opener": {
+    "slope_per_doubling": 0.003259932573795215,
+    "mde80_per_doubling": 0.012657435474612117,
+    "p_two_sided": 0.46405359464053597,
+    "p_holm": 1.0,
+    "verdict": "no departure"
+   },
+   "connective": {
+    "slope_per_doubling": 0.013099816344864105,
+    "mde80_per_doubling": 0.011620374358891348,
+    "p_two_sided": 0.0022997700229977,
+    "p_holm": 0.0160983901609839,
+    "verdict": "dropped first"
+   },
+   "numeral": {
+    "slope_per_doubling": -0.004392877023105518,
+    "mde80_per_doubling": 0.01941683377584781,
+    "p_two_sided": 0.5292470752924707,
+    "p_holm": 1.0,
+    "verdict": "no departure"
+   },
+   "title": {
+    "slope_per_doubling": 0.006560461968992528,
+    "mde80_per_doubling": 0.013168231969986434,
+    "p_two_sided": 0.16108389161083891,
+    "p_holm": 0.6443355664433557,
+    "verdict": "no departure"
+   },
+   "jar": {
+    "slope_per_doubling": -0.009174331271117152,
+    "mde80_per_doubling": 0.015439843090175532,
+    "p_two_sided": 0.0928907109289071,
+    "p_holm": 0.4644535546445355,
+    "verdict": "no departure"
+   },
+   "other_closer": {
+    "slope_per_doubling": -0.021223332811398647,
+    "mde80_per_doubling": 0.0177300943508852,
+    "p_two_sided": 0.0004999500049995,
+    "p_holm": 0.003999600039996,
+    "verdict": "kept (core-like)"
+   },
+   "ticked_fish": {
+    "slope_per_doubling": -0.0007999836458772281,
+    "mde80_per_doubling": 0.005353066858366059,
+    "p_two_sided": 0.6718328167183282,
+    "p_holm": 1.0,
+    "verdict": "no departure"
+   },
+   "post_closer": {
+    "slope_per_doubling": -0.009228279811170187,
+    "mde80_per_doubling": 0.008707156132362906,
+    "p_two_sided": 0.0030996900309969004,
+    "p_holm": 0.018598140185981403,
+    "verdict": "kept (core-like)"
+   }
+  },
+  "omission_order": [
+   "connective",
+   "title",
+   "opener",
+   "ticked_fish",
+   "numeral",
+   "jar",
+   "post_closer",
+   "other_closer"
+  ],
+  "P3": {
+   "catalogue_vs_metric": {
+    "nA": 862,
+    "nB": 90,
+    "rho": 0.30952380952380953,
+    "p": 0.2493753123438281
+   },
+   "family_halves": {
+    "nA": 638,
+    "nB": 300,
+    "rho": 0.5952380952380953,
+    "p": 0.08345827086456771
+   }
+  },
+  "P3_pass": false,
+  "P4": {
+   "n_short": 283,
+   "rate": 0.508833922261484,
+   "null_mean": 0.35486925795053,
+   "null_p95": 0.37809187279151946,
+   "p_one_sided": 0.000999000999000999
+  },
+  "P4b": {
+   "opener": {
+    "ratio": 1.5142461524228732,
+    "ci95": [
+     1.1126260310743772,
+     1.9421639780691615
+    ]
+   },
+   "connective": {
+    "ratio": 1.6908128100540893,
+    "ci95": [
+     1.4456295792696092,
+     1.915862867098268
+    ]
+   },
+   "numeral": {
+    "ratio": 0.9003977251027744,
+    "ci95": [
+     0.6746378404821449,
+     1.1464930969849612
+    ]
+   },
+   "title": {
+    "ratio": 1.317985946053491,
+    "ci95": [
+     0.9475052509557118,
+     1.6945816624954069
+    ]
+   },
+   "jar": {
+    "ratio": 0.41018066383358226,
+    "ci95": [
+     0.20508723784846672,
+     0.6373034538865244
+    ]
+   },
+   "other_closer": {
+    "ratio": 0.3865360655870075,
+    "ci95": [
+     0.18890371656452407,
+     0.6137793027198044
+    ]
+   },
+   "ticked_fish": {
+    "ratio": 1.7473684210526315,
+    "ci95": [
+     1.2000000000000002,
+     3.0
+    ]
+   },
+   "post_closer": {
+    "ratio": 2.645717181956411,
+    "ci95": [
+     1.824153820870994,
+     3.2592908305215174
+    ]
+   },
+   "core": {
+    "ratio": 1.0733592722377474,
+    "ci95": [
+     0.9699897675212806,
+     1.1752669863056182
+    ]
+   }
+  },
+  "P5": {
+   "n": 279,
+   "slope_per_doubling": -0.044028814938996165,
+   "p_one_sided_negative": 0.11278872112788721,
+   "mde80": 0.1021724021115992
+  },
+  "verdict": "omission order NOT replicated (P3 fails); P2: connective dropped first, non-jar closers and post-closers kept; containment supported (P4); area beyond length not shown (P5)"
+ },
+ "T6": {
+  "primary": {
+   "jar_M342": {
+    "OR": 0.886905145295543,
+    "sealing_with": 42,
+    "sealing_n": 127,
+    "seal_with": 668,
+    "seal_n": 1426,
+    "p_enriched": 0.7298270172982702,
+    "p_holm": 1.0
+   },
+   "M211": {
+    "OR": 1.1377065424359227,
+    "sealing_with": 11,
+    "sealing_n": 127,
+    "seal_with": 138,
+    "seal_n": 1426,
+    "p_enriched": 0.43055694430556946,
+    "p_holm": 1.0
+   },
+   "M169_family": {
+    "OR": 1.0985789511072832,
+    "sealing_with": 13,
+    "sealing_n": 127,
+    "seal_with": 200,
+    "seal_n": 1426,
+    "p_enriched": 0.45255474452554745,
+    "p_holm": 1.0
+   },
+   "M12_M15_family": {
+    "OR": 0.3686446614283671,
+    "sealing_with": 4,
+    "sealing_n": 127,
+    "seal_with": 100,
+    "seal_n": 1426,
+    "p_enriched": 0.988001199880012,
+    "p_holm": 1.0
+   },
+   "M254": {
+    "OR": 0.2870737689122336,
+    "sealing_with": 1,
+    "sealing_n": 127,
+    "seal_with": 43,
+    "seal_n": 1426,
+    "p_enriched": 0.9838016198380162,
+    "p_holm": 1.0
+   },
+   "ticked_fish": {
+    "OR": 1.5297774625393137,
+    "sealing_with": 4,
+    "sealing_n": 127,
+    "seal_with": 41,
+    "seal_n": 1426,
+    "p_enriched": 0.38966103389661033,
+    "p_holm": 1.0
+   }
+  },
+  "leave_lothal_out": {
+   "jar_M342": {
+    "OR": 0.7629133443496278,
+    "p_enriched": 0.8615138486151385
+   },
+   "M211": {
+    "OR": 0.9182161679954018,
+    "p_enriched": 0.6567343265673433
+   },
+   "M169_family": {
+    "OR": 1.2541352223443163,
+    "p_enriched": 0.3364663533646635
+   },
+   "M12_M15_family": {
+    "OR": 0.3395264702127592,
+    "p_enriched": 0.9812018798120188
+   },
+   "M254": {
+    "OR": 1.1874998607770941,
+    "p_enriched": 0.5921407859214078
+   },
+   "ticked_fish": {
+    "OR": 0.0,
+    "p_enriched": 1.0
+   }
+  },
+  "supported": [],
+  "power": {
+   "jar_M342": {
+    "OR2": {
+     "all_alpha05": 0.92,
+     "all_holm": 0.7233333333333334,
+     "noLothal_alpha05": 0.7466666666666667
+    },
+    "OR3": {
+     "all_alpha05": 1.0,
+     "all_holm": 0.99,
+     "noLothal_alpha05": 0.9966666666666667
+    }
+   },
+   "M211": {
+    "OR2": {
+     "all_alpha05": 0.8466666666666667,
+     "all_holm": 0.5733333333333334,
+     "noLothal_alpha05": 0.74
+    },
+    "OR3": {
+     "all_alpha05": 0.9966666666666667,
+     "all_holm": 0.9666666666666667,
+     "noLothal_alpha05": 0.9866666666666667
+    }
+   },
+   "M169_family": {
+    "OR2": {
+     "all_alpha05": 0.8433333333333334,
+     "all_holm": 0.59,
+     "noLothal_alpha05": 0.7
+    },
+    "OR3": {
+     "all_alpha05": 1.0,
+     "all_holm": 0.9666666666666667,
+     "noLothal_alpha05": 0.9766666666666667
+    }
+   },
+   "ticked_fish": {
+    "OR2": {
+     "all_alpha05": 0.6933333333333334,
+     "all_holm": 0.4,
+     "noLothal_alpha05": 0.5133333333333333
+    },
+    "OR3": {
+     "all_alpha05": 0.9533333333333334,
+     "all_holm": 0.7833333333333333,
+     "noLothal_alpha05": 0.8
+    }
+   }
+  },
+  "secondary": {
+   "opener": {
+    "OR": 1.5499058664096517,
+    "p_two_sided": 0.11958804119588042,
+    "p_holm": 0.47835216478352166
+   },
+   "connective": {
+    "OR": 1.8151764863257656,
+    "p_two_sided": 0.013398660133986601,
+    "p_holm": 0.066993300669933
+   },
+   "title": {
+    "OR": 1.2410781673004208,
+    "p_two_sided": 0.44635536446355367,
+    "p_holm": 1.0
+   },
+   "post_closer": {
+    "OR": 0.8833987217375685,
+    "p_two_sided": 0.9265073492650735,
+    "p_holm": 1.0
+   },
+   "numeral": {
+    "OR": 0.9516733717205761,
+    "p_two_sided": 0.8969103089691031,
+    "p_holm": 1.0
+   }
+  },
+  "die_matches": {
+   "complete_sealings": 40,
+   "exact_matches": 3,
+   "fragments_3plus": 56,
+   "fragment_matches": 2,
+   "match_rate": 0.052083333333333336,
+   "seal_seal_recurrence_weighted": 0.04942077984098454,
+   "survival_fraction_hat": 0.0028009801138966614,
+   "survival_ci95": [
+    -0.04103194383714086,
+    0.057592135052693554
+   ],
+   "complete_sealings_matching_seal_at_other_site_only": 7
+  },
+  "verdict": "no closer class enriched on sealings (not supported at power 0.70-0.92 for OR 2); die-survival f~0 (CI -0.04 to 0.06)"
+ }
+}

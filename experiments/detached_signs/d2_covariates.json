@@ -1,0 +1,631 @@
+{
+ "class_M": [
+  "M242",
+  "M374",
+  "M93",
+  "M326",
+  "M393"
+ ],
+ "class_W": [
+  "W621",
+  "W790",
+  "W384"
+ ],
+ "confirmatory": {
+  "H1_m77": {
+   "O": 0.0,
+   "E": 0.09,
+   "z": -0.31,
+   "n_units": 571,
+   "n_carriers": 16,
+   "class_token_counts": {
+    "M242": 4,
+    "M374": 2,
+    "M93": 2,
+    "M326": 6,
+    "M393": 3
+   },
+   "p_ctrl": 0.447776111944028,
+   "null_mean": -0.03344821077456922,
+   "null_p95": 2.703979075320468,
+   "power": 0.09333333333333334,
+   "holm": 1.0
+  },
+  "H1_icit": {
+   "O": 0.0,
+   "E": 0.0,
+   "z": 0.0,
+   "n_units": 1497,
+   "n_carriers": 29,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15,
+    "W384": 9
+   },
+   "p_ctrl": 0.9030484757621189,
+   "null_mean": 0.0355381245372175,
+   "null_p95": 0.0,
+   "power": 0.7366666666666667,
+   "holm": 1.0
+  },
+  "H2_m77": {
+   "G": 4.98,
+   "O": {
+    "seal": 14,
+    "sealing": 1,
+    "bronze implement": 1
+   },
+   "E": {
+    "seal": 14.14,
+    "sealing": 0.75,
+    "copper tablet": 0.26,
+    "pottery graffito": 0.21,
+    "bronze implement": 0.17,
+    "miscellaneous": 0.08,
+    "ivory/bone rod": 0.13,
+    "miniature tablet": 0.26
+   },
+   "n_units": 571,
+   "n_carriers": 16,
+   "class_token_counts": {
+    "M242": 4,
+    "M374": 2,
+    "M93": 2,
+    "M326": 6,
+    "M393": 3
+   },
+   "p_ctrl": 0.440279860069965,
+   "null_mean": 7.485069080500569,
+   "null_p95": 24.808815550324805,
+   "power": 0.03,
+   "holm": 1.0
+  },
+  "H2_icit": {
+   "G": 6.35,
+   "O": {
+    "SEAL": 20,
+    "TAB:I": 1,
+    "TAB:B": 4,
+    "POT": 3,
+    "OTHER": 1
+   },
+   "E": {
+    "SEAL": 16.15,
+    "TAG": 1.15,
+    "TAB:I": 2.53,
+    "TAB:B": 4.75,
+    "OTHER": 0.24,
+    "POT": 3.32,
+    "ROD": 0.28,
+    "IMPL": 0.13,
+    "TAB:C": 0.43
+   },
+   "n_units": 1497,
+   "n_carriers": 29,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15,
+    "W384": 9
+   },
+   "p_ctrl": 0.6011994002998501,
+   "null_mean": 11.669125219117134,
+   "null_p95": 36.51221247335265,
+   "power": 0.013333333333333334,
+   "holm": 1.0
+  },
+  "H3_icit": {
+   "G": 1.09,
+   "O": {
+    "steatite": 13,
+    "clay": 5,
+    "faience": 3,
+    "copper": 1
+   },
+   "E": {
+    "steatite": 12.26,
+    "clay": 5.39,
+    "other": 0.26,
+    "faience": 3.28,
+    "ivory/bone": 0.29,
+    "copper": 0.52
+   },
+   "n_units": 1497,
+   "n_carriers": 29,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15,
+    "W384": 9
+   },
+   "p_ctrl": 0.9435282358820589,
+   "null_mean": 5.30647536799278,
+   "null_p95": 14.186160473284444,
+   "power": 0.07666666666666666,
+   "holm": 1.0
+  },
+  "H4_icit": {
+   "mean_resid_logarea": 0.018,
+   "n_carriers_with_size": 7,
+   "n_units": 1497,
+   "n_carriers": 29,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15,
+    "W384": 9
+   },
+   "p_ctrl": 0.456271864067966,
+   "null_mean": -0.004856141285542616,
+   "null_p95": 0.2662663860869611,
+   "power": 0.3233333333333333,
+   "holm": 1.0
+  }
+ },
+ "secondary_core": {
+  "H1_m77": {
+   "O": 0.0,
+   "E": 0.02,
+   "z": -0.16,
+   "n_units": 571,
+   "n_carriers": 9,
+   "class_token_counts": {
+    "M242": 4,
+    "M374": 2,
+    "M393": 3
+   },
+   "p_ctrl": 0.40879560219890054,
+   "null_mean": -0.10435826099824816,
+   "null_p95": 0.0
+  },
+  "H1_icit": {
+   "O": 0.0,
+   "E": 0.0,
+   "z": 0.0,
+   "n_units": 1497,
+   "n_carriers": 20,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15
+   },
+   "p_ctrl": 0.9370314842578711,
+   "null_mean": -0.01660996914422854,
+   "null_p95": 0.0
+  },
+  "H2_m77": {
+   "G": 7.28,
+   "O": {
+    "seal": 8,
+    "bronze implement": 1
+   },
+   "E": {
+    "seal": 7.72,
+    "sealing": 0.5,
+    "copper tablet": 0.13,
+    "pottery graffito": 0.15,
+    "bronze implement": 0.13,
+    "miscellaneous": 0.03,
+    "ivory/bone rod": 0.08,
+    "miniature tablet": 0.26
+   },
+   "n_units": 571,
+   "n_carriers": 9,
+   "class_token_counts": {
+    "M242": 4,
+    "M374": 2,
+    "M393": 3
+   },
+   "p_ctrl": 0.22638680659670166,
+   "null_mean": 5.581164750484779,
+   "null_p95": 24.242624951866148
+  },
+  "H2_icit": {
+   "G": 3.51,
+   "O": {
+    "SEAL": 14,
+    "TAB:I": 1,
+    "TAB:B": 2,
+    "POT": 3
+   },
+   "E": {
+    "SEAL": 10.83,
+    "TAG": 1.08,
+    "TAB:I": 1.74,
+    "TAB:B": 2.97,
+    "OTHER": 0.19,
+    "POT": 2.58,
+    "ROD": 0.23,
+    "IMPL": 0.09,
+    "TAB:C": 0.29
+   },
+   "n_units": 1497,
+   "n_carriers": 20,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15
+   },
+   "p_ctrl": 0.8535732133933034,
+   "null_mean": 12.521139573805081,
+   "null_p95": 34.33664874738527
+  },
+  "H3_icit": {
+   "G": 2.18,
+   "O": {
+    "steatite": 9,
+    "clay": 5,
+    "faience": 1,
+    "copper": 1
+   },
+   "E": {
+    "steatite": 9.08,
+    "clay": 4.04,
+    "other": 0.23,
+    "faience": 2.02,
+    "ivory/bone": 0.25,
+    "copper": 0.39
+   },
+   "n_units": 1497,
+   "n_carriers": 20,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15
+   },
+   "p_ctrl": 0.7456271864067966,
+   "null_mean": 5.585433842995462,
+   "null_p95": 15.823269876432343
+  },
+  "H4_icit": {
+   "mean_resid_logarea": -0.021,
+   "n_carriers_with_size": 5,
+   "n_units": 1497,
+   "n_carriers": 20,
+   "class_token_counts": {
+    "W621": 5,
+    "W790": 15
+   },
+   "p_ctrl": 0.5622188905547226,
+   "null_mean": -0.005966356602559847,
+   "null_p95": 0.378884998351423
+  }
+ },
+ "exploratory": {
+  "m77_dev_all": {
+   "icon_scene": {
+    "O": 7.0,
+    "E": 3.66,
+    "z": 2.37,
+    "n_units": 1698,
+    "n_carriers": 56,
+    "class_token_counts": {
+     "M242": 22,
+     "M374": 5,
+     "M93": 8,
+     "M326": 17,
+     "M393": 4
+    },
+    "p_ctrl": 0.05547226386806597,
+    "null_mean": 0.08068372037822687,
+    "null_p95": 2.396812094687574
+   },
+   "otype": {
+    "G": 2.1,
+    "O": {
+     "seal": 45,
+     "sealing": 6,
+     "copper tablet": 1,
+     "miniature tablet": 2,
+     "bronze implement": 1,
+     "pottery graffito": 1
+    },
+    "E": {
+     "seal": 45.62,
+     "sealing": 6.03,
+     "copper tablet": 1.07,
+     "ivory/bone rod": 0.24,
+     "miscellaneous": 0.39,
+     "pottery graffito": 1.1,
+     "bronze implement": 0.58,
+     "miniature tablet": 0.96
+    },
+    "n_units": 1698,
+    "n_carriers": 56,
+    "class_token_counts": {
+     "M242": 22,
+     "M374": 5,
+     "M93": 8,
+     "M326": 17,
+     "M393": 4
+    },
+    "p_ctrl": 0.9830084957521239,
+    "null_mean": 11.006410303568652,
+    "null_p95": 31.75423722533816
+   }
+  },
+  "m77_heldout_withoverlap": {
+   "icon_scene": {
+    "O": 0.0,
+    "E": 0.09,
+    "z": -0.31,
+    "n_units": 571,
+    "n_carriers": 16,
+    "class_token_counts": {
+     "M242": 4,
+     "M374": 2,
+     "M93": 2,
+     "M326": 6,
+     "M393": 3
+    },
+    "p_ctrl": 0.45527236381809094,
+    "null_mean": -0.03799731072651003,
+    "null_p95": 2.400966045307522
+   },
+   "otype": {
+    "G": 4.98,
+    "O": {
+     "seal": 14,
+     "sealing": 1,
+     "bronze implement": 1
+    },
+    "E": {
+     "seal": 14.14,
+     "sealing": 0.75,
+     "copper tablet": 0.26,
+     "pottery graffito": 0.21,
+     "bronze implement": 0.17,
+     "miscellaneous": 0.08,
+     "ivory/bone rod": 0.13,
+     "miniature tablet": 0.26
+    },
+    "n_units": 571,
+    "n_carriers": 16,
+    "class_token_counts": {
+     "M242": 4,
+     "M374": 2,
+     "M93": 2,
+     "M326": 6,
+     "M393": 3
+    },
+    "p_ctrl": 0.4337831084457771,
+    "null_mean": 7.42554357539751,
+    "null_p95": 25.023247375135423
+   }
+  },
+  "m77_all": {
+   "icon_scene": {
+    "O": 7.0,
+    "E": 4.05,
+    "z": 2.01,
+    "n_units": 2269,
+    "n_carriers": 72,
+    "class_token_counts": {
+     "M242": 26,
+     "M374": 7,
+     "M93": 10,
+     "M326": 23,
+     "M393": 7
+    },
+    "p_ctrl": 0.06346826586706647,
+    "null_mean": 0.1298440318256297,
+    "null_p95": 2.1042803283395415
+   },
+   "otype": {
+    "G": 3.69,
+    "O": {
+     "seal": 59,
+     "sealing": 7,
+     "copper tablet": 1,
+     "bronze implement": 2,
+     "miniature tablet": 2,
+     "pottery graffito": 1
+    },
+    "E": {
+     "seal": 59.74,
+     "miscellaneous": 0.48,
+     "ivory/bone rod": 0.4,
+     "sealing": 6.76,
+     "copper tablet": 1.29,
+     "pottery graffito": 1.33,
+     "bronze implement": 0.73,
+     "miniature tablet": 1.27
+    },
+    "n_units": 2269,
+    "n_carriers": 72,
+    "class_token_counts": {
+     "M242": 26,
+     "M374": 7,
+     "M93": 10,
+     "M326": 23,
+     "M393": 7
+    },
+    "p_ctrl": 0.9355322338830585,
+    "null_mean": 13.970330090081028,
+    "null_p95": 40.55565510052285
+   }
+  },
+  "icit_all_distinct_withoverlap": {
+   "icon_scene": {
+    "O": 1.0,
+    "E": 0.4,
+    "z": 1.02,
+    "n_units": 3499,
+    "n_carriers": 90,
+    "class_token_counts": {
+     "W621": 22,
+     "W790": 43,
+     "W384": 25
+    },
+    "p_ctrl": 0.06296851574212893,
+    "null_mean": -0.27525202380120906,
+    "null_p95": 1.5369534521703185
+   },
+   "otype": {
+    "G": 34.41,
+    "O": {
+     "SEAL": 57,
+     "POT": 7,
+     "BNGL": 5,
+     "TAB:B": 11,
+     "TAB:I": 2,
+     "TAB:C": 6,
+     "OTHER": 2
+    },
+    "E": {
+     "SEAL": 59.17,
+     "POT": 7.65,
+     "TAG": 2.28,
+     "TAB:I": 5.57,
+     "TAB:B": 9.99,
+     "BNGL": 0.91,
+     "ROD": 0.7,
+     "OTHER": 0.6,
+     "IMPL": 0.89,
+     "TAB:C": 2.25
+    },
+    "n_units": 3499,
+    "n_carriers": 90,
+    "class_token_counts": {
+     "W621": 22,
+     "W790": 43,
+     "W384": 25
+    },
+    "p_ctrl": 0.07196401799100449,
+    "null_mean": 16.485942184702044,
+    "null_p95": 37.74828651421499
+   },
+   "material": {
+    "G": 17.19,
+    "O": {
+     "steatite": 50,
+     "clay": 12,
+     "copper": 9,
+     "faience": 4,
+     "stoneware": 3
+    },
+    "E": {
+     "steatite": 54.47,
+     "clay": 11.96,
+     "faience": 6.12,
+     "ivory/bone": 0.67,
+     "copper": 3.36,
+     "other": 0.56,
+     "stoneware": 0.85
+    },
+    "n_units": 3499,
+    "n_carriers": 90,
+    "class_token_counts": {
+     "W621": 22,
+     "W790": 43,
+     "W384": 25
+    },
+    "p_ctrl": 0.1344327836081959,
+    "null_mean": 9.842978863048058,
+    "null_p95": 25.83899164033013
+   },
+   "size": {
+    "mean_resid_logarea": -0.025,
+    "n_carriers_with_size": 39,
+    "n_units": 3499,
+    "n_carriers": 90,
+    "class_token_counts": {
+     "W621": 22,
+     "W790": 43,
+     "W384": 25
+    },
+    "p_ctrl": 0.6381809095452274,
+    "null_mean": 0.017390158777447227,
+    "null_p95": 0.20474355221661852
+   }
+  },
+  "icit_only_withoverlap": {
+   "icon_scene": {
+    "O": 1.0,
+    "E": 0.15,
+    "z": 2.28,
+    "n_units": 1626,
+    "n_carriers": 39,
+    "class_token_counts": {
+     "W621": 7,
+     "W790": 20,
+     "W384": 12
+    },
+    "p_ctrl": 0.022988505747126436,
+    "null_mean": -0.10316448624777698,
+    "null_p95": 1.735856736034475
+   },
+   "otype": {
+    "G": 14.87,
+    "O": {
+     "SEAL": 23,
+     "TAB:I": 1,
+     "TAB:B": 4,
+     "TAB:C": 4,
+     "BNGL": 3,
+     "POT": 3,
+     "OTHER": 1
+    },
+    "E": {
+     "SEAL": 22.25,
+     "TAG": 1.17,
+     "TAB:I": 2.48,
+     "TAB:B": 6.15,
+     "OTHER": 0.28,
+     "POT": 3.63,
+     "ROD": 0.51,
+     "BNGL": 0.88,
+     "TAB:C": 1.49,
+     "IMPL": 0.18
+    },
+    "n_units": 1626,
+    "n_carriers": 39,
+    "class_token_counts": {
+     "W621": 7,
+     "W790": 20,
+     "W384": 12
+    },
+    "p_ctrl": 0.22588705647176413,
+    "null_mean": 11.43556614264231,
+    "null_p95": 26.93355226402089
+   },
+   "material": {
+    "G": 13.09,
+    "O": {
+     "steatite": 16,
+     "clay": 5,
+     "faience": 3,
+     "copper": 5,
+     "stoneware": 3
+    },
+    "E": {
+     "steatite": 18.09,
+     "clay": 6.5,
+     "other": 0.46,
+     "faience": 3.79,
+     "ivory/bone": 0.56,
+     "stoneware": 0.92,
+     "copper": 1.67
+    },
+    "n_units": 1626,
+    "n_carriers": 39,
+    "class_token_counts": {
+     "W621": 7,
+     "W790": 20,
+     "W384": 12
+    },
+    "p_ctrl": 0.11344327836081959,
+    "null_mean": 6.954935769104811,
+    "null_p95": 18.321206323687523
+   },
+   "size": {
+    "mean_resid_logarea": 0.1,
+    "n_carriers_with_size": 10,
+    "n_units": 1626,
+    "n_carriers": 39,
+    "class_token_counts": {
+     "W621": 7,
+     "W790": 20,
+     "W384": 12
+    },
+    "p_ctrl": 0.2463768115942029,
+    "null_mean": 0.003214741486646585,
+    "null_p95": 0.2241364786568904
+   }
+  }
+ }
+}

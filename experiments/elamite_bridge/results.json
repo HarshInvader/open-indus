@@ -1,0 +1,52 @@
+{
+ "agent": "elamite_bridge",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/elamite_bridge.md",
+ "calibration": {
+  "linear_b_auc": 0.9065527065527065,
+  "egyptian_auc": 0.671521201206937,
+  "power_k12": 0.725
+ },
+ "tests": [
+  {
+   "id": "eb_H1",
+   "claim": "complex Indus look-alikes of Linear Elamite signs have syllable-like neighbour diversity",
+   "n_signs": 10,
+   "effect": 0.12842826528898446,
+   "auc": 0.6698113207547169,
+   "p": 0.04939753012349383,
+   "p_holm": 0.09879506024698766,
+   "confirmatory": true,
+   "verdict": "not supported"
+  },
+  {
+   "id": "eb_H2",
+   "claim": "all look-alikes (descriptive)",
+   "p": 0.03454827258637068,
+   "auc": 0.6601382488479263,
+   "confirmatory": false
+  },
+  {
+   "id": "eb_H3",
+   "claim": "M77 replication of H1",
+   "p": 0.14369281535923203,
+   "auc": 0.605543710021322,
+   "confirmatory": false,
+   "verdict": "same direction, n.s."
+  },
+  {
+   "id": "eb_H4",
+   "claim": "Desset values on Fuls look-alikes reproduce LE syllable pairs",
+   "observed": 1,
+   "null_mean": 3.40135,
+   "null_sd": 2.5193388373738057,
+   "p": 0.896355182240888,
+   "p_holm": 0.896355182240888,
+   "confirmatory": true,
+   "verdict": "not supported"
+  }
+ ],
+ "bilingual_objects_found": 0,
+ "objects_catalogued": 34,
+ "elamite_mentions_of_meluhha": 0
+}

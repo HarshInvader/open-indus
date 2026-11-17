@@ -1,0 +1,64 @@
+{
+ "task": 2,
+ "rows": 7776,
+ "rows_with_syllables": 7066,
+ "sources": {
+  "epsd2_names": 1222,
+  "oldbab": 4208,
+  "rimanum": 533,
+  "ur3_seals": 1330,
+  "cdli_gulf_cotext": 473
+ },
+ "by_language": {
+  "Akkadian": {
+   "n_distinct": 1922,
+   "mean_len": 3.749,
+   "frac_any_repeated_syllable": 0.0848,
+   "frac_any_repeat_perm_null": 0.1011,
+   "frac_initial_doubling": 0.0151,
+   "n_syllable_types": 415
+  },
+  "Amorite": {
+   "n_distinct": 95,
+   "mean_len": 3.474,
+   "frac_any_repeated_syllable": 0.0421,
+   "frac_any_repeat_perm_null": 0.1227,
+   "frac_initial_doubling": 0.0105,
+   "n_syllable_types": 110
+  },
+  "GULF_LINKED(all languages)": {
+   "n_distinct": 275,
+   "mean_len": 3.451,
+   "frac_any_repeated_syllable": 0.12,
+   "frac_any_repeat_perm_null": 0.0838,
+   "frac_initial_doubling": 0.0327,
+   "n_syllable_types": 169
+  },
+  "Meluhhan?": {
+   "n_distinct": 2,
+   "mean_len": 2.5,
+   "frac_any_repeated_syllable": 0.5,
+   "frac_any_repeat_perm_null": 0.42,
+   "frac_initial_doubling": 0.5,
+   "n_syllable_types": 3
+  },
+  "Sumerian": {
+   "n_distinct": 1299,
+   "mean_len": 3.867,
+   "frac_any_repeated_syllable": 0.0962,
+   "frac_any_repeat_perm_null": 0.1391,
+   "frac_initial_doubling": 0.0208,
+   "n_syllable_types": 288
+  },
+  "unknown": {
+   "n_distinct": 2192,
+   "mean_len": 3.628,
+   "frac_any_repeated_syllable": 0.1259,
+   "frac_any_repeat_perm_null": 0.078,
+   "frac_initial_doubling": 0.0214,
+   "n_syllable_types": 442
+  }
+ },
+ "gulf_core_persons": 21,
+ "secure_non_mesopotamian_names": 2
+}

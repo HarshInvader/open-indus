@@ -1,0 +1,1632 @@
+{
+ "strata": {
+  "M77_pooled": {
+   "n": 568,
+   "counts": {
+    "1": 157,
+    "3": 139,
+    "4": 65,
+    "5": 39,
+    "6": 35,
+    "7": 69,
+    "8": 7,
+    "9": 4,
+    "10": 1,
+    "12": 52
+   },
+   "order": [
+    "E",
+    "D",
+    "H",
+    "I",
+    "A",
+    "G",
+    "C",
+    "F",
+    "B"
+   ],
+   "top": "E",
+   "log10_bf_top_vs_second": 0.5625597350263865,
+   "log10_ml": {
+    "E": -485.09351596991826,
+    "D": -485.65607570494467,
+    "H": -491.8186153913236,
+    "I": -515.1596404743236,
+    "A": -518.5142762958067,
+    "G": -520.614435572789,
+    "C": -524.5233939248938,
+    "F": -539.7520814716129,
+    "B": -567.9999999999999
+   },
+   "best_components": [
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -484.61639471519857
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -485.35506552304935
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "ceiling",
+     "log10_ml": -489.6958728397356
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -525.1834582746746,
+    "A5_linear_b|ceiling": -518.0137618848925,
+    "F_age_latin|exact": -539.4510514759489,
+    "F_age_latin|ceiling": -878.7311135971435,
+    "I_legion_latin|exact": -515.1596404743236,
+    "E3_latin_numeral_names|exact": -710.2735596018961,
+    "E1_sanskrit_names|exact": -484.61639471519857,
+    "E2_chinese_given_names|exact": -501.45493343908146,
+    "G_rigveda|exact": -520.614435572789,
+    "A4_proto_cuneiform|exact": -573.186194562022,
+    "A4_proto_cuneiform|ceiling": -591.1363642393602,
+    "A6_tags_labels|exact": -517.5723996140454,
+    "A6_tags_labels|ceiling": -519.5766546778106,
+    "A3_proto_elamite|exact": -556.1039140178231,
+    "A3_proto_elamite|ceiling": -565.5672013020986,
+    "C_day_cdli|exact": -524.2223639292297,
+    "C_day_cdli|ceiling": -669.5691250572872,
+    "A2_old_akkadian_admin|exact": -551.683196304462,
+    "A2_old_akkadian_admin|ceiling": -588.4049799990916,
+    "A1_ur3_admin_short|exact": -546.7464730240968,
+    "A1_ur3_admin_short|ceiling": -562.6658469092066,
+    "D_regnal_cdli|exact": -485.35506552304935,
+    "D_regnal_cdli|ceiling": -489.6958728397356,
+    "B_month|exact": -567.9999999999999,
+    "H1_benford|exact": -508.35302223139075,
+    "H2_zipf|exact": -511.0614201398358,
+    "H2_zipf|ceiling": -551.8366556251451,
+    "H3_geometric|exact": -509.65963776680957,
+    "H3_geometric|ceiling": -491.1196453869876
+   }
+  },
+  "site:Mohenjodaro": {
+   "n": 323,
+   "counts": {
+    "1": 108,
+    "3": 69,
+    "4": 38,
+    "5": 21,
+    "6": 22,
+    "7": 36,
+    "8": 3,
+    "9": 0,
+    "10": 0,
+    "12": 26
+   },
+   "order": [
+    "H",
+    "D",
+    "E",
+    "A",
+    "I",
+    "C",
+    "G",
+    "F",
+    "B"
+   ],
+   "top": "H",
+   "log10_bf_top_vs_second": 4.275099642530557,
+   "log10_ml": {
+    "H": -270.44675121957084,
+    "D": -274.7218508621014,
+    "E": -275.1186290761091,
+    "A": -283.38595843185635,
+    "I": -285.1498197261991,
+    "C": -293.21701682071125,
+    "G": -299.77643137070714,
+    "F": -312.1135057042146,
+    "B": -322.99999999999994
+   },
+   "best_components": [
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -269.747781220658
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -274.420829322875
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -274.64150785131756
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -284.12024029602503,
+    "A5_linear_b|ceiling": -282.3280093308795,
+    "F_age_latin|exact": -311.81247570855066,
+    "F_age_latin|ceiling": -520.4985046646643,
+    "I_legion_latin|exact": -285.1498197261991,
+    "E3_latin_numeral_names|exact": -404.62380429204734,
+    "E1_sanskrit_names|exact": -274.64150785131756,
+    "E2_chinese_given_names|exact": -281.8032119977554,
+    "G_rigveda|exact": -299.77643137070714,
+    "A4_proto_cuneiform|exact": -307.698784529325,
+    "A4_proto_cuneiform|ceiling": -322.6838844626432,
+    "A6_tags_labels|exact": -283.7970578952626,
+    "A6_tags_labels|ceiling": -287.3340258558824,
+    "A3_proto_elamite|exact": -300.9630853743024,
+    "A3_proto_elamite|ceiling": -310.18863376373406,
+    "C_day_cdli|exact": -292.91598682504724,
+    "C_day_cdli|ceiling": -380.81505573634354,
+    "A2_old_akkadian_admin|exact": -299.8402491635684,
+    "A2_old_akkadian_admin|ceiling": -325.7375278851216,
+    "A1_ur3_admin_short|exact": -293.76497981618735,
+    "A1_ur3_admin_short|ceiling": -307.23563981611744,
+    "D_regnal_cdli|exact": -274.420829322875,
+    "D_regnal_cdli|ceiling": -279.13142195957505,
+    "B_month|exact": -322.99999999999994,
+    "H1_benford|exact": -277.6725480621032,
+    "H2_zipf|exact": -279.1203358849516,
+    "H2_zipf|ceiling": -297.3868254725206,
+    "H3_geometric|exact": -279.51254214909494,
+    "H3_geometric|ceiling": -269.747781220658
+   }
+  },
+  "site:Harappa": {
+   "n": 149,
+   "counts": {
+    "1": 22,
+    "3": 49,
+    "4": 17,
+    "5": 9,
+    "6": 9,
+    "7": 24,
+    "8": 4,
+    "9": 4,
+    "10": 1,
+    "12": 10
+   },
+   "order": [
+    "E",
+    "D",
+    "H",
+    "G",
+    "I",
+    "C",
+    "F",
+    "B",
+    "A"
+   ],
+   "top": "E",
+   "log10_bf_top_vs_second": 1.8400337158006708,
+   "log10_ml": {
+    "E": -136.134541142709,
+    "D": -137.97457485850967,
+    "H": -139.50887563165125,
+    "G": -141.04182203254138,
+    "I": -141.88418587800712,
+    "C": -143.90446404865477,
+    "F": -145.94597665136115,
+    "B": -148.99999999999997,
+    "A": -157.6463057263749
+   },
+   "best_components": [
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -135.65741988798933
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -137.6735573736977
+    },
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -138.84705173782913
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -156.8938665235073,
+    "A5_linear_b|ceiling": -157.71435937410223,
+    "F_age_latin|exact": -145.64494665569717,
+    "F_age_latin|ceiling": -249.22219337459666,
+    "I_legion_latin|exact": -141.88418587800712,
+    "E3_latin_numeral_names|exact": -196.4290042357112,
+    "E1_sanskrit_names|exact": -135.65741988798933,
+    "E2_chinese_given_names|exact": -151.83660628185999,
+    "G_rigveda|exact": -141.04182203254138,
+    "A4_proto_cuneiform|exact": -170.9012040197941,
+    "A4_proto_cuneiform|ceiling": -180.63583825309468,
+    "A6_tags_labels|exact": -156.9068881168052,
+    "A6_tags_labels|ceiling": -160.42495879148055,
+    "A3_proto_elamite|exact": -167.22974114973104,
+    "A3_proto_elamite|ceiling": -173.91649789331294,
+    "C_day_cdli|exact": -143.6034340529908,
+    "C_day_cdli|ceiling": -186.93156812720082,
+    "A2_old_akkadian_admin|exact": -162.16416319853727,
+    "A2_old_akkadian_admin|ceiling": -177.0993709111714,
+    "A1_ur3_admin_short|exact": -161.31661766869624,
+    "A1_ur3_admin_short|ceiling": -170.07181087690836,
+    "D_regnal_cdli|exact": -137.6735573736977,
+    "D_regnal_cdli|ceiling": -142.21404854359838,
+    "B_month|exact": -148.99999999999997,
+    "H1_benford|exact": -142.80556646892316,
+    "H2_zipf|exact": -142.9143262158043,
+    "H2_zipf|ceiling": -168.24224561166182,
+    "H3_geometric|exact": -139.8971699750903,
+    "H3_geometric|ceiling": -138.84705173782913
+   }
+  },
+  "site:Lothal": {
+   "n": 37,
+   "counts": {
+    "1": 13,
+    "3": 6,
+    "4": 4,
+    "5": 3,
+    "6": 1,
+    "7": 2,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "12": 8
+   },
+   "order": [
+    "A",
+    "H",
+    "C",
+    "D",
+    "B",
+    "I",
+    "E",
+    "F",
+    "G"
+   ],
+   "top": "A",
+   "log10_bf_top_vs_second": 0.9502569473962965,
+   "log10_ml": {
+    "A": -30.101063035826606,
+    "H": -31.051319983222903,
+    "C": -34.18272980757791,
+    "D": -36.13308928015973,
+    "B": -36.99999999999999,
+    "I": -37.03578356468184,
+    "E": -37.750541096787295,
+    "F": -38.31486157773271,
+    "G": -40.76469569348982
+   },
+   "best_components": [
+    {
+     "name": "A5_linear_b",
+     "var": "ceiling",
+     "log10_ml": -29.25115948243187
+    },
+    {
+     "name": "A6_tags_labels",
+     "var": "ceiling",
+     "log10_ml": -29.61938511189563
+    },
+    {
+     "name": "A1_ur3_admin_short",
+     "var": "ceiling",
+     "log10_ml": -29.976215117496256
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -34.29501457623654,
+    "A5_linear_b|ceiling": -29.25115948243187,
+    "F_age_latin|exact": -38.013831582068725,
+    "F_age_latin|ceiling": -53.85131113994409,
+    "I_legion_latin|exact": -37.03578356468184,
+    "E3_latin_numeral_names|exact": -59.886539802582604,
+    "E1_sanskrit_names|exact": -37.41951053340037,
+    "E2_chinese_given_names|exact": -37.81758126133303,
+    "G_rigveda|exact": -40.76469569348982,
+    "A4_proto_cuneiform|exact": -36.45959485724693,
+    "A4_proto_cuneiform|ceiling": -30.939265162024785,
+    "A6_tags_labels|exact": -35.303888923903614,
+    "A6_tags_labels|ceiling": -29.61938511189563,
+    "A3_proto_elamite|exact": -35.84442397195394,
+    "A3_proto_elamite|ceiling": -30.501575405740876,
+    "C_day_cdli|exact": -33.88175885224587,
+    "C_day_cdli|ceiling": -37.748364852450585,
+    "A2_old_akkadian_admin|exact": -36.39150950944669,
+    "A2_old_akkadian_admin|ceiling": -31.938329080331435,
+    "A1_ur3_admin_short|exact": -34.85768872604221,
+    "A1_ur3_admin_short|ceiling": -29.976215117496256,
+    "D_regnal_cdli|exact": -37.746171760697045,
+    "D_regnal_cdli|ceiling": -35.83738443256987,
+    "B_month|exact": -36.99999999999999,
+    "H1_benford|exact": -33.18334203632593,
+    "H2_zipf|exact": -33.90035383969219,
+    "H2_zipf|ceiling": -30.368491698935912,
+    "H3_geometric|exact": -35.651250612743794,
+    "H3_geometric|ceiling": -31.811750882744498
+   }
+  },
+  "site:Kalibangan": {
+   "n": 25,
+   "counts": {
+    "1": 4,
+    "3": 8,
+    "4": 2,
+    "5": 3,
+    "6": 1,
+    "7": 3,
+    "8": 0,
+    "9": 0,
+    "10": 0,
+    "12": 4
+   },
+   "order": [
+    "H",
+    "C",
+    "I",
+    "B",
+    "F",
+    "A",
+    "E",
+    "G",
+    "D"
+   ],
+   "top": "H",
+   "log10_bf_top_vs_second": 0.1629518758389498,
+   "log10_ml": {
+    "H": -23.93789499931082,
+    "C": -24.10084687514977,
+    "I": -24.970247859300347,
+    "B": -24.999999999999993,
+    "F": -25.05527073326465,
+    "A": -25.17252004438335,
+    "E": -25.57792986108434,
+    "G": -25.729216780363604,
+    "D": -26.783582298159384
+   },
+   "best_components": [
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -23.324847650790325
+    },
+    {
+     "name": "C_day_cdli",
+     "var": "exact",
+     "log10_ml": -23.79983493776311
+    },
+    {
+     "name": "H1_benford",
+     "var": "exact",
+     "log10_ml": -24.219951722207348
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -26.36445648767464,
+    "A5_linear_b|ceiling": -24.255469274637107,
+    "F_age_latin|exact": -24.754240737600686,
+    "F_age_latin|ceiling": -38.15610480370514,
+    "I_legion_latin|exact": -24.970247859300347,
+    "E3_latin_numeral_names|exact": -38.07644699122505,
+    "E1_sanskrit_names|exact": -25.100907895377066,
+    "E2_chinese_given_names|exact": -28.74174137057669,
+    "G_rigveda|exact": -25.729216780363604,
+    "A4_proto_cuneiform|exact": -28.385056206586107,
+    "A4_proto_cuneiform|ceiling": -26.666128098484236,
+    "A6_tags_labels|exact": -27.300486400403415,
+    "A6_tags_labels|ceiling": -25.005551780915237,
+    "A3_proto_elamite|exact": -27.940859772732306,
+    "A3_proto_elamite|ceiling": -26.08871536842061,
+    "C_day_cdli|exact": -23.79983493776311,
+    "C_day_cdli|ceiling": -28.18093390170146,
+    "A2_old_akkadian_admin|exact": -26.90557888058141,
+    "A2_old_akkadian_admin|ceiling": -25.95962102509599,
+    "A1_ur3_admin_short|exact": -26.421735078288286,
+    "A1_ur3_admin_short|ceiling": -24.91620581015958,
+    "D_regnal_cdli|exact": -27.265958684629112,
+    "D_regnal_cdli|ceiling": -26.560690110025593,
+    "B_month|exact": -24.999999999999993,
+    "H1_benford|exact": -24.219951722207348,
+    "H2_zipf|exact": -24.64423817055909,
+    "H2_zipf|ceiling": -26.060906159260323,
+    "H3_geometric|exact": -24.70485518895195,
+    "H3_geometric|ceiling": -23.324847650790325
+   }
+  },
+  "type:SEAL": {
+   "n": 416,
+   "counts": {
+    "1": 131,
+    "3": 97,
+    "4": 40,
+    "5": 27,
+    "6": 24,
+    "7": 54,
+    "8": 4,
+    "9": 3,
+    "10": 0,
+    "12": 36
+   },
+   "order": [
+    "E",
+    "D",
+    "H",
+    "A",
+    "I",
+    "G",
+    "C",
+    "F",
+    "B"
+   ],
+   "top": "E",
+   "log10_bf_top_vs_second": 0.1889735263041378,
+   "log10_ml": {
+    "E": -351.69699575914854,
+    "D": -351.88596928545263,
+    "H": -354.523794529917,
+    "A": -371.0505903595138,
+    "I": -371.5330311291715,
+    "G": -379.0849231138222,
+    "C": -380.6085288577322,
+    "F": -398.4783384753639,
+    "B": -415.9999999999999
+   },
+   "best_components": [
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -351.2198745044426
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -351.5849532881788
+    },
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -353.8248245256227
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -374.1029884750401,
+    "A5_linear_b|ceiling": -369.9889384783831,
+    "F_age_latin|exact": -398.17730847969995,
+    "F_age_latin|ceiling": -657.5929364260447,
+    "I_legion_latin|exact": -371.5330311291715,
+    "E3_latin_numeral_names|exact": -519.6272045985754,
+    "E1_sanskrit_names|exact": -351.2198745044426,
+    "E2_chinese_given_names|exact": -361.7179217386331,
+    "G_rigveda|exact": -379.0849231138222,
+    "A4_proto_cuneiform|exact": -407.0751193442837,
+    "A4_proto_cuneiform|ceiling": -422.93753530467154,
+    "A6_tags_labels|exact": -371.3759469942209,
+    "A6_tags_labels|ceiling": -374.0251729204617,
+    "A3_proto_elamite|exact": -397.14088938461634,
+    "A3_proto_elamite|ceiling": -406.19240801245877,
+    "C_day_cdli|exact": -380.30749886206826,
+    "C_day_cdli|ceiling": -489.9801084692714,
+    "A2_old_akkadian_admin|exact": -396.62525528224825,
+    "A2_old_akkadian_admin|ceiling": -426.40339368826693,
+    "A1_ur3_admin_short|exact": -389.7081297677269,
+    "A1_ur3_admin_short|ceiling": -403.91423284743433,
+    "D_regnal_cdli|exact": -351.5849532881788,
+    "D_regnal_cdli|ceiling": -356.0766525080132,
+    "B_month|exact": -415.9999999999999,
+    "H1_benford|exact": -363.8465449444927,
+    "H2_zipf|exact": -365.82606881555034,
+    "H2_zipf|ceiling": -391.0338317837486,
+    "H3_geometric|exact": -367.0698837474896,
+    "H3_geometric|ceiling": -353.8248245256227
+   }
+  },
+  "type:TABLET": {
+   "n": 46,
+   "counts": {
+    "1": 2,
+    "3": 18,
+    "4": 6,
+    "5": 4,
+    "6": 5,
+    "7": 5,
+    "8": 3,
+    "9": 0,
+    "10": 1,
+    "12": 2
+   },
+   "order": [
+    "E",
+    "I",
+    "F",
+    "H",
+    "C",
+    "B",
+    "D",
+    "G",
+    "A"
+   ],
+   "top": "E",
+   "log10_bf_top_vs_second": 0.23937808080619433,
+   "log10_ml": {
+    "E": -43.770852193195026,
+    "I": -44.01023027400122,
+    "F": -44.57899677501626,
+    "H": -44.870691680708894,
+    "C": -44.99107836002292,
+    "B": -45.99999999999999,
+    "D": -46.463222110745804,
+    "G": -46.703813204603335,
+    "A": -50.990934675847306
+   },
+   "best_components": [
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -43.29373093848132
+    },
+    {
+     "name": "I_legion_latin",
+     "var": "exact",
+     "log10_ml": -44.01023027400122
+    },
+    {
+     "name": "H3_geometric",
+     "var": "exact",
+     "log10_ml": -44.26799035626546
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -51.35647278028807,
+    "A5_linear_b|ceiling": -52.646641096198046,
+    "F_age_latin|exact": -44.277966779352276,
+    "F_age_latin|ceiling": -79.0849277572969,
+    "I_legion_latin|exact": -44.01023027400122,
+    "E3_latin_numeral_names|exact": -60.06634920384776,
+    "E1_sanskrit_names|exact": -43.29373093848132,
+    "E2_chinese_given_names|exact": -54.15710808208335,
+    "G_rigveda|exact": -46.703813204603335,
+    "A4_proto_cuneiform|exact": -55.54872902503731,
+    "A4_proto_cuneiform|ceiling": -60.1312010916266,
+    "A6_tags_labels|exact": -51.943327303596725,
+    "A6_tags_labels|ceiling": -54.36034478438969,
+    "A3_proto_elamite|exact": -54.29921935218502,
+    "A3_proto_elamite|ceiling": -57.77193580115522,
+    "C_day_cdli|exact": -44.69004836435894,
+    "C_day_cdli|ceiling": -59.48958601437747,
+    "A2_old_akkadian_admin|exact": -49.974524441923066,
+    "A2_old_akkadian_admin|ceiling": -56.245766365541726,
+    "A1_ur3_admin_short|exact": -50.970072024921514,
+    "A1_ur3_admin_short|ceiling": -55.07305086257889,
+    "D_regnal_cdli|exact": -46.16238493625921,
+    "D_regnal_cdli|ceiling": -49.51491810302722,
+    "B_month|exact": -45.99999999999999,
+    "H1_benford|exact": -45.91487271014105,
+    "H2_zipf|exact": -45.76891246174709,
+    "H2_zipf|ceiling": -57.5048975807364,
+    "H3_geometric|exact": -44.26799035626546,
+    "H3_geometric|ceiling": -44.98007390669325
+   }
+  },
+  "sens:first": {
+   "n": 522,
+   "counts": {
+    "1": 148,
+    "3": 132,
+    "4": 57,
+    "5": 32,
+    "6": 34,
+    "7": 67,
+    "8": 6,
+    "9": 4,
+    "10": 1,
+    "12": 41
+   },
+   "order": [
+    "E",
+    "D",
+    "H",
+    "I",
+    "A",
+    "G",
+    "C",
+    "F",
+    "B"
+   ],
+   "top": "E",
+   "log10_bf_top_vs_second": 0.3786013227726851,
+   "log10_ml": {
+    "E": -442.6335373293112,
+    "D": -443.0121386520839,
+    "H": -449.3432130022729,
+    "I": -467.3965622745866,
+    "A": -472.52692877133717,
+    "G": -473.4560632451021,
+    "C": -480.5109711212653,
+    "F": -495.8494622677025,
+    "B": -522.0
+   },
+   "best_components": [
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -442.1564160745915
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -442.7111104731015
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "ceiling",
+     "log10_ml": -448.0896150645259
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -477.6852960010702,
+    "A5_linear_b|ceiling": -476.1436511944711,
+    "F_age_latin|exact": -495.54843227203855,
+    "F_age_latin|ceiling": -821.8084327776364,
+    "I_legion_latin|exact": -467.3965622745866,
+    "E3_latin_numeral_names|exact": -647.9023421431152,
+    "E1_sanskrit_names|exact": -442.1564160745915,
+    "E2_chinese_given_names|exact": -456.9246883850867,
+    "G_rigveda|exact": -473.4560632451021,
+    "A4_proto_cuneiform|exact": -521.5341887811894,
+    "A4_proto_cuneiform|ceiling": -547.210044407629,
+    "A6_tags_labels|exact": -471.44775657939783,
+    "A6_tags_labels|ceiling": -478.3431566183641,
+    "A3_proto_elamite|exact": -506.6519181344418,
+    "A3_proto_elamite|ceiling": -522.7872542080594,
+    "C_day_cdli|exact": -480.2099411256013,
+    "C_day_cdli|ceiling": -622.4325813125821,
+    "A2_old_akkadian_admin|exact": -502.7499068606159,
+    "A2_old_akkadian_admin|ceiling": -545.5972568873635,
+    "A1_ur3_admin_short|exact": -498.35126579134464,
+    "A1_ur3_admin_short|ceiling": -521.3721840696768,
+    "D_regnal_cdli|exact": -442.7111104731015,
+    "D_regnal_cdli|ceiling": -448.0896150645259,
+    "B_month|exact": -522.0,
+    "H1_benford|exact": -462.63562896055953,
+    "H2_zipf|exact": -465.44656998279754,
+    "H2_zipf|ceiling": -508.0248740949624,
+    "H3_geometric|exact": -462.4391128492518,
+    "H3_geometric|ceiling": -448.6442429979369
+   }
+  },
+  "sens:types": {
+   "n": 207,
+   "counts": {
+    "1": 87,
+    "3": 26,
+    "4": 17,
+    "5": 16,
+    "6": 12,
+    "7": 16,
+    "8": 5,
+    "9": 4,
+    "10": 1,
+    "12": 23
+   },
+   "order": [
+    "A",
+    "H",
+    "D",
+    "E",
+    "C",
+    "I",
+    "F",
+    "B",
+    "G"
+   ],
+   "top": "A",
+   "log10_bf_top_vs_second": 2.265186140443808,
+   "log10_ml": {
+    "A": -171.76598180862436,
+    "H": -174.03116794906816,
+    "D": -180.3047667033413,
+    "E": -181.49701859167547,
+    "C": -187.0541087732355,
+    "I": -189.37803658657023,
+    "F": -205.27492351483744,
+    "B": -206.99999999999997,
+    "G": -207.22017478185478
+   },
+   "best_components": [
+    {
+     "name": "A5_linear_b",
+     "var": "ceiling",
+     "log10_ml": -170.6869115776147
+    },
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -173.3626230995483
+    },
+    {
+     "name": "A6_tags_labels",
+     "var": "ceiling",
+     "log10_ml": -174.27954625865902
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -177.5156906275576,
+    "A5_linear_b|ceiling": -170.6869115776147,
+    "F_age_latin|exact": -204.97389351917346,
+    "F_age_latin|ceiling": -330.3214477846149,
+    "I_legion_latin|exact": -189.37803658657023,
+    "E3_latin_numeral_names|exact": -268.1806167986247,
+    "E1_sanskrit_names|exact": -181.0201992680444,
+    "E2_chinese_given_names|exact": -184.1779247722247,
+    "G_rigveda|exact": -207.22017478185478,
+    "A4_proto_cuneiform|exact": -188.60689132677743,
+    "A4_proto_cuneiform|ceiling": -189.2660138992532,
+    "A6_tags_labels|exact": -178.36540693108543,
+    "A6_tags_labels|ceiling": -174.27954625865902,
+    "A3_proto_elamite|exact": -186.15992152175056,
+    "A3_proto_elamite|ceiling": -184.41605328276015,
+    "C_day_cdli|exact": -186.75307877757152,
+    "C_day_cdli|ceiling": -235.41576804783676,
+    "A2_old_akkadian_admin|exact": -190.7855453220502,
+    "A2_old_akkadian_admin|ceiling": -198.43937198664833,
+    "A1_ur3_admin_short|exact": -182.12118942526496,
+    "A1_ur3_admin_short|ceiling": -182.74585897488637,
+    "D_regnal_cdli|exact": -180.00644362821055,
+    "D_regnal_cdli|ceiling": -182.21039826982366,
+    "B_month|exact": -206.99999999999997,
+    "H1_benford|exact": -174.86395821367847,
+    "H2_zipf|exact": -174.8365401706475,
+    "H2_zipf|ceiling": -175.48971522701407,
+    "H3_geometric|exact": -183.0384885872222,
+    "H3_geometric|ceiling": -173.3626230995483
+   }
+  },
+  "sens:noformula": {
+   "n": 483,
+   "counts": {
+    "1": 148,
+    "3": 97,
+    "4": 65,
+    "5": 39,
+    "6": 35,
+    "7": 35,
+    "8": 7,
+    "9": 4,
+    "10": 1,
+    "12": 52
+   },
+   "order": [
+    "H",
+    "E",
+    "D",
+    "A",
+    "C",
+    "I",
+    "F",
+    "G",
+    "B"
+   ],
+   "top": "H",
+   "log10_bf_top_vs_second": 5.128521596862109,
+   "log10_ml": {
+    "H": -412.86589770002166,
+    "E": -417.9944192968838,
+    "D": -418.63889800235717,
+    "A": -428.9697912889792,
+    "C": -444.33276831162044,
+    "I": -445.442275732232,
+    "F": -463.9000079371961,
+    "G": -463.9302751542068,
+    "B": -483.0
+   },
+   "best_components": [
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -412.1669276956856
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -417.5172980421642
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -418.3382591233294
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -440.2184534449547,
+    "A5_linear_b|ceiling": -427.8906277901218,
+    "F_age_latin|exact": -463.59897794153216,
+    "F_age_latin|ceiling": -743.3298356287238,
+    "I_legion_latin|exact": -445.442275732232,
+    "E3_latin_numeral_names|exact": -616.2918346408417,
+    "E1_sanskrit_names|exact": -417.5172980421642,
+    "E2_chinese_given_names|exact": -430.1551666783214,
+    "G_rigveda|exact": -463.9302751542068,
+    "A4_proto_cuneiform|exact": -475.0777788395478,
+    "A4_proto_cuneiform|ceiling": -479.71711734809037,
+    "A6_tags_labels|exact": -436.6865309289252,
+    "A6_tags_labels|ceiling": -432.2792906328168,
+    "A3_proto_elamite|exact": -462.8603835485108,
+    "A3_proto_elamite|ceiling": -462.23173935174435,
+    "C_day_cdli|exact": -444.0317383159565,
+    "C_day_cdli|ceiling": -558.4130438475968,
+    "A2_old_akkadian_admin|exact": -461.0773957911658,
+    "A2_old_akkadian_admin|ceiling": -482.02579630094937,
+    "A1_ur3_admin_short|exact": -452.248046933543,
+    "A1_ur3_admin_short|ceiling": -456.1419646564747,
+    "D_regnal_cdli|exact": -418.3382591233294,
+    "D_regnal_cdli|ceiling": -421.38354157251933,
+    "B_month|exact": -483.0,
+    "H1_benford|exact": -427.5630711532288,
+    "H2_zipf|exact": -429.6794385962925,
+    "H2_zipf|ceiling": -449.6787480240285,
+    "H3_geometric|exact": -432.91597023777166,
+    "H3_geometric|ceiling": -412.1669276956856
+   }
+  },
+  "ICIT_pooled": {
+   "n": 746,
+   "counts": {
+    "1": 188,
+    "3": 228,
+    "4": 94,
+    "5": 50,
+    "6": 47,
+    "7": 75,
+    "8": 7,
+    "9": 5,
+    "12": 52
+   },
+   "order": [
+    "D",
+    "E",
+    "G",
+    "H",
+    "I",
+    "C",
+    "F",
+    "A",
+    "B"
+   ],
+   "top": "D",
+   "log10_bf_top_vs_second": 2.2474425913192184,
+   "log10_ml": {
+    "D": -604.616102483883,
+    "E": -606.8635450752022,
+    "G": -624.1442216978558,
+    "H": -624.8998958734227,
+    "I": -627.1537386944807,
+    "C": -646.1616763067794,
+    "F": -647.4261820092713,
+    "A": -648.9864027200579,
+    "B": -711.8649120417364
+   },
+   "best_components": [
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -604.315072491942
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -606.3864238204825
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "ceiling",
+     "log10_ml": -612.3819724105342
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -662.7799000072689,
+    "A5_linear_b|ceiling": -667.6233174092725,
+    "F_age_latin|exact": -647.1251520136074,
+    "F_age_latin|ceiling": -1139.880489733941,
+    "I_legion_latin|exact": -627.1537386944807,
+    "E3_latin_numeral_names|exact": -900.7048004859191,
+    "E1_sanskrit_names|exact": -606.3864238204825,
+    "E2_chinese_given_names|exact": -629.5584733226615,
+    "G_rigveda|exact": -624.1442216978558,
+    "A4_proto_cuneiform|exact": -706.2575874178049,
+    "A4_proto_cuneiform|ceiling": -762.6646693897084,
+    "A6_tags_labels|exact": -647.9073020701337,
+    "A6_tags_labels|ceiling": -664.7503009962226,
+    "A3_proto_elamite|exact": -681.4034772969741,
+    "A3_proto_elamite|ceiling": -720.1021030571956,
+    "C_day_cdli|exact": -645.8606463111155,
+    "C_day_cdli|ceiling": -877.9514255475024,
+    "A2_old_akkadian_admin|exact": -651.6387319290598,
+    "A2_old_akkadian_admin|ceiling": -741.3924758558455,
+    "A1_ur3_admin_short|exact": -681.994365422259,
+    "A1_ur3_admin_short|ceiling": -730.0605240418259,
+    "D_regnal_cdli|exact": -604.315072491942,
+    "D_regnal_cdli|ceiling": -612.3819724105342,
+    "B_month|exact": -711.8649120417364,
+    "H1_benford|exact": -644.4956118453077,
+    "H2_zipf|exact": -647.9519960785136,
+    "H2_zipf|ceiling": -729.610351434621,
+    "H3_geometric|exact": -639.0312371753719,
+    "H3_geometric|ceiling": -624.2009258690866
+   }
+  },
+  "ICIT_type:SEAL": {
+   "n": 512,
+   "counts": {
+    "1": 146,
+    "3": 147,
+    "4": 51,
+    "5": 33,
+    "6": 33,
+    "7": 53,
+    "8": 4,
+    "9": 4,
+    "12": 41
+   },
+   "order": [
+    "D",
+    "E",
+    "H",
+    "I",
+    "G",
+    "C",
+    "A",
+    "F",
+    "B"
+   ],
+   "top": "D",
+   "log10_bf_top_vs_second": 2.3521516875608746,
+   "log10_ml": {
+    "D": -416.7184557550299,
+    "E": -419.07060744259076,
+    "H": -426.976670534954,
+    "I": -431.60119599108987,
+    "G": -434.22035222980617,
+    "C": -441.59301363581153,
+    "A": -445.4382237457068,
+    "F": -451.6056543733161,
+    "B": -488.57216483293433
+   },
+   "best_components": [
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -416.4174258455562
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -418.59348618787106
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "ceiling",
+     "log10_ml": -423.1197518600428
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -450.9485498345366,
+    "A5_linear_b|ceiling": -449.96066034932977,
+    "F_age_latin|exact": -451.30462437765215,
+    "F_age_latin|ceiling": -795.9469650150056,
+    "I_legion_latin|exact": -431.60119599108987,
+    "E3_latin_numeral_names|exact": -628.4873663997666,
+    "E1_sanskrit_names|exact": -418.59348618787106,
+    "E2_chinese_given_names|exact": -435.4263981800243,
+    "G_rigveda|exact": -434.22035222980617,
+    "A4_proto_cuneiform|exact": -477.3155694001319,
+    "A4_proto_cuneiform|ceiling": -509.0074963688522,
+    "A6_tags_labels|exact": -444.6031244613669,
+    "A6_tags_labels|ceiling": -452.6186975839852,
+    "A3_proto_elamite|exact": -463.47432767774063,
+    "A3_proto_elamite|ceiling": -484.63288827200154,
+    "C_day_cdli|exact": -441.2919836401476,
+    "C_day_cdli|ceiling": -595.5315058997611,
+    "A2_old_akkadian_admin|exact": -444.72563408614917,
+    "A2_old_akkadian_admin|ceiling": -500.485334203747,
+    "A1_ur3_admin_short|exact": -461.97259537093544,
+    "A1_ur3_admin_short|ceiling": -488.5266749358288,
+    "D_regnal_cdli|exact": -416.4174258455562,
+    "D_regnal_cdli|ceiling": -423.1197518600428,
+    "B_month|exact": -488.57216483293433,
+    "H1_benford|exact": -437.6982037883632,
+    "H2_zipf|exact": -440.19972266392864,
+    "H2_zipf|ceiling": -484.4149761080712,
+    "H3_geometric|exact": -439.55063880399223,
+    "H3_geometric|ceiling": -426.27770053061965
+   }
+  },
+  "ICIT_type:TABLET": {
+   "n": 119,
+   "counts": {
+    "1": 22,
+    "3": 42,
+    "4": 25,
+    "5": 7,
+    "6": 5,
+    "7": 12,
+    "8": 2,
+    "9": 1,
+    "12": 3
+   },
+   "order": [
+    "G",
+    "D",
+    "I",
+    "E",
+    "H",
+    "C",
+    "F",
+    "A",
+    "B"
+   ],
+   "top": "G",
+   "log10_bf_top_vs_second": 1.514997395047174,
+   "log10_ml": {
+    "G": -97.90334213868515,
+    "D": -99.41833953373231,
+    "I": -99.42535267890844,
+    "E": -99.72657701263421,
+    "H": -100.62462540463139,
+    "C": -105.19152855286039,
+    "F": -106.16072390863118,
+    "A": -108.61730281632887,
+    "B": -113.55485862327966
+   },
+   "best_components": [
+    {
+     "name": "G_rigveda",
+     "var": "exact",
+     "log10_ml": -97.90334213868515
+    },
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -99.11730953894445
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -99.2494557593598
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -110.86457799596894,
+    "A5_linear_b|ceiling": -116.53989754740574,
+    "F_age_latin|exact": -105.8596939129672,
+    "F_age_latin|ceiling": -205.76221651030335,
+    "I_legion_latin|exact": -99.42535267890844,
+    "E3_latin_numeral_names|exact": -150.20587959833836,
+    "E1_sanskrit_names|exact": -99.2494557593598,
+    "E2_chinese_given_names|exact": -107.72729812029378,
+    "G_rigveda|exact": -97.90334213868515,
+    "A4_proto_cuneiform|exact": -117.3094007739659,
+    "A4_proto_cuneiform|ceiling": -134.08260929938504,
+    "A6_tags_labels|exact": -110.97237558100235,
+    "A6_tags_labels|ceiling": -120.23686108608797,
+    "A3_proto_elamite|exact": -114.41421012293169,
+    "A3_proto_elamite|ceiling": -127.66776132585534,
+    "C_day_cdli|exact": -104.89049855719641,
+    "C_day_cdli|ceiling": -149.5536495732604,
+    "A2_old_akkadian_admin|exact": -107.53849604398074,
+    "A2_old_akkadian_admin|ceiling": -130.5753489930014,
+    "A1_ur3_admin_short|exact": -112.1903851795487,
+    "A1_ur3_admin_short|ceiling": -126.7408713517494,
+    "D_regnal_cdli|exact": -99.11730953894445,
+    "D_regnal_cdli|ceiling": -107.81252943018461,
+    "B_month|exact": -113.55485862327966,
+    "H1_benford|exact": -103.59453764595443,
+    "H2_zipf|exact": -105.22892408275331,
+    "H2_zipf|ceiling": -126.41641762976492,
+    "H3_geometric|exact": -100.08803918811657,
+    "H3_geometric|ceiling": -100.43186749688788
+   }
+  },
+  "ICIT_site:Harappa": {
+   "n": 210,
+   "counts": {
+    "1": 38,
+    "3": 80,
+    "4": 31,
+    "5": 10,
+    "6": 12,
+    "7": 22,
+    "8": 3,
+    "9": 3,
+    "12": 11
+   },
+   "order": [
+    "D",
+    "E",
+    "G",
+    "I",
+    "H",
+    "C",
+    "F",
+    "A",
+    "B"
+   ],
+   "top": "D",
+   "log10_bf_top_vs_second": 0.8094571200002673,
+   "log10_ml": {
+    "D": -172.79515171994063,
+    "E": -173.6046088399409,
+    "G": -175.8593295356144,
+    "I": -179.76515992514916,
+    "H": -180.55718528523084,
+    "C": -185.96859854235376,
+    "F": -186.34469201481122,
+    "A": -194.6245822336703,
+    "B": -200.39092698225824
+   },
+   "best_components": [
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -172.49412173139498
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -173.12748758522125
+    },
+    {
+     "name": "G_rigveda",
+     "var": "exact",
+     "log10_ml": -175.8593295356144
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -198.51405926413346,
+    "A5_linear_b|ceiling": -203.02932337925668,
+    "F_age_latin|exact": -186.04366201914723,
+    "F_age_latin|ceiling": -347.9112962997037,
+    "I_legion_latin|exact": -179.76515992514916,
+    "E3_latin_numeral_names|exact": -271.18753175422955,
+    "E1_sanskrit_names|exact": -173.12748758522125,
+    "E2_chinese_given_names|exact": -188.87636548605883,
+    "G_rigveda|exact": -175.8593295356144,
+    "A4_proto_cuneiform|exact": -211.33138466193665,
+    "A4_proto_cuneiform|ceiling": -232.62642085485254,
+    "A6_tags_labels|exact": -197.21218147286498,
+    "A6_tags_labels|ceiling": -206.400476572462,
+    "A3_proto_elamite|exact": -205.48050545334834,
+    "A3_proto_elamite|ceiling": -221.41216627634486,
+    "C_day_cdli|exact": -185.66756854668978,
+    "C_day_cdli|ceiling": -257.0366843976074,
+    "A2_old_akkadian_admin|exact": -193.54549920842612,
+    "A2_old_akkadian_admin|ceiling": -225.39600188489354,
+    "A1_ur3_admin_short|exact": -202.85169668086527,
+    "A1_ur3_admin_short|ceiling": -221.1730366467556,
+    "D_regnal_cdli|exact": -172.49412173139498,
+    "D_regnal_cdli|ceiling": -180.2795289471929,
+    "B_month|exact": -200.39092698225824,
+    "H1_benford|exact": -185.85401827389018,
+    "H2_zipf|exact": -187.36002810351738,
+    "H2_zipf|ceiling": -220.082982186787,
+    "H3_geometric|exact": -181.55741779171166,
+    "H3_geometric|ceiling": -179.86698492287974
+   }
+  },
+  "ICIT_site:Dholavira": {
+   "n": 41,
+   "counts": {
+    "1": 13,
+    "3": 12,
+    "4": 4,
+    "5": 3,
+    "6": 3,
+    "7": 2,
+    "8": 0,
+    "9": 1,
+    "12": 3
+   },
+   "order": [
+    "H",
+    "I",
+    "A",
+    "C",
+    "E",
+    "G",
+    "D",
+    "F",
+    "B"
+   ],
+   "top": "H",
+   "log10_bf_top_vs_second": 0.7071065932702073,
+   "log10_ml": {
+    "H": -34.324196224800836,
+    "I": -35.03130281807104,
+    "A": -35.473664307852616,
+    "C": -35.54184246661756,
+    "E": -36.9543033458946,
+    "G": -37.772594362038745,
+    "D": -37.798976546264676,
+    "F": -38.28331433085094,
+    "B": -39.12394288701232
+   },
+   "best_components": [
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -33.973099042348466
+    },
+    {
+     "name": "H1_benford",
+     "var": "exact",
+     "log10_ml": -33.975556396891726
+    },
+    {
+     "name": "A2_old_akkadian_admin",
+     "var": "exact",
+     "log10_ml": -34.68257977829593
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -35.16886358517289,
+    "A5_linear_b|ceiling": -35.25050497162635,
+    "F_age_latin|exact": -37.98228433518696,
+    "F_age_latin|ceiling": -69.26204658724683,
+    "I_legion_latin|exact": -35.03130281807104,
+    "E3_latin_numeral_names|exact": -54.404726378407524,
+    "E1_sanskrit_names|exact": -36.70841745989351,
+    "E2_chinese_given_names|exact": -36.86141194106139,
+    "G_rigveda|exact": -37.772594362038745,
+    "A4_proto_cuneiform|exact": -36.44199661887877,
+    "A4_proto_cuneiform|ceiling": -39.39723008273821,
+    "A6_tags_labels|exact": -35.76028866643315,
+    "A6_tags_labels|ceiling": -36.61486627924145,
+    "A3_proto_elamite|exact": -35.881362104633226,
+    "A3_proto_elamite|ceiling": -37.96420796684545,
+    "C_day_cdli|exact": -35.24081247095363,
+    "C_day_cdli|ceiling": -48.19918441365644,
+    "A2_old_akkadian_admin|exact": -34.68257977829593,
+    "A2_old_akkadian_admin|ceiling": -39.74045907793118,
+    "A1_ur3_admin_short|exact": -35.4587072858932,
+    "A1_ur3_admin_short|ceiling": -37.96044527828383,
+    "D_regnal_cdli|exact": -37.49878790433899,
+    "D_regnal_cdli|ceiling": -40.211172842130196,
+    "B_month|exact": -39.12394288701232,
+    "H1_benford|exact": -33.975556396891726,
+    "H2_zipf|exact": -34.88663332848063,
+    "H2_zipf|ceiling": -37.92034803165637,
+    "H3_geometric|exact": -34.92667294624096,
+    "H3_geometric|ceiling": -33.973099042348466
+   }
+  },
+  "ICIT_site:Mohenjo-daro": {
+   "n": 356,
+   "counts": {
+    "1": 104,
+    "3": 91,
+    "4": 43,
+    "5": 26,
+    "6": 23,
+    "7": 39,
+    "8": 4,
+    "9": 1,
+    "12": 25
+   },
+   "order": [
+    "D",
+    "H",
+    "E",
+    "I",
+    "C",
+    "G",
+    "A",
+    "F",
+    "B"
+   ],
+   "top": "D",
+   "log10_bf_top_vs_second": 1.2105911862080583,
+   "log10_ml": {
+    "D": -296.1324229118526,
+    "H": -297.3430140980606,
+    "E": -298.5744661747192,
+    "I": -298.76533541510065,
+    "C": -307.14654622507754,
+    "G": -308.3460322679971,
+    "A": -309.60630631849864,
+    "F": -319.07781587025335,
+    "B": -339.71033336039966
+   },
+   "best_components": [
+    {
+     "name": "D_regnal_cdli",
+     "var": "exact",
+     "log10_ml": -295.8313929477023
+    },
+    {
+     "name": "H3_geometric",
+     "var": "ceiling",
+     "log10_ml": -296.6440442064852
+    },
+    {
+     "name": "E1_sanskrit_names",
+     "var": "exact",
+     "log10_ml": -298.0973449199995
+    }
+   ],
+   "components": {
+    "A5_linear_b|exact": -314.71011487370157,
+    "A5_linear_b|ceiling": -316.71900111276074,
+    "F_age_latin|exact": -318.7767858745894,
+    "F_age_latin|ceiling": -572.7961021549758,
+    "I_legion_latin|exact": -298.76533541510065,
+    "E3_latin_numeral_names|exact": -435.70849663836304,
+    "E1_sanskrit_names|exact": -298.0973449199995,
+    "E2_chinese_given_names|exact": -311.8714643833086,
+    "G_rigveda|exact": -308.3460322679971,
+    "A4_proto_cuneiform|exact": -331.3849616669569,
+    "A4_proto_cuneiform|ceiling": -358.34397796751205,
+    "A6_tags_labels|exact": -312.487954010071,
+    "A6_tags_labels|ceiling": -321.18392773454167,
+    "A3_proto_elamite|exact": -323.07538100259626,
+    "A3_proto_elamite|ceiling": -342.00997499456605,
+    "C_day_cdli|exact": -306.84551622941353,
+    "C_day_cdli|ceiling": -419.17360318854014,
+    "A2_old_akkadian_admin|exact": -308.52717289149933,
+    "A2_old_akkadian_admin|ceiling": -352.69469874491006,
+    "A1_ur3_admin_short|exact": -318.9032381602999,
+    "A1_ur3_admin_short|ceiling": -341.81189619062707,
+    "D_regnal_cdli|exact": -295.8313929477023,
+    "D_regnal_cdli|ceiling": -302.970678586405,
+    "B_month|exact": -339.71033336039966,
+    "H1_benford|exact": -303.30271898944386,
+    "H2_zipf|exact": -305.43575733026455,
+    "H2_zipf|ceiling": -339.8459432381449,
+    "H3_geometric|exact": -304.0576737289883,
+    "H3_geometric|ceiling": -296.6440442064852
+   }
+  }
+ },
+ "ppc": {
+  "A": {
+   "G_obs": 412.75446116790437,
+   "p": 0.0,
+   "N": 568,
+   "component": "A6_tags_labels|exact",
+   "exp_share7": 0.03153153153153153,
+   "exp_share12": 0.015515515515515516,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    310.2,
+    62.3,
+    45.2,
+    35.5,
+    33.8,
+    17.9,
+    15.1,
+    9.4,
+    29.8,
+    8.8
+   ]
+  },
+  "B": {
+   "G_obs": 481.40332939513695,
+   "p": 0.0,
+   "N": 568,
+   "component": "B_month|exact",
+   "exp_share7": 0.1,
+   "exp_share12": 0.1,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    56.8,
+    56.8,
+    56.8,
+    56.8,
+    56.8,
+    56.8,
+    56.8,
+    56.8,
+    56.8,
+    56.8
+   ]
+  },
+  "C": {
+   "G_obs": 291.60926833816455,
+   "p": 0.0,
+   "N": 568,
+   "component": "C_day_cdli|exact",
+   "exp_share7": 0.08504560489124988,
+   "exp_share12": 0.08033476997093314,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    105.7,
+    70.1,
+    55.0,
+    58.7,
+    52.2,
+    48.3,
+    48.3,
+    18.4,
+    65.7,
+    45.6
+   ]
+  },
+  "D": {
+   "G_obs": 775.4013822354596,
+   "p": 0.0,
+   "N": 568,
+   "component": "D_regnal_cdli|exact",
+   "exp_share7": 0.1527777777777778,
+   "exp_share12": 0.013888888888888888,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    71.0,
+    55.2,
+    39.4,
+    7.9,
+    55.2,
+    86.8,
+    23.7,
+    102.6,
+    118.3,
+    7.9
+   ]
+  },
+  "E": {
+   "G_obs": 638.3357089651736,
+   "p": 0.0,
+   "N": 568,
+   "component": "E1_sanskrit_names|exact",
+   "exp_share7": 0.05555555555555555,
+   "exp_share12": 0.007936507936507936,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    58.6,
+    166.8,
+    22.5,
+    85.7,
+    40.6,
+    31.6,
+    22.5,
+    85.7,
+    49.6,
+    4.5
+   ]
+  },
+  "F": {
+   "G_obs": 512.8671995018087,
+   "p": 0.0,
+   "N": 568,
+   "component": "F_age_latin|exact",
+   "exp_share7": 0.08945841392649903,
+   "exp_share12": 0.07108317214700194,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    45.9,
+    73.9,
+    60.2,
+    78.3,
+    47.0,
+    50.8,
+    43.7,
+    39.3,
+    88.7,
+    40.4
+   ]
+  },
+  "G": {
+   "G_obs": 498.1288167551859,
+   "p": 0.0,
+   "N": 568,
+   "component": "G_rigveda|exact",
+   "exp_share7": 0.21785268414481898,
+   "exp_share12": 0.00686641697877653,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    90.4,
+    162.7,
+    45.7,
+    37.2,
+    3.9,
+    123.7,
+    8.9,
+    16.0,
+    75.5,
+    3.9
+   ]
+  },
+  "H": {
+   "G_obs": 119.70027999369962,
+   "p": 0.0,
+   "N": 568,
+   "component": "H3_geometric|ceiling",
+   "exp_share7": 0.05843797969765354,
+   "exp_share12": 0.06461789682604606,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    166.6,
+    97.3,
+    74.4,
+    56.8,
+    43.4,
+    33.2,
+    25.4,
+    19.4,
+    14.8,
+    36.7
+   ]
+  },
+  "I": {
+   "G_obs": 282.4533542189751,
+   "p": 0.0,
+   "N": 568,
+   "component": "I_legion_latin|exact",
+   "exp_share7": 0.12484217171717171,
+   "exp_share12": 0.015309343434343434,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    138.5,
+    86.7,
+    57.1,
+    55.7,
+    51.4,
+    70.9,
+    30.6,
+    6.4,
+    62.1,
+    8.7
+   ]
+  }
+ },
+ "decision": {
+  "top_pooled": "E",
+  "c1_pooled_bf_gt10": false,
+  "log10_bf_pooled": 0.5625597350263865,
+  "c2_sites": {
+   "site:Mohenjodaro": false,
+   "site:Harappa": true,
+   "site:Lothal": false,
+   "site:Kalibangan": false
+  },
+  "c3_types": {
+   "type:SEAL": false,
+   "type:TABLET": false
+  },
+  "c4_icit": false,
+  "icit_top": "D",
+  "win": false,
+  "ppc_winner": {
+   "G_obs": 638.3357089651736,
+   "p": 0.0,
+   "N": 568,
+   "component": "E1_sanskrit_names|exact",
+   "exp_share7": 0.05555555555555555,
+   "exp_share12": 0.007936507936507936,
+   "obs_share7": 0.12147887323943662,
+   "obs_share12": 0.09154929577464789,
+   "exp_counts": [
+    58.6,
+    166.8,
+    22.5,
+    85.7,
+    40.6,
+    31.6,
+    22.5,
+    85.7,
+    49.6,
+    4.5
+   ]
+  },
+  "adequate": false,
+  "verdict": "NO WIN"
+ }
+}

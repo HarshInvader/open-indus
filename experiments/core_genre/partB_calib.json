@@ -1,0 +1,2504 @@
+{
+ "raw": {
+  "nn": {
+   "ur3_legend_w": {
+    "d": 0.841,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "old_high_german",
+      1.08
+     ],
+     [
+      "linb_entry_w",
+      1.13
+     ],
+     [
+      "plains",
+      1.18
+     ]
+    ]
+   },
+   "ur3_title_w": {
+    "d": 1.76,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egyptian",
+      2.08
+     ],
+     [
+      "plains",
+      2.69
+     ],
+     [
+      "old_norse",
+      3.0
+     ]
+    ]
+   },
+   "ur3_legend_s": {
+    "d": 0.331,
+    "nearest": "ob_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "cun_tag_s",
+      0.85
+     ],
+     [
+      "heraldry_w",
+      0.97
+     ],
+     [
+      "lat_label_w",
+      1.21
+     ]
+    ]
+   },
+   "ob_legend_s": {
+    "d": 0.331,
+    "nearest": "ur3_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "cun_tag_s",
+      0.75
+     ],
+     [
+      "heraldry_w",
+      0.92
+     ],
+     [
+      "lat_label_w",
+      1.3
+     ]
+    ]
+   },
+   "egy_phrase_l": {
+    "d": 0.887,
+    "nearest": "egy_title_l",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "metar",
+      0.95
+     ],
+     [
+      "linb_entry_w",
+      1.05
+     ],
+     [
+      "cun_tag_s",
+      1.08
+     ]
+    ]
+   },
+   "egy_title_l": {
+    "d": 0.887,
+    "nearest": "egy_phrase_l",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "old_english",
+      1.12
+     ],
+     [
+      "linb_entry_w",
+      1.17
+     ],
+     [
+      "ur3",
+      1.31
+     ]
+    ]
+   },
+   "heraldry_w": {
+    "d": 0.918,
+    "nearest": "ob_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3_legend_s",
+      0.97
+     ],
+     [
+      "ur3",
+      1.22
+     ],
+     [
+      "lat_label_w",
+      1.49
+     ]
+    ]
+   },
+   "linb_entry_w": {
+    "d": 0.701,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "plains",
+      0.84
+     ],
+     [
+      "lat_label_w",
+      0.87
+     ],
+     [
+      "ur3",
+      0.87
+     ]
+    ]
+   },
+   "pe_entry_s": {
+    "d": 0.695,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "lat_label_w",
+      1.02
+     ],
+     [
+      "egyptian",
+      1.2
+     ],
+     [
+      "old_high_german",
+      1.27
+     ]
+    ]
+   },
+   "pc_entry_s": {
+    "d": 0.674,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "chinese_given",
+      0.83
+     ],
+     [
+      "ur3_legend_s",
+      1.26
+     ],
+     [
+      "pe_entry_s",
+      1.33
+     ]
+    ]
+   },
+   "cun_tag_s": {
+    "d": 0.666,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "pc_entry_s",
+      0.67
+     ],
+     [
+      "pe_entry_s",
+      0.69
+     ],
+     [
+      "linb_entry_w",
+      0.7
+     ]
+    ]
+   },
+   "lat_label_w": {
+    "d": 0.751,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3",
+      0.85
+     ],
+     [
+      "linb_entry_w",
+      0.87
+     ],
+     [
+      "old_high_german",
+      0.89
+     ]
+    ]
+   },
+   "lina_label_s": {
+    "d": 3.477,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "cun_tag_s",
+      3.56
+     ],
+     [
+      "ur3_title_w",
+      3.67
+     ],
+     [
+      "egyptian",
+      3.85
+     ]
+    ]
+   },
+   "khipu": {
+    "d": 0.99,
+    "nearest": "chords",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chess_eco",
+      4.12
+     ],
+     [
+      "ur3_title_w",
+      5.27
+     ],
+     [
+      "lina_label_s",
+      6.1
+     ]
+    ]
+   },
+   "chess_eco": {
+    "d": 3.694,
+    "nearest": "chords",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "khipu",
+      4.12
+     ],
+     [
+      "egyptian",
+      4.28
+     ],
+     [
+      "heraldry_w",
+      4.39
+     ]
+    ]
+   },
+   "chords": {
+    "d": 0.99,
+    "nearest": "khipu",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chess_eco",
+      3.69
+     ],
+     [
+      "ur3_title_w",
+      5.17
+     ],
+     [
+      "ob_legend_s",
+      5.84
+     ]
+    ]
+   },
+   "emoji": {
+    "d": 0.625,
+    "nearest": "old_english",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "linb_entry_w",
+      0.97
+     ],
+     [
+      "old_norse",
+      1.13
+     ],
+     [
+      "sangam",
+      1.17
+     ]
+    ]
+   },
+   "metar": {
+    "d": 0.216,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "egy_phrase_l",
+      0.95
+     ],
+     [
+      "chinese_full",
+      1.07
+     ],
+     [
+      "sangam",
+      1.14
+     ]
+    ]
+   },
+   "old_english": {
+    "d": 0.625,
+    "nearest": "emoji",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "plains",
+      0.82
+     ],
+     [
+      "old_norse",
+      0.91
+     ],
+     [
+      "linb_entry_w",
+      0.94
+     ]
+    ]
+   },
+   "old_high_german": {
+    "d": 0.889,
+    "nearest": "lat_label_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "sanskrit",
+      0.92
+     ],
+     [
+      "greek",
+      0.96
+     ],
+     [
+      "old_english",
+      1.03
+     ]
+    ]
+   },
+   "old_norse": {
+    "d": 0.844,
+    "nearest": "sanskrit",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "greek",
+      0.88
+     ],
+     [
+      "old_english",
+      0.91
+     ],
+     [
+      "emoji",
+      1.13
+     ]
+    ]
+   },
+   "greek": {
+    "d": 0.68,
+    "nearest": "sanskrit",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "old_norse",
+      0.88
+     ],
+     [
+      "old_high_german",
+      0.96
+     ],
+     [
+      "linb_entry_w",
+      1.13
+     ]
+    ]
+   },
+   "sanskrit": {
+    "d": 0.68,
+    "nearest": "greek",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "plains",
+      0.72
+     ],
+     [
+      "old_norse",
+      0.84
+     ],
+     [
+      "old_high_german",
+      0.92
+     ]
+    ]
+   },
+   "egyptian": {
+    "d": 1.065,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "lat_label_w",
+      1.07
+     ],
+     [
+      "pe_entry_s",
+      1.2
+     ],
+     [
+      "old_norse",
+      1.25
+     ]
+    ]
+   },
+   "ur3": {
+    "d": 0.835,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "lat_label_w",
+      0.85
+     ],
+     [
+      "linb_entry_w",
+      0.87
+     ],
+     [
+      "plains",
+      1.18
+     ]
+    ]
+   },
+   "chinese_given": {
+    "d": 0.793,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "pc_entry_s",
+      0.83
+     ],
+     [
+      "sanskrit",
+      1.08
+     ],
+     [
+      "old_high_german",
+      1.37
+     ]
+    ]
+   },
+   "chinese_full": {
+    "d": 0.446,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "metar",
+      1.07
+     ],
+     [
+      "cun_tag_s",
+      1.11
+     ],
+     [
+      "sanskrit",
+      1.25
+     ]
+    ]
+   },
+   "plains": {
+    "d": 0.216,
+    "nearest": "metar",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chinese_full",
+      0.45
+     ],
+     [
+      "cun_tag_s",
+      0.67
+     ],
+     [
+      "sanskrit",
+      0.72
+     ]
+    ]
+   },
+   "sangam": {
+    "d": 0.98,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "plains",
+      1.11
+     ],
+     [
+      "metar",
+      1.14
+     ],
+     [
+      "emoji",
+      1.17
+     ]
+    ]
+   }
+  },
+  "nn_median": 0.793,
+  "nn_max": 3.694,
+  "pooled_scales": {
+   "len1": 0.1950086503447275,
+   "standalone": 0.12385534326345118,
+   "both_orders": 0.07656292727729108,
+   "hfi": 0.18027563400890917,
+   "pol_ex": 0.30786137631538846,
+   "both_pos": 0.25929761892194286
+  },
+  "group_nn_hits": [
+   19,
+   29
+  ],
+  "means_at_cap": {
+   "ur3_legend_w": {
+    "len1": 0.0,
+    "standalone": 0.0,
+    "both_orders": 0.054,
+    "hfi": 0.785,
+    "pol_ex": 0.564,
+    "both_pos": 0.367
+   },
+   "ur3_title_w": {
+    "len1": 0.054,
+    "standalone": 0.441,
+    "both_orders": 0.118,
+    "hfi": 0.517,
+    "pol_ex": 0.086,
+    "both_pos": 0.817
+   },
+   "ur3_legend_s": {
+    "len1": 0.003,
+    "standalone": 0.096,
+    "both_orders": 0.064,
+    "hfi": 0.343,
+    "pol_ex": 0.222,
+    "both_pos": 0.689
+   },
+   "ob_legend_s": {
+    "len1": 0.007,
+    "standalone": 0.099,
+    "both_orders": 0.073,
+    "hfi": 0.356,
+    "pol_ex": 0.208,
+    "both_pos": 0.605
+   },
+   "egy_phrase_l": {
+    "len1": 0.249,
+    "standalone": 0.053,
+    "both_orders": 0.031,
+    "hfi": 0.233,
+    "pol_ex": 0.943,
+    "both_pos": 0.062
+   },
+   "egy_title_l": {
+    "len1": 0.278,
+    "standalone": 0.123,
+    "both_orders": 0.048,
+    "hfi": 0.405,
+    "pol_ex": 0.923,
+    "both_pos": 0.061
+   },
+   "heraldry_w": {
+    "len1": 0.001,
+    "standalone": 0.026,
+    "both_orders": 0.074,
+    "hfi": 0.153,
+    "pol_ex": 0.391,
+    "both_pos": 0.545
+   },
+   "linb_entry_w": {
+    "len1": 0.222,
+    "standalone": 0.056,
+    "both_orders": 0.03,
+    "hfi": 0.537,
+    "pol_ex": 0.732,
+    "both_pos": 0.348
+   },
+   "pe_entry_s": {
+    "len1": 0.249,
+    "standalone": 0.174,
+    "both_orders": 0.033,
+    "hfi": 0.602,
+    "pol_ex": 0.272,
+    "both_pos": 0.655
+   },
+   "pc_entry_s": {
+    "len1": 0.126,
+    "standalone": 0.043,
+    "both_orders": 0.026,
+    "hfi": 0.511,
+    "pol_ex": 0.125,
+    "both_pos": 0.739
+   },
+   "cun_tag_s": {
+    "len1": 0.017,
+    "standalone": 0.042,
+    "both_orders": 0.019,
+    "hfi": 0.5,
+    "pol_ex": null,
+    "both_pos": null
+   },
+   "lat_label_w": {
+    "len1": 0.304,
+    "standalone": 0.109,
+    "both_orders": 0.043,
+    "hfi": 0.481,
+    "pol_ex": 0.511,
+    "both_pos": 0.468
+   },
+   "lina_label_s": {
+    "len1": 0.237,
+    "standalone": 0.548,
+    "both_orders": 0.11,
+    "hfi": 0.438,
+    "pol_ex": 0.057,
+    "both_pos": 0.714
+   },
+   "khipu": {
+    "len1": 0.033,
+    "standalone": 0.263,
+    "both_orders": 0.298,
+    "hfi": 0.438,
+    "pol_ex": 0.02,
+    "both_pos": 0.87
+   },
+   "chess_eco": {
+    "len1": 0.011,
+    "standalone": 0.196,
+    "both_orders": 0.204,
+    "hfi": 0.202,
+    "pol_ex": 1.0,
+    "both_pos": 0.0
+   },
+   "chords": {
+    "len1": 0.023,
+    "standalone": 0.173,
+    "both_orders": 0.28,
+    "hfi": 0.478,
+    "pol_ex": 0.027,
+    "both_pos": 0.785
+   },
+   "emoji": {
+    "len1": 0.351,
+    "standalone": 0.124,
+    "both_orders": 0.016,
+    "hfi": 0.809,
+    "pol_ex": 0.756,
+    "both_pos": 0.35
+   },
+   "metar": {
+    "len1": 0.0,
+    "standalone": 0.021,
+    "both_orders": 0.004,
+    "hfi": 0.299,
+    "pol_ex": 1.0,
+    "both_pos": 0.0
+   },
+   "old_english": {
+    "len1": 0.287,
+    "standalone": 0.142,
+    "both_orders": 0.026,
+    "hfi": 0.667,
+    "pol_ex": 0.641,
+    "both_pos": 0.219
+   },
+   "old_high_german": {
+    "len1": 0.518,
+    "standalone": 0.002,
+    "both_orders": 0.031,
+    "hfi": 0.642,
+    "pol_ex": 0.481,
+    "both_pos": 0.435
+   },
+   "old_norse": {
+    "len1": 0.667,
+    "standalone": 0.074,
+    "both_orders": 0.0,
+    "hfi": 0.568,
+    "pol_ex": 0.59,
+    "both_pos": 0.222
+   },
+   "greek": {
+    "len1": 0.545,
+    "standalone": 0.012,
+    "both_orders": 0.004,
+    "hfi": 0.753,
+    "pol_ex": 0.7,
+    "both_pos": 0.259
+   },
+   "sanskrit": {
+    "len1": 0.423,
+    "standalone": 0.022,
+    "both_orders": 0.001,
+    "hfi": 0.554,
+    "pol_ex": 0.562,
+    "both_pos": 0.406
+   },
+   "egyptian": {
+    "len1": 0.509,
+    "standalone": 0.083,
+    "both_orders": 0.024,
+    "hfi": 0.227,
+    "pol_ex": 0.464,
+    "both_pos": 0.6
+   },
+   "ur3": {
+    "len1": 0.106,
+    "standalone": 0.074,
+    "both_orders": 0.044,
+    "hfi": 0.207,
+    "pol_ex": 0.688,
+    "both_pos": 0.468
+   },
+   "chinese_given": {
+    "len1": 0.051,
+    "standalone": 0.023,
+    "both_orders": 0.003,
+    "hfi": 0.509,
+    "pol_ex": 0.275,
+    "both_pos": 0.613
+   },
+   "chinese_full": {
+    "len1": 0.0,
+    "standalone": 0.0,
+    "both_orders": 0.003,
+    "hfi": 0.133,
+    "pol_ex": 0.673,
+    "both_pos": 0.268
+   },
+   "plains": {
+    "len1": 0.04,
+    "standalone": 0.014,
+    "both_orders": 0.0,
+    "hfi": 0.412,
+    "pol_ex": 0.696,
+    "both_pos": 0.278
+   },
+   "sangam": {
+    "len1": 0.337,
+    "standalone": 0.108,
+    "both_orders": 0.0,
+    "hfi": 0.5,
+    "pol_ex": 1.0,
+    "both_pos": 0.0
+   }
+  },
+  "sizes": {
+   "ur3_legend_w": 6297,
+   "ur3_title_w": 1190,
+   "ur3_legend_s": 2906,
+   "ob_legend_s": 1314,
+   "egy_phrase_l": 3172,
+   "egy_title_l": 875,
+   "heraldry_w": 8649,
+   "linb_entry_w": 8111,
+   "pe_entry_s": 4124,
+   "pc_entry_s": 15560,
+   "cun_tag_s": 120,
+   "lat_label_w": 3603,
+   "lina_label_s": 228,
+   "khipu": 2737,
+   "chess_eco": 1764,
+   "chords": 3487,
+   "emoji": 3963,
+   "metar": 2171,
+   "old_english": 1043,
+   "old_high_german": 488,
+   "old_norse": 159,
+   "greek": 962,
+   "sanskrit": 7431,
+   "egyptian": 171,
+   "ur3": 3317,
+   "chinese_given": 30653,
+   "chinese_full": 60000,
+   "plains": 101,
+   "sangam": 540
+  }
+ },
+ "merge": {
+  "nn": {
+   "ur3_legend_w": {
+    "d": 1.412,
+    "nearest": "ob_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "heraldry_w",
+      1.5
+     ],
+     [
+      "ur3_legend_s",
+      1.84
+     ],
+     [
+      "cun_tag_s",
+      2.31
+     ]
+    ]
+   },
+   "ur3_title_w": {
+    "d": 1.675,
+    "nearest": "egy_title_l",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "cun_tag_s",
+      2.06
+     ],
+     [
+      "lat_label_w",
+      2.15
+     ],
+     [
+      "egy_phrase_l",
+      2.35
+     ]
+    ]
+   },
+   "ur3_legend_s": {
+    "d": 0.916,
+    "nearest": "ob_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "cun_tag_s",
+      1.37
+     ],
+     [
+      "ur3_legend_w",
+      1.84
+     ],
+     [
+      "chinese_full",
+      2.24
+     ]
+    ]
+   },
+   "ob_legend_s": {
+    "d": 0.916,
+    "nearest": "ur3_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3_legend_w",
+      1.41
+     ],
+     [
+      "heraldry_w",
+      1.87
+     ],
+     [
+      "plains",
+      2.19
+     ]
+    ]
+   },
+   "egy_phrase_l": {
+    "d": 0.346,
+    "nearest": "lat_label_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "linb_entry_w",
+      0.5
+     ],
+     [
+      "pe_entry_s",
+      0.75
+     ],
+     [
+      "egy_title_l",
+      0.8
+     ]
+    ]
+   },
+   "egy_title_l": {
+    "d": 0.752,
+    "nearest": "lat_label_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egy_phrase_l",
+      0.8
+     ],
+     [
+      "linb_entry_w",
+      1.13
+     ],
+     [
+      "pe_entry_s",
+      1.32
+     ]
+    ]
+   },
+   "heraldry_w": {
+    "d": 1.499,
+    "nearest": "ur3_legend_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ob_legend_s",
+      1.87
+     ],
+     [
+      "cun_tag_s",
+      2.05
+     ],
+     [
+      "ur3_legend_s",
+      2.43
+     ]
+    ]
+   },
+   "linb_entry_w": {
+    "d": 0.393,
+    "nearest": "pe_entry_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egy_phrase_l",
+      0.5
+     ],
+     [
+      "lat_label_w",
+      0.71
+     ],
+     [
+      "pc_entry_s",
+      1.07
+     ]
+    ]
+   },
+   "pe_entry_s": {
+    "d": 0.393,
+    "nearest": "linb_entry_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egy_phrase_l",
+      0.75
+     ],
+     [
+      "pc_entry_s",
+      0.81
+     ],
+     [
+      "lat_label_w",
+      0.81
+     ]
+    ]
+   },
+   "pc_entry_s": {
+    "d": 0.813,
+    "nearest": "pe_entry_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "linb_entry_w",
+      1.07
+     ],
+     [
+      "old_high_german",
+      1.26
+     ],
+     [
+      "cun_tag_s",
+      1.35
+     ]
+    ]
+   },
+   "cun_tag_s": {
+    "d": 1.069,
+    "nearest": "metar",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "pc_entry_s",
+      1.35
+     ],
+     [
+      "ur3_legend_s",
+      1.37
+     ],
+     [
+      "chinese_full",
+      1.4
+     ]
+    ]
+   },
+   "lat_label_w": {
+    "d": 0.346,
+    "nearest": "egy_phrase_l",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "linb_entry_w",
+      0.71
+     ],
+     [
+      "egy_title_l",
+      0.75
+     ],
+     [
+      "pe_entry_s",
+      0.81
+     ]
+    ]
+   },
+   "lina_label_s": {
+    "d": 2.597,
+    "nearest": "egyptian",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "egy_title_l",
+      2.97
+     ],
+     [
+      "old_norse",
+      3.1
+     ],
+     [
+      "lat_label_w",
+      3.11
+     ]
+    ]
+   },
+   "khipu": {
+    "d": 1.063,
+    "nearest": "chords",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chess_eco",
+      4.17
+     ],
+     [
+      "ur3_title_w",
+      4.88
+     ],
+     [
+      "heraldry_w",
+      5.69
+     ]
+    ]
+   },
+   "chess_eco": {
+    "d": 3.041,
+    "nearest": "heraldry_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "chords",
+      3.65
+     ],
+     [
+      "ur3_legend_w",
+      4.01
+     ],
+     [
+      "ob_legend_s",
+      4.06
+     ]
+    ]
+   },
+   "chords": {
+    "d": 1.063,
+    "nearest": "khipu",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chess_eco",
+      3.65
+     ],
+     [
+      "heraldry_w",
+      4.84
+     ],
+     [
+      "ur3_title_w",
+      5.02
+     ]
+    ]
+   },
+   "emoji": {
+    "d": 1.396,
+    "nearest": "ur3",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "plains",
+      1.47
+     ],
+     [
+      "old_english",
+      1.6
+     ],
+     [
+      "old_high_german",
+      1.6
+     ]
+    ]
+   },
+   "metar": {
+    "d": 0.915,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "cun_tag_s",
+      1.07
+     ],
+     [
+      "chinese_full",
+      2.69
+     ],
+     [
+      "emoji",
+      3.58
+     ]
+    ]
+   },
+   "old_english": {
+    "d": 0.783,
+    "nearest": "old_high_german",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "plains",
+      1.02
+     ],
+     [
+      "greek",
+      1.14
+     ],
+     [
+      "emoji",
+      1.6
+     ]
+    ]
+   },
+   "old_high_german": {
+    "d": 0.783,
+    "nearest": "old_english",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "pe_entry_s",
+      1.09
+     ],
+     [
+      "greek",
+      1.11
+     ],
+     [
+      "egyptian",
+      1.16
+     ]
+    ]
+   },
+   "old_norse": {
+    "d": 0.97,
+    "nearest": "sangam",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "greek",
+      0.97
+     ],
+     [
+      "sanskrit",
+      1.16
+     ],
+     [
+      "egyptian",
+      1.44
+     ]
+    ]
+   },
+   "greek": {
+    "d": 0.971,
+    "nearest": "old_norse",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "sangam",
+      1.04
+     ],
+     [
+      "old_high_german",
+      1.11
+     ],
+     [
+      "old_english",
+      1.14
+     ]
+    ]
+   },
+   "sanskrit": {
+    "d": 0.419,
+    "nearest": "sangam",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "egyptian",
+      1.14
+     ],
+     [
+      "old_norse",
+      1.16
+     ],
+     [
+      "greek",
+      1.79
+     ]
+    ]
+   },
+   "egyptian": {
+    "d": 0.891,
+    "nearest": "lat_label_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "sangam",
+      1.01
+     ],
+     [
+      "egy_phrase_l",
+      1.04
+     ],
+     [
+      "linb_entry_w",
+      1.11
+     ]
+    ]
+   },
+   "ur3": {
+    "d": 1.319,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "emoji",
+      1.4
+     ],
+     [
+      "pc_entry_s",
+      1.57
+     ],
+     [
+      "old_english",
+      1.74
+     ]
+    ]
+   },
+   "chinese_given": {
+    "d": 1.237,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "cun_tag_s",
+      1.54
+     ],
+     [
+      "emoji",
+      2.0
+     ],
+     [
+      "old_english",
+      2.08
+     ]
+    ]
+   },
+   "chinese_full": {
+    "d": 1.4,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3_legend_s",
+      2.24
+     ],
+     [
+      "ob_legend_s",
+      2.39
+     ],
+     [
+      "chinese_given",
+      2.65
+     ]
+    ]
+   },
+   "plains": {
+    "d": 0.915,
+    "nearest": "metar",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "old_english",
+      1.02
+     ],
+     [
+      "chinese_given",
+      1.24
+     ],
+     [
+      "ur3",
+      1.32
+     ]
+    ]
+   },
+   "sangam": {
+    "d": 0.419,
+    "nearest": "sanskrit",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "old_norse",
+      0.97
+     ],
+     [
+      "egyptian",
+      1.01
+     ],
+     [
+      "greek",
+      1.04
+     ]
+    ]
+   }
+  },
+  "nn_median": 0.916,
+  "nn_max": 3.041,
+  "pooled_scales": {
+   "len1": 0.14444236245774733,
+   "standalone": 0.22333238535924307,
+   "both_orders": 0.08789784720416705,
+   "hfi": 0.15019895100792727,
+   "pol_ex": 0.2763576513383,
+   "both_pos": 0.22279125586039666
+  },
+  "group_nn_hits": [
+   21,
+   29
+  ],
+  "means_at_cap": {
+   "ur3_legend_w": {
+    "len1": 0.0,
+    "standalone": 0.001,
+    "both_orders": 0.169,
+    "hfi": 0.73,
+    "pol_ex": 0.4,
+    "both_pos": 0.63
+   },
+   "ur3_title_w": {
+    "len1": 0.052,
+    "standalone": 0.573,
+    "both_orders": 0.196,
+    "hfi": 0.52,
+    "pol_ex": 0.06,
+    "both_pos": 0.858
+   },
+   "ur3_legend_s": {
+    "len1": 0.003,
+    "standalone": 0.078,
+    "both_orders": 0.139,
+    "hfi": 0.354,
+    "pol_ex": -0.096,
+    "both_pos": 0.81
+   },
+   "ob_legend_s": {
+    "len1": 0.006,
+    "standalone": 0.105,
+    "both_orders": 0.145,
+    "hfi": 0.42,
+    "pol_ex": 0.219,
+    "both_pos": 0.63
+   },
+   "egy_phrase_l": {
+    "len1": 0.145,
+    "standalone": 0.601,
+    "both_orders": 0.115,
+    "hfi": 0.426,
+    "pol_ex": 0.228,
+    "both_pos": 0.698
+   },
+   "egy_title_l": {
+    "len1": 0.161,
+    "standalone": 0.584,
+    "both_orders": 0.142,
+    "hfi": 0.481,
+    "pol_ex": 0.265,
+    "both_pos": 0.638
+   },
+   "heraldry_w": {
+    "len1": 0.001,
+    "standalone": 0.025,
+    "both_orders": 0.193,
+    "hfi": 0.162,
+    "pol_ex": 0.561,
+    "both_pos": 0.417
+   },
+   "linb_entry_w": {
+    "len1": 0.127,
+    "standalone": 0.565,
+    "both_orders": 0.103,
+    "hfi": 0.493,
+    "pol_ex": 0.246,
+    "both_pos": 0.708
+   },
+   "pe_entry_s": {
+    "len1": 0.149,
+    "standalone": 0.553,
+    "both_orders": 0.1,
+    "hfi": 0.564,
+    "pol_ex": 0.128,
+    "both_pos": 0.785
+   },
+   "pc_entry_s": {
+    "len1": 0.088,
+    "standalone": 0.474,
+    "both_orders": 0.102,
+    "hfi": 0.507,
+    "pol_ex": 0.011,
+    "both_pos": 0.837
+   },
+   "cun_tag_s": {
+    "len1": 0.017,
+    "standalone": 0.048,
+    "both_orders": 0.048,
+    "hfi": 0.456,
+    "pol_ex": -0.259,
+    "both_pos": 1.0
+   },
+   "lat_label_w": {
+    "len1": 0.165,
+    "standalone": 0.61,
+    "both_orders": 0.121,
+    "hfi": 0.506,
+    "pol_ex": 0.148,
+    "both_pos": 0.758
+   },
+   "lina_label_s": {
+    "len1": 0.211,
+    "standalone": 0.622,
+    "both_orders": 0.125,
+    "hfi": 0.448,
+    "pol_ex": 0.045,
+    "both_pos": 0.752
+   },
+   "khipu": {
+    "len1": 0.031,
+    "standalone": 0.346,
+    "both_orders": 0.354,
+    "hfi": 0.45,
+    "pol_ex": -0.009,
+    "both_pos": 0.863
+   },
+   "chess_eco": {
+    "len1": 0.012,
+    "standalone": 0.253,
+    "both_orders": 0.256,
+    "hfi": 0.215,
+    "pol_ex": 0.948,
+    "both_pos": 0.039
+   },
+   "chords": {
+    "len1": 0.023,
+    "standalone": 0.245,
+    "both_orders": 0.339,
+    "hfi": 0.488,
+    "pol_ex": 0.041,
+    "both_pos": 0.79
+   },
+   "emoji": {
+    "len1": 0.198,
+    "standalone": 0.325,
+    "both_orders": 0.088,
+    "hfi": 0.807,
+    "pol_ex": 0.614,
+    "both_pos": 0.461
+   },
+   "metar": {
+    "len1": 0.001,
+    "standalone": 0.031,
+    "both_orders": 0.047,
+    "hfi": 0.151,
+    "pol_ex": 1.0,
+    "both_pos": 0.0
+   },
+   "old_english": {
+    "len1": 0.182,
+    "standalone": 0.441,
+    "both_orders": 0.049,
+    "hfi": 0.647,
+    "pol_ex": 0.508,
+    "both_pos": 0.357
+   },
+   "old_high_german": {
+    "len1": 0.354,
+    "standalone": 0.413,
+    "both_orders": 0.048,
+    "hfi": 0.613,
+    "pol_ex": 0.361,
+    "both_pos": 0.559
+   },
+   "old_norse": {
+    "len1": 0.596,
+    "standalone": 0.399,
+    "both_orders": 0.004,
+    "hfi": 0.534,
+    "pol_ex": 0.428,
+    "both_pos": 0.424
+   },
+   "greek": {
+    "len1": 0.315,
+    "standalone": 0.529,
+    "both_orders": 0.026,
+    "hfi": 0.642,
+    "pol_ex": 0.429,
+    "both_pos": 0.495
+   },
+   "sanskrit": {
+    "len1": 0.245,
+    "standalone": 0.695,
+    "both_orders": 0.037,
+    "hfi": 0.515,
+    "pol_ex": 0.165,
+    "both_pos": 0.703
+   },
+   "egyptian": {
+    "len1": 0.436,
+    "standalone": 0.334,
+    "both_orders": 0.038,
+    "hfi": 0.262,
+    "pol_ex": 0.329,
+    "both_pos": 0.647
+   },
+   "ur3": {
+    "len1": 0.082,
+    "standalone": 0.392,
+    "both_orders": 0.099,
+    "hfi": 0.263,
+    "pol_ex": 0.48,
+    "both_pos": 0.571
+   },
+   "chinese_given": {
+    "len1": 0.043,
+    "standalone": 0.274,
+    "both_orders": 0.044,
+    "hfi": 0.494,
+    "pol_ex": 0.115,
+    "both_pos": 0.739
+   },
+   "chinese_full": {
+    "len1": 0.0,
+    "standalone": 0.0,
+    "both_orders": 0.067,
+    "hfi": 0.408,
+    "pol_ex": 0.165,
+    "both_pos": 0.697
+   },
+   "plains": {
+    "len1": 0.039,
+    "standalone": 0.035,
+    "both_orders": 0.003,
+    "hfi": 0.467,
+    "pol_ex": 0.504,
+    "both_pos": 0.421
+   },
+   "sangam": {
+    "len1": 0.22,
+    "standalone": 0.602,
+    "both_orders": 0.027,
+    "hfi": 0.484,
+    "pol_ex": 0.269,
+    "both_pos": 0.686
+   }
+  },
+  "sizes": {
+   "ur3_legend_w": 6297,
+   "ur3_title_w": 1190,
+   "ur3_legend_s": 2906,
+   "ob_legend_s": 1314,
+   "egy_phrase_l": 3172,
+   "egy_title_l": 875,
+   "heraldry_w": 8649,
+   "linb_entry_w": 8111,
+   "pe_entry_s": 4124,
+   "pc_entry_s": 15560,
+   "cun_tag_s": 120,
+   "lat_label_w": 3603,
+   "lina_label_s": 228,
+   "khipu": 2737,
+   "chess_eco": 1764,
+   "chords": 3487,
+   "emoji": 3963,
+   "metar": 2171,
+   "old_english": 1043,
+   "old_high_german": 488,
+   "old_norse": 159,
+   "greek": 962,
+   "sanskrit": 7431,
+   "egyptian": 171,
+   "ur3": 3317,
+   "chinese_given": 30653,
+   "chinese_full": 60000,
+   "plains": 101,
+   "sangam": 540
+  }
+ },
+ "sym": {
+  "nn": {
+   "ur3_legend_w": {
+    "d": 0.792,
+    "nearest": "ob_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3_legend_s",
+      1.2
+     ],
+     [
+      "heraldry_w",
+      1.33
+     ],
+     [
+      "cun_tag_s",
+      2.08
+     ]
+    ]
+   },
+   "ur3_title_w": {
+    "d": 2.562,
+    "nearest": "cun_tag_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "chess_eco",
+      3.11
+     ],
+     [
+      "egy_title_l",
+      3.14
+     ],
+     [
+      "egyptian",
+      3.51
+     ]
+    ]
+   },
+   "ur3_legend_s": {
+    "d": 1.2,
+    "nearest": "ur3_legend_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "heraldry_w",
+      1.41
+     ],
+     [
+      "ob_legend_s",
+      1.56
+     ],
+     [
+      "plains",
+      2.43
+     ]
+    ]
+   },
+   "ob_legend_s": {
+    "d": 0.792,
+    "nearest": "ur3_legend_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "cun_tag_s",
+      1.1
+     ],
+     [
+      "ur3_legend_s",
+      1.56
+     ],
+     [
+      "heraldry_w",
+      2.05
+     ]
+    ]
+   },
+   "egy_phrase_l": {
+    "d": 0.553,
+    "nearest": "lat_label_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egyptian",
+      0.64
+     ],
+     [
+      "pe_entry_s",
+      0.7
+     ],
+     [
+      "egy_title_l",
+      0.7
+     ]
+    ]
+   },
+   "egy_title_l": {
+    "d": 0.703,
+    "nearest": "egy_phrase_l",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "lat_label_w",
+      1.19
+     ],
+     [
+      "pe_entry_s",
+      1.29
+     ],
+     [
+      "ur3",
+      1.36
+     ]
+    ]
+   },
+   "heraldry_w": {
+    "d": 1.327,
+    "nearest": "ur3_legend_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3_legend_s",
+      1.41
+     ],
+     [
+      "ob_legend_s",
+      2.05
+     ],
+     [
+      "cun_tag_s",
+      2.12
+     ]
+    ]
+   },
+   "linb_entry_w": {
+    "d": 0.753,
+    "nearest": "lat_label_w",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egyptian",
+      0.76
+     ],
+     [
+      "egy_phrase_l",
+      1.13
+     ],
+     [
+      "pe_entry_s",
+      1.13
+     ]
+    ]
+   },
+   "pe_entry_s": {
+    "d": 0.515,
+    "nearest": "ur3",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "lat_label_w",
+      0.55
+     ],
+     [
+      "egy_phrase_l",
+      0.7
+     ],
+     [
+      "pc_entry_s",
+      0.93
+     ]
+    ]
+   },
+   "pc_entry_s": {
+    "d": 0.833,
+    "nearest": "ur3",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "pe_entry_s",
+      0.93
+     ],
+     [
+      "cun_tag_s",
+      1.03
+     ],
+     [
+      "lat_label_w",
+      1.4
+     ]
+    ]
+   },
+   "cun_tag_s": {
+    "d": 1.034,
+    "nearest": "pc_entry_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3",
+      1.05
+     ],
+     [
+      "ob_legend_s",
+      1.1
+     ],
+     [
+      "chinese_full",
+      1.3
+     ]
+    ]
+   },
+   "lat_label_w": {
+    "d": 0.549,
+    "nearest": "pe_entry_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "egy_phrase_l",
+      0.55
+     ],
+     [
+      "linb_entry_w",
+      0.75
+     ],
+     [
+      "ur3",
+      1.02
+     ]
+    ]
+   },
+   "lina_label_s": {
+    "d": 2.84,
+    "nearest": "egyptian",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "egy_title_l",
+      3.28
+     ],
+     [
+      "plains",
+      3.33
+     ],
+     [
+      "old_norse",
+      3.41
+     ]
+    ]
+   },
+   "khipu": {
+    "d": 0.777,
+    "nearest": "chords",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chess_eco",
+      3.64
+     ],
+     [
+      "ur3_legend_w",
+      5.1
+     ],
+     [
+      "heraldry_w",
+      5.16
+     ]
+    ]
+   },
+   "chess_eco": {
+    "d": 2.847,
+    "nearest": "ob_legend_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "ur3_title_w",
+      3.11
+     ],
+     [
+      "ur3_legend_w",
+      3.18
+     ],
+     [
+      "cun_tag_s",
+      3.5
+     ]
+    ]
+   },
+   "chords": {
+    "d": 0.777,
+    "nearest": "khipu",
+    "group_of_nearest": "code",
+    "next": [
+     [
+      "chess_eco",
+      3.74
+     ],
+     [
+      "heraldry_w",
+      4.6
+     ],
+     [
+      "ur3_legend_w",
+      4.67
+     ]
+    ]
+   },
+   "emoji": {
+    "d": 1.663,
+    "nearest": "old_norse",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "egyptian",
+      1.93
+     ],
+     [
+      "plains",
+      2.09
+     ],
+     [
+      "linb_entry_w",
+      2.72
+     ]
+    ]
+   },
+   "metar": {
+    "d": 2.212,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "chinese_full",
+      3.0
+     ],
+     [
+      "emoji",
+      3.47
+     ],
+     [
+      "ur3_legend_s",
+      3.6
+     ]
+    ]
+   },
+   "old_english": {
+    "d": 1.221,
+    "nearest": "chinese_given",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "old_high_german",
+      1.37
+     ],
+     [
+      "greek",
+      1.58
+     ],
+     [
+      "old_norse",
+      1.87
+     ]
+    ]
+   },
+   "old_high_german": {
+    "d": 0.612,
+    "nearest": "greek",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "chinese_given",
+      1.11
+     ],
+     [
+      "old_norse",
+      1.19
+     ],
+     [
+      "sanskrit",
+      1.29
+     ]
+    ]
+   },
+   "old_norse": {
+    "d": 0.696,
+    "nearest": "greek",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "egyptian",
+      0.99
+     ],
+     [
+      "old_high_german",
+      1.19
+     ],
+     [
+      "linb_entry_w",
+      1.22
+     ]
+    ]
+   },
+   "greek": {
+    "d": 0.612,
+    "nearest": "old_high_german",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "old_norse",
+      0.7
+     ],
+     [
+      "sangam",
+      0.96
+     ],
+     [
+      "sanskrit",
+      0.99
+     ]
+    ]
+   },
+   "sanskrit": {
+    "d": 0.843,
+    "nearest": "chinese_given",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "sangam",
+      0.97
+     ],
+     [
+      "greek",
+      0.99
+     ],
+     [
+      "old_high_german",
+      1.29
+     ]
+    ]
+   },
+   "egyptian": {
+    "d": 0.635,
+    "nearest": "egy_phrase_l",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "linb_entry_w",
+      0.76
+     ],
+     [
+      "old_norse",
+      0.99
+     ],
+     [
+      "sangam",
+      1.07
+     ]
+    ]
+   },
+   "ur3": {
+    "d": 0.515,
+    "nearest": "pe_entry_s",
+    "group_of_nearest": "genre",
+    "next": [
+     [
+      "pc_entry_s",
+      0.83
+     ],
+     [
+      "egy_phrase_l",
+      0.96
+     ],
+     [
+      "lat_label_w",
+      1.02
+     ]
+    ]
+   },
+   "chinese_given": {
+    "d": 0.843,
+    "nearest": "sanskrit",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "greek",
+      1.1
+     ],
+     [
+      "old_high_german",
+      1.11
+     ],
+     [
+      "old_english",
+      1.22
+     ]
+    ]
+   },
+   "chinese_full": {
+    "d": 1.171,
+    "nearest": "plains",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "cun_tag_s",
+      1.3
+     ],
+     [
+      "pc_entry_s",
+      1.42
+     ],
+     [
+      "ur3",
+      2.2
+     ]
+    ]
+   },
+   "plains": {
+    "d": 1.171,
+    "nearest": "chinese_full",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "pc_entry_s",
+      1.52
+     ],
+     [
+      "ur3",
+      1.76
+     ],
+     [
+      "egyptian",
+      1.77
+     ]
+    ]
+   },
+   "sangam": {
+    "d": 0.957,
+    "nearest": "greek",
+    "group_of_nearest": "name",
+    "next": [
+     [
+      "sanskrit",
+      0.97
+     ],
+     [
+      "egyptian",
+      1.07
+     ],
+     [
+      "linb_entry_w",
+      1.25
+     ]
+    ]
+   }
+  },
+  "nn_median": 0.833,
+  "nn_max": 2.847,
+  "pooled_scales": {
+   "len1": 0.23780948754650416,
+   "standalone": 0.2445944351747961,
+   "both_orders": 0.09513453552831332,
+   "hfi": 0.09541177050190026,
+   "pol_ex": 0.24001939723600307,
+   "both_pos": 0.2007705981125342
+  },
+  "group_nn_hits": [
+   21,
+   29
+  ],
+  "means_at_cap": {
+   "ur3_legend_w": {
+    "len1": 0.043,
+    "standalone": 0.295,
+    "both_orders": 0.173,
+    "hfi": 0.555,
+    "pol_ex": 0.037,
+    "both_pos": 0.832
+   },
+   "ur3_title_w": {
+    "len1": 0.125,
+    "standalone": 0.854,
+    "both_orders": 0.231,
+    "hfi": 0.491,
+    "pol_ex": -0.066,
+    "both_pos": 0.961
+   },
+   "ur3_legend_s": {
+    "len1": 0.028,
+    "standalone": 0.236,
+    "both_orders": 0.135,
+    "hfi": 0.539,
+    "pol_ex": 0.101,
+    "both_pos": 0.796
+   },
+   "ob_legend_s": {
+    "len1": 0.026,
+    "standalone": 0.374,
+    "both_orders": 0.166,
+    "hfi": 0.472,
+    "pol_ex": 0.036,
+    "both_pos": 0.781
+   },
+   "egy_phrase_l": {
+    "len1": 0.221,
+    "standalone": 0.691,
+    "both_orders": 0.117,
+    "hfi": 0.44,
+    "pol_ex": 0.141,
+    "both_pos": 0.78
+   },
+   "egy_title_l": {
+    "len1": 0.179,
+    "standalone": 0.712,
+    "both_orders": 0.135,
+    "hfi": 0.544,
+    "pol_ex": 0.231,
+    "both_pos": 0.648
+   },
+   "heraldry_w": {
+    "len1": 0.023,
+    "standalone": 0.165,
+    "both_orders": 0.178,
+    "hfi": 0.624,
+    "pol_ex": 0.193,
+    "both_pos": 0.697
+   },
+   "linb_entry_w": {
+    "len1": 0.22,
+    "standalone": 0.722,
+    "both_orders": 0.079,
+    "hfi": 0.555,
+    "pol_ex": 0.086,
+    "both_pos": 0.782
+   },
+   "pe_entry_s": {
+    "len1": 0.232,
+    "standalone": 0.635,
+    "both_orders": 0.106,
+    "hfi": 0.517,
+    "pol_ex": 0.035,
+    "both_pos": 0.859
+   },
+   "pc_entry_s": {
+    "len1": 0.138,
+    "standalone": 0.545,
+    "both_orders": 0.094,
+    "hfi": 0.493,
+    "pol_ex": 0.009,
+    "both_pos": 0.888
+   },
+   "cun_tag_s": {
+    "len1": 0.067,
+    "standalone": 0.116,
+    "both_orders": 0.042,
+    "hfi": 0.555,
+    "pol_ex": -0.202,
+    "both_pos": 1.0
+   },
+   "lat_label_w": {
+    "len1": 0.21,
+    "standalone": 0.692,
+    "both_orders": 0.102,
+    "hfi": 0.485,
+    "pol_ex": 0.013,
+    "both_pos": 0.853
+   },
+   "lina_label_s": {
+    "len1": 0.237,
+    "standalone": 0.745,
+    "both_orders": 0.121,
+    "hfi": 0.495,
+    "pol_ex": -0.016,
+    "both_pos": 0.75
+   },
+   "khipu": {
+    "len1": 0.031,
+    "standalone": 0.306,
+    "both_orders": 0.356,
+    "hfi": 0.479,
+    "pol_ex": 0.025,
+    "both_pos": 0.827
+   },
+   "chess_eco": {
+    "len1": 0.045,
+    "standalone": 0.537,
+    "both_orders": 0.252,
+    "hfi": 0.437,
+    "pol_ex": 0.118,
+    "both_pos": 0.711
+   },
+   "chords": {
+    "len1": 0.021,
+    "standalone": 0.24,
+    "both_orders": 0.34,
+    "hfi": 0.501,
+    "pol_ex": 0.022,
+    "both_pos": 0.866
+   },
+   "emoji": {
+    "len1": 0.538,
+    "standalone": 0.614,
+    "both_orders": 0.05,
+    "hfi": 0.891,
+    "pol_ex": 0.777,
+    "both_pos": 0.14
+   },
+   "metar": {
+    "len1": 0.006,
+    "standalone": 0.262,
+    "both_orders": 0.039,
+    "hfi": 0.767,
+    "pol_ex": 0.921,
+    "both_pos": 0.229
+   },
+   "old_english": {
+    "len1": 0.808,
+    "standalone": 0.898,
+    "both_orders": 0.002,
+    "hfi": 0.578,
+    "pol_ex": 0.141,
+    "both_pos": 0.668
+   },
+   "old_high_german": {
+    "len1": 0.619,
+    "standalone": 0.784,
+    "both_orders": 0.006,
+    "hfi": 0.553,
+    "pol_ex": 0.419,
+    "both_pos": 0.482
+   },
+   "old_norse": {
+    "len1": 0.596,
+    "standalone": 0.399,
+    "both_orders": 0.004,
+    "hfi": 0.534,
+    "pol_ex": 0.428,
+    "both_pos": 0.424
+   },
+   "greek": {
+    "len1": 0.554,
+    "standalone": 0.867,
+    "both_orders": 0.023,
+    "hfi": 0.594,
+    "pol_ex": 0.27,
+    "both_pos": 0.606
+   },
+   "sanskrit": {
+    "len1": 0.569,
+    "standalone": 0.812,
+    "both_orders": 0.016,
+    "hfi": 0.49,
+    "pol_ex": 0.021,
+    "both_pos": 0.834
+   },
+   "egyptian": {
+    "len1": 0.459,
+    "standalone": 0.397,
+    "both_orders": 0.036,
+    "hfi": 0.448,
+    "pol_ex": 0.375,
+    "both_pos": 0.592
+   },
+   "ur3": {
+    "len1": 0.183,
+    "standalone": 0.595,
+    "both_orders": 0.118,
+    "hfi": 0.513,
+    "pol_ex": 0.047,
+    "both_pos": 0.839
+   },
+   "chinese_given": {
+    "len1": 0.742,
+    "standalone": 0.884,
+    "both_orders": 0.002,
+    "hfi": 0.456,
+    "pol_ex": 0.013,
+    "both_pos": 0.827
+   },
+   "chinese_full": {
+    "len1": 0.108,
+    "standalone": 0.426,
+    "both_orders": 0.063,
+    "hfi": 0.511,
+    "pol_ex": 0.09,
+    "both_pos": 0.837
+   },
+   "plains": {
+    "len1": 0.113,
+    "standalone": 0.126,
+    "both_orders": 0.003,
+    "hfi": 0.411,
+    "pol_ex": 0.475,
+    "both_pos": 0.413
+   },
+   "sangam": {
+    "len1": 0.294,
+    "standalone": 0.727,
+    "both_orders": 0.03,
+    "hfi": 0.499,
+    "pol_ex": 0.128,
+    "both_pos": 0.715
+   }
+  },
+  "sizes": {
+   "ur3_legend_w": 4875,
+   "ur3_title_w": 831,
+   "ur3_legend_s": 2698,
+   "ob_legend_s": 1182,
+   "egy_phrase_l": 3017,
+   "egy_title_l": 887,
+   "heraldry_w": 8566,
+   "linb_entry_w": 7380,
+   "pe_entry_s": 2915,
+   "pc_entry_s": 10611,
+   "cun_tag_s": 131,
+   "lat_label_w": 3485,
+   "lina_label_s": 226,
+   "khipu": 2710,
+   "chess_eco": 1357,
+   "chords": 3472,
+   "emoji": 1828,
+   "metar": 1043,
+   "old_english": 446,
+   "old_high_german": 423,
+   "old_norse": 159,
+   "greek": 863,
+   "sanskrit": 5378,
+   "egyptian": 170,
+   "ur3": 2308,
+   "chinese_given": 1271,
+   "chinese_full": 7373,
+   "plains": 101,
+   "sangam": 530
+  }
+ }
+}

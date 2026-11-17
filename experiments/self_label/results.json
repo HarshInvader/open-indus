@@ -1,0 +1,488 @@
+{
+ "area": "self_label",
+ "question": "Do signs depict the object they are written on?",
+ "prereg": "docs/prereg/self_label.md",
+ "n_frozen_pairs": 78,
+ "untestable_classes": {
+  "weight": "no inscribed weights",
+  "bead": "2 ICIT items",
+  "copper tablet": "one site only: cannot pass second-site rule"
+ },
+ "confirmed_pairs": [
+  [
+   "bangle",
+   "M373"
+  ]
+ ],
+ "verdict": {
+  "n_confirmed_signs": 1,
+  "signs": [
+   "M373"
+  ],
+  "decisive_positive": false
+ },
+ "decision": "NULL for the decisive bar (needs >=2 signs); 1 single lead (bangle x M373/W790)",
+ "global_tests": [
+  {
+   "route": "chamfer",
+   "n": 21,
+   "mean_pct": 0.405,
+   "null_mean": 0.497,
+   "p": 0.9304069593040696,
+   "set": "m77_dev"
+  },
+  {
+   "route": "catalogue",
+   "n": 21,
+   "mean_pct": 0.31,
+   "null_mean": 0.497,
+   "p": 0.9989001099890011,
+   "set": "m77_dev"
+  },
+  {
+   "route": "hu",
+   "n": 21,
+   "mean_pct": 0.489,
+   "null_mean": 0.495,
+   "p": 0.5422457754224578,
+   "set": "m77_dev"
+  },
+  {
+   "route": "chamfer",
+   "n": 16,
+   "mean_pct": 0.442,
+   "null_mean": 0.493,
+   "p": 0.7616238376162384,
+   "set": "m77_heldout_v2"
+  },
+  {
+   "route": "catalogue",
+   "n": 21,
+   "mean_pct": 0.31,
+   "null_mean": 0.493,
+   "p": 0.9985001499850015,
+   "set": "m77_heldout_v2"
+  },
+  {
+   "route": "hu",
+   "n": 19,
+   "mean_pct": 0.498,
+   "null_mean": 0.494,
+   "p": 0.47695230476952305,
+   "set": "m77_heldout_v2"
+  },
+  {
+   "route": "chamfer",
+   "n": 21,
+   "mean_pct": 0.505,
+   "null_mean": 0.497,
+   "p": 0.45195480451954806,
+   "set": "icit"
+  },
+  {
+   "route": "catalogue",
+   "n": 27,
+   "mean_pct": 0.385,
+   "null_mean": 0.495,
+   "p": 0.9779022097790221,
+   "set": "icit"
+  },
+  {
+   "route": "hu",
+   "n": 21,
+   "mean_pct": 0.457,
+   "null_mean": 0.496,
+   "p": 0.7348265173482652,
+   "set": "icit"
+  }
+ ],
+ "bangle_M373": {
+  "icit": {
+   "set": "icit",
+   "cls": "bangle",
+   "sign": "M373",
+   "routes": [
+    "catalogue"
+   ],
+   "n_cls": 41,
+   "present": 46,
+   "obs": 6,
+   "exp": 0.45,
+   "z": 8.31,
+   "p": 9.999000099990002e-05,
+   "register_pct": 0.9869281045751634,
+   "q": 0.007799220077992201,
+   "site_rep": [
+    {
+     "site": "Harappa",
+     "n_cls": 6,
+     "obs": 2,
+     "exp": 0.07,
+     "p": 0.0011998800119988001
+    }
+   ],
+   "pass": {
+    "C1_icit_q": true,
+    "C2_second_site": true,
+    "C3_register_top10": true,
+    "C4_heldout_dir": true
+   }
+  },
+  "redteam_exploratory": {
+   "length_matched": {
+    "obs": 6,
+    "n_bangle": 41,
+    "exp": 0.3201,
+    "p": 9.999000099990002e-05
+   },
+   "length_site_matched": {
+    "obs": 6,
+    "exp": 0.2361,
+    "p": 9.999000099990002e-05
+   },
+   "rate_by_class": {
+    "bangle": [
+     6,
+     41
+    ],
+    "bronze implement": [
+     0,
+     18
+    ],
+    "copper tablet": [
+     3,
+     98
+    ],
+    "ivory/bone rod": [
+     0,
+     37
+    ],
+    "miniature tablet": [
+     7,
+     886
+    ],
+    "other": [
+     2,
+     85
+    ],
+    "pottery graffito": [
+     4,
+     384
+    ],
+    "seal": [
+     21,
+     2158
+    ],
+    "sealing": [
+     0,
+     195
+    ],
+    "stamped pottery": [
+     3,
+     50
+    ]
+   },
+   "one_sign_texts": {
+    "seal": [
+     1,
+     165
+    ],
+    "sealing": [
+     0,
+     56
+    ],
+    "stamped pottery": [
+     0,
+     16
+    ],
+    "ivory/bone rod": [
+     0,
+     9
+    ],
+    "pottery graffito": [
+     0,
+     165
+    ],
+    "copper tablet": [
+     0,
+     19
+    ],
+    "other": [
+     1,
+     46
+    ],
+    "bronze implement": [
+     0,
+     2
+    ],
+    "miniature tablet": [
+     0,
+     138
+    ],
+    "bangle": [
+     3,
+     14
+    ]
+   },
+   "bangle_top_signs": [
+    [
+     "M373",
+     6,
+     46,
+     5.885861433001449e-06
+    ],
+    [
+     "M374",
+     6,
+     46,
+     5.885861433001449e-06
+    ],
+    [
+     "M261",
+     7,
+     96,
+     4.583991686959429e-05
+    ],
+    [
+     "W252",
+     2,
+     7,
+     0.0021341116153424716
+    ],
+    [
+     "M403",
+     5,
+     105,
+     0.004213722373105585
+    ],
+    [
+     "W511",
+     2,
+     11,
+     0.005444228145150828
+    ]
+   ]
+  }
+ },
+ "copper_M169_hu": {
+  "dev": {
+   "set": "m77_dev",
+   "cls": "copper tablet",
+   "sign": "M169",
+   "routes": [
+    "hu"
+   ],
+   "n_cls": 48,
+   "present": 124,
+   "obs": 12,
+   "exp": 3.15,
+   "z": 5.26,
+   "p": 9.999000099990002e-05,
+   "register_pct": 0.979381443298969,
+   "q": 0.006099390060993901
+  },
+  "heldout": {
+   "set": "m77_heldout_v2",
+   "cls": "copper tablet",
+   "sign": "M169",
+   "routes": [
+    "hu"
+   ],
+   "n_cls": 17,
+   "present": 32,
+   "obs": 4,
+   "exp": 0.82,
+   "z": 3.68,
+   "p": 0.006099390060993901,
+   "register_pct": 0.9666666666666667,
+   "q": 0.18603139686031397
+  },
+  "icit": {
+   "set": "icit",
+   "cls": "copper tablet",
+   "sign": "M169",
+   "routes": [
+    "hu"
+   ],
+   "n_cls": 98,
+   "present": 408,
+   "obs": 21,
+   "exp": 11.99,
+   "z": 2.88,
+   "p": 0.0051994800519948,
+   "register_pct": 0.9150326797385621,
+   "q": 0.1013898610138986,
+   "site_rep": [],
+   "pass": {
+    "C1_icit_q": false,
+    "C2_second_site": false,
+    "C3_register_top10": true,
+    "C4_heldout_dir": true
+   }
+  },
+  "note": "enriched in all three sets but fails C2 by design (one site); found by the Hu route, flagged unreliable before testing; M169 is a known copper-legend sign"
+ },
+ "jar_M342_on_pottery": {
+  "dev": {
+   "set": "m77_dev",
+   "cls": "pottery graffito",
+   "sign": "M342",
+   "routes": [
+    "catalogue"
+   ],
+   "n_cls": 76,
+   "present": 856,
+   "obs": 23,
+   "exp": 31.91,
+   "z": -2.22,
+   "p": 0.991000899910009,
+   "register_pct": 0.010309278350515464,
+   "q": 1.0
+  },
+  "heldout": {
+   "set": "m77_heldout_v2",
+   "cls": "pottery graffito",
+   "sign": "M342",
+   "routes": [
+    "catalogue"
+   ],
+   "n_cls": 39,
+   "present": 222,
+   "obs": 9,
+   "exp": 11.47,
+   "z": -0.94,
+   "p": 0.8718128187181282,
+   "register_pct": 0.16,
+   "q": 1.0
+  },
+  "icit": {
+   "set": "icit",
+   "cls": "pottery graffito",
+   "sign": "M342",
+   "routes": [
+    "catalogue"
+   ],
+   "n_cls": 384,
+   "present": 1448,
+   "obs": 70,
+   "exp": 124.06,
+   "z": -6.89,
+   "p": 1.0,
+   "register_pct": 0.0,
+   "q": 1.0,
+   "site_rep": [
+    {
+     "site": "Kalibangan",
+     "n_cls": 67,
+     "obs": 13,
+     "exp": 19.34,
+     "p": 0.9937006299370063
+    },
+    {
+     "site": "Mohenjo-daro",
+     "n_cls": 46,
+     "obs": 11,
+     "exp": 19.49,
+     "p": 0.9979002099790021
+    },
+    {
+     "site": "Nausharo",
+     "n_cls": 20,
+     "obs": 4,
+     "exp": 5.95,
+     "p": 0.962003799620038
+    },
+    {
+     "site": "Lothal",
+     "n_cls": 18,
+     "obs": 2,
+     "exp": 5.24,
+     "p": 0.9876012398760124
+    },
+    {
+     "site": "Kot-Diji",
+     "n_cls": 9,
+     "obs": 1,
+     "exp": 1.0,
+     "p": 1.0
+    },
+    {
+     "site": "Amri",
+     "n_cls": 5,
+     "obs": 0,
+     "exp": 0.0,
+     "p": 1.0
+    },
+    {
+     "site": "Banawali",
+     "n_cls": 5,
+     "obs": 1,
+     "exp": 1.14,
+     "p": 0.7617238276172382
+    },
+    {
+     "site": "Rodji",
+     "n_cls": 4,
+     "obs": 0,
+     "exp": 0.0,
+     "p": 1.0
+    },
+    {
+     "site": "Shikarpur",
+     "n_cls": 4,
+     "obs": 1,
+     "exp": 0.51,
+     "p": 0.5076492350764924
+    },
+    {
+     "site": "Chandigarh",
+     "n_cls": 3,
+     "obs": 2,
+     "exp": 2.0,
+     "p": 1.0
+    },
+    {
+     "site": "Chanhu-daro",
+     "n_cls": 3,
+     "obs": 1,
+     "exp": 1.23,
+     "p": 0.8012198780121987
+    },
+    {
+     "site": "Naru-Waro-dharo",
+     "n_cls": 3,
+     "obs": 0,
+     "exp": 0.0,
+     "p": 1.0
+    },
+    {
+     "site": "Ra's al-Junayz",
+     "n_cls": 3,
+     "obs": 2,
+     "exp": 2.0,
+     "p": 1.0
+    },
+    {
+     "site": "Lakhanjo-daro",
+     "n_cls": 3,
+     "obs": 0,
+     "exp": 1.86,
+     "p": 1.0
+    },
+    {
+     "site": "Nuhato",
+     "n_cls": 3,
+     "obs": 0,
+     "exp": 0.59,
+     "p": 1.0
+    }
+   ],
+   "pass": {
+    "C1_icit_q": false,
+    "C2_second_site": false,
+    "C3_register_top10": false,
+    "C4_heldout_dir": false
+   }
+  }
+ }
+}

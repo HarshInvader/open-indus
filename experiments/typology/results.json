@@ -1,0 +1,353 @@
+{
+ "q1_heldout_N200": {
+  "indus": {
+   "H_rel": [
+    0.9626856608045871,
+    0.9141489152125107,
+    1.0126266293915467
+   ],
+   "fixed_excess": [
+    0.013417913833834847,
+    -0.01583618512857997,
+    0.04992109634551495
+   ],
+   "float_rel": [
+    0.9202853591482435,
+    0.8444444444444443,
+    1.0
+   ],
+   "partner_rel": [
+    0.8920046351483313,
+    0.850742635083782,
+    0.9331336284062325
+   ],
+   "types_per_token": [
+    0.27856003341338265,
+    0.2665825194896229,
+    0.2903930131004367
+   ],
+   "H_pos": [
+    0.7660070235093629,
+    0.7364831198579518,
+    0.7936397372474293
+   ]
+  },
+  "indus_whole_word": {
+   "len1_share": [
+    0.34270500000000004,
+    0.3325,
+    0.3525
+   ],
+   "standalone_tok": [
+    0.8026889898503393,
+    0.7307662775927553,
+    0.8455311489380298
+   ],
+   "fully_decomposable": [
+    0.5923624468564087,
+    0.4737987831196135,
+    0.6711795076631752
+   ]
+  },
+  "refs_H_rel": {
+   "INDUS": 0.9626856608045871,
+   "Indus shuffled across cores (null)": 1.0056150622995403,
+   "Indus (strict nouns)": 0.9570096326630899,
+   "Indus (loose: numerals/titles kept)": 0.8997207366980958,
+   "Ur III seal names (logo-syllabic)": 0.712342988237635,
+   "Linear B words (syllabic)": 0.8878524716488521,
+   "Linear B person names (syllabic)": 0.700054325701028,
+   "Proto-Elamite entries": 0.8770170339240498,
+   "Chinese full names (logographic)": 0.22537407530007605,
+   "Synthetic slot code (logographic, fixed slots)": 0.5107498517441397,
+   "Synthetic free-order code (logographic)": 1.0232904356983121,
+   "Synthetic syllabary names": 1.0062863990030535
+  },
+  "refs_types_per_token": {
+   "INDUS": 0.27856003341338265,
+   "Indus shuffled across cores (null)": 0.2823900636187036,
+   "Indus (strict nouns)": 0.31370866102581163,
+   "Indus (loose: numerals/titles kept)": 0.3207459622557841,
+   "Ur III seal names (logo-syllabic)": 0.3855584905755832,
+   "Linear B words (syllabic)": 0.15478745721447784,
+   "Linear B person names (syllabic)": 0.28595639563744785,
+   "Proto-Elamite entries": 0.402374430759547,
+   "Chinese full names (logographic)": 0.6566899397444893,
+   "Synthetic slot code (logographic, fixed slots)": 0.4163226716604239,
+   "Synthetic free-order code (logographic)": 0.4065324930539332,
+   "Synthetic syllabary names": 0.14883952694890643
+  },
+  "refs_standalone_tok": {
+   "INDUS": 0.8026889898503393,
+   "Indus (strict nouns)": 0.8375527426160337,
+   "Indus (loose: numerals/titles kept)": 0.5169692879806751,
+   "Ur III seal names (logo-syllabic)": 0.03724212812347986,
+   "Linear B words (syllabic)": 0.09149747014944949,
+   "Linear B person names (syllabic)": 0.059541175803690276,
+   "Proto-Elamite entries": 0.11374013110326217,
+   "Chinese full names (logographic)": 0.0,
+   "Chinese given names (logographic)": 0.01303996753066983,
+   "Synthetic slot code (logographic, fixed slots)": 0.08631720166029402,
+   "Synthetic free-order code (logographic)": 0.07882716770080055,
+   "Synthetic syllabary names": 0.11301822637647421
+  },
+  "refs_len1_share": {
+   "INDUS": 0.34270500000000004,
+   "Indus (strict nouns)": 0.41379310344827586,
+   "Indus (loose: numerals/titles kept)": 0.23848,
+   "Ur III seal names (logo-syllabic)": 0.017785000000000002,
+   "Linear B words (syllabic)": 0.030660000000000003,
+   "Linear B person names (syllabic)": 0.007705,
+   "Proto-Elamite entries": 0.13788999999999998,
+   "Chinese full names (logographic)": 0.0,
+   "Chinese given names (logographic)": 0.05166500000000001,
+   "Synthetic slot code (logographic, fixed slots)": 0.071905,
+   "Synthetic free-order code (logographic)": 0.06786500000000001,
+   "Synthetic syllabary names": 0.020075000000000003
+  },
+  "distance": {
+   "Indus shuffled across cores (null)": 1.6347746540771175,
+   "Ur III seal names (logo-syllabic)": 0.892937359404432,
+   "Linear B words (syllabic)": 1.395931742212237,
+   "Proto-Elamite entries": 1.1602059211262992,
+   "Chinese full names (logographic)": 3.142829333863507,
+   "Synthetic slot code (logographic, fixed slots)": 2.0480085816987477,
+   "Synthetic free-order code (logographic)": 1.6451530107943584,
+   "Synthetic syllabary names": 1.3475686886606106
+  },
+  "prereg": {
+   "H1a": "pass",
+   "H1b": "pass",
+   "H2": "pass",
+   "H3": "fail (upper 0.933 vs <0.93)",
+   "H4": "pass",
+   "verdict": "inconclusive by registered rule (H3 missed by 0.003); direction = free-order whole-word signs, not syllabic spelling, not fixed slots"
+  }
+ },
+ "q2_gulf": {
+  "primary": {
+   "G1_types_per_token": {
+    "gulf": 0.7446808510638298,
+    "home_mean": 0.705204255319149,
+    "home_95": [
+     0.5957446808510638,
+     0.8085106382978723
+    ],
+    "p": 0.8077192280771923
+   },
+   "G2_any_repeat": {
+    "gulf": 0.1,
+    "home_mean": 0.008085,
+    "home_95": [
+     0.0,
+     0.05
+    ],
+    "p": 0.010298970102989701
+   },
+   "G3_adjacent_redup": {
+    "gulf": 0.07407407407407407,
+    "home_mean": 0.003525925925925926,
+    "home_95": [
+     0.0,
+     0.037037037037037035
+    ],
+    "p": 0.0035996400359964
+   },
+   "G4_jaccard": {
+    "gulf": 0.01824561403508772,
+    "home_mean": 0.038728694235588966,
+    "home_95": [
+     0.015224624060150375,
+     0.07716885964912279
+    ],
+    "p": 0.9398060193980602
+   }
+  },
+  "conf_only": {
+   "G1_types_per_token": {
+    "gulf": 0.8055555555555556,
+    "home_mean": 0.7470055555555556,
+    "home_95": [
+     0.6111111111111112,
+     0.8611111111111112
+    ],
+    "p": 0.8666133386661334
+   },
+   "G2_any_repeat": {
+    "gulf": 0.13333333333333333,
+    "home_mean": 0.009053333333333335,
+    "home_95": [
+     0.0,
+     0.06666666666666667
+    ],
+    "p": 0.007499250074992501
+   },
+   "G3_adjacent_redup": {
+    "gulf": 0.09523809523809523,
+    "home_mean": 0.0036714285714285707,
+    "home_95": [
+     0.0,
+     0.047619047619047616
+    ],
+    "p": 0.0030996900309969004
+   },
+   "G4_jaccard": {
+    "gulf": 0.01968253968253968,
+    "home_mean": 0.03769160090702948,
+    "home_95": [
+     0.011768707482993197,
+     0.08265646258503397
+    ],
+    "p": 0.8611138886111389
+   }
+  },
+  "home_round": {
+   "G1_types_per_token": {
+    "gulf": 0.7446808510638298,
+    "home_mean": 0.701963829787234,
+    "home_95": [
+     0.574468085106383,
+     0.8085106382978723
+    ],
+    "p": 0.8173182681731826
+   },
+   "G2_any_repeat": {
+    "gulf": 0.1,
+    "home_mean": 0.015895,
+    "home_95": [
+     0.0,
+     0.1
+    ],
+    "p": 0.0402959704029597
+   },
+   "G3_adjacent_redup": {
+    "gulf": 0.07407407407407407,
+    "home_mean": 0.009177777777777778,
+    "home_95": [
+     0.0,
+     0.037037037037037035
+    ],
+    "p": 0.024697530246975304
+   },
+   "G4_jaccard": {
+    "gulf": 0.01824561403508772,
+    "home_mean": 0.03607262030075188,
+    "home_95": [
+     0.014786967418546364,
+     0.07032644110275689
+    ],
+    "p": 0.9305069493050695
+   }
+  },
+  "m77": {
+   "G1_types_per_token": {
+    "gulf": 0.75,
+    "home_mean": 0.6432179224026471,
+    "home_95": [
+     0.546875,
+     0.7419354838709677
+    ],
+    "p": 0.984001599840016
+   },
+   "G2_any_repeat": {
+    "gulf": 0.25,
+    "home_mean": 0.07883125,
+    "home_95": [
+     0.0,
+     0.25
+    ],
+    "p": 0.030496950304969503
+   },
+   "G3_adjacent_redup": {
+    "gulf": 0.09090909090909091,
+    "home_mean": 0.021165027961786872,
+    "home_95": [
+     0.0,
+     0.07142857142857142
+    ],
+    "p": 0.009299070092990702
+   },
+   "G4_jaccard": {
+    "gulf": 0.017517135642135643,
+    "home_mean": 0.05475210427300476,
+    "home_95": [
+     0.026910481301106296,
+     0.09501993897306397
+    ],
+    "p": 0.9991000899910009
+   }
+  },
+  "person_number_share": {
+   "gulf": 0.5104166666666666,
+   "home": 0.2531719241066232,
+   "gulf_person": 0.23958333333333334,
+   "home_person": 0.07321615644278896
+  },
+  "candidates": [
+   {
+    "sign": "W924",
+    "gulf_texts": 2,
+    "gulf_rate": 0.1,
+    "home_rate": 0.0024311183144246355,
+    "ratio": 41.13333333333333
+   },
+   {
+    "sign": "W831",
+    "gulf_texts": 2,
+    "gulf_rate": 0.1,
+    "home_rate": 0.004592112371690978,
+    "ratio": 21.776470588235295
+   },
+   {
+    "sign": "W190",
+    "gulf_texts": 2,
+    "gulf_rate": 0.1,
+    "home_rate": 0.005132360886007563,
+    "ratio": 19.484210526315792
+   },
+   {
+    "sign": "W350",
+    "gulf_texts": 2,
+    "gulf_rate": 0.1,
+    "home_rate": 0.020799567801188548,
+    "ratio": 4.8077922077922075
+   },
+   {
+    "sign": "W415",
+    "gulf_texts": 2,
+    "gulf_rate": 0.1,
+    "home_rate": 0.04294975688816856,
+    "ratio": 2.328301886792453
+   },
+   {
+    "sign": "W803",
+    "gulf_texts": 2,
+    "gulf_rate": 0.1,
+    "home_rate": 0.04997298757428417,
+    "ratio": 2.001081081081081
+   },
+   {
+    "sign": "W220",
+    "gulf_texts": 3,
+    "gulf_rate": 0.15,
+    "home_rate": 0.1272285251215559,
+    "ratio": 1.1789808917197453
+   },
+   {
+    "sign": "W740",
+    "gulf_texts": 3,
+    "gulf_rate": 0.15,
+    "home_rate": 0.4394921663965424,
+    "ratio": 0.3413030116779348
+   }
+  ],
+  "prereg": {
+   "G1": "fail p=0.81",
+   "G2": "pass p=0.0103",
+   "G3": "pass p=0.0036",
+   "G4": "fail p=0.94",
+   "verdict": "not supported (G1 fails); repetition = doubled jar W740 in 2 texts"
+  }
+ },
+ "tests_run": "Q1: 5 confirmatory + ~40 descriptive metric comparisons; Q2: 4 confirmatory + 16 robustness"
+}

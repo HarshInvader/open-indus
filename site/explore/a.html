@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Painted ware · Open Indus</title>
+<meta name="description" content="Design direction A: the page as a painted Harappan vessel, black on red slip.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<script>
+(function () {
+  var t = null;
+  try { t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('oi-explore-theme'); } catch (e) {}
+  if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+<style>
+/* Harappan painted ware: red slip, black paint, and the pale buff of the unslipped clay. */
+:root {
+  --slip: #b6432d;          /* red slip field */
+  --slip-deep: #8e2f1e;
+  --paint: #1a1210;         /* black paint */
+  --clay: #f2e6d4;          /* buff ground */
+  --clay-2: #e9d9c2;
+  --ink: #1a1210;
+  --ink-2: #4c3a31;         /* 8.9:1 on clay */
+  --on-slip: #fff4e8;       /* 5.1:1 on slip */
+  --on-slip-head: #1a1210;  /* 3.3:1 on slip, display sizes only */
+  --line: rgba(26,18,16,.85);
+  --chance: #b6432d;
+  --bg: var(--clay);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --slip: #a33b27; --slip-deep: #7c2a1b; --paint: #120c0a; --clay: #1a1310; --clay-2: #241a16;
+    --ink: #f4e7d5; --ink-2: #d4c2ad; --on-slip: #fff4e8; --on-slip-head: #fff4e8;
+    --line: rgba(244,231,213,.8); --chance: #e2765c; --bg: #120c0a; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --slip: #a33b27; --slip-deep: #7c2a1b; --paint: #120c0a; --clay: #1a1310; --clay-2: #241a16;
+  --ink: #f4e7d5; --ink-2: #d4c2ad; --on-slip: #fff4e8; --on-slip-head: #fff4e8;
+  --line: rgba(244,231,213,.8); --chance: #e2765c; --bg: #120c0a; color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 17px/1.6 Archivo, "Helvetica Neue", Arial, sans-serif; font-stretch: 100%; overflow-x: hidden; }
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+.wrap { width: min(1280px, 100% - 32px); margin-inline: auto; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+.display { font-stretch: 125%; font-weight: 850; letter-spacing: -.035em; line-height: .9; }
+
+/* the rim: a black painted band */
+header.rim { background: var(--paint); color: #f4e7d5; }
+header.rim .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 72px; }
+.brand { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+.brand svg.mark { width: 30px; height: 30px; }
+.brand svg.word { height: 21px; width: auto; }
+nav.main { display: flex; gap: 4px; }
+nav.main a { text-decoration: none; font-weight: 600; font-size: 15px; padding: 8px 12px; color: rgba(244,231,213,.78); transition: color .15s ease; }
+nav.main a[aria-current] { color: #fff4e8; box-shadow: inset 0 -3px 0 var(--slip); }
+@media (hover: hover) and (pointer: fine) { nav.main a:hover { color: #fff4e8; } }
+.theme { font: inherit; font-weight: 700; font-size: 14px; color: #f4e7d5; background: transparent; border: 1.5px solid rgba(244,231,213,.4); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+@media (max-width: 860px) { nav.main a:not([aria-current]) { display: none; } }
+/* register lines under the rim, as painted on a jar */
+.reg { height: 14px; background:
+  linear-gradient(var(--slip), var(--slip)) 0 0 / 100% 6px no-repeat,
+  linear-gradient(var(--paint), var(--paint)) 0 9px / 100% 2px no-repeat; }
+
+/* the hero is the slipped body of the vessel */
+.hero { background: var(--slip); color: var(--on-slip); position: relative; overflow: hidden; }
+.hero::after { /* burnish: the slip is polished, not flat */
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(120% 90% at 20% 0%, rgba(255,255,255,.10), transparent 60%), radial-gradient(80% 80% at 100% 100%, rgba(0,0,0,.18), transparent 70%); }
+.hero .wrap { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr); gap: 24px; align-items: center; padding: 64px 0 72px; }
+.kicker { margin: 0 0 24px; font-weight: 700; font-size: 15px; display: inline-flex; gap: 10px; align-items: center; }
+.kicker svg { width: 18px; height: 18px; }
+h1 { margin: 0; font-size: clamp(54px, 8vw, 128px); color: var(--on-slip-head); text-wrap: balance; }
+h1 em { font-style: normal; color: var(--on-slip); }
+.lede { margin: 28px 0 0; max-width: 30ch; font-size: clamp(20px, 2.1vw, 25px); line-height: 1.38; font-weight: 500; }
+.def { margin: 16px 0 0; max-width: 54ch; }
+.def b { font-weight: 700; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.btn { font: inherit; font-weight: 750; font-size: 16px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; padding: 15px 24px; border-radius: 999px; cursor: pointer; border: 0;
+  transition: transform .16s cubic-bezier(.23,1,.32,1), background-color .16s ease; }
+.btn:active { transform: scale(.97); }
+.btn.primary { background: var(--paint); color: #fff4e8; }
+.btn.ghost { background: transparent; color: var(--on-slip); box-shadow: inset 0 0 0 2px var(--on-slip); }
+.btn.on-clay { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px var(--ink); }
+.btn .dot { width: 18px; height: 18px; }
+
+.vessel { position: relative; display: grid; place-items: center; }
+.vessel svg.jar { width: min(460px, 100%); height: auto; overflow: visible; }
+.slot-note { position: absolute; bottom: -38px; right: 0; font-size: 13px; font-weight: 600; opacity: .85; display: flex; gap: 8px; align-items: center; }
+.slot-note::before { content: ""; width: 14px; height: 14px; border: 1.5px dashed currentColor; border-radius: 3px; }
+
+/* a generous painted frieze between parts of the page */
+.frieze { display: block; width: 100%; height: 96px; }
+.frieze.slim { height: 44px; }
+
+/* ladder: the stepped motif */
+.ladder-sec { padding: 56px 0 64px; }
+.claim { font-weight: 750; font-size: 19px; margin: 0 0 22px; }
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); align-items: end; }
+.step { position: relative; height: calc(96px + var(--i) * 40px); padding: 14px 16px; border: 3px solid var(--paint); margin-left: -3px; display: flex; flex-direction: column; justify-content: flex-start; }
+:root[data-theme="dark"] .step { border-color: var(--line); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .step { border-color: var(--line); } }
+.step:first-child { margin-left: 0; }
+.step b { font-stretch: 112%; font-weight: 800; font-size: 20px; line-height: 1.1; }
+.step span { font-size: 15px; color: var(--ink-2); }
+.step .st { margin-top: auto; font-size: 13px; font-weight: 700; }
+.step.done { background: var(--paint); color: #fff4e8; }
+.step.done span { color: rgba(255,244,232,.82); }
+:root[data-theme="dark"] .step.done { background: var(--slip); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .step.done { background: var(--slip); } }
+.step.part { background: linear-gradient(to top, transparent 0 0), repeating-linear-gradient(135deg, var(--paint) 0 3px, transparent 3px 11px) bottom / 100% 50% no-repeat; }
+:root[data-theme="dark"] .step.part { background: repeating-linear-gradient(135deg, var(--slip) 0 3px, transparent 3px 11px) bottom / 100% 50% no-repeat; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .step.part { background: repeating-linear-gradient(135deg, var(--slip) 0 3px, transparent 3px 11px) bottom / 100% 50% no-repeat; } }
+.step.part .st, .step.part b, .step.part span { position: relative; }
+.step.part .st { background: var(--bg); align-self: flex-start; padding: 0 6px; margin-left: -6px; }
+@media (max-width: 760px) {
+  .steps { grid-template-columns: 1fr; }
+  .step { height: auto; margin: -3px 0 0; width: calc(60% + var(--i) * 10%); min-height: 64px; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 2px 10px; }
+  .step .st { margin-left: auto; }
+  .step.part .st { margin-left: auto; }
+  .steps li:nth-child(1) { order: 5; } .steps li:nth-child(2) { order: 4; } .steps li:nth-child(3) { order: 3; } .steps li:nth-child(4) { order: 2; } .steps li:nth-child(5) { order: 1; }
+  .step.part { background-size: 22% 100% !important; background-position: right !important; }
+  .step.part .st { margin-right: 24%; }
+}
+
+/* findings */
+section.block { padding: 64px 0 40px; }
+.head { display: grid; grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
+.rail { margin: 8px 0 0; font-weight: 750; font-size: 15px; display: flex; gap: 12px; align-items: center; }
+.rail svg { width: 34px; height: 34px; flex: none; }
+h2 { margin: 0; font-size: clamp(36px, 5vw, 68px); text-wrap: balance; }
+.intro { margin: 18px 0 0; max-width: 58ch; color: var(--ink-2); font-size: 18px; }
+.grid2 { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 56px; margin-top: 44px; align-items: start; }
+@media (max-width: 900px) { .grid2, .head { grid-template-columns: 1fr; } .head { gap: 12px; } .grid2 { gap: 40px; } }
+.legend { display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; color: var(--ink-2); font-weight: 600; margin-bottom: 26px; }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.key { width: 24px; height: 12px; display: inline-block; }
+.key.obs { background: var(--ink); }
+.key.chance { background: repeating-linear-gradient(135deg, var(--chance) 0 2px, transparent 2px 5px); box-shadow: inset 0 0 0 2px var(--chance); }
+.pair { margin-bottom: 26px; }
+.pl { font-weight: 700; margin: 0 0 8px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.sig { width: 26px; height: 26px; }
+:root[data-theme="dark"] .sig { filter: invert(.92); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sig { filter: invert(.92); } }
+.bar { display: grid; grid-template-columns: 70px minmax(0, 1fr) 72px; gap: 12px; align-items: center; font-size: 14px; color: var(--ink-2); margin-top: 4px; }
+.bar .bv { text-align: right; font-weight: 750; color: var(--ink); font-variant-numeric: tabular-nums; }
+.track { height: 20px; position: relative; border-bottom: 2px solid var(--line); }
+.fill { position: absolute; left: 0; top: 2px; bottom: 2px; width: var(--v); min-width: 3px; }
+.fill.obs { background: var(--ink); }
+.fill.chance { background: repeating-linear-gradient(135deg, var(--chance) 0 2px, transparent 2px 5px); box-shadow: inset 0 0 0 2px var(--chance); }
+.axis { display: grid; grid-template-columns: 70px minmax(0,1fr) 72px; gap: 12px; font-size: 13px; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.axis div { display: flex; justify-content: space-between; }
+/* the plate sits in a red-slip mount ruled with black register lines */
+.mount { margin: 0; }
+.mount .ground { background: var(--slip); padding: 26px; position: relative; }
+.mount .ground::before { content: ""; position: absolute; inset: 9px; border: 2px solid var(--paint); pointer-events: none; }
+.mount img { width: 100%; height: auto; outline: 3px solid var(--paint); }
+.mount figcaption { margin-top: 14px; font-size: 14px; color: var(--ink-2); }
+.mount figcaption b { display: block; color: var(--ink); }
+
+/* parts */
+.kit { padding: 40px 0 100px; }
+:root[data-theme="dark"] .kit .btn.primary { background: var(--slip); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .kit .btn.primary { background: var(--slip); } }
+.kit h3 { font-size: 15px; font-weight: 800; margin: 0 0 14px; color: var(--ink-2); }
+.kit-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 44px 32px; margin-top: 32px; }
+.kit-grid > div { min-width: 0; }
+.k-div { grid-column: 1 / -1; }
+.k-list { grid-column: span 5; } .k-btn { grid-column: span 3; } .k-card { grid-column: span 4; }
+@media (max-width: 900px) { .k-list, .k-btn, .k-card { grid-column: 1 / -1; } }
+ul.rosette { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; }
+ul.rosette li { display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 14px; }
+ul.rosette svg { width: 26px; height: 26px; margin-top: 2px; }
+ul.rosette b { display: block; }
+ul.rosette span { color: var(--ink-2); font-size: 15px; }
+.card { background: var(--clay-2); position: relative; }
+.card .cap { display: block; width: 100%; height: 40px; }
+.card .body { padding: 20px 22px 24px; }
+.card .id { font-weight: 800; font-size: 14px; color: var(--slip); }
+:root[data-theme="dark"] .card .id { color: var(--chance); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .card .id { color: var(--chance); } }
+.card h4 { margin: 6px 0 8px; font-stretch: 112%; font-weight: 800; font-size: 22px; line-height: 1.15; }
+.card p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.card .who { margin-top: 14px; font-weight: 700; font-size: 14px; color: var(--ink); }
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise .8s cubic-bezier(.23,1,.32,1) both; animation-delay: calc(var(--k, 0) * 70ms); }
+  @keyframes rise { from { opacity: 0; transform: translateY(12px); } }
+}
+@media (max-width: 860px) {
+  .hero .wrap { grid-template-columns: 1fr; padding: 32px 0 64px; }
+  .vessel { order: -1; } .vessel svg.jar { width: min(300px, 80%); }
+  .slot-note { position: static; margin-top: 8px; }
+  .frieze { height: 64px; }
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Intersecting circles: circles of radius d/√2 on a square grid of pitch d. Every four circles
+         meet at the centre of a grid square, leaving a vesica (petal) on each edge and a concave
+         four-pointed star round each grid point. Petals stay red, stars are painted black. -->
+    <pattern id="p-circles" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#1a1210"/>
+      <g fill="#b6432d">
+        <path d="M20 -18.5A28.28 28.28 0 0 1 20 18.5A28.28 28.28 0 0 1 20 -18.5Z" transform="translate(0 0)"/>
+        <path d="M20 21.5A28.28 28.28 0 0 1 20 58.5A28.28 28.28 0 0 1 20 21.5Z"/>
+        <path d="M-18.5 20A28.28 28.28 0 0 1 18.5 20A28.28 28.28 0 0 1 -18.5 20Z"/>
+        <path d="M21.5 20A28.28 28.28 0 0 1 58.5 20A28.28 28.28 0 0 1 21.5 20Z"/>
+      </g>
+      <g fill="#b6432d"><circle cx="0" cy="0" r="3.2"/><circle cx="40" cy="0" r="3.2"/><circle cx="0" cy="40" r="3.2"/><circle cx="40" cy="40" r="3.2"/></g>
+    </pattern>
+    <!-- fish scale: overlapping arcs, each row offset by half a scale -->
+    <pattern id="p-scale" width="28" height="28" patternUnits="userSpaceOnUse">
+      <rect width="28" height="28" fill="#b6432d"/>
+      <g fill="#b6432d" stroke="#1a1210" stroke-width="2.6">
+        <circle cx="0" cy="0" r="14"/><circle cx="28" cy="0" r="14"/>
+        <circle cx="14" cy="14" r="14"/>
+        <circle cx="0" cy="28" r="14"/><circle cx="28" cy="28" r="14"/>
+      </g>
+      <g fill="#1a1210"><circle cx="14" cy="22" r="2.4"/><circle cx="0" cy="8" r="2.4"/><circle cx="28" cy="8" r="2.4"/></g>
+    </pattern>
+    <!-- pipal leaves on stalks: heart-shaped blade, notched base, long drip tip -->
+    <symbol id="leaf" viewBox="-20 -36 40 66" overflow="visible">
+      <path d="M0 -34V-24" stroke="#1a1210" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M0 -25C5 -16 18 -12 18 1C18 11 9 16 0 11C-9 16 -18 11 -18 1C-18 -12 -5 -16 0 -25Z" fill="#1a1210"/>
+      <path d="M0 -18V9" stroke="#b6432d" stroke-width="1.6"/>
+      <path d="M0 11V29" stroke="#1a1210" stroke-width="2.6" stroke-linecap="round"/>
+    </symbol>
+    <pattern id="p-leaf" width="48" height="76" patternUnits="userSpaceOnUse">
+      <rect width="48" height="76" fill="#b6432d"/>
+      <use href="#leaf" x="4" y="2" width="40" height="66"/>
+      <path d="M0 70H48" stroke="#1a1210" stroke-width="2.6"/>
+    </pattern>
+    <!-- hatched triangles -->
+    <pattern id="p-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#b6432d"/><rect width="2.2" height="6" fill="#1a1210"/></pattern>
+    <pattern id="p-tri" width="36" height="34" patternUnits="userSpaceOnUse">
+      <rect width="36" height="34" fill="#b6432d"/>
+      <path d="M2 32L18 4L34 32Z" fill="url(#p-hatch)" stroke="#1a1210" stroke-width="2.4" stroke-linejoin="round"/>
+    </pattern>
+    <!-- wavy band -->
+    <pattern id="p-wave" width="40" height="30" patternUnits="userSpaceOnUse">
+      <rect width="40" height="30" fill="#b6432d"/>
+      <path d="M0 15C10 3 10 3 20 15S30 27 40 15" fill="none" stroke="#1a1210" stroke-width="3"/>
+      <path d="M0 4H40M0 26H40" stroke="#1a1210" stroke-width="2"/>
+    </pattern>
+    <!-- checkerboard -->
+    <pattern id="p-check" width="24" height="24" patternUnits="userSpaceOnUse">
+      <rect width="24" height="24" fill="#b6432d"/><rect width="12" height="12" fill="#1a1210"/><rect x="12" y="12" width="12" height="12" fill="#1a1210"/>
+    </pattern>
+    <!-- comb motif: a row of combs, teeth down -->
+    <pattern id="p-comb" width="30" height="36" patternUnits="userSpaceOnUse">
+      <rect width="30" height="36" fill="#b6432d"/>
+      <path d="M3 8H27" stroke="#1a1210" stroke-width="3"/>
+      <path d="M5 8V26M10 8V26M15 8V26M20 8V26M25 8V26" stroke="#1a1210" stroke-width="2"/>
+    </pattern>
+    <!-- a single rosette from the intersecting-circle grid, used as a list mark -->
+    <symbol id="rosette" viewBox="-20 -20 40 40">
+      <circle r="19" fill="#b6432d"/>
+      <g fill="#1a1210">
+        <path d="M0 -18.5A13 13 0 0 1 0 0A13 13 0 0 1 0 -18.5Z" transform="scale(1)"/>
+        <path d="M0 -18.5A13 13 0 0 1 0 0A13 13 0 0 1 0 -18.5Z" transform="rotate(90)"/>
+        <path d="M0 -18.5A13 13 0 0 1 0 0A13 13 0 0 1 0 -18.5Z" transform="rotate(180)"/>
+        <path d="M0 -18.5A13 13 0 0 1 0 0A13 13 0 0 1 0 -18.5Z" transform="rotate(270)"/>
+      </g>
+      <circle r="3" fill="#b6432d"/>
+    </symbol>
+  </defs>
+</svg>
+
+<header class="rim">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Open Indus, home">
+      <svg class="mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></svg>
+      <svg class="word" id="wm" viewBox="-18.5 -32.5 623.0 165.0" fill="none" stroke="currentColor" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg>
+    </a>
+    <nav class="main" aria-label="Main"><a href="#" aria-current="page">Overview</a><a href="#">Findings</a><a href="#">Tracker</a><a href="#">Contribute</a><a href="#">GitHub</a></nav>
+    <button class="theme" id="theme" type="button">Theme</button>
+  </div>
+</header>
+<div class="reg" aria-hidden="true"></div>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    <div>
+      <p class="kicker rise" style="--k:0"><svg viewBox="-20 -20 40 40" aria-hidden="true"><use href="#rosette" x="-20" y="-20" width="40" height="40"/></svg>Open Indus · an open research group</p>
+      <h1 id="h1" class="display rise" style="--k:1">Decipher the Indus script <em>by 2027.</em></h1>
+      <p class="lede rise" style="--k:2">Today we know how the script is built, not yet what it says. No sign has a proven sound or meaning.</p>
+      <p class="def rise" style="--k:3"><b>Deciphered</b> means: sound values for at least 10 signs that beat chance on our public test bench and survive an independent red team. Our honest odds of getting there by 2027 are under 1 in 10. Every idea is tested in public, on texts it has never seen, and what fails is published too.</p>
+      <div class="actions rise" style="--k:4"><a class="btn primary" href="#">Help decipher it</a><a class="btn ghost" href="#">Read the findings</a></div>
+    </div>
+    <div class="vessel" aria-hidden="true">
+      <!-- RENDER SLOT: replace svg.jar with a rendered painted jar (transparent PNG, ~1000×1200, light from top left). -->
+      <svg class="jar" data-slot="hero-object" viewBox="0 0 520 640">
+        <defs>
+          <clipPath id="jar-clip"><path id="jar-path" d=""/></clipPath>
+          <filter id="wrap" x="-10%" y="0" width="120%" height="100%" color-interpolation-filters="sRGB">
+            <feImage id="wrap-map" href="" x="0" y="0" width="520" height="640" preserveAspectRatio="none" result="map"/>
+            <feDisplacementMap in="SourceGraphic" in2="map" scale="0" xChannelSelector="R" yChannelSelector="G" id="wrap-disp"/>
+          </filter>
+          <linearGradient id="shade-x" x1="0" x2="1">
+            <stop offset="0" stop-color="#000" stop-opacity=".62"/><stop offset=".2" stop-color="#000" stop-opacity=".18"/>
+            <stop offset=".36" stop-color="#fff" stop-opacity=".16"/><stop offset=".44" stop-color="#fff" stop-opacity=".05"/>
+            <stop offset=".7" stop-color="#000" stop-opacity=".14"/><stop offset="1" stop-color="#000" stop-opacity=".7"/>
+          </linearGradient>
+          <linearGradient id="shade-y" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#000" stop-opacity=".25"/><stop offset=".22" stop-color="#000" stop-opacity="0"/>
+            <stop offset=".75" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".45"/>
+          </linearGradient>
+          <radialGradient id="glint" cx=".36" cy=".3" r=".24"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+          <radialGradient id="floor" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".5"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+        </defs>
+        <ellipse cx="270" cy="616" rx="190" ry="20" fill="url(#floor)"/>
+        <g clip-path="url(#jar-clip)">
+          <g filter="url(#wrap)">
+            <g id="bands">
+              <rect x="-200" y="0" width="920" height="640" fill="#b6432d"/>
+              <rect x="-200" y="28" width="920" height="40" fill="#1a1210"/>
+              <rect x="-200" y="112" width="920" height="6" fill="#1a1210"/>
+              <rect class="pt" data-w="36" data-y="122" transform="translate(0 122)" x="-260" y="0" width="920" height="34" fill="url(#p-tri)"/>
+              <rect x="-200" y="158" width="920" height="6" fill="#1a1210"/>
+              <rect class="pt" data-w="40" data-y="170" transform="translate(0 170)" x="-260" y="0" width="920" height="160" fill="url(#p-circles)"/>
+              <rect x="-200" y="332" width="920" height="10" fill="#1a1210"/>
+              <rect class="pt" data-w="48" data-y="350" transform="translate(0 350)" x="-260" y="0" width="920" height="76" fill="url(#p-leaf)"/>
+              <rect class="pt" data-w="40" data-y="434" transform="translate(0 434)" x="-260" y="0" width="920" height="30" fill="url(#p-wave)"/>
+              <rect class="pt" data-w="28" data-y="472" transform="translate(0 472)" x="-260" y="0" width="920" height="84" fill="url(#p-scale)"/>
+              <rect x="-200" y="556" width="920" height="60" fill="#1a1210"/>
+            </g>
+          </g>
+          <rect width="520" height="640" fill="url(#shade-x)"/>
+          <rect width="520" height="640" fill="url(#shade-y)"/>
+          <rect width="520" height="640" fill="url(#glint)"/>
+        </g>
+        <!-- the mouth -->
+        <ellipse cx="260" cy="30" rx="118" ry="16" fill="#120c0a"/>
+        <ellipse cx="260" cy="30" rx="118" ry="16" fill="none" stroke="#2a1d18" stroke-width="3"/>
+      </svg>
+      <p class="slot-note">Coded object · slot for a rendered image</p>
+    </div>
+  </div>
+</section>
+<svg class="frieze" viewBox="0 0 1440 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <rect width="1440" height="96" fill="url(#p-circles)"/>
+  <rect width="1440" height="6" fill="#1a1210"/><rect y="90" width="1440" height="6" fill="#1a1210"/>
+</svg>
+
+<div class="wrap ladder-sec">
+  <figure style="margin:0">
+    <figcaption class="claim">A step and a half up a five-step ladder. The goal is the top step.</figcaption>
+    <ol class="steps" aria-label="Five kinds of claim, weakest first. Structure: done. Sign roles: partly done. Topic, meaning and sound: open.">
+      <li class="step done" style="--i:0"><b>Structure</b><span>order, slots</span><em class="st" style="font-style:normal">Done</em></li>
+      <li class="step part" style="--i:1"><b>Sign roles</b><span>openers, closers</span><em class="st" style="font-style:normal">Partly done</em></li>
+      <li class="step" style="--i:2"><b>Topic</b><span>what a sign is about</span><em class="st" style="font-style:normal">Open</em></li>
+      <li class="step" style="--i:3"><b>Meaning</b><span>one sign, one thing</span><em class="st" style="font-style:normal">Open</em></li>
+      <li class="step" style="--i:4"><b>Sound</b><span>a reading</span><em class="st" style="font-style:normal">Open</em></li>
+    </ol>
+  </figure>
+</div>
+
+<svg class="frieze slim" viewBox="0 0 1440 44" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <rect width="1440" height="44" fill="url(#p-check)"/><rect y="0" width="1440" height="4" fill="#1a1210"/><rect y="40" width="1440" height="4" fill="#1a1210"/>
+</svg>
+
+<section class="block" aria-labelledby="h-know">
+  <div class="wrap">
+    <div class="head">
+      <p class="rail"><svg viewBox="-20 -20 40 40" aria-hidden="true"><use href="#rosette" x="-20" y="-20" width="40" height="40"/></svg>02 Findings</p>
+      <div><h2 id="h-know" class="display">Four patterns hold far above chance</h2>
+      <p class="intro">Each was found on one part of the texts, then confirmed on texts held back, then attacked by a second agent.</p></div>
+    </div>
+    <div class="grid2">
+      <div role="group" aria-label="Observed rate compared with the rate expected by chance, 0 to 100 percent">
+        <div class="legend"><span><i class="key obs"></i>Observed</span><span><i class="key chance"></i>Expected by chance</span></div>
+        <div class="pair"><p class="pl">Sign order picked out on unseen texts</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:40%"></span></span><span class="bv">40%</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:5.7%"></span></span><span class="bv">5.7%</span></div></div>
+        <div class="pair"><p class="pl">Fish with ticks <img class="sig" src="signs/M59.png" alt="sign M59, fish"> → <img class="sig" src="signs/M60.png" alt="sign M60, fish with four ticks"> closes the text</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:54.8%"></span></span><span class="bv">40 of 73</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:26%"></span></span><span class="bv">26%</span></div></div>
+        <div class="pair"><p class="pl">Six <img class="sig" src="signs/M109.png" alt="sign M109, six strokes"> is followed by fish <img class="sig" src="signs/M59.png" alt="sign M59, fish"></p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:70%"></span></span><span class="bv">7 of 10</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:3%"></span></span><span class="bv">3%</span></div></div>
+        <div class="pair"><p class="pl">Seals found abroad break the order</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:23.7%"></span></span><span class="bv">9 of 38</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:5%"></span></span><span class="bv">5%</span></div></div>
+        <div class="axis" aria-hidden="true"><span></span><div><span>0</span><span>50%</span><span>100%</span></div><span></span></div>
+      </div>
+      <figure class="mount">
+        <div class="ground"><img src="../assets/img/eh_3.jpg" width="861" height="900" alt="Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough"></div>
+        <figcaption><b>Pl. 1 · Harappa · 56 × 56 mm</b>Seal. Vats, Excavations at Harappa (1940), seal no. 3.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="kit" aria-labelledby="h-kit">
+  <div class="wrap">
+    <div class="head"><p class="rail"><svg viewBox="-20 -20 40 40" aria-hidden="true"><use href="#rosette" x="-20" y="-20" width="40" height="40"/></svg>A Parts</p><div><h2 id="h-kit" class="display" style="font-size:clamp(28px,3.2vw,44px)">The same parts, painted</h2></div></div>
+    <div class="kit-grid">
+      <div class="k-div"><h3>Section dividers</h3>
+        <svg class="frieze" viewBox="0 0 1280 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="height:84px">
+          <rect width="1280" height="96" fill="url(#p-leaf)"/><rect width="1280" height="5" fill="#1a1210"/><rect y="91" width="1280" height="5" fill="#1a1210"/>
+        </svg>
+        <svg class="frieze slim" viewBox="0 0 1280 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="margin-top:14px">
+          <rect width="1280" height="40" fill="url(#p-comb)"/><rect y="36" width="1280" height="4" fill="#1a1210"/>
+        </svg>
+        <svg class="frieze slim" viewBox="0 0 1280 56" preserveAspectRatio="xMidYMid slice" aria-hidden="true" style="margin-top:14px;height:56px">
+          <rect width="1280" height="56" fill="url(#p-scale)"/><rect width="1280" height="4" fill="#1a1210"/><rect y="52" width="1280" height="4" fill="#1a1210"/>
+        </svg>
+      </div>
+      <div class="k-list"><h3>List</h3>
+        <ul class="rosette">
+          <li><svg viewBox="-20 -20 40 40" aria-hidden="true"><use href="#rosette" x="-20" y="-20" width="40" height="40"/></svg><div><b>Published sound keys</b><span>Five tested, including the 185-sign key from 2026. None beats its own values shuffled.</span></div></li>
+          <li><svg viewBox="-20 -20 40 40" aria-hidden="true"><use href="#rosette" x="-20" y="-20" width="40" height="40"/></svg><div><b>Guessing the language from statistics</b><span>The same method calls real Latin ‘Munda’. It cannot pick a language.</span></div></li>
+          <li><svg viewBox="-20 -20 40 40" aria-hidden="true"><use href="#rosette" x="-20" y="-20" width="40" height="40"/></svg><div><b>Signs that picture their meaning</b><span>No pictorial sign is tied to the matching picture on its seal (17 tests).</span></div></li>
+        </ul>
+      </div>
+      <div class="k-btn"><h3>Buttons</h3><div style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn primary" href="#">Help decipher it</a><a class="btn on-clay" href="#">Read the findings</a></div></div>
+      <div class="k-card"><h3>Card</h3>
+        <article class="card">
+          <svg class="cap" viewBox="0 0 400 40" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="400" height="40" fill="url(#p-tri)"/><rect y="34" width="400" height="6" fill="#1a1210"/></svg>
+          <div class="body"><span class="id">S1</span><h4>Confirm the shape of five ‘round’ seals</h4><p>The round-seal finding rests on 8 seals from the Indus region. Only 3 are confirmed round in a printed excavation report.</p><p class="who">Specialists · Anyone careful</p></div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+(function () {
+  // wordmark: bold study (wordmarks/open-indus-bold-wordonly.svg)
+  var g = [
+    [0, 'M25 0C3 24 0 44 0 56C0 70 8 82 36 108 M25 0C47 24 50 44 50 56C50 70 42 82 14 108'],
+    [72, 'M0 0V100 M18 0C40 4 44 20 44 27C44 36 40 50 18 54'],
+    [138, 'M0 0V100 M18 0H40 M18 50H35 M18 100H40'],
+    [200, 'M0 20V100 M0 0L46 100 M46 0V80'],
+    [296, 'M11 0V100 M0 0H22 M0 100H22'],
+    [340, 'M0 20V100 M0 0L46 100 M46 0V80'],
+    [408, 'M0 0V100 M18 0C40 14 46 36 46 50C46 64 40 86 18 100'],
+    [476, 'M0 0V52C0 74 12 90 23 100C34 90 46 74 46 52V0 M0 0H-11 M0 18H-11 M46 0H57 M46 18H57'],
+    [544, 'M41 8C33 -2 12 -3 3 14L39 86C30 103 9 102 1 92']
+  ];
+  document.getElementById('wm').innerHTML = g.map(function (x) { return '<path transform="translate(' + x[0] + ' 0)" d="' + x[1] + '"/>'; }).join('');
+
+  // jar profile: flared rim, short neck, broad shoulder, tapering body, ring foot
+  var R = [[0, 132], [20, 128], [40, 112], [62, 100], [84, 112], [120, 170], [170, 214], [220, 230], [280, 226], [340, 206], [400, 176], [460, 140], [520, 108], [570, 92], [596, 98], [610, 96]];
+  var cx = 260, top = 18;
+  function side(sign) { return R.map(function (p) { return [cx + sign * p[1], top + p[0]]; }); }
+  function smooth(pts) { // Catmull-Rom to cubic Bézier
+    var d = 'M' + pts[0][0] + ' ' + pts[0][1];
+    for (var i = 0; i < pts.length - 1; i++) {
+      var p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
+      d += 'C' + (p1[0] + (p2[0] - p0[0]) / 6).toFixed(1) + ' ' + (p1[1] + (p2[1] - p0[1]) / 6).toFixed(1) + ' ' +
+        (p2[0] - (p3[0] - p1[0]) / 6).toFixed(1) + ' ' + (p2[1] - (p3[1] - p1[1]) / 6).toFixed(1) + ' ' + p2[0] + ' ' + p2[1];
+    }
+    return d;
+  }
+  var right = side(1), left = side(-1).reverse();
+  var d = smooth(right) + 'L' + left[0][0] + ' ' + left[0][1] + smooth(left).replace(/^M[^C]+/, '') + 'Z';
+  document.getElementById('jar-path').setAttribute('d', d);
+
+  // wrap the flat painted bands round a cylinder: sample x at r·asin(dx/r) from the axis
+  var r = 232, scale = 2 * r * (Math.PI / 2 - 1) * 1.04, stops = '';
+  for (var i = 0; i <= 64; i++) {
+    var x = cx - r + (2 * r) * i / 64, dx = Math.max(-1, Math.min(1, (x - cx) / r));
+    var off = r * Math.asin(dx) - (x - cx);
+    var v = Math.round(255 * (0.5 + off / scale));
+    stops += '<stop offset="' + ((x) / 520).toFixed(4) + '" stop-color="rgb(' + v + ',128,0)"/>';
+  }
+  var map = '<svg xmlns="http://www.w3.org/2000/svg" width="520" height="640"><linearGradient id="g">' +
+    '<stop offset="0" stop-color="rgb(' + 0 + ',128,0)"/>' + stops + '<stop offset="1" stop-color="rgb(255,128,0)"/></linearGradient><rect width="520" height="640" fill="url(#g)"/></svg>';
+  var fe = document.getElementById('wrap-map');
+  fe.setAttribute('href', 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(map));
+  document.getElementById('wrap-disp').setAttribute('scale', scale.toFixed(1));
+
+  // a slow turn of the vessel: slide the painted bands; the wrap makes it read as rotation
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var bands = document.getElementById('bands'), pts = bands.querySelectorAll('.pt'), t0 = performance.now(), visible = true;
+  if ('IntersectionObserver' in window) new IntersectionObserver(function (e) { visible = e[0].isIntersecting; }).observe(bands.ownerSVGElement);
+  function spin(t) {
+    if (visible && !document.hidden) {
+      var x = (t - t0) / 1000 * 9; // each patterned band slides by its own tile width, so the loop is seamless
+      for (var i = 0; i < pts.length; i++) pts[i].setAttribute('transform', 'translate(' + (x % +pts[i].dataset.w).toFixed(2) + ' ' + pts[i].dataset.y + ')');
+    }
+    requestAnimationFrame(spin);
+  }
+  if (!reduce) requestAnimationFrame(spin);
+
+  var btn = document.getElementById('theme'), root = document.documentElement;
+  function label() { var t = root.getAttribute('data-theme'); btn.textContent = t ? (t === 'dark' ? 'Dark' : 'Light') : 'Auto'; }
+  btn.addEventListener('click', function () {
+    var t = root.getAttribute('data-theme'), next = !t ? 'light' : t === 'light' ? 'dark' : null;
+    if (next) root.setAttribute('data-theme', next); else root.removeAttribute('data-theme');
+    try { next ? localStorage.setItem('oi-explore-theme', next) : localStorage.removeItem('oi-explore-theme'); } catch (e) {}
+    label();
+  });
+  label();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+{
+ "prereg": "docs/prereg/magnitude.md",
+ "n_rows": 26,
+ "tests": {
+  "T1_mass": {
+   "n": 3,
+   "verdict": "UNTESTABLE (n<8)",
+   "pairs": [
+    [
+     "MD-CXXVI5",
+     1910.03,
+     7,
+     77
+    ],
+    [
+     "MD-CXXVI3",
+     262.233,
+     6,
+     6
+    ],
+    [
+     "MD-CXXVI2",
+     165.343,
+     10,
+     20
+    ]
+   ]
+  },
+  "T1_length_secondary": {
+   "n": 9,
+   "n_complete": 4,
+   "verdict": "UNTESTABLE (n<8 complete; types mostly singletons)",
+   "pairs": [
+    [
+     "MD-CXXVI5",
+     "blade-axe",
+     283.2,
+     7,
+     77,
+     "yes"
+    ],
+    [
+     "MD-CXXVI3",
+     "axe",
+     138.4,
+     6,
+     6,
+     "yes"
+    ],
+    [
+     "MD-CXXVI2",
+     "chisel",
+     132.6,
+     10,
+     20,
+     "no"
+    ],
+    [
+     "MD-CXXVII1",
+     "blade (spearhead/knife)",
+     289.6,
+     11,
+     11,
+     "restored"
+    ],
+    [
+     "MD-CXXXIII1",
+     "knife",
+     125.7,
+     8,
+     8,
+     "no"
+    ],
+    [
+     "MD-2368",
+     "blade-axe",
+     237.5,
+     1,
+     "",
+     "unknown"
+    ],
+    [
+     "CD-2596A",
+     "axe (portion)",
+     87.1,
+     12,
+     44,
+     "no"
+    ],
+    [
+     "CD-2529G",
+     "axe",
+     203.2,
+     0,
+     "",
+     "yes"
+    ],
+    [
+     "KLB-K122",
+     "unknown copper implement",
+     145.0,
+     5,
+     5,
+     "unknown"
+    ]
+   ],
+   "exploratory_pooled_spearman_not_a_test": {
+    "rho": -0.333,
+    "p_two_sided": 0.381
+   }
+  },
+  "T2_pottery_capacity": {
+   "n": 0,
+   "verdict": "UNTESTABLE: no per-vessel capacity for any inscribed vessel in Marshall 1931, Mackay 1938, Vats 1940 or Mackay 1943; inscribed pottery is mostly sherds"
+  },
+  "T3_bangle_diameter": {
+   "n": 0,
+   "verdict": "UNTESTABLE: Mackay 1938 p.536 gives only the class range (inside 2.08-2.50 in = 53-64 mm) for stoneware bangles; no per-object diameter for any inscribed bangle; Marshall 1931 p.531 none; harappa.com (Kenoyer) blocked"
+  },
+  "T3o_oval_bangle": {
+   "n": 0,
+   "verdict": "UNTESTABLE (same reason)"
+  },
+  "T4_rod_length": {
+   "n": 13,
+   "n_V_positive": 6,
+   "n_text_complete": 10,
+   "sites": {
+    "Harappa": 3,
+    "Mohenjo-daro": 10
+   },
+   "pairs": [
+    [
+     "MD-CX51",
+     "M-2106",
+     "Mohenjo-daro",
+     "round rod (bone)",
+     77.5,
+     0,
+     "W240 W838 W585 W740 W400"
+    ],
+    [
+     "MD-CX52",
+     "M-1651",
+     "Mohenjo-daro",
+     "round rod (ivory)",
+     78.0,
+     0,
+     "W240 W838 W585 W740 W400"
+    ],
+    [
+     "ICIT-315",
+     "H-1517",
+     "Harappa",
+     "rod (ivory)",
+     48.3,
+     5,
+     "W002 W005 W405"
+    ],
+    [
+     "ICIT-434",
+     "H-2570",
+     "Harappa",
+     "rod (bone)",
+     42.4,
+     5,
+     "W001 W034 W700"
+    ],
+    [
+     "ICIT-435",
+     "-",
+     "Harappa",
+     "rod (ivory)",
+     55.9,
+     1,
+     "W031"
+    ],
+    [
+     "ICIT-2301",
+     "-",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     64.8,
+     3,
+     "# W002 W003 W122 # #"
+    ],
+    [
+     "ICIT-2318",
+     "M-2089",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     99.1,
+     0,
+     "W096 W861 W002"
+    ],
+    [
+     "ICIT-2330",
+     "M-2095",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     67.3,
+     4,
+     "W004 #"
+    ],
+    [
+     "ICIT-2356",
+     "M-2098",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     46.0,
+     0,
+     "W140 W176 W740 W400"
+    ],
+    [
+     "ICIT-2361",
+     "M-2091",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     67.3,
+     0,
+     "W467 W806 #"
+    ],
+    [
+     "ICIT-2474",
+     "M-2107",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     68.6,
+     3,
+     "W240 W013 W840 W740 W400"
+    ],
+    [
+     "ICIT-2530",
+     "M-2088",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     69.9,
+     0,
+     "W556 W527"
+    ],
+    [
+     "ICIT-5533",
+     "M-2094",
+     "Mohenjo-daro",
+     "rod (ivory)",
+     55.4,
+     0,
+     "W390 W390 W390"
+    ]
+   ],
+   "rho_fe": -0.504,
+   "p": 0.2567,
+   "power_rho05": 0.14666666666666667,
+   "rho_md_only": -0.225,
+   "p_md_only": 0.544,
+   "verdict": "INCONCLUSIVE (underpowered)"
+  }
+ },
+ "exploratory_same_text_rods": {
+  "W240 W838 W585 W740 W400": [
+   77.5,
+   78.0
+  ]
+ },
+ "summary": {
+  "linked_objects": 24,
+  "with_mass": 3,
+  "with_length_implements": 9,
+  "rods_with_length": 13,
+  "decision": "No class reached the pre-registered n or power; no test supported; 'numerals measure the bearer' NOT closed.",
+  "same_text_rods_exploratory": "CX51/CX52 (M-2106, M-1651) same 5-sign text, found apart, lengths 77.5 vs 78.0 mm; chance that two random rods in this table differ <=0.5 mm = 3/78 = 0.038 (single pair, post hoc)",
+  "mackay_reading": "Mackay 1938 read inverted-U as 10: CXXVI5 '76' (1910 g), CXXVI2 '19' (165 g, broken), CXXVII1 '11', CXXXIII1 '8'; Mackay 1943 Chanhu-daro axe C-40 '35 or 36'. Weights could not be tested (chemical bath) - Mackay's own caveat."
+ },
+ "human_lookups": [
+  "Harappa inscribed copper implements H-380, H-381 (daggers), H-1518, H-1519, H-1520, M77 4901/4902/5601: excavation numbers, length and mass (Vats 1940 vol 2 plate CXXIII 16, 25 captions; Kenoyer & Meadow 2010 Inscribed objects from Harappa; Lahore/Harappa museum registers)",
+  "Mohenjo-daro hoard blade-axes CXXXI 31, 35-37 (ICIT 2368 and siblings): which carry text, and their lengths/masses (Mackay 1938 vol 2 plates CXXVI, CXXXI captions; Karachi National Museum register for M-2118..M-2124)",
+  "Present-day masses of M-2118, M-2121, M-2122, M-2124, M-2123 and Chanhu-daro C-40, C-94 (MFA Boston holds Chanhu-daro material)",
+  "Kalibangan K-121/K-122: object type, completeness, mass (Lal et al. Excavations at Kalibangan, Early Harappans and Harappan reports, ASI memoirs 98/110)",
+  "Stoneware bangles: per-object inner diameter for the ~41 inscribed bangles incl. W790 oval ones M-1630, M-1631, M-1644, M-1645, H-1010, H-2578 (Kenoyer 'Painted Indus script on ceramics and steatite' table; Blackman & Vidale 1992; Halim & Vidale 1984; HARP bangle database)",
+  "Pre-/post-firing inscribed whole vessels with capacity or height x rim diameter: Kenoyer & Meadow Harappa sherd database (1,218 marked sherds); Vats 1940 pl. CII-CIV catalogue entries for whole jars (e.g. No. 5919, No. 3822); Mackay 1943 jar CNo 3419 (6.1 in high)",
+  "Ivory/bone rods: confirm completeness and length for all 37 inscribed rods (Mackay 1938 pl. CX, CXXV, CXXXVIII, CXLI, CXLIII captions; CISI 3.1 M-2086..M-2114) and find more same-text pairs (M-2107/M-2108, M-2089/M-2090, M-2086/M-2102, M-2109/M-2111) to test 'same text -> same length'"
+ ]
+}

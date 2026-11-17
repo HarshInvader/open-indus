@@ -1,0 +1,696 @@
+serial,field_no,findspot_raw,kind,block,house,room,street_key,parse_flags,depth_raw,depth,depth_src,m77_level,m77_text_no,object_type,n_sides,seq_side0,signs_all,locus,depth_flag,house_key,room_key,band5,band3
+1,DK 10436,DK/SD area: . .,block_only,,,,,block_unreadable,0.0,-0.0,register,,,,0,,,,,,,0.0,0.0
+2,DK 10323,DK/SD area: West / St.,street,,,,west st,street,+12.0,-2.0,m77_level(replaced outlier),2.0,2002.0,seal,1,M403 M302 M99 M87 M57 M342,M403 M302 M99 M87 M57 M342,32,outlier,,,0.0,0.0
+3,DK 10799,DK/SD area: ..,block_only,,,,,block_unreadable,0.0,-0.0,register,,,,0,,,,,,,0.0,0.0
+4,DK 3431,DK/SD area: 9 / HI 26,house,9,III,26,,house_ocr_repaired;house_room_split,-2.0,-2.0,register,-2.0,2004.0,seal,1,M51 M371 M59,M51 M371 M59,31,,9/III,9/III/26,0.0,0.0
+5,DK 6223,DK/SD area: 1 / VI 61,house,1,VI,61,,house_room_split,-2.2,-2.2,register,-2.0,2005.0,seal,1,M249 M391,M249 M391,31,,1/VI,1/VI/61,0.0,0.0
+6,DK 10087,DK/SD area: 8A / 42,room_only,8A,,42,,,-3.2,-3.2,register,-3.0,2006.0,seal,1,M389 M336 M89 M249,M389 M336 M89 M249,31,,,8A/-/42,0.0,1.0
+7,DK 3379,DK/SD area: 9 / III / 29,house,9,III,29,,,-2.4,-2.4,register,-2.0,2007.0,seal,1,M267 M402 M204 M112 M347 M342,M267 M402 M204 M112 M347 M342,31,,9/III,9/III/29,0.0,0.0
+8,DK 10014,,block_only,,,,,block_unreadable,-2.4,-2.4,register,-2.0,2008.0,seal,1,M104 M169,M104 M169,33,,,,0.0,0.0
+9,DK 10508,DK/SD area: 19 / 13,room_only,19,,13,,,-2.5,-2.5,register,,,,0,,,,,,19/-/13,0.0,0.0
+10,DK 11617,DK/SD area: Central / St.,street,,,,central st,street,-2.5,-2.5,register,-3.0,2010.0,seal,1,M293 M123 M343 M216 M254,M293 M123 M343 M216 M254,31,,,,0.0,0.0
+11,DK 4663,DK/SD area: 10 / III / 1,house,10,III,1,,,-3.0,-3.0,register,-3.0,2011.0,seal,1,M267 M99 M111 M347 M342,M267 M99 M111 M347 M342,31,,10/III,10/III/1,0.0,1.0
+12,DK 3353,DK/SD area: 7 / V / 63,house,7,V,63,,,-2.9,-2.9,register,-3.0,2012.0,seal,1,M287 M112 M194 M342,M287 M112 M194 M342,31,,7/V,7/V/63,0.0,0.0
+13,DK 11212,DK/SD area: 16 / VI / 29,house,16,VI,29,,,-3.5,-3.5,register,-4.0,2013.0,seal,1,M267 M99 M112 M197 M342 M139,M267 M99 M112 M197 M342 M139,32,,16/VI,16/VI/29,0.0,1.0
+14,DK 10157,DK/SD area: 18 / 88,room_only,18,,88,,,-3.6,-3.6,register,-4.0,2014.0,seal,1,M242 M342,M242 M342,32,,,18/-/88,0.0,1.0
+15,DK 12523,DK/SD area: 20 / I / 6,house,20,I,6,,,-3.6,-3.6,register,-4.0,2015.0,seal,1,M336 M89 M211,M336 M89 M211,32,,20/I,20/I/6,0.0,1.0
+16,DK 10302,DK/SD area: 9 / XII / 96,house,9,XII,96,,,-3.6,-3.6,register,-4.0,2016.0,seal,1,M293 M176 M176 M150 M123 M51,M293 M176 M176 M150 M123 M51,31,,9/XII,9/XII/96,0.0,1.0
+17,DK 10511,DK/SD area: 8 / III / 25,house,8,III,25,,,-3.6,-3.6,register,,,,0,,,,,8/III,8/III/25,0.0,1.0
+18,DK 3285,DK/SD area: 9 / I / 36,house,9,I,36,,,-3.2,-3.2,register,-3.0,2018.0,seal,1,M214 M287 M87 M244 M28 M162 M99 M136 M193 M12,M214 M287 M87 M244 M28 M162 M99 M136 M193 M12,31,,9/I,9/I/36,0.0,1.0
+19,DK 3366,DK/SD area: 7 / V / 63,house,7,V,63,,,-3.7,-3.7,register,-4.0,2019.0,seal,1,M417 M267 M99 M87 M59 M65 M222 M254,M417 M267 M99 M87 M59 M65 M222 M254,31,,7/V,7/V/63,0.0,1.0
+20,DK 3335,DK/SD area: 8 / II / 22,house,8,II,22,,,+4.2,-4.2,register,-4.0,2020.0,seal,1,M341 M327 M15,M341 M327 M15,31,,8/II,8/II/22,0.0,1.0
+21,DK 10149,DK/SD area: 22 / 5,room_only,22,,5,,,-3.7,-3.7,register,-4.0,2021.0,seal,1,M99 M380 M342,M99 M380 M342,32,,,22/-/5,0.0,1.0
+22,DK 10753,DK/SD area: 8A / 44,room_only,8A,,44,,,-4.0,-4.0,register,-4.0,2022.0,seal,1,M391 M97 M53 M72 M373 M287 M342,M391 M97 M53 M72 M373 M287 M342,31,,,8A/-/44,0.0,1.0
+23,DK 10107,DK/SD area: 22 / II / 10,house,22,II,10,,,-3.8,-3.8,register,-4.0,2023.0,seal,1,M150 M98 M178 M389 M15,M150 M98 M178 M389 M15,32,,22/II,22/II/10,0.0,1.0
+24,DK 12688,DK/SD area: 18 / 107,room_only,18,,107,,,-3.9,-3.9,register,-4.0,2024.0,seal,1,M87 M244 M81 M99 M155 M70 | M87 M59 M336 M89,M87 M244 M81 M99 M155 M70 M87 M59 M336 M89,32,,,18/-/107,0.0,1.0
+25,DK 10334,DK/SD area: 6A / 37,room_only,6A,,37,,,+4.0,-4.0,register,-4.0,2025.0,seal,1,M245 M98 M112 M169,M245 M98 M112 M169,31,,,6A/-/37,0.0,1.0
+26,DK 3373,DK/SD area: 9 / Ill / 35,house,9,III,35,,house_ocr_repaired,-3.7,-3.7,register,-4.0,2026.0,seal,1,M67 M211,M67 M211,31,,9/III,9/III/35,0.0,1.0
+27,DK 10889,DK/SD area: 18 / 76,room_only,18,,76,,,+4.2,-4.2,register,-4.0,2027.0,seal,1,M87 M244 M28 M54 M99 M245 M245 M87 M162,M87 M244 M28 M54 M99 M245 M245 M87 M162,32,,,18/-/76,0.0,1.0
+28,DK 3631,DK/SD area: 9 / VII / 19,house,9,VII,19,,,-4.1,-4.1,register,-4.0,2028.0,seal,1,M81 M176,M81 M176,31,,9/VII,9/VII/19,0.0,1.0
+29,DK 10895,DK/SD area: 17 / III / 29,house,17,III,29,,,+4.0,-4.0,register,-4.0,2029.0,seal,1,M391 M391 M97 M72 M182 M293 M342,M391 M391 M97 M72 M182 M293 M342,32,,17/III,17/III/29,0.0,1.0
+30,DK 10355,DK/SD area: 21 / II / 87,house,21,II,87,,,+4.4,-4.4,register,,,,0,,,,,21/II,21/II/87,0.0,1.0
+31,DK 10659,DK/SD area: 14 / III / 25,house,14,III,25,,,-3.9,-3.9,register,-4.0,2031.0,seal,1,M267 M99 M292 M342,M267 M99 M292 M342,32,,14/III,14/III/25,0.0,1.0
+32,DK 10567,DK/SD area: 9 / I / 47,house,9,I,47,,,+4.8,-4.8,register,-4.0,2032.0,seal,1,M51 M155 M345 M112 M194 M336 M89,M51 M155 M345 M112 M194 M336 M89,31,,9/I,9/I/47,0.0,1.0
+41,DK 10231,DK/SD area: 18 / 57,room_only,18,,57,,,+4.5,-4.5,register,-5.0,2041.0,seal,1,M293 M123 M344 M53 M87 M60,M293 M123 M344 M53 M87 M60,32,,,18/-/57,0.0,1.0
+42,DK 3439,DK/SD area: St. bet Bis. / 7 & 9 / (VTII),street,,,,st bet bis 7 & 9 vtii,street,+4.6,-4.6,register,-5.0,2042.0,seal,1,M267 M99 M70,M267 M99 M70,31,,,,0.0,1.0
+43,DK 10101,DK/SD area: 25 / I / 13,house,25,I,13,,,+4.7,-4.7,register,-5.0,2043.0,seal,1,M293 M323 M323 M384 M176 M176,M293 M323 M323 M384 M176 M176,32,,25/I,25/I/13,0.0,1.0
+44,DK 11625,DK/SD area: 16 / II / 11,house,16,II,11,,,+4.7,-4.7,register,-5.0,2044.0,seal,1,M131 M99 M87 M60 M98,M131 M99 M87 M60 M98,32,,16/II,16/II/11,0.0,1.0
+45,DK 10829,DK/SD area: 8A / 44,room_only,8A,,44,,,+4.5,-4.5,register,-5.0,2045.0,seal,2,M250 M264 M127 M347 M342,M250 M264 M127 M347 M342 M88,31,,,8A/-/44,0.0,1.0
+46,DK 3530,DK/SD area: 9 / HI / 30,house,9,III,30,,house_ocr_repaired,+4.9,-4.9,register,-5.0,2046.0,seal,1,M389 M87 M59 M249 M169 M342,M389 M87 M59 M249 M169 M342,31,,9/III,9/III/30,0.0,1.0
+47,DK 12018,DK/SD area: 8A / 41,room_only,8A,,41,,,+4.6,-4.6,register,-5.0,2047.0,seal,1,M67 M211,M67 M211,31,,,8A/-/41,0.0,1.0
+49,DK 10609,DK/SD area: 9 / I / 46,house,9,I,46,,,+4.7,-4.7,register,-5.0,2049.0,seal,1,M102 M288 M87 M249 M180 M323 M323 M29,M102 M288 M87 M249 M180 M323 M323 M29,31,,9/I,9/I/46,0.0,1.0
+50,DK 10208,DK/SD area: 15 / V / 22,house,15,V,22,,,+4.6,-4.6,register,-5.0,2050.0,seal,1,M245 M245 M343 M48 M8 M342,M245 M245 M343 M48 M8 M342,32,,15/V,15/V/22,0.0,1.0
+51,DK 12418,DK/SD area: 19 / 7,room_only,19,,7,,,-4.7,-4.7,register,-5.0,2051.0,seal,1,M267 M99 M258 M347 M342,M267 M99 M258 M347 M342,32,,,19/-/7,0.0,1.0
+52,DK 10359,DK/SD area: 6A / 38,room_only,6A,,38,,,+4.8,-4.8,register,-5.0,2052.0,seal,1,M327 M186 M381 M51 M59 M67 M216 M254,M327 M186 M381 M51 M59 M67 M216 M254,31,,,6A/-/38,0.0,1.0
+53,DK 10271,DK/SD area: 22 / 10,room_only,22,,10,,,+4.6,-4.6,register,-5.0,2053.0,seal,1,M343 M86 M171 M60,M343 M86 M171 M60,32,,,22/-/10,0.0,1.0
+54,DK 11649,DK/SD area: 16 / II / 11,house,16,II,11,,,+4.6,-4.6,register,-5.0,2054.0,seal,1,M267 M99 M87 M59 M65 M253 M230 M342,M267 M99 M87 M59 M65 M253 M230 M342,32,,16/II,16/II/11,0.0,1.0
+55,DK 3329,DK/SD area: 7 / V / 54,house,7,V,54,,,-5.2,-5.2,register,-5.0,2055.0,seal,1,M342 M125 M169,M342 M125 M169,31,,7/V,7/V/54,1.0,1.0
+56,DK 10974,DK/SD area: 22 / 3,room_only,22,,3,,,+4.7,-4.7,register,-5.0,2056.0,seal,1,M391 M99 M186 M301 M155 M347 M342,M391 M99 M186 M301 M155 M347 M342,32,,,22/-/3,0.0,1.0
+57,DK 10366,DK/SD area: Central / St.,street,,,,central st,street,+4.7,-4.7,register,-5.0,2057.0,seal,1,M267 M99 M86 M38 M342,M267 M99 M86 M38 M342,31,,,,0.0,1.0
+58,DK 11439,DK/SD area: 13 / Ill / 11,house,13,III,11,,house_ocr_repaired,+4.6,-4.6,register,-5.0,2058.0,seal,1,M38,M38,32,,13/III,13/III/11,0.0,1.0
+59,DK 11550,DK/SD area: 17 / III / 23,house,17,III,23,,,+4.7,-4.7,register,,,,0,,,,,17/III,17/III/23,0.0,1.0
+60,DK 12110,DK/SD area: 19 / 9,room_only,19,,9,,,+4.7,-4.7,register,-5.0,2060.0,seal,1,M267 M99 M222 M254,M267 M99 M222 M254,32,,,19/-/9,0.0,1.0
+61,DK 12344,DK/SD area: 20 / I / 1,house,20,I,1,,,+4.9,-4.9,register,-5.0,2061.0,seal,1,M345 M19 M176,M345 M19 M176,32,,20/I,20/I/1,0.0,1.0
+62,DK 4479,DK/SD area: 9 / VI / 30,house,9,VI,30,,,+4.9,-4.9,register,,,,0,,,,,9/VI,9/VI/30,0.0,1.0
+63,DK 10471,DK/SD area: 16 / II / 11,house,16,II,11,,,-5.2,-5.2,register,-5.0,2063.0,seal,1,M204 M112 M347 M342,M204 M112 M347 M342,32,,16/II,16/II/11,1.0,1.0
+64,DK 4671,DK/SD area: 9 / VII / 52,house,9,VII,52,,,+4.9,-4.9,register,-5.0,2064.0,seal,1,M150 M123 M17 M293 M342 M1,M150 M123 M17 M293 M342 M1,31,,9/VII,9/VII/52,0.0,1.0
+65,DK 3399,DK/SD area: 7 / V / 52,house,7,V,52,,,-5.0,-5.0,register,-5.0,2065.0,seal,1,M391 M123 M348 M342,M391 M123 M348 M342,31,,7/V,7/V/52,1.0,1.0
+66,DK 11690,DK/SD area: 16 / II / 11,house,16,II,11,,,-5.0,-5.0,register,-5.0,2066.0,seal,1,M245 M287 M99 M86 M204 M230 M342,M245 M287 M99 M86 M204 M230 M342,32,,16/II,16/II/11,1.0,1.0
+67,DK 11126,DK/SD area: 15 / IV / 17,house,15,IV,17,,,-5.0,-5.0,register,-5.0,2067.0,seal,1,M267 M99 M70 M388,M267 M99 M70 M388,32,,15/IV,15/IV/17,1.0,1.0
+68,DK 11713,DK/SD area: 17 / 111 / 23,house,17,III,23,,house_ocr_repaired,-5.2,-5.2,register,-5.0,2068.0,seal,1,M146 M267 M99 M70 M62 M342 M1,M146 M267 M99 M70 M62 M342 M1,32,,17/III,17/III/23,1.0,1.0
+69,DK 3432,DK/SD area: 5 / I / 7,house,5,I,7,,,-5.3,-5.3,register,-5.0,2069.0,seal,1,M391 M17 M391 M381 M391 M98 M171 M59 M342 M139,M391 M17 M391 M381 M391 M98 M171 M59 M342 M139,31,,5/I,5/I/7,1.0,1.0
+70,DK 12342,DK/SD area: 18 / -- / 78,room_only,18,,78,,,-5.4,-5.4,register,-5.0,2070.0,seal,1,M293 M123 M343 M289 M342,M293 M123 M343 M289 M342,32,,,18/-/78,1.0,1.0
+72,DK 11433,DK/SD area: 14 / III / 24 -,house,14,III,24,,,-5.4,-5.4,register,-5.0,2072.0,seal,1,M25 M245 M245,M25 M245 M245,32,,14/III,14/III/24,1.0,1.0
+73,DK 12703,DK/SD area: 9A / VII [ / 48 -,house,9A,VII,48,,,-6.0,-6.0,register,-6.0,2073.0,seal,1,M25 M245 M245,M25 M245 M245,31,,9A/VII,9A/VII/48,1.0,2.0
+74,DK 11862,DK/SD area: 23 / II / II,house,23,II,,,room_unreadable,-5.6,-5.6,register,-6.0,2074.0,seal,1,M150 M123 M228 M342 M1,M150 M123 M228 M342 M1,32,,23/II,,1.0,1.0
+75,DK 11794,DK/SD area: 13 / III / 13,house,13,III,13,,,-0.6,-6.0,m77_level(replaced outlier),-6.0,2075.0,seal,1,M186 M333 M99 M59 M211,M186 M333 M99 M59 M211,32,outlier,13/III,13/III/13,1.0,2.0
+76,DK 11997,DK/SD area: 18 / 88,room_only,18,,88,,,-5.5,-5.5,register,-6.0,2076.0,seal,1,M2 M12,M2 M12,32,,,18/-/88,1.0,1.0
+77,DK 3957,DK/SD area: 7 / VI / 76 .,house,7,VI,76,,,-6.7,-6.7,register,-6.0,2077.0,seal,1,M345 M41 M76 M102 M190,M345 M41 M76 M102 M190,31,,7/VI,7/VI/76,1.0,2.0
+78,DK 10079,DK/SD area: 25 / I / 4,house,25,I,4,,,-5.9,-5.9,register,,,,0,,,,,25/I,25/I/4,1.0,1.0
+79,DK 3472,DK/SD area: 7 / II / 87,house,7,II,87,,,-5.6,-5.6,register,-6.0,2079.0,seal,1,M267 M99 M67 M205 M245 M342,M267 M99 M67 M205 M245 M342,31,,7/II,7/II/87,1.0,1.0
+80,DK 10923,DK/SD area: 8 / III / 30,house,8,III,30,,,-5.6,-5.6,register,-6.0,2080.0,seal,1,M267 M99 M102 M162,M267 M99 M102 M162,31,,8/III,8/III/30,1.0,1.0
+81,DK 10905,DK/SD area: 22 / 2,room_only,22,,2,,,-5.6,-5.6,register,-6.0,2081.0,seal,1,M267 M99 M387 M67 M72 M211,M267 M99 M387 M67 M72 M211,32,,,22/-/2,1.0,1.0
+82,DK 10906,DK/SD area: ; 22 / 2,room_only,22,,2,,,-5.6,-5.6,register,-6.0,2082.0,seal,1,M215 M102 M15,M215 M102 M15,32,,,22/-/2,1.0,1.0
+83,DK 11249,DK/SD area: 18 / 111,room_only,18,,111,,,-5.7,-5.7,register,-6.0,2083.0,seal,1,M267 M99 M72 M67 M8 M342 | M144,M267 M99 M72 M67 M8 M342 M144,32,,,18/-/111,1.0,1.0
+84,DK 11284,DK/SD area: 18 / 44,room_only,18,,44,,,-5.6,-5.6,register,-6.0,2084.0,seal,1,M102 M287 M329 M343 M387 M65 M224,M102 M287 M329 M343 M387 M65 M224,32,,,18/-/44,1.0,1.0
+85,DK 11030,DK/SD area: 14 / II / 8,house,14,II,8,,,-5.9,-5.9,register,-6.0,2085.0,seal,1,M267 M99 M102 M17 M336 M51 M342,M267 M99 M102 M17 M336 M51 M342,32,,14/II,14/II/8,1.0,1.0
+86,DK 12596,DK/SD area: 20 / II / 13,house,20,II,13,,,-5.7,-5.7,register,-6.0,2086.0,seal,1,M261 M213 M343 M389 M53 M342 M242,M261 M213 M343 M389 M53 M342 M242,32,,20/II,20/II/13,1.0,1.0
+87,DK 11868,DK/SD area: 18 / 99,room_only,18,,99,,,-6.8,-6.8,register,-6.0,2087.0,seal,1,M72 M87 M284 M342,M72 M87 M284 M342,32,,,18/-/99,1.0,2.0
+88,DK 10279,DK/SD area: First / St. (30),street,,,,first st 30,street,-5.9,-5.9,register,-6.0,2088.0,seal,1,M102 M36 M245 M245,M102 M36 M245 M245,32,,,,1.0,1.0
+89,DK 10973,DK/SD area: 22 / 4,room_only,22,,4,,,-6.8,-6.8,register,-6.0,2089.0,seal,1,M99 M48 M342,M99 M48 M342,32,,,22/-/4,1.0,2.0
+90,DK 10091,DK/SD area: 26 / I / 6,house,26,I,6,,,-5.9,-5.9,register,-6.0,2090.0,seal,1,M106 M162 M51 M130,M106 M162 M51 M130,32,,26/I,26/I/6,1.0,1.0
+91,DK 10963,"DK/SD area: , 22 / 4",room_only,22,,4,,,-5.8,-5.8,register,-6.0,2091.0,seal,1,M51 M130 M149 M342,M51 M130 M149 M342,32,,,22/-/4,1.0,1.0
+92,DK 3987,DK/SD area: 3 / V / 8,house,3,V,8,,,-5.9,-5.9,register,-6.0,2092.0,seal,1,M244 M184 M252 M99 M109,M244 M184 M252 M99 M109,31,,3/V,3/V/8,1.0,1.0
+93,DK 10222,DK/SD area: 16 / II / 19,house,16,II,19,,,-5.1,-5.1,register,-5.0,2093.0,seal,1,M377,M377,32,,16/II,16/II/19,1.0,1.0
+94,DK 4688,DK/SD area: 10 / III / 66,house,10,III,66,,,-6.0,-6.0,register,-6.0,2094.0,seal,1,M124 M247 M387 M259 M342,M124 M247 M387 M259 M342,31,,10/III,10/III/66,1.0,2.0
+95,DK 3500,DK/SD area: 23 / II / 8,house,23,II,8,,,-6.1,-6.1,register,-6.0,2095.0,seal,1,M51 M186 M81,M51 M186 M81,32,,23/II,23/II/8,1.0,2.0
+96,DK 12123,DK/SD area: 9 / VIII / 15,house,9,VIII,15,,,-6.4,-6.4,register,,,,0,,,,,9/VIII,9/VIII/15,1.0,2.0
+97,DK 11375,DK/SD area: 15 / VI / 27,house,15,VI,27,,,-6.1,-6.1,register,-6.0,2097.0,seal,1,M204 M245 M102 M287 M342,M204 M245 M102 M287 M342,32,,15/VI,15/VI/27,1.0,2.0
+98,DK 10914,DK/SD area: 21 / I / 2,house,21,I,2,,,-6.1,-6.1,register,-6.0,2098.0,seal,1,M143 M286 M59 M99 M72 M341 M342,M143 M286 M59 M99 M72 M341 M342,32,,21/I,21/I/2,1.0,2.0
+99,DK 11359,DK/SD area: ' / 39,room_only,,,39,,block_unreadable,-6.1,-6.1,register,-6.0,2099.0,seal,1,M147 M195 M343 M325 M109 M59 M347 M342,M147 M195 M343 M325 M109 M59 M347 M342,32,,,,1.0,2.0
+100,DK 7995,DK/SD area: ! 9 / VIU / 16,house,9,VIII,16,,house_ocr_repaired,-6.1,-6.1,register,-6.0,2100.0,seal,1,M267 M99 M124 M169,M267 M99 M124 M169,31,,9/VIII,9/VIII/16,1.0,2.0
+101,DK 11378,DK/SD area: 25 / I / 10,house,25,I,10,,,-63.1,-6.0,m77_level(replaced outlier),-6.0,2101.0,seal,1,M41 M161 M391,M41 M161 M391,32,outlier,25/I,25/I/10,1.0,2.0
+102,DK 10948,DK/SD area: 8 / III / 47 !,house,8,III,47,,,-6.1,-6.1,register,-6.0,2102.0,seal,1,M267 M99 M348 M342,M267 M99 M348 M342,31,,8/III,8/III/47,1.0,2.0
+103,DK 7946,DK/SD area: 9 / VIII / 21,house,9,VIII,21,,,-6.1,-6.1,register,-6.0,2103.0,seal,1,M267 M99 M87 M150 M201 M342 M98 M175,M267 M99 M87 M150 M201 M342 M98 M175,31,,9/VIII,9/VIII/21,1.0,2.0
+104,DK 4180,DK/SD area: 7 / VIII / 28 :,house,7,VIII,28,,,-6.1,-6.1,register,-6.0,2104.0,seal,1,M67 M48 M342,M67 M48 M342,31,,7/VIII,7/VIII/28,1.0,2.0
+105,DK 7956,"DK/SD area: 9 / VIII / 21 ,",house,9,VIII,21,,,-6.1,-6.1,register,-6.0,2105.0,seal,1,M336 M17 M402,M336 M17 M402,31,,9/VIII,9/VIII/21,1.0,2.0
+106,DK 11877,DK/SD area: 8 / III / 28 i 1,house,8,III,28,,,-6.2,-6.2,register,-6.0,2106.0,seal,1,M295 M87 M19,M295 M87 M19,31,,8/III,8/III/28,1.0,2.0
+107,DK 4695,DK/SD area: 1 / IV / 41,house,1,IV,41,,,-6.3,-6.3,register,-6.0,2107.0,seal,1,M336 M51 M130 M53 M99 M124 M25 M176 M342,M336 M51 M130 M53 M99 M124 M25 M176 M342,31,,1/IV,1/IV/41,1.0,2.0
+108,DK 12318,DK/SD area: ■ 21 / IV / 23,house,21,IV,23,,,-6.4,-6.4,register,-6.0,2108.0,seal,1,M25 M15,M25 M15,32,,21/IV,21/IV/23,1.0,2.0
+109,DK 11196,DK/SD area: i / IV / 17,house,,IV,17,,block_unreadable,-6.3,-6.3,register,-6.0,2109.0,seal,1,M249 M89 M233 M123 M86 M59 M395 M99 M51 M130 M28,M249 M89 M233 M123 M86 M59 M395 M99 M51 M130 M28,32,,,,1.0,2.0
+110,DK 11329,DK/SD area: 15 / VI / 29,house,15,VI,29,,,-6.3,-6.3,register,-6.0,2110.0,seal,1,M72 M336 M89 M211,M72 M336 M89 M211,32,,15/VI,15/VI/29,1.0,2.0
+111,DK 12963,DK/SD area: : 20 / I / 1,house,20,I,1,,,-6.4,-6.4,register,-6.0,2111.0,seal,1,M89 M3 M99 M336 M244 M17 M134 M86 M415,M89 M3 M99 M336 M244 M17 M134 M86 M415,32,,20/I,20/I/1,1.0,2.0
+112,DK 4028,DK/SD area: : 7 / vm / 22,house,7,VIII,22,,house_ocr_repaired,-6.4,-6.4,register,-6.0,2112.0,seal,1,M175 M180,M175 M180,31,,7/VIII,7/VIII/22,1.0,2.0
+113,DK 13036,DK/SD area: ! 20 / II / 19,house,20,II,19,,,-6.4,-6.4,register,-6.0,2113.0,seal,1,M106 M15,M106 M15,32,,20/II,20/II/19,1.0,2.0
+114,DK 10317,DK/SD area: 1 First / St. (28),street,,,,1 first st 28,street,-6.4,-6.4,register,-6.0,2114.0,seal,1,M403 M87 M319 M249,M403 M87 M319 M249,32,,,,1.0,2.0
+115,DK 11374,DK/SD area: i / West St.,street,,,,i west st,street,-6.4,-6.4,register,-6.0,2115.0,seal,1,M293 M123 M343 M403 M87 M342,M293 M123 M343 M403 M87 M342,32,,,,1.0,2.0
+116,DK 11845,DK/SD area: 1 23 / II / 11,house,1,II,11,,,-6.6,-6.6,register,-7.0,2116.0,seal,1,M67 M8,M67 M8,32,,1/II,1/II/11,1.0,2.0
+117,DK 10289,DK/SD area: i First / St. (30),street,,,,i first st 30,street,-6.5,-6.5,register,-7.0,2117.0,seal,1,M57 M343 M87 M294 M342,M57 M343 M87 M294 M342,32,,,,1.0,2.0
+118,DK 7921,DK/SD area: i 1 7 / III / 42,house,1,III,42,,block_junk_stripped,-6.5,-6.5,register,-7.0,2118.0,seal,1,M70 M327 M128 M124 M169,M70 M327 M128 M124 M169,31,,1/III,1/III/42,1.0,2.0
+119,DK 10551,DK/SD area: i 26 / I / 5,house,26,I,5,,block_junk_stripped,-6.7,-6.7,register,-7.0,2119.0,seal,1,M163 M252 M261 M134 M98 M391 M391 | M336 M210 M402,M163 M252 M261 M134 M98 M391 M391 M336 M210 M402,32,,26/I,26/I/5,1.0,2.0
+120,DK 10400,DK/SD area: ; 9 / IX / 75,house,9,IX,75,,,-6.5,-6.5,register,-7.0,2120.0,seal,1,M214 M99 M389 M67 M112 M197 M342 M139,M214 M99 M389 M67 M112 M197 M342 M139,31,,9/IX,9/IX/75,1.0,2.0
+121,DK 7908,DK/SD area: 1 —,block_only,1,,,,room_unreadable,-6.5,-6.5,register,-7.0,2121.0,seal,1,M124 M25 M176 M342,M124 M25 M176 M342,33,,,,1.0,2.0
+122,DK 11373,DK/SD area: i / West St.,street,,,,i west st,street,-6.6,-6.6,register,-7.0,2122.0,seal,1,M216 M123 M87 M294 M342,M216 M123 M87 M294 M342,32,,,,1.0,2.0
+123,DK 10965,DK/SD area: 1 26 / I / 2,house,1,I,2,,,-6.6,-6.6,register,-7.0,2123.0,seal,1,M387 M72 M67 M336 M89 M211,M387 M72 M67 M336 M89 M211,32,,1/I,1/I/2,1.0,2.0
+124,DK 10460,DK/SD area: First / St. (30),street,,,,first st 30,street,-6.6,-6.6,register,-7.0,2124.0,seal,1,M86 M12,M86 M12,32,,,,1.0,2.0
+126,DK 10915,DK/SD area: ■ 21 / HI / 21,house,21,III,21,,house_ocr_repaired,-6.6,-6.6,register,-7.0,2126.0,seal,1,M337 M97,M337 M97,31,,21/III,21/III/21,1.0,2.0
+127,DK 7993,DK/SD area: 9 / VIII / 10,house,9,VIII,10,,,-6.7,-6.7,register,-7.0,2127.0,seal,1,M114 M162,M114 M162,32,,9/VIII,9/VIII/10,1.0,2.0
+128,DK 12356,DK/SD area: 21 / IV / 27,house,21,IV,27,,,-6.6,-6.6,register,-7.0,2128.0,seal,1,M17 M293 M54 M180 M99 M109 M59 M342 M1,M17 M293 M54 M180 M99 M109 M59 M342 M1,31,,21/IV,21/IV/27,1.0,2.0
+129,DK 11349,DK/SD area: 1 16 / II / 15,house,1,II,15,,,-6.8,-6.8,register,-7.0,2129.0,seal,1,M398 M379 M343 M65 M72 M121 M222 M254,M398 M379 M343 M65 M72 M121 M222 M254,32,,1/II,1/II/15,1.0,2.0
+129,DK 10916,DK/SD area: 8A / 44,room_only,8A,,44,,,-6.6,-6.6,register,-7.0,2129.0,seal,1,M398 M379 M343 M65 M72 M121 M222 M254,M398 M379 M343 M65 M72 M121 M222 M254,32,,,8A/-/44,1.0,2.0
+130,DK 11358,DK/SD area: 1 / I / 6,house,1,I,6,,,-6.7,-6.7,register,-7.0,2130.0,seal,1,M127 M97 M391 M99 M87 M325 M211,M127 M97 M391 M99 M87 M325 M211,32,,1/I,1/I/6,1.0,2.0
+131,DK 4812,DK/SD area: 1 / V / 43,house,1,V,43,,,-6.6,-6.6,register,-7.0,2131.0,seal,1,M264 M341 M347 M342 M1,M264 M341 M347 M342 M1,31,,1/V,1/V/43,1.0,2.0
+132,DK 12222,DK/SD area: : 18 / 87,room_only,18,,87,,,-6.7,-6.7,register,-7.0,2132.0,seal,1,M267 M99 M70 M211,M267 M99 M70 M211,32,,,18/-/87,1.0,2.0
+133,DK 8037,DK/SD area: 9 / vm / 20,house,9,VIII,20,,house_ocr_repaired,-6.8,-6.8,register,-7.0,2133.0,seal,1,M59,M59,31,,9/VIII,9/VIII/20,1.0,2.0
+134,DK 11298,DK/SD area: 9 / XII / 92,house,9,XII,92,,,-6.8,-6.8,register,-7.0,2134.0,seal,1,M208 M97 M86 M2 M12,M208 M97 M86 M2 M12,31,,9/XII,9/XII/92,1.0,2.0
+135,DK 4085,DK/SD area: 9 / rv / 6,house,9,IV,6,,house_ocr_repaired,-6.8,-6.8,register,,,,0,,,,,9/IV,9/IV/6,1.0,2.0
+136,DK 11607,DK/SD area: 23 / I / 2,house,23,I,2,,,-6.7,-6.7,register,-7.0,2136.0,seal,1,M267 M99 M65,M267 M99 M65,32,,23/I,23/I/2,1.0,2.0
+137,DK 4524,DK/SD area: 7 / IX / 31,house,7,IX,31,,,-6.6,-6.6,register,-7.0,2137.0,seal,1,M87 M244 M162 M342,M87 M244 M162 M342,31,,7/IX,7/IX/31,1.0,2.0
+138,DK 4181,DK/SD area: ' 7 / VI / 61,house,7,VI,61,,,-6.9,-6.9,register,-7.0,2138.0,seal,1,M389 M53 M72 M327 M128 M342 M294 M375,M389 M53 M72 M327 M128 M342 M294 M375,31,,7/VI,7/VI/61,1.0,2.0
+139,DK 12202,DK/SD area: : 18 / 87,room_only,18,,87,,,-6.8,-6.8,register,-7.0,2139.0,seal,1,M406 M162 M176,M406 M162 M176,32,,,18/-/87,1.0,2.0
+140,DK 6462,DK/SD area: Bet. / Bis. 4 & / 7,street,,,,bet bis 4 & 7,street,-7.0,-7.0,register,-7.0,2140.0,seal,1,M330 M176 M99 M124 M342,M330 M176 M99 M124 M342,31,,,,1.0,2.0
+141,DK 4062,DK/SD area: 7 / VUI / 21,house,7,VIII,21,,house_ocr_repaired,-7.0,-7.0,register,-7.0,2141.0,seal,1,M202 M403 M99 M78 M347 M342,M202 M403 M99 M78 M347 M342,31,,7/VIII,7/VIII/21,1.0,2.0
+142,DK 11456,DK/SD area: Bet. / Bis. 14 & / 16,street,,,,bet bis 14 & 16,street,-7.1,-7.1,register,-7.0,2142.0,seal,1,M65 M222 M254,M65 M222 M254,32,,,,1.0,2.0
+143,DK 13023,DK/SD area: 18 / 5,room_only,18,,5,,,-7.0,-7.0,register,-7.0,2143.0,seal,1,M171 M59 M182 M293 M211,M171 M59 M182 M293 M211,32,,,18/-/5,1.0,2.0
+144,DK 11026,DK/SD area: 18 / 17,room_only,18,,17,,,-7.1,-7.1,register,-7.0,2144.0,seal,1,M182 M293 M342,M182 M293 M342,32,,,18/-/17,1.0,2.0
+146,DK 11177,DK/SD area: 18 / 68,room_only,18,,68,,,-7.2,-7.2,register,-7.0,2146.0,seal,1,M391 M123 M65 M67 M233 M342,M391 M123 M65 M67 M233 M342,31,,,18/-/68,1.0,2.0
+147,DK 4182,DK/SD area: 4 / 13,room_only,4,,13,,,-7.1,-7.1,register,-7.0,2147.0,seal,1,M391 M99 M406 M162 M242,M391 M99 M406 M162 M242,32,,,4/-/13,1.0,2.0
+148,DK 10483,DK/SD area: First / St. (30),street,,,,first st 30,street,-7.1,-7.1,register,-7.0,2148.0,seal,1,M41 M304 M176,M41 M304 M176,31,,,,1.0,2.0
+149,DK 10281,DK/SD area: 4 / 3,room_only,4,,3,,,-7.1,-7.1,register,,,,0,,,,,,4/-/3,1.0,2.0
+150,DK 10950,DK/SD area: 18 / 17,room_only,18,,17,,,-7.2,-7.2,register,,,,0,,,,,,18/-/17,1.0,2.0
+151,DK 11961,DK/SD area: 17 / U / 13,house,17,II,13,,house_ocr_repaired,-7.2,-7.2,register,-7.0,2151.0,seal,1,M220,M220,32,,17/II,17/II/13,1.0,2.0
+152,DK 3930,DK/SD area: 6 / I / 2,house,6,I,2,,,-7.3,-7.3,register,-7.0,2152.0,seal,1,M124 M84 M402 M342,M124 M84 M402 M342,31,,6/I,6/I/2,1.0,2.0
+153,DK 11402,DK/SD area: Surface,surface,,,,,surface,-7.3,-7.3,register,0.0,2153.0,seal,1,M69,M69,33,,,,1.0,2.0
+154,DK 7948,DK/SD area: 8 / III / 9,house,8,III,9,,,-7.3,-7.3,register,-7.0,2154.0,seal,1,M173 M342,M173 M342,31,,8/III,8/III/9,1.0,2.0
+155,DK 8014,DK/SD area: 9 / VIII / 14,house,9,VIII,14,,,-7.1,-7.1,register,-7.0,2155.0,seal,1,M124 M409 M96 M342 M1,M124 M409 M96 M342 M1,31,,9/VIII,9/VIII/14,1.0,2.0
+156,DK 3616,DK/SD area: 7 / II / 89,house,7,II,89,,,-7.2,-7.2,register,,,,0,,,,,7/II,7/II/89,1.0,2.0
+157,DK 7947,DK/SD area: 8 / III / 9,house,8,III,9,,,-7.3,-7.3,register,-7.0,2157.0,seal,1,M305 M123 M86 M136 M193 M342,M305 M123 M86 M136 M193 M342,31,,8/III,8/III/9,1.0,2.0
+158,DK 11396,DK/SD area: West St.,street,,,,west st,street,-7.4,-7.4,register,-7.0,2158.0,seal,1,M173 M342,M173 M342,32,,,,1.0,2.0
+159,DK 3640,DK/SD area: 7 / II / 29,house,7,II,29,,,-7.4,-7.4,register,-7.0,2159.0,seal,1,M175 M230 M53 M15,M175 M230 M53 M15,31,,7/II,7/II/29,1.0,2.0
+160,DK 11746,DK/SD area: lo / 54,room_only,10,,54,,,-7.6,-7.6,register,-8.0,2160.0,seal,1,M391 M391 M343 M249 M162 M342,M391 M391 M343 M249 M162 M342,32,,,10/-/54,1.0,2.0
+161,DK 7990,DK/SD area: 9 / VIII / 21,house,9,VIII,21,,,-7.4,-7.4,register,-7.0,2161.0,seal,1,M67 M211,M67 M211,31,,9/VIII,9/VIII/21,1.0,2.0
+162,DK 4794,DK/SD area: Bet. Bis. / 12* 12 / A.,street,,,,bet bis 12 12 a,street,-7.4,-7.4,register,-7.0,2162.0,seal,1,M391 M99 M53 M87 M59 M121 M342,M391 M99 M53 M87 M59 M121 M342,31,,,,1.0,2.0
+163,DK 5656,DK/SD area: 7 / V / 64,house,7,V,64,,,-7.6,-7.6,register,-8.0,2163.0,seal,1,M222 M254 M121 M342,M222 M254 M121 M342,31,,7/V,7/V/64,1.0,2.0
+164,DK 8038,DK/SD area: 9 / VIII / 10,house,9,VIII,10,,,-7.5,-7.5,register,-8.0,2164.0,seal,1,M391 M99 M59 M8 M342,M391 M99 M59 M8 M342,31,,9/VIII,9/VIII/10,1.0,2.0
+165,DK 11714,DK/SD area: 13 / III / 13,house,13,III,13,,,-7.6,-7.6,register,-8.0,2165.0,seal,1,M149 M294 M342,M149 M294 M342,32,,13/III,13/III/13,1.0,2.0
+166,DK 12604,DK/SD area: III / 14,house,,III,14,,block_unreadable,-7.6,-7.6,register,-8.0,2166.0,seal,1,M173 M180 M99 M127 M347 M342,M173 M180 M99 M127 M347 M342,32,,,,1.0,2.0
+167,DK 11729,DK/SD area: ll / 13,house,,II,13,,block_unreadable;house_ocr_repaired,-7.6,-7.6,register,-8.0,2167.0,seal,1,M90 M242,M90 M242,32,,,,1.0,2.0
+168,DK 12138,DK/SD area: 21 / rv / 23,house,21,IV,23,,house_ocr_repaired,-7.6,-7.6,register,-8.0,2168.0,seal,1,M391 M99 M171 M8 M342,M391 M99 M171 M8 M342,32,,21/IV,21/IV/23,1.0,2.0
+169,DK 11276,DK/SD area: 13 / III / 18,house,13,III,18,,,-7.6,-7.6,register,-8.0,2169.0,seal,1,M328 M307 M402 M301 M155 M211 M242,M328 M307 M402 M301 M155 M211 M242,32,,13/III,13/III/18,1.0,2.0
+170,DK 3734,DK/SD area: I / 3 1,house,,I,3,,block_unreadable,-7.7,-7.7,register,-8.0,2170.0,seal,1,M244 M98 M178 M389 M15,M244 M98 M178 M389 M15,31,,,,1.0,2.0
+171,DK 11602,DK/SD area: 18 / 74,room_only,18,,74,,,-7.6,-7.6,register,-8.0,2171.0,seal,1,M87 M322 M99 M87 M59 M71,M87 M322 M99 M87 M59 M71,32,,,18/-/74,1.0,2.0
+172,DK 4773,DK/SD area: 10 / II / 27,house,10,II,27,,,-78.1,,,,,,0,,,,outlier,10/II,10/II/27,,
+173,DK 12163,DK/SD area: 3,room_only,,,3,,block_unreadable,-7.6,-7.6,register,-8.0,2173.0,seal,1,M379 M245 M245,M379 M245 M245,32,,,,1.0,2.0
+174,DK 12124,DK/SD area: West St.,street,,,,west st,street,-7.7,-7.7,register,-8.0,2174.0,seal,1,M87 M230 M180 M99 M70 M53 M342,M87 M230 M180 M99 M70 M53 M342,32,,,,1.0,2.0
+175,DK 11635,DK/SD area: 16 / I / 10,house,16,I,10,,,-7.6,-7.6,register,-8.0,2175.0,seal,1,M190 M59 M176,M190 M59 M176,32,,16/I,16/I/10,1.0,2.0
+176,DK 11756,DK/SD area: Central / St.,street,,,,central st,street,-7.7,-7.7,register,-8.0,2176.0,seal,1,M249 M162 M391,M249 M162 M391,31,,,,1.0,2.0
+177,DK 5371,DK/SD area: 10 / Ill / 56,house,10,III,56,,house_ocr_repaired,-7.7,-7.7,register,-8.0,2177.0,seal,1,M267 M99 M48 M342 M1,M267 M99 M48 M342 M1,31,,10/III,10/III/56,1.0,2.0
+178,DK 8054,DK/SD area: 9 / VIII / 21,house,9,VIII,21,,,-7.5,-7.5,register,-8.0,2178.0,seal,1,M267 M99 M173 M403 M347 M342 M400 M307,M267 M99 M173 M403 M347 M342 M400 M307,31,,9/VIII,9/VIII/21,1.0,2.0
+179,DK 12208,DK/SD area: 18 / 47,room_only,18,,47,,,-7.7,-7.7,register,-8.0,2179.0,seal,1,M267 M99 M409 M96 M342 M1,M267 M99 M409 M96 M342 M1,32,,,18/-/47,1.0,2.0
+180,DK 7920,DK/SD area: 7 / IX / 29,house,7,IX,29,,,-7.9,-7.9,register,-8.0,2180.0,seal,1,M267 M99 M102 M162,M267 M99 M102 M162,31,,7/IX,7/IX/29,1.0,2.0
+181,DK 14921,DK/SD area: Central / St.,street,,,,central st,street,-7.9,-7.9,register,-8.0,2181.0,seal,1,M48 M342,M48 M342,31,,,,1.0,2.0
+182,DK 11908,DK/SD area: 17 / I / 6,house,17,I,6,,,-7.9,-7.9,register,-8.0,2182.0,seal,1,M249 M169,M249 M169,32,,17/I,17/I/6,1.0,2.0
+183,DK 11870,DK/SD area: 21 / I / 1,house,21,I,1,,,-7.8,-7.8,register,-8.0,2183.0,seal,1,M53 M171 M59 M211,M53 M171 M59 M211,32,,21/I,21/I/1,1.0,2.0
+184,DK 10712,DK/SD area: First / St. (24),street,,,,first st 24,street,-7.8,-7.8,register,-8.0,2184.0,seal,1,M371 M225 M344 M67 M98 M347 M342,M371 M225 M344 M67 M98 M347 M342,31,,,,1.0,2.0
+185,DK 3477,DK/SD area: Bet. / Bis. 7 & / 8,street,,,,bet bis 7 & 8,street,-8.0,-8.0,register,-8.0,2185.0,seal,1,M203 M344 M66 M375 M89,M203 M344 M66 M375 M89,31,,,,1.0,2.0
+186,DK 6627,DK/SD area: Bet. Bis. / 1 (HI) / & 7,street,,,,bet bis 1 hi & 7,street,-8.0,-8.0,register,-8.0,2186.0,seal,1,M65 M67 M121 M12,M65 M67 M121 M12,31,,,,1.0,2.0
+187,DK 11557,DK/SD area: 16 / I / 9,house,16,I,9,,,-8.0,-8.0,register,-8.0,2187.0,seal,1,M150 M87 M277,M150 M87 M277,32,,16/I,16/I/9,1.0,2.0
+188,DK 11340,DK/SD area: 13 / III / 17,house,13,III,17,,,-8.0,-8.0,register,-8.0,2188.0,seal,1,M123 M328 M12,M123 M328 M12,32,,13/III,13/III/17,1.0,2.0
+189,DK 12109,DK/SD area: 21 / IV / 27,house,21,IV,27,,,-8.1,-8.1,register,-8.0,2189.0,seal,1,M67 M244,M67 M244,32,,21/IV,21/IV/27,1.0,2.0
+190,DK 11245,DK/SD area: 18 / 20,room_only,18,,20,,,-7.9,-7.9,register,-8.0,2190.0,seal,1,M302 M123 M398 M160 M307 M176,M302 M123 M398 M160 M307 M176,32,,,18/-/20,1.0,2.0
+191,DK 3617,DK/SD area: 7 / II / 88,house,7,II,88,,,-8.1,-8.1,register,-8.0,2191.0,seal,1,M181 M319 M97 M102 M190,M181 M319 M97 M102 M190,31,,7/II,7/II/88,1.0,2.0
+192,DK 12326,DK/SD area: 17 / UI / 24,house,17,III,24,,house_ocr_repaired,-8.1,-8.1,register,-8.0,2192.0,seal,1,M17 M406 M162,M17 M406 M162,32,,17/III,17/III/24,1.0,2.0
+193,DK 5227,DK/SD area: Bet. Bis. / 1 (IV) / & 10,street,,,,bet bis 1 iv & 10,street,-8.1,-8.1,register,-8.0,2193.0,seal,1,M202 M343 M65 M67 M72 M211,M202 M343 M65 M67 M72 M211,31,,,,1.0,2.0
+194,DK 12324,DK/SD area: 18 / 87,room_only,18,,87,,,-8.1,-8.1,register,,,,0,,,,,,18/-/87,1.0,2.0
+195,DK 12281,DK/SD area: 18 / •— / 80,room_only,18,,80,,,-8.1,-8.1,register,-8.0,2195.0,seal,1,M192 M347 M342,M192 M347 M342,32,,,18/-/80,1.0,2.0
+196,DK 12318,DK/SD area: 18 / 32,room_only,18,,32,,,-8.1,-8.1,register,-8.0,2196.0,seal,1,M72 M388 M176,M72 M388 M176,32,,,18/-/32,1.0,2.0
+197,DK 3879,DK/SD area: 6 / Ill / 21,house,6,III,21,,house_ocr_repaired,-8.1,-8.1,register,-8.0,2197.0,seal,1,M87 M322 M99 M65 M72 M336 M89 M390 M327 M342,M87 M322 M99 M65 M72 M336 M89 M390 M327 M342,31,,6/III,6/III/21,1.0,2.0
+198,DK 8100,DK/SD area: 9 / vni / 14,house,9,VIII,14,,house_ocr_repaired,-8.2,-8.2,register,-8.0,2198.0,seal,1,M216 M123 M109 M162,M216 M123 M109 M162,31,,9/VIII,9/VIII/14,1.0,2.0
+199,DK 3649,DK/SD area: 6 / III / 12,house,6,III,12,,,-8.3,-8.3,register,-8.0,2199.0,seal,1,M286 M99 M68,M286 M99 M68,31,,6/III,6/III/12,1.0,2.0
+200,DK 4379,DK/SD area: Bet. Bis. / 1 (HI) / & 2,street,,,,bet bis 1 hi & 2,street,-8.2,-8.2,register,-8.0,2200.0,seal,1,M153 M153 M342,M153 M153 M342,31,,,,1.0,2.0
+201,DK 12160,DK/SD area: 18 / 41,room_only,18,,41,,,-8.4,-8.4,register,-8.0,2201.0,seal,1,M186 M347 M342,M186 M347 M342,32,,,18/-/41,1.0,2.0
+202,DK 11216,DK/SD area: 1 8A / 41,room_only,1,,41,,,-8.2,-8.2,register,-8.0,2202.0,seal,1,M244 M230 M99 M124 M342,M244 M230 M99 M124 M342,31,,,1/-/41,1.0,2.0
+203,DK 11366,DK/SD area: 18 / 75,room_only,18,,75,,,-8.3,-8.3,register,-8.0,2203.0,seal,1,M23 M86 M15,M23 M86 M15,32,,,18/-/75,1.0,2.0
+204,DK 3937,"DK/SD area: , 9 / VII / 17",house,9,VII,17,,,-8.3,-8.3,register,-8.0,2204.0,seal,1,M403 M17 M56 M249,M403 M17 M56 M249,31,,9/VII,9/VII/17,1.0,2.0
+205,DK 11264,DK/SD area: 21 / ni / 18,house,21,III,18,,house_ocr_repaired,-8.6,-8.6,register,-9.0,2205.0,seal,1,M389 M53 M171 M59 M373 M287 M342,M389 M53 M171 M59 M373 M287 M342,32,,21/III,21/III/18,1.0,2.0
+206,DK 11860,DK/SD area: Bet. / Bis. 27 & / 28,street,,,,bet bis 27 & 28,street,-8.3,-8.3,register,-8.0,2206.0,seal,1,M395 M402,M395 M402,32,,,,1.0,2.0
+207,DK 11184,DK/SD area: 21 / Ill / 21,house,21,III,21,,house_ocr_repaired,-8.4,-8.4,register,-8.0,2207.0,seal,1,M155 M343 M171 M59 M53 M342,M155 M343 M171 M59 M53 M342,32,,21/III,21/III/21,1.0,2.0
+208,DK 4648,DK/SD area: Bet. / Bis. 7 (I) / & 10,street,,,,bet bis 7 i & 10,street,-8.3,-8.3,register,-8.0,2208.0,seal,1,M328 M391 M99 M70 M336 M89 M211,M328 M391 M99 M70 M336 M89 M211,31,,,,1.0,2.0
+209,DK 5644,DK/SD area: 7 / III / 39,house,7,III,39,,,-8.2,-8.2,register,-8.0,2209.0,seal,1,M59,M59,31,,7/III,7/III/39,1.0,2.0
+210,DK 11386,DK/SD area: Central St.,street,,,,central st,street,-8.5,-8.5,register,,,,0,,,,,,,1.0,2.0
+211,DK 12654,DK/SD area: 9 / IX / 63,house,9,IX,63,,,-8.3,-8.3,register,-8.0,2211.0,seal,1,M387 M87 M60,M387 M87 M60,31,,9/IX,9/IX/63,1.0,2.0
+212,DK 3649,DK/SD area: 6 / III / 12,house,6,III,12,,,-8.3,-8.3,register,,,,0,,,,,6/III,6/III/12,1.0,2.0
+213,DK 12668,DK/SD area: 9 / IX / 65,house,9,IX,65,,,-8.4,-8.4,register,-8.0,2213.0,seal,1,M336 M89 M98 M358 M342,M336 M89 M98 M358 M342,31,,9/IX,9/IX/65,1.0,2.0
+214,DK 5912,DK/SD area: 7 / I / 6,house,7,I,6,,,-8.3,-8.3,register,-8.0,2214.0,seal,1,M112 M194 M342,M112 M194 M342,31,,7/I,7/I/6,1.0,2.0
+215,DK 12618,DK/SD area: 9 / XII / 94,house,9,XII,94,,,-8.3,-8.3,register,-8.0,2215.0,seal,1,M106 M169,M106 M169,31,,9/XII,9/XII/94,1.0,2.0
+216,DK 12293,DK/SD area: 6A / 36,room_only,6A,,36,,,-8.3,-8.3,register,-8.0,2216.0,seal,1,M175 M180 M99 M338 M342,M175 M180 M99 M338 M342,31,,,6A/-/36,1.0,2.0
+217,DK 7936,DK/SD area: 7 / HI / 44,house,7,III,44,,house_ocr_repaired,-8.3,-8.3,register,-8.0,2217.0,seal,1,M1 M1,M1 M1,31,,7/III,7/III/44,1.0,2.0
+218,DK 12657,DK/SD area: 9 / IX / 63,house,9,IX,63,,,-8.3,-8.3,register,,,,0,,,,,9/IX,9/IX/63,1.0,2.0
+219,DK 12182,DK/SD area: 9 / X / 88,house,9,X,88,,,-8.4,-8.4,register,-8.0,2219.0,seal,1,M50 M343 M375 M375 M81 M342,M50 M343 M375 M375 M81 M342,31,,9/X,9/X/88,1.0,2.0
+220,DK 5748,DK/SD area: 9 / VII / 47,house,9,VII,47,,,-8.3,-8.3,register,-8.0,2220.0,seal,2,M182 M149,M182 M149 M216 M123 M149 M342,31,,9/VII,9/VII/47,1.0,2.0
+221,DK 5559,DK/SD area: : 7 / V / 63,house,7,V,63,,,-8.5,-8.5,register,-9.0,2221.0,seal,1,M389 M65 M67 M296 M342,M389 M65 M67 M296 M342,31,,7/V,7/V/63,1.0,2.0
+222,DK 12050,DK/SD area: 15 / I / 5,house,15,I,5,,,-8.4,-8.4,register,-8.0,2222.0,seal,1,M150 M123 M70 M294 M342,M150 M123 M70 M294 M342,32,,15/I,15/I/5,1.0,2.0
+223,DK 11364,DK/SD area: First / St. (29),street,,,,first st 29,street,-8.7,-8.7,register,,,,0,,,,,,,1.0,2.0
+224,DK 12967,"DK/SD area: , 8A / 41",room_only,8A,,41,,,-8.4,-8.4,register,-8.0,2224.0,seal,1,M267 M99 M67 M153 M153 M347 M342,M267 M99 M67 M153 M153 M347 M342,31,,,8A/-/41,1.0,2.0
+225,DK 11213,DK/SD area: 21 / HI / 21,house,21,III,21,,house_ocr_repaired,-8.6,-8.6,register,-9.0,2225.0,seal,1,M212 M87 M341,M212 M87 M341,32,,21/III,21/III/21,1.0,2.0
+226,DK 7952,DK/SD area: 9 / VI / 36,house,9,VI,36,,,-8.4,-8.4,register,-8.0,2226.0,seal,1,M73,M73,31,,9/VI,9/VI/36,1.0,2.0
+227,DK 4741,DK/SD area: Bet. Bis. / 1 (IV) and / 10,street,,,,bet bis 1 iv and 10,street,-8.5,-8.5,register,-9.0,2227.0,seal,1,M389 M87 M59 M67 M121 M342,M389 M87 M59 M67 M121 M342,31,,,,1.0,2.0
+228,DK 10863,DK/SD area: 6A / 32,room_only,6A,,32,,,-8.0,-8.0,register,-9.0,2228.0,seal,1,M244 M83 M99 M67 | M87 M244 M28 M162 |,M244 M83 M99 M67 M87 M244 M28 M162,31,,,6A/-/32,1.0,2.0
+229,DK 8186,DK/SD area: : ® / IV / 6,house,,IV,6,,block_unreadable,-8.4,-8.4,register,-8.0,2229.0,seal,2,M104 M59 M211,M104 M59 M211 M267 M99 M51 M130 M149 M342,31,,,,1.0,2.0
+230,DK 12966,DK/SD area: 9A / VIII / 69,house,9A,VIII,69,,,-8.4,-8.4,register,-8.0,2230.0,seal,1,M87 M59 M155 M162,M87 M59 M155 M162,31,,9A/VIII,9A/VIII/69,1.0,2.0
+231,DK 8024,DK/SD area: I / 8,house,,I,8,,block_unreadable,-8.6,-8.6,register,-9.0,2231.0,seal,1,M387 M53 M171 M59 M98 M347 M342,M387 M53 M171 M59 M98 M347 M342,31,,,,1.0,2.0
+232,DK 3589,DK/SD area: 7 / II / 89,house,7,II,89,,,-8.7,-8.7,register,-9.0,2232.0,seal,1,M386 M65 M59 M327 M342,M386 M65 M59 M327 M342,31,,7/II,7/II/89,1.0,2.0
+233,DK 12117,DK/SD area: ; 29 / I / 21,house,29,I,21,,,-8.7,-8.7,register,-9.0,2233.0,seal,1,M215 M298 M86 M109 M59 M342 M1,M215 M298 M86 M109 M59 M342 M1,32,,29/I,29/I/21,1.0,2.0
+234,DK 12644,DK/SD area: I 9 / IX / 65,house,9,IX,65,,block_junk_stripped,-8.7,-8.7,register,-9.0,2234.0,seal,1,M336 M162 M100 M66,M336 M162 M100 M66,31,,9/IX,9/IX/65,1.0,2.0
+235,DK 3882,DK/SD area: ' 6 / III / 21,house,6,III,21,,,-8.9,-8.9,register,-9.0,2235.0,seal,1,M99 M68 | M59 M267,M99 M68 M59 M267,31,,6/III,6/III/21,1.0,2.0
+236,DK 12286,DK/SD area: 8 / HI / 30,house,8,III,30,,house_ocr_repaired,-8.8,-8.8,register,-9.0,2236.0,seal,1,M249 M169 M53 M342,M249 M169 M53 M342,31,,8/III,8/III/30,1.0,2.0
+237,DK 12689,DK/SD area: 9 / IX / 65,house,9,IX,65,,,-8.8,-8.8,register,-9.0,2237.0,seal,1,M267 M343 M87 M155 M124 M169 M296 M342,M267 M343 M87 M155 M124 M169 M296 M342,31,,9/IX,9/IX/65,1.0,2.0
+238,DK 12370,DK/SD area: 18 / 21,room_only,18,,21,,,-8.8,-8.8,register,-9.0,2238.0,seal,1,M34 M99 M65 M301 M347 M342,M34 M99 M65 M301 M347 M342,32,,,18/-/21,1.0,2.0
+239,DK 5514,DK/SD area: ' 1 / VI / 63,house,1,VI,63,,,-8.7,-8.7,register,-9.0,2239.0,seal,1,M75 M12,M75 M12,31,,1/VI,1/VI/63,1.0,2.0
+240,DK 8265,DK/SD area: : 9A / V / 73,house,9A,V,73,,,-8.7,-8.7,register,-9.0,2240.0,seal,1,M102 M25 M245 M245,M102 M25 M245 M245,31,,9A/V,9A/V/73,1.0,2.0
+241,DK 8075,DK/SD area: 9 / VI / 31,house,9,VI,31,,,-8.8,-8.8,register,-9.0,2241.0,seal,1,M48 M28 M169,M48 M28 M169,31,,9/VI,9/VI/31,1.0,2.0
+242,DK 6500,DK/SD area: 10 / II / 25,house,10,II,25,,,-8.8,-8.8,register,-9.0,2242.0,seal,1,M255 M11 M15,M255 M11 M15,31,,10/II,10/II/25,1.0,2.0
+243,DK 4747,DK/SD area: 12 / V / 90,house,12,V,90,,,-8.8,-8.8,register,-9.0,2243.0,seal,1,M150 M123 M70 M127 M342,M150 M123 M70 M127 M342,31,,12/V,12/V/90,1.0,2.0
+244,DK 12783,DK/SD area: 9 / IX / 64,house,9,IX,64,,,-8.8,-8.8,register,-9.0,2244.0,seal,1,M216 M254,M216 M254,31,,9/IX,9/IX/64,1.0,2.0
+245,DK 8231,DK/SD area: 9 / III / 29,house,9,III,29,,,-8.8,-8.8,register,,,,0,,,,,9/III,9/III/29,1.0,2.0
+246,DK 7997,DK/SD area: 7 / IX / 30,house,7,IX,30,,,-9.0,-9.0,register,-9.0,2246.0,seal,1,M372 M99 M403 M87 M342,M372 M99 M403 M87 M342,31,,7/IX,7/IX/30,1.0,3.0
+247,DK 12070,DK/SD area: 13 / III / 21,house,13,III,21,,,-9.3,-9.3,register,-9.0,2247.0,seal,1,M150 M123 M65 M67 M348 M342,M150 M123 M65 M67 M348 M342,32,,13/III,13/III/21,1.0,3.0
+248,DK 12286,DK/SD area: 8 / III / 30,house,8,III,30,,,-8.8,-8.8,register,,,,0,,,,,8/III,8/III/30,1.0,2.0
+249,DK 11846,"DK/SD area: 14 / IV / 26 ,",house,14,IV,26,,,-8.9,-8.9,register,-9.0,2249.0,seal,1,M102 M25,M102 M25,32,,14/IV,14/IV/26,1.0,2.0
+250,DK 12486,DK/SD area: 8 / III / 46,house,8,III,46,,,-9.0,-9.0,register,-9.0,2250.0,seal,1,M86 M327 M99 M102 M190,M86 M327 M99 M102 M190,31,,8/III,8/III/46,1.0,3.0
+251,DK 12159,DK/SD area: 29 / I / 1,house,29,I,1,,,-9.0,-9.0,register,-9.0,2251.0,seal,1,M267 M99 M336 M89 M211,M267 M99 M336 M89 M211,32,,29/I,29/I/1,1.0,3.0
+252,DK 11491,DK/SD area: 16 / I / 9,house,16,I,9,,,-9.0,-9.0,register,-9.0,2252.0,seal,1,M67 M403 M87 M342,M67 M403 M87 M342,32,,16/I,16/I/9,1.0,3.0
+253,DK 8139,DK/SD area: 9 / VIII / 16,house,9,VIII,16,,,-9.2,-9.2,register,-9.0,2253.0,seal,1,M344 M347 M342,M344 M347 M342,31,,9/VIII,9/VIII/16,1.0,3.0
+254,DK 10273,DK/SD area: Bet. / Bis. 6 & / 8 ',street,,,,bet bis 6 & 8,street,-9.2,-9.2,register,-9.0,2254.0,seal,1,M106 M287 M342 M1,M106 M287 M342 M1,31,,,,1.0,3.0
+255,DK 11938,DK/SD area: 22 / 2,room_only,22,,2,,,-9.4,-9.4,register,-9.0,2255.0,seal,1,M267 M99 M375 M375 M342 M1,M267 M99 M375 M375 M342 M1,32,,,22/-/2,1.0,3.0
+256,DK 12047,DK/SD area: 17 / I / 3 ;,house,17,I,3,,,-9.0,-9.0,register,-9.0,2256.0,seal,1,M267 M99 M86 M67 M244,M267 M99 M86 M67 M244,32,,17/I,17/I/3,1.0,3.0
+257,DK 3416,DK/SD area: 4 / 13,room_only,4,,13,,,-9.1,-9.1,register,-9.0,2257.0,seal,1,M139 M99 M15 M244 M342,M139 M99 M15 M244 M342,31,,,4/-/13,1.0,3.0
+258,DK 12194,DK/SD area: 17 / I / 7,house,17,I,7,,,-9.2,-9.2,register,-9.0,2258.0,seal,1,M48 M342,M48 M342,32,,17/I,17/I/7,1.0,3.0
+259,DK 12245,DK/SD area: 29 / I / 1,house,29,I,1,,,-9.2,-9.2,register,,,,0,,,,,29/I,29/I/1,1.0,3.0
+260,DK 3421,DK/SD area: 4 / 13,room_only,4,,13,,,-9.3,-9.3,register,-9.0,2260.0,seal,1,M87 M59 M67 M89 M381 M342,M87 M59 M67 M89 M381 M342,31,,,4/-/13,1.0,3.0
+261,DK 12779,DK/SD area: 9 / X / 80,house,9,X,80,,,-9.3,-9.3,register,-9.0,2261.0,seal,1,M392,M392,31,,9/X,9/X/80,1.0,3.0
+262,DK 4815,DK/SD area: 7 / I / 13,house,7,I,13,,,-9.5,-9.5,register,-10.0,2262.0,seal,1,M267 M99 M113 M342,M267 M99 M113 M342,31,,7/I,7/I/13,1.0,3.0
+263,DK 5924,DK/SD area: 10 / II / 25,house,10,II,25,,,-9.4,-9.4,register,-9.0,2263.0,seal,1,M373 M162 M343 M249 M162 M342,M373 M162 M343 M249 M162 M342,31,,10/II,10/II/25,1.0,3.0
+264,DK 12294,DK/SD area: West / St.,street,,,,west st,street,-9.8,-9.8,register,-10.0,2264.0,seal,1,M197 M32 M123 M287 M319 M342 | M235,M197 M32 M123 M287 M319 M342 M235,32,,,,1.0,3.0
+265,DK 4562,DK/SD area: Bet. / Bis. 3 & / 4,street,,,,bet bis 3 & 4,street,-9.6,-9.6,register,-10.0,2265.0,seal,1,M243 M267,M243 M267,31,,,,1.0,3.0
+266,DK 11221,DK/SD area: First / St. (31),street,,,,first st 31,street,-9.5,-9.5,register,-10.0,2266.0,seal,1,M354 M319 M123 M40,M354 M319 M123 M40,32,,,,1.0,3.0
+267,DK 12763,DK/SD area: 9 / IX / 59,house,9,IX,59,,,-9.5,-9.5,register,-10.0,2267.0,seal,1,M306 M114 M162,M306 M114 M162,31,,9/IX,9/IX/59,1.0,3.0
+268,DK 12775,DK/SD area: 9A / VUI / 44,house,9A,VIII,44,,house_ocr_repaired,-9.3,-9.3,register,-9.0,2268.0,seal,1,M391 M99 M214 M342,M391 M99 M214 M342,31,,9A/VIII,9A/VIII/44,1.0,3.0
+269,DK 12498,DK/SD area: 9 / XI / 75,house,9,XI,75,,,-9.3,-9.3,register,-9.0,2269.0,seal,1,M162 M342,M162 M342,31,,9/XI,9/XI/75,1.0,3.0
+270,DK 11926,DK/SD area: 23 / I / 2,house,23,I,2,,,-9.8,-9.8,register,-10.0,2270.0,seal,1,M406 M162,M406 M162,32,,23/I,23/I/2,1.0,3.0
+271,DK 12593,"DK/SD area: First / St. (24) / ,",street,,,,first st 24,street,-9.5,-9.5,register,-10.0,2271.0,seal,1,M391 M28 M169 M99 M65 M72 M67 M244 M342,M391 M28 M169 M99 M65 M72 M67 M244 M342,31,,,,1.0,3.0
+272,DK 5331,DK/SD area: 2 / II / 22,house,2,II,22,,,-9.4,-9.4,register,-9.0,2272.0,seal,1,M387 M67 M348 M342,M387 M67 M348 M342,31,,2/II,2/II/22,1.0,3.0
+273,DK 4604,DK/SD area: 1 / III / 1,house,1,III,1,,,-9.5,-9.5,register,-10.0,2273.0,seal,1,M216 M123 M171 M59 M336 M89 M216 M254,M216 M123 M171 M59 M336 M89 M216 M254,31,,1/III,1/III/1,1.0,3.0
+274,DK 12857,DK/SD area: 9A / VIH / 55,house,9A,VIII,55,,house_ocr_repaired,-9.6,-9.6,register,-10.0,2274.0,seal,1,M2 M176,M2 M176,31,,9A/VIII,9A/VIII/55,1.0,3.0
+275,DK 12211,DK/SD area: 13 / II / 7,house,13,II,7,,,-9.6,-9.6,register,-10.0,2275.0,seal,1,M65 M67 M336 M89 M211,M65 M67 M336 M89 M211,32,,13/II,13/II/7,1.0,3.0
+276,DK 12516,DK/SD area: 9 / XI / 75,house,9,XI,75,,,-9.4,-9.4,register,-9.0,2276.0,seal,1,M267 M99 M28 M1,M267 M99 M28 M1,31,,9/XI,9/XI/75,1.0,3.0
+277,DK 3642,DK/SD area: 7 / II / 89,house,7,II,89,,,-9.6,-9.6,register,-10.0,2277.0,seal,1,M249 M169 M342,M249 M169 M342,31,,7/II,7/II/89,1.0,3.0
+278,DK 5439,DK/SD area: 10 / IV / 73,house,10,IV,73,,,-9.5,-9.5,register,-10.0,2278.0,seal,1,M387 M87 M284 M294 M342,M387 M87 M284 M294 M342,31,,10/IV,10/IV/73,1.0,3.0
+279,DK 8165,DK/SD area: 9A / V / 75 I,house,9A,V,75,,,-9.5,-9.5,register,-10.0,2279.0,seal,1,M162 M1 | M242,M162 M1 M242,31,,9A/V,9A/V/75,1.0,3.0
+280,DK 5575,DK/SD area: 12 / V / 95,house,12,V,95,,,-9.7,-9.7,register,-10.0,2280.0,seal,1,M197 M249 M343 M67 M211,M197 M249 M343 M67 M211,31,,12/V,12/V/95,1.0,3.0
+281,DK 3422,DK/SD area: 4 / 13 !,room_only,4,,13,,,-9.6,-9.6,register,-10.0,2281.0,seal,1,M375 M99 M67 M342 M216 M254,M375 M99 M67 M342 M216 M254,31,,,4/-/13,1.0,3.0
+282,DK 12849,"DK/SD area: 0 / IX / 66,",house,0,IX,66,,,-9.9,-9.9,register,-10.0,2282.0,seal,1,M53 M171 M59 M48 M342,M53 M171 M59 M48 M342,31,,0/IX,0/IX/66,1.0,3.0
+283,DK 11233,DK/SD area: First / St. (29),street,,,,first st 29,street,-9.7,-9.7,register,-10.0,2283.0,seal,1,M398 M99 M25 M176 M342,M398 M99 M25 M176 M342,32,,,,1.0,3.0
+284,DK 8103,DK/SD area: 8 / III / 37,house,8,III,37,,,-9.5,-9.5,register,-10.0,2284.0,seal,1,M336 M209 M343 M389 M296 M342,M336 M209 M343 M389 M296 M342,31,,8/III,8/III/37,1.0,3.0
+285,DK 5575,DK/SD area: 12 / V / 95,house,12,V,95,,,-0.7,-10.0,m77_level(replaced outlier),-10.0,2285.0,seal,1,M26 M100 M87 M59 M38 M342,M26 M100 M87 M59 M38 M342,31,outlier,12/V,12/V/95,2.0,3.0
+286,DK 12449,DK/SD area: 8 / HI / 47,house,8,III,47,,house_ocr_repaired,-9.6,-9.6,register,-10.0,2286.0,seal,1,M343 M391 M99 M86 M75 M12,M343 M391 M99 M86 M75 M12,31,,8/III,8/III/47,1.0,3.0
+287,DK 8105,DK/SD area: 8 / HI / 37,house,8,III,37,,house_ocr_repaired,-9.9,-9.9,register,,,,0,,,,,8/III,8/III/37,1.0,3.0
+288,DK 5476,DK/SD area: 12A / II / 12,house,12A,II,12,,,-9.9,-9.9,register,-10.0,2288.0,seal,1,M267 M99 M48 M233 M342,M267 M99 M48 M233 M342,31,,12A/II,12A/II/12,1.0,3.0
+289,DK 4271,DK/SD area: 2 / I,house,2,I,,,,-10.2,-10.2,register,-10.0,2289.0,seal,1,M284 M14 M176,M284 M14 M176,31,,2/I,,2.0,3.0
+290,DK 4458,DK/SD area: Bet. / Bis. I (III) / & 3,street,,,,bet bis i iii & 3,street,-9.7,-9.7,register,-10.0,2290.0,seal,1,M267 M99 M204 M230 M301 M155 M347 M342,M267 M99 M204 M230 M301 M155 M347 M342,31,,,,1.0,3.0
+291,DK 8160,DK/SD area: 9 / 1 / 24,house,9,I,24,,house_ocr_repaired,-9.8,-9.8,register,-10.0,2291.0,seal,1,M59 M48 M342,M59 M48 M342,31,,9/I,9/I/24,1.0,3.0
+292,DK 6667,DK/SD area: 4,block_only,4,,,,,-9.8,-9.8,register,-10.0,2292.0,seal,1,M17 M345 M25 M245 M245,M17 M345 M25 M245 M245,31,,,,1.0,3.0
+293,DK 7906,DK/SD area: 8 / II / 17,house,8,II,17,,,-9.9,-9.9,register,-10.0,2293.0,seal,1,M124 M12,M124 M12,31,,8/II,8/II/17,1.0,3.0
+294,DK 5718,DK/SD area: 7 / III / 52,house,7,III,52,,,-9.7,-9.7,register,-10.0,2294.0,seal,1,M204 M245 M342,M204 M245 M342,31,,7/III,7/III/52,1.0,3.0
+295,DK 8106,DK/SD area: 9 / I / 37,house,9,I,37,,,-9.9,-9.9,register,-10.0,2295.0,seal,1,M292 M343 M180 M140,M292 M343 M180 M140,31,,9/I,9/I/37,1.0,3.0
+296,DK 7200,DK/SD area: 7 / VI / 76,house,7,VI,76,,,-9.9,-9.9,register,-10.0,2296.0,seal,1,M182 M293 M162,M182 M293 M162,31,,7/VI,7/VI/76,1.0,3.0
+297,DK 4546,DK/SD area: 1 / I / 15,house,1,I,15,,,-10.0,-10.0,register,-10.0,2297.0,seal,1,M86 M210 M99 M389 M67 M211 M97 M102,M86 M210 M99 M389 M67 M211 M97 M102,31,,1/I,1/I/15,2.0,3.0
+298,DK 12861,DK/SD area: 9 / IX / 63,house,9,IX,63,,,-10.1,-10.1,register,-10.0,2298.0,seal,1,M293 M123 M343 M112 M162,M293 M123 M343 M112 M162,31,,9/IX,9/IX/63,2.0,3.0
+299,DK 3876,DK/SD area: 6 / n / 10,room_only,6,,10,,house_unreadable,-10.0,-10.0,register,-10.0,2299.0,seal,1,M403,M403,31,,,6/-/10,2.0,3.0
+300,DK 12323,DK/SD area: 18 / 40,room_only,18,,40,,,-10.1,-10.1,register,-10.0,2300.0,seal,1,M249 M162 M343 M296 M342,M249 M162 M343 M296 M342,32,,,18/-/40,2.0,3.0
+301,DK 4603,DK/SD area: 1 / m / 2,room_only,1,,2,,house_unreadable,-10.1,-10.1,register,-10.0,2301.0,seal,1,M194 M194 M219 M345 M97 M104 M169,M194 M194 M219 M345 M97 M104 M169,31,,,1/-/2,2.0,3.0
+302,DK 3463,DK/SD area: Bet. / Bis. 3 / & 4,street,,,,bet bis 3 & 4,street,-10.2,-10.2,register,-10.0,2302.0,seal,1,M391 M99 M387 M102 M287 M342,M391 M99 M387 M102 M287 M342,31,,,,2.0,3.0
+303,DK 7883,DK/SD area: 7 / V / 78,house,7,V,78,,,-10.2,-10.2,register,-10.0,2303.0,seal,1,M72 M249 M169,M72 M249 M169,31,,7/V,7/V/78,2.0,3.0
+304,DK 4155,DK/SD area: 3 / IV / 48,house,3,IV,48,,,-10.2,-10.2,register,-10.0,2304.0,seal,1,M267 M402 M25 M15,M267 M402 M25 M15,31,,3/IV,3/IV/48,2.0,3.0
+305,DK 8041,DK/SD area: 7 / IX / 33,house,7,IX,33,,,-10.4,-10.4,register,-10.0,2305.0,seal,1,M50 M343 M67 M102 M15,M50 M343 M67 M102 M15,31,,7/IX,7/IX/33,2.0,3.0
+306,DK 12606,DK/SD area: i First / St. (28) / 1,street,,,,i first st 28 1,street,,-10.0,m77_level,-10.0,2306.0,seal,1,M284 M99 M9 M67 M342 M224,M284 M99 M9 M67 M342 M224,32,,,,2.0,3.0
+307,DK 3606,DK/SD area: i 3 / V / 12,house,3,V,12,,block_junk_stripped,,-10.0,m77_level,-10.0,2307.0,seal,1,M391 M99 M53 M336 M89 M67 M66,M391 M99 M53 M336 M89 M67 M66,31,,3/V,3/V/12,2.0,3.0
+308,DK 5429,DK/SD area: 1 ^ / I / 12 i,house,1,I,12,,,,-10.0,m77_level,-10.0,2308.0,seal,1,M182 M293 M342,M182 M293 M342,31,,1/I,1/I/12,2.0,3.0
+309,DK 12502,DK/SD area: ^ 8 / III / 31,house,8,III,31,,,,-10.0,m77_level,-10.0,2309.0,seal,1,M402 M59 M387 M342,M402 M59 M387 M342,31,,8/III,8/III/31,2.0,3.0
+310,DK 5095,DK/SD area: Bet. Bis. / 12 & / 12A,street,,,,bet bis 12 & 12a,street,-10.3,-10.3,register,-10.0,2310.0,seal,1,M86 M250,M86 M250,31,,,,2.0,3.0
+311,DK 3370,DK/SD area: 5 / II / 7,house,5,II,7,,,-10.5,-10.5,register,-11.0,2311.0,seal,1,M150 M123 M217,M150 M123 M217,31,,5/II,5/II/7,2.0,3.0
+312,DK 6914,DK/SD area: 10 / IV / 84,house,10,IV,84,,,-10.5,-10.5,register,-11.0,2312.0,seal,1,M53 M342 M249 M162 M342 | M242,M53 M342 M249 M162 M342 M242,31,,10/IV,10/IV/84,2.0,3.0
+313,DK 3522,DK/SD area: Bet. / Bis. 7*8,street,,,,bet bis 7 8,street,-10.3,-10.3,register,-10.0,2313.0,seal,1,M124 M50 M375,M124 M50 M375,31,,,,2.0,3.0
+315,DK 12551,DK/SD area: 29 / I / 1,house,29,I,1,,,-10.4,-10.4,register,-10.0,2315.0,seal,1,M72 M169 M342,M72 M169 M342,32,,29/I,29/I/1,2.0,3.0
+316,DK 7039,DK/SD area: Bet. / Bis. 1 (I) & / ; 1,street,,,,bet bis 1 i & 1,street,-10.5,-10.5,register,-11.0,2316.0,seal,1,M305 M123 M87 M60,M305 M123 M87 M60,31,,,,2.0,3.0
+317,DK 6498,DK/SD area: 10 / IV / 81,house,10,IV,81,,,-10.5,-10.5,register,-11.0,2317.0,seal,1,M171 M8 M342 M3 M130 M124 M216 M245 M245 M342,M171 M8 M342 M3 M130 M124 M216 M245 M245 M342,31,,10/IV,10/IV/81,2.0,3.0
+318,DK 11824,DK/SD area: 16 / I / 5,house,16,I,5,,,-10.5,-10.5,register,-11.0,2318.0,seal,1,M59 M394 M176,M59 M394 M176,32,,16/I,16/I/5,2.0,3.0
+319,DK 5892,DK/SD area: Bet. Bis. / 1 (I) & / 2,street,,,,bet bis 1 i & 2,street,-10.5,-10.5,register,-11.0,2319.0,seal,1,M104 M174 M99 M53 M171,M104 M174 M99 M53 M171,31,,,,2.0,3.0
+320,DK 5632,DK/SD area: 10 / IV / 79,house,10,IV,79,,,-10.8,-10.8,register,,,,0,,,,,10/IV,10/IV/79,2.0,3.0
+321,DK 12586,DK/SD area: 6A / 33,room_only,6A,,33,,,-10.4,-10.4,register,-10.0,2321.0,seal,1,M67 M284 M342,M67 M284 M342,31,,,6A/-/33,2.0,3.0
+322,DK 12835,DK/SD area: 8 / I / 8,house,8,I,8,,,-10.6,-10.6,register,-11.0,2322.0,seal,1,M162 M162 M162 M162 M15,M162 M162 M162 M162 M15,31,,8/I,8/I/8,2.0,3.0
+323,DK 12782,DK/SD area: 9 / X / 55 1 -,house,9,X,55,,,-10.6,-10.6,register,-11.0,2323.0,seal,1,M271 M125 M59,M271 M125 M59,31,,9/X,9/X/55,2.0,3.0
+324,DK 8222,DK/SD area: 9 / IV / 6 : -,house,9,IV,6,,,-10.6,-10.6,register,-11.0,2324.0,seal,1,M389 M65 M211,M389 M65 M211,31,,9/IV,9/IV/6,2.0,3.0
+325,DK 7048,DK/SD area: 4 / 2 i -,room_only,4,,2,,,-10.7,-10.7,register,-11.0,2325.0,seal,1,M244 M336 M326 M327 M99 M387 M65 M59 M249 M169 M342,M244 M336 M326 M327 M99 M387 M65 M59 M249 M169 M342,31,,,4/-/2,2.0,3.0
+326,DK 3719,DK/SD area: 6 / I / 3 ! -,house,6,I,3,,,-10.6,-10.6,register,-11.0,2326.0,seal,1,M391 M123 M65 M67 M296 M342,M391 M123 M65 M67 M296 M342,31,,6/I,6/I/3,2.0,3.0
+327,DK 3473,DK/SD area: 1 / VI / 52 i -,house,1,VI,52,,,-10.7,-10.7,register,-11.0,2327.0,seal,2,M267 M99 M65 M67 M127 M347 M342,M267 M99 M65 M67 M127 M347 M342 M267 M99 M65 M67 M127 M347 M342,31,,1/VI,1/VI/52,2.0,3.0
+328,DK 11795,DK/SD area: 14 / I / 2 ’ -,house,14,I,2,,,-10.6,-10.6,register,-11.0,2328.0,seal,1,M2 M12,M2 M12,32,,14/I,14/I/2,2.0,3.0
+329,DK 5473,DK/SD area: 1 / VI / 52 -10-7,house,1,VI,52,,,,-10.7,register_spilled,,,,0,,,,,1/VI,1/VI/52,2.0,3.0
+330,DK 5840,DK/SD area: Bet. Bis. / 1 (1) & / 2 -10-8,street,,,,bet bis 1 1 & 2 10 8,street,-9.9,-9.9,register,,,,0,,,,,,,1.0,3.0
+331,DK 8224,DK/SD area: 9 / IV / 4 -10-8,house,9,IV,4,,,-9.9,-9.9,register,-11.0,2331.0,seal,1,M336 M251 M341,M336 M251 M341,31,,9/IV,9/IV/4,1.0,3.0
+332,DK 12158,DK/SD area: West / St.,street,,,,west st,street,,-11.0,m77_level,-11.0,2332.0,seal,1,M267 M99 M86 | M374,M267 M99 M86 M374,32,,,,2.0,3.0
+333,DK 4321,DK/SD area: 2 / I / 6 j 1 -10-8,house,2,I,6,,,-9.9,-9.9,register,-11.0,2333.0,seal,1,M4 M99 M70 M72 M249 M169 M342,M4 M99 M70 M72 M249 M169 M342,31,,2/I,2/I/6,1.0,3.0
+334,DK 3692,DK/SD area: 7 / II / 88 i -,house,7,II,88,,,,-11.0,m77_level,-11.0,2334.0,seal,1,M219 M178 M67 M244 M342,M219 M178 M67 M244 M342,31,,7/II,7/II/88,2.0,3.0
+335,DK 3423,DK/SD area: Bet. / Bis. 3 & 4,street,,,,bet bis 3 & 4,street,,-11.0,m77_level,-11.0,2335.0,seal,1,M391 M99 M386 M53 M171 M59 M72 M249 M162 M342,M391 M99 M386 M53 M171 M59 M72 M249 M162 M342,31,,,,2.0,3.0
+336,DK 5174,DK/SD area: 10 / III / 63 -10-8,house,10,III,63,,,-9.9,-9.9,register,-11.0,2336.0,seal,1,M121 M406 M169 M222 M254,M121 M406 M169 M222 M254,31,,10/III,10/III/63,1.0,3.0
+337,DK 7888,DK/SD area: 7 / IX / 30 1 -10-8,house,7,IX,30,,,-19.9,-11.0,m77_level(replaced outlier),-11.0,2337.0,seal,1,M293 M123 M344 M70 M387 M347 M342,M293 M123 M344 M70 M387 M347 M342,31,outlier,7/IX,7/IX/30,2.0,3.0
+338,DK 3693,DK/SD area: 7 / II / 88 j -10-8,house,7,II,88,,,-9.9,-9.9,register,-11.0,2338.0,seal,1,M267 M99 M67 M171 M8 M342 M1,M267 M99 M67 M171 M8 M342 M1,31,,7/II,7/II/88,1.0,3.0
+339,DK 5663,DK/SD area: Bet. / Bis. lOA / & 11 -111,street,,,,bet bis loa & 11 111,street,,-11.0,m77_level,-11.0,2339.0,seal,2,M182 M149,M182 M149 M216 M123 M149 M342,31,,,,2.0,3.0
+340,DK 5742,DK/SD area: 12 / V / 95 -10-9,house,12,V,95,,,,-10.9,register_spilled,-11.0,2340.0,seal,1,M152 M99 M53 M59 M87 M60,M152 M99 M53 M59 M87 M60,31,,12/V,12/V/95,2.0,3.0
+341,DK 12621,DK/SD area: First / St. (15) / - 10-9,street,,,,first st 15 10 9,street,,-10.9,register_spilled,-11.0,2341.0,seal,1,M258 M347 M342,M258 M347 M342,31,,,,2.0,3.0
+342,DK 5325,DK/SD area: 2 / II / 22 -10-9,house,2,II,22,,,,-10.9,register_spilled,-11.0,2342.0,seal,1,M25 M15,M25 M15,31,,2/II,2/II/22,2.0,3.0
+343,DK 3627,DK/SD area: 3 / VI / 30 - 11-1,house,3,VI,30,,,,-11.1,register_spilled,-11.0,2343.0,seal,1,M102 M15,M102 M15,31,,3/VI,3/VI/30,2.0,3.0
+344,DK 12837,DK/SD area: 8 / UI / 30 - 11-0,house,8,III,30,,house_ocr_repaired,,-11.0,register_spilled,-11.0,2344.0,seal,1,M307 M343 M65 M67 M12,M307 M343 M65 M67 M12,31,,8/III,8/III/30,2.0,3.0
+345,DK 5577,DK/SD area: 10 / III / 62 - 11-0,house,10,III,62,,,,-11.0,register_spilled,-11.0,2345.0,seal,1,M67 M25 M245 M245,M67 M25 M245 M245,31,,10/III,10/III/62,2.0,3.0
+346,DK 12576,DK/SD area: 12 / I / 2 -110,house,12,I,2,,,,-11.0,m77_level,-11.0,2346.0,seal,1,M102 M216 M245 M245,M102 M216 M245 M245,31,,12/I,12/I/2,2.0,3.0
+347,DK 8203,DK/SD area: 9 / vni / 21 - 11-0,house,9,VIII,21,,house_ocr_repaired,,-11.0,register_spilled,-11.0,2347.0,seal,1,M319 M402 M99 M176 M176,M319 M402 M99 M176 M176,31,,9/VIII,9/VIII/21,2.0,3.0
+348,DK 12583,DK/SD area: Bet. / Bis. 6A / & 8A -111,street,,,,bet bis 6a & 8a 111,street,,-11.0,m77_level,-11.0,2348.0,seal,1,M249 M102 M287 M99 M67 M348 M342,M249 M102 M287 M99 M67 M348 M342,31,,,,2.0,3.0
+349,DK 5729,DK/SD area: Bet. / Bis. 4 / & 7 -110,street,,,,bet bis 4 & 7 110,street,,-11.0,m77_level,-11.0,2349.0,seal,1,M391 M97 M268 M137,M391 M97 M268 M137,31,,,,2.0,3.0
+350,DK 6171,DK/SD area: 9 / VII / 17 -11-2,house,9,VII,17,,,,-11.2,register_spilled,-11.0,2350.0,seal,1,M345 M98 M25 M245 M245,M345 M98 M25 M245 M245,31,,9/VII,9/VII/17,2.0,3.0
+351,DK 6377,DK/SD area: Bet. / Bis. 1 and / 10 (1) -111,street,,,,bet bis 1 and 10 1 111,street,,-11.0,m77_level,-11.0,2351.0,seal,1,M20 M176,M20 M176,31,,,,2.0,3.0
+352,DK 8137,DK/SD area: 7 / III / 40 -11-3,house,7,III,40,,,,-11.3,register_spilled,-11.0,2352.0,seal,2,M197 M343 M252 | M186 M233 M137,M197 M343 M252 M186 M233 M137 M345,31,,7/III,7/III/40,2.0,3.0
+353,DK 4364,DK/SD area: 2 / II / 22 -11-2,house,2,II,22,,,,-11.2,register_spilled,-11.0,2353.0,seal,1,M17 M336 M197 M252,M17 M336 M197 M252,31,,2/II,2/II/22,2.0,3.0
+354,DK 5580,DK/SD area: n / III / 26 - 11-6,house,,III,26,,block_unreadable,,-11.6,register_spilled,-12.0,2354.0,seal,1,M267 M99 M102 M162,M267 M99 M102 M162,31,,,,2.0,3.0
+355,DK 8121,DK/SD area: Bet. Bis. / 7 & 9 / (VIII) - 11-5,street,,,,bet bis 7 & 9 viii 11 5,street,,-11.5,register_spilled,-12.0,2355.0,seal,1,M198 M302 M343 M113 M342,M198 M302 M343 M113 M342,31,,,,2.0,3.0
+356,DK 12848,DK/SD area: 9 / I / 50 -11-3,house,9,I,50,,,,-11.3,register_spilled,-11.0,2356.0,seal,1,M216 M267 M402,M216 M267 M402,31,,9/I,9/I/50,2.0,3.0
+357,DK 5470,DK/SD area: 1 / I / 18 - 11-3,house,1,I,18,,,,-11.3,register_spilled,-11.0,2357.0,seal,1,M267 M99 M104 M169,M267 M99 M104 M169,31,,1/I,1/I/18,2.0,3.0
+358,DK 5042,DK/SD area: II / 12 -ll-l,house,,II,12,,block_unreadable,,-11.0,m77_level,-11.0,2358.0,seal,1,M292 M342,M292 M342,31,,,,2.0,3.0
+359,DK 6389,DK/SD area: Bet. / Bis. 1 & / 10 (1) -11-3,street,,,,bet bis 1 & 10 1 11 3,street,,-11.3,register_spilled,-11.0,2359.0,seal,1,M264 M17 M171 M8 M342,M264 M17 M171 M8 M342,31,,,,2.0,3.0
+360,DK 12897,DK/SD area: 9 / X / 80 - 11-6,house,9,X,80,,,,-11.6,register_spilled,-12.0,2360.0,seal,1,M135 M342,M135 M342,31,,9/X,9/X/80,2.0,3.0
+361,DK 12877,DK/SD area: 9 / XI / 70 ! - 11-5,house,9,XI,70,,,,-11.5,register_spilled,-12.0,2361.0,seal,1,M54 M19 M81,M54 M19 M81,31,,9/XI,9/XI/70,2.0,3.0
+362,DK 7924,DK/SD area: Bet. / Bis. 6 / & 8 I - 11-6,street,,,,bet bis 6 & 8 i 11 6,street,,-11.6,register_spilled,-12.0,2362.0,seal,1,M398 M217 M342,M398 M217 M342,31,,,,2.0,3.0
+363,DK 6530,DK/SD area: 12 / I / 46 ! -11-6,house,12,I,46,,,,-11.6,register_spilled,-12.0,2363.0,seal,1,M267 M99 M217 M403 M347 M342,M267 M99 M217 M403 M347 M342,31,,12/I,12/I/46,2.0,3.0
+364,DK 5890,DK/SD area: Bet. / Bis. 1 (V) / & 10 1 -11-7,street,,,,bet bis 1 v & 10 1 11 7,street,,-11.7,register_spilled,-12.0,2364.0,seal,1,M334 M342,M334 M342,31,,,,2.0,3.0
+365,DK 5785,DK/SD area: 7 / I / 3 ' j - 11-8,house,7,I,3,,,,-11.8,register_spilled,-12.0,2365.0,seal,1,M80 M160 M343 M72 M211,M80 M160 M343 M72 M211,31,,7/I,7/I/3,2.0,3.0
+366,DK 12878,DK/SD area: 9 / XI / 70 - 11-4,house,9,XI,70,,,,-11.4,register_spilled,-11.0,2366.0,seal,1,M409 M96 M19 M99 | M59 M194 M342,M409 M96 M19 M99 M59 M194 M342,31,,9/XI,9/XI/70,2.0,3.0
+367,DK 5393,DK/SD area: 4 / 15 - 11*8,room_only,4,,15,,,,-12.0,m77_level,-12.0,2367.0,seal,1,M391 M98 M87 M59 M72 M336 M89,M391 M98 M87 M59 M72 M336 M89,31,,,4/-/15,2.0,4.0
+368,DK 6317,DK/SD area: 10 / II / 22 -11-6,house,10,II,22,,,,-11.6,register_spilled,-12.0,2368.0,seal,1,M102 M15,M102 M15,31,,10/II,10/II/22,2.0,3.0
+369,DK 3743,DK/SD area: 3 / VI / 47 - 11-8,house,3,VI,47,,,,-11.8,register_spilled,-12.0,2369.0,seal,1,M51 M130 M149 M342 M98 M174,M51 M130 M149 M342 M98 M174,31,,3/VI,3/VI/47,2.0,3.0
+370,DK 5791,DK/SD area: 9 / VII / 48 -11-7,house,9,VII,48,,,,-11.7,register_spilled,-12.0,2370.0,seal,1,M175 M28 M99 M102 M162,M175 M28 M99 M102 M162,31,,9/VII,9/VII/48,2.0,3.0
+372,DK 8141,DK/SD area: Bet. Bis. / 7 & 9 / (VIII),street,,,,bet bis 7 & 9 viii,street,-11.9,-11.9,register,-12.0,2372.0,seal,1,M204 M245 M15,M204 M245 M15,31,,,,2.0,3.0
+373,DK 12903,DK/SD area: ^ / XI / 72,house,,XI,72,,block_unreadable,-12.6,-12.6,register,-13.0,2373.0,seal,1,M307 M402 M99 M171 M59 M211 | M242,M307 M402 M99 M171 M59 M211 M242,31,,,,2.0,4.0
+376,DK 8227,DK/SD area: 9 / VI / 36,house,9,VI,36,,,-11.8,-11.8,register,,,,0,,,,,9/VI,9/VI/36,2.0,3.0
+377,DK 8143,DK/SD area: 7 / HI / 40,house,7,III,40,,house_ocr_repaired,-11.9,-11.9,register,-12.0,2377.0,seal,2,M216,M216 M169,31,,7/III,7/III/40,2.0,3.0
+378,DK 5847,DK/SD area: 7 / III / 52,house,7,III,52,,,-11.9,-11.9,register,-12.0,2378.0,seal,1,M387 M72 M48 M342 M319 M17,M387 M72 M48 M342 M319 M17,31,,7/III,7/III/52,2.0,3.0
+378,DK 10,DK/SD area: 21 / II / 7,house,21,II,7,,,+4.4,,,,,,0,,,,outlier,21/II,21/II/7,,
+378,DK 8186,DK/SD area: 9 / rv / 6,house,9,IV,6,,house_ocr_repaired,-8.4,,,,,,0,,,,outlier,9/IV,9/IV/6,,
+378,DK 8186,DK/SD area: 9 / IV / 6,house,9,IV,6,,,-8.4,,,,,,0,,,,outlier,9/IV,9/IV/6,,
+379,DK 5677,DK/SD area: 7 / I / 13,house,7,I,13,,,-12.0,-12.0,register,-12.0,2379.0,seal,1,M47 M211,M47 M211,31,,7/I,7/I/13,2.0,4.0
+380,DK 5332,DK/SD area: Bet. Bis. / 12 & / 12A,street,,,,bet bis 12 & 12a,street,-12.0,-12.0,register,-12.0,2380.0,seal,1,M171 M8 M342,M171 M8 M342,31,,,,2.0,4.0
+381,DK 6669,DK/SD area: 10 / I / 2,house,10,I,2,,,-12.0,-12.0,register,-12.0,2381.0,seal,1,M106 M287 M342,M106 M287 M342,31,,10/I,10/I/2,2.0,4.0
+382,DK 8013,DK/SD area: 7 / V / 66,house,7,V,66,,,-12.1,-12.1,register,-12.0,2382.0,seal,1,M106 M15,M106 M15,31,,7/V,7/V/66,2.0,4.0
+383,DK 3810,DK/SD area: First / St. (14),street,,,,first st 14,street,-12.1,-12.1,register,,,,0,,,,,,,2.0,4.0
+384,DK 5619,DK/SD area: 10 / IV / 71,house,10,IV,71,,,-12.2,-12.2,register,-12.0,2384.0,seal,1,M389 M67 M211,M389 M67 M211,31,,10/IV,10/IV/71,2.0,4.0
+386,DK 8327,DK/SD area: Bet. Bis. / 7 & 9 / (III),street,,,,bet bis 7 & 9 iii,street,-12.2,-12.2,register,,,,0,,,,,,,2.0,4.0
+387,DK 7569,DK/SD area: 9 / VI / 78,house,9,VI,78,,,-12.2,-12.2,register,-12.0,2387.0,seal,1,M391 M99 M104 M169,M391 M99 M104 M169,31,,9/VI,9/VI/78,2.0,4.0
+388,DK 6091,DK/SD area: 10 / IV / 70,house,10,IV,70,,,-12.2,-12.2,register,-12.0,2388.0,seal,1,M222 M254 M407 M169,M222 M254 M407 M169,31,,10/IV,10/IV/70,2.0,4.0
+389,DK 5639,DK/SD area: 10 / III / 62,house,10,III,62,,,-12.2,-12.2,register,-12.0,2389.0,seal,1,M2 M12,M2 M12,31,,10/III,10/III/62,2.0,4.0
+389,DK 6340,DK/SD area: 10 / IV / 87,house,10,IV,87,,,-12.2,-12.2,register,-12.0,2389.0,seal,1,M2 M12,M2 M12,31,,10/IV,10/IV/87,2.0,4.0
+390,DK 6837,DK/SD area: 12 / V / 96,house,12,V,96,,,-12.3,-12.3,register,-12.0,2390.0,seal,1,M215 M17 M310 M249 M307,M215 M17 M310 M249 M307,31,,12/V,12/V/96,2.0,4.0
+391,DK 6080,DK/SD area: Bet. Bis. / lOA & / 11,street,,,,bet bis loa & 11,street,-12.3,-12.3,register,-12.0,2391.0,seal,1,M194 M99 M336 M89 M211,M194 M99 M336 M89 M211,31,,,,2.0,4.0
+392,DK 4471,DK/SD area: Bet. / Bis. 2 & / 3 1,street,,,,bet bis 2 & 3 1,street,-12.3,-12.3,register,-12.0,2392.0,seal,1,M153 M336 M89 M390 M327 M342,M153 M336 M89 M390 M327 M342,31,,,,2.0,4.0
+393,DK 8480,DK/SD area: 12 / I / 1,house,12,I,1,,,-12.3,-12.3,register,-12.0,2393.0,seal,1,M267 M402 M70 M211 M205 M249 M155,M267 M402 M70 M211 M205 M249 M155,31,,12/I,12/I/1,2.0,4.0
+394,DK 5941,DK/SD area: 10 / rv / 70,house,10,IV,70,,house_ocr_repaired,,-12.0,m77_level,-12.0,2394.0,seal,2,M86 M15,M86 M15 M86 M15,31,,10/IV,10/IV/70,2.0,4.0
+396,DK 7242,"DK/SD area: Lane, east / of Bl. / 1 (I)",street,,,,lane east of bl 1 i,street,-12.4,-12.4,register,-12.0,2396.0,seal,1,M389 M65 M67 M204 M112 M358 M342,M389 M65 M67 M204 M112 M358 M342,31,,,,2.0,4.0
+397,DK 5250,DK/SD area: 1 / III / 2,house,1,III,2,,,-12.4,-12.4,register,-12.0,2397.0,seal,1,M86 M136 M267 M342,M86 M136 M267 M342,31,,1/III,1/III/2,2.0,4.0
+398,DK 4178,DK/SD area: Bet. / Bis. 4 & / 5,street,,,,bet bis 4 & 5,street,-12.4,-12.4,register,-12.0,2398.0,seal,1,M293 M98 M65 M59 M211 M150 M123 M135 M342 | M402 M55 M279 M404,M293 M98 M65 M59 M211 M150 M123 M135 M342 M402 M55 M279 M404,31,,,,2.0,4.0
+399,DK 6599,DK/SD area: 1 / III / 1,house,1,III,1,,,-12.4,-12.4,register,-12.0,2399.0,seal,1,M59 M216 M254,M59 M216 M254,31,,1/III,1/III/1,2.0,4.0
+399,DK 5678,DK/SD area: 9 / VII / 17,house,9,VII,17,,,-12.4,-12.4,register,-12.0,2399.0,seal,1,M59 M216 M254,M59 M216 M254,31,,9/VII,9/VII/17,2.0,4.0
+400,DK 5941,DK/SD area: 10 / IV / 70,house,10,IV,70,,,-12.4,-12.4,register,,,,0,,,,,10/IV,10/IV/70,2.0,4.0
+401,DK 8249,DK/SD area: j 9 / IV / 6,house,9,IV,6,,block_junk_stripped,-12.4,-12.4,register,-12.0,2401.0,seal,1,M86 M6 M12,M86 M6 M12,31,,9/IV,9/IV/6,2.0,4.0
+402,DK 6713,DK/SD area: ' Alley / west of / Bl. 1,street,,,,alley west of bl 1,street,,-12.0,m77_level,-12.0,2402.0,seal,1,M293 M123 M343 M67 M175 M206,M293 M123 M343 M67 M175 M206,31,,,,2.0,4.0
+403,DK 3818,DK/SD area: 1 3 / III / 36 ‘,house,1,III,36,,,-12.4,-12.4,register,-12.0,2403.0,seal,1,M267 M99 M124 M25 M342,M267 M99 M124 M25 M342,31,,1/III,1/III/36,2.0,4.0
+404,DK 7571,DK/SD area: ' 7 / VII / 57 j,house,7,VII,57,,,,-12.0,m77_level,-12.0,2404.0,seal,1,M124 M409 M96 M342 M1 M176,M124 M409 M96 M342 M1 M176,31,,7/VII,7/VII/57,2.0,4.0
+405,DK 4161,DK/SD area: 1 6 / I / 1,house,1,I,1,,,,-12.0,m77_level,-12.0,2405.0,seal,6,M293 M123 M343 M65 M294 M342,M293 M123 M343 M65 M294 M342 M391 M102 M137 M253 M409 M94 M409 M319 M32 M162 M403 M231 M408,31,,1/I,1/I/1,2.0,4.0
+406,DK 7925,DK/SD area: 7 / V / 78,house,7,V,78,,,,-13.0,m77_level,-13.0,2406.0,seal,1,M403 M256 M216 M123 M65 M87 M284 M342,M403 M256 M216 M123 M65 M87 M284 M342,31,,7/V,7/V/78,2.0,4.0
+407,DK 6422,DK/SD area: ! Bet. / Bis. 1 & / 10 (I),street,,,,bet bis 1 & 10 i,street,,-13.0,m77_level,-13.0,2407.0,seal,1,M159 M381 M99 M175 M230 M53 M342,M159 M381 M99 M175 M230 M53 M342,31,,,,2.0,4.0
+408,DK 8450,DK/SD area: West / of Bl. / 1 (II),street,,,,west of bl 1 ii,street,-12.2,-12.2,register,-12.0,2408.0,seal,1,M267 M99 M331 M162 M402,M267 M99 M331 M162 M402,31,,,,2.0,4.0
+409,DK 8877,DK/SD area: 8 / II / 23,house,8,II,23,,,-12.5,-12.5,register,-13.0,2409.0,seal,1,M72 M247 M342,M72 M247 M342,31,,8/II,8/II/23,2.0,4.0
+410,DK 8028,DK/SD area: 7 / V / 66,house,7,V,66,,,,-13.0,m77_level,-13.0,2410.0,seal,1,M65 M67 M233 M342,M65 M67 M233 M342,31,,7/V,7/V/66,2.0,4.0
+411,DK 5307,DK/SD area: 1 / VI / 52,house,1,VI,52,,,-12.6,-12.6,register,-13.0,2411.0,seal,1,M391 M123 M336 M89 M211,M391 M123 M336 M89 M211,31,,1/VI,1/VI/52,2.0,4.0
+412,DK 5823,DK/SD area: 1 / VII / 35,house,1,VII,35,,,-16.8,,,,,,0,,,,outlier,1/VII,1/VII/35,,
+413,DK 6093,DK/SD area: 1 / I / 21,house,1,I,21,,,,-13.0,m77_level,-13.0,2413.0,seal,1,M264 M89 M332 M58 M249 M307,M264 M89 M332 M58 M249 M307,31,,1/I,1/I/21,2.0,4.0
+414,DK 6901,DK/SD area: 1 / I / 16,house,1,I,16,,,,-13.0,m77_level,-13.0,2414.0,seal,1,M67 M348 M342,M67 M348 M342,31,,1/I,1/I/16,2.0,4.0
+415,DK 6596,DK/SD area: ] Bet. / Bis. 1 & / 10 (I),street,,,,bet bis 1 & 10 i,street,-12.7,-12.7,register,-13.0,2415.0,seal,1,M264 M287 M87 M249 M175 M180,M264 M287 M87 M249 M175 M180,31,,,,2.0,4.0
+416,DK 7257,"DK/SD area: Lane, / east of / Bl. 1 (I)",street,,,,lane east of bl 1 i,street,-12.7,-12.7,register,,,,0,,,,,,,2.0,4.0
+417,DK 3790,DK/SD area: i 3 / VI / 39,house,3,VI,39,,block_junk_stripped,-12.8,-12.8,register,-13.0,2417.0,seal,1,M234 M287 M162 M343 M68,M234 M287 M162 M343 M68,31,,3/VI,3/VI/39,2.0,4.0
+418,DK 5651,DK/SD area: 1 / VII / 38,house,1,VII,38,,,-12.8,-12.8,register,-13.0,2418.0,seal,1,M17 M293 M162 M343 M386 M342,M17 M293 M162 M343 M386 M342,31,,1/VII,1/VII/38,2.0,4.0
+419,DK 5787,DK/SD area: ' 1 / III / 1,house,1,III,1,,,-12.8,-12.8,register,-13.0,2419.0,seal,1,M267 M402 M123 M72 M342 M1,M267 M402 M123 M72 M342 M1,31,,1/III,1/III/1,2.0,4.0
+420,DK 5176,DK/SD area: ! 1 1 / II / 7,house,1,II,7,,,-12.8,-12.8,register,-13.0,2420.0,seal,1,M3 M216 M229 M344 M59 M342 | M1,M3 M216 M229 M344 M59 M342 M1,31,,1/II,1/II/7,2.0,4.0
+421,DK 5494,DK/SD area: 1 / VI / 56,house,1,VI,56,,,-12.8,-12.8,register,-13.0,2421.0,seal,1,M173 M12,M173 M12,31,,1/VI,1/VI/56,2.0,4.0
+422,DK 6419,DK/SD area: 1 / I / 18,house,1,I,18,,,,-13.0,m77_level,-13.0,2422.0,seal,1,M83 M125 M286 M391,M83 M125 M286 M391,31,,1/I,1/I/18,2.0,4.0
+423,DK 5717,DK/SD area: 1 ) 8 / III / 37,house,1,III,37,,,-12.9,-12.9,register,-13.0,2423.0,seal,1,M75 M10 M97 M121 M245 M245 M10 M176,M75 M10 M97 M121 M245 M245 M10 M176,31,,1/III,1/III/37,2.0,4.0
+424,DK 7062,DK/SD area: i 10 / II / 20,house,10,II,20,,block_junk_stripped,-12.9,-12.9,register,-13.0,2424.0,seal,1,M267 M99 M51 M130 M149 M342,M267 M99 M51 M130 M149 M342,31,,10/II,10/II/20,2.0,4.0
+425,DK 5697,DK/SD area: i ^ / V / 54,house,,V,54,,block_unreadable,,-13.0,m77_level,-13.0,2425.0,seal,1,M307,M307,31,,,,2.0,4.0
+426,DK 5821,DK/SD area: 1 / III / 1,house,1,III,1,,,-12.9,-12.9,register,-13.0,2426.0,seal,1,M387 M65 M67 M336 M89 M48 M342,M387 M65 M67 M336 M89 M48 M342,31,,1/III,1/III/1,2.0,4.0
+427,DK 8359,DK/SD area: Bet. / Bis. 7 & / 9 (III),street,,,,bet bis 7 & 9 iii,street,-12.9,-12.9,register,-13.0,2427.0,seal,1,M307 M86 M99 M86 M121 M391 M391 M402,M307 M86 M99 M86 M121 M391 M391 M402,31,,,,2.0,4.0
+428,DK 5820,DK/SD area: Bet. / Bis. I / (V) & 10,street,,,,bet bis i v & 10,street,-13.0,-13.0,register,-13.0,2428.0,seal,1,M182 M342 M98 M75 M14,M182 M342 M98 M75 M14,31,,,,2.0,4.0
+429,DK 6380,DK/SD area: 1 9 / VII / 17,house,1,VII,17,,,-12.0,-12.0,register,-12.0,2429.0,seal,1,M173 M51 M267 M99 M87 M59 M53 M8 M342,M173 M51 M267 M99 M87 M59 M53 M8 M342,31,,1/VII,1/VII/17,2.0,4.0
+430,DK 6847,DK/SD area: Bet. / Bis. 1 / (IV) & 10,street,,,,bet bis 1 iv & 10,street,+14.9,-14.9,register,-15.0,2430.0,seal,1,M229 M219 | M70 M342 M1 | M242,M229 M219 M70 M342 M1 M242,31,,,,2.0,4.0
+431,DK 8378,DK/SD area: 9 / VIII / 18,house,9,VIII,18,,,-13.0,-13.0,register,-13.0,2431.0,seal,1,M172 M245 M334 | M393,M172 M245 M334 M393,31,,9/VIII,9/VIII/18,2.0,4.0
+432,DK 6624,DK/SD area: Bet. / Bis. 9 & / 10 (III),street,,,,bet bis 9 & 10 iii,street,-13.0,-13.0,register,-13.0,2432.0,seal,1,M350 M99 M341 M387 M60,M350 M99 M341 M387 M60,31,,,,2.0,4.0
+433,DK 5859,DK/SD area: Alley / west / of Bl. 1,street,,,,alley west of bl 1,street,-13.0,-13.0,register,-13.0,2433.0,seal,1,M234 M254,M234 M254,31,,,,2.0,4.0
+434,DK 5081,DK/SD area: 7 / 11 / 29,house,7,II,29,,house_ocr_repaired,-13.0,-13.0,register,-13.0,2434.0,ivory/bone rod,1,M59 M99 M102 M36 M384 M384,M59 M99 M102 M36 M384 M384,31,,7/II,7/II/29,2.0,4.0
+435,DK 6229,DK/SD area: 7 / Vlll / 22,house,7,VIII,22,,house_ocr_repaired,-13.0,-13.0,register,-13.0,2435.0,seal,1,M285 M325 M211,M285 M325 M211,31,,7/VIII,7/VIII/22,2.0,4.0
+436,DK 6791,DK/SD area: 7 / I / 15,house,7,I,15,,,-13.1,-13.1,register,-13.0,2436.0,seal,1,M17 M293 M293 M211 M186 M267 M99 M59 M59 M155 M211,M17 M293 M293 M211 M186 M267 M99 M59 M59 M155 M211,31,,7/I,7/I/15,2.0,4.0
+437,DK 5672,DK/SD area: 1 / 11 / 9,house,1,II,9,,house_ocr_repaired,-13.1,-13.1,register,-13.0,2437.0,ivory/bone rod,1,M6 M267 M99,M6 M267 M99,31,,1/II,1/II/9,2.0,4.0
+438,DK 3980,DK/SD area: 5 / I / 2,house,5,I,2,,,-13.2,-13.2,register,-13.0,2438.0,seal,1,M267 M99 M65 M72,M267 M99 M65 M72,31,,5/I,5/I/2,2.0,4.0
+439,DK 8202,DK/SD area: IX / 32,house,,IX,32,,block_unreadable,-13.2,-13.2,register,-13.0,2439.0,seal,1,M391 M233 M59 M98 M25 M245,M391 M233 M59 M98 M25 M245,31,,,,2.0,4.0
+440,DK 8841,DK/SD area: 8 / I / 8,house,8,I,8,,,-13.2,-13.2,register,-13.0,2440.0,seal,1,M197 M336 M97 M86 M59 M211,M197 M336 M97 M86 M59 M211,31,,8/I,8/I/8,2.0,4.0
+441,DK 8159,DK/SD area: Bet. Bis. / 7 and 9 / (Vlll),street,,,,bet bis 7 and 9 vlll,street,-13.2,-13.2,register,-13.0,2441.0,seal,1,M65 M72 M216,M65 M72 M216,31,,,,2.0,4.0
+442,DK 5900,DK/SD area: 9 / VII / 51,house,9,VII,51,,,-13.2,-13.2,register,-13.0,2442.0,seal,1,M293 M123 M343 M336 M49 M86,M293 M123 M343 M336 M49 M86,31,,9/VII,9/VII/51,2.0,4.0
+443,DK 4137,DK/SD area: 3 / VI / 31,house,3,VI,31,,,-13.2,-13.2,register,-13.0,2443.0,seal,1,M397 M86 M343 M406 M162,M397 M86 M343 M406 M162,31,,3/VI,3/VI/31,2.0,4.0
+444,DK 8346,DK/SD area: 9 / II / 11,house,9,II,11,,,-13.2,-13.2,register,-13.0,2444.0,seal,1,M171 M8 M342 M176,M171 M8 M342 M176,31,,9/II,9/II/11,2.0,4.0
+445,DK 6390,DK/SD area: I / 19,house,,I,19,,block_unreadable,-13.3,-13.3,register,-13.0,2445.0,seal,1,M391 M1 M134 M86 M415,M391 M1 M134 M86 M415,33,,,,2.0,4.0
+446,DK 6357,DK/SD area: Bet. / BU. 10 / & 12,street,,,,bet bu 10 & 12,street,-13.3,-13.3,register,-13.0,2446.0,seal,1,M238 M267 M99 M387 M53 M72 M336 M89 M112 M194 M342,M238 M267 M99 M387 M53 M72 M336 M89 M112 M194 M342,31,,,,2.0,4.0
+447,DK 6792,DK/SD area: 7 / I / 15,house,7,I,15,,,-13.3,-13.3,register,-13.0,2447.0,seal,1,M343 M391 M99 M87 M155 M171 M8 M342,M343 M391 M99 M87 M155 M171 M8 M342,31,,7/I,7/I/15,2.0,4.0
+448,DK 8643,DK/SD area: 9 / HI / 35,house,9,III,35,,house_ocr_repaired,-13.3,-13.3,register,-13.0,2448.0,seal,1,M86 M123 M7,M86 M123 M7,31,,9/III,9/III/35,2.0,4.0
+449,DK 7941,DK/SD area: 7 / V / 78,house,7,V,78,,,-13.4,-13.4,register,-13.0,2449.0,seal,1,M28 M162 M343 M48 M342,M28 M162 M343 M48 M342,31,,7/V,7/V/78,2.0,4.0
+450,DK 6658,DK/SD area: 1 / I / 21,house,1,I,21,,,-13.4,-13.4,register,-13.0,2450.0,seal,1,M267 M99 M98 M347 M342,M267 M99 M98 M347 M342,31,,1/I,1/I/21,2.0,4.0
+451,DK 5341,DK/SD area: Bet. / Bis. 12 & / 12A,street,,,,bet bis 12 & 12a,street,-13.4,-13.4,register,-13.0,2451.0,seal,1,M162 M216 M57 M99 M62 M342,M162 M216 M57 M99 M62 M342,31,,,,2.0,4.0
+452,DK 5539,DK/SD area: 12 / V / 91,house,12,V,91,,,-13.4,-13.4,register,-13.0,2452.0,seal,1,M87 M59 M71,M87 M59 M71,31,,12/V,12/V/91,2.0,4.0
+453,DK 6664,"DK/SD area: Lane, / east of Bl. / 1 (1)",street,,,,lane east of bl 1 1,street,-13.4,-13.4,register,-13.0,2453.0,seal,1,M325 M171 M8 M342,M325 M171 M8 M342,31,,,,2.0,4.0
+454,DK 7342,DK/SD area: 10 / IV / 86,house,10,IV,86,,,-13.4,-13.4,register,,,,0,,,,,10/IV,10/IV/86,2.0,4.0
+455,DK 6127,DK/SD area: Alley west / of Bl. / 1 (11),street,,,,alley west of bl 1 11,street,-13.5,-13.5,register,-14.0,2455.0,seal,1,M191 M303 M402 M99 M87 M59 M244 M58 M342,M191 M303 M402 M99 M87 M59 M244 M58 M342,31,,,,2.0,4.0
+456,DK 6550,DK/SD area: 12 / V / 96,house,12,V,96,,,-13.5,-13.5,register,-14.0,2456.0,seal,1,M258 M342 M87 M60 | M87 M272,M258 M342 M87 M60 M87 M272,31,,12/V,12/V/96,2.0,4.0
+457,DK 5640,DK/SD area: 12A / I / 13,house,12A,I,13,,,-13.5,-13.5,register,-14.0,2457.0,seal,1,M67 M204 M112 M342 M176,M67 M204 M112 M342 M176,31,,12A/I,12A/I/13,2.0,4.0
+458,DK 5749,DK/SD area: 12 / I / 11,house,12,I,11,,,-13.5,-13.5,register,-14.0,2458.0,seal,1,M379 M307,M379 M307,31,,12/I,12/I/11,2.0,4.0
+459,DK 7145,DK/SD area: Bet. / Bis. 11 & / 12A,street,,,,bet bis 11 & 12a,street,-13.5,-13.5,register,-14.0,2459.0,seal,1,M175 M347 M342,M175 M347 M342,31,,,,2.0,4.0
+460,DK 6753,DK/SD area: Bet. / Bis. 1 & / 7,street,,,,bet bis 1 & 7,street,-13.6,-13.6,register,-14.0,2460.0,seal,1,M59 M127 M267 M176 M176,M59 M127 M267 M176 M176,31,,,,2.0,4.0
+461,DK 7349,"DK/SD area: Lane, east / of Bl. / 1 (I) j",street,,,,lane east of bl 1 i j,street,-13.6,-13.6,register,-14.0,2461.0,seal,1,M178 M389 M15 M87 M326 M25 M245 M245,M178 M389 M15 M87 M326 M25 M245 M245,31,,,,2.0,4.0
+462,DK 7913,"DK/SD area: Lane, east / of Bl. / 10 (11)",street,,,,lane east of bl 10 11,street,-13.6,-13.6,register,,,,0,,,,,,,2.0,4.0
+463,DK 7722,DK/SD area: 10 / II / 26 1,house,10,II,26,,,-13.6,-13.6,register,-14.0,2463.0,seal,1,M343 M391 M99 M387 M342,M343 M391 M99 M387 M342,31,,10/II,10/II/26,2.0,4.0
+464,DK 6153,DK/SD area: 7 / I / 19 !,house,7,I,19,,,-13.6,-13.6,register,-14.0,2464.0,seal,1,M86 M387 M402,M86 M387 M402,31,,7/I,7/I/19,2.0,4.0
+465,DK 8254,DK/SD area: 9 / VI / 36 1 ',house,9,VI,36,,,-13.7,-13.7,register,-14.0,2465.0,seal,1,M195 M123 M87 M357 M175 M180,M195 M123 M87 M357 M175 M180,31,,9/VI,9/VI/36,2.0,4.0
+466,DK 9127,DK/SD area: 2 / I / 8,house,2,I,8,,,,-14.0,m77_level,-14.0,2466.0,seal,1,M87 M244 M307 M175 M180 M176 | M374,M87 M244 M307 M175 M180 M176 M374,31,,2/I,2/I/8,2.0,4.0
+467,DK 5582,DK/SD area: 12 / V / 91,house,12,V,91,,,-13.8,-13.8,register,-14.0,2467.0,seal,1,M8 M342,M8 M342,31,,12/V,12/V/91,2.0,4.0
+468,DK 8026,DK/SD area: First / St. (10),street,,,,first st 10,street,-13.9,-13.9,register,-14.0,2468.0,seal,1,M267 M180 M391,M267 M180 M391,31,,,,2.0,4.0
+469,DK 6360,DK/SD area: Bet. / Bis. 1 & / 10 (I),street,,,,bet bis 1 & 10 i,street,-13.9,-13.9,register,-14.0,2469.0,seal,1,M65 M342 M224,M65 M342 M224,31,,,,2.0,4.0
+470,DK 5708,DK/SD area: 1 / I / 15,house,1,I,15,,,-13.9,-13.9,register,-14.0,2470.0,seal,1,M182 M293 M342 M97 M102 M40,M182 M293 M342 M97 M102 M40,31,,1/I,1/I/15,2.0,4.0
+471,DK 6429,DK/SD area: 9 / VII / 17,house,9,VII,17,,,-13.9,-13.9,register,-14.0,2471.0,seal,1,M295 M336 M53 | M242,M295 M336 M53 M242,31,,9/VII,9/VII/17,2.0,4.0
+472,DK 4073,DK/SD area: 6 / I / 4,house,6,I,4,,,-14.0,-14.0,register,-14.0,2472.0,seal,1,M326 M342 M14,M326 M342 M14,31,,6/I,6/I/4,2.0,4.0
+473,DK 6266,DK/SD area: 7 / I / 15,house,7,I,15,,,+14.0,-14.0,register,-14.0,2473.0,seal,1,M214 M150 M267 M99 M249 M162 M375 M76 M267,M214 M150 M267 M99 M249 M162 M375 M76 M267,31,,7/I,7/I/15,2.0,4.0
+474,DK 4301,DK/SD area: 2 / III / 16,house,2,III,16,,,+14.0,-14.0,register,-14.0,2474.0,seal,1,M343 M267 M402 M205 M267,M343 M267 M402 M205 M267,31,,2/III,2/III/16,2.0,4.0
+475,DK 6777,"DK/SD area: Lane, / bet. Bis. / 1 & 7",street,,,,lane bet bis 1 & 7,street,+14.0,-14.0,register,-14.0,2475.0,seal,1,M30 M402 M99 M415 M342,M30 M402 M99 M415 M342,31,,,,2.0,4.0
+476,DK 5709,DK/SD area: 1 / III / 2,house,1,III,2,,,-14.0,-14.0,register,-14.0,2476.0,seal,1,M267 M99 M171 M8 M342,M267 M99 M171 M8 M342,31,,1/III,1/III/2,2.0,4.0
+477,DK 3755,DK/SD area: 3 / IV / 45,house,3,IV,45,,,+14.1,-14.1,register,-14.0,2477.0,seal,1,M86 M210 M99 M389 M69 M211 M97 M173,M86 M210 M99 M389 M69 M211 M97 M173,31,,3/IV,3/IV/45,2.0,4.0
+478,DK 4967,DK/SD area: 4 / 13,room_only,4,,13,,,+14.1,-14.1,register,-14.0,2478.0,seal,1,M267 M99 M112 M194 M342,M267 M99 M112 M194 M342,31,,,4/-/13,2.0,4.0
+479,DK 7313,DK/SD area: 12A / II / 21,house,12A,II,21,,,+14.3,-14.3,register,,,,0,,,,,12A/II,12A/II/21,2.0,4.0
+480,DK 4151,DK/SD area: 3 / VI / 31,house,3,VI,31,,,+14.4,-14.4,register,-14.0,2480.0,seal,1,M391 M99 M70 M87 M59 M387 M342,M391 M99 M70 M87 M59 M387 M342,31,,3/VI,3/VI/31,2.0,4.0
+481,DK 7137,"DK/SD area: Lane, / east of Bl. / 1 (I)",street,,,,lane east of bl 1 i,street,+14.4,-14.4,register,-14.0,2481.0,seal,1,M267 M99 M103 M403 M48 M8 M342,M267 M99 M103 M403 M48 M8 M342,31,,,,2.0,4.0
+482,DK 7366,DK/SD area: 7 / V / 54,house,7,V,54,,,+14.4,-14.4,register,-14.0,2482.0,ivory/bone rod,1,M17 M48 M342 M176,M17 M48 M342 M176,31,,7/V,7/V/54,2.0,4.0
+483,DK 8062,DK/SD area: 7 / V / 66,house,7,V,66,,,+14.4,-14.4,register,-14.0,2483.0,seal,1,M130 M149 M342,M130 M149 M342,31,,7/V,7/V/66,2.0,4.0
+484,DK 6385,DK/SD area: 1 / V / 46,house,1,V,46,,,+14.5,-14.5,register,-15.0,2484.0,seal,1,M18 M226 M254,M18 M226 M254,31,,1/V,1/V/46,2.0,4.0
+485,DK 6156,DK/SD area: 1 / III / 17,house,1,III,17,,,+14.5,-14.5,register,-15.0,2485.0,seal,1,M267 M99 M174 M176 M211,M267 M99 M174 M176 M211,31,,1/III,1/III/17,2.0,4.0
+486,DK 4206,DK/SD area: Bet. / Bis. 4 & / 5,street,,,,bet bis 4 & 5,street,+14.6,-14.6,register,-15.0,2486.0,seal,1,M102 M217 M403 M347 M342,M102 M217 M403 M347 M342,31,,,,2.0,4.0
+487,DK 6778,DK/SD area: 1 / III / 4,house,1,III,4,,,+14.6,-14.6,register,,,,0,,,,,1/III,1/III/4,2.0,4.0
+489,DK 8072,DK/SD area: First / St. (21),street,,,,first st 21,street,+14.5,-14.5,register,-15.0,2489.0,seal,1,M25 M99 M87 M59 M294 M342,M25 M99 M87 M59 M294 M342,31,,,,2.0,4.0
+490,DK 6633,DK/SD area: Bet. / Bis. 1 & / 10 (I),street,,,,bet bis 1 & 10 i,street,+14.7,-14.7,register,-15.0,2490.0,seal,1,M210 M180 M99 M47 M211,M210 M180 M99 M47 M211,31,,,,2.0,4.0
+491,DK 13006,DK/SD area: First / St. (15),street,,,,first st 15,street,+14.7,-14.7,register,-15.0,2491.0,seal,1,M267 M99 M389 M336 M293,M267 M99 M389 M336 M293,31,,,,2.0,4.0
+492,DK 8204,DK/SD area: 7 / IV / 72,house,7,IV,72,,,+14.7,-14.7,register,-15.0,2492.0,seal,1,M150 M123 M336 M89 M296 M342,M150 M123 M336 M89 M296 M342,31,,7/IV,7/IV/72,2.0,4.0
+493,DK 8253,DK/SD area: 7 / III / 48,house,7,III,48,,,+14.8,-14.8,register,-15.0,2493.0,seal,1,M149 M13,M149 M13,31,,7/III,7/III/48,2.0,4.0
+494,DK 7734,"DK/SD area: Lane, / bet. Bis. / 10 & 12",street,,,,lane bet bis 10 & 12,street,+14.8,-14.8,register,,,,0,,,,,,,2.0,4.0
+495,DK 4337,DK/SD area: 2 / II / 23,house,2,II,23,,,+14.8,-14.8,register,-15.0,2495.0,seal,1,M204 M155 M211 M249 M180 M267,M204 M155 M211 M249 M180 M267,31,,2/II,2/II/23,2.0,4.0
+496,DK 6003,DK/SD area: 7 / VIII / 28,house,7,VIII,28,,,+14.8,-14.8,register,-15.0,2496.0,seal,1,M59 M97 M226 M342,M59 M97 M226 M342,31,,7/VIII,7/VIII/28,2.0,4.0
+497,DK 8250,DK/SD area: 7 / III / 43,house,7,III,43,,,+14.8,-14.8,register,-15.0,2497.0,seal,1,M102 M15,M102 M15,31,,7/III,7/III/43,2.0,4.0
+498,DK 6838,DK/SD area: Bet. / Bis. 1 (III) / & 2,street,,,,bet bis 1 iii & 2,street,+14.8,-14.8,register,-15.0,2498.0,seal,1,M391 M123 M70 M53 M342,M391 M123 M70 M53 M342,31,,,,2.0,4.0
+499,DK 9187,DK/SD area: 2 / I / 7,house,2,I,7,,,+14.8,-14.8,register,-15.0,2499.0,seal,1,M204 M230 M342,M204 M230 M342,31,,2/I,2/I/7,2.0,4.0
+500,DK 6844,DK/SD area: Bet. / Bis. 1 & / 7,street,,,,bet bis 1 & 7,street,+14.8,-14.8,register,-15.0,2500.0,seal,1,M375 M52,M375 M52,31,,,,2.0,4.0
+501,DK 5852,DK/SD area: 4 / 12,room_only,4,,12,,,+14.9,-14.9,register,-15.0,2501.0,seal,1,M293 M123 M343 M250,M293 M123 M343 M250,31,,,4/-/12,2.0,4.0
+502,DK 7676,DK/SD area: 1 / I / 22,house,1,I,22,,,+14.9,-14.9,register,-15.0,2502.0,seal,1,M67 M244 M342,M67 M244 M342,31,,1/I,1/I/22,2.0,4.0
+503,DK 5459,DK/SD area: 1 / IV / 61,house,1,IV,61,,,-15.0,-15.0,register,-15.0,2503.0,seal,1,M267 M99 M76 M12,M267 M99 M76 M12,31,,1/IV,1/IV/61,3.0,5.0
+504,DK 5925,DK/SD area: 10 / I / 5,house,10,I,5,,,-16.0,-16.0,register,-15.0,2504.0,seal,1,M267 M99 M86 M72 M211,M267 M99 M86 M72 M211,31,,10/I,10/I/5,3.0,5.0
+505,DK 5671,DK/SD area: 1 / II / 32,house,1,II,32,,,-15.0,-15.0,register,-15.0,2505.0,seal,2,M182 M149,M182 M149 M216 M123 M149 M342,31,,1/II,1/II/32,3.0,5.0
+506,DK 5533,DK/SD area: 1 / IV / 73,house,1,IV,73,,,-15.1,-15.1,register,-15.0,2506.0,seal,1,M389 M296 M342,M389 M296 M342,31,,1/IV,1/IV/73,3.0,5.0
+507,DK 4313,DK/SD area: 2 / I / 10,house,2,I,10,,,-15.1,-15.1,register,-15.0,2507.0,seal,1,M375 M65 M72 M336 M89 M211,M375 M65 M72 M336 M89 M211,31,,2/I,2/I/10,3.0,5.0
+508,DK 8089,DK/SD area: First / St. (10),street,,,,first st 10,street,-15.1,-15.1,register,-15.0,2508.0,seal,2,M182 M149,M182 M149 M216 M123 M149 M342,31,,,,3.0,5.0
+509,DK 5849,DK/SD area: 1 / VIII / 63,house,1,VIII,63,,,-15.1,-15.1,register,-15.0,2509.0,seal,1,M1 M1,M1 M1,31,,1/VIII,1/VIII/63,3.0,5.0
+510,DK 8321,DK/SD area: 9 / VI / 34,house,9,VI,34,,,-15.2,-15.2,register,,,,0,,,,,9/VI,9/VI/34,3.0,5.0
+511,DK 6689,DK/SD area: Bet. / 1 & 10 (I),street,,,,bet 1 & 10 i,street,-15.2,-15.2,register,-15.0,2511.0,seal,1,M150 M97 M253 M230 M347 M342,M150 M97 M253 M230 M347 M342,31,,,,3.0,5.0
+512,DK 6764,DK/SD area: 1 / V / 47,house,1,V,47,,,-15.3,-15.3,register,-15.0,2512.0,seal,1,M267 M99 M375,M267 M99 M375,31,,1/V,1/V/47,3.0,5.0
+513,DK 5392,"DK/SD area: Bet. / BU, 12 & / 12A",street,,,,bet bu 12 & 12a,street,-15.3,-15.3,register,-15.0,2513.0,seal,1,M267 M99 M98 M67 M60,M267 M99 M98 M67 M60,31,,,,3.0,5.0
+514,DK 5368,DK/SD area: Bet. / Bis. 12 & / 12A,street,,,,bet bis 12 & 12a,street,-15.3,-15.3,register,-15.0,2514.0,seal,1,M102 M15,M102 M15,31,,,,3.0,5.0
+515,DK 6413,DK/SD area: 1 / IV / 30,house,1,IV,30,,,-15.3,-15.3,register,-15.0,2515.0,seal,1,M184 M249 M345 M98,M184 M249 M345 M98,31,,1/IV,1/IV/30,3.0,5.0
+516,DK 8864,DK/SD area: 1 / I / 16,house,1,I,16,,,-15.3,-15.3,register,-15.0,2516.0,seal,1,M86 | M211,M86 M211,31,,1/I,1/I/16,3.0,5.0
+517,DK 5601,DK/SD area: 12 / V / 92,house,12,V,92,,,-15.3,-15.3,register,-15.0,2517.0,seal,1,M336 M51 M342,M336 M51 M342,31,,12/V,12/V/92,3.0,5.0
+518,DK 7221,DK/SD area: 3 / IV / 45,house,3,IV,45,,,-15.4,-15.4,register,-15.0,2518.0,seal,1,M16 M125 M343 M48 M342 M1 | M391 | M197,M16 M125 M343 M48 M342 M1 M391 M197,31,,3/IV,3/IV/45,3.0,5.0
+519,DK 8104,DK/SD area: 7 / V / 66,house,7,V,66,,,-15.4,-15.4,register,-15.0,2519.0,seal,1,M87 M261 M249 M307 | M59 M347 M342 M12,M87 M261 M249 M307 M59 M347 M342 M12,31,,7/V,7/V/66,3.0,5.0
+520,DK 8563,DK/SD area: 12 / I / 4,house,12,I,4,,,-15.4,-15.4,register,-15.0,2520.0,seal,1,M65 M113 M342,M65 M113 M342,31,,12/I,12/I/4,3.0,5.0
+521,DK 5935,DK/SD area: Bet. Bis. / 1 (V) / & 10,street,,,,bet bis 1 v & 10,street,-15.5,-15.5,register,-16.0,2521.0,seal,1,M391 M123 M98 M249 M162 M342,M391 M123 M98 M249 M162 M342,31,,,,3.0,5.0
+522,DK 7033,DK/SD area: 3 / III / 26,house,3,III,26,,,-15.5,-15.5,register,-16.0,2522.0,seal,1,M284 M99 M124 M342 M402 M59 M86,M284 M99 M124 M342 M402 M59 M86,31,,3/III,3/III/26,3.0,5.0
+523,DK 8023,DK/SD area: 7 / IX / 31,house,7,IX,31,,,-15.5,-15.5,register,-16.0,2523.0,seal,1,M267 M99 M65 M59 M211,M267 M99 M65 M59 M211,31,,7/IX,7/IX/31,3.0,5.0
+524,DK 7708,DK/SD area: First / St. (21),street,,,,first st 21,street,-15.6,-15.6,register,-16.0,2524.0,seal,1,M104 M59 M123 M336 M89 M211,M104 M59 M123 M336 M89 M211,31,,,,3.0,5.0
+525,DK 7052,DK/SD area: 1 / I / 16,house,1,I,16,,,-15.7,-15.7,register,-16.0,2525.0,seal,1,M106 M169,M106 M169,31,,1/I,1/I/16,3.0,5.0
+526,DK 7694,DK/SD area: 5 / III / 8,house,5,III,8,,,-15.7,-15.7,register,-16.0,2526.0,seal,1,M86 M67 M8 M342,M86 M67 M8 M342,31,,5/III,5/III/8,3.0,5.0
+527,DK 8406,DK/SD area: 9A / V / 67,house,9A,V,67,,,-15.7,-15.7,register,-16.0,2527.0,seal,1,M84 M50 M176,M84 M50 M176,31,,9A/V,9A/V/67,3.0,5.0
+528,DK 6698,DK/SD area: 9A / V / 76,house,9A,V,76,,,-15.7,-15.7,register,-16.0,2528.0,seal,1,M391 M99 M389 M182 M293 M169,M391 M99 M389 M182 M293 M169,31,,9A/V,9A/V/76,3.0,5.0
+529,DK 7512,DK/SD area: 1 / V / 45,house,1,V,45,,,-16.8,-16.8,register,-16.0,2529.0,seal,1,M97 M327 M17 M261 M86,M97 M327 M17 M261 M86,31,,1/V,1/V/45,3.0,5.0
+530,DK 5605,DK/SD area: 1 / I / 74,house,1,I,74,,,-16.8,-16.8,register,-16.0,2530.0,seal,1,M200 M391,M200 M391,31,,1/I,1/I/74,3.0,5.0
+531,DK 7150,DK/SD area: 3 / VI / 47,house,3,VI,47,,,-15.9,-15.9,register,-16.0,2531.0,seal,1,M391 M99 M294 M342,M391 M99 M294 M342,31,,3/VI,3/VI/47,3.0,5.0
+532,DK 4907,DK/SD area: Bet. Bis. / 11 & 12A,street,,,,bet bis 11 & 12a,street,-15.9,-15.9,register,-16.0,2532.0,seal,1,M109 M129 M123 M65 M59 M211,M109 M129 M123 M65 M59 M211,31,,,,3.0,5.0
+533,DK 8168,DK/SD area: First / St. (10),street,,,,first st 10,street,-15.9,-15.9,register,-16.0,2533.0,seal,1,M267 M99 M171 M8 M342,M267 M99 M171 M8 M342,31,,,,3.0,5.0
+534,DK 8166,DK/SD area: First / St. (10),street,,,,first st 10,street,-15.9,-15.9,register,-16.0,2534.0,seal,1,M72 M387 M342,M72 M387 M342,31,,,,3.0,5.0
+535,DK 5969,DK/SD area: Bet. Bis. / 1 (IV) / & 10,street,,,,bet bis 1 iv & 10,street,-15.9,-15.9,register,-16.0,2535.0,seal,1,M151 M97 M124 M342,M151 M97 M124 M342,31,,,,3.0,5.0
+536,DK 6002,DK/SD area: 7 / VIII / 28,house,7,VIII,28,,,-15.9,-15.9,register,-16.0,2536.0,seal,1,M216 M123 M65 M211 M373 M127 M373,M216 M123 M65 M211 M373 M127 M373,31,,7/VIII,7/VIII/28,3.0,5.0
+537,DK 7172,DK/SD area: Bet. Bis. / lOA and / 11,street,,,,bet bis loa and 11,street,-23.6,,,-24.0,2537.0,seal,1,M293 M123 M344 M389 M171 M59 M67 M51 M130 M149 M342,M293 M123 M344 M389 M171 M59 M67 M51 M130 M149 M342,31,outlier,,,,
+538,DK 7190,DK/SD area: 1 / VI / 52,house,1,VI,52,,,-16.0,-16.0,register,-16.0,2538.0,seal,1,M162 M1 M162 M48 M342,M162 M1 M162 M48 M342,31,,1/VI,1/VI/52,3.0,5.0
+539,DK 8242,DK/SD area: 7 / III / 43,house,7,III,43,,,-16.1,-16.1,register,-16.0,2539.0,seal,1,M375 M267 M99 M53 M342 M72 M155 M211,M375 M267 M99 M53 M342 M72 M155 M211,31,,7/III,7/III/43,3.0,5.0
+540,DK 3889,"DK/SD area: Lane, east / of Bl. / I (I)",street,,,,lane east of bl i i,street,-16.1,-16.1,register,-16.0,2540.0,seal,1,M102 M15 M176,M102 M15 M176,31,,,,3.0,5.0
+541,DK 7406,"DK/SD area: Lane, / east of Bl. / 1 (I)",street,,,,lane east of bl 1 i,street,-16.1,-16.1,register,-16.0,2541.0,seal,1,M53 M171 M59 M336 M89 M216 M254,M53 M171 M59 M336 M89 M216 M254,31,,,,3.0,5.0
+542,DK 7269,DK/SD area: 12A / U / 18,house,12A,II,18,,house_ocr_repaired,-16.2,-16.2,register,-16.0,2542.0,seal,2,M123 M102 M169,M123 M102 M169 M336 M89 M296 M342,31,,12A/II,12A/II/18,3.0,5.0
+543,DK 6210,DK/SD area: 10 / III / 55,house,10,III,55,,,-16.2,-16.2,register,-16.0,2543.0,seal,1,M307 M86 M99 M67 M72 | M244 M51 M267,M307 M86 M99 M67 M72 M244 M51 M267,31,,10/III,10/III/55,3.0,5.0
+544,DK 7269,DK/SD area: 12A / II / 18,house,12A,II,18,,,-16.2,-16.2,register,,,,0,,,,,12A/II,12A/II/18,3.0,5.0
+545,DK 9111,DK/SD area: 8 / 11 / 18,house,8,II,18,,house_ocr_repaired,-16.2,-16.2,register,-16.0,2545.0,seal,1,M267 M99 M65 M222 M254,M267 M99 M65 M222 M254,31,,8/II,8/II/18,3.0,5.0
+546,DK 6125,DK/SD area: 1 / IV / 24,house,1,IV,24,,,-16.3,-16.3,register,-16.0,2546.0,seal,1,M38 M375,M38 M375,31,,1/IV,1/IV/24,3.0,5.0
+547,DK 6448,DK/SD area: Bet. Bis. / 1 (III) / & 7,street,,,,bet bis 1 iii & 7,street,-16.3,-16.3,register,-16.0,2547.0,seal,1,M102 M216 M245,M102 M216 M245,31,,,,3.0,5.0
+548,DK 5707,DK/SD area: 4 / 13,room_only,4,,13,,,-16.4,-16.4,register,-16.0,2548.0,seal,1,M303 M252 M99 M205 M230 M211,M303 M252 M99 M205 M230 M211,31,,,4/-/13,3.0,5.0
+549,DK 5418,DK/SD area: Bet. / Bis. 11 & / 12A,street,,,,bet bis 11 & 12a,street,-16.4,-16.4,register,-16.0,2549.0,seal,1,M51 M130 M15,M51 M130 M15,31,,,,3.0,5.0
+550,DK 5414,DK/SD area: Bet. / Bis. 11 & / 12A,street,,,,bet bis 11 & 12a,street,-16.4,-16.4,register,,,,0,,,,,,,3.0,5.0
+551,DK 5573,DK/SD area: Bet. / Bis. 9A & / 12A,street,,,,bet bis 9a & 12a,street,-16.4,-16.4,register,-16.0,2551.0,seal,1,M267 M99 M86 M226 M254,M267 M99 M86 M226 M254,31,,,,3.0,5.0
+552,DK 5636,DK/SD area: 1 / I / 74,house,1,I,74,,,-16.5,-16.5,register,-17.0,2552.0,seal,1,M267 M99 M87 M59 M342 M224 M97 M173,M267 M99 M87 M59 M342 M224 M97 M173,31,,1/I,1/I/74,3.0,5.0
+553,DK 5636,DK/SD area: 1 / I / 74,house,1,I,74,,,-16.5,-16.5,register,,,,0,,,,,1/I,1/I/74,3.0,5.0
+554,DK 6875,DK/SD area: 1 / VIII / 63,house,1,VIII,63,,,-16.5,-16.5,register,-17.0,2554.0,seal,1,M284 M99,M284 M99,31,,1/VIII,1/VIII/63,3.0,5.0
+555,DK 7333,"DK/SD area: Lane, / east of Bl. / 1 (I)",street,,,,lane east of bl 1 i,street,-16.5,-16.5,register,-17.0,2555.0,seal,1,M267 M99 M53 M72 M155 M211,M267 M99 M53 M72 M155 M211,31,,,,3.0,5.0
+556,DK 7790,DK/SD area: 7 / V / 54,house,7,V,54,,,-16.5,-16.5,register,-17.0,2556.0,seal,1,M76 M402 M99 M233 M342,M76 M402 M99 M233 M342,31,,7/V,7/V/54,3.0,5.0
+557,DK 8279,DK/SD area: 7 / III / 46,house,7,III,46,,,-16.5,-16.5,register,-17.0,2557.0,seal,1,M124 M25 M342,M124 M25 M342,31,,7/III,7/III/46,3.0,5.0
+558,DK 7447,DK/SD area: 2 / IV / 20,house,2,IV,20,,,-16.5,-16.5,register,-17.0,2558.0,seal,1,M293 M123 M343 M65 M70 | M343,M293 M123 M343 M65 M70 M343,31,,2/IV,2/IV/20,3.0,5.0
+559,DK 7448,DK/SD area: 2 / IV / 20,house,2,IV,20,,,-16.5,-16.5,register,-17.0,2559.0,seal,1,M303 M391 M99,M303 M391 M99,31,,2/IV,2/IV/20,3.0,5.0
+560,DK 7570,DK/SD area: 7 / VII / 57,house,7,VII,57,,,-16.5,-16.5,register,-17.0,2560.0,seal,1,M330 M245 M342,M330 M245 M342,31,,7/VII,7/VII/57,3.0,5.0
+561,DK 7280,DK/SD area: 9A / V / 75,house,9A,V,75,,,-16.6,-16.6,register,-17.0,2561.0,seal,1,M2,M2,31,,9A/V,9A/V/75,3.0,5.0
+562,DK 6795,DK/SD area: 9 / VIII / 14,house,9,VIII,14,,,-16.7,-16.7,register,-17.0,2562.0,seal,1,M48 M193 M342,M48 M193 M342,31,,9/VIII,9/VIII/14,3.0,5.0
+563,DK 5432,DK/SD area: Bet. Bis. / 11 & / 12A,street,,,,bet bis 11 & 12a,street,-16.7,-16.7,register,-17.0,2563.0,seal,1,M233 M127 M125 M59 M99 M193 M342,M233 M127 M125 M59 M99 M193 M342,31,,,,3.0,5.0
+564,DK 8463,DK/SD area: 7 / VIII / 53,house,7,VIII,53,,,-16.8,-16.8,register,-17.0,2564.0,seal,1,M249 M102 M287 M99 | M67 M348 M342,M249 M102 M287 M99 M67 M348 M342,31,,7/VIII,7/VIII/53,3.0,5.0
+565,DK 8218,DK/SD area: 7 / IV / 49,house,7,IV,49,,,-16.8,-16.8,register,-17.0,2565.0,seal,1,M109 | M162,M109 M162,31,,7/IV,7/IV/49,3.0,5.0
+566,DK 5703,DK/SD area: Bet. / Bis. 10 & / 12 -16-9,street,,,,bet bis 10 & 12 16 9,street,,-16.9,register_spilled,-17.0,2566.0,seal,1,M336 M59 M127 M97 M175 M1 M175,M336 M59 M127 M97 M175 M1 M175,31,,,,3.0,5.0
+567,DK 5967,DK/SD area: 12 / V / 89 - 16-9,house,12,V,89,,,,-16.9,register_spilled,-17.0,2567.0,seal,1,M391 M99 M105 M59 M342 M1,M391 M99 M105 M59 M342 M1,31,,12/V,12/V/89,3.0,5.0
+568,DK 5702,DK/SD area: Bet. / Bis. 10 & / 12 - 16-9,street,,,,bet bis 10 & 12 16 9,street,,-16.9,register_spilled,-17.0,2568.0,seal,1,M386 M336 M89 M333,M386 M336 M89 M333,31,,,,3.0,5.0
+569,DK 8223,DK/SD area: 7 / IX / 31 - 16-9,house,7,IX,31,,,,-16.9,register_spilled,-17.0,2569.0,seal,1,M267 M99 M287 M249 M162 M12,M267 M99 M287 M249 M162 M12,31,,7/IX,7/IX/31,3.0,5.0
+570,DK 5446,DK/SD area: Bet. / Bis. 12 & / 12A - 16-9,street,,,,bet bis 12 & 12a 16 9,street,,-16.9,register_spilled,-17.0,2570.0,seal,1,M67 M348,M67 M348,31,,,,3.0,5.0
+571,DK 7268,DK/SD area: 1 / III / 17 - 16-9,house,1,III,17,,,,-16.9,register_spilled,-17.0,2571.0,seal,1,M391 M81 M176,M391 M81 M176,31,,1/III,1/III/17,3.0,5.0
+572,DK 8212,DK/SD area: First St. (6) / ] - 17-0,street,,,,first st 6 17 0,street,,-17.0,register_spilled,-17.0,2572.0,seal,1,M391 M99 M102 M162,M391 M99 M102 M162,31,,,,3.0,5.0
+573,DK 7538,DK/SD area: 5 / I / 3 - 170,house,5,I,3,,,,-17.0,m77_level,-17.0,2573.0,seal,1,M336 M89 M99 M192 M347 M342,M336 M89 M99 M192 M347 M342,31,,5/I,5/I/3,3.0,5.0
+574,DK 7135,"DK/SD area: 10 / IV / 86 , - 17-0",house,10,IV,86,,,,-17.0,register_spilled,-17.0,2574.0,seal,1,M264 M65 M59 M342 M1,M264 M65 M59 M342 M1,31,,10/IV,10/IV/86,3.0,5.0
+575,DK 6898,DK/SD area: 12 / V / 96 -17-1 1,house,12,V,96,,,,-17.0,m77_level,-17.0,2575.0,seal,1,M336 M89 M211,M336 M89 M211,31,,12/V,12/V/96,3.0,5.0
+576,DK 9069,DK/SD area: 1 / VI / 52 - 17-2,house,1,VI,52,,,,-17.2,register_spilled,-17.0,2576.0,seal,1,M391 M123 M72 M253 M81 M342,M391 M123 M72 M253 M81 M342,31,,1/VI,1/VI/52,3.0,5.0
+577,DK 8209,DK/SD area: 7 / IV / 72 - 17-2,house,7,IV,72,,,,-17.2,register_spilled,-17.0,2577.0,seal,1,M327 M342 | M89 M177,M327 M342 M89 M177,31,,7/IV,7/IV/72,3.0,5.0
+578,DK 7263,DK/SD area: 1 / I / 15 - 17-3,house,1,I,15,,,,-17.3,register_spilled,-17.0,2578.0,seal,1,M391 M99 M67 M59 M341 M342,M391 M99 M67 M59 M341 M342,31,,1/I,1/I/15,3.0,5.0
+579,DK 7465,"DK/SD area: Lane, / east of Bl. / 1 (I) - 17-4",street,,,,lane east of bl 1 i 17 4,street,,-17.4,register_spilled,-17.0,2579.0,seal,1,M284 M391 M87,M284 M391 M87,31,,,,3.0,5.0
+580,DK 5891,DK/SD area: 12 / V / 92 - 17-4,house,12,V,92,,,,-17.4,register_spilled,-17.0,2580.0,seal,1,M267 M99 M48 M342,M267 M99 M48 M342,31,,12/V,12/V/92,3.0,5.0
+581,DK 8528,DK/SD area: Bet. / Bis. 7 & 9 / (HI) ' - 17-4,street,,,,bet bis 7 & 9 hi 17 4,street,,-17.4,register_spilled,-17.0,2581.0,seal,1,M153 M155 M99 M86 M124 M409 M96 M342 M1,M153 M155 M99 M86 M124 M409 M96 M342 M1,31,,,,3.0,5.0
+582,DK 7464,DK/SD area: Bet. / Bis. 1 (III) / & 2 - 17-4,street,,,,bet bis 1 iii & 2 17 4,street,,-17.4,register_spilled,-17.0,2582.0,seal,1,M375 M375 M342,M375 M375 M342,31,,,,3.0,5.0
+583,DK 7402,DK/SD area: 3 / III / 36 - 17-4,house,3,III,36,,,,-17.4,register_spilled,-17.0,2583.0,seal,1,M267 M99 M65 M336 M89 M222 M254,M267 M99 M65 M336 M89 M222 M254,31,,3/III,3/III/36,3.0,5.0
+584,DK 7820,DK/SD area: 11 / III / 41 - 17-6,house,11,III,41,,,,-17.6,register_spilled,-18.0,2584.0,seal,1,M399 M121 M99 M70 M53 M342,M399 M121 M99 M70 M53 M342,31,,11/III,11/III/41,3.0,5.0
+585,DK 8248,DK/SD area: 7 / IV / 49 1 - 17-6,house,7,IV,49,,,,-17.6,register_spilled,-18.0,2585.0,seal,1,M60 M242,M60 M242,31,,7/IV,7/IV/49,3.0,5.0
+586,DK 8213,DK/SD area: First / St. (22) / 1 - 17-6,street,,,,first st 22 1 17 6,street,,-17.6,register_spilled,,,,0,,,,,,,3.0,5.0
+587,DK 7372,DK/SD area: 2 / IV / 22 - 17-6,house,2,IV,22,,,,-17.6,register_spilled,-18.0,2587.0,seal,2,M86 M102 M15,M86 M102 M15 M261 M86 M267 M99 M67 M70,31,,2/IV,2/IV/22,3.0,5.0
+588,DK 6381,DK/SD area: 4 / 16 - 17-7,room_only,4,,16,,,,-17.7,register_spilled,-18.0,2588.0,seal,1,M98 M72 M17 M173 M86 M224,M98 M72 M17 M173 M86 M224,31,,,4/-/16,3.0,5.0
+589,DK 6335,DK/SD area: 1 / I / 72 - 17-7,house,1,I,72,,,,-17.7,register_spilled,-18.0,2589.0,seal,1,M389 M336 M89 M211,M389 M336 M89 M211,31,,1/I,1/I/72,3.0,5.0
+590,DK 5848,DK/SD area: 1 / I / 20 - 17-7 ;,house,1,I,20,,,,-17.7,register_spilled,-18.0,2590.0,seal,1,M267 M99 M59 M211,M267 M99 M59 M211,31,,1/I,1/I/20,3.0,5.0
+591,DK 7601,DK/SD area: First / St. (21) / - 17-8,street,,,,first st 21 17 8,street,,-17.8,register_spilled,-18.0,2591.0,seal,1,M267 M99 M348 M342,M267 M99 M348 M342,31,,,,3.0,5.0
+592,DK 8287,DK/SD area: 7 / rv / 71 - 17-9,house,7,IV,71,,house_ocr_repaired,,-17.9,register_spilled,-18.0,2592.0,seal,1,M59 M59 M12,M59 M59 M12,31,,7/IV,7/IV/71,3.0,5.0
+593,DK 7415,DK/SD area: East / of Bl. / 1 (I) - 17-8,street,,,,east of bl 1 i 17 8,street,,-17.8,register_spilled,-18.0,2593.0,seal,1,M76 M64 M99 M72 M224 M342,M76 M64 M99 M72 M224 M342,31,,,,3.0,5.0
+594,DK 8539,DK/SD area: 7 / VllI / 52 - 17-8,house,7,VIII,52,,house_ocr_repaired,,-17.8,register_spilled,-18.0,2594.0,seal,1,M102 M59 M249 M162 M342,M102 M59 M249 M162 M342,31,,7/VIII,7/VIII/52,3.0,5.0
+595,DK 7875,DK/SD area: 10 / I / 5 - 17-8,house,10,I,5,,,,-17.8,register_spilled,-18.0,2595.0,seal,1,M196 M123 M87 M30,M196 M123 M87 M30,31,,10/I,10/I/5,3.0,5.0
+596,DK 8422,"DK/SD area: Lane, / east of Bl. / 9 (VI) - 17-9 !",street,,,,lane east of bl 9 vi 17 9,street,,-18.0,m77_level,-18.0,2596.0,seal,1,M160 M344 M47 M173 M403 M347 M342,M160 M344 M47 M173 M403 M347 M342,31,,,,3.0,6.0
+597,DK 8946,DK/SD area: 1 / III / 2 - 17-9,house,1,III,2,,,,-17.9,register_spilled,-18.0,2597.0,seal,1,M397 M267 M343 M197 | M400,M397 M267 M343 M197 M400,31,,1/III,1/III/2,3.0,5.0
+598,DK 6531,DK/SD area: 10 / III / 67 - 18-0,house,10,III,67,,,,-18.0,register_spilled,-18.0,2598.0,seal,1,M293 M123 M48 M62 M342 | M177 M197 M373 M373,M293 M123 M48 M62 M342 M177 M197 M373 M373,31,,10/III,10/III/67,3.0,6.0
+599,DK 7288,DK/SD area: 1 / I / 17 - 18 0,house,1,I,17,,,,-18.0,m77_level,-18.0,2599.0,seal,1,M182 M293 M344 M387 M171 M59 M397 M169,M182 M293 M344 M387 M171 M59 M397 M169,31,,1/I,1/I/17,3.0,6.0
+600,DK 6140,DK/SD area: Bet. Bis. / 10 (III) / & 12 - 18-0,street,,,,bet bis 10 iii & 12 18 0,street,,-18.0,register_spilled,-18.0,2600.0,seal,1,M249 M169 M342,M249 M169 M342,31,,,,3.0,6.0
+601,DK 5641,DK/SD area: I / IV / 63 - 18*0,house,,IV,63,,block_unreadable,,-18.0,m77_level,-18.0,2601.0,seal,1,M415 M277 M99 M102 M190 | M153 M127,M415 M277 M99 M102 M190 M153 M127,31,,,,3.0,6.0
+602,DK 6209,DK/SD area: Bet. / Bis. lOA / & 12 - 18-1,street,,,,bet bis loa & 12 18 1,street,,-18.1,register_spilled,-18.0,2602.0,seal,1,M2 M12,M2 M12,31,,,,3.0,6.0
+603,DK 5567,DK/SD area: 2 / IV / 15 - 18-1,house,2,IV,15,,,,-18.1,register_spilled,-18.0,2603.0,seal,1,M17 M293 M136 M193 M204 M234 M176,M17 M293 M136 M193 M204 M234 M176,31,,2/IV,2/IV/15,3.0,6.0
+604,DK 7810,DK/SD area: 7 / V / 54 - 18-1,house,7,V,54,,,,-18.1,register_spilled,-18.0,2604.0,seal,1,M17 M250 M176 | M102 M97 M149 M89 M328,M17 M250 M176 M102 M97 M149 M89 M328,31,,7/V,7/V/54,3.0,6.0
+604,DK 7136,DK/SD area: lOA / 7 -18-1,room_only,10A,,7,,,,-18.1,register_spilled,,,,0,,,,,,10A/-/7,3.0,6.0
+605,DK 8856,DK/SD area: 1 / I / 75 -18-1,house,1,I,75,,,,-18.1,register_spilled,-18.0,2605.0,seal,1,M171 M59 M341 M342,M171 M59 M341 M342,31,,1/I,1/I/75,3.0,6.0
+606,DK 9114,DK/SD area: 1 / VII / 35 - 18-2,house,1,VII,35,,,,-18.2,register_spilled,-18.0,2606.0,seal,1,M294 M342,M294 M342,31,,1/VII,1/VII/35,3.0,6.0
+607,DK 6704,DK/SD area: 3 / IV / 29 - 18-2,house,3,IV,29,,,,-18.2,register_spilled,-18.0,2607.0,seal,1,M153 M153 M342,M153 M153 M342,31,,3/IV,3/IV/29,3.0,6.0
+608,DK 6886,DK/SD area: Bet. / Bis. 1 (TV) / & 10 -18-2,street,,,,bet bis 1 tv & 10 18 2,street,,-18.2,register_spilled,-18.0,2608.0,seal,1,M65 M327 M342,M65 M327 M342,31,,,,3.0,6.0
+609,DK 6827,DK/SD area: 11 / HI / 34 - 18-3,house,11,III,34,,house_ocr_repaired,,-18.3,register_spilled,-18.0,2609.0,seal,1,M293 M123 M343 M249 M162 M12,M293 M123 M343 M249 M162 M12,31,,11/III,11/III/34,3.0,6.0
+610,DK 8472,DK/SD area: lA / 58 -18-3,room_only,1A,,58,,,,-18.3,register_spilled,-18.0,2610.0,seal,1,M171 M8,M171 M8,31,,,1A/-/58,3.0,6.0
+611,DK 8963,DK/SD area: I / 1 / 21 - 18-3,house,,I,21,,block_unreadable;house_ocr_repaired,,-18.3,register_spilled,-18.0,2611.0,seal,1,M150 M302 M99 M15 | M124 M12,M150 M302 M99 M15 M124 M12,31,,,,3.0,6.0
+612,DK 6861,DK/SD area: Bet. / Bis. 10 / & 12 -184,street,,,,bet bis 10 & 12 184,street,,-18.0,m77_level,-18.0,2612.0,seal,1,M267 M342 M86 M75 M245 M245,M267 M342 M86 M75 M245 M245,31,,,,3.0,6.0
+613,DK 6798,DK/SD area: Bet. / Bis. 1 & / 10 (I) -18-4,street,,,,bet bis 1 & 10 i 18 4,street,,-18.4,register_spilled,-18.0,2613.0,seal,1,M293 M123 M343 M250,M293 M123 M343 M250,31,,,,3.0,6.0
+614,DK 8984,DK/SD area: 1 / III / 17 - 18-4,house,1,III,17,,,,-18.4,register_spilled,-18.0,2614.0,seal,1,M84 M59 M160 M343 M387 M67 M87 M59 M155 M211,M84 M59 M160 M343 M387 M67 M87 M59 M155 M211,31,,1/III,1/III/17,3.0,6.0
+615,DK 7469,DK/SD area: 9A / V / 76 - 18-4,house,9A,V,76,,,,-18.4,register_spilled,-18.0,2615.0,seal,1,M307 M180 M87 M261 M87,M307 M180 M87 M261 M87,31,,9A/V,9A/V/76,3.0,6.0
+616,DK 8916,DK/SD area: 1 / I / 74 - 18-5,house,1,I,74,,,,-18.5,register_spilled,-19.0,2616.0,seal,1,M345 M180 M86,M345 M180 M86,31,,1/I,1/I/74,3.0,6.0
+617,DK 8962,DK/SD area: 1 / I / 21 - 18-6,house,1,I,21,,,,-18.6,register_spilled,-19.0,2617.0,seal,1,M400 M293 M97 M72 M336 M89 M86 M91,M400 M293 M97 M72 M336 M89 M86 M91,31,,1/I,1/I/21,3.0,6.0
+618,DK 8236,DK/SD area: First / St. (7) / - 18-6,street,,,,first st 7 18 6,street,,-18.6,register_spilled,-19.0,2618.0,seal,1,M267 M99 M67 M244 M342,M267 M99 M67 M244 M342,31,,,,3.0,6.0
+619,DK 7756,DK/SD area: Bet. / Bis. 5 and / 6 - 18-6,street,,,,bet bis 5 and 6 18 6,street,,-18.6,register_spilled,,,,0,,,,,,,3.0,6.0
+620,DK 6267,DK/SD area: 1 / I / 74 - 18-6,house,1,I,74,,,,-18.6,register_spilled,-19.0,2620.0,seal,1,M345 M409 M94,M345 M409 M94,31,,1/I,1/I/74,3.0,6.0
+621,DK 7116,DK/SD area: Bet. / Bis. 1 / & 7 - 18-8,street,,,,bet bis 1 & 7 18 8,street,,-18.8,register_spilled,-19.0,2621.0,seal,1,M291 M343 M336 M51 M342,M291 M343 M336 M51 M342,31,,,,3.0,6.0
+622,DK 8930,DK/SD area: 1 / III / 1 - 18-9,house,1,III,1,,,,-18.9,register_spilled,-19.0,2622.0,seal,1,M301 M155 M211,M301 M155 M211,31,,1/III,1/III/1,3.0,6.0
+623,DK 8869,DK/SD area: 7 / HI / 44 - 19- 1,house,7,III,44,,house_ocr_repaired,,-19.0,m77_level,-19.0,2623.0,seal,1,M267 M99 M124 M342,M267 M99 M124 M342,31,,7/III,7/III/44,3.0,6.0
+624,DK 7116,DK/SD area: Bet. / Bis. 1 & / 10 (I) -19-1,street,,,,bet bis 1 & 10 i 19 1,street,,-19.1,register_spilled,,,,0,,,,,,,3.0,6.0
+625,DK 5710,DK/SD area: Bet. / Bis. 11 / & 12 - 19-2,street,,,,bet bis 11 & 12 19 2,street,,-19.2,register_spilled,-19.0,2625.0,seal,1,M391 M123 M86 M68 M176,M391 M123 M86 M68 M176,31,,,,3.0,6.0
+626,DK 8553,DK/SD area: First / St. (13) / - 19-2,street,,,,first st 13 19 2,street,,-19.2,register_spilled,-19.0,2626.0,seal,2,M197 M86,M197 M86 M197 M86 M99 M102 M162,31,,,,3.0,6.0
+627,DK 5215,"DK/SD area: Bet. / Bis, 11 / & 12A -19-3",street,,,,bet bis 11 & 12a 19 3,street,,-19.3,register_spilled,-19.0,2627.0,seal,1,M171 M8 M342,M171 M8 M342,31,,,,3.0,6.0
+628,DK 7077,DK/SD area: 10 / rv / 83 - 19-3,house,10,IV,83,,house_ocr_repaired,,-19.3,register_spilled,-19.0,2628.0,seal,1,M336 M209 M391 M124 M12,M336 M209 M391 M124 M12,31,,10/IV,10/IV/83,3.0,6.0
+629,DK 8985,DK/SD area: 1 / I / 82 - 19-3,house,1,I,82,,,,-19.3,register_spilled,-19.0,2629.0,seal,1,M86 M260 M342,M86 M260 M342,31,,1/I,1/I/82,3.0,6.0
+630,DK 8629,DK/SD area: 12 / V / 96 - 19-4,house,12,V,96,,,,-19.4,register_spilled,-19.0,2630.0,seal,1,M267 M99 M17 M38,M267 M99 M17 M38,31,,12/V,12/V/96,3.0,6.0
+631,DK 7374,DK/SD area: 3 / VI / 47,house,3,VI,47,,,-19.4,-19.4,register,-19.0,2631.0,seal,1,M267 M99 M153 M153 M342,M267 M99 M153 M153 M342,31,,3/VI,3/VI/47,3.0,6.0
+632,DK 5537,DK/SD area: Bet. / Bis. 12 & / 12A,street,,,,bet bis 12 & 12a,street,-19.5,-19.5,register,-20.0,2632.0,seal,1,M293 M15 M99 M102 M17 M8 M342,M293 M15 M99 M102 M17 M8 M342,31,,,,3.0,6.0
+633,DK 9283,DK/SD area: 2 / I / 7,house,2,I,7,,,-19.6,-19.6,register,-20.0,2633.0,seal,1,M284 M102 M15,M284 M102 M15,31,,2/I,2/I/7,3.0,6.0
+634,DK 5256,DK/SD area: Bet. / Bis. 11 & / 12A,street,,,,bet bis 11 & 12a,street,-19.8,-19.8,register,-20.0,2634.0,seal,1,M264 M9 M342 M1,M264 M9 M342 M1,31,,,,3.0,6.0
+635,DK 9002,DK/SD area: 1 / II / 63,house,1,II,63,,,-19.8,-19.8,register,-20.0,2635.0,seal,1,M267 M402 M123 M102 M15,M267 M402 M123 M102 M15,31,,1/II,1/II/63,3.0,6.0
+636,DK 8519,DK/SD area: First / St. (21),street,,,,first st 21,street,-19.9,-19.9,register,-20.0,2636.0,seal,2,M267 M99 M106 M162,M267 M99 M106 M162 M267 M99 M106,31,,,,3.0,6.0
+637,DK 5554,DK/SD area: Bet. / Bis. 12 & / 12A,street,,,,bet bis 12 & 12a,street,-19.9,-19.9,register,-20.0,2637.0,seal,1,M70 M12,M70 M12,31,,,,3.0,6.0
+638,DK 6751,DK/SD area: 4 / 10,room_only,4,,10,,,-20.0,-20.0,register,-20.0,2638.0,seal,1,M249 M307,M249 M307,31,,,4/-/10,4.0,6.0
+639,DK 6068,DK/SD area: 1 / VIII / 63,house,1,VIII,63,,,-20.0,-20.0,register,-20.0,2639.0,seal,1,M86 M15,M86 M15,31,,1/VIII,1/VIII/63,4.0,6.0
+640,DK 6842,DK/SD area: Bet. / Bis. 5 & / 7 (VI),street,,,,bet bis 5 & 7 vi,street,-20.0,-20.0,register,-20.0,2640.0,seal,1,M347 M342,M347 M342,31,,,,4.0,6.0
+641,DK 7597,DK/SD area: 9A / V / 75,house,9A,V,75,,,-20.0,-20.0,register,-20.0,2641.0,seal,1,M330 M123 | M197 M67 M342 M1,M330 M123 M197 M67 M342 M1,31,,9A/V,9A/V/75,4.0,6.0
+642,DK 5580,DK/SD area: 11 / III / 26,house,11,III,26,,,-20.0,-20.0,register,,,,0,,,,,11/III,11/III/26,4.0,6.0
+643,DK 9255,"DK/SD area: Lane, / east of Bl. / 1 (I)",street,,,,lane east of bl 1 i,street,-20.0,-20.0,register,-20.0,2643.0,seal,1,M323 M344 M65 M296 M342,M323 M344 M65 M296 M342,31,,,,4.0,6.0
+644,DK 8703,DK/SD area: 7 / II / 88,house,7,II,88,,,-20.1,-20.1,register,-20.0,2644.0,seal,1,M341 M342,M341 M342,31,,7/II,7/II/88,4.0,6.0
+645,DK 7287,DK/SD area: 12 / V / 95,house,12,V,95,,,-20.2,-20.2,register,-20.0,2645.0,seal,1,M100 M17 M60,M100 M17 M60,31,,12/V,12/V/95,4.0,6.0
+646,DK 9085,DK/SD area: 1 / I / 82,house,1,I,82,,,-20.2,-20.2,register,-20.0,2646.0,seal,1,M99 M59 M135 M342,M99 M59 M135 M342,31,,1/I,1/I/82,4.0,6.0
+647,DK 8494,DK/SD area: First / St. (1),street,,,,first st 1,street,-20.3,-20.3,register,-20.0,2647.0,seal,1,M267 M99 M67 M171 M8 M342 M1,M267 M99 M67 M171 M8 M342 M1,31,,,,4.0,6.0
+648,DK 8473,DK/SD area: 7 / I / 19,house,7,I,19,,,-20.4,-20.4,register,-20.0,2648.0,seal,1,M267 M99 M104 M162 M242,M267 M99 M104 M162 M242,31,,7/I,7/I/19,4.0,6.0
+649,DK 6423,DK/SD area: 4 / 16,room_only,4,,16,,,-20.5,-20.5,register,,,,0,,,,,,4/-/16,4.0,6.0
+650,DK 8756,DK/SD area: 7 / VIII / 28,house,7,VIII,28,,,-20.6,-20.6,register,-21.0,2650.0,seal,1,M293 M123 M343 M294 M342,M293 M123 M343 M294 M342,31,,7/VIII,7/VIII/28,4.0,6.0
+651,DK 7462,DK/SD area: 5 / I / 2,house,5,I,2,,,-20.6,-20.6,register,-21.0,2651.0,seal,1,M219 M381 M252 M391,M219 M381 M252 M391,31,,5/I,5/I/2,4.0,6.0
+652,DK 9343,DK/SD area: Bet. / Bis. 1 (I) / & 2,street,,,,bet bis 1 i & 2,street,-20.6,-20.6,register,-21.0,2652.0,seal,1,M216 M254,M216 M254,31,,,,4.0,6.0
+653,DK 7825,DK/SD area: 3 / VI / 40,house,3,VI,40,,,-20.7,-20.7,register,-21.0,2653.0,seal,1,M267 M99 M48 M127 M347 M342,M267 M99 M48 M127 M347 M342,31,,3/VI,3/VI/40,4.0,6.0
+654,DK 9134,DK/SD area: 1 / IV / 61,house,1,IV,61,,,-20.7,-20.7,register,-21.0,2654.0,seal,1,M17 M293 M293 M211 M202 M267 M99 M65 M70 M336 M89 M87 M284 M342,M17 M293 M293 M211 M202 M267 M99 M65 M70 M336 M89 M87 M284 M342,31,,1/IV,1/IV/61,4.0,6.0
+655,DK 7066,DK/SD area: Bet. Bis. / 10 (III)& / 12,street,,,,bet bis 10 iii & 12,street,-20.7,-20.7,register,-21.0,2655.0,seal,1,M387 M72 M336 M89 M347 M342,M387 M72 M336 M89 M347 M342,31,,,,4.0,6.0
+656,DK 9086,DK/SD area: 1 / III / 2,house,1,III,2,,,-20.9,-20.9,register,-21.0,2656.0,seal,1,M290 M267 M402,M290 M267 M402,31,,1/III,1/III/2,4.0,6.0
+657,DK 6625,DK/SD area: Bet. / Bis. lOA / & 11,street,,,,bet bis loa & 11,street,-20.9,-20.9,register,-21.0,2657.0,seal,1,M319 M32 M99 M102 M162,M319 M32 M99 M102 M162,31,,,,4.0,6.0
+658,DK 9050,DK/SD area: 1 / III / 4,house,1,III,4,,,-21.0,-21.0,register,-21.0,2658.0,seal,1,M109 M162,M109 M162,31,,1/III,1/III/4,4.0,7.0
+659,DK 8544,DK/SD area: First / St. (21),street,,,,first st 21,street,-21.1,-21.1,register,-21.0,2659.0,seal,1,M102 M287 M342,M102 M287 M342,31,,,,4.0,7.0
+660,DK 9049,DK/SD area: 1 / III / 1,house,1,III,1,,,-21.1,-21.1,register,-21.0,2660.0,seal,1,M267 M99 M249 M162 M342 M242,M267 M99 M249 M162 M342 M242,31,,1/III,1/III/1,4.0,7.0
+661,DK 8440,DK/SD area: First / St (22),street,,,,first st 22,street,-21.2,-21.2,register,-21.0,2661.0,seal,1,M201 M277,M201 M277,31,,,,4.0,7.0
+662,DK 8478,DK/SD area: First / St. (22),street,,,,first st 22,street,-21.3,-21.3,register,-21.0,2662.0,seal,1,M3 M352 M176,M3 M352 M176,31,,,,4.0,7.0
+663,DK 8957,DK/SD area: 7 / III / 51,house,7,III,51,,,-21.3,-21.3,register,-21.0,2663.0,seal,1,M204 M245 M342,M204 M245 M342,31,,7/III,7/III/51,4.0,7.0
+664,DK 8650,DK/SD area: First / St. (6),street,,,,first st 6,street,,-21.0,m77_level,-21.0,2664.0,seal,1,M237 M330 M97 M124 M342,M237 M330 M97 M124 M342,31,,,,4.0,7.0
+665,,DK/SD area: First / St. (21),street,,,,first st 21,street,-21.4,-21.4,register,-21.0,2665.0,seal,1,M391 M97 M261 M186 M343,M391 M97 M261 M186 M343,31,,,,4.0,7.0
+666,,DK/SD area: 16,room_only,,,16,,block_unreadable,-21.6,-21.6,register,-22.0,2666.0,seal,1,M17 M162 M99 M124 M342,M17 M162 M99 M124 M342,31,,,,4.0,7.0
+667,,DK/SD area: First / St. (1),street,,,,first st 1,street,-21.7,-21.7,register,-22.0,2667.0,seal,1,M86 M59 M127 M267 | M87 M59,M86 M59 M127 M267 M87 M59,31,,,,4.0,7.0
+668,,DK/SD area: First / St. (18),street,,,,first st 18,street,-21.8,-21.8,register,,,,0,,,,,,,4.0,7.0
+669,,DK/SD area: Bet. / Bis. 11 & / 12,street,,,,bet bis 11 & 12,street,-21.8,-21.8,register,-22.0,2669.0,seal,1,M59 M121 M342,M59 M121 M342,31,,,,4.0,7.0
+670,,DK/SD area: 7 / VIII / 16,house,7,VIII,16,,,-21.9,-21.9,register,,,,0,,,,,7/VIII,7/VIII/16,4.0,7.0
+671,,DK/SD area: First / St. (21),street,,,,first st 21,street,-22.0,-22.0,register,-22.0,2671.0,seal,1,M53 M342,M53 M342,31,,,,4.0,7.0
+672,,DK/SD area: Bet. Bis. / 5 & 7 / (VI),street,,,,bet bis 5 & 7 vi,street,-22.2,-22.2,register,-22.0,2672.0,seal,1,M347 M342,M347 M342,31,,,,4.0,7.0
+673,,DK/SD area: Bet. Bis. / lOA / & 11,street,,,,bet bis loa & 11,street,-22.6,-22.6,register,-23.0,2673.0,seal,1,M326,M326,31,,,,4.0,7.0
+674,,DK/SD area: First / St. (12),street,,,,first st 12,street,-22.6,-22.6,register,-23.0,2674.0,seal,1,M267 M99 M175 M176 M211,M267 M99 M175 M176 M211,31,,,,4.0,7.0
+675,,DK/SD area: Fiist / St. (1),street,,,,fiist st 1,street,-22.8,-22.8,register,-23.0,2675.0,seal,1,M87 M19 M54 M99 M65 M59 M211,M87 M19 M54 M99 M65 M59 M211,31,,,,4.0,7.0
+676,,DK/SD area: 7 / I / 3,house,7,I,3,,,-23.4,-23.4,register,-23.0,2676.0,seal,1,M72 M149 M342,M72 M149 M342,31,,7/I,7/I/3,4.0,7.0
+677,,DK/SD area: Bet. / Bis. 10 & / 12,street,,,,bet bis 10 & 12,street,-23.6,-23.6,register,-24.0,2677.0,seal,1,M267 M99 M22 M297,M267 M99 M22 M297,31,,,,4.0,7.0
+678,,DK/SD area: Bet. / Bis. 10 & / 12,street,,,,bet bis 10 & 12,street,-23.7,-23.7,register,-24.0,2678.0,seal,1,M124 M12,M124 M12,31,,,,4.0,7.0
+679,,DK/SD area: Bet. / Bis. 10 & / 12,street,,,,bet bis 10 & 12,street,-23.7,-23.7,register,-24.0,2679.0,seal,1,M238 M267 M99 M121 M342,M238 M267 M99 M121 M342,31,,,,4.0,7.0
+680,,DK/SD area: Bet. Bis. / lOA & / 12,street,,,,bet bis loa & 12,street,-23.8,-23.8,register,-24.0,2680.0,seal,1,M267 M99 M204 M230 M342,M267 M99 M204 M230 M342,31,,,,4.0,7.0
+681,,DK/SD area: Bet. Bis. / lOA & / 12,street,,,,bet bis loa & 12,street,-24.0,-24.0,register,-24.0,2681.0,seal,1,M219 M343 M109 M59 M211,M219 M343 M109 M59 M211,31,,,,4.0,8.0
+682,,DK/SD area: lA / _ / 89,room_only,1A,,89,,house_unreadable,+24.4,-24.4,register,-24.0,2682.0,seal,1,M389 M15,M389 M15,31,,,1A/-/89,4.0,8.0
+683,,DK/SD area: Bet. Bis. / 1 & 10 / (I) j,street,,,,bet bis 1 & 10 i j,street,,-25.0,m77_level,-25.0,2683.0,seal,1,M72 M59 M342,M72 M59 M342,31,,,,5.0,8.0
+684,,DK/SD area: 7 / 1 / 24,house,7,I,24,,house_ocr_repaired,-25.4,-25.4,register,-25.0,2684.0,seal,1,M391 M99 M228 M162 M242,M391 M99 M228 M162 M242,31,,7/I,7/I/24,5.0,8.0
+685,,DK/SD area: 7 / I / 3 :,house,7,I,3,,,-26.9,-26.9,register,-27.0,2685.0,seal,1,M303 M343 M67 M51 M130 M149 M342,M303 M343 M67 M51 M130 M149 M342,31,,7/I,7/I/3,5.0,8.0
+686,,DK/SD area: Bet. Bis. / 9 (VIII) / & 10,street,,,,bet bis 9 viii & 10,street,-18.1,,,,,,0,,,,outlier,,,,
+686,,DK/SD area: Bet. / Bis. 10 & / 12 I,street,,,,bet bis 10 & 12 i,street,+14.8,,,,,,0,,,,outlier,,,,
+686,,DK/SD area: 7 / I / 3,house,7,I,3,,,-30.5,,,-31.0,2686.0,seal,1,M402 M43,M402 M43,31,outlier,7/I,7/I/3,,
+686,,DK/SD area: Bet. Bis. / 1 (IV) / & 10,street,,,,bet bis 1 iv & 10,street,+14.9,,,,,,0,,,,outlier,,,,
+687,DK 10,DK/SD area: North of / DK Area / (164),block_only,,,,,block_unreadable;house_unreadable;room_unreadable,,-16.0,m77_level,-16.0,2687.0,seal,1,M87 M162 M343 M98 M347 M342 | M55 M342 M267,M87 M162 M343 M98 M347 M342 M55 M342 M267,34,,,,3.0,5.0
+688,,,block_only,,,,,block_unreadable,,-18.0,m77_level,-18.0,2688.0,seal,1,M62 M342,M62 M342,34,,,,3.0,6.0
+689,DK 31,,block_only,,,,,block_unreadable,,-19.0,m77_level,-19.0,2689.0,seal,1,M391 M99 M175 M214 M342 | M216 M97 M402,M391 M99 M175 M214 M342 M216 M97 M402,34,,,,3.0,6.0
+690,DK 64,,block_only,,,,,block_unreadable,,-19.0,m77_level,-19.0,2690.0,seal,1,M150 M123 M51 M130 M149 M342 M150 M123 M387 M342 |,M150 M123 M51 M130 M149 M342 M150 M123 M387 M342,34,,,,3.0,6.0
+691,DK 36,,block_only,,,,,block_unreadable,,-19.0,m77_level,-19.0,2691.0,seal,1,M391 M99 M112 M197 M342,M391 M99 M112 M197 M342,34,,,,3.0,6.0
+692,DK 66,,block_only,,,,,block_unreadable,,-22.0,m77_level,-22.0,2692.0,seal,1,M391 M391 M342,M391 M391 M342,34,,,,4.0,7.0
+693,DK 2823,DK/SD area: Surface,surface,,,,,surface,,-0.0,m77_level,0.0,2693.0,seal,1,M150 M123 M301,M150 M123 M301,8,,,,0.0,0.0
+694,SD 2850,DK/SD area: 8 / — 4,room_only,8,,4,,,+7.3,,,7.0,2694.0,seal,1,M17 M303 M99 M65 M67 M342 M1,M17 M303 M99 M65 M67 M342 M1,7,outlier,,8/-/4,,
+695,SD 2735,DK/SD area: Main St- / Bet. Bis. 1 & 6,street,,,,main st bet bis 1 & 6,street,+2.1,-2.1,register,2.0,2695.0,seal,1,M205 M112 M342,M205 M112 M342,6,,,,0.0,0.0
+696,SD 2697,DK/SD area: Main St. / Bet. Bis. 1 & 6,street,,,,main st bet bis 1 & 6,street,+2.1,-2.1,register,2.0,2696.0,seal,1,M150 M123 | M100 M17 M81 M342,M150 M123 M100 M17 M81 M342,6,,,,0.0,0.0
+697,SD 3054,DK/SD area: Main St. / Bet. Bis. 1 & 6,street,,,,main st bet bis 1 & 6,street,+1.2,-1.2,register,1.0,2697.0,seal,1,M104 M169 M98 M121 M87 M342,M104 M169 M98 M121 M87 M342,6,,,,0.0,0.0
+698,SD 3058,DK/SD area: — 67,room_only,,,67,,block_unreadable,+0.1,-0.1,register,1.0,2698.0,seal,1,M104 M15,M104 M15,6,,,,0.0,0.0
+699,SD 3162,DK/SD area: Surface,surface,,,,,surface,-1.0,-1.0,register,0.0,2699.0,seal,1,M389 M342 M91,M389 M342 M91,8,,,,0.0,0.0
+700,SD 3280,DK/SD area: 6 / — 23,room_only,6,,23,,,+1.5,-1.5,register,-2.0,2700.0,seal,1,M87 M59 M72 M334 M342,M87 M59 M72 M334 M342,7,,,6/-/23,0.0,0.0
+701,SD 3192,DK/SD area: Street / Bet. Bis. 1 & 2,street,,,,street bet bis 1 & 2,street,-1.1,-1.1,register,-1.0,2701.0,seal,1,M398 M402 M99 M387 M216 M254,M398 M402 M99 M387 M216 M254,6,,,,0.0,0.0
+702,SD 3226,DK/SD area: 6 / — 13,room_only,6,,13,,,-0.8,-0.8,register,-1.0,2702.0,seal,1,M155 M402 M3 M176,M155 M402 M3 M176,7,,,6/-/13,0.0,0.0
+703,SD 3130,DK/SD area: 10 / — 7,room_only,10,,7,,,-1.1,-1.1,register,,,,0,,,,,,10/-/7,0.0,0.0
+704,SD 3295,DK/SD area: 6 / — 30,room_only,6,,30,,,-0.7,-0.7,register,-1.0,2704.0,seal,1,M224,M224,7,,,6/-/30,0.0,0.0

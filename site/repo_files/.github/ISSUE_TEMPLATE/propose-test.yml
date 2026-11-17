@@ -1,0 +1,71 @@
+name: Propose a test or a red-team attack
+description: Propose a new test, or an attack on an existing result. The pass and fail marks are fixed before anything runs.
+title: "Test: "
+labels: ["test proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every result toward the goal, to {{GOAL_LC}}, has to survive tests like the one you are proposing. A broken result counts as a contribution.
+
+        Fill this in before you run anything. Once a maintainer agrees the test is fair, you write the pre-registration in `docs/prereg/`, hash it, then run it.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of proposal
+      options:
+        - Attack an existing result (red team)
+        - A new test
+    validations:
+      required: true
+  - type: input
+    id: target
+    attributes:
+      label: The result or idea under test
+      description: For an attack, name the finding and link its RESULTS.md.
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: One or two sentences. For an attack, say what you think is wrong (a confound, a leak between splits, a weak null, a mislabelled group).
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Test and data
+      description: The statistic, the texts it runs on (working or held-out split, which sites), and the counting unit (distinct texts).
+    validations:
+      required: true
+  - type: textarea
+    id: null
+    attributes:
+      label: Null or comparison
+      description: What the result is compared against, and what that comparison keeps fixed (sign frequencies, text lengths, sites).
+    validations:
+      required: true
+  - type: textarea
+    id: marks
+    attributes:
+      label: Pass and fail marks
+      description: The exact numbers that would count as supported, refuted or inconclusive. Include how many tests this adds.
+    validations:
+      required: true
+  - type: textarea
+    id: planted
+    attributes:
+      label: Planted control
+      description: How you will show the test can find a known answer of the expected size at this sample size. Write "not applicable" with a reason if it makes no claim about sounds, language or grammar.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have not yet run this test on held-out texts.
+          required: true
+        - label: I will report the result whichever way it goes.
+          required: true

@@ -1,0 +1,21 @@
+{
+  "experiment": "sealing_hunt (Fable 5.2 plan 2, item E6)",
+  "date": "2026-11-15",
+  "verdict": "null: no non-cuneiform seal impression found on any Meluhha tablet",
+  "cdli_dump_texts_scanned": 135198,
+  "cdli_meluhha_hits_all_periods": 229,
+  "cdli_meluhha_hits_3rd_early_2nd_mill": 145,
+  "cdli_meluhha_sealed": 9,
+  "bdtns_meluhha_lines": 72,
+  "bdtns_meluhha_sealed_texts": 12,
+  "bdtns_texts_not_in_cdli_dump": ["UCTIS 099", "P119189 (false hit mu-luh-a)", "P137543 (false hit)", "P361994", "P516138", "P516366"],
+  "seal_legends_containing_meluhha": 0,
+  "sealed_meluhha_texts_with_readable_legend_all_standard_cylinder": 10,
+  "sealed_meluhha_texts_with_unread_seal": ["P516366 (illegible)", "P453801 (not given)"],
+  "images_inspected": ["P235705", "P492732", "P135969", "P306518", "P283682", "lineart P116633", "lineart P137152"],
+  "non_cylinder_impressions_seen": 0,
+  "stamp_notes_in_cdli_atf_3rd_early_2nd_mill_tablets": 0,
+  "positive_control": "YBC 5447 (P306518), Gulf stamp seal on a Gungunum 10 tablet; CDLI ATF says only '@seal 1 $ (not given)', so ATF screening cannot find stamp impressions (sensitivity about 0)",
+  "ur_lamma_dumu_meluhha_receipts_identified": 0,
+  "girsu_kiszib_ur_lamma_texts_checked": 173
+}

@@ -1,0 +1,48 @@
+{
+ "word_tokens": 3487,
+ "word_types": 1383,
+ "types_matching_MW_stem_or_ending": 1367,
+ "share": 0.988,
+ "a_share_of_vowels": 0.954,
+ "vowel_counts": {
+  "a": 5906,
+  "A": 1046,
+  "I": 124,
+  "i": 76,
+  "u": 45,
+  "e": 39,
+  "f": 21,
+  "E": 18,
+  "U": 8,
+  "o": 6,
+  "O": 1
+ },
+ "consonants_per_word_type": {
+  "0": 6,
+  "1": 92,
+  "2": 490,
+  "3": 563,
+  "4": 187,
+  "5": 36,
+  "6": 8,
+  "9": 1
+ },
+ "unmatched_examples": [
+  "AmanntrAma",
+  "aCinna",
+  "aSlezam",
+  "cAnana",
+  "carmasamam",
+  "cazaRavAn",
+  "damanavatam",
+  "mammana;sakzaRa",
+  "raMraRaH",
+  "raRa;jaWala",
+  "saBAsakzaM",
+  "saMmanaH",
+  "upyavatAm",
+  "vaNkaScara",
+  "vaSamayAn",
+  "vajatama"
+ ]
+}

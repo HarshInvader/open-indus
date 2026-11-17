@@ -1,0 +1,292 @@
+{
+ "n_foreign": 40,
+ "comparator_sizes": {
+  "C1 Ur III seal legends": 4480,
+  "C2 Akkadian names": 2146,
+  "C3 Amorite names": 103,
+  "C4 Sumerian names": 1490,
+  "C5 Indus home seals": 1508
+ },
+ "foreign_length_dist": {
+  "2": 9,
+  "3": 7,
+  "4": 7,
+  "5": 10,
+  "6": 2,
+  "7": 2,
+  "8": 3
+ },
+ "power": {
+  "n=40": {
+   "C1 Ur III seal legends": 0.9,
+   "C2 Akkadian names": 0.814,
+   "C3 Amorite names": 0.998,
+   "C4 Sumerian names": 0.872,
+   "C5 Indus home seals": 0.864
+  },
+  "n=40_confusion": {
+   "C1 Ur III seal legends": {
+    "C2 Akkadian names": 0.038,
+    "C1 Ur III seal legends": 0.9,
+    "C4 Sumerian names": 0.062
+   },
+   "C2 Akkadian names": {
+    "C2 Akkadian names": 0.814,
+    "C1 Ur III seal legends": 0.1,
+    "C5 Indus home seals": 0.074,
+    "C4 Sumerian names": 0.012
+   },
+   "C3 Amorite names": {
+    "C3 Amorite names": 0.998,
+    "C2 Akkadian names": 0.002
+   },
+   "C4 Sumerian names": {
+    "C4 Sumerian names": 0.872,
+    "C1 Ur III seal legends": 0.108,
+    "C2 Akkadian names": 0.018,
+    "C5 Indus home seals": 0.002
+   },
+   "C5 Indus home seals": {
+    "C5 Indus home seals": 0.864,
+    "C2 Akkadian names": 0.134,
+    "C1 Ur III seal legends": 0.002
+   }
+  },
+  "n=30": {
+   "C1 Ur III seal legends": 0.85,
+   "C2 Akkadian names": 0.74,
+   "C3 Amorite names": 0.992,
+   "C4 Sumerian names": 0.824,
+   "C5 Indus home seals": 0.79
+  },
+  "n=30_confusion": {
+   "C1 Ur III seal legends": {
+    "C1 Ur III seal legends": 0.85,
+    "C2 Akkadian names": 0.05,
+    "C4 Sumerian names": 0.098,
+    "C3 Amorite names": 0.002
+   },
+   "C2 Akkadian names": {
+    "C2 Akkadian names": 0.74,
+    "C5 Indus home seals": 0.164,
+    "C4 Sumerian names": 0.012,
+    "C1 Ur III seal legends": 0.084
+   },
+   "C3 Amorite names": {
+    "C3 Amorite names": 0.992,
+    "C2 Akkadian names": 0.004,
+    "C1 Ur III seal legends": 0.004
+   },
+   "C4 Sumerian names": {
+    "C4 Sumerian names": 0.824,
+    "C2 Akkadian names": 0.028,
+    "C1 Ur III seal legends": 0.144,
+    "C5 Indus home seals": 0.004
+   },
+   "C5 Indus home seals": {
+    "C5 Indus home seals": 0.79,
+    "C2 Akkadian names": 0.21
+   }
+  }
+ },
+ "foreign_stats": {
+  "S1 hapax-text share": 0.2994011976047904,
+  "S2 texts with repeat": 0.125,
+  "S3 shared final": 0.55,
+  "S4 shared initial": 0.375,
+  "S5 final-initial": 0.17500000000000004
+ },
+ "comparisons": {
+  "C1 Ur III seal legends": {
+   "mean": {
+    "S1 hapax-text share": 0.289,
+    "S2 texts with repeat": 0.175,
+    "S3 shared final": 0.465,
+    "S4 shared initial": 0.702,
+    "S5 final-initial": -0.237
+   },
+   "p_two_sided": {
+    "S1 hapax-text share": 0.834,
+    "S2 texts with repeat": 0.549,
+    "S3 shared final": 0.44,
+    "S4 shared initial": 0.0,
+    "S5 final-initial": 0.0
+   },
+   "rejected(any S1-S4 p<0.0125)": true
+  },
+  "C2 Akkadian names": {
+   "mean": {
+    "S1 hapax-text share": 0.283,
+    "S2 texts with repeat": 0.108,
+    "S3 shared final": 0.586,
+    "S4 shared initial": 0.517,
+    "S5 final-initial": 0.069
+   },
+   "p_two_sided": {
+    "S1 hapax-text share": 0.718,
+    "S2 texts with repeat": 0.889,
+    "S3 shared final": 0.761,
+    "S4 shared initial": 0.139,
+    "S5 final-initial": 0.402
+   },
+   "rejected(any S1-S4 p<0.0125)": false
+  },
+  "C3 Amorite names": {
+   "mean": {
+    "S1 hapax-text share": 0.14,
+    "S2 texts with repeat": 0.117,
+    "S3 shared final": 0.848,
+    "S4 shared initial": 0.863,
+    "S5 final-initial": -0.015
+   },
+   "p_two_sided": {
+    "S1 hapax-text share": 0.0,
+    "S2 texts with repeat": 1.0,
+    "S3 shared final": 0.0,
+    "S4 shared initial": 0.0,
+    "S5 final-initial": 0.005
+   },
+   "rejected(any S1-S4 p<0.0125)": true
+  },
+  "C4 Sumerian names": {
+   "mean": {
+    "S1 hapax-text share": 0.335,
+    "S2 texts with repeat": 0.073,
+    "S3 shared final": 0.437,
+    "S4 shared initial": 0.777,
+    "S5 final-initial": -0.34
+   },
+   "p_two_sided": {
+    "S1 hapax-text share": 0.421,
+    "S2 texts with repeat": 0.317,
+    "S3 shared final": 0.279,
+    "S4 shared initial": 0.0,
+    "S5 final-initial": 0.001
+   },
+   "rejected(any S1-S4 p<0.0125)": true
+  },
+  "C5 Indus home seals": {
+   "mean": {
+    "S1 hapax-text share": 0.309,
+    "S2 texts with repeat": 0.038,
+    "S3 shared final": 0.619,
+    "S4 shared initial": 0.374,
+    "S5 final-initial": 0.244
+   },
+   "p_two_sided": {
+    "S1 hapax-text share": 0.872,
+    "S2 texts with repeat": 0.028,
+    "S3 shared final": 0.461,
+    "S4 shared initial": 1.0,
+    "S5 final-initial": 0.633
+   },
+   "rejected(any S1-S4 p<0.0125)": false
+  }
+ },
+ "D": {
+  "C1 Ur III seal legends": 4.76938767685732,
+  "C2 Akkadian names": 1.7755924637600815,
+  "C3 Amorite names": 12.869065771786573,
+  "C4 Sumerian names": 6.398632911646021,
+  "C5 Indus home seals": 3.081994547790464
+ },
+ "nearest": "C2 Akkadian names",
+ "assignment": "C2 Akkadian names",
+ "position_profile_foreign": {
+  "other": {
+   "initial": 24,
+   "interior": 42,
+   "final": 26
+  },
+  "person": {
+   "final": 5,
+   "initial": 11,
+   "interior": 16
+  },
+  "number": {
+   "interior": 29,
+   "final": 9,
+   "initial": 5
+  }
+ },
+ "position_profile_home": {
+  "number": {
+   "initial": 219,
+   "interior": 965,
+   "final": 69
+  },
+  "other": {
+   "interior": 2788,
+   "final": 1253,
+   "initial": 1187
+  },
+  "person": {
+   "interior": 219,
+   "final": 186,
+   "initial": 102
+  }
+ },
+ "foreign_final_signs_recurring": {
+  "W740": {
+   "n_final_foreign": 7,
+   "home_final_share": 0.756,
+   "class": "other"
+  },
+  "W002": {
+   "n_final_foreign": 3,
+   "home_final_share": 0.033,
+   "class": "number"
+  },
+  "W390": {
+   "n_final_foreign": 3,
+   "home_final_share": 0.422,
+   "class": "other"
+  },
+  "W090": {
+   "n_final_foreign": 3,
+   "home_final_share": 0.714,
+   "class": "person"
+  },
+  "W405": {
+   "n_final_foreign": 2,
+   "home_final_share": 0.462,
+   "class": "other"
+  },
+  "W220": {
+   "n_final_foreign": 2,
+   "home_final_share": 0.101,
+   "class": "other"
+  },
+  "W033": {
+   "n_final_foreign": 2,
+   "home_final_share": 0.065,
+   "class": "number"
+  }
+ },
+ "foreign_initial_signs_recurring": {
+  "W090": {
+   "n_initial_foreign": 3,
+   "class": "person"
+  },
+  "W350": {
+   "n_initial_foreign": 3,
+   "class": "other"
+  },
+  "W091": {
+   "n_initial_foreign": 3,
+   "class": "person"
+  },
+  "W415": {
+   "n_initial_foreign": 2,
+   "class": "other"
+  },
+  "W095": {
+   "n_initial_foreign": 2,
+   "class": "person"
+  },
+  "W220": {
+   "n_initial_foreign": 2,
+   "class": "other"
+  }
+ }
+}

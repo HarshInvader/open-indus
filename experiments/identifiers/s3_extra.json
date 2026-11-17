@@ -1,0 +1,413 @@
+{
+ "indus_text": {
+  "R_vs_MD": [
+   1.3995593042799392,
+   [
+    0.8129649393705335,
+    1.6515119564738916
+   ]
+  ],
+  "R_all": [
+   0.8901598430188508,
+   [
+    0.462272967045294,
+    1.1381454830810211
+   ]
+  ]
+ },
+ "indus_core": {
+  "R_vs_MD": [
+   1.1924033680330282,
+   [
+    0.9322470158385198,
+    1.348281599853916
+   ]
+  ],
+  "R_all": [
+   1.0193667844328729,
+   [
+    0.7169179292905814,
+    1.135911655818507
+   ]
+  ]
+ },
+ "indus_frame": {
+  "R_vs_MD": [
+   1.0784000613089813,
+   [
+    0.9840759253780158,
+    1.119370966606655
+   ]
+  ],
+  "R_all": [
+   0.9470016047631029,
+   [
+    0.859614245193429,
+    0.9832040574340906
+   ]
+  ]
+ },
+ "ur3_seal": {
+  "R_all": [
+   0.18417025270695053,
+   [
+    0.10428907182443563,
+    0.1886210807898715
+   ]
+  ]
+ },
+ "ur3_name": {
+  "R_all": [
+   0.5080216602580611,
+   [
+    0.4373515206128798,
+    0.4840592898881497
+   ]
+  ]
+ },
+ "by_length": [
+  {
+   "length": 1,
+   "objects": 42,
+   "share_on_repeated": 0.21428571428571427,
+   "new_rate": 0.782245348470514,
+   "repeated_multisite": 4,
+   "repeated": 4
+  },
+  {
+   "length": 2,
+   "objects": 229,
+   "share_on_repeated": 0.44541484716157204,
+   "new_rate": 0.5538201022758146,
+   "repeated_multisite": 26,
+   "repeated": 36
+  },
+  {
+   "length": 3,
+   "objects": 236,
+   "share_on_repeated": 0.1440677966101695,
+   "new_rate": 0.8556438043826655,
+   "repeated_multisite": 8,
+   "repeated": 13
+  },
+  {
+   "length": 4,
+   "objects": 239,
+   "share_on_repeated": 0.1087866108786611,
+   "new_rate": 0.8910376212550717,
+   "repeated_multisite": 5,
+   "repeated": 10
+  },
+  {
+   "length": 5,
+   "objects": 298,
+   "share_on_repeated": 0.026845637583892617,
+   "new_rate": 0.9730639814588142,
+   "repeated_multisite": 2,
+   "repeated": 4
+  },
+  {
+   "length": 6,
+   "objects": 207,
+   "share_on_repeated": 0.0,
+   "new_rate": 0.9999528724256562,
+   "repeated_multisite": 0,
+   "repeated": 0
+  },
+  {
+   "length": 7,
+   "objects": 148,
+   "share_on_repeated": 0.013513513513513514,
+   "new_rate": 0.9863945663889757,
+   "repeated_multisite": 0,
+   "repeated": 1
+  },
+  {
+   "length": 8,
+   "objects": 67,
+   "share_on_repeated": 0.0,
+   "new_rate": 0.9995410738871042,
+   "repeated_multisite": 0,
+   "repeated": 0
+  }
+ ],
+ "top_repeated": [
+  [
+   "W003 W156",
+   7,
+   [
+    "Harappa",
+    "Lothal",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W016 W390",
+   6,
+   [
+    "Harappa",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W061 W740",
+   5,
+   [
+    "Banawali",
+    "Harappa",
+    "Lakhanjo-daro",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W003 W390",
+   5,
+   [
+    "Harappa",
+    "Kalibangan",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W031 W156",
+   5,
+   [
+    "Harappa",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W817 W002",
+   4,
+   [
+    "Banawali",
+    "Kalibangan"
+   ]
+  ],
+  [
+   "W820 W002 W003 W390",
+   4,
+   [
+    "Harappa",
+    "Mohenjo-daro",
+    "Nausharo"
+   ]
+  ],
+  [
+   "W013 W840 W740",
+   4,
+   [
+    "Harappa",
+    "Lothal",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W468 W806 W154",
+   4,
+   [
+    "Harappa",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W005 W900 W740",
+   4,
+   [
+    "Harappa",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W004 W390",
+   3,
+   [
+    "Banawali",
+    "Kalibangan",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W803 W740",
+   3,
+   [
+    "Banawali",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W817 W002 W003 W390",
+   3,
+   [
+    "Chanhu-daro",
+    "Harappa",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W235 W482 W740",
+   3,
+   [
+    "Chanhu-daro",
+    "Lothal",
+    "Mohenjo-daro"
+   ]
+  ],
+  [
+   "W740",
+   3,
+   [
+    "Bhirrana",
+    "Daimabad",
+    "Mohenjo-daro"
+   ]
+  ]
+ ],
+ "repeated_multisite": {
+  "obs": 0.6617647058823529,
+  "null_mean": 0.6679191176470588,
+  "p_local": 0.49725137431284355
+ },
+ "matched_m100": [
+  {
+   "ref": "Indus",
+   "site": "Mohenjo-daro",
+   "kind": "text",
+   "n": 970,
+   "new_rate_m": 0.988667080387233
+  },
+  {
+   "ref": "Indus",
+   "site": "Mohenjo-daro",
+   "kind": "core",
+   "n": 970,
+   "new_rate_m": 0.9188278997709107
+  },
+  {
+   "ref": "Indus",
+   "site": "Mohenjo-daro",
+   "kind": "frame",
+   "n": 970,
+   "new_rate_m": 0.5257417513732175
+  },
+  {
+   "ref": "Indus",
+   "site": "Harappa",
+   "kind": "text",
+   "n": 268,
+   "new_rate_m": 0.9738585311173287
+  },
+  {
+   "ref": "Indus",
+   "site": "Harappa",
+   "kind": "core",
+   "n": 268,
+   "new_rate_m": 0.9143967658222099
+  },
+  {
+   "ref": "Indus",
+   "site": "Harappa",
+   "kind": "frame",
+   "n": 268,
+   "new_rate_m": 0.45927737531900936
+  },
+  {
+   "ref": "UrIII",
+   "site": "Umma",
+   "kind": "legend",
+   "n": 1330,
+   "new_rate_m": 0.9954320532355421
+  },
+  {
+   "ref": "UrIII",
+   "site": "Umma",
+   "kind": "name line",
+   "n": 1261,
+   "new_rate_m": 0.6685709925178027
+  },
+  {
+   "ref": "UrIII",
+   "site": "Girsu",
+   "kind": "legend",
+   "n": 1254,
+   "new_rate_m": 0.9944994436500653
+  },
+  {
+   "ref": "UrIII",
+   "site": "Girsu",
+   "kind": "name line",
+   "n": 1195,
+   "new_rate_m": 0.5763950516903475
+  },
+  {
+   "ref": "UrIII",
+   "site": "Puzri\u0161-Dagan",
+   "kind": "legend",
+   "n": 411,
+   "new_rate_m": 0.9832195574646488
+  },
+  {
+   "ref": "UrIII",
+   "site": "Puzri\u0161-Dagan",
+   "kind": "name line",
+   "n": 227,
+   "new_rate_m": 0.7208524711569554
+  },
+  {
+   "ref": "UrIII",
+   "site": "Nippur",
+   "kind": "legend",
+   "n": 563,
+   "new_rate_m": 0.9981226651833267
+  },
+  {
+   "ref": "UrIII",
+   "site": "Nippur",
+   "kind": "name line",
+   "n": 503,
+   "new_rate_m": 0.741398558756783
+  },
+  {
+   "ref": "UrIII",
+   "site": "Gar\u0161ana",
+   "kind": "legend",
+   "n": 118,
+   "new_rate_m": 0.9856584093872358
+  },
+  {
+   "ref": "UrIII",
+   "site": "Gar\u0161ana",
+   "kind": "name line",
+   "n": 105,
+   "new_rate_m": 0.5376546724842798
+  },
+  {
+   "ref": "UrIII",
+   "site": "Ur",
+   "kind": "legend",
+   "n": 226,
+   "new_rate_m": 0.9883185840707954
+  },
+  {
+   "ref": "UrIII",
+   "site": "Ur",
+   "kind": "name line",
+   "n": 194,
+   "new_rate_m": 0.7295896389955666
+  },
+  {
+   "ref": "UrIII",
+   "site": "Irisagrig",
+   "kind": "legend",
+   "n": 185,
+   "new_rate_m": 0.976733254994123
+  },
+  {
+   "ref": "UrIII",
+   "site": "Irisagrig",
+   "kind": "name line",
+   "n": 156,
+   "new_rate_m": 0.7479138208798644
+  }
+ ]
+}

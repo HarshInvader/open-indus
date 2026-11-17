@@ -1,0 +1,185 @@
+[
+ {
+  "id": "C211",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M96",
+    "M14",
+    "M284"
+   ]
+  ],
+  "conf": [
+   [
+    1,
+    1,
+    1
+   ]
+  ],
+  "notes": "left numeral rendered as horizontal bars; diamond with lattice"
+ },
+ {
+  "id": "C369",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M86",
+    "?",
+    "?",
+    "M86",
+    "M150"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    1,
+    1
+   ]
+  ],
+  "notes": "blurry; zigzag group split uncertain; leftmost bar doubtful"
+ },
+ {
+  "id": "C492",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M247",
+    "M247",
+    "M25",
+    "?",
+    "M87",
+    "?",
+    "M384",
+    "M178"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ]
+  ],
+  "notes": "grid signs are 2x4 cells, not on chart exactly; 6th sign complex"
+ },
+ {
+  "id": "C681",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 2,
+  "lines": [
+   [
+    "?",
+    "M141",
+    "M149",
+    "M138",
+    "M100",
+    "M267"
+   ],
+   [
+    "M144"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    0
+   ]
+  ],
+  "notes": "worn; second line is one sign below the middle, hard to read"
+ },
+ {
+  "id": "C734",
+  "face": "unsure",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "?",
+    "?",
+    "M188"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "deep carving; large block with three windows and prong sign; counts uncertain"
+ },
+ {
+  "id": "C941",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M170",
+    "M216",
+    "M102",
+    "M335",
+    "?",
+    "M173",
+    "M123",
+    "M216"
+   ]
+  ],
+  "conf": [
+   [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "notes": "clear photo, many sign identities uncertain; numeral+U may be one sign"
+ },
+ {
+  "id": "C970",
+  "face": "impression",
+  "unreadable": false,
+  "n_lines": 1,
+  "lines": [
+   [
+    "M358",
+    "M293",
+    "M185"
+   ]
+  ],
+  "conf": [
+   [
+    1,
+    0,
+    0
+   ]
+  ],
+  "notes": "clear three signs"
+ }
+]

@@ -1,0 +1,269 @@
+{
+ "indus_frame_token_share": 0.3828810584582152,
+ "indus": {
+  "Harappa": {
+   "text": 0.9738585311173287,
+   "core": 0.9143967658222099,
+   "n": 268
+  },
+  "Mohenjo-daro": {
+   "text": 0.988667080387233,
+   "core": 0.9188278997709107,
+   "n": 970
+  }
+ },
+ "ur3_frame_words": {
+  "n": 6,
+  "share": 0.38299511944515796,
+  "top": [
+   "dumu",
+   "dub-sar",
+   "lugal",
+   "arad2-zu",
+   "kal-ga",
+   "uri5{ki}-ma"
+  ]
+ },
+ "ur3": {
+  "Umma": {
+   "legend": 0.9954320532355421,
+   "core_same_recipe": 0.9888449402113253,
+   "core_same_recipe_nonroyal": 0.9879590817569153,
+   "name_line": 0.6685709925178027,
+   "n": 1330
+  },
+  "Girsu": {
+   "legend": 0.9944994436500653,
+   "core_same_recipe": 0.9917715362809922,
+   "core_same_recipe_nonroyal": 0.9910886305993317,
+   "name_line": 0.5763950516903475,
+   "n": 1254
+  },
+  "Puzri\u0161-Dagan": {
+   "legend": 0.9832195574646488,
+   "core_same_recipe": 0.9773445352107949,
+   "core_same_recipe_nonroyal": 0.9691240107598136,
+   "name_line": 0.7208524711569554,
+   "n": 411
+  },
+  "Nippur": {
+   "legend": 0.9981226651833267,
+   "core_same_recipe": 0.995619552094439,
+   "core_same_recipe_nonroyal": 0.9945110215202965,
+   "name_line": 0.741398558756783,
+   "n": 563
+  },
+  "Gar\u0161ana": {
+   "legend": 0.9856584093872358,
+   "core_same_recipe": 0.9713168187744586,
+   "core_same_recipe_nonroyal": 0.9637362637362716,
+   "name_line": 0.5376546724842798,
+   "n": 118
+  },
+  "Ur": {
+   "legend": 0.9883185840707954,
+   "core_same_recipe": 0.9883185840707954,
+   "core_same_recipe_nonroyal": 0.9894236418994672,
+   "name_line": 0.7295896389955666,
+   "n": 226
+  },
+  "Irisagrig": {
+   "legend": 0.976733254994123,
+   "core_same_recipe": 0.9592831962397188,
+   "core_same_recipe_nonroyal": 0.9508684863523577,
+   "name_line": 0.7479138208798644,
+   "n": 185
+  }
+ },
+ "C2b": [
+  {
+   "len": 0,
+   "indus_pooled_n": 35,
+   "indus_pooled": NaN,
+   "indus_md_n": 20,
+   "indus_md": NaN,
+   "ur3_pooled_n": 0,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 0,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 1,
+   "indus_pooled_n": 308,
+   "indus_pooled": 0.4522245106888285,
+   "indus_md_n": 190,
+   "indus_md": 0.46711094904408623,
+   "ur3_pooled_n": 4,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 2,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 2,
+   "indus_pooled_n": 428,
+   "indus_pooled": 0.7453921118724961,
+   "indus_md_n": 257,
+   "indus_md": 0.770120303199981,
+   "ur3_pooled_n": 401,
+   "ur3_pooled": 0.43250680707264677,
+   "ur3_umma_n": 129,
+   "ur3_umma": 0.3901865245863576
+  },
+  {
+   "len": 3,
+   "indus_pooled_n": 291,
+   "indus_pooled": 0.9718855978852504,
+   "indus_md_n": 187,
+   "indus_md": 0.9703677111646786,
+   "ur3_pooled_n": 1682,
+   "ur3_pooled": 0.590772092504296,
+   "ur3_umma_n": 666,
+   "ur3_umma": 0.48489977568882003
+  },
+  {
+   "len": 4,
+   "indus_pooled_n": 233,
+   "indus_pooled": 0.9926742637265055,
+   "indus_md_n": 151,
+   "indus_md": 0.991258278145697,
+   "ur3_pooled_n": 1098,
+   "ur3_pooled": 0.5681701258395693,
+   "ur3_umma_n": 359,
+   "ur3_umma": 0.4084941172294606
+  },
+  {
+   "len": 5,
+   "indus_pooled_n": 121,
+   "indus_pooled": 1.0000000000000127,
+   "indus_md_n": 81,
+   "indus_md": NaN,
+   "ur3_pooled_n": 362,
+   "ur3_pooled": 0.4715493192482356,
+   "ur3_umma_n": 91,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 6,
+   "indus_pooled_n": 69,
+   "indus_pooled": NaN,
+   "indus_md_n": 37,
+   "indus_md": NaN,
+   "ur3_pooled_n": 82,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 14,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 7,
+   "indus_pooled_n": 45,
+   "indus_pooled": NaN,
+   "indus_md_n": 28,
+   "indus_md": NaN,
+   "ur3_pooled_n": 6,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 0,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 8,
+   "indus_pooled_n": 17,
+   "indus_pooled": NaN,
+   "indus_md_n": 9,
+   "indus_md": NaN,
+   "ur3_pooled_n": 3,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 0,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 9,
+   "indus_pooled_n": 6,
+   "indus_pooled": NaN,
+   "indus_md_n": 5,
+   "indus_md": NaN,
+   "ur3_pooled_n": 0,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 0,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 10,
+   "indus_pooled_n": 1,
+   "indus_pooled": NaN,
+   "indus_md_n": 1,
+   "indus_md": NaN,
+   "ur3_pooled_n": 3,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 0,
+   "ur3_umma": NaN
+  },
+  {
+   "len": 11,
+   "indus_pooled_n": 5,
+   "indus_pooled": NaN,
+   "indus_md_n": 3,
+   "indus_md": NaN,
+   "ur3_pooled_n": 0,
+   "ur3_pooled": NaN,
+   "ur3_umma_n": 0,
+   "ur3_umma": NaN
+  }
+ ],
+ "indus_core_len_mean": 2.930128205128205,
+ "ur3_nameline_len_mean_signs": 3.472123043120022,
+ "inventory": {
+  "indus_core_types": 509,
+  "ur3_name_sign_types": 443,
+  "indus_core_entropy": 7.114890958131591,
+  "ur3_name_entropy": 6.636542572599152,
+  "mapped_types": 364
+ },
+ "C2c": {
+  "Umma": {
+   "name_line": 0.6685709925178027,
+   "name_line_signs": 0.6685709925178027,
+   "name_line_mapped": 0.6685709925178027,
+   "core_same_recipe_mapped": 0.9879590817569153
+  },
+  "Girsu": {
+   "name_line": 0.5763950516903475,
+   "name_line_signs": 0.5763950516903475,
+   "name_line_mapped": 0.5763950516903475,
+   "core_same_recipe_mapped": 0.9910886305993317
+  },
+  "Puzri\u0161-Dagan": {
+   "name_line": 0.7208524711569554,
+   "name_line_signs": 0.7208524711569554,
+   "name_line_mapped": 0.7208524711569554,
+   "core_same_recipe_mapped": 0.9691240107598136
+  },
+  "Nippur": {
+   "name_line": 0.741398558756783,
+   "name_line_signs": 0.741398558756783,
+   "name_line_mapped": 0.741398558756783,
+   "core_same_recipe_mapped": 0.9945110215202965
+  },
+  "Gar\u0161ana": {
+   "name_line": 0.5376546724842798,
+   "name_line_signs": 0.5376546724842798,
+   "name_line_mapped": 0.5376546724842798,
+   "core_same_recipe_mapped": 0.9637362637362716
+  },
+  "Ur": {
+   "name_line": 0.7295896389955666,
+   "name_line_signs": 0.7295896389955666,
+   "name_line_mapped": 0.7295896389955666,
+   "core_same_recipe_mapped": 0.9894236418994672
+  },
+  "Irisagrig": {
+   "name_line": 0.7479138208798644,
+   "name_line_signs": 0.7479138208798644,
+   "name_line_mapped": 0.7479138208798644,
+   "core_same_recipe_mapped": 0.9508684863523577
+  }
+ },
+ "indus_single_slot_core": {
+  "Harappa": 0.8586097618355659,
+  "Mohenjo-daro": 0.8867075021141556
+ }
+}

@@ -1,0 +1,576 @@
+{
+ "summary": {
+  "n_objects": 54,
+  "n_scored": 38,
+  "n_non_indus": 9,
+  "expected_false": 1.9000000000000001,
+  "binom_p": 8.45785335728236e-05,
+  "n_non_indus_bigram": 12,
+  "n_native_ref": 1353,
+  "by_shape": {
+   "round/cylinder": "7/23",
+   "square": "2/7",
+   "other": "0/8"
+  }
+ },
+ "per_text": [
+  {
+   "id": "UR-01",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 5,
+   "grammar_bits": 7.75,
+   "grammar_p": 0.019,
+   "bigram_bits": 7.659,
+   "bigram_p": 0.0332,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "UR-02",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 6,
+   "grammar_bits": 7.178,
+   "grammar_p": 0.0892,
+   "bigram_bits": 7.602,
+   "bigram_p": 0.027,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "UR-03",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "round Gulf (fragment)",
+   "conf": "confirmed",
+   "n": 2,
+   "grammar_bits": 5.952,
+   "grammar_p": 0.3592,
+   "bigram_bits": 4.672,
+   "bigram_p": 0.6505,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UR-04",
+   "scored": false
+  },
+  {
+   "id": "UR-05",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "round",
+   "conf": "corpus only",
+   "n": 3,
+   "grammar_bits": 8.346,
+   "grammar_p": 0.0769,
+   "bigram_bits": 8.504,
+   "bigram_p": 0.0769,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "UR-10",
+   "scored": false
+  },
+  {
+   "id": "UR-06",
+   "scored": false
+  },
+  {
+   "id": "UR-07",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "round Gulf",
+   "conf": "corpus only",
+   "n": 5,
+   "grammar_bits": 6.593,
+   "grammar_p": 0.2391,
+   "bigram_bits": 6.432,
+   "bigram_p": 0.1522,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UR-09",
+   "scored": false
+  },
+  {
+   "id": "KISH-01",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "square",
+   "conf": "corpus only",
+   "n": 2,
+   "grammar_bits": 7.898,
+   "grammar_p": 0.1667,
+   "bigram_bits": 6.538,
+   "bigram_p": 0.3333,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "KISH-02",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "square",
+   "conf": "corpus only",
+   "n": 8,
+   "grammar_bits": 4.699,
+   "grammar_p": 0.7649,
+   "bigram_bits": 4.152,
+   "bigram_p": 0.8108,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UMMA-01",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "clay sealing (tag)",
+   "conf": "corpus only",
+   "n": 5,
+   "grammar_bits": 5.948,
+   "grammar_p": 0.2512,
+   "bigram_bits": 5.739,
+   "bigram_p": 0.2844,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UMMA-02",
+   "scored": false
+  },
+  {
+   "id": "GIRSU-01",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 4,
+   "grammar_bits": 6.137,
+   "grammar_p": 0.339,
+   "bigram_bits": 6.569,
+   "bigram_p": 0.2203,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "GIRSU-02",
+   "scored": true,
+   "region": "Mesopotamia",
+   "shape": "square",
+   "conf": "corpus only",
+   "n": 4,
+   "grammar_bits": 8.949,
+   "grammar_p": 0.0339,
+   "bigram_bits": 9.249,
+   "bigram_p": 0.0169,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "NIPPUR-01",
+   "scored": false
+  },
+  {
+   "id": "ASMAR-01",
+   "scored": false
+  },
+  {
+   "id": "BABYLON-01",
+   "scored": false
+  },
+  {
+   "id": "SUSA-01",
+   "scored": true,
+   "region": "Iran",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 5,
+   "grammar_bits": 8.092,
+   "grammar_p": 0.0652,
+   "bigram_bits": 8.462,
+   "bigram_p": 0.0435,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "SUSA-02",
+   "scored": true,
+   "region": "Iran",
+   "shape": "cylinder",
+   "conf": "corpus only",
+   "n": 8,
+   "grammar_bits": 8.364,
+   "grammar_p": 0.0108,
+   "bigram_bits": 8.342,
+   "bigram_p": 0.0081,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "LURISTAN-01",
+   "scored": true,
+   "region": "Iran",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 4,
+   "grammar_bits": 7.618,
+   "grammar_p": 0.0533,
+   "bigram_bits": 7.976,
+   "bigram_p": 0.04,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "YAHYA-01",
+   "scored": true,
+   "region": "Iran",
+   "shape": "seal impression on sherd",
+   "conf": "corpus only",
+   "n": 2,
+   "grammar_bits": 7.003,
+   "grammar_p": 0.3222,
+   "bigram_bits": 6.99,
+   "bigram_p": 0.2889,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "JALALABAD-01",
+   "scored": false
+  },
+  {
+   "id": "SISTAN-01",
+   "scored": false
+  },
+  {
+   "id": "FAILAKA-01",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 4,
+   "grammar_bits": 7.418,
+   "grammar_p": 0.0733,
+   "bigram_bits": 7.288,
+   "bigram_p": 0.0533,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "FAILAKA-02",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Dilmun type",
+   "conf": "uncertain",
+   "n": 3,
+   "grammar_bits": 7.229,
+   "grammar_p": 0.1538,
+   "bigram_bits": 6.958,
+   "bigram_p": 0.2308,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "BAHRAIN-01",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "uncertain",
+   "n": 5,
+   "grammar_bits": 8.382,
+   "grammar_p": 0.0047,
+   "bigram_bits": 8.952,
+   "bigram_p": 0.0047,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "BAHRAIN-02",
+   "scored": false
+  },
+  {
+   "id": "BAHRAIN-03",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 4,
+   "grammar_bits": 5.713,
+   "grammar_p": 0.3133,
+   "bigram_bits": 5.991,
+   "bigram_p": 0.2,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "BAHRAIN-04",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 4,
+   "grammar_bits": 6.754,
+   "grammar_p": 0.1733,
+   "bigram_bits": 6.681,
+   "bigram_p": 0.1067,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "BAHRAIN-05",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 2,
+   "grammar_bits": 4.868,
+   "grammar_p": 0.6408,
+   "bigram_bits": 5.35,
+   "bigram_p": 0.5049,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "BAHRAIN-06",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 6,
+   "grammar_bits": 7.886,
+   "grammar_p": 0.0243,
+   "bigram_bits": 7.746,
+   "bigram_p": 0.0243,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "BAHRAIN-07",
+   "scored": true,
+   "region": "Gulf",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 7,
+   "grammar_bits": 8.504,
+   "grammar_p": 0.0054,
+   "bigram_bits": 8.528,
+   "bigram_p": 0.0081,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "KALBA-01",
+   "scored": false
+  },
+  {
+   "id": "SALUT-01",
+   "scored": true,
+   "region": "Oman",
+   "shape": "square (local softstone)",
+   "conf": "corpus only",
+   "n": 5,
+   "grammar_bits": 7.34,
+   "grammar_p": 0.0427,
+   "bigram_bits": 8.223,
+   "bigram_p": 0.0237,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "SALUT-02",
+   "scored": false
+  },
+  {
+   "id": "RJ-01",
+   "scored": false
+  },
+  {
+   "id": "RJ-02",
+   "scored": true,
+   "region": "Oman",
+   "shape": "pottery graffito",
+   "conf": "corpus only",
+   "n": 3,
+   "grammar_bits": 4.743,
+   "grammar_p": 0.6795,
+   "bigram_bits": 6.118,
+   "bigram_p": 0.3205,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "RJ-03",
+   "scored": true,
+   "region": "Oman",
+   "shape": "pottery graffito",
+   "conf": "corpus only",
+   "n": 2,
+   "grammar_bits": 4.243,
+   "grammar_p": 0.7864,
+   "bigram_bits": 3.833,
+   "bigram_p": 0.835,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "RJ-04",
+   "scored": true,
+   "region": "Oman",
+   "shape": "pottery graffito",
+   "conf": "corpus only",
+   "n": 3,
+   "grammar_bits": 4.604,
+   "grammar_p": 0.7329,
+   "bigram_bits": 4.524,
+   "bigram_p": 0.7055,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "HAJAR-01",
+   "scored": true,
+   "region": "Oman",
+   "shape": "tablet",
+   "conf": "corpus only",
+   "n": 2,
+   "grammar_bits": 4.648,
+   "grammar_p": 0.699,
+   "bigram_bits": 4.955,
+   "bigram_p": 0.6019,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UAQ-01",
+   "scored": false
+  },
+  {
+   "id": "GONUR-01",
+   "scored": true,
+   "region": "Central Asia",
+   "shape": "square",
+   "conf": "corpus only",
+   "n": 8,
+   "grammar_bits": 4.549,
+   "grammar_p": 0.8189,
+   "bigram_bits": 4.329,
+   "bigram_p": 0.7622,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "ALTYN-01",
+   "scored": true,
+   "region": "Central Asia",
+   "shape": "square",
+   "conf": "corpus only",
+   "n": 2,
+   "grammar_bits": 4.282,
+   "grammar_p": 0.7864,
+   "bigram_bits": 5.24,
+   "bigram_p": 0.534,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "SHORT-01",
+   "scored": true,
+   "region": "Central Asia",
+   "shape": "square",
+   "conf": "corpus only",
+   "n": 2,
+   "grammar_bits": 5.853,
+   "grammar_p": 0.3786,
+   "bigram_bits": 4.338,
+   "bigram_p": 0.7184,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UNPROV-01",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "round Gulf",
+   "conf": "confirmed",
+   "n": 5,
+   "grammar_bits": 6.593,
+   "grammar_p": 0.1374,
+   "bigram_bits": 6.753,
+   "bigram_p": 0.109,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "UNPROV-02",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 5,
+   "grammar_bits": 7.455,
+   "grammar_p": 0.0379,
+   "bigram_bits": 7.99,
+   "bigram_p": 0.0284,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "UNPROV-03",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 5,
+   "grammar_bits": 8.805,
+   "grammar_p": 0.0435,
+   "bigram_bits": 8.772,
+   "bigram_p": 0.0435,
+   "flag": "NON-INDUS ORDER"
+  },
+  {
+   "id": "UNPROV-04",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "round Gulf",
+   "conf": "probable",
+   "n": 3,
+   "grammar_bits": 5.588,
+   "grammar_p": 0.4487,
+   "bigram_bits": 6.024,
+   "bigram_p": 0.3333,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UNPROV-05",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "round Gulf",
+   "conf": "corpus only",
+   "n": 5,
+   "grammar_bits": 6.438,
+   "grammar_p": 0.2391,
+   "bigram_bits": 6.704,
+   "bigram_p": 0.1304,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UNPROV-06",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "cylinder",
+   "conf": "corpus only",
+   "n": 4,
+   "grammar_bits": 6.526,
+   "grammar_p": 0.2881,
+   "bigram_bits": 7.05,
+   "bigram_p": 0.2034,
+   "flag": "INDUS-LIKE"
+  },
+  {
+   "id": "UNPROV-08",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "seal",
+   "conf": "corpus only",
+   "n": 7,
+   "grammar_bits": 6.511,
+   "grammar_p": 0.1892,
+   "bigram_bits": 6.803,
+   "bigram_p": 0.1081,
+   "flag": "BORDERLINE"
+  },
+  {
+   "id": "UNPROV-09",
+   "scored": false
+  },
+  {
+   "id": "UNPROV-10",
+   "scored": true,
+   "region": "unknown-WA",
+   "shape": "seal",
+   "conf": "corpus only",
+   "n": 3,
+   "grammar_bits": 5.585,
+   "grammar_p": 0.4521,
+   "bigram_bits": 6.006,
+   "bigram_p": 0.2877,
+   "flag": "INDUS-LIKE"
+  }
+ ]
+}

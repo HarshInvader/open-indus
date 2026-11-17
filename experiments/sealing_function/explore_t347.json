@@ -1,0 +1,23 @@
+{
+ "icit_raw": {
+  "n_target_faces": 7,
+  "on_multi": 6,
+  "share": 0.8571428571428571,
+  "null_mean": 1.96695,
+  "p": 0.00044997750112494374
+ },
+ "icit_dedup": {
+  "n_target_faces": 5,
+  "on_multi": 4,
+  "share": 0.8,
+  "null_mean": 1.25005,
+  "p": 0.005699715014249288
+ },
+ "m77_dedup": {
+  "n_target_faces": 12,
+  "on_multi": 5,
+  "share": 0.4166666666666667,
+  "null_mean": 4.52955,
+  "p": 0.49512524373781314
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "square_seal_objects": 1777,
+ "steatite": 1460,
+ "material_unknown": 270,
+ "steatite_with_dims": 1277,
+ "share_with_dims": 0.875,
+ "with_text": 1269,
+ "complete_text": 1051,
+ "with_period_or_phase": 772,
+ "share_period": 0.608,
+ "by_site": {
+  "Mohenjo-daro": {
+   "steatite": 956,
+   "dims": 848,
+   "period": 489
+  },
+  "Harappa": {
+   "steatite": 261,
+   "dims": 218,
+   "period": 184
+  },
+  "Chanhu-daro": {
+   "steatite": 56,
+   "dims": 54,
+   "period": 0
+  },
+  "Dholavira": {
+   "steatite": 50,
+   "dims": 36,
+   "period": 21
+  },
+  "Lothal": {
+   "steatite": 44,
+   "dims": 39,
+   "period": 28
+  },
+  "Kalibangan": {
+   "steatite": 40,
+   "dims": 36,
+   "period": 27
+  },
+  "Nausharo": {
+   "steatite": 13,
+   "dims": 11,
+   "period": 11
+  },
+  "Banawali": {
+   "steatite": 11,
+   "dims": 11,
+   "period": 4
+  },
+  "Allahdino": {
+   "steatite": 7,
+   "dims": 7,
+   "period": 0
+  },
+  "Farmana": {
+   "steatite": 5,
+   "dims": 4,
+   "period": 4
+  },
+  "Bhirrana": {
+   "steatite": 2,
+   "dims": 2,
+   "period": 0
+  },
+  "Lakhanjo-daro": {
+   "steatite": 2,
+   "dims": 2,
+   "period": 0
+  }
+ },
+ "t4_distinct_texts_complete": 979,
+ "t4_distinct_texts_all": 1193,
+ "t4_strata": 69,
+ "t4_strata_with_2plus": 42,
+ "t4_texts_in_2plus_strata": 952,
+ "t4_by_site": {
+  "Mohenjo-daro": 671,
+  "Harappa": 152,
+  "Chanhu-daro": 41,
+  "Dholavira": 26,
+  "Lothal": 26,
+  "Kalibangan": 25,
+  "Nausharo": 10,
+  "Banawali": 7,
+  "Allahdino": 6,
+  "Farmana": 3,
+  "Bhirrana": 2,
+  "Lakhanjo-daro": 2,
+  "Miri Qalat": 2,
+  "Altyn Depe": 1,
+  "Shortughai": 1,
+  "Wattoowala": 1,
+  "Kanmer": 1,
+  "Shikarpur": 1,
+  "Karanpura": 1
+ },
+ "t4_catalogue_vs_metric": {
+  "metric": 115,
+  "catalogue": 864
+ },
+ "t4_half": {
+  "A": 662,
+  "B": 317
+ },
+ "t4_length_dist": {
+  "1": 28,
+  "2": 116,
+  "3": 155,
+  "4": 148,
+  "5": 204,
+  "6": 145,
+  "7": 87,
+  "8": 96
+ },
+ "t6_complete": {
+  "Lothal": {
+   "sealing": 12,
+   "seal": 57
+  },
+  "Mohenjo-daro": {
+   "sealing": 9,
+   "seal": 955
+  },
+  "Kalibangan": {
+   "sealing": 4,
+   "seal": 42
+  },
+  "Dholavira": {
+   "sealing": 3,
+   "seal": 67
+  },
+  "Harappa": {
+   "sealing": 2,
+   "seal": 267
+  },
+  "Rupar": {
+   "sealing": 2,
+   "seal": 0
+  },
+  "Hulas": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Farmana": {
+   "sealing": 1,
+   "seal": 3
+  },
+  "Tarkhanewala-dera": {
+   "sealing": 1,
+   "seal": 1
+  },
+  "Chanhu-daro": {
+   "sealing": 1,
+   "seal": 44
+  },
+  "Rakhigarhi": {
+   "sealing": 1,
+   "seal": 2
+  },
+  "Allahdino": {
+   "sealing": 1,
+   "seal": 6
+  },
+  "Lakhanjo-daro": {
+   "sealing": 1,
+   "seal": 3
+  },
+  "Ganweriwala": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Tell Umma": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Desalpur": {
+   "sealing": 1,
+   "seal": 2
+  }
+ },
+ "t6_all": {
+  "Lothal": {
+   "sealing": 65,
+   "seal": 91
+  },
+  "Dholavira": {
+   "sealing": 59,
+   "seal": 128
+  },
+  "Harappa": {
+   "sealing": 17,
+   "seal": 415
+  },
+  "Mohenjo-daro": {
+   "sealing": 16,
+   "seal": 1267
+  },
+  "Kalibangan": {
+   "sealing": 16,
+   "seal": 56
+  },
+  "Rupar": {
+   "sealing": 3,
+   "seal": 0
+  },
+  "Lakhanjo-daro": {
+   "sealing": 3,
+   "seal": 4
+  },
+  "Nausharo": {
+   "sealing": 2,
+   "seal": 15
+  },
+  "Rakhigarhi": {
+   "sealing": 2,
+   "seal": 6
+  },
+  "Chanhu-daro": {
+   "sealing": 1,
+   "seal": 56
+  },
+  "Hulas": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Tigrana": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Salut": {
+   "sealing": 1,
+   "seal": 1
+  },
+  "Ganweriwala": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Desalpur": {
+   "sealing": 1,
+   "seal": 2
+  },
+  "Kanmer": {
+   "sealing": 1,
+   "seal": 1
+  },
+  "Allahdino": {
+   "sealing": 1,
+   "seal": 7
+  },
+  "Farmana": {
+   "sealing": 1,
+   "seal": 4
+  },
+  "Tarkhanewala-dera": {
+   "sealing": 1,
+   "seal": 1
+  },
+  "Tell Umma": {
+   "sealing": 1,
+   "seal": 0
+  },
+  "Banawali": {
+   "sealing": 1,
+   "seal": 14
+  }
+ }
+}

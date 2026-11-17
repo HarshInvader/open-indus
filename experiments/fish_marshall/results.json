@@ -1,0 +1,612 @@
+{
+ "n_seals_reliable": 469,
+ "n_tf": 15,
+ "n_pf": 167,
+ "icit_prose_block_conflicts": 0,
+ "decision_rule": {
+  "n_block_seals": 165,
+  "n_block_tf": 6,
+  "n_units_ge8": 7,
+  "U_block_primary": true
+ },
+ "primary_units": "U_block",
+ "tf_families_merged": [],
+ "primary_family": {
+  "G": 10.379658371037147,
+  "null_mean": 12.368993865090896,
+  "p": 0.8784121587841216,
+  "n": 165,
+  "n_feat": 6,
+  "n_units": 12,
+  "units": {
+   "HR-A/2": [
+    1,
+    13
+   ],
+   "HR-B/2": [
+    0,
+    16
+   ],
+   "HR-B/5": [
+    0,
+    11
+   ],
+   "VS-A/2": [
+    1,
+    13
+   ],
+   "VS-A/4": [
+    0,
+    10
+   ],
+   "other-DK": [
+    1,
+    27
+   ],
+   "other-HR": [
+    0,
+    31
+   ],
+   "other-L": [
+    1,
+    5
+   ],
+   "other-SD": [
+    0,
+    7
+   ],
+   "other-VS": [
+    1,
+    16
+   ],
+   "street-HR": [
+    0,
+    8
+   ],
+   "street-VS": [
+    1,
+    8
+   ]
+  }
+ },
+ "primary_noncollapsed": {
+  "G": 10.379658371037147,
+  "null_mean": 12.405136106949842,
+  "p": 0.8902109789021098,
+  "n": 165,
+  "n_feat": 6,
+  "n_units": 12,
+  "units": {
+   "HR-A/2": [
+    1,
+    13
+   ],
+   "HR-B/2": [
+    0,
+    16
+   ],
+   "HR-B/5": [
+    0,
+    11
+   ],
+   "VS-A/2": [
+    1,
+    13
+   ],
+   "VS-A/4": [
+    0,
+    10
+   ],
+   "other-DK": [
+    1,
+    27
+   ],
+   "other-HR": [
+    0,
+    31
+   ],
+   "other-L": [
+    1,
+    5
+   ],
+   "other-SD": [
+    0,
+    7
+   ],
+   "other-VS": [
+    1,
+    16
+   ],
+   "street-HR": [
+    0,
+    8
+   ],
+   "street-VS": [
+    1,
+    8
+   ]
+  }
+ },
+ "S1_plainfish_family": {
+  "G": 9.65214443925448,
+  "null_mean": 13.37365264150354,
+  "p": 0.8222177782221778,
+  "n": 159,
+  "n_feat": 46,
+  "n_units": 12,
+  "units": {
+   "HR-A/2": [
+    6,
+    13
+   ],
+   "HR-B/2": [
+    4,
+    15
+   ],
+   "HR-B/5": [
+    4,
+    8
+   ],
+   "VS-A/2": [
+    3,
+    13
+   ],
+   "VS-A/4": [
+    3,
+    10
+   ],
+   "other-DK": [
+    6,
+    27
+   ],
+   "other-HR": [
+    8,
+    29
+   ],
+   "other-L": [
+    0,
+    5
+   ],
+   "other-SD": [
+    3,
+    7
+   ],
+   "other-VS": [
+    3,
+    16
+   ],
+   "street-HR": [
+    3,
+    8
+   ],
+   "street-VS": [
+    3,
+    8
+   ]
+  }
+ },
+ "S1_plainfish_noncollapsed": {
+  "G": 13.377311938984413,
+  "null_mean": 15.75454236472975,
+  "p": 0.6775322467753224,
+  "n": 165,
+  "n_feat": 52,
+  "n_units": 12,
+  "units": {
+   "HR-A/2": [
+    6,
+    13
+   ],
+   "HR-B/2": [
+    5,
+    16
+   ],
+   "HR-B/5": [
+    7,
+    11
+   ],
+   "VS-A/2": [
+    3,
+    13
+   ],
+   "VS-A/4": [
+    3,
+    10
+   ],
+   "other-DK": [
+    6,
+    27
+   ],
+   "other-HR": [
+    10,
+    31
+   ],
+   "other-L": [
+    0,
+    5
+   ],
+   "other-SD": [
+    3,
+    7
+   ],
+   "other-VS": [
+    3,
+    16
+   ],
+   "street-HR": [
+    3,
+    8
+   ],
+   "street-VS": [
+    3,
+    8
+   ]
+  }
+ },
+ "S2_leave_one_unit_out": {
+  "HR-A/2": 0.8895552223888056,
+  "VS-A/2": 0.7576211894052973,
+  "other-DK": 0.8875562218890555,
+  "other-L": 0.8865567216391804,
+  "other-VS": 0.7271364317841079,
+  "street-VS": 1.0
+ },
+ "S2_max_p": 1.0,
+ "S2_min_p": 0.7271364317841079,
+ "S3_U_fn_family": {
+  "G": 26.557666150348954,
+  "null_mean": 21.614450349083874,
+  "p": 0.07119288071192881,
+  "n": 469,
+  "n_feat": 15,
+  "n_units": 17,
+  "units": {
+   "DK#fn0": [
+    0,
+    25
+   ],
+   "DK#fn1": [
+    0,
+    25
+   ],
+   "DK#fn2": [
+    1,
+    25
+   ],
+   "DK#fn3": [
+    1,
+    25
+   ],
+   "DK#fn4": [
+    0,
+    48
+   ],
+   "HR#fn0": [
+    0,
+    25
+   ],
+   "HR#fn1": [
+    2,
+    25
+   ],
+   "HR#fn2": [
+    1,
+    25
+   ],
+   "HR#fn3": [
+    0,
+    25
+   ],
+   "HR#fn4": [
+    0,
+    25
+   ],
+   "HR#fn5": [
+    0,
+    39
+   ],
+   "L#fn0": [
+    1,
+    12
+   ],
+   "SD#fn0": [
+    0,
+    17
+   ],
+   "VS#fn0": [
+    4,
+    25
+   ],
+   "VS#fn1": [
+    1,
+    44
+   ],
+   "other#fn0": [
+    1,
+    25
+   ],
+   "other#fn1": [
+    3,
+    34
+   ]
+  }
+ },
+ "S3_U_fn_numonly_family": {
+  "G": 28.953157224950708,
+  "null_mean": 21.588204842171738,
+  "p": 0.024797520247975203,
+  "n": 469,
+  "n_feat": 15,
+  "n_units": 17,
+  "units": {
+   "DK#fn0": [
+    0,
+    25
+   ],
+   "DK#fn1": [
+    2,
+    25
+   ],
+   "DK#fn2": [
+    0,
+    25
+   ],
+   "DK#fn3": [
+    0,
+    25
+   ],
+   "DK#fn4": [
+    0,
+    48
+   ],
+   "HR#fn0": [
+    0,
+    25
+   ],
+   "HR#fn1": [
+    2,
+    25
+   ],
+   "HR#fn2": [
+    1,
+    25
+   ],
+   "HR#fn3": [
+    0,
+    25
+   ],
+   "HR#fn4": [
+    0,
+    25
+   ],
+   "HR#fn5": [
+    0,
+    39
+   ],
+   "L#fn0": [
+    1,
+    12
+   ],
+   "SD#fn0": [
+    0,
+    17
+   ],
+   "VS#fn0": [
+    4,
+    25
+   ],
+   "VS#fn1": [
+    1,
+    44
+   ],
+   "other#fn0": [
+    2,
+    25
+   ],
+   "other#fn1": [
+    2,
+    34
+   ]
+  }
+ },
+ "S4_area_level": {
+  "G": 9.638454555829858,
+  "null_mean": 5.418807948524296,
+  "p": 0.09269073092690731,
+  "n": 469,
+  "n_feat": 15,
+  "n_units": 6,
+  "units": {
+   "DK": [
+    2,
+    148
+   ],
+   "HR": [
+    3,
+    164
+   ],
+   "L": [
+    1,
+    12
+   ],
+   "SD": [
+    0,
+    17
+   ],
+   "VS": [
+    5,
+    69
+   ],
+   "other": [
+    4,
+    59
+   ]
+  }
+ },
+ "S5_fisher_with_FEM_family_p": 0.031062337909164104,
+ "power_plus4_block_sized": 0.0,
+ "power_x6_rate": 0.0,
+ "X_area_only_strata_family": {
+  "G": 10.379658371037147,
+  "null_mean": 11.681199959766024,
+  "p": 0.7263273672632736,
+  "n": 165,
+  "n_feat": 6,
+  "n_units": 12
+ },
+ "X_power_plus4_area_only_strata": 0.08,
+ "X_frac_seals_in_single_unit_strata": 0.24848484848484848,
+ "verdict": "INCONCLUSIVE",
+ "tf_seals": [
+  {
+   "serial": "36",
+   "key": "F 46",
+   "area": "other",
+   "U_block": NaN,
+   "U_fn": "other#fn1",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "6.0"
+  },
+  {
+   "serial": "48",
+   "key": "HR 4076",
+   "area": "HR",
+   "U_block": NaN,
+   "U_fn": "HR#fn2",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "3.0"
+  },
+  {
+   "serial": "66",
+   "key": "VS 1059",
+   "area": "VS",
+   "U_block": NaN,
+   "U_fn": "VS#fn0",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "4.0"
+  },
+  {
+   "serial": "90",
+   "key": "VS 47",
+   "area": "VS",
+   "U_block": NaN,
+   "U_fn": "VS#fn0",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "2.0"
+  },
+  {
+   "serial": "125",
+   "key": "E 2484a",
+   "area": "other",
+   "U_block": NaN,
+   "U_fn": "other#fn1",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "5.0"
+  },
+  {
+   "serial": "147",
+   "key": "DK 221",
+   "area": "DK",
+   "U_block": NaN,
+   "U_fn": "DK#fn3",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "3.0"
+  },
+  {
+   "serial": "156",
+   "key": "HR 2522",
+   "area": "HR",
+   "U_block": "HR-A/2",
+   "U_fn": "HR#fn1",
+   "icit_block_house": "2III/IV",
+   "icit_room": "-37 X/01",
+   "depth": "13.0"
+  },
+  {
+   "serial": "177",
+   "key": "VS 2541",
+   "area": "VS",
+   "U_block": "VS-A/2",
+   "U_fn": "VS#fn1",
+   "icit_block_house": "2XVI",
+   "icit_room": "10431 Y/07",
+   "depth": "5.0"
+  },
+  {
+   "serial": "235",
+   "key": "E 297",
+   "area": "other",
+   "U_block": NaN,
+   "U_fn": "other#fn0",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "7.0"
+  },
+  {
+   "serial": "316",
+   "key": "L 904",
+   "area": "L",
+   "U_block": "other-L",
+   "U_fn": "L#fn0",
+   "icit_block_house": "3-",
+   "icit_room": "72-",
+   "depth": "4.0"
+  },
+  {
+   "serial": "348",
+   "key": "VS 1438",
+   "area": "VS",
+   "U_block": "street-VS",
+   "U_fn": "VS#fn0",
+   "icit_block_house": "Lane 3XXVI",
+   "icit_room": "-29AA/04",
+   "depth": "4.0"
+  },
+  {
+   "serial": "403",
+   "key": "D 262",
+   "area": "DK",
+   "U_block": "other-DK",
+   "U_fn": "DK#fn2",
+   "icit_block_house": "Trench D-",
+   "icit_room": "--",
+   "depth": "-0.0"
+  },
+  {
+   "serial": "425",
+   "key": "HR 2780",
+   "area": "HR",
+   "U_block": NaN,
+   "U_fn": "HR#fn1",
+   "icit_block_house": "--",
+   "icit_room": "--",
+   "depth": "6.0"
+  },
+  {
+   "serial": "480",
+   "key": "E 1007",
+   "area": "other",
+   "U_block": NaN,
+   "U_fn": "other#fn1",
+   "icit_block_house": NaN,
+   "icit_room": NaN,
+   "depth": "-0.0"
+  },
+  {
+   "serial": "535",
+   "key": "VS 665",
+   "area": "VS",
+   "U_block": "other-VS",
+   "U_fn": "VS#fn0",
+   "icit_block_house": "3XIX",
+   "icit_room": "1329 Y/20",
+   "depth": "3.0"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+<section class="page-head wrap">
+  <div class="hero-text">
+    <p class="kicker">Findings</p>
+    <h1>What holds up, how strongly, and what has been ruled out</h1>
+    <p class="lede">Eleven findings about how the script works, ranked by the strength of their evidence, then every route to a reading that has been tested and closed. Each links to its code and full results in the repository.</p>
+    <nav class="jump" aria-label="On this page"><a href="#h-levels">Strength labels</a><a href="#h-ranked">Findings, strongest first</a><a href="#closed">Closed routes</a><a href="#h-rev">Reversed by the red team</a><a href="#h-pub">Publishing</a></nav>
+  </div>
+  <div class="figs head-figs">{{FIG_A}}</div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-levels">
+  <p class="rail"><span>A</span>Strength</p>
+  <div class="content">
+    <h2 id="h-levels">How to read the strength labels</h2>
+    {{LEVELS}}
+    <p class="note">"q" is the chance of a false positive after correcting for all the tests in a family or in the whole project (Benjamini-Hochberg). "Held-out" means texts kept apart while the idea was built. None of these findings gives a sound or a meaning to any sign.</p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-ranked">
+  <p class="rail"><span>B</span>Ranked</p>
+  <div class="content">
+    <h2 id="h-ranked">Eleven findings, strongest first</h2>
+    <p class="intro">Open any finding for its numbers, caveats and code.</p>
+    {{FINDINGS}}
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="closed" id="closed-block">
+  <p class="rail"><span>C</span>Closed</p>
+  <div class="content">
+    <h2 id="closed">{{N_ROUTES}} routes tested and closed</h2>
+    <p class="intro">{{N_OUT}} are ruled out at a stated power. The others cannot be decided with the data that exists today; each says what new evidence would reopen it. Source: <a href="{{REPO}}/blob/main/docs/NEGATIVE_ATLAS.md">the atlas of closed routes</a>.</p>
+    <ul class="legend-row"><li><span class="tag out">Ruled out</span> the test ran and failed, with enough power to see a real effect</li><li><span class="tag wait">Can’t test yet</span> the data cannot decide</li><li><span class="tag weak">Weakened</span><span class="tag weak">Not supported</span> an earlier result shrank or failed its pass mark</li></ul>
+    {{ROUTES}}
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-rev">
+  <p class="rail"><span>D</span>Reversed</p>
+  <div class="content">
+    <h2 id="h-rev">{{N_REV}} of our own results that the red team broke</h2>
+    <p class="intro">These looked positive and did not survive an independent attack. They show where the traps are.</p>
+    <div class="split narrow-fig">
+      <details class="more open-first"><summary>Show all {{N_REV}}</summary>{{REVERSALS}}</details>
+      {{FIG_B}}
+    </div>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="h-pub">
+  <p class="rail"><span>E</span>Outputs</p>
+  <div class="content">
+    <h2 id="h-pub">What can be published along the way</h2>
+    <p class="intro">None of this needs a decipherment. Clean negatives and tools are worth publishing on their own.</p>
+    {{PAPERS}}
+  </div>
+</section>

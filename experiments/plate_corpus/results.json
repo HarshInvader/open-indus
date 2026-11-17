@@ -1,0 +1,265 @@
+{
+ "test": "plate_corpus gate (docs/prereg/plate_corpus.md)",
+ "n_seals": 20,
+ "plate_px_per_mm": {
+  "median": 18.5,
+  "p10": 12.27,
+  "p90": 22.07,
+  "by_volume": {
+   "Mackay1938_FEM": 19.89,
+   "Mackay1943_CE": 22.09,
+   "Marshall1931_MIC": 10.56,
+   "Vats1940_EH": 15.42
+  }
+ },
+ "cisi_px_per_mm_paired": {
+  "n": 7,
+  "median": 7.9,
+  "plate_median_same_seals": 19.46
+ },
+ "plates_all": {
+  "n_readings": 40,
+  "n_seals": 20,
+  "count_exact": 21,
+  "count_exact_rate": 0.525,
+  "count_exact_ci95": [
+   0.375,
+   0.671
+  ],
+  "count_pm1_rate": 0.775,
+  "line_count_vs_m77_rate": 0.825,
+  "layout_two_reader_agree": 7,
+  "layout_two_reader_rate": 0.35,
+  "seals_both_readers_count_right": 6,
+  "sign_acc_expected_order": 0.228,
+  "sign_acc_better_order": 0.237,
+  "unreadable": 4,
+  "per_reader": {
+   "A": {
+    "count_exact": 9,
+    "n": 20,
+    "sign_acc": 0.263,
+    "unreadable": 1
+   },
+   "B": {
+    "count_exact": 12,
+    "n": 20,
+    "sign_acc": 0.193,
+    "unreadable": 3
+   }
+  }
+ },
+ "plates_paired": {
+  "n_readings": 14,
+  "n_seals": 7,
+  "count_exact": 10,
+  "count_exact_rate": 0.714,
+  "count_exact_ci95": [
+   0.454,
+   0.883
+  ],
+  "count_pm1_rate": 0.929,
+  "line_count_vs_m77_rate": 1.0,
+  "layout_two_reader_agree": 3,
+  "layout_two_reader_rate": 0.429,
+  "seals_both_readers_count_right": 3,
+  "sign_acc_expected_order": 0.395,
+  "sign_acc_better_order": 0.395,
+  "unreadable": 0,
+  "per_reader": {
+   "A": {
+    "count_exact": 4,
+    "n": 7,
+    "sign_acc": 0.421,
+    "unreadable": 0
+   },
+   "B": {
+    "count_exact": 6,
+    "n": 7,
+    "sign_acc": 0.368,
+    "unreadable": 0
+   }
+  }
+ },
+ "cisi_paired": {
+  "n_readings": 14,
+  "n_seals": 7,
+  "count_exact": 10,
+  "count_exact_rate": 0.714,
+  "count_exact_ci95": [
+   0.454,
+   0.883
+  ],
+  "count_pm1_rate": 0.857,
+  "line_count_vs_m77_rate": 1.0,
+  "layout_two_reader_agree": 5,
+  "layout_two_reader_rate": 0.714,
+  "seals_both_readers_count_right": 4,
+  "sign_acc_expected_order": 0.355,
+  "sign_acc_better_order": 0.355,
+  "unreadable": 0,
+  "per_reader": {
+   "A": {
+    "count_exact": 4,
+    "n": 7,
+    "sign_acc": 0.421,
+    "unreadable": 0
+   },
+   "B": {
+    "count_exact": 6,
+    "n": 7,
+    "sign_acc": 0.289,
+    "unreadable": 0
+   }
+  }
+ },
+ "plates_by_volume": {
+  "Mackay1938_FEM": {
+   "n_readings": 16,
+   "n_seals": 8,
+   "count_exact": 9,
+   "count_exact_rate": 0.562,
+   "count_exact_ci95": [
+    0.332,
+    0.769
+   ],
+   "count_pm1_rate": 0.812,
+   "line_count_vs_m77_rate": 0.875,
+   "layout_two_reader_agree": 2,
+   "layout_two_reader_rate": 0.25,
+   "seals_both_readers_count_right": 2,
+   "sign_acc_expected_order": 0.271,
+   "sign_acc_better_order": 0.271,
+   "unreadable": 0,
+   "per_reader": {
+    "A": {
+     "count_exact": 4,
+     "n": 8,
+     "sign_acc": 0.312,
+     "unreadable": 0
+    },
+    "B": {
+     "count_exact": 5,
+     "n": 8,
+     "sign_acc": 0.229,
+     "unreadable": 0
+    }
+   }
+  },
+  "Mackay1943_CE": {
+   "n_readings": 8,
+   "n_seals": 4,
+   "count_exact": 1,
+   "count_exact_rate": 0.125,
+   "count_exact_ci95": [
+    0.022,
+    0.471
+   ],
+   "count_pm1_rate": 0.375,
+   "line_count_vs_m77_rate": 0.5,
+   "layout_two_reader_agree": 0,
+   "layout_two_reader_rate": 0.0,
+   "seals_both_readers_count_right": 0,
+   "sign_acc_expected_order": 0.115,
+   "sign_acc_better_order": 0.115,
+   "unreadable": 3,
+   "per_reader": {
+    "A": {
+     "count_exact": 0,
+     "n": 4,
+     "sign_acc": 0.154,
+     "unreadable": 1
+    },
+    "B": {
+     "count_exact": 1,
+     "n": 4,
+     "sign_acc": 0.077,
+     "unreadable": 2
+    }
+   }
+  },
+  "Marshall1931_MIC": {
+   "n_readings": 4,
+   "n_seals": 2,
+   "count_exact": 4,
+   "count_exact_rate": 1.0,
+   "count_exact_ci95": [
+    0.51,
+    1.0
+   ],
+   "count_pm1_rate": 1.0,
+   "line_count_vs_m77_rate": 1.0,
+   "layout_two_reader_agree": 2,
+   "layout_two_reader_rate": 1.0,
+   "seals_both_readers_count_right": 2,
+   "sign_acc_expected_order": 0.5,
+   "sign_acc_better_order": 0.5,
+   "unreadable": 0,
+   "per_reader": {
+    "A": {
+     "count_exact": 2,
+     "n": 2,
+     "sign_acc": 0.333,
+     "unreadable": 0
+    },
+    "B": {
+     "count_exact": 2,
+     "n": 2,
+     "sign_acc": 0.667,
+     "unreadable": 0
+    }
+   }
+  },
+  "Vats1940_EH": {
+   "n_readings": 12,
+   "n_seals": 6,
+   "count_exact": 7,
+   "count_exact_rate": 0.583,
+   "count_exact_ci95": [
+    0.32,
+    0.807
+   ],
+   "count_pm1_rate": 0.917,
+   "line_count_vs_m77_rate": 0.917,
+   "layout_two_reader_agree": 3,
+   "layout_two_reader_rate": 0.5,
+   "seals_both_readers_count_right": 2,
+   "sign_acc_expected_order": 0.206,
+   "sign_acc_better_order": 0.235,
+   "unreadable": 1,
+   "per_reader": {
+    "A": {
+     "count_exact": 3,
+     "n": 6,
+     "sign_acc": 0.265,
+     "unreadable": 0
+    },
+    "B": {
+     "count_exact": 4,
+     "n": 6,
+     "sign_acc": 0.147,
+     "unreadable": 1
+    }
+   }
+  }
+ },
+ "gate": {
+  "layout": {
+   "median_ppmm_ge_12": true,
+   "count_agreement_ge_0_90": false,
+   "two_reader_layout_ge_0_85": false
+  },
+  "carver": {
+   "median_ppmm_ge_30": false
+  },
+  "beat_cisi": {
+   "ppmm_ratio": 2.46,
+   "ppmm_ratio_ge_1_5": true,
+   "plate_count_ge_cisi": true
+  },
+  "secondary_sign_acc_ge_0_80": false,
+  "layout_PASS": false,
+  "carver_PASS": false,
+  "plates_beat_cisi": true
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "merge": {
+  "nn": {
+   "old_english": [
+    0.913,
+    "plains"
+   ],
+   "old_high_german": [
+    0.895,
+    "egyptian"
+   ],
+   "old_norse": [
+    0.719,
+    "greek"
+   ],
+   "greek": [
+    0.719,
+    "old_norse"
+   ],
+   "sanskrit": [
+    0.515,
+    "sangam"
+   ],
+   "egyptian": [
+    0.895,
+    "old_high_german"
+   ],
+   "ur3": [
+    1.342,
+    "plains"
+   ],
+   "chinese_given": [
+    1.289,
+    "plains"
+   ],
+   "chinese_full": [
+    0.563,
+    "plains"
+   ],
+   "plains": [
+    0.563,
+    "chinese_full"
+   ],
+   "sangam": [
+    0.515,
+    "sanskrit"
+   ]
+  },
+  "median": 0.7187103699107386,
+  "max": 1.341529477985159
+ },
+ "sym": {
+  "nn": {
+   "old_english": [
+    1.333,
+    "old_high_german"
+   ],
+   "old_high_german": [
+    0.905,
+    "greek"
+   ],
+   "old_norse": [
+    1.142,
+    "sangam"
+   ],
+   "greek": [
+    0.905,
+    "old_high_german"
+   ],
+   "sanskrit": [
+    0.835,
+    "chinese_given"
+   ],
+   "egyptian": [
+    1.059,
+    "sangam"
+   ],
+   "ur3": [
+    1.728,
+    "plains"
+   ],
+   "chinese_given": [
+    0.835,
+    "sanskrit"
+   ],
+   "chinese_full": [
+    1.215,
+    "plains"
+   ],
+   "plains": [
+    1.215,
+    "chinese_full"
+   ],
+   "sangam": [
+    0.957,
+    "sanskrit"
+   ]
+  },
+  "median": 1.0588265130971206,
+  "max": 1.728274503054992
+ }
+}

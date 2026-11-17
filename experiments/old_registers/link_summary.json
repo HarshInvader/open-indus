@@ -1,0 +1,122 @@
+{
+ "Mackay1938_FEM": {
+  "rows": 695,
+  "with_depth": 568,
+  "with_dims": 663,
+  "with_field_no": 669,
+  "linked_m77": 639,
+  "linked_cisi": 294,
+  "linked_icit": 272,
+  "linked_any": 648,
+  "depth_vs_m77": {
+   "": 180,
+   "disagree": 9,
+   "agree": 506
+  },
+  "kp_check": {
+   "": 430,
+   "agree": 220,
+   "disagree": 45
+  },
+  "seqsim_n": 263,
+  "seqsim_ge_0_5": 218,
+  "new_depth_absent": 11,
+  "new_depth_precision": 462,
+  "new_dims": 363,
+  "new_findspot": 640,
+  "new_field_no": 627,
+  "new_any_of_depth_dims_findspot": 648
+ },
+ "Mackay1943_CE": {
+  "rows": 91,
+  "with_depth": 86,
+  "with_dims": 73,
+  "with_field_no": 91,
+  "linked_m77": 48,
+  "linked_cisi": 7,
+  "linked_icit": 7,
+  "linked_any": 48,
+  "depth_vs_m77": {
+   "": 45,
+   "agree": 43,
+   "disagree": 3
+  },
+  "kp_check": {
+   "": 91
+  },
+  "seqsim_n": 7,
+  "seqsim_ge_0_5": 6,
+  "new_depth_absent": 0,
+  "new_depth_precision": 43,
+  "new_dims": 33,
+  "new_findspot": 47,
+  "new_field_no": 48,
+  "new_any_of_depth_dims_findspot": 47
+ },
+ "Marshall1931_MIC": {
+  "rows": 376,
+  "with_depth": 309,
+  "with_dims": 272,
+  "with_field_no": 376,
+  "linked_m77": 334,
+  "linked_cisi": 112,
+  "linked_icit": 101,
+  "linked_any": 338,
+  "depth_vs_m77": {
+   "disagree": 84,
+   "": 108,
+   "agree": 184
+  },
+  "kp_check": {
+   "": 270,
+   "agree": 64,
+   "disagree": 42
+  },
+  "seqsim_n": 97,
+  "seqsim_ge_0_5": 60,
+  "new_depth_absent": 9,
+  "new_depth_precision": 86,
+  "new_dims": 174,
+  "new_findspot": 0,
+  "new_field_no": 338,
+  "new_any_of_depth_dims_findspot": 227
+ },
+ "Vats1940_EH": {
+  "rows": 649,
+  "with_depth": 610,
+  "with_dims": 471,
+  "with_field_no": 641,
+  "linked_m77": 558,
+  "linked_cisi": 147,
+  "linked_icit": 132,
+  "linked_any": 566,
+  "depth_vs_m77": {
+   "agree": 486,
+   "": 125,
+   "disagree": 38
+  },
+  "kp_check": {
+   "": 518,
+   "disagree": 26,
+   "agree": 105
+  },
+  "seqsim_n": 123,
+  "seqsim_ge_0_5": 80,
+  "new_depth_absent": 11,
+  "new_depth_precision": 313,
+  "new_dims": 342,
+  "new_findspot": 0,
+  "new_field_no": 558,
+  "new_any_of_depth_dims_findspot": 474
+ },
+ "_seqsim_real_mean": 0.6526326530612245,
+ "_seqsim_real_ge_0_5": "364/490",
+ "_seqsim_random_mean": 0.06802931611399353,
+ "_seqsim_random_ge_0_5": "21/1984",
+ "_ce_plate_rule": {
+  "LI k=1": "mean 0.60 n=3",
+  "LI k=2": "mean 0.14 n=3",
+  "LII k=1": "mean 0.09 n=4",
+  "LII k=2": "mean 0.86 n=4"
+ }
+}

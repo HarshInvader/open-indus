@@ -1,0 +1,124 @@
+{
+ "source": "experiments/new_finds/new_texts.csv",
+ "n_rows": 28,
+ "primary": {
+  "n_texts": 2,
+  "scores": {
+   "L1": {
+    "roofed": "0/0",
+    "base": "0/0",
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L2": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L2b_M403_exploratory": {
+    "k": 0,
+    "n": 0
+   },
+   "L3": {
+    "ticked": "0/0",
+    "plain": "0/0",
+    "verdict": "inconclusive (n<min)"
+   },
+   "L4": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L6": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L6b_no_fish": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L5": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L5b_position": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L7": {
+    "n_none": 0,
+    "n_animal": 0,
+    "ratio": null,
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   }
+  }
+ },
+ "sensitivity_all_readable": {
+  "n_texts": 6,
+  "scores": {
+   "L1": {
+    "roofed": "0/0",
+    "base": "0/1",
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L2": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L2b_M403_exploratory": {
+    "k": 0,
+    "n": 0
+   },
+   "L3": {
+    "ticked": "0/0",
+    "plain": "0/0",
+    "verdict": "inconclusive (n<min)"
+   },
+   "L4": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L6": {
+    "k": 0,
+    "n": 0,
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L6b_no_fish": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L5": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L5b_position": {
+    "k": 0,
+    "n": 0,
+    "verdict": "inconclusive (n<min)"
+   },
+   "L7": {
+    "n_none": 0,
+    "n_animal": 0,
+    "ratio": null,
+    "p": null,
+    "verdict": "inconclusive (n<min)"
+   }
+  }
+ },
+ "evaluable_predictions": [],
+ "n_pass": 0
+}

@@ -1,0 +1,10 @@
+{
+ "C1": {"verdict": "fails", "short_repeats_obs": 145, "short_repeats_bigram_null": [151, 129, 174], "p_ge": 0.71,
+        "multisite_share_obs": 0.66, "multisite_share_null": [0.74, 0.64, 0.85], "len45_obs": 34, "len45_null": [8, 2, 16], "len45_p": 0.002,
+        "R_loo_indus_le7": [0.51, 0.43, 0.59], "R_loo_ur3_le7": [0.53, 0.35, 0.76], "R_loo_indus_ge4": [0.18, 0.10, 0.25], "R_loo_ur3_all": [0.18, 0.16, 0.21],
+        "duplicates_flagged": "4/181"},
+ "C2": {"verdict": "fails as stated; narrower survives", "ur3_same_recipe_core_new": [0.96, 0.995], "indus_core_new": [0.91, 0.92],
+        "len2_4_indus": [0.75, 0.99], "len2_4_ur3_name": [0.39, 0.59], "inventory_artefact": false},
+ "C3": {"verdict": "fails (uninformative)", "mde_rel_nn": 0.015, "power_local_h5": 0.07, "power_local_h10": 0.03, "power_whole_bin": 0.90,
+        "ur3_nn_z_reign": -9.07, "ur3_nn_z_year": -15.23, "ur3_direction": "clustering"}
+}

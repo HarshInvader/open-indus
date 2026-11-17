@@ -1,0 +1,66 @@
+{
+ "X38": {
+  "label": "S1 H-180 B scene vessel (kneeling scene)",
+  "role": "target"
+ },
+ "X03": {
+  "label": "S2 H-714 A U-object beside figure",
+  "role": "target"
+ },
+ "X60": {
+  "label": "M328 photo H-723 A",
+  "role": "m328photo"
+ },
+ "X89": {
+  "label": "M328 photo H-178 A",
+  "role": "m328photo"
+ },
+ "X98": {
+  "label": "pot H-167",
+  "role": "pot"
+ },
+ "X91": {
+  "label": "pot H-370",
+  "role": "pot"
+ },
+ "X84": {
+  "label": "pot H-371",
+  "role": "pot"
+ },
+ "X77": {
+  "label": "pot H-372",
+  "role": "pot"
+ },
+ "X20": {
+  "label": "drawing M328",
+  "role": "sign"
+ },
+ "X45": {
+  "label": "drawing M342",
+  "role": "sign"
+ },
+ "X22": {
+  "label": "drawing M340",
+  "role": "sign"
+ },
+ "X99": {
+  "label": "drawing M347",
+  "role": "sign"
+ },
+ "X57": {
+  "label": "drawing M316",
+  "role": "sign"
+ },
+ "X80": {
+  "label": "drawing M319",
+  "role": "sign"
+ },
+ "X24": {
+  "label": "drawing M323",
+  "role": "sign"
+ },
+ "X94": {
+  "label": "drawing M332",
+  "role": "sign"
+ }
+}

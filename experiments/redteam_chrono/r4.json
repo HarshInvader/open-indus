@@ -1,0 +1,84 @@
+{
+ "type_match": {
+  "('seal', 'tab_incised')": 9,
+  "('sealing', 'tab_moulded')": 46,
+  "('sealing', 'tab_incised')": 21,
+  "('tablet', 'tab_moulded')": 36,
+  "('tablet', 'tab_incised')": 55,
+  "('pot', 'tab_incised')": 2,
+  "('seal', 'seal')": 3,
+  "('seal', 'tab_moulded')": 5,
+  "('tablet', 'sealing')": 5,
+  "('tablet', 'pot')": 9,
+  "('pot', 'tab_moulded')": 1,
+  "('seal', 'pot')": 7,
+  "('sealing', 'seal')": 1,
+  "('tablet', 'other')": 2,
+  "('pot', 'pot')": 2,
+  "('seal', 'other')": 1,
+  "('sealing', 'pot')": 6,
+  "('pot', 'other')": 1,
+  "('tablet', 'seal')": 1,
+  "('sealing', 'other')": 1,
+  "('sealing', 'sealing')": 2,
+  "('seal', 'sealing')": 1
+ },
+ "HARP tablets ~ VATS all": {
+  "n": 49,
+  "rho": 0.34731363890303046,
+  "p": 0.014492753623188406
+ },
+ "HARP non-tablets ~ VATS all": {
+  "n": 25,
+  "rho": 0.506251211519016,
+  "p": 0.0069965017491254375
+ },
+ "HARP all ~ VATS seals": {
+  "n": 42,
+  "rho": 0.2374969728464221,
+  "p": 0.0734632683658171
+ },
+ "HARP all ~ VATS sealing": {
+  "n": 31,
+  "rho": 0.1910622891365784,
+  "p": 0.1904047976011994
+ },
+ "HARP all ~ VATS tablet": {
+  "n": 28,
+  "rho": 0.11146106953027735,
+  "p": 0.3148425787106447
+ },
+ "HARP all ~ VATS tablet+sealing": {
+  "n": 49,
+  "rho": 0.32995739697973797,
+  "p": 0.02048975512243878
+ },
+ "within_type_combined": {
+  "stat": 11.64271374267931,
+  "p": 0.10344827586206896
+ },
+ "drop shared families": {
+  "n": 38,
+  "rho": 0.27125506072874495,
+  "p": 0.06096951524237881
+ },
+ "full data, same signs as drop-shared": {
+  "n": 38,
+  "rho": 0.4767480030637925,
+  "p": 0.004997501249375313
+ },
+ "drop shared families, nmin 3": {
+  "n": 53,
+  "rho": 0.26694351511435205,
+  "p": 0.030984507746126936
+ },
+ "shared_family_units": [
+  211,
+  229
+ ],
+ "shared_family_time_agreement": {
+  "rho": 0.26836114008991396,
+  "p": 0.019916465037966895,
+  "n": 75
+ }
+}

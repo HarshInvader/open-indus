@@ -1,0 +1,1578 @@
+{
+ "primary_closers": {
+  "jar_M342": {
+   "OR": 0.886905145295543,
+   "sealing_with": 42,
+   "sealing_n": 127,
+   "expected": 44.1632,
+   "seal_with": 668,
+   "seal_n": 1426,
+   "p_enriched": 0.7298270172982702,
+   "p_depleted": 0.3508649135086491,
+   "n_strata": 20,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_holm": 1.0
+  },
+  "M211": {
+   "OR": 1.1377065424359227,
+   "sealing_with": 11,
+   "sealing_n": 127,
+   "expected": 10.1295,
+   "seal_with": 138,
+   "seal_n": 1426,
+   "p_enriched": 0.43055694430556946,
+   "p_depleted": 0.7093290670932907,
+   "n_strata": 20,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_holm": 1.0
+  },
+  "M169_family": {
+   "OR": 1.0985789511072832,
+   "sealing_with": 13,
+   "sealing_n": 127,
+   "expected": 12.1957,
+   "seal_with": 200,
+   "seal_n": 1426,
+   "p_enriched": 0.45255474452554745,
+   "p_depleted": 0.6886311368863114,
+   "n_strata": 20,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_holm": 1.0
+  },
+  "M12_M15_family": {
+   "OR": 0.3686446614283671,
+   "sealing_with": 4,
+   "sealing_n": 127,
+   "expected": 8.6563,
+   "seal_with": 100,
+   "seal_n": 1426,
+   "p_enriched": 0.988001199880012,
+   "p_depleted": 0.0370962903709629,
+   "n_strata": 20,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_holm": 1.0
+  },
+  "M254": {
+   "OR": 0.2870737689122336,
+   "sealing_with": 1,
+   "sealing_n": 127,
+   "expected": 3.3956,
+   "seal_with": 43,
+   "seal_n": 1426,
+   "p_enriched": 0.9838016198380162,
+   "p_depleted": 0.09929007099290071,
+   "n_strata": 20,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_holm": 1.0
+  },
+  "ticked_fish": {
+   "OR": 1.5297774625393137,
+   "sealing_with": 4,
+   "sealing_n": 127,
+   "expected": 3.1571,
+   "seal_with": 41,
+   "seal_n": 1426,
+   "p_enriched": 0.38966103389661033,
+   "p_depleted": 0.821017898210179,
+   "n_strata": 20,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_holm": 1.0
+  }
+ },
+ "replication": {
+  "jar_M342": {
+   "no_lothal": {
+    "OR": 0.7629133443496278,
+    "sealing_with": 24,
+    "sealing_n": 79,
+    "expected": 27.1209,
+    "seal_with": 639,
+    "seal_n": 1346,
+    "p_enriched": 0.8615138486151385,
+    "p_depleted": 0.2151784821517848,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "no_dholavira": {
+    "OR": 0.8353542993206171,
+    "sealing_with": 33,
+    "sealing_n": 89,
+    "expected": 35.5011,
+    "seal_with": 632,
+    "seal_n": 1316,
+    "p_enriched": 0.7876212378762124,
+    "p_depleted": 0.2996700329967003,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "lothal_only": {
+    "OR": 1.143802494273352,
+    "sealing_with": 18,
+    "sealing_n": 48,
+    "expected": 17.0915,
+    "seal_with": 29,
+    "seal_n": 80,
+    "p_enriched": 0.4400559944005599,
+    "p_depleted": 0.7097290270972902,
+    "n_strata": 3,
+    "sites": [
+     "Lothal"
+    ]
+   }
+  },
+  "M211": {
+   "no_lothal": {
+    "OR": 0.9182161679954018,
+    "sealing_with": 7,
+    "sealing_n": 79,
+    "expected": 7.4737,
+    "seal_with": 134,
+    "seal_n": 1346,
+    "p_enriched": 0.6567343265673433,
+    "p_depleted": 0.524047595240476,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "no_dholavira": {
+    "OR": 1.62024198697193,
+    "sealing_with": 8,
+    "sealing_n": 89,
+    "expected": 5.8758,
+    "seal_with": 124,
+    "seal_n": 1316,
+    "p_enriched": 0.21357864213578642,
+    "p_depleted": 0.8949105089491051,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "lothal_only": {
+    "OR": 2.2248410026187804,
+    "sealing_with": 4,
+    "sealing_n": 48,
+    "expected": 2.6864,
+    "seal_with": 4,
+    "seal_n": 80,
+    "p_enriched": 0.2556744325567443,
+    "p_depleted": 0.919008099190081,
+    "n_strata": 3,
+    "sites": [
+     "Lothal"
+    ]
+   }
+  },
+  "M169_family": {
+   "no_lothal": {
+    "OR": 1.2541352223443163,
+    "sealing_with": 8,
+    "sealing_n": 79,
+    "expected": 6.6517,
+    "seal_with": 188,
+    "seal_n": 1346,
+    "p_enriched": 0.3364663533646635,
+    "p_depleted": 0.8027197280271973,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "no_dholavira": {
+    "OR": 1.208158326164004,
+    "sealing_with": 12,
+    "sealing_n": 89,
+    "expected": 10.5605,
+    "seal_with": 186,
+    "seal_n": 1316,
+    "p_enriched": 0.35126487351264873,
+    "p_depleted": 0.7763223677632237,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "lothal_only": {
+    "OR": 0.8407578084997438,
+    "sealing_with": 5,
+    "sealing_n": 48,
+    "expected": 5.4862,
+    "seal_with": 12,
+    "seal_n": 80,
+    "p_enriched": 0.7152284771522848,
+    "p_depleted": 0.5103489651034897,
+    "n_strata": 3,
+    "sites": [
+     "Lothal"
+    ]
+   }
+  },
+  "M12_M15_family": {
+   "no_lothal": {
+    "OR": 0.3395264702127592,
+    "sealing_with": 2,
+    "sealing_n": 79,
+    "expected": 5.248,
+    "seal_with": 94,
+    "seal_n": 1346,
+    "p_enriched": 0.9812018798120188,
+    "p_depleted": 0.070992900709929,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "no_dholavira": {
+    "OR": 0.5263693674388435,
+    "sealing_with": 4,
+    "sealing_n": 89,
+    "expected": 6.442,
+    "seal_with": 90,
+    "seal_n": 1316,
+    "p_enriched": 0.9312068793120688,
+    "p_depleted": 0.17348265173482652,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "lothal_only": {
+    "OR": 0.42890442890442887,
+    "sealing_with": 2,
+    "sealing_n": 48,
+    "expected": 3.3538,
+    "seal_with": 6,
+    "seal_n": 80,
+    "p_enriched": 0.9254074592540746,
+    "p_depleted": 0.26807319268073193,
+    "n_strata": 3,
+    "sites": [
+     "Lothal"
+    ]
+   }
+  },
+  "M254": {
+   "no_lothal": {
+    "OR": 1.1874998607770941,
+    "sealing_with": 1,
+    "sealing_n": 79,
+    "expected": 0.856,
+    "seal_with": 35,
+    "seal_n": 1346,
+    "p_enriched": 0.5921407859214078,
+    "p_depleted": 0.7931206879312068,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "no_dholavira": {
+    "OR": 0.30437231341262266,
+    "sealing_with": 1,
+    "sealing_n": 89,
+    "expected": 3.1863,
+    "seal_with": 42,
+    "seal_n": 1316,
+    "p_enriched": 0.9805019498050195,
+    "p_depleted": 0.12378762123787622,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "lothal_only": {
+    "OR": 0.0,
+    "sealing_with": 0,
+    "sealing_n": 48,
+    "expected": 2.5133,
+    "seal_with": 8,
+    "seal_n": 80,
+    "p_enriched": 1.0,
+    "p_depleted": 0.038896110388961104,
+    "n_strata": 3,
+    "sites": [
+     "Lothal"
+    ]
+   }
+  },
+  "ticked_fish": {
+   "no_lothal": {
+    "OR": 0.0,
+    "sealing_with": 0,
+    "sealing_n": 79,
+    "expected": 1.1223,
+    "seal_with": 39,
+    "seal_n": 1346,
+    "p_enriched": 1.0,
+    "p_depleted": 0.2886711328867113,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "no_dholavira": {
+    "OR": 1.5556062290193888,
+    "sealing_with": 4,
+    "sealing_n": 89,
+    "expected": 3.1332,
+    "seal_with": 40,
+    "seal_n": 1316,
+    "p_enriched": 0.38836116388361164,
+    "p_depleted": 0.8273172682731726,
+    "n_strata": 17,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "lothal_only": {
+    "OR": 5.303819444444445,
+    "sealing_with": 4,
+    "sealing_n": 48,
+    "expected": 2.0153,
+    "seal_with": 2,
+    "seal_n": 80,
+    "p_enriched": 0.09309069093090691,
+    "p_depleted": 0.9867013298670133,
+    "n_strata": 3,
+    "sites": [
+     "Lothal"
+    ]
+   }
+  }
+ },
+ "support_closers": [],
+ "leave_one_site_out_OR": {
+  "jar_M342": {
+   "Allahdino": 0.886905145295543,
+   "Banawali": 0.886905145295543,
+   "Chanhu-daro": 0.8521065568167279,
+   "Desalpur": 0.886905145295543,
+   "Dholavira": 0.8353542993206171,
+   "Farmana": 0.886905145295543,
+   "Ganweriwala": 0.886905145295543,
+   "Harappa": 1.0926859208429707,
+   "Hulas": 0.886905145295543,
+   "Kalibangan": 0.8497339769821823,
+   "Kanmer": 0.886905145295543,
+   "Lakhanjo-daro": 0.886905145295543,
+   "Lothal": 0.7629133443496278,
+   "Mohenjo-daro": 0.9180585627520835,
+   "Nausharo": 0.886905145295543,
+   "Rakhigarhi": 0.886905145295543,
+   "Rupar": 0.886905145295543,
+   "Salut": 0.886905145295543,
+   "Tarkhanewala-dera": 0.886905145295543,
+   "Tell Umma": 0.886905145295543,
+   "Tigrana": 0.886905145295543
+  },
+  "M211": {
+   "Allahdino": 1.1377065424359227,
+   "Banawali": 1.032128186735914,
+   "Chanhu-daro": 1.1377065424359227,
+   "Desalpur": 1.1377065424359227,
+   "Dholavira": 1.62024198697193,
+   "Farmana": 1.1377065424359227,
+   "Ganweriwala": 1.1377065424359227,
+   "Harappa": 0.9433197244365679,
+   "Hulas": 1.1377065424359227,
+   "Kalibangan": 1.169757675325073,
+   "Kanmer": 1.1377065424359227,
+   "Lakhanjo-daro": 1.1377065424359227,
+   "Lothal": 0.9182161679954018,
+   "Mohenjo-daro": 1.3483652316450303,
+   "Nausharo": 1.1377065424359227,
+   "Rakhigarhi": 1.1377065424359227,
+   "Rupar": 1.1377065424359227,
+   "Salut": 1.1377065424359227,
+   "Tarkhanewala-dera": 1.1377065424359227,
+   "Tell Umma": 1.1377065424359227,
+   "Tigrana": 1.1377065424359227
+  },
+  "M169_family": {
+   "Allahdino": 1.0985789511072832,
+   "Banawali": 1.0985789511072832,
+   "Chanhu-daro": 0.9906776791752561,
+   "Desalpur": 1.0985789511072832,
+   "Dholavira": 1.208158326164004,
+   "Farmana": 1.0985789511072832,
+   "Ganweriwala": 1.0985789511072832,
+   "Harappa": 1.0564915034734594,
+   "Hulas": 1.0985789511072832,
+   "Kalibangan": 1.0363482487514983,
+   "Kanmer": 1.0985789511072832,
+   "Lakhanjo-daro": 1.0985789511072832,
+   "Lothal": 1.2541352223443163,
+   "Mohenjo-daro": 1.0336912838408692,
+   "Nausharo": 1.169565078361162,
+   "Rakhigarhi": 1.0985789511072832,
+   "Rupar": 1.0985789511072832,
+   "Salut": 1.0985789511072832,
+   "Tarkhanewala-dera": 1.0985789511072832,
+   "Tell Umma": 1.0985789511072832,
+   "Tigrana": 1.0985789511072832
+  },
+  "M12_M15_family": {
+   "Allahdino": 0.3686446614283671,
+   "Banawali": 0.3686446614283671,
+   "Chanhu-daro": 0.3801935833191321,
+   "Desalpur": 0.3686446614283671,
+   "Dholavira": 0.5263693674388435,
+   "Farmana": 0.3686446614283671,
+   "Ganweriwala": 0.3686446614283671,
+   "Harappa": 0.41176664246291406,
+   "Hulas": 0.3686446614283671,
+   "Kalibangan": 0.3022553231156434,
+   "Kanmer": 0.3686446614283671,
+   "Lakhanjo-daro": 0.3686446614283671,
+   "Lothal": 0.3395264702127592,
+   "Mohenjo-daro": 0.2760647321565625,
+   "Nausharo": 0.3686446614283671,
+   "Rakhigarhi": 0.3686446614283671,
+   "Rupar": 0.3686446614283671,
+   "Salut": 0.3686446614283671,
+   "Tarkhanewala-dera": 0.3686446614283671,
+   "Tell Umma": 0.3686446614283671,
+   "Tigrana": 0.3686446614283671
+  },
+  "M254": {
+   "Allahdino": 0.2870737689122336,
+   "Banawali": 0.2870737689122336,
+   "Chanhu-daro": 0.2969174359064122,
+   "Desalpur": 0.2870737689122336,
+   "Dholavira": 0.30437231341262266,
+   "Farmana": 0.2870737689122336,
+   "Ganweriwala": 0.2870737689122336,
+   "Harappa": 0.0,
+   "Hulas": 0.2870737689122336,
+   "Kalibangan": 0.2870737689122336,
+   "Kanmer": 0.2870737689122336,
+   "Lakhanjo-daro": 0.2870737689122336,
+   "Lothal": 1.1874998607770941,
+   "Mohenjo-daro": 0.31979538113307787,
+   "Nausharo": 0.2870737689122336,
+   "Rakhigarhi": 0.2870737689122336,
+   "Rupar": 0.2870737689122336,
+   "Salut": 0.2870737689122336,
+   "Tarkhanewala-dera": 0.2870737689122336,
+   "Tell Umma": 0.2870737689122336,
+   "Tigrana": 0.2870737689122336
+  },
+  "ticked_fish": {
+   "Allahdino": 1.5297774625393137,
+   "Banawali": 1.937194945577477,
+   "Chanhu-daro": 1.5297774625393137,
+   "Desalpur": 1.5297774625393137,
+   "Dholavira": 1.5556062290193888,
+   "Farmana": 1.5297774625393137,
+   "Ganweriwala": 1.5297774625393137,
+   "Harappa": 1.6869053847034052,
+   "Hulas": 1.5297774625393137,
+   "Kalibangan": 1.816265843684785,
+   "Kanmer": 1.5297774625393137,
+   "Lakhanjo-daro": 1.5297774625393137,
+   "Lothal": 0.0,
+   "Mohenjo-daro": 1.9965077377457527,
+   "Nausharo": 1.5297774625393137,
+   "Rakhigarhi": 1.5297774625393137,
+   "Rupar": 1.5297774625393137,
+   "Salut": 1.5297774625393137,
+   "Tarkhanewala-dera": 1.5297774625393137,
+   "Tell Umma": 1.5297774625393137,
+   "Tigrana": 1.5297774625393137
+  }
+ },
+ "sensitivity_closers": {
+  "jar_M342": {
+   "complete_only": {
+    "OR": 0.987370878433195,
+    "sealing_with": 13,
+    "sealing_n": 31,
+    "expected": 13.09625,
+    "seal_with": 515,
+    "seal_n": 970,
+    "p_enriched": 0.6075981004748813,
+    "p_depleted": 0.5726068482879281,
+    "n_strata": 12,
+    "sites": [
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   },
+   "site_strata": {
+    "OR": 0.7707806945512394,
+    "sealing_with": 45,
+    "sealing_n": 132,
+    "expected": 50.5355,
+    "seal_with": 858,
+    "seal_n": 1890,
+    "p_enriched": 0.9010247438140465,
+    "p_depleted": 0.1417145713571607,
+    "n_strata": 15,
+    "sites": [
+     "Allahdino",
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Farmana",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi",
+     "Salut",
+     "Tarkhanewala-dera"
+    ]
+   },
+   "final_sign_only": {
+    "OR": 0.9611295515686084,
+    "sealing_with": 34,
+    "sealing_n": 127,
+    "expected": 34.757,
+    "seal_with": 511,
+    "seal_n": 1426,
+    "p_enriched": 0.6100974756310922,
+    "p_depleted": 0.4868782804298925,
+    "n_strata": 20,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   }
+  },
+  "M211": {
+   "complete_only": {
+    "OR": 1.0672282489913019,
+    "sealing_with": 3,
+    "sealing_n": 31,
+    "expected": 2.86075,
+    "seal_with": 106,
+    "seal_n": 970,
+    "p_enriched": 0.5701074731317171,
+    "p_depleted": 0.6875781054736316,
+    "n_strata": 12,
+    "sites": [
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   },
+   "site_strata": {
+    "OR": 1.096928888980311,
+    "sealing_with": 12,
+    "sealing_n": 132,
+    "expected": 11.33775,
+    "seal_with": 176,
+    "seal_n": 1890,
+    "p_enriched": 0.47138215446138465,
+    "p_depleted": 0.6740814796300925,
+    "n_strata": 15,
+    "sites": [
+     "Allahdino",
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Farmana",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi",
+     "Salut",
+     "Tarkhanewala-dera"
+    ]
+   },
+   "final_sign_only": {
+    "OR": 1.0302010730198812,
+    "sealing_with": 10,
+    "sealing_n": 127,
+    "expected": 9.7245,
+    "seal_with": 116,
+    "seal_n": 1426,
+    "p_enriched": 0.5263684078980255,
+    "p_depleted": 0.6278430392401899,
+    "n_strata": 20,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   }
+  },
+  "M169_family": {
+   "complete_only": {
+    "OR": 1.2686549129879015,
+    "sealing_with": 5,
+    "sealing_n": 31,
+    "expected": 4.167,
+    "seal_with": 148,
+    "seal_n": 970,
+    "p_enriched": 0.4001499625093727,
+    "p_depleted": 0.7945513621594601,
+    "n_strata": 12,
+    "sites": [
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   },
+   "site_strata": {
+    "OR": 0.7237776215510078,
+    "sealing_with": 13,
+    "sealing_n": 132,
+    "expected": 16.41975,
+    "seal_with": 267,
+    "seal_n": 1890,
+    "p_enriched": 0.8875281179705073,
+    "p_depleted": 0.18145463634091477,
+    "n_strata": 15,
+    "sites": [
+     "Allahdino",
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Farmana",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi",
+     "Salut",
+     "Tarkhanewala-dera"
+    ]
+   },
+   "final_sign_only": {
+    "OR": 0.8663890056981157,
+    "sealing_with": 6,
+    "sealing_n": 127,
+    "expected": 6.61025,
+    "seal_with": 95,
+    "seal_n": 1426,
+    "p_enriched": 0.6923269182704324,
+    "p_depleted": 0.4928767808047988,
+    "n_strata": 20,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   }
+  },
+  "M12_M15_family": {
+   "complete_only": {
+    "OR": 0.3316788054719206,
+    "sealing_with": 1,
+    "sealing_n": 31,
+    "expected": 2.6745,
+    "seal_with": 71,
+    "seal_n": 970,
+    "p_enriched": 0.9467633091727068,
+    "p_depleted": 0.2271932016995751,
+    "n_strata": 12,
+    "sites": [
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   },
+   "site_strata": {
+    "OR": 0.38042614737550146,
+    "sealing_with": 4,
+    "sealing_n": 132,
+    "expected": 8.5365,
+    "seal_with": 131,
+    "seal_n": 1890,
+    "p_enriched": 0.9865033741564608,
+    "p_depleted": 0.04348912771807048,
+    "n_strata": 15,
+    "sites": [
+     "Allahdino",
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Farmana",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi",
+     "Salut",
+     "Tarkhanewala-dera"
+    ]
+   },
+   "final_sign_only": {
+    "OR": 0.41249923803072197,
+    "sealing_with": 4,
+    "sealing_n": 127,
+    "expected": 7.8525,
+    "seal_with": 92,
+    "seal_n": 1426,
+    "p_enriched": 0.9777555611097226,
+    "p_depleted": 0.06798300424893776,
+    "n_strata": 20,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   }
+  },
+  "M254": {
+   "complete_only": {
+    "OR": 0.0,
+    "sealing_with": 0,
+    "sealing_n": 31,
+    "expected": 1.62525,
+    "seal_with": 34,
+    "seal_n": 970,
+    "p_enriched": 1.0,
+    "p_depleted": 0.1564608847788053,
+    "n_strata": 12,
+    "sites": [
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   },
+   "site_strata": {
+    "OR": 0.2408198103934763,
+    "sealing_with": 1,
+    "sealing_n": 132,
+    "expected": 4.018,
+    "seal_with": 54,
+    "seal_n": 1890,
+    "p_enriched": 0.9917520619845038,
+    "p_depleted": 0.04873781554611347,
+    "n_strata": 15,
+    "sites": [
+     "Allahdino",
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Farmana",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi",
+     "Salut",
+     "Tarkhanewala-dera"
+    ]
+   },
+   "final_sign_only": {
+    "OR": 0.33785801324873393,
+    "sealing_with": 1,
+    "sealing_n": 127,
+    "expected": 2.86625,
+    "seal_with": 37,
+    "seal_n": 1426,
+    "p_enriched": 0.968507873031742,
+    "p_depleted": 0.1612096975756061,
+    "n_strata": 20,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   }
+  },
+  "ticked_fish": {
+   "complete_only": {
+    "OR": 0.9374401288737043,
+    "sealing_with": 1,
+    "sealing_n": 31,
+    "expected": 1.044,
+    "seal_with": 34,
+    "seal_n": 970,
+    "p_enriched": 0.6908272931767058,
+    "p_depleted": 0.72831792051987,
+    "n_strata": 12,
+    "sites": [
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro"
+    ]
+   },
+   "site_strata": {
+    "OR": 1.2775898770725556,
+    "sealing_with": 4,
+    "sealing_n": 132,
+    "expected": 3.4745,
+    "seal_with": 58,
+    "seal_n": 1890,
+    "p_enriched": 0.47438140464883777,
+    "p_depleted": 0.7605598600349912,
+    "n_strata": 15,
+    "sites": [
+     "Allahdino",
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Farmana",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi",
+     "Salut",
+     "Tarkhanewala-dera"
+    ]
+   },
+   "final_sign_only": {
+    "OR": 1.7994221367069851,
+    "sealing_with": 3,
+    "sealing_n": 127,
+    "expected": 2.242,
+    "seal_with": 26,
+    "seal_n": 1426,
+    "p_enriched": 0.39590102474381406,
+    "p_depleted": 0.854786303424144,
+    "n_strata": 20,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Lothal",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   }
+  }
+ },
+ "secondary_frame": {
+  "opener": {
+   "OR": 1.5499058664096517,
+   "sealing_with": 32,
+   "sealing_n": 106,
+   "expected": 25.7482,
+   "seal_with": 406,
+   "seal_n": 1385,
+   "p_enriched": 0.05979402059794021,
+   "p_depleted": 0.9645035496450355,
+   "n_strata": 21,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_two_sided": 0.11958804119588042,
+   "no_lothal": {
+    "OR": 1.5924807497414877,
+    "sealing_with": 21,
+    "sealing_n": 72,
+    "expected": 16.469,
+    "seal_with": 386,
+    "seal_n": 1309,
+    "p_enriched": 0.09647588102974257,
+    "p_depleted": 0.9430142464383904,
+    "n_strata": 18,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "p_holm": 0.47835216478352166
+  },
+  "connective": {
+   "OR": 1.8151764863257656,
+   "sealing_with": 55,
+   "sealing_n": 182,
+   "expected": 44.3484,
+   "seal_with": 590,
+   "seal_n": 1563,
+   "p_enriched": 0.0066993300669933005,
+   "p_depleted": 0.9965003499650035,
+   "n_strata": 21,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_two_sided": 0.013398660133986601,
+   "no_lothal": {
+    "OR": 1.9046132107271594,
+    "sealing_with": 32,
+    "sealing_n": 117,
+    "expected": 24.40775,
+    "seal_with": 555,
+    "seal_n": 1472,
+    "p_enriched": 0.015246188452886777,
+    "p_depleted": 0.9925018745313672,
+    "n_strata": 18,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "p_holm": 0.066993300669933
+  },
+  "title": {
+   "OR": 1.2410781673004208,
+   "sealing_with": 34,
+   "sealing_n": 182,
+   "expected": 30.5367,
+   "seal_with": 408,
+   "seal_n": 1563,
+   "p_enriched": 0.22317768223177684,
+   "p_depleted": 0.8448155184481552,
+   "n_strata": 21,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_two_sided": 0.44635536446355367,
+   "no_lothal": {
+    "OR": 1.059050563285852,
+    "sealing_with": 19,
+    "sealing_n": 117,
+    "expected": 18.3915,
+    "seal_with": 390,
+    "seal_n": 1472,
+    "p_enriched": 0.48612846788302927,
+    "p_depleted": 0.6393401649587603,
+    "n_strata": 18,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "p_holm": 1.0
+  },
+  "post_closer": {
+   "OR": 0.8833987217375685,
+   "sealing_with": 9,
+   "sealing_n": 182,
+   "expected": 9.8059,
+   "seal_with": 120,
+   "seal_n": 1563,
+   "p_enriched": 0.6838316168383162,
+   "p_depleted": 0.46325367463253675,
+   "n_strata": 21,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_two_sided": 0.9265073492650735,
+   "no_lothal": {
+    "OR": 0.943435862563487,
+    "sealing_with": 7,
+    "sealing_n": 117,
+    "expected": 7.3335,
+    "seal_with": 115,
+    "seal_n": 1472,
+    "p_enriched": 0.628092976755811,
+    "p_depleted": 0.5423644088977756,
+    "n_strata": 18,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "p_holm": 1.0
+  },
+  "numeral": {
+   "OR": 0.9516733717205761,
+   "sealing_with": 54,
+   "sealing_n": 182,
+   "expected": 55.1587,
+   "seal_with": 641,
+   "seal_n": 1563,
+   "p_enriched": 0.6341365863413658,
+   "p_depleted": 0.44845515448455153,
+   "n_strata": 21,
+   "sites": [
+    "Banawali",
+    "Chanhu-daro",
+    "Desalpur",
+    "Dholavira",
+    "Harappa",
+    "Kalibangan",
+    "Lakhanjo-daro",
+    "Lothal",
+    "Mohenjo-daro",
+    "Nausharo",
+    "Rakhigarhi"
+   ],
+   "p_two_sided": 0.8969103089691031,
+   "no_lothal": {
+    "OR": 1.0942385157194712,
+    "sealing_with": 38,
+    "sealing_n": 117,
+    "expected": 36.49825,
+    "seal_with": 607,
+    "seal_n": 1472,
+    "p_enriched": 0.3926518370407398,
+    "p_depleted": 0.6980754811297176,
+    "n_strata": 18,
+    "sites": [
+     "Banawali",
+     "Chanhu-daro",
+     "Desalpur",
+     "Dholavira",
+     "Harappa",
+     "Kalibangan",
+     "Lakhanjo-daro",
+     "Mohenjo-daro",
+     "Nausharo",
+     "Rakhigarhi"
+    ]
+   },
+   "p_holm": 1.0
+  }
+ },
+ "power": {
+  "jar_M342": {
+   "OR2": {
+    "all_alpha05": 0.92,
+    "all_holm": 0.7233333333333334,
+    "noLothal_alpha05": 0.7466666666666667
+   },
+   "OR3": {
+    "all_alpha05": 1.0,
+    "all_holm": 0.99,
+    "noLothal_alpha05": 0.9966666666666667
+   }
+  },
+  "M211": {
+   "OR2": {
+    "all_alpha05": 0.8466666666666667,
+    "all_holm": 0.5733333333333334,
+    "noLothal_alpha05": 0.74
+   },
+   "OR3": {
+    "all_alpha05": 0.9966666666666667,
+    "all_holm": 0.9666666666666667,
+    "noLothal_alpha05": 0.9866666666666667
+   }
+  },
+  "M169_family": {
+   "OR2": {
+    "all_alpha05": 0.8433333333333334,
+    "all_holm": 0.59,
+    "noLothal_alpha05": 0.7
+   },
+   "OR3": {
+    "all_alpha05": 1.0,
+    "all_holm": 0.9666666666666667,
+    "noLothal_alpha05": 0.9766666666666667
+   }
+  },
+  "ticked_fish": {
+   "OR2": {
+    "all_alpha05": 0.6933333333333334,
+    "all_holm": 0.4,
+    "noLothal_alpha05": 0.5133333333333333
+   },
+   "OR3": {
+    "all_alpha05": 0.9533333333333334,
+    "all_holm": 0.7833333333333333,
+    "noLothal_alpha05": 0.8
+   }
+  }
+ },
+ "die_matches": {
+  "by_site": {
+   "Allahdino": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 6,
+    "seal_seal_recurrence": 0.0
+   },
+   "Banawali": {
+    "sealing_complete": 0,
+    "exact_matches": 0,
+    "sealing_frag3": 1,
+    "frag_matches": 0,
+    "seal_objects_complete": 15,
+    "seal_seal_recurrence": 0.3333333333333333
+   },
+   "Chanhu-daro": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 45,
+    "seal_seal_recurrence": 0.044444444444444446
+   },
+   "Desalpur": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 2,
+    "seal_seal_recurrence": 0.0
+   },
+   "Dholavira": {
+    "sealing_complete": 3,
+    "exact_matches": 0,
+    "sealing_frag3": 15,
+    "frag_matches": 0,
+    "seal_objects_complete": 69,
+    "seal_seal_recurrence": 0.07246376811594203
+   },
+   "Farmana": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 3,
+    "seal_seal_recurrence": 0.0
+   },
+   "Ganweriwala": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 0,
+    "seal_seal_recurrence": null
+   },
+   "Harappa": {
+    "sealing_complete": 2,
+    "exact_matches": 0,
+    "sealing_frag3": 7,
+    "frag_matches": 1,
+    "seal_objects_complete": 277,
+    "seal_seal_recurrence": 0.07581227436823104
+   },
+   "Hulas": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 0,
+    "seal_seal_recurrence": null
+   },
+   "Kalibangan": {
+    "sealing_complete": 4,
+    "exact_matches": 0,
+    "sealing_frag3": 6,
+    "frag_matches": 0,
+    "seal_objects_complete": 42,
+    "seal_seal_recurrence": 0.0
+   },
+   "Kanmer": {
+    "sealing_complete": 0,
+    "exact_matches": 0,
+    "sealing_frag3": 1,
+    "frag_matches": 0,
+    "seal_objects_complete": 1,
+    "seal_seal_recurrence": 0.0
+   },
+   "Lakhanjo-daro": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 1,
+    "frag_matches": 0,
+    "seal_objects_complete": 3,
+    "seal_seal_recurrence": 0.0
+   },
+   "Lothal": {
+    "sealing_complete": 11,
+    "exact_matches": 0,
+    "sealing_frag3": 22,
+    "frag_matches": 1,
+    "seal_objects_complete": 58,
+    "seal_seal_recurrence": 0.034482758620689655
+   },
+   "Mohenjo-daro": {
+    "sealing_complete": 8,
+    "exact_matches": 3,
+    "sealing_frag3": 2,
+    "frag_matches": 0,
+    "seal_objects_complete": 985,
+    "seal_seal_recurrence": 0.09949238578680203
+   },
+   "Rakhigarhi": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 1,
+    "frag_matches": 0,
+    "seal_objects_complete": 2,
+    "seal_seal_recurrence": 0.0
+   },
+   "Rupar": {
+    "sealing_complete": 2,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 0,
+    "seal_seal_recurrence": null
+   },
+   "Tarkhanewala-dera": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 1,
+    "seal_seal_recurrence": 0.0
+   },
+   "Tell Umma": {
+    "sealing_complete": 1,
+    "exact_matches": 0,
+    "sealing_frag3": 0,
+    "frag_matches": 0,
+    "seal_objects_complete": 0,
+    "seal_seal_recurrence": null
+   }
+  },
+  "complete_sealings": 40,
+  "exact_matches": 3,
+  "fragments_3plus": 56,
+  "fragment_matches": 2,
+  "match_rate": 0.052083333333333336,
+  "seal_seal_recurrence_weighted": 0.04942077984098454,
+  "survival_fraction_hat": 0.0028009801138966614,
+  "survival_ci95": [
+   -0.04103194383714086,
+   0.057592135052693554
+  ],
+  "complete_sealings_matching_seal_at_other_site_only": 7
+ }
+}

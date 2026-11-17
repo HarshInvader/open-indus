@@ -1,0 +1,482 @@
+{
+ "n_texts": {
+  "ur3": 5252,
+  "ob": 2763,
+  "oakk": 145,
+  "oa": 109,
+  "oth": 254
+ },
+ "N_cut": 1629,
+ "standardisation": {
+  "mu": [
+   0.47038060159607126,
+   0.5254859893282857,
+   0.2102317912202775,
+   0.2705218961034216,
+   0.22129616190021878,
+   0.407375,
+   0.418982713858839,
+   0.5315826348872627,
+   1.5269181259092905,
+   -1.695623632140778,
+   0.024647714668675588,
+   0.5069605482539408,
+   0.006056606805156491,
+   0.6852757435278983,
+   -1.6339454959196744
+  ],
+  "sd": [
+   0.3333156331255554,
+   0.2814428722052077,
+   0.35971698293866194,
+   0.2728140219729726,
+   0.45960488305324027,
+   0.3538648885874381,
+   0.3610135094886132,
+   0.3630918851126808,
+   1.068669375367674,
+   1.3794054183164481,
+   0.037018790013944,
+   0.32177930394770365,
+   0.015497576823915936,
+   0.6369753445552635,
+   1.2553914846598513
+  ],
+  "features": [
+   "occ",
+   "pos",
+   "first",
+   "last",
+   "len",
+   "ttr100",
+   "top1",
+   "H100",
+   "zipf",
+   "short_ret",
+   "recur",
+   "share",
+   "alone",
+   "maxlift",
+   "minlift"
+  ]
+ },
+ "ref_fingerprints": {
+  "ur3": {
+   "KIN": {
+    "occ": 0.824,
+    "pos": 0.544,
+    "first": 0.0,
+    "last": 0.001,
+    "len": 0.0,
+    "ttr100": 0.018,
+    "top1": 0.984,
+    "H100": 0.013,
+    "zipf": 3.0,
+    "short_ret": -2.996,
+    "recur": 0.007,
+    "share": 0.0,
+    "alone": 0.0,
+    "maxlift": 0.194,
+    "minlift": -0.659
+   },
+   "TITLE": {
+    "occ": 0.752,
+    "pos": 0.582,
+    "first": 0.0,
+    "last": 0.329,
+    "len": 0.353,
+    "ttr100": 0.466,
+    "top1": 0.491,
+    "H100": 0.58,
+    "zipf": 0.953,
+    "short_ret": -0.072,
+    "recur": 0.141,
+    "share": 0.632,
+    "alone": 0.0,
+    "maxlift": 0.155,
+    "minlift": -0.084
+   },
+   "OWNER": {
+    "occ": 0.997,
+    "pos": 0.043,
+    "first": 0.9,
+    "last": 0.002,
+    "len": 0.009,
+    "ttr100": 0.874,
+    "top1": 0.015,
+    "H100": 0.96,
+    "zipf": 0.487,
+    "short_ret": -0.031,
+    "recur": 0.004,
+    "share": 0.567,
+    "alone": 0.018,
+    "maxlift": 0.003,
+    "minlift": -0.019
+   },
+   "FATHER": {
+    "occ": 0.823,
+    "pos": 0.889,
+    "first": 0.0,
+    "last": 0.624,
+    "len": 0.002,
+    "ttr100": 0.874,
+    "top1": 0.019,
+    "H100": 0.958,
+    "zipf": 0.446,
+    "short_ret": -2.996,
+    "recur": 0.007,
+    "share": 0.581,
+    "alone": 0.0,
+    "maxlift": 0.194,
+    "minlift": -0.668
+   },
+   "LORD": {
+    "occ": 0.141,
+    "pos": 0.291,
+    "first": 0.687,
+    "last": 0.265,
+    "len": 0.0,
+    "ttr100": 0.282,
+    "top1": 0.29,
+    "H100": 0.55,
+    "zipf": 1.163,
+    "short_ret": -1.038,
+    "recur": 0.004,
+    "share": 0.749,
+    "alone": 0.004,
+    "maxlift": 1.932,
+    "minlift": -0.668
+   },
+   "EPITHET": {
+    "occ": 0.096,
+    "pos": 0.288,
+    "first": 0.0,
+    "last": 0.085,
+    "len": 1.761,
+    "ttr100": 0.264,
+    "top1": 0.364,
+    "H100": 0.524,
+    "zipf": 1.184,
+    "short_ret": -1.343,
+    "recur": 0.058,
+    "share": 0.922,
+    "alone": 0.0,
+    "maxlift": 1.932,
+    "minlift": -0.511
+   },
+   "SERV": {
+    "occ": 0.18,
+    "pos": 0.884,
+    "first": 0.0,
+    "last": 0.726,
+    "len": 0.0,
+    "ttr100": 0.058,
+    "top1": 0.716,
+    "H100": 0.177,
+    "zipf": 2.734,
+    "short_ret": -2.996,
+    "recur": 0.007,
+    "share": 0.932,
+    "alone": 0.0,
+    "maxlift": 1.639,
+    "minlift": -0.605
+   }
+  },
+  "ob": {
+   "KIN": {
+    "occ": 0.651,
+    "pos": 0.36,
+    "first": 0.0,
+    "last": 0.0,
+    "len": 0.0,
+    "ttr100": 0.034,
+    "top1": 0.938,
+    "H100": 0.055,
+    "zipf": 3.0,
+    "short_ret": -2.996,
+    "recur": 0.01,
+    "share": 0.984,
+    "alone": 0.0,
+    "maxlift": 0.429,
+    "minlift": -2.9
+   },
+   "TITLE": {
+    "occ": 0.187,
+    "pos": 0.5,
+    "first": 0.0,
+    "last": 0.27,
+    "len": 0.806,
+    "ttr100": 0.698,
+    "top1": 0.156,
+    "H100": 0.844,
+    "zipf": 0.929,
+    "short_ret": -1.231,
+    "recur": 0.036,
+    "share": 0.451,
+    "alone": 0.0,
+    "maxlift": 0.624,
+    "minlift": -2.19
+   },
+   "OWNER": {
+    "occ": 0.99,
+    "pos": 0.239,
+    "first": 0.738,
+    "last": 0.219,
+    "len": 0.035,
+    "ttr100": 0.956,
+    "top1": 0.007,
+    "H100": 0.987,
+    "zipf": 0.302,
+    "short_ret": -0.014,
+    "recur": 0.02,
+    "share": 0.335,
+    "alone": 0.063,
+    "maxlift": 0.01,
+    "minlift": -0.048
+   },
+   "FATHER": {
+    "occ": 0.651,
+    "pos": 0.667,
+    "first": 0.0,
+    "last": 0.321,
+    "len": 0.007,
+    "ttr100": 0.952,
+    "top1": 0.015,
+    "H100": 0.985,
+    "zipf": 0.369,
+    "short_ret": -2.996,
+    "recur": 0.01,
+    "share": 0.428,
+    "alone": 0.0,
+    "maxlift": 0.429,
+    "minlift": -2.9
+   },
+   "CONJ": {
+    "occ": 0.046,
+    "pos": 0.725,
+    "first": 0.0,
+    "last": 0.013,
+    "len": 0.0,
+    "ttr100": 0.01,
+    "top1": 1.0,
+    "H100": 0.0,
+    "zipf": 3.0,
+    "short_ret": -2.996,
+    "recur": 0.0,
+    "share": 0.0,
+    "alone": 0.0,
+    "maxlift": 0.987,
+    "minlift": -2.996
+   },
+   "SERV": {
+    "occ": 0.459,
+    "pos": 0.728,
+    "first": 0.0,
+    "last": 0.048,
+    "len": 0.033,
+    "ttr100": 0.07,
+    "top1": 0.742,
+    "H100": 0.218,
+    "zipf": 2.4,
+    "short_ret": -2.996,
+    "recur": 0.001,
+    "share": 0.194,
+    "alone": 0.0,
+    "maxlift": 0.724,
+    "minlift": -2.996
+   },
+   "LORD": {
+    "occ": 0.468,
+    "pos": 0.899,
+    "first": 0.066,
+    "last": 0.807,
+    "len": 0.0,
+    "ttr100": 0.544,
+    "top1": 0.069,
+    "H100": 0.808,
+    "zipf": 0.93,
+    "short_ret": -2.598,
+    "recur": 0.079,
+    "share": 0.539,
+    "alone": 0.008,
+    "maxlift": 0.724,
+    "minlift": -2.996
+   },
+   "EPITHET": {
+    "occ": 0.055,
+    "pos": 0.751,
+    "first": 0.0,
+    "last": 0.618,
+    "len": 0.535,
+    "ttr100": 0.388,
+    "top1": 0.236,
+    "H100": 0.677,
+    "zipf": 0.533,
+    "short_ret": -1.025,
+    "recur": 0.0,
+    "share": 0.796,
+    "alone": 0.0,
+    "maxlift": 0.987,
+    "minlift": -2.907
+   },
+   "SEAL_OF": {
+    "occ": 0.206,
+    "pos": 0.017,
+    "first": 0.973,
+    "last": 0.0,
+    "len": 0.0,
+    "ttr100": 0.03,
+    "top1": 0.663,
+    "H100": 0.169,
+    "zipf": 3.0,
+    "short_ret": 1.192,
+    "recur": 0.009,
+    "share": 0.0,
+    "alone": 0.003,
+    "maxlift": 0.001,
+    "minlift": -2.996
+   }
+  }
+ },
+ "C1": {
+  "hit_mean": {
+   "ur3->ob": 0.5285714285714285,
+   "ob->ur3": 0.5321428571428571,
+   "ur3->oth": 0.85
+  },
+  "random_expect": 0.10717857142857141,
+  "ur3_slots": [
+   "EPITHET",
+   "FATHER",
+   "KIN",
+   "LORD",
+   "OWNER",
+   "SERV",
+   "TITLE"
+  ],
+  "ob_slots": [
+   "CONJ",
+   "EPITHET",
+   "FATHER",
+   "KIN",
+   "LORD",
+   "OWNER",
+   "SEAL_OF",
+   "SERV",
+   "TITLE"
+  ],
+  "colperm_p_meanDist": 0.0,
+  "meanDist_obs": 0.9247729577149847,
+  "meanDist_null_mean": 1.160103881437755,
+  "pair_freq": {
+   "ur3->ob:EPITHET": {
+    "TITLE": 40
+   },
+   "ur3->ob:FATHER": {
+    "FATHER": 40
+   },
+   "ur3->ob:KIN": {
+    "KIN": 38,
+    "CONJ": 1,
+    "SERV": 1
+   },
+   "ur3->ob:LORD": {
+    "EPITHET": 40
+   },
+   "ur3->ob:OWNER": {
+    "OWNER": 40
+   },
+   "ur3->ob:SERV": {
+    "CONJ": 10,
+    "SERV": 30
+   },
+   "ur3->ob:TITLE": {
+    "LORD": 40
+   },
+   "ob->ur3:TITLE": {
+    "EPITHET": 40
+   },
+   "ob->ur3:FATHER": {
+    "FATHER": 40
+   },
+   "ob->ur3:KIN": {
+    "KIN": 37,
+    "SERV": 1
+   },
+   "ob->ur3:EPITHET": {
+    "LORD": 40
+   },
+   "ob->ur3:OWNER": {
+    "OWNER": 40
+   },
+   "ob->ur3:LORD": {
+    "TITLE": 40
+   },
+   "ur3->oth:EPITHET": {
+    "EPITHET": 40
+   },
+   "ur3->oth:FATHER": {
+    "FATHER": 40
+   },
+   "ur3->oth:KIN": {
+    "KIN": 39,
+    "SEAL_OF": 1
+   },
+   "ur3->oth:LORD": {
+    "SEAL_OF": 39,
+    "SERV": 1
+   },
+   "ur3->oth:OWNER": {
+    "OWNER": 40
+   },
+   "ur3->oth:SERV": {
+    "SERV": 39,
+    "KIN": 1
+   },
+   "ur3->oth:TITLE": {
+    "TITLE": 40
+   },
+   "ob->ur3:SERV": {
+    "SERV": 23,
+    "KIN": 1
+   }
+  },
+  "dist_correct_median": 1.0222230618235049,
+  "dist_wrong_median": 1.51292323265208,
+  "dist_wrong_q05": 0.9901810292742727,
+  "dist_correct_q90": 1.3161225503961347,
+  "tau_precision80": 0.8027952911297357,
+  "slot_reliability": {
+   "EPITHET": 0.3333333333333333,
+   "FATHER": 1.0,
+   "KIN": 0.9662280701754385,
+   "LORD": 0.0,
+   "OWNER": 1.0,
+   "SERV": 0.8944444444444445,
+   "TITLE": 0.3333333333333333
+  }
+ },
+ "C2": {
+  "k4": {
+   "hit_mean": 0.24000000000000005,
+   "token_weighted_hit": 0.2644901141150764,
+   "random_expect": 0.10984000000000001,
+   "class_purity": 0.4327298720905395,
+   "p_hit_gt_random(sign)": 0.0
+  },
+  "k6": {
+   "hit_mean": 0.38571428571428573,
+   "token_weighted_hit": 0.45085112726409554,
+   "random_expect": 0.11175714285714282,
+   "class_purity": 0.5011492197464952,
+   "p_hit_gt_random(sign)": 0.0
+  },
+  "k8": {
+   "hit_mean": 0.3354166666666666,
+   "token_weighted_hit": 0.6463080087645836,
+   "random_expect": 0.10954444444444444,
+   "class_purity": 0.5591926719086739,
+   "p_hit_gt_random(sign)": 0.0
+  }
+ }
+}

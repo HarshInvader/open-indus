@@ -1,0 +1,1708 @@
+{
+ "area": "toponyms",
+ "question": "Do some Indus sequences name places (Jemdet Nasr city-seal test)?",
+ "prereg": "docs/prereg/toponyms.md",
+ "frozen_predictions": "docs/prereg/2026-11-15_toponym_predictions.md",
+ "alpha": 0.00625,
+ "verdict": {
+  "toponym_travel": "refuted at stated power (no corpus passes T1+T2; travel O/E 0.92 ICIT half B, 0.93 full data)",
+  "local_vocabulary": "supported in ICIT (T1 p=0.0005), not replicated in M77 held-out (p=0.26)",
+  "reverse": "refuted (ICIT p=0.96, M77 p=0.96)",
+  "signboard": "no Dholavira enrichment (38 vs 39.1, p=0.61; exploratory)"
+ },
+ "confirmatory": {
+  "ICIT": {
+   "discovery": {
+    "n_units": 1719,
+    "n_features": 417,
+    "n_tests": 631
+   },
+   "T1_enrich": {
+    "stat": 20.10796740646574,
+    "O": 56,
+    "E": 35.89203259353426,
+    "p": 0.0004997501249375312,
+    "null_mean": -0.058532593534261164,
+    "null_95": 9.10796740646574,
+    "n_cands": 25,
+    "n_attested": 25,
+    "ratio": 1.5602348474989425
+   },
+   "T1_power": {
+    "1.5": 1.0,
+    "2.0": 1.0,
+    "3.0": 1.0
+   },
+   "T2_travel_primary": {
+    "S1": -5.945155778570966,
+    "S2": 1.2029775754734575,
+    "O_off": 66.0,
+    "E_off": 71.94515577857098,
+    "O_home": 3.0,
+    "E_home": 4.161489321295131,
+    "p_S1": 0.8164367126574685,
+    "p_S2": 0.25934813037392523,
+    "null_S1_mean": 0.01104422142903395,
+    "null_S1_95": 12.05484422142903,
+    "null_S2_mean": 0.006330375805198694,
+    "null_S2_95": 2.6139008197630713,
+    "n_cands": 25,
+    "n_off_tokens": 1414,
+    "n_home_tokens": 58
+   },
+   "T2_travel_broad": {
+    "S1": -71.81533964891995,
+    "S2": 5.13144820892378,
+    "O_off": 437.0,
+    "E_off": 508.81533964892,
+    "O_home": 8.0,
+    "E_home": 17.59997409114528,
+    "p_S1": 1.0,
+    "p_S2": 0.01739652069586083,
+    "null_S1_mean": 0.2548603510800639,
+    "null_S1_95": 24.184660351080066,
+    "null_S2_mean": -0.013580655247449867,
+    "null_S2_95": 4.093389411548829,
+    "n_cands": 25,
+    "n_off_tokens": 1414,
+    "n_home_tokens": 58
+   },
+   "T2_power_primary": {
+    "2": 0.4,
+    "3": 0.8333333333333334,
+    "5": 1.0
+   },
+   "T3_matched_null_primary": {
+    "S1": -5.945155778570966,
+    "S2": 1.2029775754734575,
+    "p_S1": 0.7606196901549226,
+    "p_S2": 0.1454272863568216,
+    "null_S1_mean": -2.6876550122529386,
+    "null_S2_mean": 0.30961093463725936
+   },
+   "T2s_small_sites_primary": {
+    "S1": -5.350094954201258,
+    "S2": 1.6165512946817162,
+    "O_off": 65.0,
+    "E_off": 70.35009495420127,
+    "O_home": 2.0,
+    "E_home": 3.813175305355465,
+    "p_S1": 0.7956408718256349,
+    "p_S2": 0.16656668666266747,
+    "null_S1_mean": 0.011705045798742299,
+    "null_S1_95": 11.649905045798743,
+    "null_S2_mean": 0.0068907616801242595,
+    "null_S2_95": 2.515572319685264,
+    "n_cands": 17,
+    "n_off_tokens": 1388,
+    "n_home_tokens": 33
+   },
+   "T4_reverse": {
+    "count": 7,
+    "null_mean": 12.966,
+    "null_95": 19.0,
+    "p": 0.9640179910044977
+   }
+  },
+  "M77": {
+   "discovery": {
+    "n_units": 1558,
+    "n_features": 558,
+    "n_tests": 835
+   },
+   "T1_enrich": {
+    "stat": 2.1764668252629122,
+    "O": 9,
+    "E": 6.823533174737088,
+    "p": 0.2593703148425787,
+    "null_mean": -3.317473708778884e-05,
+    "null_95": 5.176466825262912,
+    "n_cands": 33,
+    "n_attested": 25,
+    "ratio": 1.3189647898717474
+   },
+   "T1_power": {
+    "1.5": 0.13333333333333333,
+    "2.0": 0.7333333333333333,
+    "3.0": 1.0
+   },
+   "T2_travel_primary": {
+    "S1": -3.6354623083227686,
+    "S2": 1.2250216798829798,
+    "O_off": 11.0,
+    "E_off": 14.63546230832277,
+    "O_home": 0.0,
+    "E_home": 1.5155993431855501,
+    "p_S1": 0.8400319936012798,
+    "p_S2": 0.08998200359928014,
+    "null_S1_mean": 0.15633769167723113,
+    "null_S1_95": 7.3645376916772305,
+    "null_S2_mean": -0.014634841856150604,
+    "null_S2_95": 1.389876752346748,
+    "n_cands": 33,
+    "n_off_tokens": 138,
+    "n_home_tokens": 9
+   },
+   "T2_travel_broad": {
+    "S1": -7.283131948220387,
+    "S2": 2.0326880327453227,
+    "O_off": 22.0,
+    "E_off": 29.28313194822038,
+    "O_home": 0.0,
+    "E_home": 3.0788509064371135,
+    "p_S1": 0.9474105178964207,
+    "p_S2": 0.033993201359728054,
+    "null_S1_mean": 0.03786805177961245,
+    "null_S1_95": 7.716868051779613,
+    "null_S2_mean": -0.0190898658054017,
+    "null_S2_95": 1.7931952791221397,
+    "n_cands": 33,
+    "n_off_tokens": 138,
+    "n_home_tokens": 9
+   },
+   "T2_power_primary": {
+    "2": 0.26666666666666666,
+    "3": 0.7333333333333333,
+    "5": 1.0
+   },
+   "T3_matched_null_primary": {
+    "S1": -3.6354623083227686,
+    "S2": 1.2250216798829798,
+    "p_S1": 0.889055472263868,
+    "p_S2": 0.04597701149425287,
+    "null_S1_mean": 1.2220319303708616,
+    "null_S2_mean": 0.06911550996864217
+   },
+   "T2s_small_sites_primary": {
+    "S1": -2.5162913238668096,
+    "S2": 1.093082375663883,
+    "O_off": 11.0,
+    "E_off": 13.51629132386681,
+    "O_home": 0.0,
+    "E_home": 1.277504105090312,
+    "p_S1": 0.7696460707858428,
+    "p_S2": 0.09738052389522095,
+    "null_S1_mean": 0.13750867613318987,
+    "null_S1_95": 7.4837086761331895,
+    "null_S2_mean": -0.0035241460752475653,
+    "null_S2_95": 1.2579374481276508,
+    "n_cands": 19,
+    "n_off_tokens": 120,
+    "n_home_tokens": 8
+   },
+   "T4_reverse": {
+    "count": 12,
+    "null_mean": 19.397,
+    "null_95": 28.0,
+    "p": 0.9600199900049975
+   }
+  }
+ },
+ "candidates": {
+  "ICIT": [
+   {
+    "feature": "W031 W032",
+    "home": "Chanhu-daro",
+    "obs": 5,
+    "exp": 0.13,
+    "ratio": 38.62,
+    "p": 0.0004997501249375312
+   },
+   {
+    "feature": "W240 W705 W033",
+    "home": "Chanhu-daro",
+    "obs": 3,
+    "exp": 0.16,
+    "ratio": 18.69,
+    "p": 0.0004997501249375312
+   },
+   {
+    "feature": "W240 W705",
+    "home": "Chanhu-daro",
+    "obs": 3,
+    "exp": 0.19,
+    "ratio": 15.67,
+    "p": 0.0009995002498750624
+   },
+   {
+    "feature": "W031",
+    "home": "Chanhu-daro",
+    "obs": 10,
+    "exp": 2.69,
+    "ratio": 3.72,
+    "p": 0.0009995002498750624
+   },
+   {
+    "feature": "W003 W900",
+    "home": "Harappa",
+    "obs": 6,
+    "exp": 1.7,
+    "ratio": 3.52,
+    "p": 0.00399800099950025
+   },
+   {
+    "feature": "W032",
+    "home": "Chanhu-daro",
+    "obs": 8,
+    "exp": 2.82,
+    "ratio": 2.84,
+    "p": 0.004997501249375313
+   },
+   {
+    "feature": "W625",
+    "home": "Dholavira",
+    "obs": 3,
+    "exp": 0.46,
+    "ratio": 6.56,
+    "p": 0.0079960019990005
+   },
+   {
+    "feature": "W416",
+    "home": "Dholavira",
+    "obs": 5,
+    "exp": 1.31,
+    "ratio": 3.81,
+    "p": 0.008995502248875561
+   },
+   {
+    "feature": "W630",
+    "home": "Dholavira",
+    "obs": 4,
+    "exp": 1.28,
+    "ratio": 3.12,
+    "p": 0.015492253873063468
+   },
+   {
+    "feature": "W798 W240",
+    "home": "Harappa",
+    "obs": 5,
+    "exp": 1.97,
+    "ratio": 2.53,
+    "p": 0.015492253873063468
+   },
+   {
+    "feature": "W240",
+    "home": "Chanhu-daro",
+    "obs": 7,
+    "exp": 2.73,
+    "ratio": 2.56,
+    "p": 0.017491254372813594
+   },
+   {
+    "feature": "W806 W154",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.76,
+    "ratio": 3.96,
+    "p": 0.022988505747126436
+   },
+   {
+    "feature": "W240 W231",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.76,
+    "ratio": 3.96,
+    "p": 0.02448775612193903
+   },
+   {
+    "feature": "W927",
+    "home": "Mohenjo-daro",
+    "obs": 5,
+    "exp": 2.48,
+    "ratio": 2.02,
+    "p": 0.025487256371814093
+   },
+   {
+    "feature": "W575",
+    "home": "Lothal",
+    "obs": 5,
+    "exp": 1.86,
+    "ratio": 2.69,
+    "p": 0.026986506746626688
+   },
+   {
+    "feature": "W527",
+    "home": "Lothal",
+    "obs": 4,
+    "exp": 1.23,
+    "ratio": 3.26,
+    "p": 0.028985507246376812
+   },
+   {
+    "feature": "W550 W527",
+    "home": "Lothal",
+    "obs": 3,
+    "exp": 0.68,
+    "ratio": 4.39,
+    "p": 0.03248375812093953
+   },
+   {
+    "feature": "W017 W585 W740",
+    "home": "Harappa",
+    "obs": 4,
+    "exp": 1.33,
+    "ratio": 3.02,
+    "p": 0.033483258370814596
+   },
+   {
+    "feature": "W060",
+    "home": "Nausharo",
+    "obs": 3,
+    "exp": 0.78,
+    "ratio": 3.83,
+    "p": 0.03398300849575212
+   },
+   {
+    "feature": "W740",
+    "home": "Lakhanjo-daro",
+    "obs": 5,
+    "exp": 2.24,
+    "ratio": 2.24,
+    "p": 0.034482758620689655
+   },
+   {
+    "feature": "W920 W060",
+    "home": "Chanhu-daro",
+    "obs": 3,
+    "exp": 0.75,
+    "ratio": 4.0,
+    "p": 0.03948025987006497
+   },
+   {
+    "feature": "W390",
+    "home": "Chanhu-daro",
+    "obs": 6,
+    "exp": 2.53,
+    "ratio": 2.37,
+    "p": 0.04047976011994003
+   },
+   {
+    "feature": "W415 W100 W740",
+    "home": "Mohenjo-daro",
+    "obs": 4,
+    "exp": 1.91,
+    "ratio": 2.1,
+    "p": 0.04097951024487756
+   },
+   {
+    "feature": "W032 W590 W390",
+    "home": "Lothal",
+    "obs": 3,
+    "exp": 1.0,
+    "ratio": 3.01,
+    "p": 0.04147926036981509
+   },
+   {
+    "feature": "W003 W900 W740",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.95,
+    "ratio": 3.17,
+    "p": 0.046476761619190406
+   }
+  ],
+  "M77": [
+   {
+    "feature": "M93",
+    "home": "Chanhudaro",
+    "obs": 8,
+    "exp": 0.3,
+    "ratio": 26.82,
+    "p": 0.0004997501249375312
+   },
+   {
+    "feature": "M258 M347",
+    "home": "Lothal",
+    "obs": 4,
+    "exp": 0.51,
+    "ratio": 7.91,
+    "p": 0.0009995002498750624
+   },
+   {
+    "feature": "M99 M175",
+    "home": "Kalibangan",
+    "obs": 3,
+    "exp": 0.28,
+    "ratio": 10.77,
+    "p": 0.0029985007496251873
+   },
+   {
+    "feature": "M258",
+    "home": "Lothal",
+    "obs": 4,
+    "exp": 0.64,
+    "ratio": 6.27,
+    "p": 0.0034982508745627187
+   },
+   {
+    "feature": "M67 M336",
+    "home": "Chanhudaro",
+    "obs": 3,
+    "exp": 0.34,
+    "ratio": 8.85,
+    "p": 0.00399800099950025
+   },
+   {
+    "feature": "M178 M389 M15",
+    "home": "Harappa",
+    "obs": 8,
+    "exp": 3.21,
+    "ratio": 2.49,
+    "p": 0.005997001499250375
+   },
+   {
+    "feature": "M286 M99",
+    "home": "Lothal",
+    "obs": 3,
+    "exp": 0.55,
+    "ratio": 5.48,
+    "p": 0.009995002498750625
+   },
+   {
+    "feature": "M389 M15",
+    "home": "Harappa",
+    "obs": 8,
+    "exp": 3.43,
+    "ratio": 2.33,
+    "p": 0.010494752623688156
+   },
+   {
+    "feature": "M178 M389",
+    "home": "Harappa",
+    "obs": 8,
+    "exp": 3.46,
+    "ratio": 2.31,
+    "p": 0.010494752623688156
+   },
+   {
+    "feature": "M341",
+    "home": "Kalibangan",
+    "obs": 5,
+    "exp": 1.52,
+    "ratio": 3.28,
+    "p": 0.01199400299850075
+   },
+   {
+    "feature": "M99 M389",
+    "home": "Harappa",
+    "obs": 8,
+    "exp": 3.57,
+    "ratio": 2.24,
+    "p": 0.013993003498250875
+   },
+   {
+    "feature": "M341 M342",
+    "home": "Kalibangan",
+    "obs": 3,
+    "exp": 0.57,
+    "ratio": 5.29,
+    "p": 0.01649175412293853
+   },
+   {
+    "feature": "M267 M99 M87",
+    "home": "Chanhudaro",
+    "obs": 3,
+    "exp": 0.57,
+    "ratio": 5.29,
+    "p": 0.01649175412293853
+   },
+   {
+    "feature": "M342 M1",
+    "home": "Kalibangan",
+    "obs": 6,
+    "exp": 2.27,
+    "ratio": 2.64,
+    "p": 0.018490754622688656
+   },
+   {
+    "feature": "M99 M87",
+    "home": "Chanhudaro",
+    "obs": 4,
+    "exp": 1.11,
+    "ratio": 3.6,
+    "p": 0.01899050474762619
+   },
+   {
+    "feature": "M12",
+    "home": "Chanhudaro",
+    "obs": 5,
+    "exp": 1.68,
+    "ratio": 2.98,
+    "p": 0.022488755622188907
+   },
+   {
+    "feature": "M12",
+    "home": "Kalibangan",
+    "obs": 5,
+    "exp": 1.86,
+    "ratio": 2.68,
+    "p": 0.02848575712143928
+   },
+   {
+    "feature": "M99 M336",
+    "home": "Harappa",
+    "obs": 5,
+    "exp": 2.01,
+    "ratio": 2.49,
+    "p": 0.028985507246376812
+   },
+   {
+    "feature": "M286",
+    "home": "Lothal",
+    "obs": 3,
+    "exp": 0.75,
+    "ratio": 4.02,
+    "p": 0.029985007496251874
+   },
+   {
+    "feature": "M124 M169",
+    "home": "Harappa",
+    "obs": 5,
+    "exp": 2.01,
+    "ratio": 2.49,
+    "p": 0.029985007496251874
+   },
+   {
+    "feature": "M102 M287",
+    "home": "Harappa",
+    "obs": 6,
+    "exp": 2.68,
+    "ratio": 2.24,
+    "p": 0.029985007496251874
+   },
+   {
+    "feature": "M267 M99 M389",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.89,
+    "ratio": 3.36,
+    "p": 0.031484257871064465
+   },
+   {
+    "feature": "M194 M342",
+    "home": "Kalibangan",
+    "obs": 3,
+    "exp": 0.74,
+    "ratio": 4.08,
+    "p": 0.031984007996002
+   },
+   {
+    "feature": "M254",
+    "home": "Lothal",
+    "obs": 8,
+    "exp": 3.89,
+    "ratio": 2.06,
+    "p": 0.03248375812093953
+   },
+   {
+    "feature": "M204 M112 M342",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.89,
+    "ratio": 3.36,
+    "p": 0.03298350824587706
+   },
+   {
+    "feature": "M389 M70",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.89,
+    "ratio": 3.36,
+    "p": 0.03298350824587706
+   },
+   {
+    "feature": "M99 M102",
+    "home": "Harappa",
+    "obs": 6,
+    "exp": 2.68,
+    "ratio": 2.24,
+    "p": 0.03398300849575212
+   },
+   {
+    "feature": "M402 M99",
+    "home": "Lothal",
+    "obs": 3,
+    "exp": 0.81,
+    "ratio": 3.69,
+    "p": 0.03648175912043978
+   },
+   {
+    "feature": "M391 M252",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.89,
+    "ratio": 3.36,
+    "p": 0.037481259370314844
+   },
+   {
+    "feature": "M412 M123",
+    "home": "Harappa",
+    "obs": 3,
+    "exp": 0.89,
+    "ratio": 3.36,
+    "p": 0.038980509745127435
+   },
+   {
+    "feature": "M186",
+    "home": "Lothal",
+    "obs": 5,
+    "exp": 2.11,
+    "ratio": 2.37,
+    "p": 0.04097951024487756
+   },
+   {
+    "feature": "M336 M89 M249",
+    "home": "Mohenjodaro",
+    "obs": 4,
+    "exp": 1.81,
+    "ratio": 2.21,
+    "p": 0.041979010494752625
+   },
+   {
+    "feature": "M175",
+    "home": "Kalibangan",
+    "obs": 4,
+    "exp": 1.42,
+    "ratio": 2.83,
+    "p": 0.044977511244377814
+   }
+  ]
+ },
+ "signboard": {
+  "stat": -1.056862528192911,
+  "O": 38,
+  "E": 39.05686252819291,
+  "p": 0.6094781043791242,
+  "p_depleted": 0.4647070585882823,
+  "per_sign": [
+   {
+    "sign": "W031",
+    "n": 219,
+    "O_dholavira": 13,
+    "E": 11.71
+   },
+   {
+    "sign": "W388",
+    "n": 53,
+    "O_dholavira": 2,
+    "E": 3.49
+   },
+   {
+    "sign": "W611",
+    "n": 5,
+    "O_dholavira": 1,
+    "E": 0.27
+   },
+   {
+    "sign": "W645",
+    "n": 18,
+    "O_dholavira": 0,
+    "E": 0.62
+   },
+   {
+    "sign": "W798",
+    "n": 128,
+    "O_dholavira": 7,
+    "E": 8.06
+   },
+   {
+    "sign": "W820",
+    "n": 203,
+    "O_dholavira": 13,
+    "E": 12.71
+   },
+   {
+    "sign": "W821",
+    "n": 8,
+    "O_dholavira": 0,
+    "E": 0.43
+   },
+   {
+    "sign": "W850",
+    "n": 35,
+    "O_dholavira": 2,
+    "E": 1.76
+   }
+  ],
+  "bigrams_elsewhere": {
+   "W820 W611": [
+    [
+     "Lothal",
+     "other"
+    ]
+   ],
+   "W611 W388": [],
+   "W388 W820": [
+    [
+     "Harappa",
+     "pottery"
+    ]
+   ],
+   "W820 W850": [],
+   "W850 W645": [],
+   "W645 W031": [
+    [
+     "Mohenjo-daro",
+     "other"
+    ]
+   ],
+   "W031 W821": [],
+   "W821 W798": []
+  }
+ },
+ "exploratory": {
+  "T1_no_numerals": {
+   "stat": 9.542361221463002,
+   "O": 40,
+   "E": 30.457638778536996,
+   "p": 0.030984507746126936,
+   "null_mean": -0.04063877853699858,
+   "null_95": 7.542361221463002,
+   "n_cands": 20,
+   "n_attested": 20,
+   "ratio": 1.3132994415899157
+  },
+  "T1_no_chanhudaro": {
+   "stat": 7.344991900171267,
+   "O": 33,
+   "E": 25.655008099828734,
+   "p": 0.06046976511744128,
+   "null_mean": 0.019991900171266737,
+   "null_95": 7.344991900171267,
+   "n_cands": 17,
+   "n_attested": 17,
+   "ratio": 1.286298560951158
+  },
+  "T1_no_numerals_no_chanhudaro": {
+   "stat": 7.421182376361743,
+   "O": 33,
+   "E": 25.57881762363826,
+   "p": 0.05897051474262868,
+   "null_mean": 0.013682376361742847,
+   "null_95": 7.421182376361743,
+   "n_cands": 16,
+   "n_attested": 16,
+   "ratio": 1.29013000075123
+  },
+  "fulldata_travel_primary": {
+   "S1": -13.687767212885861,
+   "S2": 3.382151137136077,
+   "O_off": 171.0,
+   "E_off": 184.68776721288583,
+   "O_home": 16.0,
+   "E_home": 18.749521634413068,
+   "p_S1": 0.8804239152169566,
+   "p_S2": 0.15616876624675066,
+   "null_S1_mean": 0.08883278711413513,
+   "null_S1_95": 20.312232787114127,
+   "null_S2_mean": -0.03282753626695921,
+   "null_S2_95": 5.378119664235265,
+   "n_cands": 56,
+   "n_off_tokens": 3863,
+   "n_home_tokens": 278
+  },
+  "fulldata_travel_broad": {
+   "S1": -191.32222500138698,
+   "S2": 22.139892603272965,
+   "O_off": 1178.0,
+   "E_off": 1369.3222250013876,
+   "O_home": 62.0,
+   "E_home": 114.9561398527105,
+   "p_S1": 1.0,
+   "p_S2": 0.0001999600079984003,
+   "null_S1_mean": 0.2411749986130277,
+   "null_S1_95": 44.67777499861304,
+   "null_S2_mean": 0.011531217867439728,
+   "null_S2_95": 9.461251143349081,
+   "n_cands": 56,
+   "n_off_tokens": 3863,
+   "n_home_tokens": 278
+  },
+  "fulldata_travel_power_primary": {
+   "2": 0.9333333333333333,
+   "3": 1.0,
+   "5": 1.0
+  },
+  "fulldata_offhome_sealings": [
+   {
+    "feature": "W111",
+    "home": "Nausharo",
+    "n_home": 4,
+    "n_off": 11,
+    "mob_home": 1,
+    "E_home": 0.22,
+    "mob_off": 1,
+    "E_off": 1.43,
+    "off_sites": {
+     "Harappa:pottery": 1,
+     "Harappa:seal": 1,
+     "Kot-Diji:pottery": 1,
+     "Lothal:seal": 2,
+     "Lothal:sealing": 1,
+     "Mohenjo-daro:seal": 4,
+     "Dholavira:seal": 1
+    }
+   },
+   {
+    "feature": "W031",
+    "home": "Chanhu-daro",
+    "n_home": 16,
+    "n_off": 211,
+    "mob_home": 0,
+    "E_home": 0.24,
+    "mob_off": 6,
+    "E_off": 10.76,
+    "off_sites": {
+     "Banawali:other": 1,
+     "Dholavira:tablet": 3,
+     "Dholavira:other": 1,
+     "Dholavira:seal": 9,
+     "Harappa:pottery": 14,
+     "Harappa:tablet": 28,
+     "Harappa:other": 2,
+     "Harappa:seal": 23,
+     "Kalibangan:seal": 4,
+     "Kalibangan:sealing": 1,
+     "Kot-Diji:pottery": 1,
+     "Lothal:seal": 5,
+     "Lothal:sealing": 3,
+     "Lothal:pottery": 1,
+     "Mohenjo-daro:pottery": 9,
+     "Mohenjo-daro:seal": 76,
+     "Mohenjo-daro:tablet": 4,
+     "Mohenjo-daro:other": 5,
+     "Mohenjo-daro:sealing": 1,
+     "Susa:seal": 1,
+     "Kanmer:other": 2,
+     "Dholavira:sealing": 1,
+     "Karzakan:seal": 1,
+     "Saar:seal": 1,
+     "Janabiyah:seal": 1,
+     "Rahman-deri:seal": 1,
+     "Kalibangan:pottery": 4,
+     "Nausharo:pottery": 5,
+     "Nausharo:seal": 1,
+     "Kanmer:seal": 1,
+     "Banawali:seal": 1
+    }
+   },
+   {
+    "feature": "W090",
+    "home": "Ur",
+    "n_home": 3,
+    "n_off": 139,
+    "mob_home": 0,
+    "E_home": 0.0,
+    "mob_off": 8,
+    "E_off": 7.26,
+    "off_sites": {
+     "Banawali:seal": 1,
+     "Banawali:tablet": 1,
+     "Chanhu-daro:seal": 1,
+     "Dholavira:sealing": 3,
+     "Failaka:seal": 2,
+     "Harappa:other": 1,
+     "Harappa:pottery": 6,
+     "Harappa:tablet": 23,
+     "Harappa:seal": 14,
+     "Harappa:sealing": 2,
+     "Kalibangan:seal": 2,
+     "Kalibangan:sealing": 1,
+     "Kalibangan:other": 1,
+     "Lothal:seal": 4,
+     "Lothal:sealing": 2,
+     "Lothal:tablet": 1,
+     "Mohenjo-daro:seal": 50,
+     "Mohenjo-daro:other": 3,
+     "Mohenjo-daro:tablet": 7,
+     "Mohenjo-daro:copper": 1,
+     "Nausharo:seal": 1,
+     "Qala'at al-Bahrain:seal": 1,
+     "Susa:seal": 1,
+     "Dholavira:seal": 7,
+     "Gola Dhoro (Bagasra):seal": 1,
+     "Nausharo:pottery": 2
+    }
+   },
+   {
+    "feature": "W861",
+    "home": "Shikarpur",
+    "n_home": 3,
+    "n_off": 194,
+    "mob_home": 0,
+    "E_home": 0.0,
+    "mob_off": 11,
+    "E_off": 11.24,
+    "off_sites": {
+     "Allahdino:other": 1,
+     "Bakkar Buthi:pottery": 1,
+     "Banawali:seal": 1,
+     "Chanhu-daro:seal": 5,
+     "Dholavira:seal": 8,
+     "Gola Dhoro (Bagasra):seal": 1,
+     "Harappa:seal": 25,
+     "Harappa:pottery": 3,
+     "Harappa:tablet": 18,
+     "Harappa:sealing": 1,
+     "Harappa:other": 1,
+     "Kalibangan:seal": 4,
+     "Kalibangan:sealing": 4,
+     "Lothal:seal": 9,
+     "Lothal:sealing": 4,
+     "Lothal:pottery": 1,
+     "Mohenjo-daro:pottery": 2,
+     "Mohenjo-daro:seal": 89,
+     "Mohenjo-daro:other": 3,
+     "Mohenjo-daro:tablet": 3,
+     "Mohenjo-daro:copper": 1,
+     "Rakhigarhi:seal": 1,
+     "Dholavira:sealing": 2,
+     "Lakhanjo-daro:pottery": 1,
+     "Kalibangan:pottery": 1,
+     "Nausharo:seal": 2,
+     "Nausharo:pottery": 2
+    }
+   },
+   {
+    "feature": "W032",
+    "home": "Chanhu-daro",
+    "n_home": 15,
+    "n_off": 311,
+    "mob_home": 0,
+    "E_home": 0.22,
+    "mob_off": 23,
+    "E_off": 17.84,
+    "off_sites": {
+     "Bakkar Buthi:pottery": 1,
+     "Desalpur:sealing": 1,
+     "Dholavira:seal": 9,
+     "Farmana:seal": 1,
+     "Harappa:tablet": 57,
+     "Harappa:pottery": 12,
+     "Harappa:seal": 38,
+     "Harappa:other": 2,
+     "Dholavira:sealing": 6,
+     "Harappa:sealing": 2,
+     "Kalibangan:seal": 3,
+     "Kalibangan:tablet": 1,
+     "Kalibangan:sealing": 1,
+     "Kalibangan:pottery": 4,
+     "Kalibangan:other": 1,
+     "Lothal:seal": 7,
+     "Lothal:other": 1,
+     "Lothal:sealing": 7,
+     "Lothal:pottery": 1,
+     "Mohenjo-daro:pottery": 5,
+     "Mohenjo-daro:seal": 113,
+     "Mohenjo-daro:copper": 7,
+     "Mohenjo-daro:tablet": 6,
+     "Mohenjo-daro:other": 6,
+     "Mohenjo-daro:sealing": 2,
+     "Naru-Waro-dharo:pottery": 1,
+     "Rakhigarhi:sealing": 1,
+     "Rupar:sealing": 1,
+     "Dholavira:tablet": 3,
+     "Gola Dhoro (Bagasra):seal": 1,
+     "Karzakan:seal": 1,
+     "Lakhanjo-daro:seal": 1,
+     "Nausharo:seal": 1,
+     "Nausharo:pottery": 4,
+     "Tigrana:sealing": 1,
+     "Tarkhanewala-dera:sealing": 1,
+     "Juna Khatiya:pottery": 1
+    }
+   },
+   {
+    "feature": "W920 W060",
+    "home": "Chanhu-daro",
+    "n_home": 5,
+    "n_off": 52,
+    "mob_home": 0,
+    "E_home": 0.07,
+    "mob_off": 4,
+    "E_off": 2.96,
+    "off_sites": {
+     "Harappa:tablet": 4,
+     "Harappa:seal": 4,
+     "Kalibangan:seal": 1,
+     "Lothal:seal": 2,
+     "Lothal:sealing": 1,
+     "Lothal:tablet": 1,
+     "Mohenjo-daro:seal": 32,
+     "Mohenjo-daro:sealing": 2,
+     "Rakhigarhi:seal": 1,
+     "Dholavira:seal": 2,
+     "Nausharo:seal": 1,
+     "Rakhigarhi:sealing": 1
+    }
+   },
+   {
+    "feature": "W527",
+    "home": "Lothal",
+    "n_home": 7,
+    "n_off": 52,
+    "mob_home": 0,
+    "E_home": 2.52,
+    "mob_off": 1,
+    "E_off": 1.0,
+    "off_sites": {
+     "Bala-kot:seal": 1,
+     "Harappa:other": 1,
+     "Harappa:tablet": 3,
+     "Harappa:seal": 7,
+     "Mohenjo-daro:seal": 32,
+     "Mohenjo-daro:tablet": 1,
+     "Mohenjo-daro:other": 1,
+     "Harappa:sealing": 1,
+     "Mohenjo-daro:pottery": 1,
+     "Rakhigarhi:seal": 1,
+     "Wattoowala:seal": 1,
+     "Harappa:pottery": 1,
+     "Dholavira:seal": 1
+    }
+   },
+   {
+    "feature": "W002 W706",
+    "home": "Harappa",
+    "n_home": 4,
+    "n_off": 2,
+    "mob_home": 0,
+    "E_home": 0.05,
+    "mob_off": 1,
+    "E_off": 0.29,
+    "off_sites": {
+     "Mohenjo-daro:seal": 1,
+     "Dholavira:sealing": 1
+    }
+   },
+   {
+    "feature": "W740",
+    "home": "Lakhanjo-daro",
+    "n_home": 8,
+    "n_off": 1264,
+    "mob_home": 3,
+    "E_home": 1.85,
+    "mob_off": 53,
+    "E_off": 57.85,
+    "off_sites": {
+     "Allahdino:sealing": 1,
+     "Allahdino:seal": 5,
+     "Allahdino:other": 1,
+     "Bala-kot:other": 1,
+     "Banawali:seal": 4,
+     "Banawali:pottery": 1,
+     "Chandigarh:pottery": 2,
+     "Chanhu-daro:sealing": 1,
+     "Chanhu-daro:seal": 22,
+     "Chanhu-daro:pottery": 2,
+     "Chanhu-daro:other": 3,
+     "Daimabad:seal": 1,
+     "Desalpur:seal": 1,
+     "Desalpur:sealing": 1,
+     "Dholavira:seal": 40,
+     "Dholavira:sealing": 13,
+     "Farmana:sealing": 1,
+     "Farmana:pottery": 1,
+     "Ganweriwala:tablet": 1,
+     "Gharo Bhiro:seal": 1,
+     "Harappa:tablet": 239,
+     "Harappa:pottery": 31,
+     "Harappa:other": 5,
+     "Mohenjo-daro:copper": 30,
+     "Harappa:seal": 160,
+     "Harappa:sealing": 2,
+     "Hulas:sealing": 1,
+     "Jhukar:seal": 1,
+     "Kalibangan:seal": 21,
+     "Kalibangan:other": 3,
+     "Kalibangan:tablet": 4,
+     "Kalibangan:sealing": 6,
+     "Kalibangan:pottery": 13,
+     "Khirsara:seal": 1,
+     "Kish:seal": 1,
+     "Kot-Diji:pottery": 1,
+     "Lohumjo-daro:seal": 1,
+     "Lothal:sealing": 18,
+     "Lothal:seal": 29,
+     "Lothal:tablet": 2,
+     "Lothal:pottery": 2,
+     "Mohenjo-daro:pottery": 16,
+     "Mohenjo-daro:seal": 477,
+     "Mohenjo-daro:other": 12,
+     "Mohenjo-daro:tablet": 45,
+     "Mohenjo-daro:sealing": 5,
+     "Ganweriwala:sealing": 1,
+     "Nausharo:seal": 7,
+     "Nindowari-damb:seal": 1,
+     "Pirak:seal": 1,
+     "Ra's al-Junayz:pottery": 2,
+     "Rakhigarhi:seal": 2,
+     "Rupar:sealing": 2,
+     "Surkotada:seal": 1,
+     "Bhirrana:seal": 1,
+     "Gonur Depe:seal": 1,
+     "Rajanpur:tablet": 1,
+     "Dholavira:tablet": 1,
+     "Gola Dhoro (Bagasra):seal": 1,
+     "Girsu:seal": 1,
+     "Karzakan:seal": 1,
+     "Nuhato:seal": 1,
+     "Kalibangan:copper": 1,
+     "Nausharo:pottery": 4,
+     "Rappwala Ther:pottery": 1,
+     "Tigrana:sealing": 1,
+     "Miri Qalat:seal": 1,
+     "Shikarpur:pottery": 1,
+     "Dholavira:pottery": 1
+    }
+   },
+   {
+    "feature": "W326",
+    "home": "Harappa",
+    "n_home": 3,
+    "n_off": 3,
+    "mob_home": 2,
+    "E_home": 0.04,
+    "mob_off": 1,
+    "E_off": 0.31,
+    "off_sites": {
+     "Mohenjo-daro:other": 1,
+     "Mohenjo-daro:copper": 1,
+     "Dholavira:sealing": 1
+    }
+   },
+   {
+    "feature": "W031",
+    "home": "Kanmer",
+    "n_home": 3,
+    "n_off": 224,
+    "mob_home": 0,
+    "E_home": 0.38,
+    "mob_off": 6,
+    "E_off": 10.62,
+    "off_sites": {
+     "Banawali:other": 1,
+     "Chanhu-daro:tablet": 2,
+     "Chanhu-daro:seal": 13,
+     "Chanhu-daro:other": 1,
+     "Dholavira:tablet": 3,
+     "Dholavira:other": 1,
+     "Dholavira:seal": 9,
+     "Harappa:pottery": 14,
+     "Harappa:tablet": 28,
+     "Harappa:other": 2,
+     "Harappa:seal": 23,
+     "Kalibangan:seal": 4,
+     "Kalibangan:sealing": 1,
+     "Kot-Diji:pottery": 1,
+     "Lothal:seal": 5,
+     "Lothal:sealing": 3,
+     "Lothal:pottery": 1,
+     "Mohenjo-daro:pottery": 9,
+     "Mohenjo-daro:seal": 76,
+     "Mohenjo-daro:tablet": 4,
+     "Mohenjo-daro:other": 5,
+     "Mohenjo-daro:sealing": 1,
+     "Susa:seal": 1,
+     "Dholavira:sealing": 1,
+     "Karzakan:seal": 1,
+     "Saar:seal": 1,
+     "Janabiyah:seal": 1,
+     "Rahman-deri:seal": 1,
+     "Kalibangan:pottery": 4,
+     "Nausharo:pottery": 5,
+     "Nausharo:seal": 1,
+     "Banawali:seal": 1
+    }
+   },
+   {
+    "feature": "W235",
+    "home": "Allahdino",
+    "n_home": 3,
+    "n_off": 184,
+    "mob_home": 1,
+    "E_home": 0.25,
+    "mob_off": 4,
+    "E_off": 8.41,
+    "off_sites": {
+     "Chanhu-daro:seal": 5,
+     "Chanhu-daro:other": 1,
+     "Harappa:pottery": 2,
+     "Harappa:tablet": 22,
+     "Harappa:seal": 28,
+     "Dholavira:seal": 8,
+     "Kalibangan:pottery": 2,
+     "Lohumjo-daro:seal": 1,
+     "Lothal:seal": 5,
+     "Lothal:sealing": 2,
+     "Mohenjo-daro:pottery": 2,
+     "Mohenjo-daro:seal": 93,
+     "Mohenjo-daro:tablet": 5,
+     "Mohenjo-daro:copper": 3,
+     "Rupar:sealing": 1,
+     "Tarkhanewala-dera:pottery": 1,
+     "Gonur Depe:seal": 1,
+     "Dholavira:other": 1,
+     "Tarkhanewala-dera:sealing": 1
+    }
+   },
+   {
+    "feature": "W817",
+    "home": "Chanhu-daro",
+    "n_home": 8,
+    "n_off": 146,
+    "mob_home": 0,
+    "E_home": 0.12,
+    "mob_off": 7,
+    "E_off": 7.02,
+    "off_sites": {
+     "Banawali:seal": 1,
+     "Desalpur:seal": 1,
+     "Dholavira:seal": 7,
+     "Dholavira:tablet": 1,
+     "Failaka:seal": 1,
+     "Harappa:seal": 24,
+     "Harappa:tablet": 20,
+     "Harappa:pottery": 3,
+     "Daimabad:pottery": 1,
+     "Jhukar:seal": 1,
+     "Kalibangan:seal": 1,
+     "Kalibangan:tablet": 1,
+     "Kalibangan:other": 1,
+     "Lothal:seal": 4,
+     "Lothal:sealing": 1,
+     "Mohenjo-daro:seal": 65,
+     "Mohenjo-daro:other": 1,
+     "Mohenjo-daro:tablet": 2,
+     "Mohenjo-daro:sealing": 3,
+     "Nindowari-damb:seal": 1,
+     "Dholavira:sealing": 2,
+     "Kalibangan:sealing": 1,
+     "Kalibangan:pottery": 2,
+     "Nausharo:seal": 1
+    }
+   },
+   {
+    "feature": "W060",
+    "home": "Rakhigarhi",
+    "n_home": 3,
+    "n_off": 189,
+    "mob_home": 1,
+    "E_home": 0.5,
+    "mob_off": 5,
+    "E_off": 9.01,
+    "off_sites": {
+     "Banawali:seal": 1,
+     "Chanhu-daro:seal": 8,
+     "Harappa:tablet": 20,
+     "Harappa:seal": 25,
+     "Harappa:pottery": 2,
+     "Mohenjo-daro:seal": 92,
+     "Harappa:other": 2,
+     "Kalibangan:seal": 2,
+     "Kalibangan:other": 1,
+     "Kalibangan:sealing": 1,
+     "Khirsara:seal": 1,
+     "Kish:seal": 1,
+     "Lothal:seal": 10,
+     "Lothal:sealing": 2,
+     "Lothal:tablet": 1,
+     "Mohenjo-daro:pottery": 1,
+     "Mohenjo-daro:tablet": 3,
+     "Mohenjo-daro:sealing": 2,
+     "Nausharo:seal": 3,
+     "Nindowari-damb:seal": 1,
+     "Qala'at al-Bahrain:seal": 1,
+     "Surkotada:seal": 1,
+     "Dholavira:seal": 6,
+     "Gola Dhoro (Bagasra):seal": 1,
+     "Lakhanjo-daro:seal": 1
+    }
+   },
+   {
+    "feature": "W550 W527",
+    "home": "Lothal",
+    "n_home": 4,
+    "n_off": 19,
+    "mob_home": 0,
+    "E_home": 1.44,
+    "mob_off": 1,
+    "E_off": 0.22,
+    "off_sites": {
+     "Harappa:tablet": 2,
+     "Harappa:seal": 2,
+     "Mohenjo-daro:seal": 12,
+     "Mohenjo-daro:tablet": 1,
+     "Harappa:sealing": 1,
+     "Mohenjo-daro:pottery": 1
+    }
+   },
+   {
+    "feature": "W820 W002",
+    "home": "Nausharo",
+    "n_home": 3,
+    "n_off": 83,
+    "mob_home": 0,
+    "E_home": 0.16,
+    "mob_off": 7,
+    "E_off": 4.13,
+    "off_sites": {
+     "Bhirrana:seal": 1,
+     "Chanhu-daro:seal": 1,
+     "Harappa:seal": 14,
+     "Harappa:tablet": 9,
+     "Kalibangan:seal": 3,
+     "Kalibangan:tablet": 2,
+     "Lothal:seal": 2,
+     "Lothal:sealing": 3,
+     "Mohenjo-daro:seal": 42,
+     "Mohenjo-daro:sealing": 1,
+     "Dholavira:sealing": 2,
+     "Dholavira:seal": 1,
+     "Kalibangan:pottery": 1,
+     "Kanmer:sealing": 1
+    }
+   },
+   {
+    "feature": "W920",
+    "home": "Chanhu-daro",
+    "n_home": 7,
+    "n_off": 119,
+    "mob_home": 0,
+    "E_home": 0.1,
+    "mob_off": 6,
+    "E_off": 4.92,
+    "off_sites": {
+     "Desalpur:seal": 1,
+     "Harappa:tablet": 14,
+     "Harappa:seal": 14,
+     "Harappa:sealing": 1,
+     "Dholavira:seal": 4,
+     "Harappa:other": 1,
+     "Kalibangan:seal": 1,
+     "Kot-Diji:pottery": 1,
+     "Lothal:seal": 2,
+     "Lothal:sealing": 2,
+     "Lothal:tablet": 1,
+     "Mohenjo-daro:other": 3,
+     "Mohenjo-daro:seal": 65,
+     "Mohenjo-daro:sealing": 2,
+     "Mohenjo-daro:pottery": 2,
+     "Rakhigarhi:seal": 1,
+     "Rodji:pottery": 1,
+     "Nausharo:seal": 1,
+     "Shikarpur:pottery": 1,
+     "Rakhigarhi:sealing": 1
+    }
+   },
+   {
+    "feature": "W405 W740",
+    "home": "Harappa",
+    "n_home": 7,
+    "n_off": 9,
+    "mob_home": 0,
+    "E_home": 0.09,
+    "mob_off": 1,
+    "E_off": 0.32,
+    "off_sites": {
+     "Chanhu-daro:sealing": 1,
+     "Mohenjo-daro:seal": 5,
+     "Mohenjo-daro:tablet": 1,
+     "Mohenjo-daro:copper": 1,
+     "Lakhanjo-daro:seal": 1
+    }
+   },
+   {
+    "feature": "W520",
+    "home": "Rakhigarhi",
+    "n_home": 3,
+    "n_off": 217,
+    "mob_home": 0,
+    "E_home": 0.5,
+    "mob_off": 13,
+    "E_off": 11.88,
+    "off_sites": {
+     "Banawali:seal": 1,
+     "Banawali:sealing": 1,
+     "Chanhu-daro:seal": 2,
+     "Chanhu-daro:pottery": 1,
+     "Dholavira:seal": 14,
+     "Dholavira:sealing": 3,
+     "Harappa:other": 1,
+     "Harappa:seal": 28,
+     "Harappa:tablet": 27,
+     "Harappa:pottery": 4,
+     "Harappa:sealing": 2,
+     "Kalibangan:seal": 4,
+     "Kalibangan:sealing": 1,
+     "Kalibangan:pottery": 1,
+     "Lothal:seal": 4,
+     "Lothal:sealing": 5,
+     "Mohenjo-daro:seal": 102,
+     "Mohenjo-daro:copper": 2,
+     "Mohenjo-daro:tablet": 3,
+     "Mohenjo-daro:pottery": 1,
+     "Nausharo:seal": 2,
+     "Dholavira:tablet": 2,
+     "Gola Dhoro (Bagasra):seal": 1,
+     "Bhirrana:seal": 1,
+     "Rahman-deri:seal": 1,
+     "Kanmer:seal": 1,
+     "Miri Qalat:seal": 1,
+     "Tarkhanewala-dera:sealing": 1
+    }
+   },
+   {
+    "feature": "W151",
+    "home": "Chanhu-daro",
+    "n_home": 5,
+    "n_off": 76,
+    "mob_home": 0,
+    "E_home": 0.07,
+    "mob_off": 2,
+    "E_off": 4.35,
+    "off_sites": {
+     "Dholavira:seal": 6,
+     "Mohenjo-daro:seal": 31,
+     "Harappa:seal": 8,
+     "Harappa:tablet": 12,
+     "Harappa:pottery": 1,
+     "Kalibangan:seal": 5,
+     "Kot-Diji:pottery": 1,
+     "Lothal:seal": 2,
+     "Lothal:sealing": 2,
+     "Mohenjo-daro:other": 2,
+     "Mohenjo-daro:tablet": 2,
+     "Mohenjo-daro:pottery": 2,
+     "Nippur:seal": 1,
+     "Nausharo:pottery": 1
+    }
+   },
+   {
+    "feature": "W630",
+    "home": "Dholavira",
+    "n_home": 5,
+    "n_off": 24,
+    "mob_home": 2,
+    "E_home": 1.42,
+    "mob_off": 1,
+    "E_off": 0.46,
+    "off_sites": {
+     "Harappa:pottery": 1,
+     "Harappa:tablet": 8,
+     "Harappa:seal": 4,
+     "Kalibangan:seal": 1,
+     "Kalibangan:sealing": 1,
+     "Mohenjo-daro:other": 2,
+     "Mohenjo-daro:tablet": 1,
+     "Mohenjo-daro:seal": 6
+    }
+   },
+   {
+    "feature": "W820 W002",
+    "home": "Kalibangan",
+    "n_home": 6,
+    "n_off": 80,
+    "mob_home": 0,
+    "E_home": 0.58,
+    "mob_off": 7,
+    "E_off": 3.71,
+    "off_sites": {
+     "Bhirrana:seal": 1,
+     "Chanhu-daro:seal": 1,
+     "Harappa:seal": 14,
+     "Harappa:tablet": 9,
+     "Lothal:seal": 2,
+     "Lothal:sealing": 3,
+     "Mohenjo-daro:seal": 42,
+     "Mohenjo-daro:sealing": 1,
+     "Nausharo:seal": 3,
+     "Dholavira:sealing": 2,
+     "Dholavira:seal": 1,
+     "Kanmer:sealing": 1
+    }
+   },
+   {
+    "feature": "W585 W740",
+    "home": "Kalibangan",
+    "n_home": 3,
+    "n_off": 21,
+    "mob_home": 0,
+    "E_home": 0.29,
+    "mob_off": 2,
+    "E_off": 1.1,
+    "off_sites": {
+     "Harappa:seal": 6,
+     "Mohenjo-daro:seal": 9,
+     "Mohenjo-daro:other": 1,
+     "Mohenjo-daro:tablet": 3,
+     "Rupar:sealing": 1,
+     "Dholavira:sealing": 1
+    }
+   }
+  ],
+  "small_sites_only": {
+   "n_units": 862,
+   "n_tests": 242,
+   "n_p01": 14,
+   "expected_p01": 2.42,
+   "n_q10": 7,
+   "top": [
+    {
+     "feature": "W111",
+     "home": "Nausharo",
+     "obs": 4,
+     "exp": 0.34,
+     "ratio": 11.79,
+     "p": 0.0004997501249375312
+    },
+    {
+     "feature": "W031 W032",
+     "home": "Chanhu-daro",
+     "obs": 8,
+     "exp": 0.92,
+     "ratio": 8.71,
+     "p": 0.0004997501249375312
+    },
+    {
+     "feature": "W032",
+     "home": "Chanhu-daro",
+     "obs": 15,
+     "exp": 5.58,
+     "ratio": 2.69,
+     "p": 0.0004997501249375312
+    },
+    {
+     "feature": "W031",
+     "home": "Chanhu-daro",
+     "obs": 16,
+     "exp": 6.12,
+     "ratio": 2.62,
+     "p": 0.0004997501249375312
+    },
+    {
+     "feature": "W090",
+     "home": "Ur",
+     "obs": 3,
+     "exp": 0.27,
+     "ratio": 11.18,
+     "p": 0.001999000499750125
+    },
+    {
+     "feature": "W550 W527",
+     "home": "Lothal",
+     "obs": 4,
+     "exp": 0.81,
+     "ratio": 4.91,
+     "p": 0.001999000499750125
+    },
+    {
+     "feature": "W527",
+     "home": "Lothal",
+     "obs": 7,
+     "exp": 2.24,
+     "ratio": 3.13,
+     "p": 0.0024987506246876563
+    },
+    {
+     "feature": "W740 W400",
+     "home": "Kalibangan",
+     "obs": 6,
+     "exp": 2.07,
+     "ratio": 2.9,
+     "p": 0.00399800099950025
+    },
+    {
+     "feature": "W920",
+     "home": "Chanhu-daro",
+     "obs": 7,
+     "exp": 2.19,
+     "ratio": 3.2,
+     "p": 0.004497751124437781
+    },
+    {
+     "feature": "W240",
+     "home": "Chanhu-daro",
+     "obs": 9,
+     "exp": 3.32,
+     "ratio": 2.71,
+     "p": 0.004997501249375313
+    }
+   ]
+  },
+  "M93": [
+   {
+    "text": 6108,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M216 M123 | M65 M294 M176 M211 M93"
+   },
+   {
+    "text": 6113,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M234 M342 M343 M225 M87 M261 | M93"
+   },
+   {
+    "text": 6118,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M149 | M12 M93"
+   },
+   {
+    "text": 6124,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M267 M99 M65 M62 M342 | M93"
+   },
+   {
+    "text": 6133,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M293 M123 M86 M250 M93 M404"
+   },
+   {
+    "text": 6202,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M65 M67 M342 M12 | M93"
+   },
+   {
+    "text": 6203,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M104 M149 M267 M99 M93 | M103 M403 M162"
+   },
+   {
+    "text": 6204,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M267 M99 M65 M62 M342 | M93"
+   },
+   {
+    "text": 6218,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M387 M375 M375 M342 | M93"
+   },
+   {
+    "text": 6233,
+    "site": "Chanhudaro",
+    "obj": "sealing",
+    "seq": "M59 M387 M87 M59 M17 M406 M162 M93"
+   },
+   {
+    "text": 6403,
+    "site": "Chanhudaro",
+    "obj": "seal",
+    "seq": "M87 M244 M403 M180 M99 | M87 M326 M342 M93"
+   }
+  ]
+ },
+ "frozen": [
+  "K1 M93=W031 W032 Chanhu-daro",
+  "K2 W920 W060 Chanhu-daro",
+  "K3 W806 W154 Harappa",
+  "K4 M254 Lothal"
+ ]
+}

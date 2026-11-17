@@ -1,0 +1,24 @@
+{
+ "verification": {
+  "m77_objects_in_corpus": 135,
+  "m77_rows": 135,
+  "m77_legend_matches_corpus": 135,
+  "icit_objects_in_corpus": 190,
+  "icit_rows": 190,
+  "icit_ids_found": 190,
+  "icit_sites": {
+   "Mohenjo-daro": 189,
+   "Kalibangan": 1
+  }
+ },
+ "n_types_strict": 37,
+ "n_types_lumped": 36,
+ "tablets_by_how": {
+  "M77:complete": 116,
+  "M77:fragment-assigned": 13,
+  "M77:unassigned": 6,
+  "ICIT:fragment-assigned": 11,
+  "ICIT:complete": 163,
+  "ICIT:unassigned": 16
+ }
+}

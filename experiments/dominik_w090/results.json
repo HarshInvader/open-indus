@@ -1,0 +1,111 @@
+{
+ "n_icit_distinct": 3504,
+ "order_choice": {
+  "denominator_distance": {
+   "reading": 2.1645072986554164,
+   "listing": 0.39726493143144825
+  },
+  "primary": "listing"
+ },
+ "T1_reading": {
+  "k_A": 1,
+  "n_A": 40,
+  "k_B": 90,
+  "n_B": 388,
+  "rate_A": 0.025,
+  "rate_B": 0.23195876288659795,
+  "fisher_p_less": 0.0005477368311823008,
+  "power_zero_if_same_rate": 2.602444876376711e-05
+ },
+ "T1_reading_no_W220": {
+  "k_A": 1,
+  "n_A": 29,
+  "k_B": 70,
+  "n_B": 346,
+  "rate_A": 0.034482758620689655,
+  "rate_B": 0.2023121387283237,
+  "fisher_p_less": 0.014701092020296886,
+  "power_zero_if_same_rate": 0.0014228414709749238
+ },
+ "T1_listing": {
+  "k_A": 1,
+  "n_A": 160,
+  "k_B": 3,
+  "n_B": 1257,
+  "rate_A": 0.00625,
+  "rate_B": 0.002386634844868735,
+  "fisher_p_less": 0.9347805439946302,
+  "power_zero_if_same_rate": 0.6822780654854278
+ },
+ "T1_listing_no_W220": {
+  "k_A": 1,
+  "n_A": 103,
+  "k_B": 3,
+  "n_B": 1116,
+  "rate_A": 0.009708737864077669,
+  "rate_B": 0.002688172043010753,
+  "fisher_p_less": 0.9620971971319893,
+  "power_zero_if_same_rate": 0.7578615652856017
+ },
+ "T2a_m77_heldout": {
+  "k_A": 0,
+  "n_A": 29,
+  "k_B": 0,
+  "n_B": 200,
+  "rate_A": 0.0,
+  "rate_B": 0.0,
+  "fisher_p_less": 1.0,
+  "power_zero_if_same_rate": 1.0
+ },
+ "T2a_m77_dev": {
+  "k_A": 0,
+  "n_A": 100,
+  "k_B": 0,
+  "n_B": 763,
+  "rate_A": 0.0,
+  "rate_B": 0.0,
+  "fisher_p_less": 1.0,
+  "power_zero_if_same_rate": 1.0
+ },
+ "T2b_icit_other_sites": {
+  "k_A": 1,
+  "n_A": 18,
+  "k_B": 1,
+  "n_B": 104,
+  "rate_A": 0.05555555555555555,
+  "rate_B": 0.009615384615384616,
+  "fisher_p_less": 0.9792711014767647,
+  "power_zero_if_same_rate": 0.8403688331674001
+ },
+ "T2b_sites_excluded_check": {
+  "Harappa": 1299,
+  "Chanhu-daro": 66,
+  "Mohenjo-daro": 1456,
+  "Kalibangan": 119,
+  "Lothal": 152
+ },
+ "T3": {
+  "zero_cells_observed": 48,
+  "candidate_triples": 60,
+  "rank_of_claim_p": 60.0,
+  "n_triples": 60,
+  "label_perm_null_mean": 0.011,
+  "label_perm_p_ge": 0.000999000999000999,
+  "within_text_null_mean": 9.92,
+  "within_text_p_ge": 0.004975124378109453
+ },
+ "T4": {
+  "W520": {
+   "tokens": 225,
+   "final_share_reading_order": 0.8044444444444444
+  },
+  "W740": {
+   "tokens": 1325,
+   "final_share_reading_order": 0.7071698113207547
+  },
+  "W090": {
+   "tokens": 150,
+   "final_share_reading_order": 0.6733333333333333
+  }
+ }
+}

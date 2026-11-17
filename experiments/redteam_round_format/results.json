@@ -1,0 +1,543 @@
+{
+ "n_native": 3177,
+ "h8_home_circular_ids": [
+  "114.1",
+  "1388.1",
+  "2419.2",
+  "2911.1",
+  "2912.1",
+  "2977.1",
+  "3668.1",
+  "4247.1",
+  "5468.1"
+ ],
+ "corrected_ids": [
+  "114.1",
+  "2419.2",
+  "2911.1",
+  "2912.1",
+  "2977.1",
+  "3668.1",
+  "4247.1",
+  "5468.1"
+ ],
+ "A3_total_h8set": {
+  "n": 9,
+  "mean": 6.93241052472513,
+  "matched_home": 5.0231933357559875,
+  "diff": 1.9092171889691425,
+  "p": 9.999000099990002e-05
+ },
+ "A3_total_corrected": {
+  "n": 8,
+  "mean": 7.1484627566569685,
+  "matched_home": 5.028308744797444,
+  "diff": 2.1201540118595243,
+  "p": 9.999000099990002e-05
+ },
+ "A3_total_foreign": {
+  "n": 16,
+  "mean": 7.388536572084329,
+  "matched_home": 4.977569645222328,
+  "diff": 2.4109669268620006,
+  "p": 9.999000099990002e-05
+ },
+ "A4_primary": {
+  "home_circ_order_d": {
+   "n": 8,
+   "mean": -0.11733979037677444,
+   "matched_home": -2.0788248612599642,
+   "diff": 1.9614850708831897,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.00039996000399960006
+  },
+  "home_circ_inventory_u": {
+   "n": 8,
+   "mean": 7.265802547033743,
+   "matched_home": 7.1064348145931,
+   "diff": 0.15936773244064284,
+   "p": 0.30156984301569845,
+   "p_holm": 0.9047095290470953
+  },
+  "foreign_minus_circ_order_d": {
+   "n_a": 16,
+   "n_b": 8,
+   "diff": 0.11302017826460675,
+   "p_two_sided": 0.6757662116894155,
+   "p_holm": 1
+  },
+  "foreign_minus_circ_inventory_u": {
+   "n_a": 16,
+   "n_b": 8,
+   "diff": 0.12705363716275375,
+   "p_two_sided": 0.7945102744862756,
+   "p_holm": 1
+  }
+ },
+ "A4_secondary": {
+  "foreign_order_d": {
+   "n": 16,
+   "mean": -0.004319612112167692,
+   "matched_home": -2.0650301471644568,
+   "diff": 2.060710535052289,
+   "p": 9.999000099990002e-05
+  },
+  "foreign_inventory_u": {
+   "n": 16,
+   "mean": 7.392856184196496,
+   "matched_home": 7.034500750088121,
+   "diff": 0.35835543410837545,
+   "p": 0.036696330366963306
+  },
+  "home_seal_mean_d": -2.059646985850586,
+  "home_seal_mean_u": 7.0725750584743885,
+  "home_circ_mean_q": 0.5183213829009865,
+  "foreign_mean_q": 0.5498319327731093,
+  "home_seal_mean_q": 0.076015614318243
+ },
+ "A4_power_foreign_vs_ordinary_circ_n": {
+  "order_effect": 2.060710535052289,
+  "power": 0.99,
+  "n_home": 8,
+  "n_foreign": 16
+ },
+ "POSTHOC_unique_ref": {
+  "n_unique_home_seals": 1164,
+  "circ_d": {
+   "n": 8,
+   "mean": -0.11733979037677444,
+   "matched_home": -1.7442136891227762,
+   "diff": 1.6268738987460019,
+   "p": 0.00029997000299970003
+  },
+  "circ_u": {
+   "n": 8,
+   "mean": 7.265802547033743,
+   "matched_home": 7.186761301229449,
+   "diff": 0.0790412458042935,
+   "p": 0.39706029397060294
+  },
+  "circ_total": {
+   "n": 8,
+   "mean": 7.1484627566569685,
+   "matched_home": 5.451288855187065,
+   "diff": 1.6971739014699034,
+   "p": 9.999000099990002e-05
+  },
+  "foreign_d": {
+   "n": 16,
+   "mean": -0.004319612112167692,
+   "matched_home": -1.6588565625879614,
+   "diff": 1.6545369504757939,
+   "p": 9.999000099990002e-05
+  },
+  "foreign_u": {
+   "n": 16,
+   "mean": 7.392856184196496,
+   "matched_home": 7.1720402077504115,
+   "diff": 0.22081597644608486,
+   "p": 0.14458554144585542
+  },
+  "foreign_total": {
+   "n": 16,
+   "mean": 7.388536572084329,
+   "matched_home": 5.513057598578758,
+   "diff": 1.8754789735055706,
+   "p": 9.999000099990002e-05
+  },
+  "unique_seal_mean_d": -1.730765868067556,
+  "unique_seal_mean_q": 0.10003984726365966
+ },
+ "A1_gaur": {
+  "circ_gaur": 3,
+  "circ_n": 8,
+  "seal_gaur": 77,
+  "seal_n": 1835,
+  "fisher_p": 0.003768175672704538,
+  "foreign_round_gaur": 13,
+  "foreign_round_n": 18
+ },
+ "A5_grammar_set_kn": [
+  {
+   "id": "114.1",
+   "seq": "W632 W390 W400 W375",
+   "L": 4,
+   "kn_cv": 7.12,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "122.1",
+   "seq": "W740",
+   "L": 1,
+   "kn_cv": 3.56,
+   "labelled_as": "other",
+   "in_h8_set": false
+  },
+  {
+   "id": "1387.1",
+   "seq": "W031 W384 W156 W400",
+   "L": 4,
+   "kn_cv": 4.38,
+   "labelled_as": "other",
+   "in_h8_set": false
+  },
+  {
+   "id": "1388.1",
+   "seq": "W741 W390 W741 W031 W705 W033 W368",
+   "L": 7,
+   "kn_cv": 5.2,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "1388.2",
+   "seq": "W033 W700",
+   "L": 2,
+   "kn_cv": 3.67,
+   "labelled_as": "other",
+   "in_h8_set": false
+  },
+  {
+   "id": "1924.1",
+   "seq": "W003 W390",
+   "L": 2,
+   "kn_cv": 3.43,
+   "labelled_as": "seal",
+   "in_h8_set": false
+  },
+  {
+   "id": "2419.1",
+   "seq": "W003 W003",
+   "L": 2,
+   "kn_cv": 5.66,
+   "labelled_as": "other",
+   "in_h8_set": false
+  },
+  {
+   "id": "2419.2",
+   "seq": "W001 W140",
+   "L": 2,
+   "kn_cv": 6.34,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "2911.1",
+   "seq": "W832 W256",
+   "L": 2,
+   "kn_cv": 5.36,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "2912.1",
+   "seq": "W016 W405 W001 W255 W324",
+   "L": 5,
+   "kn_cv": 7.95,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "2913.1",
+   "seq": "W140",
+   "L": 1,
+   "kn_cv": 4.62,
+   "labelled_as": "other",
+   "in_h8_set": false
+  },
+  {
+   "id": "2977.1",
+   "seq": "W700 W003 W692 W900 W003 W140 W592 W400",
+   "L": 8,
+   "kn_cv": 6.71,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "3668.1",
+   "seq": "W820 W060 W002 W832 W140 W592 W055",
+   "L": 7,
+   "kn_cv": 6.44,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "3669.1",
+   "seq": "W091",
+   "L": 1,
+   "kn_cv": null,
+   "labelled_as": null,
+   "in_h8_set": false
+  },
+  {
+   "id": "4247.1",
+   "seq": "W255 W368 W001 W091 W806",
+   "L": 5,
+   "kn_cv": 7.35,
+   "labelled_as": "round",
+   "in_h8_set": true
+  },
+  {
+   "id": "5468.1",
+   "seq": "W688 W317 W002 W361",
+   "L": 4,
+   "kn_cv": 9.92,
+   "labelled_as": "round",
+   "in_h8_set": true
+  }
+ ],
+ "A5_summary": {
+  "n": 15,
+  "kn_mean_all": 5.847333333333333,
+  "kn_mean_h8": 6.932222222222222,
+  "kn_mean_extra": 4.22
+ },
+ "per_text_home_circular": [
+  {
+   "id": "114.1",
+   "site": "Chanhu-daro",
+   "type": "SEAL:C",
+   "sym": "Bull1:W",
+   "seq": "W632 W390 W400 W375",
+   "real": 7.12,
+   "d": 0.07,
+   "u": 7.04,
+   "q": 0.52
+  },
+  {
+   "id": "1388.1",
+   "site": "Harappa",
+   "type": "SEAL:CY",
+   "sym": "None",
+   "seq": "W741 W390 W741 W031 W705 W033 W368",
+   "real": 5.2,
+   "d": -1.3,
+   "u": 6.51,
+   "q": 0.01
+  },
+  {
+   "id": "2419.2",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "sym": "Phyt",
+   "seq": "W001 W140",
+   "real": 6.34,
+   "d": 1.1,
+   "u": 5.25,
+   "q": 1.0
+  },
+  {
+   "id": "2911.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "sym": "Gaur",
+   "seq": "W832 W256",
+   "real": 5.36,
+   "d": 0.0,
+   "u": 5.36,
+   "q": 1.0
+  },
+  {
+   "id": "2912.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "sym": "Gaur",
+   "seq": "W016 W405 W001 W255 W324",
+   "real": 7.95,
+   "d": -0.35,
+   "u": 8.3,
+   "q": 0.24
+  },
+  {
+   "id": "2977.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "sym": "Phyt",
+   "seq": "W700 W003 W692 W900 W003 W140 W592 W400",
+   "real": 6.71,
+   "d": -1.03,
+   "u": 7.74,
+   "q": 0.03
+  },
+  {
+   "id": "3668.1",
+   "site": "Mohenjo-daro",
+   "type": "SEAL:C",
+   "sym": "None",
+   "seq": "W820 W060 W002 W832 W140 W592 W055",
+   "real": 6.44,
+   "d": -1.27,
+   "u": 7.71,
+   "q": 0.02
+  },
+  {
+   "id": "4247.1",
+   "site": "Dholavira",
+   "type": "SEAL:C",
+   "sym": "Gaur",
+   "seq": "W255 W368 W001 W091 W806",
+   "real": 7.35,
+   "d": -0.23,
+   "u": 7.58,
+   "q": 0.34
+  },
+  {
+   "id": "5468.1",
+   "site": "Rakhigarhi",
+   "type": "SEAL:CY",
+   "sym": "Gavi",
+   "seq": "W688 W317 W002 W361",
+   "real": 9.92,
+   "d": 0.76,
+   "u": 9.16,
+   "q": 1.0
+  }
+ ],
+ "per_text_foreign_round": [
+  {
+   "id": "147.1",
+   "site": "Failaka",
+   "seq": "W090 W817 W317",
+   "real": 7.6,
+   "d": 0.11,
+   "u": 7.49,
+   "q": 0.6
+  },
+  {
+   "id": "148.1",
+   "site": "Failaka",
+   "seq": "W716 W350 W001 W090",
+   "real": 7.46,
+   "d": -0.31,
+   "u": 7.77,
+   "q": 0.3
+  },
+  {
+   "id": "2153.1",
+   "site": "Luristan",
+   "seq": "W091 W840 W413 W831",
+   "real": 8.18,
+   "d": 0.04,
+   "u": 8.14,
+   "q": 0.43
+  },
+  {
+   "id": "3863.1",
+   "site": "Qala'at al-Bahrain",
+   "seq": "W190 W060 W055 W090 W160",
+   "real": 9.06,
+   "d": 0.42,
+   "u": 8.64,
+   "q": 0.87
+  },
+  {
+   "id": "3881.1",
+   "site": "Susa",
+   "seq": "W365 W090 W407 W604 W700",
+   "real": 8.61,
+   "d": 0.13,
+   "u": 8.48,
+   "q": 0.71
+  },
+  {
+   "id": "3882.1",
+   "site": "Susa",
+   "seq": "W924 W001 W319 W031 W055 W002 W150 W416",
+   "real": 8.43,
+   "d": 0.27,
+   "u": 8.16,
+   "q": 0.81
+  },
+  {
+   "id": "3897.1",
+   "site": "Ur",
+   "seq": "W528 W220 W924 W340 W093",
+   "real": 7.73,
+   "d": 0.16,
+   "u": 7.58,
+   "q": 0.7
+  },
+  {
+   "id": "3898.1",
+   "site": "Ur",
+   "seq": "W415 W803 W001 W328 W004 W002",
+   "real": 7.56,
+   "d": 0.83,
+   "u": 6.73,
+   "q": 0.95
+  },
+  {
+   "id": "3899.1",
+   "site": "Ur",
+   "seq": "W350 W090 W004",
+   "real": 7.05,
+   "d": -0.18,
+   "u": 7.23,
+   "q": 0.4
+  },
+  {
+   "id": "5222.1",
+   "site": "Girsu",
+   "seq": "W255 W013 W744 W740",
+   "real": 6.92,
+   "d": -0.79,
+   "u": 7.71,
+   "q": 0.13
+  },
+  {
+   "id": "5225.1",
+   "site": "Ur",
+   "seq": "W090 W001",
+   "real": 6.09,
+   "d": 0.48,
+   "u": 5.6,
+   "q": 1.0
+  },
+  {
+   "id": "5227.1",
+   "site": "Karzakan",
+   "seq": "W091 W031 W455 W220",
+   "real": 6.02,
+   "d": -0.98,
+   "u": 7.0,
+   "q": 0.04
+  },
+  {
+   "id": "5228.1",
+   "site": "Karzakan",
+   "seq": "W091 W032 W001 W033",
+   "real": 6.36,
+   "d": -0.5,
+   "u": 6.86,
+   "q": 0.09
+  },
+  {
+   "id": "5229.1",
+   "site": "Saar",
+   "seq": "W055 W220 W091 W001 W093 W031",
+   "real": 7.79,
+   "d": 0.25,
+   "u": 7.54,
+   "q": 0.79
+  },
+  {
+   "id": "5231.1",
+   "site": "Ur",
+   "seq": "W090 W405",
+   "real": 4.75,
+   "d": -0.45,
+   "u": 5.2,
+   "q": 0.0
+  },
+  {
+   "id": "5232.1",
+   "site": "Janabiyah",
+   "seq": "W071 W031 W831 W055 W121 W099 W055",
+   "real": 8.62,
+   "d": 0.45,
+   "u": 8.17,
+   "q": 0.97
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "n_loaded": {
+  "indus": 715,
+  "ba-shu": 281,
+  "naxi_dongba": 2121,
+  "old_naxi": 2380,
+  "standard_yi": 1138,
+  "yi": 2922,
+  "proto_cuneiform": 2089,
+  "proto_elamite": 1510
+ },
+ "style_median": {
+  "indus": {
+   "ink": 0.16796875,
+   "stroke_w": 2.604467218226417,
+   "components": 1.0
+  },
+  "ba-shu": {
+   "ink": 0.2171630859375,
+   "stroke_w": 3.536445012787724,
+   "components": 1.0
+  },
+  "naxi_dongba": {
+   "ink": 0.1611328125,
+   "stroke_w": 2.1806674601721294,
+   "components": 2.0
+  },
+  "old_naxi": {
+   "ink": 0.14111328125,
+   "stroke_w": 2.2322252829064917,
+   "components": 2.0
+  },
+  "standard_yi": {
+   "ink": 0.2249755859375,
+   "stroke_w": 4.139916635443987,
+   "components": 2.0
+  },
+  "yi": {
+   "ink": 0.2022705078125,
+   "stroke_w": 2.923344947735192,
+   "components": 2.0
+  },
+  "proto_cuneiform": {
+   "ink": 0.113037109375,
+   "stroke_w": 1.4577907641491457,
+   "components": 3.0
+  },
+  "proto_elamite": {
+   "ink": 0.1270751953125,
+   "stroke_w": 1.882665832290363,
+   "components": 2.0
+  }
+ },
+ "indus_width_px": 3,
+ "RAW": {
+  "nn_mean": {
+   "ba-shu": 0.5701313853263855,
+   "naxi_dongba": 0.4599148631095886,
+   "old_naxi": 0.48856981545686723,
+   "standard_yi": 0.47377617806196215,
+   "yi": 0.477347794175148,
+   "proto_cuneiform": 0.5134541064500808,
+   "proto_elamite": 0.4189803257584572,
+   "TYC_pooled": 0.5410754382610321
+  },
+  "centroid_mean": {
+   "ba-shu": -0.2918068699538708,
+   "naxi_dongba": -0.4796442538499832,
+   "old_naxi": -0.10332322512986139,
+   "standard_yi": 0.2603085428476334,
+   "yi": 0.010731843439862132,
+   "proto_cuneiform": 0.20296174585819243,
+   "proto_elamite": -0.3329536631703377,
+   "TYC_pooled": -0.2320996439550072
+  },
+  "D_tyc_minus_best_bronze": {
+   "mean": 0.027621331810951232,
+   "lo": 0.009810848534107209,
+   "hi": 0.04362594187259674
+  },
+  "closest_single_script_counts": {
+   "ba-shu": 20
+  },
+  "rank_nn": [
+   "ba-shu",
+   "proto_cuneiform",
+   "old_naxi",
+   "yi",
+   "standard_yi",
+   "naxi_dongba",
+   "proto_elamite"
+  ]
+ },
+ "NORM": {
+  "nn_mean": {
+   "ba-shu": 0.5811453968286514,
+   "naxi_dongba": 0.4611295148730278,
+   "old_naxi": 0.5028835311532021,
+   "standard_yi": 0.526048332452774,
+   "yi": 0.4883428081870079,
+   "proto_cuneiform": 0.5362806230783462,
+   "proto_elamite": 0.42547610849142076,
+   "TYC_pooled": 0.5654014736413956
+  },
+  "centroid_mean": {
+   "ba-shu": 0.4720237597823143,
+   "naxi_dongba": -0.7293685346841812,
+   "old_naxi": -0.5413737684488297,
+   "standard_yi": 0.6769329518079757,
+   "yi": 0.3747368022799492,
+   "proto_cuneiform": -0.6010614931583405,
+   "proto_elamite": -0.8092932343482971,
+   "TYC_pooled": 0.32639146558940413
+  },
+  "D_tyc_minus_best_bronze": {
+   "mean": 0.029120850563049316,
+   "lo": 0.0051552608609199526,
+   "hi": 0.05493359714746475
+  },
+  "closest_single_script_counts": {
+   "ba-shu": 20
+  },
+  "rank_nn": [
+   "ba-shu",
+   "proto_cuneiform",
+   "standard_yi",
+   "old_naxi",
+   "yi",
+   "naxi_dongba",
+   "proto_elamite"
+  ]
+ },
+ "THICK": {
+  "nn_mean": {
+   "ba-shu": 0.576814940571785,
+   "naxi_dongba": 0.46934876441955564,
+   "old_naxi": 0.5011063247919083,
+   "standard_yi": 0.4765469044446945,
+   "yi": 0.4885984793305397,
+   "proto_cuneiform": 0.5367716759443283,
+   "proto_elamite": 0.4329766720533371,
+   "TYC_pooled": 0.5495935410261155
+  },
+  "centroid_mean": {
+   "ba-shu": -0.2571950078010559,
+   "naxi_dongba": -0.28762034326791763,
+   "old_naxi": 0.11856801062822342,
+   "standard_yi": 0.2519058234989643,
+   "yi": 0.23804808519780635,
+   "proto_cuneiform": -0.31496647112071513,
+   "proto_elamite": -0.4744478613138199,
+   "TYC_pooled": 0.18025103993713856
+  },
+  "D_tyc_minus_best_bronze": {
+   "mean": 0.01282186508178711,
+   "lo": -0.011456033587455748,
+   "hi": 0.027687992155551903
+  },
+  "closest_single_script_counts": {
+   "ba-shu": 20
+  },
+  "rank_nn": [
+   "ba-shu",
+   "proto_cuneiform",
+   "old_naxi",
+   "yi",
+   "standard_yi",
+   "naxi_dongba",
+   "proto_elamite"
+  ]
+ }
+}

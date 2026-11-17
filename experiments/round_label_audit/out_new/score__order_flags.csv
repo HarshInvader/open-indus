@@ -1,0 +1,55 @@
+id,scored,region,shape,conf,n,grammar_bits,grammar_p,bigram_bits,bigram_p,flag
+UR-01,True,Mesopotamia,round Gulf,confirmed,5,7.75,0.0165,7.659,0.0329,NON-INDUS ORDER
+UR-02,True,Mesopotamia,round Gulf,confirmed,6,7.178,0.0915,7.602,0.0268,BORDERLINE
+UR-03,True,Mesopotamia,round Gulf (fragment),confirmed,2,5.952,0.3689,4.672,0.6721,INDUS-LIKE
+UR-04,False,,,,,,,,,
+UR-05,True,Mesopotamia,round,corpus only,3,8.346,0.0769,8.504,0.0769,BORDERLINE
+UR-10,False,,,,,,,,,
+UR-06,False,,,,,,,,,
+UR-07,True,Mesopotamia,round Gulf,corpus only,5,6.593,0.2295,6.432,0.1967,INDUS-LIKE
+UR-09,False,,,,,,,,,
+KISH-01,True,Mesopotamia,square,corpus only,2,7.898,0.1667,6.538,0.3158,BORDERLINE
+KISH-02,True,Mesopotamia,square,corpus only,8,4.699,0.7679,4.152,0.8214,INDUS-LIKE
+UMMA-01,True,Mesopotamia,clay sealing (tag),corpus only,5,5.948,0.2428,5.739,0.2922,INDUS-LIKE
+UMMA-02,False,,,,,,,,,
+GIRSU-01,True,Mesopotamia,round Gulf,probable,4,6.137,0.3671,6.569,0.2405,INDUS-LIKE
+GIRSU-02,True,Mesopotamia,square,corpus only,4,8.949,0.038,9.249,0.0253,NON-INDUS ORDER
+NIPPUR-01,False,,,,,,,,,
+ASMAR-01,False,,,,,,,,,
+BABYLON-01,False,,,,,,,,,
+SUSA-01,True,Iran,round Gulf,confirmed,5,8.092,0.0492,8.462,0.0328,NON-INDUS ORDER
+SUSA-02,True,Iran,cylinder,corpus only,8,8.364,0.0089,8.342,0.0067,NON-INDUS ORDER
+LURISTAN-01,True,Iran,round Gulf,confirmed,4,7.618,0.0421,7.976,0.0316,NON-INDUS ORDER
+YAHYA-01,True,Iran,seal impression on sherd,corpus only,2,7.003,0.307,6.99,0.2632,INDUS-LIKE
+JALALABAD-01,False,,,,,,,,,
+SISTAN-01,False,,,,,,,,,
+FAILAKA-01,True,Gulf,round Gulf,probable,4,7.418,0.0579,7.288,0.0526,BORDERLINE
+FAILAKA-02,True,Gulf,round Dilmun type,uncertain,3,7.229,0.1731,6.958,0.2692,BORDERLINE
+BAHRAIN-01,True,Gulf,round Gulf,uncertain,5,8.382,0.0041,8.952,0.0041,NON-INDUS ORDER
+BAHRAIN-02,False,,,,,,,,,
+BAHRAIN-03,True,Gulf,round Gulf,confirmed,4,5.713,0.3053,5.991,0.2053,INDUS-LIKE
+BAHRAIN-04,True,Gulf,round Gulf,confirmed,4,6.754,0.1684,6.681,0.1211,BORDERLINE
+BAHRAIN-05,True,Gulf,round Gulf,confirmed,2,4.868,0.6475,5.35,0.5246,INDUS-LIKE
+BAHRAIN-06,True,Gulf,round Gulf,probable,6,7.886,0.0223,7.746,0.0223,NON-INDUS ORDER
+BAHRAIN-07,True,Gulf,round Gulf,probable,7,8.504,0.0045,8.528,0.0067,NON-INDUS ORDER
+KALBA-01,False,,,,,,,,,
+SALUT-01,True,Oman,square (local softstone),corpus only,5,7.34,0.0453,8.223,0.0247,NON-INDUS ORDER
+SALUT-02,False,,,,,,,,,
+RJ-01,False,,,,,,,,,
+RJ-02,True,Oman,pottery graffito,corpus only,3,4.743,0.6923,6.118,0.3462,INDUS-LIKE
+RJ-03,True,Oman,pottery graffito,corpus only,2,4.243,0.8033,3.833,0.8525,INDUS-LIKE
+RJ-04,True,Oman,pottery graffito,corpus only,3,4.604,0.7556,4.524,0.7,INDUS-LIKE
+HAJAR-01,True,Oman,tablet,corpus only,2,4.648,0.7131,4.955,0.6148,INDUS-LIKE
+UAQ-01,False,,,,,,,,,
+GONUR-01,True,Central Asia,square,corpus only,8,4.549,0.8281,4.329,0.7768,INDUS-LIKE
+ALTYN-01,True,Central Asia,square,corpus only,2,4.282,0.8033,5.24,0.5574,INDUS-LIKE
+SHORT-01,True,Central Asia,square,corpus only,2,5.853,0.3934,4.338,0.7459,INDUS-LIKE
+UNPROV-01,True,unknown-WA,round Gulf,confirmed,5,6.593,0.1358,6.753,0.0988,BORDERLINE
+UNPROV-02,True,unknown-WA,round Gulf,probable,5,7.455,0.0329,7.99,0.0288,NON-INDUS ORDER
+UNPROV-03,True,unknown-WA,round Gulf,probable,5,8.805,0.0328,8.772,0.0328,NON-INDUS ORDER
+UNPROV-04,True,unknown-WA,round Gulf,probable,3,5.588,0.4904,6.024,0.3558,INDUS-LIKE
+UNPROV-05,True,unknown-WA,round Gulf,corpus only,5,6.438,0.2787,6.704,0.1803,INDUS-LIKE
+UNPROV-06,True,unknown-WA,cylinder,corpus only,4,6.526,0.2911,7.05,0.2278,INDUS-LIKE
+UNPROV-08,True,unknown-WA,seal,corpus only,7,6.511,0.1964,6.803,0.1049,BORDERLINE
+UNPROV-09,False,,,,,,,,,
+UNPROV-10,True,unknown-WA,seal,corpus only,3,5.585,0.4611,6.006,0.2722,INDUS-LIKE

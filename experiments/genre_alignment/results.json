@@ -1,0 +1,909 @@
+{
+ "area": "genre_alignment",
+ "date": "2026-11-15",
+ "prereg": "docs/prereg/genre_alignment.md",
+ "data": {
+  "cuneiform_distinct_legends": {
+   "ur3": 5252,
+   "ob": 2763,
+   "oakk": 145,
+   "oa": 109,
+   "oth": 254
+  },
+  "indus_distinct_seals": {
+   "dev": 1240,
+   "heldout": 391
+  },
+  "annotation_audit": "70 random legends: ~5% Ur III, ~13% OB legends with >=1 mis-slotted word"
+ },
+ "controls": {
+  "C1_hit_rate": {
+   "ur3->ob": 0.5285714285714285,
+   "ob->ur3": 0.5321428571428571,
+   "ur3->oth": 0.85
+  },
+  "C1_random": 0.10717857142857141,
+  "C1_slot_reliability": {
+   "EPITHET": 0.3333333333333333,
+   "FATHER": 1.0,
+   "KIN": 0.9662280701754385,
+   "LORD": 0.0,
+   "OWNER": 1.0,
+   "SERV": 0.8944444444444445,
+   "TITLE": 0.3333333333333333
+  },
+  "tau": 0.8027952911297357,
+  "C2_blind": {
+   "k4": {
+    "hit_mean": 0.24000000000000005,
+    "token_weighted_hit": 0.2644901141150764,
+    "random_expect": 0.10984000000000001,
+    "class_purity": 0.4327298720905395,
+    "p_hit_gt_random(sign)": 0.0
+   },
+   "k6": {
+    "hit_mean": 0.38571428571428573,
+    "token_weighted_hit": 0.45085112726409554,
+    "random_expect": 0.11175714285714282,
+    "class_purity": 0.5011492197464952,
+    "p_hit_gt_random(sign)": 0.0
+   },
+   "k8": {
+    "hit_mean": 0.3354166666666666,
+    "token_weighted_hit": 0.6463080087645836,
+    "random_expect": 0.10954444444444444,
+    "class_purity": 0.5591926719086739,
+    "p_hit_gt_random(sign)": 0.0
+   }
+  }
+ },
+ "global_colperm_p": {
+  "dev:ur3": 0.00849575212393803,
+  "dev:ob": 0.0004997501249375312,
+  "heldout:ur3": 0.011494252873563218,
+  "heldout:ob": 0.0004997501249375312
+ },
+ "bonferroni_alpha": 0.0038461538461538464,
+ "verdicts": {
+  "ur3:CLOSER->SERV": {
+   "verdict": "not supported",
+   "dev_match": "FATHER",
+   "dev_dist": 1.146,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": false,
+    "e_ref_slot_reliable>=0.75": true
+   }
+  },
+  "ur3:CORE->OWNER": {
+   "verdict": "not supported",
+   "dev_match": "TITLE",
+   "dev_dist": 2.317,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   }
+  },
+  "ur3:TITLE->TITLE": {
+   "verdict": "not supported",
+   "dev_match": "LORD",
+   "dev_dist": 0.933,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": false,
+    "e_ref_slot_reliable>=0.75": false
+   }
+  },
+  "ur3:CONN->KIN": {
+   "verdict": "supported",
+   "dev_match": "KIN",
+   "dev_dist": 0.503,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": true,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   }
+  },
+  "ob:CLOSER->SERV": {
+   "verdict": "not supported",
+   "dev_match": "LORD",
+   "dev_dist": 1.074,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": false,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": false,
+    "e_ref_slot_reliable>=0.75": true
+   }
+  },
+  "ob:CORE->OWNER": {
+   "verdict": "suggestive",
+   "dev_match": "OWNER",
+   "dev_dist": 1.835,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   }
+  },
+  "ob:TITLE->TITLE": {
+   "verdict": "suggestive",
+   "dev_match": "TITLE",
+   "dev_dist": 0.786,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": true,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": false
+   }
+  },
+  "ob:CONN->KIN": {
+   "verdict": "supported",
+   "dev_match": "KIN",
+   "dev_dist": 0.642,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": true,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": true
+   }
+  },
+  "ob:OPEN->SEAL_OF": {
+   "verdict": "suggestive",
+   "dev_match": "SEAL_OF",
+   "dev_dist": 1.043,
+   "criteria": {
+    "a_global_p<0.05": true,
+    "b_boot>=0.7": true,
+    "c_dist<tau": false,
+    "d_heldout_boot>=0.5": true,
+    "e_ref_slot_reliable>=0.75": false
+   }
+  }
+ },
+ "pairs": {
+  "dev:ur3": {
+   "forced": [
+    [
+     "CLOSER",
+     "FATHER",
+     1.146
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.503
+    ],
+    [
+     "CORE",
+     "TITLE",
+     2.317
+    ],
+    [
+     "OPEN",
+     "OWNER",
+     0.982
+    ],
+    [
+     "POST",
+     "SERV",
+     0.835
+    ],
+    [
+     "TITLE",
+     "LORD",
+     0.933
+    ]
+   ],
+   "boot": {
+    "CLOSER": {
+     "FATHER": 0.59,
+     "SERV": 0.22,
+     "TITLE": 0.19
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "TITLE": 0.78,
+     "OWNER": 0.22
+    },
+    "OPEN": {
+     "OWNER": 0.65,
+     "LORD": 0.35
+    },
+    "POST": {
+     "SERV": 0.78,
+     "FATHER": 0.22
+    },
+    "TITLE": {
+     "LORD": 0.65,
+     "FATHER": 0.19,
+     "EPITHET": 0.13,
+     "TITLE": 0.03
+    }
+   },
+   "nearest": {
+    "CLOSER": {
+     "nearest": "SERV",
+     "d": 0.956,
+     "second": "TITLE",
+     "d2": 1.034
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.503,
+     "second": "SERV",
+     "d2": 1.078
+    },
+    "CORE": {
+     "nearest": "TITLE",
+     "d": 2.317,
+     "second": "OWNER",
+     "d2": 2.532
+    },
+    "OPEN": {
+     "nearest": "LORD",
+     "d": 0.814,
+     "second": "OWNER",
+     "d2": 0.982
+    },
+    "POST": {
+     "nearest": "SERV",
+     "d": 0.835,
+     "second": "FATHER",
+     "d2": 1.06
+    },
+    "TITLE": {
+     "nearest": "LORD",
+     "d": 0.933,
+     "second": "KIN",
+     "d2": 0.981
+    }
+   }
+  },
+  "dev:ob": {
+   "forced": [
+    [
+     "CLOSER",
+     "LORD",
+     1.074
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.642
+    ],
+    [
+     "CORE",
+     "OWNER",
+     1.835
+    ],
+    [
+     "OPEN",
+     "SEAL_OF",
+     1.043
+    ],
+    [
+     "POST",
+     "EPITHET",
+     0.779
+    ],
+    [
+     "TITLE",
+     "TITLE",
+     0.786
+    ]
+   ],
+   "boot": {
+    "CLOSER": {
+     "LORD": 0.99,
+     "SERV": 0.01
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "OWNER": 1.0
+    },
+    "OPEN": {
+     "SEAL_OF": 1.0
+    },
+    "POST": {
+     "EPITHET": 1.0
+    },
+    "TITLE": {
+     "TITLE": 0.99,
+     "SERV": 0.01
+    }
+   },
+   "nearest": {
+    "CLOSER": {
+     "nearest": "LORD",
+     "d": 1.074,
+     "second": "EPITHET",
+     "d2": 1.157
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.642,
+     "second": "SERV",
+     "d2": 0.802
+    },
+    "CORE": {
+     "nearest": "OWNER",
+     "d": 1.835,
+     "second": "LORD",
+     "d2": 2.616
+    },
+    "OPEN": {
+     "nearest": "SEAL_OF",
+     "d": 1.043,
+     "second": "TITLE",
+     "d2": 1.129
+    },
+    "POST": {
+     "nearest": "EPITHET",
+     "d": 0.779,
+     "second": "LORD",
+     "d2": 0.976
+    },
+    "TITLE": {
+     "nearest": "TITLE",
+     "d": 0.786,
+     "second": "EPITHET",
+     "d2": 0.842
+    }
+   }
+  },
+  "heldout:ur3": {
+   "forced": [
+    [
+     "CLOSER",
+     "TITLE",
+     0.875
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.73
+    ],
+    [
+     "CORE",
+     "OWNER",
+     2.814
+    ],
+    [
+     "OPEN",
+     "LORD",
+     0.862
+    ],
+    [
+     "POST",
+     "SERV",
+     0.848
+    ],
+    [
+     "TITLE",
+     "FATHER",
+     1.062
+    ]
+   ],
+   "boot": {
+    "CLOSER": {
+     "TITLE": 0.56,
+     "FATHER": 0.33,
+     "SERV": 0.11
+    },
+    "CONN": {
+     "KIN": 1.0
+    },
+    "CORE": {
+     "OWNER": 0.6,
+     "TITLE": 0.4
+    },
+    "OPEN": {
+     "LORD": 0.74,
+     "OWNER": 0.26
+    },
+    "TITLE": {
+     "FATHER": 0.56,
+     "LORD": 0.26,
+     "EPITHET": 0.12,
+     "TITLE": 0.04,
+     "OWNER": 0.01,
+     "SERV": 0.01
+    },
+    "POST": {
+     "SERV": 0.8,
+     "FATHER": 0.03
+    }
+   },
+   "nearest": {
+    "CLOSER": {
+     "nearest": "TITLE",
+     "d": 0.875,
+     "second": "SERV",
+     "d2": 1.011
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.73,
+     "second": "SERV",
+     "d2": 1.19
+    },
+    "CORE": {
+     "nearest": "TITLE",
+     "d": 2.59,
+     "second": "OWNER",
+     "d2": 2.814
+    },
+    "OPEN": {
+     "nearest": "LORD",
+     "d": 0.862,
+     "second": "OWNER",
+     "d2": 1.014
+    },
+    "POST": {
+     "nearest": "SERV",
+     "d": 0.848,
+     "second": "FATHER",
+     "d2": 1.103
+    },
+    "TITLE": {
+     "nearest": "LORD",
+     "d": 0.936,
+     "second": "TITLE",
+     "d2": 1.037
+    }
+   }
+  },
+  "heldout:ob": {
+   "forced": [
+    [
+     "CLOSER",
+     "LORD",
+     0.981
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.663
+    ],
+    [
+     "CORE",
+     "OWNER",
+     2.076
+    ],
+    [
+     "OPEN",
+     "SEAL_OF",
+     1.16
+    ],
+    [
+     "POST",
+     "SERV",
+     1.012
+    ],
+    [
+     "TITLE",
+     "TITLE",
+     0.701
+    ]
+   ],
+   "boot": {
+    "CLOSER": {
+     "LORD": 1.0
+    },
+    "CONN": {
+     "KIN": 0.95,
+     "SERV": 0.05
+    },
+    "CORE": {
+     "OWNER": 1.0
+    },
+    "OPEN": {
+     "SEAL_OF": 0.98,
+     "TITLE": 0.02
+    },
+    "TITLE": {
+     "TITLE": 0.91,
+     "SERV": 0.08,
+     "FATHER": 0.01
+    },
+    "POST": {
+     "SERV": 0.69,
+     "EPITHET": 0.07,
+     "TITLE": 0.05,
+     "KIN": 0.02
+    }
+   },
+   "nearest": {
+    "CLOSER": {
+     "nearest": "LORD",
+     "d": 0.981,
+     "second": "TITLE",
+     "d2": 1.197
+    },
+    "CONN": {
+     "nearest": "KIN",
+     "d": 0.663,
+     "second": "SERV",
+     "d2": 0.948
+    },
+    "CORE": {
+     "nearest": "OWNER",
+     "d": 2.076,
+     "second": "LORD",
+     "d2": 2.827
+    },
+    "OPEN": {
+     "nearest": "TITLE",
+     "d": 1.119,
+     "second": "SEAL_OF",
+     "d2": 1.16
+    },
+    "POST": {
+     "nearest": "TITLE",
+     "d": 0.981,
+     "second": "SERV",
+     "d2": 1.012
+    },
+    "TITLE": {
+     "nearest": "TITLE",
+     "d": 0.701,
+     "second": "SERV",
+     "d2": 0.913
+    }
+   }
+  }
+ },
+ "exploratory": {
+  "lofo_survival": {
+   "dev:ur3": {
+    "CLOSER": 0.8,
+    "CONN": 1.0,
+    "CORE": 0.8,
+    "OPEN": 0.6,
+    "POST": 0.9333333333333333,
+    "TITLE": 0.6
+   },
+   "dev:ob": {
+    "CLOSER": 0.9333333333333333,
+    "CONN": 1.0,
+    "CORE": 1.0,
+    "OPEN": 1.0,
+    "POST": 1.0,
+    "TITLE": 0.9333333333333333
+   },
+   "heldout:ur3": {
+    "CLOSER": 0.4666666666666667,
+    "CONN": 1.0,
+    "CORE": 0.5333333333333333,
+    "OPEN": 0.5333333333333333,
+    "POST": 0.9333333333333333,
+    "TITLE": 0.3333333333333333
+   },
+   "heldout:ob": {
+    "CLOSER": 1.0,
+    "CONN": 1.0,
+    "CORE": 1.0,
+    "OPEN": 1.0,
+    "POST": 1.0,
+    "TITLE": 1.0
+   }
+  },
+  "positionfree_nearest_closer": {
+   "dev:ur3": [
+    [
+     "TITLE",
+     0.969
+    ],
+    [
+     "KIN",
+     1.043
+    ],
+    [
+     "SERV",
+     1.066
+    ]
+   ],
+   "dev:ob": [
+    [
+     "SEAL_OF",
+     1.02
+    ],
+    [
+     "SERV",
+     1.096
+    ],
+    [
+     "LORD",
+     1.19
+    ]
+   ],
+   "heldout:ur3": [
+    [
+     "TITLE",
+     0.763
+    ],
+    [
+     "KIN",
+     0.984
+    ],
+    [
+     "LORD",
+     1.097
+    ]
+   ],
+   "heldout:ob": [
+    [
+     "LORD",
+     1.097
+    ],
+    [
+     "SEAL_OF",
+     1.102
+    ],
+    [
+     "SERV",
+     1.125
+    ]
+   ]
+  },
+  "short_texts": {
+   "indus_all": {
+    "share_of_texts_short": 0.376,
+    "slots": {
+     "TITLE": {
+      "in_short": 0.042,
+      "overall": 0.265
+     },
+     "OPEN": {
+      "in_short": 0.104,
+      "overall": 0.405
+     },
+     "POST": {
+      "in_short": 0.036,
+      "overall": 0.103
+     },
+     "CORE": {
+      "in_short": 0.935,
+      "overall": 0.961
+     },
+     "CLOSER": {
+      "in_short": 0.532,
+      "overall": 0.725
+     },
+     "CONN": {
+      "in_short": 0.0,
+      "overall": 0.357
+     }
+    }
+   },
+   "ur3": {
+    "share_of_texts_short": 0.072,
+    "slots": {
+     "OWNER": {
+      "in_short": 0.944,
+      "overall": 0.995
+     },
+     "FATHER": {
+      "in_short": 0.0,
+      "overall": 0.817
+     },
+     "KIN": {
+      "in_short": 0.0,
+      "overall": 0.818
+     },
+     "LORD": {
+      "in_short": 0.074,
+      "overall": 0.146
+     },
+     "SERV": {
+      "in_short": 0.003,
+      "overall": 0.185
+     },
+     "CONJ": {
+      "in_short": 0.0,
+      "overall": 0.002
+     },
+     "EPITHET": {
+      "in_short": 0.043,
+      "overall": 0.095
+     },
+     "TITLE": {
+      "in_short": 0.723,
+      "overall": 0.734
+     },
+     "SEAL_OF": {
+      "in_short": 0.0,
+      "overall": 0.0
+     }
+    }
+   },
+   "ob": {
+    "share_of_texts_short": 0.296,
+    "slots": {
+     "OWNER": {
+      "in_short": 0.976,
+      "overall": 0.989
+     },
+     "FATHER": {
+      "in_short": 0.0,
+      "overall": 0.641
+     },
+     "KIN": {
+      "in_short": 0.0,
+      "overall": 0.641
+     },
+     "LORD": {
+      "in_short": 0.04,
+      "overall": 0.461
+     },
+     "SERV": {
+      "in_short": 0.0,
+      "overall": 0.451
+     },
+     "CONJ": {
+      "in_short": 0.0,
+      "overall": 0.046
+     },
+     "EPITHET": {
+      "in_short": 0.021,
+      "overall": 0.058
+     },
+     "TITLE": {
+      "in_short": 0.066,
+      "overall": 0.184
+     },
+     "SEAL_OF": {
+      "in_short": 0.657,
+      "overall": 0.207
+     }
+    }
+   }
+  },
+  "blind_indus_classes": {
+   "c1": {
+    "CORE": 2299,
+    "CONN": 443,
+    "TITLE": 261,
+    "CLOSER": 51
+   },
+   "c3": {
+    "CORE": 261,
+    "TITLE": 222,
+    "CLOSER": 4,
+    "OPEN": 3
+   },
+   "c4": {
+    "CLOSER": 906,
+    "POST": 143,
+    "CORE": 28,
+    "TITLE": 14
+   },
+   "c5": {
+    "CORE": 125,
+    "CONN": 4
+   },
+   "R": {
+    "CORE": 334,
+    "CLOSER": 10,
+    "OPEN": 9
+   },
+   "c0": {
+    "OPEN": 461,
+    "CORE": 82
+   },
+   "c2": {
+    "CORE": 148,
+    "OPEN": 37
+   }
+  },
+  "blind_colperm_p": {
+   "ur3": 0.1469265367316342,
+   "ob": 0.037481259370314844
+  },
+  "fine_dev_pairs": {
+   "ur3": [
+    [
+     "CLOSER",
+     "SERV",
+     0.92
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.512
+    ],
+    [
+     "FISH",
+     "LORD",
+     0.988
+    ],
+    [
+     "NUM",
+     "TITLE",
+     0.725
+    ],
+    [
+     "OPEN",
+     "OWNER",
+     0.981
+    ],
+    [
+     "POST",
+     "FATHER",
+     1.079
+    ],
+    [
+     "TITLE",
+     "EPITHET",
+     1.155
+    ]
+   ],
+   "ob": [
+    [
+     "BFISH",
+     "CONJ",
+     1.602
+    ],
+    [
+     "CLOSER",
+     "LORD",
+     0.937
+    ],
+    [
+     "CONN",
+     "KIN",
+     0.643
+    ],
+    [
+     "FISH",
+     "FATHER",
+     1.085
+    ],
+    [
+     "NOUN",
+     "OWNER",
+     1.957
+    ],
+    [
+     "NUM",
+     "TITLE",
+     1.12
+    ],
+    [
+     "OPEN",
+     "SEAL_OF",
+     1.025
+    ],
+    [
+     "POST",
+     "EPITHET",
+     0.783
+    ],
+    [
+     "TITLE",
+     "SERV",
+     0.791
+    ]
+   ]
+  }
+ },
+ "headline": "CONN (M99/M123) aligns with the kinship relator slot (dumu) in both references, dev and held-out (supported). The closer does NOT align with 'servant of' (P1 refuted as stated): it has no reliable counterpart; unlike every Mesopotamian relator it survives on 1-2-slot seals (53% vs 0%), behaving like the Ur III title or OB ki\u0161ib 'seal of' (exploratory)."
+}

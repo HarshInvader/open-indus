@@ -1,0 +1,7 @@
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] K1inj_0.2  score/tok=0.579 acc=0.614 cons=0.646 cov=0.17237432872612027 gain=0.103 oracle/tok=0.688 oracc=0.983 wrong>or=False t=541s
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] K1         score/tok=0.572 acc=0.409 cons=0.416 cov=0.44282067083370014 gain=0.098 oracle/tok=0.625 oracc=0.932 wrong>or=False t=1115s
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] K2         score/tok=0.581 acc=0.302 cons=0.382 cov=0.17563165771634828 gain=0.114 oracle/tok=0.616 oracc=0.746 wrong>or=False t=1646s
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] W:lat      score/tok=0.569 acc=0.032 cons=0.136 cov=0.06629104674707281 gain=0.107  t=2147s
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] W:fin      score/tok=0.555 acc=0.087 cons=0.238 cov=0.05334976670481557 gain=0.084  t=2562s
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] W:sux      score/tok=0.530 acc=0.044 cons=0.162 cov=0.004665903688704991 gain=0.050  t=2908s
+[tam 40001tok logo=0.0(0.00) gold rep0 units=3737] R:san      score/tok=0.398 acc=0.096 cons=0.207 cov=0.027555242538955894 gain=0.050  t=3091s

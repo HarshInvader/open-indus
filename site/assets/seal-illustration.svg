@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="4 64 356 376" width="356" height="376">
+<title>Illustration of a square stone seal with the fish sign cut into its face</title>
+<defs>
+<linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FCF9F2"/><stop offset=".5" stop-color="#EFE8DB"/><stop offset="1" stop-color="#DDD3C2"/></linearGradient>
+<radialGradient id="sheen" cx=".22" cy=".18" r=".9"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="boss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E6DCCB"/><stop offset="1" stop-color="#A6967E"/></linearGradient>
+<filter id="blur" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+<filter id="soft" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation=".9"/></filter>
+<filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="11"/><feColorMatrix values="0 0 0 0 .36  0 0 0 0 .31  0 0 0 0 .25  0 0 0 .10 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+<mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="440" height="440"><rect width="440" height="440" fill="#000"/><g transform="translate(71.40 161.08) scale(5.6)" fill="none" stroke="#fff" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></g></mask>
+</defs>
+<ellipse cx="191.0" cy="394" rx="157.0" ry="18" fill="#2B2118" opacity=".26" filter="url(#blur)"/>
+<rect x="56.00" y="90.00" width="262" height="262" rx="22" fill="#9C8B73"/>
+<rect x="55.13" y="90.93" width="262" height="262" rx="22" fill="#9E8D75"/>
+<rect x="54.27" y="91.87" width="262" height="262" rx="22" fill="#A08F78"/>
+<rect x="53.40" y="92.80" width="262" height="262" rx="22" fill="#A2927A"/>
+<rect x="52.53" y="93.73" width="262" height="262" rx="22" fill="#A4947C"/>
+<rect x="51.67" y="94.67" width="262" height="262" rx="22" fill="#A6967F"/>
+<rect x="50.80" y="95.60" width="262" height="262" rx="22" fill="#A89881"/>
+<rect x="49.93" y="96.53" width="262" height="262" rx="22" fill="#AA9A83"/>
+<rect x="49.07" y="97.47" width="262" height="262" rx="22" fill="#AC9D86"/>
+<rect x="48.20" y="98.40" width="262" height="262" rx="22" fill="#AE9F88"/>
+<rect x="47.33" y="99.33" width="262" height="262" rx="22" fill="#B0A18A"/>
+<rect x="46.47" y="100.27" width="262" height="262" rx="22" fill="#B2A38D"/>
+<rect x="45.60" y="101.20" width="262" height="262" rx="22" fill="#B4A58F"/>
+<rect x="44.73" y="102.13" width="262" height="262" rx="22" fill="#B6A891"/>
+<rect x="43.87" y="103.07" width="262" height="262" rx="22" fill="#B8AA94"/>
+<rect x="43.00" y="104.00" width="262" height="262" rx="22" fill="#BAAC96"/>
+<rect x="42.13" y="104.93" width="262" height="262" rx="22" fill="#BDAE98"/>
+<rect x="41.27" y="105.87" width="262" height="262" rx="22" fill="#BFB09B"/>
+<rect x="40.40" y="106.80" width="262" height="262" rx="22" fill="#C1B39D"/>
+<rect x="39.53" y="107.73" width="262" height="262" rx="22" fill="#C3B59F"/>
+<rect x="38.67" y="108.67" width="262" height="262" rx="22" fill="#C5B7A2"/>
+<rect x="37.80" y="109.60" width="262" height="262" rx="22" fill="#C7B9A4"/>
+<rect x="36.93" y="110.53" width="262" height="262" rx="22" fill="#C9BBA6"/>
+<rect x="36.07" y="111.47" width="262" height="262" rx="22" fill="#CBBEA9"/>
+<rect x="35.20" y="112.40" width="262" height="262" rx="22" fill="#CDC0AB"/>
+<rect x="34.33" y="113.33" width="262" height="262" rx="22" fill="#CFC2AD"/>
+<rect x="33.47" y="114.27" width="262" height="262" rx="22" fill="#D1C4B0"/>
+<rect x="32.60" y="115.20" width="262" height="262" rx="22" fill="#D3C6B2"/>
+<rect x="31.73" y="116.13" width="262" height="262" rx="22" fill="#D5C9B4"/>
+<rect x="30.87" y="117.07" width="262" height="262" rx="22" fill="#D7CBB7"/>
+<path d="M52 118L78 90H296" fill="none" stroke="#F4EDE1" stroke-width="2" opacity=".8"/>
+<rect x="30" y="118" width="262" height="262" rx="22" fill="url(#face)"/>
+<rect x="30" y="118" width="262" height="262" rx="22" fill="#fff" filter="url(#grain)"/>
+<rect x="30" y="118" width="262" height="262" rx="22" fill="url(#sheen)"/>
+<rect x="30.75" y="118.75" width="260.5" height="260.5" rx="21.25" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="1.5"/>
+<g transform="translate(71.56 161.24) scale(5.6)" fill="none" stroke="#FFFFFF" stroke-width="3.0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".9" filter="url(#soft)"><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></g>
+<g mask="url(#cut)"><rect width="440" height="440" fill="#6B5D4C"/><g transform="translate(72.17 161.85) scale(5.6)" fill="none" stroke="#A89880" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></g><g transform="translate(73.00 162.68) scale(5.6)" fill="none" stroke="#CFC3AF" stroke-width="1.1" stroke-linecap="round" stroke-linejoin="round" ><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></g></g>
+</svg>

@@ -1,0 +1,36 @@
+{
+ "min_tok": 10,
+ "size_target_tokens": 13190,
+ "linear_b": {
+  "corpus": "linear_b",
+  "full_docs": {
+   "auc": 0.9029304029304029,
+   "n_phon": 63,
+   "n_logo": 26,
+   "tokens": 11857
+  },
+  "indus_size_chunks": {
+   "auc_mean": 0.9065527065527065,
+   "auc_p05": 0.8851648351648351,
+   "auc_p95": 0.9395299145299145,
+   "n_rep": 30,
+   "power_k12_vs_mixed_rest": 0.725
+  }
+ },
+ "egyptian_uniliterals": {
+  "corpus": "egyptian_uniliterals",
+  "full_docs": {
+   "auc": 0.6449635036496351,
+   "n_phon": 25,
+   "n_logo": 274,
+   "tokens": 44619
+  },
+  "indus_size_chunks": {
+   "auc_mean": 0.671521201206937,
+   "auc_p05": 0.6277910447761194,
+   "auc_p95": 0.7063723591549296,
+   "n_rep": 30,
+   "power_k12_vs_mixed_rest": 0.7250000000000001
+  }
+ }
+}

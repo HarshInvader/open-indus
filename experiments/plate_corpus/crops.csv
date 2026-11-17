@@ -1,0 +1,21 @@
+key,source,object_no,item,page,box,box_method,box_w,box_h,l_mm,w_mm,aspect_box,aspect_dims,plate_px_per_mm,plate_face,cisi,cisi_file,cisi_side,cisi_px_per_mm
+FEM_420,Mackay1938_FEM,420,in.gov.ignca.9954,201,1827 4634 2594 5175,auto,767,541,35.6,35.3,1.42,1.01,18.18,impression (plate legend: impressions of seals),,,,
+FEM_83,Mackay1938_FEM,83,in.gov.ignca.9954,181,2980 3795 3489 4325,auto,509,530,50.8,27.7,1.04,1.83,13.85,impression (plate legend: impressions of seals),M-79,v1-069-068.jpg,a,5.4
+FEM_308,Mackay1938_FEM,308,in.gov.ignca.9954,189,397 3869 880 4105,auto,483,236,24.1,11.4,2.05,2.11,20.33,impression (plate legend: impressions of seals),M-398,v1-133-132.jpg,a,7.64
+FEM_273,Mackay1938_FEM,273,in.gov.ignca.9954,189,1164 448 2012 757,auto,848,309,40.6,15.0,2.74,2.71,20.74,impression (plate legend: impressions of seals),M-365,v1-127-126.jpg,a,7.9
+FEM_288,Mackay1938_FEM,288,in.gov.ignca.9954,189,1434 2161 2218 2501,auto,784,340,36.8,15.2,2.31,2.42,21.79,impression (plate legend: impressions of seals),M-126,v1-078-077.jpg,?,7.98
+FEM_461,Mackay1938_FEM,461,in.gov.ignca.9954,203,905 3948 1642 4221,auto,737,273,36.1,16.5,2.7,2.18,18.38,impression (plate legend: impressions of seals),M-371,v1-129-128.jpg,a,7.2
+FEM_407,Mackay1938_FEM,407,in.gov.ignca.9954,201,401 3252 912 3767,auto,511,515,23.6,23.6,1.01,1.0,21.72,impression (plate legend: impressions of seals),,,,
+FEM_289,Mackay1938_FEM,289,in.gov.ignca.9954,189,2296 2341 2849 2585,auto,553,244,29.2,12.2,2.27,2.4,19.46,impression (plate legend: impressions of seals),M-1305,v2-202-201.jpg,a,8.29
+EH_224,Vats1940_EH,224,dli.ministry.25730,101,2919 4861 3292 5177,auto,373,316,24.1,24.1,1.18,1.0,14.23,,,,,
+EH_138,Vats1940_EH,138,dli.ministry.25730,100,900 3622 1189 3901,manual,289,279,22.9,22.9,1.04,1.0,12.42,,,,,
+EH_16,Vats1940_EH,16,dli.ministry.25730,97,488 582 1183 1238,manual,695,656,40.6,40.6,1.06,1.0,16.61,,,,,
+EH_3,Vats1940_EH,3,dli.ministry.25730,96,2496 558 3449 1558,manual,953,1000,55.9,55.9,1.05,1.0,17.47,,,,,
+EH_286,Vats1940_EH,286,dli.ministry.25730,103,419 4015 705 4273,auto,286,258,15.2,14.0,1.11,1.09,18.62,,,,,
+EH_106,Vats1940_EH,106,dli.ministry.25730,100,292 807 749 1259,auto,457,452,33.0,33.0,1.01,1.0,13.76,,,,,
+CE_LI-16,Mackay1943_CE,"CE pl. LI, 16",dli.ministry.25495,402,3528 1995 4268 2351,manual,740,356,37.3,8.9,2.08,4.2,28.17,,,,,
+CE_LII-20,Mackay1943_CE,"CE pl. LII, 20",dli.ministry.25495,403,3011 1945 3493 2430,auto,482,485,25.4,25.4,1.01,1.0,19.04,,C-11,,,
+CE_LII-9,Mackay1943_CE,"CE pl. LII, 9",dli.ministry.25495,403,1387 1377 1666 1659,auto,279,282,11.4,11.4,1.01,1.0,24.54,,,,,
+CE_LII-27,Mackay1943_CE,"CE pl. LII, 27",dli.ministry.25495,403,3390 2628 3922 3189,manual,532,561,27.9,27.7,1.05,1.01,19.64,,,,,
+MIC_91,Marshall1931_MIC,91,in.gov.ignca.48270,187,661 2000 1019 2361,auto,358,361,31.8,34.3,1.01,1.08,10.9,,M-712,v2-080-079.jpg,A,7.96
+MIC_441,Marshall1931_MIC,441,in.gov.ignca.48270,201,139 1630 427 1765,auto,288,135,26.7,14.0,2.13,1.91,10.22,,,,,

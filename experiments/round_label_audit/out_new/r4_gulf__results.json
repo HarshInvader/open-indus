@@ -1,0 +1,2784 @@
+{
+ "r1_fish": {
+  "icit_native": {
+   "n_texts": 2395,
+   "pooled_ticked": {
+    "tokens": 73,
+    "final": 40,
+    "share": 0.548,
+    "shuffle_expect": 0.256,
+    "after_tall2": 13,
+    "final_after_tall2": 6
+   },
+   "pooled_bases": {
+    "tokens": 843,
+    "final": 45,
+    "share": 0.053,
+    "shuffle_expect": 0.207,
+    "after_tall2": 52,
+    "final_after_tall2": 2
+   },
+   "freq_null_ticked": {
+    "obs": 0.548,
+    "null_mean": 0.185,
+    "null_sd": 0.128,
+    "p": 0.017991004497751123
+   },
+   "per_pair": {
+    "W220->W226": {
+     "base": {
+      "tokens": 265,
+      "final": 19,
+      "share": 0.072,
+      "shuffle_expect": 0.208,
+      "after_tall2": 52,
+      "final_after_tall2": 2
+     },
+     "ticked": {
+      "tokens": 31,
+      "final": 18,
+      "share": 0.581,
+      "shuffle_expect": 0.265,
+      "after_tall2": 13,
+      "final_after_tall2": 6
+     }
+    },
+    "W231->W232": {
+     "base": {
+      "tokens": 66,
+      "final": 3,
+      "share": 0.045,
+      "shuffle_expect": 0.207,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 8,
+      "final": 3,
+      "share": 0.375,
+      "shuffle_expect": 0.228,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "W233->W234": {
+     "base": {
+      "tokens": 141,
+      "final": 8,
+      "share": 0.057,
+      "shuffle_expect": 0.21,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 5,
+      "final": 3,
+      "share": 0.6,
+      "shuffle_expect": 0.323,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "W235->W236": {
+     "base": {
+      "tokens": 158,
+      "final": 5,
+      "share": 0.032,
+      "shuffle_expect": 0.206,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 18,
+      "final": 7,
+      "share": 0.389,
+      "shuffle_expect": 0.232,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "W240->W241": {
+     "base": {
+      "tokens": 213,
+      "final": 10,
+      "share": 0.047,
+      "shuffle_expect": 0.205,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 11,
+      "final": 9,
+      "share": 0.818,
+      "shuffle_expect": 0.258,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    }
+   },
+   "ticked_without_W226": {
+    "tokens": 42,
+    "final": 22,
+    "share": 0.524,
+    "shuffle_expect": 0.249,
+    "after_tall2": 0,
+    "final_after_tall2": 0
+   },
+   "freq_null_without_W226": {
+    "obs": 0.524,
+    "null_mean": 0.193,
+    "null_sd": 0.134,
+    "p": 0.028985507246376812
+   },
+   "cluster_level_ticked": {
+    "texts": 73,
+    "families": 60,
+    "mean_final": 0.571
+   },
+   "cluster_level_without_W226": {
+    "texts": 42,
+    "families": 37,
+    "mean_final": 0.541
+   },
+   "by_site": {
+    "other": {
+     "tokens": 19,
+     "final": 9,
+     "share": 0.474,
+     "shuffle_expect": 0.234,
+     "after_tall2": 3,
+     "final_after_tall2": 0
+    },
+    "Harappa": {
+     "tokens": 12,
+     "final": 5,
+     "share": 0.417,
+     "shuffle_expect": 0.346,
+     "after_tall2": 2,
+     "final_after_tall2": 1
+    },
+    "Mohenjo-daro": {
+     "tokens": 42,
+     "final": 26,
+     "share": 0.619,
+     "shuffle_expect": 0.24,
+     "after_tall2": 8,
+     "final_after_tall2": 5
+    }
+   }
+  },
+  "icit_W237": {
+   "tokens": 0,
+   "final": 0,
+   "share": null,
+   "shuffle_expect": null,
+   "after_tall2": 0,
+   "final_after_tall2": 0
+  },
+  "icit_seals_only": {
+   "n_texts": 1552,
+   "pooled_ticked": {
+    "tokens": 56,
+    "final": 34,
+    "share": 0.607,
+    "shuffle_expect": 0.226,
+    "after_tall2": 10,
+    "final_after_tall2": 5
+   },
+   "pooled_bases": {
+    "tokens": 647,
+    "final": 25,
+    "share": 0.039,
+    "shuffle_expect": 0.189,
+    "after_tall2": 47,
+    "final_after_tall2": 2
+   },
+   "freq_null_ticked": {
+    "obs": 0.607,
+    "null_mean": 0.172,
+    "null_sd": 0.148,
+    "p": 0.009495252373813094
+   },
+   "per_pair": {
+    "W220->W226": {
+     "base": {
+      "tokens": 201,
+      "final": 13,
+      "share": 0.065,
+      "shuffle_expect": 0.187,
+      "after_tall2": 47,
+      "final_after_tall2": 2
+     },
+     "ticked": {
+      "tokens": 22,
+      "final": 15,
+      "share": 0.682,
+      "shuffle_expect": 0.228,
+      "after_tall2": 10,
+      "final_after_tall2": 5
+     }
+    },
+    "W231->W232": {
+     "base": {
+      "tokens": 54,
+      "final": 3,
+      "share": 0.056,
+      "shuffle_expect": 0.199,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 7,
+      "final": 3,
+      "share": 0.429,
+      "shuffle_expect": 0.213,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "W233->W234": {
+     "base": {
+      "tokens": 109,
+      "final": 4,
+      "share": 0.037,
+      "shuffle_expect": 0.19,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 3,
+      "final": 2,
+      "share": 0.667,
+      "shuffle_expect": 0.289,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "W235->W236": {
+     "base": {
+      "tokens": 124,
+      "final": 0,
+      "share": 0.0,
+      "shuffle_expect": 0.188,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 14,
+      "final": 6,
+      "share": 0.429,
+      "shuffle_expect": 0.191,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "W240->W241": {
+     "base": {
+      "tokens": 159,
+      "final": 5,
+      "share": 0.031,
+      "shuffle_expect": 0.188,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 10,
+      "final": 8,
+      "share": 0.8,
+      "shuffle_expect": 0.258,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    }
+   },
+   "ticked_without_W226": {
+    "tokens": 34,
+    "final": 19,
+    "share": 0.559,
+    "shuffle_expect": 0.224,
+    "after_tall2": 0,
+    "final_after_tall2": 0
+   },
+   "freq_null_without_W226": {
+    "obs": 0.559,
+    "null_mean": 0.165,
+    "null_sd": 0.145,
+    "p": 0.021989005497251374
+   },
+   "cluster_level_ticked": {
+    "texts": 56,
+    "families": 55,
+    "mean_final": 0.6
+   },
+   "cluster_level_without_W226": {
+    "texts": 34,
+    "families": 33,
+    "mean_final": 0.545
+   },
+   "by_site": {
+    "other": {
+     "tokens": 13,
+     "final": 6,
+     "share": 0.462,
+     "shuffle_expect": 0.205,
+     "after_tall2": 2,
+     "final_after_tall2": 0
+    },
+    "Harappa": {
+     "tokens": 4,
+     "final": 4,
+     "share": 1.0,
+     "shuffle_expect": 0.204,
+     "after_tall2": 0,
+     "final_after_tall2": 0
+    },
+    "Mohenjo-daro": {
+     "tokens": 39,
+     "final": 24,
+     "share": 0.615,
+     "shuffle_expect": 0.235,
+     "after_tall2": 8,
+     "final_after_tall2": 5
+    }
+   }
+  },
+  "m77": {
+   "n_texts": 2121,
+   "pooled_ticked": {
+    "tokens": 56,
+    "final": 32,
+    "share": 0.571,
+    "shuffle_expect": 0.253,
+    "after_tall2": 13,
+    "final_after_tall2": 7
+   },
+   "pooled_bases": {
+    "tokens": 896,
+    "final": 57,
+    "share": 0.064,
+    "shuffle_expect": 0.204,
+    "after_tall2": 65,
+    "final_after_tall2": 5
+   },
+   "freq_null_ticked": {
+    "obs": 0.571,
+    "null_mean": 0.156,
+    "null_sd": 0.103,
+    "p": 0.00399800099950025
+   },
+   "per_pair": {
+    "M59->M60": {
+     "base": {
+      "tokens": 298,
+      "final": 27,
+      "share": 0.091,
+      "shuffle_expect": 0.202,
+      "after_tall2": 65,
+      "final_after_tall2": 5
+     },
+     "ticked": {
+      "tokens": 26,
+      "final": 15,
+      "share": 0.577,
+      "shuffle_expect": 0.249,
+      "after_tall2": 13,
+      "final_after_tall2": 7
+     }
+    },
+    "M70->M71": {
+     "base": {
+      "tokens": 68,
+      "final": 4,
+      "share": 0.059,
+      "shuffle_expect": 0.212,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 6,
+      "final": 4,
+      "share": 0.667,
+      "shuffle_expect": 0.232,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "M72->M73": {
+     "base": {
+      "tokens": 154,
+      "final": 7,
+      "share": 0.045,
+      "shuffle_expect": 0.203,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 4,
+      "final": 3,
+      "share": 0.75,
+      "shuffle_expect": 0.308,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "M65->M66": {
+     "base": {
+      "tokens": 171,
+      "final": 10,
+      "share": 0.058,
+      "shuffle_expect": 0.206,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 12,
+      "final": 5,
+      "share": 0.417,
+      "shuffle_expect": 0.246,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    },
+    "M67->M68": {
+     "base": {
+      "tokens": 205,
+      "final": 9,
+      "share": 0.044,
+      "shuffle_expect": 0.204,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     },
+     "ticked": {
+      "tokens": 8,
+      "final": 5,
+      "share": 0.625,
+      "shuffle_expect": 0.267,
+      "after_tall2": 0,
+      "final_after_tall2": 0
+     }
+    }
+   },
+   "ticked_without_M60": {
+    "tokens": 30,
+    "final": 17,
+    "share": 0.567,
+    "shuffle_expect": 0.257,
+    "after_tall2": 0,
+    "final_after_tall2": 0
+   },
+   "freq_null_without_M60": {
+    "obs": 0.567,
+    "null_mean": 0.182,
+    "null_sd": 0.134,
+    "p": 0.017991004497751123
+   },
+   "cluster_level_ticked": {
+    "texts": 56,
+    "families": 48,
+    "mean_final": 0.628
+   },
+   "cluster_level_without_M60": {
+    "texts": 30,
+    "families": 27,
+    "mean_final": 0.593
+   },
+   "by_site": {
+    "Mohenjodaro": {
+     "tokens": 37,
+     "final": 25,
+     "share": 0.676,
+     "shuffle_expect": 0.24,
+     "after_tall2": 8,
+     "final_after_tall2": 6
+    },
+    "Harappa": {
+     "tokens": 8,
+     "final": 2,
+     "share": 0.25,
+     "shuffle_expect": 0.362,
+     "after_tall2": 1,
+     "final_after_tall2": 0
+    },
+    "other": {
+     "tokens": 11,
+     "final": 5,
+     "share": 0.455,
+     "shuffle_expect": 0.218,
+     "after_tall2": 4,
+     "final_after_tall2": 1
+    }
+   }
+  },
+  "final_ticked_with_jar": {
+   "n": 49,
+   "with_W740": 2
+  },
+  "W226_top_contexts": [
+   [
+    "W032 W226",
+    6
+   ],
+   [
+    "W003 W226",
+    2
+   ],
+   [
+    "W032 W226 W032",
+    2
+   ],
+   [
+    "W803 W226",
+    2
+   ],
+   [
+    "W415 W226",
+    2
+   ],
+   [
+    "W014 W226",
+    1
+   ],
+   [
+    "W032 W226 W400",
+    1
+   ],
+   [
+    "W226 W400",
+    1
+   ],
+   [
+    "W002 W226",
+    1
+   ],
+   [
+    "W032 W226 W685",
+    1
+   ],
+   [
+    "W032 W226 W233",
+    1
+   ],
+   [
+    "W240 W226",
+    1
+   ]
+  ]
+ },
+ "r2_sixfish": {
+  "M77": {
+   "six_two-tier_M109": {
+    "label": "M77 M109",
+    "n": 25,
+    "with_fish": 12,
+    "rate": 0.48,
+    "base_rate": 0.063,
+    "p_enriched": 8.7730493236052e-09,
+    "p_depleted": 0.9999999994195093,
+    "fish_texts": 12,
+    "fish_families_ed1": 10,
+    "sites_with_fish": {
+     "Mohenjodaro": 6,
+     "Harappa": 5,
+     "Chanhudaro": 1
+    },
+    "types": {
+     "seal": 20,
+     "sealing": 3,
+     "miscellaneous": 1,
+     "bronze implement": 1
+    },
+    "types_with_fish": {
+     "seal": 9,
+     "sealing": 2,
+     "bronze implement": 1
+    }
+   },
+   "six_one-row_M108": {
+    "label": "M77 M108",
+    "n": 3,
+    "with_fish": 0,
+    "rate": 0.0,
+    "base_rate": 0.086,
+    "p_enriched": 1.0,
+    "p_depleted": 0.7633196057684237,
+    "fish_texts": 0,
+    "fish_families_ed1": 0,
+    "sites_with_fish": {},
+    "types": {
+     "seal": 1,
+     "bronze implement": 2
+    },
+    "types_with_fish": {}
+   },
+   "seven_all": {
+    "label": "M77 seven",
+    "n": 60,
+    "with_fish": 1,
+    "rate": 0.017,
+    "base_rate": 0.096,
+    "p_enriched": 0.9976489035642402,
+    "p_depleted": 0.01732455976964953,
+    "fish_texts": 1,
+    "fish_families_ed1": 1,
+    "sites_with_fish": {
+     "Harappa": 1
+    },
+    "types": {
+     "seal": 50,
+     "sealing": 3,
+     "copper tablet": 3,
+     "miniature tablet": 2,
+     "pottery graffito": 2
+    },
+    "types_with_fish": {
+     "seal": 1
+    }
+   },
+   "seals_only_seven": {
+    "label": "M77 seals seven",
+    "n": 50,
+    "with_fish": 1,
+    "rate": 0.02,
+    "base_rate": 0.083,
+    "p_enriched": 0.9869118591711171,
+    "p_depleted": 0.07237240242312591,
+    "fish_texts": 1,
+    "fish_families_ed1": 1,
+    "sites_with_fish": {
+     "Harappa": 1
+    },
+    "types": {
+     "seal": 50
+    },
+    "types_with_fish": {
+     "seal": 1
+    }
+   },
+   "seals_only_six2": {
+    "label": "M77 seals six2",
+    "n": 20,
+    "with_fish": 9,
+    "rate": 0.45,
+    "base_rate": 0.052,
+    "p_enriched": 2.981841628371376e-07,
+    "p_depleted": 0.999999982031871,
+    "fish_texts": 9,
+    "fish_families_ed1": 9,
+    "sites_with_fish": {
+     "Mohenjodaro": 6,
+     "Harappa": 3
+    },
+    "types": {
+     "seal": 20
+    },
+    "types_with_fish": {
+     "seal": 9
+    }
+   },
+   "seal_fish_rate_by_numeral": {
+    "M102": "12/75",
+    "M104": "3/34",
+    "M106": "0/17",
+    "M109": "9/20",
+    "M112": "1/45",
+    "M121": "0/34",
+    "M97": "1/66",
+    "M98": "0/55"
+   }
+  },
+  "ICIT": {
+   "six_two-tier_W016": {
+    "label": "ICIT W016",
+    "n": 33,
+    "with_fish": 13,
+    "rate": 0.394,
+    "base_rate": 0.052,
+    "p_enriched": 4.4847348971806955e-09,
+    "p_depleted": 0.9999999996508733,
+    "fish_texts": 13,
+    "fish_families_ed1": 11,
+    "sites_with_fish": {
+     "Chanhu-daro": 1,
+     "Harappa": 5,
+     "Mohenjo-daro": 6,
+     "Nausharo": 1
+    },
+    "types": {
+     "SEAL:S": 21,
+     "IMPL": 1,
+     "SEAL:R": 3,
+     "POT:T:s": 1,
+     "TAB:B": 4,
+     "MISC": 1,
+     "TAB:I": 1,
+     "SEAL:C": 1
+    },
+    "types_with_fish": {
+     "IMPL": 1,
+     "POT:T:s": 1,
+     "TAB:B": 1,
+     "SEAL:S": 9,
+     "TAB:I": 1
+    }
+   },
+   "six_one-row_W006": {
+    "label": "ICIT W006",
+    "n": 4,
+    "with_fish": 1,
+    "rate": 0.25,
+    "base_rate": 0.071,
+    "p_enriched": 0.2541057626824462,
+    "p_depleted": 0.97278221825065,
+    "fish_texts": 1,
+    "fish_families_ed1": 1,
+    "sites_with_fish": {
+     "Kalibangan": 1
+    },
+    "types": {
+     "IMPL": 1,
+     "SEAL:S": 3
+    },
+    "types_with_fish": {
+     "SEAL:S": 1
+    }
+   },
+   "seven_all": {
+    "label": "ICIT seven",
+    "n": 67,
+    "with_fish": 1,
+    "rate": 0.015,
+    "base_rate": 0.08,
+    "p_enriched": 0.9961196455363343,
+    "p_depleted": 0.026341153519009286,
+    "fish_texts": 1,
+    "fish_families_ed1": 1,
+    "sites_with_fish": {
+     "Harappa": 1
+    },
+    "types": {
+     "POT:T:g": 4,
+     "SEAL:S": 38,
+     "TAB:B": 5,
+     "TAB:I": 3,
+     "SEAL:R": 11,
+     "TAB:C": 4,
+     "IMPL": 1,
+     "TAG:R": 1
+    },
+    "types_with_fish": {
+     "SEAL:S": 1
+    }
+   },
+   "seals_only_seven": {
+    "label": "ICIT seals seven",
+    "n": 49,
+    "with_fish": 1,
+    "rate": 0.02,
+    "base_rate": 0.084,
+    "p_enriched": 0.9864450696346402,
+    "p_depleted": 0.07448993842982114,
+    "fish_texts": 1,
+    "fish_families_ed1": 1,
+    "sites_with_fish": {
+     "Harappa": 1
+    },
+    "types": {
+     "SEAL:S": 38,
+     "SEAL:R": 11
+    },
+    "types_with_fish": {
+     "SEAL:S": 1
+    }
+   },
+   "seals_only_six2": {
+    "label": "ICIT seals six2",
+    "n": 25,
+    "with_fish": 9,
+    "rate": 0.36,
+    "base_rate": 0.058,
+    "p_enriched": 6.230882598425972e-06,
+    "p_depleted": 0.9999993984118407,
+    "fish_texts": 9,
+    "fish_families_ed1": 9,
+    "sites_with_fish": {
+     "Harappa": 2,
+     "Mohenjo-daro": 6,
+     "Nausharo": 1
+    },
+    "types": {
+     "SEAL:S": 21,
+     "SEAL:R": 3,
+     "SEAL:C": 1
+    },
+    "types_with_fish": {
+     "SEAL:S": 9
+    }
+   },
+   "seal_fish_rate_by_numeral": {
+    "W001": "3/133",
+    "W003": "13/91",
+    "W004": "2/37",
+    "W005": "0/23",
+    "W013": "0/26",
+    "W014": "2/5",
+    "W016": "9/25",
+    "W017": "1/45"
+   }
+  }
+ },
+ "r3_registers": {
+  "M77": {
+   "n_units": 2435,
+   "n_families": 1643,
+   "units_by_type": {
+    "seal": 1643,
+    "rod": 26,
+    "sealing": 398,
+    "copper": 65,
+    "pottery": 109,
+    "implement": 17,
+    "tablet": 177
+   },
+   "families_by_type": {
+    "seal": 1201,
+    "rod": 21,
+    "sealing": 243,
+    "copper": 38,
+    "pottery": 66,
+    "implement": 13,
+    "tablet": 61
+   },
+   "M99 @ seal": {
+    "units": {
+     "obs": 480,
+     "exp": 435.87,
+     "ratio": 1.1,
+     "p_hi": 0.0194994816891827,
+     "p_lo": 0.9825954502751559,
+     "n_type": 1643
+    },
+    "families": {
+     "obs": 392,
+     "exp": 363.85,
+     "ratio": 1.08,
+     "p_hi": 0.07490090298252068,
+     "p_lo": 0.9320668889188151,
+     "n_type": 1201
+    },
+    "sites_with": {
+     "Mohenjodaro": 252,
+     "Harappa": 79,
+     "Chanhudaro": 19,
+     "Lothal": 22,
+     "Kalibangan": 14,
+     "Other sites": 6
+    }
+   },
+   "M99 @ copper": {
+    "units": {
+     "obs": 2,
+     "exp": 12.83,
+     "ratio": 0.16,
+     "p_hi": 0.9999630368006728,
+     "p_lo": 0.0002569849802572964,
+     "n_type": 65
+    },
+    "families": {
+     "obs": 2,
+     "exp": 9.31,
+     "ratio": 0.21,
+     "p_hi": 0.9990698394189995,
+     "p_lo": 0.00484175450496432,
+     "n_type": 38
+    },
+    "sites_with": {
+     "Mohenjodaro": 2
+    }
+   },
+   "M99 @ tablet": {
+    "units": {
+     "obs": 3,
+     "exp": 14.62,
+     "ratio": 0.21,
+     "p_hi": 0.9999452504829283,
+     "p_lo": 0.0002875550225159333,
+     "n_type": 177
+    },
+    "families": {
+     "obs": 2,
+     "exp": 9.96,
+     "ratio": 0.2,
+     "p_hi": 0.9994829274219634,
+     "p_lo": 0.0028575924450606667,
+     "n_type": 61
+    },
+    "sites_with": {
+     "Harappa": 2
+    }
+   },
+   "M342 M176 @ rod": {
+    "units": {
+     "obs": 9,
+     "exp": 0.53,
+     "ratio": 17.1,
+     "p_hi": 5.3220898291735536e-09,
+     "p_lo": 0.9999999997212904,
+     "n_type": 26
+    },
+    "families": {
+     "obs": 6,
+     "exp": 0.34,
+     "ratio": 17.9,
+     "p_hi": 1.4798798175735355e-06,
+     "p_lo": 0.9999999295667872,
+     "n_type": 21
+    },
+    "sites_with": {
+     "Mohenjodaro": 6
+    }
+   },
+   "M176 @ rod": {
+    "units": {
+     "obs": 10,
+     "exp": 1.88,
+     "ratio": 5.31,
+     "p_hi": 2.806904487826965e-05,
+     "p_lo": 0.9999952762215858,
+     "n_type": 26
+    },
+    "families": {
+     "obs": 7,
+     "exp": 1.6,
+     "ratio": 4.37,
+     "p_hi": 0.0013389768083297302,
+     "p_lo": 0.9997388247080482,
+     "n_type": 21
+    },
+    "sites_with": {
+     "Mohenjodaro": 7
+    }
+   },
+   "M342 M176 @ seal": {
+    "units": {
+     "obs": 8,
+     "exp": 48.08,
+     "ratio": 0.17,
+     "p_hi": 0.9999999999998198,
+     "p_lo": 1.1093006178962513e-12,
+     "n_type": 1643
+    },
+    "families": {
+     "obs": 8,
+     "exp": 35.75,
+     "ratio": 0.22,
+     "p_hi": 0.9999999945445937,
+     "p_lo": 2.5212086584659362e-08,
+     "n_type": 1201
+    },
+    "sites_with": {
+     "Mohenjodaro": 3,
+     "Harappa": 2,
+     "Lothal": 1,
+     "Kalibangan": 2
+    }
+   },
+   "M407 @ copper": {
+    "units": {
+     "obs": 9,
+     "exp": 0.81,
+     "ratio": 11.15,
+     "p_hi": 1.9441447687697216e-07,
+     "p_lo": 0.9999999844286291,
+     "n_type": 65
+    },
+    "families": {
+     "obs": 8,
+     "exp": 0.74,
+     "ratio": 10.76,
+     "p_hi": 1.1961038567985304e-06,
+     "p_lo": 0.9999999020849482,
+     "n_type": 38
+    },
+    "sites_with": {
+     "Mohenjodaro": 8
+    }
+   },
+   "M169 @ copper": {
+    "units": {
+     "obs": 16,
+     "exp": 4.16,
+     "ratio": 3.85,
+     "p_hi": 7.814019010715828e-06,
+     "p_lo": 0.9999981215693067,
+     "n_type": 65
+    },
+    "families": {
+     "obs": 15,
+     "exp": 2.72,
+     "ratio": 5.52,
+     "p_hi": 1.9847404115974067e-07,
+     "p_lo": 0.9999999666650106,
+     "n_type": 38
+    },
+    "sites_with": {
+     "Mohenjodaro": 15
+    }
+   },
+   "connective_conditional_on_opener": {
+    "seal": {
+     "n": 1201,
+     "opener_rate": 0.323,
+     "conn_given_opener": "214/388",
+     "conn_given_no_opener": "177/813"
+    },
+    "sealing": {
+     "n": 243,
+     "opener_rate": 0.21,
+     "conn_given_opener": "27/51",
+     "conn_given_no_opener": "23/192"
+    },
+    "tablet": {
+     "n": 61,
+     "opener_rate": 0.098,
+     "conn_given_opener": "0/6",
+     "conn_given_no_opener": "1/55"
+    },
+    "copper": {
+     "n": 38,
+     "opener_rate": 0.026,
+     "conn_given_opener": "0/1",
+     "conn_given_no_opener": "2/37"
+    },
+    "pottery": {
+     "n": 66,
+     "opener_rate": 0.152,
+     "conn_given_opener": "6/10",
+     "conn_given_no_opener": "0/56"
+    },
+    "rod": {
+     "n": 21,
+     "opener_rate": 0.095,
+     "conn_given_opener": "1/2",
+     "conn_given_no_opener": "2/19"
+    }
+   },
+   "connective_tokens_after_opener": {
+    "after_opener": 234,
+    "other": 221
+   }
+  },
+  "ICIT": {
+   "n_units": 3693,
+   "n_families": 2058,
+   "units_by_type": {
+    "pottery": 395,
+    "sealing": 188,
+    "seal": 2064,
+    "bangle": 39,
+    "tablet": 854,
+    "rod": 37,
+    "implement": 18,
+    "copper": 98
+   },
+   "families_by_type": {
+    "pottery": 173,
+    "sealing": 100,
+    "seal": 1419,
+    "bangle": 20,
+    "tablet": 260,
+    "rod": 28,
+    "implement": 16,
+    "copper": 42
+   },
+   "W002 @ seal": {
+    "units": {
+     "obs": 584,
+     "exp": 537.31,
+     "ratio": 1.09,
+     "p_hi": 0.02430612758752009,
+     "p_lo": 0.9779915378584929,
+     "n_type": 2064
+    },
+    "families": {
+     "obs": 449,
+     "exp": 433.52,
+     "ratio": 1.04,
+     "p_hi": 0.23480636523191323,
+     "p_lo": 0.7795205916909308,
+     "n_type": 1419
+    },
+    "sites_with": {
+     "Bala-kot": 2,
+     "Banawali": 3,
+     "Bhirrana": 1,
+     "Chanhu-daro": 17,
+     "Dholavira": 20,
+     "Harappa": 85,
+     "Baror": 1,
+     "Mohenjo-daro": 256,
+     "Unknown": 8,
+     "Kalibangan": 15,
+     "Jhukar": 1,
+     "Lohumjo-daro": 1,
+     "Lothal": 23,
+     "Nausharo": 7,
+     "Rakhigarhi": 3,
+     "Surkotada": 1,
+     "Susa": 1,
+     "Ur": 1,
+     "Gonur Depe": 1,
+     "Salut": 1,
+     "Lakhanjo-daro": 1
+    }
+   },
+   "W002 @ copper": {
+    "units": {
+     "obs": 4,
+     "exp": 22.17,
+     "ratio": 0.18,
+     "p_hi": 0.9999995099212994,
+     "p_lo": 2.8561777859873012e-06,
+     "n_type": 98
+    },
+    "families": {
+     "obs": 4,
+     "exp": 12.79,
+     "ratio": 0.31,
+     "p_hi": 0.9987583808181482,
+     "p_lo": 0.004356746957330745,
+     "n_type": 42
+    },
+    "sites_with": {
+     "Mohenjo-daro": 4
+    }
+   },
+   "W002 @ tablet": {
+    "units": {
+     "obs": 55,
+     "exp": 91.67,
+     "ratio": 0.6,
+     "p_hi": 0.9999856641733504,
+     "p_lo": 2.449003520889385e-05,
+     "n_type": 854
+    },
+    "families": {
+     "obs": 39,
+     "exp": 51.69,
+     "ratio": 0.75,
+     "p_hi": 0.9711258525009979,
+     "p_lo": 0.040485043723358066,
+     "n_type": 260
+    },
+    "sites_with": {
+     "Dholavira": 3,
+     "Harappa": 22,
+     "Kalibangan": 2,
+     "Mohenjo-daro": 10,
+     "Unknown": 2
+    }
+   },
+   "W740 W400 @ rod": {
+    "units": {
+     "obs": 7,
+     "exp": 0.88,
+     "ratio": 8.0,
+     "p_hi": 3.649780561285528e-05,
+     "p_lo": 0.9999960584174483,
+     "n_type": 37
+    },
+    "families": {
+     "obs": 4,
+     "exp": 0.48,
+     "ratio": 8.39,
+     "p_hi": 0.001473747626202239,
+     "p_lo": 0.9998618248186241,
+     "n_type": 28
+    },
+    "sites_with": {
+     "Mohenjo-daro": 4
+    }
+   },
+   "W740 W400 @ tablet": {
+    "units": {
+     "obs": 100,
+     "exp": 58.62,
+     "ratio": 1.71,
+     "p_hi": 5.567621839793669e-07,
+     "p_lo": 0.9999996809034395,
+     "n_type": 854
+    },
+    "families": {
+     "obs": 27,
+     "exp": 10.38,
+     "ratio": 2.6,
+     "p_hi": 1.228868019083685e-05,
+     "p_lo": 0.9999955285302069,
+     "n_type": 260
+    },
+    "sites_with": {
+     "Ganweriwala": 1,
+     "Harappa": 21,
+     "Kalibangan": 1,
+     "Mohenjo-daro": 4
+    }
+   },
+   "W740 W400 @ seal": {
+    "units": {
+     "obs": 11,
+     "exp": 49.54,
+     "ratio": 0.22,
+     "p_hi": 0.9999999999906511,
+     "p_lo": 4.31550339328616e-11,
+     "n_type": 2064
+    },
+    "families": {
+     "obs": 10,
+     "exp": 27.79,
+     "ratio": 0.36,
+     "p_hi": 0.9999663632158463,
+     "p_lo": 9.824776883446872e-05,
+     "n_type": 1419
+    },
+    "sites_with": {
+     "Dholavira": 1,
+     "Harappa": 3,
+     "Mohenjo-daro": 4,
+     "Kalibangan": 2
+    }
+   },
+   "W400 @ tablet": {
+    "units": {
+     "obs": 193,
+     "exp": 122.46,
+     "ratio": 1.58,
+     "p_hi": 2.4590919602571594e-09,
+     "p_lo": 0.9999999984605602,
+     "n_type": 854
+    },
+    "families": {
+     "obs": 60,
+     "exp": 27.69,
+     "ratio": 2.17,
+     "p_hi": 7.095351880235318e-08,
+     "p_lo": 0.9999999681970393,
+     "n_type": 260
+    },
+    "sites_with": {
+     "Dholavira": 2,
+     "Ganweriwala": 1,
+     "Harappa": 45,
+     "Kalibangan": 1,
+     "Mohenjo-daro": 9,
+     "Rupar": 1,
+     "Rakhigarhi": 1
+    }
+   },
+   "W407 @ copper": {
+    "units": {
+     "obs": 18,
+     "exp": 2.67,
+     "ratio": 6.73,
+     "p_hi": 6.097599805702099e-10,
+     "p_lo": 0.9999999999148823,
+     "n_type": 98
+    },
+    "families": {
+     "obs": 14,
+     "exp": 1.53,
+     "ratio": 9.17,
+     "p_hi": 1.0392185671390832e-09,
+     "p_lo": 0.999999999894932,
+     "n_type": 42
+    },
+    "sites_with": {
+     "Mohenjo-daro": 14
+    }
+   },
+   "W845 @ copper": {
+    "units": {
+     "obs": 7,
+     "exp": 0.95,
+     "ratio": 7.36,
+     "p_hi": 6.115984952913431e-05,
+     "p_lo": 0.999992831500418,
+     "n_type": 98
+    },
+    "families": {
+     "obs": 4,
+     "exp": 0.6,
+     "ratio": 6.71,
+     "p_hi": 0.003286931202170094,
+     "p_lo": 0.9996161524570101,
+     "n_type": 42
+    },
+    "sites_with": {
+     "Mohenjo-daro": 4
+    }
+   },
+   "connective_conditional_on_opener": {
+    "seal": {
+     "n": 1419,
+     "opener_rate": 0.295,
+     "conn_given_opener": "224/419",
+     "conn_given_no_opener": "223/1000"
+    },
+    "sealing": {
+     "n": 100,
+     "opener_rate": 0.22,
+     "conn_given_opener": "13/22",
+     "conn_given_no_opener": "21/78"
+    },
+    "tablet": {
+     "n": 260,
+     "opener_rate": 0.196,
+     "conn_given_opener": "25/51",
+     "conn_given_no_opener": "13/209"
+    },
+    "copper": {
+     "n": 42,
+     "opener_rate": 0.048,
+     "conn_given_opener": "0/2",
+     "conn_given_no_opener": "4/40"
+    },
+    "pottery": {
+     "n": 173,
+     "opener_rate": 0.133,
+     "conn_given_opener": "10/23",
+     "conn_given_no_opener": "10/150"
+    },
+    "rod": {
+     "n": 28,
+     "opener_rate": 0.071,
+     "conn_given_opener": "2/2",
+     "conn_given_no_opener": "3/26"
+    }
+   },
+   "connective_tokens_after_opener": {
+    "after_opener": 256,
+    "other": 300
+   }
+  }
+ },
+ "r4_gulf": {
+  "n_native": 2763,
+  "foreign_round_directions": {
+   "R/L": 8,
+   "L/R": 2,
+   "NR": 2,
+   "-": 1
+  },
+  "kn75": {
+   "foreign_round": {
+    "n": 12,
+    "mean_len": 4.75,
+    "bits": 7.705,
+    "bigram_gain": -0.492,
+    "reversed_minus_real": -0.029,
+    "perm_pct": 0.531,
+    "best_order_share": 0.182
+   },
+   "foreign_square_other": {
+    "n": 9,
+    "mean_len": 4.11,
+    "bits": 5.575,
+    "bigram_gain": 1.037,
+    "reversed_minus_real": 2.34,
+    "perm_pct": 0.943,
+    "best_order_share": 0.556
+   },
+   "native_sites_site_heldout_seals": {
+    "Banawali": {
+     "n": 10,
+     "mean_len": 2.9,
+     "bits": 4.591,
+     "bigram_gain": 1.169,
+     "reversed_minus_real": 3.075,
+     "perm_pct": 1.0,
+     "best_order_share": 1.0
+    },
+    "Chanhu-daro": {
+     "n": 44,
+     "mean_len": 4.93,
+     "bits": 5.504,
+     "bigram_gain": 0.978,
+     "reversed_minus_real": 2.584,
+     "perm_pct": 0.931,
+     "best_order_share": 0.477
+    },
+    "Dholavira": {
+     "n": 70,
+     "mean_len": 4.24,
+     "bits": 5.428,
+     "bigram_gain": 0.892,
+     "reversed_minus_real": 2.503,
+     "perm_pct": 0.874,
+     "best_order_share": 0.529
+    },
+    "Kalibangan": {
+     "n": 39,
+     "mean_len": 4.44,
+     "bits": 5.504,
+     "bigram_gain": 0.981,
+     "reversed_minus_real": 2.457,
+     "perm_pct": 0.902,
+     "best_order_share": 0.59
+    },
+    "Lothal": {
+     "n": 56,
+     "mean_len": 4.21,
+     "bits": 5.07,
+     "bigram_gain": 1.219,
+     "reversed_minus_real": 2.887,
+     "perm_pct": 0.92,
+     "best_order_share": 0.661
+    },
+    "Nausharo": {
+     "n": 15,
+     "mean_len": 5.13,
+     "bits": 5.12,
+     "bigram_gain": 1.389,
+     "reversed_minus_real": 3.133,
+     "perm_pct": 0.965,
+     "best_order_share": 0.733
+    }
+   },
+   "home_round_Mohenjo-daro_site_heldout": {
+    "n": 3,
+    "mean_len": 5.0,
+    "bits": 7.777,
+    "bigram_gain": -0.219,
+    "reversed_minus_real": 0.381,
+    "perm_pct": 0.591,
+    "best_order_share": 0.0
+   },
+   "home_round_Harappa_site_heldout": {
+    "n": 1,
+    "mean_len": 7.0,
+    "bits": 5.14,
+    "bigram_gain": 0.799,
+    "reversed_minus_real": 1.577,
+    "perm_pct": 0.997,
+    "best_order_share": 0.0
+   }
+  },
+  "matched_n_peripheral": {
+   "Chanhu-daro": {
+    "n_site": 44,
+    "bits_mean": 5.469,
+    "bits_95": 6.267,
+    "gain_mean": 0.918,
+    "gain_5": 0.375,
+    "pct_mean": 0.917,
+    "pct_5": 0.837
+   },
+   "Dholavira": {
+    "n_site": 70,
+    "bits_mean": 5.504,
+    "bits_95": 6.282,
+    "gain_mean": 0.956,
+    "gain_5": 0.454,
+    "pct_mean": 0.89,
+    "pct_5": 0.782
+   },
+   "Kalibangan": {
+    "n_site": 39,
+    "bits_mean": 5.714,
+    "bits_95": 6.554,
+    "gain_mean": 1.018,
+    "gain_5": 0.525,
+    "pct_mean": 0.9,
+    "pct_5": 0.804
+   },
+   "Lothal": {
+    "n_site": 56,
+    "bits_mean": 5.395,
+    "bits_95": 6.231,
+    "gain_mean": 1.142,
+    "gain_5": 0.57,
+    "pct_mean": 0.887,
+    "pct_5": 0.757
+   },
+   "Nausharo": {
+    "n_site": 15,
+    "bits_mean": 5.101,
+    "bits_95": 5.845,
+    "gain_mean": 1.531,
+    "gain_5": 1.117,
+    "pct_mean": 0.967,
+    "pct_5": 0.921
+   }
+  },
+  "foreign_round_texts": [
+   {
+    "site": "Failaka",
+    "dir": "R/L",
+    "seq": "W716 W350 W001 W090",
+    "bits": 7.67,
+    "rev": 7.92,
+    "pct": 0.782608695652174
+   },
+   {
+    "site": "Luristan",
+    "dir": "R/L",
+    "seq": "W091 W840 W413 W831",
+    "bits": 8.18,
+    "rev": 8.5,
+    "pct": 0.5217391304347826
+   },
+   {
+    "site": "Qala'at al-Bahrain",
+    "dir": "L/R",
+    "seq": "W190 W060 W055 W090 W160",
+    "bits": 9.1,
+    "rev": 8.44,
+    "pct": 0.2899159663865546
+   },
+   {
+    "site": "Susa",
+    "dir": "R/L",
+    "seq": "W924 W001 W319 W031 W055 W002 W150 W416",
+    "bits": 8.5,
+    "rev": 8.34,
+    "pct": 0.22784810126582278
+   },
+   {
+    "site": "Ur",
+    "dir": "R/L",
+    "seq": "W528 W220 W924 W340 W093",
+    "bits": 9.58,
+    "rev": 9.98,
+    "pct": 0.542016806722689
+   },
+   {
+    "site": "Ur",
+    "dir": "R/L",
+    "seq": "W415 W803 W001 W328 W004 W002",
+    "bits": 8.32,
+    "rev": 6.73,
+    "pct": 0.12865090403337967
+   },
+   {
+    "site": "Karzakan",
+    "dir": "R/L",
+    "seq": "W091 W031 W455 W220",
+    "bits": 6.2,
+    "rev": 7.31,
+    "pct": 1.0
+   },
+   {
+    "site": "Karzakan",
+    "dir": "R/L",
+    "seq": "W091 W032 W001 W033",
+    "bits": 6.75,
+    "rev": 6.97,
+    "pct": 0.8695652173913043
+   },
+   {
+    "site": "Saar",
+    "dir": "R/L",
+    "seq": "W055 W220 W091 W001 W093 W031",
+    "bits": 7.98,
+    "rev": 8.07,
+    "pct": 0.3463143254520167
+   },
+   {
+    "site": "Karzakan",
+    "dir": "NR",
+    "seq": "W740 W740",
+    "bits": 5.25,
+    "rev": 5.25,
+    "pct": null
+   },
+   {
+    "site": "Ur",
+    "dir": "-",
+    "seq": "W090 W405",
+    "bits": 4.99,
+    "rev": 5.1,
+    "pct": 1.0
+   },
+   {
+    "site": "Janabiyah",
+    "dir": "L/R",
+    "seq": "W071 W031 W831 W055 W121 W099 W055",
+    "bits": 9.94,
+    "rev": 9.51,
+    "pct": 0.1332794830371567
+   },
+   {
+    "site": "Kalba",
+    "dir": "NR",
+    "seq": "W091",
+    "bits": 5.47,
+    "rev": 5.47,
+    "pct": null
+   }
+  ],
+  "kn50": {
+   "foreign_round": {
+    "n": 12,
+    "mean_len": 4.75,
+    "bits": 7.953,
+    "bigram_gain": -0.739,
+    "reversed_minus_real": -0.081,
+    "perm_pct": 0.563,
+    "best_order_share": 0.182
+   },
+   "foreign_square_other": {
+    "n": 9,
+    "mean_len": 4.11,
+    "bits": 5.591,
+    "bigram_gain": 1.022,
+    "reversed_minus_real": 2.541,
+    "perm_pct": 0.946,
+    "best_order_share": 0.667
+   },
+   "native_sites_site_heldout_seals": {
+    "Banawali": {
+     "n": 10,
+     "mean_len": 2.9,
+     "bits": 4.543,
+     "bigram_gain": 1.217,
+     "reversed_minus_real": 3.375,
+     "perm_pct": 1.0,
+     "best_order_share": 0.9
+    },
+    "Chanhu-daro": {
+     "n": 44,
+     "mean_len": 4.93,
+     "bits": 5.549,
+     "bigram_gain": 0.933,
+     "reversed_minus_real": 2.784,
+     "perm_pct": 0.933,
+     "best_order_share": 0.477
+    },
+    "Dholavira": {
+     "n": 70,
+     "mean_len": 4.24,
+     "bits": 5.496,
+     "bigram_gain": 0.824,
+     "reversed_minus_real": 2.705,
+     "perm_pct": 0.875,
+     "best_order_share": 0.5
+    },
+    "Kalibangan": {
+     "n": 39,
+     "mean_len": 4.44,
+     "bits": 5.58,
+     "bigram_gain": 0.905,
+     "reversed_minus_real": 2.645,
+     "perm_pct": 0.899,
+     "best_order_share": 0.641
+    },
+    "Lothal": {
+     "n": 56,
+     "mean_len": 4.21,
+     "bits": 5.123,
+     "bigram_gain": 1.166,
+     "reversed_minus_real": 3.085,
+     "perm_pct": 0.919,
+     "best_order_share": 0.661
+    },
+    "Nausharo": {
+     "n": 15,
+     "mean_len": 5.13,
+     "bits": 5.177,
+     "bigram_gain": 1.331,
+     "reversed_minus_real": 3.364,
+     "perm_pct": 0.97,
+     "best_order_share": 0.733
+    }
+   },
+   "home_round_Mohenjo-daro_site_heldout": {
+    "n": 3,
+    "mean_len": 5.0,
+    "bits": 7.843,
+    "bigram_gain": -0.286,
+    "reversed_minus_real": 0.627,
+    "perm_pct": 0.614,
+    "best_order_share": 0.0
+   },
+   "home_round_Harappa_site_heldout": {
+    "n": 1,
+    "mean_len": 7.0,
+    "bits": 5.283,
+    "bigram_gain": 0.656,
+    "reversed_minus_real": 1.493,
+    "perm_pct": 0.991,
+    "best_order_share": 0.0
+   }
+  },
+  "kn90": {
+   "foreign_round": {
+    "n": 12,
+    "mean_len": 4.75,
+    "bits": 7.619,
+    "bigram_gain": -0.405,
+    "reversed_minus_real": 0.005,
+    "perm_pct": 0.528,
+    "best_order_share": 0.182
+   },
+   "foreign_square_other": {
+    "n": 9,
+    "mean_len": 4.11,
+    "bits": 5.599,
+    "bigram_gain": 1.013,
+    "reversed_minus_real": 2.233,
+    "perm_pct": 0.944,
+    "best_order_share": 0.556
+   },
+   "native_sites_site_heldout_seals": {
+    "Banawali": {
+     "n": 10,
+     "mean_len": 2.9,
+     "bits": 4.66,
+     "bigram_gain": 1.101,
+     "reversed_minus_real": 2.898,
+     "perm_pct": 1.0,
+     "best_order_share": 1.0
+    },
+    "Chanhu-daro": {
+     "n": 44,
+     "mean_len": 4.93,
+     "bits": 5.525,
+     "bigram_gain": 0.957,
+     "reversed_minus_real": 2.472,
+     "perm_pct": 0.908,
+     "best_order_share": 0.477
+    },
+    "Dholavira": {
+     "n": 70,
+     "mean_len": 4.24,
+     "bits": 5.426,
+     "bigram_gain": 0.893,
+     "reversed_minus_real": 2.393,
+     "perm_pct": 0.877,
+     "best_order_share": 0.543
+    },
+    "Kalibangan": {
+     "n": 39,
+     "mean_len": 4.44,
+     "bits": 5.494,
+     "bigram_gain": 0.991,
+     "reversed_minus_real": 2.366,
+     "perm_pct": 0.899,
+     "best_order_share": 0.615
+    },
+    "Lothal": {
+     "n": 56,
+     "mean_len": 4.21,
+     "bits": 5.069,
+     "bigram_gain": 1.22,
+     "reversed_minus_real": 2.791,
+     "perm_pct": 0.924,
+     "best_order_share": 0.679
+    },
+    "Nausharo": {
+     "n": 15,
+     "mean_len": 5.13,
+     "bits": 5.12,
+     "bigram_gain": 1.389,
+     "reversed_minus_real": 3.016,
+     "perm_pct": 0.968,
+     "best_order_share": 0.733
+    }
+   },
+   "home_round_Mohenjo-daro_site_heldout": {
+    "n": 3,
+    "mean_len": 5.0,
+    "bits": 7.842,
+    "bigram_gain": -0.285,
+    "reversed_minus_real": 0.184,
+    "perm_pct": 0.544,
+    "best_order_share": 0.0
+   },
+   "home_round_Harappa_site_heldout": {
+    "n": 1,
+    "mean_len": 7.0,
+    "bits": 5.077,
+    "bigram_gain": 0.862,
+    "reversed_minus_real": 1.668,
+    "perm_pct": 0.998,
+    "best_order_share": 0.0
+   }
+  },
+  "unk3": {
+   "foreign_round": {
+    "n": 12,
+    "mean_len": 4.75,
+    "bits": 6.859,
+    "bigram_gain": -0.502,
+    "reversed_minus_real": 0.01,
+    "perm_pct": 0.579,
+    "best_order_share": 0.182
+   },
+   "foreign_square_other": {
+    "n": 9,
+    "mean_len": 4.11,
+    "bits": 4.635,
+    "bigram_gain": 1.129,
+    "reversed_minus_real": 2.492,
+    "perm_pct": 0.948,
+    "best_order_share": 0.556
+   },
+   "native_sites_site_heldout_seals": {
+    "Banawali": {
+     "n": 10,
+     "mean_len": 2.9,
+     "bits": 4.155,
+     "bigram_gain": 1.17,
+     "reversed_minus_real": 3.047,
+     "perm_pct": 0.996,
+     "best_order_share": 0.8
+    },
+    "Chanhu-daro": {
+     "n": 44,
+     "mean_len": 4.93,
+     "bits": 4.955,
+     "bigram_gain": 0.98,
+     "reversed_minus_real": 2.585,
+     "perm_pct": 0.93,
+     "best_order_share": 0.477
+    },
+    "Dholavira": {
+     "n": 70,
+     "mean_len": 4.24,
+     "bits": 5.191,
+     "bigram_gain": 0.905,
+     "reversed_minus_real": 2.502,
+     "perm_pct": 0.881,
+     "best_order_share": 0.557
+    },
+    "Kalibangan": {
+     "n": 39,
+     "mean_len": 4.44,
+     "bits": 5.044,
+     "bigram_gain": 0.97,
+     "reversed_minus_real": 2.41,
+     "perm_pct": 0.894,
+     "best_order_share": 0.564
+    },
+    "Lothal": {
+     "n": 56,
+     "mean_len": 4.21,
+     "bits": 4.671,
+     "bigram_gain": 1.22,
+     "reversed_minus_real": 2.848,
+     "perm_pct": 0.915,
+     "best_order_share": 0.661
+    },
+    "Nausharo": {
+     "n": 15,
+     "mean_len": 5.13,
+     "bits": 4.846,
+     "bigram_gain": 1.358,
+     "reversed_minus_real": 3.11,
+     "perm_pct": 0.962,
+     "best_order_share": 0.733
+    }
+   },
+   "home_round_Mohenjo-daro_site_heldout": {
+    "n": 3,
+    "mean_len": 5.0,
+    "bits": 6.13,
+    "bigram_gain": -0.082,
+    "reversed_minus_real": 0.348,
+    "perm_pct": 0.608,
+    "best_order_share": 0.0
+   },
+   "home_round_Harappa_site_heldout": {
+    "n": 1,
+    "mean_len": 7.0,
+    "bits": 5.165,
+    "bigram_gain": 0.75,
+    "reversed_minus_real": 1.581,
+    "perm_pct": 0.998,
+    "best_order_share": 0.0
+   }
+  },
+  "addk": {
+   "foreign_round": {
+    "n": 12,
+    "mean_len": 4.75,
+    "bits": 7.238,
+    "bigram_gain": -0.024,
+    "reversed_minus_real": -0.043,
+    "perm_pct": 0.492,
+    "best_order_share": 0.091
+   },
+   "foreign_square_other": {
+    "n": 9,
+    "mean_len": 4.11,
+    "bits": 6.002,
+    "bigram_gain": 0.611,
+    "reversed_minus_real": 0.977,
+    "perm_pct": 0.936,
+    "best_order_share": 0.556
+   },
+   "native_sites_site_heldout_seals": {
+    "Banawali": {
+     "n": 10,
+     "mean_len": 2.9,
+     "bits": 5.125,
+     "bigram_gain": 0.635,
+     "reversed_minus_real": 1.266,
+     "perm_pct": 1.0,
+     "best_order_share": 0.9
+    },
+    "Chanhu-daro": {
+     "n": 44,
+     "mean_len": 4.93,
+     "bits": 5.84,
+     "bigram_gain": 0.642,
+     "reversed_minus_real": 1.085,
+     "perm_pct": 0.893,
+     "best_order_share": 0.432
+    },
+    "Dholavira": {
+     "n": 70,
+     "mean_len": 4.24,
+     "bits": 5.759,
+     "bigram_gain": 0.561,
+     "reversed_minus_real": 1.036,
+     "perm_pct": 0.844,
+     "best_order_share": 0.514
+    },
+    "Kalibangan": {
+     "n": 39,
+     "mean_len": 4.44,
+     "bits": 5.884,
+     "bigram_gain": 0.602,
+     "reversed_minus_real": 1.002,
+     "perm_pct": 0.885,
+     "best_order_share": 0.59
+    },
+    "Lothal": {
+     "n": 56,
+     "mean_len": 4.21,
+     "bits": 5.545,
+     "bigram_gain": 0.744,
+     "reversed_minus_real": 1.22,
+     "perm_pct": 0.897,
+     "best_order_share": 0.643
+    },
+    "Nausharo": {
+     "n": 15,
+     "mean_len": 5.13,
+     "bits": 5.712,
+     "bigram_gain": 0.796,
+     "reversed_minus_real": 1.275,
+     "perm_pct": 0.928,
+     "best_order_share": 0.667
+    }
+   },
+   "home_round_Mohenjo-daro_site_heldout": {
+    "n": 3,
+    "mean_len": 5.0,
+    "bits": 7.125,
+    "bigram_gain": 0.432,
+    "reversed_minus_real": 0.757,
+    "perm_pct": 0.925,
+    "best_order_share": 0.667
+   },
+   "home_round_Harappa_site_heldout": {
+    "n": 1,
+    "mean_len": 7.0,
+    "bits": 5.571,
+    "bigram_gain": 0.368,
+    "reversed_minus_real": 0.72,
+    "perm_pct": 0.994,
+    "best_order_share": 0.0
+   }
+  }
+ },
+ "r5_grammar": {
+  "n_dev": 1685,
+  "n_heldout": 554,
+  "n_heldout_no_ed1_neighbour": 303,
+  "baseline_bigram": {
+   "n": 520,
+   "best_share": 0.565,
+   "mean_pct": 0.907,
+   "chance_best": 0.115
+  },
+  "bigram_no_leak": {
+   "n": 303,
+   "best_share": 0.416,
+   "mean_pct": 0.925,
+   "chance_best": 0.034
+  },
+  "position_only_model": {
+   "n": 520,
+   "best_share": 0.2,
+   "mean_pct": 0.828,
+   "chance_best": 0.115
+  },
+  "position_only_no_leak": {
+   "n": 303,
+   "best_share": 0.046,
+   "mean_pct": 0.822,
+   "chance_best": 0.034
+  },
+  "bigram_fixed_signs_removed_no_leak": {
+   "n": 300,
+   "best_share": 0.417,
+   "mean_pct": 0.874,
+   "chance_best": 0.086
+  },
+  "position_only_fixed_removed_no_leak": {
+   "n": 300,
+   "best_share": 0.157,
+   "mean_pct": 0.778,
+   "chance_best": 0.086
+  },
+  "bigram_texts_without_fixed_no_leak": {
+   "n": 87,
+   "best_share": 0.333,
+   "mean_pct": 0.842,
+   "chance_best": 0.084
+  },
+  "position_only_texts_without_fixed_no_leak": {
+   "n": 87,
+   "best_share": 0.103,
+   "mean_pct": 0.71,
+   "chance_best": 0.084
+  },
+  "top_positional_removed": [
+   "M1",
+   "M12",
+   "M15",
+   "M150",
+   "M176",
+   "M211",
+   "M254",
+   "M267",
+   "M342",
+   "M391",
+   "M99"
+  ],
+  "bigram_top15_removed_no_leak": {
+   "n": 295,
+   "best_share": 0.42,
+   "mean_pct": 0.87,
+   "chance_best": 0.111
+  },
+  "bigram_interior_only_no_leak": {
+   "n": 268,
+   "best_share": 0.5,
+   "mean_pct": 0.855,
+   "chance_best": 0.148
+  },
+  "position_only_interior_no_leak": {
+   "n": 268,
+   "best_share": 0.22,
+   "mean_pct": 0.723,
+   "chance_best": 0.148
+  }
+ },
+ "r6_copper": {
+  "n_tablets": 91,
+  "n_legends": 30,
+  "legends_on_2plus": 18,
+  "pairs": 272,
+  "legend_sizes": [
+   19,
+   9,
+   6,
+   5,
+   4,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   2,
+   2,
+   2,
+   2
+  ],
+  "top3_legends_pair_share": 0.816,
+  "legend_level_fs": {
+   "modal_share": 0.896,
+   "null": 0.387,
+   "p": 0.0001999600079984003,
+   "legends_all_same": "13/18"
+  },
+  "legend_level_coarse": {
+   "modal_share": 0.896,
+   "null": 0.389,
+   "p": 0.0001999600079984003,
+   "legends_all_same": "13/18"
+  },
+  "legends": [
+   {
+    "text": "M204 M245 M358 M342",
+    "n": 19,
+    "pictures": {
+     "fs147": 12,
+     "fs145": 7
+    },
+    "fs": {
+     "147": 12,
+     "145": 7
+    }
+   },
+   {
+    "text": "M65 M336 M89 M407 M169 M183 M169",
+    "n": 9,
+    "pictures": {
+     "fs163": 9
+    },
+    "fs": {
+     "163": 9
+    }
+   },
+   {
+    "text": "M53 M67 M407 M124 M169",
+    "n": 6,
+    "pictures": {
+     "tiger to r.": 1,
+     "horned tiger to r.": 2,
+     "fs141": 3
+    },
+    "fs": {
+     "91": 1,
+     "101": 2,
+     "141": 3
+    }
+   },
+   {
+    "text": "M389 M407 M124 M169 M373 M287 M342",
+    "n": 5,
+    "pictures": {
+     "fs520": 5
+    },
+    "fs": {
+     "520": 5
+    }
+   },
+   {
+    "text": "M345 M341 M18 M252 M97 M25 M245 M245",
+    "n": 4,
+    "pictures": {
+     "unicorn to r. facing feed": 3,
+     "fs290": 1
+    },
+    "fs": {
+     "15": 3,
+     "290": 1
+    }
+   },
+   {
+    "text": "M102 M190 M48 M8 M342 M373",
+    "n": 4,
+    "pictures": {
+     "fs139": 3,
+     "goat-antelope to r. with ": 1
+    },
+    "fs": {
+     "139": 3,
+     "137": 1
+    }
+   },
+   {
+    "text": "M389 M72 M48 M342",
+    "n": 3,
+    "pictures": {
+     "goat-antelope to r. with ": 3
+    },
+    "fs": {
+     "135": 3
+    }
+   },
+   {
+    "text": "M389 M72 M326 M342",
+    "n": 3,
+    "pictures": {
+     "goat-antelope to r. with ": 3
+    },
+    "fs": {
+     "135": 3
+    }
+   },
+   {
+    "text": "M112 M194 M327 M342",
+    "n": 3,
+    "pictures": {
+     "fs290": 3
+    },
+    "fs": {
+     "290": 3
+    }
+   },
+   {
+    "text": "M336 M89 M296 M342",
+    "n": 3,
+    "pictures": {
+     "elephant to r. facing fee": 3
+    },
+    "fs": {
+     "75": 3
+    }
+   },
+   {
+    "text": "M70 M112 M194 M18 M211 M87 M169",
+    "n": 3,
+    "pictures": {
+     "fs139": 3
+    },
+    "fs": {
+     "139": 3
+    }
+   },
+   {
+    "text": "M171 M59 M407 M169",
+    "n": 3,
+    "pictures": {
+     "fs860": 3
+    },
+    "fs": {
+     "860": 3
+    }
+   },
+   {
+    "text": "M295 M87 M97 M252 M97 M25 M245 M245",
+    "n": 3,
+    "pictures": {
+     "fs290": 3
+    },
+    "fs": {
+     "290": 3
+    }
+   },
+   {
+    "text": "M336 M89 M296 M342 M98",
+    "n": 3,
+    "pictures": {
+     "elephant to r. facing fee": 3
+    },
+    "fs": {
+     "75": 3
+    }
+   },
+   {
+    "text": "M87 M155 M169",
+    "n": 2,
+    "pictures": {
+     "short-horned bull to r. f": 2
+    },
+    "fs": {
+     "45": 2
+    }
+   },
+   {
+    "text": "M65 M72 M62 M342",
+    "n": 2,
+    "pictures": {
+     "rhinoceros to r.": 2
+    },
+    "fs": {
+     "111": 2
+    }
+   },
+   {
+    "text": "M59 M112 M194 M18 M211 M87 M169",
+    "n": 2,
+    "pictures": {
+     "fs139": 2
+    },
+    "fs": {
+     "139": 2
+    }
+   },
+   {
+    "text": "M267 M402 M97 M25 M245 M245 | M65 M72 M62 M342",
+    "n": 2,
+    "pictures": {
+     "rhinoceros to r.": 1,
+     "rhinoceros to r. facing f": 1
+    },
+    "fs": {
+     "111": 1,
+     "113": 1
+    }
+   }
+  ]
+ },
+ "r7_dholavira": {
+  "all_objects": {
+   "Dholavira": {
+    "unique": {
+     "3": 0.24,
+     "all": 0.499,
+     "2": -0.207,
+     "4+": 0.84
+    },
+    "all": {
+     "3": 0.649,
+     "all": 0.737,
+     "2": 0.544,
+     "4+": 0.882
+    },
+    "n_unique_len2+": 80,
+    "n_unique_len4+": 48,
+    "share_unique": 0.768
+   },
+   "Mohenjo-daro": {
+    "unique": {
+     "4+": 1.201,
+     "all": 1.016,
+     "2": 0.262,
+     "3": 0.7
+    },
+    "all": {
+     "4+": 1.221,
+     "all": 1.085,
+     "2": 0.69,
+     "3": 0.881
+    },
+    "n_unique_len2+": 1106,
+    "n_unique_len4+": 803,
+    "share_unique": 0.904
+   },
+   "Harappa": {
+    "unique": {
+     "2": -0.01,
+     "all": 0.795,
+     "3": 0.683,
+     "4+": 1.219
+    },
+    "all": {
+     "2": 0.37,
+     "all": 0.915,
+     "3": 0.845,
+     "4+": 1.268
+    },
+    "n_unique_len2+": 781,
+    "n_unique_len4+": 399,
+    "share_unique": 0.861
+   },
+   "Lothal": {
+    "unique": {
+     "4+": 1.075,
+     "all": 0.79,
+     "2": -0.051,
+     "3": 0.616
+    },
+    "all": {
+     "2": 0.639,
+     "all": 0.98,
+     "4+": 1.105,
+     "3": 0.978
+    },
+    "n_unique_len2+": 75,
+    "n_unique_len4+": 43,
+    "share_unique": 0.806
+   },
+   "Kalibangan": {
+    "unique": {
+     "4+": 0.833,
+     "all": 0.47,
+     "2": -0.111,
+     "3": 0.448
+    },
+    "all": {
+     "4+": 0.947,
+     "all": 0.726,
+     "2": 0.538,
+     "3": 0.641
+    },
+    "n_unique_len2+": 59,
+    "n_unique_len4+": 28,
+    "share_unique": 0.673
+   },
+   "Chanhu-daro": {
+    "unique": {
+     "3": 0.462,
+     "all": 0.721,
+     "2": 0.778,
+     "4+": 0.777
+    },
+    "all": {
+     "3": 0.872,
+     "all": 0.871,
+     "2": 0.761,
+     "4+": 0.897
+    },
+    "n_unique_len2+": 45,
+    "n_unique_len4+": 31,
+    "share_unique": 0.839
+   }
+  },
+  "seals": {
+   "Dholavira": {
+    "unique": {
+     "3": 0.222,
+     "all": 0.667,
+     "2": -0.396,
+     "4+": 0.968
+    },
+    "all": {
+     "3": 0.786,
+     "all": 0.872,
+     "2": 0.487,
+     "4+": 1.011
+    },
+    "n_unique_len2+": 61,
+    "n_unique_len4+": 43,
+    "share_unique": 0.827
+   },
+   "Mohenjo-daro": {
+    "unique": {
+     "4+": 1.226,
+     "all": 1.073,
+     "3": 0.726,
+     "2": 0.386
+    },
+    "all": {
+     "4+": 1.243,
+     "all": 1.135,
+     "3": 0.917,
+     "2": 0.818
+    },
+    "n_unique_len2+": 924,
+    "n_unique_len4+": 695,
+    "share_unique": 0.916
+   },
+   "Harappa": {
+    "unique": {
+     "4+": 1.406,
+     "all": 1.167,
+     "3": 0.955,
+     "2": 0.086
+    },
+    "all": {
+     "4+": 1.446,
+     "all": 1.271,
+     "3": 1.144,
+     "2": 0.755
+    },
+    "n_unique_len2+": 254,
+    "n_unique_len4+": 179,
+    "share_unique": 0.886
+   },
+   "Lothal": {
+    "unique": {
+     "4+": 1.093,
+     "all": 0.936,
+     "2": 0.118,
+     "3": 0.942
+    },
+    "all": {
+     "2": 0.854,
+     "all": 1.097,
+     "4+": 1.093,
+     "3": 1.296
+    },
+    "n_unique_len2+": 47,
+    "n_unique_len4+": 31,
+    "share_unique": 0.794
+   },
+   "Kalibangan": {
+    "unique": {
+     "4+": 0.888,
+     "all": 0.728,
+     "2": -0.01,
+     "3": 0.772
+    },
+    "all": {
+     "4+": 0.958,
+     "all": 0.945,
+     "2": 0.978,
+     "3": 0.772
+    },
+    "n_unique_len2+": 31,
+    "n_unique_len4+": 22,
+    "share_unique": 0.81
+   },
+   "Chanhu-daro": {
+    "unique": {
+     "2": 0.848,
+     "all": 0.788,
+     "4+": 0.811,
+     "3": 0.56
+    },
+    "all": {
+     "2": 0.83,
+     "all": 0.941,
+     "4+": 0.93,
+     "3": 1.11
+    },
+    "n_unique_len2+": 38,
+    "n_unique_len4+": 30,
+    "share_unique": 0.848
+   }
+  }
+ },
+ "r8_direction": {
+  "M77": {
+   "n_rl": 2073,
+   "n_lr": 150,
+   "none": {
+    "rl_heldout": "491/519=0.95",
+    "lr_as_labelled": "135/150=0.90",
+    "p": 1.2774376792528952e-25,
+    "lr_by_len": {
+     "2": "54/63",
+     "3": "43/45",
+     "4+": "38/42"
+    }
+   },
+   "jar": {
+    "rl_heldout": "463/505=0.92",
+    "lr_as_labelled": "117/138=0.85",
+    "p": 1.1877217172817955e-17,
+    "lr_by_len": {
+     "2": "58/72",
+     "3": "29/33",
+     "4+": "30/33"
+    }
+   },
+   "top10_positional_removed": {
+    "rl_heldout": "425/473=0.90",
+    "lr_as_labelled": "94/114=0.82",
+    "p": 5.840047335487806e-13,
+    "lr_by_len": {
+     "2": "58/70",
+     "3": "20/25",
+     "4+": "16/19"
+    }
+   },
+   "top20_positional_removed": {
+    "rl_heldout": "400/451=0.89",
+    "lr_as_labelled": "84/103=0.82",
+    "p": 3.103814890157406e-11,
+    "lr_by_len": {
+     "2": "53/65",
+     "3": "17/22",
+     "4+": "14/16"
+    }
+   },
+   "top40_positional_removed": {
+    "rl_heldout": "335/386=0.87",
+    "lr_as_labelled": "63/74=0.85",
+    "p": 2.6606506833338513e-10,
+    "lr_by_len": {
+     "3": "11/14",
+     "2": "43/49",
+     "4+": "9/11"
+    }
+   }
+  },
+  "ICIT": {
+   "n_rl": 2614,
+   "n_lr": 149,
+   "none": {
+    "rl_heldout": "597/653=0.91",
+    "lr_as_labelled": "131/149=0.88",
+    "p": 1.1377185872831776e-22,
+    "lr_by_len": {
+     "2": "49/59",
+     "3": "44/48",
+     "4+": "38/42"
+    }
+   },
+   "jar": {
+    "rl_heldout": "566/630=0.90",
+    "lr_as_labelled": "113/132=0.86",
+    "p": 9.059511714051798e-18,
+    "lr_by_len": {
+     "2": "50/61",
+     "3": "36/41",
+     "4+": "27/30"
+    }
+   },
+   "top10_positional_removed": {
+    "rl_heldout": "526/589=0.89",
+    "lr_as_labelled": "91/114=0.80",
+    "p": 4.645486088014285e-11,
+    "lr_by_len": {
+     "2": "49/64",
+     "3": "24/30",
+     "4+": "18/20"
+    }
+   },
+   "top20_positional_removed": {
+    "rl_heldout": "484/567=0.85",
+    "lr_as_labelled": "82/109=0.75",
+    "p": 6.303857660858866e-08,
+    "lr_by_len": {
+     "2": "46/65",
+     "3": "21/26",
+     "4+": "15/18"
+    }
+   },
+   "top40_positional_removed": {
+    "rl_heldout": "414/498=0.83",
+    "lr_as_labelled": "65/86=0.76",
+    "p": 1.0765894461732788e-06,
+    "lr_by_len": {
+     "2": "39/56",
+     "3": "17/19",
+     "4+": "9/11"
+    }
+   }
+  },
+  "note": "ICIT and M77 transcribe largely the same objects; agreement between them is not an independent replication."
+ },
+ "r8_direction_leak": {
+  "M77": {
+   "lr_exact_in_rl": 60,
+   "lr_ed1_in_rl": 56,
+   "lr_clean": 34,
+   "clean_none": {
+    "rl_heldout": "488/519=0.94",
+    "lr_as_labelled": "31/34=0.91",
+    "p": 3.8300640881061554e-07,
+    "lr_by_len": {
+     "3": "5/5",
+     "4+": "25/27",
+     "2": "1/2"
+    }
+   },
+   "clean_top20_removed": {
+    "rl_heldout": "397/452=0.88",
+    "lr_as_labelled": "25/33=0.76",
+    "p": 0.002275692066177726,
+    "lr_by_len": {
+     "4+": "13/15",
+     "3": "5/8",
+     "2": "7/10"
+    }
+   }
+  },
+  "ICIT": {
+   "lr_exact_in_rl": 52,
+   "lr_ed1_in_rl": 74,
+   "lr_clean": 23,
+   "clean_none": {
+    "rl_heldout": "604/654=0.92",
+    "lr_as_labelled": "18/23=0.78",
+    "p": 0.005311012268066406,
+    "lr_by_len": {
+     "3": "3/5",
+     "4+": "14/17",
+     "2": "1/1"
+    }
+   },
+   "clean_top20_removed": {
+    "rl_heldout": "495/567=0.87",
+    "lr_as_labelled": "15/22=0.68",
+    "p": 0.06690025329589844,
+    "lr_by_len": {
+     "3": "5/7",
+     "4+": "10/12",
+     "2": "0/3"
+    }
+   }
+  }
+ },
+ "r3b_register_cv": {
+  "M77": {
+   "seal": {
+    "n": 1643,
+    "auc_plain": 0.777,
+    "auc_grouped": 0.762
+   },
+   "tablet": {
+    "n": 177,
+    "auc_plain": 0.835,
+    "auc_grouped": 0.816
+   },
+   "copper": {
+    "n": 65,
+    "auc_plain": 0.906,
+    "auc_grouped": 0.886
+   },
+   "rod": {
+    "n": 26,
+    "auc_plain": 0.809,
+    "auc_grouped": 0.745
+   },
+   "pottery": {
+    "n": 109,
+    "auc_plain": 0.781,
+    "auc_grouped": 0.765
+   },
+   "sealing": {
+    "n": 398,
+    "auc_plain": 0.698,
+    "auc_grouped": 0.675
+   }
+  },
+  "ICIT": {
+   "seal": {
+    "n": 2064,
+    "auc_plain": 0.787,
+    "auc_grouped": 0.77
+   },
+   "tablet": {
+    "n": 854,
+    "auc_plain": 0.778,
+    "auc_grouped": 0.752
+   },
+   "copper": {
+    "n": 98,
+    "auc_plain": 0.891,
+    "auc_grouped": 0.807
+   },
+   "rod": {
+    "n": 37,
+    "auc_plain": 0.668,
+    "auc_grouped": 0.706
+   },
+   "pottery": {
+    "n": 395,
+    "auc_plain": 0.805,
+    "auc_grouped": 0.803
+   },
+   "sealing": {
+    "n": 188,
+    "auc_plain": 0.681,
+    "auc_grouped": 0.617
+   }
+  }
+ },
+ "r1b_fish_newsites": {
+  "new_sites": {
+   "tokens": 10,
+   "final": 5,
+   "share": 0.5,
+   "shuffle_expect": 0.247,
+   "after_tall2": 0,
+   "final_after_tall2": 0,
+   "binom_p_vs_shuffle": 0.07467193299058583,
+   "sites": {
+    "Bala-kot": 1,
+    "Banawali": 1,
+    "Bhirrana": 1,
+    "Gola Dhoro (Bagasra)": 1,
+    "Rupar": 1,
+    "Dholavira": 3,
+    "Nausharo": 2
+   },
+   "n_texts": 253
+  },
+  "jar_rate_with_ticked": 0.137,
+  "jar_rate_matched": 0.481,
+  "p": 0.0004997501249375312
+ },
+ "r5b_multisets": {
+  "multisets_on_3plus_objects": 140,
+  "single_order": 136,
+  "objects_per_multiset_mean": 6.7,
+  "spread_sites_or_types": 97,
+  "spread_single_order": 96,
+  "all_multisets_len2_5": 1497,
+  "multisets_with_2plus_distinct_orders": 8,
+  "distinct_texts_len2_5": 1505
+ }
+}

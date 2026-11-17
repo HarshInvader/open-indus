@@ -1,0 +1,16 @@
+{
+ "task": 7,
+ "verdict": "gate not passed; untestable",
+ "tamili_sherds_total": 1570,
+ "graffiti_sherds_total": 15184,
+ "sherds_text_and_mark_secure": 20,
+ "sherds_text_and_mark_incl_doubtful": 21,
+ "marks_identified_to_sign": 0,
+ "gate_threshold": 30,
+ "mark_at_end": 16,
+ "mark_at_start": 2,
+ "word_ends_n": 8,
+ "power": "see power.json",
+ "prereg": "docs/prereg/tn_brahmi_graffiti.md",
+ "prereg_sha256": "4573d33ceef20881e9ac47791c4c4b0cf443f2ed4f581bd0b37b0a02c475b877"
+}

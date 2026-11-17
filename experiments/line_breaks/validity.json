@@ -1,0 +1,86 @@
+{
+ "n_distinct_multiline": 117,
+ "layout_kinds": {
+  "a later line is one sign": 39,
+  "two multi-sign lines, same direction": 60,
+  "lines run in different directions": 12,
+  "line 1 is one sign": 3,
+  "one non-empty line only": 3
+ },
+ "one_sign_second_lines_top": [
+  {
+   "sign": "M242",
+   "as_one_sign_line2": 9,
+   "single_line_texts_with_sign": 14,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M374",
+   "as_one_sign_line2": 7,
+   "single_line_texts_with_sign": 0,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M393",
+   "as_one_sign_line2": 4,
+   "single_line_texts_with_sign": 2,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M93",
+   "as_one_sign_line2": 4,
+   "single_line_texts_with_sign": 2,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M342",
+   "as_one_sign_line2": 2,
+   "single_line_texts_with_sign": 896,
+   "standalone_single_line": 1
+  },
+  {
+   "sign": "M1",
+   "as_one_sign_line2": 2,
+   "single_line_texts_with_sign": 80,
+   "standalone_single_line": 1
+  },
+  {
+   "sign": "M162",
+   "as_one_sign_line2": 2,
+   "single_line_texts_with_sign": 156,
+   "standalone_single_line": 1
+  },
+  {
+   "sign": "M266",
+   "as_one_sign_line2": 1,
+   "single_line_texts_with_sign": 0,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M144",
+   "as_one_sign_line2": 1,
+   "single_line_texts_with_sign": 0,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M235",
+   "as_one_sign_line2": 1,
+   "single_line_texts_with_sign": 0,
+   "standalone_single_line": 0
+  },
+  {
+   "sign": "M211",
+   "as_one_sign_line2": 1,
+   "single_line_texts_with_sign": 161,
+   "standalone_single_line": 1
+  },
+  {
+   "sign": "M391",
+   "as_one_sign_line2": 1,
+   "single_line_texts_with_sign": 164,
+   "standalone_single_line": 1
+  }
+ ],
+ "one_sign_line2_signs_rare_in_running_text": 18,
+ "one_sign_line2_total": 40
+}

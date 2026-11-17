@@ -1,0 +1,78 @@
+# Proposed .gitignore for the public repo. Rename to .gitignore after the
+# owner has worked through PUBLISHING_CHECKLIST.md. Nothing here deletes files.
+# /data/ stays out in full: data/splits*.json lists whole sign texts, not IDs.
+
+# --- Environments, caches, binaries -------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.npz
+*.npy
+*.zip
+.DS_Store
+*.log
+*.err
+board/compute.lock
+
+# --- Private --------------------------------------------------------------
+# Draft emails with addresses and named contacts
+/docs/outreach/
+# Live team board: agent notes, local paths, outreach status
+/board/board.db
+/board/board.db-shm
+/board/board.db-wal
+# Agent planning files and briefs that contain local paths
+/experiments/fable52_plan*
+/docs/fable_brief*.md
+
+# --- Third-party corpora and downloads (licence unknown or not ours) ----
+/sources/
+/data/
+experiments/*/raw/
+experiments/*/ext/
+experiments/*/data/
+experiments/*/work/
+# Nested clones of other people's repositories
+**/.git/
+
+# --- Images derived from scanned books, CISI pages or rendered fonts ----
+experiments/**/*.png
+experiments/**/*.jpg
+experiments/**/*.jpeg
+experiments/**/*.tif
+experiments/**/*.tiff
+experiments/**/*.pdf
+# Keep only the 1931-1940 excavation-report crops and code-drawn result figures.
+# The crops are public domain in India (government works, 60 years from
+# publication). Their US status is uncertain: the 1938 and 1940 reports may
+# carry restored US copyright to 2033 and 2035. See LICENSING.md and settle it
+# in PUBLISHING_CHECKLIST.md before publishing.
+!experiments/plate_corpus/crops/plate_*.png
+!experiments/decipherability/phase_diagram.png
+# Chanhu-daro crops come from Mackay 1943, outside 1931-1940: keep them out
+experiments/plate_corpus/crops/plate_CE_*
+# Never publish anything from the CISI volumes (1987 onward, in copyright)
+**/cisi_*
+experiments/iconography/
+experiments/scene_text/
+results/top120_signs.png
+
+# --- Superseded or local-only material ---------------------------------
+# Older draft of the website (replaced by site/); uses wording the project
+# no longer uses. Delete this line if the owner wants it published.
+/docs/site/
+
+# --- Site build output is kept; its sources stay small ------------------
+# site/repo_files/ holds the templates for README_PUBLIC_DRAFT.md,
+# CONTRIBUTING.md and the other GitHub files; it is published on purpose.
+
+# --- Added at first commit ----------------------------------------------
+node_modules/
+.wrangler/
+.env
+.env.*
+*.db-shm
+*.db-wal
+/tmp/
+/docs/OVERVIEW.html

@@ -1,0 +1,32 @@
+{
+ "RAW": {
+  "nn_mean": {
+   "TYC_pooled": 0.5245870292186737,
+   "TYC_no_bashu": 0.5215205609798431,
+   "Bronze_pooled": 0.49975026994943617,
+   "naxi_dongba_only": 0.4620495304465294,
+   "proto_cuneiform_only": 0.5195440441370011,
+   "ba-shu_only": 0.5807281285524368
+  },
+  "D_tyc_no_bashu_minus_bronze_pooled": {
+   "mean": 0.021770291030406952,
+   "lo": -0.004998998343944549,
+   "hi": 0.04644772559404372
+  }
+ },
+ "NORM": {
+  "nn_mean": {
+   "TYC_pooled": 0.5508520245552063,
+   "TYC_no_bashu": 0.5433360904455184,
+   "Bronze_pooled": 0.5198436737060547,
+   "naxi_dongba_only": 0.4732744187116623,
+   "proto_cuneiform_only": 0.5500979602336884,
+   "ba-shu_only": 0.5899280995130539
+  },
+  "D_tyc_no_bashu_minus_bronze_pooled": {
+   "mean": 0.023492416739463805,
+   "lo": 0.0015671566128730775,
+   "hi": 0.04709713608026503
+  }
+ }
+}

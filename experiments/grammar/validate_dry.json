@@ -1,0 +1,466 @@
+{
+ "mode": "dry",
+ "a_perplexity": {
+  "grammar": {
+   "bits": 5.088907692491163,
+   "perplexity": 34.034067871719465,
+   "n_events": 4283,
+   "k": 473,
+   "AIC": 30495.191210199388,
+   "BIC": 33473.69356571509
+  },
+  "kn_bigram": {
+   "bits": 4.6265256326503845,
+   "perplexity": 24.701480918715568,
+   "n_events": 4283,
+   "k": 1882,
+   "AIC": 27080.396373093594,
+   "BIC": 38931.435343665595
+  },
+  "position": {
+   "bits": 5.741716544552046,
+   "perplexity": 53.50925525875117,
+   "n_events": 4283,
+   "k": 1084,
+   "AIC": 33859.63345684575,
+   "BIC": 40685.63039845045
+  },
+  "unigram": {
+   "bits": 5.920622360542757,
+   "perplexity": 60.573814538726396,
+   "n_events": 4283,
+   "k": 217,
+   "AIC": 34368.028194842685,
+   "BIC": 35734.486992193444
+  },
+  "grammar_shuffled_train": {
+   "bits": 5.8542247782774215,
+   "perplexity": 57.84918696951899,
+   "n_events": 4283,
+   "k": 473,
+   "AIC": 34497.70964926658,
+   "BIC": 37476.21200478228
+  },
+  "grammar_functional7": {
+   "bits": 5.405497245154388,
+   "perplexity": 42.38545135785003,
+   "n_events": 4283,
+   "k": 266,
+   "AIC": 32752.76527081217,
+   "BIC": 34427.779280467934
+  },
+  "grammar_registers": {
+   "bits": 5.059828580112065,
+   "perplexity": 33.354940903658985,
+   "n_events": 4283
+  },
+  "grammar_on_shuffled_test": {
+   "bits": 6.485514595829867,
+   "sd": 0.01612593086872438
+  },
+  "diff_vs_kn_bigram": {
+   "diff": 0.4623820598407784,
+   "ci95": [
+    0.3471900616987268,
+    0.5822478817855854
+   ],
+   "p_boot_ge0": 1.0
+  },
+  "diff_vs_position": {
+   "diff": -0.6528088520608888,
+   "ci95": [
+    -0.7284289309479671,
+    -0.5437403533459202
+   ],
+   "p_boot_ge0": 0.0
+  },
+  "diff_vs_unigram": {
+   "diff": -0.8317146680515952,
+   "ci95": [
+    -0.956420833846049,
+    -0.6844822811650757
+   ],
+   "p_boot_ge0": 0.0
+  },
+  "diff_vs_grammar_shuffled_train": {
+   "diff": -0.7653170857862666,
+   "ci95": [
+    -0.8841109801371043,
+    -0.6341062125843612
+   ],
+   "p_boot_ge0": 0.0
+  },
+  "diff_registers_vs_pooled": {
+   "diff": -0.029079112379092997,
+   "ci95": [
+    -0.059689038528561514,
+    0.00812570900960934
+   ]
+  },
+  "pass_a": false,
+  "pass_a_vs_position_shuffled": true
+ },
+ "b_restoration": {
+  "grammar": {
+   "n": 3593,
+   "top5": 0.497355969941553,
+   "mrr": 0.39069081585468785,
+   "class_top1": 0.5065404954077373,
+   "class_top5": 0.7907041469524074,
+   "label_top1": 0.7520178124130253,
+   "final_class_top1": 0.7200325071109305,
+   "n_final": 2461
+  },
+  "kn_bigram": {
+   "n": 3593,
+   "top5": 0.6228778179794044,
+   "mrr": 0.48258834119347427,
+   "class_top1": 0.5279710548288339,
+   "class_top5": 0.8146395769551906,
+   "label_top1": 0.7748399666017256,
+   "final_class_top1": 0.7273466070702966,
+   "n_final": 2461
+  },
+  "position": {
+   "n": 3593,
+   "top5": 0.3356526579460061,
+   "mrr": 0.264014109375917,
+   "class_top1": 0.283328694684108,
+   "class_top5": 0.57194544948511,
+   "label_top1": 0.4901196771500139,
+   "final_class_top1": 0.42096708655018283,
+   "n_final": 2461
+  },
+  "unigram": {
+   "n": 3593,
+   "top5": 0.26217645421653213,
+   "mrr": 0.2067177633044363,
+   "class_top1": 0.15975507932090174,
+   "class_top5": 0.5090453659894238,
+   "label_top1": 0.4901196771500139,
+   "final_class_top1": 0.23405119869971555,
+   "n_final": 2461
+  },
+  "diff_top5_vs_kn_bigram": {
+   "diff": -0.12552184803785144,
+   "ci95": [
+    -0.1439056585056721,
+    -0.10681776152609884
+   ]
+  },
+  "diff_lab1_vs_kn_bigram": {
+   "diff": -0.02282215418870026,
+   "ci95": [
+    -0.03267471189881776,
+    -0.013150145379335143
+   ]
+  },
+  "diff_top5_vs_position": {
+   "diff": 0.16170331199554688,
+   "ci95": [
+    0.1439619151342599,
+    0.17892483679010923
+   ]
+  },
+  "diff_lab1_vs_position": {
+   "diff": 0.2618981352630114,
+   "ci95": [
+    0.24131999028351594,
+    0.2824451763992178
+   ]
+  },
+  "diff_top5_vs_unigram": {
+   "diff": 0.23517951572502088,
+   "ci95": [
+    0.2193941447823386,
+    0.25138900501672246
+   ]
+  },
+  "diff_lab1_vs_unigram": {
+   "diff": 0.2618981352630114,
+   "ci95": [
+    0.24025442033214275,
+    0.28224252649605386
+   ]
+  },
+  "pass_b1": true,
+  "pass_b2": false,
+  "pass_b3": true
+ },
+ "c1_md_transfer": {
+  "in_domain": {
+   "grammar": 5.120880134559551,
+   "kn_bigram": 4.849565140933418,
+   "diff": 0.27131499362613454,
+   "ci95": [
+    0.21447256342152005,
+    0.33124805741155344
+   ]
+  },
+  "Harappa": {
+   "grammar": 5.292582648167973,
+   "kn_bigram": 5.080185435396008,
+   "position": 5.737258016356819,
+   "unigram": 5.6934469457298365,
+   "n_texts": 186,
+   "n_events": 917,
+   "diff_vs_kn": 0.21239721277197177,
+   "ci95_vs_kn": [
+    0.09076576911350569,
+    0.3282279782819219
+   ],
+   "diff_vs_position": -0.4446753681888458,
+   "ci95_vs_position": [
+    -0.558154879658598,
+    -0.3381430767069788
+   ],
+   "pass_beats_bigram": false,
+   "pass_beats_position": true,
+   "gap_change_vs_in_domain": -0.05891778085416277
+  },
+  "small_sites": {
+   "grammar": 5.265740900622926,
+   "kn_bigram": 5.141286221411017,
+   "position": 5.593609949017618,
+   "unigram": 5.617915690732109,
+   "n_texts": 94,
+   "n_events": 498,
+   "diff_vs_kn": 0.12445467921191167,
+   "ci95_vs_kn": [
+    0.00159101474260841,
+    0.2529633017980103
+   ],
+   "diff_vs_position": -0.32786904839469067,
+   "ci95_vs_position": [
+    -0.47437283373789285,
+    -0.17886970816050948
+   ],
+   "pass_beats_bigram": false,
+   "pass_beats_position": true,
+   "gap_change_vs_in_domain": -0.14686031441422287
+  }
+ },
+ "pass_c": {
+  "beats_bigram_all": false,
+  "beats_position_all": true
+ },
+ "d_gulf": {
+  "home_round_vs_native_grammar": {
+   "n": 318,
+   "bits": 5.747685790127798,
+   "matched_native": 5.566462775595908,
+   "diff": 0.1812230145318896,
+   "p": 0.010698930106989302,
+   "auc": 0.5562470075815681
+  }
+ },
+ "e_ur3": {
+  "indus_size": {
+   "nmi": 0.5359021326724811,
+   "purity": 0.7323272438443209,
+   "isolation": {
+    "KIN": 0.9937810945273632,
+    "SERV": 0.5106382978723404,
+    "TITLE": 0.8014911463187325,
+    "OWNER": 0.9785407725321889,
+    "FATHER": 0.1828358208955224,
+    "LORD": 0.0
+   },
+   "slot_x_label": {
+    "OWNER": {
+     "closer": 273,
+     "unclassified": 617,
+     "opener": 22,
+     "connective": 13,
+     "medial": 7
+    },
+    "TITLE": {
+     "connective": 523,
+     "medial": 335,
+     "unclassified": 160,
+     "closer": 34,
+     "opener": 21
+    },
+    "KIN": {
+     "medial": 804
+    },
+    "FATHER": {
+     "unclassified": 479,
+     "opener": 158,
+     "closer": 157,
+     "connective": 1,
+     "medial": 9
+    },
+    "SERV": {
+     "connective": 45,
+     "closer": 48,
+     "unclassified": 1
+    },
+    "LORD": {
+     "medial": 31,
+     "opener": 17,
+     "unclassified": 11,
+     "closer": 1
+    },
+    "EPITHET": {
+     "unclassified": 6,
+     "connective": 1,
+     "opener": 1,
+     "medial": 1
+    },
+    "CONJ": {
+     "connective": 1
+    }
+   },
+   "n_tokens": 3777,
+   "K": 16,
+   "alpha": 3.0,
+   "class_labels": [
+    "medial",
+    "unclassified",
+    "connective",
+    "medial",
+    "closer",
+    "unclassified",
+    "medial",
+    "medial",
+    "medial",
+    "opener",
+    "opener",
+    "medial",
+    "closer",
+    "connective",
+    "opener",
+    "medial"
+   ],
+   "grammar_bits": 4.751873943589523,
+   "kn_bits": 4.672246851984669,
+   "position_bits": 5.341523699902974,
+   "diff_vs_kn": 0.07962709160484405,
+   "ci95_vs_kn": [
+    -0.10718253093500874,
+    0.25252964229305125
+   ],
+   "nmi_null": {
+    "mean": 0.4033254023785887,
+    "max": 0.43893117824047023,
+    "values": [
+     0.4025631325117375,
+     0.40630250925023975,
+     0.3770171102872984,
+     0.40112601130804765,
+     0.3936619894662103,
+     0.4206690175551981,
+     0.40999106672956104,
+     0.4094261623617797,
+     0.42278021281786154,
+     0.3976275012437434,
+     0.37830105554997673,
+     0.4091337515830175,
+     0.405442473169097,
+     0.40299769146195585,
+     0.43893117824047023,
+     0.3783887176372361,
+     0.4073885866961661,
+     0.3645143069072246,
+     0.41818222186503673,
+     0.4220633509299169
+    ]
+   },
+   "pass_e1": true,
+   "pass_e2": false
+  },
+  "full_train": {
+   "nmi": 0.5468264630428101,
+   "purity": 0.7585385226370135,
+   "isolation": {
+    "KIN": 0.9937810945273632,
+    "SERV": 0.5106382978723404,
+    "TITLE": 0.8443616029822927,
+    "OWNER": 0.9624463519313304,
+    "FATHER": 0.26741293532338306,
+    "LORD": 0.0
+   },
+   "slot_x_label": {
+    "OWNER": {
+     "closer": 408,
+     "medial": 135,
+     "unclassified": 374,
+     "connective": 11,
+     "opener": 4
+    },
+    "TITLE": {
+     "connective": 488,
+     "medial": 331,
+     "unclassified": 117,
+     "closer": 115,
+     "opener": 22
+    },
+    "KIN": {
+     "medial": 804
+    },
+    "FATHER": {
+     "opener": 215,
+     "unclassified": 344,
+     "closer": 221,
+     "medial": 24
+    },
+    "SERV": {
+     "medial": 45,
+     "closer": 48,
+     "unclassified": 1
+    },
+    "LORD": {
+     "closer": 34,
+     "medial": 19,
+     "unclassified": 7
+    },
+    "EPITHET": {
+     "unclassified": 3,
+     "closer": 2,
+     "connective": 2,
+     "opener": 1,
+     "medial": 1
+    },
+    "CONJ": {
+     "medial": 1
+    }
+   },
+   "n_tokens": 3777,
+   "K": 20,
+   "alpha": 10.0,
+   "class_labels": [
+    "medial",
+    "closer",
+    "unclassified",
+    "medial",
+    "closer",
+    "medial",
+    "closer",
+    "medial",
+    "medial",
+    "opener",
+    "connective",
+    "connective",
+    "opener",
+    "medial",
+    "opener",
+    "opener",
+    "medial",
+    "medial",
+    "connective",
+    "medial"
+   ],
+   "grammar_bits": 5.285949598505008,
+   "kn_bits": 5.170883186274463,
+   "position_bits": 5.977048963151646,
+   "diff_vs_kn": 0.11506641223055514,
+   "ci95_vs_kn": [
+    0.04891062947849025,
+    0.18674627233459348
+   ]
+  },
+  "pass_e": false
+ },
+ "elapsed_s": 783.3988900184631
+}

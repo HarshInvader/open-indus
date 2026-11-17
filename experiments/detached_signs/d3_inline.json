@@ -1,0 +1,887 @@
+{
+ "slot_all_tokens": {
+  "alone": 117,
+  "first": 2012,
+  "medial": 5031,
+  "last": 2012
+ },
+ "inline": {
+  "M242": {
+   "total_tokens": 26,
+   "single_line_breakfree_tokens": 14,
+   "slots": {
+    "alone": 0,
+    "first": 3,
+    "medial": 0,
+    "last": 11
+   },
+   "expected_from_freq_matched": {
+    "alone": 0.27,
+    "first": 4.06,
+    "medial": 7.81,
+    "last": 1.86
+   },
+   "controls": [
+    "M296",
+    "M100",
+    "M60",
+    "M106",
+    "M261",
+    "M182",
+    "M233",
+    "M109",
+    "M153",
+    "M135",
+    "M407",
+    "M319",
+    "M81",
+    "M284",
+    "M186",
+    "M178",
+    "M205",
+    "M348",
+    "M173",
+    "M54"
+   ]
+  },
+  "M374": {
+   "total_tokens": 7,
+   "single_line_breakfree_tokens": 0,
+   "slots": {
+    "alone": 0,
+    "first": 0,
+    "medial": 0,
+    "last": 0
+   },
+   "expected_from_freq_matched": {
+    "alone": 0.0,
+    "first": 0.0,
+    "medial": 0.0,
+    "last": 0.0
+   },
+   "controls": [
+    "M206",
+    "M114",
+    "M78",
+    "M395",
+    "M71",
+    "M57",
+    "M329",
+    "M330",
+    "M167",
+    "M58",
+    "M234",
+    "M40",
+    "M384",
+    "M295",
+    "M398",
+    "M367",
+    "M223",
+    "M68",
+    "M19",
+    "M297"
+   ]
+  },
+  "M93": {
+   "total_tokens": 10,
+   "single_line_breakfree_tokens": 2,
+   "slots": {
+    "alone": 0,
+    "first": 0,
+    "medial": 1,
+    "last": 1
+   },
+   "expected_from_freq_matched": {
+    "alone": 0.06,
+    "first": 0.93,
+    "medial": 0.87,
+    "last": 0.13
+   },
+   "controls": [
+    "M215",
+    "M379",
+    "M94",
+    "M62",
+    "M258",
+    "M323",
+    "M386",
+    "M219",
+    "M325",
+    "M286",
+    "M32",
+    "M303",
+    "M264",
+    "M202",
+    "M95",
+    "M226",
+    "M41",
+    "M174",
+    "M217",
+    "M75"
+   ]
+  },
+  "M326": {
+   "total_tokens": 24,
+   "single_line_breakfree_tokens": 19,
+   "slots": {
+    "alone": 1,
+    "first": 4,
+    "medial": 13,
+    "last": 1
+   },
+   "expected_from_freq_matched": {
+    "alone": 0.31,
+    "first": 4.94,
+    "medial": 11.59,
+    "last": 2.16
+   },
+   "controls": [
+    "M153",
+    "M135",
+    "M296",
+    "M407",
+    "M261",
+    "M319",
+    "M81",
+    "M100",
+    "M60",
+    "M106",
+    "M182",
+    "M233",
+    "M109",
+    "M178",
+    "M205",
+    "M348",
+    "M54",
+    "M409",
+    "M253",
+    "M193"
+   ]
+  },
+  "M393": {
+   "total_tokens": 7,
+   "single_line_breakfree_tokens": 2,
+   "slots": {
+    "alone": 0,
+    "first": 0,
+    "medial": 0,
+    "last": 2
+   },
+   "expected_from_freq_matched": {
+    "alone": 0.06,
+    "first": 0.53,
+    "medial": 1.04,
+    "last": 0.37
+   },
+   "controls": [
+    "M206",
+    "M114",
+    "M78",
+    "M395",
+    "M71",
+    "M57",
+    "M329",
+    "M330",
+    "M167",
+    "M58",
+    "M234",
+    "M40",
+    "M384",
+    "M295",
+    "M398",
+    "M367",
+    "M223",
+    "M68",
+    "M19",
+    "M297"
+   ]
+  }
+ },
+ "multiline_positions": {
+  "M393": {
+   "detached_line2_of_2": 4
+  },
+  "M374": {
+   "detached_line2_of_2": 7
+  },
+  "M326": {
+   "inline_in_multisign_line:last": 1,
+   "inline_in_multisign_line:medial": 1,
+   "detached_line1_of_2": 2,
+   "detached_line2_of_2": 1
+  },
+  "M242": {
+   "detached_line2_of_2": 8,
+   "detached_line3_of_3": 1,
+   "inline_in_multisign_line:last": 2
+  },
+  "M93": {
+   "inline_in_multisign_line:last": 4,
+   "detached_line2_of_2": 4
+  }
+ },
+ "cooccur": {
+  "observed_texts_with_2plus_class_signs": 1,
+  "null_mean": 0.8935,
+  "p_ge": 0.6036981509245377,
+  "pairs": {
+   "M326+M93": 1
+  },
+  "texts_with_any_class_sign": 72
+ },
+ "cooccur_multiline_only": {
+  "observed": 1,
+  "n_texts": 117,
+  "texts_with_any": 34
+ },
+ "catalogue_m77": [
+  {
+   "text_no": 1001,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 351,
+   "seq": "M67 M72 M8 M342 | M393"
+  },
+  {
+   "text_no": 1016,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M245 M245 M345 M65 M158 M169 | M393"
+  },
+  {
+   "text_no": 1122,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M242 M342 M98 M292 M342"
+  },
+  {
+   "text_no": 1126,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M391 M99 M387 M87 M326 M342"
+  },
+  {
+   "text_no": 1135,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M75 M53 M176 | M374"
+  },
+  {
+   "text_no": 1150,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M50 M162 M99 M326 M342"
+  },
+  {
+   "text_no": 1183,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M265 M343 M326 M342"
+  },
+  {
+   "text_no": 1325,
+   "side": 1,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 45,
+   "seq": "M403 M187 M342 M171 M8 M342 | M374"
+  },
+  {
+   "text_no": 1332,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 31,
+   "seq": "M216 M123 M72 M388 | M393"
+  },
+  {
+   "text_no": 1340,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 31,
+   "seq": "M267 M99 M341 M336 M307 | M197 M326"
+  },
+  {
+   "text_no": 1341,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 112,
+   "seq": "M391 M99 M173 M342 | M242"
+  },
+  {
+   "text_no": 1355,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Scenes",
+   "fs80": 730,
+   "seq": "M216 M97 M135 M342 | M242"
+  },
+  {
+   "text_no": 1386,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 330,
+   "seq": "M267 M99 # M342 M1 M242"
+  },
+  {
+   "text_no": 1387,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 280,
+   "seq": "M286 M123 M59 M211 M242"
+  },
+  {
+   "text_no": 1534,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 71,
+   "seq": "M234 M99 M67 M70 M211 M242"
+  },
+  {
+   "text_no": 1550,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 11,
+   "seq": "M67 M244 M342 | M242"
+  },
+  {
+   "text_no": 1554,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M267 M99 M59 M211 M242"
+  },
+  {
+   "text_no": 1626,
+   "side": 1,
+   "site": "Mohenjodaro",
+   "type": "sealing",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M245 M245 M307 M342 M176 M86 M326"
+  },
+  {
+   "text_no": 1702,
+   "side": 1,
+   "site": "Mohenjodaro",
+   "type": "copper tablet",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M389 M72 M326 M342"
+  },
+  {
+   "text_no": 2014,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M242 M342"
+  },
+  {
+   "text_no": 2086,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Scenes",
+   "fs80": 690,
+   "seq": "M261 M213 M343 M389 M53 M342 M242"
+  },
+  {
+   "text_no": 2147,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M391 M99 M406 M162 M242"
+  },
+  {
+   "text_no": 2167,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 11,
+   "seq": "M90 M242"
+  },
+  {
+   "text_no": 2169,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 71,
+   "seq": "M328 M307 M402 M301 M155 M211 M242"
+  },
+  {
+   "text_no": 2279,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Scenes",
+   "fs80": 640,
+   "seq": "M162 M1 | M242"
+  },
+  {
+   "text_no": 2312,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M53 M342 M249 M162 M342 | M242"
+  },
+  {
+   "text_no": 2325,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M244 M336 M326 M327 M99 M387 M65 M59 M249 M169 M342"
+  },
+  {
+   "text_no": 2332,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 65,
+   "seq": "M267 M99 M86 | M374"
+  },
+  {
+   "text_no": 2373,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M307 M402 M99 M171 M59 M211 | M242"
+  },
+  {
+   "text_no": 2430,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Scenes",
+   "fs80": 780,
+   "seq": "M229 M219 | M70 M342 M1 | M242"
+  },
+  {
+   "text_no": 2431,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 31,
+   "seq": "M172 M245 M334 | M393"
+  },
+  {
+   "text_no": 2461,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M178 M389 M15 M87 M326 M25 M245 M245"
+  },
+  {
+   "text_no": 2466,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M87 M244 M307 M175 M180 M176 | M374"
+  },
+  {
+   "text_no": 2471,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 11,
+   "seq": "M295 M336 M53 | M242"
+  },
+  {
+   "text_no": 2472,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M326 M342 M14"
+  },
+  {
+   "text_no": 2585,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M60 M242"
+  },
+  {
+   "text_no": 2648,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 71,
+   "seq": "M267 M99 M104 M162 M242"
+  },
+  {
+   "text_no": 2660,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M267 M99 M249 M162 M342 M242"
+  },
+  {
+   "text_no": 2673,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 132,
+   "seq": "M326"
+  },
+  {
+   "text_no": 2684,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 112,
+   "seq": "M391 M99 M228 M162 M242"
+  },
+  {
+   "text_no": 2819,
+   "side": 1,
+   "site": "Mohenjodaro",
+   "type": "sealing",
+   "fs": "Scenes",
+   "fs80": 650,
+   "seq": "M326 M342"
+  },
+  {
+   "text_no": 3080,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 31,
+   "seq": "| M393"
+  },
+  {
+   "text_no": 3095,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "type": "seal",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M326 M15"
+  },
+  {
+   "text_no": 3234,
+   "side": 1,
+   "site": "Mohenjodaro",
+   "type": "sealing",
+   "fs": "Animals",
+   "fs80": 45,
+   "seq": "M28 M326 M328 M283"
+  },
+  {
+   "text_no": 4004,
+   "side": 0,
+   "site": "Harappa",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M300 M17 M293 M87 M326 M54 M336 M293"
+  },
+  {
+   "text_no": 4037,
+   "side": 0,
+   "site": "Harappa",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M294 M132 M99 M326 M342 M1"
+  },
+  {
+   "text_no": 4204,
+   "side": 0,
+   "site": "Harappa",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M87 M244 M245 M245 | M242"
+  },
+  {
+   "text_no": 4268,
+   "side": 0,
+   "site": "Harappa",
+   "type": "seal",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M267 M99 M87 M326 M342"
+  },
+  {
+   "text_no": 4345,
+   "side": 1,
+   "site": "Harappa",
+   "type": "sealing",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M242 M336 M56 M67 M244 M342"
+  },
+  {
+   "text_no": 4380,
+   "side": 0,
+   "site": "Harappa",
+   "type": "sealing",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M102 M190 | M374"
+  },
+  {
+   "text_no": 4406,
+   "side": 1,
+   "site": "Harappa",
+   "type": "miniature tablet",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M100 M326 M342"
+  },
+  {
+   "text_no": 4409,
+   "side": 0,
+   "site": "Harappa",
+   "type": "miniature tablet",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M86 M326 M15 M176"
+  },
+  {
+   "text_no": 4901,
+   "side": 0,
+   "site": "Harappa",
+   "type": "bronze implement",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M293 M244 M393"
+  },
+  {
+   "text_no": 4902,
+   "side": 0,
+   "site": "Harappa",
+   "type": "bronze implement",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M244 M393"
+  },
+  {
+   "text_no": 5119,
+   "side": 0,
+   "site": "Harappa",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 14,
+   "seq": "M391 M99 | M102 M287 M342 M242"
+  },
+  {
+   "text_no": 6108,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 11,
+   "seq": "M216 M123 | M65 M294 M176 M211 M93"
+  },
+  {
+   "text_no": 6113,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Scenes",
+   "fs80": 620,
+   "seq": "M234 M342 M343 M225 M87 M261 | M93"
+  },
+  {
+   "text_no": 6118,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Scenes",
+   "fs80": 720,
+   "seq": "M149 | M12 M93"
+  },
+  {
+   "text_no": 6124,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M267 M99 M65 M62 M342 | M93"
+  },
+  {
+   "text_no": 6133,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M293 M123 M86 M250 M93 M404"
+  },
+  {
+   "text_no": 6202,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M65 M67 M342 M12 | M93"
+  },
+  {
+   "text_no": 6203,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M104 M149 M267 M99 M93 | M103 M403 M162"
+  },
+  {
+   "text_no": 6218,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 13,
+   "seq": "M387 M375 M375 M342 | M93"
+  },
+  {
+   "text_no": 6233,
+   "side": 1,
+   "site": "Chanhudaro",
+   "type": "sealing",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M59 M387 M87 M59 M17 M406 M162 M93"
+  },
+  {
+   "text_no": 6305,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "pottery graffito",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M121 M342 | M374"
+  },
+  {
+   "text_no": 6403,
+   "side": 0,
+   "site": "Chanhudaro",
+   "type": "seal",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M87 M244 M403 M180 M99 | M87 M326 M342 M93"
+  },
+  {
+   "text_no": 7085,
+   "side": 0,
+   "site": "Lothal",
+   "type": "seal",
+   "fs": "No field symbol",
+   "fs80": 0,
+   "seq": "M326 M341 M336 M214"
+  },
+  {
+   "text_no": 8020,
+   "side": 0,
+   "site": "Kalibangan",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 14,
+   "seq": "M216 M391 M267 M402 | M341 M342 M242"
+  },
+  {
+   "text_no": 8071,
+   "side": 0,
+   "site": "Kalibangan",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 12,
+   "seq": "M326 | M342"
+  },
+  {
+   "text_no": 8121,
+   "side": 0,
+   "site": "Kalibangan",
+   "type": "sealing",
+   "fs": "Animals",
+   "fs80": 148,
+   "seq": "M326 | M326"
+  },
+  {
+   "text_no": 9845,
+   "side": 0,
+   "site": "West Asian finds",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 41,
+   "seq": "M175 M1 # M59 M51 | M374"
+  },
+  {
+   "text_no": 9904,
+   "side": 0,
+   "site": "West Asian finds",
+   "type": "seal",
+   "fs": "Animals",
+   "fs80": 41,
+   "seq": "M11 M326 M21 M21 M153"
+  }
+ ]
+}

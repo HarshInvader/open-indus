@@ -1,0 +1,96 @@
+<section class="page-head wrap one">
+  <div class="hero-text">
+    <p class="kicker">Approach</p>
+    <h1 id="claim">We count the script as read only when ten sign sounds survive a fair test</h1>
+    <p class="state">No sign has a tested sound yet. Names on seals found abroad are our best route to the first ten.</p>
+    <div class="say overview">
+      <p><b>Done means ten signs.</b> Each needs a sound value that beats chance on our public test bench and survives a second team that tries to break it. Today the count is 0.</p>
+      <p><b>Names are the route.</b> A personal name keeps its sound in any language. Round seals found in the Gulf break the usual Indus sign order, so they may spell foreign owners' names.</p>
+      <p><b>A failed check would stop us.</b> Linear Elamite was read in 2022, so its answer is known. If the name method cannot recover it, we drop the method.</p>
+    </div>
+    <nav class="jump" aria-label="On this page"><a href="#goal">The goal</a><a href="#rules">Four rules</a><a href="#bench">Test bench</a><a href="#redteam">Red team</a><a href="#agents">Agent team</a><a href="#directions">Directions</a><a href="#odds">Route and odds</a><a href="#plan">Plan</a></nav>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="goal">
+  <p class="rail"><span>01</span>Goal</p>
+  <div class="content">
+    <h2 id="goal">Deciphered means ten signs with sound values that pass a fair test</h2>
+    <p class="intro">Each sound value must beat chance on the public test bench. It must then survive an independent red team, a second group whose job is to break it.</p>
+    {{SLOTS}}
+    <p class="note">The <a href="tracker.html#h-goal">tracker</a> shows how far each step has come.</p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="rules">
+  <p class="rail"><span>02</span>Rules</p>
+  <div class="content">
+    <h2 id="rules">Four rules stop a good-looking result from fooling us</h2>
+    <ol class="rules">
+      <li><b>Seal the plan before the test</b><span>We write each test down first and log its SHA-256 fingerprint, a code that changes if one letter changes. The file {{HASH_FILE}} was sealed on <span class="nw">{{HASH_TIME}}</span> as <code>{{HASH}}…</code></span></li>
+      <li><b>Test on texts kept aside</b><span>We build on three quarters of the texts. We test once on the rest, and never tune on them.</span></li>
+      <li><b>Beat chance, counting every try</b><span>We compare each result with shuffled texts. We correct for every test the project has run, failures included.</span></li>
+      <li><b>Find a planted answer first</b><span>A method must first recover the answer from a corpus of the same size where the answer is known.</span></li>
+    </ol>
+    <div class="figures">
+      <a href="{{REPO}}/tree/main/docs/prereg"><b>{{N_PREREG}}</b><span>plans sealed</span></a>
+      <a href="{{REPO}}/blob/main/docs/test_ledger.csv"><b>{{N_LEDGER}}</b><span>tests in the public ledger</span></a>
+      <a href="findings.html#closed"><b>{{N_ROUTES}}</b><span>routes tested and closed</span></a>
+      <a href="findings.html#h-rev"><b>{{N_REV}}</b><span>of our own results reversed</span></a>
+    </div>
+    <h3 id="bench">Every proposed reading is scored on the same test bench</h3>
+    <p class="intro">A sound key, a table of one sound per sign, is scored on texts it was not built from. It must beat the same key with its sounds shuffled among signs, and keys fitted to random sign strings. Five published keys have been scored. None beat its own shuffled values.</p>
+    <p class="more-link"><a href="contribute.html#readings">Submit a reading to the bench</a></p>
+    <h3 id="redteam">A second team tries to break every positive result</h3>
+    <p class="intro">Nobody attacks their own result. The red team reruns the work from scratch and looks for leaks, confounds and weak comparisons. It has reversed {{N_REV}} of our results so far, and each reversal is published.</p>
+    <p class="more-link"><a href="findings.html#h-rev">See the reversed results</a></p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="agents">
+  <p class="rail"><span>03</span>Team</p>
+  <div class="content">
+    <h2 id="agents">A small team of AI agents does most of the work under a human owner</h2>
+    <p class="intro">The agents take tasks from one shared board. The first claim wins, and any agent may split a task or add one. A positive result goes to a different agent to break. The owner sets the goal and decides what is published.</p>
+    <p class="intro">Everything runs on one laptop, with at most two worker processes. Outside contributors can point their own agents at the same tasks.</p>
+    <p class="more-link"><a href="tracker.html#h-tasks">See the task board</a></p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="directions">
+  <p class="rail"><span>04</span>Directions</p>
+  <div class="content">
+    <h2 id="directions">Every starting assumption is a direction to test</h2>
+    <p class="intro">We do not assume the signs record a known language. Each possibility is a direction with its own test.</p>
+    <ul class="found dirs">
+      <li><b>Not language at all.</b> Emblems or tallies. Check the traits of writing against known non-language systems. <a class="st" href="findings.html#closed">Tested, undecided</a></li>
+      <li><b>A language with no relatives.</b> Only internal structure, a bilingual or names can test it. <span class="st">Open</span></li>
+      <li><b>A known language family.</b> Every family gets the same test, none favoured. <a class="st" href="findings.html#closed">Tested, undecided</a></li>
+      <li><b>Several languages or systems.</b> Compare cities, periods and kinds of object. <a class="st" href="findings.html#f4">Partly tested</a></li>
+      <li><b>A mix of sign kinds.</b> Measure the share of word, sound and number signs. <a class="st" href="findings.html#f2">Partly tested</a></li>
+      <li><b>Not mainly names.</b> Texts may list goods, places or offices. Names are one route, not the base. <span class="st">Open</span></li>
+      <li><b>A partly wrong sign list.</b> Rerun results with signs split or merged. <a class="st" href="{{REPO}}/blob/main/experiments/signlist_robustness/RESULTS.md">Tested, results hold</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="odds">
+  <p class="rail"><span>05</span>Odds</p>
+  <div class="content">
+    <h2 id="odds">Names on seals found abroad are the best route, and the odds are under 1 in 10</h2>
+    <p class="intro">Lost scripts have gained their first sound values from names whose sounds were already known. Round seals break normal Indus sign order, at home and abroad alike, so they may write a second language in Indus signs.</p>
+    {{CHART_ROUND}}
+    <p class="intro">Tests on scripts we can already read show that more text barely helps. Known names help a lot. That is why the odds are low. The method needs roughly 60 to 120 round-seal texts, and about 40 are known.</p>
+    {{CHART_NAMES}}
+    <p class="intro">Two finds would raise the odds most. One is more round-seal texts. The other is one seal tied to a person whose name is written in cuneiform.</p>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="plan">
+  <p class="rail"><span>06</span>Plan</p>
+  <div class="content">
+    <h2 id="plan">Next we prove the method on Linear Elamite, a script whose answer is known</h2>
+    <p class="intro">The first version of the name method failed on planted data. The redesign uses short name lists and exact matches only.</p>
+    {{PLAN}}
+  </div>
+</section>

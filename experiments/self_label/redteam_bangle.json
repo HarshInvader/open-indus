@@ -1,0 +1,135 @@
+{
+ "length_matched": {
+  "obs": 6,
+  "n_bangle": 41,
+  "exp": 0.3201,
+  "p": 9.999000099990002e-05
+ },
+ "length_site_matched": {
+  "obs": 6,
+  "exp": 0.2361,
+  "p": 9.999000099990002e-05
+ },
+ "rate_by_class": {
+  "bangle": [
+   6,
+   41
+  ],
+  "bronze implement": [
+   0,
+   18
+  ],
+  "copper tablet": [
+   3,
+   98
+  ],
+  "ivory/bone rod": [
+   0,
+   37
+  ],
+  "miniature tablet": [
+   7,
+   886
+  ],
+  "other": [
+   2,
+   85
+  ],
+  "pottery graffito": [
+   4,
+   384
+  ],
+  "seal": [
+   21,
+   2158
+  ],
+  "sealing": [
+   0,
+   195
+  ],
+  "stamped pottery": [
+   3,
+   50
+  ]
+ },
+ "one_sign_texts": {
+  "seal": [
+   1,
+   165
+  ],
+  "sealing": [
+   0,
+   56
+  ],
+  "stamped pottery": [
+   0,
+   16
+  ],
+  "ivory/bone rod": [
+   0,
+   9
+  ],
+  "pottery graffito": [
+   0,
+   165
+  ],
+  "copper tablet": [
+   0,
+   19
+  ],
+  "other": [
+   1,
+   46
+  ],
+  "bronze implement": [
+   0,
+   2
+  ],
+  "miniature tablet": [
+   0,
+   138
+  ],
+  "bangle": [
+   3,
+   14
+  ]
+ },
+ "bangle_top_signs": [
+  [
+   "M373",
+   6,
+   46,
+   5.885861433001449e-06
+  ],
+  [
+   "M374",
+   6,
+   46,
+   5.885861433001449e-06
+  ],
+  [
+   "M261",
+   7,
+   96,
+   4.583991686959429e-05
+  ],
+  [
+   "W252",
+   2,
+   7,
+   0.0021341116153424716
+  ],
+  [
+   "M403",
+   5,
+   105,
+   0.004213722373105585
+  ],
+  [
+   "W511",
+   2,
+   11,
+   0.005444228145150828
+  ]
+ ]
+}

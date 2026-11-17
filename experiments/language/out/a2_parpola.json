@@ -1,0 +1,803 @@
+{
+ "tests_run": "P1 (2 fish sets x 3 splits), P2 (per marked sign), P3, P4, P5 (3 parts); see each block",
+ "dev": {
+  "n_texts": 1702,
+  "P1_fishfamily": {
+   "pooled_rate": 0.144,
+   "by_value": {
+    "1": {
+     "N": 100,
+     "fish": 15,
+     "rate": 0.15,
+     "p_greater": 0.4767
+    },
+    "3": {
+     "N": 71,
+     "fish": 14,
+     "rate": 0.197,
+     "p_greater": 0.136
+    },
+    "4": {
+     "N": 32,
+     "fish": 4,
+     "rate": 0.125,
+     "p_greater": 0.6968
+    },
+    "5": {
+     "N": 23,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "6": {
+     "N": 21,
+     "fish": 8,
+     "rate": 0.381,
+     "p_greater": 0.0065
+    },
+    "7": {
+     "N": 47,
+     "fish": 1,
+     "rate": 0.021,
+     "p_greater": 0.9993
+    },
+    "8": {
+     "N": 4,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "9": {
+     "N": 2,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "12": {
+     "N": 33,
+     "fish": 6,
+     "rate": 0.182,
+     "p_greater": 0.3376
+    }
+   },
+   "stat_67_minus_nonasterism": 0.003,
+   "perm_p": 0.4639
+  },
+  "P1_plainfish": {
+   "pooled_rate": 0.093,
+   "by_value": {
+    "1": {
+     "N": 100,
+     "fish": 1,
+     "rate": 0.01,
+     "p_greater": 0.9999
+    },
+    "3": {
+     "N": 71,
+     "fish": 14,
+     "rate": 0.197,
+     "p_greater": 0.0054
+    },
+    "4": {
+     "N": 32,
+     "fish": 4,
+     "rate": 0.125,
+     "p_greater": 0.3476
+    },
+    "5": {
+     "N": 23,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "6": {
+     "N": 21,
+     "fish": 8,
+     "rate": 0.381,
+     "p_greater": 0.0004
+    },
+    "7": {
+     "N": 47,
+     "fish": 1,
+     "rate": 0.021,
+     "p_greater": 0.9899
+    },
+    "8": {
+     "N": 4,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "9": {
+     "N": 2,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "12": {
+     "N": 33,
+     "fish": 3,
+     "rate": 0.091,
+     "p_greater": 0.6042
+    }
+   },
+   "stat_67_minus_nonasterism": 0.091,
+   "perm_p": 0.0168
+  },
+  "P2": {
+   "M60": {
+    "freq": 18,
+    "sim_to_M59": 0.562,
+    "null_mean": 0.307,
+    "null_p95": 0.529,
+    "n_null": 67,
+    "percentile": 0.97,
+    "mean_pos": 0.87
+   },
+   "M65": {
+    "freq": 131,
+    "sim_to_M59": 0.476,
+    "null_mean": 0.325,
+    "null_p95": 0.47,
+    "n_null": 26,
+    "percentile": 0.962,
+    "mean_pos": 0.34
+   },
+   "M66": {
+    "freq": 10,
+    "sim_to_M59": 0.298,
+    "null_mean": 0.27,
+    "null_p95": 0.414,
+    "n_null": 93,
+    "percentile": 0.613,
+    "mean_pos": 0.67
+   },
+   "M67": {
+    "freq": 160,
+    "sim_to_M59": 0.483,
+    "null_mean": 0.319,
+    "null_p95": 0.45,
+    "n_null": 16,
+    "percentile": 1.0,
+    "mean_pos": 0.43
+   },
+   "M68": {
+    "freq": 7,
+    "sim_to_M59": 0.242,
+    "null_mean": 0.263,
+    "null_p95": 0.407,
+    "n_null": 108,
+    "percentile": 0.38,
+    "mean_pos": 0.96
+   },
+   "M70": {
+    "freq": 54,
+    "sim_to_M59": 0.566,
+    "null_mean": 0.345,
+    "null_p95": 0.527,
+    "n_null": 49,
+    "percentile": 0.98,
+    "mean_pos": 0.46
+   },
+   "M72": {
+    "freq": 121,
+    "sim_to_M59": 0.585,
+    "null_mean": 0.323,
+    "null_p95": 0.47,
+    "n_null": 27,
+    "percentile": 1.0,
+    "mean_pos": 0.43
+   },
+   "M73": {
+    "freq": 5,
+    "sim_to_M59": 0.365,
+    "null_mean": 0.259,
+    "null_p95": 0.402,
+    "n_null": 113,
+    "percentile": 0.858,
+    "mean_pos": 0.75
+   },
+   "M75": {
+    "freq": 11,
+    "sim_to_M59": 0.234,
+    "null_mean": 0.279,
+    "null_p95": 0.437,
+    "n_null": 83,
+    "percentile": 0.313,
+    "mean_pos": 0.46
+   },
+   "M59_mean_pos": 0.48
+  },
+  "P3": {
+   "texts_with_both": 53,
+   "null_mean": 55.8,
+   "p_low": 0.3605,
+   "p_high": 0.698,
+   "adjacent": 42,
+   "adj_null_mean": 25.0,
+   "adj_p_high": 0.0,
+   "adj_p_low": 1.0
+  },
+  "P4": {
+   "plain": [
+    31,
+    235,
+    0.132
+   ],
+   "marked": [
+    17,
+    524,
+    0.032
+   ],
+   "fisher_p_plain_greater": 0.0
+  },
+  "P5": {
+   "final_share": 0.723,
+   "final_expected_if_uniform": 0.225,
+   "left_diversity_at_60": 35.5,
+   "null_signs": 13,
+   "null_mean": 21.1,
+   "null_max": 33.2,
+   "percentile": 1.0,
+   "stems_with_jar": 525,
+   "stems_where_jar_alternates": 31,
+   "top_alternants": [
+    [
+     "M15",
+     8
+    ],
+    [
+     "M169",
+     3
+    ],
+    [
+     "M12",
+     3
+    ],
+    [
+     "M254",
+     3
+    ],
+    [
+     "M373",
+     3
+    ],
+    [
+     "M402",
+     2
+    ],
+    [
+     "M162",
+     2
+    ],
+    [
+     "M17",
+     2
+    ]
+   ]
+  }
+ },
+ "heldout": {
+  "n_texts": 568,
+  "P1_fishfamily": {
+   "pooled_rate": 0.089,
+   "by_value": {
+    "1": {
+     "N": 42,
+     "fish": 3,
+     "rate": 0.071,
+     "p_greater": 0.7374
+    },
+    "3": {
+     "N": 22,
+     "fish": 2,
+     "rate": 0.091,
+     "p_greater": 0.5976
+    },
+    "4": {
+     "N": 17,
+     "fish": 1,
+     "rate": 0.059,
+     "p_greater": 0.7966
+    },
+    "5": {
+     "N": 4,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "6": {
+     "N": 7,
+     "fish": 4,
+     "rate": 0.571,
+     "p_greater": 0.0018
+    },
+    "7": {
+     "N": 13,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "8": {
+     "N": 2,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "9": {
+     "N": 1,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "12": {
+     "N": 15,
+     "fish": 1,
+     "rate": 0.067,
+     "p_greater": 0.7547
+    }
+   },
+   "stat_67_minus_nonasterism": 0.138,
+   "perm_p": 0.0438
+  },
+  "P1_plainfish": {
+   "pooled_rate": 0.065,
+   "by_value": {
+    "1": {
+     "N": 42,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "3": {
+     "N": 22,
+     "fish": 2,
+     "rate": 0.091,
+     "p_greater": 0.4237
+    },
+    "4": {
+     "N": 17,
+     "fish": 1,
+     "rate": 0.059,
+     "p_greater": 0.6812
+    },
+    "5": {
+     "N": 4,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "6": {
+     "N": 7,
+     "fish": 4,
+     "rate": 0.571,
+     "p_greater": 0.0005
+    },
+    "7": {
+     "N": 13,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "8": {
+     "N": 2,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "9": {
+     "N": 1,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "12": {
+     "N": 15,
+     "fish": 1,
+     "rate": 0.067,
+     "p_greater": 0.6353
+    }
+   },
+   "stat_67_minus_nonasterism": 0.175,
+   "perm_p": 0.0058
+  },
+  "P2": {
+   "M60": {
+    "freq": 9,
+    "sim_to_M59": 0.679,
+    "null_mean": 0.372,
+    "null_p95": 0.573,
+    "n_null": 62,
+    "percentile": 1.0,
+    "mean_pos": 0.81
+   },
+   "M65": {
+    "freq": 41,
+    "sim_to_M59": 0.494,
+    "null_mean": 0.401,
+    "null_p95": 0.525,
+    "n_null": 24,
+    "percentile": 0.792,
+    "mean_pos": 0.32
+   },
+   "M67": {
+    "freq": 48,
+    "sim_to_M59": 0.484,
+    "null_mean": 0.398,
+    "null_p95": 0.526,
+    "n_null": 22,
+    "percentile": 0.727,
+    "mean_pos": 0.37
+   },
+   "M70": {
+    "freq": 15,
+    "sim_to_M59": 0.415,
+    "null_mean": 0.405,
+    "null_p95": 0.576,
+    "n_null": 59,
+    "percentile": 0.508,
+    "mean_pos": 0.42
+   },
+   "M72": {
+    "freq": 34,
+    "sim_to_M59": 0.454,
+    "null_mean": 0.406,
+    "null_p95": 0.53,
+    "n_null": 35,
+    "percentile": 0.686,
+    "mean_pos": 0.44
+   },
+   "M59_mean_pos": 0.52
+  },
+  "P3": {
+   "texts_with_both": 13,
+   "null_mean": 14.2,
+   "p_low": 0.4155,
+   "p_high": 0.6985,
+   "adjacent": 6,
+   "adj_null_mean": 6.2,
+   "adj_p_high": 0.592,
+   "adj_p_low": 0.572
+  },
+  "P4": {
+   "plain": [
+    8,
+    66,
+    0.121
+   ],
+   "marked": [
+    3,
+    157,
+    0.019
+   ],
+   "fisher_p_plain_greater": 0.0031
+  },
+  "P5": {
+   "final_share": 0.734,
+   "final_expected_if_uniform": 0.23,
+   "left_diversity_at_60": 35.4,
+   "null_signs": 1,
+   "null_mean": 22.8,
+   "null_max": 22.8,
+   "percentile": 1.0,
+   "stems_with_jar": 172,
+   "stems_where_jar_alternates": 6,
+   "top_alternants": [
+    [
+     "M12",
+     1
+    ],
+    [
+     "M15",
+     1
+    ],
+    [
+     "M59",
+     1
+    ],
+    [
+     "M13",
+     1
+    ],
+    [
+     "M343",
+     1
+    ],
+    [
+     "M344",
+     1
+    ],
+    [
+     "M14",
+     1
+    ]
+   ]
+  }
+ },
+ "all": {
+  "n_texts": 2270,
+  "P1_fishfamily": {
+   "pooled_rate": 0.129,
+   "by_value": {
+    "1": {
+     "N": 142,
+     "fish": 18,
+     "rate": 0.127,
+     "p_greater": 0.5747
+    },
+    "3": {
+     "N": 93,
+     "fish": 16,
+     "rate": 0.172,
+     "p_greater": 0.1427
+    },
+    "4": {
+     "N": 49,
+     "fish": 5,
+     "rate": 0.102,
+     "p_greater": 0.777
+    },
+    "5": {
+     "N": 27,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "6": {
+     "N": 28,
+     "fish": 12,
+     "rate": 0.429,
+     "p_greater": 0.0001
+    },
+    "7": {
+     "N": 60,
+     "fish": 1,
+     "rate": 0.017,
+     "p_greater": 0.9998
+    },
+    "8": {
+     "N": 6,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "9": {
+     "N": 3,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "12": {
+     "N": 48,
+     "fish": 7,
+     "rate": 0.146,
+     "p_greater": 0.4296
+    }
+   },
+   "stat_67_minus_nonasterism": 0.039,
+   "perm_p": 0.1788
+  },
+  "P1_plainfish": {
+   "pooled_rate": 0.086,
+   "by_value": {
+    "1": {
+     "N": 142,
+     "fish": 1,
+     "rate": 0.007,
+     "p_greater": 1.0
+    },
+    "3": {
+     "N": 93,
+     "fish": 16,
+     "rate": 0.172,
+     "p_greater": 0.0054
+    },
+    "4": {
+     "N": 49,
+     "fish": 5,
+     "rate": 0.102,
+     "p_greater": 0.41
+    },
+    "5": {
+     "N": 27,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "6": {
+     "N": 28,
+     "fish": 12,
+     "rate": 0.429,
+     "p_greater": 0.0
+    },
+    "7": {
+     "N": 60,
+     "fish": 1,
+     "rate": 0.017,
+     "p_greater": 0.9953
+    },
+    "8": {
+     "N": 6,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "9": {
+     "N": 3,
+     "fish": 0,
+     "rate": 0.0,
+     "p_greater": 1.0
+    },
+    "12": {
+     "N": 48,
+     "fish": 4,
+     "rate": 0.083,
+     "p_greater": 0.5962
+    }
+   },
+   "stat_67_minus_nonasterism": 0.111,
+   "perm_p": 0.0016
+  },
+  "P2": {
+   "M60": {
+    "freq": 27,
+    "sim_to_M59": 0.628,
+    "null_mean": 0.349,
+    "null_p95": 0.553,
+    "n_null": 62,
+    "percentile": 0.968,
+    "mean_pos": 0.85
+   },
+   "M65": {
+    "freq": 172,
+    "sim_to_M59": 0.49,
+    "null_mean": 0.362,
+    "null_p95": 0.508,
+    "n_null": 24,
+    "percentile": 0.875,
+    "mean_pos": 0.34
+   },
+   "M66": {
+    "freq": 13,
+    "sim_to_M59": 0.428,
+    "null_mean": 0.318,
+    "null_p95": 0.468,
+    "n_null": 90,
+    "percentile": 0.833,
+    "mean_pos": 0.61
+   },
+   "M67": {
+    "freq": 208,
+    "sim_to_M59": 0.515,
+    "null_mean": 0.36,
+    "null_p95": 0.506,
+    "n_null": 16,
+    "percentile": 1.0,
+    "mean_pos": 0.42
+   },
+   "M68": {
+    "freq": 8,
+    "sim_to_M59": 0.298,
+    "null_mean": 0.305,
+    "null_p95": 0.467,
+    "n_null": 118,
+    "percentile": 0.475,
+    "mean_pos": 0.91
+   },
+   "M70": {
+    "freq": 69,
+    "sim_to_M59": 0.598,
+    "null_mean": 0.384,
+    "null_p95": 0.549,
+    "n_null": 50,
+    "percentile": 1.0,
+    "mean_pos": 0.45
+   },
+   "M71": {
+    "freq": 7,
+    "sim_to_M59": 0.345,
+    "null_mean": 0.306,
+    "null_p95": 0.467,
+    "n_null": 114,
+    "percentile": 0.64,
+    "mean_pos": 0.81
+   },
+   "M72": {
+    "freq": 155,
+    "sim_to_M59": 0.597,
+    "null_mean": 0.363,
+    "null_p95": 0.506,
+    "n_null": 28,
+    "percentile": 1.0,
+    "mean_pos": 0.43
+   },
+   "M73": {
+    "freq": 5,
+    "sim_to_M59": 0.438,
+    "null_mean": 0.3,
+    "null_p95": 0.461,
+    "n_null": 112,
+    "percentile": 0.911,
+    "mean_pos": 0.75
+   },
+   "M75": {
+    "freq": 12,
+    "sim_to_M59": 0.295,
+    "null_mean": 0.316,
+    "null_p95": 0.47,
+    "n_null": 99,
+    "percentile": 0.444,
+    "mean_pos": 0.42
+   },
+   "M59_mean_pos": 0.49
+  },
+  "P3": {
+   "texts_with_both": 66,
+   "null_mean": 69.7,
+   "p_low": 0.319,
+   "p_high": 0.724,
+   "adjacent": 48,
+   "adj_null_mean": 31.1,
+   "adj_p_high": 0.002,
+   "adj_p_low": 0.9985
+  },
+  "P4": {
+   "plain": [
+    39,
+    301,
+    0.13
+   ],
+   "marked": [
+    20,
+    681,
+    0.029
+   ],
+   "fisher_p_plain_greater": 0.0
+  },
+  "P5": {
+   "final_share": 0.726,
+   "final_expected_if_uniform": 0.226,
+   "left_diversity_at_60": 35.7,
+   "null_signs": 18,
+   "null_mean": 23.6,
+   "null_max": 45.9,
+   "percentile": 0.944,
+   "stems_with_jar": 688,
+   "stems_where_jar_alternates": 49,
+   "top_alternants": [
+    [
+     "M12",
+     9
+    ],
+    [
+     "M15",
+     9
+    ],
+    [
+     "M169",
+     3
+    ],
+    [
+     "M162",
+     3
+    ],
+    [
+     "M59",
+     3
+    ],
+    [
+     "M17",
+     3
+    ],
+    [
+     "M65",
+     3
+    ],
+    [
+     "M254",
+     3
+    ]
+   ]
+  }
+ }
+}

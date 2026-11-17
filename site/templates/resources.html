@@ -1,0 +1,84 @@
+<section class="page-head wrap one">
+  <div class="hero-text">
+    <p class="kicker">Resources</p>
+    <h1>Our typeface and our logo are free to download</h1>
+    <p class="lede">Both were drawn for this project. Use them in talks, papers and posts about the Indus script, and say where they came from. The research files follow when the code repository opens.</p>
+    <nav class="jump" aria-label="On this page"><a href="#font">Typeface</a><a href="#logo">Logo</a><a href="#files">Research files</a></nav>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="font">
+  <p class="rail"><span>01</span>Typeface</p>
+  <div class="content">
+    <h2 id="font">Open Indus comes in two cuts, version {{FONT_VERSION}}</h2>
+    <div class="spec" lang="en">
+      <p class="spec-name">Open Indus</p>
+      <p class="spec-set" aria-label="The capital alphabet">ABCDEFGHIJKLM<br>NOPQRSTUVWXYZ</p>
+      <p class="spec-set spec-fig" aria-label="The figures">0123456789</p>
+      <p class="spec-cap">Open Indus Display, for titles in capitals</p>
+      <p class="spec-head">Decipher the Indus script by 2027</p>
+      <p class="spec-text">Seals were cut in soft stone, then fired hard and pressed into clay. Thousands of short texts survive. Not one sign can be read yet, and every test of a reading is published here, whether it holds or fails.</p>
+      <p class="spec-cap">Open Indus Text, for sentences and labels</p>
+    </div>
+    <div class="res-body">
+      <p><b>Open Indus Display</b> is for lines set all in capitals: titles, labels and the wordmark. Its capitals and figures are drawn for this project from single strokes, with touches that echo the signs on Indus seals, such as the almond-shaped O and 0 and the small ticks on U.</p>
+      <p><b>Open Indus Text</b> is for everything in mixed case: sentences, buttons and menus. It is Instrument Sans with our spacing, because the almond O reads like a zero next to lowercase letters.</p>
+      <p class="caveat">This is a first version. The Display capitals are the most finished part. Each cut has about {{FONT_NCHARS}} characters, including accented letters and common symbols.</p>
+      <h3>Licence</h3>
+      <p>Both cuts are under the SIL Open Font License 1.1. You may use, change and share them, also in commercial work, but not sell the font files on their own. A changed version must not use the Open Indus name. The lowercase and the whole Text cut come from Instrument Sans, Copyright 2022 The Instrument Sans Project Authors, also under the Open Font License.</p>
+      <h3>Download</h3>
+      <ul class="dl">
+        <li><a href="assets/fonts/OpenIndus-Regular.woff2" download>OpenIndus-Regular.woff2</a><span>Display Regular, for websites, {{SZ_REG_WOFF2}}</span></li>
+        <li><a href="assets/fonts/OpenIndus-Bold.woff2" download>OpenIndus-Bold.woff2</a><span>Display Bold, for websites, {{SZ_BOLD_WOFF2}}</span></li>
+        <li><a href="assets/fonts/OpenIndusText-Regular.woff2" download>OpenIndusText-Regular.woff2</a><span>Text Regular, for websites, {{SZ_TREG_WOFF2}}</span></li>
+        <li><a href="assets/fonts/OpenIndusText-Bold.woff2" download>OpenIndusText-Bold.woff2</a><span>Text Bold, for websites, {{SZ_TBOLD_WOFF2}}</span></li>
+        <li><a href="assets/fonts/OpenIndus-Regular.ttf" download>OpenIndus-Regular.ttf</a><span>Display Regular, to install on a computer, {{SZ_REG_TTF}}</span></li>
+        <li><a href="assets/fonts/OpenIndus-Bold.ttf" download>OpenIndus-Bold.ttf</a><span>Display Bold, to install on a computer, {{SZ_BOLD_TTF}}</span></li>
+        <li><a href="assets/fonts/OpenIndusText-Regular.ttf" download>OpenIndusText-Regular.ttf</a><span>Text Regular, to install on a computer, {{SZ_TREG_TTF}}</span></li>
+        <li><a href="assets/fonts/OpenIndusText-Bold.ttf" download>OpenIndusText-Bold.ttf</a><span>Text Bold, to install on a computer, {{SZ_TBOLD_TTF}}</span></li>
+        <li><a href="assets/fonts/OFL.txt" download>OFL.txt</a><span>The licence, {{SZ_OFL}}</span></li>
+      </ul>
+      <h3>How to use them on a website</h3>
+      <p>Put the four .woff2 files next to your stylesheet and add the rules below. Use Display only where the text is in capitals.</p>
+      <pre class="code"><code>@font-face { font-family: "Open Indus Display"; src: url("OpenIndus-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Open Indus Display"; src: url("OpenIndus-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+@font-face { font-family: "Open Indus Text"; src: url("OpenIndusText-Regular.woff2") format("woff2"); font-weight: 400; font-display: swap; }
+@font-face { font-family: "Open Indus Text"; src: url("OpenIndusText-Bold.woff2") format("woff2"); font-weight: 700; font-display: swap; }
+body { font-family: "Open Indus Text", system-ui, sans-serif; }
+h1 { font-family: "Open Indus Display", system-ui, sans-serif; text-transform: uppercase; }</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="logo">
+  <p class="rail"><span>02</span>Logo</p>
+  <div class="content">
+    <h2 id="logo">The fish mark and the wordmark</h2>
+    <div class="logo-show" aria-hidden="true">
+      <div class="logo-tile">{{MARK_BIG}}</div>
+      <div class="logo-tile wide">{{WORDMARK_BIG}}</div>
+    </div>
+    <div class="res-body">
+      <p>The fish is drawn after the most common fish sign in the Indus script.</p>
+      <ul class="dl">
+        <li><a href="{{MARK_FILE}}" download>{{MARK_NAME}}</a><span>The mark, SVG, {{SZ_MARK}}</span></li>
+        <li><a href="{{WORD_FILE}}" download>{{WORD_NAME}}</a><span>The wordmark, SVG, {{SZ_WORD}}</span></li>
+      </ul>
+      <p class="note">Both files are single-colour line drawings; change the stroke colour to suit your background. The proposed licence for our drawings is CC BY 4.0. Please do not use the name or the logo in a way that suggests you speak for the project.</p>
+    </div>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="files">
+  <p class="rail"><span>03</span>Files</p>
+  <div class="content">
+    <h2 id="files">Research files, when the repository opens</h2>
+    <p class="intro">These live in the code repository, which is not public yet. The links will work once it opens.</p>
+    <ul class="dl later">
+      <li><a href="{{REPO}}/tree/main/experiments/bench_pierson">The public test bench</a><span>Score a proposed reading the same way as every other key. Available when the repository opens.</span></li>
+      <li><a href="{{REPO}}/tree/main/docs/prereg">{{N_PREREG}} sealed pre-registrations</a><span>Each test, written down and hashed before it ran. Available when the repository opens.</span></li>
+      <li><a href="{{REPO}}/blob/main/docs/NEGATIVE_ATLAS.md">{{N_ROUTES}} closed routes</a><span>Every route to a reading tested and ruled out, with what would reopen it. Available when the repository opens.</span></li>
+    </ul>
+    <p class="note">We do not offer the Indus text corpus, sign drawings or seal photographs for download: their terms are not ours to grant. See the licences file for where each comes from.</p>
+  </div>
+</section>

@@ -1,0 +1,254 @@
+{
+ "R2a0_reproduce": {
+  "4-5": {
+   "rep_longer": [
+    6,
+    14
+   ],
+   "single_longer": [
+    7,
+    503
+   ],
+   "p_longer": 1.81910796972734e-07,
+   "rep_shorter": [
+    0,
+    14
+   ],
+   "single_shorter": [
+    32,
+    503
+   ],
+   "p_shorter": 1.0
+  },
+  "6+": {
+   "rep_longer": [
+    0,
+    1
+   ],
+   "single_longer": [
+    1,
+    514
+   ],
+   "p_longer": 1.0,
+   "rep_shorter": [
+    0,
+    1
+   ],
+   "single_shorter": [
+    5,
+    514
+   ],
+   "p_shorter": 1.0
+  },
+  "all": {
+   "rep_longer": [
+    6,
+    15
+   ],
+   "single_longer": [
+    8,
+    1017
+   ],
+   "p_longer": 8.55562243364592e-09,
+   "rep_shorter": [
+    0,
+    15
+   ],
+   "single_shorter": [
+    37,
+    1017
+   ],
+   "p_shorter": 1.0
+  }
+ },
+ "R2a1_units": {
+  "rep_units": 24,
+  "rep_longer": 6,
+  "single_units": 1017,
+  "single_longer": 8,
+  "p_fisher": 2.05686584816468e-07,
+  "rep_shorter": 0,
+  "single_shorter": 37,
+  "rep_unit_hits": [
+   [
+    "W003 W140 W100 W740",
+    "Mohenjo-daro"
+   ],
+   [
+    "W061 W142 W400 W740",
+    "Harappa"
+   ],
+   [
+    "W817 W002 W004 W390",
+    "Mohenjo-daro"
+   ],
+   [
+    "W061 W171 W035 W740 W090",
+    "Mohenjo-daro"
+   ],
+   [
+    "W817 W002 W061 W740",
+    "Mohenjo-daro"
+   ],
+   [
+    "W255 W435 W690 W740",
+    "Mohenjo-daro"
+   ]
+  ]
+ },
+ "R2a2_matched": {
+  "obs_longer": 6,
+  "null_longer": {
+   "mean": 0.9864,
+   "lo": 0.0,
+   "hi": 3.0,
+   "p_ge": 9.999000099990002e-05,
+   "obs": 6
+  },
+  "obs_shorter": 0,
+  "null_shorter": {
+   "mean": 3.5332,
+   "p_le0": 0.0072
+  },
+  "control_family_shorter_rate": 0.23554666666666665,
+  "P0_of_15_shorter_binomial": 0.01779363511794247,
+  "P0_of_15_shorter_singleton_rate": 0.5735573394770827,
+  "rep_comm_mean": -2.0700420307282315,
+  "single_comm_mean": -2.8771885930493624,
+  "control_comm_mean": -2.212866703530912,
+  "control_longer_unit_rate": 0.041666666666666664
+ },
+ "R2a2_MH": {
+  "OR_MH": 21.435972629521018,
+  "p_perm": 0.0001999600079984003,
+  "rep_unit_hits_obs": 6,
+  "rep_unit_hits_expected_within_strata": 1.1268065268065268
+ },
+ "R2a3_observed": {
+  "rep_n": 15,
+  "rep_l": 6,
+  "rep_s": 0,
+  "sin_n": 1017,
+  "sin_l": 8,
+  "sin_s": 37
+ },
+ "R2a3_N2": {
+  "pooled": {
+   "rep_n": 1085,
+   "rep_l": 226,
+   "rep_s": 227,
+   "sin_n": 313640,
+   "sin_l": 1651,
+   "sin_s": 7140
+  },
+  "rep_longer_share": 0.20829493087557605,
+  "single_longer_share": 0.005263996939165923,
+  "rep_shorter_share": 0.20921658986175115,
+  "single_shorter_share": 0.022764953449815075,
+  "ratio_rep_over_single": 39.56972872187502,
+  "binom_p_obs6of15": 0.07236581102327004,
+  "mean_rep_families_per_sim": 3.6166666666666667
+ },
+ "R2a3_TRI-A": {
+  "pooled": {
+   "rep_n": 2793,
+   "rep_l": 330,
+   "rep_s": 362,
+   "sin_n": 310141,
+   "sin_l": 2766,
+   "sin_s": 8530
+  },
+  "rep_longer_share": 0.11815252416756176,
+  "single_longer_share": 0.008918524155142339,
+  "rep_shorter_share": 0.12960973863229502,
+  "single_shorter_share": 0.0275036193215344,
+  "ratio_rep_over_single": 13.247990599367958,
+  "binom_p_obs6of15": 0.0052607046119491005,
+  "mean_rep_families_per_sim": 9.31
+ },
+ "R2b": {
+  "V1V2_all": {
+   "n_families": 15,
+   "n_pairs": 28,
+   "pair_share": 0.42857142857142855,
+   "pair_null": 0.45119642857142855,
+   "pair_p_more_local": 0.6213378662133786,
+   "fam_share": 0.611111111111111,
+   "fam_null": 0.45138999999999996,
+   "fam_p_more_local": 0.10118988101189881
+  },
+  "V3_nonformula": {
+   "n_families": 10,
+   "n_pairs": 14,
+   "pair_share": 0.5714285714285714,
+   "pair_null": 0.4545642857142857,
+   "pair_p_more_local": 0.287971202879712,
+   "fam_share": 0.6666666666666666,
+   "fam_null": 0.45477666666666666,
+   "fam_p_more_local": 0.08699130086991301
+  },
+  "V3b_formula_only": {
+   "n_families": 5,
+   "n_pairs": 14,
+   "pair_share": 0.2857142857142857,
+   "pair_null": 0.4527142857142857,
+   "pair_p_more_local": 0.8826117388261174,
+   "fam_share": 0.5,
+   "fam_null": 0.451,
+   "fam_p_more_local": 0.4363563643635636
+  },
+  "V4_drop_flagged": {
+   "n_families": 11,
+   "n_pairs": 17,
+   "pair_share": 0.47058823529411764,
+   "pair_null": 0.45309411764705876,
+   "pair_p_more_local": 0.5208479152084792,
+   "fam_share": 0.606060606060606,
+   "fam_null": 0.4532181818181818,
+   "fam_p_more_local": 0.1638836116388361
+  },
+  "V5_band45": {
+   "n_families": 14,
+   "n_pairs": 27,
+   "pair_share": 0.4074074074074074,
+   "pair_null": 0.45114444444444446,
+   "pair_p_more_local": 0.690930906909309,
+   "fam_share": 0.5833333333333333,
+   "fam_null": 0.45229523809523814,
+   "fam_p_more_local": 0.1533846615338466
+  },
+  "V5b_band45_nonformula": {
+   "n_families": 9,
+   "n_pairs": 13,
+   "pair_share": 0.5384615384615384,
+   "pair_null": 0.4524384615384615,
+   "pair_p_more_local": 0.36906309369063095,
+   "fam_share": 0.6296296296296295,
+   "fam_null": 0.4518111111111111,
+   "fam_p_more_local": 0.14308569143085692
+  },
+  "V6_ratio_all": {
+   "ratio": 1.1028158235030217,
+   "ci": [
+    0.3817439389048921,
+    2.1632156537943885
+   ],
+   "share_inf": 0.0
+  },
+  "V6_ratio_nonformula": {
+   "ratio": 0.6203339007204497,
+   "ci": [
+    0.0919013186252518,
+    1.3785197793787771
+   ],
+   "share_inf": 0.0
+  },
+  "nonformula_pairs_by_site_pair": {
+   "Harappa / Harappa": 3,
+   "Harappa / Mohenjo-daro": 5,
+   "Mohenjo-daro / Mohenjo-daro": 4,
+   "Chanhu-daro / Harappa": 1,
+   "Chanhu-daro / Chanhu-daro": 1
+  }
+ }
+}

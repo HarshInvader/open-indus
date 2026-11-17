@@ -1,0 +1,72 @@
+{
+ "all": {
+  "n_testable": 169,
+  "both_p05": [
+   {
+    "Harappa": {
+     "site": "Harappa",
+     "context": "WEIGHT",
+     "sign_W": 176,
+     "sign_M": "M48",
+     "in": "25/484",
+     "out": "2/113",
+     "p": 0.015996800639872025
+    },
+    "Mohenjo-daro": {
+     "site": "Mohenjo-daro",
+     "context": "WEIGHT",
+     "sign_W": 176,
+     "sign_M": "M48",
+     "in": "4/38",
+     "out": "29/874",
+     "p": 0.03719256148770246
+    }
+   },
+   {
+    "Harappa": {
+     "site": "Harappa",
+     "context": "STORAGE",
+     "sign_W": 741,
+     "sign_M": "M343",
+     "in": "5/94",
+     "out": "17/503",
+     "p": 0.04559088182363527
+    },
+    "Lothal": {
+     "site": "Lothal",
+     "context": "STORAGE",
+     "sign_W": 741,
+     "sign_M": "M343",
+     "in": "11/56",
+     "out": "0/10",
+     "p": 0.008998200359928014
+    }
+   }
+  ]
+ },
+ "nonseal": {
+  "n_testable": 49,
+  "both_p05": [
+   {
+    "Harappa": {
+     "site": "Harappa",
+     "context": "STORAGE",
+     "sign_W": 90,
+     "sign_M": "M1",
+     "in": "4/56",
+     "out": "4/327",
+     "p": 0.01879624075184963
+    },
+    "Lothal": {
+     "site": "Lothal",
+     "context": "STORAGE",
+     "sign_W": 90,
+     "sign_M": "M1",
+     "in": "12/56",
+     "out": "0/10",
+     "p": 0.005198960207958408
+    }
+   }
+  ]
+ }
+}

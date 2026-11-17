@@ -1,0 +1,23 @@
+{
+ "n_core": 50,
+ "n_flagged": 33,
+ "mean_syll": 3.46,
+ "repeat_share": 0.24,
+ "repeat_null_mean": 0.10051,
+ "repeat_null_95": [
+  0.02,
+  0.18
+ ],
+ "places": [
+  "Adamšah",
+  "Anšan",
+  "Huhnuri",
+  "Hurti",
+  "Kimaš",
+  "Marhaši",
+  "Sabum",
+  "Urua",
+  "Šimaški",
+  "Šušin"
+ ]
+}

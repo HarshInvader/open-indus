@@ -1,0 +1,1075 @@
+{
+ "t2_dev_all": {
+  "3": {
+   "opener": {
+    "P": 0.38345864661654133,
+    "n1": 51,
+    "V": 74,
+    "share": 0.408,
+    "content_novel_rate": 0.38345864661654133,
+    "novel_rare_sign": 0.2631578947368421,
+    "novel_common_combo": 0.12030075187969924,
+    "frac_novel_from_rare": 0.6862745098039216
+   },
+   "closer": {
+    "P": 0.18045112781954886,
+    "n1": 24,
+    "V": 38,
+    "share": 0.192,
+    "content_novel_rate": 0.18045112781954886,
+    "novel_rare_sign": 0.11278195488721804,
+    "novel_common_combo": 0.06766917293233082,
+    "frac_novel_from_rare": 0.625
+   },
+   "medial": {
+    "P": 0.3759398496240602,
+    "n1": 50.0,
+    "V": 79.0,
+    "share": 0.4,
+    "content_novel_rate": 0.37593984962406013,
+    "novel_rare_sign": 0.23308270676691728,
+    "novel_common_combo": 0.14285714285714285,
+    "frac_novel_from_rare": 0.62
+   },
+   "top": "opener",
+   "ratio_top_second": 1.0199999999999998,
+   "ratio_max_min": 2.125,
+   "N": 133
+  },
+  "4": {
+   "opener": {
+    "P": 0.22012578616352202,
+    "n1": 35,
+    "V": 58,
+    "share": 0.33531327840582487,
+    "content_novel_rate": 0.22012578616352202,
+    "novel_rare_sign": 0.1509433962264151,
+    "novel_common_combo": 0.06918238993710692,
+    "frac_novel_from_rare": 0.6857142857142857
+   },
+   "closer": {
+    "P": 0.1509433962264151,
+    "n1": 24,
+    "V": 39,
+    "share": 0.22992910519256562,
+    "content_novel_rate": 0.1509433962264151,
+    "novel_rare_sign": 0.0880503144654088,
+    "novel_common_combo": 0.06289308176100629,
+    "frac_novel_from_rare": 0.5833333333333334
+   },
+   "medial": {
+    "P": 0.2854088050314465,
+    "n1": 45.38,
+    "V": 76.76,
+    "share": 0.43475761640160954,
+    "content_novel_rate": 0.7295597484276729,
+    "novel_rare_sign": 0.3584905660377358,
+    "novel_common_combo": 0.3710691823899371,
+    "frac_novel_from_rare": 0.49137931034482757
+   },
+   "top": "medial",
+   "ratio_top_second": 1.2965714285714283,
+   "ratio_max_min": 1.8908333333333331,
+   "N": 159
+  },
+  "5": {
+   "opener": {
+    "P": 0.2571428571428571,
+    "n1": 54,
+    "V": 84,
+    "share": 0.4643164230438521,
+    "content_novel_rate": 0.2571428571428571,
+    "novel_rare_sign": 0.19047619047619047,
+    "novel_common_combo": 0.06666666666666667,
+    "frac_novel_from_rare": 0.7407407407407407
+   },
+   "closer": {
+    "P": 0.09047619047619047,
+    "n1": 19,
+    "V": 38,
+    "share": 0.16337059329320722,
+    "content_novel_rate": 0.09047619047619047,
+    "novel_rare_sign": 0.05714285714285714,
+    "novel_common_combo": 0.03333333333333333,
+    "frac_novel_from_rare": 0.631578947368421
+   },
+   "medial": {
+    "P": 0.20619047619047617,
+    "n1": 43.3,
+    "V": 82.74,
+    "share": 0.37231298366294063,
+    "content_novel_rate": 0.9285714285714286,
+    "novel_rare_sign": 0.4714285714285714,
+    "novel_common_combo": 0.45714285714285713,
+    "frac_novel_from_rare": 0.5076923076923077
+   },
+   "top": "opener",
+   "ratio_top_second": 1.2471131639722863,
+   "ratio_max_min": 2.8421052631578947,
+   "N": 210
+  },
+  "6+": {
+   "opener": {
+    "P": 0.1387434554973822,
+    "n1": 53,
+    "V": 112,
+    "share": 0.4114267970811986,
+    "content_novel_rate": 0.1387434554973822,
+    "novel_rare_sign": 0.112565445026178,
+    "novel_common_combo": 0.02617801047120419,
+    "frac_novel_from_rare": 0.8113207547169812
+   },
+   "closer": {
+    "P": 0.07329842931937172,
+    "n1": 28,
+    "V": 55,
+    "share": 0.21735755317497285,
+    "content_novel_rate": 0.07329842931937172,
+    "novel_rare_sign": 0.049738219895287955,
+    "novel_common_combo": 0.02356020942408377,
+    "frac_novel_from_rare": 0.6785714285714286
+   },
+   "medial": {
+    "P": 0.12518324607329842,
+    "n1": 47.82,
+    "V": 105.82,
+    "share": 0.37121564974382865,
+    "content_novel_rate": 0.9895287958115183,
+    "novel_rare_sign": 0.581151832460733,
+    "novel_common_combo": 0.4083769633507853,
+    "frac_novel_from_rare": 0.5873015873015873
+   },
+   "top": "opener",
+   "ratio_top_second": 1.108322877457131,
+   "ratio_max_min": 1.892857142857143,
+   "N": 382
+  }
+ },
+ "t2_dev_md": {
+  "3": {
+   "opener": {
+    "P": 0.4222222222222222,
+    "n1": 38,
+    "V": 56,
+    "share": 0.3838383838383838,
+    "content_novel_rate": 0.4222222222222222,
+    "novel_rare_sign": 0.28888888888888886,
+    "novel_common_combo": 0.13333333333333333,
+    "frac_novel_from_rare": 0.6842105263157895
+   },
+   "closer": {
+    "P": 0.14444444444444443,
+    "n1": 13,
+    "V": 24,
+    "share": 0.13131313131313133,
+    "content_novel_rate": 0.14444444444444443,
+    "novel_rare_sign": 0.07777777777777778,
+    "novel_common_combo": 0.06666666666666667,
+    "frac_novel_from_rare": 0.5384615384615384
+   },
+   "medial": {
+    "P": 0.5333333333333333,
+    "n1": 48.0,
+    "V": 65.0,
+    "share": 0.48484848484848486,
+    "content_novel_rate": 0.5333333333333333,
+    "novel_rare_sign": 0.2777777777777778,
+    "novel_common_combo": 0.25555555555555554,
+    "frac_novel_from_rare": 0.5208333333333334
+   },
+   "top": "medial",
+   "ratio_top_second": 1.263157894736842,
+   "ratio_max_min": 3.6923076923076925,
+   "N": 90
+  },
+  "4": {
+   "opener": {
+    "P": 0.21818181818181817,
+    "n1": 24,
+    "V": 42,
+    "share": 0.3033367037411527,
+    "content_novel_rate": 0.21818181818181817,
+    "novel_rare_sign": 0.12727272727272726,
+    "novel_common_combo": 0.09090909090909091,
+    "frac_novel_from_rare": 0.5833333333333334
+   },
+   "closer": {
+    "P": 0.13636363636363635,
+    "n1": 15,
+    "V": 28,
+    "share": 0.1895854398382204,
+    "content_novel_rate": 0.13636363636363635,
+    "novel_rare_sign": 0.09090909090909091,
+    "novel_common_combo": 0.045454545454545456,
+    "frac_novel_from_rare": 0.6666666666666666
+   },
+   "medial": {
+    "P": 0.3647272727272727,
+    "n1": 40.12,
+    "V": 60.34,
+    "share": 0.5070778564206269,
+    "content_novel_rate": 0.7272727272727273,
+    "novel_rare_sign": 0.39090909090909093,
+    "novel_common_combo": 0.33636363636363636,
+    "frac_novel_from_rare": 0.5375
+   },
+   "top": "medial",
+   "ratio_top_second": 1.6716666666666664,
+   "ratio_max_min": 2.6746666666666665,
+   "N": 110
+  },
+  "5": {
+   "opener": {
+    "P": 0.272108843537415,
+    "n1": 40,
+    "V": 62,
+    "share": 0.4146796599626788,
+    "content_novel_rate": 0.272108843537415,
+    "novel_rare_sign": 0.16326530612244897,
+    "novel_common_combo": 0.10884353741496598,
+    "frac_novel_from_rare": 0.6
+   },
+   "closer": {
+    "P": 0.11564625850340136,
+    "n1": 17,
+    "V": 30,
+    "share": 0.17623885548413848,
+    "content_novel_rate": 0.11564625850340136,
+    "novel_rare_sign": 0.061224489795918366,
+    "novel_common_combo": 0.05442176870748299,
+    "frac_novel_from_rare": 0.5294117647058824
+   },
+   "medial": {
+    "P": 0.2684353741496599,
+    "n1": 39.46,
+    "V": 67.94,
+    "share": 0.40908148455318266,
+    "content_novel_rate": 0.9455782312925171,
+    "novel_rare_sign": 0.5102040816326531,
+    "novel_common_combo": 0.43537414965986393,
+    "frac_novel_from_rare": 0.539568345323741
+   },
+   "top": "opener",
+   "ratio_top_second": 1.0136847440446022,
+   "ratio_max_min": 2.3529411764705883,
+   "N": 147
+  },
+  "6+": {
+   "opener": {
+    "P": 0.18045112781954886,
+    "n1": 48,
+    "V": 92,
+    "share": 0.41601664066562666,
+    "content_novel_rate": 0.18045112781954886,
+    "novel_rare_sign": 0.14285714285714285,
+    "novel_common_combo": 0.03759398496240601,
+    "frac_novel_from_rare": 0.7916666666666666
+   },
+   "closer": {
+    "P": 0.09398496240601503,
+    "n1": 25,
+    "V": 45,
+    "share": 0.21667533368001388,
+    "content_novel_rate": 0.09398496240601503,
+    "novel_rare_sign": 0.06766917293233082,
+    "novel_common_combo": 0.02631578947368421,
+    "frac_novel_from_rare": 0.72
+   },
+   "medial": {
+    "P": 0.15932330827067667,
+    "n1": 42.38,
+    "V": 88.7,
+    "share": 0.36730802565435955,
+    "content_novel_rate": 0.9924812030075187,
+    "novel_rare_sign": 0.5714285714285714,
+    "novel_common_combo": 0.42105263157894735,
+    "frac_novel_from_rare": 0.5757575757575758
+   },
+   "top": "opener",
+   "ratio_top_second": 1.1326097215667768,
+   "ratio_max_min": 1.92,
+   "N": 266
+  }
+ },
+ "t2_dev_hp": {
+  "3": {
+   "opener": {
+    "P": 0.8,
+    "n1": 20,
+    "V": 22,
+    "share": 0.37735849056603776,
+    "content_novel_rate": 0.8,
+    "novel_rare_sign": 0.44,
+    "novel_common_combo": 0.36,
+    "frac_novel_from_rare": 0.55
+   },
+   "closer": {
+    "P": 0.48,
+    "n1": 12,
+    "V": 15,
+    "share": 0.22641509433962265,
+    "content_novel_rate": 0.48,
+    "novel_rare_sign": 0.08,
+    "novel_common_combo": 0.4,
+    "frac_novel_from_rare": 0.16666666666666666
+   },
+   "medial": {
+    "P": 0.8400000000000002,
+    "n1": 21.0,
+    "V": 23.0,
+    "share": 0.39622641509433965,
+    "content_novel_rate": 0.84,
+    "novel_rare_sign": 0.36,
+    "novel_common_combo": 0.48,
+    "frac_novel_from_rare": 0.42857142857142855
+   },
+   "top": "medial",
+   "ratio_top_second": 1.0500000000000003,
+   "ratio_max_min": 1.7500000000000004,
+   "N": 25
+  },
+  "4": {
+   "opener": {
+    "P": 0.5333333333333333,
+    "n1": 16,
+    "V": 21,
+    "share": 0.3236245954692557,
+    "content_novel_rate": 0.5333333333333333,
+    "novel_rare_sign": 0.3,
+    "novel_common_combo": 0.23333333333333334,
+    "frac_novel_from_rare": 0.5625
+   },
+   "closer": {
+    "P": 0.3333333333333333,
+    "n1": 10,
+    "V": 16,
+    "share": 0.2022653721682848,
+    "content_novel_rate": 0.3333333333333333,
+    "novel_rare_sign": 0.1,
+    "novel_common_combo": 0.23333333333333334,
+    "frac_novel_from_rare": 0.3
+   },
+   "medial": {
+    "P": 0.7813333333333334,
+    "n1": 23.44,
+    "V": 26.54,
+    "share": 0.4741100323624596,
+    "content_novel_rate": 1.0,
+    "novel_rare_sign": 0.43333333333333335,
+    "novel_common_combo": 0.5666666666666667,
+    "frac_novel_from_rare": 0.43333333333333335
+   },
+   "top": "medial",
+   "ratio_top_second": 1.4650000000000003,
+   "ratio_max_min": 2.3440000000000003,
+   "N": 30
+  },
+  "5": {
+   "opener": {
+    "P": 0.4444444444444444,
+    "n1": 12,
+    "V": 15,
+    "share": 0.3575685339690107,
+    "content_novel_rate": 0.4444444444444444,
+    "novel_rare_sign": 0.25925925925925924,
+    "novel_common_combo": 0.18518518518518517,
+    "frac_novel_from_rare": 0.5833333333333334
+   },
+   "closer": {
+    "P": 0.2222222222222222,
+    "n1": 6,
+    "V": 9,
+    "share": 0.17878426698450536,
+    "content_novel_rate": 0.2222222222222222,
+    "novel_rare_sign": 0.1111111111111111,
+    "novel_common_combo": 0.1111111111111111,
+    "frac_novel_from_rare": 0.5
+   },
+   "medial": {
+    "P": 0.5762962962962963,
+    "n1": 15.56,
+    "V": 19.66,
+    "share": 0.4636471990464839,
+    "content_novel_rate": 0.9259259259259259,
+    "novel_rare_sign": 0.37037037037037035,
+    "novel_common_combo": 0.5555555555555556,
+    "frac_novel_from_rare": 0.4
+   },
+   "top": "medial",
+   "ratio_top_second": 1.2966666666666669,
+   "ratio_max_min": 2.5933333333333337,
+   "N": 27
+  },
+  "6+": {
+   "opener": {
+    "P": 0.42105263157894735,
+    "n1": 32,
+    "V": 45,
+    "share": 0.4306864064602961,
+    "content_novel_rate": 0.42105263157894735,
+    "novel_rare_sign": 0.19736842105263158,
+    "novel_common_combo": 0.2236842105263158,
+    "frac_novel_from_rare": 0.46875
+   },
+   "closer": {
+    "P": 0.17105263157894737,
+    "n1": 13,
+    "V": 19,
+    "share": 0.1749663526244953,
+    "content_novel_rate": 0.17105263157894737,
+    "novel_rare_sign": 0.06578947368421052,
+    "novel_common_combo": 0.10526315789473684,
+    "frac_novel_from_rare": 0.38461538461538464
+   },
+   "medial": {
+    "P": 0.3855263157894736,
+    "n1": 29.3,
+    "V": 44.48,
+    "share": 0.3943472409152086,
+    "content_novel_rate": 1.0,
+    "novel_rare_sign": 0.6447368421052632,
+    "novel_common_combo": 0.35526315789473684,
+    "frac_novel_from_rare": 0.6447368421052632
+   },
+   "top": "opener",
+   "ratio_top_second": 1.0921501706484644,
+   "ratio_max_min": 2.4615384615384612,
+   "N": 76
+  }
+ },
+ "t2_dev_shuffled": {
+  "3": {
+   "opener": {
+    "P": 0.3383458646616541,
+    "n1": 45,
+    "V": 72,
+    "share": 0.2922077922077922,
+    "content_novel_rate": 0.3383458646616541,
+    "novel_rare_sign": 0.19548872180451127,
+    "novel_common_combo": 0.14285714285714285,
+    "frac_novel_from_rare": 0.5777777777777777
+   },
+   "closer": {
+    "P": 0.40601503759398494,
+    "n1": 54,
+    "V": 77,
+    "share": 0.35064935064935066,
+    "content_novel_rate": 0.40601503759398494,
+    "novel_rare_sign": 0.21052631578947367,
+    "novel_common_combo": 0.19548872180451127,
+    "frac_novel_from_rare": 0.5185185185185185
+   },
+   "medial": {
+    "P": 0.4135338345864662,
+    "n1": 55.0,
+    "V": 78.0,
+    "share": 0.35714285714285715,
+    "content_novel_rate": 0.41353383458646614,
+    "novel_rare_sign": 0.2857142857142857,
+    "novel_common_combo": 0.12781954887218044,
+    "frac_novel_from_rare": 0.6909090909090909
+   },
+   "top": "medial",
+   "ratio_top_second": 1.0185185185185186,
+   "ratio_max_min": 1.2222222222222223,
+   "N": 133
+  },
+  "4": {
+   "opener": {
+    "P": 0.32075471698113206,
+    "n1": 51,
+    "V": 77,
+    "share": 0.3617021276595745,
+    "content_novel_rate": 0.32075471698113206,
+    "novel_rare_sign": 0.18238993710691823,
+    "novel_common_combo": 0.13836477987421383,
+    "frac_novel_from_rare": 0.5686274509803921
+   },
+   "closer": {
+    "P": 0.2893081761006289,
+    "n1": 46,
+    "V": 74,
+    "share": 0.3262411347517731,
+    "content_novel_rate": 0.2893081761006289,
+    "novel_rare_sign": 0.16981132075471697,
+    "novel_common_combo": 0.11949685534591195,
+    "frac_novel_from_rare": 0.5869565217391305
+   },
+   "medial": {
+    "P": 0.27672955974842767,
+    "n1": 44.0,
+    "V": 74.14,
+    "share": 0.3120567375886525,
+    "content_novel_rate": 0.8867924528301887,
+    "novel_rare_sign": 0.3522012578616352,
+    "novel_common_combo": 0.5345911949685535,
+    "frac_novel_from_rare": 0.3971631205673759
+   },
+   "top": "opener",
+   "ratio_top_second": 1.108695652173913,
+   "ratio_max_min": 1.159090909090909,
+   "N": 159
+  },
+  "5": {
+   "opener": {
+    "P": 0.20476190476190476,
+    "n1": 43,
+    "V": 78,
+    "share": 0.29391660970608335,
+    "content_novel_rate": 0.20476190476190476,
+    "novel_rare_sign": 0.11904761904761904,
+    "novel_common_combo": 0.08571428571428572,
+    "frac_novel_from_rare": 0.5813953488372093
+   },
+   "closer": {
+    "P": 0.26666666666666666,
+    "n1": 56,
+    "V": 93,
+    "share": 0.3827751196172248,
+    "content_novel_rate": 0.26666666666666666,
+    "novel_rare_sign": 0.18095238095238095,
+    "novel_common_combo": 0.08571428571428572,
+    "frac_novel_from_rare": 0.6785714285714286
+   },
+   "medial": {
+    "P": 0.22523809523809518,
+    "n1": 47.3,
+    "V": 84.68,
+    "share": 0.3233082706766917,
+    "content_novel_rate": 0.9904761904761905,
+    "novel_rare_sign": 0.47619047619047616,
+    "novel_common_combo": 0.5142857142857142,
+    "frac_novel_from_rare": 0.4807692307692308
+   },
+   "top": "closer",
+   "ratio_top_second": 1.1839323467230447,
+   "ratio_max_min": 1.302325581395349,
+   "N": 210
+  },
+  "6+": {
+   "opener": {
+    "P": 0.15968586387434555,
+    "n1": 61,
+    "V": 116,
+    "share": 0.38282917032760133,
+    "content_novel_rate": 0.15968586387434555,
+    "novel_rare_sign": 0.13089005235602094,
+    "novel_common_combo": 0.028795811518324606,
+    "frac_novel_from_rare": 0.819672131147541
+   },
+   "closer": {
+    "P": 0.112565445026178,
+    "n1": 43,
+    "V": 103,
+    "share": 0.26986318564076817,
+    "content_novel_rate": 0.112565445026178,
+    "novel_rare_sign": 0.09162303664921466,
+    "novel_common_combo": 0.020942408376963352,
+    "frac_novel_from_rare": 0.813953488372093
+   },
+   "medial": {
+    "P": 0.144869109947644,
+    "n1": 55.34,
+    "V": 114.22,
+    "share": 0.3473076440316305,
+    "content_novel_rate": 1.0,
+    "novel_rare_sign": 0.6178010471204188,
+    "novel_common_combo": 0.38219895287958117,
+    "frac_novel_from_rare": 0.6178010471204188
+   },
+   "top": "opener",
+   "ratio_top_second": 1.1022768341163716,
+   "ratio_max_min": 1.4186046511627908,
+   "N": 382
+  }
+ },
+ "t2_ur3_words": {
+  "3": {
+   "opener": {
+    "P": 0.4170542635658915,
+    "n1": 538,
+    "V": 740,
+    "share": 0.46180257510729616,
+    "content_novel_rate": 0.4170542635658915,
+    "novel_rare_sign": 0.3697674418604651,
+    "novel_common_combo": 0.047286821705426356,
+    "frac_novel_from_rare": 0.8866171003717472
+   },
+   "closer": {
+    "P": 0.46124031007751937,
+    "n1": 595,
+    "V": 774,
+    "share": 0.5107296137339056,
+    "content_novel_rate": 0.46124031007751937,
+    "novel_rare_sign": 0.3992248062015504,
+    "novel_common_combo": 0.06201550387596899,
+    "frac_novel_from_rare": 0.865546218487395
+   },
+   "medial": {
+    "P": 0.024806201550387597,
+    "n1": 32.0,
+    "V": 57.0,
+    "share": 0.027467811158798282,
+    "content_novel_rate": 0.024806201550387597,
+    "novel_rare_sign": 0.017054263565891473,
+    "novel_common_combo": 0.007751937984496124,
+    "frac_novel_from_rare": 0.6875
+   },
+   "top": "closer",
+   "ratio_top_second": 1.1059479553903344,
+   "ratio_max_min": 18.59375,
+   "N": 1290
+  },
+  "4": {
+   "opener": {
+    "P": 0.26310483870967744,
+    "n1": 522,
+    "V": 808,
+    "share": 0.41728620077701567,
+    "content_novel_rate": 0.26310483870967744,
+    "novel_rare_sign": 0.23538306451612903,
+    "novel_common_combo": 0.027721774193548387,
+    "frac_novel_from_rare": 0.8946360153256705
+   },
+   "closer": {
+    "P": 0.28024193548387094,
+    "n1": 556,
+    "V": 838,
+    "share": 0.4444657617471661,
+    "content_novel_rate": 0.28024193548387094,
+    "novel_rare_sign": 0.24294354838709678,
+    "novel_common_combo": 0.037298387096774195,
+    "frac_novel_from_rare": 0.8669064748201439
+   },
+   "medial": {
+    "P": 0.08716733870967744,
+    "n1": 172.94,
+    "V": 222.42,
+    "share": 0.13824803747581818,
+    "content_novel_rate": 0.1461693548387097,
+    "novel_rare_sign": 0.09778225806451613,
+    "novel_common_combo": 0.04838709677419355,
+    "frac_novel_from_rare": 0.6689655172413793
+   },
+   "top": "closer",
+   "ratio_top_second": 1.0651340996168581,
+   "ratio_max_min": 3.214987857060251,
+   "N": 1984
+  },
+  "5": {
+   "opener": {
+    "P": 0.3707250341997264,
+    "n1": 271,
+    "V": 406,
+    "share": 0.4238746207025995,
+    "content_novel_rate": 0.3707250341997264,
+    "novel_rare_sign": 0.280437756497948,
+    "novel_common_combo": 0.09028727770177838,
+    "frac_novel_from_rare": 0.7564575645756457
+   },
+   "closer": {
+    "P": 0.27359781121751026,
+    "n1": 200,
+    "V": 279,
+    "share": 0.3128225983045015,
+    "content_novel_rate": 0.27359781121751026,
+    "novel_rare_sign": 0.19835841313269495,
+    "novel_common_combo": 0.07523939808481532,
+    "frac_novel_from_rare": 0.725
+   },
+   "medial": {
+    "P": 0.23028727770177837,
+    "n1": 168.34,
+    "V": 229.28,
+    "share": 0.26330278099289894,
+    "content_novel_rate": 0.5950752393980848,
+    "novel_rare_sign": 0.34746922024623805,
+    "novel_common_combo": 0.2476060191518468,
+    "frac_novel_from_rare": 0.5839080459770115
+   },
+   "top": "opener",
+   "ratio_top_second": 1.355,
+   "ratio_max_min": 1.609837234168944,
+   "N": 731
+  },
+  "6+": {
+   "opener": {
+    "P": 0.1879396984924623,
+    "n1": 187,
+    "V": 277,
+    "share": 0.3759096208740401,
+    "content_novel_rate": 0.1879396984924623,
+    "novel_rare_sign": 0.13366834170854272,
+    "novel_common_combo": 0.054271356783919596,
+    "frac_novel_from_rare": 0.7112299465240641
+   },
+   "closer": {
+    "P": 0.1185929648241206,
+    "n1": 118,
+    "V": 177,
+    "share": 0.23720500140714829,
+    "content_novel_rate": 0.1185929648241206,
+    "novel_rare_sign": 0.08341708542713568,
+    "novel_common_combo": 0.035175879396984924,
+    "frac_novel_from_rare": 0.7033898305084746
+   },
+   "medial": {
+    "P": 0.19342713567839195,
+    "n1": 192.46,
+    "V": 270.54,
+    "share": 0.38688537771881154,
+    "content_novel_rate": 0.8402010050251256,
+    "novel_rare_sign": 0.5316582914572864,
+    "novel_common_combo": 0.3085427135678392,
+    "frac_novel_from_rare": 0.6327751196172249
+   },
+   "top": "medial",
+   "ratio_top_second": 1.029197860962567,
+   "ratio_max_min": 1.6310169491525424,
+   "N": 995
+  }
+ },
+ "t2_ur3_words_n1000": {
+  "3": {
+   "opener": {
+    "P": 0.7431192660550459,
+    "n1": 162,
+    "V": 185,
+    "share": 0.4807121661721068,
+    "content_novel_rate": 0.7431192660550459,
+    "novel_rare_sign": 0.46788990825688076,
+    "novel_common_combo": 0.27522935779816515,
+    "frac_novel_from_rare": 0.6296296296296297
+   },
+   "closer": {
+    "P": 0.7247706422018348,
+    "n1": 158,
+    "V": 184,
+    "share": 0.4688427299703264,
+    "content_novel_rate": 0.7247706422018348,
+    "novel_rare_sign": 0.4541284403669725,
+    "novel_common_combo": 0.2706422018348624,
+    "frac_novel_from_rare": 0.6265822784810127
+   },
+   "medial": {
+    "P": 0.07798165137614678,
+    "n1": 17.0,
+    "V": 24.0,
+    "share": 0.050445103857566766,
+    "content_novel_rate": 0.0779816513761468,
+    "novel_rare_sign": 0.022935779816513763,
+    "novel_common_combo": 0.05504587155963303,
+    "frac_novel_from_rare": 0.29411764705882354
+   },
+   "top": "opener",
+   "ratio_top_second": 1.0253164556962024,
+   "ratio_max_min": 9.529411764705884,
+   "N": 218
+  },
+  "4": {
+   "opener": {
+    "P": 0.4964705882352941,
+    "n1": 211,
+    "V": 272,
+    "share": 0.4428493472694455,
+    "content_novel_rate": 0.4964705882352941,
+    "novel_rare_sign": 0.32941176470588235,
+    "novel_common_combo": 0.16705882352941176,
+    "frac_novel_from_rare": 0.6635071090047393
+   },
+   "closer": {
+    "P": 0.508235294117647,
+    "n1": 216,
+    "V": 284,
+    "share": 0.4533434076312807,
+    "content_novel_rate": 0.508235294117647,
+    "novel_rare_sign": 0.3058823529411765,
+    "novel_common_combo": 0.2023529411764706,
+    "frac_novel_from_rare": 0.6018518518518519
+   },
+   "medial": {
+    "P": 0.1163764705882353,
+    "n1": 49.46,
+    "V": 57.82,
+    "share": 0.10380724509927382,
+    "content_novel_rate": 0.21176470588235294,
+    "novel_rare_sign": 0.11529411764705882,
+    "novel_common_combo": 0.09647058823529411,
+    "frac_novel_from_rare": 0.5444444444444444
+   },
+   "top": "closer",
+   "ratio_top_second": 1.0236966824644549,
+   "ratio_max_min": 4.367165386170642,
+   "N": 425
+  },
+  "5": {
+   "opener": {
+    "P": 0.7463768115942029,
+    "n1": 103,
+    "V": 118,
+    "share": 0.473650326496827,
+    "content_novel_rate": 0.7463768115942029,
+    "novel_rare_sign": 0.38405797101449274,
+    "novel_common_combo": 0.36231884057971014,
+    "frac_novel_from_rare": 0.5145631067961165
+   },
+   "closer": {
+    "P": 0.43478260869565216,
+    "n1": 60,
+    "V": 82,
+    "share": 0.2759128115515497,
+    "content_novel_rate": 0.43478260869565216,
+    "novel_rare_sign": 0.2391304347826087,
+    "novel_common_combo": 0.1956521739130435,
+    "frac_novel_from_rare": 0.55
+   },
+   "medial": {
+    "P": 0.39463768115942033,
+    "n1": 54.46,
+    "V": 66.86,
+    "share": 0.2504368619516233,
+    "content_novel_rate": 0.8405797101449275,
+    "novel_rare_sign": 0.3115942028985507,
+    "novel_common_combo": 0.5289855072463768,
+    "frac_novel_from_rare": 0.3706896551724138
+   },
+   "top": "opener",
+   "ratio_top_second": 1.7166666666666668,
+   "ratio_max_min": 1.891296364304076,
+   "N": 138
+  },
+  "6+": {
+   "opener": {
+    "P": 0.31794871794871793,
+    "n1": 62,
+    "V": 81,
+    "share": 0.38920276208411797,
+    "content_novel_rate": 0.31794871794871793,
+    "novel_rare_sign": 0.15897435897435896,
+    "novel_common_combo": 0.15897435897435896,
+    "frac_novel_from_rare": 0.5
+   },
+   "closer": {
+    "P": 0.18461538461538463,
+    "n1": 36,
+    "V": 50,
+    "share": 0.22598870056497172,
+    "content_novel_rate": 0.18461538461538463,
+    "novel_rare_sign": 0.10256410256410256,
+    "novel_common_combo": 0.08205128205128205,
+    "frac_novel_from_rare": 0.5555555555555556
+   },
+   "medial": {
+    "P": 0.31435897435897436,
+    "n1": 61.3,
+    "V": 82.36,
+    "share": 0.3848085373509102,
+    "content_novel_rate": 0.8974358974358975,
+    "novel_rare_sign": 0.5333333333333333,
+    "novel_common_combo": 0.3641025641025641,
+    "frac_novel_from_rare": 0.5942857142857143
+   },
+   "top": "opener",
+   "ratio_top_second": 1.0114192495921697,
+   "ratio_max_min": 1.722222222222222,
+   "N": 195
+  }
+ },
+ "t2_ur3_merged": {
+  "3": {
+   "opener": {
+    "P": 0.1559633027522936,
+    "n1": 34,
+    "V": 81,
+    "share": 0.3617021276595745,
+    "content_novel_rate": 0.1559633027522936,
+    "novel_rare_sign": 0.12844036697247707,
+    "novel_common_combo": 0.027522935779816515,
+    "frac_novel_from_rare": 0.8235294117647058
+   },
+   "closer": {
+    "P": 0.22018348623853212,
+    "n1": 48,
+    "V": 87,
+    "share": 0.5106382978723404,
+    "content_novel_rate": 0.22018348623853212,
+    "novel_rare_sign": 0.1834862385321101,
+    "novel_common_combo": 0.03669724770642202,
+    "frac_novel_from_rare": 0.8333333333333334
+   },
+   "medial": {
+    "P": 0.05504587155963304,
+    "n1": 12.0,
+    "V": 20.0,
+    "share": 0.1276595744680851,
+    "content_novel_rate": 0.05504587155963303,
+    "novel_rare_sign": 0.022935779816513763,
+    "novel_common_combo": 0.03211009174311927,
+    "frac_novel_from_rare": 0.4166666666666667
+   },
+   "top": "closer",
+   "ratio_top_second": 1.411764705882353,
+   "ratio_max_min": 3.9999999999999996,
+   "N": 218
+  },
+  "4": {
+   "opener": {
+    "P": 0.07529411764705882,
+    "n1": 32,
+    "V": 102,
+    "share": 0.33521893987010265,
+    "content_novel_rate": 0.07529411764705882,
+    "novel_rare_sign": 0.07058823529411765,
+    "novel_common_combo": 0.004705882352941176,
+    "frac_novel_from_rare": 0.9375
+   },
+   "closer": {
+    "P": 0.08941176470588236,
+    "n1": 38,
+    "V": 101,
+    "share": 0.3980724910957469,
+    "content_novel_rate": 0.08941176470588236,
+    "novel_rare_sign": 0.08470588235294117,
+    "novel_common_combo": 0.004705882352941176,
+    "frac_novel_from_rare": 0.9473684210526315
+   },
+   "medial": {
+    "P": 0.05990588235294116,
+    "n1": 25.46,
+    "V": 38.36,
+    "share": 0.2667085690341504,
+    "content_novel_rate": 0.13411764705882354,
+    "novel_rare_sign": 0.07529411764705882,
+    "novel_common_combo": 0.058823529411764705,
+    "frac_novel_from_rare": 0.5614035087719298
+   },
+   "top": "closer",
+   "ratio_top_second": 1.1875000000000002,
+   "ratio_max_min": 1.4925373134328361,
+   "N": 425
+  },
+  "5": {
+   "opener": {
+    "P": 0.2318840579710145,
+    "n1": 32,
+    "V": 65,
+    "share": 0.37409399111526775,
+    "content_novel_rate": 0.2318840579710145,
+    "novel_rare_sign": 0.18840579710144928,
+    "novel_common_combo": 0.043478260869565216,
+    "frac_novel_from_rare": 0.8125
+   },
+   "closer": {
+    "P": 0.17391304347826086,
+    "n1": 24,
+    "V": 51,
+    "share": 0.2805704933364508,
+    "content_novel_rate": 0.17391304347826086,
+    "novel_rare_sign": 0.13043478260869565,
+    "novel_common_combo": 0.043478260869565216,
+    "frac_novel_from_rare": 0.75
+   },
+   "medial": {
+    "P": 0.2140579710144928,
+    "n1": 29.54,
+    "V": 46.02,
+    "share": 0.3453355155482815,
+    "content_novel_rate": 0.7753623188405797,
+    "novel_rare_sign": 0.42028985507246375,
+    "novel_common_combo": 0.35507246376811596,
+    "frac_novel_from_rare": 0.5420560747663551
+   },
+   "top": "opener",
+   "ratio_top_second": 1.0832769126607986,
+   "ratio_max_min": 1.3333333333333335,
+   "N": 138
+  },
+  "6+": {
+   "opener": {
+    "P": 0.12307692307692308,
+    "n1": 24,
+    "V": 53,
+    "share": 0.3799873337555415,
+    "content_novel_rate": 0.12307692307692308,
+    "novel_rare_sign": 0.08205128205128205,
+    "novel_common_combo": 0.041025641025641026,
+    "frac_novel_from_rare": 0.6666666666666666
+   },
+   "closer": {
+    "P": 0.06153846153846154,
+    "n1": 12,
+    "V": 31,
+    "share": 0.18999366687777075,
+    "content_novel_rate": 0.06153846153846154,
+    "novel_rare_sign": 0.03076923076923077,
+    "novel_common_combo": 0.03076923076923077,
+    "frac_novel_from_rare": 0.5
+   },
+   "medial": {
+    "P": 0.1392820512820513,
+    "n1": 27.16,
+    "V": 51.64,
+    "share": 0.4300189993666878,
+    "content_novel_rate": 0.8974358974358975,
+    "novel_rare_sign": 0.676923076923077,
+    "novel_common_combo": 0.2205128205128205,
+    "frac_novel_from_rare": 0.7542857142857143
+   },
+   "top": "medial",
+   "ratio_top_second": 1.1316666666666666,
+   "ratio_max_min": 2.263333333333333,
+   "N": 195
+  }
+ },
+ "t2_ur3_labelled": {
+  "OWNER": {
+   "N": 300,
+   "P": 0.21666666666666667,
+   "content_novel": 0.6266666666666667,
+   "frac_rare": 0.7127659574468085,
+   "n_legends": 5155
+  },
+  "TITLE": {
+   "N": 300,
+   "P": 0.17666666666666667,
+   "content_novel": 0.37333333333333335,
+   "frac_rare": 0.9375,
+   "n_legends": 3784
+  },
+  "KIN": {
+   "N": 300,
+   "P": 0.0033333333333333335,
+   "content_novel": 0.0,
+   "frac_rare": 0.0,
+   "n_legends": 4234
+  },
+  "FATHER": {
+   "N": 300,
+   "P": 0.22,
+   "content_novel": 0.5766666666666667,
+   "frac_rare": 0.6820809248554913,
+   "n_legends": 4227
+  },
+  "SERV": {
+   "N": 300,
+   "P": 0.006666666666666667,
+   "content_novel": 0.013333333333333334,
+   "frac_rare": 0.25,
+   "n_legends": 947
+  },
+  "LORD": {
+   "N": 300,
+   "P": 0.06666666666666667,
+   "content_novel": 0.11666666666666667,
+   "frac_rare": 0.6857142857142857,
+   "n_legends": 758
+  },
+  "EPITHET": {
+   "N": 300,
+   "P": 0.023333333333333334,
+   "content_novel": 0.09666666666666666,
+   "frac_rare": 0.7931034482758621,
+   "n_legends": 489
+  }
+ }
+}

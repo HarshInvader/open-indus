@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City plan · Open Indus</title>
+<meta name="description" content="Design direction C: structure from the Mohenjo-daro grid, drawn in brick.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<script>
+(function () {
+  var t = null;
+  try { t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('oi-explore-theme'); } catch (e) {}
+  if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+<style>
+:root {
+  --ground: #eeede8;       /* lime plaster, cool not cream */
+  --ground-2: #e4e2db;
+  --ink: #1b1d1b;
+  --ink-2: #4a4d49;        /* 7.9:1 */
+  --ink-3: #5c5f5a;        /* 5.9:1 */
+  --line: #2a2c29;
+  --hair: rgba(27,29,27,.16);
+  --brick: #b4593a;        /* baked brick */
+  --brick-2: #c96a47;
+  --carnelian: #c2401f;    /* 4.6:1 on ground for text */
+  --carn-ink: #fff6ef;
+  --top: #f6f5f1; --left: #e1ded5; --right: #d2cec3; --floor: #c9c3b6; --water: #b8c6c4;
+  --shadow: rgba(30,28,24,.28);
+  --mortar: #eeede8;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #151714; --ground-2: #1c1f1b; --ink: #ecebe5; --ink-2: #bfc0b9; --ink-3: #a5a69f;
+    --line: #d9d8d0; --hair: rgba(236,235,229,.14); --brick: #c46a49; --brick-2: #d47b58; --carnelian: #f07a52; --carn-ink: #1a0d08;
+    --top: #2a2d29; --left: #23261f; --right: #1d201b; --floor: #10120f; --water: #2c4446; --shadow: rgba(0,0,0,.6); --mortar: #151714;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #151714; --ground-2: #1c1f1b; --ink: #ecebe5; --ink-2: #bfc0b9; --ink-3: #a5a69f;
+  --line: #d9d8d0; --hair: rgba(236,235,229,.14); --brick: #c46a49; --brick-2: #d47b58; --carnelian: #f07a52; --carn-ink: #1a0d08;
+  --top: #2a2d29; --left: #23261f; --right: #1d201b; --floor: #10120f; --water: #2c4446; --shadow: rgba(0,0,0,.6); --mortar: #151714;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 400 17px/1.6 "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif; overflow-x: hidden; }
+a { color: inherit; }
+img { display: block; max-width: 100%; }
+.wrap { width: min(1280px, 100% - 32px); margin-inline: auto; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+:focus-visible { outline: 2px solid var(--carnelian); outline-offset: 3px; }
+
+/* header sits on the street grid: a hairline street edge and a drain line */
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; height: 76px; border-bottom: 1px solid var(--hair); }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.brand svg.mark { width: 28px; height: 28px; color: var(--carnelian); }
+.brand svg.word { height: 19px; width: auto; }
+nav.main { display: flex; gap: 2px; }
+nav.main a { text-decoration: none; font-weight: 600; font-size: 15px; padding: 8px 12px; color: var(--ink-2); transition: color .15s ease; }
+nav.main a[aria-current] { color: var(--ink); background-image: linear-gradient(var(--brick), var(--brick)); background-size: 100% 3px; background-position: 0 100%; background-repeat: no-repeat; }
+@media (hover: hover) and (pointer: fine) { nav.main a:hover { color: var(--ink); } }
+.theme { font: inherit; font-weight: 600; font-size: 14px; color: var(--ink-2); background: transparent; border: 1px solid var(--hair); padding: 7px 14px; cursor: pointer; }
+@media (max-width: 860px) { nav.main a:not([aria-current]) { display: none; } }
+
+/* hero */
+.hero { padding: 56px 0 24px; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 24px; align-items: start; }
+.kicker { margin: 0 0 22px; font-weight: 700; font-size: 15px; color: var(--carnelian); display: flex; align-items: center; gap: 10px; }
+.kicker i { width: 22px; height: 8px; border-radius: 4px; background: var(--carnelian); display: inline-block; position: relative; }
+.kicker i::after { content: ""; position: absolute; inset: 2px 5px; border: 1px solid var(--carn-ink); border-radius: 3px; opacity: .8; }
+h1 { margin: 0; font-weight: 800; font-size: clamp(50px, 6.4vw, 96px); line-height: .95; letter-spacing: -.04em; text-wrap: balance; }
+h1 .y { color: var(--carnelian); }
+.lede { font-size: clamp(20px, 1.9vw, 23px); line-height: 1.4; margin: 26px 0 0; max-width: 30ch; font-weight: 500; }
+.def { margin: 16px 0 0; color: var(--ink-2); max-width: 52ch; }
+.def b { color: var(--ink); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+.btn { font: inherit; font-weight: 700; font-size: 16px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border: 0; cursor: pointer; transition: transform .16s cubic-bezier(.23,1,.32,1); }
+.btn:active { transform: scale(.97); }
+/* primary: a carnelian bar with an etched white line, like an etched bead */
+.btn.primary { background: var(--carnelian); color: var(--carn-ink); border-radius: 999px; position: relative; padding-left: 46px; }
+.btn.primary::before { content: ""; position: absolute; left: 16px; top: 50%; width: 18px; height: 10px; margin-top: -5px; border: 1.5px solid var(--carn-ink); border-radius: 50%; }
+.btn.primary::after { content: ""; position: absolute; left: 23px; top: 50%; width: 4px; height: 4px; margin-top: -2px; border-radius: 50%; background: var(--carn-ink); }
+.btn.line { color: var(--ink); box-shadow: inset 0 0 0 1.5px var(--line); border-radius: 999px; }
+
+.city { position: relative; margin-right: -40px; }
+.city svg { width: 100%; height: auto; display: block; overflow: visible; }
+.city .slot-note { position: absolute; right: 40px; bottom: 0; font-size: 13px; color: var(--ink-3); display: flex; gap: 8px; align-items: center; margin: 0; }
+.city .slot-note::before { content: ""; width: 14px; height: 14px; border: 1.5px dashed currentColor; border-radius: 3px; }
+.legend-plan { position: absolute; left: 4%; top: 2%; font-size: 13px; color: var(--ink-3); display: grid; gap: 4px; margin: 0; }
+.legend-plan span { display: flex; align-items: center; gap: 8px; }
+.legend-plan i { width: 18px; height: 2px; background: var(--line); display: inline-block; }
+.legend-plan i.d { height: 6px; background: repeating-linear-gradient(90deg, var(--brick) 0 5px, transparent 5px 7px); }
+.legend-plan i.w { height: 8px; background: var(--water); }
+
+/* ladder: steps in English bond masonry, drawn to the same brick */
+.ladder-sec { padding: 40px 0 24px; }
+.claim { font-weight: 700; font-size: 19px; margin: 0 0 18px; }
+.ladder { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); align-items: end; gap: 0; }
+.ladder li { display: flex; flex-direction: column; justify-content: flex-end; min-width: 0; }
+.ladder .lbl { padding: 0 12px 10px 0; }
+.ladder b { display: block; font-weight: 750; font-size: 19px; line-height: 1.15; }
+.ladder span { font-size: 15px; color: var(--ink-2); }
+.ladder .st { display: block; font-size: 13px; font-weight: 700; color: var(--ink-3); margin-top: 2px; }
+.ladder .done .st { color: var(--carnelian); }
+.wall { height: calc(28px + var(--i) * 28px); position: relative; border: 1.5px solid var(--line); border-bottom-width: 2px; margin-left: -1.5px; }
+.ladder li:first-child .wall { margin-left: 0; }
+.wall { --joint: rgba(27,29,27,.3); }
+:root[data-theme="dark"] .wall { --joint: rgba(236,235,229,.26); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .wall { --joint: rgba(236,235,229,.26); } }
+.part .wall { --joint: rgba(27,29,27,.3); }
+.wall svg { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+@media (max-width: 700px) {
+  .ladder b { font-size: 15px; } .ladder span { display: none; } .ladder .lbl { padding-right: 6px; } .ladder .st { font-size: 12px; }
+}
+
+/* divider: a street in plan, brick paving in herringbone with a covered drain down the middle */
+.street { height: 56px; margin: 48px 0 0; position: relative; border-top: 1.5px solid var(--line); border-bottom: 1.5px solid var(--line); overflow: hidden; }
+.street svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+section.block { padding: 64px 0 32px; }
+.head { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 9fr); gap: 24px; }
+.rail { margin: 6px 0 0; font-weight: 700; font-size: 15px; color: var(--ink-3); display: flex; align-items: center; gap: 12px; }
+/* section numbers as cubical chert weights; sizes double like the real series */
+.rail .wt { display: inline-grid; place-items: center; width: 34px; height: 34px; background: var(--top); color: var(--ink); font-weight: 800; font-size: 14px; position: relative;
+  box-shadow: 0 0 0 1.5px var(--line), 5px 5px 0 -1px var(--right), 5px 5px 0 .5px var(--line); }
+h2 { margin: 0; font-weight: 800; font-size: clamp(34px, 4.4vw, 60px); line-height: 1; letter-spacing: -.035em; text-wrap: balance; }
+.intro { margin: 16px 0 0; color: var(--ink-2); max-width: 58ch; font-size: 18px; }
+.grid2 { display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 56px; margin-top: 44px; align-items: start; }
+@media (max-width: 900px) { .grid2, .head, .hero-grid { grid-template-columns: 1fr; } .grid2 { gap: 40px; } .head { gap: 12px; } }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 20px; font-size: 14px; color: var(--ink-2); margin-bottom: 26px; align-items: center; }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.key { width: 28px; height: 12px; display: inline-block; }
+.key.obs { background: var(--brick); }
+.key.chance { box-shadow: inset 0 0 0 1.5px var(--brick); }
+.pair { margin-bottom: 26px; }
+.pl { font-weight: 700; margin: 0 0 8px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.sig { width: 26px; height: 26px; }
+:root[data-theme="dark"] .sig { filter: invert(.92); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sig { filter: invert(.92); } }
+.bar { display: grid; grid-template-columns: 70px minmax(0, 1fr) 72px; gap: 12px; align-items: center; font-size: 14px; color: var(--ink-2); margin-top: 3px; }
+.bar .bv { text-align: right; font-weight: 700; color: var(--ink); }
+/* a course of bricks; each brick is 5 points, so the bar stays to scale from zero */
+.track { height: 16px; position: relative; background: repeating-linear-gradient(90deg, var(--hair) 0 1px, transparent 1px 10%) ; }
+.fill { position: absolute; left: 0; top: 0; bottom: 0; width: calc(var(--v) * 1%); overflow: hidden; }
+.fill::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: calc(100% * 100 / var(--v));
+  background: repeating-linear-gradient(90deg, var(--b, var(--brick)) 0 calc(5% - 2px), transparent calc(5% - 2px) 5%); }
+.fill.chance::before { background: repeating-linear-gradient(90deg, transparent 0 calc(5% - 2px), transparent calc(5% - 2px) 5%); }
+.fill.chance { box-shadow: none; }
+.fill.chance::after { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: calc(100% * 100 / var(--v));
+  background: repeating-linear-gradient(90deg, var(--brick) 0 1.5px, transparent 1.5px calc(5% - 3.5px), var(--brick) calc(5% - 3.5px) calc(5% - 2px), transparent calc(5% - 2px) 5%);
+  border-top: 1.5px solid var(--brick); border-bottom: 1.5px solid var(--brick); }
+.fill.chance { clip-path: inset(0 0 0 0); }
+.fill.chance { border-right: 1.5px solid var(--brick); }
+.axis { display: grid; grid-template-columns: 70px minmax(0,1fr) 72px; gap: 12px; font-size: 13px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.axis div { display: flex; justify-content: space-between; }
+
+/* the plate drawn as a measured find: dimension lines, like an excavation sheet */
+.find { margin: 0; display: grid; grid-template-columns: 28px minmax(0, 1fr); grid-template-rows: auto 28px auto; gap: 0 10px; }
+.find img { grid-column: 2; grid-row: 1; width: 100%; height: auto; box-shadow: 0 1px 0 var(--hair), 0 24px 40px -24px var(--shadow); }
+.dim { position: relative; color: var(--ink-3); font-size: 13px; font-weight: 600; }
+.dim.v { grid-column: 1; grid-row: 1; border-left: 1px solid var(--ink-3); margin-left: 13px; }
+.dim.v::before, .dim.v::after, .dim.h::before, .dim.h::after { content: ""; position: absolute; background: var(--ink-3); }
+.dim.v::before { top: 0; left: -6px; width: 11px; height: 1px; } .dim.v::after { bottom: 0; left: -6px; width: 11px; height: 1px; }
+.dim.v span { position: absolute; top: 50%; left: -14px; transform: translateY(-50%) rotate(-90deg); background: var(--ground); padding: 0 4px; white-space: nowrap; transform-origin: center; }
+.dim.h { grid-column: 2; grid-row: 2; border-top: 1px solid var(--ink-3); margin-top: 14px; }
+.dim.h::before { left: 0; top: -6px; width: 1px; height: 11px; } .dim.h::after { right: 0; top: -6px; width: 1px; height: 11px; }
+.dim.h span { position: absolute; left: 50%; top: -11px; transform: translateX(-50%); background: var(--ground); padding: 0 6px; }
+.find figcaption { grid-column: 2; grid-row: 3; margin-top: 8px; font-size: 14px; color: var(--ink-2); }
+.find figcaption b { display: block; color: var(--ink); }
+
+/* parts */
+.kit { padding: 56px 0 100px; }
+.kit h3 { font-size: 15px; font-weight: 700; color: var(--ink-3); margin: 0 0 14px; }
+.kit-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 44px 32px; margin-top: 32px; }
+.kit-grid > div { min-width: 0; }
+.k-div { grid-column: 1 / -1; } .k-list { grid-column: span 5; } .k-btn { grid-column: span 3; } .k-card { grid-column: span 4; }
+@media (max-width: 900px) { .k-list, .k-btn, .k-card { grid-column: 1 / -1; } }
+/* a string of beads: long barrel carnelian beads with white etched bands, on one thread */
+ol.beads { list-style: none; margin: 0; padding: 0; position: relative; display: grid; gap: 18px; }
+ol.beads::before { content: ""; position: absolute; left: 8px; top: 6px; bottom: 6px; width: 1.5px; background: var(--ink-3); }
+ol.beads li { position: relative; padding-left: 36px; }
+ol.beads li::before { content: ""; position: absolute; left: 1px; top: 2px; width: 16px; height: 30px; border-radius: 8px / 9px;
+  background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.45), transparent 40%), var(--carnelian); }
+ol.beads li::after { content: ""; position: absolute; left: 4px; top: 10px; width: 10px; height: 14px; border-top: 1.5px solid #fff3ea; border-bottom: 1.5px solid #fff3ea; opacity: .9; }
+ol.beads li:nth-child(2)::before { background: radial-gradient(circle at 35% 30%, rgba(255,255,255,.4), transparent 40%), #2c4d9a; }
+ol.beads b { display: block; }
+ol.beads span { color: var(--ink-2); font-size: 15px; }
+.plan-card { background: var(--top); position: relative; padding: 22px 22px 24px; box-shadow: 0 0 0 1.5px var(--line), 8px 8px 0 -1.5px var(--ground), 8px 8px 0 0 var(--line); margin-right: 8px; }
+.plan-card .course { height: 14px; margin: -22px -22px 18px; border-bottom: 1.5px solid var(--line);
+  background: repeating-linear-gradient(90deg, var(--brick) 0 26px, transparent 26px 28px); }
+.plan-card .id { font-weight: 800; color: var(--carnelian); font-size: 14px; }
+.plan-card h4 { margin: 6px 0 8px; font-size: 22px; line-height: 1.15; font-weight: 750; letter-spacing: -.015em; }
+.plan-card p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.plan-card .who { margin-top: 14px; color: var(--ink); font-weight: 700; font-size: 14px; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise .8s cubic-bezier(.23,1,.32,1) both; animation-delay: calc(var(--k, 0) * 70ms); }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+  .city svg .blk { animation: build .9s cubic-bezier(.23,1,.32,1) both; animation-delay: calc(200ms + var(--d) * 22ms); }
+  @keyframes build { from { opacity: 0; transform: translateY(-14px); } }
+}
+@media (max-width: 900px) {
+  .city { margin: 8px -16px 0; }
+  .city .slot-note { right: 16px; }
+  .legend-plan { display: none; }
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Open Indus, home">
+      <svg class="mark" viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></svg>
+      <svg class="word" id="wm" viewBox="-17.2 -31.2 629.5 162.5" fill="none" stroke="currentColor" stroke-width="10.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg>
+    </a>
+    <nav class="main" aria-label="Main"><a href="#" aria-current="page">Overview</a><a href="#">Findings</a><a href="#">Tracker</a><a href="#">Contribute</a><a href="#">GitHub</a></nav>
+    <button class="theme" id="theme" type="button">Theme</button>
+  </div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker rise" style="--k:0"><i aria-hidden="true"></i>Open Indus · an open research group</p>
+      <h1 id="h1" class="rise" style="--k:1">Decipher the Indus script <span class="y">by 2027.</span></h1>
+      <p class="lede rise" style="--k:2">Today we know how the script is built, not yet what it says. No sign has a proven sound or meaning.</p>
+      <p class="def rise" style="--k:3"><b>Deciphered</b> means: sound values for at least 10 signs that beat chance on our public test bench and survive an independent red team. Our honest odds of getting there by 2027 are under 1 in 10. Every idea is tested in public, on texts it has never seen, and what fails is published too.</p>
+      <div class="actions rise" style="--k:4"><a class="btn primary" href="#">Help decipher it</a><a class="btn line" href="#">Read the findings</a></div>
+    </div>
+    <div class="city" aria-hidden="true">
+      <!-- RENDER SLOT: replace this svg with a rendered isometric city block (transparent PNG, 1600×1200, same camera). -->
+      <svg id="city" data-slot="hero-object" viewBox="0 0 900 700"></svg>
+      <p class="legend-plan"><span><i></i>Baked-brick walls</span><span><i class="d"></i>Covered drain</span><span><i class="w"></i>Great Bath</span></p>
+      <p class="slot-note">Coded object · slot for a rendered image</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap ladder-sec">
+  <figure style="margin:0">
+    <figcaption class="claim">A step and a half up a five-step ladder. The goal is the top step.</figcaption>
+    <ol class="ladder" aria-label="Five kinds of claim, weakest first. Structure: done. Sign roles: partly done. Topic, meaning and sound: open.">
+      <li class="done" style="--i:0"><div class="lbl"><b>Structure</b><span>order, slots</span><em class="st" style="font-style:normal">Done</em></div><div class="wall" style="--i:0"></div></li>
+      <li class="part" style="--i:1"><div class="lbl"><b>Sign roles</b><span>openers, closers</span><em class="st" style="font-style:normal">Partly done</em></div><div class="wall" style="--i:1"></div></li>
+      <li style="--i:2"><div class="lbl"><b>Topic</b><span>what a sign is about</span><em class="st" style="font-style:normal">Open</em></div><div class="wall" style="--i:2"></div></li>
+      <li style="--i:3"><div class="lbl"><b>Meaning</b><span>one sign, one thing</span><em class="st" style="font-style:normal">Open</em></div><div class="wall" style="--i:3"></div></li>
+      <li style="--i:4"><div class="lbl"><b>Sound</b><span>a reading</span><em class="st" style="font-style:normal">Open</em></div><div class="wall" style="--i:4"></div></li>
+    </ol>
+  </figure>
+  <div class="street" aria-hidden="true"><svg class="street-svg" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1280 56"></svg></div>
+</div>
+
+<section class="block" aria-labelledby="h-know">
+  <div class="wrap">
+    <div class="head">
+      <p class="rail"><span class="wt">02</span>Findings</p>
+      <div><h2 id="h-know">Four patterns hold far above chance</h2>
+      <p class="intro">Each was found on one part of the texts, then confirmed on texts held back, then attacked by a second agent.</p></div>
+    </div>
+    <div class="grid2">
+      <div role="group" aria-label="Observed rate compared with the rate expected by chance, 0 to 100 percent">
+        <div class="legend"><span><i class="key obs"></i>Observed</span><span><i class="key chance"></i>Expected by chance</span><span>Each brick is 5 points</span></div>
+        <div class="pair"><p class="pl">Sign order picked out on unseen texts</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:40"></span></span><span class="bv">40%</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:5.7"></span></span><span class="bv">5.7%</span></div></div>
+        <div class="pair"><p class="pl">Fish with ticks <img class="sig" src="signs/M59.png" alt="sign M59, fish"> → <img class="sig" src="signs/M60.png" alt="sign M60, fish with four ticks"> closes the text</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:54.8"></span></span><span class="bv">40 of 73</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:26"></span></span><span class="bv">26%</span></div></div>
+        <div class="pair"><p class="pl">Six <img class="sig" src="signs/M109.png" alt="sign M109, six strokes"> is followed by fish <img class="sig" src="signs/M59.png" alt="sign M59, fish"></p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:70"></span></span><span class="bv">7 of 10</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:3"></span></span><span class="bv">3%</span></div></div>
+        <div class="pair"><p class="pl">Seals found abroad break the order</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:23.7"></span></span><span class="bv">9 of 38</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:5"></span></span><span class="bv">5%</span></div></div>
+        <div class="axis" aria-hidden="true"><span></span><div><span>0</span><span>50%</span><span>100%</span></div><span></span></div>
+      </div>
+      <figure class="find">
+        <img src="../assets/img/eh_3.jpg" width="861" height="900" alt="Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough">
+        <div class="dim v" aria-hidden="true"><span>56 mm</span></div>
+        <div class="dim h" aria-hidden="true"><span>56 mm</span></div>
+        <figcaption><b>Pl. 1 · Harappa</b>Seal. Vats, Excavations at Harappa (1940), seal no. 3.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="kit" aria-labelledby="h-kit">
+  <div class="wrap">
+    <div class="head"><p class="rail"><span class="wt">C</span>Parts</p><div><h2 id="h-kit" style="font-size:clamp(28px,3vw,42px)">The same parts, laid in brick</h2></div></div>
+    <div class="kit-grid">
+      <div class="k-div"><h3>Section divider</h3><div class="street" style="margin:0" aria-hidden="true"><svg class="street-svg" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1280 56"></svg></div></div>
+      <div class="k-list"><h3>List</h3>
+        <ol class="beads">
+          <li><b>Write it down and seal it.</b><span>The prediction, the test and the pass mark go in a file whose fingerprint is logged before any result is seen.</span></li>
+          <li><b>Test it on texts it never saw.</b><span>A quarter of the texts are held back.</span></li>
+          <li><b>Let someone else try to break it.</b><span>Every positive result goes to a red team that did not produce it.</span></li>
+        </ol>
+      </div>
+      <div class="k-btn"><h3>Buttons</h3><div style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn primary" href="#">Help decipher it</a><a class="btn line" href="#">Read the findings</a></div></div>
+      <div class="k-card"><h3>Card</h3>
+        <article class="plan-card"><div class="course" aria-hidden="true"></div><span class="id">S1</span><h4>Confirm the shape of five ‘round’ seals</h4><p>The round-seal finding rests on 8 seals from the Indus region. Only 3 are confirmed round in a printed excavation report.</p><p class="who">Specialists · Anyone careful</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+(function () {
+  // wordmark: subtle study (wordmarks/open-indus-subtle-wordonly.svg)
+  var g = [
+    [0, 'M31 0C7 14 2 40 2 50C2 60 7 86 31 100C55 86 60 60 60 50C60 40 55 14 31 0Z'],
+    [83, 'M0 100V0H22C40 0 46 12 46 26C46 40 40 52 22 52H0'],
+    [150, 'M42 0H0V100H42M0 50H34'],
+    [213, 'M0 100V0L50 100V0'],
+    [313, 'M0 0V100'],
+    [334, 'M0 100V0L50 100V0'],
+    [405, 'M0 0V100H8C38 92 52 70 52 50C52 30 38 8 8 0H0'],
+    [478, 'M0 0V58C0 84 12 100 25 100C38 100 50 84 50 58V0M0 0H-7M50 0H57'],
+    [549, 'M45 14C40 5 32 0 23 0C10 0 2 8 2 23C2 52 46 44 46 74C46 91 36 100 22 100C12 100 4 95 0 86']
+  ];
+  document.getElementById('wm').innerHTML = g.map(function (x) { return '<path transform="translate(' + x[0] + ' 0)" d="' + x[1] + '"/>'; }).join('');
+
+  // ---------------------------------------------------------------- the city, in isometric
+  var S = 12, OX = 400, OY = 104;
+  function P(x, y, z) { return [(x - y) * 0.866 * S + OX, (x + y) * 0.5 * S - z * S + OY]; }
+  function pt(p) { return p[0].toFixed(1) + ' ' + p[1].toFixed(1); }
+  function poly(ps, cls) { return '<path class="' + cls + '" d="M' + ps.map(pt).join('L') + 'Z"/>'; }
+  var COURSE = 0.5; // one brick course; bricks are 1 : 2 : 4 (course : header : stretcher)
+  // English bond joints on a vertical face running along one axis
+  function joints(axis, a0, a1, fixed, z0, z1) {
+    var d = '';
+    for (var z = z0 + COURSE, k = 0; z < z1 - 0.01; z += COURSE, k++) {
+      var p = axis === 'x' ? [P(a0, fixed, z), P(a1, fixed, z)] : [P(fixed, a0, z), P(fixed, a1, z)];
+      d += 'M' + pt(p[0]) + 'L' + pt(p[1]);
+    }
+    for (var c = 0, zz = z0; zz < z1 - 0.01; zz += COURSE, c++) {
+      var step = c % 2 ? 1 : 2, off = c % 2 ? 0.5 : (c % 4 === 0 ? 0 : 1);
+      for (var a = a0 + step - off; a < a1 - 0.2; a += step) {
+        if (a <= a0 + 0.2) continue;
+        var q = axis === 'x' ? [P(a, fixed, zz), P(a, fixed, Math.min(zz + COURSE, z1))] : [P(fixed, a, zz), P(fixed, a, Math.min(zz + COURSE, z1))];
+        d += 'M' + pt(q[0]) + 'L' + pt(q[1]);
+      }
+    }
+    return '<path class="j" d="' + d + '"/>';
+  }
+  function box(x0, y0, x1, y1, z0, z1, opt) {
+    opt = opt || {};
+    var s = '';
+    s += poly([P(x1, y0, z0), P(x1, y1, z0), P(x1, y1, z1), P(x1, y0, z1)], 'fr ' + (opt.cls || '')); // face toward +x
+    s += poly([P(x0, y1, z0), P(x1, y1, z0), P(x1, y1, z1), P(x0, y1, z1)], 'fl ' + (opt.cls || '')); // face toward +y
+    if (!opt.nojoint) { s += joints('y', y0, y1, x1, z0, z1); s += joints('x', x0, x1, y1, z0, z1); }
+    s += poly([P(x0, y0, z1), P(x1, y0, z1), P(x1, y1, z1), P(x0, y1, z1)], 'tp ' + (opt.cls || ''));
+    return s;
+  }
+  // a house: walls round an open courtyard, the inner faces seen over the far walls
+  var cid = 0;
+  function house(x0, y0, x1, y1, h, court) {
+    var s = box(x0, y0, x1, y1, 0, h);
+    if (court) {
+      var c = court, id = 'c' + (cid++);
+      var open = [P(c[0], c[1], h), P(c[2], c[1], h), P(c[2], c[3], h), P(c[0], c[3], h)];
+      s += '<clipPath id="' + id + '"><path d="M' + open.map(pt).join('L') + 'Z"/></clipPath><g clip-path="url(#' + id + ')">';
+      s += poly([P(c[0], c[1], 0), P(c[2], c[1], 0), P(c[2], c[3], 0), P(c[0], c[3], 0)], 'fl2');
+      s += poly([P(c[0], c[1], 0), P(c[0], c[3], 0), P(c[0], c[3], h), P(c[0], c[1], h)], 'fr');
+      s += poly([P(c[0], c[1], 0), P(c[2], c[1], 0), P(c[2], c[1], h), P(c[0], c[1], h)], 'fl');
+      s += joints('y', c[1], c[3], c[0], 0, h) + joints('x', c[0], c[2], c[1], 0, h);
+      s += '</g>';
+      s += '<path class="edge" d="M' + open.map(pt).join('L') + 'Z"/>';
+    }
+    return s;
+  }
+  function drain(x0, y0, x1, y1) { // a brick channel with cover slabs
+    var s = poly([P(x0, y0, 0.02), P(x1, y0, 0.02), P(x1, y1, 0.02), P(x0, y1, 0.02)], 'drain');
+    var along = (x1 - x0) > (y1 - y0);
+    var len = along ? x1 - x0 : y1 - y0;
+    for (var a = 0.4; a < len - 0.6; a += 1.6) {
+      var r = along ? [x0 + a, y0 - 0.15, x0 + a + 1.1, y1 + 0.15] : [x0 - 0.15, y0 + a, x1 + 0.15, y0 + a + 1.1];
+      s += poly([P(r[0], r[1], 0.12), P(r[2], r[1], 0.12), P(r[2], r[3], 0.12), P(r[0], r[3], 0.12)], 'slab');
+    }
+    return s;
+  }
+  var out = '<defs><filter id="soft" x="-20%" y="-20%" width="140%" height="160%"><feGaussianBlur stdDeviation="16"/></filter></defs>';
+  // soft contact shadow under the platform
+  var sh = [P(-1, -1, -3.6), P(49, -1, -3.6), P(49, 37, -3.6), P(-1, 37, -3.6)].map(function (p) { return [p[0] + 14, p[1] + 22]; });
+  out += '<path class="shadow" filter="url(#soft)" d="M' + sh.map(pt).join('L') + 'Z"/>';
+  // the mud-brick platform the city stands on
+  out += '<g class="blk" style="--d:0">' + box(0, 0, 48, 36, -3, 0, { cls: 'plat' }) + '</g>';
+  // streets: paving lines, then drains down the middle
+  var streets = [[0, 10.4, 48, 12.6], [0, 22.4, 48, 24.6], [13.4, 0, 15.6, 36], [28.4, 0, 30.6, 36]];
+  streets.forEach(function (r) { out += poly([P(r[0], r[1], 0.01), P(r[2], r[1], 0.01), P(r[2], r[3], 0.01), P(r[0], r[3], 0.01)], 'street'); });
+  out += drain(0, 11.2, 48, 11.8) + drain(14.2, 0, 14.8, 36) + drain(29.2, 0, 29.8, 36) + drain(0, 23.2, 48, 23.8);
+
+  // houses, back to front; heights in courses so each wall is whole bricks
+  var items = [];
+  function H(x0, y0, x1, y1, h, court) { items.push({ k: x0 + y0, f: function () { return house(x0, y0, x1, y1, h, court); } }); }
+  H(1, 1, 7, 9.6, 3, [2, 2, 6, 6]); H(8, 1, 12.6, 9.6, 2.5, [9, 4, 11.6, 8.6]);
+  H(16.4, 1, 22, 9.6, 3.5, [17.4, 2, 21, 5.6]); H(23, 1, 27.6, 5, 2.5); H(23, 6, 27.6, 9.6, 2);
+  H(31.4, 1, 39, 9.6, 3, [32.4, 2, 38, 6]); H(40, 1, 47, 9.6, 2.5, [41, 2, 46, 5]);
+  H(1, 13.4, 6, 21.6, 2.5, [2, 14.4, 5, 18]); H(7, 13.4, 12.6, 21.6, 3, [8, 14.4, 11.6, 17.4]);
+  H(16.4, 13.4, 27.6, 21.6, 3.5, [17.4, 14.4, 26.6, 20.6]);
+  H(1, 25.4, 12.6, 35, 3, [2, 26.4, 11.6, 30]);
+  H(16.4, 25.4, 21.6, 35, 2.5, [17.4, 26.4, 20.6, 30]); H(22.4, 25.4, 27.6, 35, 3);
+  H(31.4, 25.4, 39, 35, 2.5, [32.4, 26.4, 38, 30.4]); H(40, 25.4, 47, 35, 3.5, [41, 26.4, 46, 29.4]);
+  // the Great Bath: an enclosure round a sunken pool with steps at both ends
+  items.push({ k: 31.4 + 13.4, f: function () {
+    var s = house(31.4, 13.4, 47, 21.6, 2, [32.6, 14.6, 45.8, 20.4]);
+    var x0 = 35, y0 = 15.8, x1 = 43.4, y1 = 19.2, dz = -1.5;
+    var rim = [P(x0, y0, 0), P(x1, y0, 0), P(x1, y1, 0), P(x0, y1, 0)];
+    s += '<clipPath id="pool"><path d="M' + rim.map(pt).join('L') + 'Z"/></clipPath><g clip-path="url(#pool)">';
+    s += poly([P(x0, y0, dz), P(x1, y0, dz), P(x1, y1, dz), P(x0, y1, dz)], 'water');
+    s += poly([P(x0, y0, dz), P(x0, y1, dz), P(x0, y1, 0), P(x0, y0, 0)], 'fr bath');
+    s += poly([P(x0, y0, dz), P(x1, y0, dz), P(x1, y0, 0), P(x0, y0, 0)], 'fl bath');
+    s += joints('y', y0, y1, x0, dz, 0) + joints('x', x0, x1, y0, dz, 0);
+    for (var i = 0; i < 3; i++) { // steps down at the near end
+      var sx = x0 + 0.1, sz = -0.5 * (i + 1);
+      s += box(x0, y0 + 0.6, x0 + 1.6 - i * 0.5, y1 - 0.6, dz, sz, { cls: 'bath', nojoint: true });
+      s += box(x1 - 1.6 + i * 0.5, y0 + 0.6, x1, y1 - 0.6, dz, sz, { cls: 'bath', nojoint: true });
+    }
+    s += '</g><path class="edge bathline" d="M' + rim.map(pt).join('L') + 'Z"/>';
+    return s; } });
+  // a well in a courtyard: a ring of wedge bricks
+  items.push({ k: 3 + 26, f: function () {
+    var c = P(6.8, 32.2, 0), r = 1.1 * S, s = '';
+    s += '<ellipse class="tp" cx="' + c[0].toFixed(1) + '" cy="' + (c[1] - 0.9 * S).toFixed(1) + '" rx="' + (r * 1.22).toFixed(1) + '" ry="' + (r * 0.61).toFixed(1) + '"/>';
+    s += '<path class="fl" d="M' + (c[0] - r * 1.22).toFixed(1) + ' ' + (c[1] - 0.9 * S).toFixed(1) + 'V' + c[1].toFixed(1) + 'A' + (r * 1.22).toFixed(1) + ' ' + (r * .61).toFixed(1) + ' 0 0 0 ' + (c[0] + r * 1.22).toFixed(1) + ' ' + c[1].toFixed(1) + 'V' + (c[1] - 0.9 * S).toFixed(1) + 'A' + (r * 1.22).toFixed(1) + ' ' + (r * .61).toFixed(1) + ' 0 0 1 ' + (c[0] - r * 1.22).toFixed(1) + ' ' + (c[1] - 0.9 * S).toFixed(1) + 'Z"/>';
+    s += '<ellipse class="water" cx="' + c[0].toFixed(1) + '" cy="' + (c[1] - 0.9 * S).toFixed(1) + '" rx="' + (r * 0.8).toFixed(1) + '" ry="' + (r * 0.4).toFixed(1) + '"/>';
+    return s; } });
+  items.sort(function (a, b) { return a.k - b.k; });
+  items.forEach(function (it, i) { out += '<g class="blk" style="--d:' + (i + 1) + '">' + it.f() + '</g>'; });
+  var city = document.getElementById('city');
+  city.innerHTML = '<style>' +
+    '.tp{fill:var(--top);stroke:var(--line);stroke-width:1.1;stroke-linejoin:round}' +
+    '.fl{fill:var(--left);stroke:var(--line);stroke-width:1.1;stroke-linejoin:round}' +
+    '.fr{fill:var(--right);stroke:var(--line);stroke-width:1.1;stroke-linejoin:round}' +
+    '.fl2{fill:var(--floor);stroke:none}' +
+    '.edge{fill:none;stroke:var(--line);stroke-width:1.1}' +
+    '.j{fill:none;stroke:var(--line);stroke-width:.5;opacity:.38}' +
+    '.plat.fl,.plat.fr{fill:var(--brick)} .plat.tp{fill:var(--ground-2)} .plat ~ .j{opacity:.5}' +
+    '.street{fill:var(--ground);stroke:none}' +
+    '.drain{fill:var(--brick);stroke:none;opacity:.9}' +
+    '.slab{fill:var(--top);stroke:var(--line);stroke-width:.8}' +
+    '.water{fill:var(--water);stroke:var(--line);stroke-width:.8}' +
+    '.bath.fl,.bath.fr{fill:var(--brick-2)} .bath.tp{fill:var(--brick)} .bathline{stroke:var(--carnelian);stroke-width:2}' +
+    '.shadow{fill:var(--shadow)}' +
+    '.blk{transform-box:view-box}' +
+    '</style>' + out;
+  // platform joints should read as brick on the brick face
+  city.querySelectorAll('.blk[style="--d:0"] .j').forEach(function (p) { p.style.stroke = 'var(--mortar)'; p.style.opacity = '.8'; });
+
+  // street divider: herringbone paving with a covered drain down the middle
+  document.querySelectorAll('.street-svg').forEach(function (sv) {
+    var s = '<defs><pattern id="hb" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="16" height="16" fill="none"/>' +
+      '<path d="M0 0H8V4H0ZM8 4V12H12V4ZM0 8H8V12H0ZM12 12V16H16V12ZM8 12H16V16" fill="none" stroke="currentColor" stroke-width=".8" opacity=".5"/></pattern></defs>' +
+      '<rect width="1280" height="56" fill="url(#hb)" style="color:var(--ink-3)"/>' +
+      '<rect y="21" width="1280" height="14" fill="var(--ground)"/><rect y="24" width="1280" height="8" fill="var(--brick)"/>';
+    for (var x = 4; x < 1280; x += 34) s += '<rect x="' + x + '" y="20" width="28" height="16" fill="var(--top)" stroke="var(--line)" stroke-width="1.2"/>';
+    sv.innerHTML = s;
+  });
+
+  // ladder walls in English bond: a course of stretchers, then a course of headers
+  document.querySelectorAll('.wall').forEach(function (w, i) {
+    var li = w.parentNode, done = li.classList.contains('done'), part = li.classList.contains('part');
+    var fill = done ? 'var(--brick)' : 'none', joint = done ? 'var(--mortar)' : 'var(--joint)';
+    var s = '<svg aria-hidden="true"><defs><pattern id="eb' + i + '" width="28" height="14" patternUnits="userSpaceOnUse" y="0">' +
+      '<rect width="28" height="14" fill="' + fill + '"/>' +
+      '<path d="M0 6.5H28M0 13.5H28M27.5 0V7M6.5 7V14M20.5 7V14M13.5 7V14" stroke="' + joint + '" stroke-width="1"/></pattern></defs>' +
+      (part ? '<rect y="50%" width="100%" height="50%" fill="var(--brick)"/>' : '') +
+      '<rect width="100%" height="100%" fill="url(#eb' + i + ')"/></svg>';
+    w.innerHTML = s;
+  });
+
+  var btn = document.getElementById('theme'), root = document.documentElement;
+  function label() { var t = root.getAttribute('data-theme'); btn.textContent = t ? (t === 'dark' ? 'Dark' : 'Light') : 'Auto'; }
+  btn.addEventListener('click', function () {
+    var t = root.getAttribute('data-theme'), next = !t ? 'light' : t === 'light' ? 'dark' : null;
+    if (next) root.setAttribute('data-theme', next); else root.removeAttribute('data-theme');
+    try { next ? localStorage.setItem('oi-explore-theme', next) : localStorage.removeItem('oi-explore-theme'); } catch (e) {}
+    label();
+  });
+  label();
+})();
+</script>
+</body>
+</html>

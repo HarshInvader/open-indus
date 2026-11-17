@@ -1,0 +1,354 @@
+{
+ "scales": {
+  "len1": 0.22523254239347854,
+  "standalone": 0.043642403895005163,
+  "both_orders": 0.014675795282790218,
+  "hfi": 0.19842890010644493,
+  "pol_ex": 0.1735394486072628,
+  "both_pos": 0.17237384688480076
+ },
+ "nn": {
+  "old_english": {
+   "nearest": "plains",
+   "d": 0.795,
+   "family": "germanic",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 2,
+   "order": [
+    [
+     "plains",
+     0.8
+    ],
+    [
+     "old_norse",
+     0.92
+    ],
+    [
+     "old_high_german",
+     1.04
+    ],
+    [
+     "sangam",
+     1.19
+    ]
+   ]
+  },
+  "old_high_german": {
+   "nearest": "sanskrit",
+   "d": 0.921,
+   "family": "germanic",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 3,
+   "order": [
+    [
+     "sanskrit",
+     0.92
+    ],
+    [
+     "greek",
+     1.01
+    ],
+    [
+     "old_english",
+     1.04
+    ],
+    [
+     "old_norse",
+     1.08
+    ]
+   ]
+  },
+  "old_norse": {
+   "nearest": "sanskrit",
+   "d": 0.817,
+   "family": "germanic",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 3,
+   "order": [
+    [
+     "sanskrit",
+     0.82
+    ],
+    [
+     "greek",
+     0.86
+    ],
+    [
+     "old_english",
+     0.92
+    ],
+    [
+     "old_high_german",
+     1.08
+    ]
+   ]
+  },
+  "greek": {
+   "nearest": "sanskrit",
+   "d": 0.597,
+   "family": null,
+   "nearest_is_family": false,
+   "rank_of_first_relative": null,
+   "order": [
+    [
+     "sanskrit",
+     0.6
+    ],
+    [
+     "old_norse",
+     0.86
+    ],
+    [
+     "old_high_german",
+     1.01
+    ],
+    [
+     "plains",
+     1.16
+    ]
+   ]
+  },
+  "sanskrit": {
+   "nearest": "greek",
+   "d": 0.597,
+   "family": "south_asian",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 9,
+   "order": [
+    [
+     "greek",
+     0.6
+    ],
+    [
+     "plains",
+     0.78
+    ],
+    [
+     "old_norse",
+     0.82
+    ],
+    [
+     "old_high_german",
+     0.92
+    ]
+   ]
+  },
+  "egyptian": {
+   "nearest": "plains",
+   "d": 1.208,
+   "family": null,
+   "nearest_is_family": false,
+   "rank_of_first_relative": null,
+   "order": [
+    [
+     "plains",
+     1.21
+    ],
+    [
+     "old_norse",
+     1.26
+    ],
+    [
+     "old_high_german",
+     1.27
+    ],
+    [
+     "sanskrit",
+     1.37
+    ]
+   ]
+  },
+  "ur3": {
+   "nearest": "plains",
+   "d": 1.031,
+   "family": null,
+   "nearest_is_family": false,
+   "rank_of_first_relative": null,
+   "order": [
+    [
+     "plains",
+     1.03
+    ],
+    [
+     "old_english",
+     1.32
+    ],
+    [
+     "old_high_german",
+     1.46
+    ],
+    [
+     "chinese_full",
+     1.5
+    ]
+   ]
+  },
+  "chinese_given": {
+   "nearest": "sanskrit",
+   "d": 1.148,
+   "family": "chinese",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 6,
+   "order": [
+    [
+     "sanskrit",
+     1.15
+    ],
+    [
+     "old_high_german",
+     1.36
+    ],
+    [
+     "plains",
+     1.42
+    ],
+    [
+     "egyptian",
+     1.52
+    ]
+   ]
+  },
+  "chinese_full": {
+   "nearest": "plains",
+   "d": 0.868,
+   "family": "chinese",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 6,
+   "order": [
+    [
+     "plains",
+     0.87
+    ],
+    [
+     "sanskrit",
+     1.34
+    ],
+    [
+     "ur3",
+     1.5
+    ],
+    [
+     "sangam",
+     1.64
+    ]
+   ]
+  },
+  "plains": {
+   "nearest": "sanskrit",
+   "d": 0.78,
+   "family": null,
+   "nearest_is_family": false,
+   "rank_of_first_relative": null,
+   "order": [
+    [
+     "sanskrit",
+     0.78
+    ],
+    [
+     "old_english",
+     0.8
+    ],
+    [
+     "chinese_full",
+     0.87
+    ],
+    [
+     "ur3",
+     1.03
+    ]
+   ]
+  },
+  "sangam": {
+   "nearest": "plains",
+   "d": 1.106,
+   "family": "south_asian",
+   "nearest_is_family": false,
+   "rank_of_first_relative": 5,
+   "order": [
+    [
+     "plains",
+     1.11
+    ],
+    [
+     "old_english",
+     1.19
+    ],
+    [
+     "old_norse",
+     1.35
+    ],
+    [
+     "greek",
+     1.52
+    ]
+   ]
+  }
+ },
+ "matrix": {
+  "old_english|old_high_german": 1.04,
+  "old_english|old_norse": 0.918,
+  "greek|old_english": 1.321,
+  "old_english|sanskrit": 1.247,
+  "egyptian|old_english": 1.389,
+  "old_english|ur3": 1.32,
+  "chinese_given|old_english": 1.749,
+  "chinese_full|old_english": 1.878,
+  "old_english|plains": 0.795,
+  "old_english|sangam": 1.189,
+  "old_high_german|old_norse": 1.079,
+  "greek|old_high_german": 1.009,
+  "old_high_german|sanskrit": 0.921,
+  "egyptian|old_high_german": 1.274,
+  "old_high_german|ur3": 1.458,
+  "chinese_given|old_high_german": 1.364,
+  "chinese_full|old_high_german": 1.853,
+  "old_high_german|plains": 1.374,
+  "old_high_german|sangam": 2.063,
+  "greek|old_norse": 0.862,
+  "old_norse|sanskrit": 0.817,
+  "egyptian|old_norse": 1.257,
+  "old_norse|ur3": 1.667,
+  "chinese_given|old_norse": 1.852,
+  "chinese_full|old_norse": 1.976,
+  "old_norse|plains": 1.285,
+  "old_norse|sangam": 1.349,
+  "greek|sanskrit": 0.597,
+  "egyptian|greek": 1.757,
+  "greek|ur3": 1.903,
+  "chinese_given|greek": 1.645,
+  "chinese_full|greek": 1.668,
+  "greek|plains": 1.162,
+  "greek|sangam": 1.516,
+  "egyptian|sanskrit": 1.365,
+  "sanskrit|ur3": 1.608,
+  "chinese_given|sanskrit": 1.148,
+  "chinese_full|sanskrit": 1.336,
+  "plains|sanskrit": 0.78,
+  "sangam|sanskrit": 1.527,
+  "egyptian|ur3": 1.72,
+  "chinese_given|egyptian": 1.519,
+  "chinese_full|egyptian": 2.334,
+  "egyptian|plains": 1.208,
+  "egyptian|sangam": 2.123,
+  "chinese_given|ur3": 1.745,
+  "chinese_full|ur3": 1.504,
+  "plains|ur3": 1.031,
+  "sangam|ur3": 1.804,
+  "chinese_full|chinese_given": 1.682,
+  "chinese_given|plains": 1.42,
+  "chinese_given|sangam": 2.465,
+  "chinese_full|plains": 0.868,
+  "chinese_full|sangam": 1.639,
+  "plains|sangam": 1.106
+ },
+ "family_nn_hits": [
+  0,
+  7
+ ],
+ "nn_dist": {
+  "min": 0.597,
+  "median": 0.868,
+  "max": 1.208
+ },
+ "family_hit_chance": 0.14285714285714285
+}

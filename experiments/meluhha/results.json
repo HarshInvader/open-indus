@@ -1,0 +1,301 @@
+{
+ "name_shape": {
+  "meluhhan_extended": {
+   "n": 5,
+   "mean_signs": 3.0,
+   "len_dist": {
+    "3": 1.0
+   },
+   "adj_repeat_rate_len>=2": 0.2,
+   "init_redup_rate_len>=2": 0.2,
+   "mean_syllables": 2.8,
+   "syl_dist": {
+    "2": 0.2,
+    "3": 0.8
+   }
+  },
+  "meluhhan_secure": {
+   "n": 2,
+   "mean_signs": 3.0,
+   "len_dist": {
+    "3": 1.0
+   },
+   "adj_repeat_rate_len>=2": 0.5,
+   "init_redup_rate_len>=2": 0.5,
+   "mean_syllables": 2.5,
+   "syl_dist": {
+    "2": 0.5,
+    "3": 0.5
+   }
+  },
+  "ur3_names": {
+   "n": 3155,
+   "mean_signs": 3.2909667194928685,
+   "len_dist": {
+    "1": 0.0196513470681458,
+    "2": 0.18415213946117273,
+    "3": 0.4148969889064976,
+    "4": 0.27480190174326463,
+    "5": 0.08526148969889065,
+    "6": 0.01711568938193344,
+    "7": 0.0028526148969889066,
+    "8": 0.0012678288431061807
+   },
+   "adj_repeat_rate_len>=2": 0.08341416100872939,
+   "init_redup_rate_len>=2": 0.025864856126737796,
+   "mean_syllables": 3.3714738510301108,
+   "syl_dist": {
+    "1": 0.018066561014263075,
+    "2": 0.17812995245641838,
+    "3": 0.36164817749603806,
+    "4": 0.329635499207607,
+    "5": 0.08874801901743265,
+    "6": 0.018066561014263075,
+    "7": 0.0044374009508716325,
+    "8": 0.0009508716323296355,
+    "9": 0.0003169572107765452
+   }
+  },
+  "indus_cores": {
+   "n": 2522,
+   "mean_signs": 1.6994448850118953,
+   "len_dist": {
+    "1": 0.5527359238699445,
+    "2": 0.27478191911181604,
+    "3": 0.11379857256145916,
+    "4": 0.04401268834258525,
+    "5": 0.009912767644726407,
+    "6": 0.0031720856463124504,
+    "7": 0.0015860428231562252
+   },
+   "adj_repeat_rate_len>=2": 0.0851063829787234,
+   "init_redup_rate_len>=2": 0.051418439716312055
+  },
+  "1a_all_three_signs": {
+   "ur3_share_3signs": 0.4148969889064976,
+   "p_all5_3signs": 0.01229423229941773,
+   "p_both_secure_3signs": 0.17213951140367842
+  },
+  "1a_syll_2to3": {
+   "ur3_share": 0.5397781299524564,
+   "p_all5": 0.04582225120993853
+  },
+  "1a_redup": {
+   "ur3_init_redup_rate": 0.025864856126737796,
+   "p_at_least_1_of_5": 0.1228051801449509,
+   "p_at_least_1_of_2": 0.0510607214710187,
+   "ur3_examples": [
+    "a-a",
+    "a-a-ba-du",
+    "a-a-gi-na",
+    "a-a-gu-ni",
+    "a-a-iri-mu",
+    "a-a-kal-la",
+    "a-a-mu",
+    "a-a-tes-mu",
+    "a-a-zi-mu",
+    "ab-ab-du",
+    "ba-ba",
+    "ba-ba-a",
+    "ba-ba-da",
+    "ba-ba-ka-ka",
+    "ba-ba-ti",
+    "bar-bar",
+    "bi-bi",
+    "bi-bi-a",
+    "bi-bi-ti",
+    "da-da",
+    "da-da-a",
+    "da-da-ga",
+    "da-da-ha-ma-ti",
+    "da-da-kal-la",
+    "da-da-mu"
+   ]
+  },
+  "1a_posthoc_sibilant_a": {
+   "ur3_rate_3sign_names": 0.11764705882352941,
+   "observed": "4/5",
+   "p_ge4_of5": 0.0008676930141556793,
+   "note": "post hoc, chosen after looking; not counted"
+  },
+  "1b_length_loglik_per_core": {
+   "mel_signs": -2.5603362848598907,
+   "mel_syll": -2.2812935305183513,
+   "ur3_signs": -2.8399472746575514,
+   "ur3_syll": -2.902097961276054,
+   "mel_syll_bootstrap_95": [
+    -2.5427756941833444,
+    -2.1189953497662537
+   ],
+   "indus_share_2to3": 0.3885804916732752,
+   "indus_share_1": 0.5527359238699445
+  },
+  "1b_indus_repetition": {
+   "n_multi_cores": 1128,
+   "obs_adj_repeat": 0.0851063829787234,
+   "null_mean": 0.03383156028368795,
+   "p_excess": 0.0,
+   "obs_init_redup": 0.051418439716312055,
+   "null_init_mean": 0.022042553191489362,
+   "p_init_excess": 0.0,
+   "ur3_init_redup": 0.025864856126737796,
+   "meluhhan_init_redup": "1/5 (0.20); secure 1/2",
+   "examples": [
+    [
+     "M25-M245-M245",
+     10
+    ],
+    [
+     "M245-M245",
+     10
+    ],
+    [
+     "M153-M153",
+     6
+    ],
+    [
+     "M375-M375",
+     4
+    ],
+    [
+     "M59-M59",
+     3
+    ],
+    [
+     "M153-M153-M171-M59",
+     2
+    ],
+    [
+     "M245-M245-M343",
+     2
+    ],
+    [
+     "M245-M245-M307",
+     2
+    ],
+    [
+     "M59-M59-M155",
+     2
+    ],
+    [
+     "M327-M303-M245-M245-M125-M59",
+     2
+    ],
+    [
+     "M127-M127",
+     2
+    ],
+    [
+     "M59-M127-M245-M343-M75-M245-M245",
+     1
+    ]
+   ]
+  },
+  "1b_redup_fit": {
+   "loglik_ur3_rate": -14.333656594485337,
+   "loglik_mel_0.20": -106.42258751361652,
+   "loglik_mel_beta_posterior_mean": -162.53647915459345
+  },
+  "1b_repeat_concentration": {
+   "repeat_tokens": 100,
+   "distinct_doubled_signs": 19,
+   "top4": [
+    [
+     "M245",
+     49
+    ],
+    [
+     "M153",
+     9
+    ],
+    [
+     "M59",
+     7
+    ],
+    [
+     "M375",
+     6
+    ]
+   ],
+   "top4_share": 0.71
+  },
+  "1a_meluhhan_redup_jeffreys95": [
+   0.022512765999155124,
+   0.6286264006319943
+  ],
+  "1b_p_one_sign_name": {
+   "indus_cores": 0.5527359238699445,
+   "ur3_signs": 0.0196513470681458,
+   "ur3_syll": 0.018066561014263075,
+   "meluhhan": 0.0
+  }
+ },
+ "goods_foreign_enrichment": {
+  "n_foreign": 30,
+  "n_home": 3576,
+  "W390": {
+   "obs": 3,
+   "exp": 2.0472,
+   "p_enriched": 0.3352,
+   "p_depleted": 0.85565
+  },
+  "W405": {
+   "obs": 2,
+   "exp": 0.6711,
+   "p_enriched": 0.14575,
+   "p_depleted": 0.97125
+  },
+  "W220": {
+   "obs": 6,
+   "exp": 3.08575,
+   "p_enriched": 0.0742,
+   "p_depleted": 0.97495
+  },
+  "W700": {
+   "obs": 1,
+   "exp": 0.8085,
+   "p_enriched": 0.56305,
+   "p_depleted": 0.80895
+  },
+  "W740": {
+   "obs": 5,
+   "exp": 11.38895,
+   "p_enriched": 0.99805,
+   "p_depleted": 0.00665
+  }
+ },
+ "aab_west_asian": {
+  "home_AAB_initial_share_M77": 0.0177,
+  "west_asian_AAB": "1/16 (M77 9905 M59-M59-M167)",
+  "p_ge1": 0.249,
+  "note": "home AAB 3-sign texts are doubled sign + closer (M59 M59 M342, M153 M153 M342): logographic doubling, not syllable reduplication"
+ },
+ "catalogue": {
+  "persons": 23,
+  "explicitly_meluhhan_named": 11,
+  "non_mesopotamian_names": [
+   "na-na-sa3/na-na-za",
+   "sa6-ma-ar",
+   "sak-ku-si (seal, Gadd reading)",
+   "za-si-ri (Linear Elamite)",
+   "da-la-me (weak)"
+  ],
+  "new_vs_cdli_dump": [
+   "P516138 CUSAS 40/2 1354",
+   "P516366 CUSAS 40/2 1582",
+   "BDTNS 205179 UCTIS 099 (Na-na-za)",
+   "P361994 Nisaba 33 960",
+   "P108701 Nadubeli of Magan"
+  ]
+ },
+ "seal_person_matches": {
+  "any_strong": false,
+  "best": "Ur, Sargonic: Gadd 15 (U.8685, grave) vs Lu-marza dumu me-luh-ha (CUSAS 26 259): co-occurrence only, Sumerian name",
+  "probability_same_person": "<~0.05 (several Indus seals and an unknown number of Meluhhans at Sargonic Ur; no name or text link)"
+ },
+ "top_anchors": [
+  "Ur-Lamma dumu me-luh-ha sealed receipts (kisib) at Gu'abba S34-AS6: inspect impressions",
+  "Irisagrig Nanasa/Samar tablets: seal impressions on CUSAS 40/2 1582 (illegible) + prereg AAB test on new Gulf/round seals",
+  "BM 120573 sak-ku-si collation + Tell Asmar Akkadian houses tablets (MAD 1) for names co-found with Indus seals"
+ ]
+}

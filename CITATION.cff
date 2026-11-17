@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: "If you use this corpus build, these tests or the prediction registry, please cite it as below."
+title: "Indus script: a reproducible decipherment attempt"
+abstract: >-
+  A reproducible structural and functional analysis of the Indus script. It covers a corpus build of
+  Mahadevan 1977 and the Wells/Fuls ICIT, held-out tests on a leak-free family split, a red-team
+  reimplementation, a project-wide multiple-testing ledger, an atlas of closed routes and a
+  hash-sealed registry of predictions for future finds. The result is a partial decipherment at the
+  levels of structure (L0) and function (L1). There is no phonetic reading, and the language is not
+  identified.
+type: software
+version: "1.1"
+date-released: "2026-11-15"
+authors:
+  - name: "Open Indus contributors"
+keywords:
+  - Indus script
+  - Harappan
+  - undeciphered scripts
+  - decipherment
+  - corpus linguistics
+  - preregistration
+  - reproducibility
+references:
+  - type: book
+    title: "The Indus Script: Texts, Concordance and Tables"
+    authors:
+      - family-names: Mahadevan
+        given-names: Iravatham
+    year: 1977
+    publisher:
+      name: "Archaeological Survey of India"
+  - type: data
+    title: "Interactive Corpus of Indus Texts (ICIT)"
+    authors:
+      - family-names: Wells
+        given-names: Bryan
+      - family-names: Fuls
+        given-names: Andreas
+    notes: "Used through the field-cady/indus_valley_script_corpus export of yajnadevam/lipi."
+  - type: data
+    title: "Indus- (Mahadevan 1977 export from indusscript.in)"
+    authors:
+      - name: paragorth
+    url: "https://github.com/paragorth/Indus-"
+  - type: data
+    title: "indus (Mahadevan-Wells sign bridge and findings log)"
+    authors:
+      - name: shaunmortal
+    url: "https://github.com/shaunmortal/indus"
+  - type: software
+    title: "indus_decipher (null-model toolkit)"
+    authors:
+      - name: joyboseroy
+    url: "https://github.com/joyboseroy/indus_decipher"

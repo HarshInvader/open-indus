@@ -1,0 +1,13 @@
+{
+ "experiment": "line_breaks (Fable plan 6 test 1)",
+ "prereg": "docs/prereg/line_breaks.md (hashed, tag line_breaks)",
+ "verdict": "UNTESTABLE: power gate fails; no break-vs-boundary-score statistic was computed",
+ "counts": {"m77_multiline_distinct": 117, "m77_usable": 74, "m77_usable_seals": 67, "m77_usable_heldout_family": 23,
+            "icit_multiline_distinct": 117, "icit_usable_not_in_m77": 39, "union_usable": 113, "required": 150},
+ "power_f0.2": {"n74_ESR": 0.77, "n74_slot": 0.51, "n113_ESR": 0.88, "n150_ESR": 0.94, "n300_slot": 0.89},
+ "false_positive_rate": 0.067,
+ "boundary_model_training_texts": 1614,
+ "validity": {"layout_two_multisign_same_direction": 60, "layout_one_sign_later_line": 39, "layout_mixed_direction": 12,
+              "one_sign_line2_rare_in_running_text": "18/40", "top_one_sign_line2": {"M242": 9, "M374": 7, "M393": 4, "M93": 4},
+              "icit_two_line_seals_line1_percentile_median": 0.43, "share_line1_at_p90_capacity": 0.09}
+}

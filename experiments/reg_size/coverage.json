@@ -1,0 +1,146 @@
+{
+ "t4_texts": 952,
+ "t4_objects": 1013,
+ "set_primary_FEM_EH": {
+  "audit": {
+   "rows": 1344,
+   "drop: type E": 6,
+   "kept objects": 139,
+   "drop: no M77 link": 53,
+   "drop: not square": 387,
+   "drop: text in T4 analysed set": 199,
+   "drop: object in T4 (ICIT id)": 142,
+   "drop: no dims": 278,
+   "drop: material": 23,
+   "drop: incomplete text": 74,
+   "drop: M77 text not a one-face seal": 8,
+   "drop: type I": 3,
+   "drop: type i": 4,
+   "drop: type G": 1,
+   "drop: type C": 5,
+   "drop: type j": 2,
+   "drop: type R": 1,
+   "drop: type c": 4,
+   "drop: type P": 1,
+   "drop: implausible size": 9,
+   "drop: type n": 1,
+   "drop: type h": 4,
+   "distinct texts": 138
+  },
+  "by_site": {
+   "Mohenjo-daro": 85,
+   "Harappa": 53
+  },
+  "n_obj": 139,
+  "length_mean": 5.391304347826087,
+  "area_mm2_median": 707.90181
+ },
+ "set_MIC": {
+  "audit": {
+   "rows": 376,
+   "drop: no dims": 208,
+   "drop: not square": 84,
+   "kept objects": 15,
+   "drop: text in T4 analysed set": 29,
+   "drop: implausible size": 5,
+   "drop: incomplete text": 5,
+   "drop: object in T4 (ICIT id)": 16,
+   "drop: no M77 link": 13,
+   "drop: M77 text not a one-face seal": 1,
+   "distinct texts": 15
+  },
+  "by_site": {
+   "Mohenjo-daro": 15
+  },
+  "n_obj": 15,
+  "length_mean": 5.2,
+  "area_mm2_median": 816.1274000000001
+ },
+ "set_CE": {
+  "audit": {
+   "rows": 91,
+   "drop: not square": 25,
+   "drop: no dims": 21,
+   "drop: no M77 link": 9,
+   "kept objects": 12,
+   "drop: text in T4 analysed set": 16,
+   "drop: object in T4 (ICIT id)": 4,
+   "drop: incomplete text": 4,
+   "distinct texts": 12
+  },
+  "by_site": {
+   "Chanhu-daro": 12
+  },
+  "n_obj": 12,
+  "length_mean": 5.416666666666667,
+  "area_mm2_median": 623.7406879999997
+ },
+ "set_primary_edit1": {
+  "n": 59
+ },
+ "set_primary_animal_only": {
+  "n": 130
+ },
+ "measurement_agreement": {
+  "Mackay1938_FEM": {
+   "n_objects": 158,
+   "n_in_T4": 133,
+   "side_diff_mm_median": 0.0,
+   "side_absdiff_mm_median": 0.029999999999997584,
+   "side_within_0_3mm": 0.9272151898734177,
+   "side_within_1_5mm": 0.9493670886075949,
+   "logarea_diff_sd": 0.14912042479696364,
+   "logarea_diff_mad": 0.0016101921261091334,
+   "logarea_r": 0.948862720940239,
+   "logarea_sd_between_objects": 0.46715233032896364,
+   "reliability": 0.949051989519933
+  },
+  "Vats1940_EH": {
+   "n_objects": 18,
+   "n_in_T4": 11,
+   "side_diff_mm_median": -0.020000000000003126,
+   "side_absdiff_mm_median": 0.029999999999997584,
+   "side_within_0_3mm": 0.9444444444444444,
+   "side_within_1_5mm": 1.0,
+   "logarea_diff_sd": 0.022656728771906474,
+   "logarea_diff_mad": 0.002368266352612558,
+   "logarea_r": 0.998788793129313,
+   "logarea_sd_between_objects": 0.4577602966876024,
+   "reliability": 0.9987751351501872
+  },
+  "Marshall1931_MIC": {
+   "n_objects": 21,
+   "n_in_T4": 17,
+   "side_diff_mm_median": 0.02499999999999858,
+   "side_absdiff_mm_median": 0.08619999999999806,
+   "side_within_0_3mm": 0.6428571428571429,
+   "side_within_1_5mm": 0.7380952380952381,
+   "logarea_diff_sd": 0.3834932872365642,
+   "logarea_diff_mad": 0.015217396361369318,
+   "logarea_r": 0.7688598777435254,
+   "logarea_sd_between_objects": 0.48851598248821143,
+   "reliability": 0.6918742573597446
+  }
+ },
+ "class_agreement_m77_vs_icit": {
+  "n": 221,
+  "all_classes_equal": 0.8144796380090498,
+  "per_class": {
+   "opener": 0.9502262443438914,
+   "connective": 0.9592760180995475,
+   "numeral": 0.9321266968325792,
+   "title": 0.9592760180995475,
+   "jar": 0.9638009049773756,
+   "other_closer": 0.918552036199095,
+   "ticked_fish": 0.995475113122172,
+   "post_closer": 0.9683257918552036
+  }
+ },
+ "power_if_T4_effect_true": {
+  "n_new": 138,
+  "method": "subsample n_new T4 texts vs remaining T4 texts, 1000 draws",
+  "p_signs_all_three": 0.707,
+  "p_rho_ge_0_5": 0.539,
+  "p_both": 0.449
+ }
+}

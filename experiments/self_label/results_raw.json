@@ -1,0 +1,6954 @@
+{
+ "n_pairs": 78,
+ "sets": {
+  "m77_dev": {
+   "n_texts": 1896,
+   "classes": {
+    "bronze implement": 11,
+    "copper tablet": 48,
+    "ivory/bone rod": 21,
+    "miniature tablet": 129,
+    "pottery graffito": 76,
+    "seal": 1273,
+    "sealing": 325
+   },
+   "rows": [
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M162",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 11,
+     "present": 136,
+     "obs": 1,
+     "exp": 0.91,
+     "z": 0.1,
+     "p": 0.6218378162183782,
+     "register_pct": 0.8814432989690721,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M176",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 11,
+     "present": 172,
+     "obs": 0,
+     "exp": 1.05,
+     "z": -1.1,
+     "p": 1.0,
+     "register_pct": 0.005154639175257732,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M204",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 11,
+     "present": 46,
+     "obs": 0,
+     "exp": 0.18,
+     "z": -0.44,
+     "p": 1.0,
+     "register_pct": 0.211340206185567,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M209",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 11,
+     "present": 14,
+     "obs": 0,
+     "exp": 0.02,
+     "z": -0.16,
+     "p": 1.0,
+     "register_pct": 0.6443298969072165,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M211",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 11,
+     "present": 149,
+     "obs": 0,
+     "exp": 0.75,
+     "z": -0.9,
+     "p": 1.0,
+     "register_pct": 0.020618556701030927,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M230",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 11,
+     "present": 33,
+     "obs": 0,
+     "exp": 0.23,
+     "z": -0.49,
+     "p": 1.0,
+     "register_pct": 0.18041237113402062,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M261",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 11,
+     "present": 12,
+     "obs": 0,
+     "exp": 0.1,
+     "z": -0.32,
+     "p": 1.0,
+     "register_pct": 0.31443298969072164,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M373",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 11,
+     "present": 27,
+     "obs": 0,
+     "exp": 0.3,
+     "z": -0.56,
+     "p": 1.0,
+     "register_pct": 0.13917525773195877,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "bronze implement",
+     "sign": "M386",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 11,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.01,
+     "z": -0.1,
+     "p": 1.0,
+     "register_pct": 0.8041237113402062,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M106",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 48,
+     "present": 16,
+     "obs": 0,
+     "exp": 0.45,
+     "z": -0.69,
+     "p": 1.0,
+     "register_pct": 0.24742268041237114,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 48,
+     "present": 5,
+     "obs": 0,
+     "exp": 0.15,
+     "z": -0.4,
+     "p": 1.0,
+     "register_pct": 0.4948453608247423,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M113",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 48,
+     "present": 5,
+     "obs": 0,
+     "exp": 0.09,
+     "z": -0.31,
+     "p": 1.0,
+     "register_pct": 0.6855670103092784,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M127",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 48,
+     "present": 28,
+     "obs": 0,
+     "exp": 0.88,
+     "z": -0.96,
+     "p": 1.0,
+     "register_pct": 0.15463917525773196,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M134",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 48,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.1,
+     "z": -0.33,
+     "p": 1.0,
+     "register_pct": 0.5824742268041238,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M169",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 48,
+     "present": 124,
+     "obs": 12,
+     "exp": 3.15,
+     "z": 5.26,
+     "p": 9.999000099990002e-05,
+     "register_pct": 0.979381443298969,
+     "q": 0.006099390060993901
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M175",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 48,
+     "present": 37,
+     "obs": 0,
+     "exp": 1.05,
+     "z": -1.06,
+     "p": 1.0,
+     "register_pct": 0.1134020618556701,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M242",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 48,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.87,
+     "z": -0.96,
+     "p": 1.0,
+     "register_pct": 0.15979381443298968,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "copper tablet",
+     "sign": "M244",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 48,
+     "present": 49,
+     "obs": 0,
+     "exp": 0.92,
+     "z": -1.0,
+     "p": 1.0,
+     "register_pct": 0.12886597938144329,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M1",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 21,
+     "present": 82,
+     "obs": 0,
+     "exp": 0.92,
+     "z": -0.99,
+     "p": 1.0,
+     "register_pct": 0.08247422680412371,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M242",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 21,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.37,
+     "z": -0.61,
+     "p": 1.0,
+     "register_pct": 0.2422680412371134,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M244",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 21,
+     "present": 49,
+     "obs": 0,
+     "exp": 0.42,
+     "z": -0.66,
+     "p": 1.0,
+     "register_pct": 0.20618556701030927,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M245",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 21,
+     "present": 74,
+     "obs": 0,
+     "exp": 1.01,
+     "z": -1.05,
+     "p": 1.0,
+     "register_pct": 0.07216494845360824,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M25",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 21,
+     "present": 27,
+     "obs": 0,
+     "exp": 0.46,
+     "z": -0.69,
+     "p": 1.0,
+     "register_pct": 0.15979381443298968,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M402",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 21,
+     "present": 54,
+     "obs": 0,
+     "exp": 0.53,
+     "z": -0.76,
+     "p": 1.0,
+     "register_pct": 0.14432989690721648,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M86",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 21,
+     "present": 96,
+     "obs": 1,
+     "exp": 1.19,
+     "z": -0.18,
+     "p": 0.7054294570542946,
+     "register_pct": 0.7938144329896907,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M97",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 21,
+     "present": 48,
+     "obs": 0,
+     "exp": 0.75,
+     "z": -0.89,
+     "p": 1.0,
+     "register_pct": 0.09278350515463918,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "ivory/bone rod",
+     "sign": "M98",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 21,
+     "present": 50,
+     "obs": 0,
+     "exp": 0.65,
+     "z": -0.82,
+     "p": 1.0,
+     "register_pct": 0.10824742268041238,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M134",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 129,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.62,
+     "z": -0.89,
+     "p": 1.0,
+     "register_pct": 0.29381443298969073,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M169",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 129,
+     "present": 124,
+     "obs": 1,
+     "exp": 8.96,
+     "z": -3.11,
+     "p": 1.0,
+     "register_pct": 0.005154639175257732,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M175",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 129,
+     "present": 37,
+     "obs": 1,
+     "exp": 1.66,
+     "z": -0.59,
+     "p": 0.8497150284971503,
+     "register_pct": 0.4690721649484536,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M204",
+     "routes": [
+      "chamfer",
+      "catalogue"
+     ],
+     "n_cls": 129,
+     "present": 46,
+     "obs": 0,
+     "exp": 3.55,
+     "z": -2.14,
+     "p": 1.0,
+     "register_pct": 0.030927835051546393,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M209",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 129,
+     "present": 14,
+     "obs": 0,
+     "exp": 0.84,
+     "z": -1.02,
+     "p": 1.0,
+     "register_pct": 0.24742268041237114,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M233",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 129,
+     "present": 16,
+     "obs": 2,
+     "exp": 1.04,
+     "z": 1.06,
+     "p": 0.28017198280171984,
+     "register_pct": 0.8298969072164949,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M244",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 129,
+     "present": 49,
+     "obs": 8,
+     "exp": 4.8,
+     "z": 1.66,
+     "p": 0.0831916808319168,
+     "register_pct": 0.8608247422680413,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "miniature tablet",
+     "sign": "M325",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 129,
+     "present": 11,
+     "obs": 2,
+     "exp": 0.63,
+     "z": 1.94,
+     "p": 0.11358864113588642,
+     "register_pct": 0.8969072164948454,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M244",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 76,
+     "present": 49,
+     "obs": 1,
+     "exp": 2.45,
+     "z": -0.99,
+     "p": 0.931006899310069,
+     "register_pct": 0.17010309278350516,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M263",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 76,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.13,
+     "z": -0.38,
+     "p": 1.0,
+     "register_pct": 0.634020618556701,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M321",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 76,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.26,
+     "z": -0.52,
+     "p": 1.0,
+     "register_pct": 0.4690721649484536,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M323",
+     "routes": [
+      "chamfer",
+      "hu"
+     ],
+     "n_cls": 76,
+     "present": 4,
+     "obs": 0,
+     "exp": 0.1,
+     "z": -0.32,
+     "p": 1.0,
+     "register_pct": 0.6958762886597938,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M327",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 76,
+     "present": 22,
+     "obs": 1,
+     "exp": 0.69,
+     "z": 0.39,
+     "p": 0.5178482151784821,
+     "register_pct": 0.8556701030927835,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M336",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 76,
+     "present": 161,
+     "obs": 0,
+     "exp": 4.92,
+     "z": -2.43,
+     "p": 1.0,
+     "register_pct": 0.005154639175257732,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M342",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 76,
+     "present": 856,
+     "obs": 23,
+     "exp": 31.91,
+     "z": -2.22,
+     "p": 0.991000899910009,
+     "register_pct": 0.010309278350515464,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "pottery graffito",
+     "sign": "M343",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 76,
+     "present": 122,
+     "obs": 3,
+     "exp": 4.85,
+     "z": -0.95,
+     "p": 0.8932106789321068,
+     "register_pct": 0.1958762886597938,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 1273,
+     "present": 5,
+     "obs": 3,
+     "exp": 3.38,
+     "z": -0.4,
+     "p": 0.8296170382961704,
+     "register_pct": 0.2422680412371134,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M247",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 1273,
+     "present": 6,
+     "obs": 6,
+     "exp": 4.37,
+     "z": 1.59,
+     "p": 0.12428757124287572,
+     "register_pct": 0.7835051546391752,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M249",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 1273,
+     "present": 115,
+     "obs": 81,
+     "exp": 76.3,
+     "z": 1.04,
+     "p": 0.17968203179682032,
+     "register_pct": 0.634020618556701,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M252",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 1273,
+     "present": 30,
+     "obs": 20,
+     "exp": 19.07,
+     "z": 0.38,
+     "p": 0.43445655434456554,
+     "register_pct": 0.422680412371134,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M253",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 1273,
+     "present": 10,
+     "obs": 6,
+     "exp": 5.94,
+     "z": 0.04,
+     "p": 0.6279372062793721,
+     "register_pct": 0.34536082474226804,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M304",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 1273,
+     "present": 3,
+     "obs": 2,
+     "exp": 1.86,
+     "z": 0.17,
+     "p": 0.6837316268373163,
+     "register_pct": 0.3711340206185567,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M326",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 1273,
+     "present": 19,
+     "obs": 12,
+     "exp": 12.77,
+     "z": -0.42,
+     "p": 0.7557244275572442,
+     "register_pct": 0.23195876288659795,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M400",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 1273,
+     "present": 9,
+     "obs": 8,
+     "exp": 6.67,
+     "z": 1.11,
+     "p": 0.25347465253474655,
+     "register_pct": 0.654639175257732,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "seal",
+     "sign": "M50",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 1273,
+     "present": 5,
+     "obs": 5,
+     "exp": 4.17,
+     "z": 1.0,
+     "p": 0.40385961403859616,
+     "register_pct": 0.6237113402061856,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M113",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 325,
+     "present": 5,
+     "obs": 2,
+     "exp": 1.41,
+     "z": 0.64,
+     "p": 0.4413558644135586,
+     "register_pct": 0.8092783505154639,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M249",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 325,
+     "present": 115,
+     "obs": 24,
+     "exp": 20.97,
+     "z": 0.79,
+     "p": 0.24767523247675233,
+     "register_pct": 0.8350515463917526,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M252",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 325,
+     "present": 30,
+     "obs": 4,
+     "exp": 5.69,
+     "z": -0.83,
+     "p": 0.8600139986001399,
+     "register_pct": 0.3556701030927835,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M253",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 325,
+     "present": 10,
+     "obs": 2,
+     "exp": 1.98,
+     "z": 0.02,
+     "p": 0.6301369863013698,
+     "register_pct": 0.6494845360824743,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M261",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 325,
+     "present": 12,
+     "obs": 1,
+     "exp": 1.64,
+     "z": -0.56,
+     "p": 0.8392160783921608,
+     "register_pct": 0.4793814432989691,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M267",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 325,
+     "present": 267,
+     "obs": 22,
+     "exp": 39.31,
+     "z": -3.4,
+     "p": 0.9999000099990001,
+     "register_pct": 0.005154639175257732,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M277",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 325,
+     "present": 5,
+     "obs": 2,
+     "exp": 0.57,
+     "z": 2.07,
+     "p": 0.0953904609539046,
+     "register_pct": 0.9381443298969072,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M393",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 325,
+     "present": 4,
+     "obs": 0,
+     "exp": 0.5,
+     "z": -0.78,
+     "p": 1.0,
+     "register_pct": 0.4020618556701031,
+     "q": 1.0
+    },
+    {
+     "set": "m77_dev",
+     "cls": "sealing",
+     "sign": "M96",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 325,
+     "present": 19,
+     "obs": 2,
+     "exp": 2.99,
+     "z": -0.65,
+     "p": 0.8335166483351665,
+     "register_pct": 0.4484536082474227,
+     "q": 1.0
+    }
+   ]
+  },
+  "m77_heldout_v2": {
+   "n_texts": 662,
+   "classes": {
+    "bronze implement": 6,
+    "copper tablet": 17,
+    "ivory/bone rod": 5,
+    "miniature tablet": 48,
+    "pottery graffito": 39,
+    "seal": 452,
+    "sealing": 89
+   },
+   "rows": [
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M162",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 6,
+     "present": 39,
+     "obs": 0,
+     "exp": 0.39,
+     "z": -0.66,
+     "p": 1.0,
+     "register_pct": 0.05333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M176",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 6,
+     "present": 47,
+     "obs": 0,
+     "exp": 0.41,
+     "z": -0.67,
+     "p": 1.0,
+     "register_pct": 0.04666666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M204",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 6,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.06,
+     "z": -0.26,
+     "p": 1.0,
+     "register_pct": 0.4666666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M209",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 6,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.02,
+     "z": -0.15,
+     "p": 1.0,
+     "register_pct": 0.8866666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M211",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 6,
+     "present": 34,
+     "obs": 0,
+     "exp": 0.33,
+     "z": -0.59,
+     "p": 1.0,
+     "register_pct": 0.09333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M230",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 6,
+     "present": 15,
+     "obs": 0,
+     "exp": 0.19,
+     "z": -0.44,
+     "p": 1.0,
+     "register_pct": 0.19333333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M261",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 6,
+     "present": 13,
+     "obs": 2,
+     "exp": 0.13,
+     "z": 5.4,
+     "p": 0.005099490050994901,
+     "register_pct": 0.98,
+     "q": 0.18603139686031397
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M373",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 6,
+     "present": 9,
+     "obs": 0,
+     "exp": 0.07,
+     "z": -0.27,
+     "p": 1.0,
+     "register_pct": 0.44666666666666666,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "bronze implement",
+     "sign": "M386",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 6,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.03,
+     "z": -0.19,
+     "p": 1.0,
+     "register_pct": 0.82,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M106",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 17,
+     "present": 16,
+     "obs": 0,
+     "exp": 0.43,
+     "z": -0.67,
+     "p": 1.0,
+     "register_pct": 0.22666666666666666,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 17,
+     "present": 1,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M113",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 17,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.04,
+     "z": -0.21,
+     "p": 1.0,
+     "register_pct": 0.84,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M127",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 17,
+     "present": 12,
+     "obs": 0,
+     "exp": 0.08,
+     "z": -0.3,
+     "p": 1.0,
+     "register_pct": 0.7933333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M134",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 17,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.25,
+     "z": -0.51,
+     "p": 1.0,
+     "register_pct": 0.38,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M169",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 17,
+     "present": 32,
+     "obs": 4,
+     "exp": 0.82,
+     "z": 3.68,
+     "p": 0.006099390060993901,
+     "register_pct": 0.9666666666666667,
+     "q": 0.18603139686031397
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M175",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 17,
+     "present": 12,
+     "obs": 0,
+     "exp": 0.43,
+     "z": -0.68,
+     "p": 1.0,
+     "register_pct": 0.22,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M242",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 17,
+     "present": 4,
+     "obs": 0,
+     "exp": 0.17,
+     "z": -0.42,
+     "p": 1.0,
+     "register_pct": 0.5,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "copper tablet",
+     "sign": "M244",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 17,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.58,
+     "z": -0.78,
+     "p": 1.0,
+     "register_pct": 0.15333333333333332,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M1",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 5,
+     "present": 15,
+     "obs": 0,
+     "exp": 0.12,
+     "z": -0.36,
+     "p": 1.0,
+     "register_pct": 0.23333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M242",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 5,
+     "present": 4,
+     "obs": 0,
+     "exp": 0.05,
+     "z": -0.23,
+     "p": 1.0,
+     "register_pct": 0.5533333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M244",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 5,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.18,
+     "z": -0.44,
+     "p": 1.0,
+     "register_pct": 0.13333333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M245",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 5,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.17,
+     "z": -0.42,
+     "p": 1.0,
+     "register_pct": 0.14666666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M25",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 5,
+     "present": 12,
+     "obs": 0,
+     "exp": 0.09,
+     "z": -0.3,
+     "p": 1.0,
+     "register_pct": 0.31333333333333335,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M402",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 5,
+     "present": 35,
+     "obs": 0,
+     "exp": 0.31,
+     "z": -0.58,
+     "p": 1.0,
+     "register_pct": 0.05333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M86",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 5,
+     "present": 40,
+     "obs": 0,
+     "exp": 0.36,
+     "z": -0.63,
+     "p": 1.0,
+     "register_pct": 0.03333333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M97",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 5,
+     "present": 30,
+     "obs": 0,
+     "exp": 0.23,
+     "z": -0.49,
+     "p": 1.0,
+     "register_pct": 0.09333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "ivory/bone rod",
+     "sign": "M98",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 5,
+     "present": 26,
+     "obs": 1,
+     "exp": 0.24,
+     "z": 1.59,
+     "p": 0.22137786221377861,
+     "register_pct": 0.9466666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M134",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 48,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.25,
+     "z": -0.57,
+     "p": 1.0,
+     "register_pct": 0.42,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M169",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 48,
+     "present": 32,
+     "obs": 1,
+     "exp": 1.78,
+     "z": -0.69,
+     "p": 0.8780121987801219,
+     "register_pct": 0.23333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M175",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 48,
+     "present": 12,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": 0.49333333333333335,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M204",
+     "routes": [
+      "chamfer",
+      "catalogue"
+     ],
+     "n_cls": 48,
+     "present": 7,
+     "obs": 0,
+     "exp": 0.51,
+     "z": -0.83,
+     "p": 1.0,
+     "register_pct": 0.17333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M209",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 48,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": 0.49333333333333335,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M233",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 48,
+     "present": 11,
+     "obs": 0,
+     "exp": 0.26,
+     "z": -0.59,
+     "p": 1.0,
+     "register_pct": 0.31333333333333335,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M244",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 48,
+     "present": 22,
+     "obs": 1,
+     "exp": 1.51,
+     "z": -0.49,
+     "p": 0.8306169383061693,
+     "register_pct": 0.43333333333333335,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "miniature tablet",
+     "sign": "M325",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 48,
+     "present": 2,
+     "obs": 0,
+     "exp": 0.25,
+     "z": -0.58,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M244",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 39,
+     "present": 22,
+     "obs": 0,
+     "exp": 1.06,
+     "z": -1.11,
+     "p": 1.0,
+     "register_pct": 0.08,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M263",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 39,
+     "present": 3,
+     "obs": 1,
+     "exp": 0.77,
+     "z": 0.35,
+     "p": 0.65003499650035,
+     "register_pct": 0.8666666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M321",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 39,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M323",
+     "routes": [
+      "chamfer",
+      "hu"
+     ],
+     "n_cls": 39,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.58,
+     "z": -1.09,
+     "p": 1.0,
+     "register_pct": 0.09333333333333334,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M327",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 39,
+     "present": 18,
+     "obs": 0,
+     "exp": 0.79,
+     "z": -0.95,
+     "p": 1.0,
+     "register_pct": 0.14666666666666667,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M336",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 39,
+     "present": 36,
+     "obs": 0,
+     "exp": 1.53,
+     "z": -1.32,
+     "p": 1.0,
+     "register_pct": 0.04,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M342",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 39,
+     "present": 222,
+     "obs": 9,
+     "exp": 11.47,
+     "z": -0.94,
+     "p": 0.8718128187181282,
+     "register_pct": 0.16,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "pottery graffito",
+     "sign": "M343",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 39,
+     "present": 41,
+     "obs": 2,
+     "exp": 2.6,
+     "z": -0.43,
+     "p": 0.7754224577542246,
+     "register_pct": 0.5,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 452,
+     "present": 1,
+     "obs": 1,
+     "exp": 0.22,
+     "z": 1.9,
+     "p": 0.21687831216878312,
+     "register_pct": null,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M247",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 452,
+     "present": 2,
+     "obs": 2,
+     "exp": 1.23,
+     "z": 1.25,
+     "p": 0.33196680331966805,
+     "register_pct": null,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M249",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 452,
+     "present": 17,
+     "obs": 13,
+     "exp": 11.58,
+     "z": 0.85,
+     "p": 0.2963703629637036,
+     "register_pct": 0.62,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M252",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 452,
+     "present": 12,
+     "obs": 9,
+     "exp": 8.72,
+     "z": 0.2,
+     "p": 0.57994200579942,
+     "register_pct": 0.41333333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M253",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 452,
+     "present": 9,
+     "obs": 8,
+     "exp": 7.11,
+     "z": 0.79,
+     "p": 0.3885611438856114,
+     "register_pct": 0.58,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M304",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 452,
+     "present": 2,
+     "obs": 1,
+     "exp": 0.96,
+     "z": 0.06,
+     "p": 0.7395260473952605,
+     "register_pct": null,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M326",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 452,
+     "present": 6,
+     "obs": 5,
+     "exp": 5.01,
+     "z": -0.01,
+     "p": 0.7409259074092591,
+     "register_pct": 0.35333333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M400",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 452,
+     "present": 5,
+     "obs": 5,
+     "exp": 3.91,
+     "z": 1.24,
+     "p": 0.267973202679732,
+     "register_pct": 0.76,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "seal",
+     "sign": "M50",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 452,
+     "present": 3,
+     "obs": 3,
+     "exp": 2.52,
+     "z": 0.75,
+     "p": 0.5968403159684031,
+     "register_pct": 0.5466666666666666,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M113",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 89,
+     "present": 3,
+     "obs": 1,
+     "exp": 0.54,
+     "z": 0.71,
+     "p": 0.45585441455854414,
+     "register_pct": 0.74,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M249",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 89,
+     "present": 17,
+     "obs": 3,
+     "exp": 2.05,
+     "z": 0.75,
+     "p": 0.33806619338066196,
+     "register_pct": 0.7533333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M252",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 89,
+     "present": 12,
+     "obs": 1,
+     "exp": 1.3,
+     "z": -0.29,
+     "p": 0.7661233876612339,
+     "register_pct": 0.52,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M253",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 89,
+     "present": 9,
+     "obs": 0,
+     "exp": 0.75,
+     "z": -0.91,
+     "p": 1.0,
+     "register_pct": 0.15333333333333332,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M261",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 89,
+     "present": 13,
+     "obs": 1,
+     "exp": 1.5,
+     "z": -0.45,
+     "p": 0.8143185681431857,
+     "register_pct": 0.4533333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M267",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 89,
+     "present": 48,
+     "obs": 6,
+     "exp": 6.43,
+     "z": -0.2,
+     "p": 0.6561343865613438,
+     "register_pct": 0.5533333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M277",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 89,
+     "present": 4,
+     "obs": 2,
+     "exp": 0.44,
+     "z": 2.58,
+     "p": 0.0542945705429457,
+     "register_pct": 0.98,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M393",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 89,
+     "present": 3,
+     "obs": 0,
+     "exp": 0.36,
+     "z": -0.65,
+     "p": 1.0,
+     "register_pct": 0.3333333333333333,
+     "q": 1.0
+    },
+    {
+     "set": "m77_heldout_v2",
+     "cls": "sealing",
+     "sign": "M96",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 89,
+     "present": 2,
+     "obs": 1,
+     "exp": 0.29,
+     "z": 1.44,
+     "p": 0.27917208279172084,
+     "register_pct": null,
+     "q": 1.0
+    }
+   ]
+  },
+  "icit": {
+   "n_texts": 3952,
+   "classes": {
+    "bangle": 41,
+    "bronze implement": 18,
+    "copper tablet": 98,
+    "ivory/bone rod": 37,
+    "miniature tablet": 886,
+    "pottery graffito": 384,
+    "seal": 2158,
+    "sealing": 195,
+    "stamped pottery": 50
+   },
+   "rows": [
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 41,
+     "present": 69,
+     "obs": 0,
+     "exp": 0.84,
+     "z": -0.93,
+     "p": 1.0,
+     "register_pct": 0.24183006535947713,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.09,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M17",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 41,
+     "present": 104,
+     "obs": 3,
+     "exp": 1.4,
+     "z": 1.37,
+     "p": 0.1628837116288371,
+     "register_pct": 0.8954248366013072,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.1,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M201",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 41,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M217",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 41,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M242",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 41,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.39,
+     "z": -0.64,
+     "p": 1.0,
+     "register_pct": 0.43137254901960786,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.01,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M244",
+     "routes": [
+      "chamfer",
+      "hu"
+     ],
+     "n_cls": 41,
+     "present": 73,
+     "obs": 2,
+     "exp": 0.72,
+     "z": 1.54,
+     "p": 0.1606839316068393,
+     "register_pct": 0.9019607843137255,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.12,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": true,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M373",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 41,
+     "present": 46,
+     "obs": 6,
+     "exp": 0.45,
+     "z": 8.31,
+     "p": 9.999000099990002e-05,
+     "register_pct": 0.9869281045751634,
+     "q": 0.007799220077992201,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 2,
+       "exp": 0.07,
+       "p": 0.0011998800119988001
+      }
+     ],
+     "pass": {
+      "C1_icit_q": true,
+      "C2_second_site": true,
+      "C3_register_top10": true,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bangle",
+     "sign": "M397",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 41,
+     "present": 18,
+     "obs": 0,
+     "exp": 0.26,
+     "z": -0.52,
+     "p": 1.0,
+     "register_pct": 0.5294117647058824,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.02,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M162",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 18,
+     "present": 325,
+     "obs": 1,
+     "exp": 1.38,
+     "z": -0.34,
+     "p": 0.7686231376862314,
+     "register_pct": 0.40522875816993464,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.2,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M176",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 18,
+     "present": 307,
+     "obs": 0,
+     "exp": 0.96,
+     "z": -1.04,
+     "p": 1.0,
+     "register_pct": 0.026143790849673203,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.43,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M204",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 18,
+     "present": 48,
+     "obs": 0,
+     "exp": 0.21,
+     "z": -0.46,
+     "p": 1.0,
+     "register_pct": 0.2875816993464052,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.03,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M209",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 18,
+     "present": 14,
+     "obs": 0,
+     "exp": 0.07,
+     "z": -0.27,
+     "p": 1.0,
+     "register_pct": 0.5294117647058824,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.01,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M211",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 18,
+     "present": 244,
+     "obs": 0,
+     "exp": 1.32,
+     "z": -1.24,
+     "p": 1.0,
+     "register_pct": 0.0196078431372549,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.14,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.38,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M230",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 18,
+     "present": 39,
+     "obs": 0,
+     "exp": 0.17,
+     "z": -0.42,
+     "p": 1.0,
+     "register_pct": 0.32679738562091504,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.01,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M261",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 18,
+     "present": 96,
+     "obs": 1,
+     "exp": 0.47,
+     "z": 0.8,
+     "p": 0.3758624137586241,
+     "register_pct": 0.8888888888888888,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.06,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M373",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 18,
+     "present": 46,
+     "obs": 0,
+     "exp": 0.23,
+     "z": -0.49,
+     "p": 1.0,
+     "register_pct": 0.24183006535947713,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.03,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "bronze implement",
+     "sign": "M386",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 18,
+     "present": 16,
+     "obs": 0,
+     "exp": 0.12,
+     "z": -0.34,
+     "p": 1.0,
+     "register_pct": 0.39869281045751637,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kanmer",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M106",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 98,
+     "present": 42,
+     "obs": 1,
+     "exp": 1.46,
+     "z": -0.39,
+     "p": 0.7762223777622238,
+     "register_pct": 0.6601307189542484,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 98,
+     "present": 69,
+     "obs": 4,
+     "exp": 2.15,
+     "z": 1.31,
+     "p": 0.15898410158984103,
+     "register_pct": 0.803921568627451,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M113",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 98,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M127",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 98,
+     "present": 42,
+     "obs": 0,
+     "exp": 1.2,
+     "z": -1.13,
+     "p": 1.0,
+     "register_pct": 0.21568627450980393,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M134",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 98,
+     "present": 35,
+     "obs": 0,
+     "exp": 0.65,
+     "z": -0.83,
+     "p": 1.0,
+     "register_pct": 0.30718954248366015,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M169",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 98,
+     "present": 408,
+     "obs": 21,
+     "exp": 11.99,
+     "z": 2.88,
+     "p": 0.0051994800519948,
+     "register_pct": 0.9150326797385621,
+     "q": 0.1013898610138986,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": true,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M175",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 98,
+     "present": 47,
+     "obs": 0,
+     "exp": 1.7,
+     "z": -1.34,
+     "p": 1.0,
+     "register_pct": 0.1568627450980392,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M242",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 98,
+     "present": 22,
+     "obs": 0,
+     "exp": 1.13,
+     "z": -1.1,
+     "p": 1.0,
+     "register_pct": 0.22875816993464052,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "copper tablet",
+     "sign": "M244",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 98,
+     "present": 73,
+     "obs": 0,
+     "exp": 1.69,
+     "z": -1.36,
+     "p": 1.0,
+     "register_pct": 0.1503267973856209,
+     "q": 1.0,
+     "site_rep": [],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M1",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 37,
+     "present": 155,
+     "obs": 2,
+     "exp": 1.44,
+     "z": 0.47,
+     "p": 0.42715728427157285,
+     "register_pct": 0.8366013071895425,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.23,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M242",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 37,
+     "present": 22,
+     "obs": 0,
+     "exp": 0.32,
+     "z": -0.58,
+     "p": 1.0,
+     "register_pct": 0.33986928104575165,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.01,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M244",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 37,
+     "present": 73,
+     "obs": 0,
+     "exp": 0.68,
+     "z": -0.84,
+     "p": 1.0,
+     "register_pct": 0.16993464052287582,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.14,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M245",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 37,
+     "present": 43,
+     "obs": 0,
+     "exp": 0.46,
+     "z": -0.69,
+     "p": 1.0,
+     "register_pct": 0.2875816993464052,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.08,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M25",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 37,
+     "present": 70,
+     "obs": 0,
+     "exp": 0.73,
+     "z": -0.87,
+     "p": 1.0,
+     "register_pct": 0.16339869281045752,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.1,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M402",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 37,
+     "present": 105,
+     "obs": 0,
+     "exp": 1.08,
+     "z": -1.06,
+     "p": 1.0,
+     "register_pct": 0.0915032679738562,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.17,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M86",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 37,
+     "present": 231,
+     "obs": 3,
+     "exp": 2.29,
+     "z": 0.49,
+     "p": 0.40705929407059294,
+     "register_pct": 0.8496732026143791,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.32,
+       "p": 0.2826717328267173
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M97",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 37,
+     "present": 187,
+     "obs": 1,
+     "exp": 1.94,
+     "z": -0.7,
+     "p": 0.863013698630137,
+     "register_pct": 0.27450980392156865,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.19,
+       "p": 0.17228277172282772
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "ivory/bone rod",
+     "sign": "M98",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 37,
+     "present": 187,
+     "obs": 1,
+     "exp": 1.94,
+     "z": -0.7,
+     "p": 0.863013698630137,
+     "register_pct": 0.27450980392156865,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.18,
+       "p": 0.1690830916908309
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M134",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 886,
+     "present": 35,
+     "obs": 6,
+     "exp": 7.56,
+     "z": -0.78,
+     "p": 0.8505149485051495,
+     "register_pct": 0.5816993464052288,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 1,
+       "exp": 0.68,
+       "p": 0.5025497450254974
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.04,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.05,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M169",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 886,
+     "present": 408,
+     "obs": 48,
+     "exp": 75.05,
+     "z": -4.39,
+     "p": 1.0,
+     "register_pct": 0.013071895424836602,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 5,
+       "exp": 12.17,
+       "p": 0.9967003299670033
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 1,
+       "exp": 1.38,
+       "p": 0.7751224877512248
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.56,
+       "p": 0.44455554444555545
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.28,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.34,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.24,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M175",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 886,
+     "present": 47,
+     "obs": 4,
+     "exp": 5.25,
+     "z": -0.67,
+     "p": 0.8243175682431757,
+     "register_pct": 0.6078431372549019,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 1,
+       "exp": 1.71,
+       "p": 0.8338166183381662
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 1,
+       "exp": 0.17,
+       "p": 0.1591840815918408
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.17,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M204",
+     "routes": [
+      "chamfer",
+      "catalogue"
+     ],
+     "n_cls": 886,
+     "present": 48,
+     "obs": 5,
+     "exp": 8.81,
+     "z": -1.66,
+     "p": 0.9751024897510249,
+     "register_pct": 0.24183006535947713,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 2,
+       "exp": 1.96,
+       "p": 0.5949405059494051
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.02,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M209",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 886,
+     "present": 14,
+     "obs": 3,
+     "exp": 2.57,
+     "z": 0.35,
+     "p": 0.5146485351464853,
+     "register_pct": 0.7843137254901961,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 0,
+       "exp": 0.38,
+       "p": 1.0
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.09,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.02,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M233",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 886,
+     "present": 43,
+     "obs": 10,
+     "exp": 8.01,
+     "z": 0.93,
+     "p": 0.23377662233776622,
+     "register_pct": 0.8562091503267973,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 3,
+       "exp": 1.42,
+       "p": 0.17018298170182983
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.26,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.04,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.02,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M244",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 886,
+     "present": 73,
+     "obs": 20,
+     "exp": 17.61,
+     "z": 0.78,
+     "p": 0.26677332266773324,
+     "register_pct": 0.8496732026143791,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 1,
+       "exp": 1.72,
+       "p": 0.8331166883311669
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 2,
+       "exp": 0.51,
+       "p": 0.08809119088091191
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.17,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "miniature tablet",
+     "sign": "M325",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 886,
+     "present": 18,
+     "obs": 9,
+     "exp": 4.66,
+     "z": 2.72,
+     "p": 0.008999100089991,
+     "register_pct": 0.9607843137254902,
+     "q": 0.1403859614038596,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 100,
+       "obs": 2,
+       "exp": 0.42,
+       "p": 0.06159384061593841
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.17,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 1,
+       "exp": 0.24,
+       "p": 0.23757624237576241
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": true,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M244",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 384,
+     "present": 73,
+     "obs": 2,
+     "exp": 7.55,
+     "z": -2.45,
+     "p": 0.9991000899910009,
+     "register_pct": 0.13071895424836602,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 1.62,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 0,
+       "exp": 0.79,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.53,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.08,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M263",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 384,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M321",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 384,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M323",
+     "routes": [
+      "chamfer",
+      "hu"
+     ],
+     "n_cls": 384,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M327",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 384,
+     "present": 56,
+     "obs": 3,
+     "exp": 3.71,
+     "z": -0.39,
+     "p": 0.7325267473252675,
+     "register_pct": 0.7516339869281046,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 0,
+       "exp": 0.72,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.29,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.09,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M336",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 384,
+     "present": 253,
+     "obs": 5,
+     "exp": 18.06,
+     "z": -3.71,
+     "p": 1.0,
+     "register_pct": 0.032679738562091505,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 0.4,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 0,
+       "exp": 3.99,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.81,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 2,
+       "exp": 2.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.21,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.7,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M342",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 384,
+     "present": 1448,
+     "obs": 70,
+     "exp": 124.06,
+     "z": -6.89,
+     "p": 1.0,
+     "register_pct": 0.0,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 13,
+       "exp": 19.34,
+       "p": 0.9937006299370063
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 11,
+       "exp": 19.49,
+       "p": 0.9979002099790021
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 4,
+       "exp": 5.95,
+       "p": 0.962003799620038
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 2,
+       "exp": 5.24,
+       "p": 0.9876012398760124
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 1,
+       "exp": 1.14,
+       "p": 0.7617238276172382
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 1,
+       "exp": 0.51,
+       "p": 0.5076492350764924
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 2,
+       "exp": 2.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 1,
+       "exp": 1.23,
+       "p": 0.8012198780121987
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 2,
+       "exp": 2.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 1.86,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.59,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "pottery graffito",
+     "sign": "M343",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 384,
+     "present": 201,
+     "obs": 6,
+     "exp": 15.67,
+     "z": -2.99,
+     "p": 0.9996000399960004,
+     "register_pct": 0.0718954248366013,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Kalibangan",
+       "n_cls": 67,
+       "obs": 0,
+       "exp": 2.42,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 46,
+       "obs": 2,
+       "exp": 3.13,
+       "p": 0.8348165183481652
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 20,
+       "obs": 2,
+       "exp": 1.62,
+       "p": 0.5673432656734326
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 18,
+       "obs": 0,
+       "exp": 0.51,
+       "p": 1.0
+      },
+      {
+       "site": "Kot-Diji",
+       "n_cls": 9,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Amri",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rodji",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Shikarpur",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chandigarh",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.26,
+       "p": 1.0
+      },
+      {
+       "site": "Naru-Waro-dharo",
+       "n_cls": 3,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ra's al-Junayz",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nuhato",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M110",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 2158,
+     "present": 69,
+     "obs": 49,
+     "exp": 39.25,
+     "z": 2.81,
+     "p": 0.0036996300369963003,
+     "register_pct": 0.7581699346405228,
+     "q": 0.09619038096190381,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 14,
+       "exp": 6.15,
+       "p": 0.0004999500049995
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 2,
+       "exp": 1.22,
+       "p": 0.37106289371062895
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 3,
+       "exp": 1.37,
+       "p": 0.11708829117088292
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 1,
+       "exp": 0.86,
+       "p": 0.8640135986401359
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.59,
+       "p": 0.593040695930407
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": true,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M247",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 2158,
+     "present": 8,
+     "obs": 7,
+     "exp": 4.72,
+     "z": 1.93,
+     "p": 0.06029397060293971,
+     "register_pct": 0.5751633986928104,
+     "q": 0.5878662133786622,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 2,
+       "exp": 0.86,
+       "p": 0.20337966203379662
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 1,
+       "exp": 0.51,
+       "p": 0.5113488651134886
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M249",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 2158,
+     "present": 178,
+     "obs": 115,
+     "exp": 98.07,
+     "z": 3.0,
+     "p": 0.0015998400159984002,
+     "register_pct": 0.7843137254901961,
+     "q": 0.06239376062393761,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 26,
+       "exp": 19.02,
+       "p": 0.0400959904009599
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 11,
+       "exp": 7.28,
+       "p": 0.0198980101989801
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 5,
+       "exp": 5.09,
+       "p": 0.6486351364863514
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 3,
+       "exp": 2.39,
+       "p": 0.49755024497550243
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 2,
+       "exp": 1.01,
+       "p": 0.2618738126187381
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 2,
+       "exp": 1.72,
+       "p": 0.7303269673032696
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.58,
+       "p": 0.5823417658234177
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 1,
+       "exp": 0.31,
+       "p": 0.3073692630736926
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": true,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M252",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 2158,
+     "present": 45,
+     "obs": 33,
+     "exp": 26.16,
+     "z": 2.33,
+     "p": 0.012698730126987301,
+     "register_pct": 0.6405228758169934,
+     "q": 0.1650834916508349,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 14,
+       "exp": 4.68,
+       "p": 9.999000099990002e-05
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 1,
+       "exp": 0.6,
+       "p": 0.6046395360463953
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 1,
+       "exp": 0.51,
+       "p": 0.5101489851014899
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.34,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": true,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M253",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 2158,
+     "present": 12,
+     "obs": 10,
+     "exp": 8.14,
+     "z": 1.29,
+     "p": 0.16878312168783122,
+     "register_pct": 0.45751633986928103,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 1,
+       "exp": 0.59,
+       "p": 0.5024497550244975
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 0,
+       "exp": 0.51,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 1,
+       "exp": 0.58,
+       "p": 0.5829417058294171
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 1,
+       "exp": 1.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M304",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 2158,
+     "present": 5,
+     "obs": 3,
+     "exp": 2.53,
+     "z": 0.48,
+     "p": 0.5053494650534947,
+     "register_pct": 0.2875816993464052,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 1,
+       "exp": 0.28,
+       "p": 0.28457154284571545
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.68,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M326",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 2158,
+     "present": 28,
+     "obs": 18,
+     "exp": 16.8,
+     "z": 0.53,
+     "p": 0.3835616438356164,
+     "register_pct": 0.3006535947712418,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 4,
+       "exp": 2.35,
+       "p": 0.18288171182881713
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 1,
+       "exp": 0.6,
+       "p": 0.6039396060393961
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 1,
+       "exp": 0.8,
+       "p": 0.8011198880111989
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 1,
+       "exp": 0.67,
+       "p": 0.561043895610439
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 1,
+       "exp": 0.86,
+       "p": 0.8594140585941406
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 1,
+       "exp": 0.41,
+       "p": 0.40745925407459255
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M400",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 2158,
+     "present": 16,
+     "obs": 15,
+     "exp": 11.53,
+     "z": 2.08,
+     "p": 0.029197080291970802,
+     "register_pct": 0.5947712418300654,
+     "q": 0.32533889468196037,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 1,
+       "exp": 0.29,
+       "p": 0.28617138286171384
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 1,
+       "exp": 0.6,
+       "p": 0.6046395360463953
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 1,
+       "exp": 0.4,
+       "p": 0.40275972402759724
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.63,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "seal",
+     "sign": "M50",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 2158,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Harappa",
+       "n_cls": 415,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Dholavira",
+       "n_cls": 128,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lothal",
+       "n_cls": 91,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Chanhu-daro",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 56,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Unknown",
+       "n_cls": 24,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Nausharo",
+       "n_cls": 15,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Banawali",
+       "n_cls": 14,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Allahdino",
+       "n_cls": 7,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rakhigarhi",
+       "n_cls": 6,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bala-kot",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Bhirrana",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Gola Dhoro (Bagasra)",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Ur",
+       "n_cls": 5,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Farmana",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Khirsara",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 4,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Karzakan",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M113",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 195,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M249",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 195,
+     "present": 178,
+     "obs": 8,
+     "exp": 11.06,
+     "z": -1.18,
+     "p": 0.9216078392160784,
+     "register_pct": 0.16993464052287582,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 0,
+       "exp": 3.36,
+       "p": 1.0
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 1,
+       "exp": 0.78,
+       "p": 0.5522447755224478
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.29,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 1,
+       "exp": 0.74,
+       "p": 0.531046895310469
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.59,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.23,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M252",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 195,
+     "present": 45,
+     "obs": 3,
+     "exp": 1.69,
+     "z": 1.19,
+     "p": 0.21437856214378562,
+     "register_pct": 0.8823529411764706,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 0,
+       "exp": 0.28,
+       "p": 1.0
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.19,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 1,
+       "exp": 0.09,
+       "p": 0.09429057094290572
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 2,
+       "exp": 0.24,
+       "p": 0.024697530246975304
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": true,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M253",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 195,
+     "present": 12,
+     "obs": 0,
+     "exp": 0.54,
+     "z": -0.86,
+     "p": 1.0,
+     "register_pct": 0.2549019607843137,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.02,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.06,
+       "p": 1.0
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M261",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 195,
+     "present": 96,
+     "obs": 2,
+     "exp": 5.41,
+     "z": -1.72,
+     "p": 0.9841015898410159,
+     "register_pct": 0.058823529411764705,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 1,
+       "exp": 2.24,
+       "p": 0.9312068793120688
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.32,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.5,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 1,
+       "exp": 0.41,
+       "p": 0.3454654534546545
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M267",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 195,
+     "present": 406,
+     "obs": 18,
+     "exp": 18.91,
+     "z": -0.25,
+     "p": 0.645035496450355,
+     "register_pct": 0.6143790849673203,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 4,
+       "exp": 5.87,
+       "p": 0.8904109589041096
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 1,
+       "exp": 1.24,
+       "p": 0.7195280471952805
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 5,
+       "exp": 1.44,
+       "p": 0.007499250074992501
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 3,
+       "exp": 2.04,
+       "p": 0.3361663833616638
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.23,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": true,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M277",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 195,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M393",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 195,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": false
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "sealing",
+     "sign": "M96",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 195,
+     "present": 32,
+     "obs": 2,
+     "exp": 1.2,
+     "z": 0.81,
+     "p": 0.33826617338266174,
+     "register_pct": 0.8431372549019608,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Dholavira",
+       "n_cls": 59,
+       "obs": 1,
+       "exp": 0.28,
+       "p": 0.2812718728127187
+      },
+      {
+       "site": "Harappa",
+       "n_cls": 17,
+       "obs": 0,
+       "exp": 0.11,
+       "p": 1.0
+      },
+      {
+       "site": "Kalibangan",
+       "n_cls": 16,
+       "obs": 0,
+       "exp": 0.29,
+       "p": 1.0
+      },
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 16,
+       "obs": 1,
+       "exp": 0.17,
+       "p": 0.16078392160783922
+      },
+      {
+       "site": "Rupar",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      },
+      {
+       "site": "Lakhanjo-daro",
+       "n_cls": 3,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M233",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 50,
+     "present": 43,
+     "obs": 0,
+     "exp": 0.52,
+     "z": -0.74,
+     "p": 1.0,
+     "register_pct": 0.3137254901960784,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.27,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M244",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 50,
+     "present": 73,
+     "obs": 0,
+     "exp": 0.92,
+     "z": -0.96,
+     "p": 1.0,
+     "register_pct": 0.20261437908496732,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.35,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M323",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 50,
+     "present": 0,
+     "obs": 0,
+     "exp": 0.0,
+     "z": 0.0,
+     "p": 1.0,
+     "register_pct": null,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.0,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M326",
+     "routes": [
+      "hu"
+     ],
+     "n_cls": 50,
+     "present": 28,
+     "obs": 0,
+     "exp": 0.33,
+     "z": -0.58,
+     "p": 1.0,
+     "register_pct": 0.42483660130718953,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.16,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M336",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 50,
+     "present": 253,
+     "obs": 4,
+     "exp": 3.19,
+     "z": 0.48,
+     "p": 0.3962603739626037,
+     "register_pct": 0.8431372549019608,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 4,
+       "exp": 1.72,
+       "p": 0.08899110088991101
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M342",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 50,
+     "present": 1448,
+     "obs": 8,
+     "exp": 18.67,
+     "z": -3.18,
+     "p": 0.9997000299970003,
+     "register_pct": 0.0,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 5,
+       "exp": 8.46,
+       "p": 0.9691030896910309
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M343",
+     "routes": [
+      "catalogue"
+     ],
+     "n_cls": 50,
+     "present": 201,
+     "obs": 0,
+     "exp": 2.28,
+     "z": -1.58,
+     "p": 1.0,
+     "register_pct": 0.06535947712418301,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 1.37,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M344",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 50,
+     "present": 48,
+     "obs": 0,
+     "exp": 0.52,
+     "z": -0.74,
+     "p": 1.0,
+     "register_pct": 0.3202614379084967,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.31,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    },
+    {
+     "set": "icit",
+     "cls": "stamped pottery",
+     "sign": "M345",
+     "routes": [
+      "chamfer"
+     ],
+     "n_cls": 50,
+     "present": 31,
+     "obs": 0,
+     "exp": 0.46,
+     "z": -0.68,
+     "p": 1.0,
+     "register_pct": 0.33986928104575165,
+     "q": 1.0,
+     "site_rep": [
+      {
+       "site": "Mohenjo-daro",
+       "n_cls": 20,
+       "obs": 0,
+       "exp": 0.18,
+       "p": 1.0
+      }
+     ],
+     "pass": {
+      "C1_icit_q": false,
+      "C2_second_site": false,
+      "C3_register_top10": false,
+      "C4_heldout_dir": true
+     }
+    }
+   ]
+  }
+ },
+ "global": [
+  {
+   "route": "chamfer",
+   "n": 21,
+   "mean_pct": 0.405,
+   "null_mean": 0.497,
+   "p": 0.9304069593040696,
+   "set": "m77_dev"
+  },
+  {
+   "route": "catalogue",
+   "n": 21,
+   "mean_pct": 0.31,
+   "null_mean": 0.497,
+   "p": 0.9989001099890011,
+   "set": "m77_dev"
+  },
+  {
+   "route": "hu",
+   "n": 21,
+   "mean_pct": 0.489,
+   "null_mean": 0.495,
+   "p": 0.5422457754224578,
+   "set": "m77_dev"
+  },
+  {
+   "route": "chamfer",
+   "n": 16,
+   "mean_pct": 0.442,
+   "null_mean": 0.493,
+   "p": 0.7616238376162384,
+   "set": "m77_heldout_v2"
+  },
+  {
+   "route": "catalogue",
+   "n": 21,
+   "mean_pct": 0.31,
+   "null_mean": 0.493,
+   "p": 0.9985001499850015,
+   "set": "m77_heldout_v2"
+  },
+  {
+   "route": "hu",
+   "n": 19,
+   "mean_pct": 0.498,
+   "null_mean": 0.494,
+   "p": 0.47695230476952305,
+   "set": "m77_heldout_v2"
+  },
+  {
+   "route": "chamfer",
+   "n": 21,
+   "mean_pct": 0.505,
+   "null_mean": 0.497,
+   "p": 0.45195480451954806,
+   "set": "icit"
+  },
+  {
+   "route": "catalogue",
+   "n": 27,
+   "mean_pct": 0.385,
+   "null_mean": 0.495,
+   "p": 0.9779022097790221,
+   "set": "icit"
+  },
+  {
+   "route": "hu",
+   "n": 21,
+   "mean_pct": 0.457,
+   "null_mean": 0.496,
+   "p": 0.7348265173482652,
+   "set": "icit"
+  }
+ ],
+ "verdict": {
+  "n_confirmed_signs": 1,
+  "signs": [
+   "M373"
+  ],
+  "decisive_positive": false
+ },
+ "confirmed_pairs": [
+  [
+   "bangle",
+   "M373"
+  ]
+ ]
+}

@@ -1,0 +1,1085 @@
+{
+ "head": [
+  {
+   "n": 31,
+   "best": "capcal",
+   "bic": {
+    "decay": 151.51,
+    "capcal": 132.36,
+    "spike": 142.56
+   },
+   "decay_a": 0.185,
+   "cap": 8,
+   "spike_value": 4,
+   "spike_share": 0.323,
+   "n_values": 6,
+   "sign": "M162",
+   "cls": "S",
+   "dist": {
+    "3": 8,
+    "4": 10,
+    "5": 3,
+    "6": 5,
+    "7": 3,
+    "8": 2
+   },
+   "p_spike": 0.4151792410379481,
+   "modal_numsigns": {
+    "M104": 10
+   },
+   "q_spike": 0.4547201211368003,
+   "p_uniform_to_cap": 0.0016499175041247937,
+   "verdict": "count-like"
+  },
+  {
+   "n": 29,
+   "best": "spike",
+   "bic": {
+    "decay": 141.66,
+    "capcal": 142.45,
+    "spike": 111.38
+   },
+   "decay_a": 0.219,
+   "cap": 12,
+   "spike_value": 3,
+   "spike_share": 0.517,
+   "n_values": 5,
+   "sign": "M59",
+   "cls": "S",
+   "dist": {
+    "3": 15,
+    "4": 4,
+    "6": 5,
+    "7": 1,
+    "12": 4
+   },
+   "p_spike": 0.0016999150042497876,
+   "modal_numsigns": {
+    "M102": 15
+   },
+   "q_spike": 0.003258170424812093,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "formula-preferring"
+  },
+  {
+   "n": 27,
+   "best": "spike",
+   "bic": {
+    "decay": 132.21,
+    "capcal": 121.95,
+    "spike": 116.77
+   },
+   "decay_a": 0.195,
+   "cap": 9,
+   "spike_value": 4,
+   "spike_share": 0.407,
+   "n_values": 8,
+   "sign": "M169",
+   "cls": "S",
+   "dist": {
+    "2": 1,
+    "3": 4,
+    "4": 11,
+    "5": 5,
+    "6": 1,
+    "7": 3,
+    "8": 1,
+    "9": 1
+   },
+   "p_spike": 0.10369481525923704,
+   "modal_numsigns": {
+    "M104": 11
+   },
+   "q_spike": 0.14029298535073245,
+   "p_uniform_to_cap": 0.0002999850007499625,
+   "verdict": "count-like"
+  },
+  {
+   "n": 14,
+   "best": "spike",
+   "bic": {
+    "decay": 69.78,
+    "capcal": 57.12,
+    "spike": 5.28
+   },
+   "decay_a": 0.0,
+   "cap": 7,
+   "spike_value": 7,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M197",
+   "cls": "S",
+   "dist": {
+    "7": 14
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M112": 14
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 28,
+   "best": "spike",
+   "bic": {
+    "decay": 137.61,
+    "capcal": 137.61,
+    "spike": 114.42
+   },
+   "decay_a": 0.0,
+   "cap": 12,
+   "spike_value": 7,
+   "spike_share": 0.464,
+   "n_values": 6,
+   "sign": "M342",
+   "cls": "S",
+   "dist": {
+    "1": 1,
+    "5": 1,
+    "6": 2,
+    "7": 13,
+    "9": 1,
+    "12": 10
+   },
+   "p_spike": 0.028998550072496375,
+   "modal_numsigns": {
+    "M110": 3,
+    "M111": 2,
+    "M112": 8
+   },
+   "q_spike": 0.04764047511910119,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "formula-preferring"
+  },
+  {
+   "n": 8,
+   "best": "spike",
+   "bic": {
+    "decay": 37.86,
+    "capcal": 27.83,
+    "spike": 14.79
+   },
+   "decay_a": 0.709,
+   "cap": 5,
+   "spike_value": 3,
+   "spike_share": 0.875,
+   "n_values": 2,
+   "sign": "M15",
+   "cls": "S",
+   "dist": {
+    "3": 7,
+    "5": 1
+   },
+   "p_spike": 0.000199990000499975,
+   "modal_numsigns": {
+    "M102": 7
+   },
+   "q_spike": 0.00045997700114994253,
+   "p_uniform_to_cap": 0.00044997750112494374,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 16,
+   "best": "spike",
+   "bic": {
+    "decay": 79.51,
+    "capcal": 65.04,
+    "spike": 5.55
+   },
+   "decay_a": 0.0,
+   "cap": 7,
+   "spike_value": 7,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M194",
+   "cls": "S",
+   "dist": {
+    "7": 16
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M112": 16
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 11,
+   "best": "spike",
+   "bic": {
+    "decay": 50.53,
+    "capcal": 26.57,
+    "spike": 4.8
+   },
+   "decay_a": 0.802,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M403",
+   "cls": "S",
+   "dist": {
+    "3": 11
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M103": 11
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 8,
+   "best": "capcal",
+   "bic": {
+    "decay": 35.29,
+    "capcal": 27.83,
+    "spike": 28.56
+   },
+   "decay_a": 0.985,
+   "cap": 5,
+   "spike_value": 2,
+   "spike_share": 0.625,
+   "n_values": 3,
+   "sign": "M17",
+   "cls": "S",
+   "dist": {
+    "2": 5,
+    "3": 1,
+    "5": 2
+   },
+   "p_spike": 0.051297435128243585,
+   "modal_numsigns": {
+    "M100": 5
+   },
+   "q_spike": 0.07374006299685015,
+   "p_uniform_to_cap": 0.03509824508774561,
+   "verdict": "unclear"
+  },
+  {
+   "n": 15,
+   "best": "spike",
+   "bic": {
+    "decay": 65.71,
+    "capcal": 35.67,
+    "spike": 26.41
+   },
+   "decay_a": 0.947,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 0.867,
+   "n_values": 3,
+   "sign": "M287",
+   "cls": "S",
+   "dist": {
+    "1": 1,
+    "2": 1,
+    "3": 13
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M102": 13
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 8,
+   "best": "spike",
+   "bic": {
+    "decay": 30.74,
+    "capcal": 33.21,
+    "spike": 28.56
+   },
+   "decay_a": 1.359,
+   "cap": 7,
+   "spike_value": 1,
+   "spike_share": 0.625,
+   "n_values": 2,
+   "sign": "M347",
+   "cls": "S",
+   "dist": {
+    "1": 5,
+    "7": 3
+   },
+   "p_spike": 0.0464476776161192,
+   "modal_numsigns": {
+    "M98": 4,
+    "M97": 1
+   },
+   "q_spike": 0.0712197723447161,
+   "p_uniform_to_cap": 0.0016499175041247937,
+   "verdict": "unclear"
+  },
+  {
+   "n": 10,
+   "best": "decay",
+   "bic": {
+    "decay": 12.35,
+    "capcal": 24.27,
+    "spike": 15.71
+   },
+   "decay_a": 3.376,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.9,
+   "n_values": 2,
+   "sign": "M25",
+   "cls": "S",
+   "dist": {
+    "1": 9,
+    "3": 1
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M98": 4,
+    "M97": 5
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 0.0010499475026248687,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 10,
+   "best": "spike",
+   "bic": {
+    "decay": 46.06,
+    "capcal": 24.27,
+    "spike": 4.61
+   },
+   "decay_a": 0.802,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M190",
+   "cls": "S",
+   "dist": {
+    "3": 10
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M102": 10
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 41,
+   "best": "spike",
+   "bic": {
+    "decay": 135.69,
+    "capcal": 93.8,
+    "spike": 28.95
+   },
+   "decay_a": 0.0,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 0.951,
+   "n_values": 3,
+   "sign": "M211",
+   "cls": "T",
+   "dist": {
+    "1": 1,
+    "2": 1,
+    "3": 39
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M89": 39
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 55,
+   "best": "spike",
+   "bic": {
+    "decay": 166.52,
+    "capcal": 156.5,
+    "spike": 55.39
+   },
+   "decay_a": 0.859,
+   "cap": 4,
+   "spike_value": 2,
+   "spike_share": 0.909,
+   "n_values": 3,
+   "sign": "M59",
+   "cls": "T",
+   "dist": {
+    "1": 4,
+    "2": 50,
+    "4": 1
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M87": 50
+   },
+   "q_spike": 0.00014374281285935703,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 8,
+   "best": "decay",
+   "bic": {
+    "decay": 19.63,
+    "capcal": 19.66,
+    "spike": 23.06
+   },
+   "decay_a": 1.774,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.625,
+   "n_values": 3,
+   "sign": "M99",
+   "cls": "T",
+   "dist": {
+    "1": 5,
+    "2": 1,
+    "3": 2
+   },
+   "p_spike": 0.35643217839108043,
+   "modal_numsigns": {
+    "M86": 5
+   },
+   "q_spike": 0.4098970051497425,
+   "p_uniform_to_cap": 0.2937853107344633,
+   "verdict": "unclear"
+  },
+  {
+   "n": 8,
+   "best": "decay",
+   "bic": {
+    "decay": 15.1,
+    "capcal": 19.66,
+    "spike": 18.7
+   },
+   "decay_a": 2.393,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.75,
+   "n_values": 3,
+   "sign": "M15",
+   "cls": "T",
+   "dist": {
+    "1": 6,
+    "2": 1,
+    "3": 1
+   },
+   "p_spike": 0.11819409029548522,
+   "modal_numsigns": {
+    "M86": 6
+   },
+   "q_spike": 0.15102578204423112,
+   "p_uniform_to_cap": 0.05579721013949303,
+   "verdict": "unclear"
+  },
+  {
+   "n": 34,
+   "best": "spike",
+   "bic": {
+    "decay": 110.34,
+    "capcal": 112.97,
+    "spike": 71.3
+   },
+   "decay_a": 0.47,
+   "cap": 5,
+   "spike_value": 2,
+   "spike_share": 0.735,
+   "n_values": 4,
+   "sign": "M342",
+   "cls": "T",
+   "dist": {
+    "1": 2,
+    "2": 25,
+    "3": 3,
+    "5": 4
+   },
+   "p_spike": 0.00024998750062496874,
+   "modal_numsigns": {
+    "M87": 25
+   },
+   "q_spike": 0.0005227011376703892,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 11,
+   "best": "spike",
+   "bic": {
+    "decay": 35.57,
+    "capcal": 17.65,
+    "spike": 4.8
+   },
+   "decay_a": 0.754,
+   "cap": 2,
+   "spike_value": 2,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M60",
+   "cls": "T",
+   "dist": {
+    "2": 11
+   },
+   "p_spike": 9.99950002499875e-05,
+   "modal_numsigns": {
+    "M87": 11
+   },
+   "q_spike": 0.00025554277841663474,
+   "p_uniform_to_cap": 0.001399930003499825,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 16,
+   "best": "capcal",
+   "bic": {
+    "decay": 51.92,
+    "capcal": 37.93,
+    "spike": 46.88
+   },
+   "decay_a": 0.644,
+   "cap": 3,
+   "spike_value": 2,
+   "spike_share": 0.562,
+   "n_values": 3,
+   "sign": "M249",
+   "cls": "T",
+   "dist": {
+    "1": 2,
+    "2": 9,
+    "3": 5
+   },
+   "p_spike": 0.28833558322083896,
+   "modal_numsigns": {
+    "M87": 9
+   },
+   "q_spike": 0.3490378112673314,
+   "p_uniform_to_cap": 0.10549472526373681,
+   "verdict": "count-like"
+  },
+  {
+   "n": 8,
+   "best": "capcal",
+   "bic": {
+    "decay": 24.01,
+    "capcal": 19.66,
+    "spike": 26.34
+   },
+   "decay_a": 1.16,
+   "cap": 3,
+   "spike_value": 1,
+   "spike_share": 0.5,
+   "n_values": 2,
+   "sign": "M67",
+   "cls": "T",
+   "dist": {
+    "1": 4,
+    "3": 4
+   },
+   "p_spike": 0.7728113594320284,
+   "modal_numsigns": {
+    "M86": 4
+   },
+   "q_spike": 0.8079391484971207,
+   "p_uniform_to_cap": 0.14144292785360732,
+   "verdict": "unclear"
+  },
+  {
+   "n": 10,
+   "best": "spike",
+   "bic": {
+    "decay": 31.28,
+    "capcal": 16.17,
+    "spike": 13.88
+   },
+   "decay_a": 0.947,
+   "cap": 2,
+   "spike_value": 2,
+   "spike_share": 0.9,
+   "n_values": 2,
+   "sign": "M284",
+   "cls": "T",
+   "dist": {
+    "1": 1,
+    "2": 9
+   },
+   "p_spike": 0.004249787510624469,
+   "modal_numsigns": {
+    "M87": 9
+   },
+   "q_spike": 0.007518854826489444,
+   "p_uniform_to_cap": 0.021498925053747314,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 14,
+   "best": "capcal",
+   "bic": {
+    "decay": 47.7,
+    "capcal": 41.46,
+    "spike": 44.09
+   },
+   "decay_a": 0.0,
+   "cap": 4,
+   "spike_value": 5,
+   "spike_share": 0.0,
+   "n_values": 4,
+   "sign": "M328",
+   "cls": "T",
+   "dist": {
+    "1": 1,
+    "2": 4,
+    "3": 6,
+    "4": 3
+   },
+   "p_spike": 0.8762061896905154,
+   "modal_numsigns": {},
+   "q_spike": 0.8762061896905154,
+   "p_uniform_to_cap": 0.28043597820108995,
+   "verdict": "count-like"
+  }
+ ],
+ "prev": [
+  {
+   "n": 61,
+   "best": "decay",
+   "bic": {
+    "decay": 287.73,
+    "capcal": 296.65,
+    "spike": 289.14
+   },
+   "decay_a": 0.488,
+   "cap": 12,
+   "spike_value": 8,
+   "spike_share": 0.0,
+   "n_values": 9,
+   "sign": "M99",
+   "cls": "S",
+   "dist": {
+    "1": 10,
+    "2": 2,
+    "3": 12,
+    "4": 13,
+    "5": 5,
+    "6": 4,
+    "7": 9,
+    "9": 1,
+    "12": 5
+   },
+   "p_spike": 1.0,
+   "modal_numsigns": {},
+   "q_spike": 1.0,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "count-like"
+  },
+  {
+   "n": 20,
+   "best": "capcal",
+   "bic": {
+    "decay": 84.5,
+    "capcal": 80.83,
+    "spike": 94.9
+   },
+   "decay_a": 1.04,
+   "cap": 7,
+   "spike_value": 1,
+   "spike_share": 0.3,
+   "n_values": 6,
+   "sign": "M343",
+   "cls": "S",
+   "dist": {
+    "1": 6,
+    "2": 2,
+    "3": 5,
+    "4": 2,
+    "5": 2,
+    "7": 3
+   },
+   "p_spike": 0.903754812259387,
+   "modal_numsigns": {
+    "M98": 6
+   },
+   "q_spike": 1.0,
+   "p_uniform_to_cap": 0.17314134293285335,
+   "verdict": "calendar-like"
+  },
+  {
+   "n": 11,
+   "best": "spike",
+   "bic": {
+    "decay": 55.15,
+    "capcal": 45.21,
+    "spike": 16.1
+   },
+   "decay_a": 0.0,
+   "cap": 7,
+   "spike_value": 7,
+   "spike_share": 0.909,
+   "n_values": 2,
+   "sign": "M204",
+   "cls": "S",
+   "dist": {
+    "6": 1,
+    "7": 10
+   },
+   "p_spike": 0.000599970001499925,
+   "modal_numsigns": {
+    "M110": 3,
+    "M112": 7
+   },
+   "q_spike": 0.0012999350032498376,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 9,
+   "best": "spike",
+   "bic": {
+    "decay": 44.13,
+    "capcal": 45.36,
+    "spike": 39.79
+   },
+   "decay_a": 0.473,
+   "cap": 12,
+   "spike_value": 1,
+   "spike_share": 0.444,
+   "n_values": 3,
+   "sign": "M59",
+   "cls": "S",
+   "dist": {
+    "1": 4,
+    "7": 1,
+    "12": 4
+   },
+   "p_spike": 0.5460226988650567,
+   "modal_numsigns": {
+    "M97": 1,
+    "M98": 3
+   },
+   "q_spike": 0.7098295085245738,
+   "p_uniform_to_cap": 0.0008499575021248938,
+   "verdict": "count-like"
+  },
+  {
+   "n": 14,
+   "best": "spike",
+   "bic": {
+    "decay": 28.27,
+    "capcal": 57.12,
+    "spike": 25.97
+   },
+   "decay_a": 2.491,
+   "cap": 7,
+   "spike_value": 1,
+   "spike_share": 0.857,
+   "n_values": 3,
+   "sign": "M342",
+   "cls": "S",
+   "dist": {
+    "1": 12,
+    "5": 1,
+    "7": 1
+   },
+   "p_spike": 0.00014999250037498125,
+   "modal_numsigns": {
+    "M98": 10,
+    "M97": 2
+   },
+   "q_spike": 0.00048747562621868906,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 15,
+   "best": "capcal",
+   "bic": {
+    "decay": 67.8,
+    "capcal": 61.09,
+    "spike": 62.99
+   },
+   "decay_a": 0.834,
+   "cap": 7,
+   "spike_value": 3,
+   "spike_share": 0.467,
+   "n_values": 5,
+   "sign": "M123",
+   "cls": "S",
+   "dist": {
+    "1": 3,
+    "3": 7,
+    "4": 2,
+    "6": 1,
+    "7": 2
+   },
+   "p_spike": 0.33373331333433326,
+   "modal_numsigns": {
+    "M102": 7
+   },
+   "q_spike": 0.531384541884017,
+   "p_uniform_to_cap": 0.0119994000299985,
+   "verdict": "count-like"
+  },
+  {
+   "n": 13,
+   "best": "decay",
+   "bic": {
+    "decay": 22.07,
+    "capcal": 38.61,
+    "spike": 25.5
+   },
+   "decay_a": 2.785,
+   "cap": 4,
+   "spike_value": 1,
+   "spike_share": 0.846,
+   "n_values": 3,
+   "sign": "M391",
+   "cls": "S",
+   "dist": {
+    "1": 11,
+    "3": 1,
+    "4": 1
+   },
+   "p_spike": 0.000199990000499975,
+   "modal_numsigns": {
+    "M97": 9,
+    "M98": 2
+   },
+   "q_spike": 0.000519974001299935,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 89,
+   "best": "spike",
+   "bic": {
+    "decay": 290.97,
+    "capcal": 200.04,
+    "spike": 8.98
+   },
+   "decay_a": 0.0,
+   "cap": 3,
+   "spike_value": 3,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M336",
+   "cls": "T",
+   "dist": {
+    "3": 89
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M89": 89
+   },
+   "q_spike": 0.00032498375081245934,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 43,
+   "best": "spike",
+   "bic": {
+    "decay": 122.43,
+    "capcal": 98.24,
+    "spike": 81.89
+   },
+   "decay_a": 1.136,
+   "cap": 3,
+   "spike_value": 2,
+   "spike_share": 0.767,
+   "n_values": 3,
+   "sign": "M99",
+   "cls": "T",
+   "dist": {
+    "1": 9,
+    "2": 33,
+    "3": 1
+   },
+   "p_spike": 9.99950002499875e-05,
+   "modal_numsigns": {
+    "M87": 33
+   },
+   "q_spike": 0.0004333116677499458,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 14,
+   "best": "spike",
+   "bic": {
+    "decay": 47.7,
+    "capcal": 47.7,
+    "spike": 33.12
+   },
+   "decay_a": 0.0,
+   "cap": 5,
+   "spike_value": 5,
+   "spike_share": 0.714,
+   "n_values": 2,
+   "sign": "M409",
+   "cls": "T",
+   "dist": {
+    "3": 4,
+    "5": 10
+   },
+   "p_spike": 0.0607969601519924,
+   "modal_numsigns": {
+    "M96": 10
+   },
+   "q_spike": 0.11290864028227161,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "unclear"
+  },
+  {
+   "n": 23,
+   "best": "spike",
+   "bic": {
+    "decay": 72.5,
+    "capcal": 35.02,
+    "spike": 6.27
+   },
+   "decay_a": 0.754,
+   "cap": 2,
+   "spike_value": 2,
+   "spike_share": 1.0,
+   "n_values": 1,
+   "sign": "M403",
+   "cls": "T",
+   "dist": {
+    "2": 23
+   },
+   "p_spike": 4.999750012499375e-05,
+   "modal_numsigns": {
+    "M87": 23
+   },
+   "q_spike": 0.00032498375081245934,
+   "p_uniform_to_cap": 4.999750012499375e-05,
+   "verdict": "lexeme-like"
+  },
+  {
+   "n": 12,
+   "best": "capcal",
+   "bic": {
+    "decay": 33.79,
+    "capcal": 28.85,
+    "spike": 35.13
+   },
+   "decay_a": 1.321,
+   "cap": 3,
+   "spike_value": 2,
+   "spike_share": 0.583,
+   "n_values": 3,
+   "sign": "M343",
+   "cls": "T",
+   "dist": {
+    "1": 4,
+    "2": 7,
+    "3": 1
+   },
+   "p_spike": 0.36788160591970404,
+   "modal_numsigns": {
+    "M87": 7
+   },
+   "q_spike": 0.531384541884017,
+   "p_uniform_to_cap": 0.11859407029648518,
+   "verdict": "count-like"
+  },
+  {
+   "n": 9,
+   "best": "capcal",
+   "bic": {
+    "decay": 23.99,
+    "capcal": 21.97,
+    "spike": 29.35
+   },
+   "decay_a": 1.531,
+   "cap": 3,
+   "spike_value": 4,
+   "spike_share": 0.0,
+   "n_values": 3,
+   "sign": "M123",
+   "cls": "T",
+   "dist": {
+    "1": 4,
+    "2": 4,
+    "3": 1
+   },
+   "p_spike": 0.9406029698515074,
+   "modal_numsigns": {},
+   "q_spike": 1.0,
+   "p_uniform_to_cap": 0.39473026348682566,
+   "verdict": "count-like"
+  }
+ ],
+ "pooled_S": {
+  "1": 101,
+  "2": 17,
+  "3": 90,
+  "4": 36,
+  "5": 19,
+  "6": 19,
+  "7": 56,
+  "8": 7,
+  "9": 3,
+  "10": 1,
+  "12": 40
+ },
+ "pooled_T": {
+  "1": 92,
+  "2": 191,
+  "3": 153,
+  "4": 5,
+  "5": 14
+ },
+ "caps_countlike_head": {
+  "8": 1,
+  "9": 1,
+  "3": 1,
+  "4": 1
+ },
+ "context_var": {
+  "M162_site": {
+   "groups": {
+    "Mohenjodaro": 22,
+    "Harappa": 6,
+    "Lothal": 1,
+    "Other sites": 1,
+    "West Asian finds": 1
+   },
+   "p": 0.6624675064987002
+  },
+  "M162_object_type": {
+   "groups": {
+    "seal": 28,
+    "sealing": 3
+   },
+   "p": 0.8618276344731054
+  },
+  "M169_site": {
+   "groups": {
+    "Mohenjodaro": 16,
+    "Harappa": 9,
+    "Lothal": 2
+   },
+   "p": 0.3805238952209558
+  },
+  "M169_object_type": {
+   "groups": {
+    "seal": 20,
+    "sealing": 3,
+    "copper tablet": 1,
+    "ivory/bone rod": 1,
+    "pottery graffito": 1,
+    "bronze implement": 1
+   },
+   "p": 0.9410117976404719
+  }
+ }
+}

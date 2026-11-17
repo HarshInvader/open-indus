@@ -1,0 +1,153 @@
+family,legend,other_face_type,other_face,n_tablets_M77,n_tablets_ICIT,M77_text_nos,ICIT_ids
+F01,# M245 M358 M342,one-face-only,,1,0,1715,
+F01,M204 M245 M358 M342,picture,other picture (ICIT Othr),0,28,,- - - - M-551 M-552 M-553 M-554 M-555 M-556 M-557 M-558 M-559 M-560 M-561 M-562 M-563 M-564 M-565 M-1503 M-1504 M-1505 M-1506 M-1507 M-1508 M-1509 M-1512 M-1513
+F01,M204 M245 M358 M342,picture,ox-antelope (long curly horns),19,0,1708 1712 1804 1806 2909 2915 3306 3314 3339 3341 3342 3353 3359 3361 3371 3379 3386 3403 3404,
+F01,M204 M245 M358 M342,picture,ox-antelope/gaur (ICIT Gaur),0,1,,M-2046
+F01,M204 M245 M342,picture,rhinoceros,1,1,1707,-
+F01,M204 M245 M342,sign-face,M184,2,2,3334 3398,M-516 M-517
+F02,M65 M336 M89 M407 M169 M183 M169,one-face-only,,1,0,3337,
+F02,M65 M336 M89 M407 M169 M183 M169,picture,hare,9,12,1705 1706 3304 3312 3331 3354 3355 3381 3384,M-534 M-535 M-536 M-537 M-538 M-539 M-541 M-542 M-1491 M-1492 M-1493 M-1494
+F02,# M336 M89 M407 M169 #,picture,hare,1,0,3326,
+F02,M65 M336 M89 M407 M169 M183 M169,sign-face,M355,0,2,,M-593 M-1547
+F03,M389 M407 M124 M169 M373 M287 M342,one-face-only,,2,0,3365 3376,
+F03,M389 M407 M124 M169 M373 M287 M342,picture,horned archer personage,5,10,2914 3358 3369 3385 3387,M-582 M-583 M-585 M-586 M-587 M-588 M-1535 M-1536 M-1540 M-2050
+F03,M389 M407 M124 M169 M373 M287 M342,sign-face,M362 (horned-U family),2,2,2903 3315,M-2054 M-1563
+F03,M389 M407 M124 M169 M373 M287 M342,sign-face,M363 (horned-U family),1,1,3414,M-602
+F03,M389 M407 M169 M373 M287 M342,sign-face,M364 (horned-U family),0,1,,M-603
+F03,M389 M407 M124 M169 M373 M287 M342,sign-face,M364 (horned-U family),0,1,,M-604
+F04,M336 M89 M296 M342,one-face-only,,1,0,3388,
+F04,M336 M89 M296 M342 M98,one-face-only,,1,0,3390,
+F04,M336 M89 M296 M342 M97,picture,composite/two-headed (ICIT Comp),0,1,,-
+F04,M336 M89 M296 M342,picture,elephant,3,7,1711 3356 3392,M-1482 M-1483 M-1484 M-1485 M-1486 M-1488 M-2042
+F04,M336 M89 M296 M342 M98,picture,elephant,3,0,3328 3336 3368,
+F04,M336 M89 M296 M342 M97,picture,elephant,0,4,,M-527 M-528 M-529 M-530
+F04,M336 M89 M296 M342 M98,picture,horned tiger,1,0,1704,
+F05,M389 M72 M48 M342,one-face-only,,1,1,3346,M-503
+F05,M389 M72 M326 M342,one-face-only,,1,0,3395,
+F05,M389 M72 M48 M342,picture,goat-antelope (horns arching back),4,0,1701 1801 2912 3345,
+F05,M389 M72 M326 M342,picture,goat-antelope (horns arching back),3,0,1702 3323 3405,
+F05,# M72 M48 M342,picture,other picture (ICIT Othr),0,1,,M-502
+F05,M389 M72 M326 M342,picture,other picture (ICIT Othr),0,1,,M-504
+F05,# M72 M326 M342,picture,other picture (ICIT Othr),0,1,,M-505
+F05,M379 M72 M48 M342,picture,other picture (ICIT Othr),0,1,,M-1448
+F05,M389 M72 M48 M342,picture,other picture (ICIT Othr),0,1,,M-1449
+F05,M389 M70 M48 M342,picture,other picture (ICIT Othr),0,1,,M-1452
+F05,M389 M72 M326 M342,sign-face,M346,2,2,3313 3343,M-597 M-1550
+F06,M70 M112 M194 M18 M211 M87 M169,one-face-only,,0,1,,M-549
+F06,M70 M112 M194 M18 M211 M87 M169,picture,buffalo,0,1,,-
+F06,M70 M112 M194 M18 M211 M87 M169,picture,goat-antelope (twirled horns),3,1,1803 2911 3303,M-548
+F06,M59 M112 M194 M18 M211 M87 M169,picture,goat-antelope (twirled horns),2,0,3305 3373,
+F06,M70 M112 M194 M18 M211 M87 M169,picture,other picture (ICIT Othr),0,1,,M-547
+F06,M59 M112 M194 M18 M211 M87 M169,sign-face,M362 (horned-U family),0,1,,M-2053
+F06,M59 M112 M194 M18 M211 M87 M169,sign-face,M363 (horned-U family),2,1,2901 3360,M-599
+F06,# M18 M211 M87 M169,sign-face,M364 (horned-U family),1,0,3375,
+F06,M70 M112 M194 M18 M211 M87 M169,sign-face,M364 (horned-U family),0,4,,M-1555 M-1556 M-1557 M-1558
+F07,M53 M67 M407 M124 M169,one-face-only,,0,1,,M-569
+F07,M53 M67 M407 M124 M169,picture,horned tiger,2,0,2910 3332,
+F07,M53 M67 M407 M124 M169,picture,other picture (ICIT Othr),0,2,,M-1515 M-1516
+F07,M53 M67 M407 M124 M169,picture,ox-antelope (short horns),3,0,3322 3372 3374,
+F07,M53 M67 M407 M124 M169,picture,ox-antelope/gaur (ICIT Gaur),0,1,,M-567
+F07,M53 M67 M407 M124 M169,picture,tiger,1,2,1709,M-568 M-1517
+F07,M53 M67 M407 M124 M169,picture,unknown,0,1,,-
+F08,M295 M87 M97 M252 M97 M25 M245 M245,one-face-only,,0,1,,M-1528
+F08,M294 M87 M97 M252 M97 M25 M245 M245,picture,composite/two-headed (ICIT Comp),0,1,,M-1529
+F08,M295 M87 M97 M252 M97 M25 #,picture,composite/two-headed (ICIT Comp),0,1,,M-2049
+F08,M295 M87 M97 M252 M97 M25 M245 M245,picture,other picture (ICIT Othr),0,5,,M-575 M-576 M-1530 M-1531 M-1532
+F08,W495 M230 W365 M99 M104 M169 | M295 M87 M97 M252 M97 M25 M245 M245,picture,other picture (ICIT Othr),0,1,,M-577
+F08,M295 M87 M97 M252 M97 M25 M245 M245,picture,two-headed animal,3,0,2920 3316 3344,
+F08,M298 M99 M104 M169 | M295 M87 M97 M252 M97 M25 M245 M245,picture,two-headed animal,1,0,3347,
+F09,M345 M341 M18 M252 M97 M25 M245 M245,one-face-only,,1,0,3401,
+F09,M345 M341 M18 #,one-face-only,,1,0,3407,
+F09,# M341 M18 M252 M97 M25 M245 M245,picture,double-axe,1,0,3413,
+F09,M18 M252 M97 M25 M245 M245,picture,double-axe,0,1,,M-592
+F09,M345 M341 M18 M252 M97 M25 M245 M245,picture,two-headed animal,1,0,3393,
+F09,M345 M341 M18 M252 M97 M25 M245 M245,picture,unicorn,3,1,1710 2916 3362,M-1470
+F09,M345 M347 M18 M252 M97 M25 M245 M245,picture,unicorn,0,2,,M-519 M-520
+F10,M102 M190 M48 M8 M342,one-face-only,,0,1,,M-1497
+F10,M102 M190 M48 M8 M342 M373,picture,goat-antelope (twirled horns),4,0,2917 3301 3357 3363,
+F10,M102 M190 M48 #,picture,goat-antelope (twirled horns),1,1,3383,M-546
+F10,M102 M190 M48 M8 M342 M261,picture,goat-antelope (twirled horns),0,3,,M-543 M-544 M-545
+F10,M102 M190 M48 M8 M342,picture,other picture (ICIT Othr),0,1,,M-1499
+F11,M65 M72 M62 M342,picture,other picture (ICIT Othr),0,1,,M-572
+F11,M267 M402 M97 M25 M245 M245 | M65 M72 M62 M342,picture,other picture (ICIT Othr),0,1,,M-573
+F11,M267 M402 M97 M25 M245 M245,picture,other picture (ICIT Othr),0,1,,M-574
+F11,M65 M59 M62 M342,picture,other picture (ICIT Othr),0,1,,M-1520
+F11,M65 M72 M62 M342,picture,rhinoceros,2,2,2907 3317,M-1521 M-1522
+F11,M267 M402 M97 M25 M245 M245 | M65 M72 M62 M342,picture,rhinoceros,2,0,3318 3415,
+F12,M112 M194 M327 M342,picture,composite/two-headed (ICIT Comp),0,1,,M-578
+F12,M112 M194 M327 M342,picture,other picture (ICIT Othr),0,3,,M-580 M-581 M-1534
+F12,M112 M194 M327 M342,picture,two-headed animal,3,0,1703 2908 3321,
+F13,M51 M130 M149 M342 M287 M102 M190,one-face-only,,0,2,,M-1479 M-1480
+F13,M51 M130 M149 M342 M123 M102 M190,picture,buffalo,1,0,1713,
+F13,M51 M130 M149 M342 M287 M97 M102 M190,picture,buffalo,0,1,,M-1475
+F13,M51 M130 M149 M342 M287 M102 M190,picture,buffalo,0,1,,M-1476
+F13,# M149 M342 M287 #,picture,bull (ICIT),0,1,,M-1477
+F13,M51 M130 M149 M342 M287 M97 M102 M190,picture,ox-antelope/gaur (ICIT Gaur),0,1,,M-525
+F14,M171 M59 M407 M169,picture,endless knot,3,3,1805 3350 3352,M-507 M-508 M-1456
+F14,# M171 M8 M342 | M171 M59 M407 M169,picture,endless knot,1,0,2904,
+F15,M389 M65 M72 M336 M89 M194 M169,one-face-only,,1,1,3396,M-1524
+F15,M389 M65 M72 M336 M89 M194 M169,picture,composite/two-headed (ICIT Comp),0,2,,- M-1523
+F15,M389 M65 M72 M336 M89 M194 M169,picture,rhinoceros,1,0,1802,
+F16,M358 M342,one-face-only,,0,1,,M-1514
+F16,M53 M342,one-face-only,,0,1,,K-158
+F16,M72 M53 M342,second-text,# M287 M319,0,1,,M-1461
+F16,M348 M342,sign-face,M96,1,1,2921,M-1465
+F17,M87 M155 M169,picture,ox-antelope/gaur (ICIT Gaur),0,2,,M-523 M-524
+F17,M87 M155 M169,picture,short-horned bull,2,0,1714 3391,
+F18,M89 M328 M287 M319,second-text,M87 M59 M48 M342,2,0,2905 2906,
+F18,M102 M328 M287 M319,second-text,M87 M59 M48 M342,0,2,,M-511 M-512
+F19,# M342 M67 M138,second-text,M287 M319,1,0,3319,
+F19,M201 M99 M48 M342 M67 M138,second-text,M287 M319,1,0,3320,
+F19,M201 M99 M48 M342 M67 M161,second-text,M287 M319,0,2,,M-509 M-510
+F20,M53 M70 M336 M89 M294 M8 M342,sign-face,M51,1,2,2918,M-606 M-1568
+F21,M336 M89 M87,second-text,M72 M194 M169,3,0,3302 3335 3364,
+F22,M70 M51 M130 M149 M342,one-face-only,,1,0,3307,
+F22,M70 M51 M130 M149 M342,second-text,W479 M346,0,2,,- M-1548
+F23,# # M342,one-face-only,,0,2,,- M-1454
+F23,# # M342,two-faced-other,,0,1,,M-596
+F24,M72 M194 M169,second-text,M106 M336,0,3,,M-513 M-514 M-515
+F25,M102 M59 M249 M169 M342,sign-face,M405,1,0,2902,
+F25,M102 M59 M249 M161 M342,sign-face,M405,0,1,,M-605
+F26,M87 M59 M348 M342,picture,composite animal,1,0,2913,
+F26,M87 M59 M348 M342,picture,composite/two-headed (ICIT Comp),0,1,,M-571
+F27,M102 M72 M8 M342,picture,composite/two-headed (ICIT Comp),0,1,,M-550
+F27,M102 M59 M8 M342,picture,short-horned bull,1,0,3351,
+F28,M245 M184 M252,picture,ox-antelope (short horns),1,0,3378,
+F28,M245 M184 M252,picture,ox-antelope/gaur (ICIT Gaur),0,1,,M-522
+F29,# # M326 M342,one-face-only,,0,1,,M-1455
+F29,# # M326 M342,picture,other picture (ICIT Othr),0,1,,M-1453
+F30,M267,two-faced-other,,1,0,2919,
+F31,# M174,one-face-only,,1,0,3309,
+F32,M389 M407 #,one-face-only,,1,0,3310,
+F33,# M51 # M342,one-face-only,,1,0,3325,
+F34,# M149 M342 #,picture,uncertain bovine,1,0,3329,
+F35,M295 M87 #,one-face-only,,1,0,3333,
+F36,# M194 # M342,picture,two-headed animal,1,0,3340,
+F37,M336 M89 # M342,picture,elephant,1,0,3349,
+F38,# M59 M407 #,one-face-only,,1,0,3367,
+F39,# M407 M124 M169 # M287 M342,picture,horned archer personage,1,0,3406,
+F40,M389 #,one-face-only,,1,0,3410,
+F41,# # # M169 # M287 M342,picture,horned archer personage,0,1,,M-584
+F42,M345 M341 # #,one-face-only,,0,1,,M-521
+F43,# M296 #,one-face-only,,0,1,,M-531
+F44,M389,one-face-only,,0,1,,M-598
+F45,M169 M87 M211 M1,sign-face,M364 (horned-U family),0,1,,M-600
+F46,W354,one-face-only,,0,1,,M-607
+F47,# M59 M342,one-face-only,,0,1,,M-608
+F48,# M72 M59 M342,picture,other picture (ICIT Othr),0,1,,M-1450
+F49,M249 M161 M8 M342 M261,picture,endless knot,0,1,,M-1457
+F50,M25 M245 M245 M97 M104 M169,second-text,M287 M319,0,1,,M-1458
+F51,M345 M341 M25 M252 M97,picture,unicorn,0,1,,M-1472
+F52,M51 M130 M149 M342 #,picture,bull (ICIT),0,1,,M-1474
+F53,# M102 #,picture,bull (ICIT),0,1,,M-1478
+F54,M102 # M48 # M342 M261,picture,other picture (ICIT Othr),0,1,,M-1498
+F55,M70 M51,sign-face,M346,0,1,,M-1549
+F56,M70,one-face-only,,0,1,,M-1561
+F57,M294 M87 M294,one-face-only,,0,1,,M-1569
+F58,M204 # M358 M342,picture,ox-antelope/gaur (ICIT Gaur),0,1,,M-2045
+F59,# M189,picture,tiger,0,1,,M-2047
+F60,# # M407 M124 M169,picture,ox-antelope/gaur (ICIT Gaur),0,1,,M-2048
+F61,M379 M249 M28 M169 M99,one-face-only,,0,1,,M-2055
+F62,# M130 M149 M342,one-face-only,,0,1,,M-594
+F63,# M89 # #,one-face-only,,0,1,,M-1487
+F64,M362,one-face-only,,0,1,,M-1566

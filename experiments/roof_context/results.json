@@ -1,0 +1,308 @@
+{
+ "task": "roof_context",
+ "prereg": "docs/prereg/roof_context.md",
+ "verdict": "neither",
+ "context": {
+  "A_icit": {
+   "k": 5,
+   "z": -2.55602595615466,
+   "or": 0.24671774867687674,
+   "obs": 4.0,
+   "exp": 9.113959111775383,
+   "up": 1,
+   "down": 3,
+   "p_perm_up": 0.9968006398720256,
+   "p_fake_up": 0.9980009995002499
+  },
+  "A_m77": {
+   "k": 4,
+   "z": -1.4910863149681006,
+   "or": 0.35721939458880253,
+   "obs": 6.0,
+   "exp": 8.457245263696876,
+   "up": 0,
+   "down": 3,
+   "p_perm_up": 0.9256148770245951,
+   "p_fake_up": 0.8440779610194903
+  },
+  "A_icit_noFish": {
+   "k": 3,
+   "z": 0.7618613552322077,
+   "or": 2.024539877300614,
+   "obs": 1.0,
+   "exp": 0.5201149425287356,
+   "up": 1,
+   "down": 1,
+   "p_perm_up": 0.22475504899020196,
+   "p_fake_up": 0.15942028985507245
+  },
+  "B_merged": {
+   "k": 6,
+   "z": 0.8688716773149778,
+   "or": 1.4076792417866009,
+   "obs": 13.0,
+   "exp": 10.87781475056636,
+   "up": 3,
+   "down": 2,
+   "p_perm_up": 0.1857628474305139,
+   "p_fake_up": 0.22438780609695153
+  },
+  "B_m77": {
+   "k": 9,
+   "z": 0.06737700492835495,
+   "or": 1.0235333564416913,
+   "obs": 15.0,
+   "exp": 14.811768349926616,
+   "up": 3,
+   "down": 3,
+   "p_perm_up": 0.45550889822035595,
+   "p_fake_up": 0.496751624187906
+  },
+  "B_merged_Fnondomestic": {
+   "k": 6,
+   "z": -0.011959948581258446,
+   "or": 0.9961321864328682,
+   "obs": 40.0,
+   "exp": 40.03503290664599,
+   "up": 2,
+   "down": 3,
+   "p_perm_up": 0.5152969406118776,
+   "p_fake_up": 0.5412293853073463
+  },
+  "B_merged_noFish": {
+   "k": 4,
+   "z": 1.109368141970286,
+   "or": 22.0,
+   "obs": 1.0,
+   "exp": 0.4272727272727273,
+   "up": 1,
+   "down": 2,
+   "p_perm_up": 0.1315736852629474,
+   "p_fake_up": 0.127936031984008
+  }
+ },
+ "A2_lothal": {
+  "n_roofed_sealings": 2,
+  "verdict": "untestable (<3 roofed sealings with diagnostic back)"
+ },
+ "position": {
+  "C1_m77_all": {
+   "k": 10,
+   "T": 2.835348133302827,
+   "z": 6.036395461568792,
+   "up": 8,
+   "down": 2,
+   "p_up": 0.0704647676161919
+  },
+  "C1_icit_all": {
+   "k": 6,
+   "T": 3.1084848425474143,
+   "z": 5.793429928086401,
+   "up": 6,
+   "down": 0,
+   "p_up": 0.03548225887056472
+  },
+  "C1_m77_all_noFish": {
+   "k": 8,
+   "T": 1.870929358572855,
+   "z": 2.7960567131669456,
+   "up": 6,
+   "down": 2,
+   "p_up": 0.1024487756121939
+  },
+  "C1_icit_all_noFish": {
+   "k": 4,
+   "T": 2.4548156236589778,
+   "z": 4.044306863380943,
+   "up": 4,
+   "down": 0,
+   "p_up": 0.013493253373313344
+  }
+ },
+ "C2": {
+  "C2_m77_all": {
+   "roofed_first": 15,
+   "base_first": 7,
+   "p_two": 0.13380050659179688
+  },
+  "C2_icit_all": {
+   "roofed_first": 13,
+   "base_first": 8,
+   "p_two": 0.38331031799316406
+  }
+ },
+ "power": {
+  "A_icit_sealing": {
+   "units": 2271,
+   "ctx_rate_all_units": 0.08190224570673713,
+   "k_bases": 5,
+   "derived_tokens": {
+    "W235": 159,
+    "W391": 7,
+    "W361": 2,
+    "W573": 1,
+    "W236": 16
+   },
+   "base_tokens": {
+    "W220": 280,
+    "W390": 192,
+    "W360": 9,
+    "W572": 6,
+    "W226": 30
+   },
+   "power_OR2": 0.523,
+   "power_OR3": 0.864
+  },
+  "A_m77_sealing_trueSites": {
+   "units": 254,
+   "ctx_rate_all_units": 0.3779527559055118,
+   "k_bases": 4,
+   "derived_tokens": {
+    "M65": 14,
+    "M92": 1,
+    "M163": 1,
+    "M66": 4
+   },
+   "base_tokens": {
+    "M59": 27,
+    "M89": 12,
+    "M162": 21,
+    "M60": 4
+   },
+   "power_OR2": 0.325,
+   "power_OR3": 0.555
+  },
+  "B_merged_citadel": {
+   "units": 2614,
+   "ctx_rate_all_units": 0.08951798010711554,
+   "k_bases": 6,
+   "derived_tokens": {
+    "W235": 159,
+    "W678": 2,
+    "W391": 4,
+    "W361": 2,
+    "W573": 1,
+    "W236": 12
+   },
+   "base_tokens": {
+    "W220": 276,
+    "W645": 14,
+    "W390": 170,
+    "W360": 11,
+    "W572": 4,
+    "W226": 22
+   },
+   "power_OR2": 0.61,
+   "power_OR3": 0.96
+  },
+  "B_m77_locus_citadel": {
+   "units": 2026,
+   "ctx_rate_all_units": 0.08193484698914116,
+   "k_bases": 9,
+   "derived_tokens": {
+    "M65": 149,
+    "M138": 3,
+    "M159": 2,
+    "M163": 4,
+    "M334": 4,
+    "M203": 2,
+    "M196": 1,
+    "M14": 10,
+    "M66": 8
+   },
+   "base_tokens": {
+    "M59": 259,
+    "M137": 11,
+    "M158": 1,
+    "M162": 146,
+    "M333": 3,
+    "M202": 8,
+    "M195": 3,
+    "M12": 49,
+    "M60": 20
+   },
+   "power_OR2": 0.731,
+   "power_OR3": 0.991
+  },
+  "A2_lothal_backs": {
+   "sealings_with_diag_back": 75,
+   "with_roofed_sign": 2
+  }
+ },
+ "leads_predictions": {
+  "file": "docs/prereg/2026-11-15_leads_predictions.md",
+  "scorer": "experiments/new_finds/score_leads.py",
+  "baselines": {
+   "L1_roof_initial": {
+    "roofed_initial": 69,
+    "roofed_n": 213,
+    "base_initial": 84,
+    "base_n": 750,
+    "roofed_share": 0.323943661971831,
+    "base_share": 0.112
+   },
+   "L3_ticked_final": {
+    "ticked_final": 32,
+    "ticked_n": 56,
+    "plain_final": 58,
+    "plain_n": 909
+   },
+   "L4_numeral_before_M59": {
+    "tall2": 65,
+    "short3": 16,
+    "short6": 12,
+    "short4": 5,
+    "tall1": 5,
+    "short12": 4,
+    "short7": 1,
+    "tall4": 1,
+    "short1": 1
+   },
+   "L6_lexeme_heads_all_M77": {
+    "M211": "39/41",
+    "M59": "65/71",
+    "M342": "26/35",
+    "M60": "13/13",
+    "M197": "14/14",
+    "M15": "8/10",
+    "M194": "19/19",
+    "M403": "11/11",
+    "M25": "9/11",
+    "M284": "10/11",
+    "M190": "14/14"
+   },
+   "L6_pooled_expected_share": 0.325,
+   "L5_M93": {
+    "texts": 11,
+    "sites": {
+     "Chanhudaro": 11
+    },
+    "position": {
+     "line_final_or_alone": 10,
+     "medial": 1
+    }
+   },
+   "L2_oval_bangle": {
+    "bangle_texts": 41,
+    "with_W790": 6,
+    "with_W840_M403": 5,
+    "other_short_texts": 1775,
+    "other_short_with_W790": 16,
+    "other_short_with_W840": 25
+   },
+   "L7_seal_size_icit_square": {
+    "none": {
+     "n": 51,
+     "median_mm": 21.6
+    },
+    "animal": {
+     "n": 1235,
+     "median_mm": 26.7
+    },
+    "ratio": 0.8089887640449439
+   }
+  },
+  "current_new_finds": "all L1-L7 inconclusive (2 scorable new texts)",
+  "W790_photo_check": "lens/oval (M373 or M374), not diamond M261 (CISI vol2 M-1644, M-1645; M-1646 diamond coded W850)"
+ }
+}

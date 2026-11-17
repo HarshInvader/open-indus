@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seal impression · Open Indus</title>
+<meta name="description" content="Design direction B: everything reads as carved stone or pressed clay.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+(function () {
+  var t = null;
+  try { t = new URLSearchParams(location.search).get('theme') || localStorage.getItem('oi-explore-theme'); } catch (e) {}
+  if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+})();
+</script>
+<style>
+/* ------------------------------------------------------------------ tokens */
+:root {
+  --ground: #e7e2d8;          /* weathered steatite */
+  --ground-2: #ddd7cb;
+  --slab: #efeae1;            /* raised clay / stone */
+  --ink: #1b2130;
+  --ink-2: #474d5b;           /* 7.2:1 on ground */
+  --ink-3: #5d6270;           /* 5.2:1 on ground */
+  --lapis: #22408f;
+  --lapis-2: #3456b4;
+  --lapis-ink: #f3f1ec;
+  --gold: #9a6a1f;
+  --hi: rgba(255,255,255,.78);  /* light from top left */
+  --lo: rgba(60,48,30,.20);     /* shade bottom right */
+  --lo-2: rgba(60,48,30,.32);
+  --rule: rgba(27,33,48,.14);
+  --wall-op: 1;
+  --face: #ebe4d6; --side-a: #c9bfac; --side-b: #9d917b; --side-c: #ddd3c1;
+  --light: #fff8ec;
+  --shadow: rgba(48,38,24,.42);
+  --chance: #b9b1a1;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #12161f; --ground-2: #0d1118; --slab: #1b2130;
+    --ink: #ece7dc; --ink-2: #bdb8ad; --ink-3: #a29e95;
+    --lapis: #8ea6f2; --lapis-2: #a9bcf7; --lapis-ink: #0e1426; --gold: #d9a957;
+    --hi: rgba(255,255,255,.07); --lo: rgba(0,0,0,.45); --lo-2: rgba(0,0,0,.6);
+    --rule: rgba(236,231,220,.12); --wall-op: .7;
+    --face: #e0d8c8; --side-a: #b3a891; --side-b: #7d725f; --side-c: #cbc1ae;
+    --light: #fff4e0; --shadow: rgba(0,0,0,.7); --chance: #59606f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #12161f; --ground-2: #0d1118; --slab: #1b2130;
+  --ink: #ece7dc; --ink-2: #bdb8ad; --ink-3: #a29e95;
+  --lapis: #8ea6f2; --lapis-2: #a9bcf7; --lapis-ink: #0e1426; --gold: #d9a957;
+  --hi: rgba(255,255,255,.07); --lo: rgba(0,0,0,.45); --lo-2: rgba(0,0,0,.6);
+  --rule: rgba(236,231,220,.12); --wall-op: .7;
+  --face: #e0d8c8; --side-a: #b3a891; --side-b: #7d725f; --side-c: #cbc1ae;
+  --light: #fff4e0; --shadow: rgba(0,0,0,.7); --chance: #59606f;
+  color-scheme: dark;
+}
+
+/* ------------------------------------------------------------------ base */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--ground); color: var(--ink);
+  font: 400 17px/1.6 "Hanken Grotesk", "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+/* stone grain over the whole ground, very low contrast */
+body::before {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 0; opacity: .5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 .4 0 0 0 0 .35 0 0 0 0 .28 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='220' height='220' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a { color: inherit; }
+img { max-width: 100%; display: block; }
+.wrap { width: min(1240px, 100% - 32px); margin-inline: auto; position: relative; z-index: 1; }
+h1, h2, h3 { font-family: Gloock, Georgia, "Times New Roman", serif; font-weight: 400; margin: 0; letter-spacing: -.01em; }
+.kicker { font-weight: 600; font-size: 14px; letter-spacing: .02em; color: var(--ink-3); margin: 0 0 22px; display: flex; align-items: center; gap: 10px; }
+.kicker::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--ground); box-shadow: inset 1px 1px 2px var(--lo-2), inset -1px -1px 1px var(--hi); }
+:focus-visible { outline: 2px solid var(--lapis); outline-offset: 3px; border-radius: 6px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ------------------------------------------------------------------ header */
+header.top { position: relative; z-index: 3; }
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 20px 0; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
+.brand .stamp { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--slab); box-shadow: inset 2px 2px 3px var(--lo-2), inset -2px -2px 3px var(--hi), 0 1px 0 var(--hi); }
+.brand .stamp svg { width: 22px; height: 22px; filter: drop-shadow(1px 1px 0 var(--hi)) drop-shadow(-.5px -.5px 0 var(--lo)); }
+.brand .word { height: 22px; width: auto; }
+nav.main { display: flex; align-items: center; gap: 4px; }
+nav.main a { text-decoration: none; font-weight: 500; font-size: 15px; color: var(--ink-2); padding: 8px 12px; border-radius: 999px; transition: color .15s ease, background-color .15s ease; }
+nav.main a[aria-current] { color: var(--ink); background: var(--slab); box-shadow: inset 1px 1px 2px var(--lo), inset -1px -1px 1px var(--hi); }
+@media (hover: hover) and (pointer: fine) { nav.main a:hover { color: var(--ink); } }
+.theme { font: inherit; font-size: 14px; font-weight: 600; color: var(--ink-2); background: var(--slab); border: 0; border-radius: 999px; padding: 8px 14px; cursor: pointer;
+  box-shadow: 1px 1px 2px var(--lo), -1px -1px 1px var(--hi); }
+@media (max-width: 860px) { nav.main a:not([aria-current]) { display: none; } }
+
+/* ------------------------------------------------------------------ hero */
+.hero { position: relative; padding: 48px 0 40px; }
+.hero .wrap { display: grid; grid-template-columns: minmax(0, 1.04fr) minmax(0, 1fr); gap: 32px; align-items: center; }
+.hero h1 { font-size: clamp(52px, 7.4vw, 108px); line-height: .94; letter-spacing: -.025em; text-wrap: balance; }
+.hero h1 .cut { color: var(--lapis); }
+.lede { font-size: clamp(20px, 2vw, 24px); line-height: 1.4; margin: 28px 0 0; max-width: 30ch; color: var(--ink); text-wrap: pretty; }
+.def { margin: 18px 0 0; max-width: 56ch; color: var(--ink-2); }
+.def b { color: var(--ink); font-weight: 600; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+
+/* buttons: a pressed stone key */
+.btn { --b: var(--slab); font: inherit; font-weight: 600; font-size: 16px; text-decoration: none; color: var(--ink);
+  display: inline-flex; align-items: center; gap: 10px; padding: 14px 22px; border-radius: 14px; border: 0; cursor: pointer;
+  background: var(--b);
+  box-shadow: inset 1px 1px 0 var(--hi), inset -1px -1px 0 var(--lo), 0 1px 0 var(--lo-2), 0 10px 20px -10px var(--shadow);
+  transition: transform .16s cubic-bezier(.23,1,.32,1), box-shadow .16s cubic-bezier(.23,1,.32,1); }
+.btn.primary { --b: var(--lapis); color: var(--lapis-ink);
+  background: linear-gradient(180deg, var(--lapis-2), var(--lapis));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.28), inset 0 -2px 0 rgba(0,0,0,.18), 0 1px 0 var(--lo-2), 0 12px 22px -10px var(--shadow); }
+.btn:active { transform: translateY(1px) scale(.98); box-shadow: inset 2px 2px 4px var(--lo-2), inset -1px -1px 0 var(--hi); }
+.btn svg { width: 16px; height: 16px; }
+
+/* the seal stage */
+.stage { position: relative; min-height: 560px; overflow: clip; overflow-clip-margin: 40px; display: grid; place-items: center; }
+.wall { position: absolute; inset: -40px -60px -20px -20px; opacity: var(--wall-op);
+  -webkit-mask-image: radial-gradient(closest-side at 55% 50%, #000 40%, transparent 100%);
+          mask-image: radial-gradient(closest-side at 55% 50%, #000 40%, transparent 100%); pointer-events: none; }
+.wall svg { width: 100%; height: 100%; }
+.scene { position: relative; perspective: 1500px; width: min(400px, 78vw); aspect-ratio: 1; }
+.seal { position: absolute; inset: 0; transform-style: preserve-3d; transform: rotateX(var(--rx, 16deg)) rotateY(var(--ry, -24deg)); will-change: transform; }
+.seal .face { position: absolute; inset: 0; transform: translateZ(var(--half)); border-radius: 7%; overflow: hidden; display: block; width: 100%; height: 100%; }
+.seal { --d: 22%; --half: calc(var(--depth) / 2); --depth: 84px; }
+.seal .side { position: absolute; backface-visibility: hidden; }
+.seal .s-r { top: 4%; bottom: 4%; right: calc(var(--half) * -1); width: var(--depth); transform: rotateY(90deg);
+  background: linear-gradient(90deg, var(--side-a), var(--side-b)); border-radius: 6px; }
+.seal .s-l { top: 4%; bottom: 4%; left: calc(var(--half) * -1); width: var(--depth); transform: rotateY(-90deg); background: var(--side-c); border-radius: 6px; }
+.seal .s-t { left: 4%; right: 4%; top: calc(var(--half) * -1); height: var(--depth); transform: rotateX(90deg); background: linear-gradient(var(--side-c), var(--side-a)); border-radius: 6px; }
+.seal .s-b { left: 4%; right: 4%; bottom: calc(var(--half) * -1); height: var(--depth); transform: rotateX(-90deg);
+  background: linear-gradient(var(--side-a), var(--side-b)); border-radius: 6px; }
+/* the pierced boss on the back, seen past the edge when the seal tilts */
+.seal .boss { position: absolute; left: 34%; right: 34%; top: 34%; bottom: 34%; transform: translateZ(calc(var(--half) * -1 - 26px));
+  border-radius: 44% 44% 40% 40%; background: radial-gradient(circle at 35% 30%, var(--side-c), var(--side-b)); }
+.seal .side::after { content: ""; position: absolute; inset: 0; border-radius: inherit; opacity: .35;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .2 0 0 0 .5 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E"); }
+.seal .rim { position: absolute; inset: 0; border-radius: 7%; transform: translateZ(calc(var(--half) + .5px)); pointer-events: none;
+  box-shadow: inset 3px 3px 1px rgba(255,255,255,.6), inset 6px 6px 10px rgba(255,255,255,.25), inset -3px -3px 2px rgba(90,72,48,.35), inset -8px -8px 14px rgba(90,72,48,.18); }
+.contact { position: absolute; left: 6%; right: -4%; bottom: -12%; height: 18%; border-radius: 50%;
+  background: radial-gradient(closest-side, var(--shadow), transparent); filter: blur(14px); transform: translateX(var(--sx, 18px)); }
+.slot-note { position: absolute; bottom: -4px; right: 0; font-size: 13px; color: var(--ink-3); display: flex; gap: 8px; align-items: center; }
+.slot-note::before { content: ""; width: 14px; height: 14px; border: 1.5px dashed currentColor; border-radius: 3px; }
+.hint { position: absolute; top: 6px; right: 0; font-size: 13px; color: var(--ink-3); }
+
+/* ------------------------------------------------------------------ ladder: five clay tags */
+.ladder-wrap { padding: 32px 0 24px; }
+.claim { font-weight: 600; font-size: 18px; margin: 0 0 20px; }
+.ladder { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; align-items: end; }
+.tag { position: relative; border-radius: 16px; padding: 18px 18px 20px; background: var(--slab); min-height: calc(110px + var(--i) * 34px);
+  box-shadow: inset 1px 1px 0 var(--hi), inset -1px -1px 0 var(--lo), 0 2px 0 var(--lo), 0 18px 28px -18px var(--shadow);
+  display: flex; flex-direction: column; justify-content: flex-start; }
+.tag b { font-family: Gloock, Georgia, serif; font-weight: 400; font-size: 22px; line-height: 1.1; }
+.tag span { color: var(--ink-2); font-size: 15px; margin-top: 4px; }
+.tag .state { margin-top: auto; padding-top: 18px; font-size: 13px; font-weight: 600; color: var(--ink-3); display: flex; align-items: center; gap: 8px; }
+.tag .hole { width: 12px; height: 12px; border-radius: 50%; position: absolute; top: 14px; right: 14px; background: var(--ground-2);
+  box-shadow: inset 1px 2px 2px var(--lo-2), 0 1px 0 var(--hi); }
+.tag.done { background: linear-gradient(160deg, var(--lapis-2), var(--lapis)); color: var(--lapis-ink);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25), inset 0 -2px 0 rgba(0,0,0,.2), 0 18px 28px -18px var(--shadow); }
+.tag.done span, .tag.done .state { color: var(--lapis-ink); opacity: .86; }
+.tag.part { background: linear-gradient(to top, color-mix(in srgb, var(--lapis) 22%, var(--slab)) 0 50%, var(--slab) 50%); }
+.tag.part .state i { background: linear-gradient(to top, var(--lapis) 50%, transparent 50%); }
+.tag.open { background: transparent; box-shadow: inset 2px 2px 4px var(--lo), inset -1px -1px 0 var(--hi); }
+.state i { width: 12px; height: 12px; border-radius: 3px; border: 1.5px solid currentColor; display: inline-block; }
+.tag.done .state i { background: currentColor; }
+@media (max-width: 760px) {
+  .ladder { grid-template-columns: 1fr; gap: 10px; }
+  .tag { min-height: 0; flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-left: calc((4 - var(--i)) * 0px); width: calc(64% + var(--i) * 9%); }
+  .tag .state { margin: 0 0 0 auto; padding: 0; }
+  .ladder li:nth-child(1) { order: 5; } .ladder li:nth-child(2) { order: 4; } .ladder li:nth-child(3) { order: 3; } .ladder li:nth-child(4) { order: 2; } .ladder li:nth-child(5) { order: 1; }
+}
+
+/* ------------------------------------------------------------------ section divider: a carved sign band */
+.band { margin: 64px 0 0; height: 64px; border-radius: 14px; background: var(--slab); position: relative; overflow: hidden;
+  box-shadow: inset 2px 3px 6px var(--lo), inset -1px -1px 0 var(--hi); }
+.band svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+/* ------------------------------------------------------------------ findings */
+section.block { padding: 56px 0 24px; }
+.sect-head { display: grid; grid-template-columns: 160px minmax(0, 1fr); gap: 24px; align-items: start; }
+.rail { margin: 6px 0 0; font-weight: 600; font-size: 14px; color: var(--ink-3); display: flex; align-items: center; gap: 12px; }
+.rail .n { width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; font-family: Gloock, Georgia, serif; font-size: 18px; color: var(--ink);
+  background: var(--slab); box-shadow: inset 2px 2px 3px var(--lo-2), inset -2px -2px 2px var(--hi); }
+h2 { font-size: clamp(34px, 4.4vw, 58px); line-height: 1.02; text-wrap: balance; }
+.intro { color: var(--ink-2); max-width: 60ch; margin: 16px 0 0; font-size: 18px; }
+.findings-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 48px; margin-top: 40px; align-items: start; }
+@media (max-width: 900px) { .findings-grid, .sect-head { grid-template-columns: 1fr; } .findings-grid { gap: 36px; } .sect-head { gap: 12px; } }
+
+.chart { display: grid; gap: 28px; }
+.legend { display: flex; gap: 20px; font-size: 14px; color: var(--ink-2); }
+.legend span { display: inline-flex; align-items: center; gap: 8px; }
+.key { width: 22px; height: 10px; border-radius: 5px; display: inline-block; }
+.key.obs { background: var(--lapis); }
+.key.chance { background: var(--chance); }
+.pair .pl { font-weight: 600; margin: 0 0 10px; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.sig { width: 26px; height: 26px; display: inline-block; vertical-align: middle; }
+:root[data-theme="dark"] .sig { filter: invert(.92); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sig { filter: invert(.92); } }
+.bar { display: grid; grid-template-columns: 64px minmax(0, 1fr) 72px; gap: 12px; align-items: center; font-size: 14px; color: var(--ink-2); margin-top: 6px; }
+.bar .bv { text-align: right; font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+/* the track is a channel cut into stone; the fill is a lapis inlay set into it */
+.track { height: 16px; border-radius: 8px; background: var(--ground-2); position: relative;
+  box-shadow: inset 2px 2px 3px var(--lo-2), inset -1px -1px 0 var(--hi); }
+.fill { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 8px; width: var(--v); min-width: 6px; }
+.fill.obs { background: linear-gradient(180deg, var(--lapis-2), var(--lapis)); box-shadow: inset 0 1px 0 rgba(255,255,255,.3); }
+.fill.chance { background: var(--chance); }
+.axis { display: grid; grid-template-columns: 64px minmax(0,1fr) 72px; gap: 12px; font-size: 13px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.axis div { display: flex; justify-content: space-between; }
+
+/* a real seal photograph set into a niche */
+.niche { margin: 0; }
+.niche .well { border-radius: 22px; padding: 18px; background: var(--ground-2);
+  box-shadow: inset 4px 5px 12px var(--lo-2), inset -2px -2px 0 var(--hi); }
+.niche img { border-radius: 10px; width: 100%; height: auto; filter: contrast(1.04);
+  box-shadow: 0 1px 0 var(--hi), 0 14px 24px -14px var(--shadow); }
+:root[data-theme="dark"] .niche img { filter: contrast(1.06) brightness(.92); }
+.niche figcaption { margin-top: 14px; font-size: 14px; color: var(--ink-2); }
+.niche figcaption b { display: block; color: var(--ink); font-weight: 600; }
+
+/* ------------------------------------------------------------------ kit strip */
+.kit { padding: 72px 0 96px; }
+.kit h3 { font-size: 15px; font-family: "Hanken Grotesk", sans-serif; font-weight: 700; color: var(--ink-3); letter-spacing: .02em; margin: 0 0 14px; }
+.kit-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 40px 32px; margin-top: 28px; }
+.kit-grid > div { min-width: 0; }
+.k-div { grid-column: 1 / -1; }
+.k-list { grid-column: span 5; }
+.k-btn { grid-column: span 3; }
+.k-card { grid-column: span 4; }
+@media (max-width: 900px) { .k-list, .k-btn, .k-card { grid-column: 1 / -1; } }
+.thin-band { height: 22px; border-radius: 11px; background: var(--ground-2); box-shadow: inset 1px 2px 3px var(--lo-2), inset -1px -1px 0 var(--hi); position: relative; overflow: hidden; }
+.thin-band svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+ol.cut { list-style: none; margin: 0; padding: 0; display: grid; gap: 18px; counter-reset: c; }
+ol.cut li { display: grid; grid-template-columns: 38px minmax(0, 1fr); gap: 14px; counter-increment: c; }
+ol.cut li::before { content: counter(c); width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-family: Gloock, Georgia, serif; font-size: 16px;
+  background: var(--slab); box-shadow: inset 2px 2px 3px var(--lo-2), inset -2px -2px 2px var(--hi); }
+ol.cut b { display: block; font-weight: 600; }
+ol.cut span { color: var(--ink-2); font-size: 15px; }
+.tablet { border-radius: 20px; padding: 24px; background: var(--slab); position: relative;
+  box-shadow: inset 1px 1px 0 var(--hi), inset -1px -1px 0 var(--lo), 0 2px 0 var(--lo), 0 22px 34px -20px var(--shadow); }
+.tablet .id { display: inline-flex; align-items: center; justify-content: center; min-width: 40px; height: 30px; padding: 0 10px; border-radius: 8px; font-weight: 700; font-size: 14px;
+  box-shadow: inset 1px 1px 2px var(--lo-2), inset -1px -1px 0 var(--hi); color: var(--ink-2); }
+.tablet h4 { font-family: Gloock, Georgia, serif; font-weight: 400; font-size: 22px; line-height: 1.15; margin: 14px 0 8px; }
+.tablet p { margin: 0; color: var(--ink-2); font-size: 15px; }
+.tablet .who { margin-top: 16px; font-size: 14px; font-weight: 600; color: var(--lapis); }
+
+/* ------------------------------------------------------------------ entrance */
+@media (prefers-reduced-motion: no-preference) {
+  .rise { animation: rise .7s cubic-bezier(.23,1,.32,1) both; animation-delay: calc(var(--k, 0) * 70ms); }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+  .scene { animation: settle 1.1s cubic-bezier(.23,1,.32,1) .1s both; }
+  @keyframes settle { from { opacity: 0; transform: translateY(18px) scale(.97); } }
+}
+
+@media (max-width: 860px) {
+  .hero .wrap { grid-template-columns: 1fr; }
+  .stage { min-height: 380px; order: -1; margin-bottom: 8px; }
+  .scene { width: min(280px, 70vw); }
+  .seal { --depth: 60px; }
+  .hint { display: none; }
+  .hero { padding-top: 8px; }
+  .wall { inset: 0; }
+  .stage { overflow: hidden; }
+}
+</style>
+</head>
+<body>
+<a class="sr" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Open Indus, home">
+      <span class="stamp"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/></svg></span>
+      <svg class="word" viewBox="-17.5 -31.5 583 163" fill="none" stroke="currentColor" stroke-width="11" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" id="wm"></svg>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="#" aria-current="page">Overview</a><a href="#">Findings</a><a href="#">Tracker</a><a href="#">Contribute</a><a href="#">GitHub</a>
+    </nav>
+    <button class="theme" type="button" id="theme">Theme</button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    <div>
+      <p class="kicker rise" style="--k:0">Open Indus · an open research group</p>
+      <h1 id="h1" class="rise" style="--k:1">Decipher the Indus script <span class="cut">by 2027.</span></h1>
+      <p class="lede rise" style="--k:2">Today we know how the script is built, not yet what it says. No sign has a proven sound or meaning.</p>
+      <p class="def rise" style="--k:3"><b>Deciphered</b> means: sound values for at least 10 signs that beat chance on our public test bench and survive an independent red team. Our honest odds of getting there by 2027 are under 1 in 10. Every idea is tested in public, on texts it has never seen, and what fails is published too.</p>
+      <div class="actions rise" style="--k:4">
+        <a class="btn primary" href="#">Help decipher it</a>
+        <a class="btn" href="#">Read the findings</a>
+      </div>
+    </div>
+
+    <div class="stage" aria-hidden="true">
+      <div class="wall"><svg id="wall" viewBox="0 0 720 640" preserveAspectRatio="xMidYMid slice"></svg></div>
+      <!-- RENDER SLOT: replace .scene with a rendered steatite seal image (transparent PNG, ~1200px square, light from top left). -->
+      <div class="scene" data-slot="hero-object">
+        <div class="contact"></div>
+        <div class="seal" id="seal">
+          <div class="boss"></div>
+          <div class="side s-t"></div><div class="side s-l"></div><div class="side s-r"></div><div class="side s-b"></div>
+          <svg class="face" viewBox="0 0 400 400">
+            <defs>
+              <filter id="carve" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+                <!-- height map: white face is high, cut signs are low -->
+                <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  1 0 0 0 0" result="h0"/>
+                <feGaussianBlur in="h0" stdDeviation="2.4" result="hb"/>
+                <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="3" seed="4" result="grain"/>
+                <feColorMatrix in="grain" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 .07 0" result="ga"/>
+                <feComposite in="hb" in2="ga" operator="arithmetic" k2="1" k3="1" result="h"/>
+                <feDiffuseLighting in="h" surfaceScale="8" diffuseConstant="1" lighting-color="#fff8ec" result="dif">
+                  <feDistantLight id="L1" azimuth="225" elevation="40"/>
+                </feDiffuseLighting>
+                <feSpecularLighting in="h" surfaceScale="8" specularConstant=".7" specularExponent="26" lighting-color="#ffffff" result="spec">
+                  <feDistantLight id="L2" azimuth="225" elevation="48"/>
+                </feSpecularLighting>
+                <!-- base colour of fired steatite with a faint mottle -->
+                <feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="2" seed="11" result="mot"/>
+                <feColorMatrix in="mot" type="matrix" values="0 0 0 0 .92  0 0 0 0 .89  0 0 0 0 .83  0 0 0 0 1" result="base0"/>
+                <feColorMatrix in="mot" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -.35 0 0 0 .22" result="motA"/>
+                <feFlood flood-color="#b9ab92" result="patina"/>
+                <feComposite in="patina" in2="motA" operator="in" result="pat"/>
+                <feMerge result="base"><feMergeNode in="base0"/><feMergeNode in="pat"/></feMerge>
+                <!-- groove floors are darker and rougher than the polished face -->
+                <feComponentTransfer in="hb" result="floor"><feFuncA type="table" tableValues=".72 1"/></feComponentTransfer>
+                <feComposite in="base" in2="dif" operator="arithmetic" k1=".95" k2=".22" result="lit"/>
+                <feComposite in="lit" in2="floor" operator="in" result="lit2"/>
+                <feFlood flood-color="#8d7d63" result="dark"/>
+                <feMerge result="lit3"><feMergeNode in="dark"/><feMergeNode in="lit2"/></feMerge>
+                <feComposite in="spec" in2="lit3" operator="arithmetic" k2=".45" k3="1" result="out"/>
+                <feComposite in="out" in2="SourceAlpha" operator="in"/>
+              </filter>
+            </defs>
+            <g filter="url(#carve)">
+              <rect x="-20" y="-20" width="440" height="440" fill="#fff"/>
+              <!-- a single line of signs above the motif, as on a stamp seal -->
+              <g style="filter:brightness(0)">
+                <image href="signs/M342.png" x="28" y="26" width="78" height="78"/>
+                <image href="signs/M99.png" x="96" y="26" width="78" height="78"/>
+                <image href="signs/M267.png" x="160" y="26" width="78" height="78"/>
+                <image href="signs/M176.png" x="226" y="26" width="78" height="78"/>
+                <image href="signs/M59.png" x="294" y="26" width="78" height="78"/>
+              </g>
+              <!-- the motif: the fish sign cut large, where the animal would stand -->
+              <g transform="translate(200 254) scale(7.6) translate(-16 -15.7)" fill="none" stroke="#000" stroke-width="2.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/><path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/><path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/>
+              </g>
+            </g>
+          </svg>
+          <div class="rim"></div>
+        </div>
+      </div>
+      <p class="hint">Move the pointer to turn the light</p>
+      <p class="slot-note">Coded object · slot for a rendered image</p>
+    </div>
+  </div>
+</section>
+
+<div class="wrap ladder-wrap">
+  <figure style="margin:0">
+    <figcaption class="claim">A step and a half up a five-step ladder. The goal is the top step.</figcaption>
+    <ol class="ladder" aria-label="Five kinds of claim, weakest first. Structure: done. Sign roles: partly done. Topic, meaning and sound: open.">
+      <li class="tag done" style="--i:0"><i class="hole"></i><b>Structure</b><span>order, slots</span><em class="state" style="font-style:normal"><i></i>Done</em></li>
+      <li class="tag part" style="--i:1"><i class="hole"></i><b>Sign roles</b><span>openers, closers</span><em class="state" style="font-style:normal"><i></i>Partly done</em></li>
+      <li class="tag open" style="--i:2"><i class="hole"></i><b>Topic</b><span>what a sign is about</span><em class="state" style="font-style:normal"><i></i>Open</em></li>
+      <li class="tag open" style="--i:3"><i class="hole"></i><b>Meaning</b><span>one sign, one thing</span><em class="state" style="font-style:normal"><i></i>Open</em></li>
+      <li class="tag open" style="--i:4"><i class="hole"></i><b>Sound</b><span>a reading</span><em class="state" style="font-style:normal"><i></i>Open</em></li>
+    </ol>
+  </figure>
+  <div class="band" aria-hidden="true"><svg id="band" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1240 64"></svg></div>
+</div>
+
+<section class="block" aria-labelledby="h-know">
+  <div class="wrap">
+    <div class="sect-head">
+      <p class="rail"><span class="n">02</span>Findings</p>
+      <div>
+        <h2 id="h-know">Four patterns hold far above chance</h2>
+        <p class="intro">Each was found on one part of the texts, then confirmed on texts held back, then attacked by a second agent.</p>
+      </div>
+    </div>
+    <div class="findings-grid">
+      <div class="chart" role="group" aria-label="Observed rate compared with the rate expected by chance, 0 to 100 percent">
+        <div class="legend"><span><i class="key obs"></i>Observed</span><span><i class="key chance"></i>Expected by chance</span></div>
+        <div class="pair"><p class="pl">Sign order picked out on unseen texts</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:40%"></span></span><span class="bv">40%</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:5.7%"></span></span><span class="bv">5.7%</span></div></div>
+        <div class="pair"><p class="pl">Fish with ticks <img class="sig" src="signs/M59.png" alt="sign M59, fish"> → <img class="sig" src="signs/M60.png" alt="sign M60, fish with four ticks"> closes the text</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:54.8%"></span></span><span class="bv">40 of 73</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:26%"></span></span><span class="bv">26%</span></div></div>
+        <div class="pair"><p class="pl">Six <img class="sig" src="signs/M109.png" alt="sign M109, six strokes"> is followed by fish <img class="sig" src="signs/M59.png" alt="sign M59, fish"></p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:70%"></span></span><span class="bv">7 of 10</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:3%"></span></span><span class="bv">3%</span></div></div>
+        <div class="pair"><p class="pl">Seals found abroad break the order</p>
+          <div class="bar"><span>Observed</span><span class="track"><span class="fill obs" style="--v:23.7%"></span></span><span class="bv">9 of 38</span></div>
+          <div class="bar"><span>Chance</span><span class="track"><span class="fill chance" style="--v:5%"></span></span><span class="bv">5%</span></div></div>
+        <div class="axis" aria-hidden="true"><span></span><div><span>0</span><span>50%</span><span>100%</span></div><span></span></div>
+      </div>
+      <figure class="niche">
+        <div class="well"><img src="../assets/img/eh_3.jpg" width="861" height="900" alt="Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough"></div>
+        <figcaption><b>Pl. 1 · Harappa · 56 × 56 mm</b>Seal. Vats, Excavations at Harappa (1940), seal no. 3.</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="kit" aria-labelledby="h-kit">
+  <div class="wrap">
+    <div class="sect-head">
+      <p class="rail"><span class="n">B</span>Parts</p>
+      <div><h2 id="h-kit" style="font-size:clamp(28px,3vw,40px)">The same parts, carved and pressed</h2></div>
+    </div>
+    <div class="kit-grid">
+      <div class="k-div"><h3>Section divider</h3><div class="thin-band" aria-hidden="true"><svg id="band2" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1240 22"></svg></div></div>
+      <div class="k-list"><h3>List</h3>
+        <ol class="cut">
+          <li><div><b>Write it down and seal it.</b><span>The prediction, the test and the pass mark go in a file whose fingerprint is logged before any result is seen.</span></div></li>
+          <li><div><b>Test it on texts it never saw.</b><span>A quarter of the texts are held back.</span></div></li>
+          <li><div><b>Let someone else try to break it.</b><span>Every positive result goes to a red team that did not produce it.</span></div></li>
+        </ol>
+      </div>
+      <div class="k-btn"><h3>Buttons</h3><div style="display:flex;flex-wrap:wrap;gap:12px"><a class="btn primary" href="#">Help decipher it</a><a class="btn" href="#">Read the findings</a></div></div>
+      <div class="k-card"><h3>Card</h3>
+        <article class="tablet"><span class="id">S1</span><h4>Confirm the shape of five ‘round’ seals</h4><p>The round-seal finding rests on 8 seals from the Indus region. Only 3 are confirmed round in a printed excavation report.</p><p class="who">Specialists · Anyone careful</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<script>
+(function () {
+  var NS = 'http://www.w3.org/2000/svg';
+  // wordmark (medium study), same paths as wordmarks/open-indus-medium-wordonly.svg
+  fetchless();
+  function fetchless() {
+    var d = [
+      [0, 'M25 0C4 22 0 40 0 50C0 60 4 78 25 100C46 78 50 60 50 50C50 40 46 22 25 0Z'],
+      [70, 'M0 0V100 M17 0C36 2 42 14 42 27C42 40 36 52 17 54'],
+      [132, 'M0 0V100 M17 0H40 M17 50H34 M17 100H40'],
+      [192, 'M0 19V100 M0 0L46 100 M46 0V81'],
+      [286, 'M0 0V100'],
+      [306, 'M0 19V100 M0 0L46 100 M46 0V81'],
+      [372, 'M0 0V100 M17 0C38 12 48 32 48 50C48 68 38 88 17 100'],
+      [440, 'M0 0V56C0 80 14 94 23 100C32 94 46 80 46 56V0 M0 0H-11 M46 0H57'],
+      [506, 'M41 12C37 4 30 0 21 0C8 0 1 8 1 21C1 30 6 36 21 50C36 64 42 70 42 79C42 92 34 100 21 100C11 100 4 96 0 88']
+    ];
+    var wm = document.getElementById('wm'); var s = '';
+    d.forEach(function (g) { s += '<path transform="translate(' + g[0] + ' 0)" d="' + g[1] + '"/>'; });
+    wm.innerHTML = s;
+  }
+
+  // the sign wall: the inventory, embossed into the ground behind the seal
+  var ids = [];
+  for (var i = 1; i <= 417; i++) if (i !== 148) ids.push(i);
+  var wall = document.getElementById('wall');
+  var cols = 20, cell = 36, out = '<defs><filter id="emb" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation=".8" result="b"/>' +
+    '<feSpecularLighting in="b" surfaceScale="2.4" specularConstant="1" specularExponent="14" lighting-color="#fff" result="s"><feDistantLight azimuth="225" elevation="35"/></feSpecularLighting>' +
+    '<feComposite in="s" in2="SourceAlpha" operator="in" result="sh"/>' +
+    '<feOffset in="SourceAlpha" dx=".9" dy=".9" result="o"/><feComposite in="o" in2="SourceAlpha" operator="out" result="edge"/>' +
+    '<feFlood flood-color="#000" flood-opacity=".22"/><feComposite in2="edge" operator="in" result="lo"/>' +
+    '<feOffset in="SourceAlpha" dx="-.9" dy="-.9" result="o2"/><feComposite in="o2" in2="SourceAlpha" operator="out" result="edge2"/>' +
+    '<feFlood flood-color="#fff" flood-opacity=".55"/><feComposite in2="edge2" operator="in" result="hi"/>' +
+    '<feMerge><feMergeNode in="lo"/><feMergeNode in="hi"/></feMerge></filter></defs><g filter="url(#emb)">';
+  ids.forEach(function (n, k) {
+    var x = (k % cols) * cell, y = Math.floor(k / cols) * cell;
+    out += '<image href="signs/M' + n + '.png" x="' + x + '" y="' + y + '" width="' + (cell - 4) + '" height="' + (cell - 4) + '"/>';
+  });
+  wall.innerHTML = out + '</g>';
+
+  // carved bands: a running line of signs
+  function band(el, h, size, gap, seed) {
+    var w = 1240, x = 12, k = seed, s = '<defs><filter id="bf' + seed + '" color-interpolation-filters="sRGB"><feOffset in="SourceAlpha" dx="1" dy="1" result="o"/><feComposite in="o" in2="SourceAlpha" operator="out" result="e"/><feFlood flood-color="#fff" flood-opacity=".7"/><feComposite in2="e" operator="in" result="hi"/><feFlood flood-color="#000" flood-opacity=".35"/><feComposite in2="SourceAlpha" operator="in" result="body"/><feMerge><feMergeNode in="body"/><feMergeNode in="hi"/></feMerge></filter></defs><g filter="url(#bf' + seed + ')">';
+    while (x < w) { var n = ids[(k * 37) % ids.length]; s += '<image href="signs/M' + n + '.png" x="' + x + '" y="' + (h - size) / 2 + '" width="' + size + '" height="' + size + '"/>'; x += size + gap; k++; }
+    el.innerHTML = s + '</g>';
+  }
+  band(document.getElementById('band'), 64, 46, 10, 3);
+  band(document.getElementById('band2'), 22, 18, 8, 9);
+
+  // pointer tilt with a soft follow; the light swings with it
+  var seal = document.getElementById('seal'), L1 = document.getElementById('L1'), L2 = document.getElementById('L2');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var tx = 16, ty = -24, cx = tx, cy = ty, raf = 0;
+  function frame() {
+    cx += (tx - cx) * 0.08; cy += (ty - cy) * 0.08;
+    seal.style.setProperty('--rx', cx.toFixed(2) + 'deg');
+    seal.style.setProperty('--ry', cy.toFixed(2) + 'deg');
+    var az = 225 + (cy + 24) * 1.4;
+    L1.setAttribute('azimuth', az.toFixed(1)); L2.setAttribute('azimuth', az.toFixed(1));
+    seal.parentNode.style.setProperty('--sx', (-cy * 0.8).toFixed(1) + 'px');
+    if (Math.abs(tx - cx) > .05 || Math.abs(ty - cy) > .05) raf = requestAnimationFrame(frame); else raf = 0;
+  }
+  if (!reduce && window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+    window.addEventListener('pointermove', function (e) {
+      var r = seal.getBoundingClientRect();
+      var dx = (e.clientX - (r.left + r.width / 2)) / window.innerWidth;
+      var dy = (e.clientY - (r.top + r.height / 2)) / window.innerHeight;
+      ty = -24 + dx * 36; tx = 16 - dy * 22;
+      if (!raf) raf = requestAnimationFrame(frame);
+    }, { passive: true });
+  }
+
+  // theme: auto, light, dark
+  var btn = document.getElementById('theme'), root = document.documentElement;
+  function label() { var t = root.getAttribute('data-theme'); btn.textContent = t ? (t === 'dark' ? 'Dark' : 'Light') : 'Auto'; }
+  btn.addEventListener('click', function () {
+    var t = root.getAttribute('data-theme'), next = !t ? 'light' : t === 'light' ? 'dark' : null;
+    if (next) root.setAttribute('data-theme', next); else root.removeAttribute('data-theme');
+    try { next ? localStorage.setItem('oi-explore-theme', next) : localStorage.removeItem('oi-explore-theme'); } catch (e) {}
+    label();
+  });
+  label();
+})();
+</script>
+</body>
+</html>

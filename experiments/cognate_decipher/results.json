@@ -1,0 +1,511 @@
+{
+ "experiment": "cognate_decipher (word-level matching, Snyder 2010 / Luo 2019 style)",
+ "date": "2026-11-14",
+ "linear_b": {
+  "L1_n230": {
+   "acc": 0.8014101057579318,
+   "oracle_acc": 0.8378378378378378,
+   "cognate_acc": 0.7695652173913043,
+   "greek_score_tok": 2.5837972775082676,
+   "best_wrong": "fin",
+   "best_wrong_score_tok": 1.824077245695851,
+   "greek_first": true
+  },
+  "L1_n460": {
+   "acc": 0.9078558771411696,
+   "oracle_acc": 0.9149438865918488,
+   "cognate_acc": 0.9260869565217391,
+   "greek_score_tok": 2.8571828880974617,
+   "best_wrong": "lat",
+   "best_wrong_score_tok": 1.6393451775547763,
+   "greek_first": true
+  },
+  "L1_n919": {
+   "acc": 0.8718176435760805,
+   "oracle_acc": 0.8718176435760805,
+   "cognate_acc": 0.9390642002176278,
+   "greek_score_tok": 2.8457018563362304,
+   "best_wrong": "sux",
+   "best_wrong_score_tok": 1.4350781941223631,
+   "greek_first": true
+  },
+  "L2_n460": {
+   "acc": 0.021893491124260357,
+   "oracle_acc": 0.557396449704142,
+   "cognate_acc": 0.014925373134328358,
+   "greek_score_tok": 2.0152192422839326,
+   "best_wrong": "sux",
+   "best_wrong_score_tok": 1.9728691443281303,
+   "greek_first": true
+  },
+  "L2_n919": {
+   "acc": 0.14446417998815866,
+   "oracle_acc": 0.5624629958555358,
+   "cognate_acc": 0.006993006993006993,
+   "greek_score_tok": 1.9282020397688326,
+   "best_wrong": "sux",
+   "best_wrong_score_tok": 1.8870517897746857,
+   "greek_first": true
+  },
+  "L3_n1780": {
+   "acc": 0.014443236527411089,
+   "oracle_acc": 0.4789563596831806,
+   "cognate_acc": 0.0,
+   "greek_score_tok": 1.8738771645876235,
+   "best_wrong": "sux",
+   "best_wrong_score_tok": 1.8269777217738263,
+   "greek_first": true
+  },
+  "L3_n3560": {
+   "acc": 0.030838369750503643,
+   "oracle_acc": 0.5390516039051604,
+   "cognate_acc": 0.0,
+   "greek_score_tok": 1.7832317160407911,
+   "best_wrong": "sux",
+   "best_wrong_score_tok": 1.7587950149132392,
+   "greek_first": true
+  }
+ },
+ "planted": [
+  {
+   "lang": "san",
+   "ntok": 10003,
+   "logo": 0.0,
+   "seg": "gold",
+   "K2_rank_score": 5,
+   "K1_rank_score": 4,
+   "max_wrong_acc": 0.23003099070278915,
+   "acc_K2": 0.2119364190742777,
+   "acc_K1": 0.24622613216035188,
+   "acc_K1inj_0.2": 0.5413375987203839,
+   "oracle_acc_K2": 0.599220233929821,
+   "coverage_K2": 0.07053291536050156
+  },
+  {
+   "lang": "san",
+   "ntok": 10005,
+   "logo": 0.20071188451651176,
+   "seg": "gold",
+   "K2_rank_score": 5,
+   "K1_rank_score": 4,
+   "max_wrong_acc": 0.17985993208828524,
+   "acc_K2": 0.19662563667232597,
+   "acc_K1": 0.4844015280135823,
+   "acc_K1inj_0.2": 0.22357809847198643,
+   "oracle_acc_K2": 0.5427631578947368,
+   "coverage_K2": 0.061478933791917455
+  },
+  {
+   "lang": "tam",
+   "ntok": 10000,
+   "logo": 0.0,
+   "seg": "gold",
+   "K2_rank_score": 1,
+   "K1_rank_score": 2,
+   "max_wrong_acc": 0.1091,
+   "acc_K2": 0.3845,
+   "acc_K1": 0.4711,
+   "acc_K1inj_0.2": 0.4697,
+   "oracle_acc_K2": 0.7805,
+   "coverage_K2": 0.17351274787535412
+  },
+  {
+   "lang": "tam",
+   "ntok": 10005,
+   "logo": 0.2093981170141224,
+   "seg": "gold",
+   "K2_rank_score": 1,
+   "K1_rank_score": 1,
+   "max_wrong_acc": 0.11053135981258652,
+   "acc_K2": 0.18975614950484507,
+   "acc_K1": 0.27845809817910766,
+   "acc_K1inj_0.2": 0.523479927590246,
+   "oracle_acc_K2": 0.7861782557768076,
+   "coverage_K2": 0.11301509587923296
+  },
+  {
+   "lang": "san",
+   "ntok": 2502,
+   "logo": 0.0,
+   "seg": "gold",
+   "K2_rank_score": 5,
+   "K1_rank_score": 4,
+   "max_wrong_acc": 0.06115107913669065,
+   "acc_K2": 0.04756195043964828,
+   "acc_K1": 0.36370903277378097,
+   "acc_K1inj_0.2": 0.24940047961630696,
+   "oracle_acc_K2": 0.6039168665067945,
+   "coverage_K2": 0.0662557781201849
+  },
+  {
+   "lang": "tam",
+   "ntok": 2504,
+   "logo": 0.0,
+   "seg": "gold",
+   "K2_rank_score": 1,
+   "K1_rank_score": 2,
+   "max_wrong_acc": 0.09584664536741214,
+   "acc_K2": 0.0626996805111821,
+   "acc_K1": 0.3486421725239617,
+   "acc_K1inj_0.2": 0.23003194888178913,
+   "oracle_acc_K2": 0.8310702875399361,
+   "coverage_K2": 0.19529085872576177
+  },
+  {
+   "lang": "san",
+   "ntok": 10003,
+   "logo": 0.0,
+   "seg": "text",
+   "K2_rank_score": 5,
+   "K1_rank_score": 3,
+   "max_wrong_acc": 0.18814355693292012,
+   "acc_K2": 0.16684994501649505,
+   "acc_K1": 0.49915025492352294,
+   "acc_K1inj_0.2": 0.5654303708887334,
+   "oracle_acc_K2": 0.5093471958412477,
+   "coverage_K2": 0.07053291536050156
+  },
+  {
+   "lang": "san",
+   "ntok": 40000,
+   "logo": 0.0,
+   "seg": "gold",
+   "K2_rank_score": 5,
+   "K1_rank_score": 3,
+   "max_wrong_acc": 0.36525,
+   "acc_K2": 0.2375,
+   "acc_K1": 0.515875,
+   "acc_K1inj_0.2": 0.8937,
+   "oracle_acc_K2": 0.60765,
+   "coverage_K2": 0.06605071751523492
+  },
+  {
+   "lang": "tam",
+   "ntok": 40001,
+   "logo": 0.0,
+   "seg": "gold",
+   "K2_rank_score": 1,
+   "K1_rank_score": 1,
+   "max_wrong_acc": 0.09564760880977975,
+   "acc_K2": 0.30196745081372967,
+   "acc_K1": 0.4093897652558686,
+   "acc_K1inj_0.2": 0.6137596560085998,
+   "oracle_acc_K2": 0.7464813379665508,
+   "coverage_K2": 0.17563165771634828
+  }
+ ],
+ "minimal": [
+  {
+   "lang": "san",
+   "p": 1.0,
+   "e": 0.0,
+   "regfrac": 0.3,
+   "n_injected": null,
+   "acc_tok": 0.9982005398380486,
+   "oracle_acc_tok": 1.0
+  },
+  {
+   "lang": "san",
+   "p": 1.0,
+   "e": 0.1,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.9931020693791862,
+   "oracle_acc_tok": 0.9997000899730081
+  },
+  {
+   "lang": "san",
+   "p": 1.0,
+   "e": 0.2,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.9204238728381485,
+   "oracle_acc_tok": 0.9996001199640108
+  },
+  {
+   "lang": "san",
+   "p": 1.0,
+   "e": 0.3,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.7577726681995401,
+   "oracle_acc_tok": 0.9971008697390783
+  },
+  {
+   "lang": "san",
+   "p": 1.0,
+   "e": 0.2,
+   "regfrac": 0.3,
+   "n_injected": null,
+   "acc_tok": 0.9622113365990203,
+   "oracle_acc_tok": 0.9986004198740378
+  },
+  {
+   "lang": "san",
+   "p": 0.5,
+   "e": 0.1,
+   "regfrac": 0.3,
+   "n_injected": null,
+   "acc_tok": 0.7553733879836049,
+   "oracle_acc_tok": 0.9840047985604319
+  },
+  {
+   "lang": "san",
+   "p": 0.5,
+   "e": 0.2,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.26662001399580126,
+   "oracle_acc_tok": 0.9925022493252025
+  },
+  {
+   "lang": "san",
+   "p": 0.3,
+   "e": 0.0,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.5171448565430371,
+   "oracle_acc_tok": 0.9859042287313806
+  },
+  {
+   "lang": "san",
+   "p": 0.3,
+   "e": 0.1,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.2697190842747176,
+   "oracle_acc_tok": 0.980405878236529
+  },
+  {
+   "lang": "tam",
+   "p": 1.0,
+   "e": 0.0,
+   "regfrac": 0.3,
+   "n_injected": null,
+   "acc_tok": 0.9996,
+   "oracle_acc_tok": 1.0
+  },
+  {
+   "lang": "tam",
+   "p": 1.0,
+   "e": 0.1,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.999,
+   "oracle_acc_tok": 0.9998
+  },
+  {
+   "lang": "tam",
+   "p": 1.0,
+   "e": 0.2,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.9811,
+   "oracle_acc_tok": 0.9996
+  },
+  {
+   "lang": "tam",
+   "p": 1.0,
+   "e": 0.3,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.9759,
+   "oracle_acc_tok": 0.996
+  },
+  {
+   "lang": "tam",
+   "p": 1.0,
+   "e": 0.2,
+   "regfrac": 0.3,
+   "n_injected": null,
+   "acc_tok": 0.9738,
+   "oracle_acc_tok": 0.9998
+  },
+  {
+   "lang": "tam",
+   "p": 0.5,
+   "e": 0.1,
+   "regfrac": 0.3,
+   "n_injected": null,
+   "acc_tok": 0.9281,
+   "oracle_acc_tok": 0.9931
+  },
+  {
+   "lang": "tam",
+   "p": 0.5,
+   "e": 0.2,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.8237,
+   "oracle_acc_tok": 0.9922
+  },
+  {
+   "lang": "tam",
+   "p": 0.3,
+   "e": 0.0,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.8953,
+   "oracle_acc_tok": 0.9882
+  },
+  {
+   "lang": "tam",
+   "p": 0.3,
+   "e": 0.1,
+   "regfrac": 0.0,
+   "n_injected": null,
+   "acc_tok": 0.8139,
+   "oracle_acc_tok": 0.9732
+  },
+  {
+   "lang": "linb",
+   "p": 0.25,
+   "e": null,
+   "regfrac": null,
+   "n_injected": 216,
+   "acc_tok": 0.0,
+   "oracle_acc_tok": 0.7489638839550029
+  },
+  {
+   "lang": "linb",
+   "p": 0.5,
+   "e": null,
+   "regfrac": null,
+   "n_injected": 438,
+   "acc_tok": 0.0,
+   "oracle_acc_tok": 0.8484310242747187
+  },
+  {
+   "lang": "linb",
+   "p": 0.75,
+   "e": null,
+   "regfrac": null,
+   "n_injected": 616,
+   "acc_tok": 0.07104795737122557,
+   "oracle_acc_tok": 0.8448786264061575
+  }
+ ],
+ "bootstrap": {
+  "linb_L2": {
+   "lat": {
+    "diff_tok": 0.1633517245022061,
+    "ci": [
+     0.13662741674632492,
+     0.18904882598425335
+    ]
+   },
+   "san": {
+    "diff_tok": 0.11991970716707685,
+    "ci": [
+     0.09332941344160715,
+     0.144742930225145
+    ]
+   },
+   "fin": {
+    "diff_tok": 0.07913978484756443,
+    "ci": [
+     0.051982195983790926,
+     0.10520937589590021
+    ]
+   },
+   "sux": {
+    "diff_tok": 0.06531637521564305,
+    "ci": [
+     0.03824375737701583,
+     0.09149440248450398
+    ]
+   },
+   "tam": {
+    "diff_tok": 0.07624112044580678,
+    "ci": [
+     0.0496591374229632,
+     0.10189305882286795
+    ]
+   }
+  },
+  "san_K2": {
+   "K1": {
+    "diff_tok": -0.1422478552872957,
+    "ci": [
+     -0.16086233800170308,
+     -0.12342180524187557
+    ]
+   },
+   "W:lat": {
+    "diff_tok": -0.18304635338418054,
+    "ci": [
+     -0.20091887874652314,
+     -0.1639419743479166
+    ]
+   },
+   "W:fin": {
+    "diff_tok": -0.165685207032374,
+    "ci": [
+     -0.18373863449354935,
+     -0.14719981347145195
+    ]
+   },
+   "W:sux": {
+    "diff_tok": -0.10964867387217105,
+    "ci": [
+     -0.1271892192021316,
+     -0.09260772313817747
+    ]
+   },
+   "R:tam": {
+    "diff_tok": -0.1811159833874922,
+    "ci": [
+     -0.20003752692668966,
+     -0.16311619924544593
+    ]
+   }
+  },
+  "tam_K2": {
+   "K1": {
+    "diff_tok": 0.007853625758224212,
+    "ci": [
+     -0.0037767605812605927,
+     0.01862153536752927
+    ]
+   },
+   "W:lat": {
+    "diff_tok": 0.03454978536206156,
+    "ci": [
+     0.02324532401228753,
+     0.045906879361790165
+    ]
+   },
+   "W:fin": {
+    "diff_tok": 0.037970782408796755,
+    "ci": [
+     0.02665091868169412,
+     0.04941198968995137
+    ]
+   },
+   "W:sux": {
+    "diff_tok": 0.06972899089593669,
+    "ci": [
+     0.05849006604055592,
+     0.08176534503343023
+    ]
+   },
+   "R:san": {
+    "diff_tok": 0.1335457246603345,
+    "ci": [
+     0.11843628919915794,
+     0.14780404782276862
+    ]
+   }
+  }
+ },
+ "indus_run": null,
+ "indus_run_reason": "gated: realistic-lexicon controls fail (K2 blind recovery 0.05-0.39 flat 2.5k-40k; Pali ranked last for Sanskrit in 5/5 cells)",
+ "verdicts": {
+  "H1_works_with_lexicon_containing_words": "supported",
+  "H2_realistic_lexicon_recovers_values": "refuted",
+  "H3_true_basin_preferred": "mostly supported (21/25)",
+  "H4_language_identification": "lexicon-dependent",
+  "H5_run_indus": "not justified"
+ },
+ "minimal_conditions": "10k tokens word-divided: >=50% of word types in lexicon with <=10% irregular edits, or >=30% exact; regular sound change harmless; identification needs >=15-20% exact token coverage by true lexicon"
+}
