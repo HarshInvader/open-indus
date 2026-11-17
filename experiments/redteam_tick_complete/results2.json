@@ -1,0 +1,124 @@
+{
+ "B1_icit_post1977_single_complete": {
+  "texts": 129,
+  "tick_final": 4,
+  "tick_n": 6,
+  "tick_share": 0.667,
+  "tick_expected_uniform": 1.59,
+  "plain_final": 5,
+  "plain_n": 31,
+  "plain_share": 0.161,
+  "tick_ci95": [
+   0.223,
+   0.957
+  ],
+  "fisher_tick_vs_plain_p": 0.022040757334874976,
+  "perm_within_text": [
+   4,
+   1.58355,
+   0.039398030098495074
+  ],
+  "length_matched_band": [
+   4,
+   1.2878,
+   0.018599070046497676
+  ],
+  "length_matched_allsigns": [
+   4,
+   1.60085,
+   0.03984800759962002
+  ]
+ },
+ "B1_icit_dholavira_only": {
+  "texts": 67,
+  "tick_final": 0,
+  "tick_n": 1,
+  "tick_share": 0.0,
+  "tick_expected_uniform": 0.17,
+  "plain_final": 2,
+  "plain_n": 18,
+  "plain_share": 0.111,
+  "tick_ci95": [
+   0.0,
+   0.975
+  ],
+  "fisher_tick_vs_plain_p": 1.0,
+  "perm_within_text": [
+   0,
+   0.1635,
+   1.0
+  ],
+  "length_matched_band": [
+   0,
+   0.25415,
+   1.0
+  ],
+  "length_matched_allsigns": [
+   0,
+   0.1944,
+   1.0
+  ]
+ },
+ "B1_ticked_texts": [
+  [
+   "Banawali",
+   "37.1",
+   "W072 W308 W002 W236"
+  ],
+  [
+   "Bhirrana",
+   "52.1",
+   "W820 W002 W236"
+  ],
+  [
+   "Gola Dhoro (Bagasra)",
+   "158.1",
+   "W861 W893 W140 W236"
+  ],
+  [
+   "Dholavira",
+   "4221.1",
+   "W590 W740 W741 W234 W760 W740"
+  ],
+  [
+   "Nausharo",
+   "5361.1",
+   "W413 W125 W350 W297 W002 W798 W236 W176 W740 W063 W407"
+  ],
+  [
+   "Nausharo",
+   "5382.1",
+   "W003 W226"
+  ]
+ ],
+ "B2_heldout_one_per_final_bigram": {
+  "texts": 392,
+  "tick_final": 8,
+  "tick_n": 15,
+  "tick_share": 0.533,
+  "tick_expected_uniform": 3.82,
+  "plain_final": 3,
+  "plain_n": 143,
+  "plain_share": 0.021,
+  "tick_ci95": [
+   0.266,
+   0.787
+  ],
+  "fisher_tick_vs_plain_p": 1.1614474570602289e-07,
+  "perm_within_text": [
+   8,
+   3.83745,
+   0.014999250037498125
+  ],
+  "length_matched_band": [
+   8,
+   2.74665,
+   0.0010999450027498626
+  ],
+  "length_matched_allsigns": [
+   8,
+   3.96705,
+   0.017699115044247787
+  ]
+ }
+}

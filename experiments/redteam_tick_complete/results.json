@@ -1,0 +1,841 @@
+{
+ "A0_reproduce_heldout_single_complete": {
+  "texts": 393,
+  "tick_final": 9,
+  "tick_n": 16,
+  "tick_share": 0.562,
+  "tick_expected_uniform": 4.15,
+  "plain_final": 3,
+  "plain_n": 144,
+  "plain_share": 0.021,
+  "tick_ci95": [
+   0.299,
+   0.802
+  ],
+  "fisher_tick_vs_plain_p": 1.4695430429151347e-08,
+  "perm_within_text": [
+   9,
+   4.13455,
+   0.007249637518124094
+  ],
+  "length_matched_band": [
+   9,
+   3.0648,
+   0.00039998000099995
+  ],
+  "length_matched_allsigns": [
+   9,
+   4.32065,
+   0.00919954002299885
+  ]
+ },
+ "A1_no_doubtful_readings": {
+  "texts": 367,
+  "tick_final": 9,
+  "tick_n": 16,
+  "tick_share": 0.562,
+  "tick_expected_uniform": 4.15,
+  "plain_final": 3,
+  "plain_n": 135,
+  "plain_share": 0.022,
+  "tick_ci95": [
+   0.299,
+   0.802
+  ],
+  "fisher_tick_vs_plain_p": 2.4881260207775914e-08,
+  "perm_within_text": [
+   9,
+   4.1526,
+   0.007549622518874056
+  ],
+  "length_matched_band": [
+   9,
+   3.0499,
+   0.000199990000499975
+  ],
+  "length_matched_allsigns": [
+   9,
+   4.33475,
+   0.008899555022248887
+  ]
+ },
+ "A1_ticked_texts": [
+  {
+   "text_no": 1036,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M76",
+    "M402",
+    "M68",
+    "M287",
+    "M267"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 1125,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M48",
+    "M342",
+    "M375",
+    "M60"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 1403,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M28",
+    "M303",
+    "M100",
+    "M66",
+    "M407",
+    "M169",
+    "M334",
+    "M342"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 1425,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M66",
+    "M336",
+    "M89",
+    "M124",
+    "M169"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 1535,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M86",
+    "M124",
+    "M344",
+    "M68"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 2171,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M87",
+    "M322",
+    "M99",
+    "M87",
+    "M59",
+    "M71"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 2316,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M305",
+    "M123",
+    "M87",
+    "M60"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 2452,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M87",
+    "M59",
+    "M71"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 2585,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M60",
+    "M242"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 2625,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M391",
+    "M123",
+    "M86",
+    "M68",
+    "M176"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 3070,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M65",
+    "M68"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 3097,
+   "side": 0,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M153",
+    "M233",
+    "M59",
+    "M99",
+    "M387",
+    "M71"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 3106,
+   "side": 1,
+   "site": "Mohenjodaro",
+   "obj": "seal",
+   "seq": [
+    "M205",
+    "M261",
+    "M99",
+    "M387",
+    "M68"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 4012,
+   "side": 0,
+   "site": "Harappa",
+   "obj": "seal",
+   "seq": [
+    "M245",
+    "M245",
+    "M127",
+    "M345",
+    "M48",
+    "M342",
+    "M71"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 4493,
+   "side": 1,
+   "site": "Harappa",
+   "obj": "miniature tablet",
+   "seq": [
+    "M66",
+    "M176"
+   ],
+   "doubtful": false
+  },
+  {
+   "text_no": 7028,
+   "side": 0,
+   "site": "Lothal",
+   "obj": "seal",
+   "seq": [
+    "M244",
+    "M343",
+    "M72",
+    "M66",
+    "M127",
+    "M168"
+   ],
+   "doubtful": false
+  }
+ ],
+ "A2_seals_only": {
+  "texts": 295,
+  "tick_final": 9,
+  "tick_n": 15,
+  "tick_share": 0.6,
+  "tick_expected_uniform": 3.65,
+  "plain_final": 2,
+  "plain_n": 114,
+  "plain_share": 0.018,
+  "tick_ci95": [
+   0.323,
+   0.837
+  ],
+  "fisher_tick_vs_plain_p": 1.2247143057630583e-08,
+  "perm_within_text": [
+   9,
+   3.6591,
+   0.002599870006499675
+  ],
+  "length_matched_band": [
+   9,
+   2.4675,
+   4.999750012499375e-05
+  ],
+  "length_matched_allsigns": [
+   9,
+   3.76025,
+   0.0024998750062496873
+  ]
+ },
+ "A2_len_ge3": {
+  "texts": 324,
+  "tick_final": 8,
+  "tick_n": 13,
+  "tick_share": 0.615,
+  "tick_expected_uniform": 2.65,
+  "plain_final": 2,
+  "plain_n": 137,
+  "plain_share": 0.015,
+  "tick_ci95": [
+   0.316,
+   0.861
+  ],
+  "fisher_tick_vs_plain_p": 1.033550389098935e-08,
+  "perm_within_text": [
+   8,
+   2.63975,
+   0.0016499175041247937
+  ],
+  "length_matched_band": [
+   8,
+   1.5615,
+   9.99950002499875e-05
+  ],
+  "length_matched_allsigns": [
+   8,
+   2.7661,
+   0.0016499175041247937
+  ]
+ },
+ "A2_len_ge4": {
+  "texts": 241,
+  "tick_final": 7,
+  "tick_n": 12,
+  "tick_share": 0.583,
+  "tick_expected_uniform": 2.32,
+  "plain_final": 2,
+  "plain_n": 110,
+  "plain_share": 0.018,
+  "tick_ci95": [
+   0.277,
+   0.848
+  ],
+  "fisher_tick_vs_plain_p": 3.93774363417243e-07,
+  "perm_within_text": [
+   7,
+   2.31315,
+   0.0032998350082495873
+  ],
+  "length_matched_band": [
+   7,
+   1.2552,
+   9.99950002499875e-05
+  ],
+  "length_matched_allsigns": [
+   7,
+   2.36865,
+   0.0033498325083745812
+  ]
+ },
+ "A2_multiline_whole_text_final": {
+  "texts": 26,
+  "tick_final": 0,
+  "tick_n": 1,
+  "tick_share": 0.0,
+  "tick_expected_uniform": 0.12,
+  "plain_final": 0,
+  "plain_n": 8,
+  "plain_share": 0.0,
+  "tick_ci95": [
+   0.0,
+   0.975
+  ],
+  "fisher_tick_vs_plain_p": 1.0,
+  "perm_within_text": [
+   0,
+   0.12385,
+   1.0
+  ],
+  "length_matched_band": [
+   0,
+   0.2253,
+   1.0
+  ],
+  "length_matched_allsigns": [
+   0,
+   0.1371,
+   1.0
+  ]
+ },
+ "A4_mohenjodaro": {
+  "texts": 271,
+  "tick_final": 8,
+  "tick_n": 13,
+  "tick_share": 0.615,
+  "tick_expected_uniform": 3.34,
+  "plain_final": 1,
+  "plain_n": 102,
+  "plain_share": 0.01,
+  "tick_ci95": [
+   0.316,
+   0.861
+  ],
+  "fisher_tick_vs_plain_p": 1.8769466066921102e-08,
+  "perm_within_text": [
+   8,
+   3.3333,
+   0.004649767511624419
+  ],
+  "length_matched_band": [
+   8,
+   2.26085,
+   0.00039998000099995
+  ],
+  "length_matched_allsigns": [
+   8,
+   3.41755,
+   0.00599970001499925
+  ]
+ },
+ "A4_harappa": {
+  "texts": 82,
+  "tick_final": 1,
+  "tick_n": 2,
+  "tick_share": 0.5,
+  "tick_expected_uniform": 0.64,
+  "plain_final": 0,
+  "plain_n": 27,
+  "plain_share": 0.0,
+  "tick_ci95": [
+   0.013,
+   0.987
+  ],
+  "fisher_tick_vs_plain_p": 0.06896551724137931,
+  "perm_within_text": [
+   1,
+   0.64545,
+   0.5721213939303035
+  ],
+  "length_matched_band": [
+   1,
+   0.6386,
+   0.6086695665216739
+  ],
+  "length_matched_allsigns": [
+   1,
+   0.68635,
+   0.6088195590220489
+  ]
+ },
+ "A4_other_sites": {
+  "texts": 40,
+  "tick_final": 0,
+  "tick_n": 1,
+  "tick_share": 0.0,
+  "tick_expected_uniform": 0.17,
+  "plain_final": 2,
+  "plain_n": 15,
+  "plain_share": 0.133,
+  "tick_ci95": [
+   0.0,
+   0.975
+  ],
+  "fisher_tick_vs_plain_p": 1.0,
+  "perm_within_text": [
+   0,
+   0.16725,
+   1.0
+  ],
+  "length_matched_band": [
+   0,
+   0.0801,
+   1.0
+  ],
+  "length_matched_allsigns": [
+   0,
+   0.16105,
+   1.0
+  ]
+ },
+ "A4_loo_worst_p": 0.002049897505124744,
+ "A4_dev_single_complete_not_independent": {
+  "texts": 1217,
+  "tick_final": 22,
+  "tick_n": 32,
+  "tick_share": 0.688,
+  "tick_expected_uniform": 8.64,
+  "plain_final": 9,
+  "plain_n": 539,
+  "plain_share": 0.017,
+  "tick_ci95": [
+   0.5,
+   0.839
+  ],
+  "fisher_tick_vs_plain_p": 4.242969717533088e-25,
+  "perm_within_text": [
+   22,
+   8.6394,
+   4.999750012499375e-05
+  ],
+  "length_matched_band": [
+   22,
+   5.8839,
+   4.999750012499375e-05
+  ],
+  "length_matched_allsigns": [
+   22,
+   9.07105,
+   4.999750012499375e-05
+  ]
+ },
+ "A5_new_sites": [
+  [
+   "Dholavira",
+   175
+  ],
+  [
+   "Nausharo",
+   30
+  ],
+  [
+   "Unknown",
+   26
+  ],
+  [
+   "Banawali",
+   22
+  ],
+  [
+   "Allahdino",
+   12
+  ],
+  [
+   "Rakhigarhi",
+   10
+  ],
+  [
+   "Bala-kot",
+   7
+  ],
+  [
+   "Lakhanjo-daro",
+   7
+  ],
+  [
+   "Farmana",
+   6
+  ],
+  [
+   "Kot-Diji",
+   6
+  ],
+  [
+   "Bhirrana",
+   5
+  ],
+  [
+   "Gola Dhoro (Bagasra)",
+   5
+  ],
+  [
+   "Ur",
+   5
+  ],
+  [
+   "Amri",
+   4
+  ],
+  [
+   "Karanpura",
+   4
+  ],
+  [
+   "Khirsara",
+   4
+  ],
+  [
+   "Rupar",
+   4
+  ],
+  [
+   "Kanmer",
+   4
+  ],
+  [
+   "Shikarpur",
+   4
+  ],
+  [
+   "Chandigarh",
+   3
+  ],
+  [
+   "Desalpur",
+   3
+  ],
+  [
+   "Naru-Waro-dharo",
+   3
+  ],
+  [
+   "Ra's al-Junayz",
+   3
+  ],
+  [
+   "Surkotada",
+   3
+  ],
+  [
+   "Tarkhanewala-dera",
+   3
+  ],
+  [
+   "Karzakan",
+   3
+  ],
+  [
+   "Nuhato",
+   3
+  ],
+  [
+   "Alamgirpur",
+   2
+  ],
+  [
+   "Daimabad",
+   2
+  ],
+  [
+   "Failaka",
+   2
+  ],
+  [
+   "Ganweriwala",
+   2
+  ],
+  [
+   "Gumla",
+   2
+  ],
+  [
+   "Kish",
+   2
+  ],
+  [
+   "Nindowari-damb",
+   2
+  ],
+  [
+   "Rodji",
+   2
+  ],
+  [
+   "Susa",
+   2
+  ],
+  [
+   "Salut",
+   2
+  ],
+  [
+   "Miri Qalat",
+   2
+  ],
+  [
+   "Altyn Depe",
+   1
+  ],
+  [
+   "Bakkar Buthi",
+   1
+  ],
+  [
+   "Gharo Bhiro",
+   1
+  ],
+  [
+   "Hajar",
+   1
+  ],
+  [
+   "Baror",
+   1
+  ],
+  [
+   "Hissam-dheri",
+   1
+  ],
+  [
+   "Hulas",
+   1
+  ],
+  [
+   "Jhukar",
+   1
+  ],
+  [
+   "Lohumjo-daro",
+   1
+  ],
+  [
+   "Luristan",
+   1
+  ],
+  [
+   "Pabumath",
+   1
+  ],
+  [
+   "Pirak",
+   1
+  ],
+  [
+   "Qala'at al-Bahrain",
+   1
+  ],
+  [
+   "Shortughai",
+   1
+  ],
+  [
+   "Tell Umma",
+   1
+  ],
+  [
+   "Tello",
+   1
+  ],
+  [
+   "Tepe Yahya",
+   1
+  ],
+  [
+   "Wattoowala",
+   1
+  ],
+  [
+   "Gonur Depe",
+   1
+  ],
+  [
+   "Girsu",
+   1
+  ],
+  [
+   "Saar",
+   1
+  ],
+  [
+   "Janabiyah",
+   1
+  ],
+  [
+   "Sibri",
+   1
+  ],
+  [
+   "Ornach area",
+   1
+  ],
+  [
+   "Tigrana",
+   1
+  ],
+  [
+   "Juna Khatiya",
+   1
+  ]
+ ],
+ "A5_icit_new_sites_single_complete": {
+  "texts": 200,
+  "tick_final": 5,
+  "tick_n": 8,
+  "tick_share": 0.625,
+  "tick_expected_uniform": 2.07,
+  "plain_final": 6,
+  "plain_n": 51,
+  "plain_share": 0.118,
+  "tick_ci95": [
+   0.245,
+   0.915
+  ],
+  "fisher_tick_vs_plain_p": 0.003845773615770546,
+  "perm_within_text": [
+   5,
+   2.06985,
+   0.024998750062496876
+  ],
+  "length_matched_band": [
+   5,
+   1.563,
+   0.0074496275186240685
+  ],
+  "length_matched_allsigns": [
+   5,
+   2.09715,
+   0.027898605069746514
+  ]
+ },
+ "A5_icit_new_sites_all_runs_any": {
+  "texts": 222,
+  "tick_final": 6,
+  "tick_n": 9,
+  "tick_share": 0.667,
+  "tick_expected_uniform": 3.07,
+  "plain_final": 7,
+  "plain_n": 53,
+  "plain_share": 0.132,
+  "tick_ci95": [
+   0.299,
+   0.925
+  ],
+  "fisher_tick_vs_plain_p": 0.0016610665415156263,
+  "perm_within_text": [
+   6,
+   3.0654,
+   0.02569871506424679
+  ],
+  "length_matched_band": [
+   6,
+   2.547,
+   0.006149692515374231
+  ],
+  "length_matched_allsigns": [
+   6,
+   3.09565,
+   0.027948602569871507
+  ]
+ }
+}
