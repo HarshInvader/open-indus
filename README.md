@@ -1,3 +1,5 @@
+<p align="center"><a href="https://openindus.pages.dev"><img src="docs/brand/banner.png" alt="Open Indus" width="640"></a></p>
+
 # Indus script: a reproducible decipherment attempt
 
 **Status (2026-11-14): partial structural and functional decipherment; no phonetic reading, and the language is not identified.** We also show, with planted-answer experiments, *why* no phonetic reading can currently be defended, and what evidence would change that.
