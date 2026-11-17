@@ -784,7 +784,7 @@ def size_kb(n):
     return f"{max(1, round(n / 1024))} KB"
 
 
-DIST_ASSETS = ["site.css", "site.js", "glyphs.css", "favicon.svg", "favicon-32.png", "apple-touch-icon.png",
+DIST_ASSETS = ["site.css", "site.js", "glyphs.css", "favicon.svg", "favicon-32.png", "apple-touch-icon.png", "email-logo.png",
                "logo-mark.svg", "wordmark.svg", "seal-illustration.svg", "fonts", "img", "signs", "downloads"]
 
 

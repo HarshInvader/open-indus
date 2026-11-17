@@ -101,22 +101,29 @@ export function escapeHtml(s: string): string {
   return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 }
 
+const LOGO_URL = "https://openindus.pages.dev/assets/email-logo.png";
+const SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif";
+
 export function renderPage(title: string, message: string, siteUrl?: string): string {
   const back = siteUrl
-    ? `<p><a href="${escapeHtml(siteUrl)}">Back to ${escapeHtml(GROUP_NAME)}</a></p>`
+    ? `<p class="back"><a href="${escapeHtml(siteUrl)}">Back to ${escapeHtml(GROUP_NAME)}</a></p>`
     : "";
   return `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
 <meta name="robots" content="noindex">
 <title>${escapeHtml(title)} | ${escapeHtml(GROUP_NAME)}</title>
 <style>
-body{font:17px/1.5 Georgia,serif;max-width:32rem;margin:15vh auto;padding:0 16px;color:#1b1b1b;background:#fbfaf7}
-a{color:inherit}
-@media (prefers-color-scheme: dark){body{color:#ece9e2;background:#151412}}
+body{margin:0;font:17px/1.55 ${SANS};color:#1f1b16;background:#e9e3d8;text-align:center}
+main{max-width:30rem;margin:12vh auto;padding:40px 28px;background:#f3efe7;border-radius:14px}
+img{display:block;margin:0 auto 28px;width:240px;max-width:100%;height:auto}
+h1{font-size:26px;line-height:1.2;margin:0 0 12px}
+p{margin:0;color:#5b5348}
+.back{margin-top:28px}
+a{color:#1f1b16;font-weight:600}
+@media (max-width:32rem){main{margin:0;min-height:100vh;border-radius:0;box-sizing:border-box}}
 </style></head>
-<body><h1>${escapeHtml(title)}</h1><p>${escapeHtml(message)}</p>${back}</body></html>`;
+<body><main><img src="${LOGO_URL}" width="240" height="48" alt="${escapeHtml(GROUP_NAME)}"><h1>${escapeHtml(title)}</h1><p>${escapeHtml(message)}</p>${back}</main></body></html>`;
 }
 
 // ---------- email ----------
@@ -144,29 +151,23 @@ export function buildWelcomeEmail(confirmUrl: string, unsubscribeUrl: string) {
   const html = `<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark">
-<title>${escapeHtml(subject)}</title>
-<style>
-@media (prefers-color-scheme: dark){
-  .body{background:#151412 !important;color:#ece9e2 !important}
-  .btn{background:#ece9e2 !important;color:#151412 !important}
-  .muted{color:#a9a49a !important}
-}
-</style></head>
-<body class="body" style="margin:0;padding:0;background:#fbfaf7;color:#1b1b1b">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light only">
+<title>${escapeHtml(subject)}</title></head>
+<body style="margin:0;padding:0;background:#e9e3d8;color:#1f1b16">
 <div style="display:none;max-height:0;overflow:hidden">${escapeHtml(WHAT_YOU_GET)}</div>
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td align="center" style="padding:32px 16px">
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:520px">
-<tr><td style="font:17px/1.55 Georgia,'Times New Roman',serif">
-<p style="margin:0 0 16px">Hello,</p>
-<p style="margin:0 0 16px">${escapeHtml(GROUP_NAME)} is ${escapeHtml(GOAL_LINE)}.</p>
-<p style="margin:0 0 24px">If you confirm, you will get ${escapeHtml(WHAT_YOU_GET.charAt(0).toLowerCase() + WHAT_YOU_GET.slice(1))}</p>
-<p style="margin:0 0 24px"><a class="btn" href="${c}" style="display:inline-block;padding:12px 20px;background:#1b1b1b;color:#fbfaf7;text-decoration:none;border-radius:6px;font:600 16px/1.2 -apple-system,'Segoe UI',Helvetica,Arial,sans-serif">Confirm subscription</a></p>
-<p class="muted" style="margin:0 0 16px;font-size:14px;color:#5c5850">Or paste this link into your browser:<br><a href="${c}" style="color:inherit;word-break:break-all">${c}</a></p>
-<p style="margin:0 0 32px">If you did not ask for this, ignore this email and you will not be subscribed.</p>
-<p class="muted" style="margin:0;font-size:13px;color:#5c5850"><a href="${u}" style="color:inherit">Unsubscribe</a></p>
-</td></tr></table></td></tr></table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#e9e3d8"><tr><td align="center" style="padding:32px 16px">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f3efe7" style="max-width:520px;background:#f3efe7;border-radius:14px">
+<tr><td align="center" style="padding:36px 32px 8px"><img src="${LOGO_URL}" width="240" height="48" alt="${escapeHtml(GROUP_NAME)}" style="display:block;border:0;width:240px;height:auto"></td></tr>
+<tr><td align="center" style="padding:20px 32px 0;font:700 26px/1.25 ${SANS};color:#1f1b16">Confirm your subscription</td></tr>
+<tr><td align="center" style="padding:14px 32px 0;font:17px/1.55 ${SANS};color:#3d362e">${escapeHtml(GROUP_NAME)} is ${escapeHtml(GOAL_LINE)}.</td></tr>
+<tr><td align="center" style="padding:12px 32px 0;font:17px/1.55 ${SANS};color:#3d362e">If you confirm, you will get ${escapeHtml(WHAT_YOU_GET.charAt(0).toLowerCase() + WHAT_YOU_GET.slice(1))}</td></tr>
+<tr><td align="center" style="padding:28px 32px 0"><a href="${c}" style="display:inline-block;padding:14px 28px;background:#1f1b16;color:#f3efe7;text-decoration:none;border-radius:8px;font:600 16px/1.2 ${SANS}">Confirm subscription</a></td></tr>
+<tr><td align="center" style="padding:24px 32px 0;font:13px/1.5 ${SANS};color:#6b6358">Or paste this link into your browser:<br><a href="${c}" style="color:#6b6358;word-break:break-all">${c}</a></td></tr>
+<tr><td align="center" style="padding:24px 32px 36px;font:14px/1.5 ${SANS};color:#6b6358">If you did not ask for this, ignore this email and you will not be subscribed.</td></tr>
+</table>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:520px"><tr><td align="center" style="padding:18px 32px 0;font:13px/1.5 ${SANS};color:#6b6358">${escapeHtml(GROUP_NAME)} &middot; <a href="${u}" style="color:#6b6358">Unsubscribe</a></td></tr></table>
+</td></tr></table>
 </body></html>`;
 
   const headers = {

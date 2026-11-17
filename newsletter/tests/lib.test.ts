@@ -97,7 +97,8 @@ describe("tokens and email", () => {
     expect(m.headers["List-Unsubscribe-Post"]).toBe("List-Unsubscribe=One-Click");
     expect(m.text).toContain("https://x.convex.site/confirm?token=T");
     expect(m.text).toContain("ignore this email");
-    expect(m.html).not.toMatch(/<img/i);
+    expect(m.html.match(/<img/gi)?.length).toBe(1); // only the logo, no tracking pixel
+    expect(m.html).toContain("https://openindus.pages.dev/assets/email-logo.png");
     expect(m.text + m.html + m.subject).not.toMatch(/—/);
   });
 });
