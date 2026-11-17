@@ -275,3 +275,7 @@ c80cf9d80a231a430722a732264c8195c30f4c86dee3b7d5d20e20528addccd4  docs/prereg/cr
 627b30e41bbb48288548c0680434027bfc36d0317eaf3a4d63d09e9fe87efd9b  experiments/crib_attack_v2/method.py  2026-11-17T20:54:50Z  crib_le_known_answer
 9ceb02ef63e76cc30225a99edead083ee3a438df9009e752f901b69fa22f34a0  docs/prereg/assumption_audit.md  2026-11-17T22:04:45Z  assumption_audit
 c4c7480d2a794f50bd7982e88ed1b8cdfd74efaa7001d727ac22706b4540a30f  experiments/assumption_audit/sens.py  2026-11-17T22:04:45Z  assumption_audit
+fdf0020a38dc77bfb854586ab545438449c6ab683f963f340b8d232ddd7608cc  docs/prereg/audit_followups.md  2026-11-17T23:00:31Z  audit_followups
+7ee89221c601dd68cae65581800a83c43ac78e55e2e2d3a61a738471f1031a46  experiments/audit_followups/a_order_formats.py  2026-11-17T23:00:31Z  audit_followups
+4ad7bd06a6484a46bceca284413b5396044037e592140aaa08556788410c7fb0  experiments/audit_followups/b_editor_agreement.py  2026-11-17T23:00:31Z  audit_followups
+038a90e05f7d59857067de521d6d36db18a3e363e3f45bbe98352cdb25e860f2  experiments/audit_followups/c_tick_complete.py  2026-11-17T23:00:31Z  audit_followups
