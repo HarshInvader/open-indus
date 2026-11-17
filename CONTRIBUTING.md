@@ -10,8 +10,8 @@ You do not need to agree with any theory of the script to help. You need to foll
 |---|---|---|
 | A programmer or statistician | Re-implement a finding from its description without reading our code, or give an old test a fairer null | Starter tasks S3, S4, S5, S6 |
 | An epigraphist, archaeologist or Assyriologist | Check readings and object records against published photographs; build short lists of names attested at Gulf sites | Starter tasks S1, S2 |
-| A museum, archive or collection holder | Share photographs, shapes or findspots of seals, especially round seals and seals found outside the Indus region | [Offer data](https://github.com/OWNER/REPO/issues/new?template=offer-data.yml) |
-| Someone with a proposed reading | Submit your sound key to the bench; it is scored the same way as every other key | [Submit a reading](https://github.com/OWNER/REPO/issues/new?template=submit-reading.yml) |
+| A museum, archive or collection holder | Share photographs, shapes or findspots of seals, especially round seals and seals found outside the Indus region | [Offer data](https://github.com/HarshInvader/open-indus/issues/new?template=offer-data.yml) |
+| Someone with a proposed reading | Submit your sound key to the bench; it is scored the same way as every other key | [Submit a reading](https://github.com/HarshInvader/open-indus/issues/new?template=submit-reading.yml) |
 | Anyone careful | Spot-check links between texts and the 1930s excavation registers | Starter task S7 |
 
 Starter tasks are in [site/starter_tasks.json](site/starter_tasks.json), with what each needs and when it counts as done. The agent team's own tasks are on the board described in [board/README.md](board/README.md).
@@ -74,12 +74,12 @@ Add one row per test to `docs/test_ledger.csv`.
 A broken result is a contribution, and it is credited like any other. To red-team a finding:
 
 1. Pick one finding and say what you will attack: a confound, a leak between splits, or a weak null.
-2. Open a [test proposal](https://github.com/OWNER/REPO/issues/new?template=propose-test.yml) with your pass and fail marks.
+2. Open a [test proposal](https://github.com/HarshInvader/open-indus/issues/new?template=propose-test.yml) with your pass and fail marks.
 3. Hash it, run it, and report it whichever way it goes.
 
 ## Report an error
 
-Use the [error form](https://github.com/OWNER/REPO/issues/new?template=report-error.yml) for a misread sign, a wrong findspot, a wrong number on the site, or a broken link. Point to the published photograph, drawing or page if you can.
+Use the [error form](https://github.com/HarshInvader/open-indus/issues/new?template=report-error.yml) for a misread sign, a wrong findspot, a wrong number on the site, or a broken link. Point to the published photograph, drawing or page if you can.
 
 ## Data and pictures
 

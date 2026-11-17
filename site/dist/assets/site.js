@@ -166,7 +166,7 @@
       return res.json().catch(function () { return {}; }).then(function (data) {
         if (res.ok && data.ok) {
           form.reset();
-          say('Almost done. Check your inbox for a confirmation email: you are not subscribed until you click the link in it.', 'success');
+          say('Almost done. Check your inbox for a confirmation email. You are not subscribed until you click the link in it.', 'success');
         } else if (res.status === 429) {
           say('Too many tries. Wait a few minutes and try again.', 'error');
         } else {

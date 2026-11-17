@@ -287,10 +287,54 @@
    "id": 27,
    "ms": "M6",
    "title": "Assumption audit: register of every assumption our findings rest on + cheap sensitivity checks (direction, noise, sign-list, duplicates)",
-   "state": "running",
+   "state": "done",
    "owner": "H12",
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/assumption_audit/RESULTS.md",
+   "summary": "Register of 18 assumptions in docs/ASSUMPTIONS.md: structural findings survive every assumption tested, but the sound-value plan rests on four likely-wrong ones (round Gulf seals = foreign names, high; bench can certify values, high; usable lexicon exists, high; seal texts = names, medium-high). Pre-registered damage runs (29 x 9 tests): all headline tests hold at 10% random/look-alike sign noise, stricter dedup (held-out 571->363), no-doubtful-signs and line shuffles; only direction errors hurt: #7 misses its bar at 10% objects reversed (0.91->0.69-0.72) and fails at 50%, #10b 0.79->0.69-0.74 at 10%, #9 margin 0.35->0.10-0.13 at 50%; #1 still 2.6x chance at 50% reversed."
+  },
+  {
+   "id": 28,
+   "ms": "M6",
+   "title": "Does README #1's order test separate grammar from a fixed format? Run it on the short_labels format and code corpora",
+   "state": "done",
+   "owner": "H13",
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/audit_followups/RESULTS.md",
+   "summary": "Order test cannot separate grammar from format (pre-registered rule met): 4 of 7 real codes beat every reordering at least as often as Indus (METAR 0.98, chess 0.63, emoji 0.60, heraldry 0.49 vs Indus 0.40, length-standardised); formulaic seal legends also pass (Ur III 0.47, OB 0.60) while Latin scores 0.10-0.11. README #1 now says codes pass too; #1 is evidence of fixed order, not of language."
+  },
+  {
+   "id": 29,
+   "ms": "M6",
+   "title": "Measure sign-by-sign disagreement between M77 and ICIT on register-matched objects (A3)",
+   "state": "done",
+   "owner": "H13",
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/audit_followups/RESULTS.md",
+   "summary": "On 469 register-matched objects (matched without signs; 1930s MD/Harappa seals, tablets, sealings) M77 and ICIT disagree on 19.4% of signs (CI 17.4-21.4%: 12.9% different sign, 5.6% missing/extra, 0.9% order), above the audit's 10% tolerance; direction disagreement 2.1-2.9%, within it. Exploratory: recurring pairs (incl. a mis-ordered plain-fish M->W pairing in signlist_robustness/harness.py) explain part; 12.8% with them set aside."
+  },
+  {
+   "id": 30,
+   "ms": "M6",
+   "title": "Rerun README #3 (ticked fish final) on complete single-line texts only (A16)",
+   "state": "done",
+   "owner": "H13",
+   "waits": [],
+   "verdict": "positive",
+   "path": "experiments/audit_followups/RESULTS.md",
+   "summary": "#3 holds on complete single-line texts only (original bar): 9 of 16 ticked fish final vs 2% of plain fish, p=0.006 (held-out 571->415 texts); ICIT type 20/36, p=0.026. The break/line-final artefact inflated the plain-fish baseline (0.07->0.02), not the effect."
+  },
+  {
+   "id": 31,
+   "ms": "M6",
+   "title": "Red-team #30: does README #3 (ticked fish final) hold on complete single-line texts?",
+   "state": "ready",
+   "owner": "",
    "waits": []
   }
  ],
- "snapshot": "2026-11-17 17:14"
+ "snapshot": "2026-11-17 18:13"
 }

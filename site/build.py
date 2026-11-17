@@ -41,7 +41,7 @@ from PIL import Image
 
 # ---------------------------------------------------------------- config
 NAME = "Open Indus"                                # the group's name, used everywhere
-REPO_URL = "https://github.com/OWNER/REPO"         # placeholder until the repo exists
+REPO_URL = "https://github.com/HarshInvader/open-indus"   # public repository, branch main
 BRANCH = "main"
 CONTACT_NOTE = "Open an issue on GitHub."           # the only contact route on the site
 GOAL = "Decipher the Indus script by 2027"          # the mission; site/make_repo_files.py also reads it
@@ -216,21 +216,21 @@ LEVELS = {
 }
 
 FINDINGS = [
-    dict(n=1, level="strong", title="Sign order follows rules, not just positions",
-         plain="Knowing the signs of an unseen text, the real order can be picked out from all orderings of the same signs far more often than chance. It still works with the commonest signs removed.",
+    dict(n=1, level="strong", title="Sign order is fixed, not just positional",
+         plain="Knowing the signs of an unseen text, the real order can be picked out from all orderings of the same signs far more often than chance. It still works with the commonest signs removed. Codes such as weather reports and chess openings pass this test too, so it shows a fixed format, not necessarily a grammar. It still holds with half the texts read backwards.",
          nums="40% of 321 held-out runs vs 5.7% by chance; q ≈ 8e-72",
          folders=["experiments/structure", "experiments/redteam", "experiments/revalidation"]),
-    dict(n=2, level="descriptive", title="About 400 signs: word-signs mixed with sound-signs",
+    dict(n=2, level="descriptive", title="About 400 signs: if this is writing, mostly word-signs, perhaps with sound-signs",
          plain="The sign count and how often each sign is used look like Proto-Elamite or Sumerian, not like Linear B or an alphabet.",
          nums="≈400 signs (≈565 with unseen ones; 95% CI 508–658); 120 signs cover 90% of uses (Linear B: 63, Latin: 14)",
          folders=["experiments/structure"]),
     dict(n=3, level="moderate", title="Corner ticks move the fish sign to the end of the text",
-         plain="A fish with four small ticks closes a text far more often than a plain fish: a mark inside a sign that changes where the sign goes.",
+         plain="A fish with four small ticks closes a text far more often than a plain fish: a mark inside a sign that changes where the sign goes. It holds on complete single-line texts too (9 of 16 vs 2%).",
          glyphs=(59, 60),
          nums="final in 40 of 73 vs 26% expected (p = 1e-7); held-out 11 of 19 vs 7% for plain fish (p = 0.004; q = 0.03 within its family, 0.54 across all tests)",
          folders=["experiments/novel_methods", "experiments/redteam"]),
     dict(n=4, level="moderate", title="Round Gulf-type seals break normal sign order, wherever they were found",
-         plain="Round seals of the Gulf type, found abroad or at home, do not follow the usual sign order. This fits Indus signs used to write another language, but plainer explanations are not ruled out.",
+         plain="Round seals of the Gulf type, found abroad or at home, do not follow the usual sign order. This fits three readings our data cannot separate: another language, a round-seal genre in the Indus language, or pseudo-writing.",
          nums="order excess +1.64 bits/sign on 8 home round seals (Holm p = 3e-4, rare-sign-matched null); foreign vs home round +0.11 (p = 0.66)",
          caveat="Corrected on 17 Nov 2026: a label error had hidden the home round seals. Only 3 of the 8 are confirmed round in a printed excavation report.",
          folders=["experiments/round_label_audit", "experiments/redteam_round_format", "experiments/redteam_round_order"]),
@@ -244,7 +244,7 @@ FINDINGS = [
          nums="held-out AUC: copper 0.87, tablet 0.76, pottery 0.73, seal 0.72, sealing 0.67 (chance ceiling 0.55–0.61)",
          folders=["experiments/context", "experiments/redteam"]),
     dict(n=7, level="strong", title="Texts written left to right are true reversals",
-         plain="The few texts that run left to right are written backwards on purpose, not misread.",
+         plain="The few texts that run left to right are written backwards on purpose, not misread. This depends on each text's direction label being right; with 1 in 10 flipped, the result misses its bar.",
          nums="31 of 34 copy-free lines; q = 6e-6",
          folders=["experiments/structure", "experiments/redteam"]),
     dict(n=8, level="exploratory", title="Copper tablets come in a few dozen fixed types",
@@ -252,14 +252,14 @@ FINDINGS = [
          nums="same legend → same sign face 8 of 8 (p = 1e-4, all data); blind matching 5 of 24 vs 3.3 by chance",
          folders=["experiments/context", "experiments/logograms"]),
     dict(n=9, level="weak", title="Texts can be parsed into a small set of roles",
-         plain="An 11-role reading parses most unseen texts, far more than shuffled ones. That positional roles exist is solid; that these 11 are the right ones is not.",
+         plain="An 11-role reading parses most unseen texts, far more than shuffled ones. That positional roles exist is solid; that these 11 are the right ones is not. Role names such as 'title' and 'noun' are labels for positions, not tested meanings.",
          nums="parses 76% of unseen texts vs 44% for shuffles; specific roles p = 0.013, q = 0.085",
          folders=["experiments/functional_reading", "experiments/grammar"]),
-    dict(n=10, level="moderate", title="The core of a seal text is one or two word-signs",
-         plain="The part of a seal text between its fixed opening and closing signs is short and made of whole words, not spelled out sound by sound.",
+    dict(n=10, level="moderate", title="The core of a seal text is one or two signs, not a spelled-out name",
+         plain="The part of a seal text between its fixed opening and closing signs is short and made of whole words, not spelled out sound by sound. Nothing shows these cores are names.",
          nums="34% of cores are one sign; recurring pairs keep one order in 91% of uses (held-out 115 of 138, p = 3e-16)",
          folders=["experiments/typology", "experiments/core_semantics"]),
-    dict(n=11, level="moderate", title="The fish signs form one word class",
+    dict(n=11, level="moderate", title="The fish signs form one class that substitute for each other",
          plain="Six fish signs swap for each other, combine with each other and share partners. The idea that fish signs are god names is not supported.",
          nums="held-out p = 0.0002–0.0004",
          folders=["experiments/core_semantics"]),
@@ -384,16 +384,16 @@ def ladder(caption=True):
 
 
 def slots(note=""):
-    """Distance to root milestone R: sound values for 10 signs that pass the bench and a red team. Drawn to scale."""
+    """Distance to root milestone R: sound values for 10 signs with an outside anchor that passed a red team. Drawn to scale."""
     have, need = 0, 10
     cells = "".join(f'<li class="slot{" on" if i < have else ""}"></li>' for i in range(need))
     return (f'<figure class="goal-fig"><figcaption class="claim">{have} of {need} signs have a tested sound value</figcaption>'
-            f'<ol class="slots" aria-label="{have} of {need} signs with a sound value that passed the bench and a red team">{cells}</ol>{note}</figure>')
+            f'<ol class="slots" aria-label="{have} of {need} signs with a sound value with an outside anchor that passed a red team">{cells}</ol>{note}</figure>')
 
 
 def goal():
-    return ladder() + slots('<p class="note">Done means 10 signs whose sound values beat chance and survive a red team. Honest odds by 2027 are under 1 in 10. '
-                            '<a href="approach.html#goal">What counts as done, and why the odds are low</a></p>')
+    return ladder() + slots('<p class="note">Done means 10 signs whose sound values have an outside anchor, predict unseen texts and survive a red team. '
+                            '<a href="approach.html#goal">What counts as done, and why it is hard</a></p>')
 
 
 FISH_D = ['M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88', 'M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88', 'M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82']
@@ -824,6 +824,10 @@ def make_dist(built):
     if missing:
         raise SystemExit("dist/ is missing: " + ", ".join(sorted(missing)))
     files = [f for f in dist.rglob("*") if f.is_file()]
+    stale = [str(f.relative_to(dist)) for f in files if f.suffix in (".html", ".css", ".js", ".txt", ".svg")
+             and "OWNER/REPO" in f.read_text(errors="ignore")]
+    assert not stale, f"dist still has the OWNER/REPO placeholder in: {stale}"
+    print("dist: no OWNER/REPO placeholder left")
     print(f"dist: {len(files)} files, {sum(f.stat().st_size for f in files) // 1024} KB in site/dist/ (upload this folder)")
 
 
@@ -849,7 +853,7 @@ def main():
                             FIG_TEXT=figure("EH_3", 1, "Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough")),
                         body_class="oi-page"))
     built.append(render("approach", f"Approach · {NAME} · Decipher the Indus script by 2027",
-                        "What counts as deciphering the Indus script, the rules every test follows, the agent team, the route through names and the honest odds.",
+                        "What counts as deciphering the Indus script, the rules every test follows, the agent team, the routes to sound values and the directions still open.",
                         "approach.html", dict(common, SLOTS=slots(), CHART_ROUND=chart_round(), CHART_NAMES=chart_names(), PLAN=plan_steps())))
     built.append(render("findings", f"Findings · {NAME} · Decipher the Indus script by 2027",
                         "Ranked findings about the Indus script with their evidence, and every route the project has tested and closed.",
