@@ -284,3 +284,19 @@ f689eae9e36b04c6561eb91b91f9aabf3aa6407f484ae02cac84c04aec4650ce  docs/prereg/na
 ff4758644b7ee70c45d9cb64c2000fe8af2d0f9f62d40fcdaea4b406dadc3c53  docs/prereg/anchor_objects.md  2026-11-18T01:02:29Z  anchor_objects
 1098c51948de12101769240b0aac2d103fcb0d80ebe9236ddea59c0c785850d4  docs/prereg/language_id.md  2026-11-18T01:37:17Z  language_id
 d7e4a45b777e684ff23beceb4db35680b06f1ffaabb7606b8b4d0e9cf32b7767  experiments/language_id/run.py  2026-11-18T01:37:34Z  language_id
+f9e302f31967712c53845fd144668d0080ff1fe800ab49a73d514506cf402965  docs/prereg/genres_from_scratch.md  2026-11-18 N2 board#34
+055e6cf0e3b8ea0db65cfa5766a62df9b993893f981fe12efcaf352e5bc80909  docs/prereg/signlist_shape_context.md  2026-11-18T05:28:09Z  N4 signlist_shape_context
+7c2947434416a85d9e46da2a530d1aed4c245c487b70f6dae41a46d9355f2077  experiments/signlist_shape/sl.py  2026-11-18T05:28:09Z  N4 signlist_shape_context
+00cafcf61d0a8ec46ffd4d0d128fdc1577237666b4fbc99c864de2845ba67ed2  docs/prereg/seal_fate.md  2026-11-18T05:28:40Z  N1 seal_fate board#33
+8a553786736ecad811df90e0c0739935805cb2df6a8c1bc2580d30da50f2e77d  experiments/seal_fate/fate.csv  2026-11-18T05:28:40Z  N1 seal_fate board#33
+394d1fd6c6c387833fa3e0b23e51ad49d482d4fbd657e7fa1ff8a09f8862f495  experiments/seal_fate/code.py  2026-11-18T05:28:40Z  N1 seal_fate board#33
+4f20aec1d98ea9e0c4e86ef3895f0ae538ced97a019c0d667e211e3d0a2f5fb8  experiments/seal_fate/CODING_SCHEME.md  2026-11-18T05:28:40Z  N1 seal_fate board#33
+9ef25fdd8139b80c94a3b7cd4bdda2a28b3ae8eac813b252624d5774f600b87b  docs/prereg/consensus_corpus.md  2026-11-18T06:42:12Z  consensus_corpus
+297aa85affc6197d4eac4c014698d794be3081a488e2ab840d6424f890b9c7bd  experiments/consensus_corpus/run.py  2026-11-18T06:42:12Z  consensus_corpus
+2fe1ef5694edd34aacd823c778f91649ac712a0d42c417c5ca511be67f3eba02  experiments/consensus_corpus/corpora.py  2026-11-18T06:42:12Z  consensus_corpus
+0bd934464c92e43a9291230de39f5030eb08645fee5f3a715577383e3859f751  experiments/consensus_corpus/summarise.py  2026-11-18T06:42:12Z  consensus_corpus
+0eb6dd38ce3076c9df8b2d89415da3f7807d1cc5eac1a050185f06a7ab63c8cf  experiments/consensus_corpus/concordance.py  2026-11-18T06:42:12Z  consensus_corpus
+840b16ea5b86eab16dd881c5787fb43796e34b146d1283e1b58b9da7c71357be  experiments/consensus_corpus/disagree.py  2026-11-18T06:42:12Z  consensus_corpus
+10357f17c07251efe2d996fa9e5c88417dd6c9019a217b6a68a756c4c579d84e  docs/prereg/genres_from_scratch.md  2026-11-18 N2 board#34 amendment A1
+b03e498b6874aaf964c07746741498e7ea29cbb7a4e86009d6aa396ee82e48bd  docs/prereg/redteam_seal_fate.md  2026-11-18T07:56:35Z  redteam_seal_fate board#37
+98636b2b719ce97ff0752f4f1cd79560b1eb4e43731cb0f9c356b0da9c3c1914  docs/prereg/redteam_consensus.md  2026-11-18T08:07:52Z  redteam_consensus board#38
