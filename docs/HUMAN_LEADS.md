@@ -8,7 +8,7 @@ Agents can't do these. Each could supply an external anchor.
 - BM 120573 (legend sak-ku-si): high-res / RTI of the legend.
 
 ## Elamite (experiments/elamite_bridge)
-- Louvre Sb 9382 (Susa "text O", mixed Indus-like and Linear Elamite-like signs): RTI/photogrammetry of both faces. Ask Andreas Fuls (TU Berlin) and François Desset (Liège) why it was excluded from the corpus.
+- Louvre Sb 9382 (Susa "text O"): CLOSED 2026-11-18. Most likely a Linear Elamite sign list; no Indus link (see experiments/desset_textO/NOTES.md). Museum has no edge photographs.
 - Ask Desset about Indus signs in the 2026 Linear Elamite corpus vol. II, and Glassner's unpublished LE seal said to be from Bahrain.
 - Ask Holly Pittman (Penn) or Massimo Vidale (Padua) whether any Konar Sandal sealing carries Indus signs.
 - Check the photo of the Sibri seal Sb-4 in CISI 3.2 (pp. 103, 329).

@@ -328,7 +328,7 @@ PLAN = [
 DATA_ASKS = [
     ("Excavation records", "Records of inscribed objects from recent excavations at Harappa, with which seals, sealings and sherds were found together.",
      "Household and office tests, the bangle test and the potter's-mark test are all stalled on this."),
-    ("Photographs of seals found abroad", "High-resolution photographs of the Indus-style seal from Ur (British Museum 120573) and of Susa tablet Sb 9382 (Louvre).",
+    ("Photographs of seals found abroad", "High-resolution photographs of the Indus-style seal from Ur (British Museum 120573).",
      "Only 9 foreign readings are safe. Each checked reading matters at this sample size."),
     ("Seal impressions on cuneiform tablets", "Images of the seal impressions on tablets that name men of Meluhha.",
      "The one route to a seal tied to a person whose name is written in a readable script."),
