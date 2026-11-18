@@ -20,3 +20,10 @@ Of the 45 LE inscriptions (Table 1.1; Hatamti list), none is recorded with Indus
 
 ## Verdict for our project
 The digraphic (two-script) lead through text O is **downgraded to "no support"**. Paying for new photographs is not justified: the Louvre has no edge views, and the face photographs are already public. Bilingual search (NEGATIVE_ATLAS 9.3) stays untestable.
+
+## Museum photographs checked (2026-11-18)
+The Louvre sent its full-resolution study photographs (5 TIFFs: 3 black-and-white raking-light shots, 4000 x 5500; 2 colour, 4888 x 6510; front and back). They are for study only and are not published here (publication needs RMN clearance); they sit in the gitignored `raw/louvre/`.
+- Front, at full resolution: the drilled dots at stroke ends and corners are plain on nearly every sign, including the boxed, crossed and ladder-like signs most often compared with Indus signs. That matches Desset's point that these are Linear Elamite-style dots, which the Indus script does not use.
+- Back: ruled into eight lines but almost empty: one line of four or five signs at one end, a few faint scratches and a deliberate round hole in the middle. Nothing on it looks like an Indus sequence.
+- No new signs beyond the published drawing; no seal impression; edges were not photographed (none exist).
+Verdict unchanged: lead closed.
