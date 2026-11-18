@@ -228,58 +228,69 @@ def verdict_kind(v):
 
 # ---------------------------------------------------------------- content
 LEVELS = {
-    "strong": ("Strong", "Held up on texts the method had not seen, survived an independent attack, and survives correction for every test the project ran."),
-    "moderate": ("Moderate", "Held up on unseen texts, but rests on small numbers or weakens after correction for all tests."),
-    "weak": ("Weak", "The broad pattern is real; the specific claim is barely supported."),
-    "exploratory": ("Exploratory", "Found while looking at all the data. Not yet tested on unseen texts."),
-    "descriptive": ("Descriptive", "A measurement, not a test of a hypothesis."),
+    "strong": ("Strong", "Held up on texts we never looked at while building the idea, and survived a second team trying to break it."),
+    "moderate": ("Moderate", "Held up on unseen texts, but the numbers are small, so it could still be luck."),
+    "weak": ("Weak", "The general pattern is real. The details are barely supported."),
+    "exploratory": ("Exploratory", "Spotted in the data, but not yet checked on unseen texts."),
+    "descriptive": ("Descriptive", "A count or measurement, not a test of an idea."),
 }
 
 FINDINGS = [
-    dict(n=1, level="strong", title="Sign order is fixed, not just positional",
+    dict(n=1, level="strong", head='The signs follow rules about order', gist='Shuffle the signs of a text and we can usually tell which order is the real one. That only works if the order follows rules, like words in a sentence.',
+         title="Sign order is fixed, not just positional",
          plain="Knowing the signs of an unseen text, the real order can be picked out from all orderings of the same signs far more often than chance. It still works with the commonest signs removed. Codes such as weather reports and chess openings pass this test too, so it shows a fixed format, not necessarily a grammar. It still holds with half the texts read backwards.",
          nums="40% of 321 held-out runs vs 5.7% by chance; q ≈ 8e-72",
          folders=["experiments/structure", "experiments/redteam", "experiments/revalidation"]),
-    dict(n=2, level="descriptive", title="About 400 signs: if this is writing, mostly word-signs, perhaps with sound-signs",
+    dict(n=2, level="descriptive", head='About 400 signs: too many for an alphabet', gist='An alphabet needs around 30 signs and a syllable script around 90. With about 400, most signs probably stand for whole words, as in early Chinese or Sumerian writing.',
+         title="About 400 signs: if this is writing, mostly word-signs, perhaps with sound-signs",
          plain="The sign count and how often each sign is used look like Proto-Elamite or Sumerian, not like Linear B or an alphabet.",
          nums="≈400 signs (≈565 with unseen ones; 95% CI 508–658); 120 signs cover 90% of uses (Linear B: 63, Latin: 14)",
          folders=["experiments/structure"]),
-    dict(n=3, level="moderate", title="Corner ticks move the fish sign to the end of the text",
+    dict(n=3, level="moderate", head='Four small ticks move the fish sign to the end', gist='A plain fish sign can sit anywhere in a text. Add four small ticks and it usually comes last, so the ticks change how the sign is used, a bit like a word ending.',
+         title="Corner ticks move the fish sign to the end of the text",
          plain="A fish with four small ticks closes a text far more often than a plain fish: a mark inside a sign that changes where the sign goes. It holds on complete single-line texts too (9 of 16 vs 2%).",
          glyphs=(59, 60),
          nums="final in 40 of 73 vs 26% expected (p = 1e-7); held-out 11 of 19 vs 7% for plain fish (p = 0.004; q = 0.03 within its family, 0.54 across all tests)",
          folders=["experiments/novel_methods", "experiments/redteam"]),
-    dict(n=4, level="moderate", title="Round Gulf-type seals break normal sign order, wherever they were found",
+    dict(n=4, level="moderate", head='Round seals from the Gulf break the usual rules', gist='Small round seals in a Gulf style were used by traders around Bahrain. Their signs come in an order Indus writers rarely used, wherever the seal was found. It could be another language, a special kind of seal, or imitation writing.',
+         title="Round Gulf-type seals break normal sign order, wherever they were found",
          plain="Round seals of the Gulf type, found abroad or at home, do not follow the usual sign order. This fits three readings our data cannot separate: another language, a round-seal genre in the Indus language, or pseudo-writing.",
          nums="order excess +1.64 bits/sign on 8 home round seals (Holm p = 3e-4, rare-sign-matched null); foreign vs home round +0.11 (p = 0.66)",
          caveat="Corrected on 17 Nov 2026: a label error had hidden the home round seals. Only 3 of the 8 are confirmed round in a printed excavation report.",
          folders=["experiments/round_label_audit", "experiments/redteam_round_format", "experiments/redteam_round_order"]),
-    dict(n=5, level="strong", title="Six followed by fish is a fixed expression",
+    dict(n=5, level="strong", head='“Six” followed by “fish” is a set phrase', gist='The six-stroke sign and the fish sign appear together far more than chance, like “New York”. A popular idea that “seven + fish” means “seven stars” has almost no support.',
+         title="Six followed by fish is a fixed expression",
          plain="The six-stroke sign followed by the fish behaves like one set phrase. The proposed 'seven stars' reading of seven plus fish has almost no support.",
          glyphs=(109, 59),
          nums="held-out 7 of 10 vs 3% base rate; q ≈ 6e-8",
          folders=["experiments/language", "experiments/redteam"]),
-    dict(n=6, level="strong", title="Each kind of object has its own vocabulary",
+    dict(n=6, level="strong", head='Seals, tablets and pots each use different signs', gist='From the signs alone we can often tell what kind of object a text was on, the way you can tell a shop sign from a letter.',
+         title="Each kind of object has its own vocabulary",
          plain="Seals, tablets, copper tablets, rods and pottery each favour different signs, enough to tell them apart on unseen texts.",
          nums="held-out AUC: copper 0.87, tablet 0.76, pottery 0.73, seal 0.72, sealing 0.67 (chance ceiling 0.55–0.61)",
          folders=["experiments/context", "experiments/redteam"]),
-    dict(n=7, level="strong", title="Texts written left to right are true reversals",
+    dict(n=7, level="strong", head='Texts that run left to right were written that way on purpose', gist='Indus texts normally read from right to left. The few that run the other way are deliberate reversals, not mistakes by modern readers.',
+         title="Texts written left to right are true reversals",
          plain="The few texts that run left to right are written backwards on purpose, not misread. This depends on each text's direction label being right; with 1 in 10 flipped, the result misses its bar.",
          nums="31 of 34 copy-free lines; q = 6e-6",
          folders=["experiments/structure", "experiments/redteam"]),
-    dict(n=8, level="exploratory", title="Copper tablets come in a few dozen fixed types",
+    dict(n=8, level="exploratory", head='Copper tablets repeat a few dozen fixed messages', gist='Small copper tablets carry the same text-and-picture pairs again and again, like a set of standard tokens. We spotted this in the data but have not yet tested it on unseen texts.',
+         title="Copper tablets come in a few dozen fixed types",
          plain="Copper tablets repeat about 18 to 64 fixed text-and-picture types. A one-sign face can stand in for the picture, but the sign does not depict it.",
          nums="same legend → same sign face 8 of 8 (p = 1e-4, all data); blind matching 5 of 24 vs 3.3 by chance",
          folders=["experiments/context", "experiments/logograms"]),
-    dict(n=9, level="weak", title="Texts can be parsed into a small set of roles",
+    dict(n=9, level="weak", head='Texts seem to have slots, like a sentence', gist='Most texts fit a pattern of a few positions, such as an opening, a middle and a closing part. That positions exist is solid. Our exact list of them is not.',
+         title="Texts can be parsed into a small set of roles",
          plain="An 11-role reading parses most unseen texts, far more than shuffled ones. That positional roles exist is solid; that these 11 are the right ones is not. Role names such as 'title' and 'noun' are labels for positions, not tested meanings.",
          nums="parses 76% of unseen texts vs 44% for shuffles; specific roles p = 0.013, q = 0.085",
          folders=["experiments/functional_reading", "experiments/grammar"]),
-    dict(n=10, level="moderate", title="The core of a seal text is one or two signs, not a spelled-out name",
+    dict(n=10, level="moderate", head='The middle of a seal text is just one or two signs', gist='Many seal texts have a fixed opening and closing. The part in between is usually one or two word-signs, not a name spelled out sound by sound.',
+         title="The core of a seal text is one or two signs, not a spelled-out name",
          plain="The part of a seal text between its fixed opening and closing signs is short and made of whole words, not spelled out sound by sound. Nothing shows these cores are names.",
          nums="34% of cores are one sign; recurring pairs keep one order in 91% of uses (held-out 115 of 138, p = 3e-16)",
          folders=["experiments/typology", "experiments/core_semantics"]),
-    dict(n=11, level="moderate", title="The fish signs form one class that substitute for each other",
+    dict(n=11, level="moderate", head='The fish signs are variants of one sign', gist='Six fish-like signs replace each other in the same places and pair with the same neighbours. They behave like forms of one word, not like names of six different gods.',
+         title="The fish signs form one class that substitute for each other",
          plain="Six fish signs swap for each other, combine with each other and share partners. The idea that fish signs are god names is not supported.",
          nums="held-out p = 0.0002–0.0004",
          folders=["experiments/core_semantics"]),
@@ -819,28 +830,75 @@ def plan_steps():
     return "".join(out)
 
 
+STRENGTH = [("strong", "Solid", 3), ("moderate", "Likely", 2), ("weak", "Shaky", 1),
+            ("exploratory", "Not yet tested", 0), ("descriptive", "A measurement", -1)]
+
+
+def meter(level):
+    _, word, n = next(x for x in STRENGTH if x[0] == level)
+    pips = "" if n < 0 else "".join(f'<i class="{"on" if k < n else ""}"></i>' for k in range(3))
+    return f'<span class="meter {level}"><span class="pips" aria-hidden="true">{pips}</span>{E(word)}</span>'
+
+
+def finding_fig(n):
+    """A small drawing for each finding (viewBox 200x96)."""
+    S = 22
+    def row(ms, x0, y, gap=6, s=S):
+        return "".join(_sign_img(m, x0 + k * (s + gap), y, s) for k, m in enumerate(ms))
+    T = lambda x, y, t, c="hw-t", a="start": f'<text x="{x}" y="{y}" class="{c}" text-anchor="{a}">{E(t)}</text>'
+    box = lambda x, y, w, h, c="hw-card": f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="4" class="{c}"/>'
+    ok = lambda x, y: f'<path d="M{x} {y} l4 4 l8 -8" class="hw-ok"/>'
+    no = lambda x, y: f'<path d="M{x} {y} l9 9 M{x+9} {y} l-9 9" class="hw-no"/>'
+    d = {
+        1: row([342, 99, 267, 176], 14, 10) + ok(134, 21) + T(156, 26, "real") +
+           row([267, 342, 176, 99], 14, 52) + no(135, 59) + T(156, 68, "shuffled"),
+        2: "".join(T(8, y + 11, l) + f'<rect x="64" y="{y}" width="{w}" height="14" rx="3" class="{c}"/>' + T(70 + w, y + 11, v)
+                   for y, l, w, v, c in ((10, "alphabet", 8, "~26", "hw-bar"), (36, "syllables", 26, "~90", "hw-bar"), (62, "Indus", 104, "~400", "hw-bar hi"))),
+        3: T(100, 10, "← read this way", a="middle") + row([342, 59, 267, 176], 44, 18) + T(4, 33, "plain") +
+           row([60, 99, 267, 176], 44, 58) + f'<rect x="41" y="55" width="28" height="28" rx="4" class="hw-mark"/>' + T(4, 73, "ticks") + T(160, 73, "← end"),
+        4: '<circle cx="48" cy="48" r="36" class="hw-card"/>' + row([267, 59, 99], 18, 37, 0, 20) +
+           box(118, 14, 68, 68) + row([99, 267, 342], 124, 37, 0, 20) + T(48, 94, "Gulf round seal", a="middle") + T(152, 94, "usual square seal", a="middle"),
+        5: f'<rect x="40" y="18" width="80" height="44" rx="22" class="hw-pill"/>' + row([109, 59], 52, 25, 12, 30) +
+           T(136, 45, "always") + T(136, 58, "together") + T(80, 84, "like “New York”", a="middle"),
+        6: box(8, 18, 44, 44) + _sign_img(342, 19, 29, S) + T(30, 80, "seal", a="middle") +
+           box(70, 26, 60, 28) + row([99, 176], 76, 29, 4) + T(100, 80, "tablet", a="middle") +
+           '<path d="M152 18 h28 l-4 8 c10 8 10 26 0 36 h-20 c-10 -10 -10 -28 0 -36 z" class="hw-card"/>' + _sign_img(267, 155, 32, 22) + T(166, 80, "pot", a="middle"),
+        7: T(8, 24, "most") + row([342, 99, 267], 52, 8) + '<path d="M150 20 H190" class="hw-arrow"/><path d="M155 15 L150 20 L155 25" class="hw-arrow"/>' +
+           T(8, 66, "a few") + row([267, 99, 342], 52, 50) + '<path d="M150 62 H190" class="hw-arrow hi"/><path d="M185 57 L190 62 L185 67" class="hw-arrow hi"/>',
+        8: "".join(box(10 + i * 62, 14 - i * 0, 52, 56) + f'<circle cx="{36 + i * 62}" cy="32" r="10" class="hw-pic"/>' + _sign_img(176, 26 + i * 62, 46, 18) for i in range(3)) +
+           T(100, 88, "same text + picture, repeated", a="middle"),
+        9: "".join(box(x, 20, w, 40, "hw-slot") + T(x + w / 2, 78, l, a="middle") for x, w, l in ((8, 52, "opening"), (66, 70, "middle"), (142, 52, "closing"))) +
+           row([342], 23, 29) + row([267, 176], 75, 29, 4) + row([99], 157, 29),
+        10: box(8, 22, 40, 40, "hw-slot") + box(54, 22, 92, 40, "hw-slot hi") + box(152, 22, 40, 40, "hw-slot") +
+            row([342], 17, 31) + row([59, 267], 74, 31, 8) + row([99], 161, 31) + T(100, 82, "core: one or two word-signs", a="middle"),
+        11: row([59, 60, 65, 66, 67], 10, 22, 16, 22) + "".join(f'<path d="M{36 + k * 38} 33 h10" class="hw-arrow"/>' for k in range(4)) +
+            f'<rect x="4" y="14" width="192" height="38" rx="19" class="hw-pill"/>' + T(100, 76, "they swap in for each other", a="middle"),
+    }
+    return f'<svg class="ffig" viewBox="0 0 200 96" aria-hidden="true">{d[n]}</svg>'
+
+
 def findings_list(full):
-    out = ['<ol class="findings">']
-    for f in FINDINGS:
-        lab, _ = LEVELS[f["level"]]
-        title = E(f["title"])
-        if f.get("glyphs"):
-            title += " " + " ".join(sig(g) for g in f["glyphs"])
-        links = " ".join(repo_link(p + "/", p.split("/")[-1]) for p in f["folders"])
-        cav = f'<p class="caveat">{E(f["caveat"])}</p>' if f.get("caveat") else ""
-        if full:
-            out.append(f'<li class="finding" id="f{f["n"]}"><details><summary><span class="num">{f["n"]:02d}</span>'
-                       f'<span class="ft">{title}</span><span class="lvl {f["level"]}">{lab}</span></summary>'
-                       f'<div class="fbody"><p>{E(f["plain"])}</p><p class="nums">{E(f["nums"])}</p>{cav}<p class="where">Code and results: {links}</p></div></details></li>')
-        else:
-            out.append(f'<li class="finding"><span class="num">{f["n"]:02d}</span><span class="ft">{title}</span><span class="lvl {f["level"]}">{lab}</span></li>')
-    out.append("</ol>")
+    out = []
+    for level, word, _ in STRENGTH:
+        fs = [f for f in FINDINGS if f["level"] == level]
+        if not fs:
+            continue
+        out.append(f'<h3 class="fgroup">{meter(level)}<span class="fgn">{len(fs)}</span></h3><ol class="findings">')
+        for f in fs:
+            head = E(f["head"])
+            links = " ".join(repo_link(p + "/", p.split("/")[-1]) for p in f["folders"])
+            cav = f'<p class="caveat">{E(f["caveat"])}</p>' if f.get("caveat") else ""
+            out.append(f'<li class="finding fcard" id="f{f["n"]}">{finding_fig(f["n"])}<div class="fh"><h4 class="ft">{head}</h4>'
+                       f'<p class="fg">{E(f["gist"])}</p><details class="tech"><summary>Technical version</summary>'
+                       f'<div class="fbody"><p class="ftech">{E(f["title"])}</p><p>{E(f["plain"])}</p>'
+                       f'<p class="nums">{E(f["nums"])}</p>{cav}<p class="where">Code and results: {links}</p></div></details></div></li>')
+        out.append("</ol>")
     return "".join(out)
 
 
 def level_key():
     return '<dl class="levels">' + "".join(
-        f'<div><dt><span class="lvl {k}">{E(l)}</span></dt><dd>{E(d)}</dd></div>' for k, (l, d) in LEVELS.items()) + "</dl>"
+        f'<div><dt>{meter(k)}</dt><dd>{E(LEVELS[k][1])}</dd></div>' for k, _, _ in STRENGTH) + "</dl>"
 
 
 def closed_routes(sections, rows):

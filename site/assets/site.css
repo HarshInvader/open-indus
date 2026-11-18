@@ -696,3 +696,43 @@ pre.code code { background: none; border: 0; padding: 0; font-size: inherit; ove
 :root[data-theme="dark"] .how .ag-sign, :root[data-theme="dark"] .how-key .ag-sign { filter: brightness(0) invert(.9); }
 @media (max-width: 960px) { .how { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 480px) { .how { grid-template-columns: 1fr; } .how-key { flex-direction: column; align-items: flex-start; } }
+
+/* findings: plain head + gist, grouped by strength */
+.fgroup { display: flex; align-items: center; gap: 10px; margin: 28px 0 6px; font-size: 15px; }
+.fgroup:first-of-type { margin-top: 8px; }
+.fgn { font-size: 13px; color: var(--faint); font-weight: 500; }
+.meter { display: inline-flex; align-items: center; gap: 8px; font-family: var(--oi-text); font-size: 14px; font-weight: 600; color: var(--ink); letter-spacing: 0; text-transform: none; white-space: nowrap; }
+.meter .pips { display: inline-flex; gap: 3px; }
+.meter .pips i { width: 14px; height: 6px; border-radius: 2px; background: var(--line-strong); }
+.meter.strong .pips i.on, .meter.moderate .pips i.on { background: var(--accent); }
+.meter.weak .pips i.on { background: var(--warn); }
+.meter.exploratory .pips i { background: none; border: 1px dashed var(--line-strong); }
+.meter.descriptive { color: var(--muted); }
+.findings .finding summary { grid-template-columns: minmax(0, 1fr) 16px; padding: 14px 0; }
+.fh { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.fh .ft { font-size: 17px; font-weight: 600; color: var(--ink); }
+.fh .fg { font-size: 15px; color: var(--muted); line-height: 1.45; }
+.findings .fbody { padding-left: 0; }
+.ftech { font-size: 14px; color: var(--faint); font-style: italic; }
+@media (max-width: 720px) { .findings .finding summary { grid-template-columns: minmax(0, 1fr) 16px; } .fh .ft { font-size: 16px; } }
+.meter.descriptive .pips { display: none; }
+
+/* findings as illustrated cards */
+.findings .fcard { display: grid; grid-template-columns: 260px minmax(0, 1fr); gap: 20px 28px; align-items: start; padding: 22px 0; border-top: 1px solid var(--line); }
+.ffig { width: 100%; height: auto; overflow: visible; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px; box-sizing: border-box; }
+.fcard .fh { gap: 6px; }
+.fcard .ft { margin: 0; font-size: 18px; font-weight: 600; color: var(--ink); line-height: 1.3; }
+.fcard .fg { margin: 0; font-size: 15.5px; color: var(--muted); line-height: 1.55; max-width: 68ch; }
+.tech { margin-top: 6px; }
+.tech > summary { cursor: pointer; display: inline-flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 600; color: var(--accent-ink); padding: 4px 0; }
+.tech > summary::after { content: ""; width: 6px; height: 6px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg) translateY(-2px); transition: transform 200ms var(--ease-out); }
+.tech[open] > summary::after { transform: rotate(225deg); }
+.tech .fbody { padding: 10px 0 0; }
+.tech .ftech { font-style: normal; font-weight: 600; color: var(--ink); font-size: 15px; }
+.hw-no { fill: none; stroke: var(--clay); stroke-width: 2; stroke-linecap: round; }
+.hw-bar { fill: var(--line-strong); } .hw-bar.hi { fill: var(--accent); }
+.hw-pill { fill: none; stroke: var(--accent); stroke-width: 1.5; }
+.hw-slot { fill: var(--paper); stroke: var(--line-strong); stroke-dasharray: 3 3; } .hw-slot.hi { stroke: var(--clay); stroke-dasharray: none; stroke-width: 1.6; }
+.hw-pic { fill: none; stroke: var(--rule); stroke-width: 1.3; }
+.hw-arrow.hi { stroke: var(--clay); }
+@media (max-width: 640px) { .findings .fcard { grid-template-columns: minmax(0, 1fr); gap: 14px; } .ffig { max-width: 280px; } }
