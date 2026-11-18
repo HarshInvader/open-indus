@@ -10,7 +10,7 @@ Agents can't do these. Each could supply an external anchor.
 ## Elamite (experiments/elamite_bridge)
 - Louvre Sb 9382 (Susa "text O"): CLOSED 2026-11-18. Most likely a Linear Elamite sign list; no Indus link (see experiments/desset_textO/NOTES.md). Museum has no edge photographs.
 - Ask Desset about Indus signs in the 2026 Linear Elamite corpus vol. II, and Glassner's unpublished LE seal said to be from Bahrain.
-- Ask Holly Pittman (Penn) or Massimo Vidale (Padua) whether any Konar Sandal sealing carries Indus signs.
+- Konar Sandal: ASKED 2026-11-18. Holly Pittman (Penn) knows of no sealing with Indus signs; she expects future excavation may find one. Watch new Konar Sandal publications. Massimo Vidale (Padua) not asked.
 - Check the photo of the Sibri seal Sb-4 in CISI 3.2 (pp. 103, 329).
 
 ## New inscriptions (experiments/new_finds)

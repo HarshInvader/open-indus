@@ -747,7 +747,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 
 ### 9.3 Bilingual search
 - **Question.** Is there an Indus-Elamite or Indus-cuneiform bilingual?
-- **Result.** None among 34 objects reviewed, or anywhere in print. Leads: LEI 22 (Zaširi seal); text O (Sb 9382). The registration-code reading is weakened. Update 2026-11-18: text O is most likely a Linear Elamite sign list; its supposed Indus-like signs carry the end-of-stroke dots of Linear Elamite, which Indus never uses, and no Linear Elamite object with Indus signs is known (Desset 2026, pp. 44-47; `experiments/desset_textO/NOTES.md`). Lead closed.
+- **Result.** None among 34 objects reviewed, or anywhere in print. Leads: LEI 22 (Zaširi seal); text O (Sb 9382). The registration-code reading is weakened. Update 2026-11-18: text O is most likely a Linear Elamite sign list; its supposed Indus-like signs carry the end-of-stroke dots of Linear Elamite, which Indus never uses, and no Linear Elamite object with Indus signs is known (Desset 2026, pp. 44-47; `experiments/desset_textO/NOTES.md`). Lead closed. Update 2026-11-18: no Konar Sandal sealing or seal with Indus signs is known to the excavation's sealing specialist (personal communication, asked by the project); such an object may still be found there.
 - **Verdict.** Untestable.
 - **Folder.** `experiments/elamite_bridge`, `experiments/literature`.
 - **Prereg.** None.
