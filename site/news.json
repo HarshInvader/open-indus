@@ -252,13 +252,13 @@
    "gist": "She matched glyph patterns to the lifespans of rulers, and found births and accessions without sounding anything out.",
    "plain": "Maya monuments carry dates. Proskouriakoff noticed that the dates on each group of monuments spanned a human lifetime, and that the same glyphs always sat beside a first date (birth) and a later one (taking the throne). So the texts were about real rulers. She worked out what glyphs meant from the pattern of events, years before anyone could read their sounds.",
    "tech": "Pattern-of-dates analysis at Piedras Negras: recurring glyph-date pairings mapped onto plausible life events (birth, accession, death), with intervals constrained by human lifespans.",
-   "borrow": "We tried one version: seals from the same house share no more signs than seals from nearby houses. Now testing the rest: whether seals broken on purpose, buried with someone, or found at gates carry different signs.",
-   "status": "running",
+   "borrow": "We tested it on the 1930s excavation registers. Seals found in streets carry the same signs as seals found in rooms, and broken seals carry the same signs as pieces of whole ones. Most other fates, such as burnt, buried or hoarded seals, are recorded too rarely to test. One small lead, about broken seals keeping their end signs, is being checked by a second team.",
+   "status": "done",
    "fig": "life",
    "rank": 1,
    "idea": "Match sign patterns to what happened to each seal: broken on purpose, buried with someone, found at a gate",
    "thumbnail_alt": "Illustration: a carved stone stela with glyph blocks, three of them linked to points on a timeline.",
-   "result": "experiments/reg_findspot/RESULTS.md"
+   "result": "experiments/seal_fate/RESULTS.md"
   },
   {
    "id": "mahadevan-1977",

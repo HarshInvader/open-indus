@@ -1,0 +1,96 @@
+{
+ "Vats1940_EH:BROKEN": {
+  "kappa": 0.958,
+  "n_both": 61,
+  "agreement": 0.984,
+  "hand_pos": 17,
+  "rule_pos": 16,
+  "missing_mismatch": 0,
+  "disagree_items": [
+   "97"
+  ]
+ },
+ "Vats1940_EH:UNFINISHED": {
+  "kappa": 1.0,
+  "n_both": 61,
+  "agreement": 1.0,
+  "hand_pos": 5,
+  "rule_pos": 5,
+  "missing_mismatch": 0,
+  "disagree_items": []
+ },
+ "Vats1940_EH:WORN": {
+  "kappa": 1.0,
+  "n_both": 61,
+  "agreement": 1.0,
+  "hand_pos": 1,
+  "rule_pos": 1,
+  "missing_mismatch": 0,
+  "disagree_items": []
+ },
+ "Vats1940_EH:HOARD": {
+  "kappa": 1.0,
+  "n_both": 61,
+  "agreement": 1.0,
+  "hand_pos": 1,
+  "rule_pos": 1,
+  "missing_mismatch": 0,
+  "disagree_items": []
+ },
+ "Vats1940_EH:BURIAL": {
+  "kappa": 1.0,
+  "n_both": 61,
+  "agreement": 1.0,
+  "hand_pos": 3,
+  "rule_pos": 3,
+  "missing_mismatch": 0,
+  "disagree_items": []
+ },
+ "Vats1940_EH:SURFACE": {
+  "kappa": 1.0,
+  "n_both": 57,
+  "agreement": 1.0,
+  "hand_pos": 5,
+  "rule_pos": 5,
+  "missing_mismatch": 1,
+  "disagree_items": []
+ },
+ "Mackay1938_FEM:OPEN": {
+  "kappa": 1.0,
+  "n_both": 136,
+  "agreement": 1.0,
+  "hand_pos": 31,
+  "rule_pos": 31,
+  "missing_mismatch": 0,
+  "disagree_items": []
+ },
+ "Mackay1938_FEM:ROOM": {
+  "kappa": 0.98,
+  "n_both": 136,
+  "agreement": 0.993,
+  "hand_pos": 103,
+  "rule_pos": 104,
+  "missing_mismatch": 0,
+  "disagree_items": [
+   "126"
+  ]
+ },
+ "Mackay1938_FEM:BROKEN_PROXY": {
+  "kappa": 1.0,
+  "n_both": 138,
+  "agreement": 1.0,
+  "hand_pos": 7,
+  "rule_pos": 7,
+  "missing_mismatch": 0,
+  "disagree_items": []
+ },
+ "Mackay1938_FEM:SURFACE": {
+  "kappa": 1.0,
+  "n_both": 118,
+  "agreement": 1.0,
+  "hand_pos": 1,
+  "rule_pos": 1,
+  "missing_mismatch": 20,
+  "disagree_items": []
+ }
+}
