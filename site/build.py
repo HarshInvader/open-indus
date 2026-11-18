@@ -771,6 +771,46 @@ def fig_pipeline():
     return f'<ol class="pipe" aria-label="The path every claim takes">{items}</ol>'
 
 
+def fig_how():
+    """Homepage 04: how a lost script gets read, in four drawn steps, plus the missing piece."""
+    S = 22
+    def signs(ms, x0, y, mark=None):
+        out = ""
+        for k, m in enumerate(ms):
+            x = x0 + k * (S + 6)
+            out += _sign_img(m, x, y, S)
+            if k == mark:
+                out += f'<rect x="{x-3}" y="{y-3}" width="{S+6}" height="{S+6}" rx="4" class="hw-mark"/>'
+        return out
+    card = lambda x, y, w, h, cls="hw-card": f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="4" class="{cls}"/>'
+    lines = lambda x, y: "".join(f'<path d="M{x+6} {y+8+i*6} H{x+24-(i%2)*6}" class="hw-ln"/>' for i in range(2))
+    pics = [
+        # 1. patterns: a text with one sign that keeps turning up at the end
+        signs(SEAL_ROW[:4], 8, 22, mark=0) + '<path d="M11 56 Q14 64 22 64 H40" class="hw-arrow"/><text x="44" y="67" class="hw-t">often ends a text</text>',
+        # 2. a guess: sign -> sound, with a question mark
+        _sign_img(59, 14, 16, 30) + '<path d="M54 31 H78" class="hw-arrow"/><path d="M73 26 L78 31 L73 36" class="hw-arrow"/>'
+        '<text x="86" y="37" class="hw-guess">mīn?</text><text x="8" y="67" class="hw-t">fish sign = “fish”?</text>',
+        # 3. hidden texts: three open cards, one locked
+        "".join(card(8 + i * 34, 14, 28, 36) + lines(8 + i * 34, 20) for i in range(3)) +
+        card(110, 14, 28, 36, "hw-card hw-lock") + '<rect x="118" y="30" width="12" height="9" rx="1.5" class="hw-lk"/><path d="M120.5 30 v-3 a3.5 3.5 0 0 1 7 0 v3" class="hw-lk2"/>'
+        '<text x="8" y="67" class="hw-t">a quarter kept unseen</text>',
+        # 4. attack: a claim card with a shield
+        card(10, 14, 52, 36) + lines(14, 20) + '<path d="M96 12 L114 18 V30 C114 41 106 47 96 51 C86 47 78 41 78 30 V18 Z" class="hw-shield"/>'
+        '<path d="M89 31 L94 36 L104 26" class="hw-ok"/><path d="M66 32 H74" class="hw-arrow"/><text x="8" y="67" class="hw-t">a second team attacks</text>',
+    ]
+    steps = (("Find the patterns", "Which signs start texts, end them, or travel together."),
+             ("Make a guess", "Suggest what a sign might mean or sound like."),
+             ("Check it fairly", "Test the guess on texts we never looked at while building it."),
+             ("Try to break it", "If it survives, we publish. If it fails, we publish that too."))
+    items = "".join(f'<li><svg viewBox="0 0 150 74" aria-hidden="true">{p}</svg><b>{E(t)}</b><span>{E(d)}</span></li>'
+                    for p, (t, d) in zip(pics, steps))
+    key = ('<div class="how-key"><svg viewBox="0 0 92 40" aria-hidden="true">' + _sign_img(342, 6, 8, 24) +
+           '<path d="M36 20 H52" class="hw-arrow"/><text x="58" y="26" class="hw-guess">“…”</text></svg>'
+           '<p><b>The missing piece.</b> Most lost scripts were finally read through an outside clue, such as a name '
+           'written in a script we can already read. None has been found for the Indus script yet, so we are looking for one.</p></div>')
+    return f'<figure class="how-fig"><ol class="how" aria-label="How we try to read the script">{items}</ol>{key}</figure>'
+
+
 def plan_steps():
     out = ['<ol class="flow">']
     for i, (cls, t, st, d) in enumerate(PLAN, 1):
@@ -1083,7 +1123,7 @@ def main():
     built.append(render("index", f"{NAME}: decipher the Indus script by 2027",
                         "An open research group working to decipher the Indus script by 2027. Nothing is deciphered yet, and every test of a reading is published.",
                         "index.html", dict(common,
-                            HERO=seal_object(), BAND=sign_band(), DATA_FIG=data_figure(),
+                            HERO=seal_object(), BAND=sign_band(), DATA_FIG=data_figure(), HOW_FIG=fig_how(),
                             LADDER=ladder(caption=False),
                             FIG_TEXT=figure("EH_3", 1, "Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough")),
                         body_class="oi-page"))
