@@ -1,0 +1,29 @@
+obj_id,file,site,object_type,field_symbol,pub_year,citation,status,icit_match,seq_M,sign_conf,direction,scored,notes
+binjor_seal1,raw/nw_india/binjor_4MSR_unicorn_frontline2015.jpg,Binjor (4MSR),seal,unicorn,2015,"Subramanian T.S. 2015, Frontline 17 Apr 2015 (ASI photo)",new,none (site absent from ICIT/M77),M_flag? M87? M144?,low low low,R-L (unicorn faces right in impression),no,"<50% signs at medium+; ~4-5 signs, only 3 discernible; sign 1 a flag/triangle shape with no confident M match"
+binjor_tcseal,raw/nw_india/binjor_4MSR_tcseal_frontline2016.jpg,Binjor (4MSR),seal (terracotta),none,2016,"Subramanian T.S. 2016, Frontline July 2016",new,none,M1 M342? M1,medium low medium,symmetric/undetermined,yes,"caption calls it 'two human figures and a double-handled jar' - may be pictorial, not text; middle sign read as jar M342 with low confidence"
+khirsara_graffito_b,raw/gujarat/khirsara_graffito_b.png,Khirsara,pottery graffito,none,2009-10 (IAR),"Indian Archaeology 2009-10, Excavation Branch V; Nath, Kumaran & Kulkarni 2012",new,not in ICIT Khirsara (4 texts),M137,medium,n/a (1 sign),yes,single incised X; could be a potter's mark
+khirsara_graffito_a,raw/gujarat/khirsara_graffito_a.png,Khirsara,pottery graffito,none,2009-10 (IAR),as above,new,not in ICIT,M132?,low,n/a,no,zigzag fragment; broken
+khirsara_graffito_c,raw/gujarat/khirsara_graffito_c.png,Khirsara,pottery graffito,none,2009-10 (IAR),as above,new,not in ICIT,M167?,low,n/a,no,branched Y; may be potter's mark
+khirsara_seal_bison,raw/gujarat/khirsara_seal_bison.jpg,Khirsara,seal,bison,2017,PLOS ONE 12(10): e0185684 (Khirsara),possible_known,ICIT 5455.1? (Y + 6 strokes + stroke + final sign; size differs 54x43 vs ~25 mm),M326? M? M109? M162?,low low medium medium,R-L,no,"if new: reading R-L leaf-like sign, short stroke, two-tier six strokes, Y-sign; same Dholavira-type formula as ICIT 136.1/4260.1"
+khirsara_sealfrag_a,raw/gujarat/khirsara_sealfrag_a.png,Khirsara,seal fragment,none,2009-10 (IAR),as above,new,not in ICIT,,,,no,illegible
+khirsara_sealfrag_b,raw/gujarat/khirsara_sealfrag_b.png,Khirsara,seal fragment,unclear,2009-10 (IAR),as above,new,not in ICIT,,,,no,illegible
+shikarpur_tablet_a,raw/gujarat/shikarpur_2009_tablet_a.jpg,Shikarpur,tablet (terracotta),none,2009,"Ajithprasad & Pratapchandran 2009, MSU Baroda report",new,not in ICIT Shikarpur (8 texts),,,,no,illegible (strokes?)
+shikarpur_sealing_c,raw/gujarat/shikarpur_2009_sealing_c.jpg,Shikarpur,sealing,unclear,2009,as above,new,not in ICIT,,,,no,illegible
+chanhudaro_seal_t2,raw/pak_abroad/chanhudaro_seal_sq_trench2_2016-18.png,Chanhu-daro,seal,animal,2017,"Didier A. et al. 2017, CRAI 161(2): 947-980, Fig. 10b",new,not in M77/ICIT (new excavation),,,,no,illegible at available resolution
+chanhudaro_sealfrag_t2,raw/pak_abroad/chanhudaro_sealfrag_trench2_2016-18.png,Chanhu-daro,seal fragment,broken,2017,as above,new,not in M77/ICIT,,,,no,illegible
+bisyah_seal,raw/pak_abroad/bisyah_seal_omannm.png,Bisyah (Oman),seal,zebu,2018,"Frenez 2018/2020, In the Shadow of the Ancestors, Fig. 35.14c",new,not in ICIT,,,,no,authors call the signs 'enigmatic'; not standard Indus signs; excluded
+rakhigarhi_2014_frag,raw/nw_india/rakhigarhi_shinde2016_sealfrag.jpg,Rakhigarhi,seal,none visible,2014,Shinde 2016; Frontline 2014,known_probable,ICIT 4148.1 (|||-first ... X hatched '' bracketed ... jar),,,,no,visual match to rendered ICIT text
+rakhigarhi_RGR7230,raw/nw_india/rakhigarhi_RGR7230.png,Rakhigarhi,seal,rhinoceros,2014,Nath 2014 draft report Fig 4A,known,ICIT 4153.1,,,,no,
+rakhigarhi_6304,raw/nw_india/rakhigarhi_6304_fragment.png,Rakhigarhi,seal fragment,unicorn,2014,Nath 2014 draft report Fig 6A,known_probable,ICIT 4154.1,,,,no,
+rakhigarhi_hrydept,raw/nw_india/rakhigarhi_hrydept_seal1.png,Rakhigarhi,seal,unicorn,undated,Haryana Dept of Archaeology brochure,known_probable,ICIT 3869.1 (Rgr-1) or 5560.1,,,,no,
+karanpura_unicorn,raw/nw_india/karanpura_unicorn_pipal_2014.jpg,Karanpura,seal,unicorn,2014,Prabhakar & Majid 2014,known,ICIT 5453.1,,,,no,
+bhirrana_x4,raw/nw_india/bhirrana_*,Bhirrana,seal,various,2016 (orig 2005-07),Uesugi et al. 2016,known,ICIT 50.1 51.1 52.1 4080.1/5220.1,,,,no,
+farmana_x4,raw/nw_india/farmana_*,Farmana,seal,various,2011/2020,Konasukawa et al. 2011; Uesugi & Jamison 2020,known,ICIT 149.1-153.1,,,,no,
+ganweriwala_x2,raw/pak_abroad/ganweriwala_*,Ganweriwala,tablet,various,2016-2023,Gulzar & Parpola 2016; Masih 2018,known,ICIT 3769.1 156.1,,,,no,
+salut_x2,raw/pak_abroad/salut_*,Salut (Oman),seal + stamped sherd,gaur,2016,Frenez et al. 2016 PSAS 46,known,ICIT 4173.1 4174.1,,,,no,
+gulf_bahrain_x3,raw/pak_abroad/janabiyah_*;karzakkan_*,Janabiyah/Karzakan,round Gulf seal,none,2010,Laursen 2010,known,ICIT 5232.1 5227.1 5228.1 5230.1,,,,no,
+gonur_hajjar_umma_rasaljinz_jalalabad,raw/pak_abroad/*,various,seal/sealing/graffito,various,1977-2021,see manifest,known,ICIT 4155.1 160.1 3884.1 3864-3866; Jalalabad known since 1977,,,,no,
+shikarpur_rhino,raw/gujarat/shikarpur_iar2012-13_seal_rhino.png,Shikarpur,seal,rhinoceros,IAR 2012-13,IAR 2012-13 Pl.32,known,ICIT 5451.1,,,,no,
+khirsara_barseal,raw/gujarat/khirsara_barseal*,Khirsara,bar seal,none,2017,PLOS ONE 2017; IAR 2009-10,known,ICIT 4895.1 (10 signs),,,,no,
+kanmer_tokens_x3,raw/gujarat/kanmer_token*,Kanmer,sealed tokens,bull,2013/2018,Kharakwal et al. 2013,known,ICIT 3900.1-3902.2,,,,no,
+dholavira_bisht2015_x148,raw/gujarat/dholavira_*,Dholavira,seals/sealings/tablet/signboard/graffiti,various,2015,"Bisht R.S. 2015, Excavations at Dholavira, ASI",known_presumed,"ICIT Dholavira block 4149-4360 (238 texts); spot check: acc2393=138.1, acc9093=4161.1, acc10342=136.1/4260.1/4272.1, acc9094=4198.1, acc9697~951.1; signboard=144.1",,,,no,"7 legible seals spot-checked: 4 clear matches, 1 probable, 2 undetermined (worn), 0 clear non-matches; whole catalogue treated as already in ICIT"

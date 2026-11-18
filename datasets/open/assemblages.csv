@@ -1,0 +1,370 @@
+site,unit,stratum,crafts,n_inscribed_seal,n_inscribed_nonseal,object_types,craft_sources
+Chanhu-daro,10/C,all,,1,0,SEAL:S:1,
+Chanhu-daro,10/D,all,,1,0,SEAL:S:1,
+Chanhu-daro,10/E,all,,1,0,SEAL:S:1,
+Chanhu-daro,10/F,all,,1,0,SEAL:S:1,
+Chanhu-daro,10/G,all,,0,1,POT:T:g:1,
+Chanhu-daro,12/K,all,,2,0,SEAL:S:2,
+Chanhu-daro,13/J,all,,3,0,SEAL:S:2;SEAL:R:1,
+Chanhu-daro,7/C,all,SEALCUT,3,0,SEAL:S:3,SEALCUT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3831-3832
+Chanhu-daro,7/D,,SHELL,0,0,,SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3867-3871
+Chanhu-daro,7/E,all,SEALCUT,5,0,SEAL:S:4;SEAL:C:1,SEALCUT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3831-3832
+Chanhu-daro,7/F,all,,2,0,SEAL:S:2,
+Chanhu-daro,8/B,all,,1,0,SEAL:S:1,
+Chanhu-daro,8/C,all,BEAD;SHELL;WEIGHT,7,5,SEAL:S:7;IMPL:2;MISC:2;ROD:1,BEAD: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3818-3820 | SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3867-3871 | WEIGHT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3826-3829
+Chanhu-daro,8/D,all,SEALCUT;SHELL,3,0,SEAL:S:3,SEALCUT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3831-3832 | SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3867-3871
+Chanhu-daro,8/E,all,SHELL;WEIGHT,4,0,SEAL:S:4,SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3867-3871 | WEIGHT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3826-3829
+Chanhu-daro,8/F,all,SEALCUT,2,2,TAB:B:2;SEAL:S:2,SEALCUT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3831-3832
+Chanhu-daro,9/B,all,,1,0,SEAL:S:1,
+Chanhu-daro,9/C,all,BEAD;SHELL,4,0,SEAL:S:4,BEAD: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3818-3820 | SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3867-3871
+Chanhu-daro,9/D,all,BEAD;COPPER;KILN;SHELL;WEIGHT,9,1,SEAL:S:9;TAG:P:1,BEAD: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3818-3820 | COPPER: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3188-3242 | KILN: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3188-3242 | SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3873-3874 | WEIGHT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3826-3829
+Chanhu-daro,9/E,all,BEAD;SHELL;WEIGHT,1,1,SEAL:S:1;POT:T:p:1,BEAD: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3876-3878 | SHELL: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3867-3871 | WEIGHT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3826-3829
+Chanhu-daro,9/F,,BEAD;WEIGHT,0,0,,BEAD: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3818-3820 | WEIGHT: Mackay 1943 OCR (mackay1943/ocr.txt) lines 3826-3829
+Harappa,B27,,WEIGHT,0,0,,WEIGHT: Vats 1940 OCR line 17518
+Harappa,E9,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 64504
+Harappa,H10,F,WEIGHT,1,0,SEAL:S:1,WEIGHT: Vats 1940 OCR line 6252 | WEIGHT: Vats 1940 OCR line 6257
+Harappa,H11,F,,0,2,TAB:I:2,
+Harappa,H12,F,,2,0,SEAL:R:2,
+Harappa,H14,,COPPER,0,0,,COPPER: Vats 1940 OCR line 83071-83280 | COPPER: Vats 1940 OCR line 83145
+Harappa,H8,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 42442
+Harappa,H9,F,STORAGE;WEIGHT,0,1,TAB:B:1,STORAGE: Vats 1940 OCR line 40609 | STORAGE: Vats 1940 OCR line 81430 | WEIGHT: Vats 1940 OCR line 4329
+Harappa,I0,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 68503
+Harappa,I11,F,SHELL,1,8,TAB:I:6;TAB:B:2;SEAL:S:1,SHELL: Vats 1940 OCR line 7175
+Harappa,I12,F,WEIGHT,7,19,TAB:I:13;SEAL:S:6;TAB:B:6;SEAL:R:1,WEIGHT: Vats 1940 OCR line 8801
+Harappa,I13,F,COPPER;WEIGHT,8,30,TAB:I:23;SEAL:S:7;TAB:B:6;MISC:1;SEAL:R:1,COPPER: Vats 1940 OCR line 6551 | COPPER: Vats 1940 OCR line 6556 | COPPER: Vats 1940 OCR line 6648 | COPPER: Vats 1940 OCR line 83071-83280 | WEIGHT: Vats 1940 OCR line 6572
+Harappa,I14,F,COPPER;WEIGHT,2,2,SEAL:S:2;TAB:B:2,COPPER: Vats 1940 OCR line 83071-83280 | WEIGHT: Vats 1940 OCR line 6918 | WEIGHT: Vats 1940 OCR line 6924
+Harappa,I21,F,,0,1,TAB:B:1,
+Harappa,I6,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 64407 | STORAGE: Vats 1940 OCR line 64718
+Harappa,I7,F,STORAGE,1,2,TAB:I:2;SEAL:S:1,STORAGE: Vats 1940 OCR line 80239
+Harappa,I8,F,STORAGE,3,3,SEAL:S:2;TAB:B:2;SEAL:R:1;TAB:I:1,STORAGE: Vats 1940 OCR line 42709 | STORAGE: Vats 1940 OCR line 66539 | STORAGE: Vats 1940 OCR line 66603
+Harappa,I9,F,SEALCUT;STORAGE;WEIGHT,11,15,SEAL:S:10;TAB:B:9;TAB:I:6;SEAL:R:1,SEALCUT: Vats 1940 OCR line 4170 | STORAGE: Vats 1940 OCR line 41385 | STORAGE: Vats 1940 OCR line 41869 | STORAGE: Vats 1940 OCR line 41896 | STORAGE: Vats 1940 OCR line 42225 | STORAGE: Vats 1940 OCR line 42372 | STORAGE: Vats 1940 OCR line 42405 | STORAGE: Vats 1940 OCR line 42801 | STORAGE: Vats 1940 OCR line 64366 | STORAGE: Vats 1940 OCR line 66613 | STORAGE: Vats 1940 OCR line 66805 | STORAGE: Vats 1940 OCR line 66947 | STORAGE: Vats 1940 OCR line 67308 | STORAGE: Vats 1940 OCR line 68520 | STORAGE: Vats 1940 OCR line 68775 | STORAGE: Vats 1940 OCR line 68796 | STORAGE: Vats 1940 OCR li
+Harappa,J0,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 40247 | STORAGE: Vats 1940 OCR line 42105
+Harappa,J10,F,,0,3,TAB:B:3,
+Harappa,J12,F,BEAD;SEALCUT;SHELL;WEIGHT,1,2,TAB:B:2;SEAL:R:1,BEAD: Vats 1940 OCR line 8134-8170 | SEALCUT: Vats 1940 OCR line 8134-8170 | SHELL: Vats 1940 OCR line 8134-8170 | WEIGHT: Vats 1940 OCR line 8032
+Harappa,J13,,COPPER,0,0,,COPPER: Vats 1940 OCR line 83071-83280 | COPPER: Vats 1940 OCR line 83255
+Harappa,J7,F,STORAGE,2,2,SEAL:S:2;TAB:B:2,STORAGE: Vats 1940 OCR line 39744 | STORAGE: Vats 1940 OCR line 39748 | STORAGE: Vats 1940 OCR line 39889 | STORAGE: Vats 1940 OCR line 40018 | STORAGE: Vats 1940 OCR line 41530 | STORAGE: Vats 1940 OCR line 42314 | STORAGE: Vats 1940 OCR line 42509 | STORAGE: Vats 1940 OCR line 42738 | STORAGE: Vats 1940 OCR line 67349 | STORAGE: Vats 1940 OCR line 80931 | STORAGE: Vats 1940 OCR line 81812
+Harappa,J8,F,STORAGE,5,5,SEAL:S:4;TAB:B:3;TAB:I:2;SEAL:R:1,STORAGE: Vats 1940 OCR line 40252 | STORAGE: Vats 1940 OCR line 41679 | STORAGE: Vats 1940 OCR line 67003 | STORAGE: Vats 1940 OCR line 82056
+Harappa,J9,F,SEALCUT;STORAGE;WEIGHT,9,20,TAB:B:16;SEAL:S:9;TAB:I:3;TAG:P:1,SEALCUT: Vats 1940 OCR line 5314 | STORAGE: Vats 1940 OCR line 41095 | STORAGE: Vats 1940 OCR line 41169 | STORAGE: Vats 1940 OCR line 41391 | STORAGE: Vats 1940 OCR line 41674 | STORAGE: Vats 1940 OCR line 42231 | STORAGE: Vats 1940 OCR line 42408 | STORAGE: Vats 1940 OCR line 64680 | STORAGE: Vats 1940 OCR line 64722 | STORAGE: Vats 1940 OCR line 67112 | STORAGE: Vats 1940 OCR line 68667 | STORAGE: Vats 1940 OCR line 68904 | STORAGE: Vats 1940 OCR line 68945 | STORAGE: Vats 1940 OCR line 81054 | STORAGE: Vats 1940 OCR line 81309 | STORAGE: Vats 1940 OCR line 81819 | STORAGE: Vats 1940 OCR li
+Harappa,K0,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 42196
+Harappa,K12,F,SEALCUT;WEIGHT,4,3,SEAL:S:3;TAB:B:2;SEAL:R:1;TAB:I:1,SEALCUT: Vats 1940 OCR line 8181 | WEIGHT: Vats 1940 OCR line 8036 | WEIGHT: Vats 1940 OCR line 8612 | WEIGHT: Vats 1940 OCR line 8623 | WEIGHT: Vats 1940 OCR line 8627
+Harappa,K7,,STORAGE,0,0,,STORAGE: Vats 1940 OCR line 42663
+Harappa,K8,F,STORAGE;WEIGHT,2,4,TAB:B:4;SEAL:R:1;SEAL:S:1,STORAGE: Vats 1940 OCR line 41415 | STORAGE: Vats 1940 OCR line 42108 | STORAGE: Vats 1940 OCR line 64540 | STORAGE: Vats 1940 OCR line 80577 | WEIGHT: Vats 1940 OCR line 5148 | WEIGHT: Vats 1940 OCR line 5400 | WEIGHT: Vats 1940 OCR line 5408
+Harappa,K9,F,STORAGE;WEIGHT,5,11,TAB:B:9;SEAL:S:3;TAB:I:2;SEAL:R:2,STORAGE: Vats 1940 OCR line 40056 | STORAGE: Vats 1940 OCR line 41028 | STORAGE: Vats 1940 OCR line 41910 | STORAGE: Vats 1940 OCR line 42790 | STORAGE: Vats 1940 OCR line 80980 | STORAGE: Vats 1940 OCR line 81671 | WEIGHT: Vats 1940 OCR line 4984 | WEIGHT: Vats 1940 OCR line 4988 | WEIGHT: Vats 1940 OCR line 5144 | WEIGHT: Vats 1940 OCR line 5294 | WEIGHT: Vats 1940 OCR line 5697
+Harappa,L12,,KILN,0,0,,KILN: Vats 1940 OCR line 8700
+Harappa,M10,F,WEIGHT,2,28,TAB:I:23;TAB:B:5;SEAL:S:1;SEAL:R:1,WEIGHT: Vats 1940 OCR line 11760 | WEIGHT: Vats 1940 OCR line 11768 | WEIGHT: Vats 1940 OCR line 12056
+Harappa,M11,F,WEIGHT,25,118,TAB:I:96;TAB:B:21;SEAL:S:18;SEAL:R:5;SEAL:2;POT:T:s:1,WEIGHT: Vats 1940 OCR line 10272 | WEIGHT: Vats 1940 OCR line 11236 | WEIGHT: Vats 1940 OCR line 9235
+Harappa,M12,F,WEIGHT,10,47,TAB:I:29;TAB:B:18;SEAL:S:8;SEAL:R:2,WEIGHT: Vats 1940 OCR line 10492 | WEIGHT: Vats 1940 OCR line 10611 | WEIGHT: Vats 1940 OCR line 10625 | WEIGHT: Vats 1940 OCR line 10889 | WEIGHT: Vats 1940 OCR line 64670 | WEIGHT: Vats 1940 OCR line 9092 | WEIGHT: Vats 1940 OCR line 9096 | WEIGHT: Vats 1940 OCR line 9114
+Harappa,M9,F,,1,0,SEAL:S:1,
+Harappa,N10,F,SHELL;WEIGHT,3,0,SEAL:S:2;SEAL:1,SHELL: Vats 1940 OCR line 12022 | WEIGHT: Vats 1940 OCR line 11776
+Harappa,N9,F,WEIGHT,18,33,TAB:I:20;SEAL:S:18;TAB:B:13,WEIGHT: Vats 1940 OCR line 11764
+Harappa,O10,F,SEALCUT;WEIGHT,8,21,TAB:I:12;SEAL:S:8;TAB:B:8;MISC:1,SEALCUT: Vats 1940 OCR line 12858 | WEIGHT: Vats 1940 OCR line 12638
+Harappa,O11,F,,1,6,TAB:B:5;SEAL:S:1;TAB:I:1,
+Harappa,O12,F,,1,0,SEAL:R:1,
+Harappa,O31,D,,0,2,TAB:I:2,
+Harappa,O8,F,,1,0,SEAL:S:1,
+Harappa,O9,F,,10,20,TAB:B:9;SEAL:S:9;TAB:I:9;MISC:1;SEAL:1;TAG:1,
+Harappa,P10,F,WEIGHT,5,5,SEAL:S:5;TAB:B:3;TAB:I:2,WEIGHT: Vats 1940 OCR line 12933 | WEIGHT: Vats 1940 OCR line 12937 | WEIGHT: Vats 1940 OCR line 13332
+Harappa,P11,F,SEALCUT;WEIGHT,3,7,TAB:B:4;SEAL:S:2;TAB:I:2;MISC:1;SEAL:CY:1,SEALCUT: Vats 1940 OCR line 13666 | WEIGHT: Vats 1940 OCR line 12941
+Harappa,P14,AB,,0,1,POT:T:g:1,
+Harappa,P23,,WEIGHT,0,0,,WEIGHT: Vats 1940 OCR line 14990
+Harappa,P24,AB,COPPER;WEIGHT,13,9,SEAL:S:8;TAB:I:6;SEAL:R:5;TAB:B:3,COPPER: Vats 1940 OCR line 15044 | WEIGHT: Vats 1940 OCR line 14879 | WEIGHT: Vats 1940 OCR line 15119 | WEIGHT: Vats 1940 OCR line 15131
+Harappa,P25,,WEIGHT,0,0,,WEIGHT: Vats 1940 OCR line 15115 | WEIGHT: Vats 1940 OCR line 15127
+Harappa,P8,F,,1,0,SEAL:S:1,
+Harappa,P9,F,,1,0,SEAL:S:1,
+Harappa,Q10,F,,2,0,SEAL:S:2,
+Harappa,Q13,,WEIGHT,0,0,,WEIGHT: Vats 1940 OCR line 14039
+Harappa,Q23,AB,WEIGHT,3,0,SEAL:R:2;SEAL:S:1,WEIGHT: Vats 1940 OCR line 14673 | WEIGHT: Vats 1940 OCR line 14698 | WEIGHT: Vats 1940 OCR line 15139 | WEIGHT: Vats 1940 OCR line 15857 | WEIGHT: Vats 1940 OCR line 15861 | WEIGHT: Vats 1940 OCR line 64677
+Harappa,Q24,AB,SEALCUT;WEIGHT,10,3,SEAL:S:7;TAB:B:3;SEAL:CY:2;SEAL:R:1,SEALCUT: Vats 1940 OCR line 15573 | WEIGHT: Vats 1940 OCR line 14669 | WEIGHT: Vats 1940 OCR line 14694 | WEIGHT: Vats 1940 OCR line 14718 | WEIGHT: Vats 1940 OCR line 14871 | WEIGHT: Vats 1940 OCR line 15619 | WEIGHT: Vats 1940 OCR line 15846 | WEIGHT: Vats 1940 OCR line 16482
+Harappa,Q25,AB,WEIGHT,3,0,SEAL:S:3,WEIGHT: Vats 1940 OCR line 14686 | WEIGHT: Vats 1940 OCR line 15135 | WEIGHT: Vats 1940 OCR line 15650 | WEIGHT: Vats 1940 OCR line 15662
+Harappa,Q27,AB,,1,0,SEAL:S:1,
+Harappa,Q28,AB,SEALCUT,7,1,SEAL:S:6;SEAL:R:1;TAB:B:1,SEALCUT: Vats 1940 OCR line 17113
+Harappa,Q30,D,WEIGHT,7,26,TAB:B:18;TAB:I:8;SEAL:S:7,WEIGHT: Vats 1940 OCR line 18145 | WEIGHT: Vats 1940 OCR line 18149
+Harappa,Q31,F,WEIGHT,2,12,TAB:B:7;TAB:I:5;SEAL:S:2,WEIGHT: Vats 1940 OCR line 18092 | WEIGHT: Vats 1940 OCR line 18111 | WEIGHT: Vats 1940 OCR line 18191 | WEIGHT: Vats 1940 OCR line 18193 | WEIGHT: Vats 1940 OCR line 18197 | WEIGHT: Vats 1940 OCR line 18473 | WEIGHT: Vats 1940 OCR line 82076
+Harappa,Q34,H,,0,1,TAB:B:1,
+Harappa,R24,AB,,4,4,SEAL:S:4;TAB:I:2;POT:T:g:1;TAB:B:1,
+Harappa,R27,AB,,1,0,SEAL:S:1,
+Harappa,R28,AB,,2,0,SEAL:S:2,
+Harappa,R30,D,,0,1,TAB:B:1,
+Harappa,R32,H,,1,0,SEAL:R:1,
+Harappa,R33,H,,1,0,SEAL:S:1,
+Harappa,R34,H,WEIGHT,0,2,TAB:B:2,WEIGHT: Vats 1940 OCR line 21882 | WEIGHT: Vats 1940 OCR line 21886
+Harappa,S20,D,,0,2,TAB:I:2,
+Harappa,S24,H,,1,2,TAB:B:2;SEAL:S:1,
+Harappa,S29,J,WEIGHT,1,0,SEAL:S:1,WEIGHT: Vats 1940 OCR line 17803 | WEIGHT: Vats 1940 OCR line 17806
+Harappa,S30,D,WEIGHT,3,24,TAB:B:13;TAB:I:11;SEAL:S:3,WEIGHT: Vats 1940 OCR line 17810
+Harappa,S33,H,WEIGHT,1,0,SEAL:R:1,WEIGHT: Vats 1940 OCR line 21847
+Harappa,S34,H,WEIGHT,1,0,SEAL:S:1,WEIGHT: Vats 1940 OCR line 21769
+Lothal,L-124,all,STORAGE,0,1,TAG:L:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-125,all,STORAGE,0,1,TAG:L:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-126,all,STORAGE,0,1,TAG:L:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-127,all,STORAGE,0,1,TAG:L:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-128,all,STORAGE,0,1,TAG:L:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-129,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-130,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-131,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-132,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-133,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-134,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-135,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-136,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-137,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-138,all,STORAGE,0,1,TAG:L:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-139,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-140,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-141,all,,0,1,TAG:1,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-142,all,STORAGE,0,1,TAG:P:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-144,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-145,all,,0,1,TAG:1,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-146,all,,0,1,TAG:O:1,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-147,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-152,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-154,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-157,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-158,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-159,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-160,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-161,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-162,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-163,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-164,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-165,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-166,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-167,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-168,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-169,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-170,all,STORAGE,0,1,TAG:B:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-171,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-172,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-173,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-175,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-176,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-177,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-179,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-180,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-186,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-189,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-190,all,STORAGE,0,3,TAG:3,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-191,all,STORAGE,0,2,TAG:2,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-192,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-193,all,STORAGE,0,2,TAG:2,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-194,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-195,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-196,all,STORAGE,0,2,TAG:2,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-197,all,STORAGE,0,2,TAG:2,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-198,all,STORAGE,0,2,TAG:2,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-199,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-200,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-201,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-202,all,STORAGE,0,2,TAG:2,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-203,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-205,all,,0,2,TAG:2,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-206,all,STORAGE,0,1,TAG:W:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-207,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-208,all,,0,2,TAG:2,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-209,,STORAGE,0,0,,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-210,all,,0,2,TAG:2,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-212,all,STORAGE,0,1,TAG:1,STORAGE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Lothal,L-216,all,,0,1,TAG:1,NONE: Frenez & Tosi 2005 Table 1 (paragorth transcription)
+Mohenjo-daro,DKA|2|XVII,DKA,,3,0,SEAL:S:2;SEAL:R:1,
+Mohenjo-daro,DKA|4|-,DKA,,2,0,SEAL:R:2,
+Mohenjo-daro,DKA|4|XXIV,DKA,,1,0,SEAL:R:1,
+Mohenjo-daro,DKB|1|-,DKB,,4,0,SEAL:S:4,
+Mohenjo-daro,DKB|2|-,DKB,,2,0,SEAL:S:2,
+Mohenjo-daro,DKB|2|II,DKB,,1,0,SEAL:S:1,
+Mohenjo-daro,DKB|2|III,DKB,,2,0,SEAL:S:2,
+Mohenjo-daro,DKB|2|IV,DKB,,4,0,SEAL:S:3;SEAL:R:1,
+Mohenjo-daro,DKB|2|XIII,DKB,,1,0,SEAL:R:1,
+Mohenjo-daro,DKB|3|-,DKB,,1,1,SEAL:S:1;TAB:C:1,
+Mohenjo-daro,DKB|3|VI,DKB,,1,0,SEAL:S:1,
+Mohenjo-daro,DKB|3|VII,DKB,,4,0,SEAL:S:4,
+Mohenjo-daro,DKB|3|VIII,DKB,,2,0,SEAL:S:2,
+Mohenjo-daro,DKB|4|-,DKB,,1,1,TAB:B:1;SEAL:R:1,
+Mohenjo-daro,DKB|4|IX,DKB,,1,0,SEAL:S:1,
+Mohenjo-daro,DKB|4|XI,DKB,,1,0,SEAL:L:1,
+Mohenjo-daro,DKB|4|XII,DKB,,1,0,SEAL:S:1,
+Mohenjo-daro,DKB|4|XIII,DKB,,2,0,SEAL:S:2,
+Mohenjo-daro,DKB|4|XIV,DKB,,1,0,SEAL:S:1,
+Mohenjo-daro,DKB|4|XV,DKB,,2,0,SEAL:S:1;SEAL:R:1,
+Mohenjo-daro,DKC|10|-,DKC,,10,0,SEAL:S:9;SEAL:R:1,
+Mohenjo-daro,DKC|11|-,DKC,,9,0,SEAL:R:4;SEAL:S:4;SEAL:1,
+Mohenjo-daro,DKC|12|-,DKC,,10,2,SEAL:S:9;BNGL:1;SEAL:R:1;TAB:B:1,
+Mohenjo-daro,DKC|13|-,DKC,,1,0,SEAL:S:1,
+Mohenjo-daro,DKC|14|-,DKC,,1,1,SEAL:S:1;TAB:C:1,
+Mohenjo-daro,DKC|16|-,DKC,,1,0,SEAL:S:1,
+Mohenjo-daro,DKC|2|-,DKC,,6,1,SEAL:S:5;TAB:C:1;SEAL:R:1,
+Mohenjo-daro,DKC|2|III,DKC,,1,0,SEAL:S:1,
+Mohenjo-daro,DKC|3|-,DKC,,6,0,SEAL:S:6,
+Mohenjo-daro,DKC|4|-,DKC,,1,1,BNGL:1;SEAL:S:1,
+Mohenjo-daro,DKC|5|-,DKC,,3,0,SEAL:S:3,
+Mohenjo-daro,DKC|6|-,DKC,,2,0,SEAL:S:2,
+Mohenjo-daro,DKC|7|-,DKC,,1,0,SEAL:S:1,
+Mohenjo-daro,DKC|8|-,DKC,,13,5,SEAL:S:10;SEAL:R:3;TAB:B:2;TAB:C:2;POT:T:s:1,
+Mohenjo-daro,DKC|9|-,DKC,,5,0,SEAL:S:5,
+Mohenjo-daro,DKG. (N)|13|II,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|13|III,DKG. (N),,6,0,SEAL:S:6,
+Mohenjo-daro,DKG. (N)|14|II,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|14|III,DKG. (N),,2,0,SEAL:S:1;SEAL:R:1,
+Mohenjo-daro,DKG. (N)|14|IV,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|15|I,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|15|IV,DKG. (N),,2,2,SEAL:S:2;TAB:B:2,
+Mohenjo-daro,DKG. (N)|15|V,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|15|VI,DKG. (N),WEIGHT,3,0,SEAL:S:2;SEAL:R:1,WEIGHT: Mackay 1938 vol.1 OCR line 20569 (object list) | WEIGHT: Mackay 1938 vol.1 OCR line 20570 (object list)
+Mohenjo-daro,DKG. (N)|16|-,DKG. (N),,0,2,TAB:B:2,
+Mohenjo-daro,DKG. (N)|16|I,DKG. (N),,4,0,SEAL:S:3;SEAL:R:1,
+Mohenjo-daro,DKG. (N)|16|II,DKG. (N),,6,1,SEAL:S:4;SEAL:R:2;TAB:B:1,
+Mohenjo-daro,DKG. (N)|17|I,DKG. (N),,3,0,SEAL:S:3,
+Mohenjo-daro,DKG. (N)|17|II,DKG. (N),,1,0,SEAL:1,
+Mohenjo-daro,DKG. (N)|17|III,DKG. (N),,3,0,SEAL:S:3,
+Mohenjo-daro,DKG. (N)|18|-,DKG. (N),SHELL,26,4,SEAL:S:25;TAB:B:3;TAG:C:1;SEAL:R:1,SHELL: Mackay 1938 vol.1 OCR line 20686 (object list)
+Mohenjo-daro,DKG. (N)|19|-,DKG. (N),,2,0,SEAL:S:2,
+Mohenjo-daro,DKG. (N)|20|I,DKG. (N),,3,0,SEAL:S:2;SEAL:R:1,
+Mohenjo-daro,DKG. (N)|20|II,DKG. (N),,2,2,SEAL:S:2;TAB:B:2,
+Mohenjo-daro,DKG. (N)|21|I,DKG. (N),,2,0,SEAL:R:1;SEAL:S:1,
+Mohenjo-daro,DKG. (N)|21|III,DKG. (N),,4,0,SEAL:R:2;SEAL:S:2,
+Mohenjo-daro,DKG. (N)|21|IV,DKG. (N),,4,0,SEAL:S:4,
+Mohenjo-daro,DKG. (N)|22|-,DKG. (N),,8,0,SEAL:S:7;SEAL:1,
+Mohenjo-daro,DKG. (N)|22|II,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|23|I,DKG. (N),,2,2,SEAL:S:2;TAG:W:2,
+Mohenjo-daro,DKG. (N)|23|II,DKG. (N),,4,0,SEAL:S:4,
+Mohenjo-daro,DKG. (N)|23|III,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|25|I,DKG. (N),COPPER,3,0,SEAL:R:2;SEAL:S:1,COPPER: Mackay 1938 vol.1 OCR line 20947 (object list)
+Mohenjo-daro,DKG. (N)|26|I,DKG. (N),,3,0,SEAL:S:3,
+Mohenjo-daro,DKG. (N)|26|II,,WEIGHT,0,0,,WEIGHT: Mackay 1938 vol.1 OCR line 21211 (object list)
+Mohenjo-daro,DKG. (N)|27|II,DKG. (N),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (N)|29|I,DKG. (N),,3,0,SEAL:S:2;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|10A|-,DKG. (S),,1,0,SEAL:S:1,
+Mohenjo-daro,DKG. (S)|10|I,DKG. (S),,11,2,SEAL:S:11;TAB:C:2,
+Mohenjo-daro,DKG. (S)|10|II,DKG. (S),,5,0,SEAL:S:5,
+Mohenjo-daro,DKG. (S)|10|III,DKG. (S),WEIGHT,9,0,SEAL:S:5;SEAL:R:4,WEIGHT: Mackay 1938 vol.1 OCR line 18587 (object list)
+Mohenjo-daro,DKG. (S)|10|IV,DKG. (S),,8,1,SEAL:S:6;SEAL:R:1;SEAL:1;MISC:1,
+Mohenjo-daro,DKG. (S)|11|III,DKG. (S),,3,2,SEAL:S:3;TAG:P:1;TAB:B:1,
+Mohenjo-daro,DKG. (S)|12A|I,DKG. (S),COPPER,1,7,IMPL:7;SEAL:S:1,COPPER: Mackay 1938 vol.1 OCR line 18908 (object list) | COPPER: Mackay 1938 vol.1 OCR line 18914 (object list) | COPPER: Mackay 1938 vol.1 OCR line 18917 (object list)
+Mohenjo-daro,DKG. (S)|12A|II,DKG. (S),,3,0,SEAL:R:3,
+Mohenjo-daro,DKG. (S)|12|I,DKG. (S),,5,0,SEAL:S:4;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|12|V,DKG. (S),,14,0,SEAL:S:13;SEAL:1,
+Mohenjo-daro,DKG. (S)|1A|-,DKG. (S),,2,0,SEAL:S:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|1|I,DKG. (S),COPPER;KILN,25,1,SEAL:S:19;SEAL:R:5;SEAL:1;TAB:C:1,COPPER: Mackay 1938 vol.1 OCR line 6704-6710 | KILN: Mackay 1938 vol.1 OCR line 6404-6446
+Mohenjo-daro,DKG. (S)|1|II,DKG. (S),,4,3,SEAL:S:4;TAB:I:2;ROD:1,
+Mohenjo-daro,DKG. (S)|1|III,DKG. (S),,15,0,SEAL:S:11;SEAL:R:4,
+Mohenjo-daro,DKG. (S)|1|IV,DKG. (S),,9,0,SEAL:S:7;SEAL:R:2,
+Mohenjo-daro,DKG. (S)|1|V,DKG. (S),,4,0,SEAL:S:3;SEAL:1,
+Mohenjo-daro,DKG. (S)|1|VI,DKG. (S),,7,2,SEAL:S:6;TAB:B:2;SEAL:1,
+Mohenjo-daro,DKG. (S)|1|VII,DKG. (S),,3,3,SEAL:S:3;TAB:B:3,
+Mohenjo-daro,DKG. (S)|1|VIII,DKG. (S),,4,1,SEAL:S:3;SEAL:CY:1;TAB:C:1,
+Mohenjo-daro,DKG. (S)|2|I,DKG. (S),,6,2,SEAL:S:4;SEAL:R:2;TAG:O:2,
+Mohenjo-daro,DKG. (S)|2|II,DKG. (S),,4,2,SEAL:S:4;TAB:C:2,
+Mohenjo-daro,DKG. (S)|2|III,DKG. (S),KILN,1,0,SEAL:S:1,KILN: Mackay 1938 vol.1 OCR line 7268-7281
+Mohenjo-daro,DKG. (S)|2|IV,DKG. (S),,6,4,SEAL:S:5;TAB:C:4;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|3|I,DKG. (S),,0,3,TAB:B:3,
+Mohenjo-daro,DKG. (S)|3|II,DKG. (S),,0,3,TAG:L:2;ROD:1,
+Mohenjo-daro,DKG. (S)|3|III,DKG. (S),,3,0,SEAL:S:3,
+Mohenjo-daro,DKG. (S)|3|IV,DKG. (S),,4,0,SEAL:S:3;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|3|V,DKG. (S),,3,1,SEAL:S:2;TAB:B:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|3|VI,DKG. (S),,8,1,SEAL:S:7;TAB:B:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|4|-,DKG. (S),,14,3,SEAL:S:12;SEAL:R:2;ROD:1;POT:T:g:1;TAG:L:1,
+Mohenjo-daro,DKG. (S)|5|I,DKG. (S),,6,0,SEAL:S:6,
+Mohenjo-daro,DKG. (S)|5|II,DKG. (S),,2,0,SEAL:S:2,
+Mohenjo-daro,DKG. (S)|5|III,DKG. (S),,1,0,SEAL:R:1,
+Mohenjo-daro,DKG. (S)|6A|-,DKG. (S),,6,0,SEAL:S:5;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|6|I,DKG. (S),,9,0,SEAL:S:8;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|6|II,DKG. (S),,1,6,TAB:C:6;SEAL:S:1,
+Mohenjo-daro,DKG. (S)|6|III,DKG. (S),,3,3,SEAL:S:3;TAB:C:3,
+Mohenjo-daro,DKG. (S)|7|I,DKG. (S),,14,6,SEAL:S:14;TAB:B:6,
+Mohenjo-daro,DKG. (S)|7|II,DKG. (S),,10,4,SEAL:S:9;TAB:B:3;ROD:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|7|III,DKG. (S),,16,1,SEAL:S:15;BNGL:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|7|IV,DKG. (S),WEIGHT,5,2,SEAL:S:5;TAB:B:2,WEIGHT: Mackay 1938 vol.1 OCR line 15735 (object list)
+Mohenjo-daro,DKG. (S)|7|IX,DKG. (S),,8,1,SEAL:S:7;TAB:B:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|7|V,DKG. (S),,17,4,SEAL:S:12;SEAL:R:4;TAB:B:3;ROD:1;SEAL:C:1,
+Mohenjo-daro,DKG. (S)|7|VI,DKG. (S),,3,0,SEAL:R:2;SEAL:S:1,
+Mohenjo-daro,DKG. (S)|7|VII,DKG. (S),,2,0,SEAL:S:2,
+Mohenjo-daro,DKG. (S)|7|VIII,DKG. (S),WEIGHT,9,1,SEAL:S:8;BNGL:1;SEAL:1,WEIGHT: Mackay 1938 vol.1 OCR line 16159 (object list)
+Mohenjo-daro,DKG. (S)|8A|-,DKG. (S),,7,0,SEAL:S:6;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|8|I,DKG. (S),,3,1,SEAL:S:3;TAB:B:1,
+Mohenjo-daro,DKG. (S)|8|II,DKG. (S),,5,2,SEAL:S:3;SEAL:1;SEAL:R:1;TAB:B:1;TAG:O:1,
+Mohenjo-daro,DKG. (S)|8|III,DKG. (S),,14,1,SEAL:S:12;SEAL:R:2;ROD:1,
+Mohenjo-daro,DKG. (S)|9A|V,DKG. (S),,7,0,SEAL:S:5;SEAL:R:2,
+Mohenjo-daro,DKG. (S)|9A|VIII,DKG. (S),,3,1,SEAL:S:2;TAB:B:1;SEAL:R:1,
+Mohenjo-daro,DKG. (S)|9|I,DKG. (S),,8,0,SEAL:S:4;SEAL:R:3;SEAL:1,
+Mohenjo-daro,DKG. (S)|9|II,DKG. (S),KILN,2,0,SEAL:S:2,KILN: Mackay 1938 vol.1 OCR line 9940-9989
+Mohenjo-daro,DKG. (S)|9|III,DKG. (S),,7,0,SEAL:S:4;SEAL:R:2;SEAL:1,
+Mohenjo-daro,DKG. (S)|9|IV,DKG. (S),,4,2,SEAL:S:3;TAB:B:2;SEAL:1,
+Mohenjo-daro,DKG. (S)|9|IX,DKG. (S),WEIGHT,9,0,SEAL:S:7;SEAL:R:2,WEIGHT: Mackay 1938 vol.1 OCR line 17909 (object list)
+Mohenjo-daro,DKG. (S)|9|VI,DKG. (S),,5,2,SEAL:S:5;TAB:B:1;TAB:C:1,
+Mohenjo-daro,DKG. (S)|9|VII,DKG. (S),,10,8,SEAL:S:7;SEAL:R:3;TAB:B:3;TAB:C:2;TAB:I:2;TAG:O:1,
+Mohenjo-daro,DKG. (S)|9|VIII,DKG. (S),,14,0,SEAL:S:11;SEAL:R:3,
+Mohenjo-daro,DKG. (S)|9|X,DKG. (S),,4,0,SEAL:S:4,
+Mohenjo-daro,DKG. (S)|9|XI,DKG. (S),,5,0,SEAL:S:5,
+Mohenjo-daro,DKG. (S)|9|XII,DKG. (S),,3,1,SEAL:S:3;TAB:B:1,
+Mohenjo-daro,HRA|1|I,HRA,,10,1,SEAL:S:7;SEAL:R:3;POT:T:s:1,
+Mohenjo-daro,HRA|2|-,HRA,,5,1,SEAL:S:5;TAB:B:1,
+Mohenjo-daro,HRA|2|II,HRA,,3,1,SEAL:S:2;TAB:B:1;SEAL:R:1,
+Mohenjo-daro,HRA|2|III,HRA,,6,1,SEAL:S:6;TAB:B:1,
+Mohenjo-daro,HRA|2|V,HRA,,1,0,SEAL:S:1,
+Mohenjo-daro,HRA|2|VI,HRA,,2,0,SEAL:S:2,
+Mohenjo-daro,HRA|2|X,HRA,,2,0,SEAL:S:2,
+Mohenjo-daro,HRA|3|-,HRA,,0,1,TAB:C:1,
+Mohenjo-daro,HRA|3|VII,HRA,,2,0,SEAL:S:2,
+Mohenjo-daro,HRA|3|VIII,HRA,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|1|V,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|1|VI,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|1|VIII,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|2|-,HRB,,1,0,SEAL:1,
+Mohenjo-daro,HRB|2|IX,HRB,,6,2,SEAL:S:6;TAB:B:2,
+Mohenjo-daro,HRB|2|V,HRB,,6,0,SEAL:S:5;SEAL:R:1,
+Mohenjo-daro,HRB|2|X,HRB,,2,1,SEAL:S:1;SEAL:C:1;TAB:B:1,
+Mohenjo-daro,HRB|2|XI,HRB,,5,0,SEAL:S:5,
+Mohenjo-daro,HRB|2|XII,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|2|XIII,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|3|-,HRB,,0,1,TAB:C:1,
+Mohenjo-daro,HRB|3|XIV,HRB,,4,3,TAB:B:3;SEAL:S:2;SEAL:R:1;SEAL:1,
+Mohenjo-daro,HRB|3|XV,HRB,,1,1,TAB:B:1;SEAL:S:1,
+Mohenjo-daro,HRB|4|XVIII,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|5|XLII,HRB,,3,0,SEAL:S:3,
+Mohenjo-daro,HRB|5|XXIII,HRB,,4,0,SEAL:S:4,
+Mohenjo-daro,HRB|5|XXIX,HRB,,3,0,SEAL:S:3,
+Mohenjo-daro,HRB|5|XXV,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|5|XXX,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|5|XXXI,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|5|XXXVI,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|5|XXXVIII,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|6|XLVIII,HRB,,3,1,SEAL:S:3;TAB:B:1,
+Mohenjo-daro,HRB|7|LV,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|7|XLIX,HRB,,1,0,SEAL:S:1,
+Mohenjo-daro,HRB|7|XLVIII,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|8|LIX,HRB,,0,1,BNGL:1,
+Mohenjo-daro,HRB|8|LVI,HRB,,1,1,SEAL:S:1;TAB:C:1,
+Mohenjo-daro,HRB|8|LVII,HRB,,3,0,SEAL:S:3,
+Mohenjo-daro,HRB|8|LVIII,HRB,,0,1,TAB:C:1,
+Mohenjo-daro,HRB|8|LXI,HRB,,0,1,TAB:C:1,
+Mohenjo-daro,HRB|8|LXII,HRB,,2,0,SEAL:S:2,
+Mohenjo-daro,HRB|8|LXIV,HRB,,2,1,SEAL:S:2;TAB:B:1,
+Mohenjo-daro,VS|1|I,VS,,3,5,TAB:C:4;SEAL:S:2;TAB:B:1;SEAL:R:1,
+Mohenjo-daro,VS|1|II,VS,,2,0,SEAL:S:2,
+Mohenjo-daro,VS|1|III,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|1|V,VS,,1,0,SEAL:R:1,
+Mohenjo-daro,VS|1|VI,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|2|IX,,WEIGHT,0,0,,WEIGHT: Marshall 1931 vol.II OCR line 20040
+Mohenjo-daro,VS|2|VIII,VS,,8,1,SEAL:S:7;SEAL:1;TAB:C:1,
+Mohenjo-daro,VS|2|XIII,VS,,2,3,TAB:C:2;SEAL:S:2;TAB:B:1,
+Mohenjo-daro,VS|2|XIV,VS,,0,1,TAB:C:1,
+Mohenjo-daro,VS|2|XV,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|2|XVI,VS,,7,2,SEAL:S:5;TAB:C:2;SEAL:R:2,
+Mohenjo-daro,VS|2|XVII,VS,,1,0,SEAL:R:1,
+Mohenjo-daro,VS|3|XIX,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|3|XVIII,VS,,2,3,TAB:C:2;TAB:B:1;SEAL:S:1;SEAL:R:1,
+Mohenjo-daro,VS|3|XX,VS,,2,2,SEAL:S:1;TAB:C:1;SEAL:1;POT:T:s:1,
+Mohenjo-daro,VS|3|XXI,,WEIGHT,0,0,,WEIGHT: Marshall 1931 vol.II OCR line 20218
+Mohenjo-daro,VS|4|XXI,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|4|XXII,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|4|XXIII,VS,,5,0,SEAL:S:4;SEAL:C:1,
+Mohenjo-daro,VS|4|XXIV,VS,,3,0,SEAL:S:3,
+Mohenjo-daro,VS|4|XXV,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|4|XXVI,VS,,2,1,SEAL:S:2;TAB:C:1,
+Mohenjo-daro,VS|4|XXVII,VS,,3,2,SEAL:S:3;ROD:2,
+Mohenjo-daro,VS|4|XXXIV,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|5|XXIX,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|5|XXX,VS,,0,1,POT:T:g:1,
+Mohenjo-daro,VS|6|XXXI,VS,,1,0,SEAL:S:1,
+Mohenjo-daro,VS|6|XXXVII,VS,,1,0,SEAL:1,
+Mohenjo-daro,VS|7|XXXIII,VS,,1,1,SEAL:S:1;TAB:C:1,
+Mohenjo-daro,VS|7|XXXXIII,VS,,1,0,SEAL:S:1,

@@ -99,6 +99,10 @@ Rebuild everything with `python3 -m venv .venv && .venv/bin/pip install -r requi
 - ICIT is mostly a second transcription of the same objects, not new data. About 90% of it comes from sites M77 covers.
 - Iconic judgements of sign drawings (e.g. M184 = rhinoceros, M346 = goat-antelope) were not blind and use drawings, not photographs.
 
+## All the Indus data in one place
+
+`datasets/` catalogues every data source the project uses: excavation reports, both sign corpora, seal registers, findspots, pottery marks, objects found abroad and new finds. It includes 33 tables the project made, plus the frozen held-out split as text numbers. `python3 datasets/fetch.py corpus` and `python3 datasets/fetch.py reports` rebuild the rest from public sources. See `datasets/README.md`.
+
 ## Data sources and credit
 
 - Mahadevan 1977 via indusscript.in (export in [paragorth/Indus-](https://github.com/paragorth/Indus-)).

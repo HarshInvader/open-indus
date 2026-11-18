@@ -1,0 +1,47 @@
+category,item,transliteration,gloss,explicitly_meluhhan,name_language,period,date,provenience,text_id,publication,verified,notes
+person,Nanasa / Nanaza,na-na-sa3 ; Na-na-za,personal name,yes (i3-ba lu2 me-luh-ha{ki}-me),non-Sumerian non-Akkadian,Ur III,SS6.iii; SS6.xii; SS8.xii; SS9.i,Irisagrig,P516138; P516366; P453801; BDTNS 205179,CUSAS 40/2 1354; CUSAS 40/2 1582; Nisaba 15 0371; UCTIS 099,V (CDLI/BDTNS),royal bezoar-goat shepherds (sipa a-dara4); oil rations 1 sila; 4 tablets over >=3 years; spelling sa3/za varies -> /nanasa/~/nanatsa/~/nanaza/
+person,Samar,sa6-ma-ar,personal name,yes (same lines),non-Sumerian non-Akkadian?,Ur III,SS6-SS9,Irisagrig,P516138; P516366; P453801; BDTNS 205179,as above,V,could also be read Akkadian-ish; Laursen & Steinkeller 2017:83-84 treat as possibly Meluhhan
+person,Ali-ahi (wife of Samar),a-li-a-hi dam-a-ni,personal name,yes (household of lu2 me-luh-ha),Akkadian,Ur III,SS6-SS9,Irisagrig,P516138; P516366; P453801; BDTNS 205179,as above,V,Akkadian 'where is the brother'; shows mixed naming in one household
+person,Ur-Lamma,ur-{d}lamma dumu me-luh-ha,personal name,yes ('son of Meluhha'),Sumerian,Ur III,S34-AS6,Girsu (Gu'abba),P102519; P108448; P123177; P136196; P202783; P207485; P318542; (MVN 7 420 P115266?),ASJ 13 230 74; CT 3 17; OTR 242; UDT 64; PPAC 5 0612; MVN 22 181; PPAC 5 0323,V,kiszib3 (sealed receipts) of Ur-Lamma cited in Nin-mar accounts; no seal impression transliterated in CDLI (checked P123177)
+person,Ur-Igalim,ur-{d}ig-alim dumu me-luh-ha,personal name,yes,Sumerian,Ur III,S40-S41,Girsu,P124739,Orient 16 088 131,V,
+person,Meluhha (as name),1(disz) me-luh-ha dumu ur-{d}na-ru2-a,personal name 'Meluhha',ethnonym used as name,ethnonym,Ur III,undated,Girsu,P112283,JESHO 20 145 12,V,father has Sumerian name
+person,Meluhha (as name?),3(ban2) 3(disz) me-luh-ha,personal name?,ethnonym used as name?,ethnonym,Ur III,undated,Girsu,P110774,ITT 2 00904,V,ration line among personal names
+person,(overseer) Meluhha,ugula me-luh-ha,overseer named/called Meluhha,yes?,ethnonym,Old Akkadian,,Girsu,P115261,MVN 07 411,V,overseer of 6 servants of Nanshe
+person,Lu-sunzida,lu2-sun2-zi-da lu2 me-luh-ha-ke4,'man of the just wild cow (buffalo?)',yes,Sumerian (calque?),Old Akkadian,,unknown,P212982,CT 50 076,V,pays compensation for a broken tooth; possible translation of a native name
+person,Lu-marza,lu2-mar-za dumu me-luh-ha,personal name,yes,Sumerian?,Old Akkadian,,Ur,P467759,CUSAS 26 259,V,
+person,Ili-ahi,ili-ahi lu2 me-luh-ha,personal name,yes,Akkadian,Old Akkadian,,Adab,P253274,CUSAS 35 288,V (per paragorth),
+person,Dadi,da-di3 lu2-tukul ma2 me-luh-ha-ka,personal name + title,in service of 'the Meluhha ship',Lallname (pan-Mesopotamian),Old Akkadian,,unknown,P212842,BIN 08 298,V,soldier of the Meluhha boat
+person,Su-ilisu,su-i-li-su EME.BAL me-luh-ha,interpreter of Meluhha,no (interpreter),Akkadian,Old Akkadian,,unknown (cylinder seal),Louvre AO 22310,RIME 2 (seal),V (literature),proves Meluhhan needed translation
+person,Ur-abba,ur-ab-ba ra-gaba me-luh-ha,rider/courier of Meluhha,title,Sumerian,Lagash II,,Girsu,P213104,DCS 017,V,
+person,Utu-illat,{d}utu-illat sukkal u4 me-luh-ha-sze3 i3-gen-na,envoy who went to Meluhha,no (Mesopotamian envoy),Akkadian,Ur III,S41.iv.28,Umma,P320486,CM 26 136,V,me-luh-ha!? reading flagged
+person,Elum-meluh(?),e-lum-me-luh lu2-[...],personal name?,unclear,unclear,Ur III,undated,Umma,P135796,TUT 202,V,possibly 'e-lum' + me-luh; worth collation
+person,Sakkusi(?) (owner of Indus-type seal),sag/sak/ka-ku/lu-ši(-...),seal owner name,owner of Indus-type seal,non-Sumerian non-Akkadian (no CDLI match),pre-Sargonic? (Gadd),,Ur,BM 120573 = U.7683,Gadd 1932 no.1; UE X 631,V (Gadd; photo),cuneiform legend on Indus-type square seal with gaur; no Indus signs
+person,Dalame (father),dumu da-la-me ... ki a-ab-ba-ta,'son of Dalame' from the sea,from the sea (Gulf?),unknown,Ur III,,Umma,P135549,TCNU 703,V (paragorth),weak foreign candidate
+person,Zasiri (Gulf seal owner),za-si-ri2 (Linear Elamite),seal owner name,Gulf-type seal,unknown,early 2nd mill.,,unprovenanced (Ligabue),LEI 22 / P247651,Winkelmann 1999,V (HLED),Indus seal layout with Linear Elamite text slot
+person,Nadubeli (Magan),na-du-be2-li2 ensi2 ma2-gan{ki},ruler of Magan,Magan,Akkadian-looking,Ur III,AS4.vii,Puzris-Dagan,P108701,CTMMA 1 17,V (BDTNS),envoy We-du-um lu2-kin-gi4-a
+person,Manium (Magan),ma-ni-um,lord of Magan,Magan,unknown,Old Akkadian,Naram-Sin,,RIME 2.01.04 (Naram-Sin statue),,I,
+person,Rimum (Dilmun),ri-mu-um ARAD {d}in-za-ak,ruler/official of Dilmun,Dilmun,Amorite/Akkadian,Old Babylonian (c.1700),,Bahrain,Durand Stone,,V (lit.),
+person,Yagli-El (Dilmun),ya-ag-li-el,king of Dilmun,Dilmun,Amorite,Old Babylonian (c.1700),,Bahrain (A'ali),vessels + seals,Laursen et al. JNES 85 (2026),V (lit.),
+title,interpreter of Meluhha,EME.BAL me-luh-ha,,,,Old Akkadian,,,AO 22310,,V,
+title,soldier of the Meluhha ship,lu2-tukul ma2 me-luh-ha,,,,Old Akkadian,,,P212842,BIN 08 298,V,
+title,officer of the Meluhha ship,nu-banda3 ma2 me-luh-ha,,,,Old Akkadian,,Adab,P326408,CUSAS 20 153,V,
+title,workers of the Meluhha ship,gurusz ma2 me-luh-ha,,,,Old Akkadian,,Adab,P217502,Adab 0712,V,
+title,courier/rider of Meluhha,ra-gaba me-luh-ha,,,,Lagash II,,Girsu,P213104,DCS 017,V,
+title,men of Meluhha,lu2 me-luh-ha{ki}-me,,,,Ur III,SS6-IS3,Irisagrig,P453801; P454137; P516138; P516366,,V,
+place,Meluhha village of Gu'abba,e2-duru5 me-luh-ha{ki} (gu2-ab-ba{ki}-ka),,,,Ur III,S32-SS9,Girsu/Gu'abba,P108484; P114609; P115266; P218242; P235705; P374962; P378169; granary i3-dub me-luh-ha (P102031; P110574; P116633; P116995; P123010; P132876; P340534),,V,
+place,Meluhha orchard of Ninmar,{gesz}kiri6 me-luh-ha {d}nin-mar{ki}-ka,,,,Ur III,S48,Girsu,P130369,STA 19,V,
+place,Meluhha (land),kur me-luh-ha ; me-luh-ha{ki},,,,OAkk-OB,,,RIME 2.01.01.11; Gudea St B/D; Cyl A; Curse of Agade 48; Enki & World Order 124 219,,V,
+good,Meluhha ships,ma2 me-luh-ha{ki} ; {gesz}ma2-gi4-lum me-luh-ha,boats moored at Agade; 'magilum' boat,,,Old Akkadian; OB lit.,,,P461937; P227509; ETCSL 1.1.3:128,,V,
+good,carnelian,gug gi-rin me-luh-ha ; {na4}gug me-luh-ha,carnelian (red stone),,,Lagash II; OB lists,,,Gudea Cyl A 16.22 Cyl B 14.13; OIP 011 179; AUWE 23 170; BBVOT 3 01; AlT 447,,V,
+good,ab-ba wood,{gesz}ab-ba me-luh-ha,'sea-wood' (mangrove? blackwood?) for chairs footstools,,,Lagash II-OB,IS15 etc,Umma Ur Girsu Isin,P107404; P136752; P136982; P137152; P140868; P249043; P283844; P236658; P390701; P361994 (carpenter going for it),,V,commonest Meluhha good in admin texts
+good,mes wood,{gesz}mes me-luh-ha ; mes a-ab-ba me-luh-ha,mes tree (Dalbergia sissoo?),,,Ur III-OB,IS15,Ur,P137142; P137566; P137823; Hh lists,,V,
+good,esi (ebony/blackwood),{gesz}esi kur me-luh-ha,,,,Lagash II,,Girsu,Gudea St B,,V,
+good,gold,ku3-sig17 sahar-ba kur me-luh-ha-ta,gold dust,,,Lagash II,,Girsu,Gudea St B,,V,
+good,copper,uruda me-luh-ha,Meluhha copper,,,Ur III; OB list,IS4,Ur,P136689 (UET 3 0368); MSL 07 211,,V,
+good,tin(?),nagga ... me-luh-ha,tin listed with Meluhha goods,,,Lagash II,,,Gudea Cyl B 14.13,,V,association only
+good,ivory,zu2 am-si,elephant tooth (with dar me-luh-ha),,,Ur III,IS15,Ur,P137085 (UET 3 0761),,V,'am-si' = elephant
+good,Meluhha bird,dar{muszen} me-luh-ha ; dar-me-luh-ha{muszen},francolin/peacock? (carved figurines in Ur workshop texts),,,Ur III; OB lists,IS15,Ur; Nippur,P137081; P137085; P137088; P137092; P137094; P229306; P231266,,V,objects ba-an-gar ('inlaid') = figurines; ETCSL 1.1.3:229 haja bird with carnelian 'beard'
+good,speckled 'dog' of Meluhha,ur gun3-a me-luh-ha{ki},leopard/cheetah? brought from Marhashi as tribute,,,Ur III,IS,Ur,P432309 (RIME 3/2.01.05.04),,V,
+good,Meluhha goat/sheep,masz2 ga me-luh-ha ; udu me-luh-ha,,,,Old Akkadian,,Girsu; Adab,P217715; P329097,,V,
+good,Meluhha stone,na4 nir7 a-la-lum me-luh-ha,,,,Ur III,,Puzris-Dagan?,auction 2021,,V (one BDTNS line),
+good,bulls of the mountain,gud kur-ra,possibly zebu,,,OB lit.,,,ETCSL 1.1.3:225-226,,V,inference only

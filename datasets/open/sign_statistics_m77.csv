@@ -1,0 +1,418 @@
+sign,tokens_all_objects,tokens_distinct_texts,distinct_text_count,n_initial,n_medial,n_final,n_standalone,p_initial,p_medial,p_final,p_standalone,positional_q_vs_shuffle,class,stroke_type,segment_memberships,probable_allograph_of,variant_family,lookalike_but_distinct,wells_codes,icit_class,top_sites
+M1,134,96,91,4,16,56,1,0.052,0.208,0.727,0.013,0.0068,closer,,M342-M1(50); M59-M342-M1(6); M1-M1(5),,,,W090,closer,Mohenjodaro:54;Harappa:17;Lothal:8
+M2,21,12,12,3,8,0,0,0.273,0.727,0.0,0.0,0.033,medial-core,,M2-M12(5); M2-M14(3),,,,W097,medial-core,Mohenjodaro:9;Harappa:2;Kalibangan:1
+M3,6,6,6,2,3,1,0,0.333,0.5,0.167,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:5;West Asian finds:1
+M4,2,2,2,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M5,2,2,2,0,0,2,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Lothal:1
+M6,5,4,4,3,1,0,0,0.75,0.25,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:2
+M7,8,4,4,1,1,0,1,0.333,0.333,0.0,0.333,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:2
+M8,105,82,82,1,67,0,0,0.015,0.985,0.0,0.0,0.0068,medial-core,,M8-M342(27); M171-M8-M342(26); M48-M8-M342(9); M67-M8(4); M171-M8(3); M102-M17-M8-M342(3),,,,W100,medial-core,Mohenjodaro:55;Harappa:18;Chanhudaro:4
+M9,12,12,12,2,8,0,0,0.2,0.8,0.0,0.0,0.1795,medial-core,,,,,,W101,,Mohenjodaro:8;Harappa:3;Chanhudaro:1
+M10,6,5,4,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;West Asian finds:1
+M11,2,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;West Asian finds:1
+M12,80,64,64,0,9,49,0,0.0,0.155,0.845,0.0,0.0068,closer,,M2-M12(5),,M14,M15,W151,closer,Mohenjodaro:36;Harappa:13;Chanhudaro:5
+M13,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M14,13,12,12,0,1,11,0,0.0,0.083,0.917,0.0,0.0068,closer,,M2-M14(3),M12,M12,M15,W161,closer,Mohenjodaro:6;Harappa:4;Chanhudaro:2
+M15,126,74,74,0,18,48,1,0.0,0.269,0.716,0.015,0.0068,closer,,M15-M176(11); M102-M15(7); M98-M178-M389-M15(6); M86-M15(4); M25-M15(3),,,M12;M14,W156;W154,closer,Mohenjodaro:45;Harappa:24;Chanhudaro:1
+M16,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M17,91,87,87,30,35,2,0,0.448,0.522,0.03,0.0,0.0068,opener,,M17-M293(13); M100-M17(7); M17-M336(6); M17-M261(5); M17-M406-M162(4); M102-M17-M8-M342(3),,,,W140,opener,Mohenjodaro:58;Harappa:12;Lothal:8
+M18,27,18,18,7,5,0,0,0.583,0.417,0.0,0.0,0.0125,opener,,M18-M211(3); M18-M211-M87-M169(3),,,,W095,opener,Mohenjodaro:11;Harappa:2;Lothal:2
+M19,8,8,8,0,6,1,0,0.0,0.857,0.143,0.0,,rare(<10 texts),,,,,,W130,medial-core,Mohenjodaro:7;Lothal:1
+M20,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M21,2,2,1,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,West Asian finds:1
+M22,3,3,3,1,2,0,0,0.333,0.667,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1;Kalibangan:1
+M23,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M24,2,2,2,0,1,1,0,0.0,0.5,0.5,0.0,,rare(<10 texts),,,,,,,,Harappa:1;Other sites:1
+M25,53,33,33,6,22,1,0,0.207,0.759,0.034,0.0,0.0177,medial-core,,M25-M245-M245(13); M25-M176-M342(6); M25-M15(3),,,,W142,medial-core,Mohenjodaro:28;Harappa:4;Lothal:1
+M26,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M27,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M28,50,49,49,13,24,4,0,0.317,0.585,0.098,0.0,0.0758,opener,,M28-M162(9),,,,W125,medial-core,Mohenjodaro:27;Harappa:13;Chanhudaro:3
+M29,3,3,3,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Chanhudaro:1;West Asian finds:1
+M30,2,2,2,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M31,2,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M32,11,11,11,1,4,1,0,0.167,0.667,0.167,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Lothal:3;Harappa:2
+M33,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M34,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M35,4,3,3,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3
+M36,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M37,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M38,6,6,6,1,3,1,1,0.167,0.5,0.167,0.167,,rare(<10 texts),,,,,,,,Mohenjodaro:6
+M39,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M40,14,7,7,2,1,2,1,0.333,0.167,0.333,0.167,,rare(<10 texts),,,,,,W137,,Mohenjodaro:4;Harappa:3
+M41,20,11,11,6,2,0,0,0.75,0.25,0.0,0.0,,rare(<10 texts),,M41-M245(3),,,,W104,opener,Mohenjodaro:7;Lothal:2;Harappa:1
+M42,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M43,2,2,2,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Other sites:1
+M44,2,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Harappa:1
+M45,4,2,2,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M46,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M47,16,13,13,3,7,0,1,0.273,0.636,0.0,0.091,0.2785,medial-core,,,,,,W175,opener,Mohenjodaro:5;Harappa:4;Lothal:2
+M48,168,92,92,16,60,1,0,0.208,0.779,0.013,0.0,0.0068,medial-core,,M48-M342(44); M48-M8-M342(9); M48-M193-M342(4),,,,W176,medial-core,Mohenjodaro:53;Harappa:28;Lothal:4
+M49,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M50,8,8,8,4,3,0,0,0.571,0.429,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:8
+M51,105,84,84,14,48,2,1,0.215,0.738,0.031,0.015,0.0068,medial-core,,M51-M130-M149-M342(20); M51-M130(14); M336-M51-M342(7); M51-M130-M149(6); M51-M155(3); M51-M342(3),,,,W255,medial-core,Mohenjodaro:48;Harappa:24;Lothal:4
+M52,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M53,130,112,112,15,71,0,0,0.174,0.826,0.0,0.0,0.0068,medial-core,,M53-M342(23); M53-M171-M59(14); M53-M67(9); M175-M230-M53(9); M53-M72(7); M53-M70(4),,,,W798,medial-core,Mohenjodaro:66;Harappa:33;Lothal:6
+M54,19,19,17,8,8,1,0,0.471,0.471,0.059,0.0,0.0177,opener,,,,,,W190,opener,Mohenjodaro:11;Harappa:5;Lothal:1
+M55,4,4,4,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:1
+M56,8,8,8,0,2,2,0,0.0,0.5,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:5;Harappa:3
+M57,7,7,7,2,3,1,0,0.333,0.5,0.167,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Harappa:1;Kalibangan:1
+M58,7,7,7,0,6,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M244-M58(3),,,,W794,,Mohenjodaro:5;Harappa:2
+M59,381,301,289,25,194,11,0,0.109,0.843,0.048,0.0,0.0068,medial-core,,M87-M59(38); M59-M211(24); M171-M59(19); M53-M171-M59(14); M102-M59(14); M125-M59(12),,M72,M67;M70,W220,medial-core,Mohenjodaro:185;Harappa:65;Lothal:16
+M60,29,27,27,2,7,14,0,0.087,0.304,0.609,0.0,0.0068,closer,,M87-M60(13); M171-M60(3),,,,W226,closer,Mohenjodaro:19;Chanhudaro:3;Harappa:2
+M61,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M62,13,10,10,0,7,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M62-M342(8),,,,W222,medial-core,Mohenjodaro:7;Chanhudaro:2;Harappa:1
+M63,10,2,2,0,1,0,1,0.0,0.5,0.0,0.5,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M64,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M65,216,172,172,46,92,1,1,0.329,0.657,0.007,0.007,0.0068,medial-core,,M65-M67(31); M65-M72(17); M267-M99-M65(9); M99-M65(6),,M67;M70;M72,M75,W235,medial-core,Mohenjodaro:110;Harappa:44;Lothal:8
+M66,19,13,13,2,5,5,1,0.154,0.385,0.385,0.077,0.3939,closer,,,,,,W236,closer,Mohenjodaro:7;Harappa:3;Lothal:2
+M67,279,208,208,36,133,0,1,0.212,0.782,0.0,0.006,0.0068,medial-core,,M65-M67(31); M67-M244-M342(14); M267-M99-M67(13); M67-M72(12); M99-M67(9); M53-M67(9),,M65;M70;M72,M59,W240,medial-core,Mohenjodaro:125;Harappa:61;Chanhudaro:9
+M68,9,8,8,0,2,5,0,0.0,0.286,0.714,0.0,,rare(<10 texts),,,,,,W241,closer,Mohenjodaro:8
+M69,4,3,3,1,1,0,1,0.333,0.333,0.0,0.333,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Chanhudaro:1
+M70,73,69,69,10,41,0,0,0.196,0.804,0.0,0.0,0.0068,medial-core,,M70-M211(10); M70-M72(4); M53-M70(4); M389-M70(4),,M65;M67;M72,M59,W231,medial-core,Mohenjodaro:42;Harappa:18;Lothal:4
+M71,7,7,7,0,2,4,0,0.0,0.333,0.667,0.0,,rare(<10 texts),,,,,,W232,,Mohenjodaro:4;Harappa:3
+M72,188,155,155,26,102,0,0,0.203,0.797,0.0,0.0,0.0068,medial-core,,M65-M72(17); M67-M72(12); M67-M72-M211(8); M387-M72(8); M72-M211(7); M53-M72(7),,M59;M65;M67;M70,,W233,medial-core,Mohenjodaro:94;Harappa:41;Lothal:13
+M73,8,5,5,1,0,3,1,0.2,0.0,0.6,0.2,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1;Lothal:1
+M74,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;West Asian finds:1
+M75,13,12,12,4,6,1,0,0.364,0.545,0.091,0.0,0.539,opener,,,,,M65,W243,,Mohenjodaro:9;Harappa:2;West Asian finds:1
+M76,15,15,14,10,4,0,0,0.714,0.286,0.0,0.0,0.0068,opener,,M76-M402(5),,,,W260,,Mohenjodaro:10;Harappa:3;Kalibangan:1
+M77,2,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1;Lothal:1
+M78,8,7,7,0,6,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M78-M347-M342(4),,,,,,Mohenjodaro:5;Harappa:1;Chanhudaro:1
+M79,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M80,4,4,4,2,1,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4
+M81,24,22,22,0,14,3,0,0.0,0.824,0.176,0.0,0.1159,medial-core,,M81-M342(4),,,,W269,,Mohenjodaro:15;Harappa:3;Lothal:3
+M82,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M83,4,4,4,1,1,1,0,0.333,0.333,0.333,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:1
+M84,8,8,8,4,3,0,0,0.571,0.429,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:5;Harappa:2;Kalibangan:1
+M85,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Harappa:1
+M86,149,133,132,48,53,9,0,0.436,0.482,0.082,0.0,0.0068,opener,tall,M134-M86(6); M86-M15(4); M307-M86-M99(4),,,M97;M98,W031,opener,Mohenjodaro:85;Harappa:27;Chanhudaro:7
+M87,365,248,232,45,142,15,0,0.223,0.703,0.074,0.0,0.0068,medial-core,tall,M87-M59(38); M403-M87-M342(21); M87-M60(13); M267-M99-M87-M59(11); M87-M244(11); M87-M284-M342(7),,,,W032,medial-core,Mohenjodaro:139;Harappa:61;Chanhudaro:13
+M88,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),tall,,,,,,,Mohenjodaro:1
+M89,314,160,152,15,105,9,1,0.115,0.808,0.069,0.008,0.0068,medial-core,tall,M336-M89(52); M336-M89-M211(39); M89-M328(9); M89-M89(7); M72-M336-M89(6); M89-M381(4),,,M109,W033,medial-core,Mohenjodaro:91;Harappa:46;Kalibangan:6
+M90,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M91,2,2,2,0,0,2,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M92,1,1,1,0,0,0,0,,,,,,rare(<10 texts),tall,,,,,,,Kalibangan:1
+M93,11,10,10,0,2,7,0,0.0,0.222,0.778,0.0,,rare(<10 texts),tall,,,,,,,Chanhudaro:10
+M94,11,10,10,2,4,1,0,0.286,0.571,0.143,0.0,,rare(<10 texts),tall,M409-M94(5),,,,,,Harappa:5;Mohenjodaro:3;Kalibangan:2
+M95,64,9,9,5,2,0,0,0.714,0.286,0.0,0.0,,rare(<10 texts),tall,M95-M328(5),,,,W034,opener,Harappa:5;Mohenjodaro:3;Chanhudaro:1
+M96,22,16,16,2,8,3,1,0.143,0.571,0.214,0.071,0.4331,medial-core,tall,M409-M96(11),,,,W035,medial-core,Mohenjodaro:11;Harappa:4;Lothal:1
+M97,91,81,78,0,66,3,0,0.0,0.957,0.043,0.0,0.0068,medial-core,short,M391-M97(14); M252-M97(7),,,M86;M98,W001,medial-core,Mohenjodaro:55;Harappa:14;Lothal:4
+M98,88,76,76,3,51,7,0,0.049,0.836,0.115,0.0,0.0177,medial-core,short,M98-M178-M389-M15(6); M98-M391-M391(3),,,M86;M97,,,Mohenjodaro:51;Lothal:9;Harappa:8
+M99,649,547,546,2,444,7,0,0.004,0.98,0.015,0.0,0.0068,medial-core,short,M267-M99(191); M391-M99(78); M180-M99(15); M267-M99-M67(13); M267-M99-M87-M59(11); M99-M387(9),,,M100,W002,medial-core,Mohenjodaro:349;Harappa:106;Lothal:43
+M100,29,27,27,6,15,0,1,0.273,0.682,0.0,0.045,0.0452,medial-core,short,M100-M17(7),,,M99,,,Mohenjodaro:15;Harappa:7;Lothal:3
+M101,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),short,,,,,,,Mohenjodaro:1
+M102,151,101,101,28,55,3,1,0.322,0.632,0.034,0.011,0.0068,medial-core,short,M102-M190(14); M102-M59(14); M102-M162(11); M102-M287(10); M102-M15(7); M102-M287-M342(5),,,,W003,opener,Mohenjodaro:63;Harappa:26;Lothal:4
+M103,30,13,13,4,6,0,1,0.364,0.545,0.0,0.091,0.18,opener,short,M103-M403(10),,,,W013,medial-core,Harappa:6;Mohenjodaro:4;Chanhudaro:1
+M104,70,51,50,14,30,3,0,0.298,0.638,0.064,0.0,0.0125,medial-core,short,M104-M169(16); M104-M162(13),,,,W004,medial-core,Mohenjodaro:32;Harappa:12;Chanhudaro:2
+M105,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),short,,,,,,,Mohenjodaro:1;Lothal:1
+M106,38,27,27,8,15,1,1,0.32,0.6,0.04,0.04,0.0638,opener,short,M106-M287-M342(7); M106-M169(6); M106-M162(4),,,,W005,opener,Mohenjodaro:19;Harappa:5;Chanhudaro:1
+M107,6,6,6,2,1,3,0,0.333,0.167,0.5,0.0,,rare(<10 texts),short,,,,,,,Mohenjodaro:2;Chanhudaro:1;Lothal:1
+M108,3,3,3,2,1,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),short,,,,,W016,opener,Mohenjodaro:3
+M109,38,28,28,10,11,0,0,0.476,0.524,0.0,0.0,0.0068,opener,short,M109-M59(7); M109-M59-M211(3),,,M89,,,Mohenjodaro:19;Harappa:5;Chanhudaro:2
+M110,6,6,6,1,3,1,1,0.167,0.5,0.167,0.167,,rare(<10 texts),short,M204-M110-M342(3),,,,W017,medial-core,Mohenjodaro:3;Harappa:2;Other sites:1
+M111,4,3,3,1,2,0,0,0.333,0.667,0.0,0.0,,rare(<10 texts),short,,,,,,,Mohenjodaro:2;Other sites:1
+M112,70,54,54,8,33,0,0,0.195,0.805,0.0,0.0,0.0068,medial-core,short,M112-M194-M342(13); M112-M197-M342(12); M204-M112(8); M112-M194(6); M112-M169(3); M112-M162(3),,,,,,Mohenjodaro:31;Harappa:18;Kalibangan:3
+M113,17,5,5,0,4,1,0,0.0,0.8,0.2,0.0,,rare(<10 texts),,M113-M342(4),,,,,,Mohenjodaro:3;Harappa:1;Lothal:1
+M114,7,7,7,3,3,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),short,,,,,W018,,Harappa:4;Mohenjodaro:3
+M115,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),short,,,,,,,Harappa:1
+M116,2,2,2,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),short,,,,,,,Harappa:2
+M117,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),short,,,,,,,Harappa:1
+M118,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),short,,,,,,,Harappa:1
+M119,13,3,3,3,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,W027;W028,,Harappa:2;Kalibangan:1
+M120,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Lothal:1
+M121,70,52,49,10,29,1,0,0.25,0.725,0.025,0.0,0.0365,medial-core,short,M121-M342(14),,,,W055,medial-core,Mohenjodaro:26;Harappa:9;Lothal:7
+M122,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),short,,,,,,,Harappa:1
+M123,193,180,178,0,146,2,0,0.0,0.986,0.014,0.0,0.0068,medial-core,,M150-M123(38); M293-M123-M343(29); M391-M123(23); M216-M123(18); M293-M123(15); M293-M123-M344(8),,,,W060,medial-core,Mohenjodaro:113;Harappa:30;Lothal:18
+M124,78,51,51,10,35,0,0,0.222,0.778,0.0,0.0,0.0068,medial-core,,M124-M169(16); M124-M342(9),,,M125,W061,medial-core,Mohenjodaro:39;Harappa:10;Chanhudaro:1
+M125,18,18,18,0,13,1,0,0.0,0.929,0.071,0.0,0.1008,medial-core,,M125-M59(12),,,M124,,,Mohenjodaro:15;Harappa:2;Kalibangan:1
+M126,4,4,4,1,2,1,0,0.25,0.5,0.25,0.0,,rare(<10 texts),,,,,,,,Lothal:2;Mohenjodaro:1;Harappa:1
+M127,50,42,40,6,26,4,1,0.162,0.703,0.108,0.027,0.4226,medial-core,,M59-M127(8); M127-M342(5),,,M128,W440,medial-core,Mohenjodaro:20;Harappa:12;Kalibangan:4
+M128,8,8,8,0,8,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M327-M128(6),,,M127,W443,,Mohenjodaro:3;Harappa:3;Lothal:1
+M129,5,4,4,1,2,0,0,0.333,0.667,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Chanhudaro:1
+M130,63,44,44,0,31,4,0,0.0,0.886,0.114,0.0,0.0282,medial-core,,M51-M130-M149-M342(20); M51-M130(14); M51-M130-M149(6),,,,W435,medial-core,Mohenjodaro:26;Harappa:14;Lothal:2
+M131,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M132,3,3,3,0,2,1,0,0.0,0.667,0.333,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1
+M133,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M134,14,14,14,2,11,0,0,0.154,0.846,0.0,0.0,0.3043,medial-core,,M134-M86(6),,,,W480,medial-core,Mohenjodaro:8;Harappa:4;Chanhudaro:1
+M135,35,24,24,3,15,1,0,0.158,0.789,0.053,0.0,0.1008,medial-core,,M135-M342(16),,,M136,W482,medial-core,Mohenjodaro:14;Harappa:9;Lothal:1
+M136,15,13,13,3,10,0,0,0.231,0.769,0.0,0.0,0.1689,medial-core,,M136-M193(7); M287-M136(3),,,M135,W484,,Mohenjodaro:6;Harappa:6;Other sites:1
+M137,23,13,13,2,4,4,1,0.182,0.364,0.364,0.091,0.4364,closer,,M102-M137(3),,,,W645,medial-core,Mohenjodaro:7;Harappa:6
+M138,4,3,3,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1
+M139,15,15,15,1,0,11,1,0.077,0.0,0.846,0.077,0.0068,closer,,M342-M139(7),,,,W679,closer,Mohenjodaro:12;Harappa:2;Chanhudaro:1
+M140,2,2,2,0,1,1,0,0.0,0.5,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M141,4,4,4,0,3,1,0,0.0,0.75,0.25,0.0,,rare(<10 texts),,,,,,,,Harappa:2;Lothal:2
+M142,7,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2
+M143,2,2,2,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M144,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M145,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M146,3,3,3,2,0,0,1,0.667,0.0,0.0,0.333,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Other sites:1
+M147,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M148,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M149,92,53,53,3,31,7,0,0.073,0.756,0.171,0.0,0.0407,medial-core,,M51-M130-M149-M342(20); M51-M130-M149(6); M149-M342(6),,,M150,W690,medial-core,Mohenjodaro:26;Harappa:21;Chanhudaro:3
+M150,63,55,53,33,8,1,0,0.786,0.19,0.024,0.0,0.0068,opener,,M150-M123(38),,,M149,W692,opener,Mohenjodaro:32;Harappa:15;Lothal:4
+M151,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M152,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M153,26,24,15,5,12,1,0,0.278,0.667,0.056,0.0,0.3034,medial-core,,M153-M153(9),,,M211,,,Mohenjodaro:9;Harappa:3;Lothal:1
+M154,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M155,49,44,44,5,33,0,0,0.132,0.868,0.0,0.0,0.0125,medial-core,,M155-M211(13); M301-M155(6); M87-M155(4); M51-M155(3),,,,W070,medial-core,Mohenjodaro:31;Harappa:9;Lothal:3
+M156,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M157,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,West Asian finds:1
+M158,4,4,4,0,2,0,1,0.0,0.667,0.0,0.333,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1;Chanhudaro:1
+M159,2,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M160,6,6,6,2,4,0,0,0.333,0.667,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:5;Kalibangan:1
+M161,4,4,4,1,1,2,0,0.25,0.25,0.5,0.0,,rare(<10 texts),,,,,,W064;W390;W405,closer,Mohenjodaro:3;Harappa:1
+M162,212,176,163,9,85,60,1,0.058,0.548,0.387,0.006,0.0068,medial-core,,M249-M162-M342(27); M249-M162(14); M104-M162(13); M102-M162(11); M28-M162(9); M162-M343(8),,,,,,Mohenjodaro:107;Harappa:26;Lothal:10
+M163,5,5,5,2,0,2,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Kalibangan:1
+M164,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M165,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M166,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Other sites:1
+M167,7,7,7,2,3,1,0,0.333,0.5,0.167,0.0,,rare(<10 texts),,,,,,,,Harappa:2;Kalibangan:2;Mohenjodaro:1
+M168,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Lothal:1
+M169,240,139,134,2,46,66,1,0.017,0.4,0.574,0.009,0.0068,closer,,M249-M169-M342(25); M104-M169(16); M124-M169(16); M407-M169(15); M106-M169(6); M102-M169(5),,,,W406;W407,closer,Mohenjodaro:80;Harappa:38;Lothal:14
+M170,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M171,132,92,91,16,54,2,0,0.222,0.75,0.028,0.0,0.0068,medial-core,,M171-M8-M342(26); M171-M59(19); M53-M171-M59(14); M171-M59-M211(10); M389-M171-M59(6); M171-M8(3),,,,W415,medial-core,Mohenjodaro:65;Harappa:18;Kalibangan:3
+M172,8,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Kalibangan:1
+M173,38,32,32,14,8,5,0,0.519,0.296,0.185,0.0,0.0068,opener,,M173-M403(4); M173-M59(3),,,,W416,opener,Mohenjodaro:15;Harappa:11;Lothal:3
+M174,11,11,11,0,4,3,0,0.0,0.571,0.429,0.0,,rare(<10 texts),,,,,,W350,medial-core,Mohenjodaro:6;Harappa:3;Lothal:1
+M175,54,50,49,13,23,2,0,0.342,0.605,0.053,0.0,0.0177,opener,,M175-M180(10); M175-M230-M53(9); M175-M176-M211(5); M175-M230(4); M175-M214(3),,,,,,Mohenjodaro:31;Harappa:8;Kalibangan:5
+M176,355,199,188,0,34,141,0,0.0,0.194,0.806,0.0,0.0068,closer,,M342-M176(25); M15-M176(11); M25-M176-M342(6); M175-M176-M211(5); M211-M176(4),,,,W400,closer,Harappa:93;Mohenjodaro:82;Kalibangan:7
+M177,21,12,12,5,3,2,1,0.455,0.273,0.182,0.091,0.2276,opener,,,,M397,,W413,opener,Harappa:7;Mohenjodaro:4;Chanhudaro:1
+M178,35,20,20,4,13,0,0,0.235,0.765,0.0,0.0,0.2464,medial-core,,M178-M389(8); M98-M178-M389-M15(6),,,,,,Mohenjodaro:12;Harappa:6;Other sites:1
+M179,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M180,44,44,44,1,28,6,0,0.029,0.8,0.171,0.0,0.0727,medial-core,,M180-M99(15); M175-M180(10),,,,W297;W298,medial-core,Mohenjodaro:27;Harappa:7;Chanhudaro:4
+M181,2,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M182,43,27,27,8,12,3,0,0.348,0.522,0.13,0.0,0.2293,opener,,M182-M293(18),,,,W320,medial-core,Mohenjodaro:15;Harappa:9;Lothal:1
+M183,11,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M184,6,5,5,1,2,0,1,0.25,0.5,0.0,0.25,,rare(<10 texts),,,,,,,,Mohenjodaro:4;West Asian finds:1
+M185,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,West Asian finds:1
+M186,33,31,31,7,13,3,0,0.304,0.565,0.13,0.0,0.3682,opener,,M186-M293-M99(4),,,,W315;W317,,Mohenjodaro:16;Harappa:9;Lothal:5
+M187,3,3,3,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1
+M188,3,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M189,4,4,4,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M189-M252(4),,,,W420,,Mohenjodaro:2;Harappa:2
+M190,22,16,16,1,3,10,0,0.071,0.214,0.714,0.0,0.0068,closer,,M102-M190(14),,,,W421,,Mohenjodaro:11;Lothal:2;Harappa:1
+M191,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M192,21,17,17,1,10,0,0,0.091,0.909,0.0,0.0,0.3237,medial-core,,M192-M347-M342(7); M192-M342(4),,,M193,W335,medial-core,Mohenjodaro:8;Harappa:6;Kalibangan:2
+M193,25,19,19,1,16,0,0,0.059,0.941,0.0,0.0,0.0229,medial-core,,M136-M193(7); M193-M342(4); M48-M193-M342(4),,,M192,W336;W337,,Harappa:10;Mohenjodaro:8;Kalibangan:1
+M194,58,45,43,2,31,2,0,0.057,0.886,0.057,0.0,0.0068,medial-core,,M112-M194-M342(13); M194-M342(10); M112-M194(6); M194-M169(3),,,,W585,medial-core,Mohenjodaro:28;Harappa:11;Kalibangan:3
+M195,4,4,4,1,3,0,0,0.25,0.75,0.0,0.0,,rare(<10 texts),,,,,,W572,,Mohenjodaro:3;Harappa:1
+M196,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M197,60,55,55,17,23,2,0,0.405,0.548,0.048,0.0,0.0068,opener,,M112-M197-M342(12); M197-M252(4),,,,W575,opener,Mohenjodaro:33;Harappa:15;Lothal:6
+M198,4,3,3,2,1,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1;Chanhudaro:1
+M199,2,2,2,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M200,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M201,9,8,8,5,2,0,0,0.714,0.286,0.0,0.0,,rare(<10 texts),,M201-M277(3),,,,,,Mohenjodaro:5;Harappa:2;Kalibangan:1
+M202,9,9,9,4,3,1,0,0.5,0.375,0.125,0.0,,rare(<10 texts),,,,,,W360,,Mohenjodaro:8;Kalibangan:1
+M203,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M204,76,49,49,21,18,1,0,0.525,0.45,0.025,0.0,0.0068,opener,,M204-M230(11); M204-M245(8); M204-M112(8); M204-M110-M342(3),,,M209,W503,opener,Mohenjodaro:28;Harappa:16;Lothal:3
+M205,26,20,20,12,6,0,0,0.667,0.333,0.0,0.0,0.0068,opener,,,,,,W491,opener,Mohenjodaro:10;Harappa:6;Kalibangan:2
+M206,7,7,7,0,4,2,0,0.0,0.667,0.333,0.0,,rare(<10 texts),,,,,,W504,,Mohenjodaro:4;Harappa:2;Kalibangan:1
+M207,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M208,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M209,24,17,17,0,8,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M209-M343(8),,,M204,W500,medial-core,Lothal:8;Mohenjodaro:5;Harappa:4
+M210,22,8,8,3,4,1,0,0.375,0.5,0.125,0.0,,rare(<10 texts),,,,,,W501,,Mohenjodaro:5;Harappa:3
+M211,227,171,170,0,30,126,0,0.0,0.192,0.808,0.0,0.0068,closer,,M336-M89-M211(39); M59-M211(24); M155-M211(13); M171-M59-M211(10); M70-M211(10); M67-M72-M211(8),,,M153,W520,closer,Mohenjodaro:116;Harappa:35;Lothal:8
+M212,6,6,5,1,2,1,0,0.25,0.5,0.25,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:1;Chanhudaro:1
+M213,2,2,2,0,1,0,1,0.0,0.5,0.0,0.5,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Other sites:1
+M214,16,13,13,3,7,1,1,0.25,0.583,0.083,0.083,0.539,medial-core,,M175-M214(3),,,,,,Mohenjodaro:8;Lothal:2;Kalibangan:2
+M215,10,10,10,9,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,W545,,Mohenjodaro:9;Harappa:1
+M216,90,72,71,23,28,3,1,0.418,0.509,0.055,0.018,0.0068,opener,,M216-M254(22); M216-M123(18),,M222;M226,,W550,opener,Mohenjodaro:46;Harappa:12;Kalibangan:5
+M217,10,9,9,1,4,0,0,0.2,0.8,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Harappa:2;Lothal:2
+M218,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M219,11,11,11,4,2,1,1,0.5,0.25,0.125,0.125,,rare(<10 texts),,,,,M222,,,Mohenjodaro:7;Harappa:2;Lothal:1
+M220,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M221,4,4,4,3,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:1
+M222,22,18,18,1,14,0,0,0.067,0.933,0.0,0.0,0.0365,medial-core,,M222-M254(18),,M216,M219,W555,medial-core,Mohenjodaro:15;Harappa:3
+M223,6,6,6,2,3,1,0,0.333,0.5,0.167,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:2;Lothal:1
+M224,14,13,13,1,2,8,1,0.083,0.167,0.667,0.083,0.0068,closer,,,,,,W565,closer,Mohenjodaro:10;Harappa:3
+M225,4,4,4,1,2,0,0,0.333,0.667,0.0,0.0,,rare(<10 texts),,,,,,W530,medial-core,Mohenjodaro:2;Harappa:1;Chanhudaro:1
+M226,11,11,11,2,6,0,0,0.25,0.75,0.0,0.0,,rare(<10 texts),,M226-M254(7),M216,M216,,W554,,Harappa:5;Mohenjodaro:4;Lothal:1
+M227,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M228,5,4,4,1,3,0,0,0.25,0.75,0.0,0.0,,rare(<10 texts),,,,,,W531,,Mohenjodaro:2;Harappa:1;Chanhudaro:1
+M229,5,5,5,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:1;Kalibangan:1
+M230,54,48,48,2,35,2,0,0.051,0.897,0.051,0.0,0.0068,medial-core,,M204-M230(11); M175-M230-M53(9); M253-M230(7); M253-M230-M342(5); M175-M230(4); M230-M211(3),,,,W460,medial-core,Mohenjodaro:35;Harappa:8;Kalibangan:3
+M231,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M232,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Kalibangan:1
+M233,29,28,27,3,16,1,0,0.15,0.8,0.05,0.0,0.1623,medial-core,,M233-M59(8); M233-M342(7),,,,W455,medial-core,Mohenjodaro:19;Harappa:6;Lothal:1
+M234,7,7,7,4,2,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),,,,,,W456,,Mohenjodaro:5;Harappa:1;Chanhudaro:1
+M235,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M236,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Kalibangan:1
+M237,8,8,6,1,5,0,0,0.167,0.833,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:3;Mohenjodaro:2;Lothal:1
+M238,4,4,4,4,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4
+M239,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M240,3,3,3,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3
+M241,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M242,26,26,26,3,0,18,0,0.143,0.0,0.857,0.0,0.0068,closer,,,,,,W621,closer,Mohenjodaro:22;Harappa:3;Kalibangan:1
+M243,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M244,89,68,66,13,32,0,0,0.289,0.711,0.0,0.0,0.0068,medial-core,,M67-M244-M342(14); M87-M244(11); M244-M336(4); M244-M58(3),,,,W630;W632;W636,medial-core,Mohenjodaro:32;Harappa:26;Kalibangan:4
+M245,207,137,87,16,73,23,0,0.143,0.652,0.205,0.0,0.4226,medial-core,,M245-M245(34); M25-M245-M245(13); M204-M245(8); M245-M342(4); M41-M245(3),,,,W615,medial-core,Mohenjodaro:61;Harappa:15;Lothal:7
+M246,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Lothal:1
+M247,8,8,8,1,6,0,0,0.143,0.857,0.0,0.0,,rare(<10 texts),,,,,,W626,,Mohenjodaro:5;Harappa:2;Lothal:1
+M248,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Lothal:1
+M249,170,125,125,22,70,6,1,0.222,0.707,0.061,0.01,0.0068,medial-core,,M249-M162-M342(27); M249-M169-M342(25); M249-M162(14); M249-M307(4); M87-M249(4),,,,W590,medial-core,Mohenjodaro:66;Harappa:39;Lothal:12
+M250,13,8,8,1,2,2,1,0.167,0.333,0.333,0.167,,rare(<10 texts),,,,,,,,Mohenjodaro:7;Chanhudaro:1
+M251,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M252,51,43,42,2,20,10,0,0.062,0.625,0.312,0.0,0.0824,medial-core,,M252-M97(7); M391-M252(5); M252-M99(5); M189-M252(4); M197-M252(4),,,,W595,medial-core,Mohenjodaro:23;Harappa:16;Lothal:2
+M253,21,19,19,6,8,1,0,0.4,0.533,0.067,0.0,0.18,opener,,M253-M230(7); M253-M230-M342(5),,,,W510,opener,Mohenjodaro:12;Harappa:7
+M254,73,61,61,3,7,45,0,0.055,0.127,0.818,0.0,0.0068,closer,,M216-M254(22); M222-M254(18); M226-M254(7); M327-M254(3),,,,W526;W527,closer,Mohenjodaro:38;Harappa:14;Lothal:6
+M255,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M256,4,4,4,1,3,0,0,0.25,0.75,0.0,0.0,,rare(<10 texts),,,,,,W611,,Harappa:2;Mohenjodaro:1;Lothal:1
+M257,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M258,20,10,10,4,5,0,0,0.444,0.556,0.0,0.0,,rare(<10 texts),,M258-M347-M342(7),,,,,,Mohenjodaro:5;Lothal:4;Harappa:1
+M259,3,3,3,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Lothal:1
+M260,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M261,27,25,25,8,8,1,0,0.471,0.471,0.059,0.0,0.0068,opener,,M17-M261(5),,,M267,W625;W790;W850,opener,Mohenjodaro:15;Harappa:6;Chanhudaro:2
+M262,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M263,7,5,5,3,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:3;Mohenjodaro:1;Other sites:1
+M264,11,11,11,9,1,0,0,0.9,0.1,0.0,0.0,0.0068,opener,,,,,,W853,opener,Mohenjodaro:11
+M265,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M266,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M267,376,293,291,188,50,8,0,0.764,0.203,0.033,0.0,0.0068,opener,,M267-M99(191); M267-M402(26); M267-M99-M67(13); M267-M99-M87-M59(11); M267-M99-M65(9); M267-M342(7),,M284;M286;M391,M261,W817;W861,opener,Mohenjodaro:191;Harappa:60;Lothal:14
+M268,4,4,4,0,3,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M307-M268(3),,,,W202,,Mohenjodaro:2;Harappa:2
+M269,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Kalibangan:1
+M270,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M271,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M272,3,3,3,1,0,2,0,0.333,0.0,0.667,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1;Lothal:1
+M273,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M274,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Kalibangan:1
+M275,5,2,2,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,W868,,Mohenjodaro:1;Harappa:1
+M276,2,2,2,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Harappa:2
+M277,11,8,8,0,3,4,0,0.0,0.429,0.571,0.0,,rare(<10 texts),,M201-M277(3),,,,,,Mohenjodaro:6;Harappa:2
+M278,2,2,2,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1;Kalibangan:1
+M279,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M280,2,2,2,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Harappa:2
+M281,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M282,3,3,3,0,0,3,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Kalibangan:1
+M283,4,3,3,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1
+M284,41,31,31,12,7,5,0,0.5,0.292,0.208,0.0,0.1041,opener,,M284-M99(8); M87-M284-M342(7),,M267;M286;M391,,W877,opener,Mohenjodaro:19;Harappa:10;Lothal:1
+M285,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M286,15,11,11,7,2,0,0,0.778,0.222,0.0,0.0,,rare(<10 texts),,M286-M99(6),,M267;M284;M391,,W880,,Mohenjodaro:6;Lothal:4;Harappa:1
+M287,88,67,61,11,43,2,0,0.196,0.768,0.036,0.0,0.0229,medial-core,,M102-M287(10); M373-M287-M342(8); M106-M287-M342(7); M102-M287-M342(5); M287-M319(5); M287-M136(3),,,,W900,medial-core,Mohenjodaro:36;Harappa:18;Kalibangan:4
+M288,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M289,5,4,4,1,3,0,0,0.25,0.75,0.0,0.0,,rare(<10 texts),,M289-M342(3),,,,,,Mohenjodaro:4
+M290,3,3,2,2,1,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),,,,,,W903,,Mohenjodaro:2
+M291,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M292,8,4,4,2,2,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,M292-M342(3),,,,,,Mohenjodaro:4
+M293,136,121,116,61,39,3,0,0.592,0.379,0.029,0.0,0.0068,opener,,M293-M123-M343(29); M182-M293(18); M293-M123(15); M17-M293(13); M293-M123-M344(8); M186-M293-M99(4),,,,W920,opener,Mohenjodaro:73;Harappa:24;Lothal:9
+M294,53,46,45,2,31,0,0,0.061,0.939,0.0,0.0,0.0068,medial-core,,M294-M342(19); M294-M375(6); M87-M294-M342(6),,,,W904,medial-core,Mohenjodaro:24;Harappa:15;Lothal:4
+M295,9,7,7,5,1,0,0,0.833,0.167,0.0,0.0,,rare(<10 texts),,M295-M87(4),,,,,,Mohenjodaro:5;Harappa:2
+M296,35,25,25,2,22,0,0,0.083,0.917,0.0,0.0,0.0068,medial-core,,M296-M342(22),,,,W923,medial-core,Mohenjodaro:24;Harappa:1
+M297,6,6,6,0,4,1,0,0.0,0.8,0.2,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;West Asian finds:2
+M298,4,4,4,2,2,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:1
+M299,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Lothal:1
+M300,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M301,13,12,12,2,7,0,0,0.222,0.778,0.0,0.0,,rare(<10 texts),,M301-M155(6),,,,W921,medial-core,Mohenjodaro:7;Harappa:5
+M302,13,13,13,2,9,2,0,0.154,0.692,0.154,0.0,0.8239,medial-core,,,,,,W250,,Mohenjodaro:9;Harappa:2;Chanhudaro:1
+M303,11,11,11,3,4,2,0,0.333,0.444,0.222,0.0,,rare(<10 texts),,,,,,W906,opener,Mohenjodaro:9;Kalibangan:1;Other sites:1
+M304,11,5,5,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,W890,,Harappa:2;Mohenjodaro:1;Lothal:1
+M305,3,3,3,3,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,M305-M123(3),,,,,,Mohenjodaro:2;Harappa:1
+M306,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M307,69,43,41,10,21,7,0,0.263,0.553,0.184,0.0,0.6911,opener,,M249-M307(4); M307-M86-M99(4); M307-M268(3),,,,W892,opener,Mohenjodaro:21;Harappa:14;Kalibangan:2
+M308,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Kalibangan:1
+M309,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M310,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M311,3,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M312,2,2,2,1,0,1,0,0.5,0.0,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M313,2,2,2,1,0,0,1,0.5,0.0,0.0,0.5,,rare(<10 texts),,,,,,,,Harappa:1;Kalibangan:1
+M314,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Chanhudaro:1
+M315,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M316,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M317,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Harappa:1
+M318,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M319,27,23,23,6,9,5,0,0.3,0.45,0.25,0.0,0.7024,opener,,M287-M319(5),,,,W165,opener,Mohenjodaro:16;Harappa:6;Kalibangan:1
+M320,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Lothal:1
+M321,13,6,6,0,2,4,0,0.0,0.333,0.667,0.0,,rare(<10 texts),,M336-M321(6),,,,,,Mohenjodaro:3;Harappa:2;Chanhudaro:1
+M322,4,4,4,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,M87-M322(3),,,,,,Mohenjodaro:3;Harappa:1
+M323,10,10,7,3,7,0,0,0.3,0.7,0.0,0.0,,rare(<10 texts),,M323-M323(3),,,,,,Mohenjodaro:5;Harappa:1;Other sites:1
+M324,2,2,1,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Kalibangan:1
+M325,13,11,11,2,7,0,0,0.222,0.778,0.0,0.0,,rare(<10 texts),,,,,,W382,opener,Mohenjodaro:8;Harappa:2;Other sites:1
+M326,35,24,23,6,14,2,1,0.261,0.609,0.087,0.043,0.0407,medial-core,,M326-M342(8),,,M327,W384,medial-core,Mohenjodaro:13;Harappa:5;Kalibangan:2
+M327,42,37,37,6,19,1,0,0.231,0.731,0.038,0.0,0.0905,medial-core,,M327-M342(12); M327-M128(6); M327-M254(3),,,M326,W388,medial-core,Mohenjodaro:23;Harappa:7;Lothal:4
+M328,323,54,47,13,16,20,1,0.26,0.32,0.4,0.02,0.0758,closer,,M89-M328(9); M328-M328(5); M95-M328(5); M87-M328(3),,,M342,W700,closer,Harappa:28;Mohenjodaro:14;Lothal:3
+M329,7,7,7,2,5,0,0,0.286,0.714,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Harappa:2;Chanhudaro:1
+M330,8,7,7,4,2,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:5;Harappa:1;Kalibangan:1
+M331,5,5,5,2,2,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:3;Mohenjodaro:2
+M332,3,3,3,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3
+M333,3,3,3,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1
+M334,4,4,4,1,3,0,0,0.25,0.75,0.0,0.0,,rare(<10 texts),,M334-M342(3),,,,,,Mohenjodaro:4
+M335,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2
+M336,236,191,191,26,121,2,1,0.173,0.807,0.013,0.007,0.0068,medial-core,,M336-M89(52); M336-M89-M211(39); M336-M51-M342(7); M72-M336-M89(6); M336-M321(6); M17-M336(6),,,,W704;W705;W706,medial-core,Mohenjodaro:126;Harappa:46;Lothal:10
+M337,5,3,3,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2;Mohenjodaro:1
+M338,3,3,3,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3
+M339,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Lothal:1
+M340,5,4,4,1,2,1,0,0.25,0.5,0.25,0.0,,rare(<10 texts),,,,,,W712,,Harappa:2;Mohenjodaro:1;Other sites:1
+M341,59,49,49,10,25,3,0,0.263,0.658,0.079,0.0,0.0985,medial-core,,M341-M342(12); M345-M341(4),,,,W711;W717,medial-core,Mohenjodaro:25;Harappa:15;Kalibangan:5
+M342,1395,979,959,0,259,588,0,0.0,0.306,0.694,0.0,0.0068,closer,,M347-M342(67); M342-M1(50); M48-M342(44); M8-M342(27); M249-M162-M342(27); M171-M8-M342(26),,,M328;M343;M344;M345,W740,closer,Mohenjodaro:604;Harappa:246;Lothal:44
+M343,177,164,162,17,113,3,0,0.128,0.85,0.023,0.0,0.0068,medial-core,,M293-M123-M343(29); M162-M343(8); M209-M343(8); M343-M67(5),,M344;M345,M342,W741,medial-core,Mohenjodaro:96;Harappa:35;Lothal:14
+M344,35,33,32,3,23,2,1,0.103,0.793,0.069,0.034,0.0787,medial-core,,M293-M123-M344(8),M343,M343,M342,W742,medial-core,Mohenjodaro:24;Harappa:5;Kalibangan:2
+M345,51,41,41,12,16,2,0,0.4,0.533,0.067,0.0,0.0365,opener,,M345-M341(4),M343,M343,M342;M347,W745,medial-core,Mohenjodaro:29;Harappa:10;Chanhudaro:1
+M346,2,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M347,118,93,93,0,75,1,0,0.0,0.987,0.013,0.0,0.0068,medial-core,,M347-M342(67); M258-M347-M342(7); M192-M347-M342(7); M78-M347-M342(4),,,M345;M348,W760,medial-core,Mohenjodaro:65;Harappa:17;Lothal:8
+M348,22,20,20,1,17,0,1,0.053,0.895,0.0,0.053,0.0068,medial-core,,M348-M342(11); M67-M348-M342(7),,,M347,W772;W773,,Mohenjodaro:17;Harappa:2;Lothal:1
+M349,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M350,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M351,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Chanhudaro:1
+M352,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M353,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Chanhudaro:1
+M354,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M355,2,2,2,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M356,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Kalibangan:1
+M357,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M358,32,14,14,0,11,0,0,0.0,1.0,0.0,0.0,0.0546,medial-core,,M358-M342(13),,,,W752,medial-core,Mohenjodaro:10;Harappa:2;Lothal:2
+M359,2,2,2,0,2,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1
+M360,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M361,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Lothal:1
+M362,2,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M363,3,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M364,3,3,3,1,0,0,1,0.5,0.0,0.0,0.5,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Harappa:1;Lothal:1
+M365,4,4,4,2,1,0,0,0.667,0.333,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2;Other sites:2
+M366,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M367,8,6,6,0,5,1,0,0.0,0.833,0.167,0.0,,rare(<10 texts),,,,,,,,Harappa:3;Mohenjodaro:1;Chanhudaro:1
+M368,2,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M369,2,2,2,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2
+M370,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Kalibangan:1
+M371,3,3,3,1,2,0,0,0.333,0.667,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:3
+M372,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M373,61,41,33,10,15,7,0,0.312,0.469,0.219,0.0,0.2835,opener,,M373-M287-M342(8),,,M375,,,Mohenjodaro:15;Harappa:11;Kalibangan:3
+M374,9,7,7,0,0,5,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Harappa:1;Chanhudaro:1
+M375,57,48,42,9,20,7,0,0.25,0.556,0.194,0.0,0.9037,opener,,M294-M375(6); M375-M375(6); M89-M375(3),,,M373;M389,W808;W832,opener,Mohenjodaro:27;Harappa:10;Kalibangan:3
+M376,2,2,2,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Mohenjodaro:1;Kalibangan:1
+M377,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M378,2,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Harappa:1
+M379,17,10,10,5,5,0,0,0.5,0.5,0.0,0.0,0.0787,opener,,,,,,W831,opener,Mohenjodaro:6;Harappa:4
+M380,5,5,5,0,4,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2;Mohenjodaro:1;Chanhudaro:1
+M381,14,14,14,0,11,1,0,0.0,0.917,0.083,0.0,0.1623,medial-core,,M89-M381(4),,,M387;M389,W812;W814,,Mohenjodaro:9;Harappa:3;Chanhudaro:1
+M382,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M383,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M384,7,7,5,2,3,1,1,0.286,0.429,0.143,0.143,,rare(<10 texts),,,,,,,,Mohenjodaro:3;Harappa:2
+M385,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M386,12,10,10,4,3,0,0,0.571,0.429,0.0,0.0,,rare(<10 texts),,,M387,M387;M389,,W838,medial-core,Mohenjodaro:9;Lothal:1
+M387,102,95,95,26,51,0,0,0.338,0.662,0.0,0.0,0.0068,medial-core,,M387-M342(10); M99-M387(9); M387-M72(8),,M386;M389,M381;M391,W803;W806,medial-core,Mohenjodaro:64;Harappa:16;Chanhudaro:6
+M388,8,6,6,0,3,3,0,0.0,0.5,0.5,0.0,,rare(<10 texts),,,,,,W804,,Mohenjodaro:4;Harappa:2
+M389,134,84,82,27,43,0,0,0.386,0.614,0.0,0.0,0.0068,opener,,M178-M389(8); M98-M178-M389-M15(6); M389-M171-M59(6); M389-M72(5); M389-M70(4),M387,M386;M387,M375;M381;M391,,,Mohenjodaro:52;Harappa:26;Lothal:3
+M390,3,3,3,0,1,1,0,0.0,0.5,0.5,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:1
+M391,195,179,168,111,34,14,0,0.698,0.214,0.088,0.0,0.0068,opener,,M391-M99(78); M391-M123(23); M391-M97(14); M391-M252(5); M98-M391-M391(3),,M267;M284;M286,M387;M389,W820,opener,Mohenjodaro:114;Harappa:34;Lothal:10
+M392,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M393,7,7,7,0,0,4,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:5;Harappa:2
+M394,2,2,2,1,1,0,0,0.5,0.5,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:2
+M395,7,7,7,2,3,1,0,0.333,0.5,0.167,0.0,,rare(<10 texts),,M395-M99(5),,,,,,Mohenjodaro:5;Harappa:1;Kalibangan:1
+M396,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M397,13,12,12,7,2,1,0,0.7,0.2,0.1,0.0,0.0125,opener,,,,M177,,W370;W371,,Mohenjodaro:11;Harappa:1
+M398,7,7,7,4,3,0,0,0.571,0.429,0.0,0.0,,rare(<10 texts),,,,,,W518,,Mohenjodaro:6;Harappa:1
+M399,1,1,1,1,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M400,14,14,14,4,7,1,0,0.333,0.583,0.083,0.0,0.1623,opener,,M400-M99(4),,,,W374,medial-core,Mohenjodaro:11;Harappa:1;Lothal:1
+M401,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Chanhudaro:1
+M402,99,88,87,5,48,23,0,0.066,0.632,0.303,0.0,0.0125,medial-core,,M267-M402(26); M402-M99(9); M76-M402(5),,,,W368,medial-core,Mohenjodaro:49;Harappa:26;Lothal:5
+M403,93,66,66,11,43,0,0,0.204,0.796,0.0,0.0,0.0068,medial-core,,M403-M87-M342(21); M103-M403(10); M403-M87(5); M87-M403(4); M173-M403(4),,,M406;M407,W840,medial-core,Mohenjodaro:40;Harappa:18;Chanhudaro:4
+M404,5,5,5,0,0,4,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Mohenjodaro:4;Chanhudaro:1
+M405,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M406,13,13,13,2,8,1,0,0.182,0.727,0.091,0.0,0.1981,medial-core,,M406-M162(6); M17-M406-M162(4),,,M403;M407,W844,,Mohenjodaro:10;Chanhudaro:2;Lothal:1
+M407,48,23,23,0,13,1,0,0.0,0.929,0.071,0.0,0.033,medial-core,,M407-M169(15),,,M403;M406,W845,medial-core,Mohenjodaro:17;Harappa:4;Chanhudaro:1
+M408,1,1,1,0,0,0,1,0.0,0.0,0.0,1.0,,rare(<10 texts),,,,,,,,Mohenjodaro:1
+M409,26,19,18,7,8,0,1,0.438,0.5,0.0,0.062,0.0365,opener,,M409-M96(11); M409-M94(5),,,,W171,opener,Mohenjodaro:13;Harappa:4;Lothal:1
+M410,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M411,1,1,1,0,0,0,0,,,,,,rare(<10 texts),,,,,,,,Harappa:1
+M412,4,4,4,4,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,M412-M123(4),,,,W201,,Harappa:3;Mohenjodaro:1
+M413,1,1,1,0,0,1,0,0.0,0.0,1.0,0.0,,rare(<10 texts),,,,,,,,Harappa:1
+M414,1,1,1,0,1,0,0,0.0,1.0,0.0,0.0,,rare(<10 texts),,,,,,,,Other sites:1
+M415,9,6,6,3,1,2,0,0.5,0.167,0.333,0.0,,rare(<10 texts),,,,,,W215,,Mohenjodaro:6
+M416,2,2,2,2,0,0,0,1.0,0.0,0.0,0.0,,rare(<10 texts),,,,,,,,Harappa:2
+M417,5,5,5,4,0,0,1,0.8,0.0,0.0,0.2,,rare(<10 texts),,,,,,,,Mohenjodaro:2;Harappa:2;Kalibangan:1

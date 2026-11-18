@@ -1,0 +1,34 @@
+file,rows,columns,description,made_by,sign_text_columns_removed
+registers_1931_1940.csv,1811,31,"Object registers of the 1931-1943 excavation reports (Marshall, Mackay, Vats), OCR transcribed and repaired: object no., findspot, depth, size, material, M77 link.",experiments/old_registers/registers.csv,
+register_mackay1938_seals.csv,695,19,"Mackay 1938 (Further Excavations at Mohenjo-daro) seal register: size, material, block/house/room, level.",experiments/old_registers/fem_seals.csv,
+register_vats1940_seals.csv,677,16,"Vats 1940 (Excavations at Harappa) seal register: size, mound, depth, find no.",experiments/old_registers/eh_seals.csv,
+register_marshall1931_seals.csv,522,10,Marshall 1931 (Mohenjo-daro and the Indus Civilization) seal register.,experiments/old_registers/mic_seals.csv,
+register_mackay1943_chanhudaro_seals.csv,91,13,Mackay 1943 (Chanhu-daro Excavations) seal list.,experiments/old_registers/ce_seals.csv,
+findspots_mohenjodaro.csv,695,22,"Mohenjo-daro seals: parsed block/house/room and depth, linked to M77 text numbers.",experiments/reg_findspot/findspots.csv,seq_side0;signs_all
+findspots_harappa.csv,639,22,"Harappa seals (Vats 1940): mound, square, depth, linked to M77/ICIT/CISI.",experiments/reg_harappa/findspots.csv,seq_side0;signs_all;seq_all
+findspots_marshall_prose.csv,86,10,Findspots stated in the prose of Marshall 1931.,experiments/fish_marshall/prose_findspots.csv,
+craft_units.csv,301,5,"Craft-activity evidence per excavation unit (Harappa, Mohenjo-daro, Lothal, Dholavira) with sources.",experiments/assemblage/craft_units.csv,
+assemblages.csv,369,8,Per excavation unit: crafts present and counts of inscribed objects.,experiments/assemblage/assemblages.csv,
+assemblage_linked_objects.csv,1774,6,Inscribed objects linked to excavation units.,experiments/assemblage/linked_objects.csv,seq_wells
+seal_sizes_carver_clusters.csv,499,7,"Seal widths (mm) and photo-based carver clusters, by CISI/ICIT id.",experiments/carver_hands/clusters.csv,
+harappa_tablets.csv,1083,19,"Harappa miniature tablets: type, material, mound, trench, HARP period, mould copy groups.",experiments/tablet_archives/tablets.csv,obverse
+copper_tablet_types.csv,37,14,"Mohenjo-daro copper tablet types (text + picture), counts in M77 and ICIT.",experiments/copper_series/types.csv,
+copper_tablets.csv,325,9,"Each copper tablet with its type, picture and sign face.",experiments/copper_series/tablets_typed.csv,legend;second_text
+vessel_marks.csv,650,19,"Inscribed and marked vessels: pre- or post-firing, vessel form and size, sources incl. Kenoyer 2021.",experiments/firing_stage/vessel_marks.csv,text_wells
+potters_marks.csv,233,18,"Potter's marks from early and Mature Harappan sites (Rehman Dheri, Balakot, Kalibangan, Nausharo, Farmana, Gumla, Harappa) with firing stage and vessel type.",experiments/potters_marks/marks.csv,
+sealings.csv,238,15,"Clay sealings (Lothal and others): number of impressions, back type (door, jar, bundle), context.",experiments/sealing_function/sealings.csv,faces
+inscribed_object_measurements.csv,26,23,Masses and lengths of inscribed tools and objects from excavation reports.,experiments/magnitude/magnitude.csv,
+indus_objects_abroad.csv,34,14,"Indus-related inscribed objects found outside South Asia (Gulf, Mesopotamia, Iran), with context and publication.",experiments/elamite_bridge/objects.csv,
+foreign_seal_texts.csv,54,19,"Texts of Indus-sign seals found abroad, with findspot, shape, animal and date.",experiments/foreign_corpus/foreign_corpus.csv,
+meluhha_cuneiform_mentions.csv,46,13,"Meluhha (the Indus region) in cuneiform texts: persons, goods, places, with text ids.",experiments/meluhha/catalogue.csv,
+meluhha_foreign_objects.csv,23,11,Indus objects abroad matched to cuneiform evidence from the same site and period.,experiments/meluhha/foreign_objects.csv,
+meluhha_tablet_seal_candidates.csv,15,8,Sealed cuneiform tablets naming Meluhha that need re-imaging (CDLI P-numbers).,experiments/sealing_hunt/candidates.csv,
+new_finds_post2010.csv,28,14,"Inscribed objects published after 2010 that are not in the corpora, with our readings.",experiments/new_finds/new_texts.csv,
+new_finds_open_journals.csv,22,14,More new inscribed objects from open-access journals.,experiments/open_journals/new_texts_extra.csv,
+open_journals_context.csv,34,12,Excavation context for inscribed objects in open-access reports.,experiments/open_journals/context.csv,
+open_journals_pottery_marks.csv,9,18,Pottery marks from open-access reports.,experiments/open_journals/pottery_marks.csv,
+tamil_nadu_sherds_graffiti_and_brahmi.csv,21,11,Tamil Nadu sherds carrying both a graffiti mark and a Tamil-Brahmi text (Rajan & Sivanantham 2026).,experiments/tn_brahmi_graffiti/both_sherds.csv,
+sign_statistics_m77.csv,417,22,"Per sign (Mahadevan numbers): frequency and share of initial, medial, final and standalone positions.",experiments/structure/sign_table.csv,
+sign_positional_classes.csv,369,11,"Per sign: positional class (opener, connective, medial, closer...) with confidence.",experiments/grammar/sign_classes.csv,
+sign_decompositions.csv,145,6,Compound signs split into base sign + modifier.,experiments/modifiers/decomp.csv,
+numeral_signs.csv,80,6,Numeral signs in M77 and ICIT: value and layout.,experiments/numeral_grammar/inventory.csv,

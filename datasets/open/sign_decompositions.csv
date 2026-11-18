@@ -1,0 +1,146 @@
+sign,base,modifier,confidence,base_family,note
+M60,M59,TICKS4,high,fish,four corner ticks
+M66,M65,TICKS4,high,fish,four corner ticks
+M68,M67,TICKS4,high,fish,four corner ticks
+M71,M70,TICKS4,high,fish,four corner ticks
+M73,M72,TICKS4,high,fish,four corner ticks
+M26,M25,TICKS4,high,man,man with staff plus corner ticks (paired short strokes top/bottom)
+M88,M87,TICKS4,medium,stroke,two tall strokes flanked by short strokes; may be numeral notation not modifier
+M207,M206,TICKS4,medium,triangle,hatched triangle with eave roof and corner ticks; top differs slightly from M206
+M220,M219,TICKS4,high,halfbowtie,four corner ticks
+M250,M249,TICKS4,high,box,four corner ticks
+M281,M280,TICKS4,high,diamond,four corner ticks
+M285,M284,TICKS4,high,diamond,four corner ticks
+M278,M279,TICKS4,low,diamond,inner hooks match but M279 has extra side notch
+M292,M287,TICKS4,low,arc,arc plus fins plus corner ticks; fins absent in base
+M388,M387,TICKS4,high,oval,four corner ticks
+M390,M389,TICKS4,high,oval,four corner ticks
+M404,M403,TICKS4,high,ovalpair,four corner ticks
+M143,M141,PAIRTICKS4,high,X,paired short strokes at four corners
+M164,M162,PAIRTICKS4,high,trident,paired short strokes at four corners
+M179,M178,PAIRTICKS4,low,A,M178 has an attached comb that M179 lacks
+M289,M287,PAIRTICKS4,high,arc,paired short strokes at four corners
+M308,M307,PAIRTICKS4,high,D,paired short strokes at four corners
+M9,M8,BRACKET,high,man,parentheses around
+M81,M77,BRACKET,high,hatchedcreature,parentheses around
+M111,M110,BRACKET,high,stroke,parentheses around numeral 7 strokes
+M113,M112,BRACKET,high,stroke,parentheses around stacked strokes
+M122,M121,BRACKET,high,stroke,parentheses around 12 strokes
+M144,M141,BRACKET,high,X,reversed parentheses around
+M156,M155,BRACKET,high,arrow,reversed parentheses around
+M2,M1,PAIRBARS,high,man,two long vertical bars flanking
+M85,M84,PAIRBARS,high,hatchedcreature,two long bars flanking
+M291,M290,PAIRBARS,high,arc,two long bars flanking
+M416,M415,PAIRBARS,high,ovalstack,two long bars flanking
+M392,M391,PAIRBARS,low,oval,bars flanking asymmetric (three left one right) with short strokes
+M65,M59,ROOF,high,fish,chevron above
+M92,M89,ROOF,high,stroke,chevron above three strokes
+M138,M137,ROOF,high,X,chevron above
+M159,M158,ROOF,high,stickX,chevron above
+M163,M162,ROOF,high,trident,chevron above
+M334,M333,ROOF,high,cup,chevron above
+M203,M202,ROOF,medium,gate,roof with eaves
+M196,M195,ROOF,medium,box,roof with eaves over box-arrow
+M14,M12,ROOF,medium,man,triangle peak on yoke of three men
+M66,M60,ROOF,high,fish,chevron above ticked fish
+M117,M116,CANOPY,medium,stroke,flat bar with drop ends over strokes
+M139,M137,CANOPY,high,X,flat bar with drop ends
+M142,M141,CANOPY,high,X,flat bar with drop ends
+M234,M233,CANOPY,high,bowtiearrow,flat bar with drop ends
+M339,M338,CANOPY,high,cup,flat bar with drop ends
+M411,M410,CANOPY,high,ovalstack,flat bar with angled ends
+M306,M305,CANOPY,medium,D,frame line above and left
+M206,M204,CANOPY,medium,triangle,T-shaped canopy over hatched triangle
+M208,M206,CANOPY,low,triangle,second canopy bar
+M3,M1,INSERT,high,man,short stroke between legs
+M13,M12,INSERT,high,man,short stroke between legs
+M20,M19,INSERT,high,man,short stroke between legs
+M128,M127,INSERT,high,hook,short inner stroke
+M70,M59,INSERT,high,fish,inner vertical stroke
+M72,M59,INSERT,medium,fish,inner diagonal stroke
+M238,M237,INSERT,high,rect,inner bars
+M241,M240,INSERT,high,rect,inner bar
+M288,M287,INSERT,high,arc,inner short stroke
+M329,M328,INSERT,high,cup,three inner strokes
+M330,M328,INSERT,high,cup,four inner strokes
+M343,M342,INSERT,high,jar,one inner stroke
+M344,M342,INSERT,high,jar,two inner strokes
+M345,M342,INSERT,high,jar,three inner strokes
+M335,M333,INSERT,high,cup,inner stroke
+M336,M328,INSERT,medium,cup,inner stroke with dot
+M375,M373,INSERT,high,oval,inner short stroke
+M379,M373,INSERT,high,oval,three slanted inner strokes
+M386,M373,INSERT,medium,oval,inner stroke from bottom
+M406,M403,INSERT,high,ovalpair,inner strokes
+M252,M249,INSERT,medium,box,inner bars
+M198,M197,INSERT,high,box,inner strokes
+M193,M192,INSERT,high,box,inner strokes
+M222,M216,INSERT,medium,halfbowtie,small inner stroke
+M141,M137,THROUGH,high,X,vertical strokes through
+M210,M204,THROUGH,high,triangle,vertical stroke through
+M221,M216,THROUGH,high,halfbowtie,vertical stroke through
+M378,M373,THROUGH,high,oval,full vertical line through
+M414,M410,THROUGH,high,ovalstack,vertical line through
+M417,M415,THROUGH,high,ovalstack,vertical line through
+M307,M304,THROUGH,medium,D,diagonal stroke through
+M407,M403,THROUGH,medium,ovalpair,diagonal strokes through
+M267,M261,INNERCHEVRON,high,diamond,inner chevron
+M340,M328,INNERCHEVRON,high,cup,inner chevron at bottom
+M361,M358,INNERCHEVRON,high,jar,inner chevron at bottom
+M357,M347,INNERCHEVRON,low,jar,crossed lines at bottom
+M136,M135,HATCH,high,angle,cross bars
+M297,M296,HATCH,high,arc,cross bars
+M185,M186,HATCH,medium,ladder,hatched band
+M380,M373,HATCH,high,oval,cross-hatch
+M311,M304,HATCH,medium,D,vertical hatching
+M75,M65,HATCH,high,fish,hatched body
+M341,M328,HATCH,low,cup,hatched bottom band
+M29,M28,DOUBLE,high,man,mirrored duplication
+M133,M132,DOUBLE,high,zigzag,stacked duplicate
+M217,M216,DOUBLE,high,halfbowtie,mirrored duplicate
+M228,M216,DOUBLE,medium,halfbowtie,stacked duplicate
+M231,M230,DOUBLE,high,triangles,stacked mirrored duplicate
+M294,M287,DOUBLE,high,arc,duplicate
+M313,M312,DOUBLE,high,arch,stacked duplicate
+M80,M78,DOUBLE,medium,hatchedcreature,duplicate
+M172,M171,DOUBLE,high,comb,stacked duplicate
+M24,M23,DOUBLE,medium,man,held object doubled
+M167,M161,DOUBLE,medium,Y,stacked Y heads
+M403,M373,DOUBLE,medium,oval,overlapping duplicate
+M410,M374,DOUBLE,low,oval,stacked small ovals
+M57,M56,DOUBLE,low,misc,stacked duplicate of loop sign
+M135,M134,OUTLINE,high,angle,double-line outline
+M150,M137,OUTLINE,high,X,double-line outline
+M296,M287,OUTLINE,high,arc,double-line outline
+M149,M137,OUTLINE,medium,X,doubled strokes
+M229,M216,OUTLINE,low,halfbowtie,one arm double-line
+M19,M18,COMB,medium,man,raised hand becomes comb
+M48,M47,COMB,high,loop,comb attached
+M46,M45,COMB,high,crab,comb attached
+M169,M161,COMB,high,Y,ticks on arm
+M270,M267,COMB,high,diamond,comb branch
+M290,M287,COMB,high,arc,comb at top
+M305,M304,COMB,high,D,comb at top
+M348,M347,COMB,high,jar,comb at side
+M359,M358,COMB,high,jar,comb at side
+M405,M403,COMB,high,ovalpair,comb branch
+M412,M410,COMB,high,ovalstack,comb branch
+M223,M216,COMB,medium,halfbowtie,combs on arms
+M52,M51,LEFTPOST,high,hatchedcreature,vertical post joined at left
+M183,M182,LEFTPOST,high,frame,vertical post joined at left
+M246,M245,LEFTPOST,high,grid,vertical post with diagonal at left
+M248,M247,LEFTPOST,high,box,vertical post with diagonal at left
+M349,M347,LEFTPOST,high,jar,vertical post joined at left
+M360,M358,LEFTPOST,high,jar,vertical post joined at left
+M413,M410,LEFTPOST,high,ovalstack,vertical post joined at left
+M387,M162,FRAME,high,trident,trident inside oval
+M195,M155,FRAME,medium,arrow,arrow inside box
+M266,M256,FRAME,medium,Tbox,T-box inside diamond
+M251,M214,FRAME,medium,bowtie,bowtie inside stemmed box
+M280,M158,FRAME,low,stickX,asterisk inside diamond
+M389,M168,FRAME,low,tree,branch inside oval
+M5,M1,HAT,high,man,hatched arc over head
+M8,M1,HAT,high,man,horns on head
+M10,M1,HAT,high,man,box on head
+M11,M1,HAT,medium,man,triangle yoke on head
+M264,M261,RAYS4,medium,diamond,paired strokes projecting at four sides

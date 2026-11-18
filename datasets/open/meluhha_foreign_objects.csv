@@ -1,0 +1,24 @@
+object,corpus_id,text_reading_order,site,type,find_context,date,cuneiform_same_site_period,named_meluhhan_same_site_period,match_strength,source
+BM 120573 = U.7683 (Gadd 1),none (no Indus signs),cuneiform sak/ka-ku/lu-si(-...),Ur,square button seal; short-horned bull,no context,pre-Sargonic/Akkadian (Gadd on palaeography),Ur ED/OAkk texts (UET 2; CUSAS 26),Lu-marza dumu me-luh-ha (CUSAS 26 259; OAkk),none: names differ; owner name occurs 0x in CDLI,Gadd 1932; paragorth ANCHORS 7 14
+Gadd 15 = U.8685 (Penn),not in corpus (3 signs; Laursen 2010 no.20),unique first sign,Ur,round; bull,grave probably Sargonic (gold double-crescent earrings),c. 2300 BCE,CUSAS 26 (OAkk Ur),Lu-marza dumu me-luh-ha (CUSAS 26 259),weak co-occurrence only (same site + period); Lu-marza is a Sumerian name,Gadd 1932; UE X
+Gadd 16 = BM 123208 = U.17649,ICIT 'Dilmun'; M77 9846,W415-W803-W001-W717-W354 (M171 M387 M97 M341 M107),Ur,round Gulf type; bull,tomb-shaft fill 'Second Dynasty of Ur' (Woolley; insecure),?,,,none,Gadd 1932; Laursen 2010 no.21
+Ur round seal (ICIT 3898),ICIT 3898,W415-W803-W001-W328-W004-W002,Ur,round; gaur,ICIT period 'Dynasty III' (source not given),Ur III?,UET 3 Ur III archive (IS: Meluhha wood ivory dar-bird copper),no named Meluhhan at Ur III Ur (only goods),none; best-dated foreign formula 415-803-1,ICIT; paragorth ANCHORS 18
+Gadd 2 = BM 122187,ICIT 3897,W528-W220-W924-W340-W093,Ur,round; gaur,bought at Ur 1928-9,?,,,none,Gadd 1932
+Gadd 4 / 5,ICIT 5231 / 5225; M77 9833,W090-W405 ; #-W090-#-W001,Ur,round fragments,Ur 1930-1 no context / Diqdiqqah,?,,,none,Gadd 1932
+Gadd 3 = U.17342,ICIT 3899?,W350-W090-W004,Ur,button seal half,no context,?,,,none,Gadd 1932
+U.16220 cylinder (UE X 632),?,?,Ur,cylinder,fill of the Shulgi mausoleum,Ur III or later,UET 3,none named,none,UE IV p.50 (Woolley)
+Gadd 6 = BM 122947,none,pictorial cylinder,Ur,cylinder (humped bull),Larsa tomb cut into Amar-Suen annex,after c.2000 BCE,,,none,Gadd 1932
+Kish seal 1,ICIT 1970; M77 9821,W240-W643 (# ); also Harappa 861-2-240-643-740 and MD 240-643-740,Kish,square; bull,Mackay 1925 (East Kish/Ingharra; reportedly under Hammurabi-age temple),ICIT 'Akkadian',no Meluhha text from Kish in CDLI dump,none,none; but same core 240-643 at 3 sites (identity trail),Mackay JRAS 1925; identity-trails.json
+Kish seal 2,ICIT 1971; M77 9822,W416-W840-W060-W003-W220-W590-W390-W740,Kish,square; bull,Langdon 1931,ICIT 'Akkadian',,none,none,Langdon JRAS 1931
+Tell Asmar cylinder As.31-22 + square stamp + As.31-221,not in corpus,(As.31-221 inscribed),Eshnunna,cylinder (elephant rhino crocodile) + square stamps,'Akkadian houses' with etched carnelian and knobbed ware,Akkadian,yes: tablets in the same houses naming Shudurul (MAD 1?),no Meluhhan named,none yet: only site with Indus imports and tablets in the same houses,Frankfort OIC 16 (1933) pp.35 47-53
+Nippur 13 N 506 = IM 78230,ICIT 3860,#-W151,Nippur,square faience; zebu,WC-1 Level III Kassite house (heirloom),Kassite,sealed tablets only Levels II-I,none,none,Zettler OIP 111
+Umma tag,ICIT 3884; M77 9811,W127-W705-W002-W004-W390 ('of 4 tree-units'),Umma,clay jar sealing; bull with manger,bought (Scheil 1925),?,Umma Ur III: carpenter for Meluhha ab-ba wood (P361994 is Girsu); ab-ba chairs (P107404 P140868 P249043); Utu-illat envoy (P320486),none named,none; commodity hypothesis only,Scheil 1925; paragorth S345
+Umma TJ17-PRO-S56,not in corpus,...-803-740,Umma,square; unicorn,surface survey 2017,undated,,,none,SAHI 2018 fig. 6.61
+Girsu seal,ICIT 5222; M77 9852,W255-W013-W744-#-W740,Girsu,round; gaur,Sarzec & Heuzey (no stratum),?,Girsu Ur III Gu'abba archive (S32-SS9),Ur-Lamma and Ur-Igalim dumu me-luh-ha; Meluhha village,very weak: same city but seal undated; Girsu Meluhhans bear Sumerian names,Laursen 2010 no.22
+Tello seal,ICIT 3885,W384-W440-W390-W220-#,Girsu,square; tiger,'3rd millennium',?,as above,as above,very weak,ICIT
+Susa round seal,ICIT 3881,#-W365-W090-W407-W604-W700,Susa,round; gaur,Acropole,'Late 3rd mill.',MDP 14 062-126 42 (OAkk; Meluhha + boat rations),none named,none (no person),Amiet 1972 no.1643
+Susa cylinder Sb 2425,ICIT 3882,W924-W001-W319-W031-W055-W002-W150-W416,Susa,cylinder; buffalo,Acropole,'Late 3rd mill.',as above,none named,none,ICIT
+Failaka seals,ICIT 147 148,W090-#-W817-W317 ; W716-W350-W001-W090,Failaka,Gulf type,Kjaerum 1983,c.2000 BCE,none,none,none,Kjaerum 1983
+Bahrain seals,ICIT 3863 5227-5230 5232,e.g. W091-W031-W455-W220,Bahrain (Qala'at Karzakan Saar Janabiyah),Gulf type,graves/settlement,c.2050-1900 BCE,OB Ur Dilmun trade texts (UET 5),Dilmun traders named in Mesopotamian names,none,Laursen 2010
+Tepe Yahya sherd,ICIT 3886,#-W095-W002,Tepe Yahya,stamped pot,IVA/IVB,late 3rd mill.,Proto-Elamite (earlier),none,none,Pittman 2001
+Unprovenanced 'West Asian' (M77 9905),M77 9905,M59-M59-M167 (AAB shape),unknown,seal,unknown,unknown,,,shape matches na-na-sa (AAB) but fish doubling also occurs at home,Mahadevan 1977
