@@ -82,6 +82,17 @@ PLATES = {
 }
 
 
+def block_size(im):
+    """Width of the replicated pixel blocks in an enlarged scan (1 if none): the period of sharp column-to-column jumps."""
+    import numpy as np
+    d = np.abs(np.diff(np.asarray(im, float), axis=1)).mean(0)
+    score = {p: max(d[i::p].mean() for i in range(p)) / d.mean() for p in range(2, 9)}
+    top = max(score.values())
+    if top < 1.8:
+        return 1
+    return min(p for p, v in score.items() if v >= 0.9 * top)
+
+
 def plate_img(key):
     """Save a greyscale JPEG at (never above) the crop's own pixel size. Return width, height, path."""
     meta = PLATES[key]
@@ -90,7 +101,11 @@ def plate_img(key):
         im = im.crop((0, 0, im.width, round(im.height * (1 - meta["trim"]))))
     # Classical cleanup only, at the scan's own size (nothing generative, nothing enlarged): soften the print grain
     # and JPEG blocks, stretch the contrast, then sharpen gently.
-    im = im.filter(ImageFilter.GaussianBlur(1.2)).filter(ImageFilter.MedianFilter(3))
+    blk = block_size(im)                      # the scans are pixel-replicated enlargements: undo the blocks first
+    if blk > 1:
+        w, h = im.width // blk * blk, im.height // blk * blk
+        im = im.crop((0, 0, w, h)).resize((w // blk, h // blk), Image.BOX).resize((w, h), Image.LANCZOS)
+    im = im.filter(ImageFilter.GaussianBlur(0.8)).filter(ImageFilter.MedianFilter(3))
     im = ImageEnhance.Contrast(ImageOps.autocontrast(im, cutoff=(0.5, 0.5))).enhance(1.08)
     im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=55, threshold=4))
     if im.width > 900:
