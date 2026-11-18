@@ -101,7 +101,7 @@ Rebuild everything with `python3 -m venv .venv && .venv/bin/pip install -r requi
 
 ## All the Indus data in one place
 
-`datasets/` catalogues every data source the project uses: excavation reports, both sign corpora, seal registers, findspots, pottery marks, objects found abroad and new finds. It includes 39 tables the project made, plus the frozen held-out split as text numbers. `python3 datasets/fetch.py corpus` and `python3 datasets/fetch.py reports` rebuild the rest from public sources. See `datasets/README.md`.
+`datasets/` catalogues every data source the project uses: excavation reports, both sign corpora, seal registers, findspots, pottery marks, objects found abroad and new finds. It includes 41 tables the project made, plus the frozen held-out split as text numbers. `python3 datasets/fetch.py corpus` and `python3 datasets/fetch.py reports` rebuild the rest from public sources. See `datasets/README.md`.
 
 ## Data sources and credit
 

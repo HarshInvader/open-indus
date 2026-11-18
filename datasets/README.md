@@ -8,8 +8,8 @@ Some sources can't be copied here: their owners have not given terms that allow 
 
 | Path | What |
 |---|---|
-| `catalog.csv` | All 100 sources: 39 included here, 53 public and fetchable, 8 reference-only (in copyright or no terms stated). Columns: `id, title, kind, tier, origin, terms, local, fetch, included_here`. |
-| `open/` | 39 tables made by this project (CC BY 4.0). `open/MANIFEST.csv` says where each came from. |
+| `catalog.csv` | All 102 sources: 41 included here, 53 public and fetchable, 8 reference-only (in copyright or no terms stated). Columns: `id, title, kind, tier, origin, terms, local, fetch, included_here`. |
+| `open/` | 41 tables made by this project (CC BY 4.0). `open/MANIFEST.csv` says where each came from. |
 | `splits/` | The frozen held-out split that every result uses, as M77 text numbers (`text_no.side`), with its sha256. |
 | `fetch.py` | Rebuilds the rest locally (see below). |
 | `build.py` | Regenerates `catalog.csv` and `open/` from the experiments. |
@@ -68,6 +68,8 @@ python3 datasets/fetch.py reports --pdf    # the same, plus one PDF scan per ite
 | `inscribed_bangles.csv` | 12 | Inscribed stoneware bangles: the 7 Harappa ICIT records plus 5 published illustrations (identities and diameters unknown). |
 | `harappa_com_recent_objects.csv` | 16 | Inscribed objects shown on harappa.com, with source-year evidence and page links. |
 | `harappa_com_sources.csv` | 69 | Every harappa.com / HARP file located, with working URL, pixel size and terms note. |
+| `inscribed_bangles_franke1984.csv` | 23 | Inscribed stoneware bangles with outer/inner diameters read from Franke 1984 scans, matched to ICIT. |
+| `objects_checked_2015_2026.csv` | 19 | Inscribed or seal-bearing objects from 2015-2026 publications (Gulf, Oman, Iran, South Asia) checked against our corpora. |
 
 **Sign texts.** Tables longer than 60 rows have no column of whole sign texts. They keep the catalogue numbers instead (M77 `text_no`, ICIT id, CISI number), so you can join them to `data/` after `fetch.py corpus`. The short tables (objects found abroad, new finds) keep their texts as quotations. `open/MANIFEST.csv` lists every removed column.
 

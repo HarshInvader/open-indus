@@ -38,3 +38,5 @@ harappa_marked_vessels_2021.csv,8,8,"Eight Harappa marked vessels with object id
 inscribed_bangles.csv,12,9,Inscribed stoneware bangles: the 7 Harappa ICIT records plus 5 published illustrations (identities and diameters unknown).,experiments/harappa_com/bangles.csv,
 harappa_com_recent_objects.csv,16,10,"Inscribed objects shown on harappa.com, with source-year evidence and page links.",experiments/harappa_com/recent_objects.csv,
 harappa_com_sources.csv,69,15,"Every harappa.com / HARP file located, with working URL, pixel size and terms note.",experiments/harappa_com/SOURCES.csv,
+inscribed_bangles_franke1984.csv,23,14,"Inscribed stoneware bangles with outer/inner diameters read from Franke 1984 scans, matched to ICIT.",experiments/source_sweep/bangles_found.csv,
+objects_checked_2015_2026.csv,19,13,"Inscribed or seal-bearing objects from 2015-2026 publications (Gulf, Oman, Iran, South Asia) checked against our corpora.",experiments/source_sweep/objects_found.csv,

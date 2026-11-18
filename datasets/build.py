@@ -63,6 +63,8 @@ OPEN_TABLES = [
     ("experiments/harappa_com/bangles.csv", "inscribed_bangles.csv", "Inscribed stoneware bangles: the 7 Harappa ICIT records plus 5 published illustrations (identities and diameters unknown)."),
     ("experiments/harappa_com/recent_objects.csv", "harappa_com_recent_objects.csv", "Inscribed objects shown on harappa.com, with source-year evidence and page links."),
     ("experiments/harappa_com/SOURCES.csv", "harappa_com_sources.csv", "Every harappa.com / HARP file located, with working URL, pixel size and terms note."),
+    ("experiments/source_sweep/bangles_found.csv", "inscribed_bangles_franke1984.csv", "Inscribed stoneware bangles with outer/inner diameters read from Franke 1984 scans, matched to ICIT."),
+    ("experiments/source_sweep/objects_found.csv", "objects_checked_2015_2026.csv", "Inscribed or seal-bearing objects from 2015-2026 publications (Gulf, Oman, Iran, South Asia) checked against our corpora."),
 ]
 
 # Curated sources. tier: included | fetch | reference
