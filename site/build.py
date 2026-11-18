@@ -37,7 +37,7 @@ import sqlite3
 import time
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageFilter, ImageOps, ImageEnhance
 
 # ---------------------------------------------------------------- config
 NAME = "Open Indus"                                # the group's name, used everywhere
@@ -88,6 +88,11 @@ def plate_img(key):
     im = Image.open(ROOT / f"experiments/plate_corpus/crops/plate_{key}.png").convert("L")
     if meta.get("trim"):                       # cut the printed plate number off the bottom edge
         im = im.crop((0, 0, im.width, round(im.height * (1 - meta["trim"]))))
+    # Classical cleanup only, at the scan's own size (nothing generative, nothing enlarged): soften the print grain
+    # and JPEG blocks, stretch the contrast, then sharpen gently.
+    im = im.filter(ImageFilter.GaussianBlur(1.2)).filter(ImageFilter.MedianFilter(3))
+    im = ImageEnhance.Contrast(ImageOps.autocontrast(im, cutoff=(0.5, 0.5))).enhance(1.08)
+    im = im.filter(ImageFilter.UnsharpMask(radius=2, percent=55, threshold=4))
     if im.width > 900:
         im.thumbnail((900, 900))
     IMG_OUT.mkdir(parents=True, exist_ok=True)
