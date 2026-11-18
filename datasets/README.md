@@ -25,6 +25,14 @@ python3 datasets/fetch.py reports --pdf    # the same, plus one PDF scan per ite
 
 `corpus` builds `data/` with `corpus/build.py`: 3,573 lines of text from Mahadevan 1977 and 5,679 inscriptions from ICIT, with site, object type and direction. It then restores the frozen split and checks its hash, so your numbers match ours. Downloads go to `sources/`, `data/` and `datasets/local/`, which git ignores.
 
+## Held privately, available on request
+
+Some material was given to the project for study only. We hold it but do not publish it here. Researchers can ask for it by opening an issue on this repository. We share it once the rights holder agrees.
+
+| What | From | Terms | Notes |
+|---|---|---|---|
+| Five full-resolution study photographs of Louvre Sb 9382 (Susa "text O", LEI 15/O): three black-and-white raking-light shots (4000 x about 5530 px; LA960038-40) and two colour shots (4888 x 6510 px; TO070140-41), front and back, TIFF | Musée du Louvre, Département des antiquités orientales, 2026-11-18 | Study only. Publication needs clearance from the RMN-Grand Palais photo agency, which we would ask for before sharing | What they show: `experiments/desset_textO/NOTES.md`. The Louvre has no photographs of the tablet's edges. The public photo is on the Louvre collections site (ark:/53355/cl010182134). |
+
 ## The included tables
 
 | File | Rows | What |
