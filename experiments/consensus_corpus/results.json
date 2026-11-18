@@ -1,0 +1,1880 @@
+{
+ "overall": {
+  "T1": {
+   "finding": "#1 order beats permutations",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T2": {
+   "finding": "#3 ticked fish final",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T3": {
+   "finding": "#5 M109+M59",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T4": {
+   "finding": "#6 object-type registers",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T5": {
+   "finding": "#7 L-R reversals",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "underpowered",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": [
+    "cons_sign_ext"
+   ]
+  },
+  "T6": {
+   "finding": "#10a cores 1-2 word signs",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T7": {
+   "finding": "#10b fixed pair order",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T8": {
+   "finding": "#11 fish lexical class",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  },
+  "T9": {
+   "finding": "#9 functional parse",
+   "overall": "holds",
+   "primary": {
+    "cons_sign_ext": "holds",
+    "icit_ext": "holds",
+    "struct100": "holds"
+   },
+   "underpowered": []
+  }
+ },
+ "cells": {
+  "base|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.402 vs 0.057 (x7.08)"
+   ]
+  },
+  "base|T2": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.98,
+   "effects": [
+    "0.58 final vs plain 0.07, null 0.18; p=0.0045"
+   ]
+  },
+  "base|T3": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 1.0,
+   "effects": [
+    "7/10 vs base 0.031; p=2.8e-09"
+   ]
+  },
+  "base|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.751, 5/5 above null"
+   ]
+  },
+  "base|T5": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.99,
+   "effects": [
+    "31/34 = 0.91; p=3.8e-07"
+   ]
+  },
+  "base|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.39, standalone 0.84"
+   ]
+  },
+  "base|T7": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.86,
+   "effects": [
+    "85/107 = 0.794; p=3.2e-10"
+   ]
+  },
+  "base|T8": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "3/3 sub-tests p<0.05"
+   ]
+  },
+  "base|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.75 vs shuffle 0.40 (z 24.6)"
+   ]
+  },
+  "cons_sign_ext|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.435 vs 0.062 (x7.06)"
+   ]
+  },
+  "cons_sign_ext|T2": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.88,
+   "effects": [
+    "0.47 final vs plain 0.08, null 0.22; p=0.0385"
+   ]
+  },
+  "cons_sign_ext|T3": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 1.0,
+   "effects": [
+    "7/9 vs base 0.030; p=8.2e-10"
+   ]
+  },
+  "cons_sign_ext|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.729, 5/5 above null"
+   ]
+  },
+  "cons_sign_ext|T5": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "7/8 = 0.88; p=0.035"
+   ]
+  },
+  "cons_sign_ext|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.45, standalone 0.70"
+   ]
+  },
+  "cons_sign_ext|T7": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.81,
+   "effects": [
+    "35/44 = 0.795; p=5.3e-05"
+   ]
+  },
+  "cons_sign_ext|T8": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "cons_sign_ext|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.79 vs shuffle 0.44 (z 31.4)"
+   ]
+  },
+  "icit_ext|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.344 vs 0.052 (x6.58)"
+   ]
+  },
+  "icit_ext|T2": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.98,
+   "effects": [
+    "0.53 final vs plain 0.08, null 0.17; p=0.005"
+   ]
+  },
+  "icit_ext|T3": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 1.0,
+   "effects": [
+    "7/11 vs base 0.029; p=5.4e-09"
+   ]
+  },
+  "icit_ext|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.711, 5/5 above null"
+   ]
+  },
+  "icit_ext|T5": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.96,
+   "effects": [
+    "24/28 = 0.86; p=9e-05"
+   ]
+  },
+  "icit_ext|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.45, standalone 0.68"
+   ]
+  },
+  "icit_ext|T7": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.85,
+   "effects": [
+    "68/81 = 0.84; p=1.9e-10"
+   ]
+  },
+  "icit_ext|T8": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "3/3 sub-tests p<0.05"
+   ]
+  },
+  "icit_ext|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.76 vs shuffle 0.42 (z 26.6)"
+   ]
+  },
+  "struct100|T1": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "0.305 vs 0.060 (x5.08)",
+    "0.305 vs 0.062 (x4.9)",
+    "0.295 vs 0.059 (x4.98)",
+    "0.271 vs 0.056 (x4.81)",
+    "0.356 vs 0.059 (x5.99)",
+    "0.293 vs 0.060 (x4.84)",
+    "0.311 vs 0.060 (x5.19)",
+    "0.311 vs 0.058 (x5.34)",
+    "0.298 vs 0.064 (x4.65)",
+    "0.277 vs 0.059 (x4.68)"
+   ]
+  },
+  "struct100|T2": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "0.50 final vs plain 0.09, null 0.19; p=0.013",
+    "0.58 final vs plain 0.07, null 0.19; p=0.003",
+    "0.57 final vs plain 0.07, null 0.18; p=0.0045",
+    "0.53 final vs plain 0.08, null 0.20; p=0.0055",
+    "0.61 final vs plain 0.08, null 0.18; p=0.0005",
+    "0.41 final vs plain 0.10, null 0.18; p=0.0335",
+    "0.48 final vs plain 0.08, null 0.19; p=0.0205",
+    "0.52 final vs plain 0.07, null 0.19; p=0.0075",
+    "0.47 final vs plain 0.08, null 0.18; p=0.014",
+    "0.50 final vs plain 0.09, null 0.20; p=0.011"
+   ]
+  },
+  "struct100|T3": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "6/10 vs base 0.028; p=9.7e-08",
+    "5/14 vs base 0.029; p=3.4e-05",
+    "7/11 vs base 0.029; p=5e-09",
+    "6/10 vs base 0.028; p=9.2e-08",
+    "6/12 vs base 0.029; p=4.8e-07",
+    "6/10 vs base 0.029; p=1.1e-07",
+    "7/12 vs base 0.031; p=1.7e-08",
+    "7/11 vs base 0.030; p=6.1e-09",
+    "7/11 vs base 0.028; p=4.4e-09",
+    "5/9 vs base 0.029; p=2.5e-06"
+   ]
+  },
+  "struct100|T4": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "mean AUC 0.752, 6/6 above null",
+    "mean AUC 0.746, 6/6 above null",
+    "mean AUC 0.713, 5/5 above null",
+    "mean AUC 0.740, 6/6 above null",
+    "mean AUC 0.709, 5/5 above null",
+    "mean AUC 0.711, 6/6 above null",
+    "mean AUC 0.714, 5/5 above null",
+    "mean AUC 0.747, 6/6 above null",
+    "mean AUC 0.716, 6/6 above null",
+    "mean AUC 0.730, 6/6 above null"
+   ]
+  },
+  "struct100|T5": {
+   "verdict": "holds",
+   "passes": "8/10",
+   "power": 0.8,
+   "effects": [
+    "31/44 = 0.70; p=0.0048",
+    "33/39 = 0.85; p=7.1e-06",
+    "31/43 = 0.72; p=0.0027",
+    "36/45 = 0.80; p=3.3e-05",
+    "31/39 = 0.80; p=0.00015",
+    "33/43 = 0.77; p=0.0003",
+    "34/39 = 0.87; p=1.2e-06",
+    "35/43 = 0.81; p=2.1e-05",
+    "40/48 = 0.83; p=1.7e-06",
+    "34/43 = 0.79; p=8.5e-05"
+   ]
+  },
+  "struct100|T6": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "len1 0.39, standalone 0.82",
+    "len1 0.40, standalone 0.81",
+    "len1 0.40, standalone 0.83",
+    "len1 0.40, standalone 0.82",
+    "len1 0.41, standalone 0.83",
+    "len1 0.41, standalone 0.73",
+    "len1 0.39, standalone 0.80",
+    "len1 0.38, standalone 0.81",
+    "len1 0.39, standalone 0.83",
+    "len1 0.41, standalone 0.81"
+   ]
+  },
+  "struct100|T7": {
+   "verdict": "holds",
+   "passes": "9/10",
+   "power": 0.9,
+   "effects": [
+    "71/99 = 0.717; p=9.1e-06",
+    "66/84 = 0.786; p=6.7e-08",
+    "91/104 = 0.875; p=7e-16",
+    "69/84 = 0.821; p=9.7e-10",
+    "66/84 = 0.786; p=6.7e-08",
+    "69/83 = 0.831; p=3.4e-10",
+    "63/84 = 0.75; p=2.5e-06",
+    "70/89 = 0.787; p=2.5e-08",
+    "72/93 = 0.774; p=5.2e-08",
+    "75/100 = 0.75; p=2.8e-07"
+   ]
+  },
+  "struct100|T8": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "3/3 sub-tests p<0.05",
+    "3/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "3/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "3/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "struct100|T9": {
+   "verdict": "holds",
+   "passes": "10/10",
+   "power": 1.0,
+   "effects": [
+    "0.71 vs shuffle 0.40 (z 20.5)",
+    "0.69 vs shuffle 0.40 (z 25.0)",
+    "0.69 vs shuffle 0.41 (z 18.4)",
+    "0.72 vs shuffle 0.42 (z 25.0)",
+    "0.71 vs shuffle 0.39 (z 16.6)",
+    "0.70 vs shuffle 0.42 (z 21.1)",
+    "0.72 vs shuffle 0.40 (z 30.3)",
+    "0.68 vs shuffle 0.41 (z 23.4)",
+    "0.69 vs shuffle 0.40 (z 27.2)",
+    "0.70 vs shuffle 0.41 (z 21.9)"
+   ]
+  },
+  "cons_text_ext|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.440 vs 0.062 (x7.15)"
+   ]
+  },
+  "cons_text_ext|T2": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.88,
+   "effects": [
+    "0.46 final vs plain 0.05, null 0.20; p=0.05"
+   ]
+  },
+  "cons_text_ext|T3": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.99,
+   "effects": [
+    "6/8 vs base 0.028; p=1.2e-08"
+   ]
+  },
+  "cons_text_ext|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.691, 4/4 above null"
+   ]
+  },
+  "cons_text_ext|T5": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "7/8 = 0.88; p=0.035"
+   ]
+  },
+  "cons_text_ext|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.45, standalone 0.65"
+   ]
+  },
+  "cons_text_ext|T7": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.65,
+   "effects": [
+    "30/37 = 0.811; p=9.6e-05"
+   ]
+  },
+  "cons_text_ext|T8": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "cons_text_ext|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.80 vs shuffle 0.40 (z 25.6)"
+   ]
+  },
+  "cons_sign_reg|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.387 vs 0.056 (x6.87)"
+   ]
+  },
+  "cons_sign_reg|T2": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.97,
+   "effects": [
+    "0.56 final vs plain 0.09, null 0.19; p=0.0055"
+   ]
+  },
+  "cons_sign_reg|T3": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 1.0,
+   "effects": [
+    "7/10 vs base 0.030; p=2.7e-09"
+   ]
+  },
+  "cons_sign_reg|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.758, 5/5 above null"
+   ]
+  },
+  "cons_sign_reg|T5": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.99,
+   "effects": [
+    "27/30 = 0.90; p=4.2e-06"
+   ]
+  },
+  "cons_sign_reg|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.43, standalone 0.83"
+   ]
+  },
+  "cons_sign_reg|T7": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.82,
+   "effects": [
+    "69/83 = 0.831; p=3.4e-10"
+   ]
+  },
+  "cons_sign_reg|T8": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "cons_sign_reg|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.76 vs shuffle 0.41 (z 17.1)"
+   ]
+  },
+  "icit_reg|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.378 vs 0.057 (x6.62)"
+   ]
+  },
+  "icit_reg|T2": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.96,
+   "effects": [
+    "0.55 final vs plain 0.07, null 0.18; p=0.008"
+   ]
+  },
+  "icit_reg|T3": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 1.0,
+   "effects": [
+    "7/10 vs base 0.030; p=2.6e-09"
+   ]
+  },
+  "icit_reg|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.756, 5/5 above null"
+   ]
+  },
+  "icit_reg|T5": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.99,
+   "effects": [
+    "27/30 = 0.90; p=4.2e-06"
+   ]
+  },
+  "icit_reg|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.43, standalone 0.80"
+   ]
+  },
+  "icit_reg|T7": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": 0.87,
+   "effects": [
+    "73/89 = 0.82; p=3.6e-10"
+   ]
+  },
+  "icit_reg|T8": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "icit_reg|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.76 vs shuffle 0.41 (z 21.1)"
+   ]
+  },
+  "match_m77|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.319 vs 0.063 (x5.04)"
+   ]
+  },
+  "match_m77|T2": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.12,
+   "effects": [
+    "0.50 final vs plain 0.00, null 0.26; p=0.076"
+   ]
+  },
+  "match_m77|T3": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "1/2 vs base 0.029; p=0.056"
+   ]
+  },
+  "match_m77|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.658, 3/3 above null"
+   ]
+  },
+  "match_m77|T5": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "4/7 = 0.57; p=0.5"
+   ]
+  },
+  "match_m77|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.51, standalone 0.46"
+   ]
+  },
+  "match_m77|T7": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.1,
+   "effects": [
+    "9/10 = 0.9; p=0.011"
+   ]
+  },
+  "match_m77|T8": {
+   "verdict": "weakens",
+   "passes": "0/1",
+   "power": null,
+   "effects": [
+    "1/3 sub-tests p<0.05"
+   ]
+  },
+  "match_m77|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.77 vs shuffle 0.35 (z 15.1)"
+   ]
+  },
+  "match_icit|T1": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.271 vs 0.062 (x4.35)"
+   ]
+  },
+  "match_icit|T2": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.3,
+   "effects": [
+    "0.40 final vs plain 0.00, null 0.26; p=0.204"
+   ]
+  },
+  "match_icit|T3": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "1/2 vs base 0.027; p=0.053"
+   ]
+  },
+  "match_icit|T4": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "mean AUC 0.699, 3/3 above null"
+   ]
+  },
+  "match_icit|T5": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "4/4 = 1.00; p=0.062"
+   ]
+  },
+  "match_icit|T6": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "len1 0.54, standalone 0.40"
+   ]
+  },
+  "match_icit|T7": {
+   "verdict": "underpowered",
+   "passes": "0/1",
+   "power": 0.0,
+   "effects": [
+    "7/8 = 0.875; p=0.035"
+   ]
+  },
+  "match_icit|T8": {
+   "verdict": "fails",
+   "passes": "0/1",
+   "power": null,
+   "effects": [
+    "0/3 sub-tests p<0.05"
+   ]
+  },
+  "match_icit|T9": {
+   "verdict": "holds",
+   "passes": "1/1",
+   "power": null,
+   "effects": [
+    "0.77 vs shuffle 0.39 (z 8.8)"
+   ]
+  },
+  "struct50|T1": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.330 vs 0.060 (x5.52)",
+    "0.350 vs 0.059 (x5.95)",
+    "0.369 vs 0.056 (x6.57)",
+    "0.355 vs 0.057 (x6.25)",
+    "0.319 vs 0.059 (x5.41)"
+   ]
+  },
+  "struct50|T2": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.54 final vs plain 0.09, null 0.18; p=0.0045",
+    "0.57 final vs plain 0.08, null 0.19; p=0.005",
+    "0.53 final vs plain 0.07, null 0.18; p=0.0045",
+    "0.55 final vs plain 0.08, null 0.18; p=0.005",
+    "0.60 final vs plain 0.08, null 0.20; p=0.0015"
+   ]
+  },
+  "struct50|T3": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "6/11 vs base 0.031; p=3.4e-07",
+    "6/11 vs base 0.030; p=2.8e-07",
+    "6/11 vs base 0.031; p=3.3e-07",
+    "5/10 vs base 0.030; p=5.8e-06",
+    "7/11 vs base 0.031; p=7.5e-09"
+   ]
+  },
+  "struct50|T4": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "mean AUC 0.744, 6/6 above null",
+    "mean AUC 0.716, 6/6 above null",
+    "mean AUC 0.729, 6/6 above null",
+    "mean AUC 0.744, 6/6 above null",
+    "mean AUC 0.716, 5/5 above null"
+   ]
+  },
+  "struct50|T5": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "30/37 = 0.81; p=9.6e-05",
+    "37/41 = 0.90; p=5.1e-08",
+    "32/43 = 0.74; p=0.00096",
+    "29/36 = 0.81; p=0.00016",
+    "32/40 = 0.80; p=9.1e-05"
+   ]
+  },
+  "struct50|T6": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "len1 0.40, standalone 0.82",
+    "len1 0.40, standalone 0.82",
+    "len1 0.40, standalone 0.78",
+    "len1 0.40, standalone 0.77",
+    "len1 0.39, standalone 0.82"
+   ]
+  },
+  "struct50|T7": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "71/93 = 0.763; p=1.7e-07",
+    "62/79 = 0.785; p=1.8e-07",
+    "73/94 = 0.777; p=3.3e-08",
+    "68/88 = 0.773; p=1.4e-07",
+    "75/99 = 0.758; p=1.4e-07"
+   ]
+  },
+  "struct50|T8": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "3/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "struct50|T9": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.73 vs shuffle 0.41 (z 26.8)",
+    "0.72 vs shuffle 0.41 (z 19.8)",
+    "0.73 vs shuffle 0.42 (z 20.9)",
+    "0.72 vs shuffle 0.39 (z 20.8)",
+    "0.73 vs shuffle 0.42 (z 23.3)"
+   ]
+  },
+  "struct150|T1": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.272 vs 0.063 (x4.32)",
+    "0.269 vs 0.060 (x4.46)",
+    "0.259 vs 0.058 (x4.44)",
+    "0.290 vs 0.062 (x4.69)",
+    "0.286 vs 0.065 (x4.43)"
+   ]
+  },
+  "struct150|T2": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.52 final vs plain 0.10, null 0.20; p=0.0065",
+    "0.58 final vs plain 0.10, null 0.19; p=0.0015",
+    "0.55 final vs plain 0.07, null 0.19; p=0.007",
+    "0.43 final vs plain 0.11, null 0.19; p=0.035",
+    "0.52 final vs plain 0.08, null 0.19; p=0.003"
+   ]
+  },
+  "struct150|T3": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "6/10 vs base 0.028; p=8.4e-08",
+    "7/12 vs base 0.031; p=1.8e-08",
+    "6/10 vs base 0.029; p=1e-07",
+    "5/11 vs base 0.028; p=7.1e-06",
+    "3/12 vs base 0.028; p=0.0039"
+   ]
+  },
+  "struct150|T4": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "mean AUC 0.677, 6/6 above null",
+    "mean AUC 0.707, 6/6 above null",
+    "mean AUC 0.711, 6/6 above null",
+    "mean AUC 0.705, 5/6 above null",
+    "mean AUC 0.718, 6/6 above null"
+   ]
+  },
+  "struct150|T5": {
+   "verdict": "holds",
+   "passes": "4/5",
+   "power": 0.8,
+   "effects": [
+    "32/42 = 0.76; p=0.00047",
+    "32/44 = 0.73; p=0.0018",
+    "32/42 = 0.76; p=0.00047",
+    "37/50 = 0.74; p=0.00047",
+    "36/49 = 0.73; p=0.0007"
+   ]
+  },
+  "struct150|T6": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "len1 0.35, standalone 0.80",
+    "len1 0.36, standalone 0.81",
+    "len1 0.38, standalone 0.81",
+    "len1 0.37, standalone 0.80",
+    "len1 0.39, standalone 0.83"
+   ]
+  },
+  "struct150|T7": {
+   "verdict": "weakens",
+   "passes": "3/5",
+   "power": 0.6,
+   "effects": [
+    "63/85 = 0.741; p=4.9e-06",
+    "71/88 = 0.807; p=2.6e-09",
+    "46/66 = 0.697; p=0.00093",
+    "70/86 = 0.814; p=1.6e-09",
+    "70/85 = 0.824; p=5.9e-10"
+   ]
+  },
+  "struct150|T8": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "3/3 sub-tests p<0.05",
+    "3/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "3/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "struct150|T9": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.66 vs shuffle 0.42 (z 14.5)",
+    "0.68 vs shuffle 0.41 (z 22.1)",
+    "0.68 vs shuffle 0.41 (z 18.3)",
+    "0.67 vs shuffle 0.40 (z 27.2)",
+    "0.69 vs shuffle 0.41 (z 16.5)"
+   ]
+  },
+  "unif100|T1": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.275 vs 0.057 (x4.87)",
+    "0.282 vs 0.057 (x4.98)",
+    "0.276 vs 0.057 (x4.89)",
+    "0.266 vs 0.058 (x4.6)",
+    "0.257 vs 0.058 (x4.41)"
+   ]
+  },
+  "unif100|T2": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.55 final vs plain 0.10, null 0.18; p=0.006",
+    "0.53 final vs plain 0.08, null 0.20; p=0.007",
+    "0.56 final vs plain 0.10, null 0.20; p=0.0065",
+    "0.52 final vs plain 0.08, null 0.19; p=0.011",
+    "0.43 final vs plain 0.10, null 0.19; p=0.0225"
+   ]
+  },
+  "unif100|T3": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "8/13 vs base 0.030; p=8e-10",
+    "7/10 vs base 0.028; p=1.5e-09",
+    "7/12 vs base 0.030; p=1.5e-08",
+    "6/10 vs base 0.030; p=1.5e-07",
+    "8/13 vs base 0.029; p=5.9e-10"
+   ]
+  },
+  "unif100|T4": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "mean AUC 0.710, 6/6 above null",
+    "mean AUC 0.701, 6/6 above null",
+    "mean AUC 0.738, 6/6 above null",
+    "mean AUC 0.692, 6/6 above null",
+    "mean AUC 0.722, 6/6 above null"
+   ]
+  },
+  "unif100|T5": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "45/50 = 0.90; p=2.1e-09",
+    "35/46 = 0.76; p=0.00027",
+    "31/36 = 0.86; p=6.5e-06",
+    "38/46 = 0.83; p=4.6e-06",
+    "33/41 = 0.81; p=5.6e-05"
+   ]
+  },
+  "unif100|T6": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "len1 0.37, standalone 0.88",
+    "len1 0.36, standalone 0.83",
+    "len1 0.36, standalone 0.88",
+    "len1 0.35, standalone 0.86",
+    "len1 0.36, standalone 0.87"
+   ]
+  },
+  "unif100|T7": {
+   "verdict": "holds",
+   "passes": "4/5",
+   "power": 0.8,
+   "effects": [
+    "79/97 = 0.814; p=1.4e-10",
+    "85/108 = 0.787; p=7.6e-10",
+    "75/95 = 0.789; p=5.8e-09",
+    "76/102 = 0.745; p=3.7e-07",
+    "80/103 = 0.777; p=7.3e-09"
+   ]
+  },
+  "unif100|T8": {
+   "verdict": "holds",
+   "passes": "4/5",
+   "power": 0.8,
+   "effects": [
+    "3/3 sub-tests p<0.05",
+    "1/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05",
+    "2/3 sub-tests p<0.05"
+   ]
+  },
+  "unif100|T9": {
+   "verdict": "holds",
+   "passes": "5/5",
+   "power": 1.0,
+   "effects": [
+    "0.67 vs shuffle 0.39 (z 15.8)",
+    "0.70 vs shuffle 0.41 (z 25.4)",
+    "0.68 vs shuffle 0.41 (z 17.6)",
+    "0.67 vs shuffle 0.40 (z 21.6)",
+    "0.69 vs shuffle 0.41 (z 20.1)"
+   ]
+  }
+ },
+ "disagreement": {
+  "original": {
+   "texts": 469,
+   "compared": 1923,
+   "unmapped": 123,
+   "total": 0.1939677587103484,
+   "identity": 0.1294851794071763,
+   "missing_extra": 0.05564222568902756,
+   "m77_only": 0.0452418096723869,
+   "icit_only": 0.010400416016640665,
+   "order": 0.008840353614144566,
+   "direction_texts": 0.021321961620469083,
+   "texts_any": 0.5010660980810234,
+   "ci95": {
+    "total": [
+     0.17435082140964495,
+     0.21398078975453574
+    ],
+    "identity": [
+     0.11416262789445342,
+     0.14437689969604864
+    ],
+    "missing_extra": [
+     0.04325437693099897,
+     0.06852248394004283
+    ],
+    "order": [
+     0.00510204081632653,
+     0.013262599469496022
+    ],
+    "direction_texts": [
+     0.008528784648187633,
+     0.03411513859275053
+    ],
+    "texts_any": [
+     0.4584221748400853,
+     0.5458422174840085
+    ]
+   }
+  },
+  "primary": {
+   "texts": 469,
+   "compared": 1931,
+   "unmapped": 105,
+   "total": 0.1294665976178146,
+   "identity": 0.07301916105644744,
+   "missing_extra": 0.050233039875712066,
+   "m77_only": 0.0398757120662869,
+   "icit_only": 0.010357327809425169,
+   "order": 0.006214396685655101,
+   "direction_texts": 0.021321961620469083,
+   "texts_any": 0.34541577825159914,
+   "ci95": {
+    "total": [
+     0.11061285500747384,
+     0.1493820526598603
+    ],
+    "identity": [
+     0.06055900621118013,
+     0.08551307847082495
+    ],
+    "missing_extra": [
+     0.038335158817086525,
+     0.06306306306306306
+    ],
+    "order": [
+     0.003069053708439898,
+     0.009963293130571578
+    ],
+    "direction_texts": [
+     0.008528784648187633,
+     0.03411513859275053
+    ],
+    "texts_any": [
+     0.302771855010661,
+     0.3880597014925373
+    ]
+   }
+  },
+  "provisional": {
+   "texts": 469,
+   "compared": 1939,
+   "unmapped": 90,
+   "total": 0.11294481691593605,
+   "identity": 0.06034038164002063,
+   "missing_extra": 0.04641567818463126,
+   "m77_only": 0.036101083032490974,
+   "icit_only": 0.010314595152140279,
+   "order": 0.006188757091284167,
+   "direction_texts": 0.021321961620469083,
+   "texts_any": 0.31130063965884863,
+   "ci95": {
+    "total": [
+     0.09496021220159151,
+     0.13139472267097468
+    ],
+    "identity": [
+     0.04900459418070444,
+     0.0720250521920668
+    ],
+    "missing_extra": [
+     0.034947578632051925,
+     0.058823529411764705
+    ],
+    "order": [
+     0.0030534351145038168,
+     0.009900990099009901
+    ],
+    "direction_texts": [
+     0.008528784648187633,
+     0.03411513859275053
+    ],
+    "texts_any": [
+     0.27078891257995735,
+     0.35181236673773986
+    ]
+   }
+  },
+  "seq_linked_primary": {
+   "texts": 2741,
+   "total": 0.1101,
+   "note": "sign-linked, biased toward agreement"
+  }
+ },
+ "top20_pairs": [
+  {
+   "kind": "missing_extra",
+   "m77": "M342",
+   "icit": "-",
+   "count": 5,
+   "share_of_disagreement": 0.02,
+   "cum_share": 0.02
+  },
+  {
+   "kind": "order",
+   "m77": "M89+M328",
+   "icit": "W700+W033",
+   "count": 5,
+   "share_of_disagreement": 0.02,
+   "cum_share": 0.04
+  },
+  {
+   "kind": "identity",
+   "m77": "M155",
+   "icit": "W072",
+   "count": 4,
+   "share_of_disagreement": 0.016,
+   "cum_share": 0.056
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M162",
+   "icit": "-",
+   "count": 4,
+   "share_of_disagreement": 0.016,
+   "cum_share": 0.072
+  },
+  {
+   "kind": "identity",
+   "m77": "M230",
+   "icit": "W463",
+   "count": 4,
+   "share_of_disagreement": 0.016,
+   "cum_share": 0.088
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M86",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.1
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M153",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.112
+  },
+  {
+   "kind": "identity",
+   "m77": "M104",
+   "icit": "W034",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.124
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M267",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.136
+  },
+  {
+   "kind": "identity",
+   "m77": "M389",
+   "icit": "W803",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.148
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M242",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.16
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M87",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.172
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M59",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.184
+  },
+  {
+   "kind": "identity",
+   "m77": "M76",
+   "icit": "W263",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.192
+  },
+  {
+   "kind": "identity",
+   "m77": "M294",
+   "icit": "W927",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.2
+  },
+  {
+   "kind": "identity",
+   "m77": "M14",
+   "icit": "W159",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.208
+  },
+  {
+   "kind": "identity",
+   "m77": "M72",
+   "icit": "W220",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.216
+  },
+  {
+   "kind": "identity",
+   "m77": "M174",
+   "icit": "W354",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.224
+  },
+  {
+   "kind": "identity",
+   "m77": "M125",
+   "icit": "W065",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.232
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "-",
+   "icit": "W621",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.24
+  }
+ ],
+ "concordance_changes": [
+  {
+   "m": "M65",
+   "rule": "R1 re-pair",
+   "tier": "primary",
+   "old": [
+    "W231"
+   ],
+   "new": [
+    "W235"
+   ]
+  },
+  {
+   "m": "M66",
+   "rule": "R1 re-pair",
+   "tier": "primary",
+   "old": [
+    "W232"
+   ],
+   "new": [
+    "W236"
+   ]
+  },
+  {
+   "m": "M67",
+   "rule": "R1 re-pair",
+   "tier": "primary",
+   "old": [
+    "W233"
+   ],
+   "new": [
+    "W240"
+   ]
+  },
+  {
+   "m": "M70",
+   "rule": "R1 re-pair",
+   "tier": "primary",
+   "old": [
+    "W235"
+   ],
+   "new": [
+    "W231"
+   ]
+  },
+  {
+   "m": "M72",
+   "rule": "R1 re-pair",
+   "tier": "primary",
+   "old": [
+    "W240"
+   ],
+   "new": [
+    "W233"
+   ]
+  },
+  {
+   "m": "M113",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W048"
+   ]
+  },
+  {
+   "m": "M130",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W435"
+   ],
+   "new": [
+    "W435",
+    "W436"
+   ]
+  },
+  {
+   "m": "M155",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W070"
+   ],
+   "new": [
+    "W070",
+    "W072"
+   ]
+  },
+  {
+   "m": "M163",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W391"
+   ]
+  },
+  {
+   "m": "M175",
+   "rule": "R3 alternate",
+   "tier": "primary",
+   "old": [
+    "W350"
+   ],
+   "new": [
+    "W350",
+    "W353"
+   ]
+  },
+  {
+   "m": "M188",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W330"
+   ]
+  },
+  {
+   "m": "M205",
+   "rule": "R3 alternate",
+   "tier": "primary",
+   "old": [
+    "W491"
+   ],
+   "new": [
+    "W491",
+    "W495"
+   ]
+  },
+  {
+   "m": "M210",
+   "rule": "R3 alternate",
+   "tier": "primary",
+   "old": [
+    "W501"
+   ],
+   "new": [
+    "W501",
+    "W502"
+   ]
+  },
+  {
+   "m": "M212",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W521"
+   ]
+  },
+  {
+   "m": "M217",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W552"
+   ]
+  },
+  {
+   "m": "M230",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W460"
+   ],
+   "new": [
+    "W460",
+    "W463"
+   ]
+  },
+  {
+   "m": "M258",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W605"
+   ]
+  },
+  {
+   "m": "M284",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W877"
+   ],
+   "new": [
+    "W824",
+    "W877"
+   ]
+  },
+  {
+   "m": "M294",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W904"
+   ],
+   "new": [
+    "W904",
+    "W927"
+   ]
+  },
+  {
+   "m": "M345",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W745"
+   ],
+   "new": [
+    "W745",
+    "W746"
+   ]
+  },
+  {
+   "m": "M371",
+   "rule": "R2 add",
+   "tier": "provisional",
+   "old": [],
+   "new": [
+    "W786"
+   ]
+  },
+  {
+   "m": "M379",
+   "rule": "R3 alternate",
+   "tier": "provisional",
+   "old": [
+    "W831"
+   ],
+   "new": [
+    "W829",
+    "W831"
+   ]
+  },
+  {
+   "m": "M389",
+   "rule": "R2 add",
+   "tier": "primary",
+   "old": [],
+   "new": [
+    "W806"
+   ]
+  },
+  {
+   "m": "M162",
+   "rule": "R4 narrow",
+   "tier": "primary",
+   "old": [
+    "W390",
+    "W405"
+   ],
+   "new": [
+    "W390"
+   ]
+  },
+  {
+   "m": "M216",
+   "rule": "R4 narrow",
+   "tier": "primary",
+   "old": [
+    "W550",
+    "W798"
+   ],
+   "new": [
+    "W550"
+   ]
+  },
+  {
+   "m": "M387",
+   "rule": "R4 narrow",
+   "tier": "primary",
+   "old": [
+    "W803",
+    "W806"
+   ],
+   "new": [
+    "W803"
+   ]
+  },
+  {
+   "m": "M68",
+   "rule": "R5 analogy",
+   "tier": "primary",
+   "old": [
+    "W234"
+   ],
+   "new": [
+    "W241"
+   ]
+  },
+  {
+   "m": "M71",
+   "rule": "R5 analogy",
+   "tier": "primary",
+   "old": [
+    "W236"
+   ],
+   "new": [
+    "W232"
+   ]
+  },
+  {
+   "m": "M73",
+   "rule": "R5 analogy",
+   "tier": "primary",
+   "old": [
+    "W241"
+   ],
+   "new": [
+    "W234"
+   ]
+  }
+ ],
+ "doubles": {
+  "primary": {
+   "M176": [
+    "W401"
+   ],
+   "M245": [
+    "W617"
+   ],
+   "M375": [
+    "W792"
+   ]
+  },
+  "provisional": {
+   "M391": [
+    "W821"
+   ],
+   "M194": [
+    "W586"
+   ],
+   "M162": [
+    "W389"
+   ],
+   "M293": [
+    "W919"
+   ],
+   "M59": [
+    "W219"
+   ],
+   "M1": [
+    "W091"
+   ],
+   "M176": [
+    "W401"
+   ],
+   "M245": [
+    "W617"
+   ],
+   "M375": [
+    "W792"
+   ]
+  },
+  "evidence": {
+   "M176+M176->W401": 2,
+   "M391+M391->W821": 1,
+   "M245+M245->W617": 4,
+   "M375+M375->W792": 2,
+   "M194+M194->W586": 1,
+   "M162+M162->W389": 1,
+   "M293+M293->W919": 1,
+   "M59+M59->W219": 1,
+   "M1+M1->W091": 1
+  }
+ },
+ "corpora": {
+  "base": {
+   "records": 3445,
+   "distinct": 2270,
+   "tokens": 13372,
+   "lines": 3212
+  },
+  "cons_sign_reg": {
+   "records": 3445,
+   "distinct": 2295,
+   "tokens": 13130,
+   "lines": 3035,
+   "linked": 469,
+   "masked_texts": 162
+  },
+  "cons_sign_ext": {
+   "records": 3210,
+   "distinct": 2065,
+   "tokens": 11418,
+   "lines": 1871,
+   "linked": 3210,
+   "masked_texts": 1006
+  },
+  "cons_text_ext": {
+   "records": 2204,
+   "distinct": 1293,
+   "tokens": 8028,
+   "lines": 1871,
+   "kept": 2204
+  },
+  "icit_reg": {
+   "records": 3445,
+   "distinct": 2303,
+   "tokens": 13315,
+   "lines": 3188,
+   "replaced": 469,
+   "unmapped_W_tokens": 177
+  },
+  "icit_ext": {
+   "records": 3445,
+   "distinct": 2060,
+   "tokens": 13073,
+   "lines": 3053,
+   "replaced": 3210,
+   "unmapped_W_tokens": 761
+  },
+  "match_m77": {
+   "records": 469,
+   "distinct": 403,
+   "tokens": 2046,
+   "lines": 472
+  },
+  "match_icit": {
+   "records": 469,
+   "distinct": 413,
+   "tokens": 1989,
+   "lines": 448
+  },
+  "_links": {
+   "reg": 469,
+   "seq": 2741,
+   "ext": 3210,
+   "m77_sides": 3445,
+   "seq_exact": 1897,
+   "reg_exact": 307
+  }
+ },
+ "noise_calibration": {
+  "c": 1.1439453125,
+  "target": 0.12946659761781462,
+  "realised": 0.12937481304217768
+ }
+}

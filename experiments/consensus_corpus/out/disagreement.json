@@ -1,0 +1,309 @@
+{
+ "original": {
+  "texts": 469,
+  "m77_tokens": 2046,
+  "unmapped": 123,
+  "compared": 1923,
+  "total": 0.1939677587103484,
+  "identity": 0.1294851794071763,
+  "missing_extra": 0.05564222568902756,
+  "m77_only": 0.0452418096723869,
+  "icit_only": 0.010400416016640665,
+  "order": 0.008840353614144566,
+  "direction_texts": 0.021321961620469083,
+  "texts_any": 0.5010660980810234,
+  "counts": {
+   "match": 1553,
+   "sub_unmapped": 123,
+   "sub": 249,
+   "m77_extra": 87,
+   "icit_extra": 20,
+   "transpose": 17
+  },
+  "ci95": {
+   "total": [
+    0.17435082140964495,
+    0.21398078975453574
+   ],
+   "identity": [
+    0.11416262789445342,
+    0.14437689969604864
+   ],
+   "missing_extra": [
+    0.04325437693099897,
+    0.06852248394004283
+   ],
+   "order": [
+    0.00510204081632653,
+    0.013262599469496022
+   ],
+   "direction_texts": [
+    0.008528784648187633,
+    0.03411513859275053
+   ],
+   "texts_any": [
+    0.4584221748400853,
+    0.5458422174840085
+   ]
+  }
+ },
+ "primary": {
+  "texts": 469,
+  "m77_tokens": 2036,
+  "unmapped": 105,
+  "compared": 1931,
+  "total": 0.1294665976178146,
+  "identity": 0.07301916105644744,
+  "missing_extra": 0.050233039875712066,
+  "m77_only": 0.0398757120662869,
+  "icit_only": 0.010357327809425169,
+  "order": 0.006214396685655101,
+  "direction_texts": 0.021321961620469083,
+  "texts_any": 0.34541577825159914,
+  "counts": {
+   "match": 1689,
+   "sub_unmapped": 105,
+   "sub": 141,
+   "m77_extra": 77,
+   "icit_extra": 20,
+   "transpose": 12
+  },
+  "ci95": {
+   "total": [
+    0.11061285500747384,
+    0.1493820526598603
+   ],
+   "identity": [
+    0.06055900621118013,
+    0.08551307847082495
+   ],
+   "missing_extra": [
+    0.038335158817086525,
+    0.06306306306306306
+   ],
+   "order": [
+    0.003069053708439898,
+    0.009963293130571578
+   ],
+   "direction_texts": [
+    0.008528784648187633,
+    0.03411513859275053
+   ],
+   "texts_any": [
+    0.302771855010661,
+    0.3880597014925373
+   ]
+  }
+ },
+ "provisional": {
+  "texts": 469,
+  "m77_tokens": 2029,
+  "unmapped": 90,
+  "compared": 1939,
+  "total": 0.11294481691593605,
+  "identity": 0.06034038164002063,
+  "missing_extra": 0.04641567818463126,
+  "m77_only": 0.036101083032490974,
+  "icit_only": 0.010314595152140279,
+  "order": 0.006188757091284167,
+  "direction_texts": 0.021321961620469083,
+  "texts_any": 0.31130063965884863,
+  "counts": {
+   "match": 1728,
+   "sub": 117,
+   "m77_extra": 70,
+   "sub_unmapped": 90,
+   "icit_extra": 20,
+   "transpose": 12
+  },
+  "ci95": {
+   "total": [
+    0.09496021220159151,
+    0.13139472267097468
+   ],
+   "identity": [
+    0.04900459418070444,
+    0.0720250521920668
+   ],
+   "missing_extra": [
+    0.034947578632051925,
+    0.058823529411764705
+   ],
+   "order": [
+    0.0030534351145038168,
+    0.009900990099009901
+   ],
+   "direction_texts": [
+    0.008528784648187633,
+    0.03411513859275053
+   ],
+   "texts_any": [
+    0.27078891257995735,
+    0.35181236673773986
+   ]
+  }
+ },
+ "top20": [
+  {
+   "kind": "missing_extra",
+   "m77": "M342",
+   "icit": "-",
+   "count": 5,
+   "share_of_disagreement": 0.02,
+   "cum_share": 0.02
+  },
+  {
+   "kind": "order",
+   "m77": "M89+M328",
+   "icit": "W700+W033",
+   "count": 5,
+   "share_of_disagreement": 0.02,
+   "cum_share": 0.04
+  },
+  {
+   "kind": "identity",
+   "m77": "M155",
+   "icit": "W072",
+   "count": 4,
+   "share_of_disagreement": 0.016,
+   "cum_share": 0.056
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M162",
+   "icit": "-",
+   "count": 4,
+   "share_of_disagreement": 0.016,
+   "cum_share": 0.072
+  },
+  {
+   "kind": "identity",
+   "m77": "M230",
+   "icit": "W463",
+   "count": 4,
+   "share_of_disagreement": 0.016,
+   "cum_share": 0.088
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M86",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.1
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M153",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.112
+  },
+  {
+   "kind": "identity",
+   "m77": "M104",
+   "icit": "W034",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.124
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M267",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.136
+  },
+  {
+   "kind": "identity",
+   "m77": "M389",
+   "icit": "W803",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.148
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M242",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.16
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M87",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.172
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "M59",
+   "icit": "-",
+   "count": 3,
+   "share_of_disagreement": 0.012,
+   "cum_share": 0.184
+  },
+  {
+   "kind": "identity",
+   "m77": "M76",
+   "icit": "W263",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.192
+  },
+  {
+   "kind": "identity",
+   "m77": "M294",
+   "icit": "W927",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.2
+  },
+  {
+   "kind": "identity",
+   "m77": "M14",
+   "icit": "W159",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.208
+  },
+  {
+   "kind": "identity",
+   "m77": "M72",
+   "icit": "W220",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.216
+  },
+  {
+   "kind": "identity",
+   "m77": "M174",
+   "icit": "W354",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.224
+  },
+  {
+   "kind": "identity",
+   "m77": "M125",
+   "icit": "W065",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.232
+  },
+  {
+   "kind": "missing_extra",
+   "m77": "-",
+   "icit": "W621",
+   "count": 2,
+   "share_of_disagreement": 0.008,
+   "cum_share": 0.24
+  }
+ ],
+ "n_disagreements_primary": 250
+}

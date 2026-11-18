@@ -1,0 +1,67 @@
+{
+ "base": {
+  "records": 3445,
+  "distinct": 2270,
+  "tokens": 13372,
+  "lines": 3212
+ },
+ "cons_sign_reg": {
+  "records": 3445,
+  "distinct": 2295,
+  "tokens": 13130,
+  "lines": 3035,
+  "linked": 469,
+  "masked_texts": 162
+ },
+ "cons_sign_ext": {
+  "records": 3210,
+  "distinct": 2065,
+  "tokens": 11418,
+  "lines": 1871,
+  "linked": 3210,
+  "masked_texts": 1006
+ },
+ "cons_text_ext": {
+  "records": 2204,
+  "distinct": 1293,
+  "tokens": 8028,
+  "lines": 1871,
+  "kept": 2204
+ },
+ "icit_reg": {
+  "records": 3445,
+  "distinct": 2303,
+  "tokens": 13315,
+  "lines": 3188,
+  "replaced": 469,
+  "unmapped_W_tokens": 177
+ },
+ "icit_ext": {
+  "records": 3445,
+  "distinct": 2060,
+  "tokens": 13073,
+  "lines": 3053,
+  "replaced": 3210,
+  "unmapped_W_tokens": 761
+ },
+ "match_m77": {
+  "records": 469,
+  "distinct": 403,
+  "tokens": 2046,
+  "lines": 472
+ },
+ "match_icit": {
+  "records": 469,
+  "distinct": 413,
+  "tokens": 1989,
+  "lines": 448
+ },
+ "_links": {
+  "reg": 469,
+  "seq": 2741,
+  "ext": 3210,
+  "m77_sides": 3445,
+  "seq_exact": 1897,
+  "reg_exact": 307
+ }
+}
