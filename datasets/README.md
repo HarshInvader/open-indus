@@ -8,8 +8,8 @@ Some sources can't be copied here: their owners have not given terms that allow 
 
 | Path | What |
 |---|---|
-| `catalog.csv` | All 94 sources: 33 included here, 53 public and fetchable, 8 reference-only (in copyright or no terms stated). Columns: `id, title, kind, tier, origin, terms, local, fetch, included_here`. |
-| `open/` | 33 tables made by this project (CC BY 4.0). `open/MANIFEST.csv` says where each came from. |
+| `catalog.csv` | All 100 sources: 39 included here, 53 public and fetchable, 8 reference-only (in copyright or no terms stated). Columns: `id, title, kind, tier, origin, terms, local, fetch, included_here`. |
+| `open/` | 39 tables made by this project (CC BY 4.0). `open/MANIFEST.csv` says where each came from. |
 | `splits/` | The frozen held-out split that every result uses, as M77 text numbers (`text_no.side`), with its sha256. |
 | `fetch.py` | Rebuilds the rest locally (see below). |
 | `build.py` | Regenerates `catalog.csv` and `open/` from the experiments. |
@@ -62,6 +62,12 @@ python3 datasets/fetch.py reports --pdf    # the same, plus one PDF scan per ite
 | `sign_positional_classes.csv` | 369 | Per sign: positional class (opener, connective, medial, closer...) with confidence. |
 | `sign_decompositions.csv` | 145 | Compound signs split into base sign + modifier. |
 | `numeral_signs.csv` | 80 | Numeral signs in M77 and ICIT: value and layout. |
+| `harappa_marked_sherds_by_phase.csv` | 6 | Harappa marked sherds studied 1986-2003 by period (1,218 total), from Kenoyer 2020 Tables 3-4. |
+| `harappa_marked_sherds_firing.csv` | 4 | Pre- vs post-firing marks for 247 Ravi and Kot Diji phase sherds (Kenoyer 2020). |
+| `harappa_marked_vessels_2021.csv` | 8 | Eight Harappa marked vessels with object id, form and firing stage (Kenoyer 2021 Fig. 3). |
+| `inscribed_bangles.csv` | 12 | Inscribed stoneware bangles: the 7 Harappa ICIT records plus 5 published illustrations (identities and diameters unknown). |
+| `harappa_com_recent_objects.csv` | 16 | Inscribed objects shown on harappa.com, with source-year evidence and page links. |
+| `harappa_com_sources.csv` | 69 | Every harappa.com / HARP file located, with working URL, pixel size and terms note. |
 
 **Sign texts.** Tables longer than 60 rows have no column of whole sign texts. They keep the catalogue numbers instead (M77 `text_no`, ICIT id, CISI number), so you can join them to `data/` after `fetch.py corpus`. The short tables (objects found abroad, new finds) keep their texts as quotations. `open/MANIFEST.csv` lists every removed column.
 

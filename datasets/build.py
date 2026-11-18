@@ -57,6 +57,12 @@ OPEN_TABLES = [
     ("experiments/grammar/sign_classes.csv", "sign_positional_classes.csv", "Per sign: positional class (opener, connective, medial, closer...) with confidence."),
     ("experiments/modifiers/decomp.csv", "sign_decompositions.csv", "Compound signs split into base sign + modifier."),
     ("experiments/numeral_grammar/inventory.csv", "numeral_signs.csv", "Numeral signs in M77 and ICIT: value and layout."),
+    ("experiments/harappa_com/sherd_phase_counts.csv", "harappa_marked_sherds_by_phase.csv", "Harappa marked sherds studied 1986-2003 by period (1,218 total), from Kenoyer 2020 Tables 3-4."),
+    ("experiments/harappa_com/sherd_firing_counts.csv", "harappa_marked_sherds_firing.csv", "Pre- vs post-firing marks for 247 Ravi and Kot Diji phase sherds (Kenoyer 2020)."),
+    ("experiments/harappa_com/marked_sherds.csv", "harappa_marked_vessels_2021.csv", "Eight Harappa marked vessels with object id, form and firing stage (Kenoyer 2021 Fig. 3)."),
+    ("experiments/harappa_com/bangles.csv", "inscribed_bangles.csv", "Inscribed stoneware bangles: the 7 Harappa ICIT records plus 5 published illustrations (identities and diameters unknown)."),
+    ("experiments/harappa_com/recent_objects.csv", "harappa_com_recent_objects.csv", "Inscribed objects shown on harappa.com, with source-year evidence and page links."),
+    ("experiments/harappa_com/SOURCES.csv", "harappa_com_sources.csv", "Every harappa.com / HARP file located, with working URL, pixel size and terms note."),
 ]
 
 # Curated sources. tier: included | fetch | reference

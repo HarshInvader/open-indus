@@ -79,3 +79,6 @@ node_modules/
 
 # Local downloads made by datasets/fetch.py
 /datasets/local/
+
+# harappa.com page copies and paper text extracts (not ours to republish)
+experiments/harappa_com/evidence/
