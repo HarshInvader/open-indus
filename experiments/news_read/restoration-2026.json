@@ -1,0 +1,42 @@
+{
+  "id": "restoration-2026",
+  "read": "partial (the Zenodo record metadata and the full deposit README.md and REBUILD.md, plus the project's own bench of the deposit; the accompanying paper itself was not found online, so its text, tables and discussion were not read)",
+  "sources_opened": [
+    "https://zenodo.org/api/records/24164070",
+    "https://zenodo.org/records/24164070 (deposit zenodo_deposit_final.zip, already downloaded by the project to experiments/bench_restoration/raw/; README.md and REBUILD.md read in full)"
+  ],
+  "what_they_did": [
+    "The team rebuilt a corpus from Mahadevan 1977 by cutting sign crops from a scan of the book, proposing a sign number for each crop with an image matcher, and approving every sign by hand.",
+    "They kept only single-line texts with no lost or doubtful sign and removed exact repeats, following the EBUDS rules of Yadav et al. 2009 without the direction filter.",
+    "They split the texts into five folds by a hash of the object number, so all sides of one object fall in the same fold, and used fold 0 as the test set.",
+    "They masked every position of every test text in turn and asked three models to guess the missing sign: a Kneser-Ney trigram (KN-3), a five-seed transformer, and a blend of the two.",
+    "They also ranked candidate restorations for 360 damaged texts that have exactly one lost sign (Table S11).",
+    "The deposit holds folds, masked positions, model probabilities and Table S11, but not the corpus or the true signs, because the book is not theirs to redistribute."
+  ],
+  "what_they_found": [
+    "The rebuilt corpus has 1,585 texts, 7,105 signs and 373 distinct signs; train, validation and test hold 1,161, 121 and 303 texts (REBUILD.md, step 6).",
+    "Of 3,753 inscribed sides, 3,297 are single-line, 2,626 have no lost passage, 2,398 have no doubtful sign, and 1,585 remain after removing repeated texts (REBUILD.md, step 6 table).",
+    "On all 1,403 masked test positions, Hit@1 is 39.56% for KN-3, 37.49% for the transformer and 40.84% for the blend; Hit@5 is 60.23%, 58.23% and 62.01% (README.md, 'Checking a rebuild').",
+    "The blend weight on KN-3 is 0.45, chosen on validation texts (README.md, 'Predictions').",
+    "Table S11 covers 360 damaged texts: 170 initial, 179 terminal and 11 medial gaps, and 111 of them have an intact parallel elsewhere in the corpus (README.md, 'Table S11').",
+    "None of the 7,105 corpus signs was approved by the automatic rule; every sign was verified by a person (REBUILD.md, step 5).",
+    "The authors warn that where a model is confident its top guess is often the attested sign, so the predictions are not independent of the texts they were made for (README.md, 'Predictions').",
+    "Our own bench of this deposit found that 107 of the 296 scored test texts (36%) have a near-copy in training, and on clean texts the transformer gets 28.5% Hit@1 against 29.8% for a plain trigram (experiments/bench_restoration/RESULTS.md)."
+  ],
+  "strength_and_limits": [
+    "The deposit is unusually careful: hash-based folds, a written rebuild procedure, a script that checks a rebuild, and a self-audit for leaked sign data.",
+    "Their own numbers already show the simple trigram matching or beating the transformer, which they report rather than hide.",
+    "Folds are hashed by object, not by text family, so near-copies of one formula sit on both sides of the split and inflate every model's score.",
+    "Only exact repeats were removed; texts one sign apart, or contained in a longer text, stay in, which is where the leakage comes from.",
+    "Because the corpus and true signs are withheld, nobody can check the scores without first re-reading the whole book by hand."
+  ],
+  "authors_next": [
+    {"idea": "Readers with their own copy of Mahadevan 1977 should rebuild the corpus and run verify_rebuilt_corpus.py to see how far their readings and scores differ from the authors'.", "where": "README.md, 'Checking a rebuild'; REBUILD.md, steps 6 and 8"},
+    {"idea": "Table S11 offers ranked candidate signs for 360 damaged texts, as a resource for epigraphers to check against the objects.", "where": "README.md, 'Table S11'"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Score the Table S11 restorations against a second witness: for each damaged M77 text, look up the same object in ICIT and check whether ICIT reads the lost sign, then ask where that sign falls in the blend's ranking.", "why": "This is the only ground truth for real damage, as opposed to artificial masking, and texts with no parallel show whether restoration works where it matters.", "open_data_enough": true, "data_needed": "Table S11 (in the deposit), the project's ICIT corpus and an M77 to ICIT object concordance."},
+    {"idea": "Calibrate the 'context beyond three signs adds nothing' finding: train the same transformer and trigram on planted language texts and on SIGIL texts cut to Indus length, with family-clean splits, and see whether the transformer beats the trigram there.", "why": "If a transformer gains on short language texts but not on Indus or SIGIL, the null gain on Indus says something about long-range structure; if it gains nowhere, the null result is only a short-text effect.", "open_data_enough": true, "data_needed": "Deposit code (MIT), the project's M77 family splits, SIGIL rebuild (lvc_corpora.py) and short-label language corpora already used in atlas 3.2."},
+    {"idea": "Split the clean-text restoration accuracy by slot (opener, middle, closer) and by object type, and compare with the same breakdown on SIGIL.", "why": "It shows which parts of a text are predictable from grammar-like structure and which carry free information, a property SIGIL's slot generator may or may not reproduce.", "open_data_enough": true, "data_needed": "Deposited probabilities, the project's rebuilt truth for fold 0, M77 object types, SIGIL."}
+  ]
+}

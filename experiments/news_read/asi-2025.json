@@ -1,0 +1,42 @@
+{
+  "id": "asi-2025",
+  "read": "partial (the seminar concept note and registration notice; no proceedings or papers were found)",
+  "sources_opened": [
+    "https://asi.nic.in/admin/whatsnew/download/771",
+    "https://asi.nic.in/admin/whatsnew/download/772"
+  ],
+  "what_they_did": [
+    "The Archaeological Survey of India announced a seminar on the decipherment of the Indus script and invited papers.",
+    "The registration notice set a deadline of 30 June 2025 (notice 772)."
+  ],
+  "what_they_found": [
+    "The concept note states that the script has over 400 principal signs and is hypothesised to be logo-syllabic (concept note).",
+    "It says most scholars agree it was written right to left and that stroke signs are numerals (concept note).",
+    "It names the lack of a bilingual text, the short texts and the small number of specimens as the main obstacles (concept note).",
+    "It says the proceedings of the seminar are anticipated, but none were found online."
+  ],
+  "strength_and_limits": [
+    "The note is a call for papers, not research, and gives no data or method.",
+    "Without proceedings there is nothing to test yet."
+  ],
+  "authors_next": [
+    {
+      "idea": "Publish the proceedings of the seminar.",
+      "where": "Concept note"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Offer a frozen hidden-sign test for any reading presented at the seminar: a proposer commits to sign values, we mask signs in held-out, family-clean texts, and the reading must predict them better than a trigram.",
+      "why": "It gives claimed decipherments one shared, falsifiable score instead of case-by-case argument.",
+      "open_data_enough": true,
+      "data_needed": "M77 family-clean held-out split and the proposer's sign values."
+    },
+    {
+      "idea": "Test the concept note's consensus claims on M77: run the right-to-left direction check and the stroke-numeral check on family-clean texts and report how strong each is.",
+      "why": "These are the shared starting points of most readings, so their strength should be measured, not assumed.",
+      "open_data_enough": true,
+      "data_needed": "M77 texts with line direction notes and stroke sign classes."
+    }
+  ]
+}

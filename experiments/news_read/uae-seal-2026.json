@@ -1,0 +1,39 @@
+{
+  "id": "uae-seal-2026",
+  "read": "not reachable (the news page returns 404 'Article not found'; no excavation report was found)",
+  "sources_opened": [
+    "https://ittihaas.com/api/apps/685bf8c05cf93a74890518d0/functions/newsSharePage?newsId=69db8bcd9150f8827bc41491&slug=bronze-age-seal-found-in-uae-confirms-direct-maritime-trade-with-indus-valley (404)"
+  ],
+  "what_they_did": [
+    "According to a search-result snippet only, the report describes a circular softstone seal with Indus signs and a humped bull from Umm al-Quwain, dated to about 2300 BCE.",
+    "No primary excavation report was found, so the method of dating and reading is unknown."
+  ],
+  "what_they_found": [
+    "Nothing could be read from the source itself.",
+    "The project's earlier note found that Majchrzak and Degli Esposti 2024 (PAM 33) describes a different seal, TAD.0105, so the two should not be merged (experiments/uaq_seal)."
+  ],
+  "strength_and_limits": [
+    "A single news item with a dead link is not evidence; the seal's text, shape and context need a primary publication.",
+    "Round softstone seals with a bull fit the known Gulf seal type, so the find is plausible but not yet usable."
+  ],
+  "authors_next": [
+    {
+      "idea": "not stated",
+      "where": "not stated"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Keep a watch entry and, when a primary report appears, add the seal's sign string to the foreign-seal set and score it under the core-trained grammar model alongside the other Gulf seals.",
+      "why": "One more Gulf seal with a clear text adds to the small set behind our Gulf penalty result.",
+      "open_data_enough": false,
+      "data_needed": "A published photograph or drawing with a sign reading."
+    },
+    {
+      "idea": "Before adding any new Gulf seal, fix in advance the test it will enter: the bits-per-sign penalty under the core model, compared with the existing Gulf set and with SIGIL outpost texts.",
+      "why": "Pre-registering the test stops a single striking find from being read after the fact.",
+      "open_data_enough": true,
+      "data_needed": "The existing foreign-seal set and grammar model."
+    }
+  ]
+}

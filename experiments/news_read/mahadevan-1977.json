@@ -1,0 +1,62 @@
+{
+  "id": "mahadevan-1977",
+  "read": "partial (the 1977 book itself was not opened: harappa.com returned 403, no publisher open copy exists, and the only full copy found online is an unlicensed personal upload on archive.org, which I did not open; I read in full Yadav, Joglekar, Rao, Vahia, Adhikari and Mahadevan 2010, an open-access paper co-authored by Mahadevan that describes and uses the concordance, and reused the figures about it in Farmer, Sproat and Witzel 2004, already read in full for fsw-2004)",
+  "sources_opened": [
+    "https://www.harappa.com/script/maha15.html",
+    "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0009506&type=printable",
+    "https://safarmer.com/fsw2.pdf"
+  ],
+  "what_they_did": [
+    "Mahadevan compiled every Indus inscription known to him into one numbered corpus, with a sign list and a concordance of every place each sign occurs (Yadav et al. 2010, Materials and Methods).",
+    "He gave each sign a serial number, which later statistical work kept, so 'M342' in this project is his sign 342 (Yadav et al. 2010, Materials and Methods).",
+    "He marked lost, damaged or illegible passages with diagonal lines and doubtful readings with an asterisk, which later users relied on to filter the texts (Yadav et al. 2010, Materials and Methods).",
+    "He included tables of sign frequency and position; Farmer, Sproat and Witzel cite 'Mahadevan 1977: Table 1, 717-23' for positional regularities (FSW 2004, p. 21)."
+  ],
+  "what_they_found": [
+    "The concordance records 417 unique signs in 3,573 lines of 2,906 texts (Yadav et al. 2010, Materials and Methods).",
+    "It holds 13,372 sign occurrences; just four of the 417 signs make up 21% of them, eight make up 31%, and twenty over 50% (FSW 2004, p. 26).",
+    "The average inscription in the concordance is 4.6 signs long (FSW 2004, p. 22).",
+    "In the filtered EBUDS subset of 1,548 texts, sign 342 alone accounts for 10% of occurrences and 69 signs for about 80%, which the authors say is consistent with Mahadevan's earlier analysis of the full corpus (Yadav et al. 2010, Empirical Analysis).",
+    "Text endings are more fixed than beginnings: 23 signs cover about 80% of text-ender use against 82 signs for text beginners (Yadav et al. 2010, Empirical Analysis, Fig. 4).",
+    "Removing damaged, doubtful, multi-line and duplicate texts drops 40 of the 417 signs; 33 of those occur only once in M77 (Yadav et al. 2010, Materials and Methods).",
+    "FSW 2004 argue that Duhoux and Mahadevan applied Mackay's sign-count formula to all 13,372 symbols instead of small samples; used that way it 'predicts' 540 signs, while samples of the right size give well under half of 417 (FSW 2004, p. 28)."
+  ],
+  "strength_and_limits": [
+    "The concordance is the shared reference for almost all statistical work, so results from different groups can be compared sign by sign.",
+    "It is a 1977 snapshot: later finds, especially from Harappa after 1986 and from Dholavira, are not in it.",
+    "Its sign list lumps or splits forms differently from Wells and Fuls, so any sign-level result can depend on the list used.",
+    "Only secondary descriptions were read here, so details of the book's own tables and conventions are not reported first-hand."
+  ],
+  "authors_next": [
+    {
+      "idea": "Account for archaeological context, stratigraphy and object type, which the 2010 analysis ignored to keep the sample large.",
+      "where": "Yadav et al. 2010, Materials and Methods"
+    },
+    {
+      "idea": "Report exhaustive trigram studies and more sophisticated tests of association.",
+      "where": "Yadav et al. 2010, Results and Materials and Methods"
+    },
+    {
+      "idea": "Induce a grammar and syntactic structures for the script from Markov chains; additional work is needed for a conclusive verdict on the linguistic hypothesis.",
+      "where": "Yadav et al. 2010, Conclusion"
+    },
+    {
+      "idea": "Compare results across the Mahadevan, Parpola and Wells corpora; preliminary results suggested the main syntactic features are robust.",
+      "where": "Yadav et al. 2010, Materials and Methods"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Audit M77's doubtful readings: for every asterisked or damaged sign in M77, compare with the ICIT reading of the same object, and test whether an n-gram model trained on other families predicts the ICIT reading better than the M77 one.",
+      "why": "Yadav et al. report restoration accuracy of about 74% under cross-validation; a known-answer check against an independent transcription shows how far the main corpus's uncertain signs can be trusted.",
+      "open_data_enough": true,
+      "data_needed": "M77 with its doubt marks, ICIT readings matched by object, and the family splits; the project already holds both corpora."
+    },
+    {
+      "idea": "Run a sign-list sensitivity check on the project's surviving positive results: redo each one after removing or merging every sign where M77 and Wells disagree on splitting, and report which results move.",
+      "why": "Mahadevan's 417 signs and Wells's larger list split forms differently; a result that depends on that choice is about the sign list, not the script.",
+      "open_data_enough": true,
+      "data_needed": "The project's M77-to-Wells mapping and the code of the surviving tests (for example the 6.9 numeral pairs and the foreign-order result)."
+    }
+  ]
+}

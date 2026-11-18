@@ -1,0 +1,43 @@
+{
+  "id": "fsw-2004",
+  "read": "full text",
+  "sources_opened": [
+    "https://safarmer.com/fsw2.pdf"
+  ],
+  "what_they_did": [
+    "Farmer, Sproat and Witzel reviewed the whole case for the Indus signs being writing and argued it had never been tested, only assumed.",
+    "They set the length of Indus inscriptions against what literate societies leave on durable objects such as pots, walls, stelae and tablets.",
+    "They compared sign frequencies in the Mahadevan and Wells catalogues with Sumerian, Egyptian, Chinese and Scottish heraldry blazons.",
+    "They counted how often a sign repeats inside a single inscription, using 67 Mohenjo-daro seals and 67 Harappa seals matched in length to 67 Egyptian royal cartouches.",
+    "They counted rare and one-off signs and argued, from Near Eastern emblem systems such as kudurru deity symbols, that the signs worked as non-linguistic symbols.",
+    "They closed with five explicit conditions under which they would accept that their model is wrong."
+  ],
+  "what_they_found": [
+    "The longest text on one surface has 17 signs, fewer than 1 in 100 texts reach 10 signs, and the mean over 2,905 objects in Mahadevan's concordance is 4.6 signs (p. 22).",
+    "Four of Mahadevan's 417 signs make up 21% of 13,372 sign occurrences, eight make up 31%, and twenty make up over 50% (p. 26).",
+    "The cumulative frequency curve of Indus signs nearly overlaps that of heraldic blazons and Egyptian hieroglyphs, so they say sign frequency cannot separate scripts from non-scripts (pp. 27-29, Fig. 2).",
+    "In length-matched samples, 67 Egyptian cartouches (465 signs) have 48 repeated signs within an inscription, against 8 in 67 Mohenjo-daro seals (495 signs) and 7 in 67 Harappa seals (493 signs) (p. 33, Table 1).",
+    "The 78 Harappa bar-seal inscriptions in CISI vols. I-II contain one case of sign repetition, and bar seals date late, so they argue the system was not drifting toward sound-writing after about 600 years (p. 33).",
+    "27% of Mahadevan's 417 signs occur once and 52% occur five times or fewer; in Wells 1999, 50% of over 600 signs occur once and 75% five times or fewer (p. 36).",
+    "They claim, from unpublished CISI vol. 3 material, that the share of one-off signs rises as new texts are found, the reverse of what a closed script should show (pp. 36-37).",
+    "Their falsifiers: a text with evidence of several hundred signs; a 50+ sign text with random-looking repeats; a bilingual with about 30+ Indus signs; a rule set others can apply; or a lexical sign list (p. 48)."
+  ],
+  "strength_and_limits": [
+    "The brevity facts and the low within-text repetition are real and reproducible on the concordance.",
+    "The repetition comparison uses one Egyptian genre (cartouches) as the only writing control, so it cannot tell short name-writing in a logographic script from non-writing.",
+    "The rising-singleton claim rests on unpublished data and on sign-list choices that the authors themselves say are easily shifted (p. 37, n. 23).",
+    "The paper argues for non-writing by analogy and rhetoric as much as by test, and later work (SIGIL, the project's own language_vs_code) shows these statistics do not decide the question either way."
+  ],
+  "authors_next": [
+    {"idea": "Study rare and one-off signs closely, because shifts in symbol use could show how the system was controlled and how Indus society changed.", "where": "p. 37, n. 23"},
+    {"idea": "Combine non-linguistic models of the signs with new stratigraphic dates (HARP bar seals and miniature tablets) to track religious, political and economic change through sign-frequency fluctuations.", "where": "p. 44"},
+    {"idea": "Re-excavate Harappa Area G, where over three dozen moulded tablets from one mould were found near a packed group of skulls.", "where": "p. 36, n. 22"},
+    {"idea": "Find out what role the symbols played in holding the Harappan world together and possibly in its decline.", "where": "p. 46"},
+    {"idea": "Account for second-hand seals before linking seal symbols to their owners.", "where": "p. 43, n. 28"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Test the rising-singleton claim directly: compare the share of one-off signs in M77 texts against ICIT texts first published after 1977, with sampling-size matched rarefaction curves and Chao1 estimates of total inventory.", "why": "A closed script should show the singleton share fall as the corpus grows; an open emblem system should not. FSW made the claim on unpublished data and nobody has run it with a null.", "open_data_enough": true, "data_needed": "M77 and ICIT with publication year or excavation year per object; the project's M77-ICIT bridge."},
+    {"idea": "Rerun the within-text repetition count with length-matched controls drawn from short logographic name corpora (Ur III seal legends, Linear B personal-name lines) instead of Egyptian cartouches only.", "why": "The Table 1 contrast may reflect genre (names written logographically repeat little) rather than writing versus non-writing; the project already holds Ur III and Linear B lines.", "open_data_enough": true, "data_needed": "M77 seal texts of 6-13 signs; existing Ur III and Linear B comparator corpora in language_vs_code."},
+    {"idea": "Within dated Harappa contexts, test whether bar seals differ from square seals in repetition rate, sign inventory size and share of frame signs.", "why": "FSW use late bar seals as evidence the system did not evolve toward phoneticism; a direct dated comparison would check that claim instead of assuming it.", "open_data_enough": false, "data_needed": "Seal shape (ICIT has it) plus phase dates for Harappa objects (HARP phase 3A-3C), which are only partly published."}
+  ]
+}

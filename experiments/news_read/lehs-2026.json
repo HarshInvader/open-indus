@@ -1,0 +1,33 @@
+{
+  "id": "lehs-2026",
+  "read": "not reachable (the De Gruyter ZA article gave an empty 202 response to curl and 405 to WebFetch, ResearchGate gave 403, and ANE Today was behind a bot block; only the open Hatamti database pages for two documents were read)",
+  "sources_opened": [
+    "https://doi.org/10.1515/za-2022-0003 (empty 202 / 405, not read)",
+    "https://anetoday.org/desset-irans-linear-elamite-deciphered/ (bot block, not read)",
+    "https://hatamti-elam.uliege.be/elamiteli/doc_detail/6",
+    "https://hatamti-elam.uliege.be/elamiteli/doc_detail/2",
+    "https://phys.org/news/2022-08-team-deciphered-ancient-iranian-linear.html (opened, not used: the page carries a machine-generated text disclaimer)"
+  ],
+  "what_they_did": [
+    "Desset and colleagues proposed a phonetic reading of Linear Elamite, anchored on proper names shared with cuneiform Elamite texts (from the item summary; the paper itself was not read).",
+    "The Hatamti database publishes each Linear Elamite document with a sign-by-sign transliteration and translation, citing the 2026 edition volume by Desset, Tabibzadeh, Basello and Marchesi.",
+    "That volume, 'Linear Elamite Inscriptions and Related Cuneiform Texts, Vol. 1: Linear Elamite Texts from Susa', gives full editions of the Susa texts (Hatamti citation)."
+  ],
+  "what_they_found": [
+    "Hatamti document 6 (Sb 155) has 50 signs and is read as naming Puzur-Sušinak, king of Awan, with the phrase 'Insušinak loves him'; its edition is in section 3.4.1, pp. 85-91 of the 2026 volume (Hatamti doc 6).",
+    "Hatamti document 2 (Sb 6) has 33 signs and runs left to right; its edition is in section 3.3.1, pp. 71-79 (Hatamti doc 2).",
+    "No figures from the ZA paper are reported here because it was not read."
+  ],
+  "strength_and_limits": [
+    "Linear Elamite now has a public sign-by-sign corpus with readings, which makes it a rare known-answer test for statistical methods.",
+    "The reading rests on a small corpus of a few dozen texts and on name anchors, and is not accepted by all specialists; this record cannot weigh that because the paper was not read.",
+    "Our own crib test with Linear Elamite as a known answer was negative (experiments/crib_le_known_answer)."
+  ],
+  "authors_next": [
+    {"idea": "Further volumes of the Linear Elamite edition series are implied by the 'Vol. 1' title.", "where": "not stated (inferred from the Hatamti citation only)"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Use the Hatamti Linear Elamite transliterations as a known-answer bench: run each of our structural methods (positional classes, sign clustering, restoration) blind on the Linear Elamite sign strings and score them against the published readings.", "why": "A method that cannot recover known syllable classes or word breaks in a small, deciphered corpus should not be trusted on Indus.", "open_data_enough": true, "data_needed": "Sign sequences and readings from the Hatamti database pages, collected with polite rate limits."},
+    {"idea": "Measure how short Linear Elamite texts must be cut before the methods fail, by truncating texts to Indus lengths.", "why": "It gives a power curve for methods on texts of four to five signs.", "open_data_enough": true, "data_needed": "Hatamti sign strings."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "protoelamite-2025",
+  "read": "partial (Born et al. 2021 ACL Findings paper read in full; Born 2019 and Born 2023 abstracts and conclusions read; the 2025 Near Eastern Archaeology article, doi 10.1086/738240, returned 403 at the publisher and was not read)",
+  "sources_opened": [
+    "https://aclanthology.org/2021.findings-acl.362.pdf",
+    "https://aclanthology.org/W19-2516.pdf",
+    "https://aclanthology.org/2023.cawl-1.9.pdf",
+    "https://www.journals.uchicago.edu/doi/10.1086/738240 (403, not read)"
+  ],
+  "what_they_did": [
+    "Born et al. 2021 trained image-aware BiLSTM language models on the proto-Elamite corpus to test whether complex signs are built from simpler ones.",
+    "They tested whether a complex sign's embedding is close to the sum of its parts and measured a pairing consistency score for inner and outer components.",
+    "Born 2019 used hierarchical clustering, n-grams and LDA topic models to find structure in proto-Elamite tablets.",
+    "Born 2023 disambiguated numeral systems from summation structure with a bootstrapped classifier and cautious rule selection."
+  ],
+  "what_they_found": [
+    "The corpus has 1,399 tablets, 33,778 tokens, 7,508 broken tokens, 11,364 numerals, 14,906 non-numeric signs and 1,107 complex-grapheme tokens (Born 2021, data section).",
+    "In the additive test at k = 15, the image-aware model with 64 dimensions finds 61 compositional complex graphemes (Born 2021, Table 2).",
+    "The pairing consistency score is 0.760 for inner and 0.536 for outer components, so inner signs specialise the outer sign (Born 2021, Table 4).",
+    "Containment forms a strict hierarchy: no two signs contain each other (Born 2021, Figure 2).",
+    "The authors warn that conventional sign names act as distractors and suggest relabelling signs from context and shape (Born 2021, discussion).",
+    "Born 2019 reports that perplexity drops above 80 topics and coherence peaks near 110 (conclusion).",
+    "Born 2023 finds correlations between tablet content and numeral magnitude, evaluated only on a hand-disambiguated subset (conclusion)."
+  ],
+  "strength_and_limits": [
+    "Proto-Elamite is a close methodological cousin of Indus: undeciphered, with complex signs and numerals, and these papers release code (github.com/sfu-natlang/pe-compositionality).",
+    "Proto-Elamite tablets are long administrative texts with numerals, so methods may lose power on short Indus seals.",
+    "The NEA 2025 synthesis was not reachable, so this record does not cover its claims."
+  ],
+  "authors_next": [
+    {
+      "idea": "Train the compositional models on proto-cuneiform, study the order of the containment hierarchy, and examine M342 compounds.",
+      "where": "Born 2021, conclusion"
+    },
+    {
+      "idea": "Investigate larger topic models.",
+      "where": "Born 2019, conclusion"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Test whether Indus framed and compound signs form a strict containment hierarchy: list every 'sign inside or attached to sign' relation in M77 and check for cycles against a random-pairing null.",
+      "why": "An acyclic hierarchy is a structural fact that both writing and emblem systems might show, but it is untested for Indus and is distinct from the closed ligature-decomposition route.",
+      "open_data_enough": true,
+      "data_needed": "M77 sign list with component annotations for compound signs."
+    },
+    {
+      "idea": "Compute a pairing consistency score for Indus compounds: does the inner or attached element vary with the base sign's contexts more than the base varies with the element's?",
+      "why": "Born 2021 found inner elements specialise the outer sign; the same asymmetry in Indus would say which component carries the modifying role.",
+      "open_data_enough": true,
+      "data_needed": "M77 compound annotations and text contexts."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dominik-2026",
+  "read": "full text",
+  "sources_opened": [
+    "https://zenodo.org/api/records/23307028",
+    "https://zenodo.org/api/records/23307028/files/Dominik_2026_Indus_Constructional_Grammar.pdf/content"
+  ],
+  "what_they_did": [
+    "The author collapsed a Wells-coded working corpus into 2,022 distinct sequence families with 9,302 sign occurrences, so repeated texts are not counted twice.",
+    "He added nine fixed two-sign contexts to a bigram model and tested whether they improve prediction on held-out sites, leaving out test families seen in training.",
+    "He screened for frames that hold in both Harappa and Mohenjo-daro, using one city to find them and the other to check them.",
+    "He recounted specific contrasts, such as which signs follow W520 and W740, and the order of numerals and nouns by object type.",
+    "He kept a ledger that assigns a functional role to each token and reports its coverage, while calling these roles interpretations, not translations."
+  ],
+  "what_they_found": [
+    "Adding the nine contexts lowers held-out negative log-likelihood from 4.33935 to 4.32551 over 6,778 predictions, a gain of 0.01384 nats with 95% interval 0.00979 to 0.01789 (abstract; section 4.1, p. 5).",
+    "Three of five archived construction tasks survived correction, the strongest being W590 frame completion with a gain of 0.3056 over 199 events (Table 1, p. 5).",
+    "Two new cross-city frames passed: W920-W060-W741 (Harappa 3/6, Mohenjo-daro 18/30) and W840-W032-W740 (6/6, 10/11) (section 4.1, p. 5).",
+    "Excluding W033-led cases, W090 follows W520 in 0 of 136 cases and W740 in 69 of 994, two-sided Fisher p = 0.00017674; without W220 families it is 0/86 against 52/876, p = 0.01099 (section 4.2, Table 2, p. 6).",
+    "Numerals precede nouns 277 times and follow them 59 times; postnominal order is 11.0% of seal pairs, 31.1% of tablet pairs and 64.3% of pottery pairs (section 4.3, p. 6).",
+    "W590 before the W390 family goes on to W740 in 33 of 46 cases on square seals against 0 of 128 without W590 (Table 3, p. 7).",
+    "The role ledger covers 7,846 of 9,302 tokens (84.347%) and fully assigns 1,004 of 2,022 families (section 4.6).",
+    "Base sign forms are followed by a resolver in 74 of 692 cases against 0 of 50 for caged forms, but this weakens to nominal p = 0.0974 once terminal cases are dropped (section 5, p. 9)."
+  ],
+  "strength_and_limits": [
+    "The author is frank: he says the contexts were chosen during earlier work, so the held-out gain is not an independent test, and the p values are uncorrected.",
+    "The overall gain over a bigram is tiny, and he notes it has not been compared with a tuned trigram or four-gram model.",
+    "The corpus files are withheld, so nobody else can rerun the corpus-level numbers; only the code and aggregates are public.",
+    "Many results are sharp zero cells such as 0/136; our own test found such zero cells common in Indus sign order (24 of 57 similar triples), so sharpness alone is weak evidence.",
+    "Semantic labels such as FISH, TREE and POT rest on sign shape and are not tested against anything external."
+  ],
+  "authors_next": [
+    {"idea": "Compare the constructional model with a well-tuned unrestricted trigram or four-gram model.", "where": "Section 5, p. 8"},
+    {"idea": "Verify that rule selection was separated from evaluation before claiming independent generalisation.", "where": "Section 5, p. 9"},
+    {"idea": "Seek an external phonetic anchor, such as a securely identified name, commodity or bilingual relation, with object-level provenance, including western seals.", "where": "Section 5, p. 9"},
+    {"idea": "Check the graphic descriptions of W220, W390 and W700 against the original sign plates.", "where": "Section 4.5, p. 8"},
+    {"idea": "Use the model's constraints as targets for lexical and phonetic testing.", "where": "Abstract; section 6"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Test the two cross-city frames (W920-W060-W741 and W840-W032-W740) and the W590-W390-W740 frame on our family-clean held-out M77 split and on ICIT sites outside Harappa and Mohenjo-daro, translated through the Wells-to-Mahadevan bridge.", "why": "These were found with a city-split procedure and are the author's most portable claims; we only tested the W090 contrast so far.", "open_data_enough": true, "data_needed": "M77 held-out split v2, ICIT, bridge_WM.json."},
+    {"idea": "Replicate the numeral-noun order shift by object type (postnominal 11% on seals, 31% on tablets, 64% on pottery) on M77 held-out texts with a family-level permutation null.", "why": "If word order follows the object, that is a register effect worth separating from grammar, and it fits the project's finding that each object type has its own vocabulary.", "open_data_enough": true, "data_needed": "M77 numeral and object-type codes; a fixed list of numeral signs and counted nouns frozen before the run."},
+    {"idea": "Score his nine-context model against our trigram on our clean split, the comparison he says is missing.", "why": "It settles whether the constructional contexts carry anything a plain n-gram does not.", "open_data_enough": false, "data_needed": "His public replay code is enough to re-implement the contexts, but his exact sign units need the withheld corpus or a careful mapping to M77."}
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "kriger-2026",
+  "read": "full text",
+  "sources_opened": [
+    "https://zenodo.org/api/records/19103880",
+    "https://zenodo.org/api/records/19103880/files/Positional_constraints_sequence_uniqueness_stroke_numerals_Indus_Mohenjo-Daro_v5_AUTHOR.pdf/content"
+  ],
+  "what_they_did": [
+    "The author took 179 unicorn seals from Mohenjo-daro (M-1 to M-199) from a public GitHub transcription of the corpus.",
+    "He measured how many sign sequences are unique and compared this with a permutation null.",
+    "He measured sign entropy by position in five-sign texts and tested whether it differs between positions.",
+    "He counted stroke signs by position, looked for near-identical pairs one sign apart, and counted prefix-sharing groups.",
+    "He interprets the seals as a registration-code system rather than language."
+  ],
+  "what_they_found": [
+    "The corpus has 1,003 tokens and 182 sign types (section 3).",
+    "Uniqueness is 98.3% (176 of 179) against a null of 91.2%, with interval 88.7 to 93.5 (section 5.1, p. 9).",
+    "In 35 five-sign texts, entropy by position is 3.13, 4.44, 4.45, 3.77 and 3.98 bits; Friedman chi-squared 14.7, p = 0.005, Kendall W 0.105 (section 5.2).",
+    "Stroke signs are 154 of 1,003 tokens (15.4%) and make up 45.7% of position 4 in five-sign texts, chi-squared 27.4 (section 5.4).",
+    "The two-stroke sign is 103 of 154 stroke tokens (66.9%); the PDF gives chi-squared 198.3 while the abstract gives 225.3 (section 5.5 and abstract).",
+    "Eight pairs differ by one sign, all at positions 2 or 3, p = 0.008 (section 5.6).",
+    "There are 28 prefix-sharing groups, and the author claims a capacity of 1.35 million codes (section 5.7)."
+  ],
+  "strength_and_limits": [
+    "The paper states clear falsification tests, which makes its claims checkable.",
+    "The sample is small (179 seals, 35 five-sign texts), from one site and one animal.",
+    "The chi-squared value for the two-stroke sign differs between abstract and text.",
+    "The uniqueness null depends on how texts are permuted; our own run on 646 seals found observed uniqueness below the null, reversing the sign of the result (experiments/bench2026)."
+  ],
+  "authors_next": [
+    {
+      "idea": "Replicate on Harappa unicorn seals, compare vocabularies across animal motifs, test texts of ten or more signs, compare tablets with seals, build an Ur III linguistic null, and test Tamil Nadu graffiti slots.",
+      "where": "Section 9.6, pp. 21-22"
+    },
+    {
+      "idea": "Extend to the full ICIT corpus with animal and site metadata, map sign vocabularies by animal and geography, compare with Mukhopadhyay's classes, and benchmark against modern registration codes.",
+      "where": "Section 11, p. 22"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Test whether the sign vocabulary depends on the animal motif: compare sign distributions on bull, unicorn and other-motif seals with a family-level permutation null that keeps text length.",
+      "why": "A registration code should be indifferent to the motif, while a title or office system would vary with it; the author lists this as a falsification test.",
+      "open_data_enough": true,
+      "data_needed": "M77 or ICIT with field-symbol codes and near-copy family clusters."
+    },
+    {
+      "idea": "Compare the positional entropy profile of seals and tablets, by text length, with family dedup.",
+      "why": "The author predicts divergence between seals and tablets; this is cheap and uses the whole corpus rather than 35 texts.",
+      "open_data_enough": true,
+      "data_needed": "M77 object types and texts."
+    }
+  ]
+}

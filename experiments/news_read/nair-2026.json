@@ -1,0 +1,38 @@
+{
+  "id": "nair-2026",
+  "read": "full text",
+  "sources_opened": [
+    "https://arxiv.org/pdf/2604.17828"
+  ],
+  "what_they_did": [
+    "The authors took the ICIT sign codes through the Yajnadevam digitization and removed exact duplicate texts.",
+    "They built two synthetic non-linguistic baselines, a heraldic system and an administrative system, with generators tuned to Indus-like length and frequency.",
+    "They scored Indus and both baselines on a five-measure scorecard: text length, repeated phrases, hapax rate, positional rigidity and related statistics.",
+    "They ran sensitivity checks over generator settings, merged likely allographs, and compared Indus with real non-linguistic corpora such as heraldic blazons."
+  ],
+  "what_they_found": [
+    "The corpus has 2,511 texts, of which 595 (24%) are exact duplicates, leaving 1,916 texts with 11,110 tokens, 584 sign types and a mean length of 4.4 (section 3).",
+    "Conditional entropy is 3.232 bits against a shuffle mean of 4.613, and the Zipf slope is -1.49 (section 5.2).",
+    "On the scorecard, Indus, heraldic and administrative values are: length 4.42, 4.01 and 4.02; repeated 3+ sign phrases 565, 310 and 339; repeated 5+ sign phrases 43, 25.7 and 9.0 (Table 4, section 5.3).",
+    "Hapax rate is 0.33, 0.10 and 0.44, and positional rigidity is 0.15, 0.08 and 0.23, so Indus lies between the two baselines only on these two measures (Table 4).",
+    "Against the administrative baseline the result holds in 10 of 11 settings for hapax rate, 5 of 11 for rigidity and 8 of 11 for repetition (Table 5).",
+    "Merging 200 likely allographs lowers the hapax rate from 33.2% to 21.1% (Table 6).",
+    "Real heraldic blazons (SCA) match Indus rigidity at 0.149, but no real non-linguistic system matches all measures (Table 8, section 5.7).",
+    "The heraldic generator misses its own Zipf target, giving -0.97 against -1.46 (Table 2)."
+  ],
+  "strength_and_limits": [
+    "Using two different non-linguistic baselines and real heraldic data is a fair design, and the sensitivity tables are reported.",
+    "Indus is above both baselines on length and on repeated phrases, so the 'intermediate' reading holds only for two of five measures.",
+    "Only exact duplicates were removed, so near-copy formulas still inflate the repetition counts.",
+    "The hapax and rigidity results depend on sign segmentation, as the allograph merge shows, and artifact type was not conditioned on (section 7).",
+    "The abstract says code and data are public, but the availability section says they will be released on request or upon acceptance."
+  ],
+  "authors_next": [
+    {"idea": "Build a more carefully tuned non-linguistic model and run it through the scorecard.", "where": "Section 6"},
+    {"idea": "Condition the analysis on artifact type and use a proper allograph concordance.", "where": "Section 7, Limitations"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Rerun the five-measure scorecard on M77 with near-copy families collapsed and separately for seals, tablets and pottery, adding SIGIL as a third baseline.", "why": "It shows whether the 'between heraldry and administration' pattern survives family dedup and object type, which the authors list as their main gap.", "open_data_enough": true, "data_needed": "M77 with object types and family clusters, the project's SIGIL rebuild, and re-implemented baseline generators from the paper's description."},
+    {"idea": "Compute the scorecard on ICIT and M77 side by side for the same objects to measure how much each number moves with the sign list alone.", "why": "Hapax rate fell from 33.2% to 21.1% after allograph merging, so sign-list choice may decide the verdict.", "open_data_enough": true, "data_needed": "ICIT and M77 corpora and an object concordance."}
+  ]
+}

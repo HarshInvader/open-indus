@@ -1,0 +1,75 @@
+{
+  "generated": "2026-11-18",
+  "note": "Nothing here was run; predictions are drafts to be hash-sealed in docs/prereg before any Indus number is computed.",
+  "ideas": [
+    {
+      "rank": 1,
+      "idea": "Header vs terminal: which slot carries the object-type (and site) signal; Born et al. header method + Rao 2018 Prefix-Medial-Core-Terminal reading",
+      "source_urls": [
+        "https://aclanthology.org/2022.emnlp-main.620.pdf",
+        "https://arxiv.org/pdf/1812.00049"
+      ],
+      "prediction": "P1a: on v2 held-out M77 texts of length >=3, macro one-vs-rest AUC for object type (seal, sealing, miniature tablet, copper tablet, pottery graffito) from the terminal sign alone is >=0.62 and exceeds the initial-sign-only AUC by >=0.03. P1b: initial-sign-only AUC for Mohenjo-daro vs Harappa seals is >=0.58 and exceeds terminal-only.",
+      "null": "Permute which sign is labelled initial/terminal within each text (same multiset and length), refit, 1000x; second null permutes object labels within site.",
+      "planted_check": "In a dev copy, put an artificial marker in the terminal slot of 15% of miniature tablets; method must localise the gain to the terminal slot in >=80/100 plants and to the initial slot in <=5/100; repeat with the marker in the initial slot.",
+      "heldout": "dev_heldout(version=2), then ICIT post-1977 objects (native Wells signs, slots from the ICIT direction field).",
+      "data_ready": true,
+      "atlas_overlap": "Not closed. README #6 is the whole-text version (positive). P1b overlaps atlas 10b.5 (site AUC 0.49), expected to fail. Atlas 4.10, 5.7, 7.1 are different questions. Check experiments/context register-marker positions before sealing."
+    },
+    {
+      "rank": 2,
+      "idea": "Human-figure signs (Mahadevan block about M1-M47, frozen after drawing check) as counted labour categories (Rao 2018)",
+      "source_urls": [
+        "https://arxiv.org/pdf/1812.00049"
+      ],
+      "prediction": "(a) Share of human-figure tokens immediately preceded (reading order) by a stroke numeral is >=2x that of frequency-decile and position-matched non-numeral signs; (b) human-figure token share is higher on miniature tablets and tags than on seals, Mantel-Haenszel OR >=1.5 stratified by site.",
+      "null": "(a) 1000 random frequency- and position-matched sign sets of equal size; (b) object-type labels permuted within site.",
+      "planted_check": "Insert a short-stroke numeral before 10% of tokens of a random 40-sign set in a dev copy; must detect OR 2 in >=80/100 plants.",
+      "heldout": "dev_heldout(version=2) plus ICIT post-1977 via the M-W bridge; Kanmer texts as a small descriptive check.",
+      "data_ready": true,
+      "atlas_overlap": "Not closed for this class. Related: atlas 6.6 (counted items, refuted in general), 4.8 (tool cluster), 7.2; shaunmortal F2."
+    },
+    {
+      "rank": 3,
+      "idea": "Face specialisation on multi-face objects: one formula face plus unique faces (Cretan Hieroglyphic formulae parallel)",
+      "source_urls": [
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F6BAF70365CE3741F43487E1BAC43664/9781009490108int_1-12.pdf/introduction.pdf",
+        "https://cris.unibo.it/retrieve/4d46baae-d5a6-4071-96b6-07acb6b83f2b/Cretan%20Hieroglyphic_CUP_ch1.pdf"
+      ],
+      "prediction": "P3a: among objects with >=2 inscribed faces, the share with exactly one formulaic face (face text family found on >=2 other unrelated object families, defined on dev) exceeds the independent-faces expectation by >=25% relative, p<0.01. P3b: per-face formula rate is higher on >=3-face than on 2-face objects within object type.",
+      "null": "Permute face texts among objects of the same type, site and face count, 1000x.",
+      "planted_check": "Synthetic corpus with real face counts and independent formula rates; plant one-formula-face structure in 30% of objects; detection >=80%, false positives <=5% on unplanted data.",
+      "heldout": "ICIT post-1977 HARP tablets and Dholavira objects absent from M77.",
+      "data_ready": true,
+      "atlas_overlap": "Partly closed: atlas 5.1 P1 and P11, 10b.9; shaunmortal F15 (tablet side 2 formula). New part is the across-type dose-response and pairing statistic."
+    },
+    {
+      "rank": 4,
+      "idea": "Fish family marks precious commodities: enriched at lapidary/bead sites Chanhu-daro and Lothal (Mukhopadhyay 2023, 2025)",
+      "source_urls": [
+        "https://www.nature.com/articles/s41599-023-02320-7.pdf",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5079207 (unverified, 403)"
+      ],
+      "prediction": "On ICIT seals and sealings, fish-family token share (M59, M65, M67, M70, M72, M75 and ticked M60, M66, M68, M71, M73) is higher at Chanhu-daro + Lothal than at Mohenjo-daro + Harappa + Kalibangan, Mantel-Haenszel OR >=1.5 across object types, one-sided p<0.05; a frequency-matched non-fish control family does not reach OR 1.5.",
+      "null": "Site labels permuted within object type, 10000x, on text families (Lothal sealings deduplicated by seal identity).",
+      "planted_check": "Inflate fish tokens at the two sites by 1.5x in a copy; detection must reach >=80% or the test is declared uninformative.",
+      "heldout": "M77 v2 held-out rows; post-1977 Gujarat sites (Kanmer, Shikarpur, Gola Dhoro) as descriptive replication only.",
+      "data_ready": true,
+      "atlas_overlap": "Not closed but discouraged: atlas 10b.17 (craft assemblage, power 0-4.5%), 10b.5 (no large city stock), 4.7 (fish = deity untestable)."
+    },
+    {
+      "rank": 5,
+      "idea": "Characteristic numeral magnitude per counted sign replicates out of sample (Born et al. 2025 proto-Elamite content-magnitude correlations)",
+      "source_urls": [
+        "https://arxiv.org/abs/2502.00090",
+        "https://arxiv.org/pdf/2502.00090"
+      ],
+      "prediction": "Spearman rho between the dev rank order of mean numeral value per counted sign (>=8 dev numeral tokens; tall and short strokes kept separate) and the held-out rank order (>=4 held-out tokens) is >=0.5, p<0.05.",
+      "null": "Numeral values permuted among counted-sign tokens within object type and stroke class, 10000x.",
+      "planted_check": "Give 10 random signs true mean values 2-8 and resample numerals with Poisson noise at real token counts; recover rho >=0.5 in >=80% of runs.",
+      "heldout": "dev_heldout(version=2), then ICIT post-1977.",
+      "data_ready": true,
+      "atlas_overlap": "Partly closed: atlas 6.6, 6.5, 5.1 P11; shaunmortal F2/F5. New part is out-of-sample ordinal replication."
+    }
+  ]
+}

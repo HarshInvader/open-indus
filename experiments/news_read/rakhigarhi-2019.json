@@ -1,0 +1,40 @@
+{
+  "id": "rakhigarhi-2019",
+  "read": "full text of both main articles (Shinde et al. 2019 Cell, from the open copy on the Reich lab site; Narasimhan et al. 2019 Science, from the open copy of the published version on the Reich lab site); the STAR Methods of Shinde et al. and the supplements of both were not read; cell.com itself returned 403 earlier and was not retried",
+  "sources_opened": [
+    "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5",
+    "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/Shinde_piis0092867419309675.pdf",
+    "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/eaat7487.full_.pdf"
+  ],
+  "what_they_did": [
+    "Shinde and colleagues sampled 61 skeletons from the Rakhigarhi cemetery, about 1 km west of the town, and obtained usable genome-wide data from one individual, I6113 (Shinde et al., Results).",
+    "Because the data showed signs of contamination, they kept only reads with ancient-DNA damage, leaving 31,760 SNPs, and compared I6113 with ancient and modern genomes using PCA, ADMIXTURE, qpAdm and qpGraph (Shinde et al., Results).",
+    "Narasimhan and colleagues reported genome-wide data from 523 ancient individuals, mostly from Central Asia, Iran and northernmost South Asia, spanning the last 8,000 years (Narasimhan et al., summary and introduction).",
+    "In that larger study they found 11 outliers at Gonur and Shahr-i-Sokhta whose ancestry differs from their neighbours, and called them the Indus Periphery Cline (Narasimhan et al., section on an ancestry profile widespread during the IVC).",
+    "Neither paper studies the script; both discuss language only by linking ancestry to the later spread of language families."
+  ],
+  "what_they_found": [
+    "I6113 was a female with mitochondrial haplogroup U2b2, which today is nearly exclusive to South Asia (Shinde et al., Results).",
+    "I6113 fits as a mixture of Iranian-related ancestry and ancestry related to Andamanese hunter-gatherers (73% ± 6% Iranian-related, p = 0.103), and forms a clade with the 11 periphery outliers (p = 0.42); together they are renamed the IVC Cline (Shinde et al., Results).",
+    "The 11 outliers make up 25% of the 44 good-quality individuals from Gonur and Shahr-i-Sokhta, and none had detectable Anatolian farmer-related ancestry (Shinde et al., Results; Narasimhan et al., IVC section).",
+    "The Iranian-related part of the IVC Cline split from the lineages of ancient Iranian hunter-gatherers, herders and farmers before they separated, before about 10,000 BCE if the Belt Cave individual is used; 94% of symmetry-test trees supported this (Shinde et al., Results, Fig. 3).",
+    "Steppe ancestry reached BMAC sites by 2100 BCE and South Asia in the first half of the second millennium BCE, contributing up to 30% of the ancestry of modern South Asian groups (Narasimhan et al., summary and BMAC section).",
+    "Narasimhan et al. suggest the Ancestral South Indians most likely spoke an early Dravidian language, and give two scenarios: proto-Dravidian spread by IVC people, or by the half of ASI ancestry from peninsular South Asia (Narasimhan et al., Discussion).",
+    "Shinde et al. argue the results count against a spread of Indo-European languages into South Asia with farmers from Anatolia or the Iranian plateau (Shinde et al., Discussion)."
+  ],
+  "strength_and_limits": [
+    "The ancestry results are careful and replicated across several methods, and the one Rakhigarhi genome agrees with 11 independent periphery individuals.",
+    "The Rakhigarhi result rests on one contaminated-then-filtered sample with 31,760 SNPs; the authors say one sample, or even 12, cannot fully characterise a cosmopolitan civilisation (Shinde et al., Discussion).",
+    "The link from ancestry to language is an inference, and Narasimhan et al. leave open which of two populations carried proto-Dravidian.",
+    "For the script, these papers narrow the plausible language families but give no sign values, no word list and no anchor text."
+  ],
+  "authors_next": [
+    {"idea": "Analyse ancient DNA from more individuals across the IVC range to measure how ancestry was distributed and to describe population structure.", "where": "Shinde et al., Discussion"},
+    {"idea": "Sample ancient DNA from just before and after the farming transitions in South Asia to test whether an early farming population expanded within the region.", "where": "Shinde et al., Discussion"},
+    {"idea": "Further ancient DNA from South Asia and the linguistically related Iranian world to extend and refine the model.", "where": "Narasimhan et al., end of Discussion"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Treat the genetics as a prior, not evidence: write down, before any language test, how much the project's posterior on Dravidian versus other families may move from these papers, and check that no test result is reported as confirming a family when the test itself is at chance.", "why": "Atlas 1.9 and section 3 show the script cannot yet decide the family; the genetics can easily leak in as if it were a script result.", "open_data_enough": true, "data_needed": "None beyond the existing prereg and atlas files."},
+    {"idea": "When the Rakhigarhi excavation's inscribed seals are published with context, add them and test whether an eastern city follows the same sign order and slot use as Harappa and Mohenjo-daro, with power computed first.", "why": "The genome shows Rakhigarhi people shared ancestry with the periphery cline; the script question is whether the same writing grammar ran to the eastern edge, which site_signal (atlas 10b.5) tested only for Mohenjo-daro versus Harappa.", "open_data_enough": false, "data_needed": "Published, contextualised Rakhigarhi seal texts; the research sweep lists them as a watch item, and they are not in open form."}
+  ]
+}

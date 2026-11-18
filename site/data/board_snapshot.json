@@ -491,7 +491,47 @@
    "verdict": "untestable",
    "path": "experiments/m342_offsite/RESULTS.md",
    "summary": "Untestable: 65 pottery texts at H/L/K give 0.465 power for 1.5x (needs ~250); consensus R 1.43 p 0.057 descriptive only. ICIT same sites (265 pottery, power 0.92) shows 0.80x, wrong direction, so evidence leans against M342 as a vessel marker."
+  },
+  {
+   "id": 46,
+   "ms": "M6",
+   "title": "Paper gap: independent red team of decipherability (related-language key search fails; wrong keys outscore true key)",
+   "state": "running",
+   "owner": "paper",
+   "waits": []
+  },
+  {
+   "id": 47,
+   "ms": "M5",
+   "title": "Paper gap: novelty check vs published decipherment-identifiability work (DOIs opened)",
+   "state": "ready",
+   "owner": "",
+   "waits": []
+  },
+  {
+   "id": 48,
+   "ms": "M6",
+   "title": "Paper gap: numbers audit of docs/paper/DRAFT.md against results.json files",
+   "state": "ready",
+   "owner": "",
+   "waits": []
+  },
+  {
+   "id": 49,
+   "ms": "M5",
+   "title": "Paper gap: target venues and their submission rules (checked on their sites)",
+   "state": "ready",
+   "owner": "",
+   "waits": []
+  },
+  {
+   "id": 50,
+   "ms": "M3",
+   "title": "slot_function: which slot carries object type; human-figure signs as counted (survey ideas 1-2)",
+   "state": "running",
+   "owner": "paper",
+   "waits": []
   }
  ],
- "snapshot": "2026-11-18 10:32"
+ "snapshot": "2026-11-18 17:19"
 }

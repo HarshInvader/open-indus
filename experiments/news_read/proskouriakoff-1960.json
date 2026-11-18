@@ -1,0 +1,38 @@
+{
+  "id": "proskouriakoff-1960",
+  "read": "abstract only (the article in American Antiquity 25(4) is not open access: the doi.org link goes to JSTOR and the Cambridge Core PDF link redirected to the abstract page; the abstract was read there; I also read an open secondary source, Callaway 2014 in the PARI Journal, which quotes p. 460 of the paper and prints Thompson's 1958 letter about it)",
+  "sources_opened": [
+    "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AE4A93EC33E31D7A3533F6065F60BE5A/S0002731600037975a.pdf/historical_implications_of_a_pattern_of_dates_at_piedras_negras_guatemala.pdf",
+    "https://www.cambridge.org/core/journals/american-antiquity/article/abs/historical-implications-of-a-pattern-of-dates-at-piedras-negras-guatemala/AE4A93EC33E31D7A3533F6065F60BE5A",
+    "https://www.mesoweb.com/pari/journal/archive/PARI1404.pdf"
+  ],
+  "what_they_did": [
+    "Proskouriakoff sorted the dated inscriptions of Piedras Negras into sets, each carved on a group of consecutive monuments that starts with a stela showing the 'ascension motif' (abstract).",
+    "In each set she marked the earliest date, tagged by the 'upended frog' glyph, and a date in the first dedicatory hotun tagged by the 'toothache' glyph (abstract).",
+    "She compared the intervals between these dates with a human lifetime (abstract; quoted from p. 460 in Callaway 2014).",
+    "She then looked at the glyphs that follow the action glyphs and compared them with the figures shown on the monuments, including Yaxchilan lintels (abstract).",
+    "The abstract describes no phonetic readings; the argument rests on dates, glyph positions and pictures."
+  ],
+  "what_they_found": [
+    "No single series exceeds a reasonable lifetime; the distance between the initial date of a series and the inaugural dates of the next does not exceed a normal lifetime (abstract; p. 460 as quoted in Callaway 2014).",
+    "She proposed that the initial date is a birth or name day, the inaugural date an accession, and each set the history of one reign (abstract).",
+    "Variants of the upended frog and toothache glyphs suggest they are verbal action glyphs (abstract).",
+    "Groups of glyphs after the action glyph are names and titles, and they contain a female head prefix when they refer to robed or skirted figures (abstract).",
+    "Initial and inaugural dates were identified at other sites by the same glyphs, but no connected series of reigns was found outside Piedras Negras (abstract).",
+    "Lunar and 'determinant' meanings given to the dates had no relation to the action glyphs beside them (abstract)."
+  ],
+  "strength_and_limits": [
+    "The method works without sounds because it pairs recurring glyphs with an independent, exactly known variable: calendar dates.",
+    "It also used a second independent variable, the figures carved on the same monument, which is how the female prefix was found.",
+    "The Indus texts have no dates and very few pictures of people beside text, so the method cannot be copied directly.",
+    "Only the abstract and a secondary account were read, so the paper's tables and exact intervals are not reported here."
+  ],
+  "authors_next": [
+    {"idea": "The abstract recommends the historical approach as more consistent with the glyph patterns than the lunar and determinant readings; no further steps can be reported from the abstract.", "where": "abstract (full paper not read)"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Use a lifetime bound as the independent variable: for identical seal texts found at more than one stratigraphic depth at one site, test whether their depth spread is smaller than for random pairs of seals, as personal seals should be, or as wide as office or commodity labels.", "why": "It is the closest Indus analogue to her lifetime test; local_repeats (atlas 10b.9) could not test office seals because it found only one dated pair, so this needs new dated data rather than a new method.", "open_data_enough": false, "data_needed": "Seals with reliable depth or phase for identical texts, such as HARP lot data or CISI vol. 3 records; the 1930s registers give too few pairs."},
+    {"idea": "Copy her figure test: on objects that show human figures beside a text, check whether a sign group changes with a figure attribute (horned headdress, bangles, skirt or posture), as her female prefix did.", "why": "It uses the only independent 'picture' variable Indus objects offer, and it is not the same question as scene_text, which looked for a vessel sign on offering scenes.", "open_data_enough": false, "data_needed": "High-resolution photos of the human-figure seals and tablets with figure attributes coded blind; scene_text (atlas 10b.1) found 100 ppi too low, so 600 dpi images or RTI are needed."},
+    {"idea": "Look for her 'constant name, variable event' pattern: find text pairs that share a long constant block while a short block changes, and test whether the changing block comes from a small closed set, as event or title words would.", "why": "Her key step was separating a fixed appellative from a varying action glyph; this tests whether Indus texts have the same split, using only the texts.", "open_data_enough": true, "data_needed": "M77 and ICIT texts and family splits; check overlap with atlas 4.1 and 10b.6 before running, since those tested related name-plus-title structures."}
+  ]
+}

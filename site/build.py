@@ -935,6 +935,33 @@ def news_card(it):
             f'</div></div></article>')
 
 
+def news_detail(it):
+    """Full-paper summary sections from experiments/news_read/<id>.json (written by agents that read the source)."""
+    f = ROOT / "experiments" / "news_read" / f'{it["id"]}.json'
+    if not f.is_file():
+        return ""
+    d = json.loads(f.read_text())
+    def ul(rows):
+        return "<ul>" + "".join(f"<li>{E(r)}</li>" for r in rows) + "</ul>" if rows else ""
+    srcs = ", ".join(f'<a href="{E(u)}">{E(u.split("//")[-1][:70])}</a>' for u in d.get("sources_opened", []))
+    out = [f'<section aria-labelledby="readnote"><h2 id="readnote">How we read it</h2>'
+           f'<p>Read: {E(d["read"])}. Sources opened: {srcs or "none reachable"}.</p></section>']
+    for key, hid, title in (("what_they_did", "did", "What they did"), ("what_they_found", "found", "What they found"),
+                            ("strength_and_limits", "limits", "Strengths and limits")):
+        if d.get(key):
+            out.append(f'<section aria-labelledby="{hid}"><h2 id="{hid}">{title}</h2>{ul(d[key])}</section>')
+    if d.get("authors_next"):
+        rows = "".join(f'<li>{E(a["idea"])}' + (f' <small>({E(a["where"])})</small>' if a.get("where") else "") + "</li>"
+                       for a in d["authors_next"])
+        out.append(f'<section aria-labelledby="next"><h2 id="next">What the authors say comes next</h2><ul>{rows}</ul></section>')
+    if d.get("ideas_for_us"):
+        rows = "".join(f'<li><b>{E(a["idea"])}</b> {E(a["why"])} <small>Open data enough: '
+                       f'{"yes" if a.get("open_data_enough") else "no"}. Needs: {E(a.get("data_needed", ""))}</small></li>'
+                       for a in d["ideas_for_us"])
+        out.append(f'<section aria-labelledby="ideas"><h2 id="ideas">Ideas it gives us</h2><ul>{rows}</ul></section>')
+    return "".join(out)
+
+
 def news_article_pages():
     # Match the feed order: latest first, followed by chronological landmarks.
     items = news_items()
@@ -960,7 +987,7 @@ def news_article_pages():
             ARTICLE_WHO=E(it["who"]), ARTICLE_URL=E(it["url"]), ARTICLE_VENUE=E(it["venue"]),
             ARTICLE_THUMB=news_thumbnail(it, eager=True), ARTICLE_GIST=E(it["gist"]), ARTICLE_PLAIN=E(it["plain"]),
             ARTICLE_TECH=E(it["tech"]), ARTICLE_BORROW=E(it["borrow"]), ARTICLE_TAG=f'<span class="tag {cls}">{E(lab)}</span>',
-            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
+            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_DETAIL=news_detail(it), ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
     return pages
 
 

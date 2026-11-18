@@ -1,0 +1,51 @@
+{
+  "id": "dixit-2025",
+  "read": "full text",
+  "sources_opened": [
+    "https://journal.caa-international.org/articles/10.5334/jcaa.175",
+    "https://journal.caa-international.org/articles/175/files/682af66155357.pdf",
+    "https://github.com/DM-BiCLab/Deep-Learning-in-Archiving-Indus-Script-and-Motif-Information"
+  ],
+  "what_they_did": [
+    "The authors collected 1,004 seal images from the CISI volumes and Mahadevan 1977, leaving 963 after removing duplicates.",
+    "They trained a YOLOv3 detector to find signs on 232 annotated images and tested it on 13.",
+    "They trained a MobileNet classifier on 40 classes, 39 Mahadevan signs plus an 'Other' class, using 12,264 augmented crops.",
+    "They also trained a motif classifier (MI-net) on 11 animal and field motifs."
+  ],
+  "what_they_found": [
+    "The sign classifier reaches 94.5% validation accuracy and an F1 score of 95% (results section).",
+    "Five-fold cross-validation gives 85.28% accuracy (plus or minus 1.51) and F1 85.22% (plus or minus 1.53) (Table I).",
+    "The final test used a class-balanced set of 200 unaugmented crops (results section).",
+    "The motif classifier reaches a mean fold accuracy of 0.85 (results section)."
+  ],
+  "strength_and_limits": [
+    "Automatic sign reading from images could speed corpus building and check transcriptions.",
+    "Only 40 classes are covered out of several hundred signs, and broken seals were excluded (section VI).",
+    "The detector test set of 13 images is very small.",
+    "The full datasets are available only on request, per the repository README."
+  ],
+  "authors_next": [
+    {
+      "idea": "Handle class imbalance with zero-shot or transfer learning, and include broken seals.",
+      "where": "Section VI"
+    },
+    {
+      "idea": "Add Wells and Fuls 2024 images, label by consensus, move to YOLOv5, add metadata, and extend to other scripts.",
+      "where": "Section VII"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Use a sign classifier's confusion matrix as an independent measure of which signs look alike, and check whether visually confusable pairs are also distributionally similar in M77.",
+      "why": "It tests whether look-alike signs behave as allographs with a source of similarity that is not our own judgement. Our look-alike tests (atlas 8.1/8.2) used shape judgement; this would only add an outside measure, so it is low priority.",
+      "open_data_enough": false,
+      "data_needed": "Seal images or the authors' trained model and data, available only on request."
+    },
+    {
+      "idea": "Score a sign detector's errors against the M77 versus ICIT reading disagreements for the same objects: where the two corpora disagree, does an image model side with one?",
+      "why": "It gives a third witness on contested sign readings, which affect every statistic.",
+      "open_data_enough": false,
+      "data_needed": "Seal images (CISI scans are not openly licensed) or the authors' model; M77 to ICIT object concordance."
+    }
+  ]
+}

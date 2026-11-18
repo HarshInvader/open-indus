@@ -1,0 +1,41 @@
+{
+  "id": "sigil-2026",
+  "read": "partial (main text, sections 1-8 and Limitations read in full; appendices not read)",
+  "sources_opened": [
+    "https://arxiv.org/pdf/2608.02999"
+  ],
+  "what_they_did": [
+    "The author built SIGIL, a generator of seal-like inscriptions for a made-up administrative world, where every text has a stored meaning but no sign has a sound.",
+    "Texts are assembled from optional opener, dedication, office, ledger and terminal blocks, with urn processes giving a few frequent and many rare signs, licensed deity-epithet pairs, tally marks, ligatures and a trading outpost.",
+    "Before scoring, he closed a registry of 54 published methods and scored exactly only those whose Indus result and decision rule he could reproduce.",
+    "He also rebuilt the wider battery of entropy, Zipf, positional, prediction, restoration, classifier and network measures.",
+    "He ran a dictionary-matching decipherment engine on SIGIL to read it as English, Sanskrit and Tamil, with grouped held-out tests and random-key controls."
+  ],
+  "what_they_found": [
+    "The canonical corpus has 3,000 core texts, 13,717 tokens, 419 attested core types and a mean length of 4.572 signs (Table 1, p. 4).",
+    "SIGIL gets the same category as Indus on all six exactly scored outcomes; for example the repetition ratio is 0.646 for SIGIL and 0.575 for Indus, both on the non-linguistic side of 0.10 (Table 2, section 6.1).",
+    "Its Zipf-Mandelbrot exponent is 2.574 against the published EBUDS value of 2.59 (section 6.2, Figure 2).",
+    "39 SIGIL signs cover 80% of text-initial tokens and 10 cover 80% of final tokens, paralleling 82 against 23 for Indus (section 6.2, Figure 5).",
+    "The Lee classifier calls SIGIL 'writing: syllables' in all 27 sensitivity settings (section 6.2).",
+    "Restoration puts the true sign inside the 90% candidate set in 84.88% of 275,300 trials, against a published Indus figure of 74% (section 6.2).",
+    "Dictionary coverage of SIGIL reaches 83.0% for English, 88.13% for Sanskrit and 67.73% for Tamil in sample, against random-key means of 6.50%, 5.77% and 9.48% (section 6.3).",
+    "Six bootstrap Sanskrit-script keys agree on only 9.30% of sign values although each parses over 93.5% of the corpus (section 6.3)."
+  ],
+  "strength_and_limits": [
+    "A single explicit non-language that passes the tests is enough to show those tests are not sufficient for language, and the registry and public generator make this checkable.",
+    "The paper is careful to claim only existence: it gives no likelihood ratio and no estimate of how common such systems are.",
+    "SIGIL was built with the published statistics in view and is not a held-out sample, so it shows compatibility, not that emblem systems usually look like this.",
+    "Only six dependent outcomes from three method families are in the exact score; the other 48 methods are reconstructions or excluded.",
+    "The fictional setting is not a model of Harappan society."
+  ],
+  "authors_next": [
+    {"idea": "A feature may still be informative if calibrated populations of languages produce it far more often than a weighted family of non-languages; no study supplies that family yet.", "where": "Section 7, 'What it leaves open', p. 8"},
+    {"idea": "Persuasive decipherment should commit to sign values and semantic predictions before testing, succeed on held-out inscriptions, prefer one language over matched alternatives, recover stable values across resamples, and predict external facts.", "where": "Section 7, 'Stronger evidence for decipherment', p. 8"},
+    {"idea": "Claims that regularity shows language need a discriminative comparison against structured non-linguistic alternatives, or predictions those alternatives cannot meet.", "where": "Section 8, Conclusion"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Make bootstrap key agreement a gate for any reopened phonetic key: refit the key on resampled texts and require value agreement well above SIGIL's 9.30%.", "why": "Coverage alone is reached on a corpus that encodes nothing; stability of values across resamples is something SIGIL fails and a real key should pass.", "open_data_enough": true, "data_needed": "The proposed key's fitting code, M77, and the project's SIGIL rebuild as a negative control."},
+    {"idea": "Use SIGIL's outpost as the control for our Gulf round-seal result: compare the bits-per-sign penalty of the Gulf seals under a core-trained model with the penalty SIGIL's outpost texts get under a SIGIL core model.", "why": "SIGIL's outpost scores near zero likelihood purely from regional emblem events, so a Gulf 'foreign dialect' reading must exceed what an emblem system already produces.", "open_data_enough": true, "data_needed": "The project's foreign-seal corpus, the grammar model behind the +1.80 bits result, and the SIGIL rebuild with its outpost texts."},
+    {"idea": "Build a small population of SIGIL variants across the 27-cell parameter grid and a matched population of short-label language corpora, and estimate how often each population produces the Indus value of the few statistics still in play.", "why": "This is the calibrated comparison the author says is missing, and it turns 'compatible' into a likelihood ratio.", "open_data_enough": false, "data_needed": "SIGIL generator parameters (public per the paper), plus enough genre-matched short-label language corpora; atlas 3.2 found the current reference set too small."}
+  ]
+}

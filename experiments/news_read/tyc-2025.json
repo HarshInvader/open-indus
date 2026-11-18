@@ -1,0 +1,50 @@
+{
+  "id": "tyc-2025",
+  "read": "full text",
+  "sources_opened": [
+    "https://arxiv.org/pdf/2503.21074"
+  ],
+  "what_they_did": [
+    "The author compared sign images from the Indus script, proto-cuneiform and proto-Elamite with signs from newer Dongba, old Naxi and a mixed Tibetan-Yi corridor set of Ba-Shu, Classical Yi and old Naxi signs (section 3.1).",
+    "She trained contrastive CNN-Swin image encoders with an NT-Xent loss at temperature 0.1 (section 3.5).",
+    "For each target script she trained five models, fifteen in all, each in its own embedding space (section 3.4, Table 3.1).",
+    "She compared glyph-level and script-level cosine similarity between the target scripts and the corridor set."
+  ],
+  "what_they_found": [
+    "Mean glyph-level cosine similarity with the corridor set is 0.635 for Indus, 0.102 for proto-cuneiform and 0.078 for proto-Elamite (Table 4.1, p. 31).",
+    "Script-level similarity is 0.930 for Indus (interval 0.917 to 0.942), 0.887 for proto-cuneiform and 0.855 for proto-Elamite (section 4.1.1).",
+    "Effect sizes (Cohen's d) are 7.13 to 8.36, which the author says are inflated by low variance (Table 4.3; section 5.1.1).",
+    "Several ensemble members stopped at epoch 1, and validation losses lie roughly between 8.7 and 10.2 (Table 3.1, pp. 23-24).",
+    "The author lists independent origin, common ancestry and convergent evolution as alternative explanations (section 5.4)."
+  ],
+  "strength_and_limits": [
+    "The code is public (github.com/oohalakkadi/ivc2tyc, section 6.3) and the author is open about inflated effect sizes.",
+    "Similarities from separate embedding spaces, trained per target script, cannot be compared across target scripts.",
+    "Several models barely trained, so the embeddings may reflect image style more than sign form.",
+    "Our own red-team run found the Indus advantage disappears when the Ba-Shu signs are removed (experiments/redteam_ivc2tyc)."
+  ],
+  "authors_next": [
+    {
+      "idea": "Study Tibetan rock art and archaeology along the Shu-Shendu road.",
+      "where": "Section 6.2, p. 43"
+    },
+    {
+      "idea": "Add linguistic and semantic constraints to the embeddings and include more Central and East Asian scripts as controls.",
+      "where": "Section 6.2, p. 43"
+    }
+  ],
+  "ideas_for_us": [
+    {
+      "idea": "Retrain one shared embedding space on all scripts together, then compare Indus-to-corridor similarity against a null of shuffled script labels and against unrelated control scripts drawn in a similar style.",
+      "why": "This removes the cross-space comparison that makes the published numbers incomparable.",
+      "open_data_enough": false,
+      "data_needed": "The ivc2tyc code and sign images (public), plus open sign images for several unrelated control scripts."
+    },
+    {
+      "idea": "Report the corridor similarity sign by sign and check whether the Indus advantage comes from a handful of simple shapes such as strokes, circles and crosses.",
+      "why": "Simple geometric signs recur in unrelated scripts and could drive the result alone.",
+      "open_data_enough": true,
+      "data_needed": "The ivc2tyc repository outputs and our existing red-team run."
+    }
+  ]
+}

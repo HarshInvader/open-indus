@@ -1,0 +1,41 @@
+{
+  "id": "snyder-luo",
+  "read": "full text",
+  "sources_opened": [
+    "https://aclanthology.org/P10-1107.pdf",
+    "https://arxiv.org/pdf/1906.06718",
+    "https://aclanthology.org/2021.tacl-1.5.pdf"
+  ],
+  "what_they_did": [
+    "Snyder, Barzilay and Knight (2010) built a Bayesian model that, given Ugaritic texts and a non-parallel Hebrew corpus, learns both the letter mapping and which Ugaritic words have which Hebrew cognates.",
+    "Their model used a Hebrew morphological lexicon with part-of-speech classes and allowed affixes taken from an annotated Hebrew Bible.",
+    "Luo, Cao and Barzilay (2019) replaced this with a neural sequence-to-sequence model of character correspondences, trained by casting word matching as a minimum-cost flow problem.",
+    "Luo et al. 2019 tested on Ugaritic-Hebrew, on Linear B against Greek cognates, and on Spanish, Italian and Portuguese.",
+    "Luo, Hartmann, Santus, Cao and Barzilay (2021) extended the method to texts without word boundaries and with no assumed related language, adding a language-closeness score, and tried it on Gothic, Ugaritic and Iberian."
+  ],
+  "what_they_found": [
+    "Snyder et al. map 29 of 30 Ugaritic letters correctly (96.67%), against 22 of 30 for an HMM cipher baseline (section 8).",
+    "They translate 60.42% of Ugaritic word types that have Hebrew cognates, 66.71% by token, and 75.07% of morphemes by type (Table 1); Hebrew cognates exist for 2,155 word forms, about a third of the vocabulary (section 7.1).",
+    "Luo et al. 2019 identify 65.9% of Ugaritic cognates in the noisy setting against 60.4% for Snyder et al., and 93.5% in the noiseless setting (Table 2).",
+    "On Linear B they reach 84.7% on a 919-pair cognate list and 67.3% on the harder Linear B/names set (Table 3).",
+    "Removing the monotonic alignment or residual connection drops Ugaritic accuracy to 0%, and removing the flow training drops it to 8.6% (Table 5), so linguistic priors carry the result.",
+    "Luo et al. 2021 find their closeness measure picks the right relatives for Gothic and Ugaritic but shows no strong evidence that Basque is related to Iberian (abstract; Conclusions)."
+  ],
+  "strength_and_limits": [
+    "These are real, reproducible successes, with code and data released.",
+    "Every success assumes the lost script's sign inventory is a small, segmental or syllabic set and that a large share of words have cognates in a known lexicon; the Linear B test uses a curated cognate list where every word has a match.",
+    "Iberian worked as a test only because its script is already phonetically readable; the Indus case lacks both sound values and a known relative.",
+    "The project's cognate_decipher run already showed that with a realistic lexicon (only some words having cognates) recovery falls to about 1-39%."
+  ],
+  "authors_next": [
+    {"idea": "Use the known frequency of Hebrew words and morphemes, which the 2010 model ignores and which causes its commonest error.", "where": "Snyder et al. 2010, section 9"},
+    {"idea": "Use literary context, not just vocabulary-level matching, since many words can only be deciphered in context.", "where": "Snyder et al. 2010, section 9"},
+    {"idea": "Explore the model's predictive power when the family of the lost language is unknown.", "where": "Snyder et al. 2010, section 9"},
+    {"idea": "Use phonetic values inferred from cognate mappings as a starting point for reconstructing lost sounds; more work is needed to test this.", "where": "Luo et al. 2021, Conclusions"},
+    {"idea": "Extend the method from language pairs to many languages at once.", "where": "Luo et al. 2021, Conclusions"}
+  ],
+  "ideas_for_us": [
+    {"idea": "Run the Luo 2021 language-closeness score as a pure negative-control bench: plant a logo-syllabic Dravidian-like and an Indo-Aryan-like text at Indus size and length, and measure whether the closeness score can tell the two apart when sound values are unknown.", "why": "If it cannot separate planted families even in the ideal case, the 'which family' question is closed for this method at Indus size; if it can, it gives a calibrated tool.", "open_data_enough": true, "data_needed": "DecipherUnsegmented code (released, licence to check), Tamil and Sanskrit word lists, the project's planting code in cognate_decipher."},
+    {"idea": "Apply the cognate machinery only to the foreign-found Gulf round-seal texts that break Indus order, matched against a list of Dilmun and Meluhha personal names from cuneiform.", "why": "This is the one place where a related lexicon of names plausibly exists, and name lists are what the methods matched best (Linear B/names, 67.3%). Power is low (atlas 1.10 used n = 12), so it belongs with the existing crib_attack work rather than as a new route.", "open_data_enough": false, "data_needed": "A clean list of non-Sumerian, non-Akkadian names from Dilmun and Meluhha-linked tablets; partly in sealing_hunt and elamite_names, but small."}
+  ]
+}
