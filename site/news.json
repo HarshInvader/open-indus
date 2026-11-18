@@ -196,11 +196,11 @@
    "gist": "Image models that spot signs and animal motifs on photographs of seals.",
    "plain": "The team trained image models to find the signs on a seal photo, name each one, and recognise the animal. Only sample data is public. The full set is available from the authors on request.",
    "tech": "YOLOv3 sign detection, MobileNet sign classification and motif identification on seal photographs. The repository (DM-BiCLab) holds sample data only.",
-   "borrow": "Reading signs straight from photos could settle the 1-in-5 disagreements between the two main transcriptions. We need open images first.",
+   "borrow": "Reading signs straight from photos could settle the 1-in-8 disagreements between the two main transcriptions. We need open images first.",
    "status": "idea",
    "fig": "detect",
    "rank": 4,
-   "idea": "Read signs straight from seal photos, to fix the 1-in-5 disagreements between transcriptions",
+   "idea": "Read signs straight from seal photos, to fix the 1-in-8 disagreements between transcriptions",
    "thumbnail_alt": "Illustration: a seal with signs and a bull, each found by a detection box."
   },
   {

@@ -2,7 +2,8 @@
 q-value columns over the whole ledger with the same rules as build_ledger.py (BH with unlisted family
 members padded at p = 1; global, per area, hierarchical, all).
 
-Run from the repo root:  .venv/bin/python -I experiments/ledger/merge_rows.py [--dry]
+Run from the repo root:  .venv/bin/python -I experiments/ledger/merge_rows.py [--dry] [--skip exp1,exp2]
+--skip names experiment folders still running: their rows are removed if present and not added.
 Prints the added ids and which confirmatory tests gain or lose q_global < 0.05.
 """
 import csv
@@ -79,10 +80,21 @@ def correct(rows):
 
 def main():
     rows = list(csv.DictReader(open(LEDGER, newline="")))
+    skip = set(sys.argv[sys.argv.index("--skip") + 1].split(",")) if "--skip" in sys.argv else set()
+    drop = set()
+    for e in skip:
+        f = ROOT / "experiments" / e / "ledger_rows.csv"
+        if f.exists():
+            drop |= {r["id"] for r in csv.DictReader(open(f, newline="")) if r.get("id")}
+    if drop:
+        rows = [r for r in rows if r["id"] not in drop]
+        print(f"skipped {len(skip)} running experiments; removed {len(drop)} of their ids if present")
     before = {r["id"]: num(r["q_global"]) for r in rows}
     have = {r["id"] for r in rows}
     added = []
     for f in sorted(ROOT.glob("experiments/*/ledger_rows.csv")):
+        if f.parent.name in skip:
+            continue
         for r in csv.DictReader(open(f, newline="")):
             if r.get("id") and r["id"] not in have:
                 rows.append({c: r.get(c, "") or "" for c in COLS}); have.add(r["id"]); added.append(r["id"])

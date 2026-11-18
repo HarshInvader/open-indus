@@ -1,0 +1,875 @@
+{
+ "n_pairs": 469,
+ "harness_map_agrees_with_n3_original": 0,
+ "A1_positional": {
+  "M65": {
+   "tot": 23,
+   "top": [
+    [
+     "W235",
+     22
+    ],
+    [
+     "W232",
+     1
+    ]
+   ],
+   "harness": [
+    "W231"
+   ],
+   "n3": [
+    "W235"
+   ],
+   "n3_count": 22,
+   "share": 0.957
+  },
+  "M67": {
+   "tot": 38,
+   "top": [
+    [
+     "W240",
+     37
+    ],
+    [
+     "W820",
+     1
+    ]
+   ],
+   "harness": [
+    "W233"
+   ],
+   "n3": [
+    "W240"
+   ],
+   "n3_count": 37,
+   "share": 0.974
+  },
+  "M70": {
+   "tot": 9,
+   "top": [
+    [
+     "W231",
+     9
+    ]
+   ],
+   "harness": [
+    "W235"
+   ],
+   "n3": [
+    "W231"
+   ],
+   "n3_count": 9,
+   "share": 1.0
+  },
+  "M72": {
+   "tot": 23,
+   "top": [
+    [
+     "W233",
+     20
+    ],
+    [
+     "W220",
+     2
+    ],
+    [
+     "W001",
+     1
+    ]
+   ],
+   "harness": [
+    "W240"
+   ],
+   "n3": [
+    "W233"
+   ],
+   "n3_count": 20,
+   "share": 0.87
+  },
+  "M59": {
+   "tot": 46,
+   "top": [
+    [
+     "W220",
+     40
+    ],
+    [
+     "W231",
+     1
+    ],
+    [
+     "W621",
+     1
+    ],
+    [
+     "W233",
+     1
+    ]
+   ],
+   "harness": [
+    "W220"
+   ],
+   "n3": [
+    "W220"
+   ],
+   "n3_count": 40,
+   "share": 0.87
+  },
+  "M66": {
+   "tot": 3,
+   "top": [
+    [
+     "W236",
+     3
+    ]
+   ],
+   "harness": [
+    "W232"
+   ],
+   "n3": [
+    "W236"
+   ],
+   "n3_count": 3,
+   "share": 1.0
+  },
+  "M68": {
+   "tot": 1,
+   "top": [
+    [
+     "W241",
+     1
+    ]
+   ],
+   "harness": [
+    "W234"
+   ],
+   "n3": [
+    "W241"
+   ],
+   "n3_count": 1,
+   "share": 1.0
+  },
+  "M71": {
+   "tot": 0,
+   "top": [],
+   "harness": [
+    "W236"
+   ],
+   "n3": [
+    "W232"
+   ],
+   "n3_count": 0,
+   "share": null
+  },
+  "M73": {
+   "tot": 0,
+   "top": [],
+   "harness": [
+    "W241"
+   ],
+   "n3": [
+    "W234"
+   ],
+   "n3_count": 0,
+   "share": null
+  },
+  "M389": {
+   "tot": 18,
+   "top": [
+    [
+     "W806",
+     14
+    ],
+    [
+     "W803",
+     3
+    ],
+    [
+     "W838",
+     1
+    ]
+   ],
+   "harness": [],
+   "n3": [
+    "W806"
+   ],
+   "n3_count": 14,
+   "share": 0.778
+  },
+  "M387": {
+   "tot": 9,
+   "top": [
+    [
+     "W803",
+     9
+    ]
+   ],
+   "harness": [
+    "W803",
+    "W806"
+   ],
+   "n3": [
+    "W803"
+   ],
+   "n3_count": 9,
+   "share": 1.0
+  },
+  "M162": {
+   "tot": 32,
+   "top": [
+    [
+     "W390",
+     32
+    ]
+   ],
+   "harness": [
+    "W390",
+    "W405"
+   ],
+   "n3": [
+    "W390"
+   ],
+   "n3_count": 32,
+   "share": 1.0
+  },
+  "M216": {
+   "tot": 6,
+   "top": [
+    [
+     "W550",
+     6
+    ]
+   ],
+   "harness": [
+    "W550",
+    "W798"
+   ],
+   "n3": [
+    "W550"
+   ],
+   "n3_count": 6,
+   "share": 1.0
+  },
+  "M175": {
+   "tot": 8,
+   "top": [
+    [
+     "W350",
+     5
+    ],
+    [
+     "W353",
+     3
+    ]
+   ],
+   "harness": [
+    "W350"
+   ],
+   "n3": [
+    "W350",
+    "W353"
+   ],
+   "n3_count": 8,
+   "share": 1.0
+  },
+  "M205": {
+   "tot": 5,
+   "top": [
+    [
+     "W495",
+     3
+    ],
+    [
+     "W491",
+     2
+    ]
+   ],
+   "harness": [
+    "W491"
+   ],
+   "n3": [
+    "W491",
+    "W495"
+   ],
+   "n3_count": 5,
+   "share": 1.0
+  },
+  "M210": {
+   "tot": 4,
+   "top": [
+    [
+     "W502",
+     3
+    ],
+    [
+     "W501",
+     1
+    ]
+   ],
+   "harness": [
+    "W501"
+   ],
+   "n3": [
+    "W501",
+    "W502"
+   ],
+   "n3_count": 4,
+   "share": 1.0
+  }
+ },
+ "A1_fish_table": {
+  "M59": {
+   "W220": 40,
+   "W231": 1,
+   "W233": 1,
+   "W235": 1
+  },
+  "M65": {
+   "W232": 1,
+   "W235": 22
+  },
+  "M67": {
+   "W240": 37
+  },
+  "M70": {
+   "W231": 9
+  },
+  "M72": {
+   "W220": 2,
+   "W233": 20
+  },
+  "M60": {
+   "W226": 5,
+   "W232": 1,
+   "W234": 1
+  },
+  "M66": {
+   "W236": 3
+  },
+  "M68": {
+   "W241": 1
+  },
+  "M71": {},
+  "M73": {}
+ },
+ "A2_doubles_cases": {
+  "M176 XX_with_Wd": 2,
+  "M245 XX_with_Wd": 6,
+  "M375 XX_with_Wd": 2
+ },
+ "B_sensitivity": {
+  "harness_map": {
+   "rate": 0.1902,
+   "ci": [
+    0.1704,
+    0.2102
+   ],
+   "rate_n3style": 0.194,
+   "counts": {
+    "n_m": 2046,
+    "unmapped": 123,
+    "unmapped_extra": 9,
+    "match": 1553,
+    "sub": 249,
+    "m_extra": 78,
+    "i_extra": 20,
+    "swap": 17
+   },
+   "texts_any": 0.4925
+  },
+  "n3_map_no_doubles": {
+   "rate": 0.1355,
+   "ci": [
+    0.1161,
+    0.1559
+   ],
+   "rate_n3style": 0.1395,
+   "counts": {
+    "n_m": 2046,
+    "unmapped": 104,
+    "unmapped_extra": 9,
+    "match": 1679,
+    "sub": 152,
+    "m_extra": 78,
+    "i_extra": 20,
+    "swap": 12
+   },
+   "texts_any": 0.3561
+  },
+  "n3_primary_v0_swap": {
+   "rate": 0.1258,
+   "ci": [
+    0.1069,
+    0.1457
+   ],
+   "rate_n3style": 0.1295,
+   "counts": {
+    "n_m": 2036,
+    "unmapped": 105,
+    "unmapped_extra": 8,
+    "match": 1689,
+    "sub": 141,
+    "m_extra": 69,
+    "i_extra": 20,
+    "swap": 12
+   },
+   "texts_any": 0.3369
+  },
+  "v1_levenshtein_noswap": {
+   "rate": 0.1321,
+   "ci": [
+    0.1122,
+    0.1527
+   ],
+   "rate_n3style": 0.1357,
+   "counts": {
+    "n_m": 2036,
+    "unmapped": 105,
+    "unmapped_extra": 8,
+    "match": 1689,
+    "sub": 165,
+    "m_extra": 69,
+    "i_extra": 20,
+    "swap": 0
+   },
+   "texts_any": 0.3369
+  },
+  "v2_cheap_gaps_0.6": {
+   "rate": 0.1258,
+   "ci": [
+    0.1069,
+    0.1457
+   ],
+   "rate_n3style": 0.1299,
+   "counts": {
+    "n_m": 2036,
+    "unmapped": 104,
+    "unmapped_extra": 9,
+    "match": 1690,
+    "sub": 140,
+    "m_extra": 69,
+    "i_extra": 21,
+    "swap": 12
+   },
+   "texts_any": 0.3369
+  },
+  "v2b_dear_gaps_1.5": {
+   "rate": 0.1284,
+   "ci": [
+    0.109,
+    0.1489
+   ],
+   "rate_n3style": 0.1316,
+   "counts": {
+    "n_m": 2036,
+    "unmapped": 106,
+    "unmapped_extra": 7,
+    "match": 1679,
+    "sub": 155,
+    "m_extra": 65,
+    "i_extra": 15,
+    "swap": 12
+   },
+   "texts_any": 0.3369
+  },
+  "doubles_always": {
+   "rate": 0.1258,
+   "ci": [
+    0.1069,
+    0.1457
+   ],
+   "rate_n3style": 0.1295,
+   "counts": {
+    "n_m": 2036,
+    "unmapped": 105,
+    "unmapped_extra": 8,
+    "match": 1689,
+    "sub": 141,
+    "m_extra": 69,
+    "i_extra": 20,
+    "swap": 12
+   },
+   "texts_any": 0.3369
+  },
+  "doubles_never": {
+   "rate": 0.1355,
+   "ci": [
+    0.1161,
+    0.1559
+   ],
+   "rate_n3style": 0.1395,
+   "counts": {
+    "n_m": 2046,
+    "unmapped": 104,
+    "unmapped_extra": 9,
+    "match": 1679,
+    "sub": 152,
+    "m_extra": 78,
+    "i_extra": 20,
+    "swap": 12
+   },
+   "texts_any": 0.3561
+  },
+  "harness_map_plus_doubles": {
+   "rate": 0.1807,
+   "ci": [
+    0.1615,
+    0.2009
+   ],
+   "rate_n3style": 0.1841,
+   "counts": {
+    "n_m": 2036,
+    "unmapped": 124,
+    "unmapped_extra": 8,
+    "match": 1563,
+    "sub": 238,
+    "m_extra": 69,
+    "i_extra": 20,
+    "swap": 17
+   },
+   "texts_any": 0.4733
+  },
+  "v3_lcs_both_readings": {
+   "rate": 0.1048,
+   "ci": [
+    0.0893,
+    0.1209
+   ]
+  },
+  "v4_unmapped_as_disagreement": {
+   "rate": 0.1744
+  },
+  "v1b_denominator_mean_length": {
+   "rate": 0.1277
+  },
+  "v5_relink_cut_0.8": {
+   "n": 475,
+   "rate": 0.1276,
+   "ci": [
+    0.1088,
+    0.1474
+   ]
+  },
+  "v5_relink_cut_0.5": {
+   "n": 435,
+   "rate": 0.0854,
+   "ci": [
+    0.0714,
+    0.0991
+   ]
+  },
+  "v5_relink_cut_1.0": {
+   "n": 562,
+   "rate": 0.2796,
+   "ci": [
+    0.2426,
+    0.3169
+   ]
+  },
+  "v6_strata": {
+   "site:Mohenjodaro": {
+    "n": 307,
+    "rate": 0.108
+   },
+   "type:seal": {
+    "n": 342,
+    "rate": 0.1063
+   },
+   "site:Harappa": {
+    "n": 156,
+    "rate": 0.1746
+   },
+   "type:sealing": {
+    "n": 46,
+    "rate": 0.2439
+   },
+   "type:miniature tablet": {
+    "n": 81,
+    "rate": 0.1759
+   }
+  }
+ },
+ "A2_fish_perm": {
+  "best": [
+   [
+    0.1258,
+    {
+     "M59": "W220",
+     "M65": "W235",
+     "M67": "W240",
+     "M70": "W231",
+     "M72": "W233"
+    }
+   ],
+   [
+    0.142,
+    {
+     "M59": "W220",
+     "M65": "W235",
+     "M67": "W240",
+     "M70": "W233",
+     "M72": "W231"
+    }
+   ],
+   [
+    0.1435,
+    {
+     "M59": "W220",
+     "M65": "W231",
+     "M67": "W240",
+     "M70": "W235",
+     "M72": "W233"
+    }
+   ],
+   [
+    0.1472,
+    {
+     "M59": "W220",
+     "M65": "W233",
+     "M67": "W240",
+     "M70": "W231",
+     "M72": "W235"
+    }
+   ],
+   [
+    0.1513,
+    {
+     "M59": "W220",
+     "M65": "W235",
+     "M67": "W231",
+     "M70": "W240",
+     "M72": "W233"
+    }
+   ]
+  ],
+  "worst": [
+   0.2002,
+   {
+    "M59": "W240",
+    "M65": "W220",
+    "M67": "W233",
+    "M70": "W235",
+    "M72": "W231"
+   }
+  ],
+  "n3_rank": [
+   0
+  ],
+  "harness_rank": [
+   27
+  ],
+  "n": 120,
+  "n3_pairing": {
+   "M59": "W220",
+   "M65": "W235",
+   "M67": "W240",
+   "M70": "W231",
+   "M72": "W233"
+  },
+  "harness_pairing": {
+   "M59": "W220",
+   "M65": "W231",
+   "M67": "W233",
+   "M70": "W235",
+   "M72": "W240"
+  }
+ },
+ "A2_my_rules_all": {
+  "changes": {
+   "M72": [
+    [
+     "W240"
+    ],
+    [
+     "W233"
+    ]
+   ],
+   "M67": [
+    [
+     "W233"
+    ],
+    [
+     "W240"
+    ]
+   ],
+   "M103": [
+    [
+     "W003",
+     "W013"
+    ],
+    [
+     "W013"
+    ]
+   ],
+   "M210": [
+    [
+     "W501"
+    ],
+    [
+     "W501",
+     "W502"
+    ]
+   ],
+   "M162": [
+    [
+     "W390",
+     "W405"
+    ],
+    [
+     "W390"
+    ]
+   ],
+   "M358": [
+    [
+     "W752",
+     "W760"
+    ],
+    [
+     "W752"
+    ]
+   ],
+   "M389": [
+    [],
+    [
+     "W806"
+    ]
+   ],
+   "M66": [
+    [
+     "W232"
+    ],
+    [
+     "W236"
+    ]
+   ],
+   "M70": [
+    [
+     "W235"
+    ],
+    [
+     "W231"
+    ]
+   ],
+   "M387": [
+    [
+     "W803",
+     "W806"
+    ],
+    [
+     "W803"
+    ]
+   ],
+   "M216": [
+    [
+     "W550",
+     "W798"
+    ],
+    [
+     "W550"
+    ]
+   ],
+   "M65": [
+    [
+     "W231"
+    ],
+    [
+     "W235"
+    ]
+   ]
+  },
+  "doubles": {
+   "M176": [
+    "W401"
+   ],
+   "M245": [
+    "W617"
+   ],
+   "M375": [
+    "W792"
+   ]
+  },
+  "rate": 0.13
+ },
+ "A2_cv": {
+  "oos": {
+   "mean": 0.1404,
+   "q95": [
+    0.1216,
+    0.1601
+   ]
+  },
+  "ins": {
+   "mean": 0.1343,
+   "q95": [
+    0.1145,
+    0.1546
+   ]
+  },
+  "harness": {
+   "mean": 0.1895,
+   "q95": [
+    0.1715,
+    0.2099
+   ]
+  },
+  "n3": {
+   "mean": 0.1252,
+   "q95": [
+    0.1068,
+    0.146
+   ]
+  },
+  "optimism_mean": 0.0061,
+  "n3_minus_oos_mean": 0.0152
+ },
+ "C1_signlink_selection": {
+  "n_le05": 433,
+  "rate_le05": 0.0855,
+  "n_gt05": 36,
+  "rate_gt05": 0.6692
+ },
+ "C2_composition": {
+  "linked": {
+   "n": 3210,
+   "mean_len": 3.93,
+   "rare_share": 0.0476,
+   "fish_share": 0.0934,
+   "sites": {
+    "Mohenjodaro": 1554,
+    "Harappa": 1312,
+    "Lothal": 167,
+    "Kalibangan": 87,
+    "Chanhudaro": 55,
+    "Other sites": 29
+   },
+   "types": {
+    "seal": 1747,
+    "sealing": 669,
+    "miniature tablet": 487,
+    "copper tablet": 144,
+    "pottery graffito": 107
+   }
+  },
+  "unlinked": {
+   "n": 214,
+   "mean_len": 3.46,
+   "rare_share": 0.2281,
+   "fish_share": 0.0445,
+   "sites": {
+    "Mohenjodaro": 82,
+    "Harappa": 51,
+    "Lothal": 27,
+    "Kalibangan": 22,
+    "Chanhudaro": 12,
+    "West Asian finds": 11
+   },
+   "types": {
+    "seal": 105,
+    "sealing": 56,
+    "pottery graffito": 18,
+    "copper tablet": 14,
+    "miniature tablet": 12
+   }
+  }
+ }
+}
