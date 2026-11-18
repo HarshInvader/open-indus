@@ -1,0 +1,75 @@
+{
+ "mode": "forward",
+ "n": {
+  "m77_train": 2554,
+  "new": 2,
+  "kinds": {
+   "seal": 1,
+   "pot_g": 1
+  }
+ },
+ "F1": {
+  "n": 0,
+  "k": 0,
+  "p0_square": 0.5346,
+  "min_n": 8,
+  "evaluable": false,
+  "verdict": "not evaluable"
+ },
+ "F2": {
+  "n_round": 0,
+  "n_square": 1,
+  "min_n": 8,
+  "evaluable": false,
+  "verdict": "not evaluable"
+ },
+ "F3": {
+  "n_texts": 1,
+  "observed": 0,
+  "expected": 0.099,
+  "f_seal": 0.0987,
+  "f_all": 0.10279,
+  "min_E": 8,
+  "evaluable": false,
+  "RR": 0.0,
+  "p_poisson": 0.9060115173322372,
+  "gain_bits_per_unit": 0.0684,
+  "verdict": "not evaluable"
+ },
+ "F4": {
+  "n": 0,
+  "train_cup_N": {
+   "3": 10,
+   "4": 6,
+   "2": 6,
+   "1": 2
+  },
+  "test_cup_N": {},
+  "min_n": 10,
+  "evaluable": false,
+  "verdict": "not evaluable"
+ },
+ "F5": {
+  "n_texts": 2,
+  "n_tokens": 6,
+  "n_fish_tokens": 0,
+  "min_fish": 30,
+  "evaluable": false,
+  "gain_nats_per_token": 9e-05,
+  "ci": [
+   5e-05,
+   0.00016
+  ],
+  "gain_bits_total": 0.001,
+  "verdict": "not evaluable"
+ },
+ "evaluable": [],
+ "summed_gain": 0.0,
+ "kill": "uninformative (none evaluable)",
+ "F4_A1": {
+  "n": 0,
+  "min_n": 10,
+  "evaluable": false,
+  "verdict": "not evaluable"
+ }
+}

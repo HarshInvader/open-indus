@@ -1,0 +1,52 @@
+{
+ "Harappa": {
+  "n_texts": 146,
+  "observed": 25,
+  "expected": 27.129,
+  "RR": 0.9215,
+  "p_poisson": 0.3884001941009723,
+  "gain_bits_per_unit": -0.026,
+  "verdict": "neither",
+  "mean_len": 2.07
+ },
+ "Kalibangan": {
+  "n_texts": 64,
+  "observed": 12,
+  "expected": 10.728,
+  "RR": 1.1185,
+  "p_poisson": 0.7180398648134991,
+  "gain_bits_per_unit": -0.0558,
+  "verdict": "fail",
+  "mean_len": 1.81
+ },
+ "Mohenjo-daro": {
+  "n_texts": 45,
+  "observed": 11,
+  "expected": 9.399,
+  "RR": 1.1704,
+  "p_poisson": 0.7627043537627453,
+  "gain_bits_per_unit": -0.0817,
+  "verdict": "fail",
+  "mean_len": 2.44
+ },
+ "Nausharo": {
+  "n_texts": 19,
+  "observed": 4,
+  "expected": 4.117,
+  "RR": 0.9716,
+  "p_poisson": 0.6059730794422313,
+  "gain_bits_per_unit": -0.0503,
+  "verdict": "not evaluable",
+  "mean_len": 2.47
+ },
+ "Lothal": {
+  "n_texts": 17,
+  "observed": 1,
+  "expected": 2.776,
+  "RR": 0.3602,
+  "p_poisson": 0.23522147241957805,
+  "gain_bits_per_unit": 0.0756,
+  "verdict": "not evaluable",
+  "mean_len": 1.76
+ }
+}

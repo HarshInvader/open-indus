@@ -1,0 +1,120 @@
+{
+ "mode": "dryrun",
+ "n": {
+  "icit_train": 3625,
+  "icit_test": 162,
+  "m77_train": 2456,
+  "m77_test": 98,
+  "test_kinds_icit": {
+   "seal": 55,
+   "other": 33,
+   "round": 1,
+   "tablet": 8,
+   "pot_g": 64,
+   "pot_other": 1
+  },
+  "test_kinds_m77": {
+   "seal": 54,
+   "other": 25,
+   "pot_g": 19
+  }
+ },
+ "F1": {
+  "n": 1,
+  "k": 0,
+  "p0_square": 0.5502,
+  "min_n": 8,
+  "evaluable": false,
+  "share": 0.0,
+  "wilson": [
+   0.0,
+   0.793
+  ],
+  "p_binom": 0.4497690531177829,
+  "gain_bits_per_unit": 0.1635,
+  "verdict": "not evaluable"
+ },
+ "F2": {
+  "n_round": 1,
+  "n_square": 55,
+  "min_n": 8,
+  "evaluable": false,
+  "excess_bits_per_sign": -2.6176,
+  "p_perm": 0.9510244877561219,
+  "gain_vs_mid": -2.8676,
+  "verdict": "not evaluable"
+ },
+ "F3": {
+  "n_texts": 64,
+  "observed": 12,
+  "expected": 10.728,
+  "f_seal": 0.09805,
+  "f_all": 0.1027,
+  "min_E": 8,
+  "evaluable": true,
+  "RR": 1.1185,
+  "p_poisson": 0.7180398648134991,
+  "gain_bits_per_unit": -0.0558,
+  "verdict": "fail"
+ },
+ "F4": {
+  "n": 1,
+  "train_cup_N": {
+   "4": 7,
+   "3": 18,
+   "1": 4,
+   "2": 8,
+   "6": 2
+  },
+  "test_cup_N": {
+   "2": 1
+  },
+  "min_n": 10,
+  "evaluable": false,
+  "share_234": 1.0,
+  "wilson_lower": 0.207,
+  "share_ge5": 0.0,
+  "gain_bits_per_unit": -1.1217,
+  "verdict": "not evaluable"
+ },
+ "F5": {
+  "n_texts": 98,
+  "n_tokens": 455,
+  "n_fish_tokens": 9,
+  "min_fish": 30,
+  "evaluable": false,
+  "gain_nats_per_token": 0.00729,
+  "ci": [
+   -0.01459,
+   0.03521
+  ],
+  "gain_bits_total": 4.788,
+  "verdict": "not evaluable"
+ },
+ "F3_M77_secondary": {
+  "n_texts": 19,
+  "observed": 9,
+  "expected": 3.985,
+  "f_seal": 0.09864,
+  "f_all": 0.10245,
+  "min_E": 8,
+  "evaluable": false,
+  "RR": 2.2582,
+  "p_poisson": 0.9920583798926347,
+  "gain_bits_per_unit": -0.2867,
+  "verdict": "not evaluable"
+ },
+ "evaluable": [
+  "F3"
+ ],
+ "summed_gain": -0.0558,
+ "kill": "KILLED: no gain over baseline",
+ "F4_A1": {
+  "n": 1,
+  "min_n": 10,
+  "evaluable": false,
+  "share_5": 0.0,
+  "gain_bits_per_unit": -1.1217,
+  "verdict": "not evaluable"
+ }
+}

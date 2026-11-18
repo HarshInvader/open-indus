@@ -774,3 +774,19 @@ Checked against the files on disk on 2026-11-15 (after cycle 10).
 - [2026-11-14, scene_text] Watch item W621 (M242) on scene seals: in any newly published Mohenjo-daro scene seal set (or CISI vol 3), W621 occurs on >=3x its rate on non-scene seals of matched size. Exploratory origin, q=0.20; scored only on new objects.
 - [2026-11-14, firing_stage] On newly recorded PAINTED (pre-firing) vessel inscriptions, jar M342 occurs on <5% of texts (vs ~18% of post-firing graffiti), and M391/M343/M267 together on >=15%. Post hoc origin; scored only on vessels not in experiments/firing_stage/vessel_marks.csv.
 - [2026-11-15, reg_findspot/redteam_fish_block] Ticked-fish seals (M60/M66/M68/M71/M73) cluster by building block in any independent Mohenjo-daro or Harappa register with block/house findspots (HARP, Marshall 1931 re-read, Dales 1960s): block-label permutation p<0.05 at family level. Origin: Mackay 1938 DK-G p=0.0009, q=0.114 over all tests.
+
+### A5. `forward_predictions.md` (board #44, 2026-11-18)
+- **Hash.** `e894904bf6eeced5b2f0e4da8c494f7ce6b80aa50b060c88633a231ad8158ccd` (10:39:18Z); amendment A1 `8ddf6eaf579663694c3cb466a41f42fe62f646e2ea5bdcde6f5424fa68143e0a` (10:41:04Z).
+- **Scorer.** `experiments/forward_predictions/fp.py --mode forward` (hashed `1c789394...`), then `fp_a1.py --mode forward` for F4-A1. Reads scorable rows of `experiments/new_finds/new_texts.csv`; trains on all M77.
+- **Trigger.** CISI vol 3 in hand; HARP spreadsheet; ≥ 20 new scorable texts; or ≥ 8 new round seals. Score once per trigger, report all.
+- **Dry run.** Kalibangan held out: F3 FAILED (RR 1.12), the rest were below min n. The set is killed under the #44 rule, and F3 is retired.
+
+| id | prediction | pass | fail | min n |
+|---|---|---|---|---|
+| F1 | round seals end in a closer | share ≤ 0.25, binomial p < .05 vs square rate | ≥ 0.40 | 8 |
+| F2 | round seals: trigram excess vs square seals | ≥ +0.5 bits/sign, perm p < .05 | < 0 | 8 round |
+| F3 | jar M342 on post-firing graffiti (length-aware) | RR ≤ 0.70, p < .05 | RR ≥ 1.0 | E ≥ 8 (RETIRED) |
+| F3b | jar sign on storage jars vs other forms | RR < 1.5 | RR ≥ 2, p < .05 | 5 jar texts |
+| F4-A1 | cup M328 after tall strokes: N = 5 absent | N=5 ≤ 0.02 and gain > 0 | N=5 > 0.05 or gain < 0 | 10 tokens |
+| F4b | cup sign on offering-scene moulded tablets | OR ≥ 3, Fisher p < .05 | OR < 1.5 (≥ 10 types) | 5 types |
+| F5 | plain fish M67=M70=M72 merge, class trigram gain | > 0, CI lower > 0 | CI upper < 0 | 30 fish tokens |
