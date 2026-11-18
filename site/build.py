@@ -524,7 +524,6 @@ def seal_object():
 <i class="rim"></i>
 </div>
 </div>
-<figcaption class="seal-note">Illustration, not a real seal</figcaption>
 </figure>
 </div>'''
 
@@ -637,7 +636,7 @@ def data_figure():
             f'an excavation report with seal impressions, a seal register, a marked potsherd and a map of sites from the Indus to the Gulf">'
             f'<defs><filter id="dvsh" x="-10%" y="-10%" width="130%" height="135%"><feDropShadow dx="0" dy="6" stdDeviation="7" style="flood-color:var(--dv-shadow)"/></filter></defs>'
             f'{report}{register}{sherd}{mapc}</svg>'
-            f'<figcaption>Register rows are real: Mackay 1938, Mohenjo-daro seals.</figcaption></figure>')
+            f'</figure>')
 
 
 def plan_steps():
