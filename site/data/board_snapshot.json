@@ -337,7 +337,18 @@
    "verdict": "positive",
    "path": "experiments/redteam_tick_complete/RESULTS.md",
    "summary": "#30 survives an independent reimplementation: ticked fish final 9/16 (CI 0.30-0.80) vs plain 3/144 on complete single-line held-out; within-text-shuffle p=0.007, length-matched p=0.0004, all attacks (no doubtful readings, seals only, length>=4, LOO worst 0.002, formula collapse 0.018) p<0.02. Exploratory out-of-corpus: post-1977 ICIT sites 4/6 final (p=0.02-0.04); weak spots: 13/16 tokens from Mohenjo-daro, multi-line and non-MD sites untested."
+  },
+  {
+   "id": 32,
+   "ms": "M1",
+   "title": "Planted test: can 1-3 name anchors pick the true language among 4-5 named candidates?",
+   "state": "done",
+   "owner": "lead",
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/language_id/RESULTS.md",
+   "summary": "Anchors pick the exact language among 5 candidates (m=1 .83, m>=2 1.00) but with only a relative available power is .50/.58/.67 (chance .20), below the .80 bar: not feasible, anchor_objects not amended. Exploratory: Malayalam-for-Tamil behaves like the exact language, Estonian-for-Finnish does not."
   }
  ],
- "snapshot": "2026-11-17 20:28"
+ "snapshot": "2026-11-18 00:20"
 }
