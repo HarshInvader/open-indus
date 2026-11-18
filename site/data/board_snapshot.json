@@ -348,7 +348,39 @@
    "verdict": "negative",
    "path": "experiments/language_id/RESULTS.md",
    "summary": "Anchors pick the exact language among 5 candidates (m=1 .83, m>=2 1.00) but with only a relative available power is .50/.58/.67 (chance .20), below the .80 bar: not feasible, anchor_objects not amended. Exploratory: Malayalam-for-Tamil behaves like the exact language, Estonian-for-Finnish does not."
+  },
+  {
+   "id": 33,
+   "ms": "M5",
+   "title": "Proskouriakoff test: object fate vs sign content",
+   "state": "running",
+   "owner": "N1",
+   "waits": []
+  },
+  {
+   "id": 34,
+   "ms": "M5",
+   "title": "Genres from scratch: unsupervised text types checked against objects",
+   "state": "running",
+   "owner": "N2",
+   "waits": []
+  },
+  {
+   "id": 35,
+   "ms": "M6",
+   "title": "Consensus corpus: rerun headline tests at the real transcription error rate",
+   "state": "running",
+   "owner": "N3",
+   "waits": []
+  },
+  {
+   "id": 36,
+   "ms": "M5",
+   "title": "Sign list from shape plus context: 400 vs 700 signs",
+   "state": "running",
+   "owner": "N4",
+   "waits": []
   }
  ],
- "snapshot": "2026-11-18 00:20"
+ "snapshot": "2026-11-18 00:36"
 }

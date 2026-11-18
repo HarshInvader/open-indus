@@ -908,14 +908,60 @@ def news_date(s):
     return s
 
 
+def news_url(it):
+    return f'news-{it["id"]}.html'
+
+
+def news_thumbnail(it, eager=False):
+    for suffix in ("webp", "jpg"):
+        path = f'assets/news/{it["id"]}.{suffix}'
+        if (SITE / path).is_file():
+            return (f'<img class="nthumb" src="{path}" width="600" height="400" '
+                    f'alt="{E(it["thumbnail_alt"])}" loading="{"eager" if eager else "lazy"}" decoding="async">')
+    # Extra viewBox room contains the original drawing's rightmost labels.
+    return news_fig(it["fig"]).replace('class="ffig" viewBox="0 0 200 96"',
+                                      'class="ffig nfallback" viewBox="-4 -4 244 108"')
+
+
 def news_card(it):
     lab, cls = NEWS_STATUS[it["status"]]
+    href = news_url(it)
     return (f'<article class="ncard" id="{it["id"]}"><div class="nmeta"><span class="nkind">{E(it["kind"])}</span><time>{E(news_date(it["date"]))}</time></div>'
-            f'<div class="nrow">{news_fig(it["fig"])}<div class="nbody">'
-            f'<h3 class="nh">{E(it["head"])}</h3><p class="nsrc">{E(it["who"])} · <a href="{E(it["url"])}">{E(it["venue"])}</a></p>'
+            f'<div class="nrow"><a class="nvisual" href="{href}" aria-hidden="true" tabindex="-1">{news_thumbnail(it)}</a><div class="nbody">'
+            f'<h3 class="nh"><a href="{href}">{E(it["head"])}</a></h3><p class="nsrc">{E(it["who"])} · <a href="{E(it["url"])}">{E(it["venue"])}</a></p>'
             f'<p class="z z-gist">{E(it["gist"])}</p><p class="z z-plain">{E(it["plain"])}</p><p class="z z-tech">{E(it["tech"])}</p>'
             f'<div class="nborrow"><span class="tag {cls}">{E(lab)}</span><p><b>What we take from it:</b> {E(it["borrow"])}</p></div>'
+            f'<a class="nread" href="{href}">Read the full summary<span class="vh">: {E(it["head"])}</span> →</a>'
             f'</div></div></article>')
+
+
+def news_article_pages():
+    # Match the feed order: latest first, followed by chronological landmarks.
+    items = news_items()
+    ordered = sorted((i for i in items if i["section"] == "latest"), key=lambda i: i["date"], reverse=True)
+    ordered += sorted((i for i in items if i["section"] == "landmark"), key=lambda i: i["date"][:4])
+    pages = []
+    for index, it in enumerate(ordered):
+        lab, cls = NEWS_STATUS[it["status"]]
+        result = it.get("result")
+        evidence = (f'<p>{repo_link(result, "Read our result in the repository")}.</p>'
+                    if result and result.endswith("/RESULTS.md") and (ROOT / result).is_file() else "")
+        idea = (f'<h3>The idea we are borrowing</h3><p>{E(it["idea"])}</p>'
+                f'<p><b>Where it stands:</b> {E(lab)}.</p>' if it.get("idea") else "")
+        neighbors = []
+        if index > 0:
+            prev = ordered[index - 1]
+            neighbors.append(f'<a rel="prev" href="{news_url(prev)}"><small>Previous item</small>{E(prev["head"])}</a>')
+        if index + 1 < len(ordered):
+            nxt = ordered[index + 1]
+            neighbors.append(f'<a rel="next" href="{news_url(nxt)}"><small>Next item</small>{E(nxt["head"])}</a>')
+        pages.append(render("news-article", f'{it["head"]} · {NAME}', it["gist"], "news.html", dict(
+            ARTICLE_KIND=E(it["kind"]), ARTICLE_DATE=E(news_date(it["date"])), ARTICLE_HEAD=E(it["head"]),
+            ARTICLE_WHO=E(it["who"]), ARTICLE_URL=E(it["url"]), ARTICLE_VENUE=E(it["venue"]),
+            ARTICLE_THUMB=news_thumbnail(it, eager=True), ARTICLE_GIST=E(it["gist"]), ARTICLE_PLAIN=E(it["plain"]),
+            ARTICLE_TECH=E(it["tech"]), ARTICLE_BORROW=E(it["borrow"]), ARTICLE_TAG=f'<span class="tag {cls}">{E(lab)}</span>',
+            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
+    return pages
 
 
 def news_page():
@@ -945,7 +991,7 @@ def news_rss():
         return time.strftime("%a, %d %b %Y 00:00:00 +0000", t)
     def esc(s):
         return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    body = "".join(f'<item><title>{esc(i["head"])}</title><link>https://openindus.pages.dev/news.html#{i["id"]}</link>'
+    body = "".join(f'<item><title>{esc(i["head"])}</title><link>https://openindus.pages.dev/{news_url(i)}</link>'
                    f'<guid isPermaLink="false">openindus-news-{i["id"]}</guid><pubDate>{pub(i["date"])}</pubDate>'
                    f'<description>{esc(i["plain"] + " What we take from it: " + i["borrow"])}</description></item>' for i in items)
     xml = (f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{esc(NAME)} News</title>'
@@ -1202,7 +1248,7 @@ def foot_pages(current):
     return "".join(f'<a href="{href}"{cur if href == current else ""}>{lab}</a>' for href, lab in PAGES)
 
 
-def render(name, title, desc, current, fills, body_class=""):
+def render(name, title, desc, current, fills, body_class="", output=None):
     layout = (TPL / "layout.html").read_text()
     body = (TPL / f"{name}.html").read_text()
     for k, v in fills.items():
@@ -1216,8 +1262,8 @@ def render(name, title, desc, current, fills, body_class=""):
     page = smart(page)
     left = re.findall(r"\{\{[A-Z_]+\}\}", page)
     assert not left, f"{name}: unfilled {left}"
-    (SITE / f"{name}.html").write_text(page)
-    return SITE / f"{name}.html"
+    (SITE / (output or f"{name}.html")).write_text(page)
+    return SITE / (output or f"{name}.html")
 
 
 # ---------------------------------------------------------------- checks
@@ -1293,7 +1339,7 @@ def size_kb(n):
 
 
 DIST_ASSETS = ["site.css", "site.js", "glyphs.css", "favicon.svg", "favicon-32.png", "apple-touch-icon.png", "email-logo.png",
-               "logo-mark.svg", "wordmark.svg", "seal-illustration.svg", "fonts", "img", "signs", "downloads"]
+               "logo-mark.svg", "wordmark.svg", "seal-illustration.svg", "fonts", "img", "signs", "downloads", "news"]
 
 
 def make_dist(built):
@@ -1327,7 +1373,7 @@ def make_dist(built):
             if not (dist / ref).exists():
                 missing.add(ref)
     css = (src / "site.css").read_text() + (src / "glyphs.css").read_text()
-    for ref in re.findall(r'url\("?((?!data:)[^")]+)"?\)', css):
+    for ref in re.findall(r'url\("?((?!data:|#)[^")]+)"?\)', css):
         if not (dist / "assets" / ref).exists():
             missing.add("assets/" + ref)
     if missing:
@@ -1382,6 +1428,7 @@ def main():
     built.append(render("news", f"News · {NAME} · New research on the Indus script",
                         "The latest and the landmark research on the Indus script, each summarised in a sentence, in plain words and in technical detail, with the idea we borrow from it.",
                         "news.html", dict(common, **news_page())))
+    built.extend(news_article_pages())
     fs = font["files"]
     built.append(render("resources", f"Resources · {NAME} · Decipher the Indus script by 2027",
                         f"Free downloads from {NAME}: the Open Indus Display typeface (SIL Open Font License) and the fish-sign logo, plus the research files that open with the repository.",

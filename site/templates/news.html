@@ -3,42 +3,45 @@
     <p class="kicker">News</p>
     <h1>New research on the Indus script, summarised</h1>
     <p class="lede">The latest papers and the landmark ones, each in a sentence, in plain words or in full detail. For every paper we say what idea we take from it and where that idea stands.</p>
+    <p class="illustration-note">Pictures are editorial illustrations, not real objects or transcriptions.</p>
     <div class="actions"><a class="btn" href="news.xml">Follow the feed (RSS)</a></div>
-    <nav class="jump" aria-label="On this page"><a href="#ideas">Ideas we are borrowing</a><a href="#latest">Latest</a><a href="#landmarks">Landmark papers</a></nav>
+    <nav class="jump" aria-label="On this page"><a href="#latest">Latest</a><a href="#landmarks">Landmark papers</a><a href="#ideas">Ideas we are borrowing</a></nav>
   </div>
 </section>
 
+<div class="news-feeds">
+  <div class="zoombar" role="group" aria-label="How much detail">
+    <div class="zoom-controls">
+      <span>Detail</span>
+      <button type="button" data-zoom="gist" aria-pressed="false">In a sentence</button>
+      <button type="button" data-zoom="plain" aria-pressed="true">Plain words</button>
+      <button type="button" data-zoom="tech" aria-pressed="false">Technical</button>
+    </div>
+  </div>
+  <section class="block wrap news-feed" data-zoom="plain" aria-labelledby="latest">
+    <p class="rail"><span>01</span>Latest</p>
+    <div class="content">
+      <h2 id="latest">Latest</h2>
+      {{NEWS_LATEST}}
+    </div>
+  </section>
+  <section class="block wrap news-feed" data-zoom="plain" aria-labelledby="landmarks">
+    <p class="rail"><span>02</span>Landmarks</p>
+    <div class="content">
+      <h2 id="landmarks">The papers that shaped the field</h2>
+      <p class="intro">Including two from other scripts whose methods we borrow.</p>
+      {{NEWS_LAND}}
+    </div>
+  </section>
+</div>
+
 <section class="block wrap" aria-labelledby="ideas">
-  <p class="rail"><span>01</span>Ideas</p>
+  <p class="rail"><span>03</span>Ideas</p>
   <div class="content">
     <h2 id="ideas">Ideas we are borrowing, most promising first</h2>
-    <p class="intro">Each comes from a paper below. The open ones mostly wait on find-spot records and photographs we have asked for.</p>
+    <p class="intro">Each comes from a paper above. The open ones mostly wait on find-spot records and photographs we have asked for.</p>
     {{NEWS_IDEAS}}
     <h3 class="key-h">Already tested</h3>
     {{NEWS_TRIED}}
-  </div>
-</section>
-
-<div class="zoombar wrap" role="group" aria-label="How much detail">
-  <span>Detail</span>
-  <button type="button" data-zoom="gist" aria-pressed="false">In a sentence</button>
-  <button type="button" data-zoom="plain" aria-pressed="true">Plain words</button>
-  <button type="button" data-zoom="tech" aria-pressed="false">Technical</button>
-</div>
-
-<section class="block wrap news-feed" data-zoom="plain" aria-labelledby="latest">
-  <p class="rail"><span>02</span>Latest</p>
-  <div class="content">
-    <h2 id="latest">Latest</h2>
-    {{NEWS_LATEST}}
-  </div>
-</section>
-
-<section class="block wrap news-feed" data-zoom="plain" aria-labelledby="landmarks">
-  <p class="rail"><span>03</span>Landmarks</p>
-  <div class="content">
-    <h2 id="landmarks">The papers that shaped the field</h2>
-    <p class="intro">Including two from other scripts whose methods we borrow.</p>
-    {{NEWS_LAND}}
   </div>
 </section>

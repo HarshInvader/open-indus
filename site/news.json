@@ -17,7 +17,9 @@
    "status": "done",
    "fig": "restore",
    "rank": 6,
-   "idea": "Grade the new sign-restoration model fairly, with near-copies kept out of its test set"
+   "idea": "Grade the new sign-restoration model fairly, with near-copies kept out of its test set",
+   "thumbnail_alt": "A paper seal diagram with an empty slot and three geometric candidates for restoring it.",
+   "result": "experiments/bench_restoration/RESULTS.md"
   },
   {
    "id": "voynich-2026",
@@ -33,7 +35,8 @@
    "tech": "Both hypotheses (meaningless copying vs enciphered language) are written as generative programs, fitted with the same search budget and compared on held-out statistics. Adds a decipherment-free signal (the same word pairs keep sharing a line), calibrated on 28 texts in 16 languages plus planted messages. No code link. The line signal does not transfer: Indus texts average 4.6 signs on a single line.",
    "borrow": "The equal-effort, held-out rule is now our standard for any reopened “language or code” test.",
    "status": "adopted",
-   "fig": "balance"
+   "fig": "balance",
+   "thumbnail_alt": "Two abstract manuscript pages balanced on equal scales for a fair comparison."
   },
   {
    "id": "dominik-2026",
@@ -51,7 +54,9 @@
    "status": "done",
    "fig": "never",
    "rank": 7,
-   "idea": "Check a sharp grammar rule: one sign that supposedly never follows the arrow sign"
+   "idea": "Check a sharp grammar rule: one sign that supposedly never follows the arrow sign",
+   "thumbnail_alt": "Two geometric token pairs, one route blocked and one connected, illustrating a sign-order test.",
+   "result": "experiments/dominik_w090/RESULTS.md"
   },
   {
    "id": "sigil-2026",
@@ -67,7 +72,9 @@
    "tech": "SIGIL is a sound-free emblem generator matched to Indus on every exactly scorable statistic (entropy, Zipf, n-grams, positional concentration). Dictionary-hit decoders produce fluent readings of it in several languages. This closes entropy- and Zipf-style arguments in both directions.",
    "borrow": "Every new claim we test must also fail on SIGIL-style emblem data. We use it as a standing negative control.",
    "status": "adopted",
-   "fig": "twin"
+   "fig": "twin",
+   "thumbnail_alt": "Two matching collections of geometric emblems on paired sheets of paper.",
+   "result": "experiments/bench2026/RESULTS.md"
   },
   {
    "id": "lehs-2026",
@@ -83,7 +90,9 @@
    "tech": "Complete edition of the Susa Linear Elamite texts. The decipherment (Desset et al. 2022, ZA 112:11-60) is anchored on royal names and titles known from cuneiform. Critics question parts of it: Dahl 2023 (archaising, not purely syllabic) and Mäder (about 70% phonetic).",
    "borrow": "We used Linear Elamite as a known-answer test for our own name-matching method. The method could not recover its values, so we stopped it rather than run it on Indus.",
    "status": "done",
-   "fig": "crown"
+   "fig": "crown",
+   "thumbnail_alt": "An illustrated collected edition beside a clay tablet, with a crown representing royal names.",
+   "result": "experiments/crib_le_known_answer/RESULTS.md"
   },
   {
    "id": "nair-2026",
@@ -99,7 +108,8 @@
    "tech": "A synthetic-baseline scorecard: generated heraldic, administrative and linguistic corpora scored on shared statistics. Indus sits between heraldic and administrative baselines.",
    "borrow": "Agrees with our finding that each kind of object has its own vocabulary. Nothing new to run.",
    "status": "noted",
-   "fig": "scale"
+   "fig": "scale",
+   "thumbnail_alt": "A heraldic shield and an administrative checklist joined by a sliding marker."
   },
   {
    "id": "uae-seal-2026",
@@ -115,7 +125,9 @@
    "tech": "Known only from a news aggregator. Site (possibly Tell Abraq), excavator and sign sequence not given. Not in our corpus of objects found abroad.",
    "borrow": "We looked for an excavation report and found none, and the news page is now offline. It stays out of our data until the find is published.",
    "status": "waiting",
-   "fig": "round"
+   "fig": "round",
+   "thumbnail_alt": "A blank circular specimen silhouette, a magnifying glass and waves for an unverified Gulf find.",
+   "result": "experiments/uaq_seal/RESULTS.md"
   },
   {
    "id": "kriger-2026",
@@ -131,7 +143,9 @@
    "tech": "Uniqueness 88.2% vs 99.2% under random redeal (below every null draw). Numerals in the second-to-last slot 19.0% vs 18.7% shuffled (p = 0.46). Their dominant “2” is mostly the M99 connective of the opening formula. Near-duplicates differ at an edge in 20 of 80 pairs, so “never at edges” is false. The edge pattern in positional entropy replicates, but it was already known.",
    "borrow": "Nothing to borrow. Their best result was already known, and the rest fails.",
    "status": "closed",
-   "fig": "unique"
+   "fig": "unique",
+   "thumbnail_alt": "Repeated geometric sequences on overlapping cards examined through a magnifying glass.",
+   "result": "experiments/bench2026/RESULTS.md"
   },
   {
    "id": "asi-2025",
@@ -147,7 +161,8 @@
    "tech": "Programme only. No proceedings or papers found as of November 2026.",
    "borrow": "We have asked the agency whether readings proposed there can be scored on our open test bench.",
    "status": "waiting",
-   "fig": "calendar"
+   "fig": "calendar",
+   "thumbnail_alt": "A paper calendar with three adjacent terracotta days highlighted."
   },
   {
    "id": "protoelamite-2025",
@@ -165,7 +180,9 @@
    "status": "done",
    "fig": "compose",
    "rank": 5,
-   "idea": "Use the Proto-Elamite toolkit: look-alikes, compound signs and number systems"
+   "idea": "Use the Proto-Elamite toolkit: look-alikes, compound signs and number systems",
+   "thumbnail_alt": "An abstract accounting tablet with groups of counters connected to sorted entries.",
+   "result": "experiments/protocuneiform/RESULTS.md"
   },
   {
    "id": "dixit-2025",
@@ -183,7 +200,8 @@
    "status": "idea",
    "fig": "detect",
    "rank": 4,
-   "idea": "Read signs straight from seal photos, to fix the 1-in-5 disagreements between transcriptions"
+   "idea": "Read signs straight from seal photos, to fix the 1-in-5 disagreements between transcriptions",
+   "thumbnail_alt": "Detection boxes around geometric tokens and a stylised animal on an illustrated tablet."
   },
   {
    "id": "tyc-2025",
@@ -201,7 +219,9 @@
    "status": "done",
    "fig": "lookalike",
    "rank": 8,
-   "idea": "Test the claim that Indus signs look most like Himalayan scripts"
+   "idea": "Test the claim that Indus signs look most like Himalayan scripts",
+   "thumbnail_alt": "Matching geometric shapes on two cards against a simplified mountain landscape.",
+   "result": "experiments/redteam_ivc2tyc/RESULTS.md"
   },
   {
    "id": "tn-graffiti-2025",
@@ -217,7 +237,8 @@
    "tech": "Shape parallels for roughly 60–90% of marks. Gap of over 1,000 years; mostly single marks. Earlier work found that look-alike marks do not behave like the Indus signs they resemble.",
    "borrow": "We tested whether look-alikes behave alike. They do not, so this route is closed for now.",
    "status": "closed",
-   "fig": "pots"
+   "fig": "pots",
+   "thumbnail_alt": "Three terracotta pots bearing simple geometric marks, linked along a catalogue line."
   },
   {
    "id": "proskouriakoff-1960",
@@ -235,7 +256,9 @@
    "status": "next",
    "fig": "life",
    "rank": 1,
-   "idea": "Match sign patterns to what happened to each seal: broken on purpose, buried with someone, found at a gate"
+   "idea": "Match sign patterns to what happened to each seal: broken on purpose, buried with someone, found at a gate",
+   "thumbnail_alt": "A stylised stela with abstract panels connected to three events on a timeline.",
+   "result": "experiments/reg_findspot/RESULTS.md"
   },
   {
    "id": "mahadevan-1977",
@@ -251,7 +274,8 @@
    "tech": "Sign list of 417 signs with a full concordance of the texts then known. Showed the regular positions of signs, such as the jar sign usually ending a text. Allograph splitting differs from the later Wells/Fuls list (676–713 signs).",
    "borrow": "The backbone of our main transcription.",
    "status": "adopted",
-   "fig": "grid"
+   "fig": "grid",
+   "thumbnail_alt": "A layered paper catalogue with a grid of geometric tokens and a measuring rule."
   },
   {
    "id": "parpola-1994",
@@ -267,7 +291,9 @@
    "tech": "Logo-syllabic, rebus-based Proto-Dravidian reading. Fish M59 = mīn “fish/star”; six + fish = aṟu-mīn (Pleiades); seven + fish = eḻu-mīn (Ursa Major); intersecting circles = muruku. About 400 signs is too many for a syllabary and too few for pure word-writing.",
    "borrow": "We turned his readings into predictions and tested them. Six + fish holds as a fixed unit; “seven stars” is not supported; the fish signs group together but do not behave like god names.",
    "status": "done",
-   "fig": "fishstar"
+   "fig": "fishstar",
+   "thumbnail_alt": "An illustrated fish and a constellation connected to represent a proposed rebus.",
+   "result": "experiments/redteam/RESULTS.md"
   },
   {
    "id": "fsw-2004",
@@ -283,7 +309,9 @@
    "tech": "Arguments from text length (mean about 4.6 signs, longest single-surface text 17), rare-sign frequency and the absence of long texts. Sparked the language-vs-symbols debate continued by Rao et al. 2009 and Sproat 2010 and 2014.",
    "borrow": "We test whether the signs are language at all, instead of assuming it.",
    "status": "adopted",
-   "fig": "short"
+   "fig": "short",
+   "thumbnail_alt": "A short row of geometric tokens beside an emblem shield, comparing writing and symbols.",
+   "result": "experiments/language_vs_code/RESULTS.md"
   },
   {
    "id": "rao-sproat",
@@ -299,7 +327,9 @@
    "tech": "Conditional entropy of sign bigrams (Rao et al. 2009); n-gram restoration of missing signs (Yadav et al. 2010, PLoS ONE). Sproat (2010, 2014): the entropy band does not separate writing from non-writing; two measures that do put Indus and Pictish on the non-linguistic side.",
    "borrow": "Treat entropy, Zipf and n-gram arguments as closed in both directions.",
    "status": "closed",
-   "fig": "entropy"
+   "fig": "entropy",
+   "thumbnail_alt": "Overlapping statistical bands with markers showing that different systems can share a range.",
+   "result": "experiments/language_vs_code/RESULTS.md"
   },
   {
    "id": "laursen-2010",
@@ -315,7 +345,9 @@
    "tech": "Gulf-type round seals show an excess of the prefixed “twins” sign and sign pairs unseen at home. Suggests Indus signs adapted to another language in the Gulf.",
    "borrow": "Our round-seal finding builds on this, and adds that round seals found in Indus cities break the order too.",
    "status": "done",
-   "fig": "round"
+   "fig": "round",
+   "thumbnail_alt": "Rectangular and round tablet diagrams with reordered geometric tokens above sea waves.",
+   "result": "experiments/redteam_foreign/RESULTS.md"
   },
   {
    "id": "snyder-luo",
@@ -331,7 +363,9 @@
    "tech": "Snyder et al. 2010: 29 of 30 Ugaritic letters recovered via Hebrew cognates. Luo et al. 2019: 67.3% of Linear B cognates recovered via Greek. Luo et al. 2021 found no strong evidence that Basque is related to Iberian.",
    "borrow": "We tested the planted-language version at Indus size. Without the right language, it fails, so this route waits for an outside clue.",
    "status": "closed",
-   "fig": "match"
+   "fig": "match",
+   "thumbnail_alt": "Two columns of geometric tokens joined by curved lines, illustrating language matching.",
+   "result": "experiments/cognate_decipher/RESULTS.md"
   },
   {
    "id": "rakhigarhi-2019",
@@ -347,7 +381,8 @@
    "tech": "Genome I6113 (1 of 61 skeletons screened): Iranian-related plus AASI ancestry, no steppe or Anatolian farmer ancestry. Narasimhan et al.: an “Indus Periphery Cline”; steppe ancestry arrives after about 2000 BCE.",
    "borrow": "Background only. It narrows the likely language families but gives no sign values.",
    "status": "noted",
-   "fig": "dna"
+   "fig": "dna",
+   "thumbnail_alt": "A terracotta and indigo DNA helix beside an abstract location marker."
   },
   {
    "id": "mukhopadhyay-2019",
@@ -365,7 +400,9 @@
    "status": "next",
    "fig": "goods",
    "rank": 2,
-   "idea": "Check whether fish signs cluster at bead-making sites, as the “fish = gem” reading predicts"
+   "idea": "Check whether fish signs cluster at bead-making sites, as the “fish = gem” reading predicts",
+   "thumbnail_alt": "A parcel with a geometric label, a storage jar and a row of beads.",
+   "result": "experiments/assemblage/RESULTS.md"
   },
   {
    "id": "desset-2022",
@@ -381,7 +418,9 @@
    "tech": "Anchored on royal names and titles from cuneiform on datable objects (silver gunagi beakers, Desset 2018). Critiques: Dahl 2023; Mäder; Kelley et al. 2022 call the proposed Proto-Elamite values premature.",
    "borrow": "This is why we search for names of people from the Indus region in cuneiform records, and asked museums for seal impressions on tablets that name them.",
    "status": "adopted",
-   "fig": "crown"
+   "fig": "crown",
+   "thumbnail_alt": "An illustrated beaker under a crown linked to geometric tokens on a paper record.",
+   "result": "experiments/sealing_hunt/RESULTS.md"
   },
   {
    "id": "sign2vec-2022",
@@ -399,7 +438,8 @@
    "status": "idea",
    "fig": "cluster",
    "rank": 3,
-   "idea": "Build the sign list from pictures plus context, to settle about 400 vs about 700 signs"
+   "idea": "Build the sign list from pictures plus context, to settle about 400 vs about 700 signs",
+   "thumbnail_alt": "Two clusters of similar geometric shapes, with incoming examples being sorted."
   }
  ]
 }
