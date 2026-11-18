@@ -424,6 +424,15 @@ def copy_font():
         info["version"] = m.group(1) if m else ""
     except ImportError:
         pass
+    # one zip of every font file plus the licence, for the "download all" link (fixed timestamps: same bytes each build)
+    import zipfile
+    z = dst / "open-indus-fonts.zip"
+    with zipfile.ZipFile(z, "w", zipfile.ZIP_DEFLATED) as zf:
+        for f in FONT_FILES:
+            zi = zipfile.ZipInfo(f"open-indus-fonts/{f}", date_time=(2026, 1, 1, 0, 0, 0))
+            zi.compress_type = zipfile.ZIP_DEFLATED
+            zf.writestr(zi, (dst / f).read_bytes())
+    info["files"]["open-indus-fonts.zip"] = z.stat().st_size
     return info
 
 
@@ -879,7 +888,7 @@ def main():
                             SZ_REG_TTF=size_kb(fs["OpenIndus-Regular.ttf"]), SZ_BOLD_TTF=size_kb(fs["OpenIndus-Bold.ttf"]),
                             SZ_TREG_WOFF2=size_kb(fs["OpenIndusText-Regular.woff2"]), SZ_TBOLD_WOFF2=size_kb(fs["OpenIndusText-Bold.woff2"]),
                             SZ_TREG_TTF=size_kb(fs["OpenIndusText-Regular.ttf"]), SZ_TBOLD_TTF=size_kb(fs["OpenIndusText-Bold.ttf"]),
-                            SZ_OFL=size_kb(fs["OFL.txt"]), MARK_BIG=inline_mark().replace('class="mark"', 'class="mark-big"'),
+                            SZ_OFL=size_kb(fs["OFL.txt"]), SZ_ZIP=size_kb(fs["open-indus-fonts.zip"]), MARK_BIG=inline_mark().replace('class="mark"', 'class="mark-big"'),
                             WORDMARK_BIG=inline_wordmark().replace('class="wordmark"', 'class="wordmark-big"'),
                             MARK_FILE=logo["mark"][0], MARK_NAME=logo["mark"][0].split("/")[-1], SZ_MARK=size_kb(logo["mark"][1]),
                             WORD_FILE=logo["wordmark"][0], WORD_NAME=logo["wordmark"][0].split("/")[-1], SZ_WORD=size_kb(logo["wordmark"][1]))))
