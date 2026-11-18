@@ -672,6 +672,17 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Folder.** `experiments/structure`.
 - **Prereg.** None.
 
+
+### 7.8 Jar sign M342 as a vessel or storage marker
+- **Question.** Is the jar sign M342 enriched on pottery, away from Mohenjo-daro?
+- **Method.** One pre-registered contrast (pottery vs seals) at Harappa, Lothal and Kalibangan, length- and break-matched permutation null, planted-enrichment gate (#45). Also forward prediction F3 with Kalibangan held out (#44).
+- **Result.** Gate failed: 65 consensus-corpus pottery texts give 47% power for 1.5x (about 250 needed). Descriptively 1.43x (p = 0.057); ICIT for the same sites (265 pottery texts, power 0.92) shows 0.80x, the wrong direction. Once text length is allowed for, M342 is not rarer on pottery either (F3 retired).
+- **Not excluded.** A modest enrichment below about 2x on the consensus corpus.
+- **Verdict.** Untestable on the consensus corpus; the evidence leans against M342 marking vessels.
+- **Folder.** `experiments/m342_offsite`, `experiments/forward_predictions`, `experiments/self_label`.
+- **Prereg.** `m342_offsite.md`, `forward_predictions.md`.
+- **Reopen with.** New marked-sherd data (HARP sherd database) under a fresh pre-registration.
+
 ---
 
 ## 8. Cross-script look-alikes
@@ -1063,6 +1074,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 7.5 | Referent coherence | Refuted | n/a | None |
 | 7.6 | Direction from text | Untestable | n/a | n/a |
 | 7.7 | Allograph perplexity | Refuted | Fails control | None |
+| 7.8 | Jar sign marks vessels | Untestable | 47% for 1.5x | HARP sherd data |
 | 8.1 | Linear Elamite | Refuted | ~0.7 | More LE values |
 | 8.2 | Proto-cuneiform | Refuted (strong) | 0.92-0.94 | None |
 | 8.3 | Tamil Nadu graffiti | Refuted | n/a | None |

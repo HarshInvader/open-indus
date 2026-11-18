@@ -314,3 +314,7 @@ e894904bf6eeced5b2f0e4da8c494f7ce6b80aa50b060c88633a231ad8158ccd  docs/prereg/fo
 1c789394a8039c26a237aff2522a07201088ef3e81e2bdc5a68b02cf3467c485  experiments/forward_predictions/fp.py  2026-11-18T10:39:18Z  forward_predictions board#44
 8ddf6eaf579663694c3cb466a41f42fe62f646e2ea5bdcde6f5424fa68143e0a  docs/prereg/forward_predictions.md  2026-11-18T10:41:04Z  forward_predictions board#44 amendment A1
 bff924f8ea88ca1cdc9a556cb8c22767ff428e64b97b9e3c1f2a9dfb7d3cfc09  experiments/forward_predictions/fp_a1.py  2026-11-18T10:41:15Z  forward_predictions board#44 amendment A1 scorer
+9327b93330fdb35770bf79d448d6a51e35e623c9d55cb9554a4174d9e08aa816  docs/prereg/m342_offsite.md  2026-11-18T10:44:03Z  m342_offsite board#45
+13a933053d0bc7689cb3589b53aae03e6f6626b8dc2fc3976a802b07c9a35824  experiments/m342_offsite/m342.py  2026-11-18T10:44:03Z  m342_offsite board#45
+061c2949b5b75afec6544e4cd01fd523b6248cedd9a26b78c969bb070470737b  docs/prereg/m342_offsite.md  2026-11-18T10:50:26Z  m342_offsite board#45 amendment A1
+e98651ce4aa2fc9bcb09729dd2e4550f44b2598aeb373eb1eb8b8d6cd2d6e331  experiments/m342_offsite/m342.py  2026-11-18T10:50:26Z  m342_offsite board#45 amendment A1

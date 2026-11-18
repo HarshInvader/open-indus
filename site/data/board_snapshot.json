@@ -474,10 +474,24 @@
    "id": 44,
    "ms": "M5",
    "title": "Seal the missing forward predictions",
-   "state": "running",
+   "state": "done",
    "owner": "forward_predictions",
-   "waits": []
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/forward_predictions/RESULTS.md",
+   "summary": "Froze 7 forward predictions (F1 round-seal closer <=25%, F2 round order excess, F3/F3b jar on pottery, F4-A1 cup N=5 absent, F4b cup on offering scenes, F5 fish merge) with trigger rules; prereg + fp.py hashed before scoring. Kalibangan dry run: only F3 evaluable and it FAILED (12 vs 10.7 expected, RR 1.12, gain -0.056 bits/text) -> set killed by the #44 rule; leave-one-site-out shows no length-aware jar depletion at any site (RR 0.92-1.17), so F3 is retired; F1/F2/F4/F5 below min n at one site."
+  },
+  {
+   "id": 45,
+   "ms": "M5",
+   "title": "Jar sign M342 off Mohenjo-daro: vessel/storage marker or not?",
+   "state": "done",
+   "owner": "research45",
+   "waits": [],
+   "verdict": "untestable",
+   "path": "experiments/m342_offsite/RESULTS.md",
+   "summary": "Untestable: 65 pottery texts at H/L/K give 0.465 power for 1.5x (needs ~250); consensus R 1.43 p 0.057 descriptive only. ICIT same sites (265 pottery, power 0.92) shows 0.80x, wrong direction, so evidence leans against M342 as a vessel marker."
   }
  ],
- "snapshot": "2026-11-18 05:41"
+ "snapshot": "2026-11-18 06:03"
 }
