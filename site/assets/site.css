@@ -603,3 +603,9 @@ pre.code code { background: none; border: 0; padding: 0; font-size: inherit; ove
 :root[data-theme="dark"] .data-fig { --dv-shadow: rgb(0 0 0 / 0.5); }
 :root[data-theme="dark"] .dv-sign { filter: brightness(0) invert(.9); }
 @media (max-width: 960px) { .data-split { grid-template-columns: minmax(0, 1fr); } .data-fig { justify-self: start; } }
+
+/* Findings: article sections (what is known / disputed) */
+.article { max-width: 40em; }
+.article h2 { margin-bottom: 10px; }
+.article h3 { font-family: var(--oi-text); font-size: 19px; font-weight: 650; margin: 28px 0 6px; color: var(--ink); }
+.article p { margin: 0 0 12px; text-wrap: pretty; }
