@@ -1,0 +1,253 @@
+{
+ "ur3_harsh": {
+  "reps": 100,
+  "power_dumu": 0.03,
+  "dumu_pct_d2_mean": 0.7824747795204452,
+  "dumu_n_occ_mean": 36.41,
+  "dumu_pct_a_ge95": 0.08,
+  "title_evals": 490,
+  "title_false_flag": 0.006122448979591836,
+  "per_title_flag_of_evaluable": {
+   "dub-sar": [
+    0,
+    100
+   ],
+   "ensi2": [
+    0,
+    100
+   ],
+   "lugal": [
+    0,
+    100
+   ],
+   "ugula": [
+    0,
+    55
+   ],
+   "nu-banda3": [
+    0,
+    2
+   ],
+   "sagi": [
+    1,
+    52
+   ],
+   "szabra": [
+    0,
+    11
+   ],
+   "sukkal": [
+    2,
+    39
+   ],
+   "sipa": [
+    0,
+    16
+   ],
+   "gudu4": [
+    0,
+    0
+   ],
+   "muhaldim": [
+    0,
+    0
+   ],
+   "aga3-us2": [
+    0,
+    15
+   ]
+  },
+  "extra_flag": {
+   "arad2": 0.0,
+   "arad2-zu": 0.0
+  },
+  "n_candidates_mean": 16.09
+ },
+ "ur3_natural": {
+  "reps": 30,
+  "power_dumu": 0.16666666666666666,
+  "dumu_pct_d2_mean": 0.9876715876715877,
+  "dumu_n_occ_mean": 186.26666666666668,
+  "dumu_pct_a_ge95": 0.0,
+  "title_evals": 108,
+  "title_false_flag": 0.0,
+  "per_title_flag_of_evaluable": {
+   "dub-sar": [
+    0,
+    30
+   ],
+   "ensi2": [
+    0,
+    28
+   ],
+   "lugal": [
+    0,
+    30
+   ],
+   "ugula": [
+    0,
+    9
+   ],
+   "nu-banda3": [
+    0,
+    0
+   ],
+   "sagi": [
+    0,
+    3
+   ],
+   "szabra": [
+    0,
+    1
+   ],
+   "sukkal": [
+    0,
+    1
+   ],
+   "sipa": [
+    0,
+    1
+   ],
+   "gudu4": [
+    0,
+    5
+   ],
+   "muhaldim": [
+    0,
+    0
+   ],
+   "aga3-us2": [
+    0,
+    0
+   ]
+  },
+  "extra_flag": {
+   "arad2": 0.03333333333333333,
+   "arad2-zu": 0.0
+  },
+  "n_candidates_mean": 10.9
+ },
+ "ob_harsh": {
+  "reps": 100,
+  "power_dumu": 0.0,
+  "dumu_pct_d2_mean": 0.5098452380952381,
+  "dumu_n_occ_mean": 44.89,
+  "dumu_pct_a_ge95": 0.02,
+  "title_evals": 71,
+  "title_false_flag": 0.0,
+  "per_title_flag_of_evaluable": {
+   "dub-sar": [
+    0,
+    16
+   ],
+   "lugal": [
+    0,
+    49
+   ],
+   "ensi2": [
+    0,
+    5
+   ],
+   "sanga": [
+    0,
+    0
+   ],
+   "ugula": [
+    0,
+    0
+   ],
+   "lukur": [
+    0,
+    1
+   ],
+   "dam-gar3": [
+    0,
+    0
+   ],
+   "gudu4": [
+    0,
+    0
+   ],
+   "sukkal": [
+    0,
+    0
+   ],
+   "gudu4-abzu": [
+    0,
+    0
+   ],
+   "sza13-dub-ba": [
+    0,
+    0
+   ]
+  },
+  "extra_flag": {
+   "arad": 0.0,
+   "arad2": 0.0,
+   "u3": 0.0
+  },
+  "n_candidates_mean": 6.23
+ },
+ "ob_natural": {
+  "reps": 30,
+  "power_dumu": 0.0,
+  "dumu_pct_d2_mean": 0.9374603174603174,
+  "dumu_n_occ_mean": 173.93333333333334,
+  "dumu_pct_a_ge95": 0.0,
+  "title_evals": 49,
+  "title_false_flag": 0.0,
+  "per_title_flag_of_evaluable": {
+   "dub-sar": [
+    0,
+    24
+   ],
+   "lugal": [
+    0,
+    21
+   ],
+   "ensi2": [
+    0,
+    1
+   ],
+   "sanga": [
+    0,
+    2
+   ],
+   "ugula": [
+    0,
+    1
+   ],
+   "lukur": [
+    0,
+    0
+   ],
+   "dam-gar3": [
+    0,
+    0
+   ],
+   "gudu4": [
+    0,
+    0
+   ],
+   "sukkal": [
+    0,
+    0
+   ],
+   "gudu4-abzu": [
+    0,
+    0
+   ],
+   "sza13-dub-ba": [
+    0,
+    0
+   ]
+  },
+  "extra_flag": {
+   "arad": 0.0,
+   "arad2": 0.0,
+   "u3": 0.0
+  },
+  "n_candidates_mean": 6.333333333333333
+ },
+ "gate_pass": false
+}

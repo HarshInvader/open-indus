@@ -1,0 +1,5 @@
+{"task": 42, "verdict": "untestable", "gate_pass": false,
+ "power_dumu": {"ur3_harsh": 0.03, "ob_harsh": 0.0, "ur3_natural": 0.167, "ob_natural": 0.0},
+ "title_false_flag": {"ur3_harsh": 0.006, "ob_harsh": 0.0},
+ "dumu_d2": {"ur3_harsh": 0.045, "ob_harsh": 0.021, "ur3_full_corpus": 0.185},
+ "indus_test_run": false, "prereg": "docs/prereg/m99_relator.md"}

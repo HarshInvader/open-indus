@@ -452,9 +452,12 @@
    "id": 42,
    "ms": "M5",
    "title": "M99 relator: does X M99 Y join two attested whole-text units?",
-   "state": "running",
+   "state": "done",
    "owner": "N6",
-   "waits": []
+   "waits": [],
+   "verdict": "untestable",
+   "path": "experiments/m99_relator/RESULTS.md",
+   "summary": "Known-answer gate fails: split-attestation test flags dumu in 3/100 Ur III and 0/100 OB samples thinned to Indus size (bar 80; title false flags 0.6%/0%), so the Indus M99 test was not run (prereg). Only 2-5% of dumu occurrences split into parts attested elsewhere at a 1,285-text pool vs 18.5% on full Ur III; needs ~4x larger corpus or an Indus-like synthetic control."
   },
   {
    "id": 43,
@@ -466,7 +469,15 @@
    "verdict": "negative",
    "path": "experiments/genre_floor/RESULTS.md",
    "summary": "Weakest genre the HMM mixture or formula model finds with power>=0.8 at ~2,270 texts is 0.57 bits/text (LCA, vocab+formula+length plant); HMM never reaches 0.8 up to ~0.5 bits; null false alarms 0/10; Indus object type is 0.15, so genres-from-scratch closes (NEGATIVE_ATLAS text proposed). Near-copy chaining fixed by leader clustering (largest family 571->8); near miss: pure-length genre 7/10 at 0.14 bits (logistic 0.17)."
+  },
+  {
+   "id": 44,
+   "ms": "M5",
+   "title": "Seal the missing forward predictions",
+   "state": "running",
+   "owner": "forward_predictions",
+   "waits": []
   }
  ],
- "snapshot": "2026-11-18 05:33"
+ "snapshot": "2026-11-18 05:41"
 }

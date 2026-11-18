@@ -382,6 +382,16 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Prereg.** `genres_from_scratch.md`, `genre_floor.md`.
 - **Reopen with.** A corpus several times larger, or a labelled known-answer genre corpus of Indus-like weakness, or a model shown to beat 0.15 bits on these plants.
 
+
+### 4.11 Connective M99 as a relator between two attested units
+- **Question.** In "X M99 Y", are X and Y each attested as independent units (X ends another text, Y starts one) more often than for matched mid-text signs?
+- **Method.** Language-neutral relational test (#42), known-answer gate on Ur III and Old Babylonian seal legends thinned to Indus size before any Indus number.
+- **Result.** Gate failed: "son of" recovered in 3/100 (Ur III) and 0/100 (OB) thinned samples against a bar of 80/100; title words falsely flagged 0-0.6%. At Indus size only 2-5% of "son of" texts split into two attested parts (18.5% on the full 5,180 Ur III legends, where the test ranks "son of" first of 52 words).
+- **Verdict.** Untestable at this corpus size. Not run on Indus.
+- **Folder.** `experiments/m99_relator`.
+- **Prereg.** `m99_relator.md`.
+- **Reopen with.** About four times more texts (e.g. CISI vol 3), or a new prereg on a synthetic 400-sign corpus with a planted joining sign.
+
 ---
 
 ## 5. Administrative and relational readings
@@ -1028,6 +1038,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 4.8 | Tool cluster | Refuted | p = 0.66 | None |
 | 4.9 | Fixed compounds | Refuted | Missed by 0.003 | None |
 | 4.10 | Genres from signs alone | Untestable at this corpus size | Methods blind below ~0.5 bits/text; Indus object type is 0.15 | Much larger corpus or a stronger model |
+| 4.11 | M99 as relator | Untestable at this corpus size | Known answer found 3/100 at Indus size | About 4x more texts |
 | 5.1 | Administration (14) | Refuted | Large effects only | CISI 3.1 lots |
 | 5.2 | Rank ladder | Refuted | MDE rho 0.12 | More measured seals |
 | 5.3 | Tablet archives | Refuted (T1, T3) | 0.96-0.98 | CISI 3.1 lots |

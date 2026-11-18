@@ -310,3 +310,7 @@ b3a27917a9291e2b1af89234f144bb20d88b960ebe50ba787a8a3cab68e3a258  docs/prereg/re
 3daa0359d5152f077f6532465e1b58a7eb5ffb17c10d8034ef16550ab664b293  experiments/m99_relator/rel_lib.py  2026-11-18T09:57:38Z  m99_relator board#42
 821c7644d46cad6631612364bf1a52ce06f9d350e997812af5e8e8f788949bcb  experiments/m99_relator/rel_control.py  2026-11-18T09:57:38Z  m99_relator board#42
 ccc472bd10a9532581588584e08919217452ab8cd9252aa85e08f2d73fb8ff98  experiments/m99_relator/rel_indus.py  2026-11-18T09:57:38Z  m99_relator board#42
+e894904bf6eeced5b2f0e4da8c494f7ce6b80aa50b060c88633a231ad8158ccd  docs/prereg/forward_predictions.md  2026-11-18T10:39:18Z  forward_predictions board#44
+1c789394a8039c26a237aff2522a07201088ef3e81e2bdc5a68b02cf3467c485  experiments/forward_predictions/fp.py  2026-11-18T10:39:18Z  forward_predictions board#44
+8ddf6eaf579663694c3cb466a41f42fe62f646e2ea5bdcde6f5424fa68143e0a  docs/prereg/forward_predictions.md  2026-11-18T10:41:04Z  forward_predictions board#44 amendment A1
+bff924f8ea88ca1cdc9a556cb8c22767ff428e64b97b9e3c1f2a9dfb7d3cfc09  experiments/forward_predictions/fp_a1.py  2026-11-18T10:41:15Z  forward_predictions board#44 amendment A1 scorer
