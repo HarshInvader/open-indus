@@ -274,7 +274,7 @@ figcaption .cat { font-family: var(--body); font-variant-numeric: tabular-nums; 
 .closed dt, .groups dt { font-weight: 650; }
 .closed dd, .groups dd, .levels dd { margin: 0; color: var(--muted); font-size: 15.5px; }
 .levels { grid-template-columns: minmax(0, 1fr); }
-.levels > div { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 12px; align-items: baseline; }
+.levels > div { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 12px; align-items: baseline; }
 .caveats, .ticks { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; color: var(--muted); font-size: 15.5px; max-width: 70ch; }
 .ticks { list-style: none; padding-left: 0; }
 .ticks li { position: relative; padding-left: 22px; }
@@ -736,3 +736,13 @@ pre.code code { background: none; border: 0; padding: 0; font-size: inherit; ove
 .hw-pic { fill: none; stroke: var(--rule); stroke-width: 1.3; }
 .hw-arrow.hi { stroke: var(--clay); }
 @media (max-width: 640px) { .findings .fcard { grid-template-columns: minmax(0, 1fr); gap: 14px; } .ffig { max-width: 280px; } }
+
+/* novelty tags */
+.nov { display: inline-block; align-self: flex-start; font-family: var(--oi-text); font-size: 12.5px; font-weight: 600; letter-spacing: 0; text-transform: none; padding: 2px 9px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--muted); white-space: nowrap; }
+.nov.new { background: var(--clay); border-color: var(--clay); color: var(--paper); }
+.nov.partly { border-color: var(--clay); color: var(--clay); }
+.nov.tests { border-color: var(--accent); color: var(--accent-ink); }
+.nov.known { border-style: dashed; }
+.prior { font-size: 15px; color: var(--muted); }
+.prior b { color: var(--ink); }
+.key-h { margin: 26px 0 8px; font-size: 16px; }

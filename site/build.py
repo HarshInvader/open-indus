@@ -236,60 +236,71 @@ LEVELS = {
 }
 
 FINDINGS = [
-    dict(n=1, level="strong", head='The signs follow rules about order', gist='Shuffle the signs of a text and we can usually tell which order is the real one. That only works if the order follows rules, like words in a sentence.',
+    dict(n=1, level="strong", novelty='known', prior="Known since Mahadevan's 1977 concordance and measured by Rao et al. (2009) and Yadav et al. (2010). New here: a test on texts held back from the model.",
+         head='The signs follow rules about order', gist='Shuffle the signs of a text and we can usually tell which order is the real one. That only works if the order follows rules, like words in a sentence.',
          title="Sign order is fixed, not just positional",
          plain="Knowing the signs of an unseen text, the real order can be picked out from all orderings of the same signs far more often than chance. It still works with the commonest signs removed. Codes such as weather reports and chess openings pass this test too, so it shows a fixed format, not necessarily a grammar. It still holds with half the texts read backwards.",
          nums="40% of 321 held-out runs vs 5.7% by chance; q ≈ 8e-72",
          folders=["experiments/structure", "experiments/redteam", "experiments/revalidation"]),
-    dict(n=2, level="descriptive", head='About 400 signs: too many for an alphabet', gist='An alphabet needs around 30 signs and a syllable script around 90. With about 400, most signs probably stand for whole words, as in early Chinese or Sumerian writing.',
+    dict(n=2, level="descriptive", novelty='known', prior='Mahadevan (1977) listed 417 signs and Parpola (1994) about 386. Both called the script mostly word-signs with some sound-signs.',
+         head='About 400 signs: too many for an alphabet', gist='An alphabet needs around 30 signs and a syllable script around 90. With about 400, most signs probably stand for whole words, as in early Chinese or Sumerian writing.',
          title="About 400 signs: if this is writing, mostly word-signs, perhaps with sound-signs",
          plain="The sign count and how often each sign is used look like Proto-Elamite or Sumerian, not like Linear B or an alphabet.",
          nums="≈400 signs (≈565 with unseen ones; 95% CI 508–658); 120 signs cover 90% of uses (Linear B: 63, Latin: 14)",
          folders=["experiments/structure"]),
-    dict(n=3, level="moderate", head='Four small ticks move the fish sign to the end', gist='A plain fish sign can sit anywhere in a text. Add four small ticks and it usually comes last, so the ticks change how the sign is used, a bit like a word ending.',
+    dict(n=3, level="moderate", novelty='new', prior='We know of no earlier report that the ticks change where the fish sign goes.',
+         head='Four small ticks move the fish sign to the end', gist='A plain fish sign can sit anywhere in a text. Add four small ticks and it usually comes last, so the ticks change how the sign is used, a bit like a word ending.',
          title="Corner ticks move the fish sign to the end of the text",
          plain="A fish with four small ticks closes a text far more often than a plain fish: a mark inside a sign that changes where the sign goes. It holds on complete single-line texts too (9 of 16 vs 2%).",
          glyphs=(59, 60),
          nums="final in 40 of 73 vs 26% expected (p = 1e-7); held-out 11 of 19 vs 7% for plain fish (p = 0.004; q = 0.03 within its family, 0.54 across all tests)",
          folders=["experiments/novel_methods", "experiments/redteam"]),
-    dict(n=4, level="moderate", head='Round seals from the Gulf break the usual rules', gist='Small round seals in a Gulf style were used by traders around Bahrain. Their signs come in an order Indus writers rarely used, wherever the seal was found. It could be another language, a special kind of seal, or imitation writing.',
+    dict(n=4, level="moderate", novelty='partly', prior='Parpola and others suggested that Gulf seals carry unusual sign sequences, perhaps in another language. New here: round seals found in Indus cities break the order too.',
+         head='Round seals from the Gulf break the usual rules', gist='Small round seals in a Gulf style were used by traders around Bahrain. Their signs come in an order Indus writers rarely used, wherever the seal was found. It could be another language, a special kind of seal, or imitation writing.',
          title="Round Gulf-type seals break normal sign order, wherever they were found",
          plain="Round seals of the Gulf type, found abroad or at home, do not follow the usual sign order. This fits three readings our data cannot separate: another language, a round-seal genre in the Indus language, or pseudo-writing.",
          nums="order excess +1.64 bits/sign on 8 home round seals (Holm p = 3e-4, rare-sign-matched null); foreign vs home round +0.11 (p = 0.66)",
          caveat="Corrected on 17 Nov 2026: a label error had hidden the home round seals. Only 3 of the 8 are confirmed round in a printed excavation report.",
          folders=["experiments/round_label_audit", "experiments/redteam_round_format", "experiments/redteam_round_order"]),
-    dict(n=5, level="strong", head='“Six” followed by “fish” is a set phrase', gist='The six-stroke sign and the fish sign appear together far more than chance, like “New York”. A popular idea that “seven + fish” means “seven stars” has almost no support.',
+    dict(n=5, level="strong", novelty='tests', prior='Parpola read six + fish as “six stars”, the Pleiades, and seven + fish as “seven stars”. The pair is confirmed as a unit; the “seven stars” reading is not supported.',
+         head='“Six” followed by “fish” is a set phrase', gist='The six-stroke sign and the fish sign appear together far more than chance, like “New York”. A popular idea that “seven + fish” means “seven stars” has almost no support.',
          title="Six followed by fish is a fixed expression",
          plain="The six-stroke sign followed by the fish behaves like one set phrase. The proposed 'seven stars' reading of seven plus fish has almost no support.",
          glyphs=(109, 59),
          nums="held-out 7 of 10 vs 3% base rate; q ≈ 6e-8",
          folders=["experiments/language", "experiments/redteam"]),
-    dict(n=6, level="strong", head='Seals, tablets and pots each use different signs', gist='From the signs alone we can often tell what kind of object a text was on, the way you can tell a shop sign from a letter.',
+    dict(n=6, level="strong", novelty='partly', prior='Differences between seals and tablets were noted before in general terms. New here: a measured test on unseen texts, across five kinds of object.',
+         head='Seals, tablets and pots each use different signs', gist='From the signs alone we can often tell what kind of object a text was on, the way you can tell a shop sign from a letter.',
          title="Each kind of object has its own vocabulary",
          plain="Seals, tablets, copper tablets, rods and pottery each favour different signs, enough to tell them apart on unseen texts.",
          nums="held-out AUC: copper 0.87, tablet 0.76, pottery 0.73, seal 0.72, sealing 0.67 (chance ceiling 0.55–0.61)",
          folders=["experiments/context", "experiments/redteam"]),
-    dict(n=7, level="strong", head='Texts that run left to right were written that way on purpose', gist='Indus texts normally read from right to left. The few that run the other way are deliberate reversals, not mistakes by modern readers.',
+    dict(n=7, level="strong", novelty='known', prior='Right-to-left reading was shown by Lal (1966), and the left-to-right exceptions were listed by Mahadevan (1977). New here: a check that they are true reversals.',
+         head='Texts that run left to right were written that way on purpose', gist='Indus texts normally read from right to left. The few that run the other way are deliberate reversals, not mistakes by modern readers.',
          title="Texts written left to right are true reversals",
          plain="The few texts that run left to right are written backwards on purpose, not misread. This depends on each text's direction label being right; with 1 in 10 flipped, the result misses its bar.",
          nums="31 of 34 copy-free lines; q = 6e-6",
          folders=["experiments/structure", "experiments/redteam"]),
-    dict(n=8, level="exploratory", head='Copper tablets repeat a few dozen fixed messages', gist='Small copper tablets carry the same text-and-picture pairs again and again, like a set of standard tokens. We spotted this in the data but have not yet tested it on unseen texts.',
+    dict(n=8, level="exploratory", novelty='known', prior='Copper tablets with repeated texts and matching animals were described by Parpola and others. Our type count is new but not yet tested.',
+         head='Copper tablets repeat a few dozen fixed messages', gist='Small copper tablets carry the same text-and-picture pairs again and again, like a set of standard tokens. We spotted this in the data but have not yet tested it on unseen texts.',
          title="Copper tablets come in a few dozen fixed types",
          plain="Copper tablets repeat about 18 to 64 fixed text-and-picture types. A one-sign face can stand in for the picture, but the sign does not depict it.",
          nums="same legend → same sign face 8 of 8 (p = 1e-4, all data); blind matching 5 of 24 vs 3.3 by chance",
          folders=["experiments/context", "experiments/logograms"]),
-    dict(n=9, level="weak", head='Texts seem to have slots, like a sentence', gist='Most texts fit a pattern of a few positions, such as an opening, a middle and a closing part. That positions exist is solid. Our exact list of them is not.',
+    dict(n=9, level="weak", novelty='known', prior='Splitting texts into recurring parts goes back to Koskenniemi (1981), Parpola and Mahadevan. Our specific set of slots is new and weakly supported.',
+         head='Texts seem to have slots, like a sentence', gist='Most texts fit a pattern of a few positions, such as an opening, a middle and a closing part. That positions exist is solid. Our exact list of them is not.',
          title="Texts can be parsed into a small set of roles",
          plain="An 11-role reading parses most unseen texts, far more than shuffled ones. That positional roles exist is solid; that these 11 are the right ones is not. Role names such as 'title' and 'noun' are labels for positions, not tested meanings.",
          nums="parses 76% of unseen texts vs 44% for shuffles; specific roles p = 0.013, q = 0.085",
          folders=["experiments/functional_reading", "experiments/grammar"]),
-    dict(n=10, level="moderate", head='The middle of a seal text is just one or two signs', gist='Many seal texts have a fixed opening and closing. The part in between is usually one or two word-signs, not a name spelled out sound by sound.',
+    dict(n=10, level="moderate", novelty='partly', prior='Fixed opening and closing signs were known (Mahadevan 1977). New here: showing the part between them is usually one or two word-signs.',
+         head='The middle of a seal text is just one or two signs', gist='Many seal texts have a fixed opening and closing. The part in between is usually one or two word-signs, not a name spelled out sound by sound.',
          title="The core of a seal text is one or two signs, not a spelled-out name",
          plain="The part of a seal text between its fixed opening and closing signs is short and made of whole words, not spelled out sound by sound. Nothing shows these cores are names.",
          nums="34% of cores are one sign; recurring pairs keep one order in 91% of uses (held-out 115 of 138, p = 3e-16)",
          folders=["experiments/typology", "experiments/core_semantics"]),
-    dict(n=11, level="moderate", head='The fish signs are variants of one sign', gist='Six fish-like signs replace each other in the same places and pair with the same neighbours. They behave like forms of one word, not like names of six different gods.',
+    dict(n=11, level="moderate", novelty='tests', prior='Parpola grouped the fish signs and read them as star or god names. Our test supports the grouping but not the god-name reading.',
+         head='The fish signs are variants of one sign', gist='Six fish-like signs replace each other in the same places and pair with the same neighbours. They behave like forms of one word, not like names of six different gods.',
          title="The fish signs form one class that substitute for each other",
          plain="Six fish signs swap for each other, combine with each other and share partners. The idea that fish signs are god names is not supported.",
          nums="held-out p = 0.0002–0.0004",
@@ -830,6 +841,16 @@ def plan_steps():
     return "".join(out)
 
 
+NOVELTY = {"new": ("New", "We know of no earlier report of this."),
+           "partly": ("Partly new", "The general idea was known; part of the result is new."),
+           "tests": ("Tests an old idea", "Checks a reading or claim made by earlier scholars."),
+           "known": ("Known, rechecked", "Already known; we re-tested it more strictly.")}
+
+
+def nov_tag(k):
+    return f'<span class="nov {k}">{E(NOVELTY[k][0])}</span>'
+
+
 STRENGTH = [("strong", "Solid", 3), ("moderate", "Likely", 2), ("weak", "Shaky", 1),
             ("exploratory", "Not yet tested", 0), ("descriptive", "A measurement", -1)]
 
@@ -888,17 +909,19 @@ def findings_list(full):
             head = E(f["head"])
             links = " ".join(repo_link(p + "/", p.split("/")[-1]) for p in f["folders"])
             cav = f'<p class="caveat">{E(f["caveat"])}</p>' if f.get("caveat") else ""
-            out.append(f'<li class="finding fcard" id="f{f["n"]}">{finding_fig(f["n"])}<div class="fh"><h4 class="ft">{head}</h4>'
+            out.append(f'<li class="finding fcard" id="f{f["n"]}">{finding_fig(f["n"])}<div class="fh"><h4 class="ft">{head}</h4>{nov_tag(f["novelty"])}'
                        f'<p class="fg">{E(f["gist"])}</p><details class="tech"><summary>Technical version</summary>'
-                       f'<div class="fbody"><p class="ftech">{E(f["title"])}</p><p>{E(f["plain"])}</p>'
+                       f'<div class="fbody"><p class="ftech">{E(f["title"])}</p><p>{E(f["plain"])}</p><p class="prior"><b>Earlier work:</b> {E(f["prior"])}</p>'
                        f'<p class="nums">{E(f["nums"])}</p>{cav}<p class="where">Code and results: {links}</p></div></details></div></li>')
         out.append("</ol>")
     return "".join(out)
 
 
 def level_key():
-    return '<dl class="levels">' + "".join(
+    return ('<dl class="levels">' + "".join(
         f'<div><dt>{meter(k)}</dt><dd>{E(LEVELS[k][1])}</dd></div>' for k, _, _ in STRENGTH) + "</dl>"
+        '<h3 class="key-h">Is it new?</h3><dl class="levels">' + "".join(
+        f'<div><dt>{nov_tag(k)}</dt><dd>{E(d)}</dd></div>' for k, (_, d) in NOVELTY.items()) + "</dl>")
 
 
 def closed_routes(sections, rows):
