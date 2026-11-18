@@ -833,6 +833,127 @@ def fig_how():
     return f'<figure class="how-fig"><ol class="how" aria-label="How we try to read the script">{items}</ol>{key}</figure>'
 
 
+# ---------------------------------------------------------------- news
+NEWS_STATUS = {"running": ("Testing now", "run"), "next": ("Next to test", "next"), "idea": ("Idea, needs data", "wait"),
+               "adopted": ("Using it", "ok"), "done": ("Tested", "ok"), "closed": ("Closed", "fail"),
+               "waiting": ("Waiting on data", "wait"), "noted": ("Background", "wait")}
+
+
+def news_fig(key):
+    """A small drawing for a news item, in the findings style (viewBox 200x96)."""
+    S = 22
+    row = lambda ms, x0, y, gap=6, s=S: "".join(_sign_img(m, x0 + k * (s + gap), y, s) for k, m in enumerate(ms))
+    T = lambda x, y, t, c="hw-t", a="start": f'<text x="{x}" y="{y}" class="{c}" text-anchor="{a}">{E(t)}</text>'
+    box = lambda x, y, w, h, c="hw-card", r=4: f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{r}" class="{c}"/>'
+    arrow = lambda x1, x2, y, c="hw-arrow": f'<path d="M{x1} {y} H{x2}" class="{c}"/><path d="M{x2-5} {y-5} L{x2} {y} L{x2-5} {y+5}" class="{c}"/>'
+    ok = lambda x, y: f'<path d="M{x} {y} l4 4 l8 -8" class="hw-ok"/>'
+    no = lambda x, y: f'<path d="M{x} {y} l9 9 M{x+9} {y} l-9 9" class="hw-no"/>'
+    d = {
+        "restore": row([267, 99], 24, 18) + box(80, 15, 28, 28, "hw-slot hi") + T(94, 34, "?", "hw-guess", "middle") + row([342], 116, 18)
+                   + "".join(T(94, 62 + i * 13, t, a="middle") for i, t in enumerate(("model fills the gap", "graded on unseen texts"))),
+        "balance": '<path d="M100 18 V70 M70 80 H130 M40 30 H160" class="hw-arrow"/>' + box(18, 34, 48, 24) + box(134, 34, 48, 24)
+                   + T(42, 50, "copying", a="middle") + T(158, 50, "language", a="middle") + T(100, 94, "same effort, judged on unseen text", a="middle"),
+        "never": box(8, 14, 44, 26) + T(30, 31, "W520", a="middle") + arrow(56, 84, 27) + box(88, 14, 44, 26) + T(110, 31, "W090", a="middle") + no(150, 22) + T(166, 31, "0 of 136")
+                 + box(8, 54, 44, 26) + T(30, 71, "W740", a="middle") + arrow(56, 84, 67) + box(88, 54, 44, 26) + T(110, 71, "W090", a="middle") + ok(148, 66) + T(166, 71, "69 of 994"),
+        "twin": T(4, 26, "Indus") + row([342, 99, 267, 176], 54, 10) + T(4, 68, "invented") + f'<g opacity=".55">{row([176, 267, 99, 342], 54, 52)}</g>'
+                + '<path d="M168 22 v42" class="hw-arrow"/>' + T(176, 46, "="),
+        "crown": '<path d="M24 40 l8 -18 l10 12 l8 -16 l8 16 l10 -12 l8 18 z" class="hw-shield"/>' + T(51, 58, "king’s name", a="middle")
+                 + T(51, 72, "in cuneiform", a="middle") + arrow(90, 118, 36) + box(124, 18, 66, 36) + T(157, 41, "→ sounds", "hw-guess", "middle") + T(157, 72, "of signs", a="middle"),
+        "scale": '<path d="M14 50 H186" class="hw-arrow"/>' + "".join(f'<path d="M{x} 44 v12" class="hw-arrow"/>' for x in (14, 186))
+                 + T(14, 74, "coats of arms") + T(186, 74, "paperwork", a="end") + '<circle cx="112" cy="50" r="7" class="hw-lk"/>' + T(112, 32, "Indus", a="middle"),
+        "round": '<circle cx="62" cy="48" r="38" class="hw-card"/>' + row([267, 59, 99], 30, 37, 0, 22) + '<path d="M118 40 h16" class="hw-arrow"/>'
+                 + T(142, 36, "Gulf style") + T(142, 52, "unusual") + T(142, 66, "sign order"),
+        "unique": T(8, 24, "real") + '<rect x="60" y="14" width="106" height="14" rx="3" class="hw-bar hi"/>' + T(172, 25, "88%")
+                  + T(8, 56, "chance") + '<rect x="60" y="46" width="119" height="14" rx="3" class="hw-bar"/>' + T(100, 86, "share of seal texts that are unique", a="middle"),
+        "calendar": box(60, 10, 80, 66) + '<path d="M60 28 H140 M78 4 v12 M122 4 v12" class="hw-arrow"/>' + T(100, 58, "20–22 Aug", "hw-guess", "middle") + T(100, 92, "2025, New Delhi", a="middle"),
+        "compose": box(14, 22, 44, 44) + row([267], 25, 33) + T(66, 50, "+") + box(78, 22, 44, 44) + row([99], 89, 33) + T(130, 50, "=")
+                   + box(142, 22, 44, 44, "hw-slot hi") + row([267], 147, 33, 0, 18) + row([99], 163, 33, 0, 18) + T(100, 88, "complex signs built from parts", a="middle"),
+        "detect": box(40, 8, 120, 72) + row([342, 99, 267], 62, 16) + '<path d="M62 46 h76" class="hw-arrow"/>' + '<rect x="58" y="12" width="30" height="30" rx="3" class="hw-mark"/>'
+                  + T(100, 66, "unicorn", a="middle") + T(100, 94, "boxes found by the model", a="middle"),
+        "lookalike": row([342], 30, 22, 0, 30) + T(84, 42, "≈") + box(104, 18, 38, 38, "hw-slot") + T(123, 42, "?", "hw-guess", "middle")
+                     + T(100, 80, "looks alike ≠ sounds alike", a="middle"),
+        "pots": "".join(f'<path d="M{x} 18 h28 l-4 8 c10 8 10 26 0 36 h-20 c-10 -10 -10 -28 0 -36 z" class="hw-card"/>' + _sign_img(m, x + 3, 32, 22)
+                        for x, m in ((24, 342), (86, 267), (148, 99))) + T(100, 88, "marks scratched on pots", a="middle"),
+        "life": '<path d="M10 50 H190" class="hw-arrow"/>' + "".join(f'<circle cx="{x}" cy="50" r="5" class="hw-lk"/>' + T(x, 36, a, a="middle") + T(x, 72, b, a="middle")
+                for x, a, b in ((30, "born", "date 1"), (100, "crowned", "date 2"), (170, "died", "date 3"))) + T(100, 92, "same glyphs beside the same events", a="middle"),
+        "grid": "".join(_sign_img(m, 14 + (k % 6) * 30, 8 + (k // 6) * 28, 20) for k, m in enumerate([342, 99, 267, 176, 59, 60, 65, 66, 67, 109, 211, 1]))
+                + T(100, 92, "M1 … M417", a="middle"),
+        "fishstar": row([59], 30, 18, 0, 34) + T(47, 76, "fish", a="middle") + T(100, 42, "mīn", "hw-guess", "middle")
+                    + '<path d="M153 22 l4 9 l10 1 l-7 7 l2 10 l-9 -5 l-9 5 l2 -10 l-7 -7 l10 -1 z" class="hw-shield"/>' + T(153, 76, "star", a="middle"),
+        "short": row([342, 99, 267, 176, 59], 18, 26) + '<path d="M18 62 H158" class="hw-arrow"/><path d="M18 56 v12 M158 56 v12" class="hw-arrow"/>' + T(88, 84, "about five signs per text", a="middle"),
+        "entropy": T(4, 24, "languages") + '<rect x="78" y="14" width="80" height="14" rx="3" class="hw-bar"/>' + T(4, 50, "symbols") + '<rect x="70" y="40" width="84" height="14" rx="3" class="hw-bar"/>'
+                   + T(4, 76, "Indus") + '<rect x="96" y="66" width="10" height="14" rx="3" class="hw-bar hi"/>' + T(116, 77, "fits both"),
+        "match": box(8, 20, 70, 44) + T(43, 46, "unknown", a="middle") + '<path d="M84 42 H116" class="hw-arrow"/><path d="M89 37 L84 42 L89 47 M111 37 L116 42 L111 47" class="hw-arrow"/>'
+                 + box(122, 20, 70, 44, "hw-slot hi") + T(157, 46, "relative", a="middle") + T(100, 88, "needs a known related language", a="middle"),
+        "dna": "".join(f'<path d="M{70 + i * 10} 10 C {90 + i * 10} 30, {50 + i * 10} 60, {70 + i * 10} 82" class="hw-arrow{" hi" if i == 2 else ""}"/>' for i in range(5))
+               + T(100, 94, "one genome, Rakhigarhi", a="middle"),
+        "goods": row([99], 18, 30) + T(46, 46, "+") + row([59], 58, 30) + arrow(90, 118, 41) + box(126, 20, 62, 42) + T(157, 46, "goods?", "hw-guess", "middle") + T(100, 88, "a count and a commodity", a="middle"),
+        "cluster": '<circle cx="56" cy="44" r="32" class="hw-slot"/>' + row([59, 60], 34, 32, 4) + '<circle cx="146" cy="44" r="32" class="hw-slot hi"/>' + row([65, 66], 124, 32, 4)
+                   + T(100, 92, "one sign or two?", a="middle"),
+    }
+    return f'<svg class="ffig" viewBox="0 0 200 96" aria-hidden="true">{d[key]}</svg>'
+
+
+def news_items():
+    return json.loads((SITE / "news.json").read_text())["items"]
+
+
+def news_date(s):
+    months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+    p = s.split("-")
+    if len(p) == 3:
+        return f"{int(p[2])} {months[int(p[1]) - 1]} {p[0]}"
+    if len(p) == 2 and len(p[1]) == 2 and p[1].isdigit():
+        return f"{months[int(p[1]) - 1]} {p[0]}"
+    return s
+
+
+def news_card(it):
+    lab, cls = NEWS_STATUS[it["status"]]
+    return (f'<article class="ncard" id="{it["id"]}"><div class="nmeta"><span class="nkind">{E(it["kind"])}</span><time>{E(news_date(it["date"]))}</time></div>'
+            f'<div class="nrow">{news_fig(it["fig"])}<div class="nbody">'
+            f'<h3 class="nh">{E(it["head"])}</h3><p class="nsrc">{E(it["who"])} · <a href="{E(it["url"])}">{E(it["venue"])}</a></p>'
+            f'<p class="z z-gist">{E(it["gist"])}</p><p class="z z-plain">{E(it["plain"])}</p><p class="z z-tech">{E(it["tech"])}</p>'
+            f'<div class="nborrow"><span class="tag {cls}">{E(lab)}</span><p><b>What we take from it:</b> {E(it["borrow"])}</p></div>'
+            f'</div></div></article>')
+
+
+def news_page():
+    items = news_items()
+    latest = sorted([i for i in items if i["section"] == "latest"], key=lambda i: i["date"], reverse=True)
+    land = sorted([i for i in items if i["section"] == "landmark"], key=lambda i: i["date"][:4])
+    def idea_list(rows):
+        return '<ol class="ideas">' + "".join(
+            f'<li><span class="tag {NEWS_STATUS[i["status"]][1]}">{E(NEWS_STATUS[i["status"]][0])}</span>'
+            f'<div><b>{E(i["idea"])}</b><span class="ires">{E(i["borrow"])}</span>'
+            f'<span>From <a href="#{i["id"]}">{E(i["who"])}, {E(news_date(i["date"]))}</a></span></div></li>' for i in rows) + "</ol>"
+    withidea = sorted([i for i in items if i.get("idea")], key=lambda i: i["rank"])
+    open_ = [i for i in withidea if i["status"] in ("next", "idea", "running")]
+    done = [i for i in withidea if i["status"] not in ("next", "idea", "running")]
+    return dict(NEWS_LATEST="".join(news_card(i) for i in latest), NEWS_LAND="".join(news_card(i) for i in land),
+                NEWS_IDEAS=idea_list(open_), NEWS_TRIED=idea_list(done), NEWS_N=len(items))
+
+
+def news_rss():
+    items = sorted(news_items(), key=lambda i: i["date"], reverse=True)
+    def pub(s):
+        p = (s.split("–")[0] + "-01-01").split("-")
+        try:
+            t = time.strptime(f"{p[0]}-{p[1] if len(p[1]) == 2 else '01'}-{p[2] if len(p) > 2 and len(p[2]) == 2 else '01'}", "%Y-%m-%d")
+        except ValueError:
+            t = time.strptime(p[0][:4] + "-01-01", "%Y-%m-%d")
+        return time.strftime("%a, %d %b %Y 00:00:00 +0000", t)
+    def esc(s):
+        return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    body = "".join(f'<item><title>{esc(i["head"])}</title><link>https://openindus.pages.dev/news.html#{i["id"]}</link>'
+                   f'<guid isPermaLink="false">openindus-news-{i["id"]}</guid><pubDate>{pub(i["date"])}</pubDate>'
+                   f'<description>{esc(i["plain"] + " What we take from it: " + i["borrow"])}</description></item>' for i in items)
+    xml = (f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{esc(NAME)} News</title>'
+           f'<link>https://openindus.pages.dev/news.html</link><description>New and landmark research on the Indus script, summarised.</description>{body}</channel></rss>')
+    (SITE / "news.xml").write_text(xml)
+    return SITE / "news.xml"
+
+
 def plan_steps():
     out = ['<ol class="flow">']
     for i, (cls, t, st, d) in enumerate(PLAN, 1):
@@ -1030,18 +1151,49 @@ def smart(page):
     return "".join(p if p.startswith("<") else fix(p) for p in parts)
 
 
-PAGES = (("index.html", "Overview"), ("approach.html", "Approach"), ("findings.html", "Findings"), ("tracker.html", "Tracker"),
-         ("contribute.html", "Contribute"), ("resources.html", "Resources"))
+PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"),
+         ("tracker.html", "Tracker"), ("contribute.html", "Contribute"), ("resources.html", "Resources"))
 ARROW = ('<svg class="ext-ic" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false" fill="none" '
          'stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 8.5L8.5 3.5M4.5 3.5H8.5V7.5"/></svg>')
+_NI = lambda d: f'<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">{d}</svg>'
+NAV_ICONS = {
+    "find": _NI('<path d="M5 4h10l4 4v12H5z"/><path d="M9 12l2 2 4-4"/>'),
+    "approach": _NI('<circle cx="11" cy="11" r="6"/><path d="M15.5 15.5L20 20"/>'),
+    "news": _NI('<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 10h8M8 14h8M8 18h5"/>'),
+    "tracker": _NI('<path d="M5 19V13M12 19V6M19 19v-9"/>'),
+    "data": _NI('<ellipse cx="12" cy="6" rx="7" ry="2.5"/><path d="M5 6v12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5V6M5 12c0 1.4 3.1 2.5 7 2.5s7-1.1 7-2.5"/>'),
+    "font": _NI('<path d="M5 19L11 5h2l6 14M8 14h8"/>'),
+    "files": _NI('<path d="M4 7h6l2 2h8v10H4z"/>'),
+    "code": _NI('<path d="M9 8l-4 4 4 4M15 8l4 4-4 4"/>'),
+}
+NAV_GROUPS = (
+    ("Research", (("findings.html", "Findings", "What is known, and what we found", "find"),
+                  ("approach.html", "Approach", "How every idea gets tested", "approach"),
+                  ("news.html", "News", "New papers, summarised", "news"),
+                  ("tracker.html", "Tracker", "Progress and the live task board", "tracker"))),
+    ("Resources", (("REPO/tree/main/datasets", "Open data", "Every Indus dataset in one place", "data"),
+                   ("resources.html", "Typeface and logo", "Free to download", "font"),
+                   ("resources.html#files", "Research files", "Notes, plans and results", "files"),
+                   ("REPO", "Code on GitHub", "Everything we run, in the open", "code"))),
+)
+CARET = ('<svg class="caret" viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" focusable="false"><path d="M2.5 4.5 6 8l3.5-3.5" '
+         'fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
 def nav_items(current):
     out = []
-    for href, lab in PAGES:
-        cur = ' aria-current="page"' if href == current else ""
-        out.append(f'<li><a href="{href}"{cur}>{lab}</a></li>')
-    out.append(f'<li><a href="{E(REPO_URL)}" class="ext">GitHub{ARROW}<span class="vh"> (code repository)</span></a></li>')
+    for gi, (label, items) in enumerate(NAV_GROUPS):
+        here = any(h == current for h, *_ in items)
+        links = []
+        for href, title, line, icon in items:
+            ext = href.startswith("REPO")
+            url = E(REPO_URL + href[4:]) if ext else href
+            cur = ' aria-current="page"' if href == current else ""
+            links.append(f'<a href="{url}"{cur}><i>{NAV_ICONS[icon]}</i><span><b>{E(title)}{ARROW if ext else ""}</b><small>{E(line)}</small></span></a>')
+        out.append(f'<li class="dd{" here" if here else ""}"><button type="button" aria-expanded="false" aria-controls="dd{gi}">{label}{CARET}</button>'
+                   f'<div class="ddm" id="dd{gi}">{"".join(links)}</div></li>')
+    cur = ' aria-current="page"' if current == "contribute.html" else ""
+    out.append(f'<li class="nav-cta"><a href="contribute.html"{cur}>Contribute</a></li>')
     return "".join(out)
 
 
@@ -1153,6 +1305,7 @@ def make_dist(built):
     (dist / "assets").mkdir(parents=True)
     for p in built:
         shutil.copy2(p, dist / p.name)
+    shutil.copy2(SITE / "news.xml", dist / "news.xml")
     src = SITE / "assets"
     used = {m for p in built for m in re.findall(r'assets/img/([^"#?]+)', p.read_text())}
     for name in DIST_ASSETS:
@@ -1226,6 +1379,9 @@ def main():
                             ST_SPEC=starter_list(starters, "specialist"), ST_ANY=starter_list([t for t in starters if t["who"] == ["anyone"]]),
                             BOARD_OPEN=board_open(b), ASKS=asks(),
                             FIG_C=figure("EH_286", 6, "Very small square seal carrying three large signs, one of them the jar"))))
+    built.append(render("news", f"News · {NAME} · New research on the Indus script",
+                        "The latest and the landmark research on the Indus script, each summarised in a sentence, in plain words and in technical detail, with the idea we borrow from it.",
+                        "news.html", dict(common, **news_page())))
     fs = font["files"]
     built.append(render("resources", f"Resources · {NAME} · Decipher the Indus script by 2027",
                         f"Free downloads from {NAME}: the Open Indus Display typeface (SIL Open Font License) and the fish-sign logo, plus the research files that open with the repository.",
@@ -1246,6 +1402,7 @@ def main():
         gaps = font_gaps(p, font.get("text_chars") or font["chars"])
         if gaps:
             print(f"{p.name}: characters Open Indus Text lacks:", " ".join(f"{c!r}x{n}" for c, n in sorted(gaps.items())))
+    news_rss()
     check_links(built)
     make_dist(built)
 

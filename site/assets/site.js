@@ -37,6 +37,33 @@
     window.matchMedia('(min-width: 901px)').addEventListener('change', function (m) { if (m.matches) setMenu(false); });
   }
 
+
+  // Grouped menus (Research, Resources): open on hover (CSS) or a tap; one open at a time; Escape or a tap elsewhere closes.
+  var dds = [].slice.call(document.querySelectorAll('.site-nav .dd'));
+  function ddClose(d) { d.classList.remove('open'); d.querySelector('button').setAttribute('aria-expanded', 'false'); }
+  dds.forEach(function (d) {
+    var b = d.querySelector('button');
+    b.addEventListener('click', function (e) {
+      e.stopPropagation(); var on = !d.classList.contains('open'); dds.forEach(ddClose);
+      if (on) { d.classList.add('open'); b.setAttribute('aria-expanded', 'true'); }
+    });
+  });
+  document.addEventListener('click', function (e) { dds.forEach(function (d) { if (!d.contains(e.target)) ddClose(d); }); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') dds.forEach(ddClose); });
+
+  // News: one detail level for the whole feed (a sentence, plain words, technical); remembered per viewer.
+  var zb = [].slice.call(document.querySelectorAll('.zoombar button'));
+  if (zb.length) {
+    var feeds = [].slice.call(document.querySelectorAll('.news-feed'));
+    var setZoom = function (z) {
+      feeds.forEach(function (f) { f.setAttribute('data-zoom', z); });
+      zb.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-zoom') === z)); });
+      try { localStorage.setItem('oi-zoom', z); } catch (e) {}
+    };
+    zb.forEach(function (b) { b.addEventListener('click', function () { setZoom(b.getAttribute('data-zoom')); }); });
+    try { var z0 = localStorage.getItem('oi-zoom'); if (z0) setZoom(z0); } catch (e) {}
+  }
+
   // Hero seal: turns with a fine pointer and the light swings with it. Eases to the target, then stops
   // (no frames while the pointer is still), and ignores the pointer while the seal is off screen.
   // Touch devices and reduced motion keep the fixed pose set in CSS.
