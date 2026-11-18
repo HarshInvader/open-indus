@@ -496,9 +496,12 @@
    "id": 46,
    "ms": "M6",
    "title": "Paper gap: independent red team of decipherability (related-language key search fails; wrong keys outscore true key)",
-   "state": "running",
+   "state": "done",
    "owner": "paper",
-   "waits": []
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/redteam_decipherability/RESULTS.md",
+   "summary": "C1,C2,C4 survive; C3 weakened (72% vs bar 80%). Climb from true key ends higher and 66-83% right in 36/36 related-model runs: search basin, not objective."
   },
   {
    "id": 47,
@@ -528,10 +531,21 @@
    "id": 50,
    "ms": "M3",
    "title": "slot_function: which slot carries object type; human-figure signs as counted (survey ideas 1-2)",
-   "state": "running",
+   "state": "done",
    "owner": "paper",
+   "waits": [],
+   "verdict": "untestable",
+   "path": "experiments/slot_function/RESULTS.md",
+   "summary": "A: last sign beats first for seal vs label (ICIT diff 0.057, CI 0.035-0.080) but planted gate 77/100 (bar 80): lead. B: human figures not counted nouns (not supported)."
+  },
+  {
+   "id": 51,
+   "ms": "M1",
+   "title": "Anchor dose-response under a related-language model: how many fixed values put blind search in the mostly-right basin?",
+   "state": "ready",
+   "owner": "",
    "waits": []
   }
  ],
- "snapshot": "2026-11-18 17:19"
+ "snapshot": "2026-11-18 17:30"
 }

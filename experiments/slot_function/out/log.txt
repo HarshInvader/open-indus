@@ -1,0 +1,201 @@
+gate_B {'hits': 79, 'n': 100, 'pass': False}
+gateA 0 {'term': 1, 'init': 0, 'none': 0}
+gateA 1 {'term': 2, 'init': 0, 'none': 0}
+gateA 2 {'term': 3, 'init': 0, 'none': 0}
+gateA 3 {'term': 4, 'init': 0, 'none': 0}
+gateA 4 {'term': 4, 'init': 0, 'none': 0}
+gateA 5 {'term': 4, 'init': 0, 'none': 0}
+gateA 6 {'term': 5, 'init': 0, 'none': 0}
+gateA 7 {'term': 6, 'init': 0, 'none': 0}
+gateA 8 {'term': 7, 'init': 0, 'none': 0}
+gateA 9 {'term': 8, 'init': 0, 'none': 0}
+gateA 10 {'term': 9, 'init': 0, 'none': 0}
+gateA 11 {'term': 9, 'init': 0, 'none': 0}
+gateA 12 {'term': 10, 'init': 0, 'none': 0}
+gateA 13 {'term': 11, 'init': 0, 'none': 0}
+gateA 14 {'term': 12, 'init': 0, 'none': 0}
+gateA 15 {'term': 13, 'init': 0, 'none': 0}
+gateA 16 {'term': 14, 'init': 0, 'none': 0}
+gateA 17 {'term': 15, 'init': 0, 'none': 0}
+gateA 18 {'term': 16, 'init': 0, 'none': 0}
+gateA 19 {'term': 17, 'init': 0, 'none': 0}
+gateA 20 {'term': 18, 'init': 0, 'none': 0}
+gateA 21 {'term': 19, 'init': 0, 'none': 0}
+gateA 22 {'term': 20, 'init': 0, 'none': 0}
+gateA 23 {'term': 21, 'init': 0, 'none': 0}
+gateA 24 {'term': 21, 'init': 0, 'none': 0}
+gateA 25 {'term': 22, 'init': 0, 'none': 0}
+gateA 26 {'term': 22, 'init': 0, 'none': 0}
+gateA 27 {'term': 22, 'init': 0, 'none': 0}
+gateA 28 {'term': 23, 'init': 0, 'none': 0}
+gateA 29 {'term': 23, 'init': 0, 'none': 0}
+gateA 30 {'term': 24, 'init': 0, 'none': 0}
+gateA 31 {'term': 25, 'init': 0, 'none': 0}
+gateA 32 {'term': 26, 'init': 0, 'none': 0}
+gateA 33 {'term': 27, 'init': 0, 'none': 0}
+gateA 34 {'term': 28, 'init': 0, 'none': 0}
+gateA 35 {'term': 29, 'init': 0, 'none': 0}
+gateA 36 {'term': 30, 'init': 0, 'none': 0}
+gateA 37 {'term': 30, 'init': 0, 'none': 0}
+gateA 38 {'term': 31, 'init': 0, 'none': 0}
+gateA 39 {'term': 32, 'init': 0, 'none': 0}
+gateA 40 {'term': 32, 'init': 0, 'none': 0}
+gateA 41 {'term': 32, 'init': 0, 'none': 0}
+gateA 42 {'term': 32, 'init': 0, 'none': 0}
+gateA 43 {'term': 33, 'init': 0, 'none': 0}
+gateA 44 {'term': 34, 'init': 0, 'none': 0}
+gateA 45 {'term': 35, 'init': 0, 'none': 0}
+gateA 46 {'term': 36, 'init': 0, 'none': 0}
+gateA 47 {'term': 36, 'init': 0, 'none': 0}
+gateA 48 {'term': 37, 'init': 0, 'none': 0}
+gateA 49 {'term': 38, 'init': 0, 'none': 0}
+gateA 50 {'term': 38, 'init': 0, 'none': 0}
+gateA 51 {'term': 39, 'init': 0, 'none': 0}
+gateA 52 {'term': 40, 'init': 0, 'none': 0}
+gateA 53 {'term': 40, 'init': 0, 'none': 0}
+gateA 54 {'term': 41, 'init': 0, 'none': 0}
+gateA 55 {'term': 42, 'init': 0, 'none': 0}
+gateA 56 {'term': 43, 'init': 0, 'none': 0}
+gateA 57 {'term': 44, 'init': 0, 'none': 0}
+gateA 58 {'term': 45, 'init': 0, 'none': 0}
+gateA 59 {'term': 45, 'init': 0, 'none': 0}
+gateA 60 {'term': 46, 'init': 0, 'none': 0}
+gateA 61 {'term': 47, 'init': 0, 'none': 0}
+gateA 62 {'term': 47, 'init': 0, 'none': 0}
+gateA 63 {'term': 48, 'init': 0, 'none': 1}
+gateA 64 {'term': 49, 'init': 0, 'none': 1}
+gateA 65 {'term': 50, 'init': 0, 'none': 1}
+gateA 66 {'term': 51, 'init': 0, 'none': 1}
+gateA 67 {'term': 52, 'init': 0, 'none': 1}
+gateA 68 {'term': 53, 'init': 0, 'none': 1}
+gateA 69 {'term': 54, 'init': 0, 'none': 1}
+gateA 70 {'term': 54, 'init': 0, 'none': 1}
+gateA 71 {'term': 55, 'init': 0, 'none': 1}
+gateA 72 {'term': 55, 'init': 0, 'none': 1}
+gateA 73 {'term': 56, 'init': 0, 'none': 1}
+gateA 74 {'term': 56, 'init': 0, 'none': 1}
+gateA 75 {'term': 56, 'init': 0, 'none': 1}
+gateA 76 {'term': 57, 'init': 0, 'none': 1}
+gateA 77 {'term': 57, 'init': 0, 'none': 1}
+gateA 78 {'term': 58, 'init': 0, 'none': 1}
+gateA 79 {'term': 59, 'init': 0, 'none': 1}
+gateA 80 {'term': 60, 'init': 0, 'none': 1}
+gateA 81 {'term': 61, 'init': 0, 'none': 1}
+gateA 82 {'term': 62, 'init': 0, 'none': 1}
+gateA 83 {'term': 63, 'init': 0, 'none': 1}
+gateA 84 {'term': 64, 'init': 0, 'none': 1}
+gateA 85 {'term': 64, 'init': 0, 'none': 1}
+gateA 86 {'term': 64, 'init': 0, 'none': 1}
+gateA 87 {'term': 65, 'init': 0, 'none': 1}
+gateA 88 {'term': 66, 'init': 0, 'none': 1}
+gateA 89 {'term': 67, 'init': 0, 'none': 1}
+gateA 90 {'term': 68, 'init': 0, 'none': 1}
+gateA 91 {'term': 69, 'init': 0, 'none': 1}
+gateA 92 {'term': 70, 'init': 0, 'none': 1}
+gateA 93 {'term': 71, 'init': 0, 'none': 1}
+gateA 94 {'term': 72, 'init': 0, 'none': 1}
+gateA 95 {'term': 73, 'init': 0, 'none': 1}
+gateA 96 {'term': 74, 'init': 0, 'none': 1}
+gateA 97 {'term': 75, 'init': 0, 'none': 1}
+gateA 98 {'term': 76, 'init': 0, 'none': 1}
+gateA 99 {'term': 77, 'init': 0, 'none': 1}
+gate_A {'term': 77, 'init': 0, 'none': 1, 'pass': False}
+{
+ "B1_H_held": {
+  "r": 0.14516129032258066,
+  "ctrl_mean": 0.14874327042864055,
+  "ctrl_p95": 0.28276397515527935,
+  "ratio": 0.9759183719993683,
+  "p": 0.46553446553446554,
+  "fires": false
+ },
+ "B1_H_dev_exploratory": {
+  "r": 0.15176151761517614,
+  "ctrl_mean": 0.15512147417596758,
+  "ctrl_p95": 0.2651527253364314,
+  "ratio": 0.9783398360630589,
+  "p": 0.45054945054945056,
+  "fires": false
+ },
+ "B1_H_targets_in_dev": 38,
+ "B1_HT_held": {
+  "r": 0.16666666666666666,
+  "ctrl_mean": 0.14679676427014834,
+  "ctrl_p95": 0.2917174796747967,
+  "ratio": 1.1353565420553273,
+  "p": 0.3646353646353646,
+  "fires": false
+ },
+ "B1_HT_dev_exploratory": {
+  "r": 0.3472222222222222,
+  "ctrl_mean": 0.1870215301726572,
+  "ctrl_p95": 0.35714285714285715,
+  "ratio": 1.8565895696696986,
+  "p": 0.06493506493506493,
+  "fires": false
+ },
+ "B1_HT_targets_in_dev": 24,
+ "B2_icit": {
+  "HW_size": 15,
+  "n_texts": 1601,
+  "n_tablet": 369,
+  "mh_or": 1.136953745443764,
+  "p": 0.21639180409795103,
+  "share_H_tablet": 0.05708661417322835,
+  "share_H_seal": 0.05323308270676692,
+  "holds": false
+ },
+ "B2_m77_descriptive": {
+  "miniature tablet": 0.051075268817204304,
+  "seal": 0.0649636929460581
+ }
+}
+{
+ "icit_n": {
+  "seal": 1232,
+  "label": 509
+ },
+ "A1_icit": {
+  "auc_term": 0.7707706095476233,
+  "auc_init": 0.7135099061056821,
+  "diff": 0.05726070344194123,
+  "ci": [
+   0.03536042788253006,
+   0.08011269949353197
+  ],
+  "p_one_sided": 0.0,
+  "fires": true
+ },
+ "auc_MID_icit": 0.7803601727349272,
+ "auc_LEN_icit": 0.6719431722501467,
+ "A2_icit": {
+  "auc_term": 0.7707706095476233,
+  "null_p95": 0.7216407824739112,
+  "null_mean": 0.7078600092809941,
+  "p": 0.004975124378109453,
+  "holds": true
+ },
+ "m77": {
+  "n_dev": [
+   886,
+   117
+  ],
+  "n_held": [
+   276,
+   32
+  ],
+  "auc_TERM": 0.7408854166666666,
+  "auc_INIT": 0.6980298913043478,
+  "auc_MID": 0.7121829710144928,
+  "auc_LEN": 0.6848958333333334,
+  "diff": 0.04285552536231885,
+  "ci": [
+   -0.0234375,
+   0.10490545742753625
+  ],
+  "A2_null_p95": 0.7253877943840579,
+  "A2_null_mean": 0.683028419384058,
+  "A2_p": 0.017964071856287425
+ },
+ "verdict": "SUPPORTED"
+}

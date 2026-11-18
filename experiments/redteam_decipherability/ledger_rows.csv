@@ -1,0 +1,5 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+rtd_C1,True-language model recovers values at 10k tokens,decipherability,experiments/redteam_decipherability/RESULTS.md,0.9997 (q0) / 0.990 (q0.2),,,,12 runs,,simulation,red team,redteam_decipherability,4,yes,,,,,,SURVIVES
+rtd_C2,Related-language model: low flat recovery,decipherability,experiments/redteam_decipherability/RESULTS.md,"0.071-0.116, rise -0.017",,,,36 runs,,simulation,red team,redteam_decipherability,4,yes,,,,,,SURVIVES
+rtd_C3,Related-language objective prefers wrong keys,decipherability,experiments/redteam_decipherability/RESULTS.md,72% of runs (bar 80%); 0/6 at Latin 30k; climb from truth beats true key 36/36 at 66-83% accuracy,,,,36 runs,,simulation,red team,redteam_decipherability,4,yes,,,,,,"WEAKENED: failure is search basin, not objective"
+rtd_C4,Wrong language beats shuffle,decipherability,experiments/redteam_decipherability/RESULTS.md,z 16.3-90.9,,,,6 runs,,simulation,red team,redteam_decipherability,4,yes,,,,,,SURVIVES

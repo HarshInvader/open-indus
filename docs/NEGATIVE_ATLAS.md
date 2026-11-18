@@ -121,6 +121,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Power.** Planted true languages give only z 0.3-2.8. The method cannot pick the right language even when it is known.
 - **Not excluded.** Any of the candidates.
 - **Verdict.** Untestable. Anchors raise recovery from 0.17 to 0.47-0.68, so anchors, not more text, are the bottleneck.
+- **Red team (2026-11-18, `experiments/redteam_decipherability`).** Low flat related-language recovery and the shuffle trap survive. "Wrong keys outscore the true key" is weakened: 72% of runs (bar 80%), 0/6 for Latin with an Italian model at 30k. A climb from the true key always ends higher and still 66-83% right, so the blind search fails to reach a mostly-right region the objective favours. Anchors work by putting the search there.
 - **Folder.** `experiments/decipherability`.
 - **Prereg.** None.
 - **Reopen with.** About 10 fixed anchors (names or words with known readings).
@@ -965,6 +966,14 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Carver hands (carver_hands).** Seals alike in animal carving do not share frame or core more than others: 4/4 null, frame within/between upper bound 1.01-1.11; a 20% group-specific closer was detectable at 92-100%. No real clusters at about 8 px/mm (silhouette 0.04-0.05). Untestable for true hands; reopen with ≥ 30 px/mm scans. Prereg `carver_hands.md` (amendment A1 appended after the run).
 - **Craft assemblage (assemblage).** No sign tied to a craft at two sites (0/49 primary, 0/193 with seals), power about 0-4.5%. Inconclusive; reopen with HARP trench craft coding. Prereg `assemblage.md`.
 
+### 10b.18 Survey ideas: closing slot and counted human figures (slot_function)
+- **Question.** (A) Is the seal-versus-label signal carried by the last sign more than the first (Rao 2018; Born et al. 2022)? (B) Are human-figure signs counted kinds of people, preceded by numerals and commoner on tablets (Rao 2018)?
+- **Result.** (A) ICIT last-sign AUC 0.771 vs first-sign 0.714 (CI of the difference 0.035-0.080), last sign above a within-text shuffle (p = 0.005); same direction on M77 held-out (+0.043, CI crosses 0). The middle signs predict as well as the last sign. (B) Numerals precede human figures no more than matched controls (ratio 0.98); human-figure share on tablets vs seals OR 1.14, p = 0.22; M77 points the other way.
+- **Power.** Planted checks fell just short: 77/100 (A) and 79/100 (B1) against a bar of 80. False positives 1/100.
+- **Verdict.** A untestable, kept as a lead. B not supported.
+- **Prereg.** `slot_function.md`.
+- **Reopen with.** New texts (CISI vol. 3, post-2010 finds) for A; a fuller Wells-to-Mahadevan mapping of human-figure signs for B.
+
 ---
 
 ## 11. Red-team reversals
@@ -1101,6 +1110,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.15 | Ticked fish by block | Weakened (lead) | 0.44 / 0 replication | More located seals |
 | 10b.16 | Depth chronology | Inconclusive | 0.92-0.94 broad | HARP 3B vs 3C |
 | 10b.17 | Carver hands; craft assemblage | Untestable / inconclusive | 92-100% / 0-4.5% | ≥ 30 px/mm; craft coding |
+| 10b.18 | Closing slot; counted human figures | Untestable (lead) / not supported | 77/100 and 79/100 gates | New texts; fuller sign bridge |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 
