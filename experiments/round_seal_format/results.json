@@ -1,0 +1,754 @@
+{
+ "opener_W": [
+  "W201",
+  "W692",
+  "W817;W861",
+  "W820",
+  "W880",
+  "W920"
+ ],
+ "closer_W": [
+  "W151",
+  "W156;W154",
+  "W161",
+  "W520",
+  "W526;W527",
+  "W740",
+  "W804"
+ ],
+ "n_numeral_signs": 40,
+ "n": {
+  "round": 35,
+  "round_home": 10,
+  "round_abroad": 18,
+  "round_unprov": 7,
+  "square_home": 1952,
+  "square_abroad": 8
+ },
+ "F_primary": {
+  "F1_numeral_first": {
+   "n": 28,
+   "obs": 0.10714285714285714,
+   "null": 0.12738214285714283,
+   "fallback": 2,
+   "p": 0.7205279472052795,
+   "p_holm": 0.7205279472052795
+  },
+  "F2_opener_first": {
+   "n": 28,
+   "obs": 0.03571428571428571,
+   "null": 0.13184642857142856,
+   "fallback": 2,
+   "p": 0.09599040095990401,
+   "p_holm": 0.287971202879712
+  },
+  "F4_closer_last": {
+   "n": 28,
+   "obs": 0.14285714285714285,
+   "null": 0.45290714285714284,
+   "fallback": 2,
+   "p": 0.0006999300069993001,
+   "p_holm": 0.0027997200279972004
+  },
+  "F3_length": {
+   "n": 17,
+   "obs": 4.529411764705882,
+   "null": 4.880058823529411,
+   "p": 0.2742725727427257,
+   "p_holm": 0.5485451454854514
+  }
+ },
+ "F_home": {
+  "F1_numeral_first": {
+   "n": 8,
+   "obs": 0.125,
+   "null": 0.1389875,
+   "fallback": 2,
+   "p": 0.724027597240276
+  },
+  "F2_opener_first": {
+   "n": 8,
+   "obs": 0.125,
+   "null": 0.117075,
+   "fallback": 2,
+   "p": 0.7634236576342366
+  },
+  "F4_closer_last": {
+   "n": 8,
+   "obs": 0.125,
+   "null": 0.4453875,
+   "fallback": 2,
+   "p": 0.049295070492950704
+  },
+  "F3_length": {
+   "n": 5,
+   "obs": 4.0,
+   "null": 4.98572,
+   "p": 0.17918208179182082
+  }
+ },
+ "F_abroad_all": {
+  "F1_numeral_first": {
+   "n": 20,
+   "obs": 0.1,
+   "null": 0.121305,
+   "fallback": 0,
+   "p": 0.716928307169283
+  },
+  "F2_opener_first": {
+   "n": 20,
+   "obs": 0.0,
+   "null": 0.137165,
+   "fallback": 0,
+   "p": 0.047495250474952504
+  },
+  "F4_closer_last": {
+   "n": 20,
+   "obs": 0.15,
+   "null": 0.45486000000000004,
+   "fallback": 0,
+   "p": 0.0035996400359964
+  },
+  "F3_length": {
+   "n": 12,
+   "obs": 4.75,
+   "null": 4.836141666666667,
+   "p": 0.4854514548545146
+  }
+ },
+ "F_abroad_no_unprov": {
+  "F1_numeral_first": {
+   "n": 16,
+   "obs": 0.0625,
+   "null": 0.1244625,
+   "fallback": 0,
+   "p": 0.8858114188581142
+  },
+  "F2_opener_first": {
+   "n": 16,
+   "obs": 0.0,
+   "null": 0.132925,
+   "fallback": 0,
+   "p": 0.0948905109489051
+  },
+  "F4_closer_last": {
+   "n": 16,
+   "obs": 0.125,
+   "null": 0.46084375,
+   "fallback": 0,
+   "p": 0.0047995200479952005
+  },
+  "F3_length": {
+   "n": 11,
+   "obs": 4.7272727272727275,
+   "null": 4.845218181818183,
+   "p": 0.46535346465353467
+  }
+ },
+ "descr": {
+  "round_home": {
+   "n": 10,
+   "numeral_first": 0.125,
+   "opener_first": 0.125,
+   "closer_last": 0.125,
+   "mean_len_complete": 4.0
+  },
+  "round_abroad": {
+   "n": 18,
+   "numeral_first": 0.0625,
+   "opener_first": 0.0,
+   "closer_last": 0.125,
+   "mean_len_complete": 4.7272727272727275
+  },
+  "round_unprov": {
+   "n": 7,
+   "numeral_first": 0.25,
+   "opener_first": 0.0,
+   "closer_last": 0.25,
+   "mean_len_complete": 5.0
+  },
+  "square_home": {
+   "n": 1952,
+   "numeral_first": 0.125,
+   "opener_first": 0.1318181818181818,
+   "closer_last": 0.4657762938230384,
+   "mean_len_complete": 4.846531184302733
+  },
+  "square_abroad": {
+   "n": 8,
+   "numeral_first": 0.14285714285714285,
+   "opener_first": 0.0,
+   "closer_last": 0.5,
+   "mean_len_complete": 5.0
+  }
+ },
+ "near_copy": {
+  "clusters_gt1": [],
+  "n_after": 35
+ },
+ "F_nearcopy_dedup": {
+  "F1_numeral_first": {
+   "n": 28,
+   "obs": 0.10714285714285714,
+   "null": 0.126675,
+   "fallback": 2,
+   "p": 0.7171282871712829
+  },
+  "F2_opener_first": {
+   "n": 28,
+   "obs": 0.03571428571428571,
+   "null": 0.13055357142857144,
+   "fallback": 2,
+   "p": 0.0978902109789021
+  }
+ },
+ "heldout": {
+  "ids": [
+   "UR-10",
+   "UR-07"
+  ],
+  "n": 2,
+  "n_first_legible": 2,
+  "L": [
+   3,
+   5
+  ],
+  "numeral_first": 0,
+  "opener_first": 0,
+  "square_rates_num": [
+   0.16666666666666666,
+   0.07250755287009064
+  ],
+  "square_rates_op": [
+   0.04421768707482993,
+   0.1933534743202417
+  ],
+  "p_F1": 1.0,
+  "p_F2": 0.77018,
+  "power_F1": 0.012,
+  "power_note": "p(numeral-first)=discovery share; smallest k reaching p<0.05",
+  "d": [
+   -0.192,
+   -0.402
+  ]
+ },
+ "order": {
+  "O1": {
+   "format_matched": {
+    "n": 31,
+    "mean_d": -0.032057107542993665,
+    "null": -1.6118360194710397,
+    "excess": 1.579778911928046,
+    "p": 9.999000099990002e-05
+   },
+   "length_only": {
+    "n": 31,
+    "mean_d": -0.032057107542993665,
+    "null": -2.1033086106339236,
+    "excess": 2.07125150309093,
+    "p": 9.999000099990002e-05
+   },
+   "frac_explained": 0.23728291346051367,
+   "frac_ci": [
+    0.17918546724640483,
+    0.297497293139394
+   ],
+   "by_group": {
+    "home": {
+     "fmt": {
+      "n": 8,
+      "mean_d": -0.16169485398791494,
+      "null": -1.5256438969527772,
+      "excess": 1.3639490429648622,
+      "p": 0.00029997000299970003
+     },
+     "len": {
+      "n": 8,
+      "mean_d": -0.16169485398791494,
+      "null": -2.1392763259616134,
+      "excess": 1.9775814719736986,
+      "p": 9.999000099990002e-05
+     }
+    },
+    "abroad": {
+     "fmt": {
+      "n": 16,
+      "mean_d": -0.0008235977631595448,
+      "null": -1.6534703326013707,
+      "excess": 1.652646734838211,
+      "p": 9.999000099990002e-05
+     },
+     "len": {
+      "n": 16,
+      "mean_d": -0.0008235977631595448,
+      "null": -2.114453390633076,
+      "excess": 2.1136297928699164,
+      "p": 9.999000099990002e-05
+     }
+    },
+    "unprov": {
+     "fmt": {
+      "n": 7,
+      "mean_d": 0.044709437468724085,
+      "null": -1.6149522738283941,
+      "excess": 1.6596617112971181,
+      "p": 0.00019998000199980003
+     },
+     "len": {
+      "n": 7,
+      "mean_d": 0.044709437468724085,
+      "null": -2.041015331650357,
+      "excess": 2.0857247691190812,
+      "p": 9.999000099990002e-05
+     }
+    }
+   }
+  },
+  "O1b_format_squares": {
+   "n": 208,
+   "mean_d": -1.786424452088833,
+   "null": -2.0323215677624127,
+   "excess": 0.24589711567357964,
+   "p": 0.0040995900409959,
+   "ci_mean_d": [
+    -1.934230633071109,
+    -1.6416324203846748
+   ]
+  },
+  "O2_abroad_nonround": {
+   "n": 7,
+   "mean_d": -1.8178777298862452,
+   "null": -2.0509347793053,
+   "excess": 0.23305704941905492,
+   "p": 0.31826817318268175
+  },
+  "O2_format_matched": {
+   "n": 7,
+   "mean_d": -1.8178777298862452,
+   "null": -1.842734348731882,
+   "excess": 0.024856618845636724,
+   "p": 0.47895210478952105
+  },
+  "O3": {
+   "n_home": 8,
+   "n_abroad": 23,
+   "diff": 0.17472913651271998,
+   "p": 0.49085091490850913
+  },
+  "holm": {
+   "O1": 0.00029997000299970003,
+   "O2": 0.6365363463653635,
+   "O3": 0.6365363463653635
+  },
+  "O1_nearcopy_dedup": {
+   "n": 31,
+   "mean_d": -0.032057107542993665,
+   "null": -1.6159458537678544,
+   "excess": 1.5838887462248608,
+   "p": 9.999000099990002e-05
+  }
+ },
+ "planted": {
+  "P1_power_shuffled_fmt_matched": 1.0,
+  "P2_fp_unshuffled_fmt_matched": 0.038,
+  "P3_O2_power": 1.0,
+  "P4_format_only_excess_mean": 0.5123609083668744,
+  "P4_ci": [
+   0.14635732984294228,
+   0.8804983811413073
+  ]
+ },
+ "verdict": {
+  "format_exists_discovery": false,
+  "heldout_can_confirm": false,
+  "order": "format does not explain the off-order",
+  "findspot_effect": "not detected"
+ },
+ "round_texts": [
+  {
+   "id": "114.1",
+   "grp": "home",
+   "site": "Chanhu-daro",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.448,
+   "seq": "W632 W390 W400 W375"
+  },
+  {
+   "id": "122.1",
+   "grp": "home",
+   "site": "Daimabad",
+   "L": 1,
+   "num1": false,
+   "op1": false,
+   "clL": true,
+   "d": null,
+   "seq": "W740"
+  },
+  {
+   "id": "147.1",
+   "grp": "abroad",
+   "site": "Failaka",
+   "L": 3,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.109,
+   "seq": "W090 W817 W317"
+  },
+  {
+   "id": "148.1",
+   "grp": "abroad",
+   "site": "Failaka",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.309,
+   "seq": "W716 W350 W001 W090"
+  },
+  {
+   "id": "2153.1",
+   "grp": "abroad",
+   "site": "Luristan",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.034,
+   "seq": "W091 W840 W413 W831"
+  },
+  {
+   "id": "2419.2",
+   "grp": "home",
+   "site": "Mohenjo-daro",
+   "L": 2,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 1.244,
+   "seq": "W001 W140"
+  },
+  {
+   "id": "2911.1",
+   "grp": "home",
+   "site": "Mohenjo-daro",
+   "L": 2,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.003,
+   "seq": "W832 W256"
+  },
+  {
+   "id": "2912.1",
+   "grp": "home",
+   "site": "Mohenjo-daro",
+   "L": 5,
+   "num1": true,
+   "op1": false,
+   "clL": false,
+   "d": -0.354,
+   "seq": "W016 W405 W001 W255 W324"
+  },
+  {
+   "id": "2913.1",
+   "grp": "home",
+   "site": "Mohenjo-daro",
+   "L": 1,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": null,
+   "seq": "W140"
+  },
+  {
+   "id": "2977.1",
+   "grp": "home",
+   "site": "Mohenjo-daro",
+   "L": 8,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -1.2,
+   "seq": "W700 W003 W692 W900 W003 W140 W592 W400"
+  },
+  {
+   "id": "3668.1",
+   "grp": "home",
+   "site": "Mohenjo-daro",
+   "L": 7,
+   "num1": false,
+   "op1": true,
+   "clL": false,
+   "d": -1.202,
+   "seq": "W820 W060 W002 W832 W140 W592 W055"
+  },
+  {
+   "id": "3863.1",
+   "grp": "abroad",
+   "site": "Qala'at al-Bahrain",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.417,
+   "seq": "W190 W060 W055 W090 W160"
+  },
+  {
+   "id": "3881.1",
+   "grp": "abroad",
+   "site": "Susa",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.128,
+   "seq": "W365 W090 W407 W604 W700"
+  },
+  {
+   "id": "3882.1",
+   "grp": "abroad",
+   "site": "Susa",
+   "L": 8,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.299,
+   "seq": "W924 W001 W319 W031 W055 W002 W150 W416"
+  },
+  {
+   "id": "3887.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 3,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.396,
+   "seq": "W190 W091 W603"
+  },
+  {
+   "id": "3888.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 4,
+   "num1": true,
+   "op1": false,
+   "clL": false,
+   "d": -0.683,
+   "seq": "W032 W132 W055 W090"
+  },
+  {
+   "id": "3889.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": true,
+   "d": -0.426,
+   "seq": "W467 W550 W001 W740 W740"
+  },
+  {
+   "id": "3897.1",
+   "grp": "abroad",
+   "site": "Ur",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.155,
+   "seq": "W528 W220 W924 W340 W093"
+  },
+  {
+   "id": "3898.1",
+   "grp": "abroad",
+   "site": "Ur",
+   "L": 6,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.804,
+   "seq": "W415 W803 W001 W328 W004 W002"
+  },
+  {
+   "id": "3899.1",
+   "grp": "abroad",
+   "site": "Ur",
+   "L": 3,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.183,
+   "seq": "W350 W090 W004"
+  },
+  {
+   "id": "4247.1",
+   "grp": "home",
+   "site": "Dholavira",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.139,
+   "seq": "W255 W368 W001 W091 W806"
+  },
+  {
+   "id": "5222.1",
+   "grp": "abroad",
+   "site": "Girsu",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": true,
+   "d": -0.791,
+   "seq": "W255 W013 W744 W740"
+  },
+  {
+   "id": "5223.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.232,
+   "seq": "W160 W384 W133 W001 W090"
+  },
+  {
+   "id": "5224.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 5,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.083,
+   "seq": "W033 W220 W001 W032 W061"
+  },
+  {
+   "id": "5225.1",
+   "grp": "abroad",
+   "site": "Ur",
+   "L": 2,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.483,
+   "seq": "W090 W001"
+  },
+  {
+   "id": "5226.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 3,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.83,
+   "seq": "W725 W090 W002"
+  },
+  {
+   "id": "5227.1",
+   "grp": "abroad",
+   "site": "Karzakan",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.972,
+   "seq": "W091 W031 W455 W220"
+  },
+  {
+   "id": "5228.1",
+   "grp": "abroad",
+   "site": "Karzakan",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.468,
+   "seq": "W091 W032 W001 W033"
+  },
+  {
+   "id": "5229.1",
+   "grp": "abroad",
+   "site": "Saar",
+   "L": 6,
+   "num1": true,
+   "op1": false,
+   "clL": false,
+   "d": 0.248,
+   "seq": "W055 W220 W091 W001 W093 W031"
+  },
+  {
+   "id": "5230.1",
+   "grp": "abroad",
+   "site": "Karzakan",
+   "L": 2,
+   "num1": false,
+   "op1": false,
+   "clL": true,
+   "d": null,
+   "seq": "W740 W740"
+  },
+  {
+   "id": "5231.1",
+   "grp": "abroad",
+   "site": "Ur",
+   "L": 2,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": -0.45,
+   "seq": "W090 W405"
+  },
+  {
+   "id": "5232.1",
+   "grp": "abroad",
+   "site": "Janabiyah",
+   "L": 7,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.482,
+   "seq": "W071 W031 W831 W055 W121 W099 W055"
+  },
+  {
+   "id": "5468.1",
+   "grp": "home",
+   "site": "Rakhigarhi",
+   "L": 4,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.808,
+   "seq": "W688 W317 W002 W361"
+  },
+  {
+   "id": "5551.1",
+   "grp": "abroad",
+   "site": "Kalba",
+   "L": 1,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": null,
+   "seq": "W091"
+  },
+  {
+   "id": "5557.1",
+   "grp": "unprov",
+   "site": "Unknown",
+   "L": 2,
+   "num1": false,
+   "op1": false,
+   "clL": false,
+   "d": 0.51,
+   "seq": "W139 W145"
+  }
+ ]
+}
