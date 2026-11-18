@@ -571,3 +571,35 @@ pre.code code { background: none; border: 0; padding: 0; font-size: inherit; ove
   .foot-news { max-width: none; }
 }
 @media (max-width: 380px) { .nl-row { flex-wrap: wrap; } .nl-btn { width: 100%; justify-content: center; } }
+
+/* Open-data illustration (index, section 05) */
+.data-split { align-items: center; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); }
+.data-fig { margin: 0; width: 100%; max-width: 600px; justify-self: end; }
+.data-fig svg { display: block; width: 100%; height: auto; overflow: visible; }
+.data-fig figcaption { margin-top: 8px; font-size: 12.5px; color: var(--muted); }
+.data-fig { --dv-shadow: rgb(70 45 25 / 0.16); }
+.dv-card { fill: var(--surface); stroke: var(--line-strong); stroke-width: 1; }
+.dv-line { fill: var(--line-strong); }
+.dv-rule { stroke: var(--line-strong); stroke-width: 1; }
+.dv-imp { fill: var(--plate); stroke: var(--line-strong); }
+.dv-animal { fill: var(--rule); opacity: .8; }
+.dv-animal .dv-horn, .dv-animal .dv-legs { fill: none; stroke: var(--rule); stroke-width: 2.2; stroke-linecap: round; }
+.dv-sign { filter: brightness(0); opacity: .82; }
+.dv-scratch { filter: brightness(0) invert(.95); opacity: .8; }
+.dv-label { paint-order: stroke; stroke: var(--surface); stroke-width: 3px; stroke-linejoin: round; }
+.dv-cap { font-family: var(--oi-display); font-weight: 700; font-size: 12px; letter-spacing: .06em; fill: var(--ink); }
+.dv-capsm { font-size: 10.5px; fill: var(--muted); }
+.dv-small { font-family: var(--oi-text); font-size: 9.5px; fill: var(--muted); }
+.dv-head { font-family: var(--oi-display); font-size: 9px; letter-spacing: .08em; fill: var(--muted); }
+.dv-mono { font-family: var(--mono); font-size: 10.5px; fill: var(--ink); }
+.dv-hl { fill: var(--accent-soft); }
+.dv-sherd { fill: var(--clay); opacity: .9; }
+.dv-sherd-rim { fill: none; stroke: rgb(0 0 0 / .18); stroke-width: 2; stroke-linecap: round; }
+.dv-coast { fill: none; stroke: var(--rule); stroke-width: 1.3; stroke-linejoin: round; stroke-linecap: round; }
+.dv-river { fill: none; stroke: var(--accent); stroke-width: 1.8; stroke-linecap: round; opacity: .8; }
+.dv-trade { fill: none; stroke: var(--clay); stroke-width: 1.2; stroke-dasharray: 3 4; }
+.dv-dot { fill: var(--ink); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .data-fig { --dv-shadow: rgb(0 0 0 / 0.5); } :root:not([data-theme="light"]) .dv-sign { filter: brightness(0) invert(.9); } }
+:root[data-theme="dark"] .data-fig { --dv-shadow: rgb(0 0 0 / 0.5); }
+:root[data-theme="dark"] .dv-sign { filter: brightness(0) invert(.9); }
+@media (max-width: 960px) { .data-split { grid-template-columns: minmax(0, 1fr); } .data-fig { justify-self: start; } }

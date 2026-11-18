@@ -545,6 +545,101 @@ def sign_band():
             f'<g filter="url(#press)">{"".join(imgs)}</g></svg></div></div>')
 
 
+def data_figure():
+    """Open-data section: an archive desk with four kinds of source. The register rows are real
+    (Mackay 1938 seal register, datasets/open/register_mackay1938_seals.csv); the rest is illustration."""
+    def sign(m, x, y, s, cls="dv-sign"):
+        return f'<image class="{cls}" href="assets/signs/M{m}.png" x="{x}" y="{y}" width="{s}" height="{s}"/>'
+
+    def proj(lon, lat):  # map card: lon 45-79, lat 18-34 -> 204 x 128
+        return 12 + (lon - 45) / 34 * 204, 12 + (34 - lat) / 16 * 128
+
+    def path(pts):
+        return "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in (proj(*p) for p in pts))
+
+    # report page: title, text lines and a plate of two seal impressions
+    lines = "".join(f'<rect x="22" y="{y}" width="{w}" height="3.2" rx="1.6" class="dv-line"/>'
+                    for y, w in ((66, 150), (75, 162), (84, 138), (93, 156)))
+    plate = ""
+    for k, signs in enumerate(((342, 99, 267), (176, 293, 59))):
+        x = 26 + k * 78
+        plate += f'<rect x="{x}" y="110" width="68" height="68" rx="7" class="dv-imp"/>'
+        plate += "".join(sign(m, x + 6 + j * 19, 116, 18) for j, m in enumerate(signs))
+        bx, by = x + 10, 140   # a small bull facing right: body, legs, neck, head, one horn
+        plate += (f'<g class="dv-animal" transform="translate({bx} {by})">'
+                  '<path d="M4 14 C4 6 12 4 24 5 C32 5 38 6 40 10 C41 16 36 19 26 19 C16 19 6 19 4 14 Z"/>'
+                  '<path d="M38 8 L44 3 C47 2 49 4 48 6 L44 10 Z"/>'
+                  '<path d="M45 3 C46 0 48 -2 51 -3" class="dv-horn"/>'
+                  '<path d="M9 18 L9 26 M15 19 L15 26 M30 19 L31 26 M36 17 L37 25 M4 13 C1 15 0 19 1 22" class="dv-legs"/></g>')
+    report = f'''<g transform="translate(18 34) rotate(-5)">
+<rect width="200" height="250" rx="6" class="dv-card" filter="url(#dvsh)"/>
+<text x="22" y="34" class="dv-cap">EXCAVATIONS AT HARAPPA</text>
+<text x="22" y="50" class="dv-small">Vats, 1940</text>
+{lines}{plate}
+<text x="26" y="194" class="dv-small">Fig. 1, 2 · seal impressions</text>
+<rect x="22" y="208" width="156" height="3.2" rx="1.6" class="dv-line"/>
+<rect x="22" y="217" width="132" height="3.2" rx="1.6" class="dv-line"/>
+</g>'''
+
+    rows = (("127", "9 / VIII / 10", "−6.7", "1.01"), ("269", "9 / XI / 75", "−9.3", "1.20"),
+            ("387", "9 / VI / 78", "−12.2", "0.98"), ("645", "12 / V / 95", "−20.2", "1.24"),
+            ("85", "14 / II / 8", "−5.9", "1.25"))
+    body = ""
+    for i, (no, spot, depth, size) in enumerate(rows):
+        y = 70 + i * 22
+        if i == 1:
+            body += f'<rect x="10" y="{y - 14}" width="236" height="20" rx="4" class="dv-hl"/>'
+        body += (f'<text x="18" y="{y}" class="dv-mono">{no}</text><text x="52" y="{y}" class="dv-mono">{spot}</text>'
+                 f'<text x="196" y="{y}" text-anchor="end" class="dv-mono">{depth}</text><text x="238" y="{y}" text-anchor="end" class="dv-mono">{size}</text>')
+    register = f'''<g transform="translate(196 84) rotate(3)">
+<rect width="256" height="186" rx="6" class="dv-card" filter="url(#dvsh)"/>
+<text x="18" y="28" class="dv-cap">SEAL REGISTER</text>
+<text x="238" y="28" text-anchor="end" class="dv-small">Mohenjo-daro, 1938</text>
+<line x1="10" y1="40" x2="246" y2="40" class="dv-rule"/>
+<text x="18" y="54" class="dv-head">NO.</text><text x="52" y="54" class="dv-head">FINDSPOT</text>
+<text x="196" y="54" text-anchor="end" class="dv-head">DEPTH FT</text><text x="238" y="54" text-anchor="end" class="dv-head">IN</text>
+{body}
+</g>'''
+
+    coast = path([(47.6, 30.4), (50.3, 29.2), (51.4, 27.9), (54.5, 26.6), (56.4, 27.1), (57.3, 25.8), (61.6, 25.2),
+                  (66.6, 25.4), (67.4, 24.4), (68.4, 23.6), (69.6, 22.9), (70.3, 22.7), (69.1, 22.4), (70.0, 21.0),
+                  (72.6, 21.2), (72.5, 22.3), (73.0, 19.6)])
+    arabia = path([(47.6, 30.4), (48.5, 28.6), (50.1, 26.6), (51.4, 24.6), (54.6, 24.2), (56.1, 26.2), (56.6, 24.2),
+                   (58.7, 23.5), (59.8, 22.4)])
+    river = path([(73.6, 33.6), (72.1, 31.6), (71.0, 29.4), (69.4, 28.2), (68.2, 26.6), (68.3, 25.2), (67.9, 24.4)])
+    sites = (("Harappa", 72.86, 30.63, 1), ("Mohenjo-daro", 68.14, 27.33, 1), ("Dholavira", 70.21, 23.89, 0),
+             ("Lothal", 72.25, 22.52, 0), ("Kalibangan", 74.13, 29.47, 0), ("Ur", 46.1, 30.96, 0), ("Dilmun", 50.55, 26.1, 0))
+    place = {"Harappa": (-6, -2, "end"), "Mohenjo-daro": (6, 3, "start"), "Dholavira": (-5, 11, "end"),
+             "Ur": (5, -3, "start"), "Dilmun": (-2, 13, "middle")}
+    dots = ""
+    for name, lon, lat, big in sites:
+        x, y = proj(lon, lat)
+        dots += f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{3.4 if big else 2.6}" class="dv-dot"/>'
+        if name in place:
+            dx, dy, anchor = place[name]
+            dots += f'<text x="{x + dx:.1f}" y="{y + dy:.1f}" text-anchor="{anchor}" class="dv-small dv-label">{name}</text>'
+    trade = path([(67.6, 24.6), (64.0, 24.4), (58.6, 24.6), (54.0, 25.6), (51.2, 26.2)])
+    mapc = f'''<g transform="translate(286 300) rotate(-2)">
+<rect width="228" height="152" rx="6" class="dv-card" filter="url(#dvsh)"/>
+<path d="{coast}" class="dv-coast"/><path d="{arabia}" class="dv-coast"/>
+<path d="{river}" class="dv-river"/><path d="{trade}" class="dv-trade"/>
+{dots}
+<text x="14" y="142" class="dv-cap dv-capsm">FIND SITES</text>
+</g>'''
+
+    sherd = f'''<g transform="translate(64 318) rotate(-8)">
+<path d="M8 22 C30 4 92 0 132 10 C150 16 156 40 148 66 C140 92 120 108 84 112 C54 116 26 104 12 84 C2 66 0 38 8 22 Z" class="dv-sherd" filter="url(#dvsh)"/>
+<path d="M20 30 C44 16 96 14 128 22" class="dv-sherd-rim"/>
+{sign(342, 50, 30, 56, "dv-scratch")}
+<text x="22" y="132" class="dv-cap dv-capsm">POTTERY MARKS</text>
+</g>'''
+    return (f'<figure class="data-fig"><svg viewBox="0 0 540 470" role="img" aria-label="Illustration of the kinds of data we gather: '
+            f'an excavation report with seal impressions, a seal register, a marked potsherd and a map of sites from the Indus to the Gulf">'
+            f'<defs><filter id="dvsh" x="-10%" y="-10%" width="130%" height="135%"><feDropShadow dx="0" dy="6" stdDeviation="7" style="flood-color:var(--dv-shadow)"/></filter></defs>'
+            f'{report}{register}{sherd}{mapc}</svg>'
+            f'<figcaption>Register rows are real: Mackay 1938, Mohenjo-daro seals.</figcaption></figure>')
+
+
 def plan_steps():
     out = ['<ol class="flow">']
     for i, (cls, t, st, d) in enumerate(PLAN, 1):
@@ -857,7 +952,7 @@ def main():
     built.append(render("index", f"{NAME}: decipher the Indus script by 2027",
                         "An open research group working to decipher the Indus script by 2027. Nothing is deciphered yet, and every test of a reading is published.",
                         "index.html", dict(common,
-                            HERO=seal_object(), BAND=sign_band(),
+                            HERO=seal_object(), BAND=sign_band(), DATA_FIG=data_figure(),
                             LADDER=ladder(caption=False),
                             FIG_TEXT=figure("EH_3", 1, "Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough")),
                         body_class="oi-page"))
