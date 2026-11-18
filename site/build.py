@@ -258,7 +258,7 @@ FINDINGS = [
     dict(n=4, level="moderate", novelty='partly', prior='Parpola and others suggested that Gulf seals carry unusual sign sequences, perhaps in another language. New here: round seals found in Indus cities break the order too.',
          head='Round seals from the Gulf break the usual rules', gist='Small round seals in a Gulf style were used by traders around Bahrain. Their signs come in an order Indus writers rarely used, wherever the seal was found. It could be another language, a special kind of seal, or imitation writing.',
          title="Round Gulf-type seals break normal sign order, wherever they were found",
-         plain="Round seals of the Gulf type, found abroad or at home, do not follow the usual sign order. This fits three readings our data cannot separate: another language, a round-seal genre in the Indus language, or pseudo-writing.",
+         plain="Round seals of the Gulf type, found abroad or at home, do not follow the usual sign order. This fits three readings our data cannot separate: another language, a round-seal genre in the Indus language, or pseudo-writing. They also rarely end with the usual closing sign (14% against about half of square seals). That different layout explains a third to a half of the odd order, not all of it.",
          nums="order excess +1.64 bits/sign on 8 home round seals (Holm p = 3e-4, rare-sign-matched null); foreign vs home round +0.11 (p = 0.66)",
          caveat="Corrected on 17 Nov 2026: a label error had hidden the home round seals. Only 3 of the 8 are confirmed round in a printed excavation report.",
          folders=["experiments/round_label_audit", "experiments/redteam_round_format", "experiments/redteam_round_order"]),

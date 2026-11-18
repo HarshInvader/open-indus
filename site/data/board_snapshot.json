@@ -441,10 +441,29 @@
    "id": 41,
    "ms": "M6",
    "title": "Red-team #39: do round seals' closer deficit and 'format explains only 24% of off-order' survive other order models and format definitions?",
-   "state": "ready",
-   "owner": "",
+   "state": "done",
+   "owner": "redteam-41",
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/redteam_round_seal_format/RESULTS.md",
+   "summary": "Closer deficit survives every variant (corrected 14% vs 51%, p=2e-4; W740-only p=0.023; LOO max p=5e-4). '24% explained' was a parsing bug in #39 (W817/W861/W154/W156/W526/W527 never matched): corrected format explains 36% of KN excess (CI 31-41%), 42% grammar, 54% positional; KN remainder +1.35 bits/sign p=1e-4; find-spot power only 0.27 at +0.5 bits/sign."
+  },
+  {
+   "id": 42,
+   "ms": "M5",
+   "title": "M99 relator: does X M99 Y join two attested whole-text units?",
+   "state": "running",
+   "owner": "N6",
+   "waits": []
+  },
+  {
+   "id": 43,
+   "ms": "M5",
+   "title": "Genre detection floor at ~2,300 texts",
+   "state": "running",
+   "owner": "research",
    "waits": []
   }
  ],
- "snapshot": "2026-11-18 04:25"
+ "snapshot": "2026-11-18 04:33"
 }
