@@ -18,7 +18,7 @@
    "fig": "restore",
    "rank": 6,
    "idea": "Grade the new sign-restoration model fairly, with near-copies kept out of its test set",
-   "thumbnail_alt": "A paper seal diagram with an empty slot and three geometric candidates for restoring it.",
+   "thumbnail_alt": "Illustration: a clay sealing with one sign broken away, the gap outlined and a candidate sign shown in it.",
    "result": "experiments/bench_restoration/RESULTS.md"
   },
   {
@@ -36,7 +36,7 @@
    "borrow": "The equal-effort, held-out rule is now our standard for any reopened “language or code” test.",
    "status": "adopted",
    "fig": "balance",
-   "thumbnail_alt": "Two abstract manuscript pages balanced on equal scales for a fair comparison."
+   "thumbnail_alt": "Illustration: an Indus seal and a manuscript page resting level on the same beam."
   },
   {
    "id": "dominik-2026",
@@ -55,7 +55,7 @@
    "fig": "never",
    "rank": 7,
    "idea": "Check a sharp grammar rule: one sign that supposedly never follows the arrow sign",
-   "thumbnail_alt": "Two geometric token pairs, one route blocked and one connected, illustrating a sign-order test.",
+   "thumbnail_alt": "Illustration: two bar seals; one pair of signs joins, the other pairing never occurs and is crossed out.",
    "result": "experiments/dominik_w090/RESULTS.md"
   },
   {
@@ -73,7 +73,7 @@
    "borrow": "Every new claim we test must also fail on SIGIL-style emblem data. We use it as a standing negative control.",
    "status": "adopted",
    "fig": "twin",
-   "thumbnail_alt": "Two matching collections of geometric emblems on paired sheets of paper.",
+   "thumbnail_alt": "Illustration: a seal with Indus signs beside a seal with invented symbols, marked as equal.",
    "result": "experiments/bench2026/RESULTS.md"
   },
   {
@@ -91,7 +91,7 @@
    "borrow": "We used Linear Elamite as a known-answer test for our own name-matching method. The method could not recover its values, so we stopped it rather than run it on Indus.",
    "status": "done",
    "fig": "crown",
-   "thumbnail_alt": "An illustrated collected edition beside a clay tablet, with a crown representing royal names.",
+   "thumbnail_alt": "Illustration: stacked edition pages of an unread script with a crown medallion for kings’ names.",
    "result": "experiments/crib_le_known_answer/RESULTS.md"
   },
   {
@@ -109,7 +109,7 @@
    "borrow": "Agrees with our finding that each kind of object has its own vocabulary. Nothing new to run.",
    "status": "noted",
    "fig": "scale",
-   "thumbnail_alt": "A heraldic shield and an administrative checklist joined by a sliding marker."
+   "thumbnail_alt": "Illustration: a shield, an Indus seal and a tally tablet on one scale, with the seal marked between them."
   },
   {
    "id": "uae-seal-2026",
@@ -126,7 +126,7 @@
    "borrow": "We looked for an excavation report and found none, and the news page is now offline. It stays out of our data until the find is published.",
    "status": "waiting",
    "fig": "round",
-   "thumbnail_alt": "A blank circular specimen silhouette, a magnifying glass and waves for an unverified Gulf find.",
+   "thumbnail_alt": "Illustration: a round Gulf-style seal with Indus signs, outlined as reported and not yet seen.",
    "result": "experiments/uaq_seal/RESULTS.md"
   },
   {
@@ -144,7 +144,7 @@
    "borrow": "Nothing to borrow. Their best result was already known, and the rest fails.",
    "status": "closed",
    "fig": "unique",
-   "thumbnail_alt": "Repeated geometric sequences on overlapping cards examined through a magnifying glass.",
+   "thumbnail_alt": "Illustration: three seals; the first and last carry the same text, linked by an arc.",
    "result": "experiments/bench2026/RESULTS.md"
   },
   {
@@ -162,7 +162,7 @@
    "borrow": "We have asked the agency whether readings proposed there can be scored on our open test bench.",
    "status": "waiting",
    "fig": "calendar",
-   "thumbnail_alt": "A paper calendar with three adjacent terracotta days highlighted."
+   "thumbnail_alt": "Illustration: three clay tiles, one sign on each, bracketed as three days."
   },
   {
    "id": "protoelamite-2025",
@@ -181,7 +181,7 @@
    "fig": "compose",
    "rank": 5,
    "idea": "Use the Proto-Elamite toolkit: look-alikes, compound signs and number systems",
-   "thumbnail_alt": "An abstract accounting tablet with groups of counters connected to sorted entries.",
+   "thumbnail_alt": "Illustration: a clay accounting tablet with number impressions and marks; one entry is outlined.",
    "result": "experiments/protocuneiform/RESULTS.md"
   },
   {
@@ -201,7 +201,7 @@
    "fig": "detect",
    "rank": 4,
    "idea": "Read signs straight from seal photos, to fix the 1-in-5 disagreements between transcriptions",
-   "thumbnail_alt": "Detection boxes around geometric tokens and a stylised animal on an illustrated tablet."
+   "thumbnail_alt": "Illustration: a seal with signs and a bull, each found by a detection box."
   },
   {
    "id": "tyc-2025",
@@ -220,7 +220,7 @@
    "fig": "lookalike",
    "rank": 8,
    "idea": "Test the claim that Indus signs look most like Himalayan scripts",
-   "thumbnail_alt": "Matching geometric shapes on two cards against a simplified mountain landscape.",
+   "thumbnail_alt": "Illustration: an Indus seal beside a mountain rock carved with a similar mark.",
    "result": "experiments/redteam_ivc2tyc/RESULTS.md"
   },
   {
@@ -238,7 +238,7 @@
    "borrow": "We tested whether look-alikes behave alike. They do not, so this route is closed for now.",
    "status": "closed",
    "fig": "pots",
-   "thumbnail_alt": "Three terracotta pots bearing simple geometric marks, linked along a catalogue line."
+   "thumbnail_alt": "Illustration: three clay pots, each scratched with a mark; one is outlined."
   },
   {
    "id": "proskouriakoff-1960",
@@ -257,7 +257,7 @@
    "fig": "life",
    "rank": 1,
    "idea": "Match sign patterns to what happened to each seal: broken on purpose, buried with someone, found at a gate",
-   "thumbnail_alt": "A stylised stela with abstract panels connected to three events on a timeline.",
+   "thumbnail_alt": "Illustration: a carved stone stela with glyph blocks, three of them linked to points on a timeline.",
    "result": "experiments/reg_findspot/RESULTS.md"
   },
   {
@@ -275,7 +275,7 @@
    "borrow": "The backbone of our main transcription.",
    "status": "adopted",
    "fig": "grid",
-   "thumbnail_alt": "A layered paper catalogue with a grid of geometric tokens and a measuring rule."
+   "thumbnail_alt": "Illustration: a catalogue page printed with a grid of Indus signs."
   },
   {
    "id": "parpola-1994",
@@ -292,7 +292,7 @@
    "borrow": "We turned his readings into predictions and tested them. Six + fish holds as a fixed unit; “seven stars” is not supported; the fish signs group together but do not behave like god names.",
    "status": "done",
    "fig": "fishstar",
-   "thumbnail_alt": "An illustrated fish and a constellation connected to represent a proposed rebus.",
+   "thumbnail_alt": "Illustration: a seal cut with the fish sign, linked to a carved star.",
    "result": "experiments/redteam/RESULTS.md"
   },
   {
@@ -310,7 +310,7 @@
    "borrow": "We test whether the signs are language at all, instead of assuming it.",
    "status": "adopted",
    "fig": "short",
-   "thumbnail_alt": "A short row of geometric tokens beside an emblem shield, comparing writing and symbols.",
+   "thumbnail_alt": "Illustration: a seal with a short text beside an emblem shield.",
    "result": "experiments/language_vs_code/RESULTS.md"
   },
   {
@@ -328,7 +328,7 @@
    "borrow": "Treat entropy, Zipf and n-gram arguments as closed in both directions.",
    "status": "closed",
    "fig": "entropy",
-   "thumbnail_alt": "Overlapping statistical bands with markers showing that different systems can share a range.",
+   "thumbnail_alt": "Illustration: a stone cut with two overlapping range bands and a marker where they overlap.",
    "result": "experiments/language_vs_code/RESULTS.md"
   },
   {
@@ -346,7 +346,7 @@
    "borrow": "Our round-seal finding builds on this, and adds that round seals found in Indus cities break the order too.",
    "status": "done",
    "fig": "round",
-   "thumbnail_alt": "Rectangular and round tablet diagrams with reordered geometric tokens above sea waves.",
+   "thumbnail_alt": "Illustration: a round Gulf seal and a square Indus seal with the same signs in a different order.",
    "result": "experiments/redteam_foreign/RESULTS.md"
   },
   {
@@ -364,7 +364,7 @@
    "borrow": "We tested the planted-language version at Indus size. Without the right language, it fails, so this route waits for an outside clue.",
    "status": "closed",
    "fig": "match",
-   "thumbnail_alt": "Two columns of geometric tokens joined by curved lines, illustrating language matching.",
+   "thumbnail_alt": "Illustration: a column of Indus signs linked to empty slots where a known related language would be.",
    "result": "experiments/cognate_decipher/RESULTS.md"
   },
   {
@@ -382,7 +382,7 @@
    "borrow": "Background only. It narrows the likely language families but gives no sign values.",
    "status": "noted",
    "fig": "dna",
-   "thumbnail_alt": "A terracotta and indigo DNA helix beside an abstract location marker."
+   "thumbnail_alt": "Illustration: a clay tile carved with a DNA double helix, one rung marked."
   },
   {
    "id": "mukhopadhyay-2019",
@@ -401,7 +401,7 @@
    "fig": "goods",
    "rank": 2,
    "idea": "Check whether fish signs cluster at bead-making sites, as the “fish = gem” reading predicts",
-   "thumbnail_alt": "A parcel with a geometric label, a storage jar and a row of beads.",
+   "thumbnail_alt": "Illustration: a storage jar tied with a cord and sealed with a clay tag stamped with signs.",
    "result": "experiments/assemblage/RESULTS.md"
   },
   {
@@ -419,7 +419,7 @@
    "borrow": "This is why we search for names of people from the Indus region in cuneiform records, and asked museums for seal impressions on tablets that name them.",
    "status": "adopted",
    "fig": "crown",
-   "thumbnail_alt": "An illustrated beaker under a crown linked to geometric tokens on a paper record.",
+   "thumbnail_alt": "Illustration: a silver beaker with a band of marks, linked to a crown medallion.",
    "result": "experiments/sealing_hunt/RESULTS.md"
   },
   {
@@ -439,7 +439,7 @@
    "fig": "cluster",
    "rank": 3,
    "idea": "Build the sign list from pictures plus context, to settle about 400 vs about 700 signs",
-   "thumbnail_alt": "Two clusters of similar geometric shapes, with incoming examples being sorted."
+   "thumbnail_alt": "Illustration: a clay slab with two groups of similar sign shapes, each circled."
   }
  ]
 }

@@ -193,6 +193,7 @@
       return res.json().catch(function () { return {}; }).then(function (data) {
         if (res.ok && data.ok) {
           form.reset();
+          if (window.posthog && posthog.capture) posthog.capture('newsletter_signup', { where: form.closest('footer') ? 'footer' : 'page' });
           say('Almost done. Check your inbox for a confirmation email. You are not subscribed until you click the link in it.', 'success');
         } else if (res.status === 429) {
           say('Too many tries. Wait a few minutes and try again.', 'error');
@@ -203,5 +204,31 @@
     }).catch(function () {
       say(navigator.onLine === false ? OFFLINE : 'Unable to reach the server. Check your connection and try again.', 'error');
     }).then(function () { button.disabled = false; form.removeAttribute('aria-busy'); });
+  });
+})();
+
+/* Visitor analytics (PostHog), set up like Caddie's website. PH_KEY is the Open Indus project's public key
+   (PostHog › Project settings › Project API key). Empty: nothing loads and nothing is sent.
+   Sends pageviews and time on page ($pageview, $pageleave), referrers and UTM tags, clicks (autocapture) and errors.
+   No session replay, no visitor profiles (identified_only), never the email typed into the signup form.
+   Extra events: newsletter_signup (above), download_clicked. Off for anyone with Global Privacy Control,
+   or after localStorage 'openindus-analytics-off' = '1'. */
+(function () {
+  var PH_KEY = '';
+  var PH_HOST = 'https://us.i.posthog.com';
+  if (!PH_KEY || navigator.globalPrivacyControl === true) return;
+  try { if (localStorage.getItem('openindus-analytics-off') === '1') return; } catch (e) { /* no storage: no opt-out on record */ }
+  !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once unregister identify alias reset get_distinct_id opt_out_capturing opt_in_capturing".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  var path = location.pathname.replace(/\.html$/, '').replace(/\/+$/, '') || '/';
+  posthog.init(PH_KEY, {
+    api_host: PH_HOST, ui_host: 'https://us.posthog.com', person_profiles: 'identified_only',
+    disable_session_recording: true, autocapture: true, capture_pageleave: true, capture_exceptions: true,
+    mask_all_text: false, mask_all_element_attributes: false,
+    autocapture_options: { element_allowlist: ['a', 'button'] } // links and buttons only, so form inputs are never read
+  });
+  posthog.register({ surface: 'openindus', page: path === '/' || path === '/index' ? 'home' : path.replace(/^\//, '') });
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href*="assets/downloads/"]');
+    if (a) posthog.capture('download_clicked', { file: a.getAttribute('href').split('/').pop() });
   });
 })();
