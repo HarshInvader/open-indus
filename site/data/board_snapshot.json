@@ -460,10 +460,13 @@
    "id": 43,
    "ms": "M5",
    "title": "Genre detection floor at ~2,300 texts",
-   "state": "running",
+   "state": "done",
    "owner": "research",
-   "waits": []
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/genre_floor/RESULTS.md",
+   "summary": "Weakest genre the HMM mixture or formula model finds with power>=0.8 at ~2,270 texts is 0.57 bits/text (LCA, vocab+formula+length plant); HMM never reaches 0.8 up to ~0.5 bits; null false alarms 0/10; Indus object type is 0.15, so genres-from-scratch closes (NEGATIVE_ATLAS text proposed). Near-copy chaining fixed by leader clustering (largest family 571->8); near miss: pure-length genre 7/10 at 0.14 bits (logistic 0.17)."
   }
  ],
- "snapshot": "2026-11-18 04:33"
+ "snapshot": "2026-11-18 05:33"
 }

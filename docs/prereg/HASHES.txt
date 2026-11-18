@@ -306,3 +306,7 @@ b3a27917a9291e2b1af89234f144bb20d88b960ebe50ba787a8a3cab68e3a258  docs/prereg/re
 9b26c45b7bb0cbca6451ad989023d06fd12369c4a7d005a89066ee8760484990  docs/prereg/genre_floor.md  2026-11-18T09:31:29Z  genre_floor board#43
 860702f7742e8f0f8fa55c556ba3d580ddded7eda6a7ad3e585aa707f5fab264  experiments/genre_floor/floor.py  2026-11-18T09:31:29Z  genre_floor board#43
 56740c7e9f42d1bba3aa3a85c078114bd4f3214d9ea8e8e75d8b4c38632db8e1  experiments/genre_floor/run.py  2026-11-18T09:31:29Z  genre_floor board#43
+7ebab968401ff67b8d52bf3cd954983d6bdb2b66d04141cbad3f06e8c535c5a6  docs/prereg/m99_relator.md  2026-11-18T09:57:38Z  m99_relator board#42
+3daa0359d5152f077f6532465e1b58a7eb5ffb17c10d8034ef16550ab664b293  experiments/m99_relator/rel_lib.py  2026-11-18T09:57:38Z  m99_relator board#42
+821c7644d46cad6631612364bf1a52ce06f9d350e997812af5e8e8f788949bcb  experiments/m99_relator/rel_control.py  2026-11-18T09:57:38Z  m99_relator board#42
+ccc472bd10a9532581588584e08919217452ab8cd9252aa85e08f2d73fb8ff98  experiments/m99_relator/rel_indus.py  2026-11-18T09:57:38Z  m99_relator board#42

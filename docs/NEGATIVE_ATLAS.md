@@ -371,6 +371,19 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 
 ---
 
+### 4.10 Text genres found from the signs alone
+- **Question.** Do Indus texts fall into text types (genres) that an unsupervised model can find from the signs alone?
+- **Method.** HMM mixture and formula latent-class model (#34). Detection floor measured with planted genres on 2,269 real M77 texts (#43), with near-copy families rebuilt without chaining.
+- **Result.** On Indus, K* = 1 for every valid model (#34). The floor for power 0.8 at Indus size is 0.57 bits/text: the formula model on a genre that differs in vocabulary, formula and length together. The HMM is never reliable on genres made inside Indus texts up to about 0.5 bits. Null false alarms: 0/10. Real Indus object type carries 0.15 bits.
+- **Not excluded.** Genres weaker than about 0.5 bits/text, including object-type registers (0.15). Pure length types are excluded only above about 0.17 bits.
+- **Excluded.** A strong split like Mesopotamian seal legends vs tags (1.15 bits; the HMM finds it, and finds even a diluted version at 0.02 bits of label signal).
+- **Verdict.** Closed at stated power (methods blind below about 0.5 bits/text at 2,300 texts).
+- **Folder.** `experiments/genres_scratch`, `experiments/genre_floor`.
+- **Prereg.** `genres_from_scratch.md`, `genre_floor.md`.
+- **Reopen with.** A corpus several times larger, or a labelled known-answer genre corpus of Indus-like weakness, or a model shown to beat 0.15 bits on these plants.
+
+---
+
 ## 5. Administrative and relational readings
 
 ### 5.1 Administrative structure (14 predictions)
@@ -1014,6 +1027,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 4.7 | Fish = deity | Untestable | AUC 0.32-0.54 | Valid statistic |
 | 4.8 | Tool cluster | Refuted | p = 0.66 | None |
 | 4.9 | Fixed compounds | Refuted | Missed by 0.003 | None |
+| 4.10 | Genres from signs alone | Untestable at this corpus size | Methods blind below ~0.5 bits/text; Indus object type is 0.15 | Much larger corpus or a stronger model |
 | 5.1 | Administration (14) | Refuted | Large effects only | CISI 3.1 lots |
 | 5.2 | Rank ladder | Refuted | MDE rho 0.12 | More measured seals |
 | 5.3 | Tablet archives | Refuted (T1, T3) | 0.96-0.98 | CISI 3.1 lots |
