@@ -1,0 +1,274 @@
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+compute lock held by pid 86980: .venv/bin/python -I experiments/signlist_shape/indus.py i1; waiting 20s
+synth 0 {'BG2': (6, 1.0), 'LCA': (2, 1.0), 'HMM': (1, 1.0)}
+synth 1 {'BG2': (5, 1.0), 'LCA': (4, 1.0), 'HMM': (1, 1.0)}
+synth 3 {'BG2': (6, 1.0), 'LCA': (3, 1.0), 'HMM': (1, 1.0)}
+synth 2 {'BG2': (6, 1.0), 'LCA': (3, 1.0), 'HMM': (1, 1.0)}
+0.0 0 {'BG2': (6, 0.028), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+synth 4 {'BG2': (6, 1.0), 'LCA': (4, 1.0), 'HMM': (1, 1.0)}
+0.0 1 {'BG2': (6, 0.291), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.0 2 {'BG2': (6, 0.812), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.0 3 {'BG2': (6, 0.485), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.0 4 {'BG2': (6, 0.22), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.15 0 {'BG2': (6, 0.22), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.15 1 {'BG2': (6, 0.016), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.15 2 {'BG2': (6, 0.527), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.15 3 {'BG2': (6, 0.489), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.15 4 {'BG2': (6, 0.533), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.3 0 {'BG2': (6, 0.493), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.3 1 {'BG2': (6, 0.555), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.3 2 {'BG2': (6, 0.409), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.3 3 {'BG2': (6, 0.012), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.3 4 {'BG2': (6, 0.03), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.5 0 {'BG2': (6, 0.028), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.5 1 {'BG2': (6, 0.244), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.5 2 {'BG2': (6, 0.046), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.5 3 {'BG2': (6, 0.152), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+0.5 4 {'BG2': (6, 0.06), 'LCA': (1, 1.0), 'HMM': (1, 1.0)}
+{'cun_genre': 1.1497530638202493, 'lat_genre': 0.35349552604825646, 'm77_obj': 0.14923816705425663, 'm77_site': 0.013465993410676926, 'icit_shape': 0.15199792032458287, 'icit_reg': 0.4361851407028402, 'plant_f0.15': -0.01044858818530907, 'plant_f0.3': 0.004417892811598385, 'plant_f0.5': 0.05750418668560407}
+{'HMM': {'n_round': 36, 'n_foreign_round': 17, 'obs': 11.906526683987774, 'p': 0.0001999600079984003, 'round_genres': [3, 11, 18, 4], 'square_share': [0.337, 0.17, 0.244, 0.249]}, 'LCA': {'n_round': 36, 'n_foreign_round': 17, 'obs': 9.282902913691366, 'p': 0.0005998800239952009, 'round_genres': [8, 15, 7, 6], 'square_share': [0.243, 0.149, 0.194, 0.414]}, 'BG': {'n_round': 36, 'n_foreign_round': 17, 'obs': 0.42537398510263946, 'p': 0.8330333933213357, 'round_genres': [9, 11, 7, 9], 'square_share': [0.296, 0.275, 0.223, 0.205]}}
+{
+ "0": {
+  "n": 512,
+  "mean_len": 4.013671875,
+  "markers": [
+   "M130",
+   "M136",
+   "M384",
+   "M149",
+   "M193",
+   "M217"
+  ],
+  "first": [
+   [
+    "M65",
+    18
+   ],
+   [
+    "M67",
+    18
+   ],
+   [
+    "M204",
+    17
+   ]
+  ],
+  "last": [
+   [
+    "M342",
+    197
+   ],
+   [
+    "M176",
+    66
+   ],
+   [
+    "M1",
+    24
+   ]
+  ],
+  "obj": [
+   [
+    "seal",
+    296
+   ],
+   [
+    "sealing",
+    113
+   ],
+   [
+    "tablet",
+    43
+   ],
+   [
+    "pottery",
+    24
+   ]
+  ]
+ },
+ "1": {
+  "n": 302,
+  "mean_len": 4.639072847682119,
+  "markers": [
+   "M178",
+   "M202",
+   "M321",
+   "M407",
+   "M389",
+   "M2"
+  ],
+  "first": [
+   [
+    "M86",
+    18
+   ],
+   [
+    "M336",
+    16
+   ],
+   [
+    "M389",
+    14
+   ]
+  ],
+  "last": [
+   [
+    "M211",
+    57
+   ],
+   [
+    "M342",
+    39
+   ],
+   [
+    "M15",
+    27
+   ]
+  ],
+  "obj": [
+   [
+    "seal",
+    216
+   ],
+   [
+    "sealing",
+    44
+   ],
+   [
+    "tablet",
+    16
+   ],
+   [
+    "copper",
+    15
+   ]
+  ]
+ },
+ "2": {
+  "n": 548,
+  "mean_len": 5.310218978102189,
+  "markers": [
+   "M267",
+   "M123",
+   "M286",
+   "M99",
+   "M66",
+   "M242"
+  ],
+  "first": [
+   [
+    "M267",
+    156
+   ],
+   [
+    "M391",
+    75
+   ],
+   [
+    "M293",
+    34
+   ]
+  ],
+  "last": [
+   [
+    "M342",
+    228
+   ],
+   [
+    "M211",
+    54
+   ],
+   [
+    "M254",
+    23
+   ]
+  ],
+  "obj": [
+   [
+    "seal",
+    475
+   ],
+   [
+    "sealing",
+    50
+   ],
+   [
+    "tablet",
+    9
+   ],
+   [
+    "pottery",
+    7
+   ]
+  ]
+ },
+ "3": {
+  "n": 336,
+  "mean_len": 3.75,
+  "markers": [
+   "M96",
+   "M137",
+   "M19",
+   "M295",
+   "M252",
+   "M409"
+  ],
+  "first": [
+   [
+    "M17",
+    9
+   ],
+   [
+    "M345",
+    8
+   ],
+   [
+    "M87",
+    8
+   ]
+  ],
+  "last": [
+   [
+    "M176",
+    30
+   ],
+   [
+    "M162",
+    28
+   ],
+   [
+    "M342",
+    18
+   ]
+  ],
+  "obj": [
+   [
+    "seal",
+    216
+   ],
+   [
+    "sealing",
+    51
+   ],
+   [
+    "tablet",
+    28
+   ],
+   [
+    "pottery",
+    17
+   ]
+  ]
+ }
+}

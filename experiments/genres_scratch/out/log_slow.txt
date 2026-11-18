@@ -1,0 +1,13 @@
+compute lock held by pid 69002: .venv/bin/python -I experiments/consensus_corpus/corpora.py; waiting 20s
+compute lock held by pid 69002: .venv/bin/python -I experiments/consensus_corpus/corpora.py; waiting 20s
+compute lock held by pid 69002: .venv/bin/python -I experiments/consensus_corpus/corpora.py; waiting 20s
+compute lock held by pid 69002: .venv/bin/python -I experiments/consensus_corpus/corpora.py; waiting 20s
+compute lock held by pid 69002: .venv/bin/python -I experiments/consensus_corpus/corpora.py; waiting 20s
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_cun_LDA.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_cun_HMM.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_m77_LDA.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_m77_HMM.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_icit_LDA.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_icit_HMM.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_lat_LDA.json
+done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_lat_HMM.json
