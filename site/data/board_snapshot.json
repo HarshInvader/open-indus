@@ -353,34 +353,98 @@
    "id": 33,
    "ms": "M5",
    "title": "Proskouriakoff test: object fate vs sign content",
-   "state": "running",
+   "state": "done",
    "owner": "N1",
-   "waits": []
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/seal_fate/RESULTS.md",
+   "summary": "Fate vs text mostly null: street/lane vs room at MD shows no sign-class (p=0.33, power 0.82-1.0 at 1.5x) or length difference (p=0.96); Harappa broken seals match random fragments of intact seals (p=0.34). One prereg test passed alone (MD '?'-dimension seals carry 1.7x closers, Holm p=0.018) but failed its replication rule at Harappa (closer z=+0.98); burnt/cut/reused/hoard/burial/drain fates are 0-10 cases in the registers and untestable."
   },
   {
    "id": 34,
    "ms": "M5",
    "title": "Genres from scratch: unsupervised text types checked against objects",
-   "state": "running",
+   "state": "done",
    "owner": "N2",
-   "waits": []
+   "waits": [],
+   "verdict": "untestable",
+   "path": "experiments/genres_scratch/RESULTS.md",
+   "summary": "Undetermined: no unsupervised model (bigram/HMM/formula/topic mixtures, K by family CV) finds Indus genres (all K*=1 on M77 and ICIT); the HMM mixture passes the cuneiform known-answer test (seal/tag/brick, ARI 0.65) but fails Latin and has 0/5 power on planted genres, and the real object-type signal (0.15 supervised bits/text) is below the detectable range (missed Latin at 0.35, found cuneiform at 1.15), so only gross genres are ruled out. Exploratory forced-K=4: home and foreign round seals fall alike into a short numeral-opening type, away from the long opener formula (18/36 vs 24% of square seals, p=0.0002)."
   },
   {
    "id": 35,
    "ms": "M6",
    "title": "Consensus corpus: rerun headline tests at the real transcription error rate",
-   "state": "running",
+   "state": "done",
    "owner": "N3",
-   "waits": []
+   "waits": [],
+   "verdict": "positive",
+   "path": "experiments/consensus_corpus/RESULTS.md",
+   "summary": "With our own mapping errors fixed (fish pairing, M389, Wells' single signs for doubled M77 signs), M77 and ICIT disagree on 12.9% of signs (CI 11.1-14.9%), not 19.4%. All nine headline tests pass on the consensus corpus (2,065 texts), on ICIT readings of 3,210 linked sides, and under measured-structure noise at 12.9% (10 seeds; #7 8/10, #10b 9/10, others 10/10); #7 has only 8 L-R lines both editions agree on, and #10b weakens at 1.5x (3/5)."
   },
   {
    "id": 36,
    "ms": "M5",
    "title": "Sign list from shape plus context: 400 vs 700 signs",
-   "state": "running",
+   "state": "done",
    "owner": "N4",
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/signlist_shape/RESULTS.md",
+   "summary": "Texts cannot decide 400 vs 700: 459/712 Wells signs have <=2 training tokens, and on the 20 testable Wells splits held-out ICIT is indifferent (-0.0007 nats/tok, CI -0.0096..+0.0067); among testable signs held-out prefers slightly fewer than 417 (path argmax 387, 95% 387-407) but this size criterion failed calibration on proto-cuneiform/Proto-Elamite. Pre-registered shape+context merging failed its planted bar (recall 0.91, precision 0.70<0.8; real PC/PE variant precision 0.20-0.43; context-only 1%); shape-only merges did better (PE precision 0.86-0.88; Indus 353-label list +0.018 nats/tok, CI +0.006..+0.032) - sent to M6."
+  },
+  {
+   "id": 37,
+   "ms": "M6",
+   "title": "Red team seal_fate H2: closer excess on MD '?'-dimension seals",
+   "state": "done",
+   "owner": "redteam_seal_fate",
+   "waits": [],
+   "verdict": "negative",
+   "path": "experiments/redteam_seal_fate/RESULTS.md",
+   "summary": "WEAKENED (red team): end-anchored null at Harappa broken-seal rates cuts the MD '?'-seal closer excess from x1.97 to x1.37 (p=0.049); matched on each seal's own M77 break pattern p=0.081, vs same-length whole texts p=0.30, so the excess is short texts plus kept text-ends. All 34 '?' cells are printed (not OCR) and 20/34 carry M77 break marks (OR 8.2); only M342 alone stays ~1.5x (raw p 0.01-0.02, Holm 0.06)."
+  },
+  {
+   "id": 38,
+   "ms": "M6",
+   "title": "Red team #35: do the headline tests really survive the real transcription error rate?",
+   "state": "done",
+   "owner": "redteam38",
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/redteam_consensus/RESULTS.md",
+   "summary": "Claim A survives: the corrected concordance is not tuned (fish pairing best of 120, decided by 22/23, 37/38 counts); split-half out-of-sample disagreement 14.0% (12.2-16.0), in-sample optimism 0.6 pt, so README may say ~13% not 19%. Claim B weakened: #3 holds (p=0.043 on my consensus corpus, 30/30 noise runs); #10b passes only 3/5 runs under rare-sign noise at the measured rate (2/5 at 1.5x); #7 unconfirmable and the linked objects flatter it (20/20 vs 17/24 unlinked)."
+  },
+  {
+   "id": 39,
+   "ms": "M5",
+   "title": "Round-seal format: do round seals share a short numeral-opening text type?",
+   "state": "done",
+   "owner": "research-agent",
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/round_seal_format/RESULTS.md",
+   "summary": "Lead fails: round seals do not open with numerals more (3/28=11% vs 13%, p=0.72) and are not shorter; they do lack closers (14% vs 45%, Holm p=0.003; discovery set only, held-out n=2 power 0.01). That format explains only 24% (CI 18-30%) of the round-seal order excess (+1.58 of +2.07 bits/sign remains, p=1e-4), and find-spot adds nothing (square seals abroad +0.23 p=0.32; abroad-home round +0.17 p=0.49), so off-order goes with round shape, not with format or place."
+  },
+  {
+   "id": 40,
+   "ms": "M6",
+   "title": "Red-team: shape-only merge list (353 labels) beats M77 on held-out texts",
+   "state": "done",
+   "owner": "redteam_shape",
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/redteam_signlist_shape/RESULTS.md",
+   "summary": "WEAKENED. Shape-only list beats M77 on M77 v2 held-out even with numerals apart and no hapax chains (+0.016 nats/sign, CI +0.003..+0.029; band-matched random merges p=0.003; scorer is label-invariant and reproduces N4's +0.018), but half the gain is one merge (fish M67=M70=M72, +0.008), it does not replicate on post-1977 ICIT texts (+0.008, CI -0.009..+0.026) and the frequent-token gain CI touches 0; site must not say 'texts lean below the 400-sign list'."
+  },
+  {
+   "id": 41,
+   "ms": "M6",
+   "title": "Red-team #39: do round seals' closer deficit and 'format explains only 24% of off-order' survive other order models and format definitions?",
+   "state": "ready",
+   "owner": "",
    "waits": []
   }
  ],
- "snapshot": "2026-11-18 00:36"
+ "snapshot": "2026-11-18 04:24"
 }
