@@ -1,0 +1,48 @@
+{
+ "summary": {
+  "1": {
+   "EXACT": {
+    "power": 0.8333333333333334,
+    "median_rank": 1.0,
+    "z_sig": 0.75,
+    "n": 12
+   },
+   "RELATIVE": {
+    "power": 0.5,
+    "median_rank": 1.5,
+    "z_sig": 0.25,
+    "n": 12
+   }
+  },
+  "2": {
+   "EXACT": {
+    "power": 1.0,
+    "median_rank": 1.0,
+    "z_sig": 1.0,
+    "n": 12
+   },
+   "RELATIVE": {
+    "power": 0.5833333333333334,
+    "median_rank": 1.0,
+    "z_sig": 0.5,
+    "n": 12
+   }
+  },
+  "3": {
+   "EXACT": {
+    "power": 1.0,
+    "median_rank": 1.0,
+    "z_sig": 1.0,
+    "n": 12
+   },
+   "RELATIVE": {
+    "power": 0.6666666666666666,
+    "median_rank": 1.0,
+    "z_sig": 0.6666666666666666,
+    "n": 12
+   }
+  }
+ },
+ "feasible_relative": false,
+ "n_cells": 12
+}
