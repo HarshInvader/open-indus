@@ -302,3 +302,7 @@ b03e498b6874aaf964c07746741498e7ea29cbb7a4e86009d6aa396ee82e48bd  docs/prereg/re
 98636b2b719ce97ff0752f4f1cd79560b1eb4e43731cb0f9c356b0da9c3c1914  docs/prereg/redteam_consensus.md  2026-11-18T08:07:52Z  redteam_consensus board#38
 c21ab038faa39bb7f4b553418f537c9c3f7259ec9e38518c13d969edae0d09a1  docs/prereg/round_seal_format.md  2026-11-18T09:14:38Z  round_seal_format board#39
 9e7b56b730cf81c95d500382188903da0eacdf961368fdd6324f5025e10de136  docs/prereg/redteam_signlist_shape.md  2026-11-18T09:15:49Z  redteam_shape board#40
+b3a27917a9291e2b1af89234f144bb20d88b960ebe50ba787a8a3cab68e3a258  docs/prereg/redteam_round_seal_format.md  2026-11-18T09:28:57Z  redteam_round_seal_format board#41
+9b26c45b7bb0cbca6451ad989023d06fd12369c4a7d005a89066ee8760484990  docs/prereg/genre_floor.md  2026-11-18T09:31:29Z  genre_floor board#43
+860702f7742e8f0f8fa55c556ba3d580ddded7eda6a7ad3e585aa707f5fab264  experiments/genre_floor/floor.py  2026-11-18T09:31:29Z  genre_floor board#43
+56740c7e9f42d1bba3aa3a85c078114bd4f3214d9ea8e8e75d8b4c38632db8e1  experiments/genre_floor/run.py  2026-11-18T09:31:29Z  genre_floor board#43
