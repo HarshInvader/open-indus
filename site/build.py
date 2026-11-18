@@ -879,14 +879,14 @@ def finding_fig(n):
            row([60, 99, 267, 176], 44, 58) + f'<rect x="41" y="55" width="28" height="28" rx="4" class="hw-mark"/>' + T(4, 73, "ticks") + T(160, 73, "← end"),
         4: '<circle cx="48" cy="48" r="36" class="hw-card"/>' + row([267, 59, 99], 18, 37, 0, 20) +
            box(118, 14, 68, 68) + row([99, 267, 342], 124, 37, 0, 20) + T(48, 94, "Gulf round seal", a="middle") + T(152, 94, "usual square seal", a="middle"),
-        5: f'<rect x="40" y="18" width="80" height="44" rx="22" class="hw-pill"/>' + row([109, 59], 52, 25, 12, 30) +
-           T(136, 45, "always") + T(136, 58, "together") + T(80, 84, "like “New York”", a="middle"),
+        5: f'<rect x="50" y="12" width="100" height="48" rx="24" class="hw-pill"/>' + row([109, 59], 66, 21, 8, 30) +
+           T(100, 80, "always together, like “New York”", a="middle"),
         6: box(8, 18, 44, 44) + _sign_img(342, 19, 29, S) + T(30, 80, "seal", a="middle") +
            box(70, 26, 60, 28) + row([99, 176], 76, 29, 4) + T(100, 80, "tablet", a="middle") +
            '<path d="M152 18 h28 l-4 8 c10 8 10 26 0 36 h-20 c-10 -10 -10 -28 0 -36 z" class="hw-card"/>' + _sign_img(267, 155, 32, 22) + T(166, 80, "pot", a="middle"),
         7: T(8, 24, "most") + row([342, 99, 267], 52, 8) + '<path d="M150 20 H190" class="hw-arrow"/><path d="M155 15 L150 20 L155 25" class="hw-arrow"/>' +
            T(8, 66, "a few") + row([267, 99, 342], 52, 50) + '<path d="M150 62 H190" class="hw-arrow hi"/><path d="M185 57 L190 62 L185 67" class="hw-arrow hi"/>',
-        8: "".join(box(10 + i * 62, 14 - i * 0, 52, 56) + f'<circle cx="{36 + i * 62}" cy="32" r="10" class="hw-pic"/>' + _sign_img(176, 26 + i * 62, 46, 18) for i in range(3)) +
+        8: "".join(box(17 + i * 62, 14, 52, 56) + f'<circle cx="{43 + i * 62}" cy="32" r="10" class="hw-pic"/>' + _sign_img(176, 34 + i * 62, 46, 18) for i in range(3)) +
            T(100, 88, "same text + picture, repeated", a="middle"),
         9: "".join(box(x, 20, w, 40, "hw-slot") + T(x + w / 2, 78, l, a="middle") for x, w, l in ((8, 52, "opening"), (66, 70, "middle"), (142, 52, "closing"))) +
            row([342], 23, 29) + row([267, 176], 75, 29, 4) + row([99], 157, 29),
