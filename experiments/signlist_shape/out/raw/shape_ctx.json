@@ -1,0 +1,276 @@
+{
+ "variant": "shape_ctx",
+ "n_labels": 296,
+ "n_ho_dropped_as_copies": 17,
+ "type": {
+  "n_dev": 1650,
+  "n_ho": 547,
+  "T1": {
+   "n_runs": 316,
+   "share": 0.427,
+   "chance": 0.056,
+   "ratio": 7.62,
+   "p": 2.5612745724048033e-198,
+   "survives": true
+  },
+  "T2": {
+   "final": 11,
+   "tokens": 18,
+   "share": 0.611,
+   "plain_share": 0.071,
+   "null_mean": 0.207,
+   "p": 0.08964451313755796,
+   "survives": false
+  },
+  "T3": {
+   "six_labels": [
+    "M116"
+   ],
+   "fish_labels": [
+    "M59"
+   ],
+   "n": 11,
+   "k": 7,
+   "base": 0.031,
+   "p": 8.1031911424866e-09,
+   "survives": true
+  },
+  "T4": {
+   "classes": {
+    "copper tablet": {
+     "n": 14,
+     "auc": 0.871,
+     "null95": 0.633
+    },
+    "miniature tablet": {
+     "n": 26,
+     "auc": 0.758,
+     "null95": 0.589
+    },
+    "pottery graffito": {
+     "n": 22,
+     "auc": 0.738,
+     "null95": 0.607
+    },
+    "seal": {
+     "n": 404,
+     "auc": 0.731,
+     "null95": 0.548
+    },
+    "sealing": {
+     "n": 67,
+     "auc": 0.659,
+     "null95": 0.563
+    }
+   },
+   "above": 5,
+   "n_classes": 5,
+   "mean_auc": 0.751,
+   "survives": true
+  },
+  "T5": {
+   "n_rl": 2029,
+   "n_lr": 148,
+   "n_clean": 31,
+   "as_labelled": 28,
+   "share": 0.903,
+   "p": 2.3245811462402344e-06,
+   "survives": true
+  },
+  "T6": {
+   "n_core_types": 302,
+   "len1_share": 0.351,
+   "standalone_tok": 0.854,
+   "survives": true
+  },
+  "T7": {
+   "test_pairs": 48,
+   "occurrences": 114,
+   "agree": 90,
+   "share": 0.789,
+   "p": 1.7931080049979568e-10,
+   "survives": true
+  },
+  "T8": {
+   "SC1": {
+    "members": [
+     "M72",
+     "M59",
+     "M65",
+     "M46",
+     "M75"
+    ],
+    "obs": 0.1068,
+    "null": 0.06,
+    "p": 0.02348825587206397
+   },
+   "SC5": {
+    "obs": 0.1122,
+    "null": 0.0709,
+    "p": 0.0014992503748125937
+   },
+   "SC7": {
+    "partners": [
+     "M345",
+     "M389",
+     "M53",
+     "M171",
+     "M245"
+    ],
+    "hits": 29,
+    "n": 106,
+    "share": 0.274,
+    "base": 0.231,
+    "p": 0.17761011824505796
+   },
+   "n_pass": 2,
+   "survives": true
+  },
+  "T9": {
+   "n": 516,
+   "coverage": 0.725,
+   "shuffle": 0.398,
+   "shuffle_sd": 0.017,
+   "z": 18.9,
+   "survives": true
+  }
+ },
+ "token": {
+  "n_dev": 2593,
+  "n_ho": 810,
+  "T1": {
+   "n_runs": 388,
+   "share": 0.433,
+   "chance": 0.058,
+   "ratio": 7.46,
+   "p": 1.111613259432965e-239,
+   "survives": true
+  },
+  "T2": {
+   "final": 12,
+   "tokens": 19,
+   "share": 0.632,
+   "plain_share": 0.058,
+   "null_mean": 0.205,
+   "p": 0.08834291688447465,
+   "survives": false
+  },
+  "T3": {
+   "six_labels": [
+    "M116"
+   ],
+   "fish_labels": [
+    "M59"
+   ],
+   "n": 14,
+   "k": 9,
+   "base": 0.0299,
+   "p": 3.323831685110666e-11,
+   "survives": true
+  },
+  "T4": {
+   "classes": {
+    "copper tablet": {
+     "n": 30,
+     "auc": 0.775,
+     "null95": 0.595
+    },
+    "ivory/bone rod": {
+     "n": 6,
+     "auc": 0.696,
+     "null95": 0.704
+    },
+    "miniature tablet": {
+     "n": 125,
+     "auc": 0.841,
+     "null95": 0.547
+    },
+    "pottery graffito": {
+     "n": 40,
+     "auc": 0.782,
+     "null95": 0.577
+    },
+    "seal": {
+     "n": 463,
+     "auc": 0.751,
+     "null95": 0.533
+    },
+    "sealing": {
+     "n": 134,
+     "auc": 0.582,
+     "null95": 0.551
+    }
+   },
+   "above": 5,
+   "n_classes": 6,
+   "mean_auc": 0.738,
+   "survives": true
+  },
+  "T5": {
+   "n_rl": 2977,
+   "n_lr": 235,
+   "n_clean": 35,
+   "as_labelled": 31,
+   "share": 0.886,
+   "p": 1.7327256500720978e-06,
+   "survives": true
+  },
+  "T6": {
+   "n_core_types": 281,
+   "len1_share": 0.363,
+   "standalone_tok": 0.854,
+   "survives": true
+  },
+  "T7": {
+   "test_pairs": 46,
+   "occurrences": 127,
+   "agree": 102,
+   "share": 0.803,
+   "p": 1.5603329496451916e-12,
+   "survives": true
+  },
+  "T8": {
+   "SC1": {
+    "members": [
+     "M72",
+     "M59",
+     "M65",
+     "M46",
+     "M75"
+    ],
+    "obs": 0.1009,
+    "null": 0.0498,
+    "p": 0.0029985007496251873
+   },
+   "SC5": {
+    "obs": 0.1285,
+    "null": 0.0875,
+    "p": 0.009995002498750625
+   },
+   "SC7": {
+    "partners": [
+     "M345",
+     "M389",
+     "M53",
+     "M171",
+     "M245"
+    ],
+    "hits": 27,
+    "n": 103,
+    "share": 0.262,
+    "base": 0.253,
+    "p": 0.45232055950864186
+   },
+   "n_pass": 2,
+   "survives": true
+  },
+  "T9": {
+   "n": 724,
+   "coverage": 0.75,
+   "shuffle": 0.38,
+   "shuffle_sd": 0.015,
+   "z": 23.9,
+   "survives": true
+  }
+ }
+}
