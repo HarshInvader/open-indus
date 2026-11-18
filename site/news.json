@@ -434,7 +434,7 @@
    "gist": "Images plus context sorted Cypro-Minoan’s variant shapes into signs.",
    "plain": "Scholars disagree about whether two similar shapes are one sign or two. For Cypro-Minoan, this team let a model look at each sign’s picture and where it appears, and group them. The Indus script has the same problem: the two main sign lists count about 400 and about 700 signs.",
    "tech": "Sign2Vec: unsupervised clustering on image features plus distributional context, validated on Cypro-Minoan with known-answer checks.",
-   "borrow": "We tried it on two older scripts whose sign lists are known. Shape plus context merged too many signs that are not the same, and context alone was almost always wrong. Shape alone did best. On the Indus texts it points to slightly fewer than the 400-sign list, but the 700 side cannot be tested: most of those extra signs appear once or twice. A second team is now checking the shape-only list.",
+   "borrow": "We tried it on two older scripts whose sign lists are known. Shape plus context merged too many signs that are not the same, and context alone was almost always wrong. Shape alone did best. On the Indus texts, a shape-only list fits unseen texts a little better than the 400-sign list, but a second team found half of that gain is one choice (three fish shapes counted as one sign) and it did not repeat on texts found after 1977. So the texts do not settle the count. The 700 side cannot be tested at all: most of those extra signs appear once or twice.",
    "status": "done",
  "result": "experiments/signlist_shape/RESULTS.md",
    "fig": "cluster",
