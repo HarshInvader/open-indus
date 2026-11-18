@@ -320,3 +320,5 @@ bff924f8ea88ca1cdc9a556cb8c22767ff428e64b97b9e3c1f2a9dfb7d3cfc09  experiments/fo
 e98651ce4aa2fc9bcb09729dd2e4550f44b2598aeb373eb1eb8b8d6cd2d6e331  experiments/m342_offsite/m342.py  2026-11-18T10:50:26Z  m342_offsite board#45 amendment A1
 cb9a4422215cfc1a33782b6e6d17257fc76e9abd0ec984cf298ed55fa2824cb5  docs/prereg/redteam_decipherability.md  2026-11-18T20:47:50Z  redteam_decipherability board#46
 9b50a1fd45179e6941d0dcd31c181572f7ed3226f18c38a084151cf93dda5d4e  experiments/redteam_decipherability/rt.py  2026-11-18T21:09:29Z  redteam_decipherability board#46 code (text length mix computed from mean word length, per prereg)
+23d68e8a15b37ef98858ae4399eaa4b4344065a6e6b1020f0fe0ff75dec36ac7  docs/prereg/slot_function.md  2026-11-18T22:09Z  sealed before any real outcome (smoke runs on shuffled/planted data only). Notes: ICIT distinct = first record per seq; A bootstrap is stratified by class
+16280b7fab06af4c476400f6c96a7a3c0d9edb6fd2619e519d7cceb377b0ca11  experiments/slot_function/sf.py  2026-11-18T22:09Z  sealed before any real outcome (smoke runs on shuffled/planted data only). Notes: ICIT distinct = first record per seq; A bootstrap is stratified by class
