@@ -54,7 +54,7 @@
     <div class="say overview">
       <p><b>Done means ten signs.</b> Each needs a sound value backed by evidence outside the texts (a name tied to an object, a bilingual, or values fixed independently) that correctly predicts texts it was not built from, under a test sealed in advance, and survives a second team that tries to break it. Today the count is 0.</p>
       <p><b>Names are the usual route.</b> A personal name keeps its sound in any language. Whether round seals spell foreign names is now our weakest assumption.</p>
-      <p><b>A failed check would stop us.</b> If the name method cannot recover Linear Elamite, read in 2022, we drop it.</p>
+      <p><b>Our name method failed its check, so we stopped it.</b> It recovered nothing from Linear Elamite, a script read in 2022. Sound values now wait on evidence from outside the texts.</p>
     </div>
     <nav class="jump" aria-label="On this page"><a href="#goal">The goal</a><a href="#rules">Four rules</a><a href="#bench">Test bench</a><a href="#redteam">Red team</a><a href="#agents">Agent team</a><a href="#directions">Directions</a><a href="#odds">Routes to sounds</a><a href="#plan">Plan</a></nav>
   </div>
@@ -73,6 +73,7 @@
   <p class="rail"><span>02</span>Rules</p>
   <div class="content">
     <h2 id="rules">Four rules stop a good-looking result from fooling us</h2>
+    <ol class="pipe" aria-label="The path every claim takes"><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10 V7 a4 4 0 0 1 8 0 V10"/></svg><b>Seal the plan</b><span>Written down and fingerprinted first</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M15.5 5 V19"/></svg><b>Build on ¾</b><span>A quarter of the texts kept aside</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 L20 20"/></svg><b>Test once on ¼</b><span>No tuning on the kept texts</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.2"/><circle cx="15" cy="15" r="1.2"/><circle cx="15" cy="9" r="1.2"/><circle cx="9" cy="15" r="1.2"/></svg><b>Beat chance</b><span>Against shuffles, every test counted</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 L19 6 V11 C19 16 16 19 12 21 C8 19 5 16 5 11 V6 Z"/><path d="M9 12 L11 14 L15 10"/></svg><b>Red team</b><span>A second team tries to break it</span></li><li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3 H14 L18 7 V21 H6 Z"/><path d="M14 3 V7 H18 M9 12 H15 M9 16 H15"/></svg><b>Publish</b><span>Whether it holds or fails</span></li></ol>
     <ol class="rules">
       <li><b>Seal the plan before the test</b><span>We write each test down first and log its SHA-256 fingerprint, a code that changes if one letter changes. The file 2026-11-14_new_finds_predictions.md was sealed on <span class="nw">2026-11-15</span> as <code>b30497e184b142bf…</code></span></li>
       <li><b>Test on texts kept aside</b><span>We build on three quarters of the texts. We test once on the rest, and never tune on them.</span></li>
@@ -80,7 +81,7 @@
       <li><b>Find a planted answer first</b><span>A method must first recover the answer from a corpus of the same size where the answer is known.</span></li>
     </ol>
     <div class="figures">
-      <a href="https://github.com/HarshInvader/open-indus/tree/main/docs/prereg"><b>78</b><span>plans sealed</span></a>
+      <a href="https://github.com/HarshInvader/open-indus/tree/main/docs/prereg"><b>80</b><span>plans sealed</span></a>
       <a href="https://github.com/HarshInvader/open-indus/blob/main/docs/test_ledger.csv"><b>851</b><span>tests in the public ledger</span></a>
       <a href="findings.html#closed"><b>79</b><span>routes tested and closed</span></a>
       <a href="findings.html#h-rev"><b>36</b><span>of our own results reversed</span></a>
@@ -129,9 +130,9 @@
 <section class="block wrap" aria-labelledby="plan">
   <p class="rail"><span>05</span>Plan</p>
   <div class="content">
-    <h2 id="plan">Next we prove the method on Linear Elamite, a script whose answer is known</h2>
-    <p class="intro">The first name method failed on planted data. The redesign uses short name lists and exact matches.</p>
-    <ol class="flow"><li class="step ok"><span class="dot" aria-hidden="true">1</span><div><div class="sh">Collect every Indus-sign object found abroad <span class="tag ok">Done</span></div><p>55 objects. 41 have two or more readable signs, and only 9 of their readings are safe.</p></div></li><li class="step ok"><span class="dot" aria-hidden="true">2</span><div><div class="sh">List the names their owners could have had <span class="tag ok">Done</span></div><p>7,776 names from cuneiform records, and 50 Elamite names. No list of Gulf names exists.</p></div></li><li class="step fail"><span class="dot" aria-hidden="true">3</span><div><div class="sh">Prove the name-matching method on planted data <span class="tag fail">Failed as designed</span></div><p>With a long name list, the true answer scores below answers fitted to noise, even at 120 texts.</p></div></li><li class="step next"><span class="dot" aria-hidden="true">4</span><div><div class="sh">Redesign it, then try it on Linear Elamite <span class="tag next">Running</span></div><p>Short name lists, exact matches only. Linear Elamite was deciphered in 2022, so the right answer is known. If the method fails there, it stops.</p></div></li><li class="step "><span class="dot" aria-hidden="true">5</span><div><div class="sh">Run it on the round seals, home and abroad <span class="tag ">Waiting</span></div><p>If names fit the home seals as well as the foreign ones, the method is fitting the seal type, not names.</p></div></li></ol>
+    <h2 id="plan">The name method failed on Linear Elamite, so we stopped it</h2>
+    <p class="intro">We said in advance that a failure on a script with a known answer would end the method. It did fail, so the next step needs evidence from outside the texts.</p>
+    <ol class="flow"><li class="step ok"><span class="dot" aria-hidden="true">1</span><div><div class="sh">Collect every Indus-sign object found abroad <span class="tag ok">Done</span></div><p>55 objects. 41 have two or more readable signs, and only 9 of their readings are safe.</p></div></li><li class="step ok"><span class="dot" aria-hidden="true">2</span><div><div class="sh">List the names their owners could have had <span class="tag ok">Done</span></div><p>7,776 names from cuneiform records, and 50 Elamite names. No list of Gulf names exists.</p></div></li><li class="step fail"><span class="dot" aria-hidden="true">3</span><div><div class="sh">Prove the name-matching method on planted data <span class="tag fail">Failed as designed</span></div><p>With a long name list, the true answer scores below answers fitted to noise, even at 120 texts.</p></div></li><li class="step fail"><span class="dot" aria-hidden="true">4</span><div><div class="sh">Redesign it, then try it on Linear Elamite <span class="tag fail">Failed, stopped</span></div><p>Linear Elamite was read in 2022, so the right answer is known. Short lists and exact matches recovered none of its values: too few of its words carry a known name. As promised, the method stops here.</p></div></li><li class="step fail"><span class="dot" aria-hidden="true">5</span><div><div class="sh">Run it on the round seals, home and abroad <span class="tag fail">Not run</span></div><p>There is no point running a method that failed its known-answer check.</p></div></li><li class="step next"><span class="dot" aria-hidden="true">6</span><div><div class="sh">Wait for outside evidence, with the tests frozen <span class="tag next">Now</span></div><p>Requests are out for seal impressions on tablets that name men of Meluhha, museum images and excavation records. What each one could show is fixed in advance.</p></div></li></ol>
   </div>
 </section>
 
@@ -142,10 +143,10 @@
 <path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/>
 <path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/>
 <path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/>
-</svg><div><b>Open Indus</b><p class="foot-goal">Goal: decipher the Indus script by 2027</p><p>An open research group. Nothing here is a decipherment yet.</p></div></div>
+</svg><div><b>Open Indus</b><p class="foot-goal">Goal: decipher the Indus script by 2027</p></div></div>
     <section class="foot-news" id="newsletter" aria-labelledby="newsletter-h">
       <h2 class="foot-h" id="newsletter-h">Stay up to date</h2>
-      <p class="nl-what">An occasional email when a result lands, whether it holds or fails. About one a month at most.</p>
+      <p class="nl-what">New results by email, about once a month.</p>
       <form class="nl" id="newsletter-form" novalidate>
         <label class="nl-label" for="newsletter-email">Email address</label>
         <div class="nl-row">
@@ -157,7 +158,7 @@
           <input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off">
         </div>
         <p class="nl-status" id="newsletter-status" role="status" aria-live="polite"></p>
-        <p class="nl-privacy" id="newsletter-privacy">We store your email address and the date you signed up, and use them only to send these updates. Every email has an unsubscribe link.</p>
+        <p class="nl-privacy" id="newsletter-privacy">Used only for these emails. Unsubscribe any time.</p>
       </form>
     </section>
     <nav class="foot-cols" aria-label="Site map">
@@ -173,7 +174,7 @@
         <a href="resources.html#font">Typeface licence (OFL)</a>
       </div>
     </nav>
-    <p class="foot-note">Contact: Open an issue on GitHub. Seal photographs are cropped from excavation reports published 1931 to 1940 (Marshall 1931, Mackay 1938, Vats 1940); their rights are set out in the licences file. Sign drawings follow Mahadevan’s 1977 sign list. The carved seal at the top of the home page is an illustration, not a real object. Page built 17 Nov 2026.</p>
+    <p class="foot-note">Contact: Open an issue on GitHub. Seal photos come from excavation reports of 1931 to 1940.</p>
   </div>
 </footer>
 <script src="assets/site.js"></script>

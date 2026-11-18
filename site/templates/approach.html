@@ -6,7 +6,7 @@
     <div class="say overview">
       <p><b>Done means ten signs.</b> Each needs a sound value backed by evidence outside the texts (a name tied to an object, a bilingual, or values fixed independently) that correctly predicts texts it was not built from, under a test sealed in advance, and survives a second team that tries to break it. Today the count is 0.</p>
       <p><b>Names are the usual route.</b> A personal name keeps its sound in any language. Whether round seals spell foreign names is now our weakest assumption.</p>
-      <p><b>A failed check would stop us.</b> If the name method cannot recover Linear Elamite, read in 2022, we drop it.</p>
+      <p><b>Our name method failed its check, so we stopped it.</b> It recovered nothing from Linear Elamite, a script read in 2022. Sound values now wait on evidence from outside the texts.</p>
     </div>
     <nav class="jump" aria-label="On this page"><a href="#goal">The goal</a><a href="#rules">Four rules</a><a href="#bench">Test bench</a><a href="#redteam">Red team</a><a href="#agents">Agent team</a><a href="#directions">Directions</a><a href="#odds">Routes to sounds</a><a href="#plan">Plan</a></nav>
   </div>
@@ -25,6 +25,7 @@
   <p class="rail"><span>02</span>Rules</p>
   <div class="content">
     <h2 id="rules">Four rules stop a good-looking result from fooling us</h2>
+    {{FIG_PIPE}}
     <ol class="rules">
       <li><b>Seal the plan before the test</b><span>We write each test down first and log its SHA-256 fingerprint, a code that changes if one letter changes. The file {{HASH_FILE}} was sealed on <span class="nw">{{HASH_TIME}}</span> as <code>{{HASH}}…</code></span></li>
       <li><b>Test on texts kept aside</b><span>We build on three quarters of the texts. We test once on the rest, and never tune on them.</span></li>
@@ -81,8 +82,8 @@
 <section class="block wrap" aria-labelledby="plan">
   <p class="rail"><span>05</span>Plan</p>
   <div class="content">
-    <h2 id="plan">Next we prove the method on Linear Elamite, a script whose answer is known</h2>
-    <p class="intro">The first name method failed on planted data. The redesign uses short name lists and exact matches.</p>
+    <h2 id="plan">The name method failed on Linear Elamite, so we stopped it</h2>
+    <p class="intro">We said in advance that a failure on a script with a known answer would end the method. It did fail, so the next step needs evidence from outside the texts.</p>
     {{PLAN}}
   </div>
 </section>

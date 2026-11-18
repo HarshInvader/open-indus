@@ -331,10 +331,13 @@
    "id": 31,
    "ms": "M6",
    "title": "Red-team #30: does README #3 (ticked fish final) hold on complete single-line texts?",
-   "state": "ready",
-   "owner": "",
-   "waits": []
+   "state": "done",
+   "owner": "lead",
+   "waits": [],
+   "verdict": "positive",
+   "path": "experiments/redteam_tick_complete/RESULTS.md",
+   "summary": "#30 survives an independent reimplementation: ticked fish final 9/16 (CI 0.30-0.80) vs plain 3/144 on complete single-line held-out; within-text-shuffle p=0.007, length-matched p=0.0004, all attacks (no doubtful readings, seals only, length>=4, LOO worst 0.002, formula collapse 0.018) p<0.02. Exploratory out-of-corpus: post-1977 ICIT sites 4/6 final (p=0.02-0.04); weak spots: 13/16 tokens from Mohenjo-daro, multi-line and non-MD sites untested."
   }
  ],
- "snapshot": "2026-11-17 18:21"
+ "snapshot": "2026-11-17 20:28"
 }

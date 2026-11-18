@@ -278,8 +278,9 @@ PLAN = [
     ("ok", "Collect every Indus-sign object found abroad", "Done", "55 objects. 41 have two or more readable signs, and only 9 of their readings are safe."),
     ("ok", "List the names their owners could have had", "Done", "7,776 names from cuneiform records, and 50 Elamite names. No list of Gulf names exists."),
     ("fail", "Prove the name-matching method on planted data", "Failed as designed", "With a long name list, the true answer scores below answers fitted to noise, even at 120 texts."),
-    ("next", "Redesign it, then try it on Linear Elamite", "Running", "Short name lists, exact matches only. Linear Elamite was deciphered in 2022, so the right answer is known. If the method fails there, it stops."),
-    ("", "Run it on the round seals, home and abroad", "Waiting", "If names fit the home seals as well as the foreign ones, the method is fitting the seal type, not names."),
+    ("fail", "Redesign it, then try it on Linear Elamite", "Failed, stopped", "Linear Elamite was read in 2022, so the right answer is known. Short lists and exact matches recovered none of its values: too few of its words carry a known name. As promised, the method stops here."),
+    ("fail", "Run it on the round seals, home and abroad", "Not run", "There is no point running a method that failed its known-answer check."),
+    ("next", "Wait for outside evidence, with the tests frozen", "Now", "Requests are out for seal impressions on tablets that name men of Meluhha, museum images and excavation records. What each one could show is fixed in advance."),
 ]
 
 DATA_ASKS = [
@@ -639,6 +640,117 @@ def data_figure():
             f'</figure>')
 
 
+def _sign_img(m, x, y, s, cls="ag-sign"):
+    return f'<image class="{cls}" href="assets/signs/M{m}.png" x="{x}" y="{y}" width="{s}" height="{s}"/>'
+
+
+def fig_signs():
+    """Findings 01: 48 of Mahadevan's sign drawings as a grid."""
+    ids = field_ids()[:48]
+    cells = "".join(_sign_img(m, 6 + (k % 8) * 36, 6 + (k // 8) * 36, 28) for k, m in enumerate(ids))
+    return (f'<figure class="art-fig"><svg viewBox="0 0 300 228" role="img" aria-label="A grid of 48 Indus signs as drawn by Mahadevan">'
+            f'<rect x="0.5" y="0.5" width="299" height="227" rx="8" class="ag-card"/>{cells}</svg>'
+            f'<figcaption>48 of about 400 signs, as drawn in Mahadevan 1977.</figcaption></figure>')
+
+
+def fig_mirror():
+    """Findings 01: a seal is cut in mirror image; its impression reads right to left."""
+    row = SEAL_ROW[:4]
+    S, Y, IX, SX, W = 26, 40, 162, 6, 132           # sign size, row y, impression and seal square x, square width
+    imp_u = [W - 12 - S - k * 29 for k in range(len(row))]       # reading order starts at the right
+    imp = "".join(_sign_img(m, IX + u, Y, S) for m, u in zip(row, imp_u))
+    seal = "".join(f'<g transform="translate({SX + (W - u - S) + S} 0) scale(-1 1)">{_sign_img(m, 0, Y, S)}</g>'
+                   for m, u in zip(row, imp_u))
+    bull = ('<path d="M4 14 C4 6 12 4 24 5 C32 5 38 6 40 10 C41 16 36 19 26 19 C16 19 6 19 4 14 Z" class="ag-animal"/>'
+            '<path d="M38 8 L44 3 C47 2 49 4 48 6 L44 10 Z" class="ag-animal"/>'
+            '<path d="M45 3 C46 0 48 -2 51 -3 M9 18 L9 26 M15 19 L15 26 M30 19 L31 26 M36 17 L37 25 M4 13 C1 15 0 19 1 22" class="ag-legs"/>')
+    return (f'<figure class="art-fig"><svg viewBox="0 0 300 200" role="img" aria-label="Diagram: the seal is carved in mirror image; pressed into clay, the impression reads from right to left">'
+            f'<rect x="{SX}" y="20" width="{W}" height="{W}" rx="10" class="ag-seal"/>{seal}'
+            f'<g transform="translate({SX + W - 26} 84) scale(-1.6 1.6)">{bull}</g>'
+            f'<rect x="{IX}" y="20" width="{W}" height="{W}" rx="10" class="ag-imp"/>{imp}'
+            f'<g transform="translate({IX + 26} 84) scale(1.6)">{bull}</g>'
+            f'<path d="M142 86 L158 86" class="ag-arrow"/><path d="M153 81 L159 86 L153 91" class="ag-arrow"/>'
+            f'<path d="M282 166 L176 166" class="ag-read"/><path d="M183 161 L176 166 L183 171" class="ag-read"/>'
+            f'<text x="{SX + W / 2:.0f}" y="170" text-anchor="middle" class="ag-lab">SEAL</text>'
+            f'<text x="{SX + W / 2:.0f}" y="184" text-anchor="middle" class="ag-small">cut in reverse</text>'
+            f'<text x="{IX + W / 2:.0f}" y="186" text-anchor="middle" class="ag-lab">IMPRESSION</text>'
+            f'<text x="{IX + W / 2:.0f}" y="198" text-anchor="middle" class="ag-small">read right to left</text></svg>'
+            f'<figcaption>Seals were cut in mirror image, so the impression reads the right way round.</figcaption></figure>')
+
+
+def fig_map():
+    """Findings 01: the Indus cities, the Gulf and Mesopotamia, with the sea route."""
+    def proj(lon, lat):
+        return 10 + (lon - 43) / 36 * 300, 12 + (36 - lat) / 18 * 200
+
+    def path(pts):
+        return "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in (proj(*p) for p in pts))
+    coast = path([(47.9, 30.0), (50.3, 29.2), (51.4, 27.9), (54.5, 26.6), (56.4, 27.1), (57.3, 25.8), (61.6, 25.2),
+                  (66.6, 25.4), (67.4, 24.4), (68.4, 23.6), (69.6, 22.9), (70.3, 22.7), (69.1, 22.4), (70.0, 21.0),
+                  (72.6, 21.2), (72.5, 22.3), (73.0, 19.6), (73.5, 18.2)])
+    arabia = path([(47.9, 30.0), (48.5, 28.6), (50.1, 26.6), (51.4, 24.6), (54.6, 24.2), (56.1, 26.2), (56.6, 24.2),
+                   (58.7, 23.5), (59.8, 22.4), (59.0, 20.6), (57.8, 19.0)])
+    indus = path([(73.6, 34.6), (72.1, 31.6), (71.0, 29.4), (69.4, 28.2), (68.2, 26.6), (68.3, 25.2), (67.9, 24.4)])
+    tigris = path([(44.0, 35.6), (45.5, 33.0), (46.6, 31.6), (47.6, 30.6), (47.9, 30.0)])
+    route = path([(67.6, 24.6), (63.0, 24.3), (58.6, 24.8), (55.0, 25.9), (51.3, 26.3), (49.4, 28.4), (47.9, 29.9)])
+    sites = (("Harappa", 72.86, 30.63, 6, -3, "start"), ("Mohenjo-daro", 68.14, 27.33, -7, 4, "end"),
+             ("Dholavira", 70.21, 23.89, -6, 12, "end"), ("Lothal", 72.25, 22.52, 6, 4, "start"),
+             ("Ur", 46.1, 30.96, -5, -4, "end"), ("Susa", 48.25, 32.19, 6, -2, "start"),
+             ("Dilmun", 50.55, 26.1, -4, 13, "end"), ("Magan", 57.0, 23.0, 0, 14, "middle"))
+    dots = ""
+    for name, lon, lat, dx, dy, an in sites:
+        x, y = proj(lon, lat)
+        dots += (f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3" class="ag-dot"/>'
+                 f'<text x="{x + dx:.1f}" y="{y + dy:.1f}" text-anchor="{an}" class="ag-small ag-halo">{name}</text>')
+    mx, my = proj(68.6, 31.6)
+    return (f'<figure class="art-fig"><svg viewBox="0 0 320 224" role="img" aria-label="Map: Indus cities, the Persian Gulf and Mesopotamia, linked by a sea route">'
+            f'<rect x="0.5" y="0.5" width="319" height="223" rx="8" class="ag-card"/>'
+            f'<path d="{coast}" class="ag-coast"/><path d="{arabia}" class="ag-coast"/>'
+            f'<path d="{indus}" class="ag-river"/><path d="{tigris}" class="ag-river"/><path d="{route}" class="ag-route"/>'
+            f'<text x="{mx:.1f}" y="{my:.1f}" text-anchor="middle" class="ag-region">MELUHHA?</text>{dots}</svg>'
+            f'<figcaption>Sea trade linked the Indus cities with the Gulf (Dilmun, Magan) and Mesopotamia.</figcaption></figure>')
+
+
+def fig_routes(sections, rows):
+    """Findings 05: one tile per closed route, by area, coloured by verdict."""
+    lines = []
+    tot = {"out": 0, "wait": 0, "weak": 0}
+    for sec, name in sections.items():
+        rs = [r for r in rows if r["sec"] == sec]
+        if not rs:
+            continue
+        tiles = ""
+        for r in rs:
+            k = verdict_kind(r["verdict"])[0]
+            tot[k] += 1
+            tiles += f'<i class="rt-{k}" title="{E(r["route"])}"></i>'
+        lines.append(f'<div class="rmap-row"><span class="rmap-lab">{E(name)}</span><span class="rmap-tiles">{tiles}</span></div>')
+    legend = (f'<div class="rmap-key"><span><i class="rt-out"></i>Ruled out {tot["out"]}</span>'
+              f'<span><i class="rt-wait"></i>Can’t test yet {tot["wait"]}</span><span><i class="rt-weak"></i>Weakened or not supported {tot["weak"]}</span></div>')
+    return f'<figure class="rmap" aria-label="Each closed route as a tile, grouped by area">{"".join(lines)}{legend}</figure>'
+
+
+def fig_pipeline():
+    """Approach: the path every claim takes, as a row of steps with small drawn icons."""
+    icons = {
+        "seal": '<rect x="5" y="10" width="14" height="10" rx="2"/><path d="M8 10 V7 a4 4 0 0 1 8 0 V10"/>',
+        "split": '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="M15.5 5 V19"/>',
+        "test": '<circle cx="11" cy="11" r="6"/><path d="M15.5 15.5 L20 20"/>',
+        "chance": '<rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.2"/><circle cx="15" cy="15" r="1.2"/><circle cx="15" cy="9" r="1.2"/><circle cx="9" cy="15" r="1.2"/>',
+        "red": '<path d="M12 3 L19 6 V11 C19 16 16 19 12 21 C8 19 5 16 5 11 V6 Z"/><path d="M9 12 L11 14 L15 10"/>',
+        "pub": '<path d="M6 3 H14 L18 7 V21 H6 Z"/><path d="M14 3 V7 H18 M9 12 H15 M9 16 H15"/>',
+    }
+    steps = (("seal", "Seal the plan", "Written down and fingerprinted first"),
+             ("split", "Build on ¾", "A quarter of the texts kept aside"),
+             ("test", "Test once on ¼", "No tuning on the kept texts"),
+             ("chance", "Beat chance", "Against shuffles, every test counted"),
+             ("red", "Red team", "A second team tries to break it"),
+             ("pub", "Publish", "Whether it holds or fails"))
+    items = "".join(f'<li><svg viewBox="0 0 24 24" aria-hidden="true">{icons[k]}</svg><b>{E(t)}</b><span>{E(d)}</span></li>'
+                    for k, t, d in steps)
+    return f'<ol class="pipe" aria-label="The path every claim takes">{items}</ol>'
+
+
 def plan_steps():
     out = ['<ol class="flow">']
     for i, (cls, t, st, d) in enumerate(PLAN, 1):
@@ -957,11 +1069,11 @@ def main():
                         body_class="oi-page"))
     built.append(render("approach", f"Approach · {NAME} · Decipher the Indus script by 2027",
                         "What counts as deciphering the Indus script, the rules every test follows, the agent team, the routes to sound values and the directions still open.",
-                        "approach.html", dict(common, SLOTS=slots(), CHART_ROUND=chart_round(), CHART_NAMES=chart_names(), PLAN=plan_steps())))
+                        "approach.html", dict(common, SLOTS=slots(), CHART_ROUND=chart_round(), CHART_NAMES=chart_names(), PLAN=plan_steps(), FIG_PIPE=fig_pipeline())))
     built.append(render("findings", f"Findings · {NAME} · Decipher the Indus script by 2027",
                         "Ranked findings about the Indus script with their evidence, and every route the project has tested and closed.",
                         "findings.html", dict(common, LEVELS=level_key(), FINDINGS=findings_list(True),
-                            ROUTES=closed_routes(sections, rows), REVERSALS=reversals(rev), PAPERS=papers(),
+                            ROUTES=closed_routes(sections, rows), FIG_ROUTES=fig_routes(sections, rows), FIG_SIGNS=fig_signs(), FIG_MIRROR=fig_mirror(), FIG_MAP=fig_map(), FIG_SEALS=figure("EH_16", 2, "Square stamp seal from Harappa with a line of signs above an animal") + figure("FEM_273", 3, "Long clay impression of a one-line seal text"), REVERSALS=reversals(rev), PAPERS=papers(),
                             FIG_A=figure("MIC_91", 4, "Square seal: signs along the top, a striped animal below"),
                             FIG_B=figure("FEM_461", 5, "Impression of a one-line seal text"))))
     built.append(render("tracker", f"Tracker · {NAME} · Decipher the Indus script by 2027", "How far the project is from its goal of deciphering the Indus script by 2027, and the live task board of the agent team.",

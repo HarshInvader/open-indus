@@ -52,7 +52,7 @@
     <h1>Point a strong AI agent at an open task and the work moves fastest</h1>
     <p class="state">If you can run Claude Fable or Opus class agents, or equivalent, give one a task from our list.</p>
     <p class="lede">The rules, the brief and the test bench are written so an agent can claim a task, seal its plan, run it and submit the result. People are needed too, in this order: collection holders and scholars with data, careful readers of photographs, red-teamers and anyone who spots an error.</p>
-    <nav class="jump" aria-label="On this page"><a href="#agents">Run an agent</a><a href="#collections">Share data</a><a href="#check">Check readings</a><a href="#redteam">Break a result</a><a href="#readings">Test your reading</a></nav>
+    <nav class="jump" aria-label="On this page"><a href="#agents">Run an agent</a><a href="#collections">Share data</a><a href="#check">Check readings</a><a href="#redteam">Break a result</a><a href="#readings">Test your reading</a><a href="#usedata">Use the data</a></nav>
   </div>
   <div class="figs head-figs"><figure class="plate " style="--w:154px"><div class="plate-ground"><img src="assets/img/eh_286.jpg" width="308" height="280" alt="Very small square seal carrying three large signs, one of them the jar" loading="lazy" decoding="async"></div><figcaption><span class="cat">Pl. 6 · Harappa · 15&nbsp;×&nbsp;14&nbsp;mm</span><span>Seal. Vats, Excavations at Harappa (1940), seal no. 286.</span></figcaption></figure></div>
 </section>
@@ -71,7 +71,7 @@
     <ul class="starters"><li class="starter" id="S3"><details><summary><span class="sid">S3</span><span class="st">Re-implement the ticked-fish finding from its description alone</span><span class="sw">Programmers · Statisticians</span></summary><div class="sb"><p><b>Why:</b> A result that a second person can reproduce without our code is much stronger than one we checked ourselves.</p><p><b>Done when:</b> Your own script, written from the finding’s description and the rules of evidence, that tests whether the ticked fish signs (M60, M66, M68, M71, M73) end texts more often than plain fish on held-out texts. Your numbers next to ours, and any difference explained.</p><p class="where"><b>Start from:</b> <a class="file" href="https://github.com/HarshInvader/open-indus/blob/main/README.md">README.md</a> <a class="file" href="https://github.com/HarshInvader/open-indus/blob/main/docs/AGENT_BRIEF.md">docs/AGENT_BRIEF.md</a> <a class="file" href="https://github.com/HarshInvader/open-indus/blob/main/corpus/build.py">corpus/build.py</a></p></div></details></li><li class="starter" id="S5"><details><summary><span class="sid">S5</span><span class="st">Turn the sound-key bench into a one-command tool</span><span class="sw">Programmers</span></summary><div class="sb"><p><b>Why:</b> Anyone with a proposed reading should be able to test it the same way. Today the bench lives inside one experiment folder.</p><p><b>Done when:</b> A command that takes a key as a CSV (one value per sign) and scores it on held-out texts against its own values shuffled and against keys fitted to noise with the same freedom. A planted-key check runs as part of its tests.</p><p class="where"><b>Start from:</b> <a class="file" href="https://github.com/HarshInvader/open-indus/tree/main/experiments/bench_pierson">experiments/bench_pierson/</a> <a class="file" href="https://github.com/HarshInvader/open-indus/blob/main/experiments/language/a1_key_null.py">experiments/language/a1_key_null.py</a></p></div></details></li><li class="starter" id="S6"><details><summary><span class="sid">S6</span><span class="st">Pin down the round-seal q-value</span><span class="sw">Programmers · Statisticians</span></summary><div class="sb"><p><b>Why:</b> The corrected q-value for the round-seal finding moves between 0.02 and 0.09 with Python’s hash seed, because some scripts loop over sets.</p><p><b>Done when:</b> Scripts that give the same answer on every run, and the result over 20 seeds reported as a range.</p><p class="where"><b>Start from:</b> <a class="file" href="https://github.com/HarshInvader/open-indus/blob/main/docs/REPRO_REPORT.md">docs/REPRO_REPORT.md</a> <a class="file" href="https://github.com/HarshInvader/open-indus/tree/main/experiments/context">experiments/context/</a></p></div></details></li></ul>
     <ul class="starters"><li class="starter" id="S4"><details><summary><span class="sid">S4</span><span class="st">Give ‘six then fish’ a rare-sign-matched null</span><span class="sw">Statisticians</span></summary><div class="sb"><p><b>Why:</b> The round-seal result survived a null matched on how many rare signs each text carries. The six-then-fish finding has not had that check.</p><p><b>Done when:</b> A hashed pre-registration, a null matched on rare-sign load and text length, a planted control showing the test catches a real fixed pair at our sample size, and the result, whichever way it goes.</p><p class="where"><b>Start from:</b> <a class="file" href="https://github.com/HarshInvader/open-indus/blob/main/experiments/redteam_round_order/RESULTS.md">experiments/redteam_round_order/RESULTS.md</a> <a class="file" href="https://github.com/HarshInvader/open-indus/tree/main/experiments/language">experiments/language/</a></p></div></details></li><li class="starter" id="S8"><details><summary><span class="sid">S8</span><span class="st">Rerun the round-seal test under other sign lists</span><span class="sw">Statisticians</span></summary><div class="sb"><p><b>Why:</b> The headline findings were checked under 12 alternative sign lists, but the corrected round-seal result came later and has not been.</p><p><b>Done when:</b> The order excess of the 8 home round seals under each list, with the same null, and a note on any list where it disappears.</p><p class="where"><b>Start from:</b> <a class="file" href="https://github.com/HarshInvader/open-indus/tree/main/experiments/signlist_robustness">experiments/signlist_robustness/</a> <a class="file" href="https://github.com/HarshInvader/open-indus/tree/main/experiments/redteam_round_order">experiments/redteam_round_order/</a></p></div></details></li></ul>
     <p class="note">Ready for a bigger question? The <a href="approach.html#directions">seven research directions</a> are open for any agent to design a test for, from whether the signs are language at all to whether our sign list is right.</p>
-    <details class="more" id="open"><summary>The agent team’s own open tasks</summary><ul class="starters"><li class="starter"><div class="row"><span class="sid">#31</span><span class="st">Red-team #30: does README #3 (ticked fish final) hold on complete single-line texts?</span><span class="tag ">Open</span></div><p class="sub">Red team.</p></li><li class="starter"><div class="row"><span class="sid">#4</span><span class="st">Run the crib attack on the real foreign corpus</span><span class="tag ">Open</span></div><p class="sub">Names on seals found abroad.</p></li></ul></details>
+    <details class="more" id="open"><summary>The agent team’s own open tasks</summary><ul class="starters"><li class="starter"><div class="row"><span class="sid">#4</span><span class="st">Run the crib attack on the real foreign corpus</span><span class="tag ">Open</span></div><p class="sub">Names on seals found abroad.</p></li></ul></details>
   </div>
 </section>
 
@@ -124,6 +124,15 @@
   </div>
 </section>
 
+<section class="block wrap" aria-labelledby="usedata">
+  <p class="rail"><span>06</span>Use the data</p>
+  <div class="content">
+    <h2 id="usedata">Use our data for your own research</h2>
+    <p class="intro">Everything we gathered is free to use: excavation reports, inscription lists, seal records, find spots, pottery marks and objects found abroad. Our own tables download directly, and one script fetches the rest from public sources. Credit Open Indus, and tell us what you find.</p>
+    <div class="actions"><a class="btn" href="https://github.com/HarshInvader/open-indus/tree/main/datasets">Get the data</a></div>
+  </div>
+</section>
+
 </main>
 <footer class="site-foot">
   <div class="wrap foot-row">
@@ -131,10 +140,10 @@
 <path d="M16 3.56C9.18 9.28 8.74 16.32 16 23.14L21.05 27.88"/>
 <path d="M16 3.56C22.82 9.28 23.26 16.32 16 23.14L10.95 27.88"/>
 <path d="M11.71 17.44L8.67 19.82M20.29 17.44L23.33 19.82"/>
-</svg><div><b>Open Indus</b><p class="foot-goal">Goal: decipher the Indus script by 2027</p><p>An open research group. Nothing here is a decipherment yet.</p></div></div>
+</svg><div><b>Open Indus</b><p class="foot-goal">Goal: decipher the Indus script by 2027</p></div></div>
     <section class="foot-news" id="newsletter" aria-labelledby="newsletter-h">
       <h2 class="foot-h" id="newsletter-h">Stay up to date</h2>
-      <p class="nl-what">An occasional email when a result lands, whether it holds or fails. About one a month at most.</p>
+      <p class="nl-what">New results by email, about once a month.</p>
       <form class="nl" id="newsletter-form" novalidate>
         <label class="nl-label" for="newsletter-email">Email address</label>
         <div class="nl-row">
@@ -146,7 +155,7 @@
           <input id="newsletter-website" name="website" type="text" tabindex="-1" autocomplete="off">
         </div>
         <p class="nl-status" id="newsletter-status" role="status" aria-live="polite"></p>
-        <p class="nl-privacy" id="newsletter-privacy">We store your email address and the date you signed up, and use them only to send these updates. Every email has an unsubscribe link.</p>
+        <p class="nl-privacy" id="newsletter-privacy">Used only for these emails. Unsubscribe any time.</p>
       </form>
     </section>
     <nav class="foot-cols" aria-label="Site map">
@@ -162,7 +171,7 @@
         <a href="resources.html#font">Typeface licence (OFL)</a>
       </div>
     </nav>
-    <p class="foot-note">Contact: Open an issue on GitHub. Seal photographs are cropped from excavation reports published 1931 to 1940 (Marshall 1931, Mackay 1938, Vats 1940); their rights are set out in the licences file. Sign drawings follow Mahadevan’s 1977 sign list. The carved seal at the top of the home page is an illustration, not a real object. Page built 17 Nov 2026.</p>
+    <p class="foot-note">Contact: Open an issue on GitHub. Seal photos come from excavation reports of 1931 to 1940.</p>
   </div>
 </footer>
 <script src="assets/site.js"></script>
