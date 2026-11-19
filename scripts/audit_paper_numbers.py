@@ -20,7 +20,7 @@ appears in a cited file as a whole number token (not inside a longer number).
 the cited file, not that it means the same thing there. That second check is
 done by reading.
 
-Usage: python3 scripts/audit_paper_numbers.py [--write]
+Usage: python3 scripts/audit_paper_numbers.py [draft.md] [--write]
   --write  replace the "## Numbers audit" section of the draft with the report.
 Exit code 1 if any number is unmatched or uncited.
 """
@@ -32,6 +32,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DRAFT = ROOT / "docs/paper/AUDIT_DRAFT.md"
+for _a in sys.argv[1:]:
+    if _a.endswith(".md"):
+        DRAFT = (ROOT / _a) if not _a.startswith("/") else Path(_a)
 AUDIT_HEADING = "## Numbers audit"
 
 SRC_RE = re.compile(r"<!--\s*src:\s*(.*?)\s*-->")
@@ -55,6 +58,7 @@ def clean(segment):
     s = re.sub(r"\b[Vv]ersion [12]\b", " ", s)  # split names
     s = re.sub(r"\bCC BY \d\.\d\b", " ", s)  # licence names
     s = re.sub(r"\barXiv \d+\.\d+", " ", s)
+    s = re.sub(r"\b(?:[A-Z][\w-]+(?:'s)?|al\.)\s\(?(?:1[89]|20)\d{2}\)?", " ", s)  # author-year citations
     return s
 
 
