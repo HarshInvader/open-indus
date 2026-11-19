@@ -260,15 +260,188 @@ def draw(key):
         for x,y in [(80,89),(294,91),(522,294)]:
             a.token(x,y,3 if x<300 else 1,9,BLUE if x<300 else CLAY)
         a.arrow(282,92,220,136); a.arrow(514,276,477,246)
+    elif key=='cuneiform-2026':
+        a.tablet(70,118,190,165); a.tablet(340,118,190,165)
+        for x0 in (100,370):
+            for i in range(4):
+                x=x0+i*36; a.poly([(x,180),(x+20,180),(x+10,204)],INK)
+        a.line([(260,192),(340,192)],BLUE,3)
+        for x in (285,315): a.ellipse(x,192,5,5,BLUE)
+        a.rect(469,226,40,40,PAPER,5,CLAY); a.poly([(479,236),(499,236),(489,256)],CLAY)
+    elif key=='zenil-2026':
+        a.tablet(72,102,292,190)
+        for i in range(5): a.token(110+i*46,152,i,13)
+        for i in range(4): a.token(110+i*46,243,i+2,13)
+        a.line([(92,198),(344,198)],BLUE,1.5)
+        a.ellipse(462,214,70,70,WHITE,INK)
+        a.line([(402,214),(522,214)],RULE,1)
+        a.line([(462,214),(400,203)],CLAY,4); a.ellipse(462,214,7,7,INK)
+    elif key=='rozanova-2026':
+        a.sheet(76,170,140,122); a.sheet(384,170,140,122,PALE)
+        for x0,c in ((98,BLUE),(406,RULE)):
+            for r in range(2):
+                for i in range(4): a.token(x0+14+i*30,205+r*40,i+r,8,c)
+        a.line([(300,92),(300,310)],INK,6); a.poly([(262,322),(338,322),(300,296)],BLUE)
+        a.line([(146,128),(454,128)],INK,4)
+        for x in (146,454):
+            a.line([(x,128),(x-48,170)],RULE); a.line([(x,128),(x+48,170)],RULE)
+        a.ellipse(300,128,9,9,CLAY)
+    elif key=='stoicheia-2026':
+        a.poly([(96,88),(442,88),(442,206),(372,206),(372,300),(96,300)],SAND,INK)
+        for y in (128,170,212,254):
+            a.line([(122,y),(352 if y>200 else 418,y)],RULE,2)
+        a.rect(372,206,98,94,PAPER,4,CLAY)
+        for i,(x,y) in enumerate([(398,232),(442,232),(398,274),(442,274)]): a.token(x,y,i,11)
+        a.arrow(520,160,480,214,CLAY)
+    elif key=='kelley-2026':
+        a.tablet(110,96,380,208)
+        for r in range(3):
+            y=136+r*52
+            for i in range(4): a.ellipse(150+i*24,y,8,8,PAPER,INK,1.5)
+            a.line([(262,y-20),(262,y+20)],RULE,1)
+            for i in range(3): a.token(300+i*52,y,i+r,13)
+    elif key=='korovina-2026':
+        a.rect(66,104,236,176,'#b78a5a',10)
+        for r in range(4):
+            y=134+r*38
+            for i in range(5): a.token(98+i*44,y,i+r,9,INK if (i+r)%2 else BLUE)
+        for k in range(4): a.sheet(338,212-k*10,74,64)
+        for k in range(4): a.sheet(470,232-k*10,62,52,PALE)
+        a.arrow(318,230,334,230,CLAY); a.line([(318,268),(462,268)],RULE,1); a.arrow(440,268,462,268,RULE)
+    elif key=='rakhigarhi-rgr3-2026':
+        a.poly([(48,331),(140,180),(300,140),(460,180),(552,331)],SAND,INK)
+        a.poly([(232,166),(368,166),(368,331),(232,331)],PAPER,INK)
+        for y,c in ((206,RULE),(246,CLAY),(286,RULE)): a.line([(232,y),(368,y)],c,2)
+        a.rect(286,226,28,20,BLUE,3,INK)
+        a.line([(332,176),(332,226)],INK,2); a.ellipse(332,170,9,9,CLAY,INK)
+    elif key=='hexagon-2026':
+        for gx in range(5):
+            for gy in range(3):
+                x=74+gx*92; y=86+gy*78
+                a.rect(x,y,82,68,SAND if (gx+gy)%2 else PALE,3,RULE)
+        a.ellipse(300,198,58,40,CLAY,INK)
+        a.poly([(400,120),(470,112),(486,176),(430,206),(392,170)],WHITE,INK)
+        for x,y in ((420,140),(450,150),(425,175)): a.rect(x,y,14,12,INK,2,None)
+    elif key=='cattle-2026':
+        a.ellipse(96,272,52,22,SAND,INK); a.ellipse(504,152,52,22,SAND,INK)
+        for i in range(16):
+            t=i/15; a.ellipse(140+t*320,262-t*104,3,3,RULE)
+        x,y=300,198
+        a.ellipse(x,y,58,26,WHITE,INK)
+        a.ellipse(x+30,y-26,18,14,WHITE,INK)
+        a.ellipse(x+68,y-12,16,14,WHITE,INK)
+        a.curve([(x+62,y-24),(x+58,y-46),(x+70,y-50),(x+78,y-44)],INK,3)
+        for dx in (-40,-22,22,40): a.line([(x+dx,y+20),(x+dx,y+52)],INK,4)
+        a.line([(x-58,y-4),(x-72,y+24)],INK,2)
+    elif key=='jognakhera-2026':
+        for y in (280,296): a.curve([(48,y),(200,y-20),(380,y+18),(552,y-6)],BLUE,3)
+        for x in (150,214,278):
+            a.line([(x,252),(x,140)],'#b78a5a',3)
+            for k in range(5): a.ellipse(x+(-6 if k%2 else 6),150+k*14,6,10,SAND,INK,1)
+        for x,y in ((330,232),(352,240),(344,222),(372,230)): a.ellipse(x,y,6,4,CLAY)
+        a.arrow(410,200,524,200,CLAY)
+    elif key=='gini-2026':
+        a.rect(62,92,300,212,PAPER,4,INK)
+        for gx in range(3):
+            for gy in range(2):
+                a.rect(78+gx*94,108+gy*96,78-(gx*4),80-(gy*6),SAND,3,INK)
+        a.line([(62,198),(362,198)],RULE,1)
+        a.line([(410,292),(540,292)],INK,2); a.line([(410,292),(410,120)],INK,2)
+        for i,h in enumerate((150,122,96,70)): a.rect(426+i*28,292-h,18,h,BLUE if i<3 else CLAY,2,None)
+    else: raise ValueError(key)
+    return a
+
+
+TOPIC_ALT = {
+ 'decipherment-methods': 'Illustration: two sheets of plain shapes joined by curved lines, matching shapes on one side to shapes on the other.',
+ 'language-question': 'Illustration: a balance beam weighing a sheet of shapes against a loose scatter of the same shapes.',
+ 'readings': 'Illustration: a square seal with an arrow leading to a sheet of written lines.',
+ 'neighbour-scripts': 'Illustration: three clay tablets of different shapes standing in a row.',
+ 'corpus-data': 'Illustration: a stack of index cards beside a grid of plain shapes.',
+ 'administration': 'Illustration: a square seal pressed into a lump of clay beside a row of graded cube weights.',
+ 'archaeology': 'Illustration: a trench cut through the layers of a mound, with a trowel resting on the edge.',
+ 'chronology-environment': 'Illustration: a river winding across layered bands of ground under a pale sun.',
+ 'trade-meluhha': 'Illustration: a small boat on waves with a dotted route between two shores.',
+ 'people-dna': 'Illustration: a double helix in blue and red rising beside a pot.',
+}
+
+
+def draw_topic(key):
+    a=Art()
+    if key=='decipherment-methods':
+        for x in (96,384): a.sheet(x,92,120,220)
+        for i in range(4):
+            y=128+i*50; a.token(156,y,i,14); a.token(444,y,(i+2)%4,14,CLAY)
+            a.curve([(180,y),(260,y-24),(340,y+24),(420,(128+((i+1)%4)*50))],BLUE,2)
+    elif key=='language-question':
+        a.line([(300,92),(300,308)],INK,6); a.poly([(260,320),(340,320),(300,294)],BLUE)
+        a.line([(140,128),(460,128)],INK,4)
+        a.sheet(84,172,112,110)
+        for r in range(3):
+            for i in range(3): a.token(106+i*34,198+r*30,i+r,8)
+        for k,(x,y) in enumerate([(420,206),(470,190),(452,246),(500,232),(404,262)]): a.token(x,y,k,10,CLAY)
+        for x in (140,460):
+            a.line([(x,128),(x-50,172)],RULE); a.line([(x,128),(x+50,172)],RULE)
+    elif key=='readings':
+        a.rect(96,128,140,140,SAND,10); a.rect(116,148,100,100,PAPER,6,RULE)
+        a.token(166,198,1,26,BLUE)
+        a.arrow(256,198,352,198,CLAY)
+        a.sheet(372,104,140,190)
+        for y in range(134,280,26): a.line([(394,y),(490,y)],RULE,2)
+    elif key=='neighbour-scripts':
+        a.tablet(64,140,130,150)
+        a.poly([(236,290),(236,150),(300,110),(364,150),(364,290)],SAND,INK)
+        a.ellipse(474,214,66,78,SAND,INK)
+        for i in range(3):
+            a.token(104+i*26,210,i,7); a.token(270+i*30,210,i+1,8,CLAY); a.token(446+i*28,214,i+2,8)
+    elif key=='corpus-data':
+        for k in range(5): a.sheet(80+k*8,96+k*14,150,100)
+        for gx in range(4):
+            for gy in range(4): a.token(344+gx*48,110+gy*48,gx+gy,12,CLAY if (gx*gy)%3==1 else BLUE)
+    elif key=='administration':
+        a.ellipse(198,232,104,58,SAND,INK)
+        a.rect(150,104,96,96,PAPER,8,INK); a.token(198,152,2,22,BLUE)
+        a.arrow(198,208,198,226,CLAY)
+        for i,sz in enumerate((14,20,26,34)):
+            x=372+i*44+sum((14,20,26,34)[:i])*0.6
+            a.rect(x,300-sz*2,sz*2*0.7,sz*2*0.7,CLAY if i%2 else '#c9b79e',3,INK)
+    elif key=='archaeology':
+        a.poly([(48,331),(150,170),(300,128),(450,170),(552,331)],SAND,INK)
+        a.poly([(236,152),(364,152),(364,331),(236,331)],PAPER,INK)
+        for y,c in ((196,RULE),(236,CLAY),(276,RULE),(306,BLUE)): a.line([(236,y),(364,y)],c,2)
+        a.poly([(380,140),(430,104),(442,116),(392,152)],RULE,INK); a.line([(430,104),(462,80)],INK,4)
+    elif key=='chronology-environment':
+        for i,c in enumerate((SAND,'#c9b79e',SAND,'#c9b79e')): a.rect(48,200+i*32,504,32,c,0,None)
+        a.curve([(70,200),(220,330),(360,180),(530,330)],BLUE,10)
+        a.ellipse(452,110,34,34,'#e7d7b9',RULE)
+    elif key=='trade-meluhha':
+        for y in (268,288): a.curve([(48,y),(200,y-14),(400,y+14),(552,y)],BLUE,3)
+        a.poly([(230,238),(370,238),(346,268),(254,268)],'#b78a5a',INK)
+        a.line([(300,238),(300,130)],INK,3); a.poly([(304,136),(304,226),(364,226)],WHITE,INK)
+        a.poly([(48,331),(48,250),(110,262),(130,331)],SAND,INK); a.poly([(552,331),(552,240),(482,256),(470,331)],SAND,INK)
+        for i in range(12): a.ellipse(132+i*30,208-math.sin(i/11*math.pi)*60,3,3,CLAY)
+    elif key=='people-dna':
+        for side in (0,1):
+            pts=[(260+(1 if side else -1)*55*math.cos(i/130*math.pi*3),85+i*1.65) for i in range(131)]
+            a.line(pts,CLAY if side else BLUE,6)
+        for i in range(14):
+            y=85+i*16; dx=55*math.cos(i*16/1.65/130*math.pi*3)
+            a.line([(260-dx,y),(260+dx,y)],RULE,3)
+        a.pot(430,262)
     else: raise ValueError(key)
     return a
 
 
 def main():
-    items=json.loads((SITE/'news.json').read_text())['items']
+    news=json.loads((SITE/'news.json').read_text())
     out=SITE/'assets/news'; out.mkdir(exist_ok=True)
-    for item in items:
+    for item in news['items']:
         path=out/(item['id']+'.webp'); draw(item['id']).save(path)
         print(path.name, path.stat().st_size)
+    lib=SITE/'assets/library'; lib.mkdir(exist_ok=True)
+    for key in news['topics']:
+        path=lib/(key+'.webp'); draw_topic(key).save(path)
+        print(path.name, path.stat().st_size)
+    (lib/'alt.json').write_text(json.dumps(TOPIC_ALT, indent=1)+'\n')
 
 if __name__=='__main__': main()

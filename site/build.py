@@ -1004,7 +1004,69 @@ def news_page():
     open_ = [i for i in withidea if i["status"] in ("next", "idea", "running")]
     done = [i for i in withidea if i["status"] not in ("next", "idea", "running")]
     return dict(NEWS_LATEST="".join(news_card(i) for i in latest), NEWS_LAND="".join(news_card(i) for i in land),
-                NEWS_IDEAS=idea_list(open_), NEWS_TRIED=idea_list(done), NEWS_N=len(items))
+                NEWS_IDEAS=idea_list(open_), NEWS_TRIED=idea_list(done), NEWS_N=len(items), NEWS_FIELD=news_field())
+
+
+def news_field():
+    """The 'state of the field' block at the top of news.html, from news.json field_now."""
+    d = json.loads((SITE / "news.json").read_text())
+    fn = d.get("field_now")
+    if not fn:
+        return ""
+    lib = {e["id"]: e for e in library_entries()}
+    rows = []
+    for f in fn["fronts"]:
+        refs = ", ".join(f'<a href="library.html#{E(i)}">{E(lib[i]["authors"].split(",")[0].split(" and ")[0])} {lib[i]["year"]}</a>'
+                         for i in f["library_ids"] if i in lib)
+        rows.append(f'<li><h3>{E(f["title"])}</h3><p>{E(f["what"])}</p><p class="fn-refs">Papers: {refs}</p></li>')
+    return (f'<section class="block wrap field-now" aria-labelledby="field"><p class="rail"><span>00</span>The field now</p><div class="content">'
+            f'<h2 id="field">Where research on the Indus and its script stands</h2>'
+            f'<p class="intro">Updated {E(news_date(fn["updated"]))}. The main fronts, each linked to the papers in our '
+            f'<a href="library.html">library of {len(lib)} papers</a>.</p><ol class="fronts">{"".join(rows)}</ol></div></section>')
+
+
+def library_entries():
+    return json.loads((ROOT / "docs" / "library" / "library.json").read_text())["entries"]
+
+
+def library_page():
+    entries = library_entries()
+    topics = json.loads((SITE / "news.json").read_text())["topics"]
+    alts = json.loads((SITE / "assets" / "library" / "alt.json").read_text())
+    rel_lab = {"core": "Core", "useful": "Useful", "context": "Context"}
+    news = {i["id"] for i in news_items()}
+    order = {"core": 0, "useful": 1, "context": 2}
+    entries = sorted(entries, key=lambda e: (order.get(e["relevance"], 3), -int(str(e["year"])[:4])))
+    def row(label, val):
+        if not val:
+            return ""
+        if isinstance(val, list):
+            val = ", ".join(val)
+        return f"<dt>{label}</dt><dd>{E(str(val))}</dd>"
+    cards = []
+    for e in entries:
+        link = f'https://doi.org/{e["doi"]}' if e.get("doi") else e.get("url", "")
+        flag = ' <span class="tag wait">Unverified</span>' if not e["verified"] else ""
+        innews = (f' · <a href="{news_url({"id": e["in_news"]})}">In the news</a>' if e.get("in_news") in news else "")
+        search = " ".join(str(e.get(k) or "") for k in ("title", "authors", "venue", "year", "key_results", "ideas_for_us", "topic")).lower()
+        cards.append(
+            f'<article class="lcard" id="{E(e["id"])}" data-topic="{E(e["topic"])}" data-rel="{E(e["relevance"])}" data-search="{E(search)}">'
+            f'<img class="lthumb" src="assets/library/{E(e["topic"])}.webp" width="600" height="400" alt="{E(alts.get(e["topic"], ""))}" loading="lazy" decoding="async">'
+            f'<div class="lbody"><div class="nmeta"><span class="nkind">{E(topics.get(e["topic"], e["topic"]))}</span>'
+            f'<span class="tag{" ok" if e["relevance"] == "core" else ""}">{rel_lab.get(e["relevance"], e["relevance"])}</span>'
+            f'<span class="tag">{"Read in full" if e["read_depth"] == "full" else "Abstract only"}</span>{flag}</div>'
+            f'<h3 class="nh">{E(e["title"])}</h3>'
+            f'<p class="nsrc">{E(e["authors"])} · {E(str(e["year"]))} · <a href="{E(link)}">{E(e.get("venue") or "source")}</a>{innews}</p>'
+            f'<p>{E(str(e.get("question") or ""))}</p>'
+            f'<details><summary>Analysis</summary><dl>{row("What they tried", e.get("tried"))}{row("Method and data", e.get("method_data"))}'
+            f'{row("Key results", e.get("key_results"))}{row("Limits", e.get("limits"))}{row("Ideas for us", e.get("ideas_for_us"))}'
+            f'{row("Touches our work", e.get("touches"))}</dl></details></div></article>')
+    counts = {k: sum(e["topic"] == k for e in entries) for k in topics}
+    buttons = '<button type="button" data-topic="" aria-pressed="true">All <small>{}</small></button>'.format(len(entries)) + "".join(
+        f'<button type="button" data-topic="{E(k)}" aria-pressed="false">{E(v)} <small>{counts[k]}</small></button>' for k, v in topics.items() if counts[k])
+    full = sum(e["read_depth"] == "full" for e in entries)
+    return dict(LIB_N=len(entries), LIB_FULL=full, LIB_ABS=len(entries) - full, LIB_FILTERS=buttons, LIB_CARDS="".join(cards),
+                LIB_UPDATED=E(news_date(json.loads((ROOT / "docs" / "library" / "library.json").read_text())["updated"])))
 
 
 def news_rss():
@@ -1224,7 +1286,7 @@ def smart(page):
     return "".join(p if p.startswith("<") else fix(p) for p in parts)
 
 
-PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"),
+PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"), ("library.html", "Library"),
          ("tracker.html", "Tracker"), ("contribute.html", "Contribute"), ("resources.html", "Resources"))
 ARROW = ('<svg class="ext-ic" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false" fill="none" '
          'stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 8.5L8.5 3.5M4.5 3.5H8.5V7.5"/></svg>')
@@ -1243,6 +1305,7 @@ NAV_GROUPS = (
     ("Research", (("findings.html", "Findings", "What is known, and what we found", "find"),
                   ("approach.html", "Approach", "How every idea gets tested", "approach"),
                   ("news.html", "News", "New papers, summarised", "news"),
+                  ("library.html", "Library", "Every paper we have read, analysed", "files"),
                   ("tracker.html", "Tracker", "Progress and the live task board", "tracker"))),
     ("Resources", (("REPO/tree/main/datasets", "Open data", "Every Indus dataset in one place", "data"),
                    ("resources.html", "Typeface and logo", "Free to download", "font"),
@@ -1366,7 +1429,7 @@ def size_kb(n):
 
 
 DIST_ASSETS = ["site.css", "site.js", "glyphs.css", "favicon.svg", "favicon-32.png", "apple-touch-icon.png", "email-logo.png",
-               "logo-mark.svg", "wordmark.svg", "seal-illustration.svg", "fonts", "img", "signs", "downloads", "news"]
+               "logo-mark.svg", "wordmark.svg", "seal-illustration.svg", "fonts", "img", "signs", "downloads", "news", "library"]
 
 
 def make_dist(built):
@@ -1456,6 +1519,9 @@ def main():
                         "The latest and the landmark research on the Indus script, each summarised in a sentence, in plain words and in technical detail, with the idea we borrow from it.",
                         "news.html", dict(common, **news_page())))
     built.extend(news_article_pages())
+    built.append(render("library", f"Library · {NAME} · Papers on the Indus script and civilisation",
+                        "Every paper the project has read on the Indus script, decipherment methods, neighbouring scripts and Harappan archaeology, with an analysis of each.",
+                        "library.html", dict(common, **library_page())))
     fs = font["files"]
     built.append(render("resources", f"Resources · {NAME} · Decipher the Indus script by 2027",
                         f"Free downloads from {NAME}: the Open Indus Display typeface (SIL Open Font License) and the fish-sign logo, plus the research files that open with the repository.",

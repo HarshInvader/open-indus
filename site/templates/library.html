@@ -1,0 +1,48 @@
+<section class="page-head wrap one">
+  <div class="hero-text">
+    <p class="kicker">Library</p>
+    <h1>Every paper we have read, with what it means for us</h1>
+    <p class="lede">{{LIB_N}} papers on the Indus script, on decipherment methods, on neighbouring scripts and on Harappan archaeology. {{LIB_FULL}} were read in full and {{LIB_ABS}} from the abstract. Open a card for the analysis: what they tried, what they found, the limits and the ideas it gives us.</p>
+    <p class="illustration-note">Pictures are editorial illustrations of each topic, not real objects. Updated {{LIB_UPDATED}}.</p>
+    <nav class="jump" aria-label="Related"><a href="news.html">News</a><a href="news.html#field">The field now</a><a href="{{REPO}}/blob/main/docs/library/LIBRARY.md">The library as a table</a><a href="{{REPO}}/blob/main/docs/library/IDEAS.md">Ideas worth testing</a></nav>
+  </div>
+</section>
+
+<section class="block wrap" aria-labelledby="papers">
+  <p class="rail"><span>01</span>Papers</p>
+  <div class="content">
+    <h2 id="papers">Papers, most relevant first</h2>
+    <div class="lfilter">
+      <label for="lq">Search</label>
+      <input id="lq" type="search" placeholder="Title, author, result…" autocomplete="off">
+      <div class="ltopics" role="group" aria-label="Topic">{{LIB_FILTERS}}</div>
+      <p class="lcount" aria-live="polite"></p>
+    </div>
+    <div class="llist">{{LIB_CARDS}}</div>
+  </div>
+</section>
+<script>
+(function () {
+  var q = document.getElementById('lq'), btns = document.querySelectorAll('.ltopics button'),
+      cards = document.querySelectorAll('.lcard'), out = document.querySelector('.lcount'), topic = '';
+  function apply() {
+    var words = q.value.toLowerCase().split(/\s+/).filter(Boolean), n = 0;
+    cards.forEach(function (c) {
+      var ok = (!topic || c.dataset.topic === topic) && words.every(function (w) { return c.dataset.search.indexOf(w) >= 0; });
+      c.hidden = !ok; if (ok) n++;
+    });
+    out.textContent = n + ' of ' + cards.length + ' papers';
+  }
+  btns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      topic = b.dataset.topic;
+      btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  q.addEventListener('input', apply);
+  var h = location.hash.slice(1), el = h && document.getElementById(h);
+  if (el && el.classList.contains('lcard')) { var d = el.querySelector('details'); if (d) d.open = true; }
+  apply();
+})();
+</script>
