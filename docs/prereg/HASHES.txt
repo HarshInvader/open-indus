@@ -324,3 +324,5 @@ cb9a4422215cfc1a33782b6e6d17257fc76e9abd0ec984cf298ed55fa2824cb5  docs/prereg/re
 16280b7fab06af4c476400f6c96a7a3c0d9edb6fd2619e519d7cceb377b0ca11  experiments/slot_function/sf.py  2026-11-18T22:09Z  sealed before any real outcome (smoke runs on shuffled/planted data only). Notes: ICIT distinct = first record per seq; A bootstrap is stratified by class
 f036a7d6f527707aae115663a2c56ad05d4274e8773b03570839f279dd9c7e63  docs/prereg/search_scaling.md  2026-11-19T00:07:23Z  search_scaling (before any run)
 ecb921de12025281524fd929fa31a3a086a0a4c902b2bdcc176ffd618560e6c9  experiments/search_scaling/ss.py  2026-11-19T00:07:23Z  search_scaling (before any run)
+776987c3e28336aa59abaec9c27d1c49d023a9ec2e545708a7fb21056c27e2cd  docs/prereg/redteam_bench_restoration.md  2026-11-19T06:03:06Z  redteam_bench_restoration (before real run; smoke on synthetic planted corpus only)
+ef96b7b08987c7bbd681be8c04d5f880c857185558e3b57760c83df962a673a2  experiments/redteam_bench_restoration/rt.py  2026-11-19T06:03:06Z  redteam_bench_restoration (before real run; smoke on synthetic planted corpus only)
