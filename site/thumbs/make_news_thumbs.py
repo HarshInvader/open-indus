@@ -488,6 +488,150 @@ def s_cluster():
     return out + acc("M160 200 m-100 0 a100 86 0 1 0 200 0 a100 86 0 1 0 -200 0", 2.6, "5 7") + acc("M440 200 m-100 0 a100 86 0 1 0 200 0 a100 86 0 1 0 -200 0", 2.6, "5 7")
 
 
+# ---------------------------------------------------------------- library news, 2026-11-19
+def wedge(x, y, s=1.0):
+    """An abstract wedge impression (not a real cuneiform sign)."""
+    return (f'<path d="M{x} {y} L{x + 14 * s} {y + 5 * s} L{x} {y + 10 * s} Z" fill="#000"/>'
+            + strokes(f"M{x + 12 * s} {y + 5 * s} H{x + 30 * s}", 2.6 * s))
+
+
+def wedge_row(x, y, n, seed, s=1.0):
+    rnd = random.Random(seed)
+    out = ""
+    for k in range(n):
+        if rnd.random() < .5:
+            out += wedge(x + k * 36 * s, y, s)
+        else:
+            out += (f'<path d="M{x + k * 36 * s} {y} L{x + k * 36 * s + 10 * s} {y + 14 * s} L{x + k * 36 * s + 20 * s} {y} Z" fill="#000"/>'
+                    + strokes(f"M{x + k * 36 * s + 10 * s} {y + 12 * s} V{y + 28 * s}", 2.6 * s))
+    return out
+
+
+def s_hexagon():
+    d = rrect(96, 60, 408, 280, 10)
+    cuts = ""
+    for k in range(1, 7):
+        cuts += strokes(f"M{96 + k * 58} 60 V340", 1.6, "#6a6a6a")
+    for k in range(1, 5):
+        cuts += strokes(f"M96 {60 + k * 56} H504", 1.6, "#6a6a6a")
+    cuts += f'<path d="{blob(300, 200, 92, 66, 31, .1)}" fill="#cfcfcf"/>'
+    cuts += f'<path d="{blob(300, 200, 60, 42, 32, .1)}" fill="#e6e6e6"/>'
+    for (x, y) in ((356, 148), (378, 166), (366, 188), (392, 196), (384, 218), (404, 240)):
+        cuts += f'<path d="{rrect(x, y, 16, 12, 2)}" fill="#111"/>'
+    out = obj(d, cuts, "paper", 4)
+    return out + corners(110, 74, 380, 252, 18) + acc(blob(300, 200, 104, 76, 31, .1), 2.4, "5 7")
+
+
+def s_zenil():
+    d = rrect(64, 96, 330, 206, 14)
+    cuts = row([342, 99, 267, 176], 88, 116, 58, 14) + row([59, 342, 99], 88, 222, 58, 14)
+    out = obj(d, cuts, "steatite", 16)
+    out += acc("M64 199 H394", 2.6, "6 6")
+    g = obj(circle(474, 200, 66), strokes("M432 214 A44 44 0 0 1 516 214", 3) +
+            "".join(strokes(f"M{474 + 50 * math.cos(a):.1f} {200 + 50 * math.sin(a) + 14:.1f} L{474 + 40 * math.cos(a):.1f} {200 + 40 * math.sin(a) + 14:.1f}", 2.4)
+                    for a in [math.pi + k * math.pi / 6 for k in range(7)]), "silver", 10)
+    needle = f'<path d="M474 214 L{474 - 42 * math.cos(.18):.1f} {214 - 42 * math.sin(.18):.1f}" stroke="{ACC}" stroke-width="3.4" stroke-linecap="round"/><circle cx="474" cy="214" r="6" fill="{ACC}"/>'
+    return out + g + needle
+
+
+def s_cuneiform():
+    a = obj(blob(176, 200, 122, 112, 41, .04, 16), wedge_row(84, 124, 5, 1) + wedge_row(84, 190, 5, 2) + wedge_row(84, 256, 4, 3), "clay", 16)
+    b = obj(blob(426, 200, 122, 112, 42, .04, 16), wedge_row(334, 124, 5, 1) + wedge_row(334, 190, 5, 4) + wedge_row(334, 256, 4, 5), "clay", 16)
+    link = acc("M232 116 Q300 78 368 116", 3) + acc("M360 105 l8 11 l-13 3", 3)
+    odd = acc(rrect(400, 248, 46, 46, 8), 2.6, "5 6")
+    return a + b + link + odd
+
+
+def s_cattle():
+    left = obj(blob(110, 268, 74, 34, 51, .08), "", "stone", 12)
+    right = obj(blob(494, 268, 74, 34, 52, .08), "", "stone", 12)
+    route = acc("M128 238 Q300 120 476 238", 3, "2 10")
+    tok = obj(circle(300, 168, 66), bull(256, 152, 1.9), "steatite", 14)
+    return left + right + route + tok + f'<circle cx="476" cy="238" r="7" fill="{ACC}"/>'
+
+
+def s_rozanova():
+    beam = obj(rrect(100, 292, 400, 22, 6), "", "stone", 10)
+    pivot = obj("M300 314 L330 362 L270 362 Z", "", "stone", 6)
+    ink = "".join(fake_marks(148, 166 + k * 36, 6, 16, 80 + k, 2.6) for k in range(3))
+    real = obj(rrect(126, 146, 150, 140, 5), "", "paper", 4, over=f'<g>{ink.replace("#000", "#2b231c")}</g>')
+    pale = "".join(fake_marks(348, 166 + k * 36, 6, 16, 80 + k, 2.6) for k in range(3))
+    copy = obj(rrect(326, 146, 150, 140, 5), "", "paper", 4, over=f'<g>{pale.replace("#000", "#c4b59c")}</g>')
+    return beam + pivot + real + copy + acc(rrect(318, 138, 166, 156, 8), 2.4, "5 7") + f'<circle cx="300" cy="303" r="5" fill="{ACC}"/>'
+
+
+def s_stoicheia():
+    d = "M110 70 H490 V230 L420 330 H110 Z"
+    cuts = "".join(fake_marks(140, 96 + k * 46, 11, 20, 90 + k, 3.4) for k in range(4) if True)
+    cuts += '<path d="M490 230 L420 330 H490 Z" fill="#000"/>'
+    slab = obj("M110 70 H490 V330 H110 Z", cuts, "stone", 16)
+    gap = acc("M490 230 L420 330 H490 Z", 2.6, "5 6")
+    return slab + gap + acc("M446 300 h14 M468 290 v18 M476 276 h10", 3)
+
+
+def sheaf(cx, base, h, lean):
+    out = ""
+    for k in range(-2, 3):
+        tx = cx + k * 7 + lean
+        out += strokes(f"M{cx + k * 2} {base} Q{cx + k * 4} {base - h * .5} {tx} {base - h}", 2.6)
+        for j in range(4):
+            yy = base - h + 6 + j * 9
+            out += f'<ellipse cx="{tx - 4:.1f}" cy="{yy:.1f}" rx="3.4" ry="6" transform="rotate(-25 {tx - 4:.1f} {yy:.1f})" fill="#000"/>'
+            out += f'<ellipse cx="{tx + 4:.1f}" cy="{yy:.1f}" rx="3.4" ry="6" transform="rotate(25 {tx + 4:.1f} {yy:.1f})" fill="#000"/>'
+    return out + strokes(f"M{cx - 12} {base - h * .35} H{cx + 12}", 4)
+
+
+def s_jognakhera():
+    d = rrect(96, 74, 408, 252, 16)
+    cuts = sheaf(190, 262, 150, -6) + sheaf(274, 262, 168, 0) + sheaf(358, 262, 150, 6)
+    cuts += "".join(strokes(f"M118 {y} " + " ".join("q14 -8 28 0 t28 0" for _ in range(13)), 2.2, "#555") for y in (290, 306))
+    out = obj(d, cuts, "terracotta", 16)
+    return out + acc("M420 150 H486", 3.4) + acc("M474 140 l12 10 l-12 10", 3.4)
+
+
+def s_kelley():
+    cuts = ""
+    for r_, y in enumerate((120, 172, 224, 276)):
+        x = 112
+        for k in range(3 + r_ % 2):
+            cuts += f'<circle cx="{x + k * 26}" cy="{y}" r="9" fill="#333"/>'
+        cuts += fake_marks(x + 120, y - 12, 4, 24, 110 + r_, 3)
+    tab = obj(rrect(86, 92, 296, 214, 18), cuts, "clay", 16)
+    book = obj(rrect(420, 120, 120, 164, 4), "", "paper", 10, over=strokes("M432 120 V284", 2, "#9b8f7a") + strokes("M448 160 H520 M448 176 H508", 2.4, "#2b231c"))
+    return tab + book + acc("M394 200 H410", 2.6)
+
+
+def s_rgr3():
+    d = "M60 330 Q140 150 300 130 Q460 150 540 330 Z"
+    cuts = ""
+    for k, y in enumerate((180, 220, 260, 300)):
+        cuts += f'<path d="M40 {y} Q300 {y - 26} 560 {y} V{y + 40} H40 Z" fill="{["#e0e0e0", "#c8c8c8", "#b0b0b0", "#989898"][k]}"/>'
+    cuts += '<path d="M250 140 V300 H350 V140 Z" fill="#555"/>'
+    mound = obj(d, cuts, "clay", 14)
+    seal = square_seal(272, 226, 56, [342], animal=False, depth=6, sz=22)
+    pin = f'<path d="M300 186 V214" stroke="{ACC}" stroke-width="3"/><circle cx="300" cy="182" r="8" fill="{ACC}"/>'
+    return mound + seal + pin + acc("M366 214 H392 M366 288 H392 M380 214 V288", 2.6)
+
+
+def s_gini():
+    d = rrect(72, 76, 300, 248, 10)
+    cuts = strokes("M72 196 H372 M222 76 V324", 10, "#777")
+    for bx, by in ((86, 90), (150, 90), (86, 140), (150, 140), (236, 90), (300, 90), (236, 140), (300, 140),
+                   (86, 210), (150, 210), (86, 260), (150, 260), (236, 210), (300, 210), (236, 260), (300, 260)):
+        cuts += f'<path d="{rrect(bx, by, 56, 42, 3)}" fill="none" stroke="#000" stroke-width="3"/>'
+    plan = obj(d, cuts, "steatite", 14)
+    bars = "".join(f'<path d="{rrect(434 + k * 26, 140 + k * 26, 16, 160 - k * 26, 2)}" fill="#000"/>' for k in range(4))
+    chart = obj(rrect(414, 116, 124, 200, 10), bars, "terracotta", 12)
+    return plan + chart + acc("M440 132 L520 214", 3) + acc("M512 200 l8 14 l-15 1", 3)
+
+
+def s_korovina():
+    board = obj(rrect(56, 104, 250, 196, 16), "".join(fake_marks(84, 128 + k * 40, 8, 18, 120 + k, 3) for k in range(4)), "terracotta", 14)
+    near = obj(rrect(340, 150, 92, 112, 4), "", "paper", 8)
+    far = obj(rrect(476, 196, 70, 86, 4), "", "paper", 6, tilt="rotate(3 510 240)")
+    return board + near + far + acc("M314 206 H332", 3) + acc("M314 230 Q400 330 486 290", 2.6, "4 8")
+
+
 SCENES = {
     "restoration-2026": (s_restoration, "Illustration: a clay sealing with one sign broken away, the gap outlined and a candidate sign shown in it."),
     "voynich-2026": (s_voynich, "Illustration: an Indus seal and a manuscript page resting level on the same beam."),
@@ -512,6 +656,17 @@ SCENES = {
     "rakhigarhi-2019": (s_dna, "Illustration: a clay tile carved with a DNA double helix, one rung marked."),
     "mukhopadhyay-2019": (s_goods, "Illustration: a storage jar tied with a cord and sealed with a clay tag stamped with signs."),
     "desset-2022": (s_desset, "Illustration: a silver beaker with a band of marks, linked to a crown medallion."),
+    "hexagon-2026": (s_hexagon, "Illustration: an aerial print of fields with a low mound at the centre, a village creeping over one edge, framed like a photo."),
+    "zenil-2026": (s_zenil, "Illustration: a stone tablet with two rows of Indus signs and the line break marked, beside a gauge that has barely moved."),
+    "cuneiform-2026": (s_cuneiform, "Illustration: two clay tablets with wedge marks linked by an arc; one mark on the right tablet is outlined."),
+    "cattle-2026": (s_cattle, "Illustration: a round seal with a bull between two distant mounds, on a dotted route."),
+    "rozanova-2026": (s_rozanova, "Illustration: a written page and a pale fitted copy resting level on one beam."),
+    "stoicheia-2026": (s_stoicheia, "Illustration: an inscribed stone slab with a broken corner, the gap outlined and partly refilled."),
+    "jognakhera-2026": (s_jognakhera, "Illustration: a clay tile carved with three sheaves of grain above a river, with an arrow pointing east."),
+    "kelley-2026": (s_kelley, "Illustration: a clay accounting tablet with counting marks and signs beside a short book."),
+    "rakhigarhi-rgr3-2026": (s_rgr3, "Illustration: a mound cut in section with a trench, a small square seal resting on a dated layer, marked with a pin."),
+    "gini-2026": (s_gini, "Illustration: a city-block plan with houses of similar size beside a small chart of falling bars."),
+    "korovina-2026": (s_korovina, "Illustration: a board with rows of marks; one stack of pages lies close to it and another further away."),
     "sign2vec-2022": (s_cluster, "Illustration: a clay slab with two groups of similar sign shapes, each circled."),
 }
 
@@ -564,7 +719,7 @@ def main():
     for it in data["items"]:
         if it["id"] in keys:
             it["thumbnail_alt"] = SCENES[it["id"]][1]
-    (SITE / "news.json").write_text(json.dumps(data, ensure_ascii=False, indent=1) + "\n")
+    (SITE / "news.json").write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
 
 
 if __name__ == "__main__":

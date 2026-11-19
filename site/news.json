@@ -578,7 +578,7 @@
       "borrow": "What survives to be dug up, seals included, depends on what was destroyed first. When we compare inscription counts across Haryana sites, site loss belongs in the model as a covariate.",
       "status": "noted",
       "fig": "grid",
-      "thumbnail_alt": "Illustration: a grid of farm fields seen from above, with a low mound at the centre and a village outline creeping over one edge.",
+      "thumbnail_alt": "Illustration: an aerial print of fields with a low mound at the centre, a village creeping over one edge, framed like a photo.",
       "library_id": "gerrits-2026-hexagon-haryana",
       "verified": true
     },
@@ -598,7 +598,7 @@
       "borrow": "It touches our line_breaks test, which asks whether breaks fall at slot boundaries. Their gap between a good ranking and almost no information is a warning for our attacks too: report both accuracy and bits. They also say any search over languages and settings must sit inside the train/test split, which is how the mismatch study is sealed.",
       "status": "noted",
       "fig": "balance",
-      "thumbnail_alt": "Illustration: two short rows of plain shapes on a clay tablet, a break between them marked by a thin blue line, with a small gauge beside it barely moved.",
+      "thumbnail_alt": "Illustration: a stone tablet with two rows of Indus signs and the line break marked, beside a gauge that has barely moved.",
       "library_id": "zenil-2026-undeciphered-structure",
       "verified": true
     },
@@ -657,7 +657,7 @@
       "borrow": "This bears on the mismatch study's logo-syllabic arm. Borrowed word-signs are a kind of mismatch of their own, different from a related language. A \"foreign logograms\" variant in the logogram-share slice would test it; nothing in the sealed stage 1 changes.",
       "status": "noted",
       "fig": "compose",
-      "thumbnail_alt": "Illustration: two clay tablets side by side, a shared row of wedge-like marks bridging them, one mark on the right tablet set apart in a red outline.",
+      "thumbnail_alt": "Illustration: two clay tablets with wedge marks linked by an arc; one mark on the right tablet is outlined.",
       "library_id": "zhou-anderson-2026-cuneiform-transfer",
       "verified": true
     },
@@ -677,7 +677,7 @@
       "borrow": "A physical link between Gujarat and Haryana is one channel for shared seal practice. Kanmer has excavated seals and sealings. A test: do Kanmer texts share more sign sequences with Haryana sites than distance predicts?",
       "status": "noted",
       "fig": "goods",
-      "thumbnail_alt": "Illustration: a humped bull walking along a dotted route between two distant mound outlines.",
+      "thumbnail_alt": "Illustration: a round seal with a bull between two distant mounds, on a dotted route.",
       "library_id": "mahala-2026-bovine-isotopes",
       "verified": true
     },
@@ -697,7 +697,7 @@
       "borrow": "This is close to our mismatch study. Their wrong-language result is one more point on our curve: low recovery when the model is the wrong language. Their fake-text comparison (a generator fitted to the same corpus) is a stronger null than our shuffled negative, and we should add it next to planted check PC3.",
       "status": "noted",
       "fig": "twin",
-      "thumbnail_alt": "Illustration: two parchment sheets with rows of plain shapes, one real and one a pale copy, joined by a balance that sits level.",
+      "thumbnail_alt": "Illustration: a written page and a pale fitted copy resting level on one beam.",
       "library_id": "rozanova-2026-voynich-units",
       "verified": true
     },
@@ -717,7 +717,7 @@
       "borrow": "We took the testing habits, not the model. Our sign-restoration benchmark already keeps near-copies out of the test set. Rotating folds, so every text is unseen by one released model, and a matched untrained control are two checks to add.",
       "status": "noted",
       "fig": "restore",
-      "thumbnail_alt": "Illustration: a stone slab with a missing corner, the gap outlined in red and filled with plain blue shapes.",
+      "thumbnail_alt": "Illustration: an inscribed stone slab with a broken corner, the gap outlined and partly refilled.",
       "library_id": "cullhed-2026-stoicheia",
       "verified": true
     },
@@ -756,7 +756,7 @@
       "borrow": "Late inscriptions are rare. This supports asking whether writing faded with the cities or moved east with the people. It also helps date late-phase objects.",
       "status": "noted",
       "fig": "goods",
-      "thumbnail_alt": "Illustration: sheaves of grain and a few seeds beside a riverbank, with an arrow pointing east.",
+      "thumbnail_alt": "Illustration: a clay tile carved with three sheaves of grain above a river, with an arrow pointing east.",
       "library_id": "swaroop-2026-jognakhera-bara",
       "verified": true
     },
@@ -776,7 +776,7 @@
       "borrow": "Proto-Elamite is the closest working model for an undeciphered administrative script. We use the computational methods of the same group in our Elamite bridge. The book is now the reference to check for sign-value anchors usable as a logo-syllabic test case.",
       "status": "noted",
       "fig": "compose",
-      "thumbnail_alt": "Illustration: a rectangular clay tablet with rows of small round counting marks next to plain sign shapes.",
+      "thumbnail_alt": "Illustration: a clay accounting tablet with counting marks and signs beside a short book.",
       "library_id": "kelley-2026-proto-elamite",
       "verified": true
     },
@@ -796,7 +796,7 @@
       "borrow": "A seal with a known mound and a dated late phase is the kind of record our find-spot and date tests need. If its inscription is published, it becomes a late-phase test case for our chronology work.",
       "status": "waiting",
       "fig": "round",
-      "thumbnail_alt": "Illustration: an excavation trench cut into a low mound, a small square seal shape resting on a dated layer, marked with a red pin.",
+      "thumbnail_alt": "Illustration: a mound cut in section with a trench, a small square seal resting on a dated layer, marked with a pin.",
       "library_id": "gupta-kumar-2026-rakhigarhi-rgr3",
       "verified": true
     },
@@ -816,7 +816,7 @@
       "borrow": "Seals are often read as marks of elite power. DK-G South has both phased houses and many seals, so seal counts per house can be set against house size. That tests whether seal use tracked wealth.",
       "status": "noted",
       "fig": "scale",
-      "thumbnail_alt": "Illustration: a plan of a city block with house outlines of similar sizes and a small falling bar chart beside it.",
+      "thumbnail_alt": "Illustration: a city-block plan with houses of similar size beside a small chart of falling bars.",
       "library_id": "green-2026-mohenjo-gini",
       "verified": true
     },
@@ -836,7 +836,7 @@
       "borrow": "This matters for the mismatch study. Its \"same language across genres\" pairs are not near-zero mismatch: genre alone cut recovery by more than half here. The true-model control must use the same genre as the text, and each genre pair needs its own measured mismatch. A pooled-genre model is a cheap way to narrow the gap.",
       "status": "noted",
       "fig": "match",
-      "thumbnail_alt": "Illustration: a wooden board with rows of plain shapes, and two stacks of paper beside it, one close and one set further away.",
+      "thumbnail_alt": "Illustration: a board with rows of marks; one stack of pages lies close to it and another further away.",
       "library_id": "korovina-2026-rongorongo-syllabic",
       "verified": true
     },
