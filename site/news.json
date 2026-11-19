@@ -13,7 +13,7 @@
    "gist": "A team released code, data and predictions for a model that guesses damaged or missing signs.",
    "plain": "Many seals are chipped, so some signs are lost. This team trained a model to fill the gaps and published everything: the code, how they split the texts for training and testing, and the model's guesses. Because it is all open, anyone can check how good it really is.",
    "tech": "Neural masked-sign restoration with public train/test splits and predictions (CC BY 4.0 and MIT, about 6 MB). The record page does not describe the corpus or the model. The main risk is leakage: near-copies of the same seal text can sit on both sides of a split, which inflates scores.",
-   "borrow": "We graded it. 36% of its test texts have a near-copy in its training texts. On clean texts the neural model does no better than a simple three-sign model (28.5% vs 29.8% right on the first guess).",
+   "borrow": "We graded it, then retrained their own code. 36% of its test texts have a near-copy (one sign off, or contained) in its training texts. Training without those near-copies lowers every model's first-guess accuracy by about 6-7 points, compared with dropping the same number of unrelated texts. Without them, the neural model still does no better than their simple three-sign model.",
    "status": "done",
    "fig": "restore",
    "rank": 6,

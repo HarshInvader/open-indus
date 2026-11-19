@@ -1,0 +1,65 @@
+{
+ "family": {
+  "test_ngram_kn": {
+   "n": 1450,
+   "hit1": 35.45,
+   "hit5": 62.55,
+   "mrr": 0.4778
+  },
+  "test_transformer": {
+   "n": 1450,
+   "hit1": 35.66,
+   "hit5": 59.72,
+   "mrr": 0.4657
+  },
+  "test_blend": {
+   "n": 1450,
+   "hit1": 36.41,
+   "hit5": 64.62,
+   "mrr": 0.4868
+  },
+  "alpha": 0.75
+ },
+ "purge": {
+  "test_ngram_kn": {
+   "n": 1405,
+   "hit1": 35.44,
+   "hit5": 58.65,
+   "mrr": 0.4678
+  },
+  "test_transformer": {
+   "n": 1405,
+   "hit1": 33.1,
+   "hit5": 53.88,
+   "mrr": 0.4309
+  },
+  "test_blend": {
+   "n": 1405,
+   "hit1": 36.16,
+   "hit5": 58.79,
+   "mrr": 0.4704
+  },
+  "alpha": 0.35
+ },
+ "sizectl": {
+  "test_ngram_kn": {
+   "n": 1405,
+   "hit1": 41.71,
+   "hit5": 63.84,
+   "mrr": 0.5195
+  },
+  "test_transformer": {
+   "n": 1405,
+   "hit1": 39.0,
+   "hit5": 59.79,
+   "mrr": 0.4869
+  },
+  "test_blend": {
+   "n": 1405,
+   "hit1": 43.42,
+   "hit5": 63.91,
+   "mrr": 0.5299
+  },
+  "alpha": 0.55
+ }
+}

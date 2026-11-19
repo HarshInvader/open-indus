@@ -1,0 +1,29 @@
+{
+ "exact_copy_ours": {
+  "positions": 59,
+  "texts": 20,
+  "kn3": 33.9,
+  "transformer": 33.9,
+  "blend": 35.6,
+  "ours_trigram": 79.7,
+  "unigram": 16.9
+ },
+ "near_copy_only": {
+  "positions": 469,
+  "texts": 87,
+  "kn3": 59.7,
+  "transformer": 53.3,
+  "blend": 60.6,
+  "ours_trigram": 59.3,
+  "unigram": 13.9
+ },
+ "clean": {
+  "positions": 875,
+  "texts": 189,
+  "kn3": 29.7,
+  "transformer": 28.5,
+  "blend": 30.5,
+  "ours_trigram": 29.8,
+  "unigram": 8.2
+ }
+}

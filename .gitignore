@@ -84,3 +84,7 @@ node_modules/
 experiments/harappa_com/evidence/
 experiments/source_sweep/evidence/
 site/qa/
+
+# retrain: split files hold M77 sign sequences (not published); probability arrays are large
+experiments/bench_restoration/out/splits/
+experiments/bench_restoration/out/runs/*/*.npy

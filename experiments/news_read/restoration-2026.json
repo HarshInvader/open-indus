@@ -21,7 +21,7 @@
     "Table S11 covers 360 damaged texts: 170 initial, 179 terminal and 11 medial gaps, and 111 of them have an intact parallel elsewhere in the corpus (README.md, 'Table S11').",
     "None of the 7,105 corpus signs was approved by the automatic rule; every sign was verified by a person (REBUILD.md, step 5).",
     "The authors warn that where a model is confident its top guess is often the attested sign, so the predictions are not independent of the texts they were made for (README.md, 'Predictions').",
-    "Our own bench of this deposit found that 107 of the 296 scored test texts (36%) have a near-copy in training, and on clean texts the transformer gets 28.5% Hit@1 against 29.8% for a plain trigram (experiments/bench_restoration/RESULTS.md)."
+    "Our own bench of this deposit found that 107 of the 296 scored test texts (36%) have a near-copy in training, and on clean texts the transformer gets 28.5% Hit@1 against 29.8% for a plain trigram. Retraining their own code without those near-copies lowers every model by about 6-7 points of Hit@1 against a size-matched control; the transformer still does not beat their KN-3 (experiments/bench_restoration/RESULTS.md)."
   ],
   "strength_and_limits": [
     "The deposit is unusually careful: hash-based folds, a written rebuild procedure, a script that checks a rebuild, and a self-audit for leaked sign data.",
