@@ -322,3 +322,5 @@ cb9a4422215cfc1a33782b6e6d17257fc76e9abd0ec984cf298ed55fa2824cb5  docs/prereg/re
 9b50a1fd45179e6941d0dcd31c181572f7ed3226f18c38a084151cf93dda5d4e  experiments/redteam_decipherability/rt.py  2026-11-18T21:09:29Z  redteam_decipherability board#46 code (text length mix computed from mean word length, per prereg)
 23d68e8a15b37ef98858ae4399eaa4b4344065a6e6b1020f0fe0ff75dec36ac7  docs/prereg/slot_function.md  2026-11-18T22:09Z  sealed before any real outcome (smoke runs on shuffled/planted data only). Notes: ICIT distinct = first record per seq; A bootstrap is stratified by class
 16280b7fab06af4c476400f6c96a7a3c0d9edb6fd2619e519d7cceb377b0ca11  experiments/slot_function/sf.py  2026-11-18T22:09Z  sealed before any real outcome (smoke runs on shuffled/planted data only). Notes: ICIT distinct = first record per seq; A bootstrap is stratified by class
+f036a7d6f527707aae115663a2c56ad05d4274e8773b03570839f279dd9c7e63  docs/prereg/search_scaling.md  2026-11-19T00:07:23Z  search_scaling (before any run)
+ecb921de12025281524fd929fa31a3a086a0a4c902b2bdcc176ffd618560e6c9  experiments/search_scaling/ss.py  2026-11-19T00:07:23Z  search_scaling (before any run)
