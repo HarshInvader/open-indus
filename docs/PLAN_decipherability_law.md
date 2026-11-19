@@ -88,6 +88,35 @@ The owner asked for a paper that leading researchers would call a breakthrough, 
 
 The likeliest failure is attacker-invariance: a stronger attack (a higher-order model, beam search, many restarts) might lift recovery and break the plateau.
 
+## Novelty check result (2026-11-19, `experiments/survey_2026/NOVELTY_decipherability.md`, 24 papers opened)
+
+**Already known.** These are not our contribution and will be cited:
+- Related-language decipherment degrades. Luo et al. 2021, Gothic: A@10 0.820 with Proto-Germanic, 0.213 with Old Norse, 0.046 with Old English. Knight et al. 2006: Spanish with a Galician model.
+- Anchors help. Luo 2021: 7 known characters lift Gothic/Old Norse from 0.213 to 0.397. Kambhatla et al. 2023: 3 manual corrections.
+- A closer lexicon helps (Snyder 2010; Luo 2019).
+- The true key need not score best (Berg-Kirkpatrick & Klein 2013, with a matched model).
+- A mismatch plateau with more data, in decipherment for translation: Dou & Knight 2013 plateau at 4.2% even at 10M tokens.
+- For an Indus audience, Raghavendra 2026 (SIGIL) already shows that bootstrapped keys agree on only 9.30% of values.
+
+**Plausibly new.**
+- A size sweep for scripts showing the plateau, framed as identifiability: a unicity distance that never arrives under mismatch.
+- How the true key's score gap changes with size, and the statistical-to-computational crossover.
+- A quantitative anchor dose-response.
+- Logo-syllabic scripts. All prior controlled work is alphabetic, Linear B, or word-level translation.
+- A multi-factor law validated on held-out pairs. None found for 2023-2026.
+
+**Threats to address in the design.**
+- Snyder's baseline got 73% of the Ugaritic alphabet with a Hebrew model, against our 4-26%. **Script type** (alphabet of about 30 signs vs syllabary of about 90 vs logo-syllabic) must be an axis, and the law must cover both regimes.
+- Knight & Yamada 1999 got 22% on logographic Chinese even with the true model. Check how our "2,500 tokens suffice" depends on sign inventory.
+- Theorists will call the plateau expected from Shannon's assumptions. The contribution must be the measured boundary and exchange rate, not the existence of a plateau.
+
+**Revised odds.** This lowers novelty. A qualitative "mismatch hurts, anchors help" paper would be rejected as known.
+- Clean result: 35% → 30%, because script type adds an axis.
+- Top venue, given clean: 45% → 35%.
+- Overall: about 10%.
+- Seminal: about 1%.
+- The paper stands only if the law predicts held-out pairs and real scripts quantitatively.
+
 ## Order of work
 
 1. Finish the search_scaling write-up. The job is still running and holds the compute lock.
