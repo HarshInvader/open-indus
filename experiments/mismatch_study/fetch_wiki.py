@@ -3,7 +3,7 @@ Same method as experiments/decipherability/fetch_wiki.py; generic User-Agent.
 Never fetches the sealed held-out families (tr, az, cs, sk, nl, de).
 Run: .venv/bin/python -I experiments/mismatch_study/fetch_wiki.py es pt ro hu te id ms
 """
-import json, sys, time, urllib.parse, urllib.request
+import json, sys, time, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 RAW = Path(__file__).resolve().parents[1] / "decipherability" / "raw"
@@ -21,17 +21,26 @@ def fetch(lang, rounds=60):
                  exintro=1, explaintext=1, exlimit=20, format="json")
         url = f"https://{lang}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(q)
         req = urllib.request.Request(url, headers={"User-Agent": "open-research-site/1.0"})
-        try:
-            d = json.load(urllib.request.urlopen(req, timeout=30))
-        except Exception as e:
-            print(lang, r, e); time.sleep(3); continue
+        d, wait = None, 30
+        while d is None:
+            try:
+                d = json.load(urllib.request.urlopen(req, timeout=30))
+            except urllib.error.HTTPError as e:
+                if e.code != 429 or wait > 960:
+                    print(lang, r, e); break
+                ra = e.headers.get("Retry-After")
+                time.sleep(max(int(ra) if ra and ra.isdigit() else 0, wait)); wait *= 2  # respect the limit
+            except Exception as e:
+                print(lang, r, e); break
+        if d is None:
+            continue
         for p in d.get("query", {}).get("pages", {}).values():
             if p["pageid"] in seen:
                 continue
             seen.add(p["pageid"]); t = p.get("extract", "").strip()
             if len(t) > 80:
                 texts.append(t)
-        time.sleep(0.5)
+        time.sleep(3)
     out.write_text("\n".join(texts))
     print(lang, len(texts), sum(map(len, texts)), flush=True)
 

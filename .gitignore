@@ -89,3 +89,9 @@ site/qa/
 experiments/bench_restoration/out/splits/
 experiments/bench_restoration/out/runs/*/*.npy
 docs/paper/submission/
+
+# mismatch_study: third-party corpora (licenses in raw_real/SOURCES.md; Ugaritic CUC is CC BY-NC) stay local
+experiments/mismatch_study/raw_real/*
+!experiments/mismatch_study/raw_real/SOURCES.md
+experiments/mismatch_study/out/
+experiments/mismatch_study/*.log
