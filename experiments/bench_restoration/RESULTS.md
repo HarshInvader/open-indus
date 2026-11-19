@@ -12,7 +12,7 @@
 | purge: their test set, the 177 train/val texts dropped that are near-copies of a test text | 303 | 35.44 | 33.10 | 36.16 |
 | family: whole near-copy families kept in one split | 322 | 35.45 | 35.66 | 36.41 |
 
-\* The orig retrain hit the 2-hour job limit during seed 3 of 5 and was not rerun. The orig row was a descriptive reproduction check only; KN-3 is deterministic and comes from the same code. It is 2.6 points above their 39.56 on the same split, which measures the effect of reading differences.
+\* The orig retrain hit the 2-hour job limit twice: once during seed 3 of 5 while sharing the machine, and once alone in the last of its 5 refits. It is not rerun, because restoration work is closed. The orig row was a descriptive reproduction check only; KN-3 is deterministic and comes from the same code. It is 2.6 points above their 39.56 on the same split, which measures the effect of reading differences.
 
 - **P1 leakage, CONFIRMED.** Purge is below sizectl by 6.3 (KN-3), 5.9 (transformer) and 7.3 (blend) points. The sealed bar was at least 5 for all three. Both splits drop the same number of training texts, so the gap is the near-copies themselves, not less data.
   - Post hoc robustness check (not pre-registered, `posthoc_kn_draws.py`): 100 more random size controls give KN-3 41.1 to 42.9 (mean 42.0). The gap to purge is at least 5.7 points in all 100.
