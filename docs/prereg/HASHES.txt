@@ -343,3 +343,6 @@ a8d17cb22e488942ac3b73cc832f327c49b0531eb99b31eb6f841e6c329652fe  docs/prereg/mi
 99c94f5cbf997a9a25887c5805fdfd3f15d8724a7042e68c8911d8cd769d83b5  docs/prereg/mismatch_study_amend2.md  2026-11-19
 b577b30a598ad02134a80dc795d220a42572baf12e4708c9686da8cc0ccc11db  experiments/mismatch_study/par.py  2026-11-19
 8399a7231d2376f179baeb05819c999c44f1f4c8f0416c4c8365b221bfa0b3e9  docs/prereg/mismatch_study_amend3.md  2026-11-19
+2159688be5fb2fa0f1ca247c8c5e1057c4713230f653cb9d1c20e43ec062cb70  docs/prereg/mismatch_study_fix1.md  2026-11-19  (fix 1)
+1e7181f0381e4c855fde086492cb613eaa397077185eb65280cfb8b0c97f1f2d  experiments/mismatch_study/mm.py  2026-11-19  (fix 1)
+a1bfe0790964e74e9325b8a2db017edf150b5eaeaf5225d165f6ef83842af196  experiments/mismatch_study/par.py  2026-11-19  (fix 1)

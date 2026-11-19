@@ -1,6 +1,6 @@
 """Parallel driver for mismatch_study stage 1 (laptop, several processes at background priority).
 
-Calls only the sealed functions of mm.py (sha256 04ef0c0f...; checked at start). It reproduces mm.py's
+Calls only the sealed functions of mm.py (hash checked at start; see HASHES.txt and docs/prereg/mismatch_study_fix1.md). It reproduces mm.py's
 stage loops cell by cell, with the same seeds and record fields, but runs cells in a process pool and
 writes every finished record from the main process (checkpoint = the jsonl files; rerun resumes).
 
@@ -27,7 +27,7 @@ from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-SEALED = "04ef0c0f77baec628537f06b353f439aadfedd5c43bb030bfd70e240aab96a13"
+SEALED = "1e7181f0381e4c855fde086492cb613eaa397077185eb65280cfb8b0c97f1f2d"  # fix 1; run-1 seal was 04ef0c0f...
 got = hashlib.sha256((HERE / "mm.py").read_bytes()).hexdigest()
 assert got == SEALED, f"mm.py hash {got} != sealed {SEALED}"
 sys.path.insert(0, str(HERE))

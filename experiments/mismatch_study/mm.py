@@ -236,7 +236,34 @@ def gibbs(cp, cond, scorefn, L, rng, init=None, sweeps=300, t0=3.0, greedy_only=
                 z = (v - v.max()) / T; p = np.exp(z); p /= p.sum()
                 new = int(g.choice(len(p), p=p))
             cv[key[s]] -= cp.cnt[s]; key[s] = new; cv[new] += cp.cnt[s]
-    return key, scorefn(key, cp, L)
+    if greedy_only:
+        return key, scorefn(key, cp, L)
+    return polish(cp, cond, scorefn, L, key, rng)  # fix 1 (docs/prereg/mismatch_study_fix1.md)
+
+
+def polish(cp, cond, scorefn, L, key, rng):
+    """Fix 1: after the anneal, alternate (a) every pairwise swap of two signs' values, kept if the full
+    objective rises, and (b) a greedy single-sign sweep, until neither improves. Single-sign moves cannot
+    exchange two values, so the anneal stalls in swap-separated optima (PC1 alphabet cells, run 1)."""
+    S = cp.S
+    best = scorefn(key, cp, L)
+    while True:
+        improved = False
+        for a in range(S):
+            for b in range(a + 1, S):
+                if key[a] == key[b] or cp.cnt[a] == 0 or cp.cnt[b] == 0:
+                    continue
+                key[a], key[b] = key[b], key[a]
+                sc_ = scorefn(key, cp, L)
+                if sc_ > best + 1e-9:
+                    best, improved = sc_, True
+                else:
+                    key[a], key[b] = key[b], key[a]
+        k2, s2 = gibbs(cp, cond, scorefn, L, rng, init=key.copy(), greedy_only=True)
+        if s2 > best + 1e-9:
+            key, best, improved = k2, s2, True
+        if not improved:
+            return key, best
 
 
 # ------------------------------------------------------------------ EM attack
