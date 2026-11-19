@@ -1,23 +1,23 @@
 cff-version: 1.2.0
 message: "If you use this corpus build, these tests or the prediction registry, please cite it as below."
-title: "Indus script: a reproducible decipherment attempt"
+title: "Open Indus: reproducible tests on the Indus script"
 abstract: >-
-  A reproducible structural and functional analysis of the Indus script. It covers a corpus build of
-  Mahadevan 1977 and the Wells/Fuls ICIT, held-out tests on a leak-free family split, a red-team
-  reimplementation, a project-wide multiple-testing ledger, an atlas of closed routes and a
-  hash-sealed registry of predictions for future finds. The result is a partial decipherment at the
-  levels of structure (L0) and function (L1). There is no phonetic reading, and the language is not
-  identified.
+  Reproducible tests on the Indus script. It covers a corpus build of Mahadevan 1977 and the
+  Wells/Fuls ICIT, held-out tests on a leak-free family split, a red-team reimplementation, a
+  project-wide multiple-testing ledger, an atlas of closed routes and a hash-sealed registry of
+  predictions for future finds. The script is not deciphered: no sign has a tested sound or
+  meaning, and the language is not identified. The accompanying measurement paper (preprint,
+  doi:10.5281/zenodo.24371567) reports how far the two editions disagree, how much random
+  train/test splits leak through near-copies, and which questions the corpus is too small to answer.
 type: software
-version: "1.1"
-date-released: "2026-11-15"
+version: "1.2"
+date-released: "2026-11-19"
 authors:
-  - name: "Open Indus contributors"
+  - name: "Open Indus project"
 keywords:
   - Indus script
   - Harappan
   - undeciphered scripts
-  - decipherment
   - corpus linguistics
   - preregistration
   - reproducibility
