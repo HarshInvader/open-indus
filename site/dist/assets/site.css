@@ -894,3 +894,17 @@ html:not(.js) .z-plain { display: block; }
 .lcard dt { font-weight: 600; font-size: 14px; margin-top: 8px; }
 .lcard dd { margin: 0; }
 @media (max-width: 640px) { .lcard { grid-template-columns: minmax(0, 1fr); } .lthumb { max-width: 320px; } }
+
+/* News: three-column card grid (matches Open Mind and Open Origins); 2 columns on tablets, 1 on phones. */
+.ngrid { display: grid; gap: 40px 28px; grid-template-columns: minmax(0, 1fr); margin-top: 22px; }
+@media (min-width: 640px) { .ngrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1000px) { .ngrid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.ngrid .ncard, .news-feed[data-zoom="gist"] .ngrid .ncard { display: flex; flex-direction: column; padding: 0; border-top: 0; }
+.ngrid .nmeta { order: 2; margin: 12px 0 4px; }
+.ngrid .nrow { display: contents; }
+.ngrid .nrow > :first-child { order: 1; }
+.ngrid .nbody { order: 3; }
+.ngrid .nh { font-size: 17.5px; line-height: 1.3; margin: 0 0 6px; }
+.ngrid .z { font-size: 15px; }
+.ngrid .nborrow { flex-direction: column; gap: 6px; }
+.ngrid .nborrow p { font-size: 14px; }

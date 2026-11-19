@@ -1003,7 +1003,7 @@ def news_page():
     withidea = sorted([i for i in items if i.get("idea")], key=lambda i: i["rank"])
     open_ = [i for i in withidea if i["status"] in ("next", "idea", "running")]
     done = [i for i in withidea if i["status"] not in ("next", "idea", "running")]
-    return dict(NEWS_LATEST="".join(news_card(i) for i in latest), NEWS_LAND="".join(news_card(i) for i in land),
+    return dict(NEWS_LATEST='<div class="ngrid">' + "".join(news_card(i) for i in latest) + "</div>", NEWS_LAND='<div class="ngrid">' + "".join(news_card(i) for i in land) + "</div>",
                 NEWS_IDEAS=idea_list(open_), NEWS_TRIED=idea_list(done), NEWS_N=len(items), NEWS_FIELD=news_field())
 
 

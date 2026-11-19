@@ -569,5 +569,5 @@
    "summary": "Retrained the deposit's own code unchanged on leakage-fixed splits (prereg bench_restoration_retrain). Same 303 test texts: dropping the 177 near-copy training texts lowers Hit@1 by 6.3 (KN-3), 5.9 (transformer) and 7.3 (blend) points against dropping 177 unrelated texts; gap >= 5.7 in 100 random controls (post hoc). Transformer minus KN-3 on clean splits: -2.3 and +0.2 points, no detectable neural gain. Corrects #18: its '20 exact copies' were reading differences, and its 'about 10 points' mixed leakage with clean texts being harder."
   }
  ],
- "snapshot": "2026-11-19 10:47"
+ "snapshot": "2026-11-19 10:55"
 }
