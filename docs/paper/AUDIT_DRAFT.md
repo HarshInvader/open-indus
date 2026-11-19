@@ -1,5 +1,8 @@
 # What 2,300 Indus texts can and cannot show: a leakage-free benchmark, power floors and sealed predictions <!-- src: docs/AGENT_BRIEF.md -->
 
+**Superseded by `docs/paper/latex/main.tex`.** Kept as the record of the first draft.
+
+
 Draft for Digital Scholarship in the Humanities, Journal of Quantitative Linguistics or PLOS ONE. Not submitted. Every number carries a comment naming the file it comes from; `scripts/audit_paper_numbers.py` checks them, and its report is at the bottom.
 
 ## Abstract

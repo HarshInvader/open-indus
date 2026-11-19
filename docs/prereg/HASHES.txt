@@ -335,3 +335,5 @@ fd69a93e11b8aae542e6de1534e07747b601ca2d1c78ba7047afdf1a1d40195b  experiments/ha
 2b4dc04c37f52dd8b8d88c7adaf2b07de901783a77ad500a06cd16cabb649890  experiments/harp_pack/test_loader.py  2026-11-19T06:39:36Z  harp_pack (sealed before HARP spreadsheet; synthetic data only)
 ecf825386bd008110ca02b79cf425a375879bba9a61d828b86ebc9bf8314c4b8  experiments/harp_pack/power.json  2026-11-19T06:39:36Z  harp_pack (sealed before HARP spreadsheet; synthetic data only)
 4167f5a1e689b2dfd0f563457fa41f73a77ea2d91c0b922177ed501b0695b2bc  experiments/harp_pack/fixture/harp_fixture.csv  2026-11-19T06:39:36Z  harp_pack (sealed before HARP spreadsheet; synthetic data only)
+cf4f361134b7cfa60571fe7a9dd0f22665307be74f84faaa3d559a784b80a46f  docs/prereg/split_leakage.md  2026-11-19T13:59:56Z  split_leakage (descriptive; before any run)
+bf80b3264dade15828a2065ede6e968f42c30e5ec6df3aa6c1d0350452b2aba8  experiments/split_leakage/leak.py  2026-11-19T13:59:56Z  split_leakage (descriptive; before any run)

@@ -61,45 +61,24 @@ def fig_disagreement():
 
 
 def fig_leakage():
-    d = json.loads((ROOT / "experiments/redteam_bench_restoration/results.json").read_text())
-    g = d["leak_grid"]
-    rows = [("exact copy", g["k0_containFalse"]["share"]),
-            ("1 edit", g["k1_containFalse"]["share"]),
-            ("exact or contained", g["k0_containTrue"]["share"]),
-            ("1 edit or contained*", g["k1_containTrue"]["share"]),
-            ("2 edits", g["k2_containFalse"]["share"]),
-            ("2 edits or contained", g["k2_containTrue"]["share"])]
-    s3 = d["S3_random_object_split_share"]
-    fig, ax = plt.subplots(figsize=(3.4, 2.2))
-    for i, (lab, v) in enumerate(rows):
-        primary = lab.endswith("*")
-        ax.barh(i, v, color=ACCENT if primary else MUTED, height=0.65)
-        ax.text(v + 1, i, f"{v:.0f}%", va="center", fontsize=8)
-    ax.set_yticks(range(len(rows)), [r[0] for r in rows], fontsize=8)
+    d = json.loads((ROOT / "experiments/split_leakage/results.json").read_text())
+    rules = ["1 edit", "exact or contained", "1 edit or contained", "2 edits", "2 edits or contained"]
+    labels = ["1 edit", "exact or contained", "1 edit or contained*", "2 edits", "2 edits or contained"]
+    fig, ax = plt.subplots(figsize=(3.4, 2.4))
+    h = 0.36
+    for key, off, col, lab in [("A_all_texts", -h / 2, MUTED, "all texts"),
+                               ("B_exact_repeats_removed", h / 2, ACCENT, "exact repeats removed")]:
+        for i, r in enumerate(rules):
+            v = d[key][r]
+            ax.barh(i + off, v["median"], height=h, color=col, label=lab if i == 0 else None)
+            ax.errorbar(v["median"], i + off, xerr=[[v["median"] - v["p2.5"]], [v["p97.5"] - v["median"]]],
+                        color=INK, lw=0.7, capsize=1.5)
+    ax.set_yticks(range(len(rules)), labels, fontsize=8)
     ax.invert_yaxis()
-    ax.set_xlim(0, 60)
+    ax.set_xlim(0, 80)
     ax.set_xlabel("test texts with a copy in training (%)")
-    ax.axvspan(s3["p2.5"], s3["p97.5"], ymin=0, ymax=1, color=ACCENT, alpha=0.08, lw=0)
+    ax.legend(frameon=False, fontsize=7.5, ncol=2, loc="lower center", bbox_to_anchor=(0.4, 1.0))
     save(fig, "fig2_leakage")
-
-
-def fig_restoration():
-    # experiments/bench_restoration/RESULTS.md, retraining table
-    conds = ["size control", "near-copies\nremoved", "split by\nfamily"]
-    vals = {"trigram": [41.71, 35.44, 35.45],
-            "transformer": [39.00, 33.10, 35.66],
-            "blend": [43.42, 36.16, 36.41]}
-    colours = {"trigram": INK, "transformer": MUTED, "blend": ACCENT}
-    fig, ax = plt.subplots(figsize=(3.4, 2.2))
-    w = 0.26
-    for j, (m, v) in enumerate(vals.items()):
-        xs = [i + (j - 1) * w for i in range(3)]
-        ax.bar(xs, v, width=w, color=colours[m], label=m)
-    ax.set_xticks(range(3), conds, fontsize=8)
-    ax.set_ylabel("top-1 accuracy (%)")
-    ax.set_ylim(0, 50)
-    ax.legend(frameon=False, fontsize=7.5, ncol=3, loc="upper center", bbox_to_anchor=(0.5, 1.12))
-    save(fig, "fig3_restoration")
 
 
 def fig_order():
@@ -136,6 +115,5 @@ def fig_order():
 if __name__ == "__main__":
     fig_disagreement()
     fig_leakage()
-    fig_restoration()
     fig_order()
     print("wrote", sorted(p.name for p in OUT.glob("*.pdf")))
