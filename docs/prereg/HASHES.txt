@@ -337,3 +337,5 @@ ecf825386bd008110ca02b79cf425a375879bba9a61d828b86ebc9bf8314c4b8  experiments/ha
 4167f5a1e689b2dfd0f563457fa41f73a77ea2d91c0b922177ed501b0695b2bc  experiments/harp_pack/fixture/harp_fixture.csv  2026-11-19T06:39:36Z  harp_pack (sealed before HARP spreadsheet; synthetic data only)
 cf4f361134b7cfa60571fe7a9dd0f22665307be74f84faaa3d559a784b80a46f  docs/prereg/split_leakage.md  2026-11-19T13:59:56Z  split_leakage (descriptive; before any run)
 bf80b3264dade15828a2065ede6e968f42c30e5ec6df3aa6c1d0350452b2aba8  experiments/split_leakage/leak.py  2026-11-19T13:59:56Z  split_leakage (descriptive; before any run)
+a8d17cb22e488942ac3b73cc832f327c49b0531eb99b31eb6f841e6c329652fe  docs/prereg/mismatch_study.md  2026-11-19
+04ef0c0f77baec628537f06b353f439aadfedd5c43bb030bfd70e240aab96a13  experiments/mismatch_study/mm.py  2026-11-19
