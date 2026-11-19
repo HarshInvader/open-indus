@@ -193,7 +193,7 @@
    "waits": [],
    "verdict": "negative",
    "path": "experiments/bench_restoration/RESULTS.md",
-   "summary": "107 of 296 test texts (36%) in the IIT Hyderabad restoration split have a near-copy in training; their blend scores 57.8% Hit@1 on those vs 30.5% on clean texts, so the 40.8% headline is inflated by about 10 points. On clean texts the transformer does not beat a plain trigram (28.5 vs 29.8 Hit@1, diff -1.4, 95% CI -4.0 to +1.3) and the blend gains only +0.7 (CI -1.0 to +2.3)."
+   "summary": "REVISED by #53: retraining their code shows near-copies inflate Hit@1 by about 6-7 points, not 10. 107 of 296 test texts (36%) in the IIT Hyderabad restoration split have a near-copy in training; their blend scores 57.8% Hit@1 on those vs 30.5% on clean texts, so the 40.8% headline is inflated by about 10 points. On clean texts the transformer does not beat a plain trigram (28.5 vs 29.8 Hit@1, diff -1.4, 95% CI -4.0 to +1.3) and the blend gains only +0.7 (CI -1.0 to +2.3)."
   },
   {
    "id": 19,
@@ -545,7 +545,29 @@
    "state": "ready",
    "owner": "",
    "waits": []
+  },
+  {
+   "id": 52,
+   "ms": "M6",
+   "title": "HARP sealed prediction pack",
+   "state": "done",
+   "owner": "harp_pack",
+   "waits": [],
+   "verdict": "tool",
+   "path": "experiments/harp_pack/RESULTS.md",
+   "summary": "Sealed 5 HARP tests with planted power >=0.92 at the likely size (C1, C2, C6, C7, C9; alpha 0.05/13); dropped 9 for low power (C3 0.34, C4 0.28, F3b 0.39, bangle/implement/rod/ticked-fish/new-oval 0.00). Prereg + loader/scorer/power hashed before the sheet arrives."
+  },
+  {
+   "id": 53,
+   "ms": "M5",
+   "title": "Retrain the IIT Hyderabad restoration models on leakage-fixed splits",
+   "state": "done",
+   "owner": "paper",
+   "waits": [],
+   "verdict": "mixed",
+   "path": "experiments/bench_restoration/RESULTS.md",
+   "summary": "Retrained the deposit's own code unchanged on leakage-fixed splits (prereg bench_restoration_retrain). Same 303 test texts: dropping the 177 near-copy training texts lowers Hit@1 by 6.3 (KN-3), 5.9 (transformer) and 7.3 (blend) points against dropping 177 unrelated texts; gap >= 5.7 in 100 random controls (post hoc). Transformer minus KN-3 on clean splits: -2.3 and +0.2 points, no detectable neural gain. Corrects #18: its '20 exact copies' were reading differences, and its 'about 10 points' mixed leakage with clean texts being harder."
   }
  ],
- "snapshot": "2026-11-18 17:30"
+ "snapshot": "2026-11-19 07:12"
 }
