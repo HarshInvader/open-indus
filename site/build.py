@@ -1008,21 +1008,18 @@ def news_page():
 
 
 def news_field():
-    """The 'state of the field' block at the top of news.html, from news.json field_now."""
-    d = json.loads((SITE / "news.json").read_text())
-    fn = d.get("field_now")
-    if not fn:
+    """The landscape snapshot at the top of news.html, from news.json "landscape"
+    (written by open-citizen-science/tools/paperwatch/landscape.py; this build only renders it)."""
+    L = json.loads((SITE / "news.json").read_text()).get("landscape")
+    if not L:
         return ""
-    lib = {e["id"]: e for e in library_entries()}
-    rows = []
-    for f in fn["fronts"]:
-        refs = ", ".join(f'<a href="library.html#{E(i)}">{E(lib[i]["authors"].split(",")[0].split(" and ")[0])} {lib[i]["year"]}</a>'
-                         for i in f["library_ids"] if i in lib)
-        rows.append(f'<li><h3>{E(f["title"])}</h3><p>{E(f["what"])}</p><p class="fn-refs">Papers: {refs}</p></li>')
-    return (f'<section class="block wrap field-now" aria-labelledby="field"><p class="rail"><span>00</span>The field now</p><div class="content">'
-            f'<h2 id="field">Where research on the Indus and its script stands</h2>'
-            f'<p class="intro">Updated {E(news_date(fn["updated"]))}. The main fronts, each linked to the papers in our '
-            f'<a href="library.html">library of {len(lib)} papers</a>.</p><ol class="fronts">{"".join(rows)}</ol></div></section>')
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("oi_landscape_view", SITE / "landscape_view.py")
+    lv = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(lv)
+    lib = {e["id"]: f'{e["authors"].split(",")[0].split(" and ")[0]} {e["year"]}' for e in library_entries()}
+    return (f'<section class="block wrap field-now" id="field" aria-label="Who is working on what"><p class="rail"><span>00</span>The field now</p>'
+            f'<div class="content">{lv.render(L, lib, tag="div")}</div></section>')
 
 
 def library_entries():
