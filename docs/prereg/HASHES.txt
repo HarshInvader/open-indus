@@ -355,3 +355,7 @@ a1bfe0790964e74e9325b8a2db017edf150b5eaeaf5225d165f6ef83842af196  experiments/mi
 cafb254eccf3f57feda6677af319d115bc87e55a37b621e1247eb370938b66fa  experiments/carver_text/confirm.py  2026-11-20  (carver_text confirmatory)
 69d06dd2ea1c266d66727d5cce097369548af8f18c1e10ae5c37f79299239577  experiments/carver_text/ct.py  2026-11-20  (carver_text confirmatory)
 b1a79a08fbd2dca94abf3022be9258296bf5fa1d33c5ff51ec4d67608a8e178a  experiments/carver_text/parse.py  2026-11-20  (carver_text confirmatory)
+2b49d78d0d4bf9e6b0f9c8c6f99f6bf764a2b14eeacca1ca2348ad5359e300c3  docs/prereg/guess_rehearsal.md  2026-11-20T19:30:13Z  guess_rehearsal (owner request)
+2f36aad64c12edc887a54294197689981429e76347072e832481516779b95ae1  experiments/guess_rehearsal/build.py  2026-11-20T19:30:13Z  guess_rehearsal (owner request)
+f66c6bb439199ee3446c69aaac80eee88e930e4de056a716bd2fe66c48e28524  experiments/guess_rehearsal/score.py  2026-11-20T19:30:13Z  guess_rehearsal (owner request)
+99f4a16da231d420918f2991fa01065c4d7525ec06f391f338e9b14b861f17bf  experiments/guess_rehearsal/sealed/key.json  2026-11-20T19:30:13Z  guess_rehearsal (owner request)

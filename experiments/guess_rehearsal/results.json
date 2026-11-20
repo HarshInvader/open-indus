@@ -1,0 +1,1145 @@
+{
+ "A": {
+  "class_acc_all": [
+   13,
+   40,
+   0.325
+  ],
+  "class_acc_not_recognised": [
+   7,
+   33,
+   0.212
+  ],
+  "binom_p_not_recognised_vs_0.125": 0.10989989334267415,
+  "perm_p_all": 0.00119994000299985,
+  "n_recognised": 7,
+  "high_conf_acc": [
+   3,
+   3
+  ],
+  "per_sign": [
+   {
+    "id": "T01",
+    "guess": "LIQUID_DAIRY",
+    "truth": "PLACE_INST",
+    "sign": "UNUG~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "filled vessel (beer/liquid)"
+   },
+   {
+    "id": "T02",
+    "guess": "GRAIN_FOOD",
+    "truth": "OTHER_GOODS",
+    "sign": "NUNUZ~a1",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "grain measure mark"
+   },
+   {
+    "id": "T03",
+    "guess": "TEXTILE",
+    "truth": "OTHER_GOODS",
+    "sign": "U2~b",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "flax / linen bundle"
+   },
+   {
+    "id": "T04",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "SIG2~b",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "type of sheep (ewe?)"
+   },
+   {
+    "id": "T05",
+    "guess": "OTHER_GOODS",
+    "truth": "OFFICE_PERSON",
+    "sign": "GAL~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "comb/rake-shaped tool or reed item"
+   },
+   {
+    "id": "T06",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "UDU~a",
+    "recognised": true,
+    "conf": 0.75,
+    "gloss": "sheep"
+   },
+   {
+    "id": "T07",
+    "guess": "TEXTILE",
+    "truth": "LIQUID_DAIRY",
+    "sign": "GA~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "cloth / garment type"
+   },
+   {
+    "id": "T08",
+    "guess": "LIQUID_DAIRY",
+    "truth": "VESSEL",
+    "sign": "SZEN~b",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "jar of dairy product"
+   },
+   {
+    "id": "T09",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "MASZ",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "goat / kid (or 'half')"
+   },
+   {
+    "id": "T10",
+    "guess": "LIVESTOCK",
+    "truth": "VESSEL",
+    "sign": "SZAGAN",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "cattle (horned head)"
+   },
+   {
+    "id": "T11",
+    "guess": "TEXTILE",
+    "truth": "OFFICE_PERSON",
+    "sign": "SANGA~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "cloth bolt"
+   },
+   {
+    "id": "T12",
+    "guess": "OTHER_GOODS",
+    "truth": "OTHER_GOODS",
+    "sign": "KU3~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "reed bundle / plank"
+   },
+   {
+    "id": "T13",
+    "guess": "OTHER_GOODS",
+    "truth": "OTHER_GOODS",
+    "sign": "NAGA~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "plant / aromatic / tree"
+   },
+   {
+    "id": "T14",
+    "guess": "GRAIN_FOOD",
+    "truth": "GRAIN_FOOD",
+    "sign": "GU7",
+    "recognised": true,
+    "conf": 0.5,
+    "gloss": "ration / eat (head + bowl)"
+   },
+   {
+    "id": "T15",
+    "guess": "VESSEL",
+    "truth": "GRAIN_FOOD",
+    "sign": "GAR",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "bowl / container"
+   },
+   {
+    "id": "T16",
+    "guess": "GRAIN_FOOD",
+    "truth": "OTHER_GOODS",
+    "sign": "GI",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "barley ear"
+   },
+   {
+    "id": "T17",
+    "guess": "VESSEL",
+    "truth": "LIQUID_DAIRY",
+    "sign": "NI~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "jar body"
+   },
+   {
+    "id": "T18",
+    "guess": "PLACE_INST",
+    "truth": "PLACE_INST",
+    "sign": "AN",
+    "recognised": true,
+    "conf": 0.8,
+    "gloss": "god / deity, heaven"
+   },
+   {
+    "id": "T19",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "PA~a",
+    "recognised": false,
+    "conf": 0.15,
+    "gloss": "title / official sign"
+   },
+   {
+    "id": "T20",
+    "guess": "PLACE_INST",
+    "truth": "VESSEL",
+    "sign": "GA2~a1",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "building / enclosure"
+   },
+   {
+    "id": "T21",
+    "guess": "GRAIN_FOOD",
+    "truth": "LIQUID_DAIRY",
+    "sign": "KISIM~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "bread ration in bowl"
+   },
+   {
+    "id": "T22",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "SUHUR",
+    "recognised": true,
+    "conf": 0.8,
+    "gloss": "fish"
+   },
+   {
+    "id": "T23",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "UD5~a",
+    "recognised": false,
+    "conf": 0.55,
+    "gloss": "sheep subtype (ram/fat-tailed sheep)"
+   },
+   {
+    "id": "T24",
+    "guess": "VESSEL",
+    "truth": "OFFICE_PERSON",
+    "sign": "SAL",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "small vessel / measure"
+   },
+   {
+    "id": "T25",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "TUG2~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "type of sheep"
+   },
+   {
+    "id": "T26",
+    "guess": "OTHER_GOODS",
+    "truth": "LIVESTOCK",
+    "sign": "AB2",
+    "recognised": false,
+    "conf": 0.15,
+    "gloss": "tool / implement"
+   },
+   {
+    "id": "T27",
+    "guess": "LIQUID_DAIRY",
+    "truth": "VESSEL",
+    "sign": "SZAKIR~c",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "jar of oil/milk"
+   },
+   {
+    "id": "T28",
+    "guess": "TEXTILE",
+    "truth": "PLACE_INST",
+    "sign": "KI",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "wool / fleece"
+   },
+   {
+    "id": "T29",
+    "guess": "LIQUID_DAIRY",
+    "truth": "LIQUID_DAIRY",
+    "sign": "KASZ~c",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "beer"
+   },
+   {
+    "id": "T30",
+    "guess": "VESSEL",
+    "truth": "VESSEL",
+    "sign": "DUG~c",
+    "recognised": true,
+    "conf": 0.55,
+    "gloss": "jar"
+   },
+   {
+    "id": "T31",
+    "guess": "OTHER_GOODS",
+    "truth": "PLACE_INST",
+    "sign": "MUSZ3~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "plough / implement"
+   },
+   {
+    "id": "T32",
+    "guess": "VESSEL",
+    "truth": "LIQUID_DAIRY",
+    "sign": "GARA2~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "jar with net / sealed jar"
+   },
+   {
+    "id": "T33",
+    "guess": "PLACE_INST",
+    "truth": "PLACE_INST",
+    "sign": "E2~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "field plot"
+   },
+   {
+    "id": "T34",
+    "guess": "OFFICE_PERSON",
+    "truth": "LIVESTOCK",
+    "sign": "KU6~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "person / worker"
+   },
+   {
+    "id": "T35",
+    "guess": "PLACE_INST",
+    "truth": "OFFICE_PERSON",
+    "sign": "EN~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "building / storehouse"
+   },
+   {
+    "id": "T36",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "SAG",
+    "recognised": true,
+    "conf": 0.5,
+    "gloss": "head = person/worker"
+   },
+   {
+    "id": "T37",
+    "guess": "PLACE_INST",
+    "truth": "OTHER_GOODS",
+    "sign": "GISZ",
+    "recognised": false,
+    "conf": 0.15,
+    "gloss": "enclosure / building"
+   },
+   {
+    "id": "T38",
+    "guess": "OFFICE_PERSON",
+    "truth": "TEXTILE",
+    "sign": "GADA~a",
+    "recognised": false,
+    "conf": 0.15,
+    "gloss": "title (abstract)"
+   },
+   {
+    "id": "T39",
+    "guess": "LIVESTOCK",
+    "truth": "VESSEL",
+    "sign": "SILA3~a",
+    "recognised": true,
+    "conf": 0.35,
+    "gloss": "cow"
+   },
+   {
+    "id": "T40",
+    "guess": "VESSEL",
+    "truth": "PLACE_INST",
+    "sign": "AB~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "open vessel / funnel"
+   }
+  ]
+ },
+ "B": {
+  "class_acc_all": [
+   9,
+   40,
+   0.225
+  ],
+  "class_acc_not_recognised": [
+   9,
+   40,
+   0.225
+  ],
+  "binom_p_not_recognised_vs_0.125": 0.05517399827309663,
+  "perm_p_all": 0.08679566021698915,
+  "n_recognised": 0,
+  "high_conf_acc": [
+   0,
+   0
+  ],
+  "per_sign": [
+   {
+    "id": "T01",
+    "guess": "GRAIN_FOOD",
+    "truth": "PLACE_INST",
+    "sign": "UNUG~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "bread/grain ration"
+   },
+   {
+    "id": "T02",
+    "guess": "PLACE_INST",
+    "truth": "OTHER_GOODS",
+    "sign": "NUNUZ~a1",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "place or institution marker"
+   },
+   {
+    "id": "T03",
+    "guess": "OFFICE_PERSON",
+    "truth": "OTHER_GOODS",
+    "sign": "U2~b",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "official title"
+   },
+   {
+    "id": "T04",
+    "guess": "VESSEL",
+    "truth": "TEXTILE",
+    "sign": "SIG2~b",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "jar/container"
+   },
+   {
+    "id": "T05",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "GAL~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "official or worker group"
+   },
+   {
+    "id": "T06",
+    "guess": "GRAIN_FOOD",
+    "truth": "LIVESTOCK",
+    "sign": "UDU~a",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "barley/grain"
+   },
+   {
+    "id": "T07",
+    "guess": "OFFICE_PERSON",
+    "truth": "LIQUID_DAIRY",
+    "sign": "GA~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "person or official"
+   },
+   {
+    "id": "T08",
+    "guess": "LIQUID_DAIRY",
+    "truth": "VESSEL",
+    "sign": "SZEN~b",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "dairy product"
+   },
+   {
+    "id": "T09",
+    "guess": "OTHER_GOODS",
+    "truth": "LIVESTOCK",
+    "sign": "MASZ",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "commodity (plant/wood)"
+   },
+   {
+    "id": "T10",
+    "guess": "OTHER_GOODS",
+    "truth": "VESSEL",
+    "sign": "SZAGAN",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "commodity"
+   },
+   {
+    "id": "T11",
+    "guess": "PLACE_INST",
+    "truth": "OFFICE_PERSON",
+    "sign": "SANGA~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "institution or household"
+   },
+   {
+    "id": "T12",
+    "guess": "OFFICE_PERSON",
+    "truth": "OTHER_GOODS",
+    "sign": "KU3~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "person/title"
+   },
+   {
+    "id": "T13",
+    "guess": "OFFICE_PERSON",
+    "truth": "OTHER_GOODS",
+    "sign": "NAGA~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "worker or official"
+   },
+   {
+    "id": "T14",
+    "guess": "PLACE_INST",
+    "truth": "GRAIN_FOOD",
+    "sign": "GU7",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "city/temple or deity"
+   },
+   {
+    "id": "T15",
+    "guess": "TEXTILE",
+    "truth": "GRAIN_FOOD",
+    "sign": "GAR",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "cloth/wool"
+   },
+   {
+    "id": "T16",
+    "guess": "OFFICE_PERSON",
+    "truth": "OTHER_GOODS",
+    "sign": "GI",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "official/title"
+   },
+   {
+    "id": "T17",
+    "guess": "OTHER_GOODS",
+    "truth": "LIQUID_DAIRY",
+    "sign": "NI~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "commodity"
+   },
+   {
+    "id": "T18",
+    "guess": "OFFICE_PERSON",
+    "truth": "PLACE_INST",
+    "sign": "AN",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "title in personal names/offices"
+   },
+   {
+    "id": "T19",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "PA~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "person or office"
+   },
+   {
+    "id": "T20",
+    "guess": "OTHER_GOODS",
+    "truth": "VESSEL",
+    "sign": "GA2~a1",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "commodity"
+   },
+   {
+    "id": "T21",
+    "guess": "OTHER_GOODS",
+    "truth": "LIQUID_DAIRY",
+    "sign": "KISIM~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "commodity (metal or aromatic)"
+   },
+   {
+    "id": "T22",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "SUHUR",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "sheep/animal"
+   },
+   {
+    "id": "T23",
+    "guess": "TEXTILE",
+    "truth": "LIVESTOCK",
+    "sign": "UD5~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "cloth"
+   },
+   {
+    "id": "T24",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "SAL",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "worker category (e.g. female workers)"
+   },
+   {
+    "id": "T25",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "TUG2~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "animals (with age/sex qualifier)"
+   },
+   {
+    "id": "T26",
+    "guess": "LIQUID_DAIRY",
+    "truth": "LIVESTOCK",
+    "sign": "AB2",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "beer or liquid"
+   },
+   {
+    "id": "T27",
+    "guess": "LIQUID_DAIRY",
+    "truth": "VESSEL",
+    "sign": "SZAKIR~c",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "liquid in a container (fixed compound)"
+   },
+   {
+    "id": "T28",
+    "guess": "PLACE_INST",
+    "truth": "PLACE_INST",
+    "sign": "KI",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "institution/building"
+   },
+   {
+    "id": "T29",
+    "guess": "VESSEL",
+    "truth": "LIQUID_DAIRY",
+    "sign": "KASZ~c",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "container"
+   },
+   {
+    "id": "T30",
+    "guess": "GRAIN_FOOD",
+    "truth": "VESSEL",
+    "sign": "DUG~c",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "bread ration"
+   },
+   {
+    "id": "T31",
+    "guess": "OFFICE_PERSON",
+    "truth": "PLACE_INST",
+    "sign": "MUSZ3~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "official/title element"
+   },
+   {
+    "id": "T32",
+    "guess": "OTHER_GOODS",
+    "truth": "LIQUID_DAIRY",
+    "sign": "GARA2~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "commodity"
+   },
+   {
+    "id": "T33",
+    "guess": "PLACE_INST",
+    "truth": "PLACE_INST",
+    "sign": "E2~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "institution"
+   },
+   {
+    "id": "T34",
+    "guess": "PLACE_INST",
+    "truth": "LIVESTOCK",
+    "sign": "KU6~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "place/field"
+   },
+   {
+    "id": "T35",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "EN~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "high official (lord/administrator)"
+   },
+   {
+    "id": "T36",
+    "guess": "PLACE_INST",
+    "truth": "OFFICE_PERSON",
+    "sign": "SAG",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "place/institution"
+   },
+   {
+    "id": "T37",
+    "guess": "OTHER_GOODS",
+    "truth": "OTHER_GOODS",
+    "sign": "GISZ",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "commodity"
+   },
+   {
+    "id": "T38",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "GADA~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "fish/animal"
+   },
+   {
+    "id": "T39",
+    "guess": "VESSEL",
+    "truth": "VESSEL",
+    "sign": "SILA3~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "container"
+   },
+   {
+    "id": "T40",
+    "guess": "OFFICE_PERSON",
+    "truth": "PLACE_INST",
+    "sign": "AB~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "person/office"
+   }
+  ]
+ },
+ "C": {
+  "class_acc_all": [
+   14,
+   40,
+   0.35
+  ],
+  "class_acc_not_recognised": [
+   9,
+   33,
+   0.273
+  ],
+  "binom_p_not_recognised_vs_0.125": 0.017250747729468257,
+  "perm_p_all": 0.00034998250087495624,
+  "n_recognised": 7,
+  "high_conf_acc": [
+   4,
+   4
+  ],
+  "per_sign": [
+   {
+    "id": "T01",
+    "guess": "OFFICE_PERSON",
+    "truth": "PLACE_INST",
+    "sign": "UNUG~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "official / title element (hatched funnel)"
+   },
+   {
+    "id": "T02",
+    "guess": "GRAIN_FOOD",
+    "truth": "OTHER_GOODS",
+    "sign": "NUNUZ~a1",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "loaf / food product"
+   },
+   {
+    "id": "T03",
+    "guess": "TEXTILE",
+    "truth": "OTHER_GOODS",
+    "sign": "U2~b",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "loom / comb, textile-related"
+   },
+   {
+    "id": "T04",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "SIG2~b",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "ewe / sheep category"
+   },
+   {
+    "id": "T05",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "GAL~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "official / functionary"
+   },
+   {
+    "id": "T06",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "UDU~a",
+    "recognised": true,
+    "conf": 0.75,
+    "gloss": "sheep"
+   },
+   {
+    "id": "T07",
+    "guess": "VESSEL",
+    "truth": "LIQUID_DAIRY",
+    "sign": "GA~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "vessel / container type"
+   },
+   {
+    "id": "T08",
+    "guess": "OFFICE_PERSON",
+    "truth": "VESSEL",
+    "sign": "SZEN~b",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "head / worker (counted persons)"
+   },
+   {
+    "id": "T09",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "MASZ",
+    "recognised": true,
+    "conf": 0.3,
+    "gloss": "goat / kid (or 'half')"
+   },
+   {
+    "id": "T10",
+    "guess": "OFFICE_PERSON",
+    "truth": "VESSEL",
+    "sign": "SZAGAN",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "person category (head with arcs)"
+   },
+   {
+    "id": "T11",
+    "guess": "PLACE_INST",
+    "truth": "OFFICE_PERSON",
+    "sign": "SANGA~a",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "house / temple household"
+   },
+   {
+    "id": "T12",
+    "guess": "OTHER_GOODS",
+    "truth": "OTHER_GOODS",
+    "sign": "KU3~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "reed / leather product"
+   },
+   {
+    "id": "T13",
+    "guess": "OTHER_GOODS",
+    "truth": "OTHER_GOODS",
+    "sign": "NAGA~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "tree / plant"
+   },
+   {
+    "id": "T14",
+    "guess": "OFFICE_PERSON",
+    "truth": "GRAIN_FOOD",
+    "sign": "GU7",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "agent / profession (hand or foot with object)"
+   },
+   {
+    "id": "T15",
+    "guess": "VESSEL",
+    "truth": "GRAIN_FOOD",
+    "sign": "GAR",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "measure / container"
+   },
+   {
+    "id": "T16",
+    "guess": "OTHER_GOODS",
+    "truth": "OTHER_GOODS",
+    "sign": "GI",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "plant / reed bundle"
+   },
+   {
+    "id": "T17",
+    "guess": "OFFICE_PERSON",
+    "truth": "LIQUID_DAIRY",
+    "sign": "NI~a",
+    "recognised": true,
+    "conf": 0.35,
+    "gloss": "head / person"
+   },
+   {
+    "id": "T18",
+    "guess": "PLACE_INST",
+    "truth": "PLACE_INST",
+    "sign": "AN",
+    "recognised": true,
+    "conf": 0.7,
+    "gloss": "deity / divine (star)"
+   },
+   {
+    "id": "T19",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "PA~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "title / name element"
+   },
+   {
+    "id": "T20",
+    "guess": "PLACE_INST",
+    "truth": "VESSEL",
+    "sign": "GA2~a1",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "storehouse / enclosure"
+   },
+   {
+    "id": "T21",
+    "guess": "LIVESTOCK",
+    "truth": "LIQUID_DAIRY",
+    "sign": "KISIM~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "goat / animal type"
+   },
+   {
+    "id": "T22",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "SUHUR",
+    "recognised": true,
+    "conf": 0.75,
+    "gloss": "fish"
+   },
+   {
+    "id": "T23",
+    "guess": "LIVESTOCK",
+    "truth": "LIVESTOCK",
+    "sign": "UD5~a",
+    "recognised": false,
+    "conf": 0.55,
+    "gloss": "ram / sheep variant"
+   },
+   {
+    "id": "T24",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "SAL",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "great / chief (title element)"
+   },
+   {
+    "id": "T25",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "TUG2~a",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "animal category (female/young)"
+   },
+   {
+    "id": "T26",
+    "guess": "OTHER_GOODS",
+    "truth": "LIVESTOCK",
+    "sign": "AB2",
+    "recognised": true,
+    "conf": 0.2,
+    "gloss": "arrow"
+   },
+   {
+    "id": "T27",
+    "guess": "OFFICE_PERSON",
+    "truth": "VESSEL",
+    "sign": "SZAKIR~c",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "person category (head in circle)"
+   },
+   {
+    "id": "T28",
+    "guess": "OTHER_GOODS",
+    "truth": "PLACE_INST",
+    "sign": "KI",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "grain ear / seed (name element)"
+   },
+   {
+    "id": "T29",
+    "guess": "GRAIN_FOOD",
+    "truth": "LIQUID_DAIRY",
+    "sign": "KASZ~c",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "rations / eating (head with hatched mouth)"
+   },
+   {
+    "id": "T30",
+    "guess": "OFFICE_PERSON",
+    "truth": "VESSEL",
+    "sign": "DUG~c",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "person / worker category"
+   },
+   {
+    "id": "T31",
+    "guess": "OFFICE_PERSON",
+    "truth": "PLACE_INST",
+    "sign": "MUSZ3~a",
+    "recognised": false,
+    "conf": 0.25,
+    "gloss": "ploughman / person with tool"
+   },
+   {
+    "id": "T32",
+    "guess": "OFFICE_PERSON",
+    "truth": "LIQUID_DAIRY",
+    "sign": "GARA2~a",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "person category"
+   },
+   {
+    "id": "T33",
+    "guess": "PLACE_INST",
+    "truth": "PLACE_INST",
+    "sign": "E2~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "field / plot or institution"
+   },
+   {
+    "id": "T34",
+    "guess": "OFFICE_PERSON",
+    "truth": "LIVESTOCK",
+    "sign": "KU6~a",
+    "recognised": false,
+    "conf": 0.4,
+    "gloss": "person / worker"
+   },
+   {
+    "id": "T35",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "EN~a",
+    "recognised": true,
+    "conf": 0.7,
+    "gloss": "lord / high official"
+   },
+   {
+    "id": "T36",
+    "guess": "OFFICE_PERSON",
+    "truth": "OFFICE_PERSON",
+    "sign": "SAG",
+    "recognised": false,
+    "conf": 0.2,
+    "gloss": "profession / agent (hand or foot)"
+   },
+   {
+    "id": "T37",
+    "guess": "PLACE_INST",
+    "truth": "OTHER_GOODS",
+    "sign": "GISZ",
+    "recognised": false,
+    "conf": 0.15,
+    "gloss": "enclosure / tablet / container"
+   },
+   {
+    "id": "T38",
+    "guess": "LIVESTOCK",
+    "truth": "TEXTILE",
+    "sign": "GADA~a",
+    "recognised": false,
+    "conf": 0.35,
+    "gloss": "animal category"
+   },
+   {
+    "id": "T39",
+    "guess": "OTHER_GOODS",
+    "truth": "VESSEL",
+    "sign": "SILA3~a",
+    "recognised": false,
+    "conf": 0.15,
+    "gloss": "commodity (half-filled disc with lines)"
+   },
+   {
+    "id": "T40",
+    "guess": "OFFICE_PERSON",
+    "truth": "PLACE_INST",
+    "sign": "AB~a",
+    "recognised": false,
+    "conf": 0.3,
+    "gloss": "title element (funnel / horn)"
+   }
+  ]
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "T01": {
+  "class": "GRAIN_FOOD",
+  "gloss": "bread/grain ration",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Half its uses follow a number, on short receipt-like objects; looks like a counted ration item."
+ },
+ "T02": {
+  "class": "PLACE_INST",
+  "gloss": "place or institution marker",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rarely counted, sits at line ends in long lists, like a locative or institution name closing an entry."
+ },
+ "T03": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official title",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mixed counted and uncounted use, often after T18 and next to T36, like part of a title or personal name."
+ },
+ "T04": {
+  "class": "VESSEL",
+  "gloss": "jar/container",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mostly follows a number and stands alone at line start, so it is a counted item; long lists with repeated single entries suggest containers."
+ },
+ "T05": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official or worker group",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very common and mostly uncounted; it pairs with T35, T11 and T08 as a qualifier or responsible party."
+ },
+ "T06": {
+  "class": "GRAIN_FOOD",
+  "gloss": "barley/grain",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very common and nearly always right after a number at line start, which fits the staple counted commodity."
+ },
+ "T07": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person or official",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Appears inside compounds with T01, T40 and T05, and only sometimes after numbers."
+ },
+ "T08": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "dairy product",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A rare, specialised sign that is counted and qualified by T05 or X0523, like the varieties in dairy-fat accounts."
+ },
+ "T09": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity (plant/wood)",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Counted at times and occurs with qualifiers such as X1264; a commodity of medium frequency."
+ },
+ "T10": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Uncommon, sometimes counted, and often next to X0849; class unclear."
+ },
+ "T11": {
+  "class": "PLACE_INST",
+  "gloss": "institution or household",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very common, rarely counted, repeated as T11 T11, and pairs with T24 and T26; it reads like an entity rather than a good."
+ },
+ "T12": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person/title",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Small counts (#1) in long lists, which looks like one person per entry, and it pairs with T19."
+ },
+ "T13": {
+  "class": "OFFICE_PERSON",
+  "gloss": "worker or official",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Occurs in compounds with T15 and X1442, and is counted only occasionally."
+ },
+ "T14": {
+  "class": "PLACE_INST",
+  "gloss": "city/temple or deity",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Never counted and stands alone on many objects, like a heading naming a place or institution."
+ },
+ "T15": {
+  "class": "TEXTILE",
+  "gloss": "cloth/wool",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mostly counted and often followed by a qualifier (X0258), like a graded commodity with varieties."
+ },
+ "T16": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official/title",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very common and tends to end lines, closing entries as the responsible party."
+ },
+ "T17": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Counted in about a third of uses and qualified by other signs; class unclear."
+ },
+ "T18": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title in personal names/offices",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very frequent and forms fixed compounds (T18 X1279 T19, T18 T31), as titles and names do."
+ },
+ "T19": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person or office",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mostly uncounted and part of the T18 X1279 T19 name/title compounds."
+ },
+ "T20": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Counted sometimes and qualified; little else to go on."
+ },
+ "T21": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity (metal or aromatic)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rare and nearly always right after a number on short objects: a specific counted good."
+ },
+ "T22": {
+  "class": "LIVESTOCK",
+  "gloss": "sheep/animal",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Strongly counted, stands alone on short objects with several numbers in a row, like herd or animal counts."
+ },
+ "T23": {
+  "class": "TEXTILE",
+  "gloss": "cloth",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Strongly counted and standalone, with repeated entries on lists."
+ },
+ "T24": {
+  "class": "OFFICE_PERSON",
+  "gloss": "worker category (e.g. female workers)",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very frequent and repeated (T24 T24), counted in about half its uses, which fits counted labourers as well as titles."
+ },
+ "T25": {
+  "class": "LIVESTOCK",
+  "gloss": "animals (with age/sex qualifier)",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Heavily counted in long lists with a constant qualifier X0866, like herd accounts split by animal type."
+ },
+ "T26": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "beer or liquid",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mixed counted use and tends to end lines, often after T30 or T40."
+ },
+ "T27": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "liquid in a container (fixed compound)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Always written with X1724 as a fixed compound and counted at line start, like a commodity-plus-container sign."
+ },
+ "T28": {
+  "class": "PLACE_INST",
+  "gloss": "institution/building",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Never counted, comes after other signs and pairs with T40 and T12, like a place or institution in a compound."
+ },
+ "T29": {
+  "class": "VESSEL",
+  "gloss": "container",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Counted at line start on short objects, a lone counted item."
+ },
+ "T30": {
+  "class": "GRAIN_FOOD",
+  "gloss": "bread ration",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Counted on very short objects (about 4 lines), like ration receipts."
+ },
+ "T31": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official/title element",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ends lines and follows T18 in fixed pairs, like part of a title."
+ },
+ "T32": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rare, comes after X1111, T30 and T27, and is sometimes counted."
+ },
+ "T33": {
+  "class": "PLACE_INST",
+  "gloss": "institution",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Common but seldom counted; it heads short objects as a place or entity would."
+ },
+ "T34": {
+  "class": "PLACE_INST",
+  "gloss": "place/field",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rarely counted and has a constant follower X1695, like a named locality."
+ },
+ "T35": {
+  "class": "OFFICE_PERSON",
+  "gloss": "high official (lord/administrator)",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "The most frequent sign, usually uncounted and line-initial, combining with many others as a title."
+ },
+ "T36": {
+  "class": "PLACE_INST",
+  "gloss": "place/institution",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rarely counted; it follows T35 and T03 in compounds and ends lines."
+ },
+ "T37": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mostly uncounted inside long sign groups; class unclear."
+ },
+ "T38": {
+  "class": "LIVESTOCK",
+  "gloss": "fish/animal",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Mostly counted and repeated (T38 T38) after X1852, in long counted lists."
+ },
+ "T39": {
+  "class": "VESSEL",
+  "gloss": "container",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rare and often after X0487; counted in about a third of uses."
+ },
+ "T40": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person/office",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Common on very long lists and only sometimes counted; it pairs with T11 and T24."
+ },
+ "_script_recognised": "Suspect proto-cuneiform (Uruk IV/III administrative tablets), from the setting and numeral-heavy structure, but no individual sign was identified because all are anonymous and there are no images."
+}

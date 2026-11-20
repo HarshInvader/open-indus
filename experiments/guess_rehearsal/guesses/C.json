@@ -1,0 +1,323 @@
+{
+ "T01": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official / title element (hatched funnel)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Hatched variant of the funnel sign T40; rarely after numbers and mostly inside sign groups with T18/T28/T16, as name or title elements are."
+ },
+ "T02": {
+  "class": "GRAIN_FOOD",
+  "gloss": "loaf / food product",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A filled bulb with a spike, mostly at the end of a line after other signs and sometimes after numbers. It could be a product qualifier; the food reading is weak."
+ },
+ "T03": {
+  "class": "TEXTILE",
+  "gloss": "loom / comb, textile-related",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A grid with long prongs, like a comb or heddle. It rarely follows numbers and pairs with the star sign T18, so it may be an institution or name element instead."
+ },
+ "T04": {
+  "class": "LIVESTOCK",
+  "gloss": "ewe / sheep category",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A round sign with horizontal lines that almost always follows a number and clusters with T25 and T38 in the same lists. It looks like one of a set of graded animal categories (circle-based sheep signs)."
+ },
+ "T05": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official / functionary",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very frequent. It usually stands next to the high-title sign T35 and seldom directly after a number, which suggests a title or profession."
+ },
+ "T06": {
+  "class": "LIVESTOCK",
+  "gloss": "sheep",
+  "confidence": 0.75,
+  "recognised": true,
+  "recognised_as": "UDU (sheep), circle with a cross",
+  "reasoning": "A circle with a cross; it follows numbers in 14 of 17 lines, is very widespread and pairs with other circle-based animal signs (T23, T21)."
+ },
+ "T07": {
+  "class": "VESSEL",
+  "gloss": "vessel / container type",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A crosshatched pointed body with small side triangles. It follows numbers sometimes; the vessel reading is a guess from the shape (cross-hatching could also mean cloth)."
+ },
+ "T08": {
+  "class": "OFFICE_PERSON",
+  "gloss": "head / worker (counted persons)",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A head profile with a ladder inside. It usually follows numbers and co-occurs with T35, so it may be a category of counted workers."
+ },
+ "T09": {
+  "class": "LIVESTOCK",
+  "gloss": "goat / kid (or 'half')",
+  "confidence": 0.3,
+  "recognised": true,
+  "recognised_as": "MA\u0160 (simple cross)",
+  "reasoning": "A simple cross. It appears after T06 (sheep) as in '#8 T06 T09' and after numbers, so it may be a goat or kid. MA\u0160 is also used for 'half' and in titles."
+ },
+ "T10": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person category (head with arcs)",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A head-profile sign with an outer hatched arc. It appears with T35 and T36 in name or title strings."
+ },
+ "T11": {
+  "class": "PLACE_INST",
+  "gloss": "house / temple household",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A building-like box with a grid and foot. It is very frequent, usually in sign groups and line-final, and not counted, which fits an institution or building."
+ },
+ "T12": {
+  "class": "OTHER_GOODS",
+  "gloss": "reed / leather product",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A curved ladder shape that follows numbers in some lines ('#8 T12') and sits in compounds in others. The reading of the object is uncertain."
+ },
+ "T13": {
+  "class": "OTHER_GOODS",
+  "gloss": "tree / plant",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A branching plant drawing that pairs strongly with T15. It is sometimes counted, which fits a plant product or tree."
+ },
+ "T14": {
+  "class": "OFFICE_PERSON",
+  "gloss": "agent / profession (hand or foot with object)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "It never follows a number and is often line-final in sign groups, so it is a qualifier rather than a commodity. It looks like a hand or foot holding something."
+ },
+ "T15": {
+  "class": "VESSEL",
+  "gloss": "measure / container",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A D-shape with strokes that follows numbers often (14/23) and pairs with the plant sign T13. It could be a container or measure of a plant product."
+ },
+ "T16": {
+  "class": "OTHER_GOODS",
+  "gloss": "plant / reed bundle",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A stem with crossbars or chevrons, often line-final after numbers ('#4 T16'), so it is a counted item. It looks like a plant or reed, perhaps a feathered item."
+ },
+ "T17": {
+  "class": "OFFICE_PERSON",
+  "gloss": "head / person",
+  "confidence": 0.35,
+  "recognised": true,
+  "recognised_as": "possibly SAG (head) \u2014 tentative",
+  "reasoning": "A plain head profile. It sits in name and title groups with T18 and T03, which fits head-count or person use."
+ },
+ "T18": {
+  "class": "PLACE_INST",
+  "gloss": "deity / divine (star)",
+  "confidence": 0.7,
+  "recognised": true,
+  "recognised_as": "AN / DINGIR (star)",
+  "reasoning": "An eight-pointed star; the second most frequent target. It almost always appears inside sign groups, not after numbers, as a deity name or divine determinative does in temple-office names."
+ },
+ "T19": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title / name element",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Two horizontal strokes crossed by a slanting stroke. It rarely follows a number and sits mid-group with T06 and T35. The reading is weak."
+ },
+ "T20": {
+  "class": "PLACE_INST",
+  "gloss": "storehouse / enclosure",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A rectangle with an inner bar. It mostly sits in sign groups with T35 and T24 rather than after numbers."
+ },
+ "T21": {
+  "class": "LIVESTOCK",
+  "gloss": "goat / animal type",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A pointed boat-like shape that mostly follows numbers and co-occurs heavily with T06 (sheep), so it is probably another animal category."
+ },
+ "T22": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.75,
+  "recognised": true,
+  "recognised_as": "KU6 (fish)",
+  "reasoning": "Clearly a fish drawing (body, ribs, tail). It almost always follows numbers, so it is a counted commodity."
+ },
+ "T23": {
+  "class": "LIVESTOCK",
+  "gloss": "ram / sheep variant",
+  "confidence": 0.55,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "The sheep circle-cross with added wedges. It follows numbers and co-occurs with T06, so it is a sheep subtype (male or young)."
+ },
+ "T24": {
+  "class": "OFFICE_PERSON",
+  "gloss": "great / chief (title element)",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very frequent. It combines with T40 in 68 of its lines, which looks like a fixed title compound. It is sometimes counted ('#1 T24'), perhaps as a person."
+ },
+ "T25": {
+  "class": "LIVESTOCK",
+  "gloss": "animal category (female/young)",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A circle with two lines, a sister of T04. It follows numbers in 20 of 28 lines and clusters with T04 and T38, which looks like graded herd categories."
+ },
+ "T26": {
+  "class": "OTHER_GOODS",
+  "gloss": "arrow",
+  "confidence": 0.2,
+  "recognised": true,
+  "recognised_as": "possibly TI (arrow) \u2014 tentative",
+  "reasoning": "An arrow drawing. It is often counted ('#4 T26') but also appears in names. A counted object is the weak guess."
+ },
+ "T27": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person category (head in circle)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A head inside a circle with a projection. Rare, often after numbers, paired with T12 and T32, so it may be a class of counted persons."
+ },
+ "T28": {
+  "class": "OTHER_GOODS",
+  "gloss": "grain ear / seed (name element)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A lens shape with lines. It is never counted and often pairs with T09 and T12 in names. The object reading is uncertain."
+ },
+ "T29": {
+  "class": "GRAIN_FOOD",
+  "gloss": "rations / eating (head with hatched mouth)",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A head with hatching at the mouth. It follows numbers in 11 of 15 lines and pairs with the household sign T11, which fits a ration or food allocation sign."
+ },
+ "T30": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person / worker category",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A head-like pointed sign with a small appendage that sits in groups with T35, T14 and T12. A person category is a guess."
+ },
+ "T31": {
+  "class": "OFFICE_PERSON",
+  "gloss": "ploughman / person with tool",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A figure with a round head and a long horizontal shaft, perhaps a plough or a bent person. It is usually line-final after other signs, as titles are."
+ },
+ "T32": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person category",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A head with a grid at the back. Rare; it pairs with T15, T35 and T27 and is sometimes after numbers."
+ },
+ "T33": {
+  "class": "PLACE_INST",
+  "gloss": "field / plot or institution",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A gridded rectangle, very frequent, mostly inside sign groups with T35, and not counted. It fits a field or a building or institution."
+ },
+ "T34": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person / worker",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A stick figure with legs and an arm. It co-occurs with T18 and T35 in name and title groups."
+ },
+ "T35": {
+  "class": "OFFICE_PERSON",
+  "gloss": "lord / high official",
+  "confidence": 0.7,
+  "recognised": true,
+  "recognised_as": "EN (lord / high priest-official)",
+  "reasoning": "By far the most frequent sign. It is seldom directly counted and heads many title and name compounds, as a top office title would."
+ },
+ "T36": {
+  "class": "OFFICE_PERSON",
+  "gloss": "profession / agent (hand or foot)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A hand- or foot-like shape related to T14, inside sign groups. A profession or action qualifier is a weak guess."
+ },
+ "T37": {
+  "class": "PLACE_INST",
+  "gloss": "enclosure / tablet / container",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A plain rectangle that co-occurs with T35, T24 and T25. The reading is very uncertain."
+ },
+ "T38": {
+  "class": "LIVESTOCK",
+  "gloss": "animal category",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A crossing-strokes sign that follows numbers in 15 of 22 lines and pairs heavily with T25 and T04, so it may belong to the same herd-category set."
+ },
+ "T39": {
+  "class": "OTHER_GOODS",
+  "gloss": "commodity (half-filled disc with lines)",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rare; it pairs with T35, T40 and T12 and is sometimes counted. The object is unclear."
+ },
+ "T40": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title element (funnel / horn)",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "A funnel shape that almost always follows T24 (68 lines), which suggests a fixed title such as 'chief of X'. It is sometimes counted with '#1'."
+ },
+ "_script_recognised": "Yes, very likely Uruk-period proto-cuneiform from Mesopotamia (late 4th millennium BC), going by the sign shapes (star, circle-cross sheep, fish, EN-like sign) and the setting. Only a few signs (AN, EN, UDU, KU6, MA\u0160, tentatively SAG and TI) are flagged as recognised from memory. The rest are inferred."
+}

@@ -1,0 +1,162 @@
+{
+ "T01": {
+  "sign": "UNUG~a",
+  "class": "PLACE_INST"
+ },
+ "T02": {
+  "sign": "NUNUZ~a1",
+  "class": "OTHER_GOODS"
+ },
+ "T03": {
+  "sign": "U2~b",
+  "class": "OTHER_GOODS"
+ },
+ "T04": {
+  "sign": "SIG2~b",
+  "class": "TEXTILE"
+ },
+ "T05": {
+  "sign": "GAL~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T06": {
+  "sign": "UDU~a",
+  "class": "LIVESTOCK"
+ },
+ "T07": {
+  "sign": "GA~a",
+  "class": "LIQUID_DAIRY"
+ },
+ "T08": {
+  "sign": "SZEN~b",
+  "class": "VESSEL"
+ },
+ "T09": {
+  "sign": "MASZ",
+  "class": "LIVESTOCK"
+ },
+ "T10": {
+  "sign": "SZAGAN",
+  "class": "VESSEL"
+ },
+ "T11": {
+  "sign": "SANGA~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T12": {
+  "sign": "KU3~a",
+  "class": "OTHER_GOODS"
+ },
+ "T13": {
+  "sign": "NAGA~a",
+  "class": "OTHER_GOODS"
+ },
+ "T14": {
+  "sign": "GU7",
+  "class": "GRAIN_FOOD"
+ },
+ "T15": {
+  "sign": "GAR",
+  "class": "GRAIN_FOOD"
+ },
+ "T16": {
+  "sign": "GI",
+  "class": "OTHER_GOODS"
+ },
+ "T17": {
+  "sign": "NI~a",
+  "class": "LIQUID_DAIRY"
+ },
+ "T18": {
+  "sign": "AN",
+  "class": "PLACE_INST"
+ },
+ "T19": {
+  "sign": "PA~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T20": {
+  "sign": "GA2~a1",
+  "class": "VESSEL"
+ },
+ "T21": {
+  "sign": "KISIM~a",
+  "class": "LIQUID_DAIRY"
+ },
+ "T22": {
+  "sign": "SUHUR",
+  "class": "LIVESTOCK"
+ },
+ "T23": {
+  "sign": "UD5~a",
+  "class": "LIVESTOCK"
+ },
+ "T24": {
+  "sign": "SAL",
+  "class": "OFFICE_PERSON"
+ },
+ "T25": {
+  "sign": "TUG2~a",
+  "class": "TEXTILE"
+ },
+ "T26": {
+  "sign": "AB2",
+  "class": "LIVESTOCK"
+ },
+ "T27": {
+  "sign": "SZAKIR~c",
+  "class": "VESSEL"
+ },
+ "T28": {
+  "sign": "KI",
+  "class": "PLACE_INST"
+ },
+ "T29": {
+  "sign": "KASZ~c",
+  "class": "LIQUID_DAIRY"
+ },
+ "T30": {
+  "sign": "DUG~c",
+  "class": "VESSEL"
+ },
+ "T31": {
+  "sign": "MUSZ3~a",
+  "class": "PLACE_INST"
+ },
+ "T32": {
+  "sign": "GARA2~a",
+  "class": "LIQUID_DAIRY"
+ },
+ "T33": {
+  "sign": "E2~a",
+  "class": "PLACE_INST"
+ },
+ "T34": {
+  "sign": "KU6~a",
+  "class": "LIVESTOCK"
+ },
+ "T35": {
+  "sign": "EN~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T36": {
+  "sign": "SAG",
+  "class": "OFFICE_PERSON"
+ },
+ "T37": {
+  "sign": "GISZ",
+  "class": "OTHER_GOODS"
+ },
+ "T38": {
+  "sign": "GADA~a",
+  "class": "TEXTILE"
+ },
+ "T39": {
+  "sign": "SILA3~a",
+  "class": "VESSEL"
+ },
+ "T40": {
+  "sign": "AB~a",
+  "class": "PLACE_INST"
+ }
+}
