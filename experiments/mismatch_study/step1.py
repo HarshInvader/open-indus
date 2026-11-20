@@ -24,7 +24,8 @@ import mm  # noqa: E402
 import numpy as np  # noqa: E402
 
 NTOK, KIND, CHUNK, MAXR, SWEEPS = 2500, "syll", 125, 1000, 100
-CELLS = [("lat", k, r) for k in (0, 5, 10) for r in range(3)] + [("fin", 10, r) for r in range(3)]
+CELLS_SEALED = [("lat", k, r) for k in (0, 5, 10) for r in range(3)] + [("fin", 10, r) for r in range(3)]
+CELLS = [("lat", 0, r) for r in range(3)]  # change 1 (docs/prereg/indus_size_search_check_change1.md)
 OUTF = mm.OUT / "step1.jsonl"
 
 
