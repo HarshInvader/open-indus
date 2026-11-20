@@ -4,7 +4,7 @@ This file records every route the project tested and closed, or found it could n
 
 Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. The ledger held 275 rows (about 14,100 tests) at first writing and 654 rows at cycle 8. **As of cycle 10 (2026-11-15) it holds 842 rows across 64 areas** (511 confirmatory, 192 exploratory, 108 robustness, 13 red-team, the rest calibration, secondary or descriptive), with Benjamini-Hochberg correction. The test total behind the rows was not re-derived.
 
-**Counts in this file.** 80 entries: 63 from cycles 0-6 (sections 1-10, including 5.9, which lists open items) and 17 from cycles 7-10 (section 10b). Section 11 lists 36 red-team reversals and weakenings: 26 from cycles 0-6 and 10 from cycles 7-10.
+**Counts in this file.** 81 entries: 63 from cycles 0-6 (sections 1-10, including 5.9, which lists open items), 17 from cycles 7-10 (section 10b) and 1.11 (2026-11-20). Section 11 lists 37 red-team reversals and weakenings: 26 from cycles 0-6, 10 from cycles 7-10 and one correction (2026-11-20).
 
 ## How to read an entry
 
@@ -116,11 +116,11 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Method.** Calibrate the recovery rate on known scripts with related languages. Then fit Indus to each candidate.
 - **Data.** M77; lexicons of candidate languages.
 - **Result.**
-  - Calibration: a related language gives 10-26% recovery. This stays flat from 2.5k to 230k tokens. Wrong keys win 88-100% of runs.
+  - Calibration: a related language gives 10-26% recovery with the search used here. **Corrected 2026-11-20:** this plateau measured weak search. With 1,000 restarts plus swap moves, Latin with an Italian model reached 0.62 at 10k and 0.66 at 30k (entry 1.11). At 2.5k, Finnish/Estonian is limited by the objective (171-195 of 200 restarts beat the truth-climbed key), and Latin/Italian by search (0-1 of 200). See `docs/prereg/search_scaling_correction.md`.
   - Indus: Tamil z 0.45-0.76; Sanskrit −0.01 to 0.25; Sumerian 0.33-0.54. The p < 0.01 bound is about 3.4.
 - **Power.** Planted true languages give only z 0.3-2.8. The method cannot pick the right language even when it is known.
 - **Not excluded.** Any of the candidates.
-- **Verdict.** Untestable. Anchors raise recovery from 0.17 to 0.47-0.68, so anchors, not more text, are the bottleneck.
+- **Verdict.** Untestable, because Indus's closeness to any candidate is unknown and planted-language power is z 0.3-2.8. Anchors raised recovery from 0.17 to 0.47-0.68 under the weak search. The earlier wording "anchors, not more text, are the bottleneck" and "not identifiable at any corpus size" is withdrawn (2026-11-20). Whether more text and more search help depends on how close the model language is.
 - **Red team (2026-11-18, `experiments/redteam_decipherability`).** Low flat related-language recovery and the shuffle trap survive. "Wrong keys outscore the true key" is weakened: 72% of runs (bar 80%), 0/6 for Latin with an Italian model at 30k. A climb from the true key always ends higher and still 66-83% right, so the blind search fails to reach a mostly-right region the objective favours. Anchors work by putting the search there.
 - **Folder.** `experiments/decipherability`.
 - **Prereg.** None.
@@ -152,6 +152,22 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Folder.** `experiments/typology`.
 - **Prereg.** `2026-11-14_typology.md` (not in HASHES.txt).
 - **Reopen with.** More Gulf or Mesopotamian seals with Indus texts.
+
+### 1.11 A solvability law in language mismatch (mismatch_study)
+- **Question.** Does a related-language model cap recovery at a level set by the mismatch (ΔH), whatever the attack, so that a law in ΔH × size × script type could predict decipherability?
+- **Method.** Pre-registered kill test. Latin with an Italian model, and Finnish with an Estonian model, enciphered as a syllabary at 2.5k, 10k and 30k tokens. Four attacks: bigram Gibbs, trigram, EM, and 1,000 restarts with swap polish. The rule: KILL if any attack's cell mean is above 0.5 at ≤ 30k.
+- **Data.** Wikipedia and literary text for the four languages. No Indus data.
+- **Result.**
+  - The planted checks passed: true model ≥ 0.998, dialled mismatch Spearman 1.0, shuffle control passed.
+  - The weak attacks reached 0.04-0.37.
+  - 1,000 restarts reached 0.62 (10k) and 0.66 (30k) on Latin, so the verdict is **KILL**. Attacks spread by up to 0.52 on the same cell.
+  - Finnish 1,000-restart cells and the 10,000-restart arm were not run, since the verdict could not change.
+- **Power.** One replicate per 1,000-restart cell.
+- **Not excluded.** A pair-dependent ceiling (Finnish/Estonian looks limited by the objective at 2.5k).
+- **Verdict.** Refuted: the ceiling was weak search. Prior art had already shown that restart count dominates decipherment accuracy with a matched model (Berg-Kirkpatrick & Klein 2013, https://aclanthology.org/D13-1087.pdf). The study should have run its strongest attack first.
+- **Folder.** `experiments/mismatch_study`.
+- **Prereg.** `mismatch_study.md`, amendments 1-3, `mismatch_study_fix1.md`.
+- **Reopen with.** Nothing in this form.
 
 ---
 
@@ -1019,6 +1035,7 @@ Cycles 7-10:
 34. **reg_size "new" seals.** 41 of 138 were T4 seals counted twice (register-ICIT link gap).
 35. **Ticked fish cluster by block (reg_findspot F3).** Weakened: q = 0.114 over all 163 tests; not replicated elsewhere at Mohenjo-daro (p = 0.31).
 36. **Connective M99 dropped first on small seals (T4).** Did not replicate on register seals (+0.002, p = 0.41); not significant against the keep-closers null.
+37. **"Related-language recovery is flat with more text; not a search artefact" (decipherability, search_scaling; corrected 2026-11-20).** The sealed search_scaling verdict compared against the true key, not the truth-climbed key. Against the truth-climbed key, Latin/Italian at 2.5k is search-limited (0-1 of 200 restarts above it), and 1,000 restarts with swap moves reach 0.62-0.66 at 10k-30k. Only Finnish/Estonian is limited by the objective.
 
 Survived the red team: the Gulf result (n restated to 12) and ticked fish (strengthened). Copper sign face is exploratory. In cycles 7-10 no positive result survived a red team unweakened.
 
@@ -1038,6 +1055,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 1.8 | Fit to candidate language | Untestable | Planted z 0.3-2.8 | ~10 anchors |
 | 1.9 | Cognate decipherment | Untestable | Gate failed | Word division + lexicon |
 | 1.10 | Gulf phonetic names | Refuted | Low, n = 12 | More Gulf seals |
+| 1.11 | Mismatch solvability law | Refuted (KILL) | 1 replicate | None |
 | 2.1 | Family classifier | Untestable | LOSO 0.621 | Bilingual |
 | 2.2 | Family from names | Untestable | 0/7 | Valid naming statistic |
 | 2.3 | Head direction | Refuted | CI [0.36, 0.54] | Larger held-out |

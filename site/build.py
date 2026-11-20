@@ -400,7 +400,7 @@ def chart_round():
 def chart_names():
     sizes = [("2,500", 12), ("10,000", 10), ("50,000", 18), ("230,000", 22)]
     anchors = [("None", 17), ("5", 37), ("10", 47), ("20", 68)]
-    a = ['<figure class="mini"><figcaption class="claim">More text barely helps</figcaption>'
+    a = ['<figure class="mini"><figcaption class="claim">More text barely helped our first search</figcaption>'
          '<div class="chart" role="group" aria-label="Share of sign values recovered by text size, related language known">',
          '<div class="pair"><div class="pl">Sign values recovered, by text size in signs</div>']
     for s, v in sizes:
@@ -412,7 +412,9 @@ def chart_names():
     for s, v in anchors:
         b.append(bar(s, v, 100, f"{v}%"))
     b.append('</div><div class="axis" aria-hidden="true"><span>0</span><span>50%</span><span>100%</span></div></div></figure>')
-    return '<div class="minis">' + "".join(a) + "".join(b) + "</div>"
+    note = ('<p class="note">Corrected 20 Nov 2026: these numbers came from a weak search. With 1,000 restarts, Latin read with an Italian model '
+            'reached 62-66% of values at 10,000-30,000 signs. How much more text helps depends on how close the model language is, which is unknown for Indus.</p>')
+    return '<div class="minis">' + "".join(a) + "".join(b) + "</div>" + note
 
 
 def ladder(caption=True):

@@ -346,3 +346,4 @@ b577b30a598ad02134a80dc795d220a42572baf12e4708c9686da8cc0ccc11db  experiments/mi
 2159688be5fb2fa0f1ca247c8c5e1057c4713230f653cb9d1c20e43ec062cb70  docs/prereg/mismatch_study_fix1.md  2026-11-19  (fix 1)
 1e7181f0381e4c855fde086492cb613eaa397077185eb65280cfb8b0c97f1f2d  experiments/mismatch_study/mm.py  2026-11-19  (fix 1)
 a1bfe0790964e74e9325b8a2db017edf150b5eaeaf5225d165f6ef83842af196  experiments/mismatch_study/par.py  2026-11-19  (fix 1)
+419be3cda1330658c86ec00fc2fbf4b2be813a1f9114bf7b3253b04ac065ee95  search_scaling_correction.md  (2026-11-20, deviation: search_scaling H0 and atlas 1.8 corrected)

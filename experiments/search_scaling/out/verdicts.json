@@ -1,0 +1,101 @@
+{
+ "R": {
+  "curve": {
+   "1": 0.07309780240980297,
+   "4": 0.10090323202526813,
+   "10": 0.11891803453820532,
+   "50": 0.14416144724924346,
+   "200": 0.17218460166101637
+  },
+  "per_replicate": {
+   "lat0": {
+    "best_of_max": 0.31111075569772095,
+    "max_acc": 0.34466213514594163,
+    "share_above_true": 0.995,
+    "wrong_above_true": true,
+    "corr": 0.5734888536328693
+   },
+   "lat1": {
+    "best_of_max": 0.26577555910543127,
+    "max_acc": 0.36661341853035145,
+    "share_above_true": 0.995,
+    "wrong_above_true": true,
+    "corr": 0.6222041671684311
+   },
+   "lat2": {
+    "best_of_max": 0.1660768,
+    "max_acc": 0.3,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.5096864365064834
+   },
+   "fin0": {
+    "best_of_max": 0.06706751897722733,
+    "max_acc": 0.23371953655613265,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.24731267602195173
+   },
+   "fin1": {
+    "best_of_max": 0.12284239999999996,
+    "max_acc": 0.2248,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.3485566850482226
+   },
+   "fin2": {
+    "best_of_max": 0.10037359999999998,
+    "max_acc": 0.25,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.17147201958854533
+   }
+  },
+  "verdict": "H0 not search"
+ },
+ "S": {
+  "curve": {
+   "1": 0.09796929064498387,
+   "4": 0.13724388997534848,
+   "20": 0.16843183581080204
+  },
+  "per_replicate": {
+   "lat0": {
+    "best_of_max": 0.12905877648940423,
+    "max_acc": 0.1599360255897641,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.2541766476728555
+   },
+   "lat1": {
+    "best_of_max": 0.2627715654952077,
+    "max_acc": 0.41214057507987223,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.7820007009159808
+   },
+   "lat2": {
+    "best_of_max": 0.3244855999999999,
+    "max_acc": 0.396,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.6554845065853767
+   },
+   "fin0": {
+    "best_of_max": 0.06000000000000001,
+    "max_acc": 0.1406312425089892,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": 0.11702884907455746
+   },
+   "fin1": {
+    "best_of_max": 0.0618928,
+    "max_acc": 0.168,
+    "share_above_true": 1.0,
+    "wrong_above_true": true,
+    "corr": -0.3406363719421263
+   }
+  },
+  "verdict": "H0 not search"
+ }
+}

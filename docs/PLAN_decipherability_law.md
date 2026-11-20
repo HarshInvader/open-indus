@@ -38,7 +38,7 @@ The owner asked for a paper that leading researchers would call a breakthrough, 
 - For Latin/Italian it is computational at every size tested.
 - So there is a statistical-to-computational crossover that moves with corpus size and mismatch. Fable flags this as possibly the real finding. It was found after the fact, so the sealed study must confirm it on new pairs.
 
-**Search scaling** (`experiments/search_scaling`, sealed): 200 restarts at 2.5k give best-of-n accuracy of 0.07, 0.10, 0.12, 0.14 and 0.17 for n = 1, 4, 10, 50 and 200. Not a search artefact at 2.5k (sealed verdict H0). Every restart outscored the true key.
+**Search scaling** (`experiments/search_scaling`, sealed): 200 restarts at 2.5k give best-of-n accuracy of 0.07, 0.10, 0.12, 0.14 and 0.17 for n = 1, 4, 10, 50 and 200. Not a search artefact at 2.5k (sealed verdict H0). Every restart outscored the true key. **Corrected 2026-11-20:** against the truth-climbed key, Latin is search-limited and only Finnish is limited by the objective (`docs/prereg/search_scaling_correction.md`). This plan was killed in stage 1 (atlas 1.11).
 
 ## Sealed design (to be hashed before any run)
 

@@ -11,7 +11,7 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
 
 ## Established (cycle 0-2, see README)
 Order is grammatical; logo-syllabic (~400 signs); ticked fish -> closer slot; Gulf round seals break Indus order; M109+M59 fixed; object-type registers; L-R reversals real; copper tablet text+picture types; functional reading (11 roles).
-Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment is not identifiable at any corpus size (simulated).
+Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment looked flat with more text under weak search; corrected 2026-11-20, it is pair-dependent (Latin/Italian 0.62-0.66 with heavy search; see docs/prereg/search_scaling_correction.md).
 
 ## Queue (top = next)
 0. [cycle 3, running] internal_phonetics (complements, homophone transitivity, ligature decomposition, silent determinatives); typology (syllabic vs logographic name cores; Gulf seals as phonetic foreign names); administration (line-2 person graph, offices by locus, docket arithmetic, tall strokes as dates, Lothal sealing backs).
