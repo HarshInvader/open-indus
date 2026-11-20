@@ -9,9 +9,32 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
 - Keep a test ledger: every confirmatory test is pre-registered in `docs/prereg/` (hypothesis, prediction, test, threshold) BEFORE it is run on held-out.
 - Max ~5 agents per cycle. Prefer cheap, high-information experiments.
 
+## Fresh plan, 2026-11-20
+- **Context.** The owner reset the goal to decipherment by 2027, as defined in the README: at least 10 sound values with an outside anchor, held-out prediction and a red team. Standing principle: re-plan from scratch now and then, and compare against this section.
+- **How the plan was made.** Fable wrote it without reading the repo; the coordinator then reconciled it with our docs.
+- **Verdict.** About a 1% chance of success on the data in hand. Every past decipherment rested on names fixed from outside the texts plus a known language. Only a digraphic find changes the odds: an Indus seal or impression tied to a cuneiform or Linear Elamite name.
+
+| Fresh-plan route | Status in our docs | Action |
+|---|---|---|
+| Gulf texts as cribs | Closed: crib_attack_v2 needs ≥ 41 texts, only 9-11 are safe | none |
+| Graffiti continuity | Closed (atlas 8.3) | none |
+| Solvability bound | Closed (atlas 1.11, KILL) | publish the correction once the 3 Latin cells of Step 1 finish |
+| Language first | Partly done; a Proto-Dravidian lexicon is useless without anchors | Direction 3 (substrate vs donor) dropped: already done in a public repo (`docs/prereg/substrate_donor_priorart.md`) |
+| New finds with sealed predictions | Partly done: `harp_pack` sealed, waiting for data | wait for data; no new tests |
+| Digraphic hunt | Catalogue route exhausted (atlas 9.2) | **NEW: image sweep for stamp impressions** over all openly licensed CDLI/BDTNS photos. Kill test first: it must re-find YBC 5447's Gulf stamp and known Dilmun impressions (`docs/prereg/stamp_detector_priorart.md`) |
+| Image requests (Irisagrig tablets, BM 120573) | Owen and the BM already emailed; owner rule 2026-11-19: no resends | draft for new contacts only (Messina, Iraq Museum) |
+
+- **Drift flagged by Fable (adopted).**
+  - The decipherability-law paper.
+  - Paper packaging before a result.
+  - About 60 internal-structure tests on the same ~5,000 texts, which the claim ladder says cannot reach sound values.
+- **Rule from now on.**
+  - Finish only what is already committed: the 3 Latin Step 1 cells and the sealed carver test.
+  - Then run no new internal-structure test without the coordinator's OK.
+
 ## Established (cycle 0-2, see README)
 Order is grammatical; logo-syllabic (~400 signs); ticked fish -> closer slot; Gulf round seals break Indus order; M109+M59 fixed; object-type registers; L-R reversals real; copper tablet text+picture types; functional reading (11 roles).
-Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment looked flat with more text under weak search; corrected 2026-11-20, it is pair-dependent (Latin/Italian 0.62-0.66 with heavy search; see docs/prereg/search_scaling_correction.md).
+Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment looked flat with more text under weak search; corrected 2026-11-20, it is pair-dependent (Latin/Italian 0.62-0.66 with heavy search; see docs/prereg/search_scaling_correction.md); at Indus size (2.5k) mixed: 1 solved, 1 search-limited, 1 objective-limited of 3.
 
 ## Queue (top = next)
 0. [cycle 3, running] internal_phonetics (complements, homophone transitivity, ligature decomposition, silent determinatives); typology (syllabic vs logographic name cores; Gulf seals as phonetic foreign names); administration (line-2 person graph, offices by locus, docket arithmetic, tall strokes as dates, Lothal sealing backs).

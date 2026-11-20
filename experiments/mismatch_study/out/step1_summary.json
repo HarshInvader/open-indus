@@ -1,0 +1,26 @@
+{
+ "lat|0|0": {
+  "acc": 0.526,
+  "best_obj": -10765.6,
+  "climb_obj": -10756.7,
+  "climb_acc": 0.686,
+  "restarts": 1000,
+  "label": "solved"
+ },
+ "lat|0|1": {
+  "acc": 0.45,
+  "best_obj": -10902.9,
+  "climb_obj": -10868.1,
+  "climb_acc": 0.703,
+  "restarts": 1000,
+  "label": "search-limited"
+ },
+ "lat|0|2": {
+  "acc": 0.458,
+  "best_obj": -10901.8,
+  "climb_obj": -10914.2,
+  "climb_acc": 0.73,
+  "restarts": 375,
+  "label": "objective-limited"
+ }
+}

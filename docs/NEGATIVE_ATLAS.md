@@ -116,7 +116,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Method.** Calibrate the recovery rate on known scripts with related languages. Then fit Indus to each candidate.
 - **Data.** M77; lexicons of candidate languages.
 - **Result.**
-  - Calibration: a related language gives 10-26% recovery with the search used here. **Corrected 2026-11-20:** this plateau measured weak search. With 1,000 restarts plus swap moves, Latin with an Italian model reached 0.62 at 10k and 0.66 at 30k (entry 1.11). At 2.5k, Finnish/Estonian is limited by the objective (171-195 of 200 restarts beat the truth-climbed key), and Latin/Italian by search (0-1 of 200). See `docs/prereg/search_scaling_correction.md`.
+  - Calibration: a related language gives 10-26% recovery with the search used here. **Corrected 2026-11-20:** this plateau measured weak search. With 1,000 restarts plus swap moves, Latin with an Italian model reached 0.62 at 10k and 0.66 at 30k (entry 1.11). At 2.5k, Finnish/Estonian is limited by the objective (171-195 of 200 restarts beat the truth-climbed key), and Latin/Italian by search (0-1 of 200). See `docs/prereg/search_scaling_correction.md`. **Indus-size check (2026-11-20, sealed, `docs/prereg/indus_size_search_check.md`):** at 2,500 tokens, Latin with an Italian model and no anchors gave one solved run (53%), one search-limited (45%) and one objective-limited (46%). At Indus size the result is mixed. Search depth matters, and so does closeness.
   - Indus: Tamil z 0.45-0.76; Sanskrit −0.01 to 0.25; Sumerian 0.33-0.54. The p < 0.01 bound is about 3.4.
 - **Power.** Planted true languages give only z 0.3-2.8. The method cannot pick the right language even when it is known.
 - **Not excluded.** Any of the candidates.

@@ -413,7 +413,7 @@ def chart_names():
         b.append(bar(s, v, 100, f"{v}%"))
     b.append('</div><div class="axis" aria-hidden="true"><span>0</span><span>50%</span><span>100%</span></div></div></figure>')
     note = ('<p class="note">Corrected 20 Nov 2026: these numbers came from a weak search. With 1,000 restarts, Latin read with an Italian model '
-            'reached 62-66% of values at 10,000-30,000 signs. How much more text helps depends on how close the model language is, which is unknown for Indus.</p>')
+            'reached 62-66% of values at 10,000-30,000 signs. How much more text helps depends on how close the model language is, which is unknown for Indus. At Indus size (2,500 signs) three tries gave one success, one search failure and one case where the scoring preferred a wrong key: the result is mixed.</p>')
     return '<div class="minis">' + "".join(a) + "".join(b) + "</div>" + note
 
 

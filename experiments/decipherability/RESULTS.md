@@ -4,7 +4,7 @@ Decipherability theorist, 2026-11-14. Figure: `phase_diagram.png`. Tables: `out/
 
 ## Conclusion first
 
-> **Correction (2026-11-20).** Points 1 and the H2/H3 rows below overstate the result. The 10-26% plateau and "better search cannot help" came from a weak search. With 1,000 restarts and swap moves, Latin with an Italian model reached 0.62-0.66 at 10k-30k. Against the truth-climbed key, Finnish/Estonian is limited by the objective and Latin/Italian by search. See `docs/prereg/search_scaling_correction.md` and atlas 1.11.
+> **Correction (2026-11-20).** Points 1 and the H2/H3 rows below overstate the result. The 10-26% plateau and "better search cannot help" came from a weak search. With 1,000 restarts and swap moves, Latin with an Italian model reached 0.62-0.66 at 10k-30k. Against the truth-climbed key, Finnish/Estonian is limited by the objective and Latin/Italian by search. See `docs/prereg/search_scaling_correction.md` and atlas 1.11. **Indus-size check (2026-11-20, sealed, `docs/prereg/indus_size_search_check.md`):** at 2,500 tokens, Latin with an Italian model and no anchors gave one solved run (53%), one search-limited (45%) and one objective-limited (46%). At Indus size the result is mixed. Search depth matters, and so does closeness.
 
 1. **The limit is knowing the language, not the amount of text.** We planted five real languages in a simulated logo-syllabic script and ran a strong key search on them.
    - With a perfect model of the language, about 2,500 sign tokens are enough to read 89–99% of sign values. That is a Shannon-style unicity distance of a few hundred to about 2,000 tokens, well under Indus's 10,005.

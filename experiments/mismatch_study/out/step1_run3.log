@@ -1,0 +1,8 @@
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 5, "obj": -11030.64673444993, "acc": 0.22355289421157684}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 5, "obj": -10920.273392962163, "acc": 0.29256594724220625}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 6, "obj": -11056.390551209954, "acc": 0.17325349301397205}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 6, "obj": -10765.599421507754, "acc": 0.526378896882494}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 7, "obj": -10928.106563960382, "acc": 0.47904191616766467}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 7, "obj": -10847.45803233686, "acc": 0.26938449240607515}
+SUMMARY {"lat|0|0": {"acc": 0.526, "best_obj": -10765.6, "climb_obj": -10756.7, "climb_acc": 0.686, "restarts": 1000, "label": "solved"}, "lat|0|1": {"acc": 0.45, "best_obj": -10902.9, "climb_obj": -10868.1, "climb_acc": 0.703, "restarts": 1000, "label": "search-limited"}, "lat|0|2": {"acc": 0.458, "best_obj": -10901.8, "climb_obj": -10914.2, "climb_acc": 0.73, "restarts": 375, "label": "objective-limited"}}
+ALL DONE

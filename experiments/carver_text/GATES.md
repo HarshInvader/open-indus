@@ -50,3 +50,26 @@ Dead at the power gate under the coordinator's kill rule. Any further run needs 
   - Only 24 types reach 10 tokens at all.
   - The kill rule needs ≥ 15 pairs, so the study is dead.
 - **Reopen with** a much larger hand-attributed seal set.
+
+## Sealed confirmatory test and red team (2026-11-20)
+
+**Sealed run (`confirm.py`, prereg `docs/prereg/carver_text.md`).**
+- Within-hand rarity-weighted sharing: observed 1.193, null mean 0.908, ratio 1.31 (bootstrap CI over hands 1.10-1.62).
+- p = 0.0098 from 10,000 reshuffles, against alpha 0.01.
+- Planted check passed: size 0.01, power 0.825 at 40%.
+- Coded verdict: POSITIVE.
+
+**Red team (`docs/prereg/carver_text_redteam.md`): the result is not robust.**
+- An exact replica over 200,000 reshuffles gives p = 0.0105 (95% CI 0.0101-0.0110). The sealed p fell under alpha by Monte Carlo luck.
+- An independent reimplementation from the prereg text gives p = 0.017. The gap comes from tie handling and duplicate ICIT rows, which the prereg left open.
+- **Data fixes:**
+  - One seal was dropped by a misspelt group label.
+  - 24 Kalibangan seals were unlinked; they match ICIT under the "K-" prefix.
+  - With both fixes, p = 0.008.
+- **Exploratory checks:**
+  - Text length is an open confound: with length in the strata, p = 0.05.
+  - Masking catalogue neighbours gives p = 0.04.
+  - Leave-one-hand-out p ranges 0.005-0.026.
+  - The grouping was not blind to the inscriptions.
+
+**Status: NOT CONFIRMED.** A possible weak effect (p ≈ 0.01-0.02), with text length as the open confound. No positive claim is made, and nothing is written up. The atlas wording waits for the coordinator's decision. No re-run with fixes, because that would be a second look at the same data.

@@ -1,0 +1,10 @@
+{"kind": "climb", "pair": "lat", "k": 5, "rep": 0, "obj": -10879.879015769442, "acc": 0.7463556851311953, "true_obj": -11536.359614863617, "S": 86, "tokens": 2502}
+{"kind": "climb", "pair": "lat", "k": 0, "rep": 1, "obj": -10868.130241423218, "acc": 0.7029940119760479, "true_obj": -11609.159677811687, "S": 84, "tokens": 2505}
+{"kind": "climb", "pair": "lat", "k": 0, "rep": 0, "obj": -10756.702235817345, "acc": 0.6862509992006395, "true_obj": -11536.359614863617, "S": 86, "tokens": 2502}
+{"kind": "climb", "pair": "lat", "k": 0, "rep": 2, "obj": -10914.17633144031, "acc": 0.7303236116660008, "true_obj": -11711.970397777071, "S": 85, "tokens": 2503}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 0, "obj": -10902.911037966247, "acc": 0.449500998003992}
+{"kind": "chunk", "pair": "lat", "k": 5, "rep": 0, "chunk": 0, "obj": -11023.630936932372, "acc": 0.3798417326114119}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 2, "chunk": 0, "obj": -11029.336155244278, "acc": 0.2848581701957651}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 0, "obj": -11024.22194837227, "acc": 0.28816946442845726}
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 5 leaked semaphore objects to clean up at shutdown: {'/mp-v24g1e2q', '/mp-mqlqnh2u', '/mp-p6iwmffb', '/mp-5qizjy87', '/mp-__zo2czj'}
+  warnings.warn(

@@ -1,0 +1,12 @@
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 2, "chunk": 1, "obj": -10984.973727186809, "acc": 0.36356372353176186}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 1, "obj": -11037.590783031026, "acc": 0.24750499001996007}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 1, "obj": -10938.187832364687, "acc": 0.3457234212629896}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 2, "obj": -10998.099487617312, "acc": 0.14291417165668663}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 2, "chunk": 2, "obj": -10901.840400881674, "acc": 0.4582500998801438}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 2, "obj": -10887.792162523554, "acc": 0.20343725019984013}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 3, "obj": -11113.048187961384, "acc": 0.274251497005988}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 3, "obj": -11120.689249681425, "acc": 0.2202238209432454}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 1, "chunk": 4, "obj": -11043.377430241766, "acc": 0.2347305389221557}
+{"kind": "chunk", "pair": "lat", "k": 0, "rep": 0, "chunk": 4, "obj": -11033.79104154369, "acc": 0.13948840927258194}
+SUMMARY {"lat|0|0": {"acc": 0.203, "best_obj": -10887.8, "climb_obj": -10756.7, "climb_acc": 0.686, "restarts": 625, "label": "running"}, "lat|0|1": {"acc": 0.45, "best_obj": -10902.9, "climb_obj": -10868.1, "climb_acc": 0.703, "restarts": 625, "label": "running"}, "lat|0|2": {"acc": 0.458, "best_obj": -10901.8, "climb_obj": -10914.2, "climb_acc": 0.73, "restarts": 375, "label": "objective-limited"}}
+TIME UP; rerun to resume
