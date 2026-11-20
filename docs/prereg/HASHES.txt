@@ -351,3 +351,7 @@ a1bfe0790964e74e9325b8a2db017edf150b5eaeaf5225d165f6ef83842af196  experiments/mi
 3918f522bce4c9c713e9174f469a738f8a6656358b456ba28d515198c8796232  experiments/mismatch_study/step1.py  2026-11-20  (indus-size search check)
 74d2cd92ed4c3384f19da97d87d25dc7718b1f0973895b14502e75d8e567c01a  docs/prereg/indus_size_search_check_change1.md  2026-11-20  (search check change 1)
 9715b8051781d3c205f3bd2551c9b7dcbb86a7557cfaae5d950ef33a274618d0  experiments/mismatch_study/step1.py  2026-11-20  (search check change 1)
+93d92f3c835a2e1d125598a83cd1935bebbc7963e33136d197f3acab0e9eebfa  docs/prereg/carver_text.md  2026-11-20  (carver_text confirmatory)
+cafb254eccf3f57feda6677af319d115bc87e55a37b621e1247eb370938b66fa  experiments/carver_text/confirm.py  2026-11-20  (carver_text confirmatory)
+69d06dd2ea1c266d66727d5cce097369548af8f18c1e10ae5c37f79299239577  experiments/carver_text/ct.py  2026-11-20  (carver_text confirmatory)
+b1a79a08fbd2dca94abf3022be9258296bf5fa1d33c5ff51ec4d67608a8e178a  experiments/carver_text/parse.py  2026-11-20  (carver_text confirmatory)
