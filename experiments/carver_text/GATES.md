@@ -37,3 +37,16 @@
 
 ## Status
 Dead at the power gate under the coordinator's kill rule. Any further run needs a new decision, and a sealed prereg that names this disclosure.
+
+## Direction 2 (allographs by hand): dropped at the feasibility gate (2026-11-20)
+- **Prior art.** A fresh Fable read found no work that uses hand identity to decide allograph vs sign:
+  - Daggumati & Revesz 2021, https://www.nature.com/articles/s41599-021-00713-0, uses positions only;
+  - Corazza et al. 2022 (https://aclanthology.org/2022.lt4hala-1.12.pdf, Cypro-Greek) and Born et al. 2023 (https://aclanthology.org/2023.cawl-1.11/, proto-Elamite) use shape plus context;
+  - Wells, Fuls, Parpola 1994 and Mahadevan 1977's rules are unverified (not opened).
+- **Feasibility.**
+  - The grouped seals carry 877 tokens of 212 Wells types.
+  - Wells-split pairs with ≥ 10 tokens each: **1** (W817/W861 → M267) under `sources/shaunmortal_indus/data/bridge_WM.json`, and 0 under `experiments/consensus_corpus/corrected_concordance.csv`.
+  - Only 2 hands contain both variants (6 tokens).
+  - Only 24 types reach 10 tokens at all.
+  - The kill rule needs ≥ 15 pairs, so the study is dead.
+- **Reopen with** a much larger hand-attributed seal set.
