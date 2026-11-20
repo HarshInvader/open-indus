@@ -95,3 +95,6 @@ experiments/mismatch_study/raw_real/*
 !experiments/mismatch_study/raw_real/SOURCES.md
 experiments/mismatch_study/out/
 experiments/mismatch_study/*.log
+
+# carver_text: derived table holds Jamison attributes (thesis, all rights reserved) and ICIT readings; stays local
+experiments/carver_text/out/
