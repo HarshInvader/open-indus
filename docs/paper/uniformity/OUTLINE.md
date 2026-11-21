@@ -78,3 +78,21 @@ Short paper: JDMDH or Digital Scholarship in the Humanities.
   - Yadav et al. 2017 single out Harappa sealings, which matches our sealing difference.
   - Mackay 1943 records local seal-making at Chanhu-daro and sign-less Jhukar seals, which fits the Chanhu-daro lead.
   - The M93 end mark at Chanhu-daro appears to be unreported.
+
+## Revised main point after red team 2 (2026-11-21)
+
+Replaces "Indus seals behave like name-free legends"; red team 2 broke that, since the name-free comparison is a tie, not a clean result.
+
+**Main point:** Seal texts from Mohenjo-daro and Harappa differ no more than two halves of one city. In readable seal legends the city shows through owners' personal names. So Indus seals cannot be carrying site-specific personal names the way Ur III seals do: at most about 30% of seals could carry them, against 99.8% in Ur III.
+
+**Supporting points:**
+1. The between-city result ties with the within-city floor and with a shuffled-label null (step 1 and step 2, with three red teams).
+2. In readable seals, place lives in personal names. With place names and gods removed the signal remains (+0.09 to +0.27); without personal names it ties with the reign floor (red team 2).
+3. A planted-names bound on Indus: names drawn from real Ur III frequencies are ruled out above about 30% of seals, invented name stocks above 10-20%.
+4. Limits:
+   - Sealings and moulded tablets differ between the two cities.
+   - Chanhu-daro is a near-miss (q = 0.06), partly from its own end mark M93, which looks unreported.
+   - Linear B is a scribe trap.
+   - Recchia & Louwerse 2016: rerun in progress (`experiments/recchia_rerun/`).
+
+**What it means:** Indus seals either name their owners from a shared pool across cities, or don't name individuals at all (offices, titles, commodities). It also fits earlier finding #10, that seal cores are not spelled-out names.
