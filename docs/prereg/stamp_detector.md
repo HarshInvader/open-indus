@@ -1,4 +1,4 @@
-# Stamp-impression detector on Yale CC0 tablet photos: gate and sweep (DRAFT, not yet sealed)
+# Stamp-impression detector on Yale CC0 tablet photos: gate and sweep (sealed 2026-11-21)
 
 Agent `paper`, on the coordinator's decision of 2026-11-20. Prior art, licences and controls: `docs/prereg/stamp_detector_priorart.md`. Code: `experiments/stamp_detector/` (`harvest.py`, `sheets.py`, `embed.py`, `gate.py`). Hashes go in HASHES.txt when this is sealed.
 
@@ -19,13 +19,14 @@ Agent `paper`, on the coordinator's decision of 2026-11-20. Prior art, licences 
 - **Controls (C).** YBC 5447 (Yale 2021 photo, CC0), plus CDLI photos P257839, P272900, P257073 and P269244 (local study use only).
 - **Negatives.**
   - (N-early) A seeded random sample of Yale Ur III and Old Babylonian tablets with images. These are the sweep population, so they are excluded from the sweep tally.
-  - (N-late) A seeded random sample of Neo-Babylonian tablets, used in training only, so that the detector cannot learn "late tablet" instead of "stamp".
+  - (N-late) A seeded random sample of 400 Neo-Babylonian, Achaemenid and Hellenistic tablets, used in training only. Most positives are from these periods, so this stops the detector learning "late tablet" instead of "stamp". They are drawn by seed from the first 250 Neo-Babylonian, 250 Achaemenid and 200 Hellenistic records in Yale's search order. That is not a random sample of the collection; it is used only for training.
+  - Records already in the stamp-noted set are excluded from both negative samples.
 
 ## Detector
 - **Tiles.** Each image is resized to 1600 px wide and tiled at 192 px (stride 96) and 320 px (stride 160). Background, the left label strip and the bottom scale band are skipped. Each tile is embedded with CLIP ViT-B-16 (laion2b).
 - **Classifier.** Multiple-instance logistic regression with 3 rounds. Round 1 treats all tiles of positive images as positive. Rounds 2 and 3 keep the top 3 tiles of each positive image. All tiles of negative images are negative.
 - **Image score.** The maximum tile probability.
-- **Threshold.** Fixed on the training set alone, using 5-fold out-of-fold scores, at the score that flags 1% of training N-early images.
+- **Threshold.** Fixed on the training set alone: 5 folds over all training images, and the threshold is the 99th percentile of the out-of-fold scores of training N-early images (it flags 1%). Scores are logistic-regression decision values (C = 1, balanced class weights).
 
 ## Gate (on the held-out test set; run once)
 - **Split.** By object, seed 20261120.
@@ -36,7 +37,7 @@ Agent `paper`, on the coordinator's decision of 2026-11-20. Prior art, licences 
 - **Pass needs both of:**
   1. Recall at least 0.80 on P_test ∪ C.
   2. False flags at most 0.02 of N-early test images (at most 6 of 300).
-- **How flags are reviewed.** Every flagged N-early test image is reviewed by eye. A flag that shows a real stamp impression counts as a find, not a false flag, and is reported as such.
+- **How flags are reviewed.** Every flagged N-early test image is reviewed by eye and the result is written to `out/gate_review.json` before any sweep. A flag that shows a real stamp impression counts as a find, not a false flag, and is reported as such. Images with no usable embedding count as misses for recall.
 - **Reported, but not part of the gate:** recall on C alone, whether YBC 5447 was recovered, and recall by period.
 - **Fail.** Stop, and record it in atlas 9.2.
 
@@ -44,4 +45,11 @@ Agent `paper`, on the coordinator's decision of 2026-11-20. Prior art, licences 
 - **Scope.** All Yale Ur III and Old Babylonian (including Early OB) tablets with CC0 images, minus the gate images.
 - **Output.** Every flag gets a review-queue row: catalogue number, photo link, date and named parties from the catalogue record, score and tile location.
 - **No retraining after the sweep starts.**
-- **Caps.** 2 days of work and 4 workers.
+- **Caps.** 2 days of work and 4 workers, at `nice -n 20` (owner approval 2026-11-21).
+- **Coverage.** The Ur III record harvest stopped at the 2-hour job cap with 11,708 of 13,227 records (89%); the sweep covers what was harvested, and the share is reported.
+
+## Code
+`gate.py split | train | test | sweep`, seed 20261120. `test` refuses to run twice.
+
+## Deviation 1 (2026-11-21, before any test-set output)
+`gate.py train` crashed on its first run: inside the fold loop it passed each positive image's (features, tile positions) tuple instead of the features alone. Fixed (`P[k]` to `P[k][0]`); nothing else changed. No model, threshold or test score existed at the time. New hashes for this file and `gate.py` are in HASHES.txt.

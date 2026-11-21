@@ -761,6 +761,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Folder.** `experiments/sealing_hunt`.
 - **Prereg.** None.
 - **Reopen with.** Photographs of P516366 and P453801.
+- **Update 2026-11-21: image detector (stamp_detector).** We trained a stamp-impression detector on Yale's CC0 six-side photos (CLIP tile embeddings, multiple-instance logistic regression; 102 stamped, 398 Ur III/OB and 400 late tablets in training) to sweep about 17,000 Ur III and Old Babylonian tablets. The sealed gate failed: recall 0.44 on 73 held-out stamped tablets and controls against a bar of 0.80, and 0 of 5 known controls, including YBC 5447. Recall came only from Achaemenid (11/17) and Hellenistic (21/30) objects; Neo-Babylonian scored 0/11 and early tablets 0/2. So the detector learned late sealing types, not stamp impressions. False flags 1/300 (an Old Babylonian cylinder seal object). No sweep was run. Verdict: untestable with general-purpose image features and about 100 mostly late positives. Reopen with several hundred labelled early-period stamp impressions, or a shape-based detector checked on the 5 controls first. Prereg `stamp_detector.md`.
 
 ### 9.3 Bilingual search
 - **Question.** Is there an Indus-Elamite or Indus-cuneiform bilingual?
@@ -988,6 +989,13 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Power.** Planted checks fell just short: 77/100 (A) and 79/100 (B1) against a bar of 80. False positives 1/100.
 - **Verdict.** A untestable, kept as a lead. B not supported.
 - **Prereg.** `slot_function.md`.
+
+### 10b.19 Carver groups and shared text (carver_text)
+- **Question.** Do seals grouped as one carver's work share more text than chance? (Hint-informed, single dataset, no independent replication.)
+- **Result.** Sealed run p = 0.0098 (ratio 1.31, CI 1.10-1.62; 289 pairs, 44 hands). The red team's replica gave 0.0105 at 200k reshuffles and a reimplementation gave 0.017. Fixing two label errors gives 0.008. Adding text length to the strata gives 0.05, masking catalogue neighbours gives 0.04, and leaving out one hand gives 0.005-0.026. The grouping was not blind to the inscriptions.
+- **Power.** 0.83 at 40% planted excess (MDE about 40%).
+- **Verdict.** Not confirmed. Possible weak effect, p about 0.01-0.02; the text-length confound is still open.
+- **Prereg.** `carver_text.md`; red team `carver_text_redteam.md`; `experiments/carver_text/GATES.md`.
 - **Reopen with.** New texts (CISI vol. 3, post-2010 finds) for A; a fuller Wells-to-Mahadevan mapping of human-figure signs for B.
 
 ---
@@ -1107,7 +1115,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 8.3 | Tamil Nadu graffiti | Refuted | n/a | None |
 | 8.4 | Potters' marks | Untestable | 0.22-0.33 | Dated Early marks |
 | 9.1 | Meluhhan names | Untestable | n = 2-5 | New texts |
-| 9.2 | Mesopotamian sealings | Untestable | n/a | Photos of 2 tablets |
+| 9.2 | Mesopotamian sealings; image detector | Untestable; gate failed (recall 0.44, 0/5 controls) | n/a | Photos of 2 tablets; early-period stamp labels |
 | 9.3 | Bilingual | Untestable | n/a | A find |
 | 10.1 | Sign turnover | Refuted (strong) | 1.0 strong | Dated strata |
 | 10.2 | Dholavira style | Refuted | n/a | None |
@@ -1129,6 +1137,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.16 | Depth chronology | Inconclusive | 0.92-0.94 broad | HARP 3B vs 3C |
 | 10b.17 | Carver hands; craft assemblage | Untestable / inconclusive | 92-100% / 0-4.5% | ≥ 30 px/mm; craft coding |
 | 10b.18 | Closing slot; counted human figures | Untestable (lead) / not supported | 77/100 and 79/100 gates | New texts; fuller sign bridge |
+| 10b.19 | Carver groups share text | Not confirmed (possible weak effect) | 0.83 at 40% | Blind regrouping; text-length strata |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

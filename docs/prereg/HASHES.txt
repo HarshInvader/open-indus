@@ -412,3 +412,6 @@ bcaa0885c8dabf31d57e60054e483b7126de79d89706e90bb6e9bc89c6fe47f7  experiments/re
 c8fa3e155d73b135d669533a31d20def60ba0050efa66b6e8a734f43ed7245be  docs/prereg/uniformity_paper_step2.md  2026-11-21T16:12:08Z  uniformity_paper_step2
 993c9f894f3fba31c33b609660441f9bcbee4b9fd6d66b5d10cb5430a24f3163  experiments/uniformity_paper/step2/s2.py  2026-11-21T16:12:08Z  uniformity_paper_step2
 4678ad0c0af95fe09101fe067d2f71c297377de68adc0e47c1c453d75f25847a  experiments/uniformity_paper/step2/build2.py  2026-11-21T16:12:08Z  uniformity_paper_step2
+495e791dbac0c29a6adba706f651bd44b34caef5224f9be2fb0545791428b640  docs/prereg/stamp_detector.md  2026-11-21T17:04:52Z  stamp_detector_deviation1
+e509c961a38ec355efaaee42b19954c5a47782433be6a02cae4b47ee886a0377  experiments/stamp_detector/gate.py  2026-11-21T17:04:52Z  stamp_detector_deviation1
+6351e12253b3df50091c85c69510611cc7670aac4ae7f3d8386a714c33f4d97b  experiments/stamp_detector/out/model.npz  2026-11-21T17:05:26Z  stamp_detector_model

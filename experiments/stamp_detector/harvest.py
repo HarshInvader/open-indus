@@ -18,6 +18,7 @@ UA = {"User-Agent": "open-research-site/1.0"}
 API = "https://peabody.collections.yale.edu"
 SET = API + "/data/set/a996e468-616e-47b3-966a-ced654bc53a6"  # Babylonian Collection, Yale Peabody Museum
 _last = [0.0]
+BUDGET = 95 * 60  # seconds of record fetching per run
 
 
 def get(url, binary=False, tries=3):
@@ -81,10 +82,13 @@ def records(name, text, maxn=100000):
     done = {json.loads(l)["id"] for l in path.read_text().splitlines()} if path.exists() else set()
     ids = search_ids(text, maxn)
     print(name, "ids", len(ids), "already", len(done), flush=True)
+    t0 = time.time()
     with path.open("a") as f:
         for i, oid in enumerate(ids):
             if oid in done:
                 continue
+            if time.time() - t0 > BUDGET:  # stay under the 2-hour job cap; rerun to resume
+                print(name, "time budget reached at", i, flush=True); break
             rec = get(oid)
             if rec:
                 f.write(json.dumps(slim(rec)) + "\n"); f.flush()
@@ -92,10 +96,16 @@ def records(name, text, maxn=100000):
                 print(name, i, flush=True)
 
 
-def images(name, width=1600):
+def images(name, width=1600, nats=None):
     img = RAW / "img"; img.mkdir(exist_ok=True)
-    recs = [json.loads(l) for l in (RAW / f"records_{name}.jsonl").read_text().splitlines()]
+    if nats is None:
+        recs = [json.loads(l) for l in (RAW / f"records_{name}.jsonl").read_text().splitlines()]
+    else:
+        recs = [{"nat": [n]} for n in nats]
+    t0 = time.time()
     for i, r in enumerate(recs):
+        if time.time() - t0 > BUDGET:
+            print(name, "time budget reached at", i, flush=True); break
         for nat in r["nat"]:
             dst = img / f"{nat}.jpg"
             if dst.exists():
@@ -117,5 +127,8 @@ if __name__ == "__main__":
     cmd, name = sys.argv[1], sys.argv[2]
     if cmd == "records":
         records(name, sys.argv[3], int(sys.argv[4]) if len(sys.argv) > 4 else 100000)
+    elif cmd == "imglist":  # harvest.py imglist LIST.txt  (lines are .../<nat>.jpg)
+        nats = [Path(l.strip()).stem for l in Path(name).read_text().splitlines() if l.strip()]
+        images(Path(name).stem, 1600, nats)
     else:
         images(name, int(sys.argv[3]) if len(sys.argv) > 3 else 1600)

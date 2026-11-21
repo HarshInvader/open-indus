@@ -21,7 +21,7 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
 | Solvability bound | Closed (atlas 1.11, KILL) | publish the correction once the 3 Latin cells of Step 1 finish |
 | Language first | Partly done; a Proto-Dravidian lexicon is useless without anchors | Direction 3 (substrate vs donor) dropped: already done in a public repo (`docs/prereg/substrate_donor_priorart.md`) |
 | New finds with sealed predictions | Partly done: `harp_pack` sealed, waiting for data | wait for data; no new tests |
-| Digraphic hunt | Catalogue route exhausted (atlas 9.2) | **NEW: image sweep for stamp impressions** over all openly licensed CDLI/BDTNS photos. Kill test first: it must re-find YBC 5447's Gulf stamp and known Dilmun impressions (`docs/prereg/stamp_detector_priorart.md`) |
+| Digraphic hunt | Catalogue route exhausted (atlas 9.2) | **NEW: image sweep for stamp impressions** over all openly licensed CDLI/BDTNS photos. Kill test first: it must re-find YBC 5447's Gulf stamp and known Dilmun impressions (`docs/prereg/stamp_detector_priorart.md`) **Update 2026-11-21:** moved to Yale CC0 photos; sealed gate failed (recall 0.44 vs 0.80, 0/5 controls incl. YBC 5447). No sweep (atlas 9.2). |
 | Image requests (Irisagrig tablets, BM 120573) | Owen and the BM already emailed; owner rule 2026-11-19: no resends | draft for new contacts only (Messina, Iraq Museum) |
 
 - **Drift flagged by Fable (adopted).**
