@@ -1,10 +1,13 @@
-"""Figure 2: detection curves for planted local sign stocks and planted names.
+"""Figure 2: detection curves for planted local sign stocks, planted names and diffuse effects.
 
 Sources:
 - experiments/uniformity_paper/step2/results.json (part2 power: 20-sign stock in
-  Harappa at share q, detected when AUC - within median >= 0.05)
-- experiments/redteam_uniformity_step2/results.json (a3 curves: share of draws whose
-  AUC - within median exceeds the observed gap; excluded at >= 95%)
+  Harappa at share s, detected when AUC - within median >= 0.05)
+- experiments/uniformity_paper/revision/results.json
+    names:   60 replicates per rate, r = 0 to 0.5; exceed_obs = share of replicates whose gap
+             above the floor exceeds the observed step-2 gap; excluded at >= 95%
+    diffuse: 50 draws per level; power = share with AUC - step-2 within >= 0.05;
+             x = share of Harappa tokens actually altered
 """
 import sys
 from pathlib import Path
@@ -13,45 +16,64 @@ sys.path.insert(0, str(Path(__file__).parent))
 from _style import INDUS, REF, load, plt, save  # noqa: E402
 
 s2 = load("uniformity_paper/step2/results.json")
-rt2 = load("redteam_uniformity_step2/results.json")
+rev = load("uniformity_paper/revision/results.json")
 
-fig, (axa, axb) = plt.subplots(1, 2, figsize=(6.4, 2.5))
+POOLS = [("m77_seal", "M77 seals", "-"), ("icit_seal", "ICIT seals", "--"),
+         ("icit_sealtype", "ICIT seals + sealings", ":")]
+
+fig, (axa, axb, axc) = plt.subplots(1, 3, figsize=(7.4, 2.6))
 
 # Panel A: planted stock
-pools = [("m77_seal", "M77 seals", "-"), ("icit_seal", "ICIT seals", "--"),
-         ("icit_sealtype", "ICIT seals + sealings", ":")]
-for fam, lab, ls in pools:
+for fam, lab, ls in POOLS:
     r = next(r for r in s2["part2"] if r["family"] == fam and r["a"] == "Mohenjo-daro" and r["b"] == "Harappa")
     qs = sorted(r["power"], key=float)
     axa.plot([float(q) * 100 for q in qs], [r["power"][q] * 100 for q in qs],
-             ls=ls, color=INDUS, marker="o", ms=3, lw=1, label=lab)
+             ls=ls, color=INDUS, marker="o", ms=2.5, lw=1, label=lab)
 axa.axhline(80, color=REF, lw=0.6, ls=":")
-axa.text(10.2, 82, "gate 80%", fontsize=7, color=REF, va="bottom")
+axa.text(10.2, 82, "gate 80%", fontsize=6.5, color=REF, va="bottom")
 axa.set_xlabel("Local sign stock (% of tokens)")
 axa.set_ylabel("Draws detected (%)")
 axa.set_xticks([10, 15, 20])
 axa.set_ylim(0, 105)
-axa.set_title("A. Planted local sign stock", fontsize=8.5, loc="left")
-axa.legend(fontsize=6.8, loc="lower right")
+axa.set_title("A. Local sign stock", fontsize=8.5, loc="left")
+axa.legend(fontsize=6, loc="lower right")
 
-# Panel B: planted names, M77 seals (solid) and ICIT seals (dashed)
+# Panel B: planted names, finer grid
 forms = [("sign", "invented, one new sign", "#9a9a9a"),
          ("spelt", "invented, two shared signs", "#555555"),
-         ("ur3emp", "real Ur III name frequencies", INDUS)]
-for pool, ls in [("m77_seal", "-"), ("icit_seal", "--")]:
-    curve = rt2["a3"][f"{pool}|curve"]
+         ("ur3emp", "real Ur III frequencies", INDUS)]
+for fam, _, ls in POOLS:
+    fr = rev["names"][fam]["forms"]
     for form, lab, col in forms:
-        pts = sorted((c["rate"], c["frac_above_obs"]) for c in curve if c["form"] == form)
-        axb.plot([p[0] * 100 for p in pts], [p[1] * 100 for p in pts], ls=ls, color=col,
-                 marker="o" if ls == "-" else None, ms=2.5, lw=1,
-                 label=lab if pool == "m77_seal" else None)
+        ex = fr[form]["exceed_obs"]
+        rs = sorted(ex, key=float)
+        axb.plot([float(r) * 100 for r in rs], [ex[r] * 100 for r in rs], ls=ls, color=col,
+                 lw=1, label=lab if fam == "m77_seal" else None)
 axb.axhline(95, color=REF, lw=0.6, ls=":")
-axb.text(55, 88, "excluded at 95%", fontsize=7, color=REF, va="top")
-axb.set_xlabel("Seals carrying a site-specific name (%)")
-axb.set_ylabel("Draws above observed gap (%)")
-axb.set_ylim(0, 105)
-axb.set_xlim(0, 102)
-axb.set_title("B. Planted names (solid M77, dashed ICIT)", fontsize=8.5, loc="left")
-axb.legend(fontsize=6.5, loc="lower right")
-fig.tight_layout(w_pad=2)
+axb.text(1, 97, "excluded at 95%", fontsize=6.5, color=REF, va="bottom")
+axb.set_xlabel("Legends with a site-specific name (%)")
+axb.set_ylabel("Replicates above observed gap (%)")
+axb.set_ylim(0, 108)
+axb.set_xlim(0, 51)
+axb.set_title("B. Planted names", fontsize=8.5, loc="left")
+axb.legend(fontsize=6, loc="lower right")
+
+# Panel C: diffuse effects
+kinds = [("variants", "local variants", INDUS), ("shift", "frequency shift", "#9a9a9a")]
+D = rev["diffuse"]
+for fam, _, ls in POOLS:
+    for kind, lab, col in kinds:
+        pts = sorted((v["share"], v["power"]) for v in D.values()
+                     if v["family"] == fam and v["kind"] == kind)
+        axc.plot([p[0] * 100 for p in pts], [p[1] * 100 for p in pts], ls=ls, color=col,
+                 marker="o", ms=2.5, lw=1, label=lab if fam == "m77_seal" else None)
+axc.axhline(80, color=REF, lw=0.6, ls=":")
+axc.set_xlabel("Harappa tokens altered (%)")
+axc.set_ylabel("Draws detected (%)")
+axc.set_ylim(0, 105)
+axc.set_xlim(0, 52)
+axc.set_title("C. Diffuse differences", fontsize=8.5, loc="left")
+axc.legend(fontsize=6, loc="lower right")
+
+fig.tight_layout(w_pad=1.2)
 save(fig, "fig2_power")
