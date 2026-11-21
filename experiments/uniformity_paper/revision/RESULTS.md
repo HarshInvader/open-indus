@@ -60,12 +60,12 @@ from `report.py` applied to `draws_*.jsonl` and are stored in `results.json`. Ev
 
 - "Pool-level bootstrap intervals (200 replicates) for the Mohenjo-daro–Harappa gap include zero in every seal
   family (median Δ +0.010 to +0.034; 95% CI lower bounds −0.060 to −0.089). Equivalence at ±0.05 is not
-  established; the data bound any difference to about 0.11 AUC."
-- "Umma and Girsu remain separable above every within-city floor under the same bootstrap (lowest 2.5th
+  established; the data bound any difference to about 0.11 AUC." [Reworded 2026-11-21, see correction note at end.]
+- "Umma and Girsu remain separable above every within-city floor under the same bootstrap (lowest 2.5th [reworded 2026-11-21, see note at end]
   percentile +0.107 AUC)."
 - "Removing owner names, patronyms, or patron and dedicatee names one at a time leaves Umma vs Girsu above all four
   ORACC and both CDLI within-city floors (minimum Δ +0.114, all planted gates 100%); only removing every name
-  brings it below the Girsu reign floor (Δ +0.047)."
+  brings it below the Girsu reign floor (Δ +0.047)." [Reworded 2026-11-21, see correction note at end.]
 - "A logistic-regression classifier and a classifier-free Jensen–Shannon permutation test reproduce the Ur III
   separation (LR minimum Δ +0.148; JSD between above within in every draw pair). The JSD test finds no
   Mohenjo-daro–Harappa difference beyond the floor in any family. Logistic regression agrees for two families and
@@ -252,3 +252,67 @@ lists M93 and M94 both as "3 slant", 10 occurrences each.
 |---|---|---|---|---|---|---|---|
 | icit_seal | 0.552 | 0.501 | +0.050 | +0.042 | 0.137 | 0.88 / 0.98 / 1.00 | underpowered (step-2 label: gap at margin, not beyond floor) |
 | icit_sealtype | 0.547 | 0.498 | +0.049 | +0.043 | 0.137 | 0.84 / 0.96 / 1.00 | same |
+
+## Correction (2026-11-21, review 2)
+
+Three sentences in "Sentences safe for the paper" overstate the results. They are left in place, marked, and replaced by these (found by `docs/paper/uniformity/REVIEW_2.md`, items R1-R3):
+
+- For "bound any difference to about 0.11 AUC", write: "the one-sided 95% upper limit on the gap is 0.10-0.11 AUC for this pipeline" (m* is the 95th percentile of the bootstrap Δ).
+- For "above every within-city floor", write "above all six structural within-city floors" (random halves were not bootstrapped).
+- For "only removing every name brings it below the Girsu reign floor (Δ +0.047)", write: "only removing all personal names (Δ +0.030; CDLI +0.037) or every name (+0.047; CDLI +0.039) brings the gap on the strictest floor, two Girsu reigns, under the 0.05 margin". The gap stays positive, so it is not below the floor.
+
+## Addendum (2026-11-21, review 2): R9 edition overlap and R10 Ur III minus Indus contrast
+
+See the two sections below; scripts `overlap.py` and `contrast.py`, outputs `overlap.json` and `contrast.json`.
+
+### R10. Ur III minus Indus contrast (paired bootstrap, no new runs)
+
+Prereg `docs/prereg/uniformity_paper_contrast.md`, hashed with `contrast.py` (tag `uniformity_paper_contrast`,
+2026-11-21T22:40:46Z) before the contrast was computed. Arithmetic on `draws_boot.jsonl` only: each condition was
+resampled with its own seed (`rng_for("boot", cond, rep)`), so Ur III and Indus replicates are independent and
+D = Δfloor(Ur III) − Δfloor(Indus) can be formed replicate by replicate (200 differences). Output `contrast.json`.
+
+Primary (Ur III = ORACC Umma vs Girsu against Umma reigns, the step-2 primary and lowest Ur III floor):
+
+| Indus pool | median D | 95% CI | 5th pct | above 0 | above margin |
+|---|---|---|---|---|---|
+| M77 seals | +0.155 | +0.035, +0.261 | +0.049 | yes | no (by 0.001) |
+| ICIT seals | +0.164 | +0.039, +0.279 | +0.062 | yes | yes |
+| ICIT seals + sealings | +0.131 | +0.034, +0.240 | +0.051 | yes | yes |
+
+All 200 × 200 combinations give the same picture (2.5th percentiles +0.029 to +0.041).
+
+Secondary: against each of the six structural Ur III floors (ORACC and CDLI), all 18 contrasts have a 2.5th
+percentile above zero (smallest +0.032, CDLI Umma reigns vs ICIT seals); 16 of 18 meet the margin rule (the two
+misses are M77 seals vs ORACC Umma reigns, 5th pct +0.049, and ICIT seals + sealings vs CDLI Umma reigns, +0.048).
+Unicorn pools against ORACC Umma reigns: median +0.122 and +0.128, but 95% CIs −0.007 to +0.267 and −0.017 to +0.256,
+so the contrast is not established within unicorn seals.
+
+**Verdict.** The central contrast holds as a direct test: the Ur III gap exceeds the Indus gap in every primary
+pool, by +0.13 to +0.16 (medians), with every 95% interval above zero (lowest 2.5th percentile +0.034). Against the
+0.05 margin it holds in two of three primary pools; in M77 seals the 5th percentile is +0.049.
+
+Safe sentence: "Tested directly, the Ur III gap exceeds the Mohenjo-daro–Harappa gap by +0.13 to +0.16 AUC (paired
+bootstrap medians), and every 95% interval excludes zero (lowest 2.5th percentile +0.034); within unicorn seals the
+contrast is not established."
+
+### R9. M77–ICIT object overlap (descriptive)
+
+`overlap.py` (no scoring) counts seal objects shared by the two editions, using the existing link tables:
+1930s register links (`audit_followups` b_editor_agreement, via `consensus_corpus/cooc.matched_pairs`) and sign
+links (`consensus_corpus/out/seq_links.json`, best same-site ICIT record at distance ≤ 0.5). Output `overlap.json`.
+
+| Site | M77 seal objects | linked to an ICIT record | ICIT seal records | ICIT seal records linked to an M77 seal | of which register links |
+|---|---|---|---|---|---|
+| Mohenjo-daro | 1,232 | 1,191 | 1,352 | 1,002 (74%) | 307 sides |
+| Harappa | 350 | 333 | 440 | 261 (59%) | 29 sides |
+| both | 1,582 | 1,524 | 1,792 | 1,263 (70%) | 336 sides |
+
+Sign links are accepted only when the readings are close, so texts the editors read very differently fail to link;
+the counts are approximate (a lower bound on true overlap, with some false links). 126 Mohenjo-daro and 17 Harappa
+ICIT records are the best link for two or more M77 sides.
+
+Two suspect Chanhu-daro links (sign links): M77 6203 (M104 M149 M267 M99 M93 | M103 M403 M162) → ICIT 61.1
+(W817 W002 W003 W390), whose sequence does not match; and M77 6204 → ICIT 71.1, which is also the link for M77 6124.
+6204 and 6124 have identical M77 readings (M267 M99 M65 M62 M342 | M93), so either M77 lists two seals with the same
+text and ICIT has one, or one link is wrong. Both await the photo check in `docs/HUMAN_LEADS.md`.

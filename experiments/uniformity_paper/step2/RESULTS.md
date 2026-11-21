@@ -28,7 +28,7 @@ Prereg: `docs/prereg/uniformity_paper_step2.md`, hashed with `s2.py` and `build2
   - The "differs" verdicts rest on the random-halves floor of the larger site, which falls a little below 0.5 (0.47-0.49).
   - Pairs between two small sites (Lothal, Chanhu-daro, Kalibangan) have floors of 0.32-0.40. That is the pipeline's known low bias on small pools with shared strings removed. Their "differs" verdicts (between 0.57-0.61) should not be read as place signal.
 - **Other object types.** Mohenjo-daro and Harappa differ in sealings (0.613 ICIT, 0.608 M77; Δ +0.10 and +0.12; q_floor 0.02) and in tablets (0.774, Δ +0.32). But Mohenjo-daro's "tablets" are mostly copper tablets (197 of 299), while Harappa's are moulded or incised tablets. The tablet row is a subtype contrast, not a place contrast.
-- **Lothal, Kalibangan and Dholavira** never differ from Mohenjo-daro or Harappa. Most of those pairs are underpowered (power 16-84% at q = 0.15). Mohenjo-daro vs Dholavira (ICIT seals + sealings) is gated "same" (Δ +0.047).
+- **Lothal, Kalibangan and Dholavira** never differ from Mohenjo-daro or Harappa. Most of those pairs are underpowered (power 16-84% at q = 0.15 [corrected 2026-11-21: 48-96%, see note at end]). Mohenjo-daro vs Dholavira (ICIT seals + sealings) is gated "same" (Δ +0.047).
 
 ### What this does to the paper's claim
 
@@ -184,3 +184,7 @@ The open question is whether Chanhu-daro is distinct by place, period or object 
 - `fetch2.py`: source URLs (not run).
 - `s2.py`: `sizes`, `run 1`, `run 2`, `report`.
 - `sizes.log`, `run.log`, `draws.jsonl`, `results.json`, `table.md`, `ledger_rows.csv`.
+
+## Correction (2026-11-21, review 2)
+
+- The "Lothal, Kalibangan and Dholavira" bullet gave power 16-84% at q = 0.15. From `results.json` part2, the twelve pairs of those sites with Mohenjo-daro or Harappa have power 0.48-0.96 at q = 0.15, with 37-67 texts per side. The original sentence is left in place, marked. (Found by `docs/paper/uniformity/REVIEW_2.md`.)

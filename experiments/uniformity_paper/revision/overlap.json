@@ -1,0 +1,64 @@
+{
+ "Mohenjo-daro": {
+  "m77_seal_objects": 1232,
+  "m77_seal_sides": 1260,
+  "icit_seal_records": 1352,
+  "linked_register": 307,
+  "linked_signs": 908,
+  "linked_total": 1215,
+  "linked_objects": 1191,
+  "linked_to_icit_seal": 1156,
+  "distinct_icit_records": 1035,
+  "distinct_icit_seal_records": 1002,
+  "icit_records_shared_by_2plus_m77_sides": 126
+ },
+ "Harappa": {
+  "m77_seal_objects": 350,
+  "m77_seal_sides": 356,
+  "icit_seal_records": 440,
+  "linked_register": 29,
+  "linked_signs": 310,
+  "linked_total": 339,
+  "linked_objects": 333,
+  "linked_to_icit_seal": 269,
+  "distinct_icit_records": 318,
+  "distinct_icit_seal_records": 261,
+  "icit_records_shared_by_2plus_m77_sides": 17
+ },
+ "Chanhu-daro": {
+  "m77_seal_objects": 58,
+  "m77_seal_sides": 58,
+  "icit_seal_records": 59,
+  "linked_register": 6,
+  "linked_signs": 42,
+  "linked_total": 48,
+  "linked_objects": 48,
+  "linked_to_icit_seal": 47,
+  "distinct_icit_records": 45,
+  "distinct_icit_seal_records": 44,
+  "icit_records_shared_by_2plus_m77_sides": 3
+ },
+ "suspect_links": {
+  "6203.0": {
+   "m77_seq": "M104 M149 M267 M99 M93 | M103 M403 M162",
+   "icit": "61.1",
+   "how": "signs",
+   "icit_seq": "W817 W002 W003 W390",
+   "icit_type": "SEAL:S"
+  },
+  "6204.0": {
+   "m77_seq": "M267 M99 M65 M62 M342 | M93",
+   "icit": "71.1",
+   "how": "signs",
+   "icit_seq": "W861 W002 W235 W222 W740 | W031 W032",
+   "icit_type": "SEAL:S"
+  },
+  "6124.0": {
+   "m77_seq": "M267 M99 M65 M62 M342 | M93",
+   "icit": "71.1",
+   "how": "signs",
+   "icit_seq": "W861 W002 W235 W222 W740 | W031 W032",
+   "icit_type": "SEAL:S"
+  }
+ }
+}

@@ -15,7 +15,7 @@ Prereg: `docs/prereg/redteam_uniformity_step2.md`, hashed with `rt2.py` in `docs
 
 ### (a) In plain words
 
-- **Name-bearing legends really do carry place, and the place sits in personal names.**
+- **Name-bearing legends really do carry place, and the place sits in personal names.** [Superseded 2026-11-21: see correction note at end.]
   - With toponyms, god names and every theophoric personal name removed (`noTGtheo`), Umma vs Girsu still clears all four within-city floors: min Δ +0.102 (ORACC) and +0.093 (CDLI), gates 100%.
   - With personal names removed but toponyms and gods kept (`noPN`), it does not clear the Girsu reign floor: Δ +0.027 (ORACC, gate 86%) and +0.028 (CDLI, gate 92%).
   - So the place signal is not a city-name or city-god leak (`umma{ki}`, Šara, Ningirsu). It lives in the people named on the seals.
@@ -135,3 +135,7 @@ See `table.md`: all 34 step-2 Part 2 pairs under three references, the planted-n
 - 50 draws per condition put the p-value floor at 0.020, which caps how small BH q-values can get in families of 10-15 pairs.
 - The Ur III strict verdict rests on one split whose gate is exactly 80%.
 - Old Babylonian was not re-attacked (underpowered in step 2).
+
+## Correction (2026-11-21, review 2)
+
+- "The place sits in personal names" (finding heading and the safe-wording block) is superseded by the role-by-role analysis in `experiments/uniformity_paper/revision/RESULTS.md` (R3): removing owner names, patronyms or patron names one at a time leaves Umma vs Girsu above every gated within-city floor, so the signal is spread across name roles, not located in one. Removing all personal names leaves a positive gap on the Girsu reign floor that falls short of the 0.05 margin; it does not go below the floor. The safe-wording paragraph above is kept as written for the record and should not be quoted. (Found by `docs/paper/uniformity/REVIEW_2.md`.)
