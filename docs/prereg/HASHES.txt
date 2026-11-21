@@ -381,3 +381,7 @@ e4e4515ae78b365e58375f0fe856e45741ec56f0b0c1e010c9822f37d9a1cf17  experiments/we
 14be5ca76d7205b6441353db4c9c1bf55ac0d5db5a3fa2ef2c0f76a9c422214f  experiments/fish_tick_closer_v2/run_v2.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
 dbdd939a018459d9284366f54d0f844b7ffb77bffbd8617790d576c3d53c6096  experiments/fish_tick_closer/ftc.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
 c0af688cdd7ea4a650ce3090fc6a7be37c0a07db5eba353b025f91e8a58a9fbb  experiments/fish_tick_closer/run.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
+b86ad8f4269a8933fc519d03462d7ff2b2c90347ab900effa2fa98580647b6b7  docs/prereg/count_index_rehearsal.md  2026-11-21T01:38:55Z  count_index_rehearsal
+4d905ce9c38cadcb714ebd551220230ef7db39f52bdefffa58a2c03a0685c2af  experiments/count_index_rehearsal/cir.py  2026-11-21T01:38:55Z  count_index_rehearsal
+452502d81221a6f70a1c5e19327619f5ee91a216e0516ab8bdfdc0850f9aadbe  experiments/fish_tick_closer_v2/dedup.py  2026-11-21T01:38:55Z  count_index_rehearsal
+c01e8331881308bb032d926103f058bed972e565d0b34c40df76fd71b1a976de  experiments/protocuneiform/pc_classes.py  2026-11-21T01:38:55Z  count_index_rehearsal
