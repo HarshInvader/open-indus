@@ -1,7 +1,34 @@
 {
  "_about": "Open Indus paper library. Every number is from the paper as opened (read_depth says how far). verified = the DOI or landing page was opened. Built by the paperwatch library run; regenerate LIBRARY.md with docs/library/make_index.py.",
- "updated": "2026-11-19",
+ "updated": "2026-11-21",
  "entries": [
+  {
+   "id": "kesarwani-2026-dholavira-isotopes",
+   "title": "Reconstruction of animal husbandry practices by the Harappans at Dholavira, Gujarat, India: Insights from isotope (C, O, and Sr) studies of cattle/buffalo tooth enamel",
+   "authors": "Kesarwani M, Channarayapatna S, Paul D, Goswami V",
+   "year": 2026,
+   "venue": "Journal of Archaeological Science: Reports 76, 106186",
+   "doi": "10.1016/j.jasrep.2026.106186",
+   "url": "https://doi.org/10.1016/j.jasrep.2026.106186",
+   "kind": "Paper",
+   "topic": "archaeology",
+   "read_depth": "abstract",
+   "question": "How did Harappans at Dholavira manage cattle and buffalo (diet, seasonality, local or moved herds)?",
+   "tried": "Carbon, oxygen and strontium isotopes in cattle/buffalo tooth enamel (from the title).",
+   "method_data": "Isotope (C, O, Sr) analysis of cattle/buffalo tooth enamel from Dholavira (title and Crossref metadata only).",
+   "key_results": "(Not read: the publisher page returned 403 and no index carries the abstract; title and metadata only. No results are recorded here.)",
+   "limits": "Nothing beyond the title was seen. Re-open when an abstract or open copy is available.",
+   "ideas_for_us": "Minor for the script. If strontium shows animals brought from outside Kutch, it adds to Dholavira's role as an exchange node, a covariate for site-level sign tests.",
+   "touches": [
+    "site_signal"
+   ],
+   "relevance": "context",
+   "in_news": null,
+   "added": "2026-11-21",
+   "verified": false,
+   "date": "2026-12",
+   "source": "paperwatch 2026-11-21 (sweep: Dholavira)"
+  },
   {
    "id": "gokhale-ameri-2026-abm-seals",
    "title": "Modelling the possible archaeological past(s): Agent-based modelling of Harappan seal use and survival",

@@ -1,10 +1,10 @@
 # Open Indus paper library
 
-Generated from `library.json` (updated 2026-11-19) by `make_index.py`. Do not edit by hand.
+Generated from `library.json` (updated 2026-11-21) by `make_index.py`. Do not edit by hand.
 
-- **113 papers**: 28 core, 43 useful, 42 context.
-- Read in full: 62. Abstract only: 51.
-- Not verified (DOI or page not opened, or content from a search summary): 8.
+- **114 papers**: 28 core, 43 useful, 43 context.
+- Read in full: 62. Abstract only: 52.
+- Not verified (DOI or page not opened, or content from a search summary): 9.
 - Bears on the mismatch study: `korovina-2026-rongorongo-syllabic`, `raghavendra-2026-sigil`, `rozanova-2026-voynich-units`, `zhang-sheng-2026-voynich`, `tamburini-2025-csa-optmatcher`, `kambhatla-2023-regression`, `desset-2022-linear-elamite`, `luo-2021-undersegmented`, `luo-2019-neurocipher`, `shinde-2019-rakhigarhi`, `kolipakam-2018-dravidian-phylogeny`, `bk-2013-million-restarts`, `dou-knight-2013-dependency`, `snyder-2010-ugaritic`, `snyder-thesis-decipherment`, `ravi-knight-2008-optimal`, `knight-2006-unsupervised`, `knight-yamada-1999-unknown`, `parpola-1994-deciphering`, `shannon-1949-secrecy`, `davis-2026-undeciphered-aegean-scripts`, `zhou-anderson-2026-cuneiform-transfer`, `otten-2025-meroitic`, `sequeira-2025-koraga-proto-dravidian`, `braovic-2024-aegean-review`, `lee-2024-decipherment-aware-multilingual`, `megyesi-2023-historical-lms`, `aldarrab-may-2021-seq2seq`, `pourdamghani-knight-2017-related`, `hauer-kondrak-2016-anagrams`, `valentine-2015-harappa-farmana-isotopes`, `nuhn-ney-2013-complexity`, `dou-knight-2012-large-scale`, `bk-2011-combinatorial`, `ravi-knight-2011-foreign`, `desai-2026-nilgiri-genomes`, `disanto-2025-predictability-search`, `manoj-2025-minoan-machines`, `narayan-2025-genetics-dravidian`, `shen-2025-alice`, `lin-2024-unicity`, `nepal-2024-minoan-cryptanalysis`, `tamburini-2023-csa`, `kambhatla-2018-neural-lm`.
 
 Each entry in `library.json` has the full analysis: question, what they tried, method and data, key results, limits, ideas for us, and which of our studies it touches. The site renders it at `library.html`.
@@ -118,10 +118,11 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Read(?) the Signs: By Solving a Math-Puzzle or by Wearing Harappan Shoes?](https://doi.org/10.1080/02666030.2026.2742008), Gokhale P | 2026 | abstract | context | administration | A useful critic's checklist: report context (findspot, object type, stratigraphy) alongside any sign-level claim, and state what result would count against our hypothesis. |
 | [The Proportioned City: Ratio, Symbol, and Statecraft in the Metrological Foundations of the Indus Civilization](https://doi.org/10.36948/ijfmr.2026.v08i05.89801), Munshi Y | 2026 | full | context | weights | Little to use. If we want a brick-ratio covariate, measure it from primary excavation reports instead (e.g. brick sizes by phase at Harappa or Mohenjo-daro). |
 
-## Excavations and new finds (7)
+## Excavations and new finds (8)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
+| [Reconstruction of animal husbandry practices by the Harappans at Dholavira, Gujarat, India: Insights from isotope (C, O, and Sr) studies of cattle/buffalo tooth enamel](https://doi.org/10.1016/j.jasrep.2026.106186), Kesarwani M, Channarayapatna S, Paul D, Goswami V (unverified) | 2026 | abstract | context | site_signal | Minor for the script. If strontium shows animals brought from outside Kutch, it adds to Dholavira's role as an exchange node, a covariate for site-level sign tests. |
 | [Inequality declined in the Bronze Age city of Mohenjo-daro](https://doi.org/10.15184/aqy.2026.10359), Green AS, Alam I, Petrie CA | 2026 | full | useful | administration, reg_chrono, reg_findspot | DK-G South has both phased houses and about 490 seals (per Gokhale & Ameri). Test whether seal counts per house or per phase track house size or the fall in inequality. |
 | [A note on Harappan culture with some highlights of first season's excavation at Rakhigarhi Mound No. 3 (2021-22)](https://doi.org/10.51767/jha0401), Gupta VK, Kumar M | 2026 | abstract | useful | new_finds_predictions, reg_findspot, reg_chrono, site_signal | A seal with a stated findspot (RGR-3) and an AMS-dated phase (c. 2000-1800 BCE) is exactly the kind of record our findspot/date covariates need. Request or locate the seal photo and inscription; add it as a dated late-ph |
 | [Indus Signs and Graffiti Marks of Tamil Nadu: A Morphological Study](https://tngraffiti.in/), Rajan and Sivanantham | 2025 | full | useful | tn_brahmi_graffiti | We tested whether look-alikes behave alike. They do not, so this route is closed for now. Measure the chance rate of 'parallels': apply a fixed shape-matching rule to the 42 base signs and to control mark sets (random st |
