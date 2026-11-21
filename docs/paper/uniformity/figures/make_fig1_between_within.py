@@ -48,7 +48,7 @@ add_p1("ur3", "whole", "U_reign", "vs Umma reigns", G3)
 add_p1("ur3", "whole", "U_coll", "vs Umma BM / Yale", G3)
 add_p1("ur3", "whole", "G_reign", "vs Girsu reigns", G3)
 add_p1("ur3", "whole", "G_coll", "vs Girsu BM / Istanbul L", G3)
-G4 = "Ur III, personal names removed"
+G4 = "Ur III, all names removed (step-2 tagging)"
 add_p1("ur3", "namefree", "U_reign", "vs Umma reigns", G4)
 add_p1("ur3", "namefree", "G_reign", "vs Girsu reigns (gate 62%)", G4)
 G5 = "Latin owner/maker marks, whole"

@@ -2,13 +2,17 @@
 
 Claim under review: Indus seal texts from Mohenjo-daro and Harappa show no place signal beyond a within-city floor, while readable seal legends that carry names (Ur III, Latin instrumentum) do. Chanhu-daro may differ.
 
-Our numbers, for reference:
-- Between-city AUC on seals is 0.51-0.55, the same as the within-Mohenjo-daro floor (Δ −0.033 to +0.042).
-- A 15% local sign stock would be detected in 93-100% of runs. Planted names on up to 20-30% of seals would still be compatible with what we observe.
-- Ur III legends separate their cities by Δ +0.16 to +0.31 above the floor. Latin instrumentum separates its provinces by Δ +0.12 to +0.14.
-- Linear B Knossos vs Pylos drops from 0.90 to 0.524 once hands are held out.
-- Chanhu-daro is the most separable site (0.61-0.68) but does not beat its permutation null (q 0.18-0.35).
-- Sealings differ between the two cities (+0.10 to +0.12). The tablet difference (0.774) is an object-subtype effect.
+Our numbers, for reference (updated 2026-11-21 to red team 2, the Chanhu-daro follow-up and REVIEW_1):
+- Between-city AUC on seals is 0.52-0.55 under five sign lists. Against random halves of Mohenjo-daro the gap is +0.005 (M77 seals), +0.014 (ICIT seals) and +0.042 (ICIT seals + sealings); against the shuffled-label null +0.043, +0.014 and +0.054. Against the area floor (DK vs HR+VS) Δ = −0.020. These are point estimates without a confidence interval; the equivalence wording waits on a pool-level bootstrap (REVIEW_1 M3).
+- The exploratory depth floor within DK (0.46) gives +0.089, above the 0.05 margin.
+- A 15% local sign stock would be detected in 98-100% of draws (step 2, red team 2) and 93% (step-1 area floor). Planted names: an Ur III-like load is excluded in every pool; names with real Ur III frequencies are excluded at 50% of seals but not at 30% (the grid has nothing in between; REVIEW_1 M2); invented name stocks are compatible only up to 10-20%.
+- Ur III legends separate their cities by +0.16 to +0.31 above the structural floors (random halves +0.36 / +0.40). Latin instrumentum separates its provinces by +0.12 to +0.14. The Ur III contrast is between archives as well as cities.
+- Ur III with place names, gods and theophoric names removed still clears all four floors (+0.093 to +0.267). With personal names removed it clears the Umma reign floor (+0.173 ORACC, +0.123 CDLI) but not the Girsu reign floor (+0.027 / +0.028). With all names removed (step-2 tagging) place and date cannot be told apart. So personal names carry much of the signal, not all of it. (Older wording "name-free text does not separate" is out of date.)
+- Linear B Knossos vs Pylos drops from 0.90 to 0.524 once series are balanced and hands held out.
+- Chanhu-daro: +0.13 to +0.17 above both floor and null in four pairs (power 96-98%), q_chance 0.06 each, so no robust difference by the follow-up's bar (q_chance ≤ 0.05). By the step-2 rule (q_floor ≤ 0.10) it "differs" from Harappa in both editions. About half the gap comes from a few signs, mainly M93.
+- Smaller sites: power 48-96% at a 15% stock; Harappa vs Kalibangan (M77, +0.125), Harappa vs Dholavira (ICIT S+S, +0.109) and Harappa vs Lothal (M77, +0.068) are inconclusive at high power, not underpowered.
+- Sealings differ between the two cities (+0.10 to +0.12). Tablets separate at 0.774, mostly copper vs moulded, but moulded tablets alone still differ (+0.150), so a period or type difference within "moulded" is not excluded.
+- M77 and ICIT are overlapping editions of largely the same objects, not independent samples.
 
 Relation key: **confirms** = says what we find; **extends** = we test what they asserted or add a calibration they lacked; **conflicts** = reports a site signal or regional difference that we must answer.
 
@@ -38,6 +42,7 @@ Yadav, N., Salgaonkar, A. & Vahia, M. N. 2017. "Clustering Indus Texts using K-m
 ### Yadav 2013 (not accessed)
 Yadav, N. 2013. "Sensitivity of Indus Script to Site and Type of Object." *Scripta* 5: 67-103. Cited as reference [17] in Yadav et al. 2017.
 - This is directly on our question and must be read before submission. **Not accessed**; we saw only the citation.
+- 2026-11-21: an open copy is listed on harappa.com ("Nisha Yadav_Scripta 2013.pdf"), but harappa.com blocks automated clients (Cloudflare "you have been blocked"). Not circumvented. A search-engine summary of the harappa.com page says it compares seal counts at Mohenjo-daro, Harappa, Lothal, Kalibangan and Chanhu-daro and finds Mohenjo-daro and Harappa form "an axis of writing styles"; treat that as unverified until the paper is read by hand. Keep "to our knowledge" in the paper until then.
 
 ### Nair 2026
 Nair 2026. "How Non-Linguistic Is the Indus Sign System? A Synthetic-Baseline Scorecard." arXiv 2604.17828.
@@ -68,6 +73,9 @@ Wells, B. K. 2015. *The Archaeology and Epigraphy of Indus Writing*. Oxford: Arc
 - Claims:
   - p. viii: "Bigger issues of regional variations or multiple languages ... need further work ... There are marked regional differences in sign uses and artifact inventories. Future research should focus on defining these regional differences in text structure."
   - p. ix: researchers should take care "not to mix the corpus into a monolithic unit, as it is demonstrably affected by spatial and temporal variation (Wells 2011)".
+  - p. 3 (sample, read 2026-11-21): "Also demonstrated in this study (Wells 2011) was the fact that sign inventories differ by site and artifact type. When the frequency of signs that occur at both Mohenjo-daro and Harappa are compared, it can be seen that certain signs are more common from one site or the other." Example: sign 400 occurs in 442 texts, 358 from Harappa and 79 from Mohenjo-daro; 325 of the Harappa ones are on miniature tablets.
+  - Also p. 3: "the iconography varies by site and artifact type (Wells 2011)".
+- Relation of p. 3: **the closest stated site-level text claim we have read.** It is a raw frequency comparison in which site and object type move together (his own example is a tablet sign). It has no floor and no power analysis. Our seal-only test with a floor is what separates the two. Cited in the paper's introduction.
 - Relation: **conflicts in wording, compatible in substance.** "Sign uses and artifact inventories" is mostly what we attribute to object type (tablets, sealings) and to the outer regions. For seals from Mohenjo-daro and Harappa, we found no regional difference in text structure above the floor, which answers the research question Wells set. Must cite. Wells 2011 (*Epigraphic Approaches to Indus Writing*, Oxbow) was **not accessed**; nor were the Dholavira notes.
 
 ### Kenoyer & Meadow 2010
@@ -86,7 +94,7 @@ Kenoyer, J. M. 2020. "Origin and Development of the Indus Script." In K. Lashari
   - p. 218: "Kutch and Gujarat also played an important role in terms of specific regional styles of graphic symbols, but more research needs to be done".
   - p. 219: the script was used "to write names and commodities in many regional dialects and even different languages".
   - In the Late Harappan period there is "no regional pattern of writing use".
-- Relation: **partly conflicts.** If the seals wrote names in several regional dialects, a place signal would be expected. Our planted-name test bounds this: names on more than 20-30% of Mohenjo-daro and Harappa seals would have been detected. Regional styles in Gujarat and Kutch are outside our two-city test.
+- Relation: **partly conflicts.** If the seals wrote names in several regional dialects, a place signal would be expected. Our planted-name test bounds this: site-specific names on half or more of Mohenjo-daro and Harappa seals are excluded in every name form; 30% is not excluded for realistic names (finer grid pending). Regional styles in Gujarat and Kutch are outside our two-city test.
 
 ### Rao et al. 2009 (West Asian seals)
 Rao, R. P. N., Yadav, N., Vahia, M. N., Joglekar, H., Adhikari, R. & Mahadevan, I. 2009. "A Markov model of the Indus script." *PNAS* 106(33): 13685-13690. Technical report version: UW-CSE TR 08-11-02 (2008).
@@ -99,20 +107,24 @@ Rao, R. P. N., Yadav, N., Vahia, M. N., Joglekar, H., Adhikari, R. & Mahadevan, 
 ### Mahadevan 1977; Mahadevan & Bhaskar 2018
 Mahadevan, I. 1977. *The Indus Script: Texts, Concordance and Tables*. New Delhi: Archaeological Survey of India. (Already in the repo library.)
 - Claim relevant here: the concordance tables tabulate signs by site and object, the basis of later site analyses. We did not re-read them for an explicit statement on regional variation.
+- M93 check (2026-11-21, on the repo's M77 transcription `data/m77_texts.jsonl`, no new analysis): all 11 texts with M93 are from Chanhu-daro (10 of 58 seals, 1 of 3 sealings); in 9 it is the last sign. So M93's restriction to Chanhu-daro is visible in the 1977 concordance itself and is **not new**. What we have not found discussed is its role as a local terminal mark. We have not re-read Mahadevan's printed sign notes for M93.
+- ICIT (Wells/Fuls) does not have M93 as one sign: it writes W031 W032, two common signs. The pair in that order occurs 9 times at Chanhu-daro (8 seals, 1 tablet) and once on a Kalibangan pot (`data/icit_texts.jsonl`; `experiments/toponyms/RESULTS.md` item 4). The reversed order W032 W031 occurs at Harappa (6 tablets) and Mohenjo-daro (3 seals). Whether M93 is a ligature or a numeral pair needs the CISI photographs.
 
-Mahadevan, I. & Bhaskar, M. V. 2018. "Toponyms, Directions and Tribal Names in the Indus Script." In D. Frenez et al. (eds), *Walking with the Unicorn*, pp. 359-376. Oxford: Archaeopress.
-- Known only from the volume's table of contents. **Not accessed.**
+Mahadevan, I. & Bhaskar, M. V. 2018. "Toponyms, Directions and Tribal Names in the Indus Script." In D. Frenez et al. (eds), *Walking with the Unicorn*, pp. 359-376. Oxford: Archaeopress. DOI 10.2307/j.ctv19vbgkc.26 (pages checked on Crossref).
+- **Not accessed.** Open copies are listed on harappa.com (blocked to automated clients, Cloudflare) and on JSTOR (served a challenge page); the Archaeopress product page returned 404. Not circumvented.
+- From search summaries only (unverified): it proposes that some signs are ideograms for 'hills'/'plains', 'high'/'low' and 'West'/'East', and that sign pairs of these are toponyms such as 'high mountains' or 'western hills'. If so, the proposed toponyms are general landscape terms, not names of particular cities, and need not predict a Mohenjo-daro vs Harappa difference. Read before relying on this.
 - Relation, from the title: **potential conflict.** Toponyms on seals would predict a place signal. Our planted-name power analysis is the relevant test. Must read before submission.
 
 ### Oakes 2019 (abstract only)
 Oakes, M. P. 2019. "Statistical Analysis of the Tables in Mahadevan's Concordance of the Indus Valley Script." *Journal of Quantitative Linguistics* 26(1): 22-47. DOI 10.1080/09296174.2017.1406294.
-- Open access: green open-access copy at https://hdl.handle.net/2436/620846. The repository reset our connection, so we did not read it.
+- Open access: green open-access copy at https://hdl.handle.net/2436/620846. The repository reset our connection, so we did not read it. Retried 2026-11-21: the handle redirects to wlv.openrepository.com, which did not respond.
 - Claim (abstract): significant associations of signs "with position, object, field symbol or direction of writing". Site is one of the concordance tables, but the abstract does not name it among the significant associations.
 - Relation: **unclear.** Must read the full text to see whether a site association was found.
 
 ### Recchia & Louwerse 2016 (abstract only)
 Recchia, G. & Louwerse, M. M. 2016. "Archaeology through Computational Linguistics: Inscription Statistics Predict Excavation Sites of Indus Valley Artifacts." *Cognitive Science* 40(8): 2065-2080. DOI 10.1111/cogs.12311.
-- Open access: none found; the publisher page served a bot challenge, so the full text was not read.
+- Open access: free to read at the publisher (OpenAlex / Unpaywall class it "bronze": https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/cogs.12311), but the publisher returns 403 to automated clients. The Tilburg research portal lists it with no file; Max Louwerse's publication page links only to the publisher; Europe PMC has no full text. Not circumvented, so the full text is still unread (rechecked 2026-11-21). A human with a browser can read it free.
+- A search-engine summary (unverified, not from text we read) says their inscription data came from Fuls's ICIT. If so, their primary edition differs from ours: our rerun used M77 as primary and ICIT as a sensitivity check (same verdict). Check in the full text.
 - Claims (abstract):
   - Methods like latent semantic analysis "can accurately predict the relative locations of archeological sites on the basis of artifacts of known provenance".
   - "inscription statistics reflect historical interactions among locations".
@@ -186,7 +198,7 @@ Mackay, E. J. H. 1943. *Chanhu-daro Excavations 1935-36*. American Oriental Seri
   - Most seals come from Mound II, between −5.7 and +15.4 ft.
 - Relation:
   - **Supports our Chanhu-daro caveat** in three ways: seals were made locally, there is at least one sign new to the site, and the inscribed seals all come from the Harappan levels. Because Jhukar seals carry no signs, the Jhukar period cannot explain the Chanhu-daro text difference.
-  - Mackay does not mention the M93 end mark. The finding that M93 is a Chanhu-daro habit (repo: toponyms experiment) appears to be **new**.
+  - Mackay does not mention the M93 end mark. But M93's restriction to Chanhu-daro is visible in Mahadevan's 1977 concordance (section 2), so "M93 is a Chanhu-daro sign" is **not new**. At most its use as a terminal mark and its weight in the classifier are undiscussed in what we have read (Mackay 1943, the Wells 2015 sample). Unread sources that could report it: Wells 2011, Fuls 2023 and his site-frequency work, Yadav 2013, Mahadevan's printed sign notes.
   - His copper-tablet remark is an early statement of an object-type difference that is local to one city.
 
 ### Didier 2017 and in press
@@ -239,13 +251,13 @@ Palaima 1988 (*The Scribes of Pylos*) and Olivier 1967 (*Les scribes de Cnossos*
 
 Uniformity of Indus sign sequences is an old claim (Parpola 1994). A clustering study found no site association (Yadav et al. 2017), and one positional statistic is similar across sites (Nair 2026). Regional variation in seal iconography, carving style and object inventories is also well established (Ameri 2013; Jamison 2017; Petrie et al. 2018; Wells 2015; Fuls 2024). At least one study reports that inscription statistics predict site relations (Recchia & Louwerse 2016). Kenoyer & Meadow (2010: lvi) predicted that site-level analysis would force a revision of the uniformity assumption. We do not claim to be first to say Indus texts look uniform. What is new is how we test it:
 
-1. We compare sign sequences on one object type (seals) between Mohenjo-daro and Harappa against a within-city floor, built from area splits and random halves of Mohenjo-daro. Nothing we found in the prior work calibrates a site test this way.
-2. We report power: a 15% local sign stock would have been detected, and names on more than about 20-30% of seals would have shown.
-3. We apply the same pipeline to readable seal legends that carry names. Ur III and Latin instrumentum do separate their places above their floors, and their name-free text does not, so the method can see a place effect when names carry one.
+1. We compare sign sequences on one object type (seals) between Mohenjo-daro and Harappa against a within-city floor, built from area splits and random halves of Mohenjo-daro. Nothing we found in the prior work we could read calibrates a site test this way; Yadav 2013 and Oakes 2019 are unread, so this stays hedged. Wells (2015: 3, citing Wells 2011) states that sign inventories differ by site, but from raw frequencies with site and object type mixed.
+2. We report power: a 15% local sign stock would have been detected, and site-specific names on half or more of seals would have shown (30% is not excluded for realistic names; finer grid pending).
+3. We apply the same pipeline to readable seal legends that carry names. Ur III and Latin instrumentum separate their places above their floors. In Ur III, personal names carry much of the signal: without them the gap still clears the Umma reign floor but not the Girsu reign floor. So the method can see a place effect when names carry one.
 4. We show, with Linear B, how scribal hands inflate a naive place classifier.
 5. We separate object-type effects (sealings, tablets) from place.
 
-The result is narrow. It concerns seals at the two big cities. It says nothing about the Gujarat or Kutch sites or about iconography, and it leaves Chanhu-daro open: the site is the most separable but is not significant against its own null. We also add one finding not reported before: the M93 end mark is a Chanhu-daro habit.
+The result is narrow. It concerns seals at the two big cities, it is a point estimate without an interval so far, and the two editions are not independent samples. It says nothing about the Gujarat or Kutch sites or about iconography, and it leaves Chanhu-daro open: the site is the most separable, clears the step-2 floor rule against Harappa, but misses the follow-up's stricter bar (q_chance 0.06 against 0.05). The M93 end mark is not a new discovery as a site-restricted sign (it can be read off Mahadevan's 1977 concordance); its weight in separating Chanhu-daro is ours, and whether its terminal use was described before is open until the unread sources are checked.
 
 ---
 
@@ -285,12 +297,12 @@ The result is narrow. It concerns seals at the two big cities. It says nothing a
 These were blocked, paywalled or not found as open-access copies. No access controls were bypassed.
 - Ameri 2013, *Connections and Complexity*, pp. 355-374. Seen only through page citations in Petrie et al. 2018.
 - Ameri 2018, "Sincerest Form of Flattery?", *Walking with the Unicorn*.
-- Yadav 2013, *Scripta* 5: 67-103.
-- Mahadevan & Bhaskar 2018, *Walking with the Unicorn*, pp. 359-376.
-- Recchia & Louwerse 2016, full text (abstract only).
-- Oakes 2019, full text (abstract only; the repository did not respond).
+- Yadav 2013, *Scripta* 5: 67-103. Open copy on harappa.com, which blocks automated clients (rechecked 2026-11-21). Needs a human read.
+- Mahadevan & Bhaskar 2018, *Walking with the Unicorn*, pp. 359-376. Copies on harappa.com (blocked) and JSTOR (challenge page). Needs a human read.
+- Recchia & Louwerse 2016, full text (abstract only). Free at the publisher, but the publisher refuses automated clients (403). Needs a human read.
+- Oakes 2019, full text (abstract only; the repository did not respond on two attempts).
 - Fuls 2023, *Catalog of Indus Signs*, section on sign frequencies by region; Fuls's site-specific ICIT analyses and his writing on mathematical epigraphy.
-- Wells 2011, *Epigraphic Approaches to Indus Writing*; Wells's Dholavira and regional notes; the full text of Wells 2015 beyond the sample.
+- Wells 2011, *Epigraphic Approaches to Indus Writing* (Oxbow; no open copy found 2026-11-21; known through Wells 2015: viii-ix, 3); Wells's Dholavira and regional notes; the full text of Wells 2015 beyond the sample.
 - Frenez 2018, "Private Person or Public Persona?", *Walking with the Unicorn*.
 - Konasukawa & Koiso 2018, "Size of Indus Seals", *Walking with the Unicorn*.
 - Uesugi, on diversity, complexity and standardisation (exact title not confirmed).

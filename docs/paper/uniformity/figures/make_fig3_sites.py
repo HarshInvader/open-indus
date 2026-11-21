@@ -32,13 +32,23 @@ for r in rows:
     a, b = r["a"], r["b"]
     (ya, xa), (yb, xb) = COORD[a], COORD[b]
     cd = "Chanhu-daro" in (a, b)
-    gated = r["verdict"] in ("same", "differs")
-    col = "#b5473a" if cd else (INDUS if gated else REF)
+    # Reporting labels (paper Section 2): gate = power at s = 0.15 >= 80%.
+    gate = r["power"]["0.15"] >= 0.8
+    if r["verdict"] in ("same", "differs"):
+        kind = "settled"
+    elif gate and r["delta"] >= 0.05:
+        kind = "inconclusive"
+    else:
+        kind = "underpowered"
+    ls = {"settled": "-", "inconclusive": (0, (4, 2)), "underpowered": (0, (1, 1.5))}[kind]
+    # "differs" against the floor but not against the shuffled-label null
+    floor_only = r["verdict"] == "differs" and r["q_chance"] > 0.10
+    col = "#b5473a" if cd else (INDUS if kind == "settled" else REF)
     ax.plot([xa, xb], [ya, yb], color=col, lw=0.6 + 8 * max(r["delta"], 0),
-            ls="-" if gated else (0, (3, 2)), alpha=0.9, zorder=1)
+            ls=ls, alpha=0.9, zorder=1)
     dx, dy = LABEL_SHIFT.get((a, b), (0, 0))
     ax.text((xa + xb) / 2 + dx, (ya + yb) / 2 + dy,
-            f"{r['delta']:+.3f}" + ("" if gated else "*"),
+            f"{r['delta']:+.3f}" + ("*" if kind == "underpowered" else "") + ("†" if floor_only else ""),
             fontsize=6.8, color=col, ha="center", va="center",
             bbox=dict(boxstyle="round,pad=0.1", fc="white", ec="none", alpha=0.85), zorder=3)
 
@@ -58,8 +68,10 @@ ax.set_ylim(21.6, 31.6)
 ax.set_aspect(1 / 0.89)  # rough cos(latitude) correction
 ax.set_xlabel("Longitude (°E)")
 ax.set_ylabel("Latitude (°N)")
-ax.plot([], [], color=INDUS, lw=1.2, label="powered (gate passes)")
-ax.plot([], [], color=REF, lw=1.2, ls=(0, (3, 2)), label="underpowered (*)")
+ax.plot([], [], color=INDUS, lw=1.2, label="same or differs (gate passes)")
+ax.plot([], [], color=REF, lw=1.2, ls=(0, (4, 2)), label="inconclusive (gate passes, q > 0.10)")
+ax.plot([], [], color=REF, lw=1.2, ls=(0, (1, 1.5)), label="underpowered (*)")
 ax.plot([], [], color="#b5473a", lw=1.2, label="pairs with Chanhu-daro")
-ax.legend(loc="lower left", fontsize=7)
+ax.plot([], [], color="none", label="† differs vs floor, not vs null")
+ax.legend(loc="upper left", fontsize=6.6)
 save(fig, "fig3_sites")
