@@ -1,0 +1,513 @@
+% Paper 2, first full draft (2026-11-21). Not submitted.
+% Every number carries a comment naming the RESULTS.md (or table/results file) it was copied from.
+% Source key (full paths, all relative to the repo root):
+%   BENCH = experiments/uniformity_benchmark/RESULTS.md
+%   RT0   = experiments/redteam_uniformity/RESULTS.md
+%   S1    = experiments/uniformity_paper/step1/RESULTS.md
+%   RT1   = experiments/redteam_uniformity_step1/RESULTS.md
+%   S2    = experiments/uniformity_paper/step2/RESULTS.md   (S2T = experiments/uniformity_paper/step2/table.md)
+%   RT2   = experiments/redteam_uniformity_step2/RESULTS.md
+%   CD    = experiments/chanhudaro_followup/RESULTS.md
+%   RR    = experiments/recchia_rerun/RESULTS.md
+% Comments give the full path the first time in each paragraph and the key afterwards.
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext,newtxmath}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xcolor}
+\usepackage[round,authoryear]{natbib}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\setstretch{1.08}
+\graphicspath{{figures/}}
+
+\newcommand{\sign}[1]{\textsf{#1}}
+
+\title{\textbf{Two cities, one sign stock: Indus seal texts from Mohenjo-daro\\and Harappa carry no place signal beyond a within-city floor}}
+% Public copy is anonymous, like docs/paper/latex/main.tex. The named copy for submission lives in the gitignored docs/paper/submission/ folder.
+\author{Anonymous submission}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Indus seal texts are often described as uniform across the civilisation, but the claim has not been tested against a calibrated baseline.
+We ask whether a classifier can tell seal texts from Mohenjo-daro and Harappa apart better than it can tell apart two halves of one city.
+It cannot.
+The between-city score exceeds the within-city floor by +0.005 to +0.042 AUC, and a shuffled-label null by +0.014 to +0.054, in two editions, with 98--100\% power to detect a local sign stock covering 15\% of tokens. % experiments/redteam_uniformity_step2/RESULTS.md (safe wording)
+The same frozen pipeline finds place in readable seal legends.
+Ur III seal impressions from Umma and Girsu exceed every within-city floor by +0.16 to +0.31, and Latin owner and maker marks from Britannia and Germania exceed theirs by +0.12 to +0.14. % experiments/uniformity_paper/step2/RESULTS.md
+In Ur III the place signal sits in personal names.
+It survives the removal of place names, gods and theophoric names (+0.09 to +0.27) but not the removal of personal names. % experiments/redteam_uniformity_step2/RESULTS.md
+Planted-name tests then bound the Indus case.
+Site-specific names drawn from real Ur III frequencies cannot be on more than about 30\% of seals, and invented name stocks on more than 10--20\%; Ur III legends carry a personal name on 99.8\% of seals. % experiments/redteam_uniformity_step2/RESULTS.md
+The result has limits.
+Sealings and moulded tablets differ between the two cities.
+Chanhu-daro is a consistent near-miss (+0.13 to +0.17, $q = 0.06$), partly carried by an end sign that does not occur on seals from either big city. % experiments/chanhudaro_followup/RESULTS.md
+Smaller sites are underpowered.
+A reimplementation of \citet{recchia2016} is too weak to confirm or reject their geographic result.
+Finally, a naive site classifier on Linear B tablets learns scribes rather than palaces, which shows why any site contrast needs a within-site floor.
+
+\medskip
+\noindent\textbf{Keywords:} Indus script; seals; regional variation; personal names; statistical power; within-site baseline
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+\paragraph{The claim.} Indus sign sequences have long been described as uniform across the area of the civilisation.
+\citet{parpola1994} is the standard statement of this view, as later authors cite it \citep{kenoyer2010,jamison2017}. % TODO: verify the Parpola 1994 page and wording (LITERATURE.md sec. 1 and 10: quote seen only in a search snippet). Do not quote until checked.
+The closest computational test is a clustering study.
+\citet[p.~19]{yadav2017} found no significant association between clusters of texts and archaeological sites; their one exception was a cluster rich in Harappa sealings.
+They read this as ``a high level of uniformity of writing over the entire stretch of the Indus civilization'' \citep[pp.~20--21]{yadav2017}.
+\citet{nair2026} reports that one positional statistic is similar across sites.
+Neither study asks how different two cities should look if they did differ, or how different two parts of one city look when nothing separates them.
+% TODO: Yadav 2013 (Scripta 5: 67-103), "Sensitivity of Indus Script to Site and Type of Object", is directly on this question and has not been read (LITERATURE.md sec. 1, 9). Read before submission.
+
+\paragraph{The counter-claims.} Other authors expect regional variation.
+\citet[p.~viii]{wells2015} notes ``marked regional differences in sign uses and artifact inventories'' and calls for work on regional differences in text structure.
+\citet[p.~lvi]{kenoyer2010} predicted that site-level analysis would force a revision of the uniformity assumption.
+\citet[p.~219]{kenoyer2020} suggests that the script wrote names and commodities ``in many regional dialects and even different languages''.
+Seal imagery and carving style do vary.
+\citet{ameri2013} documents regional diversity in seal motifs, as summarised by \citet[p.~467]{petrie2018}. % TODO: Ameri 2013 not accessed directly (LITERATURE.md sec. 3); claims seen via Petrie et al. 2018: 467.
+\citet{jamison2017} finds patterned variation in unicorn carving styles, in groups that cross sites.
+\citet[p.~465]{petrie2018} argue that seals and sealings ``exemplify patterns of variation'' as well as uniformity.
+We test texts, not imagery.
+Our result concerns which signs appear on seals and in which pairs.
+It says nothing about motifs, carving style or seal shape, and it does not contradict the work above.
+
+\paragraph{The conflict.} One study reports a site signal in the texts themselves.
+\citet{recchia2016} summed latent semantic analysis (LSA) vectors of inscriptions by site for five sites and report that the resulting map recovers the sites' relative positions.
+We were able to read only the abstract of that paper.
+We reimplemented its method from that description (Section~\ref{sec:recchia}).
+
+\paragraph{Why a floor.} A classifier that tells two groups of texts apart has found some difference, but not necessarily the one in the labels.
+Site labels are entangled with excavation area, period, object type and, in readable corpora, scribe.
+A classifier can learn any of these.
+This is a known problem in applied machine learning, where a model trained to find disease learned which hospital an image came from \citep{zech2018,kapoor2023}.
+The remedy is a within-site floor: the same pipeline, at the same size, scoring two parts of one site.
+Place signal is then the gap between the between-site score and that floor.
+We also need power: a planted difference of known size, to show the test could have found one.
+
+\paragraph{Main result.} Seal texts from Mohenjo-daro and Harappa differ no more than two halves of one city.
+In readable seal legends, the city shows through owners' personal names.
+So Indus seals cannot be carrying site-specific personal names at anything like the rate of Ur III seals: at most about 30\% of seals could carry them, against 99.8\% in Ur III. % experiments/redteam_uniformity_step2/RESULTS.md
+Section~\ref{sec:methods} describes the pipeline.
+Section~\ref{sec:results} gives the three supporting results and the limits.
+Section~\ref{sec:discussion} discusses what the bound means.
+
+\section{Data}
+\label{sec:data}
+
+\paragraph{Indus.} We use the two standard editions: \citet{mahadevan1977} (M77) and the Interactive Corpus of Indus Texts \citep[ICIT;][]{icit}, which follows the sign list of \citet{wells2015}.
+Corpus construction, de-duplication and the concordance between the two sign lists follow \citet{openindus2026corpus}.
+That paper also measured how often the two editions disagree.
+Seals are the primary object type, since Mohenjo-daro and Harappa inscribed different objects in different proportions \citep[p.~4]{fuls2024}.
+Sealings and tablets are analysed separately.
+Within Mohenjo-daro, M77 locus codes give excavation areas.
+We checked them against field-number prefixes in the 1930s registers.
+Every M77 locus code agrees with the register field numbers; on the HR+VS side, 101 of 198 texts are not confirmed. % experiments/redteam_uniformity_step1/RESULTS.md (attack 4)
+
+\paragraph{Readable references.} We chose readable corpora of short legends on seals or labels, where sites are known.
+\begin{itemize}
+  \item \emph{Ur III seal legends}, Umma and Girsu: impressions from ORACC \citep{oracc}, and one entry per physical seal from CDLI \citep{cdli}.
+  Within-city splits use reign, and museum collection where it stands in for archive.
+  The catalogues give almost no excavation context: 16 of 13,517 Umma texts have an excavation number. % experiments/uniformity_paper/step2/RESULTS.md ("Could not do")
+  \item \emph{Latin instrumentum}, owner and maker marks from Britannia and Germania, from EDH \citep{edh}.
+  Within-province splits are Rhineland-Palatinate against Baden-W\"urttemberg and Hesse in Germania, and north against south in Britannia.
+  \item \emph{Linear B} tablet lines from Knossos and Pylos, from DAMOS \citep{damos}, with scribal hand attributions.
+  \item \emph{Old Babylonian} seal impressions from Nippur and Isin (ORACC), used only descriptively because they were underpowered. % experiments/uniformity_paper/step2/RESULTS.md
+\end{itemize}
+These corpora are written in words or syllables, while Indus is written in signs.
+A word may carry more information than an Indus sign.
+We return to this in Section~\ref{sec:limits}.
+Third-party texts are not redistributed; scripts rebuild every pool from the public sources (Section~\ref{sec:availability}).
+
+\section{Method}
+\label{sec:methods}
+
+\paragraph{One frozen classifier.} Every condition runs through the same pipeline, unchanged from an earlier site test.
+Each text becomes a set of binary features: the signs (or words) it contains and the adjacent pairs within a line, kept if they occur in at least two texts. % experiments/site_signal/lib.py (design, min_df=2); code, not a RESULTS file
+A Bernoulli naive Bayes classifier scores each text out of fold, in grouped five-fold cross-validation repeated three times. % TODO: state the grouping unit per corpus (Indus CV is by text, not carver: experiments/redteam_uniformity_step1/RESULTS.md attack 2)% experiments/uniformity_benchmark/run.py score() -> experiments/site_signal/lib.py oof_scores(model="nb", k=5, reps=3); code
+The score is the area under the ROC curve (AUC).
+An AUC of 0.5 means the two groups cannot be told apart.
+Before sampling, a cleaning step drops any text string found at both sites and removes near-duplicates \citep{openindus2026corpus}.
+This removes shared material from every condition alike, Indus included. % experiments/uniformity_paper/step1/RESULTS.md (caveats)
+
+\paragraph{Matched size and length mix.} Each comparison draws the same number of texts per side.
+For each between-site condition and its floor, that number is the smaller of the two pools' natural sizes. % docs/prereg/uniformity_paper_step2.md (matched size)
+Reference texts are drawn to match the length distribution of the Indus seals, because shorter texts are harder to classify.
+We report the median AUC over repeated draws: 30 draws per condition in step 1 and its red team, 50 in step 2 and its red team, and 200 for the Chanhu-daro baseline. % experiments/uniformity_paper/step1/RESULTS.md; experiments/redteam_uniformity_step1/RESULTS.md; experiments/uniformity_paper/step2/RESULTS.md; experiments/redteam_uniformity_step2/RESULTS.md; experiments/chanhudaro_followup/RESULTS.md (T0)
+
+\paragraph{Between minus within.} For each pair of sites we compute $\Delta$ = median between-site AUC $-$ median within-site AUC, at the same size.
+The within-site floor is either a structural split (excavation area, reign, collection, region, scribe group) or random halves of the larger site.
+A pair ``differs'' when $\Delta \geq 0.05$, the Benjamini--Hochberg $q$ against the floor is at most 0.10, and the power gate passes. % docs/prereg/uniformity_paper_step2.md (pair verdicts); margin 0.05 also in experiments/uniformity_paper/step2/RESULTS.md
+A pair is ``same'' when $\Delta < 0.05$ and the gate passes.
+Otherwise it is ``underpowered''.
+
+\paragraph{Shuffled-label null.} Random halves of a small pool score below 0.5, a known bias of the pipeline when shared strings are removed. % experiments/uniformity_paper/step1/RESULTS.md (C2 note); experiments/uniformity_paper/step2/RESULTS.md
+A low floor makes a between-site score look high.
+The second red team therefore added a shuffled-label null for every condition: the same pool and size with site labels permuted.
+It reports $\Delta_{\mathrm{null}}$ = between $-$ null median, and a conservative $\Delta_{\mathrm{cons}}$ = between $-$ the larger of the floor and the null. % docs/prereg/redteam_uniformity_step2.md; values in experiments/redteam_uniformity_step2/RESULTS.md
+
+\paragraph{Planted stocks.} To measure power we plant a local sign stock in one site.
+A share $q$ of that site's tokens is replaced by a 20-sign stock drawn from the pool's common signs.
+Power at $q$ is the share of planted draws whose AUC exceeds the within median by at least 0.05.
+The gate requires power of at least 80\% at $q = 0.15$. % experiments/uniformity_paper/step2/RESULTS.md (Part 2 columns)
+For the readable references the gate plants a stock of 100 new symbols at $q = 0.15$ with labels permuted, and counts a detection when the AUC reaches the larger of 0.65 and the null's 95th percentile. % experiments/uniformity_paper/step2/RESULTS.md (Part 1 gate)
+
+\paragraph{Planted names.} To bound how many Indus seals could carry site-specific names, we keep the real site labels and give a share $r$ of seals at each city a local name.
+Names take three forms: one new sign per name, two shared signs per name, or names spelt in shared signs with real Ur III name frequencies.
+For each $r$ we record the share of draws whose gap above the floor exceeds the observed gap.
+A name load is excluded when at least 95\% of draws exceed it. % experiments/redteam_uniformity_step2/table.md (A3 header) and RESULTS.md
+
+\paragraph{Pre-registration and red teams.} Each step was written up before it was run.
+The write-up and its code were hashed (SHA-256) into a public file before any condition was scored.
+After each step, a separate agent attacked the result with its own pre-registered kill rules.
+Table~\ref{tab:prereg} lists the eight runs.
+Earlier steps were changed by later ones, and we report those changes.
+The first benchmark compared an Indus AUC of 0.49 with reference corpora. % experiments/uniformity_benchmark/RESULTS.md
+The first red team showed that this number came from a different pool and design, and that the like-for-like value was 0.55. % experiments/redteam_uniformity/RESULTS.md
+The second red team showed that Linear B, used in step 1 as a positive reference, does not carry place once scribes are held out. % experiments/redteam_uniformity_step1/RESULTS.md
+The third broke the claim that name-free legends carry no place (Section~\ref{sec:names}). % experiments/redteam_uniformity_step2/RESULTS.md
+The results below are the versions that survived.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Pre-registered runs. Each tag names the rows hashed in \texttt{docs/prereg/HASHES.txt} before scoring.}
+\label{tab:prereg}
+\begin{tabularx}{\textwidth}{lXl}
+\toprule
+Run & What it tested & Verdict \\
+\midrule
+\texttt{uniformity\_benchmark} & Indus against four reference pairs & superseded \\ % experiments/uniformity_benchmark/RESULTS.md
+\texttt{redteam\_uniformity} & like-for-like Indus value; label leaks & stands weakened \\ % experiments/redteam_uniformity/RESULTS.md
+\texttt{uniformity\_paper\_step1} & Linear B; name-free references; within-city floor & see red team \\ % experiments/uniformity_paper/step1/RESULTS.md
+\texttt{redteam\_uniformity\_step1} & scribes, findspots, sign lists, power & broken on reference side; Indus stands \\ % experiments/redteam_uniformity_step1/RESULTS.md
+\texttt{uniformity\_paper\_step2} & seal references with own floors; all-site map & whole supported; name-free refuted \\ % experiments/uniformity_paper/step2/RESULTS.md
+\texttt{redteam\_uniformity\_step2} & name tagging, shuffled null, planted names & see Section~\ref{sec:results} \\ % experiments/redteam_uniformity_step2/RESULTS.md
+\texttt{chanhudaro\_followup} (+\,\texttt{\_deviation1}) & Chanhu-daro: place, period, copies, signs & no robust difference \\ % experiments/chanhudaro_followup/RESULTS.md
+\texttt{recchia\_rerun} & five-site geography after \citet{recchia2016} & underpowered \\ % experiments/recchia_rerun/RESULTS.md
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Mohenjo-daro and Harappa seals tie with the floor and the null}
+\label{sec:tie}
+
+Seal texts from Mohenjo-daro and Harappa cannot be told apart by the signs they use.
+Between-city AUC is 0.52--0.55 under five sign lists and two editors. % experiments/redteam_uniformity_step1/RESULTS.md (safe wording)
+Two random halves of one city score about the same, so the between-city score is a within-city score.
+
+Against random halves of Mohenjo-daro, the gap is +0.005 in M77 seals, +0.014 in ICIT seals and +0.042 in ICIT seals and sealings together (Figure~\ref{fig:bw}). % experiments/uniformity_paper/step2/RESULTS.md (Part 2) and experiments/redteam_uniformity_step2/RESULTS.md (b)
+Against the shuffled-label null, the gaps are +0.043, +0.014 and +0.054. % experiments/redteam_uniformity_step2/RESULTS.md (b, table)
+All three pools are ``same'' against the floor.
+Against the null, ICIT seals and sealings is ``underpowered'' rather than ``same'', because it sits just over the 0.05 margin ($q_{\mathrm{chance}} = 0.29$). % RT2 (b)
+No pool ``differs'' under any reference.
+Power to detect a local stock covering 15\% of tokens is 98--100\% against every reference. % RT2 (b)
+
+The structural floor gives the same answer.
+Two excavation areas of Mohenjo-daro (DK against HR and VS) score 0.537, against 0.517 for the two cities at the same size, so $\Delta = -0.020$. % experiments/redteam_uniformity_step1/RESULTS.md (between-minus-within table)
+Two random halves of Mohenjo-daro give 0.539. % RT1
+The result holds with findspot-confirmed seals only ($\Delta = -0.007$) and with near-copies across the split dropped ($\Delta = -0.006$). % RT1
+Under the five sign lists, $\Delta$ ranges from $-0.03$ to $+0.07$, with four of five within $\pm 0.05$. % RT1 (summary)
+The one exception comes from a low within value (0.474), not from a high between value (0.540). % RT1 (attack 5)
+A stock making up 15\% of Harappa's tokens would have been caught by this comparison in 93\% of draws. % RT1 (attack 6)
+
+One floor is lower.
+Deep against shallow seals within the DK area score 0.46, below 0.5. % experiments/uniformity_paper/step1/RESULTS.md (C)
+Against this floor the two cities look slightly separated (0.09 higher). % S1 (depth note)
+That floor was not the pre-registered primary, and values below 0.5 are the pipeline bias described above.
+We report it so the reader can weigh it.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.82\textwidth]{fig1_between_within}
+\caption{Between-site AUC (filled) against a within-site floor (open), at matched size and length mix. Indus rows in indigo. The Indus seal rows sit on their floors. Sealings do not. Whole Ur III and Latin legends sit well above their floors. Ur III without personal names does not. Linear B scribe groups inside one palace separate as well as the two palaces. Sources: \texttt{experiments/uniformity\_paper/step2/results.json} and \texttt{experiments/redteam\_uniformity\_step1/results.json}; script \texttt{docs/paper/uniformity/figures/make\_fig1\_between\_within.py}.}
+\label{fig:bw}
+\end{figure}
+
+\subsection{Readable seals carry place, through personal names}
+\label{sec:names}
+
+The pipeline can see place when a seal corpus carries it.
+Whole Ur III legends from Umma and Girsu score 0.86--0.88. % experiments/uniformity_paper/step2/RESULTS.md (Part 1)
+Two reigns within one city score 0.62--0.72, and two museum collections 0.55--0.62. % S2
+The gap above these floors is +0.16 to +0.31, and every gate passes. % S2
+Counting each physical seal once (CDLI) gives the same pattern: +0.17 and +0.22 against the reign floors. % S2
+So repeated impressions of one seal do not drive the result.
+Latin owner and maker marks separate Britannia from Germania at 0.66--0.71, against 0.52--0.58 for two regions of one province: $\Delta$ = +0.12 and +0.14. % S2
+Old Babylonian legends point the same way but are underpowered (gates 78\% and 56\%). % S2
+
+The place signal in Ur III lives in personal names.
+The third red team removed different kinds of names in turn (Table~\ref{tab:names}). % experiments/redteam_uniformity_step2/RESULTS.md (a)
+With place names, divine names and every theophoric personal name removed, Umma against Girsu still clears all four within-city floors, by at least +0.102 (ORACC) and +0.093 (CDLI), with gates at 100\%. % RT2 (a)
+So the signal is not a leak of city names or city gods such as \emph{umma}\textsuperscript{ki} or \v{S}ara.
+With personal names removed but place names and gods kept, it no longer clears the Girsu reign floor: $\Delta$ = +0.027 (ORACC, gate 86\%) and +0.028 (CDLI, gate 92\%). % RT2 (a)
+Whole legends drawn at the smaller name-free size still clear the Umma reign floor by +0.164 (gate 90\%), so pool size does not explain the drop. % RT2 (a, size control)
+
+\begin{table}[t]
+\centering
+\small
+\caption{Ur III Umma against Girsu: smallest gated gap above the within-city floors, by what is removed. From \texttt{experiments/redteam\_uniformity\_step2/RESULTS.md} (A1/A2 table) and \texttt{experiments/uniformity\_paper/step2/RESULTS.md}.}
+\label{tab:names}
+\begin{tabular}{lll}
+\toprule
+Removed from the legends & ORACC impressions & CDLI, one per seal \\
+\midrule
+nothing (whole) & +0.158 & +0.165 \\ % S2 (family verdicts) and RT2 table
+place names and gods & +0.137 & +0.126 \\ % RT2 (noTG)
+place names, gods, theophoric names & +0.102 & +0.093 \\ % RT2 (noTGtheo)
+personal names only & +0.027 (not above) & +0.028 (not above) \\ % RT2 (noPN)
+all names, strict tagging & +0.052 (one gated split) & underpowered \\ % RT2 (strict)
+\bottomrule
+\end{tabular}
+\end{table}
+
+Without personal names, place and date are hard to tell apart.
+In step 2, name-free Umma against Girsu (0.599) was no higher than early against late reigns inside Umma (0.590): $\Delta$ = +0.009. % experiments/uniformity_paper/step2/RESULTS.md
+Inside Girsu, the reign split (0.698) beat the between-city value (0.604), though that gate was 62\%. % S2
+Stricter name tagging moved the Umma reign comparison to +0.052, exactly at the gate (80\%). % experiments/redteam_uniformity_step2/RESULTS.md (a)
+So the name-free comparison is a tie within about $\pm 0.05$: the gaps run from $-0.09$ to $+0.05$, depending on the floor and the tagging. % RT2 (safe wording)
+We do not claim that name-free legends carry no place.
+The reign floors are high for a concrete reason.
+Royal seals of \v{S}ulgi and Amar-Suen call the king \emph{nita kal-ga}, while seals of \v{S}u-Suen and Ibbi-Suen write \emph{lugal kal-ga}. % RT2 (a, "Why the reign floors are high")
+Name-free legends therefore carry a dated formula.
+
+The Latin result needs a caveat on name tagging.
+An audit of 50 kept and 50 removed tokens found the Ur III tagger sound (0\% and 4\% of kept tokens were names in ORACC and CDLI). % RT2 (audit table)
+In Latin, 42\% of tokens kept as ``name-free'' were names or unclear, and 22\% of removed tokens were not names or unclear. % RT2 (audit table)
+So we use only the whole Latin legends.
+Without unit words and numerals, Britannia against Germania still clears both floors (+0.084 and +0.163). % RT2 (a)
+We do not report a name-free Latin result.
+
+\subsection{How many Indus seals could carry site-specific names}
+\label{sec:bound}
+
+If Indus seals named their owners the way Ur III seals do, the two cities should differ.
+They do not.
+The planted-names test turns this into a bound (Figure~\ref{fig:power}B).
+
+In Ur III, 99.8\% of legends carry a personal name, at 1.86 names per legend and 36\% of tokens. % experiments/redteam_uniformity_step2/RESULTS.md (A3)
+A name load like that is excluded in every Indus pool and every name form. % RT2 (A3)
+Names spelt in shared signs with real Ur III frequencies are compatible with the observed gap on at most 30\% of seals, in all three pools. % RT2 (A3 table)
+Invented name stocks are compatible on at most 10\% of seals, or 20\% for two-sign names in ICIT seals. % RT2 (A3 table)
+Step 1, which used permuted labels and absolute AUC, gave 20--30\%. % experiments/uniformity_paper/step1/RESULTS.md and RT2 (A3)
+Measured against the floor, the bound is tighter for invented stocks (10--20\%) and the same for realistic, overlapping names (30\%). % RT2 (A3)
+
+Realistic names give the weaker bound for a simple reason.
+Real name stocks overlap between cities, and many names are common.
+A planted stock of this kind is harder to detect than an invented one.
+The 30\% figure is therefore the one to quote.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig2_power}
+\caption{Power. (A) Share of draws in which a 20-sign local stock planted in Harappa seals at the given share of tokens is detected above the Mohenjo-daro floor; the gate is 80\% at 15\%. (B) Share of draws in which site-specific names on the given share of seals produce a larger gap than observed; a load is excluded at 95\%. Sources: \texttt{experiments/uniformity\_paper/step2/results.json} (A) and \texttt{experiments/redteam\_uniformity\_step2/results.json} (B); script \texttt{make\_fig2\_power.py}.}
+\label{fig:power}
+\end{figure}
+
+\subsection{Limits of the tie}
+\label{sec:limits}
+
+\paragraph{Sealings differ.} Mohenjo-daro and Harappa sealings separate at 0.613 (ICIT) and 0.608 (M77): $\Delta$ = +0.104 and +0.120. % experiments/uniformity_paper/step2/RESULTS.md (Part 2)
+The difference survives strict de-duplication (+0.091 and +0.167). % experiments/redteam_uniformity_step2/RESULTS.md (d)
+This matters because Harappa sealings repeat heavily: in M77, 367 complete sealings carry 162 distinct strings, and one seal text is impressed 49 times. % RT2 (d)
+We cannot say whether the sealing difference is place or format.
+The test that compares each city's sealings with its own and the other city's seals is underpowered (gates 2--4\%). % RT2 (d)
+Descriptively it leans towards format.
+\citet[p.~19]{yadav2017} also singled out Harappa sealings.
+We do not write that sealings show a place difference.
+
+\paragraph{Tablets differ.} Tablets separate at 0.774. % S2 (Part 2)
+Most Mohenjo-daro ``tablets'' are copper tablets (197 of 299), while Harappa's are moulded or incised, so that number is not a place contrast. % S2
+Moulded tablets alone still differ: $\Delta$ = +0.150, power 96\%. % RT2 (d)
+Mohenjo-daro has only 42 moulded tablets, and Harappa's moulded tablets are a late series specific to that site. % RT2 (d)
+A period or type difference within ``moulded'' is not excluded.
+
+\paragraph{Chanhu-daro is a near-miss.} Chanhu-daro is the most separable site in every comparison with the two big cities (Figure~\ref{fig:sites}). % S2
+A dedicated follow-up found that its seals sit +0.13 to +0.17 above both the within-site floor and the shuffled-label null, in two editions, with power of 96--98\%. % experiments/chanhudaro_followup/RESULTS.md (verdict, safe wording)
+After correction, each of the four pairs has $q = 0.06$, so none clears the pre-registered bar of 0.05. % CD
+The four pairs share the same 40-odd Chanhu-daro seals, so they are not independent replications. % CD
+We do not claim a Chanhu-daro place signal.
+
+The follow-up ruled out several explanations.
+Only 1 of 50 M77 Chanhu-daro seals lies at the Jhukar levels, and dropping it changes nothing. % CD (period); Mackay 1943: 143 says Jhukar seals carry no signs
+Strict de-duplication enlarges the gap (+0.16 to +0.21). % CD
+Dropping the 6 seals from one findspot (Square 9/D) leaves it at +0.13 to +0.18. % CD
+Restricting to unicorn seals leaves most of it in place. % CD (T4)
+About half the gap comes from a few signs, mainly \sign{M93}. % CD
+\sign{M93} is on 20\% of Chanhu-daro seals and ends 16\% of them. % CD (sign profile)
+It is on none of 251 Harappa seals and none of 1,026 Mohenjo-daro seals in M77. % CD (sign profile)
+Without these signs the gap falls to +0.06 to +0.08. % CD (safe wording)
+\citet[pp.~145--149]{mackay1943} records local seal-making at Chanhu-daro and ``one new sign at least'' on its seals.
+He does not mention an end mark.
+The use of \sign{M93} as a Chanhu-daro end mark appears not to have been reported before.
+We excluded only the Jhukar period, not period in general: a depth split within Chanhu-daro has 17 seals per side and no power (gates 26\% and 16\%). % CD (T1b)
+
+\paragraph{Smaller sites are underpowered.} Lothal, Kalibangan and Dholavira never differ from Mohenjo-daro or Harappa. % S2
+Most of those pairs are underpowered, with power of 16--84\% at $q = 0.15$. % S2
+Only Mohenjo-daro against Dholavira (ICIT seals and sealings) is gated ``same'' ($\Delta$ = +0.047). % S2
+Pairs between two small sites have floors of 0.32--0.40, the pipeline's low bias on small pools. % S2
+Every ``differs'' verdict among them flips to ``underpowered'' once the null is the reference. % RT2 (c)
+So our result covers the two big cities.
+It does not show that all Indus sites write alike.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.62\textwidth]{fig3_sites}
+\caption{Gap above the floor ($\Delta$, between $-$ within) for ICIT seals and sealings, for every pair with Mohenjo-daro or Harappa. Line width grows with $\Delta$. Dashed lines and asterisks mark underpowered pairs. Chanhu-daro is circled. Positions are approximate and for orientation only. Source: \texttt{experiments/uniformity\_paper/step2/results.json}; script \texttt{make\_fig3\_sites.py}.}
+\label{fig:sites}
+\end{figure}
+
+\subsection{Reimplementing Recchia and Louwerse (2016)}
+\label{sec:recchia}
+
+\citet{recchia2016} report that LSA site vectors of Indus inscriptions recover the relative positions of five sites: Mohenjo-daro, Harappa, Chanhu-daro, Lothal and Kalibangan.
+We could not read their full text.
+The publisher returned a bot challenge to our client, and we did not try to get round it. % experiments/recchia_rerun/RESULTS.md (limits)
+We reimplemented the method from the abstract: LSA with log-entropy weighting, summed site vectors, cosine distances, classical multidimensional scaling (MDS), and a Procrustes fit to site coordinates. % RR (safe wording)
+We used M77 and treated seals and sealings separately.
+Our seal set has 1,823 texts against their 1,936, and our sealing set 716 against their 723. % RR (limits)
+
+The seal configuration was no closer to geography than chance.
+The real site-to-coordinate assignment ranked 45th of 120 ($p = 0.38$), and the fit was below a site-label permutation null ($p = 0.61$). % RR (verdict, safe wording)
+This held across dimensionality, weighting, edition (ICIT) and near-duplicate removal. % RR (sensitivity)
+Sealing vectors differed between sites beyond the label null ($p = 0.025$) but not in a geographic arrangement ($p = 0.54$). % RR
+This matches the sealing difference above.
+
+The test is weak.
+With five points, a planted geographic gradient affecting 15\% of seal tokens was detected in 30\% of simulations; seals reach 80\% only at 20\% of tokens. % RR (planted gradient table)
+So we do not claim their result is false.
+A real but modest geographic signal could have been missed.
+It does not, however, rest on Mohenjo-daro and Harappa seals.
+Their distance in the same LSA space lies at the edge of the within-Mohenjo-daro range: a median of 0.062 against a 95th percentile of 0.062, or 0.062 against 0.067 after near-duplicate removal. % RR (safe wording)
+Their settings may differ from ours, and their reported fit may come from a choice we did not try. % RR (limits)
+% TODO: read Recchia & Louwerse 2016 full text before submission and check weighting, dimensions, MDS type and fit statistic.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What the bound means}
+
+The two big Indus cities share their seal vocabulary as closely as two halves of one city.
+In readable seal corpora that share does not hold, and the reason is personal names.
+Ur III seals carry a personal name on almost every legend, with 1.86 names per legend on average. % experiments/redteam_uniformity_step2/RESULTS.md (A3: 99.8%, 1.86)
+Names are local, so the city shows.
+
+Indus seals do not show their city.
+That leaves two readings that the data cannot yet separate.
+First, Indus seals may name individuals, but from a shared pool of names used in both cities.
+Names with no local preference would leave no place signal. % point made in experiments/uniformity_benchmark/RESULTS.md ("What this means")
+Second, the seals may not name individuals at all.
+They may record offices, titles, commodities or other terms common to the whole civilisation.
+Either way, site-specific personal names cannot be on more than about 30\% of seals. % RT2 (A3)
+
+The second reading fits an earlier finding from this project.
+Seal-text cores, the non-frame part of a seal text, are mostly one or two word-signs, not syllabic spellings. % README.md finding #10 (not a RESULTS file in the brief's list; see experiments/typology and experiments/core_semantics)
+In that work, 34\% of cores were a single sign, and 80\% of signs in longer cores also stood alone as whole cores. % README.md finding #10
+A spelled-out name system would look different.
+That finding did not show that cores are not names, and neither does this one.
+Together they make a site-specific, spelled personal name on most seals unlikely.
+Corpus statistics alone cannot say what the seals encode \citep{raghavendra2026}.
+
+This also bears on the expectation that site-level analysis would revise the uniformity assumption \citep[p.~lvi]{kenoyer2010}.
+For seal texts at Mohenjo-daro and Harappa, a site-level test with a floor does not revise it.
+For sealings, tablets and Chanhu-daro, it leaves room for difference.
+The regional variation in imagery and style documented by \citet{ameri2013}, \citet{jamison2017} and \citet{petrie2018} is outside this test.
+Jamison's style groups cross sites, which is consistent with texts that do not follow the city.
+
+\subsection{A methods lesson: the Linear B scribe trap}
+
+Linear B shows what goes wrong without a floor.
+Knossos and Pylos tablet lines separate at 0.904 at Indus size and length mix. % experiments/uniformity_paper/step1/RESULTS.md (A1)
+That looks like strong place signal, and step 1 used it as one.
+But groups of scribes inside one palace separate as strongly.
+Knossos scribe groups score 0.883 against 0.876 between palaces at the same size; Pylos scribe groups score 0.861 against 0.886. % experiments/redteam_uniformity_step1/RESULTS.md
+With series balanced and scribes held out of training, Knossos against Pylos falls to 0.524. % RT1 (attack 2)
+The site classifier had learned scribes and offices, not palaces.
+\citet[p.~296]{bennett1966} noted that Linear B handwriting is not uniform and follows individual scribes, and \citet{srivatsan2021} found hand and findplace entangled.
+
+The lesson is general.
+A site classifier on any script can learn excavation area, period, object type or scribe instead of place.
+A between-site score means little until it is set against a within-site floor at the same size, together with a planted-difference power check.
+Comparisons of scripts without such floors will tend to overstate place.
+Mismatched designs can also mislead in the other direction. Our first benchmark compared an Indus value of 0.49 with references drawn in a different design; the like-for-like value was 0.55. % experiments/redteam_uniformity/RESULTS.md (0.49 not like-for-like; fair comparator 0.55)
+
+\section{Limitations}
+\label{sec:limitations}
+
+\paragraph{Two cities, one object type.} The main result covers seals from Mohenjo-daro and Harappa.
+Sealings and tablets differ between the two cities, Chanhu-daro is a near-miss, and the smaller sites are mostly underpowered.
+
+\paragraph{A thin local stock could be missed.} A local stock covering 10\% of Harappa's tokens is found only about half the time. % experiments/redteam_uniformity_step1/RESULTS.md (attack 6)
+Local carving variants that no published sign list records cannot be tested without sign images per site. % experiments/redteam_uniformity/RESULTS.md (attack 4)
+
+\paragraph{Within-city floors are proxies.} The Mohenjo-daro area split mixes area with excavator and date: DK was dug by Mackay, HR and VS by Marshall's teams. % experiments/uniformity_paper/step1/RESULTS.md (caveats)
+Half of the HR and VS seals have unconfirmed findspots. % RT1 (attack 4)
+Ur III floors use reign and museum collection, because the catalogues record almost no excavation context. % S2
+Linear B floors use scribe groups, because no room or findspot data was available. % RT1 (limits)
+
+\paragraph{The name-free comparison is a tie.} Without personal names, Ur III legends separate two cities about as well as two reigns of one city. % RT2 (safe wording)
+The verdict rests on one split whose gate is exactly 80\%. % RT2 (limits)
+Latin name tagging is poor, so the Latin result is reported only for whole legends.
+
+\paragraph{Different units.} The readable references are written in words, Indus in signs.
+A word may carry more site information than a sign.
+Splitting Linear B words into syllabic signs still gave 0.86, so the unit alone does not erase site signal. % experiments/uniformity_paper/step1/RESULTS.md (A9)
+That check was on a reference later shown to carry scribe rather than place signal.
+
+\paragraph{Few references.} The contrast rests on two readable seal corpora, Ur III and Latin, and few city pairs.
+Old Babylonian was underpowered. % S2
+Whether other name-bearing seal corpora behave like Ur III is untested.
+
+\paragraph{Statistical floor.} With 50 draws per condition, the smallest possible $p$ is 0.020, which limits how small $q$ can get in families of 10--15 pairs. % experiments/redteam_uniformity_step2/RESULTS.md (limits)
+
+\paragraph{Literature not yet read.} We could not read \citet{recchia2016} in full.
+Two directly relevant studies, \citeauthor{yadav2017}'s earlier work on site and object sensitivity and a chapter on toponyms in the script, were not accessible to us. % TODO: Yadav 2013, Scripta 5: 67-103; Mahadevan & Bhaskar 2018, Walking with the Unicorn pp. 359-376 (LITERATURE.md sec. 9). Read and cite before submission.
+
+\paragraph{Analysis by AI agents.} Most analyses and all red teams were carried out by AI agents working under written rules, with a human lead who set the questions and reviewed the findings.
+Pre-registration and hashing limit what an agent could adjust after seeing data.
+The attacking agents share a model family with the original analysts, so their independence is partial, and none of this replaces review by epigraphers and Assyriologists.
+
+\section*{Data and code availability}
+\label{sec:availability}
+
+Code, pre-registrations with their hashes, results files and a ledger of every test run are available in the project repository (\url{https://github.com/HarshInvader/open-indus}).
+Corpus construction and editions follow \citet{openindus2026corpus}.
+The experiments are in \nolinkurl{experiments/uniformity_benchmark/}, \nolinkurl{experiments/redteam_uniformity/}, \nolinkurl{experiments/uniformity_paper/step1/}, \nolinkurl{experiments/redteam_uniformity_step1/}, \nolinkurl{experiments/uniformity_paper/step2/}, \nolinkurl{experiments/redteam_uniformity_step2/}, \nolinkurl{experiments/chanhudaro_followup/} and \nolinkurl{experiments/recchia_rerun/}.
+Each folder holds a \nolinkurl{RESULTS.md}, a \nolinkurl{results.json}, per-draw values and ledger rows.
+The pre-registrations are in \nolinkurl{docs/prereg/} under the same names.
+Their SHA-256 hashes, with the code they froze, are in \nolinkurl{docs/prereg/HASHES.txt} under the tags \nolinkurl{uniformity_benchmark}, \nolinkurl{redteam_uniformity}, \nolinkurl{uniformity_paper_step1}, \nolinkurl{redteam_uniformity_step1}, \nolinkurl{uniformity_paper_step2}, \nolinkurl{redteam_uniformity_step2}, \nolinkurl{chanhudaro_followup}, \nolinkurl{chanhudaro_followup_deviation1} and \nolinkurl{recchia_rerun}.
+The figures are made by the scripts in \nolinkurl{docs/paper/uniformity/figures/}, which read the \nolinkurl{results.json} files directly.
+Third-party texts (Indus editions, ORACC, CDLI, EDH, DAMOS) are not redistributed; scripts rebuild the pools from the public sources.
+
+\section*{Use of AI}
+
+AI agents performed most analyses, red teams and drafting, as described under Limitations.
+The human author set the research questions and directed and reviewed the work.
+Reported numbers were checked against their results files by agent review.
+
+\section*{Competing interests and funding}
+
+None declared. The work received no external funding.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}
