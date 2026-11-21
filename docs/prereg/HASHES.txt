@@ -397,3 +397,5 @@ b483702178035d5b1713ec9c6f991cb6d17afc628d4c06369cb27cee37a5d3be  experiments/en
 db3a22beccce5388b0bf0804989d1a0cf8215c02eda68323db5edf0578db82d1  experiments/uniformity_benchmark/build.py  2026-11-21T07:57:43Z  uniformity_benchmark
 e0577be7bd6406e2fd65daa037782d656f28ff29828585245e8c09760f553960  docs/prereg/round_reverse.md  2026-11-21T07:59:45Z  round_reverse
 c6fc0924451f58b2d93ec695500a3e2c4452248ef84f1f84ede736a743285b9d  experiments/round_reverse/run.py  2026-11-21T07:59:45Z  round_reverse
+ad9148ff21cdd85f8ad0df1207bc5cc842a8fa9aaebfb879faa37a00af5d5041  docs/prereg/redteam_uniformity.md  2026-11-21T08:27:24Z  redteam_uniformity
+05b743b1de67cb81022265156e266fcd03c1537589230480ca83e11fdaef4296  experiments/redteam_uniformity/rt.py  2026-11-21T08:27:24Z  redteam_uniformity

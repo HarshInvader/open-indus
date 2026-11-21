@@ -306,6 +306,13 @@ FINDINGS = [
          plain="Six fish signs swap for each other, combine with each other and share partners. The idea that fish signs are god names is not supported.",
          nums="held-out p = 0.0002–0.0004",
          folders=["experiments/core_semantics"]),
+    dict(n=12, level="moderate", novelty='partly', prior='The sameness of Indus weights, bricks and seals across cities has long been noted (Marshall, Kenoyer, Possehl). New here: a measured comparison of sign use against readable seal and label corpora at the same size.',
+         head='Mohenjo-daro and Harappa write their seals with the same signs', gist='From its signs alone we cannot tell which of the two big cities a seal came from. With Sumerian seals from two cities, or Roman labels from Britain and Germany, the same test usually can.',
+         title="Mohenjo-daro and Harappa seal texts cannot be told apart by sign use",
+         plain="A classifier given the signs of a seal text guesses its city no better than chance (0.55) under five sign lists. The same classifier at the same size tells apart Ur III seals from different cities, even after city names, gods and repeated owners are removed, and Roman labels from Britain and Germany. A city-specific stock making up 15% of signs would have been found. This covers the two big cities, not every site: Chanhu-daro vs Harappa does separate in a small sample.",
+         nums="AUC 0.55 at 227 texts per side (0.52–0.55 across sign lists); Ur III 0.71–0.87 and Latin 0.68 after removing names; a 15% local stock found in every run, a 10% one in 40–83%",
+         caveat="Red-teamed on 21 Nov 2026: the claim stands but weaker than first reported. An earlier 0.49 was not like-for-like, and the reference gap is smaller once names are removed. Chanhu-daro vs Harappa gives 0.67 (exploratory, 40 per side).",
+         folders=["experiments/uniformity_benchmark", "experiments/redteam_uniformity"]),
 ]
 
 CLOSED_SHORT = [
@@ -1150,6 +1157,10 @@ def finding_fig(n):
             row([342], 17, 31) + row([59, 267], 74, 31, 8) + row([99], 161, 31) + T(100, 82, "core: one or two word-signs", a="middle"),
         11: row([59, 60, 65, 66, 67], 10, 22, 16, 22) + "".join(f'<path d="M{36 + k * 38} 33 h10" class="hw-arrow"/>' for k in range(4)) +
             f'<rect x="4" y="14" width="192" height="38" rx="19" class="hw-pill"/>' + T(100, 76, "they swap in for each other", a="middle"),
+        12: box(8, 12, 80, 44) + row([342, 99, 267], 12, 23, 4) + T(48, 72, "Mohenjo-daro", a="middle") +
+            T(100, 40, "=", a="middle") +
+            box(112, 12, 80, 44) + row([267, 342, 99], 116, 23, 4) + T(152, 72, "Harappa", a="middle") +
+            T(100, 92, "same sign stock in both cities", a="middle"),
     }
     return f'<svg class="ffig" viewBox="0 0 200 96" aria-hidden="true">{d[n]}</svg>'
 

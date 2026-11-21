@@ -99,3 +99,6 @@ experiments/mismatch_study/*.log
 # carver_text: derived table holds Jamison attributes (thesis, all rights reserved) and ICIT readings; stays local
 experiments/carver_text/out/
 .venv-vision/
+
+# ensemble_rehearsal: blind packets hold CDLI drawings and corpus contexts
+experiments/ensemble_rehearsal/packets/
