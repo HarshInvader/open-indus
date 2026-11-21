@@ -17,6 +17,7 @@ What it reads
 
 What it writes
   site/index.html, findings.html, tracker.html, contribute.html, resources.html
+  site/signs/index.html and site/signs/M*.html (the sign catalogue, built by site/build_signs.py; see that file)
   site/assets/img/*.jpg, site/assets/glyphs.css, site/data/board_snapshot.json
   site/assets/fonts/ (copied from site/font/), site/assets/signs/ (the sign drawings the landing page uses),
   site/assets/downloads/ (logo files offered on the Resources page)
@@ -1286,6 +1287,7 @@ def smart(page):
 
 
 PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"), ("library.html", "Library"),
+         ("signs/index.html", "Signs"),
          ("tracker.html", "Tracker"), ("contribute.html", "Contribute"), ("resources.html", "Resources"))
 ARROW = ('<svg class="ext-ic" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false" fill="none" '
          'stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 8.5L8.5 3.5M4.5 3.5H8.5V7.5"/></svg>')
@@ -1299,12 +1301,14 @@ NAV_ICONS = {
     "font": _NI('<path d="M5 19L11 5h2l6 14M8 14h8"/>'),
     "files": _NI('<path d="M4 7h6l2 2h8v10H4z"/>'),
     "code": _NI('<path d="M9 8l-4 4 4 4M15 8l4 4-4 4"/>'),
+    "signs": _NI('<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>'),
 }
 NAV_GROUPS = (
     ("Research", (("findings.html", "Findings", "What is known, and what we found", "find"),
                   ("approach.html", "Approach", "How every idea gets tested", "approach"),
                   ("news.html", "News", "New papers, summarised", "news"),
                   ("library.html", "Library", "Every paper we have read, analysed", "files"),
+                  ("signs/index.html", "Sign catalogue", "Every sign, and what is known about it", "signs"),
                   ("tracker.html", "Tracker", "Progress and the live task board", "tracker"))),
     ("Resources", (("REPO/tree/main/datasets", "Open data", "Every Indus dataset in one place", "data"),
                    ("resources.html", "Typeface and logo", "Free to download", "font"),
@@ -1351,8 +1355,13 @@ def render(name, title, desc, current, fills, body_class="", output=None):
     page = smart(page)
     left = re.findall(r"\{\{[A-Z_]+\}\}", page)
     assert not left, f"{name}: unfilled {left}"
-    (SITE / (output or f"{name}.html")).write_text(page)
-    return SITE / (output or f"{name}.html")
+    out = SITE / (output or f"{name}.html")
+    depth = len(Path(output or name).parts) - 1
+    if depth:   # a page in a subfolder (signs/): every site-relative href/src gets ../ in front
+        page = re.sub(r'(\s(?:href|src)=")(?!https?:|mailto:|data:|#|/|\.\./)', r"\g<1>" + "../" * depth, page)
+        out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(page)
+    return out
 
 
 # ---------------------------------------------------------------- checks
@@ -1389,22 +1398,24 @@ def parse(path):
 
 def check_links(pages):
     """Fail the build if any internal href/src or #anchor in the written pages does not resolve."""
-    parsed = {p.name: parse(p) for p in pages}
+    root = SITE.resolve()
+    parsed = {p.resolve(): parse(p) for p in pages}
     bad = []
-    for name, p in parsed.items():
+    for page, p in parsed.items():
+        name = page.relative_to(root)
         for tag, ref in p.refs:
             if ref.startswith(REPO_URL) or re.match(r"^(https?:|mailto:|data:)", ref):
                 continue
             path, _, frag = ref.partition("#")
             path = path.split("?")[0]
-            target = name if path == "" else path
-            if not (SITE / target).is_file():
-                bad.append(f"{name}: {ref} (no file {target})")
+            target = page if path == "" else (page.parent / path).resolve()
+            if root not in target.parents or not target.is_file():
+                bad.append(f"{name}: {ref} (no file {path} inside site/)")
                 continue
             if frag:
-                ids = parsed[target].ids if target in parsed else parse(SITE / target).ids
+                ids = parsed[target].ids if target in parsed else parse(target).ids
                 if frag not in ids:
-                    bad.append(f"{name}: {ref} (no id #{frag} in {target})")
+                    bad.append(f"{name}: {ref} (no id #{frag} in {target.relative_to(root)})")
     if bad:
         raise SystemExit("Broken internal links:\n  " + "\n  ".join(bad))
     n = sum(len(p.refs) for p in parsed.values())
@@ -1439,7 +1450,8 @@ def make_dist(built):
         shutil.rmtree(dist)
     (dist / "assets").mkdir(parents=True)
     for p in built:
-        shutil.copy2(p, dist / p.name)
+        (dist / p.relative_to(SITE)).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(p, dist / p.relative_to(SITE))
     shutil.copy2(SITE / "news.xml", dist / "news.xml")
     src = SITE / "assets"
     used = {m for p in built for m in re.findall(r'assets/img/([^"#?]+)', p.read_text())}
@@ -1456,10 +1468,11 @@ def make_dist(built):
     # every local href/src in the pages must resolve inside dist/
     missing = set()
     for p in built:
+        here = (dist / p.relative_to(SITE)).parent
         for ref in re.findall(r'(?:href|src)="([^"#?]+)', p.read_text()):
             if ref.startswith(("http", "mailto:", "data:")) or ref.startswith(REPO_URL):
                 continue
-            if not (dist / ref).exists():
+            if not (here / ref).exists():
                 missing.add(ref)
     css = (src / "site.css").read_text() + (src / "glyphs.css").read_text()
     for ref in re.findall(r'url\("?((?!data:|#)[^")]+)"?\)', css):
@@ -1521,6 +1534,11 @@ def main():
     built.append(render("library", f"Library · {NAME} · Papers on the Indus script and civilisation",
                         "Every paper the project has read on the Indus script, decipherment methods, neighbouring scripts and Harappan archaeology, with an analysis of each.",
                         "library.html", dict(common, **library_page())))
+    import importlib.util, sys   # the sign catalogue lives in its own script; it renders through this module
+    spec = importlib.util.spec_from_file_location("build_signs", SITE / "build_signs.py")
+    build_signs = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(build_signs)
+    built.extend(build_signs.html_pages(sys.modules[__name__]))
     fs = font["files"]
     built.append(render("resources", f"Resources · {NAME} · Decipher the Indus script by 2027",
                         f"Free downloads from {NAME}: the Open Indus Display typeface (SIL Open Font License) and the fish-sign logo, plus the research files that open with the repository.",
@@ -1535,12 +1553,21 @@ def main():
                             MARK_FILE=logo["mark"][0], MARK_NAME=logo["mark"][0].split("/")[-1], SZ_MARK=size_kb(logo["mark"][1]),
                             WORD_FILE=logo["wordmark"][0], WORD_NAME=logo["wordmark"][0].split("/")[-1], SZ_WORD=size_kb(logo["wordmark"][1]))))
     for p in built:
-        print("wrote", p.relative_to(ROOT), f"{p.stat().st_size // 1024} KB")
+        if p.parent.name != "signs" or p.name == "index.html":
+            print("wrote", p.relative_to(ROOT), f"{p.stat().st_size // 1024} KB")
+    sp = [p for p in built if p.parent.name == "signs" and p.name != "index.html"]
+    print(f"wrote {len(sp)} sign pages in site/signs/, {sum(p.stat().st_size for p in sp) // 1024} KB")
     print(f"font: Open Indus Display v{font['version']}, {len(font['chars'])} characters, copied to site/assets/fonts/")
+    sign_gaps = {}
     for p in built:   # every page's text is set in Open Indus Text; Display only in capitals
         gaps = font_gaps(p, font.get("text_chars") or font["chars"])
-        if gaps:
+        if gaps and p.parent.name == "signs" and p.name != "index.html":
+            for c, n in gaps.items():
+                sign_gaps[c] = sign_gaps.get(c, 0) + n
+        elif gaps:
             print(f"{p.name}: characters Open Indus Text lacks:", " ".join(f"{c!r}x{n}" for c, n in sorted(gaps.items())))
+    if sign_gaps:
+        print("sign pages: characters Open Indus Text lacks:", " ".join(f"{c!r}x{n}" for c, n in sorted(sign_gaps.items())))
     news_rss()
     check_links(built)
     make_dist(built)

@@ -27,15 +27,19 @@ The sign-by-sign texts come from two scholarly works.
 
 - `corpus/build.py` lists the sources and rebuilds `data/` from them byte for byte.
 - Most of our results quote only short sign sequences, cited by catalogue number. About 18 result files list many whole texts. The largest is `experiments/functional_reading/readings.csv`, which covers every text. Whether those files can be published, or must be rebuilt locally like `data/`, is an open question in `PUBLISHING_CHECKLIST.md`.
+- The sign catalogue (`site/signs/`) quotes up to 3 whole texts per sign as examples, cited by Mahadevan's text number, and `site/data/signs.json` keeps those examples so the pages rebuild without `data/`. Set `EXAMPLES = 0` in `site/build_signs.py` if the open question is settled against publishing whole texts.
 - If the holders of either corpus are willing to grant open terms, we will add the files.
 
 ## Sign drawings
 
 `data/sign_images/` holds Mahadevan's 1977 drawing of each sign, as served by indusscript.in. The terms are not stated, so the folder is not in this repository.
 
-The website shows 11 of these drawings: M59, M60, M65, M66, M67, M99, M109, M176, M267, M342 and M391. They are embedded in `site/assets/glyphs.css`, small and as outlines, to illustrate findings about those signs.
+The website shows these drawings in two ways:
 
-**Whether that use is allowed is an open question.** If it is not, the 11 drawings can be redrawn from scratch.
+- 11 of them (M59, M60, M65, M66, M67, M99, M109, M176, M267, M342 and M391) are embedded in `site/assets/glyphs.css`, small and as outlines, to illustrate findings about those signs.
+- Copies in `site/assets/signs/` are used by the home-page illustrations and by the sign catalogue (`site/signs/`, built by `site/build_signs.py`), which shows every sign except M148. The catalogue page carries a credit line naming Mahadevan 1977 and indusscript.in.
+
+**Whether that use is allowed is an open question.** If it is not, the drawings can be redrawn from scratch; the catalogue reads them only from `site/assets/signs/M{n}.png`, so redrawn files can replace them one for one.
 
 ## Seal photographs
 
