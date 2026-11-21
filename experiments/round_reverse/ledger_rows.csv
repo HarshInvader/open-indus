@@ -1,0 +1,2 @@
+id,claim,area,file,statistic,p_value,p_source,ci,n,distinct_text_unit,split,mode,family,family_size,replicated_independently,readme_claim,q_global,q_area,q_hier,q_all,note
+rr_main,"Reversing round-seal texts removes the off-order of finding #4 (direction error)",round_reverse,experiments/round_reverse/RESULTS.md,KN format-matched excess +1.30 fwd vs +1.35 reversed; ratio 1.04,1e-4,computed,ratio CI 0.80-1.29,31 texts,yes,none,confirmatory,round_reverse,1,no,4,,,,,refuted; planted direction-error control 100/100

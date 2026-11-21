@@ -385,3 +385,15 @@ b86ad8f4269a8933fc519d03462d7ff2b2c90347ab900effa2fa98580647b6b7  docs/prereg/co
 4d905ce9c38cadcb714ebd551220230ef7db39f52bdefffa58a2c03a0685c2af  experiments/count_index_rehearsal/cir.py  2026-11-21T01:38:55Z  count_index_rehearsal
 452502d81221a6f70a1c5e19327619f5ee91a216e0516ab8bdfdc0850f9aadbe  experiments/fish_tick_closer_v2/dedup.py  2026-11-21T01:38:55Z  count_index_rehearsal
 c01e8331881308bb032d926103f058bed972e565d0b34c40df76fd71b1a976de  experiments/protocuneiform/pc_classes.py  2026-11-21T01:38:55Z  count_index_rehearsal
+008c4d2f8882b549f3b66e464f5a6581ec09d1e8218be077084e247567c9de45  docs/prereg/ensemble_rehearsal.md  2026-11-21T01:51:36Z  ensemble_rehearsal
+875464a7d8b097caae7ac313be4dc86ba9a9494327b18ba133d6e96a82915b81  experiments/ensemble_rehearsal/build.py  2026-11-21T01:51:36Z  ensemble_rehearsal
+42bf40bd8ca947a0c15b667b8ec9bc6490e470f1486037125b475d8e7438dc44  experiments/ensemble_rehearsal/score.py  2026-11-21T01:51:36Z  ensemble_rehearsal
+b483702178035d5b1713ec9c6f991cb6d17afc628d4c06369cb27cee37a5d3be  experiments/ensemble_rehearsal/sealed/key.json  2026-11-21T01:51:36Z  ensemble_rehearsal
+2d72da2d53b89c9c74b32efb050fc7d742d6de3c078a29af2d5dff8e98f0b638  experiments/ensemble_rehearsal/guesser_prompt.md  2026-11-21T01:51:36Z  ensemble_rehearsal
+9488403391a55ef6e965b8cb4f2430574dd7d8c06c1de81d0743b0751e887b1e  docs/prereg/ensemble_rehearsal.md  2026-11-21T01:54:35Z  ensemble_rehearsal_deviation1
+6f99782c94736f897c2898dd0ba1e3402ac2421fdd098be5eb2ae1ac65520586  experiments/ensemble_rehearsal/guesser_prompt.md  2026-11-21T01:54:35Z  ensemble_rehearsal_deviation1
+349f47aa6e4ed1ae704125f6e7612584d69d86b82371d8547811fde81c751371  docs/prereg/uniformity_benchmark.md  2026-11-21T07:57:43Z  uniformity_benchmark
+02dbe65beecca0cadf11144ce7c01f0b172c0ae59fc089fa2c9b231e784a7094  experiments/uniformity_benchmark/run.py  2026-11-21T07:57:43Z  uniformity_benchmark
+db3a22beccce5388b0bf0804989d1a0cf8215c02eda68323db5edf0578db82d1  experiments/uniformity_benchmark/build.py  2026-11-21T07:57:43Z  uniformity_benchmark
+e0577be7bd6406e2fd65daa037782d656f28ff29828585245e8c09760f553960  docs/prereg/round_reverse.md  2026-11-21T07:59:45Z  round_reverse
+c6fc0924451f58b2d93ec695500a3e2c4452248ef84f1f84ede736a743285b9d  experiments/round_reverse/run.py  2026-11-21T07:59:45Z  round_reverse

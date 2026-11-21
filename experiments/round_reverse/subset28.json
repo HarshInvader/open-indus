@@ -1,0 +1,21 @@
+{
+ "KN": {
+  "n_scorable": 25,
+  "mean_d_forward": -0.022,
+  "mean_d_reversed": 0.023,
+  "n_lower_when_reversed": 13
+ },
+ "GR": {
+  "n_scorable": 25,
+  "mean_d_forward": -0.144,
+  "mean_d_reversed": 0.067,
+  "n_lower_when_reversed": 10
+ },
+ "POS": {
+  "n_scorable": 25,
+  "mean_d_forward": -0.146,
+  "mean_d_reversed": 0.118,
+  "n_lower_when_reversed": 11
+ },
+ "n_last_ok_round": 28
+}
