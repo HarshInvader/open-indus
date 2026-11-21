@@ -39,3 +39,10 @@ Agents can't do these. Each could supply an external anchor.
 - [cycle 9] Line-break test: >=150 two-line seal texts with layout recoded from photographs (CISI vol 3, Fuls 2023 catalogue).
 - [cycle 10] Ticked-fish block clustering replication: findspots (block/house/room) for Mohenjo-daro HR/VS areas (Marshall 1931 register, clean copy) and HARP Harappa trench/lot for inscribed seals.
 - [cycle 10] Kalibangan excavation report Part I (ASI; pottery graffiti with firing stage) - not hosted online; Part II is at ASI download/10.
+
+## M93 photo check (experiments/uniformity_paper/revision, review 1 M-issue on the Chanhu-daro end mark)
+Question per object: is the final mark one three-stroke sign (M77 M93), or two stroke signs (ICIT W031 W032 = M86 M87), and does it sit on its own line after the jar sign?
+- M77 Chanhu-daro seals: 6108, 6113 (ICIT 72.1, CISI C-76), 6118, 6124 (ICIT 71.1, CISI C-53), 6133, 6202 (ICIT 70.1, CISI C-70), 6203 (seq_links gives ICIT 61.1 / C-66, but the sequences do not match: check the link), 6204 (linked to ICIT 71.1 / C-53 like 6124: check whether two objects or one), 6218, 6403.
+- M77 Chanhu-daro sealing 6233.1 (ICIT 116.1, CISI C-34; ICIT ends ... W390 W031 W032).
+- Unlinked in ICIT: 6108, 6118, 6133, 6218, 6403. Find their CISI numbers in the M77 concordance, then the photos (CISI vol. 1, Chanhu-daro section).
+- Other ICIT Chanhu-daro texts with W032: 62.1, 64.1, 69.1, 73.1, 74.1, 82.1, 88.1, 98.1, 101.1, 109.1, 111.1, 112.1 (check which also end in W031 W032).
