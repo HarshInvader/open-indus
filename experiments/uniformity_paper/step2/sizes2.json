@@ -1,0 +1,91 @@
+{
+ "ur3meta": {
+  "Umma": {
+   "reign": {
+    "SH": 2672,
+    "AS": 4237,
+    "SS": 5456,
+    "null": 725,
+    "IS": 427
+   },
+   "museum": {
+    "Um": 2655,
+    "BM": 2084,
+    "YBC": 1682,
+    "NBC": 1222,
+    "null": 498,
+    "ANM": 408,
+    "PTS": 394,
+    "Erm": 349
+   }
+  },
+  "Girsu": {
+   "reign": {
+    "AS": 513,
+    "SH": 694,
+    "SS": 512,
+    "null": 313,
+    "IS": 234
+   },
+   "museum": {
+    "BM": 1094,
+    "L": 577,
+    "AO": 118,
+    "PUL": 110,
+    "SM": 45,
+    "null": 45,
+    "Amherst": 27,
+    "OIM": 26
+   }
+  }
+ },
+ "obpos": {
+  "rows": 496,
+  "sites": {
+   "Nippur": 171,
+   "Isin": 84,
+   "Larsa": 58,
+   "uncertain": 57,
+   "Ur": 39,
+   "Kisurra": 34,
+   "Uruk": 17,
+   "Babylonia": 10,
+   "Pī-Kasî": 6,
+   "Marad": 4,
+   "Kish": 3,
+   "Unknown": 3
+  }
+ },
+ "cdliseal": {
+  "pos_coverage": 0.881855500821018,
+  "rows": 5069,
+  "sites": {
+   "Ur III|Umma": 1389,
+   "Ur III|Girsu": 1187,
+   "Ur III|Nippur": 594,
+   "Ur III|Puzriš-Dagan": 422,
+   "Ur III|uncertain": 265,
+   "Ur III|Ur": 247,
+   "Ur III|Irisagrig": 206,
+   "Ur III|Garšana": 118,
+   "Old Babylonian|Kutalla": 99,
+   "Early Old Babylonian|Ešnunna": 49,
+   "Old Babylonian|uncertain": 41,
+   "Old Babylonian|": 41,
+   "Early Old Babylonian|Larsa": 40,
+   "Early Old Babylonian|Šaduppum": 30
+  },
+  "reign_ur3": {
+   "Girsu|None": 175,
+   "Umma|early": 774,
+   "Umma|late": 496,
+   "Girsu|late": 324,
+   "Girsu|early": 688,
+   "Umma|None": 119
+  }
+ },
+ "latmeta": {
+  "rows": 1596,
+  "stamped": 278
+ }
+}
