@@ -983,6 +983,9 @@ html:not(.js) .z-plain { display: block; }
 .sg-big { padding: 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
 .sg-intro h1 { font-size: clamp(36px, 5vw, 56px); margin: 4px 0 4px; font-variant-numeric: tabular-nums; }
 .sg-meta { color: var(--muted); font-size: 15px; margin: 0 0 12px; }
+.sg-looks { font-size: 16px; margin: 0 0 2px; max-width: 60ch; }
+.sg-looks span { color: var(--muted); }
+.sg-looks-src { color: var(--muted); font-size: 13.5px; margin: 0 0 12px; max-width: 60ch; }
 .sg-intro .lede { font-size: clamp(17px, 1.5vw, 19px); }
 .sg-est { margin: 12px 0 0; max-width: 60ch; }
 @media (max-width: 640px) { .sg-head { grid-template-columns: minmax(0, 1fr); } .sg-big { justify-self: start; padding: 14px; } .sg-lg, .sg-none.sg-lg { width: 120px; height: 120px; } }

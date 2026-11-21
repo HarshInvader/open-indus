@@ -15,6 +15,7 @@
       <div class="sgf-q"><label for="sq">Find a sign</label>
         <input id="sq" type="search" placeholder="M342 or W740" autocomplete="off" spellcheck="false" inputmode="search"></div>
       <div class="sgf-row">
+        <label class="vh" for="sf-pic">Picture</label><select id="sf-pic">{{SIGN_PICS}}</select>
         <label class="vh" for="sf-role">Role</label><select id="sf-role">{{SIGN_ROLES}}</select>
         <label class="vh" for="sf-type">Object</label><select id="sf-type">{{SIGN_TYPES}}</select>
         <label class="vh" for="sf-site">Site</label><select id="sf-site">{{SIGN_SITES}}</select>
@@ -24,22 +25,22 @@
       <p class="sgf-count" aria-live="polite"></p>
     </div>
     <ul class="sg-grid" id="sg-grid">{{SIGN_CARDS}}</ul>
-    <p class="note sg-credit">Drawings after Iravatham Mahadevan, <i>The Indus Script: Texts, Concordance and Tables</i> (Archaeological Survey of India, 1977), as served by indusscript.in. Their terms of use are not settled; see <a href="{{REPO}}/blob/main/LICENSING.md">licences and picture rights</a>. Counts come from Mahadevan’s concordance and from the ICIT corpus of Wells and Fuls; text counts are distinct texts. {{SIGN_READ}} signs have a published reading or meaning claim in our lists; {{SIGN_TESTS}} are named in at least one project result.</p>
+    <p class="note sg-credit">Drawings after Iravatham Mahadevan, <i>The Indus Script: Texts, Concordance and Tables</i> (Archaeological Survey of India, 1977), as served by indusscript.in. Their terms of use are not settled; see <a href="{{REPO}}/blob/main/LICENSING.md">licences and picture rights</a>. Counts come from Mahadevan’s concordance and from the ICIT corpus of Wells and Fuls; text counts are distinct texts. {{SIGN_READ}} signs have a published reading or meaning claim in our lists; {{SIGN_TESTS}} are named in at least one project result. The picture groups sort signs by what the drawing shows, not by what a sign means; the descriptions come from the field-cady sign descriptions where they fit the drawing, and from our own reading of the drawing elsewhere (<a href="{{REPO}}/blob/main/site/data/sign_depictions.csv">sign_depictions.csv</a>).</p>
   </div>
 </section>
 <script>
 (function () {
   var grid = document.getElementById('sg-grid'), items = [].slice.call(grid.children),
-      q = document.getElementById('sq'), role = document.getElementById('sf-role'), type = document.getElementById('sf-type'),
+      q = document.getElementById('sq'), pic = document.getElementById('sf-pic'), role = document.getElementById('sf-role'), type = document.getElementById('sf-type'),
       site = document.getElementById('sf-site'), sort = document.getElementById('sf-sort'), read = document.getElementById('sf-read'),
       out = document.querySelector('.sgf-count');
   function norm(s) { s = s.trim().toLowerCase().replace(/\s+/g, ''); var m = s.match(/^([mw])0*(\d+)$/); return m ? m[1] + m[2] : s; }
   function apply() {
-    var w = norm(q.value), alt = /^\d+$/.test(w) ? 'm' + w : '', r = role.value, t = type.value, st = site.value, rd = read.checked, n = 0;
+    var w = norm(q.value), alt = /^\d+$/.test(w) ? 'm' + w : '', pc = pic.value, r = role.value, t = type.value, st = site.value, rd = read.checked, n = 0;
     items.forEach(function (li) {
       var d = li.dataset, ids = d.q.split(' ').map(norm);
       var ok = (!w || ids.some(function (x) { return x === w || x === alt || (w.length > 1 && x.indexOf(w) === 0); })) &&
-               (!r || d.role === r) && (!t || (' ' + d.types + ' ').indexOf(' ' + t + ' ') >= 0) &&
+               (!pc || d.pic === pc) && (!r || d.role === r) && (!t || (' ' + d.types + ' ').indexOf(' ' + t + ' ') >= 0) &&
                (!st || d.sites.split('|').indexOf(st) >= 0) && (!rd || d.read === '1');
       li.hidden = !ok; if (ok) n++;
     });
@@ -47,13 +48,13 @@
     items.slice().sort(function (a, b) { return key === 'f' ? (b.dataset.f - a.dataset.f) || (a.dataset.n - b.dataset.n) : a.dataset.n - b.dataset.n; })
          .forEach(function (li) { grid.appendChild(li); });
     out.textContent = n === items.length ? items.length + ' signs' : n + ' of ' + items.length + ' signs';
-    try { sessionStorage.setItem('oi-signs', JSON.stringify({ q: q.value, r: r, t: t, s: st, o: key, rd: rd })); } catch (e) {}
+    try { sessionStorage.setItem('oi-signs', JSON.stringify({ q: q.value, p: pc, r: r, t: t, s: st, o: key, rd: rd })); } catch (e) {}
   }
   try {
     var saved = JSON.parse(sessionStorage.getItem('oi-signs') || 'null');
-    if (saved) { q.value = saved.q || ''; role.value = saved.r || ''; type.value = saved.t || ''; site.value = saved.s || ''; sort.value = saved.o || 'n'; read.checked = !!saved.rd; }
+    if (saved) { q.value = saved.q || ''; pic.value = saved.p || ''; role.value = saved.r || ''; type.value = saved.t || ''; site.value = saved.s || ''; sort.value = saved.o || 'n'; read.checked = !!saved.rd; }
   } catch (e) {}
-  [q, role, type, site, sort, read].forEach(function (el) { el.addEventListener(el === q ? 'input' : 'change', apply); });
+  [q, pic, role, type, site, sort, read].forEach(function (el) { el.addEventListener(el === q ? 'input' : 'change', apply); });
   apply();
 })();
 </script>

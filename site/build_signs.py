@@ -19,6 +19,16 @@ What it reads
   experiments/literature/proposals.json           published sign-value proposals
   experiments/meaning_claims/CATALOGUE.csv        published meaning claims with test status
   experiments/*/RESULTS.md, docs/NEGATIVE_ATLAS.md, docs/GRAMMAR.md, README.md   mentions of each sign
+  site/data/sign_depictions.csv                   what each drawing shows ("Looks like") and a coarse picture group
+
+sign_depictions.csv is a hand-made data file, kept in the public repo. One row per sign:
+  looks_like       short description of what the drawing DEPICTS, never what it means
+  source, wording  "field-cady sign descriptions" (the MIT feature files in field-cady/indus_valley_script_corpus,
+                   keyed to Parpola numbers with Mahadevan equivalents), used "as published" or "adapted" (shortened or
+                   put in plain words), or "Open Indus description" ("ours"), written from data/sign_images/M{n}.png
+                   where no published description fits the drawing
+  source_url, source_id, source_text   the field-cady file, its Parpola number and its exact text, so any adaptation can be checked
+  category, category_basis   picture group for the catalogue filter, by a rule on the description's main subject or by hand
 
 When data/ or sources/ is absent (a public clone), the last snapshot in site/data/signs.json is used.
 """
@@ -35,6 +45,10 @@ SNAP = SITE / "data" / "signs.json"
 N_SIGNS = 417
 EXAMPLES = 3          # example texts per sign page. Whole texts: whether these may be published is open (LICENSING.md).
 NO_SIGN = {148}       # same rule as build.py: M148's drawing is never shown
+DEPICT = SITE / "data" / "sign_depictions.csv"
+PICTURE_GROUPS = ["person", "animal", "fish", "plant", "vessel or container", "tool or weapon", "building or enclosure",
+                  "body part", "strokes/numeral", "geometric/abstract", "compound", "unclear"]
+PICTURE_LABEL = {"strokes/numeral": "Strokes or numeral", "geometric/abstract": "Geometric or abstract"}
 
 SITE_NAMES = {"Mohenjodaro": "Mohenjo-daro", "Chanhudaro": "Chanhu-daro", "Other sites": "other sites",
               "West Asian finds": "West Asian finds"}
@@ -412,6 +426,17 @@ def load():
     return signs
 
 
+def depictions():
+    """Read site/data/sign_depictions.csv; stop the build if any sign lacks a description, a source or a known group."""
+    rows = {r["sign"]: r for r in csv.DictReader(open(DEPICT, newline=""))}
+    bad = [f"M{n}" for n in range(1, N_SIGNS + 1)
+           if not (rows.get(f"M{n}", {}).get("looks_like", "").strip() and rows[f"M{n}"].get("source", "").strip()
+                   and rows[f"M{n}"].get("category") in PICTURE_GROUPS)]
+    if bad:
+        raise SystemExit(f"build_signs: {DEPICT.name} has no usable row for {', '.join(bad[:10])}" + (" ..." if len(bad) > 10 else ""))
+    return rows
+
+
 def copy_drawings():
     out = SITE / "assets" / "signs"
     out.mkdir(parents=True, exist_ok=True)
@@ -430,6 +455,7 @@ def html_pages(b):
     E = b.E
     signs = load()
     copy_drawings()
+    pics = depictions()
     by_id = {s["id"]: s for s in signs}
     findings = {f["n"]: f for f in b.FINDINGS}
     fish_family = next((s["fish_family_list"] for s in signs if s["fish_family_list"]), [])
@@ -675,10 +701,19 @@ def html_pages(b):
 
         role = role_of(s)
         n_est = len(est)
+        d = pics[sid]
+        if d["source"] == "Open Indus description":
+            d_src = "Open Indus description, written from the drawing"
+        else:
+            d_src = (f'{"Adapted from" if d["wording"] == "adapted" else "From"} the '
+                     f'<a href="{E(d["source_url"])}">field-cady sign descriptions</a> (Parpola {E(d["source_id"].lstrip("P"))})')
+        looks = (f'<p class="sg-looks"><span>Looks like:</span> {E(d["looks_like"])}</p>'
+                 f'<p class="sg-looks-src">{d_src}. This describes the picture, not the meaning: '
+                 f'a sign that looks like a fish may stand for a sound or another word.</p>')
         body = (
             f'<nav class="sg-crumb wrap" aria-label="Breadcrumb"><a href="signs/index.html">Sign catalogue</a></nav>'
             f'<section class="sg-head wrap"><div class="sg-big">{img(sid, "sg sg-lg", 154, "Drawing of sign " + sid, lazy=False)}</div>'
-            f'<div class="sg-intro"><p class="kicker">Sign</p><h1>{sid}</h1>'
+            f'<div class="sg-intro"><p class="kicker">Sign</p><h1>{sid}</h1>{looks}'
             f'<p class="sg-meta">{"Wells " + ", ".join(s["wells"]) + " · " if s["wells"] else ""}{E(role.capitalize())}</p>'
             f'<p class="lede">{E(summary(s))}</p>'
             + (f'<p class="sg-est"><b>Project finding:</b> {E(est[0]["title"])} <span class="tag {est[0]["cls"]}">{E(est[0]["tag"])}</span></p>' if est else "")
@@ -707,7 +742,7 @@ def html_pages(b):
         types = " ".join(k.replace(" ", "-") for k in s["by_type"])
         st = "|".join(k for k, _ in s["by_site"])
         search = " ".join([s["id"].lower()] + [w.lower() for w in s["wells"]])
-        cards.append(f'<li data-n="{s["n"]}" data-f="{s["texts"]}" data-role="{E(role_of(s))}" data-types="{types}" data-sites="{E(st)}" '
+        cards.append(f'<li data-n="{s["n"]}" data-f="{s["texts"]}" data-role="{E(role_of(s))}" data-pic="{E(pics[s["id"]]["category"])}" data-types="{types}" data-sites="{E(st)}" '
                      f'data-read="{1 if any(not r["collapsed"] for r in s["readings"]) else 0}" data-q="{E(search)}">'
                      f'<a href="signs/{s["id"]}.html">{img(s["id"], "sg sg-md", 64, "")}<b>{s["id"]}</b>'
                      f'<small>{s["texts"]:,} {"text" if s["texts"] == 1 else "texts"}</small></a></li>')
@@ -716,6 +751,9 @@ def html_pages(b):
         f'<option value="{k}">{k.capitalize()} ({roles[k]})</option>' for k in ("opener", "connective", "medial", "closer", "unclassified", "not classified") if roles[k])
     type_opt = '<option value="">Any object</option>' + "".join(
         f'<option value="{k.replace(" ", "-")}">{TYPE_LABEL[k]}</option>' for k in TYPE_ORDER)
+    pic_n = Counter(pics[s["id"]]["category"] for s in signs)
+    pic_opt = '<option value="">Any picture</option>' + "".join(
+        f'<option value="{E(k)}">{E(PICTURE_LABEL.get(k, k[:1].upper() + k[1:]))} ({pic_n[k]})</option>' for k in PICTURE_GROUPS if pic_n[k])
     site_opt = '<option value="">Any site</option>' + "".join(f'<option value="{E(k)}">{E(k[:1].upper() + k[1:])}</option>' for k in sites)
     n_any_read = sum(1 for s in signs if any(not r["collapsed"] for r in s["readings"]))
     total_tok = sum(s["tokens"] for s in signs)
@@ -723,7 +761,7 @@ def html_pages(b):
                              "Every Indus sign in Mahadevan's 1977 list: where it appears, what comes before and after it, published readings and what the project's tests found.",
                              "signs/index.html", dict(SIGN_N=len(signs), SIGN_TOK=f"{total_tok:,}", SIGN_READ=n_any_read,
                                                       SIGN_TESTS=n_tests, SIGN_CARDS="".join(cards), SIGN_ROLES=role_btn,
-                                                      SIGN_TYPES=type_opt, SIGN_SITES=site_opt),
+                                                      SIGN_TYPES=type_opt, SIGN_SITES=site_opt, SIGN_PICS=pic_opt),
                              output="signs/index.html"))
     print(f"signs: {len(signs)} sign pages; {n_read} with a published reading or claim ({n_any_read} outside Yajnadevam's key), "
           f"{n_tests} with project results linked")

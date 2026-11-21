@@ -4,7 +4,11 @@
 
 Recounts each sign straight from data/*.jsonl with the shared loaders in corpus/load.py (a separate code path
 from site/build_signs.py) and compares the numbers with site/data/signs.json and with the text of the
-built page site/signs/M{n}.html. Exits non-zero on any mismatch."""
+built page site/signs/M{n}.html. Then checks site/data/sign_depictions.csv for every sign: a description, a source, a
+picture group, the field-cady text matching its source file (when sources/ is present), and the "Looks like" line and
+the picture-not-meaning note on the built page. Exits non-zero on any mismatch."""
+import csv
+import html
 import json
 import random
 import re
@@ -58,6 +62,41 @@ for sid in ids:
     m = re.search(r"Appears in ([\d,]+) texts? \(([\d,]+) uses?\)", page)
     same(sid, "page headline (texts, uses)", (int(m.group(1).replace(",", "")), int(m.group(2).replace(",", ""))) if m else None,
          (texts, tokens))
+
+# ---- "Looks like": every sign has a depiction with a source, and its page shows it
+GROUPS = {"person", "animal", "fish", "plant", "vessel or container", "tool or weapon", "building or enclosure",
+          "body part", "strokes/numeral", "geometric/abstract", "compound", "unclear"}
+dep = {r["sign"]: r for r in csv.DictReader(open(ROOT / "site/data/sign_depictions.csv", newline=""))}
+fc_dir = ROOT / "sources/field-cady_indus_valley_script_corpus/features"
+dbad = []
+for n in range(1, len(snap) + 1):
+    sid = f"M{n}"
+    r = dep.get(sid)
+    if not r or not r["looks_like"].strip() or not r["source"].strip() or r["category"] not in GROUPS:
+        dbad.append(f"{sid}: missing description, source or picture group")
+        continue
+    if r["source"] == "Open Indus description":
+        if r["wording"] != "ours":
+            dbad.append(f"{sid}: our description not marked as ours")
+    elif r["source"] == "field-cady sign descriptions":
+        if r["wording"] not in ("as published", "adapted") or not r["source_url"].startswith("https://") or not r["source_id"]:
+            dbad.append(f"{sid}: field-cady entry without wording, URL or Parpola number")
+        elif fc_dir.is_dir():
+            f = json.loads((fc_dir / f'{r["source_id"]}.json').read_text())
+            if f["description"].strip() != r["source_text"].strip():
+                dbad.append(f"{sid}: source_text differs from {r['source_id']}.json")
+            if sid not in {"M%d" % int(g[1:]) for g in f.get("mahadevan_graphemes", [])}:
+                dbad.append(f"{sid}: {r['source_id']}.json does not list this sign")
+    else:
+        dbad.append(f"{sid}: unknown source {r['source']!r}")
+    page = html.unescape((ROOT / f"site/signs/{sid}.html").read_text()).translate(str.maketrans("‘’“”", "''\"\""))  # the build curls quotes
+    if f'Looks like:</span> {r["looks_like"]}' not in page or "This describes the picture, not the meaning" not in page:
+        dbad.append(f"{sid}: page lacks the Looks like line or the picture-not-meaning note")
+cat = (ROOT / "site/signs/index.html").read_text()
+if 'id="sf-pic"' not in cat or cat.count("data-pic=") != len(snap):
+    dbad.append("catalogue: Picture filter or data-pic attributes missing")
+print(f"depictions: {len(dep)} rows, {len(dbad)} problems" + "".join(f"\n  BAD {x}" for x in dbad[:20]))
+bad += len(dbad)
 
 print("all checks passed" if not bad else f"{bad} mismatches")
 sys.exit(1 if bad else 0)
