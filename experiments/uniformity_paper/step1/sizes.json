@@ -1,0 +1,218 @@
+{
+ "lb": {
+  "names": 471,
+  "common": 460,
+  "dropped_lines": {
+   "damaged": 8281
+  },
+  "lines": {
+   "Knossos": 758,
+   "Pylos": 1205
+  },
+  "tablets": {
+   "Knossos": 435,
+   "Pylos": 457
+  },
+  "token_tags": {
+   "Knossos|common": 186,
+   "Knossos|i": 875,
+   "Knossos|n": 917,
+   "Knossos|name": 216,
+   "Knossos|unk": 848,
+   "Pylos|common": 1093,
+   "Pylos|i": 1692,
+   "Pylos|n": 1634,
+   "Pylos|name": 452,
+   "Pylos|unk": 1597
+  },
+  "series_letter": {
+   "Knossos": [
+    [
+     "D",
+     340
+    ],
+    [
+     "V",
+     78
+    ],
+    [
+     "F",
+     73
+    ],
+    [
+     "A",
+     57
+    ],
+    [
+     "C",
+     41
+    ],
+    [
+     "W",
+     40
+    ],
+    [
+     "L",
+     27
+    ],
+    [
+     "G",
+     20
+    ],
+    [
+     "S",
+     17
+    ],
+    [
+     "U",
+     17
+    ],
+    [
+     "O",
+     17
+    ],
+    [
+     "B",
+     14
+    ],
+    [
+     "E",
+     5
+    ],
+    [
+     "M",
+     4
+    ],
+    [
+     "N",
+     3
+    ],
+    [
+     "R",
+     2
+    ],
+    [
+     "Z",
+     2
+    ],
+    [
+     "K",
+     1
+    ]
+   ],
+   "Pylos": [
+    [
+     "A",
+     286
+    ],
+    [
+     "E",
+     224
+    ],
+    [
+     "C",
+     144
+    ],
+    [
+     "J",
+     136
+    ],
+    [
+     "N",
+     70
+    ],
+    [
+     "F",
+     67
+    ],
+    [
+     "U",
+     65
+    ],
+    [
+     "V",
+     60
+    ],
+    [
+     "T",
+     48
+    ],
+    [
+     "M",
+     33
+    ],
+    [
+     "S",
+     29
+    ],
+    [
+     "W",
+     28
+    ],
+    [
+     "Q",
+     6
+    ],
+    [
+     "G",
+     4
+    ],
+    [
+     "P",
+     3
+    ],
+    [
+     "O",
+     1
+    ],
+    [
+     "X",
+     1
+    ]
+   ]
+  }
+ },
+ "ur3pos": {
+  "rows": 19629,
+  "identical_to_benchmark": 19629,
+  "benchmark_rows": 19629,
+  "pos": {
+   "N": 56967,
+   "PN": 36647,
+   "SN": 4511,
+   "V/i": 2647,
+   "RN": 2573,
+   "NU": 2390,
+   "DN": 1030,
+   "V/t": 435,
+   "X": 222,
+   "AJ": 83,
+   "WN": 35,
+   "GN": 33,
+   "TN": 10,
+   "FN": 8,
+   "CNJ": 6,
+   "AN": 2,
+   "MN": 2,
+   "n": 1
+  }
+ },
+ "lattr": {
+  "rows": 1596,
+  "no_clean_transcription": 319,
+  "tokens_equal_diplomatic": 1585,
+  "lower_case_words_seen": 14776,
+  "sites": {
+   "Britannia": 494,
+   "Germania": 1102
+  },
+  "token_flags": {
+   "Britannia|common": 502,
+   "Britannia|num": 165,
+   "Britannia|proper": 479,
+   "Germania|common": 1588,
+   "Germania|num": 470,
+   "Germania|proper": 1107
+  }
+ }
+}

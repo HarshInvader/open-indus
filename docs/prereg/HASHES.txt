@@ -399,3 +399,11 @@ e0577be7bd6406e2fd65daa037782d656f28ff29828585245e8c09760f553960  docs/prereg/ro
 c6fc0924451f58b2d93ec695500a3e2c4452248ef84f1f84ede736a743285b9d  experiments/round_reverse/run.py  2026-11-21T07:59:45Z  round_reverse
 ad9148ff21cdd85f8ad0df1207bc5cc842a8fa9aaebfb879faa37a00af5d5041  docs/prereg/redteam_uniformity.md  2026-11-21T08:27:24Z  redteam_uniformity
 05b743b1de67cb81022265156e266fcd03c1537589230480ca83e11fdaef4296  experiments/redteam_uniformity/rt.py  2026-11-21T08:27:24Z  redteam_uniformity
+96dbb936ec0000c53f408642390478e0b41ed4a9f132473dc0480e2da6e5167f  docs/prereg/stamp_detector.md  2026-11-21T12:51:05Z  stamp_detector
+b179d078a0a496008956e1c6c84a50d2bc1a285a525eaafe9329276493493592  experiments/stamp_detector/gate.py  2026-11-21T12:51:05Z  stamp_detector
+973b00646e161b4213c9dde628ef0d21951e9b17bfb315a21d7f9cc284c49973  experiments/stamp_detector/embed.py  2026-11-21T12:51:05Z  stamp_detector
+089a345978a48d74d8e8b4da57693749607f022111d6d56b128004feed200a06  experiments/stamp_detector/labels_pos.csv  2026-11-21T12:51:05Z  stamp_detector
+1fce233769bc668f6246b9c17fedb95f222d0f4fa9d2df6bae06e5237aa09fdc  experiments/stamp_detector/out/split.json  2026-11-21T12:51:05Z  stamp_detector
+251e94bf3a233d471ca2f8e3d9c1400370897783841af71a85d15437ffe8d745  docs/prereg/uniformity_paper_step1.md  2026-11-21T15:29:22Z  uniformity_paper_step1
+4fc00194fd5075d24fb387a3dff21a0dcf26b9afb24d3319591f2352072dc337  experiments/uniformity_paper/step1/s1.py  2026-11-21T15:29:22Z  uniformity_paper_step1
+17f5cf9962d3e8f7a1cf1164b98eb4f1f7ef1fb8037445b919659274f9da0303  experiments/uniformity_paper/step1/build.py  2026-11-21T15:29:22Z  uniformity_paper_step1
