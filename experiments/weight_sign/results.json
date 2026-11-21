@@ -1,0 +1,829 @@
+{
+ "prereg": "docs/prereg/weight_sign.md",
+ "alpha": 0.025,
+ "meta": {
+  "hemmy_units": [
+   "DKG. (N)|14|I",
+   "DKG. (N)|21|IV",
+   "DKG. (N)|32A|I",
+   "DKG. (S)|1|IV",
+   "DKG. (S)|1|VII",
+   "DKG. (S)|1|XII",
+   "DKG. (S)|6|III",
+   "DKG. (S)|7|VIII",
+   "DKG. (S)|9|VI",
+   "DKG. (S)|9|X"
+  ],
+  "hemmy_units_linked": [
+   "DKG. (N)|21|IV",
+   "DKG. (S)|1|IV",
+   "DKG. (S)|1|VII",
+   "DKG. (S)|6|III",
+   "DKG. (S)|9|VI",
+   "DKG. (S)|9|X"
+  ],
+  "dropped_seen_weight_units": [
+   "DKG. (N)|15|VI",
+   "DKG. (S)|10|III",
+   "DKG. (S)|7|IV",
+   "DKG. (S)|7|VIII",
+   "DKG. (S)|9|IX"
+  ]
+ },
+ "sets": {
+  "fresh": {
+   "description": {
+    "Mohenjo-daro (DK-G, Hemmy)": {
+     "units": 89,
+     "weight_units": 6,
+     "texts": 561,
+     "texts_in_weight_units": 36,
+     "weight_units_by_size_bin": {
+      "0": 0,
+      "1": 0,
+      "2": 2,
+      "3": 4,
+      "4": 0,
+      "5": 0
+     },
+     "units_by_size_bin": {
+      "0": 12,
+      "1": 9,
+      "2": 24,
+      "3": 30,
+      "4": 10,
+      "5": 4
+     }
+    },
+    "Chanhu-daro": {
+     "units": 19,
+     "weight_units": 4,
+     "texts": 59,
+     "texts_in_weight_units": 27,
+     "weight_units_by_size_bin": {
+      "0": 0,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1
+     },
+     "units_by_size_bin": {
+      "0": 7,
+      "1": 3,
+      "2": 6,
+      "3": 2,
+      "4": 1
+     }
+    }
+   },
+   "candidates": {
+    "P193": {
+     "label": "Parpola 193 = M206 (W504) + M208 (W505); M207 has no Wells number",
+     "n_texts": 1,
+     "N1": {
+      "obs": 0,
+      "exp": 0.097,
+      "obs_over_exp": 0.0,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Mohenjo-daro (DK-G, Hemmy)": {
+        "obs": 0,
+        "exp": 0.097,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 1
+       },
+       "Chanhu-daro": {
+        "obs": 0,
+        "exp": 0.0,
+        "obs_over_exp": null,
+        "rr_mh": null,
+        "p": 1.0,
+        "n_sign_texts": 0
+       }
+      }
+     },
+     "N2_redteam": {
+      "obs": 0,
+      "exp": 0.085,
+      "obs_over_exp": 0.0,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Mohenjo-daro (DK-G, Hemmy)": {
+        "obs": 0,
+        "exp": 0.085,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 1
+       },
+       "Chanhu-daro": {
+        "obs": 0,
+        "exp": 0.0,
+        "obs_over_exp": null,
+        "rr_mh": null,
+        "p": 1.0,
+        "n_sign_texts": 0
+       }
+      }
+     },
+     "N0_old": {
+      "obs": 0,
+      "exp": 0.08,
+      "obs_over_exp": 0.0,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Mohenjo-daro (DK-G, Hemmy)": {
+        "obs": 0,
+        "exp": 0.08,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 1
+       },
+       "Chanhu-daro": {
+        "obs": 0,
+        "exp": 0.0,
+        "obs_over_exp": null,
+        "rr_mh": null,
+        "p": 1.0,
+        "n_sign_texts": 0
+       }
+      }
+     },
+     "gate_power_own_freq": 0.005,
+     "gate_power_M197_freq": 0.0675,
+     "verdict": "untestable (too few texts)"
+    },
+    "M197": {
+     "label": "M197 (W575), the catalogue's earlier guess and the assemblage near miss",
+     "n_texts": 5,
+     "N1": {
+      "obs": 1,
+      "exp": 1.365,
+      "obs_over_exp": 0.732,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Mohenjo-daro (DK-G, Hemmy)": {
+        "obs": 0,
+        "exp": 0.365,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 4
+       },
+       "Chanhu-daro": {
+        "obs": 1,
+        "exp": 1.0,
+        "obs_over_exp": 1.0,
+        "rr_mh": null,
+        "p": 1.0,
+        "n_sign_texts": 1
+       }
+      }
+     },
+     "N2_redteam": {
+      "obs": 1,
+      "exp": 1.335,
+      "obs_over_exp": 0.749,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Mohenjo-daro (DK-G, Hemmy)": {
+        "obs": 0,
+        "exp": 0.335,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 4
+       },
+       "Chanhu-daro": {
+        "obs": 1,
+        "exp": 1.0,
+        "obs_over_exp": 1.0,
+        "rr_mh": null,
+        "p": 1.0,
+        "n_sign_texts": 1
+       }
+      }
+     },
+     "N0_old": {
+      "obs": 1,
+      "exp": 0.551,
+      "obs_over_exp": 1.816,
+      "ratio": 0.0,
+      "p": 0.45625437456254375,
+      "sites": {
+       "Mohenjo-daro (DK-G, Hemmy)": {
+        "obs": 0,
+        "exp": 0.335,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 4
+       },
+       "Chanhu-daro": {
+        "obs": 1,
+        "exp": 0.215,
+        "obs_over_exp": 4.643,
+        "rr_mh": null,
+        "p": 0.21547845215478453,
+        "n_sign_texts": 1
+       }
+      }
+     },
+     "gate_power_own_freq": 0.0675,
+     "gate_power_M197_freq": 0.0675,
+     "verdict": "underpowered"
+    }
+   },
+   "gates": {
+    "at_P193_frequency": {
+     "counts": {
+      "Mohenjo-daro (DK-G, Hemmy)": 1,
+      "Chanhu-daro": 0
+     },
+     "power": 0.005
+    },
+    "at_M197_frequency": {
+     "counts": {
+      "Mohenjo-daro (DK-G, Hemmy)": 4,
+      "Chanhu-daro": 1
+     },
+     "power": 0.0675
+    },
+    "pipeline_check_10pct_of_texts": {
+     "counts": {
+      "Mohenjo-daro (DK-G, Hemmy)": 56,
+      "Chanhu-daro": 5
+     },
+     "power": 0.79
+    }
+   },
+   "negative_control": {
+    "signs": {
+     "W740": {
+      "N1": {
+       "obs": 28,
+       "exp": 24.434,
+       "ratio": 1.245,
+       "p": 0.16108389161083891
+      },
+      "N0_old": {
+       "obs": 28,
+       "exp": 22.649,
+       "ratio": 1.245,
+       "p": 0.22367763223677634
+      }
+     },
+     "W002": {
+      "N1": {
+       "obs": 14,
+       "exp": 15.521,
+       "ratio": 0.85,
+       "p": 0.7676232376762324
+      },
+      "N0_old": {
+       "obs": 14,
+       "exp": 14.288,
+       "ratio": 0.85,
+       "p": 0.5369463053694631
+      }
+     },
+     "W220": {
+      "N1": {
+       "obs": 7,
+       "exp": 7.735,
+       "ratio": 0.819,
+       "p": 0.7279272072792721
+      },
+      "N0_old": {
+       "obs": 7,
+       "exp": 6.332,
+       "ratio": 0.819,
+       "p": 0.43985601439856015
+      }
+     },
+     "W032": {
+      "N1": {
+       "obs": 11,
+       "exp": 8.656,
+       "ratio": 1.726,
+       "p": 0.1695830416958304
+      },
+      "N0_old": {
+       "obs": 11,
+       "exp": 6.118,
+       "ratio": 1.726,
+       "p": 0.08299170082991701
+      }
+     },
+     "W240": {
+      "N1": {
+       "obs": 7,
+       "exp": 6.217,
+       "ratio": 1.202,
+       "p": 0.41845815418458154
+      },
+      "N0_old": {
+       "obs": 7,
+       "exp": 5.788,
+       "ratio": 1.202,
+       "p": 0.3598640135986401
+      }
+     },
+     "W520": {
+      "N1": {
+       "obs": 2,
+       "exp": 3.356,
+       "ratio": 0.556,
+       "p": 0.8814118588141185
+      },
+      "N0_old": {
+       "obs": 2,
+       "exp": 4.132,
+       "ratio": 0.556,
+       "p": 0.9143085691430857
+      }
+     },
+     "W390": {
+      "N1": {
+       "obs": 6,
+       "exp": 7.631,
+       "ratio": 0.633,
+       "p": 0.8774122587741225
+      },
+      "N0_old": {
+       "obs": 6,
+       "exp": 4.838,
+       "ratio": 0.633,
+       "p": 0.35896410358964104
+      }
+     },
+     "W060": {
+      "N1": {
+       "obs": 4,
+       "exp": 6.247,
+       "ratio": 0.426,
+       "p": 0.965003499650035
+      },
+      "N0_old": {
+       "obs": 4,
+       "exp": 4.671,
+       "ratio": 0.426,
+       "p": 0.6676332366763323
+      }
+     },
+     "W031": {
+      "N1": {
+       "obs": 5,
+       "exp": 6.217,
+       "ratio": 0.656,
+       "p": 0.8434156584341566
+      },
+      "N0_old": {
+       "obs": 5,
+       "exp": 5.125,
+       "ratio": 0.656,
+       "p": 0.5634436556344365
+      }
+     },
+     "W235": {
+      "N1": {
+       "obs": 7,
+       "exp": 6.069,
+       "ratio": 1.341,
+       "p": 0.3742625737426257
+      },
+      "N0_old": {
+       "obs": 7,
+       "exp": 4.243,
+       "ratio": 1.341,
+       "p": 0.1675832416758324
+      }
+     },
+     "W861": {
+      "N1": {
+       "obs": 4,
+       "exp": 4.509,
+       "ratio": 0.792,
+       "p": 0.7210278972102789
+      },
+      "N0_old": {
+       "obs": 4,
+       "exp": 3.844,
+       "ratio": 0.792,
+       "p": 0.5248475152484752
+      }
+     }
+    },
+    "jar_passes_rule": false,
+    "common_signs_p_le_alpha": 0,
+    "control_ok": true
+   }
+  },
+  "seen": {
+   "description": {
+    "Harappa": {
+     "units": 60,
+     "weight_units": 30,
+     "texts": 597,
+     "texts_in_weight_units": 484,
+     "weight_units_by_size_bin": {
+      "0": 5,
+      "1": 1,
+      "2": 5,
+      "3": 3,
+      "4": 5,
+      "5": 11
+     },
+     "units_by_size_bin": {
+      "0": 18,
+      "1": 7,
+      "2": 9,
+      "3": 8,
+      "4": 6,
+      "5": 12
+     }
+    },
+    "Mohenjo-daro": {
+     "units": 200,
+     "weight_units": 5,
+     "texts": 912,
+     "texts_in_weight_units": 38,
+     "weight_units_by_size_bin": {
+      "0": 0,
+      "1": 0,
+      "2": 1,
+      "3": 3,
+      "4": 1,
+      "5": 0
+     },
+     "units_by_size_bin": {
+      "0": 55,
+      "1": 35,
+      "2": 41,
+      "3": 50,
+      "4": 15,
+      "5": 4
+     }
+    }
+   },
+   "candidates": {
+    "P193": {
+     "label": "Parpola 193 = M206 (W504) + M208 (W505); M207 has no Wells number",
+     "n_texts": 3,
+     "N1": {
+      "obs": 0,
+      "exp": 1.029,
+      "obs_over_exp": 0.0,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Harappa": {
+        "obs": 0,
+        "exp": 0.928,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 1
+       },
+       "Mohenjo-daro": {
+        "obs": 0,
+        "exp": 0.101,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 2
+       }
+      }
+     },
+     "N2_redteam": {
+      "obs": 0,
+      "exp": 1.003,
+      "obs_over_exp": 0.0,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Harappa": {
+        "obs": 0,
+        "exp": 0.915,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 1
+       },
+       "Mohenjo-daro": {
+        "obs": 0,
+        "exp": 0.088,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 2
+       }
+      }
+     },
+     "N0_old": {
+      "obs": 0,
+      "exp": 0.6,
+      "obs_over_exp": 0.0,
+      "ratio": 0.0,
+      "p": 1.0,
+      "sites": {
+       "Harappa": {
+        "obs": 0,
+        "exp": 0.535,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 1
+       },
+       "Mohenjo-daro": {
+        "obs": 0,
+        "exp": 0.064,
+        "obs_over_exp": 0.0,
+        "rr_mh": 0.0,
+        "p": 1.0,
+        "n_sign_texts": 2
+       }
+      }
+     },
+     "gate_power_own_freq": 0.025,
+     "gate_power_M197_freq": 0.245,
+     "verdict": "untestable (too few texts)"
+    },
+    "M197": {
+     "label": "M197 (W575), the catalogue's earlier guess and the assemblage near miss",
+     "n_texts": 27,
+     "N1": {
+      "obs": 13,
+      "exp": 8.482,
+      "obs_over_exp": 1.533,
+      "ratio": 9.918,
+      "p": 0.0013998600139986002,
+      "sites": {
+       "Harappa": {
+        "obs": 10,
+        "exp": 7.818,
+        "obs_over_exp": 1.279,
+        "rr_mh": Infinity,
+        "p": 0.047495250474952504,
+        "n_sign_texts": 10
+       },
+       "Mohenjo-daro": {
+        "obs": 3,
+        "exp": 0.664,
+        "obs_over_exp": 4.519,
+        "rr_mh": 5.62,
+        "p": 0.0226977302269773,
+        "n_sign_texts": 17
+       }
+      }
+     },
+     "N2_redteam": {
+      "obs": 13,
+      "exp": 8.345,
+      "obs_over_exp": 1.558,
+      "ratio": 9.918,
+      "p": 0.0007999200079992001,
+      "sites": {
+       "Harappa": {
+        "obs": 10,
+        "exp": 7.716,
+        "obs_over_exp": 1.296,
+        "rr_mh": Infinity,
+        "p": 0.043495650434956505,
+        "n_sign_texts": 10
+       },
+       "Mohenjo-daro": {
+        "obs": 3,
+        "exp": 0.628,
+        "obs_over_exp": 4.776,
+        "rr_mh": 5.62,
+        "p": 0.015398460153984602,
+        "n_sign_texts": 17
+       }
+      }
+     },
+     "N0_old": {
+      "obs": 13,
+      "exp": 5.557,
+      "obs_over_exp": 2.339,
+      "ratio": 9.918,
+      "p": 9.999000099990002e-05,
+      "sites": {
+       "Harappa": {
+        "obs": 10,
+        "exp": 5.142,
+        "obs_over_exp": 1.945,
+        "rr_mh": Infinity,
+        "p": 0.0024997500249975004,
+        "n_sign_texts": 10
+       },
+       "Mohenjo-daro": {
+        "obs": 3,
+        "exp": 0.416,
+        "obs_over_exp": 7.215,
+        "rr_mh": 5.62,
+        "p": 0.0031996800319968005,
+        "n_sign_texts": 17
+       }
+      }
+     },
+     "gate_power_own_freq": 0.245,
+     "gate_power_M197_freq": 0.245,
+     "verdict": "underpowered"
+    }
+   },
+   "gates": {
+    "at_P193_frequency": {
+     "counts": {
+      "Harappa": 1,
+      "Mohenjo-daro": 2
+     },
+     "power": 0.025
+    },
+    "at_M197_frequency": {
+     "counts": {
+      "Harappa": 10,
+      "Mohenjo-daro": 17
+     },
+     "power": 0.245
+    },
+    "pipeline_check_10pct_of_texts": {
+     "counts": {
+      "Harappa": 59,
+      "Mohenjo-daro": 91
+     },
+     "power": 0.895
+    }
+   },
+   "negative_control": {
+    "signs": {
+     "W740": {
+      "N1": {
+       "obs": 212,
+       "exp": 198.109,
+       "ratio": 1.408,
+       "p": 0.0028997100289971
+      },
+      "N0_old": {
+       "obs": 212,
+       "exp": 132.744,
+       "ratio": 1.408,
+       "p": 9.999000099990002e-05
+      }
+     },
+     "W002": {
+      "N1": {
+       "obs": 63,
+       "exp": 64.745,
+       "ratio": 0.909,
+       "p": 0.7230276972302769
+      },
+      "N0_old": {
+       "obs": 63,
+       "exp": 46.533,
+       "ratio": 0.909,
+       "p": 0.0164983501649835
+      }
+     },
+     "W220": {
+      "N1": {
+       "obs": 49,
+       "exp": 49.763,
+       "ratio": 0.921,
+       "p": 0.665033496650335
+      },
+      "N0_old": {
+       "obs": 49,
+       "exp": 33.727,
+       "ratio": 0.921,
+       "p": 0.008099190080991902
+      }
+     },
+     "W032": {
+      "N1": {
+       "obs": 62,
+       "exp": 62.862,
+       "ratio": 0.926,
+       "p": 0.6728327167283271
+      },
+      "N0_old": {
+       "obs": 62,
+       "exp": 40.678,
+       "ratio": 0.926,
+       "p": 0.0017998200179982
+      }
+     },
+     "W400": {
+      "N1": {
+       "obs": 93,
+       "exp": 90.972,
+       "ratio": 1.195,
+       "p": 0.32226777322267774
+      },
+      "N0_old": {
+       "obs": 93,
+       "exp": 59.242,
+       "ratio": 1.195,
+       "p": 0.00029997000299970003
+      }
+     },
+     "W240": {
+      "N1": {
+       "obs": 42,
+       "exp": 39.355,
+       "ratio": 1.378,
+       "p": 0.2121787821217878
+      },
+      "N0_old": {
+       "obs": 42,
+       "exp": 25.668,
+       "ratio": 1.378,
+       "p": 0.0025997400259974
+      }
+     },
+     "W520": {
+      "N1": {
+       "obs": 31,
+       "exp": 33.16,
+       "ratio": 0.723,
+       "p": 0.8614138586141386
+      },
+      "N0_old": {
+       "obs": 31,
+       "exp": 21.653,
+       "ratio": 0.723,
+       "p": 0.0331966803319668
+      }
+     },
+     "W033": {
+      "N1": {
+       "obs": 51,
+       "exp": 46.539,
+       "ratio": 1.702,
+       "p": 0.07839216078392161
+      },
+      "N0_old": {
+       "obs": 51,
+       "exp": 30.194,
+       "ratio": 1.702,
+       "p": 9.999000099990002e-05
+      }
+     },
+     "W390": {
+      "N1": {
+       "obs": 28,
+       "exp": 26.699,
+       "ratio": 1.264,
+       "p": 0.35296470352964704
+      },
+      "N0_old": {
+       "obs": 28,
+       "exp": 16.797,
+       "ratio": 1.264,
+       "p": 0.0035996400359964
+      }
+     },
+     "W235": {
+      "N1": {
+       "obs": 14,
+       "exp": 17.522,
+       "ratio": 0.404,
+       "p": 0.9664033596640336
+      },
+      "N0_old": {
+       "obs": 14,
+       "exp": 11.931,
+       "ratio": 0.404,
+       "p": 0.29187081291870814
+      }
+     },
+     "W700": {
+      "N1": {
+       "obs": 69,
+       "exp": 68.73,
+       "ratio": 1.03,
+       "p": 0.5404459554044595
+      },
+      "N0_old": {
+       "obs": 69,
+       "exp": 43.351,
+       "ratio": 1.03,
+       "p": 0.00019998000199980003
+      }
+     }
+    },
+    "jar_passes_rule": true,
+    "common_signs_p_le_alpha": 0,
+    "control_ok": false
+   }
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "DEV": {
+  "v2": {
+   "n_input_distinct": 1698,
+   "n_kept": 1507,
+   "n_dropped_same_signs": 7,
+   "n_dropped_near": 184,
+   "largest_cluster": 7
+  },
+  "v1": {
+   "n_input_distinct": 1699,
+   "n_families_kept": 972,
+   "largest_family": 571
+  }
+ },
+ "HELD": {
+  "v2": {
+   "n_input_distinct": 571,
+   "n_kept": 550,
+   "n_dropped_same_signs": 1,
+   "n_dropped_near": 20,
+   "largest_cluster": 3
+  },
+  "v1": {
+   "n_input_distinct": 571,
+   "n_families_kept": 505,
+   "largest_family": 9
+  }
+ },
+ "NEW": {
+  "v2": {
+   "n_input_distinct": 326,
+   "n_kept": 301,
+   "n_dropped_same_signs": 23,
+   "n_dropped_near": 2,
+   "largest_cluster": 5
+  },
+  "v1": {
+   "n_input_distinct": 330,
+   "n_families_kept": 326,
+   "largest_family": 2
+  }
+ }
+}

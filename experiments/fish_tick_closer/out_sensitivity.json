@@ -1,0 +1,236 @@
+{
+ "DEV": {
+  "n_texts": 1698,
+  "p1": {
+   "bases": [
+    {
+     "base": "M59",
+     "tick": "M60",
+     "nA": 21,
+     "nB": 55,
+     "nD": 163,
+     "testable": true,
+     "delta": -0.10229110232568861,
+     "p": 0.9781,
+     "null_mean": -0.009320864027751303
+    },
+    {
+     "base": "M65",
+     "tick": "M66",
+     "nA": 8,
+     "nB": 8,
+     "nD": 114,
+     "testable": true,
+     "delta": 0.23584815981043272,
+     "p": 0.0008,
+     "null_mean": -0.08943312078270886
+    },
+    {
+     "base": "M67",
+     "tick": "M68",
+     "nA": 3,
+     "nB": 16,
+     "nD": 149,
+     "testable": true,
+     "delta": -0.011292741258607353,
+     "p": 0.4686,
+     "null_mean": -0.0182628412419959
+    },
+    {
+     "base": "M70",
+     "tick": "M71",
+     "nA": 3,
+     "nB": 10,
+     "nD": 39,
+     "testable": true,
+     "delta": -0.1311063903969646,
+     "p": 0.9442,
+     "null_mean": -0.026625115363561415
+    },
+    {
+     "base": "M72",
+     "tick": "M73",
+     "nA": 5,
+     "nB": 23,
+     "nD": 95,
+     "testable": true,
+     "delta": -0.08972670844840802,
+     "p": 0.7753,
+     "null_mean": -0.025736509465253053
+    }
+   ],
+   "n_pass_001": 1,
+   "pooled": {
+    "n_testable": 5,
+    "delta_sum": -0.09856878261923585,
+    "p": 0.3551
+   }
+  },
+  "p1_pass": false,
+  "p2": {
+   "n_target": 22,
+   "k_no_other_closer": 21,
+   "share": 0.9545454545454546,
+   "n_ref": 500,
+   "closer_final_no_second": 0.9606413994169096,
+   "n_closer_final": 686,
+   "testable": true,
+   "expected": 13.570405840265654,
+   "null_share": 0.6168366291029842,
+   "p": 0.00027999720002799973
+  },
+  "p2_pass": true
+ },
+ "HELD": {
+  "n_texts": 571,
+  "p1": {
+   "bases": [
+    {
+     "base": "M59",
+     "tick": "M60",
+     "nA": 6,
+     "nB": 15,
+     "nD": 50,
+     "testable": true,
+     "delta": -0.31429894156604743,
+     "p": 1.0,
+     "null_mean": -0.02208063586336627
+    },
+    {
+     "base": "M65",
+     "tick": "M66",
+     "nA": 5,
+     "nB": 3,
+     "nD": 38,
+     "testable": true,
+     "delta": -0.0007641726673437432,
+     "p": 0.5158,
+     "null_mean": -0.07667621630167558
+    },
+    {
+     "base": "M67",
+     "tick": "M68",
+     "nA": 5,
+     "nB": 9,
+     "nD": 25,
+     "testable": true,
+     "delta": 0.0502927602758807,
+     "p": 0.2239,
+     "null_mean": -0.03977162719218468
+    },
+    {
+     "base": "M70",
+     "tick": "M71",
+     "nA": 4,
+     "nB": 5,
+     "nD": 10,
+     "testable": true,
+     "delta": 0.0,
+     "p": 1.0,
+     "null_mean": 0.0
+    },
+    {
+     "base": "M72",
+     "tick": "M73",
+     "nA": 0,
+     "nB": 6,
+     "nD": 23,
+     "testable": false
+    }
+   ],
+   "n_pass_001": 0,
+   "pooled": {
+    "n_testable": 4,
+    "delta_sum": -0.2647703539575105,
+    "p": 0.7304
+   }
+  },
+  "p1_pass": false,
+  "p2": {
+   "n_target": 9,
+   "k_no_other_closer": 7,
+   "share": 0.7777777777777778,
+   "n_ref": 213,
+   "closer_final_no_second": 0.9702380952380952,
+   "n_closer_final": 168,
+   "testable": true,
+   "expected": 6.170051815192481,
+   "null_share": 0.6855613127991645,
+   "p": 0.4174658253417466
+  },
+  "p2_pass": false
+ },
+ "NEW": {
+  "n_texts": 330,
+  "p1": {
+   "bases": [
+    {
+     "base": "W220",
+     "tick": "W226",
+     "nA": 3,
+     "nB": 6,
+     "nD": 16,
+     "testable": true,
+     "delta": 0.18350341907227397,
+     "p": 0.0619,
+     "null_mean": -0.01734591828835055
+    },
+    {
+     "base": "W235",
+     "tick": "W236",
+     "nA": 5,
+     "nB": 3,
+     "nD": 6,
+     "testable": true,
+     "delta": -0.20280350239618927,
+     "p": 1.0,
+     "null_mean": -0.02570550794449826
+    },
+    {
+     "base": "W240",
+     "tick": "W241",
+     "nA": 0,
+     "nB": 1,
+     "nD": 7,
+     "testable": false
+    },
+    {
+     "base": "W231",
+     "tick": "W232",
+     "nA": 0,
+     "nB": 0,
+     "nD": 3,
+     "testable": false
+    },
+    {
+     "base": "W233",
+     "tick": "W234",
+     "nA": 2,
+     "nB": 1,
+     "nD": 5,
+     "testable": false
+    }
+   ],
+   "n_pass_001": 0,
+   "pooled": {
+    "n_testable": 2,
+    "delta_sum": -0.019300083323915307,
+    "p": 0.3446
+   }
+  },
+  "p1_pass": false,
+  "p2": {
+   "n_target": 4,
+   "k_no_other_closer": 4,
+   "share": 1.0,
+   "n_ref": 66,
+   "closer_final_no_second": 0.9836065573770492,
+   "n_closer_final": 61,
+   "testable": true,
+   "expected": 3.3988095238095237,
+   "null_share": 0.8497023809523809,
+   "p": 0.5032049679503205
+  },
+  "p2_pass": false
+ }
+}

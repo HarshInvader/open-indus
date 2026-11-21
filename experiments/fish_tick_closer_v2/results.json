@@ -1,0 +1,129 @@
+{
+ "experiment": "fish_tick_closer_v2",
+ "prereg": "docs/prereg/fish_tick_closer_v2.md",
+ "hash_time": "2026-11-20T22:23:32Z",
+ "verdict": "underpowered",
+ "stopped_at": "gate",
+ "stop_rule": "DEV gate < 0.80 for both P1 and P2",
+ "counts": {
+  "DEV": {
+   "v2": {
+    "n_input_distinct": 1698,
+    "n_kept": 1507,
+    "n_dropped_same_signs": 7,
+    "n_dropped_near": 184,
+    "largest_cluster": 7
+   },
+   "v1": {
+    "n_input_distinct": 1699,
+    "n_families_kept": 972,
+    "largest_family": 571
+   }
+  },
+  "HELD": {
+   "v2": {
+    "n_input_distinct": 571,
+    "n_kept": 550,
+    "n_dropped_same_signs": 1,
+    "n_dropped_near": 20,
+    "largest_cluster": 3
+   },
+   "v1": {
+    "n_input_distinct": 571,
+    "n_families_kept": 505,
+    "largest_family": 9
+   }
+  },
+  "NEW": {
+   "v2": {
+    "n_input_distinct": 326,
+    "n_kept": 301,
+    "n_dropped_same_signs": 23,
+    "n_dropped_near": 2,
+    "largest_cluster": 5
+   },
+   "v1": {
+    "n_input_distinct": 330,
+    "n_families_kept": 326,
+    "largest_family": 2
+   }
+  }
+ },
+ "gate": {
+  "DEV": {
+   "true": {
+    "p1_detect": 0.0,
+    "p2_detect": 0.25,
+    "planted_tokens_per_base_mean": [
+     13.0,
+     2.0,
+     5.0,
+     2.0,
+     6.0
+    ]
+   },
+   "false_alarm": {
+    "p1_detect": 0.0,
+    "p2_detect": 0.0,
+    "planted_tokens_per_base_mean": [
+     13.0,
+     2.0,
+     5.0,
+     2.0,
+     6.0
+    ]
+   }
+  },
+  "HELD": {
+   "true": {
+    "p1_detect": 0.795,
+    "p2_detect": 0.0,
+    "planted_tokens_per_base_mean": [
+     5.0,
+     1.0,
+     2.0,
+     2.0,
+     2.0
+    ]
+   },
+   "false_alarm": {
+    "p1_detect": 0.045,
+    "p2_detect": 0.0,
+    "planted_tokens_per_base_mean": [
+     5.0,
+     1.0,
+     2.0,
+     2.0,
+     2.0
+    ]
+   }
+  },
+  "NEW": {
+   "true": {
+    "p1_detect": 0.0,
+    "p2_detect": 0.0,
+    "planted_tokens_per_base_mean": [
+     2.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "false_alarm": {
+    "p1_detect": 0.0,
+    "p2_detect": 0.0,
+    "planted_tokens_per_base_mean": [
+     2.0,
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ "real_tests_run": 0,
+ "effective_tests_counted": 20,
+ "note": "v1 collapse not the main cause; P1 dev 4-of-5 rule unreachable (2 bases get 2 planted tokens, need 3)"
+}

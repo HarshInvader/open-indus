@@ -1,0 +1,545 @@
+{
+ "fish_family": {
+  "M_signs": [
+   "M59",
+   "M60",
+   "M65",
+   "M66",
+   "M67",
+   "M68",
+   "M69",
+   "M70",
+   "M71",
+   "M72",
+   "M73",
+   "M74",
+   "M75"
+  ],
+  "W_signs": [
+   "W220",
+   "W226",
+   "W231",
+   "W232",
+   "W233",
+   "W235",
+   "W236",
+   "W240",
+   "W241",
+   "W243"
+  ],
+  "m77_distinct_texts_with": 781,
+  "m77_tokens": 982,
+  "dev_texts": 610,
+  "heldout_texts": 171,
+  "icit_distinct_texts_with": 945,
+  "icit_by_type": {
+   "POT": 35,
+   "TAG": 37,
+   "SEAL": 673,
+   "MISC": 4,
+   "TAB": 186,
+   "IMPL": 2,
+   "ROD": 5,
+   "MDLN": 1,
+   "BNGL": 1,
+   "Unknown": 1
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 494,
+   "Harappa": 281,
+   "Lothal": 42,
+   "Dholavira": 34,
+   "Chanhu-daro": 24,
+   "Kalibangan": 18,
+   "Banawali": 5,
+   "Unknown": 5
+  }
+ },
+ "crop_M161_162_169": {
+  "M_signs": [
+   "M161",
+   "M162",
+   "M169"
+  ],
+  "W_signs": [
+   "W064",
+   "W390",
+   "W405",
+   "W406",
+   "W407"
+  ],
+  "m77_distinct_texts_with": 301,
+  "m77_tokens": 319,
+  "dev_texts": 236,
+  "heldout_texts": 65,
+  "icit_distinct_texts_with": 384,
+  "icit_by_type": {
+   "POT": 23,
+   "SEAL": 273,
+   "TAG": 15,
+   "TAB": 62,
+   "IMPL": 1,
+   "MISC": 4,
+   "ROD": 2,
+   "BNGL": 4
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 190,
+   "Harappa": 109,
+   "Lothal": 20,
+   "Dholavira": 15,
+   "Chanhu-daro": 9,
+   "Kalibangan": 8,
+   "Nausharo": 3,
+   "Allahdino": 2
+  }
+ },
+ "M403_circles": {
+  "M_signs": [
+   "M403"
+  ],
+  "W_signs": [
+   "W840"
+  ],
+  "m77_distinct_texts_with": 66,
+  "m77_tokens": 66,
+  "dev_texts": 49,
+  "heldout_texts": 17,
+  "icit_distinct_texts_with": 94,
+  "icit_by_type": {
+   "SEAL": 53,
+   "POT": 4,
+   "TAB": 28,
+   "TAG": 4,
+   "ROD": 1,
+   "MISC": 1,
+   "BNGL": 3
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 39,
+   "Harappa": 32,
+   "Dholavira": 8,
+   "Chanhu-daro": 3,
+   "Lothal": 2,
+   "Unknown": 2,
+   "Allahdino": 1,
+   "Bakkar Buthi": 1
+  }
+ },
+ "M87_two_tall": {
+  "M_signs": [
+   "M87"
+  ],
+  "W_signs": [
+   "W032"
+  ],
+  "m77_distinct_texts_with": 232,
+  "m77_tokens": 248,
+  "dev_texts": 179,
+  "heldout_texts": 53,
+  "icit_distinct_texts_with": 339,
+  "icit_by_type": {
+   "POT": 23,
+   "SEAL": 200,
+   "TAB": 89,
+   "TAG": 19,
+   "MISC": 3,
+   "ROD": 4,
+   "BNGL": 1
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 151,
+   "Harappa": 119,
+   "Chanhu-daro": 15,
+   "Dholavira": 15,
+   "Lothal": 14,
+   "Kalibangan": 8,
+   "Unknown": 3,
+   "Nausharo": 2
+  }
+ },
+ "M59_plain_fish": {
+  "M_signs": [
+   "M59"
+  ],
+  "W_signs": [
+   "W220"
+  ],
+  "m77_distinct_texts_with": 289,
+  "m77_tokens": 301,
+  "dev_texts": 227,
+  "heldout_texts": 62,
+  "icit_distinct_texts_with": 356,
+  "icit_by_type": {
+   "POT": 19,
+   "SEAL": 243,
+   "TAG": 21,
+   "MISC": 2,
+   "TAB": 66,
+   "IMPL": 1,
+   "MDLN": 1,
+   "BNGL": 1,
+   "ROD": 1,
+   "Unknown": 1
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 177,
+   "Harappa": 103,
+   "Lothal": 16,
+   "Dholavira": 14,
+   "Kalibangan": 10,
+   "Chanhu-daro": 9,
+   "Banawali": 4,
+   "Farmana": 2
+  }
+ },
+ "M342_jar": {
+  "M_signs": [
+   "M342"
+  ],
+  "W_signs": [
+   "W740"
+  ],
+  "m77_distinct_texts_with": 959,
+  "m77_tokens": 979,
+  "dev_texts": 763,
+  "heldout_texts": 196,
+  "icit_distinct_texts_with": 1302,
+  "icit_by_type": {
+   "TAG": 46,
+   "SEAL": 825,
+   "MISC": 6,
+   "BNGL": 1,
+   "POT": 57,
+   "IMPL": 2,
+   "TAB": 356,
+   "ROD": 9
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 624,
+   "Harappa": 462,
+   "Dholavira": 48,
+   "Lothal": 39,
+   "Kalibangan": 35,
+   "Chanhu-daro": 27,
+   "Nausharo": 11,
+   "Unknown": 9
+  }
+ },
+ "M211_arrow": {
+  "M_signs": [
+   "M211"
+  ],
+  "W_signs": [
+   "W520"
+  ],
+  "m77_distinct_texts_with": 170,
+  "m77_tokens": 171,
+  "dev_texts": 141,
+  "heldout_texts": 29,
+  "icit_distinct_texts_with": 224,
+  "icit_by_type": {
+   "SEAL": 169,
+   "TAG": 13,
+   "POT": 6,
+   "MISC": 1,
+   "TAB": 35
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 119,
+   "Harappa": 59,
+   "Dholavira": 15,
+   "Lothal": 9,
+   "Kalibangan": 6,
+   "Chanhu-daro": 4,
+   "Banawali": 2,
+   "Unknown": 2
+  }
+ },
+ "M1_man": {
+  "M_signs": [
+   "M1"
+  ],
+  "W_signs": [
+   "W090"
+  ],
+  "m77_distinct_texts_with": 91,
+  "m77_tokens": 96,
+  "dev_texts": 76,
+  "heldout_texts": 15,
+  "icit_distinct_texts_with": 148,
+  "icit_by_type": {
+   "SEAL": 96,
+   "TAB": 33,
+   "TAG": 6,
+   "MISC": 1,
+   "POT": 8,
+   "ROD": 2,
+   "IMPL": 1,
+   "BNGL": 1
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 66,
+   "Harappa": 46,
+   "Dholavira": 8,
+   "Lothal": 6,
+   "Unknown": 4,
+   "Kalibangan": 4,
+   "Nausharo": 3,
+   "Ur": 3
+  }
+ },
+ "M328_cup": {
+  "M_signs": [
+   "M328"
+  ],
+  "W_signs": [
+   "W700"
+  ],
+  "m77_distinct_texts_with": 47,
+  "m77_tokens": 54,
+  "dev_texts": 36,
+  "heldout_texts": 11,
+  "icit_distinct_texts_with": 90,
+  "icit_by_type": {
+   "MISC": 2,
+   "POT": 10,
+   "SEAL": 13,
+   "TAB": 58,
+   "ROD": 2,
+   "TAG": 5
+  },
+  "icit_by_site_top": {
+   "Harappa": 64,
+   "Mohenjo-daro": 14,
+   "Lothal": 4,
+   "Banawali": 2,
+   "Dholavira": 2,
+   "Chanhu-daro": 1,
+   "Kalibangan": 1,
+   "Kot-Diji": 1
+  }
+ },
+ "M326_leaf": {
+  "M_signs": [
+   "M326"
+  ],
+  "W_signs": [
+   "W384"
+  ],
+  "m77_distinct_texts_with": 23,
+  "m77_tokens": 24,
+  "dev_texts": 17,
+  "heldout_texts": 6,
+  "icit_distinct_texts_with": 25,
+  "icit_by_type": {
+   "SEAL": 16,
+   "MISC": 1,
+   "TAB": 8
+  },
+  "icit_by_site_top": {
+   "Mohenjo-daro": 12,
+   "Harappa": 7,
+   "Chanhu-daro": 1,
+   "Kalibangan": 1,
+   "Tello": 1,
+   "Dholavira": 1,
+   "Unknown": 1,
+   "Nausharo": 1
+  }
+ },
+ "M93_chanhu_end": {
+  "M_signs": [
+   "M93"
+  ],
+  "W_signs": [],
+  "m77_distinct_texts_with": 10,
+  "m77_tokens": 10,
+  "dev_texts": 8,
+  "heldout_texts": 2,
+  "icit_distinct_texts_with": 0,
+  "icit_by_type": {},
+  "icit_by_site_top": {}
+ },
+ "_denominators": {
+  "m77_distinct": 2270,
+  "dev": 1699,
+  "heldout": 571,
+  "icit_distinct": 3504,
+  "icit_distinct_by_type": {
+   "POT": 347,
+   "TAG": 163,
+   "SEAL": 1967,
+   "MISC": 39,
+   "BNGL": 31,
+   "TAB": 903,
+   "ROD": 33,
+   "IMPL": 18,
+   "POsT": 1,
+   "MDLN": 1,
+   "Unknown": 1
+  },
+  "icit_distinct_by_site_top": {
+   "Mohenjo-daro": 1456,
+   "Harappa": 1299,
+   "Dholavira": 175,
+   "Lothal": 152,
+   "Kalibangan": 119,
+   "Chanhu-daro": 66,
+   "Nausharo": 30,
+   "Unknown": 26,
+   "Banawali": 22,
+   "Allahdino": 12
+  }
+ },
+ "_assemblage_by_site_craft": {
+  "Chanhu-daro|BEAD": {
+   "objects": 28,
+   "fish": 10,
+   "crop": 5,
+   "nonseal": 7
+  },
+  "Chanhu-daro|COPPER": {
+   "objects": 10,
+   "fish": 5,
+   "crop": 2,
+   "nonseal": 1
+  },
+  "Chanhu-daro|KILN": {
+   "objects": 10,
+   "fish": 5,
+   "crop": 2,
+   "nonseal": 1
+  },
+  "Chanhu-daro|NONE": {
+   "objects": 14,
+   "fish": 5,
+   "crop": 1,
+   "nonseal": 1
+  },
+  "Chanhu-daro|SEALCUT": {
+   "objects": 15,
+   "fish": 4,
+   "crop": 3,
+   "nonseal": 2
+  },
+  "Chanhu-daro|SHELL": {
+   "objects": 35,
+   "fish": 14,
+   "crop": 5,
+   "nonseal": 7
+  },
+  "Chanhu-daro|WEIGHT": {
+   "objects": 28,
+   "fish": 12,
+   "crop": 5,
+   "nonseal": 7
+  },
+  "Harappa|BEAD": {
+   "objects": 3,
+   "fish": 1,
+   "crop": 1,
+   "nonseal": 2
+  },
+  "Harappa|COPPER": {
+   "objects": 64,
+   "fish": 11,
+   "crop": 6,
+   "nonseal": 41
+  },
+  "Harappa|NONE": {
+   "objects": 76,
+   "fish": 14,
+   "crop": 5,
+   "nonseal": 45
+  },
+  "Harappa|SEALCUT": {
+   "objects": 125,
+   "fish": 29,
+   "crop": 15,
+   "nonseal": 72
+  },
+  "Harappa|SHELL": {
+   "objects": 15,
+   "fish": 4,
+   "crop": 1,
+   "nonseal": 10
+  },
+  "Harappa|STORAGE": {
+   "objects": 101,
+   "fish": 24,
+   "crop": 16,
+   "nonseal": 63
+  },
+  "Harappa|WEIGHT": {
+   "objects": 610,
+   "fish": 108,
+   "crop": 41,
+   "nonseal": 442
+  },
+  "Lothal|NONE": {
+   "objects": 10,
+   "fish": 2,
+   "crop": 2,
+   "nonseal": 10
+  },
+  "Lothal|STORAGE": {
+   "objects": 56,
+   "fish": 23,
+   "crop": 4,
+   "nonseal": 56
+  },
+  "Mohenjo-daro|COPPER": {
+   "objects": 37,
+   "fish": 12,
+   "crop": 4,
+   "nonseal": 8
+  },
+  "Mohenjo-daro|KILN": {
+   "objects": 29,
+   "fish": 11,
+   "crop": 3,
+   "nonseal": 1
+  },
+  "Mohenjo-daro|NONE": {
+   "objects": 813,
+   "fish": 257,
+   "crop": 117,
+   "nonseal": 138
+  },
+  "Mohenjo-daro|SHELL": {
+   "objects": 30,
+   "fish": 11,
+   "crop": 5,
+   "nonseal": 4
+  },
+  "Mohenjo-daro|WEIGHT": {
+   "objects": 38,
+   "fish": 14,
+   "crop": 7,
+   "nonseal": 3
+  }
+ },
+ "_foreign_rows": 54,
+ "_foreign_cols": [
+  "id",
+  "findspot",
+  "region",
+  "shape",
+  "animal",
+  "date",
+  "seq_wells",
+  "seq_m77",
+  "m77_text",
+  "m77_seq_as_published",
+  "icit_id",
+  "laursen2010_no",
+  "seq_origin",
+  "n_legible",
+  "reading_confidence",
+  "verified_against_image",
+  "new_to_us",
+  "sources",
+  "note"
+ ]
+}

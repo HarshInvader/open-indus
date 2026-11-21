@@ -1,0 +1,26 @@
+site,unit,crafts,target_craft,confidence,primary_set,role,joinable,n_inscribed,n_seal,n_nonseal,n_inscribed_block,n_listed_finds,n_evidence,sources
+Chanhu-daro,7/D,SHELL,yes,low,no,seen,yes,0,0,0,,0,1,Mackay 1943 OCR line 3866
+Chanhu-daro,8/C,BEAD;SHELL,yes,high,yes,seen,yes,12,7,5,,0,2,Mackay 1943 OCR line 3816 | Mackay 1943 OCR line 3866
+Chanhu-daro,8/D,SHELL,yes,low,no,seen,yes,3,3,0,,0,1,Mackay 1943 OCR line 3866
+Chanhu-daro,8/E,SHELL,yes,low,no,seen,yes,4,4,0,,0,1,Mackay 1943 OCR line 3866
+Chanhu-daro,9/C,BEAD;SHELL,yes,high,yes,seen,yes,4,4,0,,0,2,Mackay 1943 OCR line 3816 | Mackay 1943 OCR line 3866
+Chanhu-daro,9/D,BEAD;SHELL,yes,high,yes,seen,yes,10,9,1,,0,3,Mackay 1943 OCR line 3185 | Mackay 1943 OCR line 3816 | Mackay 1943 OCR line 3869
+Chanhu-daro,9/E,FAIENCE;SHELL,yes,medium,yes,seen,yes,2,1,1,,0,2,Mackay 1943 OCR line 3865 | Mackay 1943 OCR line 3874
+Chanhu-daro,9/F,BEAD,yes,high,yes,seen,yes,0,0,0,,0,1,Mackay 1943 OCR line 3816
+Harappa,H14,FAIENCE,yes,low,no,new,yes,0,0,0,,2,1,Vats 1940 OCR line 83424
+Harappa,I13,FAIENCE,yes,low,no,new,yes,38,8,30,,77,1,Vats 1940 OCR line 83424
+Harappa,I14,FAIENCE;JEWEL_HOARD,yes,low,no,new,yes,4,2,2,,26,2,Vats 1940 OCR line 80070 | Vats 1940 OCR line 83424
+Harappa,J12,BEAD;SHELL,yes,high,yes,new,yes,3,1,2,,32,3,Vats 1940 OCR line 8135 | Vats 1940 OCR line 8139 | Vats 1940 OCR line 8166
+Harappa,J13,FAIENCE,yes,low,no,new,yes,0,0,0,,15,1,Vats 1940 OCR line 83424
+Harappa,K8,LAPIDARY,yes,low,no,new,yes,6,2,4,,27,1,Vats 1940 OCR line 5135
+Harappa,M10,BEAD,yes,low,no,new,yes,30,2,28,,47,1,Vats 1940 OCR line 11893
+Harappa,M11,LAPIDARY,yes,low,no,new,yes,143,25,118,,128,1,Vats 1940 OCR line 10438
+Mohenjo-daro,DKC|16|-,JEWELLER,yes,low,no,new,yes,1,1,0,1,7,2,Marshall 1931 vol. II OCR line 23545 | Marshall 1931 vol. II OCR line 25723
+Mohenjo-daro,DKG. (N)|15|VI,JEWELLER,yes,medium,yes,new,yes,3,3,0,9,9,2,Mackay 1938 vol. I OCR line 102515 | Mackay 1938 vol. I OCR line 102533
+Mohenjo-daro,DKG. (N)|18|-,LAPIDARY;SHELL,yes,low,no,new,yes,30,26,4,30,24,2,Mackay 1938 vol. I OCR line 101024 | Mackay 1938 vol. I OCR line 20683
+Mohenjo-daro,DKG. (S)|1|I,FAIENCE;LAPIDARY;SHELL,yes,medium,yes,new,yes,26,25,1,81,58,3,Mackay 1938 vol. I OCR line 103266 | Mackay 1938 vol. I OCR line 6430 | Mackay 1938 vol. I OCR line 81297
+Mohenjo-daro,DKG. (S)|1|VI,FAIENCE,yes,low,no,new,yes,9,7,2,81,9,1,Mackay 1938 vol. I OCR line 114885
+Mohenjo-daro,DKG. (S)|3|V,LAPIDARY,yes,low,no,new,yes,4,3,1,26,0,1,Mackay 1938 vol. I OCR line 115332
+Mohenjo-daro,DK|Trench E (M)|I,JEWEL_HOARD,no,low,no,new,no,,,,,0,1,Marshall 1931 vol. II OCR line 25738
+Mohenjo-daro,HRB|2|VIII,JEWELLER,yes,medium,yes,new,yes,0,0,0,26,0,2,Marshall 1931 vol. II OCR line 25895 | Marshall 1931 vol. II OCR line 25907
+Mohenjo-daro,VS|?|XXII,SHELL,yes,low,no,new,no,,,,,0,1,Marshall 1931 vol. II OCR line 31047

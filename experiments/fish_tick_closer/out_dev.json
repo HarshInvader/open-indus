@@ -1,0 +1,84 @@
+{
+ "DEV": {
+  "n_texts": 971,
+  "p1": {
+   "bases": [
+    {
+     "base": "M59",
+     "tick": "M60",
+     "nA": 21,
+     "nB": 6,
+     "nD": 76,
+     "testable": true,
+     "delta": -0.2791911064015984,
+     "p": 0.9717,
+     "null_mean": -0.07699673304663356
+    },
+    {
+     "base": "M65",
+     "tick": "M66",
+     "nA": 7,
+     "nB": 5,
+     "nD": 45,
+     "testable": true,
+     "delta": 0.06299831146205359,
+     "p": 0.0823,
+     "null_mean": -0.10835463242953812
+    },
+    {
+     "base": "M67",
+     "tick": "M68",
+     "nA": 3,
+     "nB": 13,
+     "nD": 43,
+     "testable": true,
+     "delta": 0.009420505222219933,
+     "p": 0.4482,
+     "null_mean": -0.020643152445666255
+    },
+    {
+     "base": "M70",
+     "tick": "M71",
+     "nA": 3,
+     "nB": 7,
+     "nD": 18,
+     "testable": true,
+     "delta": -0.14728952534782735,
+     "p": 0.9321,
+     "null_mean": -0.029108967079175634
+    },
+    {
+     "base": "M72",
+     "tick": "M73",
+     "nA": 4,
+     "nB": 10,
+     "nD": 39,
+     "testable": true,
+     "delta": -0.06735824177986205,
+     "p": 0.6181,
+     "null_mean": -0.04307573432833417
+    }
+   ],
+   "n_pass_001": 0,
+   "pooled": {
+    "n_testable": 5,
+    "delta_sum": -0.42142005684501427,
+    "p": 0.6955
+   }
+  },
+  "p1_pass": false,
+  "p2": {
+   "n_target": 21,
+   "k_no_other_closer": 20,
+   "share": 0.9523809523809523,
+   "n_ref": 325,
+   "closer_final_no_second": 0.9565217391304348,
+   "n_closer_final": 276,
+   "testable": true,
+   "expected": 16.1706360957808,
+   "null_share": 0.7700302902752763,
+   "p": 0.026429735702642974
+  },
+  "p2_pass": false
+ }
+}

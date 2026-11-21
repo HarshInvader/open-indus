@@ -1,0 +1,44 @@
+{
+ "primary (high+medium, new sites): 4 units, 3 with texts": {
+  "n_objects": 32,
+  "n_units": 3,
+  "binom_power_1.5x": 0.483,
+  "clustered_power_1.5x_rho0.1": 0.205,
+  "binom_power_2.0x": 0.954,
+  "clustered_power_2.0x_rho0.1": 0.563
+ },
+ "Mohenjo-daro all coded joinable: 7 units, 6 with texts": {
+  "n_objects": 73,
+  "n_units": 6,
+  "binom_power_1.5x": 0.847,
+  "clustered_power_1.5x_rho0.1": 0.412,
+  "binom_power_2.0x": 1.0,
+  "clustered_power_2.0x_rho0.1": 0.885
+ },
+ "all new coded incl. low: 15 units, 12 with texts": {
+  "n_objects": 297,
+  "n_units": 12,
+  "binom_power_1.5x": 1.0,
+  "clustered_power_1.5x_rho0.1": 0.479,
+  "binom_power_2.0x": 1.0,
+  "clustered_power_2.0x_rho0.1": 0.962
+ },
+ "hypothetical 100 texts in 10 units": {
+  "n_objects": 100,
+  "n_units": 10,
+  "binom_power_1.5x": 0.905,
+  "clustered_power_1.5x_rho0.1": 0.684,
+  "binom_power_2.0x": 1.0,
+  "clustered_power_2.0x_rho0.1": 0.998
+ },
+ "hypothetical 200 texts in 20 units": {
+  "n_objects": 200,
+  "n_units": 20,
+  "binom_power_1.5x": 0.996,
+  "clustered_power_1.5x_rho0.1": 0.933,
+  "binom_power_2.0x": 1.0,
+  "clustered_power_2.0x_rho0.1": 1.0
+ },
+ "n_for_80pct_binom_1.5x": 67,
+ "n_for_80pct_binom_2.0x": 17
+}

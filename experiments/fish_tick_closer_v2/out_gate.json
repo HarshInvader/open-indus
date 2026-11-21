@@ -1,0 +1,499 @@
+{
+ "DEV": {
+  "true_example": {
+   "p1": {
+    "bases": [
+     {
+      "base": "M59",
+      "tick": "X0",
+      "nA": 13,
+      "nB": 31,
+      "nD": 145,
+      "testable": true,
+      "delta": 0.027869147626162216,
+      "p": 0.193,
+      "null_mean": -0.02309426325601884
+     },
+     {
+      "base": "M65",
+      "tick": "X1",
+      "nA": 2,
+      "nB": 6,
+      "nD": 96,
+      "testable": false
+     },
+     {
+      "base": "M67",
+      "tick": "X2",
+      "nA": 5,
+      "nB": 10,
+      "nD": 127,
+      "testable": true,
+      "delta": -0.164927158178637,
+      "p": 0.821,
+      "null_mean": -0.05737098615496361
+     },
+     {
+      "base": "M70",
+      "tick": "X3",
+      "nA": 2,
+      "nB": 6,
+      "nD": 35,
+      "testable": false
+     },
+     {
+      "base": "M72",
+      "tick": "X4",
+      "nA": 6,
+      "nB": 14,
+      "nD": 81,
+      "testable": true,
+      "delta": 0.1428194097473523,
+      "p": 0.054,
+      "null_mean": -0.027783893446704837
+     }
+    ],
+    "n_pass_001": 0,
+    "pooled": {
+     "n_testable": 3,
+     "delta_sum": 0.005761399194877503,
+     "p": 0.245
+    }
+   },
+   "p2": {
+    "n_target": 15,
+    "k_no_other_closer": 15,
+    "share": 1.0,
+    "n_ref": 453,
+    "closer_final_no_second": 0.9576719576719577,
+    "n_closer_final": 567,
+    "testable": true,
+    "expected": 11.846420220449165,
+    "null_share": 0.7897613480299444,
+    "p": 0.019198080191980802
+   }
+  },
+  "true": {
+   "p1_detect": 0.0,
+   "p2_detect": 0.25,
+   "planted_tokens_per_base_mean": [
+    13.0,
+    2.0,
+    5.0,
+    2.0,
+    6.0
+   ],
+   "planted_final_texts_mean": 12.92
+  },
+  "false_alarm_example": {
+   "p1": {
+    "bases": [
+     {
+      "base": "M59",
+      "tick": "X0",
+      "nA": 13,
+      "nB": 42,
+      "nD": 136,
+      "testable": true,
+      "delta": 0.011461844261373866,
+      "p": 0.224,
+      "null_mean": -0.03155963697233078
+     },
+     {
+      "base": "M65",
+      "tick": "X1",
+      "nA": 2,
+      "nB": 8,
+      "nD": 94,
+      "testable": false
+     },
+     {
+      "base": "M67",
+      "tick": "X2",
+      "nA": 5,
+      "nB": 15,
+      "nD": 122,
+      "testable": true,
+      "delta": 0.03541745051851242,
+      "p": 0.183,
+      "null_mean": -0.04135340098855851
+     },
+     {
+      "base": "M70",
+      "tick": "X3",
+      "nA": 2,
+      "nB": 8,
+      "nD": 33,
+      "testable": false
+     },
+     {
+      "base": "M72",
+      "tick": "X4",
+      "nA": 6,
+      "nB": 18,
+      "nD": 78,
+      "testable": true,
+      "delta": 0.0002313837104915839,
+      "p": 0.296,
+      "null_mean": -0.038177779204040765
+     }
+    ],
+    "n_pass_001": 0,
+    "pooled": {
+     "n_testable": 3,
+     "delta_sum": 0.047110678490377866,
+     "p": 0.114
+    }
+   },
+   "p2": {
+    "n_target": 0,
+    "k_no_other_closer": 0,
+    "share": null,
+    "n_ref": 453,
+    "closer_final_no_second": 0.9536082474226805,
+    "n_closer_final": 582,
+    "testable": false,
+    "p": null
+   }
+  },
+  "false_alarm": {
+   "p1_detect": 0.0,
+   "p2_detect": 0.0,
+   "planted_tokens_per_base_mean": [
+    13.0,
+    2.0,
+    5.0,
+    2.0,
+    6.0
+   ],
+   "planted_final_texts_mean": 0.51
+  },
+  "p1_gate_pass": false,
+  "p2_gate_pass": false,
+  "p1_miscalibrated": false,
+  "p2_miscalibrated": false
+ },
+ "HELD": {
+  "true_example": {
+   "p1": {
+    "bases": [
+     {
+      "base": "M59",
+      "tick": "X0",
+      "nA": 5,
+      "nB": 10,
+      "nD": 49,
+      "testable": true,
+      "delta": 0.374829039039413,
+      "p": 0.001,
+      "null_mean": -0.03421308439868881
+     },
+     {
+      "base": "M65",
+      "tick": "X1",
+      "nA": 1,
+      "nB": 2,
+      "nD": 36,
+      "testable": false
+     },
+     {
+      "base": "M67",
+      "tick": "X2",
+      "nA": 2,
+      "nB": 6,
+      "nD": 23,
+      "testable": false
+     },
+     {
+      "base": "M70",
+      "tick": "X3",
+      "nA": 2,
+      "nB": 3,
+      "nD": 7,
+      "testable": false
+     },
+     {
+      "base": "M72",
+      "tick": "X4",
+      "nA": 2,
+      "nB": 4,
+      "nD": 23,
+      "testable": false
+     }
+    ],
+    "n_pass_001": 1,
+    "pooled": {
+     "n_testable": 1,
+     "delta_sum": 0.374829039039413,
+     "p": 0.001
+    }
+   },
+   "p2": {
+    "n_target": 6,
+    "k_no_other_closer": 6,
+    "share": 1.0,
+    "n_ref": 205,
+    "closer_final_no_second": 0.974025974025974,
+    "n_closer_final": 154,
+    "testable": true,
+    "expected": 5.049622926093514,
+    "null_share": 0.8416038210155857,
+    "p": 0.3120687931206879
+   }
+  },
+  "true": {
+   "p1_detect": 0.795,
+   "p2_detect": 0.0,
+   "planted_tokens_per_base_mean": [
+    5.0,
+    1.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "planted_final_texts_mean": 4.545
+  },
+  "false_alarm_example": {
+   "p1": {
+    "bases": [
+     {
+      "base": "M59",
+      "tick": "X0",
+      "nA": 5,
+      "nB": 14,
+      "nD": 45,
+      "testable": true,
+      "delta": -0.23789255372577267,
+      "p": 0.993,
+      "null_mean": -0.02466879770171188
+     },
+     {
+      "base": "M65",
+      "tick": "X1",
+      "nA": 1,
+      "nB": 3,
+      "nD": 35,
+      "testable": false
+     },
+     {
+      "base": "M67",
+      "tick": "X2",
+      "nA": 2,
+      "nB": 7,
+      "nD": 22,
+      "testable": false
+     },
+     {
+      "base": "M70",
+      "tick": "X3",
+      "nA": 2,
+      "nB": 4,
+      "nD": 6,
+      "testable": false
+     },
+     {
+      "base": "M72",
+      "tick": "X4",
+      "nA": 2,
+      "nB": 6,
+      "nD": 22,
+      "testable": false
+     }
+    ],
+    "n_pass_001": 0,
+    "pooled": {
+     "n_testable": 1,
+     "delta_sum": -0.23789255372577267,
+     "p": 0.993
+    }
+   },
+   "p2": {
+    "n_target": 1,
+    "k_no_other_closer": 1,
+    "share": 1.0,
+    "n_ref": 205,
+    "closer_final_no_second": 0.968944099378882,
+    "n_closer_final": 161,
+    "testable": true,
+    "expected": 1.0,
+    "null_share": 1.0,
+    "p": 1.0
+   }
+  },
+  "false_alarm": {
+   "p1_detect": 0.045,
+   "p2_detect": 0.0,
+   "planted_tokens_per_base_mean": [
+    5.0,
+    1.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "planted_final_texts_mean": 0.175
+  },
+  "p1_gate_pass": false,
+  "p2_gate_pass": false,
+  "p1_miscalibrated": false,
+  "p2_miscalibrated": false
+ },
+ "NEW": {
+  "true_example": {
+   "p1": {
+    "bases": [
+     {
+      "base": "W220",
+      "tick": "X0",
+      "nA": 2,
+      "nB": 4,
+      "nD": 15,
+      "testable": false
+     },
+     {
+      "base": "W235",
+      "tick": "X1",
+      "nA": 1,
+      "nB": 1,
+      "nD": 6,
+      "testable": false
+     },
+     {
+      "base": "W240",
+      "tick": "X2",
+      "nA": 0,
+      "nB": 1,
+      "nD": 7,
+      "testable": false
+     },
+     {
+      "base": "W231",
+      "tick": "X3",
+      "nA": 0,
+      "nB": 0,
+      "nD": 3,
+      "testable": false
+     },
+     {
+      "base": "W233",
+      "tick": "X4",
+      "nA": 0,
+      "nB": 1,
+      "nD": 5,
+      "testable": false
+     }
+    ],
+    "n_pass_001": 0,
+    "pooled": {
+     "n_testable": 0,
+     "delta_sum": 0.0,
+     "p": null
+    }
+   },
+   "p2": {
+    "n_target": 1,
+    "k_no_other_closer": 1,
+    "share": 1.0,
+    "n_ref": 65,
+    "closer_final_no_second": 0.9827586206896551,
+    "n_closer_final": 58,
+    "testable": true,
+    "expected": 0.875,
+    "null_share": 0.875,
+    "p": 0.8766123387661234
+   }
+  },
+  "true": {
+   "p1_detect": 0.0,
+   "p2_detect": 0.0,
+   "planted_tokens_per_base_mean": [
+    2.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planted_final_texts_mean": 1.33
+  },
+  "false_alarm_example": {
+   "p1": {
+    "bases": [
+     {
+      "base": "W220",
+      "tick": "X0",
+      "nA": 2,
+      "nB": 5,
+      "nD": 14,
+      "testable": false
+     },
+     {
+      "base": "W235",
+      "tick": "X1",
+      "nA": 1,
+      "nB": 2,
+      "nD": 5,
+      "testable": false
+     },
+     {
+      "base": "W240",
+      "tick": "X2",
+      "nA": 0,
+      "nB": 1,
+      "nD": 7,
+      "testable": false
+     },
+     {
+      "base": "W231",
+      "tick": "X3",
+      "nA": 0,
+      "nB": 0,
+      "nD": 3,
+      "testable": false
+     },
+     {
+      "base": "W233",
+      "tick": "X4",
+      "nA": 0,
+      "nB": 1,
+      "nD": 5,
+      "testable": false
+     }
+    ],
+    "n_pass_001": 0,
+    "pooled": {
+     "n_testable": 0,
+     "delta_sum": 0.0,
+     "p": null
+    }
+   },
+   "p2": {
+    "n_target": 1,
+    "k_no_other_closer": 1,
+    "share": 1.0,
+    "n_ref": 65,
+    "closer_final_no_second": 0.9830508474576272,
+    "n_closer_final": 59,
+    "testable": true,
+    "expected": 0.875,
+    "null_share": 0.875,
+    "p": 0.8766123387661234
+   }
+  },
+  "false_alarm": {
+   "p1_detect": 0.0,
+   "p2_detect": 0.0,
+   "planted_tokens_per_base_mean": [
+    2.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "planted_final_texts_mean": 0.19
+  },
+  "p1_gate_pass": false,
+  "p2_gate_pass": false,
+  "p1_miscalibrated": false,
+  "p2_miscalibrated": false
+ },
+ "STOP": true
+}

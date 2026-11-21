@@ -359,3 +359,25 @@ b1a79a08fbd2dca94abf3022be9258296bf5fa1d33c5ff51ec4d67608a8e178a  experiments/ca
 2f36aad64c12edc887a54294197689981429e76347072e832481516779b95ae1  experiments/guess_rehearsal/build.py  2026-11-20T19:30:13Z  guess_rehearsal (owner request)
 f66c6bb439199ee3446c69aaac80eee88e930e4de056a716bd2fe66c48e28524  experiments/guess_rehearsal/score.py  2026-11-20T19:30:13Z  guess_rehearsal (owner request)
 99f4a16da231d420918f2991fa01065c4d7525ec06f391f338e9b14b861f17bf  experiments/guess_rehearsal/sealed/key.json  2026-11-20T19:30:13Z  guess_rehearsal (owner request)
+e67ad5e00f18cd6603fe34ac8ce6b509bbc86c3e3a5cd1efac30bbcb98144cea  docs/prereg/fish_tick_closer.md  2026-11-20T21:29:55Z  fish_tick_closer (plan 9 story 3)
+dbdd939a018459d9284366f54d0f844b7ffb77bffbd8617790d576c3d53c6096  experiments/fish_tick_closer/ftc.py  2026-11-20T21:29:55Z  fish_tick_closer (plan 9 story 3)
+c0af688cdd7ea4a650ce3090fc6a7be37c0a07db5eba353b025f91e8a58a9fbb  experiments/fish_tick_closer/run.py  2026-11-20T21:29:55Z  fish_tick_closer (plan 9 story 3)
+572ff5cfcf96ec897fea32ae19d70346b82cb2d2c100191f787cfb800885e79a  docs/prereg/parpola_rules34.md  2026-11-20T22:11:14Z  parpola_rules34 (meaning_claims rules 3-4)
+869df08430f11e973c0448103edfd861e08e3778a49a3b79dab52d0623c37421  experiments/parpola_rules34/p34.py  2026-11-20T22:11:14Z  parpola_rules34 (meaning_claims rules 3-4)
+adc238692bcd2cdeac52887384eeab5bb18a592b4a67bfd67386377897f45146  experiments/parpola_rules34/run.py  2026-11-20T22:11:14Z  parpola_rules34 (meaning_claims rules 3-4)
+8954dbde543c6c56222ae947cb73c2f309ceef79158583d414bc0649d69aee88  experiments/parpola_rules34/run.py  2026-11-20T22:11:29Z  parpola_rules34 (fix 1: import path for python -I; no logic change)
+8c80eb20b6fb0cf62794b6eb8666aa6ba94d413fdbd6550cf2d822442bb74fdb  experiments/bead_workshops/bead_units.csv  2026-11-20T22:13:50Z  bead_workshops_coding
+5b8396f15ce054ed686dc45cb16f0da1d81c75c577fc7c9a6394beafd0ca2622  experiments/bead_workshops/build_units.py  2026-11-20T22:13:50Z  bead_workshops_coding
+1aa39bc4cc5829d1dc5863a8bfcc9a9835fb85379e8c95bf3ec10fe03fb7a83b  experiments/bead_workshops/bead_evidence.csv  2026-11-20T22:13:50Z  bead_workshops_coding
+1aaf4fad31a24e806b97759fde55c1f4936225138bdc915f6e8088fcf60f03c0  experiments/bead_workshops/unit_density.csv  2026-11-20T22:13:50Z  bead_workshops_coding
+0003e1fe4027afbaa1de13b15580213083cdfcde6d607a02e43891fa3d85345a  experiments/bead_workshops/CODING_RULES.md  2026-11-20T22:13:50Z  bead_workshops_coding
+ba46aa5953f4c1c60a182ffad54ae7f135a27c9bf26f387dc094a22ea6465fb0  docs/prereg/weight_sign.md  2026-11-20T22:19:38Z  weight_sign
+be94fffa6ccd49f90924c55a5039a44a6633600cf0a9b448c4ed48f0e0d8af7e  experiments/weight_sign/test.py  2026-11-20T22:19:38Z  weight_sign
+717968671a638698b75f30c4ce5dfb780be53c445fb6d85ed1a3379ed5e39b6e  experiments/weight_sign/build_weights.py  2026-11-20T22:19:38Z  weight_sign
+0e230ddb7f760a634389f6dda1beae2e57ab496268d2a5787dcd9255736ba844  experiments/weight_sign/weights_md.csv  2026-11-20T22:19:38Z  weight_sign
+e4e4515ae78b365e58375f0fe856e45741ec56f0b0c1e010c9822f37d9a1cf17  experiments/weight_sign/weight_units_md.csv  2026-11-20T22:19:38Z  weight_sign
+5854f5b1da04042b0e6e7c9547e7d2f75aab95c7871d3e0ea489250fd78f8a90  docs/prereg/fish_tick_closer_v2.md  2026-11-20T22:23:32Z  fish_tick_closer_v2
+452502d81221a6f70a1c5e19327619f5ee91a216e0516ab8bdfdc0850f9aadbe  experiments/fish_tick_closer_v2/dedup.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
+14be5ca76d7205b6441353db4c9c1bf55ac0d5db5a3fa2ef2c0f76a9c422214f  experiments/fish_tick_closer_v2/run_v2.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
+dbdd939a018459d9284366f54d0f844b7ffb77bffbd8617790d576c3d53c6096  experiments/fish_tick_closer/ftc.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
+c0af688cdd7ea4a650ce3090fc6a7be37c0a07db5eba353b025f91e8a58a9fbb  experiments/fish_tick_closer/run.py  2026-11-20T22:23:32Z  fish_tick_closer_v2
