@@ -1,0 +1,322 @@
+{
+ "T01": {
+  "class": "LIVESTOCK",
+  "gloss": "animal",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Grid-in-round form recurring in numeric category series with T36/T16/X0147."
+ },
+ "T02": {
+  "class": "VESSEL",
+  "gloss": "vessel",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Round body with two side handles looks like a jar."
+ },
+ "T03": {
+  "class": "PLACE_INST",
+  "gloss": "field",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Plain L-shaped box resembles a plot or building plan."
+ },
+ "T04": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Abstract chevron, often a lone label near numbers."
+ },
+ "T05": {
+  "class": "GRAIN_FOOD",
+  "gloss": "barley ears",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Fishbone strokes resemble ears of grain."
+ },
+ "T06": {
+  "class": "LIVESTOCK",
+  "gloss": "animal category",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Appears in the T36/T16 numeric series."
+ },
+ "T07": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain measure",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Tally strokes with a loop, mostly after numbers."
+ },
+ "T08": {
+  "class": "TEXTILE",
+  "gloss": "cloth",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Paired half forms with lines resemble folded textile."
+ },
+ "T09": {
+  "class": "LIVESTOCK",
+  "gloss": "animal",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Fish or bird-like pictographic shapes."
+ },
+ "T10": {
+  "class": "TEXTILE",
+  "gloss": "wool or fibre",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Hair-like strokes ending in a block."
+ },
+ "T11": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person title",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Single stroke form, abstract."
+ },
+ "T12": {
+  "class": "PLACE_INST",
+  "gloss": "house or institution",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Pentagonal house outline with star."
+ },
+ "T13": {
+  "class": "VESSEL",
+  "gloss": "bowl",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Half-disc shapes like bowls."
+ },
+ "T14": {
+  "class": "OFFICE_PERSON",
+  "gloss": "worker",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Triangle with eye-like part, frequent in lists."
+ },
+ "T15": {
+  "class": "GRAIN_FOOD",
+  "gloss": "ration",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ruled box with ears, like ration or grain."
+ },
+ "T16": {
+  "class": "LIVESTOCK",
+  "gloss": "animal",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Series with T36 and T06 suggests counted animal categories."
+ },
+ "T17": {
+  "class": "VESSEL",
+  "gloss": "jar",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Bell or pot shape with ruling."
+ },
+ "T18": {
+  "class": "OFFICE_PERSON",
+  "gloss": "official",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Circle with divider and handle, abstract."
+ },
+ "T19": {
+  "class": "VESSEL",
+  "gloss": "measure vessel",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Round and square bodies with handle, vessel-like."
+ },
+ "T20": {
+  "class": "OTHER_GOODS",
+  "gloss": "goods",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Triangle with grid, unclear."
+ },
+ "T21": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Chevron variant, frequently near numbers."
+ },
+ "T22": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Comb of strokes like stalks."
+ },
+ "T23": {
+  "class": "OTHER_GOODS",
+  "gloss": "tool",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Implement-like shape."
+ },
+ "T24": {
+  "class": "OTHER_GOODS",
+  "gloss": "metal or wood",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Diamond with spikes, unclear."
+ },
+ "T25": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "liquid",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Cup with curved flow."
+ },
+ "T26": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Triangle and bar, abstract."
+ },
+ "T27": {
+  "class": "VESSEL",
+  "gloss": "vessel",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Hook and cup form."
+ },
+ "T28": {
+  "class": "PLACE_INST",
+  "gloss": "building",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Roof-like outline on a baseline."
+ },
+ "T29": {
+  "class": "TEXTILE",
+  "gloss": "cloth",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Hatched square with rays like woven cloth."
+ },
+ "T30": {
+  "class": "OTHER_GOODS",
+  "gloss": "goods",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Bar with prongs, unclear."
+ },
+ "T31": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "oil or beer",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Barrel-like striped container."
+ },
+ "T32": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Fish-like pictograph."
+ },
+ "T33": {
+  "class": "PLACE_INST",
+  "gloss": "field or canal",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "L-shaped with comb strokes, like a plot."
+ },
+ "T34": {
+  "class": "OTHER_GOODS",
+  "gloss": "boat or wood",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Boat-like outline."
+ },
+ "T35": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Half form with ray strokes."
+ },
+ "T36": {
+  "class": "LIVESTOCK",
+  "gloss": "animal",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ring form in the numeric category series."
+ },
+ "T37": {
+  "class": "LIVESTOCK",
+  "gloss": "animal category",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Co-occurs with T36 and T16."
+ },
+ "T38": {
+  "class": "LIVESTOCK",
+  "gloss": "horned animal",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Horn-like curves."
+ },
+ "T39": {
+  "class": "PLACE_INST",
+  "gloss": "field",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Grid like a field plan."
+ },
+ "T40": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Tally strokes with a bowl form."
+ }
+}

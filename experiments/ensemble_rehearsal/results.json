@@ -1,0 +1,1132 @@
+{
+ "n_guessers": 10,
+ "guessers": [
+  "G01",
+  "G02",
+  "G03",
+  "G04",
+  "G05",
+  "G06",
+  "G07",
+  "G08",
+  "G09",
+  "G10"
+ ],
+ "n_targets": 40,
+ "n_recognised_any": 14,
+ "n_not_recognised": 26,
+ "recognised_ids": [
+  "T03",
+  "T04",
+  "T06",
+  "T08",
+  "T09",
+  "T12",
+  "T13",
+  "T15",
+  "T16",
+  "T20",
+  "T21",
+  "T23",
+  "T32",
+  "T36"
+ ],
+ "primary": {
+  "agreement_rule": 0.7,
+  "n_high_agreement": 4,
+  "n_correct": 1,
+  "coverage": 0.154,
+  "precision": 0.25,
+  "precision_ci95_cp": [
+   0.006,
+   0.806
+  ],
+  "binom_p_vs_0.125": 0.413818359375,
+  "verdict": "KILL"
+ },
+ "curve": [
+  {
+   "threshold": 0.3,
+   "n": 25,
+   "correct": 7,
+   "coverage": 0.962,
+   "precision": 0.28,
+   "ci95": [
+    0.121,
+    0.494
+   ]
+  },
+  {
+   "threshold": 0.4,
+   "n": 23,
+   "correct": 7,
+   "coverage": 0.885,
+   "precision": 0.304,
+   "ci95": [
+    0.132,
+    0.529
+   ]
+  },
+  {
+   "threshold": 0.5,
+   "n": 19,
+   "correct": 6,
+   "coverage": 0.731,
+   "precision": 0.316,
+   "ci95": [
+    0.126,
+    0.566
+   ]
+  },
+  {
+   "threshold": 0.6,
+   "n": 11,
+   "correct": 4,
+   "coverage": 0.423,
+   "precision": 0.364,
+   "ci95": [
+    0.109,
+    0.692
+   ]
+  },
+  {
+   "threshold": 0.7,
+   "n": 4,
+   "correct": 1,
+   "coverage": 0.154,
+   "precision": 0.25,
+   "ci95": [
+    0.006,
+    0.806
+   ]
+  },
+  {
+   "threshold": 0.8,
+   "n": 1,
+   "correct": 1,
+   "coverage": 0.038,
+   "precision": 1.0,
+   "ci95": [
+    0.025,
+    1.0
+   ]
+  },
+  {
+   "threshold": 0.9,
+   "n": 0,
+   "correct": 0,
+   "coverage": 0.0,
+   "precision": null,
+   "ci95": [
+    null,
+    null
+   ]
+  },
+  {
+   "threshold": 1.0,
+   "n": 0,
+   "correct": 0,
+   "coverage": 0.0,
+   "precision": null,
+   "ci95": [
+    null,
+    null
+   ]
+  }
+ ],
+ "plurality_acc_not_recognised": [
+  7,
+  26,
+  0.269
+ ],
+ "perm_null": {
+  "0.5": {
+   "obs_correct": 6,
+   "p_correct_ge_obs": 9.999000099990002e-05,
+   "null_mean_n_selected": 2.25,
+   "null_mean_precision_when_nonempty": 0.208,
+   "null_frac_nonempty": 0.919
+  },
+  "0.6": {
+   "obs_correct": 4,
+   "p_correct_ge_obs": 9.999000099990002e-05,
+   "null_mean_n_selected": 0.36,
+   "null_mean_precision_when_nonempty": 0.208,
+   "null_frac_nonempty": 0.31
+  },
+  "0.7": {
+   "obs_correct": 1,
+   "p_correct_ge_obs": 0.008799120087991202,
+   "null_mean_n_selected": 0.04,
+   "null_mean_precision_when_nonempty": 0.228,
+   "null_frac_nonempty": 0.037
+  }
+ },
+ "single_guesser": {
+  "G01": {
+   "acc_on_ensemble_nonrec": [
+    6,
+    26,
+    0.231
+   ],
+   "acc_on_own_nonrec": [
+    10,
+    38,
+    0.263
+   ],
+   "n_flagged": 2
+  },
+  "G02": {
+   "acc_on_ensemble_nonrec": [
+    7,
+    26,
+    0.269
+   ],
+   "acc_on_own_nonrec": [
+    10,
+    40,
+    0.25
+   ],
+   "n_flagged": 0
+  },
+  "G03": {
+   "acc_on_ensemble_nonrec": [
+    5,
+    26,
+    0.192
+   ],
+   "acc_on_own_nonrec": [
+    5,
+    40,
+    0.125
+   ],
+   "n_flagged": 0
+  },
+  "G04": {
+   "acc_on_ensemble_nonrec": [
+    8,
+    26,
+    0.308
+   ],
+   "acc_on_own_nonrec": [
+    11,
+    31,
+    0.355
+   ],
+   "n_flagged": 9
+  },
+  "G05": {
+   "acc_on_ensemble_nonrec": [
+    8,
+    26,
+    0.308
+   ],
+   "acc_on_own_nonrec": [
+    12,
+    37,
+    0.324
+   ],
+   "n_flagged": 3
+  },
+  "G06": {
+   "acc_on_ensemble_nonrec": [
+    2,
+    26,
+    0.077
+   ],
+   "acc_on_own_nonrec": [
+    4,
+    40,
+    0.1
+   ],
+   "n_flagged": 0
+  },
+  "G07": {
+   "acc_on_ensemble_nonrec": [
+    3,
+    26,
+    0.115
+   ],
+   "acc_on_own_nonrec": [
+    5,
+    40,
+    0.125
+   ],
+   "n_flagged": 0
+  },
+  "G08": {
+   "acc_on_ensemble_nonrec": [
+    10,
+    26,
+    0.385
+   ],
+   "acc_on_own_nonrec": [
+    12,
+    29,
+    0.414
+   ],
+   "n_flagged": 11
+  },
+  "G09": {
+   "acc_on_ensemble_nonrec": [
+    7,
+    26,
+    0.269
+   ],
+   "acc_on_own_nonrec": [
+    14,
+    40,
+    0.35
+   ],
+   "n_flagged": 0
+  },
+  "G10": {
+   "acc_on_ensemble_nonrec": [
+    7,
+    26,
+    0.269
+   ],
+   "acc_on_own_nonrec": [
+    11,
+    40,
+    0.275
+   ],
+   "n_flagged": 0
+  }
+ },
+ "single_guesser_mean_acc": 0.242,
+ "single_guesser_range": [
+  0.077,
+  0.385
+ ],
+ "majority_class_baseline_nonrec": 0.269,
+ "recognition_calls": [
+  {
+   "id": "T03",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform AB~a",
+   "class": "PLACE_INST",
+   "truth_sign": "URU~a1",
+   "truth": "PLACE_INST",
+   "class_right": true
+  },
+  {
+   "id": "T04",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform AB2 (cow)",
+   "class": "LIVESTOCK",
+   "truth_sign": "AMAR",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T06",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform MASZ2",
+   "class": "LIVESTOCK",
+   "truth_sign": "MASZ2",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T06",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform MASZ2 / UD5 (goat)",
+   "class": "LIVESTOCK",
+   "truth_sign": "MASZ2",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T08",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform SANGA",
+   "class": "OFFICE_PERSON",
+   "truth_sign": "KISAL~b1",
+   "truth": "PLACE_INST",
+   "class_right": false
+  },
+  {
+   "id": "T09",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform KASZ (beer jar)",
+   "class": "LIQUID_DAIRY",
+   "truth_sign": "SZIM~a",
+   "truth": "OTHER_GOODS",
+   "class_right": false
+  },
+  {
+   "id": "T12",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform AMA (GA2xAN)",
+   "class": "OFFICE_PERSON",
+   "truth_sign": "AMA~a",
+   "truth": "OFFICE_PERSON",
+   "class_right": true
+  },
+  {
+   "id": "T12",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform AMA (house frame with star)",
+   "class": "OFFICE_PERSON",
+   "truth_sign": "AMA~a",
+   "truth": "OFFICE_PERSON",
+   "class_right": true
+  },
+  {
+   "id": "T13",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform KUR~a",
+   "class": "OFFICE_PERSON",
+   "truth_sign": "KUR~a",
+   "truth": "PLACE_INST",
+   "class_right": false
+  },
+  {
+   "id": "T13",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform KUR (three hills, male slave)",
+   "class": "OFFICE_PERSON",
+   "truth_sign": "KUR~a",
+   "truth": "PLACE_INST",
+   "class_right": false
+  },
+  {
+   "id": "T15",
+   "guesser": "G05",
+   "recognised_as": "TUG2 (cloth), proto-cuneiform",
+   "class": "TEXTILE",
+   "truth_sign": "NIMGIR",
+   "truth": "OFFICE_PERSON",
+   "class_right": false
+  },
+  {
+   "id": "T16",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform U8 / UDUNITA",
+   "class": "LIVESTOCK",
+   "truth_sign": "UDUNITA~a",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T16",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform UDUNITA",
+   "class": "LIVESTOCK",
+   "truth_sign": "UDUNITA~a",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T20",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform NIN (SAL + cloth sign)",
+   "class": "OFFICE_PERSON",
+   "truth_sign": "NIN",
+   "truth": "OFFICE_PERSON",
+   "class_right": true
+  },
+  {
+   "id": "T21",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform GU4",
+   "class": "LIVESTOCK",
+   "truth_sign": "GU4",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T21",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform AMAR (calf)",
+   "class": "LIVESTOCK",
+   "truth_sign": "GU4",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T23",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform MUSZEN",
+   "class": "LIVESTOCK",
+   "truth_sign": "NAR",
+   "truth": "OFFICE_PERSON",
+   "class_right": false
+  },
+  {
+   "id": "T32",
+   "guesser": "G01",
+   "recognised_as": "proto-cuneiform fish sign (KU6/SUHUR family)",
+   "class": "LIVESTOCK",
+   "truth_sign": "NAGAR~a",
+   "truth": "OFFICE_PERSON",
+   "class_right": false
+  },
+  {
+   "id": "T32",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform KU6",
+   "class": "LIVESTOCK",
+   "truth_sign": "NAGAR~a",
+   "truth": "OFFICE_PERSON",
+   "class_right": false
+  },
+  {
+   "id": "T32",
+   "guesser": "G05",
+   "recognised_as": "KU6 / SUHUR (fish), proto-cuneiform",
+   "class": "LIVESTOCK",
+   "truth_sign": "NAGAR~a",
+   "truth": "OFFICE_PERSON",
+   "class_right": false
+  },
+  {
+   "id": "T32",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform KU6 / SUHUR (fish)",
+   "class": "LIVESTOCK",
+   "truth_sign": "NAGAR~a",
+   "truth": "OFFICE_PERSON",
+   "class_right": false
+  },
+  {
+   "id": "T36",
+   "guesser": "G01",
+   "recognised_as": "proto-cuneiform UDU-type sheep sign (U8 ewe?)",
+   "class": "LIVESTOCK",
+   "truth_sign": "U8",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T36",
+   "guesser": "G04",
+   "recognised_as": "proto-cuneiform UDU / U8",
+   "class": "LIVESTOCK",
+   "truth_sign": "U8",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T36",
+   "guesser": "G05",
+   "recognised_as": "UDU (sheep) with variant markings, proto-cuneiform",
+   "class": "LIVESTOCK",
+   "truth_sign": "U8",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  },
+  {
+   "id": "T36",
+   "guesser": "G08",
+   "recognised_as": "proto-cuneiform UDU / U8 (sheep, ewe)",
+   "class": "LIVESTOCK",
+   "truth_sign": "U8",
+   "truth": "LIVESTOCK",
+   "class_right": true
+  }
+ ],
+ "per_sign": [
+  {
+   "id": "T01",
+   "sign": "GUKKAL~a",
+   "truth": "LIVESTOCK",
+   "recognised": false,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "LIVESTOCK": 6,
+    "GRAIN_FOOD": 1,
+    "PLACE_INST": 1,
+    "VESSEL": 2
+   }
+  },
+  {
+   "id": "T02",
+   "sign": "EZEN~b",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": "VESSEL",
+   "share": 0.4,
+   "modal_right": false,
+   "votes": {
+    "OFFICE_PERSON": 2,
+    "VESSEL": 4,
+    "PLACE_INST": 3,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T03",
+   "sign": "URU~a1",
+   "truth": "PLACE_INST",
+   "recognised": true,
+   "modal": "PLACE_INST",
+   "share": 0.8,
+   "modal_right": true,
+   "votes": {
+    "PLACE_INST": 8,
+    "LIVESTOCK": 1,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T04",
+   "sign": "AMAR",
+   "truth": "LIVESTOCK",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "OFFICE_PERSON": 2,
+    "LIVESTOCK": 6,
+    "OTHER_GOODS": 2
+   }
+  },
+  {
+   "id": "T05",
+   "sign": "SAR~a",
+   "truth": "OTHER_GOODS",
+   "recognised": false,
+   "modal": "GRAIN_FOOD",
+   "share": 0.7,
+   "modal_right": false,
+   "votes": {
+    "GRAIN_FOOD": 7,
+    "OTHER_GOODS": 2,
+    "VESSEL": 1
+   }
+  },
+  {
+   "id": "T06",
+   "sign": "MASZ2",
+   "truth": "LIVESTOCK",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "LIVESTOCK": 6,
+    "GRAIN_FOOD": 1,
+    "OFFICE_PERSON": 2,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T07",
+   "sign": "HASZHUR",
+   "truth": "OTHER_GOODS",
+   "recognised": false,
+   "modal": "OTHER_GOODS",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "OTHER_GOODS": 6,
+    "TEXTILE": 2,
+    "OFFICE_PERSON": 1,
+    "GRAIN_FOOD": 1
+   }
+  },
+  {
+   "id": "T08",
+   "sign": "KISAL~b1",
+   "truth": "PLACE_INST",
+   "recognised": true,
+   "modal": "OFFICE_PERSON",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "OFFICE_PERSON": 6,
+    "OTHER_GOODS": 1,
+    "LIVESTOCK": 2,
+    "TEXTILE": 1
+   }
+  },
+  {
+   "id": "T09",
+   "sign": "SZIM~a",
+   "truth": "OTHER_GOODS",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.4,
+   "modal_right": false,
+   "votes": {
+    "LIVESTOCK": 4,
+    "VESSEL": 1,
+    "GRAIN_FOOD": 1,
+    "OFFICE_PERSON": 1,
+    "TEXTILE": 1,
+    "LIQUID_DAIRY": 1,
+    "PLACE_INST": 1
+   }
+  },
+  {
+   "id": "T10",
+   "sign": "GISZIMMAR~b1",
+   "truth": "OTHER_GOODS",
+   "recognised": false,
+   "modal": "LIVESTOCK",
+   "share": 0.7,
+   "modal_right": false,
+   "votes": {
+    "LIVESTOCK": 7,
+    "OTHER_GOODS": 1,
+    "VESSEL": 1,
+    "TEXTILE": 1
+   }
+  },
+  {
+   "id": "T11",
+   "sign": "ERIM~a",
+   "truth": "OFFICE_PERSON",
+   "recognised": false,
+   "modal": "OFFICE_PERSON",
+   "share": 0.8,
+   "modal_right": true,
+   "votes": {
+    "OFFICE_PERSON": 8,
+    "OTHER_GOODS": 2
+   }
+  },
+  {
+   "id": "T12",
+   "sign": "AMA~a",
+   "truth": "OFFICE_PERSON",
+   "recognised": true,
+   "modal": "PLACE_INST",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "PLACE_INST": 6,
+    "VESSEL": 1,
+    "OFFICE_PERSON": 2,
+    "LIVESTOCK": 1
+   }
+  },
+  {
+   "id": "T13",
+   "sign": "KUR~a",
+   "truth": "PLACE_INST",
+   "recognised": true,
+   "modal": "OFFICE_PERSON",
+   "share": 0.3,
+   "modal_right": false,
+   "votes": {
+    "GRAIN_FOOD": 2,
+    "OTHER_GOODS": 2,
+    "OFFICE_PERSON": 3,
+    "LIVESTOCK": 2,
+    "VESSEL": 1
+   }
+  },
+  {
+   "id": "T14",
+   "sign": "SZITA~a1",
+   "truth": "OFFICE_PERSON",
+   "recognised": false,
+   "modal": "OFFICE_PERSON",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "GRAIN_FOOD": 1,
+    "OFFICE_PERSON": 6,
+    "VESSEL": 1,
+    "OTHER_GOODS": 2
+   }
+  },
+  {
+   "id": "T15",
+   "sign": "NIMGIR",
+   "truth": "OFFICE_PERSON",
+   "recognised": true,
+   "modal": "TEXTILE",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "TEXTILE": 5,
+    "OTHER_GOODS": 1,
+    "OFFICE_PERSON": 2,
+    "PLACE_INST": 1,
+    "GRAIN_FOOD": 1
+   }
+  },
+  {
+   "id": "T16",
+   "sign": "UDUNITA~a",
+   "truth": "LIVESTOCK",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "LIVESTOCK": 6,
+    "GRAIN_FOOD": 1,
+    "PLACE_INST": 1,
+    "OFFICE_PERSON": 1,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T17",
+   "sign": "MUN~a1",
+   "truth": "OTHER_GOODS",
+   "recognised": false,
+   "modal": "LIVESTOCK",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "GRAIN_FOOD": 1,
+    "LIVESTOCK": 5,
+    "VESSEL": 3,
+    "LIQUID_DAIRY": 1
+   }
+  },
+  {
+   "id": "T18",
+   "sign": "UKKIN~a",
+   "truth": "OFFICE_PERSON",
+   "recognised": false,
+   "modal": "OFFICE_PERSON",
+   "share": 0.5,
+   "modal_right": true,
+   "votes": {
+    "LIVESTOCK": 2,
+    "VESSEL": 2,
+    "OFFICE_PERSON": 5,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T19",
+   "sign": "URUDU~a",
+   "truth": "OTHER_GOODS",
+   "recognised": false,
+   "modal": "VESSEL",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "VESSEL": 6,
+    "OTHER_GOODS": 3,
+    "OFFICE_PERSON": 1
+   }
+  },
+  {
+   "id": "T20",
+   "sign": "NIN",
+   "truth": "OFFICE_PERSON",
+   "recognised": true,
+   "modal": "OFFICE_PERSON",
+   "share": 0.4,
+   "modal_right": true,
+   "votes": {
+    "OFFICE_PERSON": 4,
+    "OTHER_GOODS": 2,
+    "VESSEL": 2,
+    "PLACE_INST": 1,
+    "TEXTILE": 1
+   }
+  },
+  {
+   "id": "T21",
+   "sign": "GU4",
+   "truth": "LIVESTOCK",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.5,
+   "modal_right": true,
+   "votes": {
+    "OFFICE_PERSON": 4,
+    "LIVESTOCK": 5,
+    "VESSEL": 1
+   }
+  },
+  {
+   "id": "T22",
+   "sign": "GAN2",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": "GRAIN_FOOD",
+   "share": 0.3,
+   "modal_right": false,
+   "votes": {
+    "TEXTILE": 1,
+    "OTHER_GOODS": 2,
+    "PLACE_INST": 2,
+    "OFFICE_PERSON": 2,
+    "GRAIN_FOOD": 3
+   }
+  },
+  {
+   "id": "T23",
+   "sign": "NAR",
+   "truth": "OFFICE_PERSON",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "LIVESTOCK": 6,
+    "OTHER_GOODS": 2,
+    "VESSEL": 1,
+    "OFFICE_PERSON": 1
+   }
+  },
+  {
+   "id": "T24",
+   "sign": "IM~a",
+   "truth": "OTHER_GOODS",
+   "recognised": false,
+   "modal": "OTHER_GOODS",
+   "share": 0.5,
+   "modal_right": true,
+   "votes": {
+    "OTHER_GOODS": 5,
+    "PLACE_INST": 1,
+    "OFFICE_PERSON": 3,
+    "TEXTILE": 1
+   }
+  },
+  {
+   "id": "T25",
+   "sign": "NIM~b1",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": "OTHER_GOODS",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "LIVESTOCK": 1,
+    "OTHER_GOODS": 5,
+    "PLACE_INST": 1,
+    "OFFICE_PERSON": 2,
+    "LIQUID_DAIRY": 1
+   }
+  },
+  {
+   "id": "T26",
+   "sign": "UTUL~a",
+   "truth": "VESSEL",
+   "recognised": false,
+   "modal": "OFFICE_PERSON",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "OFFICE_PERSON": 6,
+    "OTHER_GOODS": 3,
+    "PLACE_INST": 1
+   }
+  },
+  {
+   "id": "T27",
+   "sign": "MUSZEN",
+   "truth": "LIVESTOCK",
+   "recognised": false,
+   "modal": "OFFICE_PERSON",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "OFFICE_PERSON": 5,
+    "OTHER_GOODS": 3,
+    "PLACE_INST": 1,
+    "VESSEL": 1
+   }
+  },
+  {
+   "id": "T28",
+   "sign": "URI3~a",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": "OTHER_GOODS",
+   "share": 0.4,
+   "modal_right": false,
+   "votes": {
+    "OTHER_GOODS": 4,
+    "PLACE_INST": 2,
+    "OFFICE_PERSON": 3,
+    "VESSEL": 1
+   }
+  },
+  {
+   "id": "T29",
+   "sign": "BARA2~a",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": "TEXTILE",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "TEXTILE": 6,
+    "GRAIN_FOOD": 2,
+    "OTHER_GOODS": 2
+   }
+  },
+  {
+   "id": "T30",
+   "sign": "E~a",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": null,
+   "share": 0.3,
+   "modal_right": false,
+   "votes": {
+    "OFFICE_PERSON": 3,
+    "PLACE_INST": 3,
+    "OTHER_GOODS": 2,
+    "VESSEL": 2
+   }
+  },
+  {
+   "id": "T31",
+   "sign": "DARA4~c2",
+   "truth": "LIVESTOCK",
+   "recognised": false,
+   "modal": "VESSEL",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "VESSEL": 5,
+    "OTHER_GOODS": 1,
+    "TEXTILE": 3,
+    "LIQUID_DAIRY": 1
+   }
+  },
+  {
+   "id": "T32",
+   "sign": "NAGAR~a",
+   "truth": "OFFICE_PERSON",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.8,
+   "modal_right": false,
+   "votes": {
+    "LIVESTOCK": 8,
+    "OTHER_GOODS": 2
+   }
+  },
+  {
+   "id": "T33",
+   "sign": "ERIN",
+   "truth": "OFFICE_PERSON",
+   "recognised": false,
+   "modal": "PLACE_INST",
+   "share": 0.4,
+   "modal_right": false,
+   "votes": {
+    "OFFICE_PERSON": 2,
+    "OTHER_GOODS": 2,
+    "VESSEL": 1,
+    "PLACE_INST": 4,
+    "TEXTILE": 1
+   }
+  },
+  {
+   "id": "T34",
+   "sign": "SZUBUR",
+   "truth": "LIVESTOCK",
+   "recognised": false,
+   "modal": "LIQUID_DAIRY",
+   "share": 0.3,
+   "modal_right": false,
+   "votes": {
+    "VESSEL": 2,
+    "LIQUID_DAIRY": 3,
+    "LIVESTOCK": 1,
+    "OFFICE_PERSON": 2,
+    "OTHER_GOODS": 2
+   }
+  },
+  {
+   "id": "T35",
+   "sign": "BUR~a",
+   "truth": "VESSEL",
+   "recognised": false,
+   "modal": "GRAIN_FOOD",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "VESSEL": 3,
+    "GRAIN_FOOD": 5,
+    "TEXTILE": 1,
+    "LIVESTOCK": 1
+   }
+  },
+  {
+   "id": "T36",
+   "sign": "U8",
+   "truth": "LIVESTOCK",
+   "recognised": true,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": true,
+   "votes": {
+    "LIVESTOCK": 6,
+    "GRAIN_FOOD": 2,
+    "PLACE_INST": 1,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T37",
+   "sign": "SILA4~c",
+   "truth": "LIVESTOCK",
+   "recognised": false,
+   "modal": "LIVESTOCK",
+   "share": 0.4,
+   "modal_right": true,
+   "votes": {
+    "OFFICE_PERSON": 3,
+    "GRAIN_FOOD": 1,
+    "LIQUID_DAIRY": 1,
+    "LIVESTOCK": 4,
+    "OTHER_GOODS": 1
+   }
+  },
+  {
+   "id": "T38",
+   "sign": "NINDA2",
+   "truth": "GRAIN_FOOD",
+   "recognised": false,
+   "modal": "LIVESTOCK",
+   "share": 0.6,
+   "modal_right": false,
+   "votes": {
+    "OTHER_GOODS": 2,
+    "LIVESTOCK": 6,
+    "VESSEL": 1,
+    "LIQUID_DAIRY": 1
+   }
+  },
+  {
+   "id": "T39",
+   "sign": "SUKKAL",
+   "truth": "OFFICE_PERSON",
+   "recognised": false,
+   "modal": "PLACE_INST",
+   "share": 0.7,
+   "modal_right": false,
+   "votes": {
+    "PLACE_INST": 7,
+    "OTHER_GOODS": 2,
+    "TEXTILE": 1
+   }
+  },
+  {
+   "id": "T40",
+   "sign": "TUR3~a",
+   "truth": "PLACE_INST",
+   "recognised": false,
+   "modal": "OTHER_GOODS",
+   "share": 0.5,
+   "modal_right": false,
+   "votes": {
+    "GRAIN_FOOD": 2,
+    "OTHER_GOODS": 5,
+    "OFFICE_PERSON": 2,
+    "VESSEL": 1
+   }
+  }
+ ]
+}

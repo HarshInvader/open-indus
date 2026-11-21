@@ -1,0 +1,322 @@
+{
+ "T01": {
+  "class": "LIVESTOCK",
+  "gloss": "sheep variety (sheep sign plus an added element)",
+  "confidence": 0.65,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Contains the quartered-circle sheep sign and sits in counted herd lists beside the other small-stock signs."
+ },
+ "T02": {
+  "class": "PLACE_INST",
+  "gloss": "festival / named place or institution",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Circle flanked by two boxes looks like an enclosure; occurs in fixed non-counted phrases rather than as a counted good."
+ },
+ "T03": {
+  "class": "PLACE_INST",
+  "gloss": "building / house-type institution",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Plain stepped building-like outline; mostly in uncounted phrase positions at entry ends."
+ },
+ "T04": {
+  "class": "LIVESTOCK",
+  "gloss": "cow",
+  "confidence": 0.6,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform AB2 (cow)",
+  "reasoning": "Horned-head chevron shape; counted alongside the calf sign T21 and other cattle signs."
+ },
+ "T05": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain plant / cereal term",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Two ears of grain beside a rectangle; context is mostly name-like so class is uncertain."
+ },
+ "T06": {
+  "class": "LIVESTOCK",
+  "gloss": "goat (male goat or nanny)",
+  "confidence": 0.75,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform MASZ2 / UD5 (goat)",
+  "reasoning": "Cross plus lozenge, always last in the fixed herd sequence of sheep and goat categories with counts."
+ },
+ "T07": {
+  "class": "OTHER_GOODS",
+  "gloss": "counted product, perhaps reed/fish-related item",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Tally strokes with a looped tail; counted in short lists paired with X0829, nature unclear."
+ },
+ "T08": {
+  "class": "OFFICE_PERSON",
+  "gloss": "accountant / temple administrator",
+  "confidence": 0.55,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform SANGA",
+  "reasoning": "Two bowl shapes with lines; stands at ends of accounts after other signs like a responsible official's title."
+ },
+ "T09": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "beer (jar of beer)",
+  "confidence": 0.4,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform KASZ (beer jar)",
+  "reasoning": "Spouted jar with hatched body; appears in the closing summary of grain accounts, as beer production texts do."
+ },
+ "T10": {
+  "class": "LIVESTOCK",
+  "gloss": "an animal or fish kind in a list",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Creature-like drawing with claws/legs; counted in lists of fish-like and animal items."
+ },
+ "T11": {
+  "class": "OFFICE_PERSON",
+  "gloss": "small / junior, child",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "B-shaped sign used as a qualifier after other signs in person-like entries."
+ },
+ "T12": {
+  "class": "OFFICE_PERSON",
+  "gloss": "mother (kin term) or shrine title",
+  "confidence": 0.35,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform AMA (house frame with star)",
+  "reasoning": "Frame containing a star; appears in single-counted person-like entries."
+ },
+ "T13": {
+  "class": "OFFICE_PERSON",
+  "gloss": "male slave / male worker",
+  "confidence": 0.55,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform KUR (three hills, male slave)",
+  "reasoning": "Three hill shapes; alternates with X0611 in counted personnel lists like male vs female workers."
+ },
+ "T14": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person category or title",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Very frequent as the last sign of counted single-person entries, behaving like a category label."
+ },
+ "T15": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title / profession",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Striped fringed object; occurs in #1 entries typical of person lists."
+ },
+ "T16": {
+  "class": "LIVESTOCK",
+  "gloss": "ram (male sheep)",
+  "confidence": 0.85,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform UDUNITA",
+  "reasoning": "Sheep sign plus lozenge; counted in the fixed sheep-and-goat herd sequence."
+ },
+ "T17": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "dairy product (butter oil / cheese jar)",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Striped spouted vessel counted in cattle-herd accounts with cows and calves, where dairy yields are listed."
+ },
+ "T18": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person category or title",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Closes single-person entries in the same way as T14 in a parallel list section."
+ },
+ "T19": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title or craft term (tablet/mace-like object)",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Box or circle with handle; mostly in name/title-like combinations, e.g. before T08."
+ },
+ "T20": {
+  "class": "OFFICE_PERSON",
+  "gloss": "lady / queen",
+  "confidence": 0.45,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform NIN (SAL + cloth sign)",
+  "reasoning": "Triangle joined to a segmented rectangle; used in title-like phrases such as X1310 T20."
+ },
+ "T21": {
+  "class": "LIVESTOCK",
+  "gloss": "calf",
+  "confidence": 0.65,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform AMAR (calf)",
+  "reasoning": "Calf-head shape; counted with cattle signs T04 and X0226."
+ },
+ "T22": {
+  "class": "PLACE_INST",
+  "gloss": "institution / structure or account term",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Row of posts on a baseline like a building; appears in fixed phrases with X1592 and as an entry label."
+ },
+ "T23": {
+  "class": "LIVESTOCK",
+  "gloss": "bird",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Looks like a flying bird; contexts are partly name-like so confidence is low."
+ },
+ "T24": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title or name element",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Lozenge with projecting strokes; occurs after counts and beside X0250 in person-like entries."
+ },
+ "T25": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title / official",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Long object with curved tail; stands alone as an entry label and after X1178 like a title."
+ },
+ "T26": {
+  "class": "OFFICE_PERSON",
+  "gloss": "female title or wife/woman category",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Triangle (woman-like) sign plus a wavy rectangle; follows X0250 in person entries."
+ },
+ "T27": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title or name element",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Abstract sign in fixed combinations (T27 X1592, T27 X0265) within single-person entries."
+ },
+ "T28": {
+  "class": "OFFICE_PERSON",
+  "gloss": "ploughman / farmer",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Looks like a plough beam with handle; used as a qualifier at ends of person-like entries."
+ },
+ "T29": {
+  "class": "TEXTILE",
+  "gloss": "cloth / textile item",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Cross-hatched square with fringes like woven cloth; counted in large numbers."
+ },
+ "T30": {
+  "class": "PLACE_INST",
+  "gloss": "temple household / shrine",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Tall block with two prongs; combined with the administrator sign T08 as an institutional phrase."
+ },
+ "T31": {
+  "class": "TEXTILE",
+  "gloss": "textile or wool product",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Striped bundle shape counted in large numbers within sheep-product accounts."
+ },
+ "T32": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.55,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform KU6 / SUHUR (fish)",
+  "reasoning": "Clear fish drawings with tail and fins."
+ },
+ "T33": {
+  "class": "PLACE_INST",
+  "gloss": "building / storehouse",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "L-shaped structure with a row of strokes, mostly as a single entry label."
+ },
+ "T34": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title or name element",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Frequent qualifier after other signs in person-like entries; drawing not clearly a commodity."
+ },
+ "T35": {
+  "class": "VESSEL",
+  "gloss": "container / basket category",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Half-round striped object used as a repeated class word after varying signs in counted list entries."
+ },
+ "T36": {
+  "class": "LIVESTOCK",
+  "gloss": "sheep / ewe",
+  "confidence": 0.8,
+  "recognised": true,
+  "recognised_as": "proto-cuneiform UDU / U8 (sheep, ewe)",
+  "reasoning": "Quartered circle sheep sign heading the fixed herd sequence with counts."
+ },
+ "T37": {
+  "class": "LIVESTOCK",
+  "gloss": "lamb / young animal",
+  "confidence": 0.45,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Nested rounded square counted in sheep accounts right after the adult animals, with a female marker X0611."
+ },
+ "T38": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "dairy or liquid product",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Two converging lines; counted in the cattle and dairy accounts next to T17."
+ },
+ "T39": {
+  "class": "PLACE_INST",
+  "gloss": "field / plot",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Gridded trapezoid like a parcelled field; context mostly phrase-like."
+ },
+ "T40": {
+  "class": "OFFICE_PERSON",
+  "gloss": "title or name element",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Occurs in fixed pairs (T20 T40, T40 X0622) in person-like entries rather than as a counted good."
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "T01": {
+  "class": "VESSEL",
+  "gloss": "boat or cart with cross box",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T02": {
+  "class": "VESSEL",
+  "gloss": "round bowl with handles",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T03": {
+  "class": "PLACE_INST",
+  "gloss": "building or plot outline",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T04": {
+  "class": "OFFICE_PERSON",
+  "gloss": "horned head or title",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T05": {
+  "class": "GRAIN_FOOD",
+  "gloss": "barley ear with measure",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T06": {
+  "class": "PLACE_INST",
+  "gloss": "cross with diamond",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T07": {
+  "class": "OTHER_GOODS",
+  "gloss": "bundle of reeds or wood",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T08": {
+  "class": "OFFICE_PERSON",
+  "gloss": "head with rays",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T09": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T10": {
+  "class": "LIVESTOCK",
+  "gloss": "animal or bird with feather lines",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T11": {
+  "class": "OTHER_GOODS",
+  "gloss": "curved implement",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T12": {
+  "class": "PLACE_INST",
+  "gloss": "house or temple with star",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T13": {
+  "class": "GRAIN_FOOD",
+  "gloss": "bread or half loaves",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T14": {
+  "class": "OFFICE_PERSON",
+  "gloss": "head figure",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T15": {
+  "class": "TEXTILE",
+  "gloss": "fringed cloth",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T16": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain measure",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T17": {
+  "class": "VESSEL",
+  "gloss": "bowl with ribs",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T18": {
+  "class": "VESSEL",
+  "gloss": "jar with handle",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T19": {
+  "class": "VESSEL",
+  "gloss": "jar with handle",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T20": {
+  "class": "OTHER_GOODS",
+  "gloss": "object with boxes",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T21": {
+  "class": "LIVESTOCK",
+  "gloss": "horned animal head",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T22": {
+  "class": "OTHER_GOODS",
+  "gloss": "reed fence or comb",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T23": {
+  "class": "LIVESTOCK",
+  "gloss": "bird",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T24": {
+  "class": "PLACE_INST",
+  "gloss": "diamond with rays, field",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T25": {
+  "class": "VESSEL",
+  "gloss": "spouted vessel",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T26": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person title",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T27": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person or title",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T28": {
+  "class": "OTHER_GOODS",
+  "gloss": "sledge or wood",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T29": {
+  "class": "TEXTILE",
+  "gloss": "woven textile with fringe",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T30": {
+  "class": "PLACE_INST",
+  "gloss": "rectangular plot or institution",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T31": {
+  "class": "VESSEL",
+  "gloss": "striped jar",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T32": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T33": {
+  "class": "PLACE_INST",
+  "gloss": "field or canal",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T34": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "pouring vessel",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T35": {
+  "class": "GRAIN_FOOD",
+  "gloss": "ear or sheaf",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T36": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain in cells",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T37": {
+  "class": "OTHER_GOODS",
+  "gloss": "ring or ingot",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T38": {
+  "class": "TEXTILE",
+  "gloss": "thread or fibre",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T39": {
+  "class": "PLACE_INST",
+  "gloss": "field grid",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ },
+ "T40": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person with staff",
+  "confidence": 0.12,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Guessed from pictographic shape and sparse context; no firm recognition."
+ }
+}

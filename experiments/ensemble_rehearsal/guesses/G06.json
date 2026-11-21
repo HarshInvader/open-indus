@@ -1,0 +1,322 @@
+{
+ "T01": {
+  "class": "VESSEL",
+  "gloss": "lidded jar",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Square with cross, tongue; looks like a container."
+ },
+ "T02": {
+  "class": "VESSEL",
+  "gloss": "jar with handles",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Round body with two side handles."
+ },
+ "T03": {
+  "class": "PLACE_INST",
+  "gloss": "building",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "L-shaped box resembles a plan or building."
+ },
+ "T04": {
+  "class": "OTHER_GOODS",
+  "gloss": "tool or wood",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Chevron shapes, no strong cue."
+ },
+ "T05": {
+  "class": "OTHER_GOODS",
+  "gloss": "plant or reed",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Fishbone strokes suggest plant material."
+ },
+ "T06": {
+  "class": "OFFICE_PERSON",
+  "gloss": "worker category",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Appears in repeated category lists with T16, T36, T37."
+ },
+ "T07": {
+  "class": "TEXTILE",
+  "gloss": "cord or fibre",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Tally strokes with a loop suggest rope or fibre."
+ },
+ "T08": {
+  "class": "LIVESTOCK",
+  "gloss": "animal",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Head-like shape with lines; weak cue."
+ },
+ "T09": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.35,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Fish-like bodies with scales."
+ },
+ "T10": {
+  "class": "LIVESTOCK",
+  "gloss": "insect or bird",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Animal-like outline with legs."
+ },
+ "T11": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Simple curved stroke, no cue."
+ },
+ "T12": {
+  "class": "PLACE_INST",
+  "gloss": "house or temple",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "House-shaped outline with star."
+ },
+ "T13": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Half-disc repeats like grain heaps."
+ },
+ "T14": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Triangle with half-disc, no cue."
+ },
+ "T15": {
+  "class": "TEXTILE",
+  "gloss": "cloth",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Fringed pennant resembles cloth."
+ },
+ "T16": {
+  "class": "OFFICE_PERSON",
+  "gloss": "worker category",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Cross-in-square in repeated lists."
+ },
+ "T17": {
+  "class": "VESSEL",
+  "gloss": "bell-shaped pot",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ribbed pot shape."
+ },
+ "T18": {
+  "class": "VESSEL",
+  "gloss": "vessel",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Round form with divider."
+ },
+ "T19": {
+  "class": "VESSEL",
+  "gloss": "measuring vessel",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Handled round and square pots."
+ },
+ "T20": {
+  "class": "TEXTILE",
+  "gloss": "woven cloth",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Grid pattern like weave."
+ },
+ "T21": {
+  "class": "LIVESTOCK",
+  "gloss": "horned animal head",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Horn-like curved lines."
+ },
+ "T22": {
+  "class": "GRAIN_FOOD",
+  "gloss": "ears of grain",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Comb of teeth on baseline like grain stalks."
+ },
+ "T23": {
+  "class": "LIVESTOCK",
+  "gloss": "bird",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Bird- or plane-like shape."
+ },
+ "T24": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Diamond with spokes, no cue."
+ },
+ "T25": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Pennant with arc, no cue."
+ },
+ "T26": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Triangle and strip, no cue."
+ },
+ "T27": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ladle-like outline."
+ },
+ "T28": {
+  "class": "OTHER_GOODS",
+  "gloss": "tool",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Flat tool-like strokes."
+ },
+ "T29": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain product",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Gridded box with hatches, large counts."
+ },
+ "T30": {
+  "class": "VESSEL",
+  "gloss": "vessel",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Rectangle with bars."
+ },
+ "T31": {
+  "class": "VESSEL",
+  "gloss": "barrel or jar",
+  "confidence": 0.3,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ribbed barrel."
+ },
+ "T32": {
+  "class": "LIVESTOCK",
+  "gloss": "fish",
+  "confidence": 0.4,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Clear fish outlines."
+ },
+ "T33": {
+  "class": "PLACE_INST",
+  "gloss": "place",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "L-shaped box with comb."
+ },
+ "T34": {
+  "class": "LIQUID_DAIRY",
+  "gloss": "liquid drop",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Drop-like shape with rectangle."
+ },
+ "T35": {
+  "class": "GRAIN_FOOD",
+  "gloss": "grain",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Half shell with ticks."
+ },
+ "T36": {
+  "class": "PLACE_INST",
+  "gloss": "field",
+  "confidence": 0.25,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Divided square like a field plot."
+ },
+ "T37": {
+  "class": "OFFICE_PERSON",
+  "gloss": "person category",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Ring in square, in category lists."
+ },
+ "T38": {
+  "class": "LIVESTOCK",
+  "gloss": "horns or animal",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Horn-like curves."
+ },
+ "T39": {
+  "class": "PLACE_INST",
+  "gloss": "field or plot",
+  "confidence": 0.2,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Grid like plot division."
+ },
+ "T40": {
+  "class": "OTHER_GOODS",
+  "gloss": "other good",
+  "confidence": 0.15,
+  "recognised": false,
+  "recognised_as": null,
+  "reasoning": "Comb with arrowhead, no cue."
+ }
+}

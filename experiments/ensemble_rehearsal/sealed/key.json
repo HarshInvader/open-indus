@@ -1,0 +1,162 @@
+{
+ "T01": {
+  "sign": "GUKKAL~a",
+  "class": "LIVESTOCK"
+ },
+ "T02": {
+  "sign": "EZEN~b",
+  "class": "PLACE_INST"
+ },
+ "T03": {
+  "sign": "URU~a1",
+  "class": "PLACE_INST"
+ },
+ "T04": {
+  "sign": "AMAR",
+  "class": "LIVESTOCK"
+ },
+ "T05": {
+  "sign": "SAR~a",
+  "class": "OTHER_GOODS"
+ },
+ "T06": {
+  "sign": "MASZ2",
+  "class": "LIVESTOCK"
+ },
+ "T07": {
+  "sign": "HASZHUR",
+  "class": "OTHER_GOODS"
+ },
+ "T08": {
+  "sign": "KISAL~b1",
+  "class": "PLACE_INST"
+ },
+ "T09": {
+  "sign": "SZIM~a",
+  "class": "OTHER_GOODS"
+ },
+ "T10": {
+  "sign": "GISZIMMAR~b1",
+  "class": "OTHER_GOODS"
+ },
+ "T11": {
+  "sign": "ERIM~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T12": {
+  "sign": "AMA~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T13": {
+  "sign": "KUR~a",
+  "class": "PLACE_INST"
+ },
+ "T14": {
+  "sign": "SZITA~a1",
+  "class": "OFFICE_PERSON"
+ },
+ "T15": {
+  "sign": "NIMGIR",
+  "class": "OFFICE_PERSON"
+ },
+ "T16": {
+  "sign": "UDUNITA~a",
+  "class": "LIVESTOCK"
+ },
+ "T17": {
+  "sign": "MUN~a1",
+  "class": "OTHER_GOODS"
+ },
+ "T18": {
+  "sign": "UKKIN~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T19": {
+  "sign": "URUDU~a",
+  "class": "OTHER_GOODS"
+ },
+ "T20": {
+  "sign": "NIN",
+  "class": "OFFICE_PERSON"
+ },
+ "T21": {
+  "sign": "GU4",
+  "class": "LIVESTOCK"
+ },
+ "T22": {
+  "sign": "GAN2",
+  "class": "PLACE_INST"
+ },
+ "T23": {
+  "sign": "NAR",
+  "class": "OFFICE_PERSON"
+ },
+ "T24": {
+  "sign": "IM~a",
+  "class": "OTHER_GOODS"
+ },
+ "T25": {
+  "sign": "NIM~b1",
+  "class": "PLACE_INST"
+ },
+ "T26": {
+  "sign": "UTUL~a",
+  "class": "VESSEL"
+ },
+ "T27": {
+  "sign": "MUSZEN",
+  "class": "LIVESTOCK"
+ },
+ "T28": {
+  "sign": "URI3~a",
+  "class": "PLACE_INST"
+ },
+ "T29": {
+  "sign": "BARA2~a",
+  "class": "PLACE_INST"
+ },
+ "T30": {
+  "sign": "E~a",
+  "class": "PLACE_INST"
+ },
+ "T31": {
+  "sign": "DARA4~c2",
+  "class": "LIVESTOCK"
+ },
+ "T32": {
+  "sign": "NAGAR~a",
+  "class": "OFFICE_PERSON"
+ },
+ "T33": {
+  "sign": "ERIN",
+  "class": "OFFICE_PERSON"
+ },
+ "T34": {
+  "sign": "SZUBUR",
+  "class": "LIVESTOCK"
+ },
+ "T35": {
+  "sign": "BUR~a",
+  "class": "VESSEL"
+ },
+ "T36": {
+  "sign": "U8",
+  "class": "LIVESTOCK"
+ },
+ "T37": {
+  "sign": "SILA4~c",
+  "class": "LIVESTOCK"
+ },
+ "T38": {
+  "sign": "NINDA2",
+  "class": "GRAIN_FOOD"
+ },
+ "T39": {
+  "sign": "SUKKAL",
+  "class": "OFFICE_PERSON"
+ },
+ "T40": {
+  "sign": "TUR3~a",
+  "class": "PLACE_INST"
+ }
+}
