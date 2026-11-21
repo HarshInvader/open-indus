@@ -1,0 +1,206 @@
+{
+ "rows": [
+  {
+   "m77": "6108.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M216 M123 | M65 M294 M176 M211 M93",
+   "icit_id": null,
+   "icit_cisi": null,
+   "icit_seq": null,
+   "icit_type": null
+  },
+  {
+   "m77": "6113.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M234 M342 M343 M225 M87 M261 | M93",
+   "icit_id": "72.1",
+   "icit_cisi": "C-76",
+   "icit_seq": "W456 W741 W740 W530 W032 W850 | W031 W032",
+   "icit_type": "SEAL:S"
+  },
+  {
+   "m77": "6118.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M149 | M12 M93",
+   "icit_id": null,
+   "icit_cisi": null,
+   "icit_seq": null,
+   "icit_type": null
+  },
+  {
+   "m77": "6124.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M267 M99 M65 M62 M342 | M93",
+   "icit_id": "71.1",
+   "icit_cisi": "C-53",
+   "icit_seq": "W861 W002 W235 W222 W740 | W031 W032",
+   "icit_type": "SEAL:S"
+  },
+  {
+   "m77": "6133.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M293 M123 M86 M250 M93 M404",
+   "icit_id": null,
+   "icit_cisi": null,
+   "icit_seq": null,
+   "icit_type": null
+  },
+  {
+   "m77": "6202.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M65 M67 M342 M12 | M93",
+   "icit_id": "70.1",
+   "icit_cisi": "C-70",
+   "icit_seq": "W235 W240 W740 W151 | W031 W032",
+   "icit_type": "SEAL:S"
+  },
+  {
+   "m77": "6203.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M104 M149 M267 M99 M93 | M103 M403 M162",
+   "icit_id": "61.1",
+   "icit_cisi": "C-66",
+   "icit_seq": "W817 W002 W003 W390",
+   "icit_type": "SEAL:S"
+  },
+  {
+   "m77": "6204.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M267 M99 M65 M62 M342 | M93",
+   "icit_id": "71.1",
+   "icit_cisi": "C-53",
+   "icit_seq": "W861 W002 W235 W222 W740 | W031 W032",
+   "icit_type": "SEAL:S"
+  },
+  {
+   "m77": "6218.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M387 M375 M375 M342 | M93",
+   "icit_id": null,
+   "icit_cisi": null,
+   "icit_seq": null,
+   "icit_type": null
+  },
+  {
+   "m77": "6233.1",
+   "site": "Chanhudaro",
+   "object_type": "sealing",
+   "m77_seq": "M59 M387 M87 M59 M17 M406 M162 M93",
+   "icit_id": "116.1",
+   "icit_cisi": "C-34",
+   "icit_seq": "W220 W803 W032 # # W844 W390 W031 W032",
+   "icit_type": "TAB:B"
+  },
+  {
+   "m77": "6403.0",
+   "site": "Chanhudaro",
+   "object_type": "seal",
+   "m77_seq": "M87 M244 M403 M180 M99 | M87 M326 M342 M93",
+   "icit_id": null,
+   "icit_cisi": null,
+   "icit_seq": null,
+   "icit_type": null
+  }
+ ],
+ "twins": {
+  "M94": {
+   "Harappa|miniature tablet": 4,
+   "Mohenjodaro|seal": 3,
+   "Kalibangan|seal": 2,
+   "Harappa|seal": 1,
+   "Harappa|sealing": 1
+  },
+  "M89": {
+   "Harappa|miniature tablet": 80,
+   "Mohenjodaro|seal": 79,
+   "Harappa|sealing": 61,
+   "Mohenjodaro|copper tablet": 29,
+   "Harappa|seal": 29,
+   "Mohenjodaro|sealing": 8,
+   "Chanhudaro|seal": 4,
+   "Kalibangan|seal": 4,
+   "Harappa|pottery graffito": 3,
+   "Lothal|sealing": 2,
+   "Kalibangan|sealing": 2,
+   "Lothal|seal": 1,
+   "Kalibangan|pottery graffito": 1,
+   "Other sites|pottery graffito": 1,
+   "Other sites|sealing": 1,
+   "West Asian finds|seal": 1
+  },
+  "M86": {
+   "Mohenjodaro|seal": 81,
+   "Harappa|seal": 17,
+   "Harappa|miniature tablet": 14,
+   "Mohenjodaro|sealing": 6,
+   "Harappa|sealing": 6,
+   "Chanhudaro|seal": 5,
+   "Lothal|seal": 4,
+   "Lothal|sealing": 3,
+   "Mohenjodaro|pottery graffito": 2,
+   "Kalibangan|seal": 2,
+   "Kalibangan|sealing": 2,
+   "Mohenjodaro|ivory/bone rod": 1,
+   "Chanhudaro|sealing": 1,
+   "Chanhudaro|bronze implement": 1,
+   "Kalibangan|pottery graffito": 1,
+   "Other sites|pottery graffito": 1,
+   "Other sites|seal": 1
+  },
+  "M87": {
+   "Mohenjodaro|seal": 116,
+   "Harappa|miniature tablet": 68,
+   "Harappa|sealing": 51,
+   "Harappa|seal": 36,
+   "Mohenjodaro|copper tablet": 21,
+   "Mohenjodaro|sealing": 14,
+   "Chanhudaro|seal": 11,
+   "Lothal|seal": 7,
+   "Lothal|sealing": 5,
+   "Mohenjodaro|pottery graffito": 3,
+   "Harappa|pottery graffito": 3,
+   "Kalibangan|sealing": 3,
+   "Kalibangan|seal": 2,
+   "Kalibangan|pottery graffito": 2,
+   "Other sites|sealing": 2,
+   "Mohenjodaro|ivory/bone rod": 1,
+   "Harappa|miscellaneous": 1,
+   "Chanhudaro|sealing": 1,
+   "Chanhudaro|bronze implement": 1,
+   "Other sites|pottery graffito": 1
+  }
+ },
+ "icit_final_W031_W032": {
+  "Chanhu-daro": [
+   5,
+   59
+  ],
+  "Harappa": [
+   0,
+   440
+  ],
+  "Mohenjo-daro": [
+   0,
+   1352
+  ]
+ },
+ "numeral_inventory": [
+  "M77,M97,S,1,1,81",
+  "M77,M98,S,1,1 low,76",
+  "M77,M99,C,2,2 (connective),547",
+  "M77,M92,T,3,roof 3,1",
+  "M77,M93,T,3,3 slant,10",
+  "M77,M94,T,3,3 slant,10",
+  "M77,M95,T,4,4,9",
+  "M77,M96,T,5,5,16"
+ ]
+}
