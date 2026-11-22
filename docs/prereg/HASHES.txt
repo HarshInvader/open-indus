@@ -429,3 +429,5 @@ fcb7946d410027b486f4eced27a134fb39dc7b5132da829f245d58918fc31c02  docs/prereg/un
 3bb3bf2ad0213f8f4c2ece2239816e5933eb79db0900da8f04f8a82ec71885a8  experiments/uniformity_paper/revision/contrast.py  2026-11-21T22:40:46Z  uniformity_paper_contrast
 b0312ae611b570402b4ad7d00b08608e60b49fd6e00826a26c9fa4ae24579860  docs/prereg/uniformity_referee_checks.md  2026-11-21T22:54:55Z  uniformity_referee_checks
 3ba9b57d7eb069170b823a8f495633f7b68a1c0e94ed8bd6c65018bfd389e3f7  experiments/uniformity_referee_checks/rc.py  2026-11-21T22:54:55Z  uniformity_referee_checks
+ef7d4154ec7b1c670d9cea146b718796ef89cffde536fb4bcd36cc0f77e2055a  docs/prereg/stamp_zeroshot.md  2026-11-22T15:28:33Z  stamp_zeroshot
+08cb9f958d81d18ec3a732af33732a71fabce8c4905eb4eb43fb55a2ebc60b5d  experiments/stamp_detector/zeroshot.py  2026-11-22T15:28:33Z  stamp_zeroshot
