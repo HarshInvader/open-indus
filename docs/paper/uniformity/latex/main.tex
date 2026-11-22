@@ -48,7 +48,7 @@
 % Review 2 (R11, editor): about 150 words, at most five numbers; detail moved to the body.
 \noindent Indus seal texts are often described as uniform across the civilisation, but to our knowledge this has not been tested against a within-site baseline. % TODO: Yadav 2013 (Scripta 5) still unread (harappa.com blocks automated clients); keep "to our knowledge" until it is read by hand.
 A classifier does not detectably separate seal texts from Mohenjo-daro and Harappa better than two halves of one city: in two overlapping editions every bootstrap interval for the gap includes zero. % experiments/uniformity_paper/revision/RESULTS.md (R1)
-Equivalence within $\pm 0.05$ AUC is not established; the one-sided 95\% upper limit is 0.11 AUC for this pipeline. % REV (R1: m* 0.101-0.107)
+Equivalence within $\pm 0.05$ AUC is not established; the one-sided 95\% upper limit is about 0.10 AUC for this pipeline, and wider against Harappa's own, smaller floor. % experiments/uniformity_referee_checks/RESULTS.md (joint m* 0.077-0.102; Harappa halves 0.14)
 The same pipeline finds place in Ur III seal legends from Umma and Girsu, spread across name roles and above all six structural within-city floors; a paired bootstrap confirms that the Ur III gap exceeds the Indus one. % REV (R1; R3; R10 contrast)
 Under the three spelling models tested, an invented site-specific name stock on more than about a third of seals would have been detected; names with real Ur III frequencies on up to 40--50\% would not. % REV (R2)
 Sealings, tablets, Chanhu-daro and one exploratory floor leave room for difference; the test covers normalised sign identities, not carving or imagery.
@@ -87,7 +87,7 @@ The remedy is a within-site floor: the same pipeline, at the same size, scoring 
 Place signal is the gap between the between-site score and that floor.
 We also need power: a planted difference of known size, to show that the test could have found one.
 
-\paragraph{Main result.} Seal texts from Mohenjo-daro and Harappa show no detectable difference beyond a within-city floor, with a one-sided 95\% upper limit of 0.10--0.11 AUC for this pipeline. % REV (R1)
+\paragraph{Main result.} Seal texts from Mohenjo-daro and Harappa show no detectable difference beyond a within-city floor, with a one-sided 95\% upper limit of 0.08--0.10 AUC for this pipeline (0.14 against random halves of Harappa). % experiments/uniformity_referee_checks/RESULTS.md
 Ur III seal legends, scored the same way, separate their cities clearly, and the signal does not sit in any one kind of name.
 An invented site-specific name stock on more than about a third of Indus seals would have been detected had the seals carried one; real-frequency names on up to 40--50\% would not have been caught. % REV (verdict 3)
 
@@ -149,8 +149,9 @@ We use 200 replicates and report the 2.5th and 97.5th percentiles of $\Delta$.
 Equivalence at $\pm 0.05$ (TOST, $\alpha = 0.05$ per side) holds when the 5th percentile exceeds $-0.05$ and the 95th is below 0.05; otherwise the supportable margin is $m^* = \max(|q_5|, |q_{95}|)$.
 A reference is above margin when its 5th percentile is at least 0.05. % PRREV (R1 rules)
 Resampling the two pools separately widens the interval.
-That is conservative for the references and cautious for the Indus upper limit, but the Mohenjo-daro side of the between pool and the Mohenjo-daro halves of the floor are the same texts, so it also makes ``the interval includes zero'' easier to reach; a joint resample is queued, not run. % REVIEW_2 C3.4; docs/RESEARCH_STATE.md
-Each replicate uses five between and five within draws, so its spread includes some Monte Carlo noise.
+That is conservative for the references and cautious for the Indus upper limit, but the Mohenjo-daro side of the between pool and the Mohenjo-daro halves of the floor are the same texts, so it also makes ``the interval includes zero'' easier to reach.
+For the five Mohenjo-daro--Harappa pools we therefore also ran a joint resample, pre-registered and pushed before it was scored: per replicate the Mohenjo-daro texts are resampled once and give both the Mohenjo-daro side of the between pool and both floor halves, with 20 between and 20 within draws (200 replicates), and an independent resample at the same 20 draws to separate the two changes. % docs/prereg/uniformity_referee_checks.md; REVIEW_2 C3.4
+The R1 replicates use five between and five within draws, so their spread includes some Monte Carlo noise.
 Because each condition is resampled with its own random stream, replicates from two conditions are independent, and their differences give a direct interval for the Ur III minus Indus contrast. % docs/prereg/uniformity_paper_contrast.md
 
 \paragraph{Power.} A share $s$ of one site's tokens is replaced by a 20-sign stock drawn from the pool's common signs.
@@ -183,7 +184,9 @@ The bootstrap puts these gaps in context (Figure~\ref{fig:bw}B, Table~\ref{tab:f
 Median $\Delta$ is +0.010 to +0.034, and every 95\% interval includes zero; lower bounds run from $-0.060$ to $-0.089$. % experiments/uniformity_paper/revision/RESULTS.md (R1 table)
 No pool passes TOST at $\pm 0.05$.
 The one-sided 95\% upper limit on the gap ($m^*$) is 0.101--0.107 AUC. % REV (R1: m* 0.101, 0.102, 0.107)
-So the data show no difference beyond the floor and put the one-sided 95\% upper limit for this pipeline at about 0.11 AUC; they do not show equivalence within 0.05.
+Resampling the shared Mohenjo-daro texts jointly, with 20 draws per replicate, leaves every interval including zero: $-0.062$ to $+0.091$ (M77 seals), $-0.080$ to $+0.088$ (ICIT seals) and $-0.031$ to $+0.111$ (with sealings), with $m^*$ = 0.077--0.102. % experiments/uniformity_referee_checks/RESULTS.md (b joint)
+An independent resample at the same 20 draws gives nearly the same limits (0.084--0.089), so the tighter limit comes from more draws, not from the shared texts; under a second seed the joint limit for M77 seals is 0.105. % experiments/uniformity_referee_checks/RESULTS.md (indep20; red team)
+So the data show no difference beyond the floor and put the one-sided 95\% upper limit for this pipeline at about 0.10 AUC (0.08--0.10, up to 0.11 across seeds); they do not show equivalence within 0.05, and no pool passes TOST under either resample.
 On the scale of Figure~\ref{fig:power}C, a gap of 0.05 is reached with 80\% power when about 5--10\% of tokens are local variants or 20--30\% are redrawn in a frequency shift; differences in frequency among shared signs can move AUC little. % REV (diffuse)
 
 Other analyses point the same way.
@@ -191,11 +194,15 @@ Logistic regression gives $\Delta$ = +0.027 (M77 seals) and +0.013 (ICIT seals),
 For ICIT seals and sealings it gives +0.050 with $p_{\mathrm{floor}} = 0.059$, which the pre-registered rule labels ``differs'' by a hair; naive Bayes gave +0.042 ($p = 0.078$). % REV (R5: LR +0.0504, p 0.059; NB +0.042, p 0.078)
 The Jensen--Shannon test finds between JSD not above within in all three pools (PS 0.28, 0.28 and 0.68 against a bar of 0.80, power 88--100\%). % REV (R5)
 Within unicorn seals alone, which removes motif mix, the gap is +0.050 in ICIT seals and +0.049 with sealings ($p_{\mathrm{floor}} = 0.137$, power 98\% and 96\%), with bootstrap intervals of $-0.076$ to $+0.150$ and $-0.068$ to $+0.162$. % REV (R7; R1 unicorn rows)
-That is not beyond the floor, and the bound is wider (0.13--0.14). % REV (R1: m* 0.143, 0.134)
+That is not beyond the floor, and the bound is wider (0.13--0.14; 0.12 under the joint resample). % REV (R1: m* 0.143, 0.134); experiments/uniformity_referee_checks/RESULTS.md (joint 0.123, 0.121)
 
 The structural floor agrees.
 Two excavation areas of Mohenjo-daro (DK against HR and VS) score 0.537 against 0.517 for the two cities: $\Delta = -0.020$. % RT1 (between-minus-within table)
 This holds with findspot-confirmed seals only ($-0.007$) and with near-copies across the split dropped ($-0.006$). % RT1
+Harappa's own floor does not change the verdict, but it is weaker. % experiments/uniformity_referee_checks/RESULTS.md (a)
+In M77 seals, mound F against the other mounds of Harappa in the Vats register gives 114 and 59 seals, so the comparison runs at 59 per side; there the gap is $-0.019$ (95\% CI $-0.185$ to $+0.143$), but power to detect a 15\% local stock is only 38\% (56\% under a second seed), below the 80\% gate, so this floor cannot decide. % experiments/uniformity_referee_checks/RESULTS.md (a primary: UNDERPOWERED)
+ICIT has no findspot field, so the other check uses random halves of Harappa (92--122 per side): the gap is $-0.037$ to $+0.031$ and every interval includes zero, but the upper limit in the two powered pools is 0.14, not 0.10, and ICIT seals alone are underpowered. % experiments/uniformity_referee_checks/RESULTS.md (a secondary)
+The Harappa comparisons run at about half the size of the Mohenjo-daro ones, which accounts for part of the wider interval.
 One exploratory floor disagrees.
 Deep against shallow seals within DK score 0.464, below chance, and the two cities sit +0.089 above it, beyond our 0.05 margin. % experiments/uniformity_paper/step1/RESULTS.md (X_C8 0.553 - X_C2 0.464)
 The pre-registered primary floor in step 1 was the area split, and a floor below 0.5 reflects the small-pool bias; measured against 0.5, the cities sit +0.05 higher. % S1
@@ -204,7 +211,7 @@ We list it in Table~\ref{tab:floors} and do not discount it further.
 \begin{table}[t]
 \centering
 \small
-\caption{Every floor tried. $\Delta$ = between $-$ within (median); 95\% CI from 200 pool-level bootstrap replicates where run. Bootstrap medians differ slightly from the single-run step-2 values quoted in the text. Chanhu-daro rows show $\Delta$ against the floor; the text quotes $\Delta_{\mathrm{cons}}$. ``Primary'' names the pre-registration in which a floor was primary. Sources: \nolinkurl{experiments/uniformity_paper/revision/RESULTS.md} (R1), \texttt{redteam\_uniformity\_step1}, \nolinkurl{uniformity_paper/step1} and \texttt{step2} RESULTS.}
+\caption{Every floor tried. $\Delta$ = between $-$ within (median); 95\% CI from 200 pool-level bootstrap replicates where run (five draws each, or 20 for the joint rows). Bootstrap medians differ slightly from the single-run step-2 values quoted in the text. Chanhu-daro rows show $\Delta$ against the floor; the text quotes $\Delta_{\mathrm{cons}}$. ``Primary'' names the pre-registration in which a floor was primary. Sources: \nolinkurl{experiments/uniformity_paper/revision/RESULTS.md} (R1), \nolinkurl{experiments/uniformity_referee_checks/RESULTS.md} (joint and Harappa rows), \texttt{redteam\_uniformity\_step1}, \nolinkurl{uniformity_paper/step1} and \texttt{step2} RESULTS.}
 \label{tab:floors}
 \begin{tabularx}{\textwidth}{lXrrl}
 \toprule
@@ -218,6 +225,13 @@ MD--Harappa, ICIT seals & shuffled-label null & 172 & +0.025 & $-0.057$, $+0.105
 MD--Harappa, ICIT seals + sealings & shuffled-label null & 227 & +0.047 & $-0.030$, $+0.112$ \\ % REVJ boot MDHA_icit_sealtype d_null
 MD--Harappa, unicorn, ICIT seals & MD random halves & 145 & +0.042 & $-0.076$, $+0.150$ \\ % REV R1
 MD--Harappa, unicorn, seals + sealings & MD random halves & 145 & +0.038 & $-0.068$, $+0.162$ \\ % REV R1
+MD--Harappa, M77 seals & MD random halves, joint resample, 20 draws & 200 & +0.018 & $-0.062$, $+0.091$ \\ % RC (b)
+MD--Harappa, ICIT seals & MD random halves, joint resample, 20 draws & 172 & $-0.003$ & $-0.080$, $+0.088$ \\ % RC (b)
+MD--Harappa, ICIT seals + sealings & MD random halves, joint resample, 20 draws & 227 & +0.039 & $-0.031$, $+0.111$ \\ % RC (b)
+MD--Harappa, M77 seals & Harappa mound F vs others (underpowered, 38\%) & 59 & $-0.019$ & $-0.185$, $+0.143$ \\ % RC (a primary)
+MD--Harappa, M77 seals & Harappa random halves & 119 & +0.031 & $-0.097$, $+0.160$ \\ % RC (a)
+MD--Harappa, ICIT seals & Harappa random halves (underpowered, 26\%) & 92 & $-0.037$ & $-0.177$, $+0.124$ \\ % RC (a)
+MD--Harappa, ICIT seals + sealings & Harappa random halves & 122 & +0.014 & $-0.109$, $+0.163$ \\ % RC (a)
 MD--Harappa, M77 seals & MD areas DK vs HR+VS (step-1 primary) & 169 & $-0.020$ & not run \\ % RT1 between-minus-within table (n 169)
 MD--Harappa, M77 seals & DK deep vs shallow (exploratory) & 200 & +0.089 & not run \\ % S1 X_C8 - X_C2
 \midrule
@@ -256,6 +270,7 @@ Whole Ur III legends from Umma and Girsu score 0.86--0.88, two reigns within one
 Under the bootstrap, Umma against Girsu stays above all six structural floors, ORACC and CDLI: the lowest 2.5th percentile is +0.107 (Table~\ref{tab:floors}). % experiments/uniformity_paper/revision/RESULTS.md (R1)
 Logistic regression agrees (minimum $\Delta$ +0.148), and so does the Jensen--Shannon test (PS = 1.00 for every floor, label-shuffle $p \leq 0.005$ at 200 shuffles). % REV (R5)
 Tested directly, the Ur III gap (Umma reigns floor) exceeds the Mohenjo-daro--Harappa gap by +0.13 to +0.16 AUC in paired bootstrap medians, and every 95\% interval excludes zero (lowest 2.5th percentile +0.034); against the 0.05 margin the contrast holds in two of three Indus pools (M77 seals: 5th percentile +0.049), and within unicorn seals it is not established. % experiments/uniformity_paper/revision/RESULTS.md (R10); contrast.json; prereg docs/prereg/uniformity_paper_contrast.md
+With the joint Indus replicates in place of the independent ones, the contrast meets the margin in all three pools (5th percentiles +0.053 to +0.089). % experiments/uniformity_referee_checks/RESULTS.md (b secondary)
 Counting each physical seal once (CDLI) gives the same pattern, so repeated impressions do not drive it. % S2
 In a same-collection test, with Umma and Girsu texts both from the British Museum, the gap is at least +0.197. % REV (R3, BM-only whole)
 That removes a museum confound but not the archive one: the Ur III contrast remains between-city and between-archive.
@@ -378,7 +393,7 @@ Our result covers the two big cities, not all Indus sites.
 \section{Discussion}
 \label{sec:discussion}
 
-\paragraph{What the bound means.} The upper limit of about 0.11 AUC is a statement about this pipeline's statistic on normalised sign identities, not a bound on every kind of place signal.
+\paragraph{What the bound means.} The upper limit of about 0.10 AUC (0.14 against Harappa's own floor) is a statement about this pipeline's statistic on normalised sign identities, not a bound on every kind of place signal.
 In Ur III, where almost every legend carries a name, owners, fathers and patrons each carry part of the place signal, and the Ur III gap exceeds the Indus gap in a direct paired test. % RT2 (A3: 99.8%); REV (R3, R10)
 Three readings of the Indus case remain open.
 Indus seals may name individuals from a pool shared by both cities, which would leave no place signal. % point made in BENCH ("What this means")
@@ -407,9 +422,9 @@ A between-site score means little until it is set against a within-site floor at
 
 \paragraph{Two cities, one object type.} The main result covers seals from Mohenjo-daro and Harappa, in two editions that share about 70\% of their seal objects. % REV (R9)
 
-\paragraph{Wide intervals.} The one-sided 95\% upper limit on the Mohenjo-daro--Harappa gap is about 0.11 AUC, not 0.05. % REV (R1)
+\paragraph{Wide intervals.} The one-sided 95\% upper limit on the Mohenjo-daro--Harappa gap is about 0.10 AUC, not 0.05, and 0.14 against Harappa's own floor. % experiments/uniformity_referee_checks/RESULTS.md
 A difference smaller than that, or a diffuse one below the levels in Figure~\ref{fig:power}C, could be missed.
-The interval resamples the between and within pools independently although they share Mohenjo-daro texts; a joint resample, which keeps that correlation and could narrow the interval, is queued but not run. % REVIEW_2 C3.4; docs/RESEARCH_STATE.md
+Resampling the shared Mohenjo-daro texts jointly did not change the picture: every interval still includes zero, and the joint and independent limits at 20 draws agree within 0.02. % experiments/uniformity_referee_checks/RESULTS.md (b)
 
 \paragraph{Sign lists merge graphic variants.} Both editions map each graph to a sign identity, so local workshop habits (allographs, stroke order, ligature conventions) are removed before the classifier sees anything. % REVIEW_2 C1.2
 Our null concerns normalised sign identities; local carving variants that no sign list records cannot be tested without sign images per site. % experiments/redteam_uniformity/RESULTS.md (attack 4)
@@ -417,7 +432,7 @@ The \sign{M93} case shows how much rides on this: one editor's single sign is an
 
 \paragraph{Within-city floors are proxies.} The Mohenjo-daro area split mixes area with excavator and date, and half of the HR and VS seals have unconfirmed findspots. % S1 (caveats); RT1 (attack 4)
 The exploratory depth floor gives +0.089. % S1
-Every Mohenjo-daro--Harappa floor splits Mohenjo-daro; Harappa has no within-city floor of its own here, though a mound split or an excavation-campaign split would give one and a partial period control. % REVIEW_2 C1.3; queued, not run (docs/RESEARCH_STATE.md)
+Harappa's only structural floor, a mound split from the Vats register, has 59 seals on its smaller side and is underpowered (power 38--56\%); ICIT gives no findspot, so its Harappa floor is random halves, and no campaign or period split was large enough. % experiments/uniformity_referee_checks/RESULTS.md (a; red team F against AB: n 44, power 40\%)
 Chronology is not controlled; most Mohenjo-daro seals come from late levels, and a period-matched comparison was not possible. % REVIEW_1 B1.2
 Ur III floors use reign and collection, and the Ur III contrast is also between archives. % S2
 Linear B floors use scribe groups. % RT1 (limits)
@@ -463,7 +478,8 @@ None declared. The work received no external funding.
 Each step was written up before it was run, and the write-up and its code were hashed into \nolinkurl{docs/prereg/HASHES.txt} before any condition was scored (Table~\ref{tab:prereg}).
 The timestamps are self-recorded, and for the first eight runs each hash line was committed together with that step's results, so a reader cannot verify from the repository alone that the hashes predate scoring. % git log -- docs/prereg/HASHES.txt (step 2 d7ad778; RT2 + CD ae300d2; RR ecbcc0d)
 The revision run is partly checkable: its pre-registration and hash lines were committed (with a recorded hash time 9 seconds before the first bootstrap draw was written) after the bootstrap, planted-name and diffuse-effect jobs had finished and while the name-role job was running, but before the Latin, second-classifier, \sign{M93} and unicorn jobs started; its code was committed with the results, and its hashes still match. % git: f8c33a1 at 21:27:11Z adds docs/prereg/uniformity_paper_revision.md + HASHES.txt (rev.py not in it); HASHES time 19:24:19Z; draws_boot.jsonl born 19:24:28Z; draws_diffuse.jsonl last write 21:15:26Z; roles restart 21:28:00Z (run.log); results commit ba88e25 22:16:58Z. REVIEW_2 R12 said "committed before the first run"; file times show otherwise.
-The Ur III minus Indus contrast (Section~\ref{sec:names}) was pre-registered and hashed before it was computed, from replicates already on disk. % docs/prereg/uniformity_paper_contrast.md; HASHES tag uniformity_paper_contrast
+The Ur III minus Indus contrast (Section~\ref{sec:names}) was pre-registered and hashed before it was computed, from replicates already on disk.
+The Harappa floor and the joint resample are fully checkable: their pre-registration and code were committed and pushed (commit 400f20b, 22:55:08 UTC) 31 seconds before the first draw was scored (22:55:39 UTC). % docs/prereg/uniformity_referee_checks.md; experiments/uniformity_referee_checks/RESULTS.md % docs/prereg/uniformity_paper_contrast.md; HASHES tag uniformity_paper_contrast
 All runs were designed, run and scored within about one day. % commit dates 2026-11-21
 The Mohenjo-daro--Harappa result (0.49 in the first benchmark, then 0.55 like-for-like) was known before every pre-registration; what was blind is the references, the later floors and nulls, the planted tests and the red-team attacks. % BENCH (caveats); RT0
 The Chanhu-daro follow-up, written after step 2, raised the bar from $q_{\mathrm{floor}} \leq 0.10$ to $q_{\mathrm{chance}} \leq 0.05$. % docs/prereg/chanhudaro_followup.md L31-32
@@ -489,6 +505,7 @@ Run & What it tested & Verdict \\
 \texttt{recchia\_rerun} & five-site geography after \citet{recchia2016} & underpowered \\ % RR
 \texttt{uniformity\_paper\_revision} & bootstrap, name grid, diffuse effects, name roles, Latin classes, LR and JSD, M93, unicorn & Section~\ref{sec:results} \\ % REV
 \texttt{uniformity\_paper\_contrast} & Ur III minus Indus gap from saved replicates & contrast holds \\ % REV (R10)
+\texttt{uniformity\_referee\_checks} & Harappa within-city floor; joint resampling of shared Mohenjo-daro texts & tie holds; Harappa floor weak \\ % experiments/uniformity_referee_checks/RESULTS.md
 \bottomrule
 \end{tabularx}
 \end{table}
