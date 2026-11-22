@@ -1,4 +1,4 @@
-"""Figure 3: site-pair gaps (between minus within) on a schematic map, Chanhu-daro marked.
+"""Figure 4: site-pair gaps (between minus within) on a schematic map, Chanhu-daro marked.
 
 Source: experiments/uniformity_paper/step2/results.json, part2, family
 'icit_sealtype' (ICIT seals + sealings, the only family that covers all six sites).
@@ -20,7 +20,7 @@ s2 = load("uniformity_paper/step2/results.json")
 rows = [r for r in s2["part2"] if r["family"] == "icit_sealtype"
         and ({r["a"], r["b"]} & {"Mohenjo-daro", "Harappa"})]
 
-fig, ax = plt.subplots(figsize=(5.2, 4.6))
+fig, ax = plt.subplots(figsize=(5.0, 4.6))
 LABEL_SHIFT = {  # (dx, dy) in degrees for edge labels that would collide
     ("Mohenjo-daro", "Chanhu-daro"): (-0.75, -0.05),
     ("Harappa", "Chanhu-daro"): (0.35, -0.35),
@@ -49,7 +49,7 @@ for r in rows:
     dx, dy = LABEL_SHIFT.get((a, b), (0, 0))
     ax.text((xa + xb) / 2 + dx, (ya + yb) / 2 + dy,
             f"{r['delta']:+.3f}" + ("*" if kind == "underpowered" else "") + ("†" if floor_only else ""),
-            fontsize=6.8, color=col, ha="center", va="center",
+            fontsize=8, color=col, ha="center", va="center",
             bbox=dict(boxstyle="round,pad=0.1", fc="white", ec="none", alpha=0.85), zorder=3)
 
 for site, (lat, lon) in COORD.items():
@@ -60,10 +60,10 @@ for site, (lat, lon) in COORD.items():
     off = {"Chanhu-daro": (-0.25, -0.45, "right"), "Mohenjo-daro": (-0.25, 0.15, "right"),
            "Harappa": (0.2, 0.2, "left"), "Lothal": (0.2, -0.25, "left"),
            "Kalibangan": (0.2, 0.1, "left"), "Dholavira": (-0.2, -0.3, "right")}[site]
-    ax.text(lon + off[0], lat + off[1], site, fontsize=8, ha=off[2],
+    ax.text(lon + off[0], lat + off[1], site, fontsize=9, ha=off[2],
             fontweight="bold" if big else "normal", zorder=5)
 
-ax.set_xlim(65.8, 75.8)
+ax.set_xlim(64.6, 75.8)
 ax.set_ylim(21.6, 31.6)
 ax.set_aspect(1 / 0.89)  # rough cos(latitude) correction
 ax.set_xlabel("Longitude (°E)")
@@ -73,5 +73,5 @@ ax.plot([], [], color=REF, lw=1.2, ls=(0, (4, 2)), label="inconclusive (gate pas
 ax.plot([], [], color=REF, lw=1.2, ls=(0, (1, 1.5)), label="underpowered (*)")
 ax.plot([], [], color="#b5473a", lw=1.2, label="pairs with Chanhu-daro")
 ax.plot([], [], color="none", label="† differs vs floor, not vs null")
-ax.legend(loc="upper left", fontsize=6.6)
-save(fig, "fig3_sites")
+ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.13), ncol=2, columnspacing=1.2)
+save(fig, "fig4_sites")

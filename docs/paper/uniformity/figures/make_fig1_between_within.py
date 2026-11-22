@@ -1,4 +1,6 @@
-"""Figure 1: (A) between-site vs within-site AUC; (B) pool-level bootstrap 95% CIs for the gap.
+"""Figures 1 and 2. They use different row sets, so they are separate figures.
+Figure 1 (fig1_between_within): between-site vs within-site AUC, single runs.
+Figure 2 (fig2_gap): pool-level bootstrap 95% CIs for the gap above the floor.
 
 Sources (all read from results.json, nothing typed in):
 - experiments/uniformity_paper/step2/results.json  (part1: Ur III, Latin; part2: Indus)
@@ -99,32 +101,32 @@ def layout(items):
     return ys, heads, y
 
 
-fig, (axa, axb) = plt.subplots(1, 2, figsize=(7.4, 5.6), gridspec_kw={"wspace": 0.95})
-
-# Panel A
+# Figure 1: between vs within
+fig, axa = plt.subplots(figsize=(5.0, 5.3))
 ys, heads, ymin = layout(rows)
 for (group, label, b, w, indus), y in zip(rows, ys):
     col = INDUS if indus else REF
     axa.plot([w, b], [y, y], color=col, lw=0.9, zorder=1)
-    axa.scatter([w], [y], s=20, facecolor="white", edgecolor=col, lw=0.9, zorder=2)
-    axa.scatter([b], [y], s=20, color=col, zorder=3)
+    axa.scatter([w], [y], s=22, facecolor="white", edgecolor=col, lw=0.9, zorder=2)
+    axa.scatter([b], [y], s=22, color=col, zorder=3)
 for gy, g in heads:
-    axa.text(0.30, gy, g, fontsize=7.6, fontweight="bold",
+    axa.text(0.30, gy, g, fontsize=9, fontweight="bold",
              color=INDUS if g.startswith("Indus") else "black", va="center")
 axa.axvline(0.5, color="#cccccc", lw=0.6, ls=":", zorder=0)
 axa.set_yticks(ys)
-axa.set_yticklabels([r[1] for r in rows], fontsize=6.8)
+axa.set_yticklabels([r[1] for r in rows])
 axa.tick_params(axis="y", length=0)
 axa.spines["left"].set_visible(False)
 axa.set_xlim(0.30, 0.95)
 axa.set_ylim(ymin + 0.3, 0.6)
 axa.set_xlabel("Median AUC (matched size, length mix)")
-axa.set_title("A. Between vs within", fontsize=8.5, loc="left", pad=10)
-axa.scatter([], [], s=20, color="black", label="between")
-axa.scatter([], [], s=20, facecolor="white", edgecolor="black", label="within (floor)")
-axa.legend(loc="center right", bbox_to_anchor=(1.02, 0.685), fontsize=6.8, handletextpad=0.3)
+axa.scatter([], [], s=22, color="black", label="between sites")
+axa.scatter([], [], s=22, facecolor="white", edgecolor="black", label="within one site (floor)")
+axa.legend(loc="center right", bbox_to_anchor=(1.0, 0.70), handletextpad=0.3)
+save(fig, "fig1_between_within")
 
-# Panel B
+# Figure 2: gap above the floor, bootstrap intervals
+fig, axb = plt.subplots(figsize=(5.0, 4.9))
 ys, heads, ymin = layout(brows)
 axb.axvspan(-0.05, 0.05, color="#eeeeee", zorder=0)
 axb.axvline(0, color="#999999", lw=0.6, zorder=0)
@@ -132,17 +134,16 @@ for (group, label, key, indus), y in zip(brows, ys):
     d = B[key]["d_floor"]
     col = INDUS if indus else REF
     axb.plot([d["2.5"], d["97.5"]], [y, y], color=col, lw=1.1, zorder=1)
-    axb.scatter([d["50"]], [y], s=18, color=col, zorder=2)
+    axb.scatter([d["50"]], [y], s=20, color=col, zorder=2)
 for gy, g in heads:
-    axb.text(-0.15, gy, g, fontsize=7.6, fontweight="bold",
+    axb.text(-0.15, gy, g, fontsize=9, fontweight="bold",
              color=INDUS if g.startswith(("Indus", "Chanhu")) else "black", va="center")
 axb.set_yticks(ys)
-axb.set_yticklabels([r[1] for r in brows], fontsize=6.8)
+axb.set_yticklabels([r[1] for r in brows])
 axb.tick_params(axis="y", length=0)
 axb.spines["left"].set_visible(False)
 axb.set_xlim(-0.15, 0.45)
-axb.set_ylim(ymin + 0.3, 0.6)
+axb.set_ylim(ymin + 0.3, 1.5)
 axb.set_xlabel(r"$\Delta$ = between $-$ within (AUC), bootstrap 95% CI")
-axb.set_title("B. Gap above the floor", fontsize=8.5, loc="left", pad=10)
-axb.text(0.055, 0.35, "margin $\\pm$0.05", fontsize=6.3, color=REF, ha="left", va="bottom")
-save(fig, "fig1_between_within")
+axb.text(0.0, 0.95, "margin $\\pm$0.05", fontsize=8, color=REF, ha="center", va="bottom")
+save(fig, "fig2_gap")

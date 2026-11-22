@@ -133,7 +133,7 @@ Planted stocks and names are inserted after cleaning. % experiments/redteam_unif
 Reference texts are drawn to match the length distribution of the Indus seals.
 We report median AUC over 30 draws (step 1), 50 (step 2, red teams and the revision's single-run conditions) or 200 (Chanhu-daro baseline); bootstrap and planted-name replicates are described below. % S1; RT1; S2; RT2; CD (T0); PRREV
 
-\paragraph{Between minus within.} For each pair of sites, $\Delta$ = median between-site AUC $-$ median within-site AUC at the same size.
+\paragraph{Between minus within.} For each pair of sites, $\Delta$ = median between-site AUC $-$ median within-site AUC at the same size; where it must be told apart from the variants below we write it $\Delta_{\mathrm{floor}}$.
 The floor is a structural split (excavation area, reign, collection, region, scribe group) or random halves of the larger site.
 The pre-registered rule calls a pair ``differs'' when $\Delta \geq 0.05$, the Benjamini--Hochberg $q$ against the floor is at most 0.10, and the power gate passes; ``same'' when $\Delta < 0.05$ and the gate passes. % docs/prereg/uniformity_paper_step2.md (pair verdicts)
 ``Same'' is a point-estimate label, not an equivalence test, so we report it as ``not beyond the floor''.
@@ -176,11 +176,11 @@ In brief: the Mohenjo-daro--Harappa number was known before every pre-registrati
 \subsection{Mohenjo-daro and Harappa seals: no difference beyond the floor}
 \label{sec:tie}
 
-Between-city AUC for seals is 0.52--0.55 under five sign lists from two editors. % experiments/redteam_uniformity_step1/RESULTS.md (safe wording)
+Between-city AUC for seals is 0.52--0.55 under five sign lists from two editors, and each sits on its floor (Figure~\ref{fig:bw}). % experiments/redteam_uniformity_step1/RESULTS.md (safe wording)
 Against random halves of Mohenjo-daro the step-2 gap is +0.005 in M77 seals, +0.014 in ICIT seals and +0.042 in ICIT seals and sealings; against the shuffled null it is +0.043, +0.014 and +0.054. % experiments/uniformity_paper/step2/RESULTS.md (Part 2); experiments/redteam_uniformity_step2/RESULTS.md (b)
 Power to detect a local stock covering 15\% of tokens is 98--100\% (Figure~\ref{fig:power}A). % RT2 (b)
 
-The bootstrap puts these gaps in context (Figure~\ref{fig:bw}B, Table~\ref{tab:floors}).
+The bootstrap puts these gaps in context (Figure~\ref{fig:gap}, Table~\ref{tab:floors}).
 Median $\Delta$ is +0.010 to +0.034, and every 95\% interval includes zero; lower bounds run from $-0.060$ to $-0.089$. % experiments/uniformity_paper/revision/RESULTS.md (R1 table)
 No pool passes TOST at $\pm 0.05$.
 The one-sided 95\% upper limit on the gap ($m^*$) is 0.101--0.107 AUC. % REV (R1: m* 0.101, 0.102, 0.107)
@@ -211,7 +211,7 @@ We list it in Table~\ref{tab:floors} and do not discount it further.
 \begin{table}[t]
 \centering
 \small
-\caption{Every floor tried. $\Delta$ = between $-$ within (median); 95\% CI from 200 pool-level bootstrap replicates where run (five draws each, or 20 for the joint rows). Bootstrap medians differ slightly from the single-run step-2 values quoted in the text. Chanhu-daro rows show $\Delta$ against the floor; the text quotes $\Delta_{\mathrm{cons}}$. ``Primary'' names the pre-registration in which a floor was primary. Sources: \nolinkurl{experiments/uniformity_paper/revision/RESULTS.md} (R1), \nolinkurl{experiments/uniformity_referee_checks/RESULTS.md} (joint and Harappa rows), \texttt{redteam\_uniformity\_step1}, \nolinkurl{uniformity_paper/step1} and \texttt{step2} RESULTS.}
+\caption{Every floor tried. $\Delta$ = between $-$ floor (median), where the floor is a within-site split or, in the three rows marked so, the shuffled-label null; 95\% CI from 200 pool-level bootstrap replicates where run (five draws each, or 20 for the joint rows). Bootstrap medians differ slightly from the single-run step-2 values quoted in the text. The Chanhu-daro rows show $\Delta_{\mathrm{floor}}$, the gap above the within-site floor, not the smaller $\Delta_{\mathrm{cons}}$ quoted for Chanhu-daro in the text. ``Primary'' names the pre-registration in which a floor was primary. Sources: \nolinkurl{experiments/uniformity_paper/revision/RESULTS.md} (R1), \nolinkurl{experiments/uniformity_referee_checks/RESULTS.md} (joint and Harappa rows), \texttt{redteam\_uniformity\_step1}, \nolinkurl{uniformity_paper/step1} and \texttt{step2} RESULTS.}
 \label{tab:floors}
 \begin{tabularx}{\textwidth}{lXrrl}
 \toprule
@@ -257,9 +257,16 @@ Chanhu-daro--MD, ICIT seals + sealings & MD random halves & 38 & +0.150 & $-0.04
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{fig1_between_within}
-\caption{(A) Median between-site AUC (filled) against a within-site floor (open), at matched size and length mix; Indus in indigo. Indus seal rows sit on their floors; sealings do not. Whole Ur III legends sit well above their floors; with all names removed they do not. Linear B scribe groups inside one palace separate as well as the two palaces. (B) Gap above the floor with pool-level bootstrap 95\% intervals (200 replicates); the grey band is the $\pm 0.05$ margin. Every Indus interval, Mohenjo-daro--Harappa and Chanhu-daro, includes zero. Every Ur III interval lies above the margin. The Latin intervals include zero. Sources: \nolinkurl{experiments/uniformity_paper/step2/results.json}, \nolinkurl{experiments/redteam_uniformity_step1/results.json} (A) and \nolinkurl{experiments/uniformity_paper/revision/results.json} (B); script \nolinkurl{make_fig1_between_within.py}.}
+\includegraphics{fig1_between_within}
+\caption{Median between-site AUC (filled) against a within-site floor (open), at matched size and length mix, from single runs; Indus in indigo. Indus seal rows sit on their floors; sealings do not. Whole Ur III legends sit well above their floors; with all names removed they do not. Linear B scribe groups inside one palace separate as well as the two palaces. The rows are the step-1 and step-2 contrasts; Figure~\ref{fig:gap} shows a different set, the contrasts that were bootstrapped. Sources: \nolinkurl{experiments/uniformity_paper/step2/results.json} and \nolinkurl{experiments/redteam_uniformity_step1/results.json}; script \nolinkurl{make_fig1_between_within.py}.}
 \label{fig:bw}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics{fig2_gap}
+\caption{Gap above the floor ($\Delta_{\mathrm{floor}}$) with pool-level bootstrap 95\% intervals (200 replicates); the grey band is the $\pm 0.05$ margin. The rows are the bootstrapped contrasts, which differ from those in Figure~\ref{fig:bw}: they add unicorn seals, Chanhu-daro and the CDLI edition of Ur III, and leave out sealings alone, name-free Ur III and Linear B, which were not bootstrapped. Every Indus interval, Mohenjo-daro--Harappa and Chanhu-daro, includes zero. Every Ur III interval lies above the margin. The Latin intervals include zero. Source: \nolinkurl{experiments/uniformity_paper/revision/results.json}; script \nolinkurl{make_fig1_between_within.py}.}
+\label{fig:gap}
 \end{figure}
 
 \subsection{Ur III seals carry place across all name roles}
@@ -342,8 +349,8 @@ Smaller diffuse differences are not excluded.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{fig2_power}
-\caption{Power. Line style marks the pool in every panel: solid M77 seals, dashed ICIT seals, dotted ICIT seals and sealings. (A) Share of draws in which a 20-sign stock planted on the Harappa side at the given share of tokens is detected above the Mohenjo-daro floor; the gate is 80\% at 15\%. (B) Share of 60 bootstrap replicates in which site-specific names on the given share of legends produce a gap larger than observed (the exclusion measure); a load is excluded at 95\%. With no names planted this share is 45--55\%, so the curves start near 50\%; the separate rate of $\Delta \geq 0.05$ at $r = 0$ is 17--40\%. (C) Share of 50 draws detected for two diffuse effects, by the share of Harappa tokens actually altered. Sources: \nolinkurl{experiments/uniformity_paper/step2/results.json} (A) and \nolinkurl{experiments/uniformity_paper/revision/results.json} (B, C); script \nolinkurl{make_fig2_power.py}.}
+\includegraphics{fig3_power}
+\caption{Power. Line style marks the pool in every panel (key at lower right): solid M77 seals, dashed ICIT seals, dotted ICIT seals and sealings. (A) Share of draws in which a 20-sign stock planted on the Harappa side at the given share of tokens is detected above the Mohenjo-daro floor; the gate is 80\% at 15\%. (B) Share of 60 bootstrap replicates in which site-specific names on the given share of legends produce a gap larger than observed (the exclusion measure); a load is excluded at 95\%. With no names planted this share is 45--55\%, so the curves start near 50\%; the separate rate of $\Delta \geq 0.05$ at $r = 0$ is 17--40\%. (C) Share of 50 draws detected for two diffuse effects, by the share of Harappa tokens actually altered. Sources: \nolinkurl{experiments/uniformity_paper/step2/results.json} (A) and \nolinkurl{experiments/uniformity_paper/revision/results.json} (B, C); script \nolinkurl{make_fig3_power.py}.}
 \label{fig:power}
 \end{figure}
 
@@ -362,7 +369,7 @@ Moulded tablets alone still differ ($\Delta$ = +0.150, power 96\%), but Mohenjo-
 \paragraph{Chanhu-daro leans apart.} Chanhu-daro is the most separable site in every comparison with the two big cities. % S2
 Its seals sit +0.13 to +0.17 above both floor and null, in two editions, with power of 96--98\%, but each of the four pairs has $q_{\mathrm{chance}} = 0.06$ against the follow-up's bar of 0.05. % experiments/chanhudaro_followup/RESULTS.md
 By the looser step-2 rule ($q_{\mathrm{floor}} \leq 0.10$), Chanhu-daro ``differs'' from Harappa in both editions; the stricter rule was set after step 2 had been scored. % S2J part2; docs/prereg/chanhudaro_followup.md L31-32
-The bootstrap settles the question for now: all four $\Delta_{\mathrm{cons}}$ intervals include zero (medians +0.088 to +0.126; Figure~\ref{fig:bw}B). % experiments/uniformity_paper/revision/RESULTS.md (R1)
+The bootstrap settles the question for now: all four $\Delta_{\mathrm{cons}}$ intervals include zero (medians +0.088 to +0.126), and so do the four $\Delta_{\mathrm{floor}}$ intervals in Figure~\ref{fig:gap} and Table~\ref{tab:floors}. % experiments/uniformity_paper/revision/RESULTS.md (R1)
 The four pairs share the same 40-odd Chanhu-daro seals, so they are not independent.
 
 Part of the gap comes from one sign.
@@ -385,8 +392,8 @@ Our result covers the two big cities, not all Indus sites.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.62\textwidth]{fig3_sites}
-\caption{Gap above the floor ($\Delta$) for ICIT seals and sealings, for every pair with Mohenjo-daro or Harappa. Line width grows with $\Delta$. Solid lines pass the power gate; dashed lines are gated but inconclusive ($\Delta \geq 0.05$, $q > 0.10$); dotted lines with an asterisk fail the gate. Harappa--Chanhu-daro ``differs'' against the floor only, not against the null ($\dagger$), and its bootstrap interval includes zero. Positions are approximate. Source: \nolinkurl{experiments/uniformity_paper/step2/results.json}; script \nolinkurl{make_fig3_sites.py}.}
+\includegraphics{fig4_sites}
+\caption{Gap above the floor ($\Delta$) for ICIT seals and sealings, for every pair with Mohenjo-daro or Harappa. Line width grows with $\Delta$. Solid lines pass the power gate; dashed lines are gated but inconclusive ($\Delta \geq 0.05$, $q > 0.10$); dotted lines with an asterisk fail the gate. Harappa--Chanhu-daro ``differs'' against the floor only, not against the null ($\dagger$), and its bootstrap interval includes zero. Positions are approximate. Source: \nolinkurl{experiments/uniformity_paper/step2/results.json}; script \nolinkurl{make_fig4_sites.py}.}
 \label{fig:sites}
 \end{figure}
 
@@ -401,9 +408,7 @@ They may not name individuals at all, recording offices, titles or commodities c
 Or the texts may have been composed and cut by a small group of specialist carvers trained in one practice, working for owners in any city; that would give uniform texts even if the owners differed, and fits regional variation in imagery and style. % REVIEW_2 C1.1; queued, not tested (docs/RESEARCH_STATE.md)
 Under the spelling models tested, a site-specific name stock on more than about a third of seals is unlikely; realistic, overlapping name use at 40--50\% is not excluded. % REV (verdict 3)
 
-The second reading fits an earlier, unsettled finding from this project: seal-text cores are mostly one or two word-signs, not syllabic spellings. % README.md finding #10; experiments/typology and experiments/core_semantics RESULTS
-That finding's formal verdict was inconclusive (four of five pre-registered predictions passed), and it is sensitive to transcription noise. % README.md finding #10
-Together the two make a site-specific, spelled personal name on most seals less likely, not ruled out.
+So a site-specific, spelled personal name on most seals is less likely, not ruled out. % An unsettled, unarchived project finding on word-sign cores (README.md finding #10) was cited here; dropped after REVIEW_2 C2 (cite archived work only).
 Corpus statistics alone cannot say what the seals encode \citep{raghavendra2026}.
 
 For seal texts at Mohenjo-daro and Harappa, a site-level test with a floor does not revise the uniformity assumption \citep[p.~lvi]{kenoyer2010}.
@@ -452,7 +457,8 @@ The attacking agents share a model family with the original analysts, so their i
 \label{sec:availability}
 
 Code, pre-registrations with their hashes, results files and a ledger of every test run are in the project repository (URL withheld for anonymous review).
-The experiments are in \nolinkurl{experiments/uniformity_benchmark/}, \nolinkurl{experiments/redteam_uniformity/}, \nolinkurl{experiments/uniformity_paper/} (\nolinkurl{step1/}, \nolinkurl{step2/}, \nolinkurl{revision/}), \nolinkurl{experiments/redteam_uniformity_step1/}, \nolinkurl{experiments/redteam_uniformity_step2/}, \nolinkurl{experiments/chanhudaro_followup/} and \nolinkurl{experiments/recchia_rerun/}, each with a \nolinkurl{RESULTS.md}, a \nolinkurl{results.json}, per-draw values and ledger rows.
+For review, an anonymised archive is supplied to reviewers: it holds this code, the per-draw values, the results files, the ledger rows, the pre-registrations with \nolinkurl{HASHES.txt}, the figure scripts and an environment lock file (Python 3.15.0, exact package versions), with instructions giving the run order, seeds and compute needs (one laptop core, about 9 hours for every run in the paper) and the source URL, licence and access date of each third-party corpus. The four figures rebuild byte for byte from its \nolinkurl{results.json} files.
+The experiments are in \nolinkurl{experiments/uniformity_benchmark/}, \nolinkurl{experiments/redteam_uniformity/}, \nolinkurl{experiments/uniformity_paper/} (\nolinkurl{step1/}, \nolinkurl{step2/}, \nolinkurl{revision/}), \nolinkurl{experiments/redteam_uniformity_step1/}, \nolinkurl{experiments/redteam_uniformity_step2/}, \nolinkurl{experiments/chanhudaro_followup/}, \nolinkurl{experiments/recchia_rerun/} and \nolinkurl{experiments/uniformity_referee_checks/}, each with a \nolinkurl{RESULTS.md}, a \nolinkurl{results.json}, per-draw values and ledger rows.
 Pre-registrations are in \nolinkurl{docs/prereg/}, with SHA-256 hashes in \nolinkurl{docs/prereg/HASHES.txt}.
 The figure scripts in \nolinkurl{docs/paper/uniformity/figures/} read the \nolinkurl{results.json} files directly.
 Third-party texts (Indus editions, ORACC, CDLI, EDH, DAMOS) are not redistributed; scripts rebuild the pools from the public sources.

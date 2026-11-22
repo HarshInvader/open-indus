@@ -1,0 +1,5 @@
+# Build output of build_package.py: the staged tree and the zip are regenerated, not committed.
+build/
+*.zip
+# Local list of identifying terms for the anonymity check (names, accounts); never committed.
+forbidden_terms.txt
