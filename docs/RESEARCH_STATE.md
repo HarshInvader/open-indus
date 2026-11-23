@@ -73,6 +73,52 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
   - Shinde not resent: no working official address could be verified.
 - **Status.** Idle on compute until a reply lands. The inbox is checked at the start of every run.
 
+## Main-line plan, 2026-11-23 (owner direction; Fable ranking)
+
+**Owner direction.** Never wait on data; the emails are side bets. The main line is:
+- (a) the claim bench and a public scorecard;
+- (b) function and meaning from non-textual anchors (L2/L3);
+- (c) the digraphic hunt, as a long shot.
+
+Internal-structure tests are allowed again when they serve (a) or (b).
+
+**Fable's ranking.**
+1. **Known-script certification (a).** Does any sealed score rank a real script's true key above noise-fitted keys at Indus shape? So far only shuffle nulls and planted corpora have been used. This decides what scorecard rows may claim. About 1 day. Refute-only 65%, certify 15%.
+2. **Anchor effect-size calibration (a/b).** In read corpora (Latin, Egyptian, Ur III) cut to Indus size, how strongly do word meanings covary with object type? 50%; 2 days.
+3. **Scorecard v1 (a).** Sealed tiers covering the benched keys and the 44 meaning claims; inter-rater kappa of at least 0.8. 80%; after study 1.
+4. **Counted vs frozen numerals by object type (b).** The count-index NO-GO was a gate error, so it gets a corrected rerun. 1 in 8.
+5. **Tripod test (a+b).** Do a key's glosses covary with non-text features? Gate: the true Linear B key must pass. About 1% for any Indus key.
+6. **Copper-tablet emblem out of sample (b).** 25% that n suffices.
+7. **Edition full-text sweep for stamp-sealed tablets (c).** New candidate 15%.
+8. **Open key-table hunt (a).** 40%.
+
+**Fable disagrees on two points:**
+- (b) is nearly exhausted: under 1 in 8 for an L2 result.
+- Held-out texts do not bind claimants who fitted on the whole corpus; only future finds do.
+
+**Decision.** Start study 1 now. Studies 1-3 from the earlier list are done (see above).
+
+## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
+
+**Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.
+
+**Ranked list.**
+1. **Hunt open literature (2010-2026) for new inscribed Gulf-type or foreign Indus seals**, then score the frozen forward predictions F1/F2. Kill gate: at least 8 new texts with a drawing or transliteration. Odds of 8 or more: about 5%. Level L0/L1.
+2. **Reopen atlas 1.10 on the shape-defined round set** (35 texts vs 12): do the residues look like syllabic names? Kill: planted power of at least 0.8. Pass odds: about 5%. It can only refute, since the discovery set is reused.
+3. **Do round texts share an order among themselves?** Leave-one-out model on round texts only; kill on power. Pass odds: about 10%. Level L0; it splits "own language" from "free word-sign strings".
+4. **Forward prediction: person sign first on Mesopotamian round seals vs Bahrain ones.** Scoreable: about 3%.
+- **Rejected:** board #51 (duplicates name_anchors), #4 (crib gate), #47-49 (paper work), Tamil-Brahmi, the image sweep, and neighbouring-field levers.
+
+**My decisions and results.**
+- **Study 1: STOP by the count gate.**
+  - Prereg `gulf_seal_hunt2` (hashed 17:50:45Z); `experiments/gulf_seal_hunt2/RESULTS.md`.
+  - 0 new eligible texts in roughly 70 open sources.
+  - Found: open drawings (Vidale, Desset & Frenez 2021, Fig. 4) of 3 listed but untranscribed objects (UR-07, UR-09, BAHRAIN-02); and a possible label error in ASMAR-01 (OIC 16 shows no Indus signs).
+  - Shape rider: no change, still 3 of 8.
+- **Study 4: NOT SEALED.** Its premise fails on current data. Person-first is 1 of 7 Mesopotamian round texts vs 3 of 8 Gulf round texts (home square seals: 125 of 1,865 = 6.7%). A forward prediction pointing against the data in hand is not worth sealing.
+- **Study 2: STOP, untestable.** Planted power is 0.22 against a bar of 0.8: short residues cannot show a syllabic signature. Atlas 1.10 is downgraded from "refuted" to "untestable" (`experiments/round_name_shape/RESULTS.md`).
+- **Study 3: NO ORDER FOUND among round texts.** Excess -0.10 bits/sign, p = 0.83, at power 0.995 (home sets of the same size: 0.95). This favours "strings with no syntax" over "a second order system" (`experiments/round_own_order/RESULTS.md`).
+
 ## Established (cycle 0-2, see README)
 Order is grammatical; logo-syllabic (~400 signs); ticked fish -> closer slot; Gulf round seals break Indus order; M109+M59 fixed; object-type registers; L-R reversals real; copper tablet text+picture types; functional reading (11 roles).
 Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment looked flat with more text under weak search; corrected 2026-11-20, it is pair-dependent (Latin/Italian 0.62-0.66 with heavy search; see docs/prereg/search_scaling_correction.md); at Indus size (2.5k) mixed: 1 solved, 1 search-limited, 1 objective-limited of 3.

@@ -149,6 +149,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Power.** Low at n = 12.
 - **Not excluded.** Foreign names written with logograms.
 - **Verdict.** Refuted at stated power, for the small-phonetic-subset form.
+- **Update 2026-11-23 (round_name_shape).** Downgraded to **untestable**. On the shape-defined set (35 round texts, 28 residues), planted Ur III syllabic names are detected with power 0.22 (bar 0.8). Short names drawn from a large syllabary rarely repeat signs, so this signature cannot show at these lengths. Prereg `round_name_shape`; `experiments/round_name_shape/RESULTS.md`.
 - **Folder.** `experiments/typology`.
 - **Prereg.** `2026-11-14_typology.md` (not in HASHES.txt).
 - **Reopen with.** More Gulf or Mesopotamian seals with Indus texts.
@@ -1064,7 +1065,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 1.7 | Substitution X↔YZ | Refuted ≥20% | P ≤ 0.08 | Multi-impression names |
 | 1.8 | Fit to candidate language | Untestable | Planted z 0.3-2.8 | ~10 anchors |
 | 1.9 | Cognate decipherment | Untestable | Gate failed | Word division + lexicon |
-| 1.10 | Gulf phonetic names | Refuted | Low, n = 12 | More Gulf seals |
+| 1.10 | Gulf phonetic names | Untestable (power 0.22 at n = 28, 2026-11-23) | Low, n = 12-28 | A known name in context (Meluhha photos) |
 | 1.11 | Mismatch solvability law | Refuted (KILL) | 1 replicate | None |
 | 2.1 | Family classifier | Untestable | LOSO 0.621 | Bilingual |
 | 2.2 | Family from names | Untestable | 0/7 | Valid naming statistic |

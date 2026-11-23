@@ -1,0 +1,12 @@
+{
+ "n_round": 32,
+ "n_home": 1431,
+ "V": 546,
+ "round_loo": {
+  "excess": -0.09548841085517358,
+  "p": 0.8301698301698301,
+  "found": false
+ },
+ "home_trained_excess_on_round_median": 0.05552055827700239,
+ "verdict": "no order found"
+}
