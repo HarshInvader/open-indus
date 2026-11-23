@@ -1,0 +1,16 @@
+Indus token counts (tablet, seal) per site: {'Harappa': (41, 136), 'Mohenjodaro': (30, 494)}
+{
+ "power": 1.0,
+ "passed": true,
+ "sizes": {
+  "Harappa": [
+   41,
+   136
+  ],
+  "Mohenjodaro": [
+   30,
+   494
+  ]
+ },
+ "mean_D": 0.9276338171016337
+}

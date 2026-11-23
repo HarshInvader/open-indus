@@ -173,6 +173,26 @@ The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser 
 - The main-line (a) deliverable now exists.
 - Next: ask Fable for the next ranked study.
 
+**Fable's advice after scorecard v1.**
+- **Next:** a corrected rerun of counted vs frozen numerals by object type. It is the only item left where a positive would be a new function finding.
+  - Index: a count-likeness index per numeral head.
+  - Contrast: tablets vs seals, on distinct texts, stratified by site.
+  - Null: object labels permuted within site.
+  - Kill test: Latin (frozen vs counted) and Ur III (legends and year formulas vs bodies) at Indus size, with power ≥ 0.8 at the real null's width. Proto-cuneiform is dropped as the known answer, since it has no frozen numbers. The prereg must report the old NO-GO beside the new gate.
+  - Odds: gate fails 45%, powered null 35%, positive 12%.
+- **Backup or parallel:** seal the corpus-only P rows (MUK19 class exclusivity, Parpola vel, Murukan partners, vata-min, sign 193) as one batch with plant-gated power. This shrinks P; the outcomes are predictable.
+- **Drop:** tripod, copper emblem, and standalone anchor calibration, which is folded into each kill test. Fish = gems waits for blind coding.
+- **Odds:** 10 anchored values by 2027 is under 1% without (c) or a new find. The realistic product is the scorecard plus sized nulls.
+- **Decision:** run the numerals rerun next. Check the null width in a rehearsal before sealing the bar.
+
+**`numerals_by_object` result.**
+- Sealed at 20:41:22Z after a Latin-only feasibility check.
+- Kill test: Latin at Indus sizes, power 1.0, gap 0.93. Planted c\* = 1.0 index units.
+- Real D = −0.38, negative at both sites. This is a powered negative for "tablets carry counted numerals".
+- Exploratory: tablets are more frozen than seals (reverse tail p 0.0005). Their numerals are fixed pairs.
+- Atlas 6.10 added. Lock released.
+- Next: Fable's backup, a sealed batch of the corpus-only P meaning claims.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.

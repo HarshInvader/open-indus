@@ -1,0 +1,62 @@
+{
+ "gate": {
+  "0.25": {
+   "feasible": 40,
+   "power": 0.0
+  },
+  "0.5": {
+   "feasible": 40,
+   "power": 0.2
+  },
+  "1.0": {
+   "feasible": 40,
+   "power": 1.0
+  },
+  "1.5": {
+   "feasible": 0,
+   "power": null
+  }
+ },
+ "c_star": 1.0,
+ "latin_mean_D": 0.9276338171016337
+}
+{
+ "gate": {
+  "0.25": {
+   "feasible": 40,
+   "power": 0.0
+  },
+  "0.5": {
+   "feasible": 40,
+   "power": 0.2
+  },
+  "1.0": {
+   "feasible": 40,
+   "power": 1.0
+  },
+  "1.5": {
+   "feasible": 0,
+   "power": null
+  }
+ },
+ "c_star": 1.0,
+ "latin_mean_D": 0.9276338171016337,
+ "real": {
+  "D": -0.37778953035438845,
+  "per_stratum": {
+   "Harappa": -0.42688688836266087,
+   "Mohenjodaro": -0.3177816483442777
+  },
+  "p": 1.0,
+  "null_mean": -0.004519901490728983,
+  "null_p99": 0.2513266017857682,
+  "passed": false
+ },
+ "n_tokens": {
+  "Harappa:0": 81,
+  "Harappa:1": 22,
+  "Mohenjodaro:0": 294,
+  "Mohenjodaro:1": 18
+ },
+ "verdict": "powered negative: no tablet-seal gap of 1.0 index units or more"
+}

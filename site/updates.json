@@ -2,6 +2,13 @@
  {
   "date": "2026-11-23",
   "kind": "result",
+  "title": "Numbers on tablets are fixed, not counts",
+  "body": "If Indus tablets were tallies of goods, their numerals should vary more than those on seals. A Latin check showed the test can see such a gap at Indus sizes. Instead, numbers on tablets vary less than on seals at both Harappa and Mohenjo-daro; they come in fixed pairs such as 3 + one sign, as in names.",
+  "link": "https://github.com/HarshInvader/open-indus/blob/main/experiments/numerals_by_object/RESULTS.md"
+ },
+ {
+  "date": "2026-11-23",
+  "kind": "result",
   "title": "Scorecard: every Indus claim on one scale",
   "body": "Two raters, working blind under rules fixed in advance, placed 65 claims (sound keys, 44 meaning claims and our own findings) on one scale (they agreed well, kappa 0.84). None is anchored or has predicted new data. Ten survive a test that could have refuted them, seven are refuted, and the rest can't be tested yet or can't be checked at all.",
   "link": "scorecard.html"

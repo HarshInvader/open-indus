@@ -454,3 +454,5 @@ bbd78b03aae8b8dc757f3eb33cbd58b7fbf6f307e7fbddd1390880a2a226775c  docs/prereg/ta
 da08ac74f54acbb1a3061c6be582d9c1d45206aeab7c082f641a99835b809ab7  docs/prereg/scorecard_v1.md  2026-11-23T20:28:11Z  scorecard_v1
 331434b7ce16582bedcbbdf1d28e9e9f583d14c0a11b04840ce1eb0b71747a21  experiments/scorecard_v1/build_rows.py  2026-11-23T20:28:11Z  scorecard_v1
 e51a828b03e7650a20219802a4b8918f4af406e83a740fec528986002d5ab6f5  experiments/scorecard_v1/rows.csv  2026-11-23T20:28:11Z  scorecard_v1
+d42d2a69d5a6ee7b6dc379b79189992c936f48088659df4a63334bf4be94e804  docs/prereg/numerals_by_object.md  2026-11-23T20:41:22Z  numerals_by_object
+7b6bc646ad3c8461b27913b8b9eab1c9f7a68625a204280a44542e5283040fe2  experiments/numerals_by_object/run.py  2026-11-23T20:41:22Z  numerals_by_object

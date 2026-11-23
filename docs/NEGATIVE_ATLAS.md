@@ -640,6 +640,17 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Prereg.** `pair_numeral_long.md`.
 - **Reopen with.** New texts (registry L4).
 
+### 6.10 Tablets carry counted numerals (tablets as counting records, numeral form) (2026-11-23)
+- **Question.** Do tablets (Harappa miniature, Mohenjo-daro copper) use more count-like numeral heads than seals from the same city?
+- **Method.** Count-likeness index per head (from `count_index_rehearsal`). D = mean index on tablet tokens minus seal tokens, pooled by site. Null: object labels permuted within site.
+- **Kill test.** Latin epitaph ages vs honorific and military unit numbers at Indus sizes: power 1.0, gap 0.93.
+- **Power.** Planted label swaps: c\* = 1.0 index units (power 0.2 at 0.5).
+- **Result.** D = −0.38 (both sites negative), p = 1.0 for "tablets count more". Exploratory: the reverse tail p = 0.0005. Tablet numerals are fixed pairs (3 + M403, 7 + M197, 3 + M190, 7 + M194).
+- **Verdict.** Refuted at stated power (gap ≥ 1.0). The old proto-cuneiform NO-GO is reported beside it.
+- **Folder.** `experiments/numerals_by_object`.
+- **Prereg.** `numerals_by_object.md`.
+- **Reopen with.** Many more inscribed tablets with numerals, or a sealed forward test on newly published tablets.
+
 ---
 
 ## 7. Iconography and depiction
@@ -1119,6 +1130,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 6.7 | Long texts as lists | Untestable | n/a | More long texts |
 | 6.8 | Magnitude | Untestable | 0.15 | ~40 objects |
 | 6.9 | Number-names | Weakened | 14/24 without M59 | New texts |
+| 6.10 | Tablets carry counted numerals | Refuted at stated power (gap ≥ 1.0 index units; observed −0.38, 2026-11-23) | 1.0 at 1.0 | Many more numeral tablets |
 | 7.1 | Animal in text | Refuted | V ≈ 0.3 | None |
 | 7.2 | Logograms | Refuted | 17 tests | None |
 | 7.3 | Self-labels | Refuted | 1/78 | More bangles |
