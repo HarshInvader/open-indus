@@ -35,6 +35,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Power.** The bench separates a real decipherment by a wide margin (Linear B z 11.5). It cannot test a key that is never stated sign by sign.
 - **Not excluded.** A future key with fixed values and fewer free choices per sign.
 - **Verdict.** Refuted at stated power, for these keys.
+- **Update 2026-11-23 (lb_certify, sealed).** Downgraded to **unsupported** (no evidence for these keys), not "refuted". At Indus text shape (opaque signs, Indus lengths, no word division, 74% coverage), the dictionary-fit score cannot tell real Linear B's true key from shuffled keys (CPW 2.258 vs 99th percentile 2.301). Keys hill-climbed on noise beat the true key (2.37-2.53). Fit can neither prove nor refute a key at this shape. `experiments/lb_certify/RESULTS.md`.
 - **Folder.** `experiments/language`, `experiments/literature`.
 - **Prereg.** None.
 - **Reopen with.** A key with one value per sign, fixed before it is scored, that beats noise-fitted keys with the same freedom.
@@ -1056,7 +1057,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 
 | # | Route | Verdict | Power | Reopen with |
 |---|---|---|---|---|
-| 1.1 | Published phonetic keys | Refuted | Bench z 11.5 on Linear B | Fixed one-value key beating noise |
+| 1.1 | Published phonetic keys | Unsupported (fit cannot recognise even Linear B at Indus shape, 2026-11-23) | Fit score fails on true Linear B key | Forward prediction or non-text covariation |
 | 1.2 | Ventris grid | Refuted | Synthetic ARI 0.86 | Long texts with inflection |
 | 1.3 | Phonetic complements | Untestable | 40% | Larger corpus |
 | 1.4 | Homophones | Untestable | 8/80 | Multi-impression names |

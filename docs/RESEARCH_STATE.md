@@ -98,6 +98,23 @@ Internal-structure tests are allowed again when they serve (a) or (b).
 
 **Decision.** Start study 1 now. Studies 1-3 from the earlier list are done (see above).
 
+**Study 1 result (`lb_certify`, sealed 18:19:03Z): STOP at the kill test.**
+- On held-out Linear B, at Indus chunk lengths with no word division and 74% of signs keyed, the true key scores CPW 2.258. The shuffled-key 99th percentile is 2.301, and keys fitted to noise score 2.37-2.53.
+- Atlas 1.1 is downgraded to "unsupported", and the README carries a caution (`experiments/lb_certify/RESULTS.md`).
+
+**Fable's review of that result (per the owner rule).**
+- The stop is right, but the headline overstated it. The Homeric skeleton lexicon is saturated: it holds 80 of 81 consonant pairs and 492 of 729 triples.
+- The scored segments average 2.47 consonants.
+- The noise-fitted keys won mostly by changing segment shape, not by fitting the lexicon better.
+- The monotonic control had no power, with one draw per level.
+
+**Fable's re-rank.**
+1. **`lb_shape_ladder`.** Same data. Rungs climb from Indus shape to full words with word division. The statistic needs words long enough that the lexicon is not saturated, and the nulls keep shape fixed. It publishes the standard "fit is evidence only at shape X or above".
+2. **Anchor calibration, with the Linear B tripod (glosses vs logograms) as its first leg.**
+3. **Scorecard v1**, whose tiers depend on 1 and 2.
+
+**Decision.** RESULTS was reworded to keep the claims to this instrument at this shape. `lb_shape_ladder` is sealed and run next.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.
