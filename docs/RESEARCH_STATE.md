@@ -44,7 +44,7 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
 | Rongorongo | Radiocarbon; lunar calendar | Numeral cycles | Closed (5.6, 6.1) |
 | ML decipherment | Needs a known related language | Language ranking | Closed (1.8, 1.9) |
 
-- **Recent claims.** Yajnadevam, Kriger and Hunt, Adelman and SIGIL are already benched (atlas 1.1, `experiments/bench2026`). Two more (Academia.edu 105134798; ResearchGate 396643766) are behind logins (HTTP 403), so they could not be benched.
+- **Recent claims.** Yajnadevam, Kriger and Hunt and SIGIL are already benched; Adelman is NOT (login wall, abstract only; bench2026 "untestable") (atlas 1.1, `experiments/bench2026`). Two more (Academia.edu 105134798; ResearchGate 396643766) are behind logins (HTTP 403), so they could not be benched.
 - **Independent read (fresh Fable).** No route meets "open data, not closed, could move toward an anchor". Main reason: every lever that worked imported a known that physically touches the texts; Indus has none on open data. Fable also notes that the success bar assumes a phonetic script.
 - **Result.** No new route. Sent today (owner email rule): Rositani (Nisaba archive) and CDLI for photos of P453801 and P516366; Yale's associate curator about Gulf seals on sealed Ur and Larsa tablets. The test for any photo that arrives is sealed in advance: `docs/prereg/meluhha_seal_photo.md`.
 
@@ -60,6 +60,18 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
   - Re-chasing the 17-18 Nov asks (BM, Steinkeller, Owen) is blocked by "no resends" and the 10-day no-follow-up rule.
   - Yale was emailed today (one email per person). A raking-light YBC 5447 request can only go in a reply if Yale answers.
   - New object-holder asks: no further recipients today (3/3 used). Next candidates if a study is blocked on them: CUSAS 40 editors for P516366.
+
+## While waiting on replies, 2026-11-23 (Fable, per owner rule)
+- **Fable's verdict.** Nearly nothing: no corpus compute is worth running until replies arrive. Odds unchanged: under 1 in 1,000 for the bar; about 1 in 200 via the photo chain.
+- **Its suggestions and my decisions.**
+  - Fetch the three login-walled 2026 keys (Adelman, Academia 105134798, ResearchGate 396643766) through the owner's signed-in browser and bench them. **Not done.** Standing rule: login walls are not bypassed. The owner may fetch them and drop the PDFs in; the bench run then takes minutes. RESEARCH_STATE's earlier "Adelman benched" is corrected above.
+  - Freeze a scoring rule for a Kalyanaraman table before it arrives. **Done:** prereg `kalyanaraman_key` (hashed 06:58:27Z). It reuses the Yajnadevam method and Monier-Williams lexicon, scores only with at least 15 numbered sound values, and does not score meanings.
+  - Iraq Museum request for P516366 photos (draft round6/24). **Queued for 2026-11-24**: today's 3 new recipients are used. Before sending, take the address from the museum's or SBAH's own contact page; if none is verifiable, log and stop.
+  - Skipped as not worth it: MUK19 class exclusivity (internal L0/L1); fish = gems and crop-on-jars (underpowered).
+- **Outreach this run.**
+  - Thread replies to Kalyanaraman and Grasa (coordinator-approved).
+  - Shinde not resent: no working official address could be verified.
+- **Status.** Idle on compute until a reply lands. The inbox is checked at the start of every run.
 
 ## Established (cycle 0-2, see README)
 Order is grammatical; logo-syllabic (~400 signs); ticked fish -> closer slot; Gulf round seals break Indus order; M109+M59 fixed; object-type registers; L-R reversals real; copper tablet text+picture types; functional reading (11 roles).
