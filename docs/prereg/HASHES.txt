@@ -442,3 +442,5 @@ c77dbc0c19f827a257e949357d803538a10f156eabc8fbc51792c2455b09f0a1  docs/prereg/ro
 42e6492ab92c5a047a493181ff27e50444094a08c797bed41cf3426a637d3f54  experiments/round_own_order/run.py  2026-11-23T18:09:51Z  round_own_order code
 b36989db19f823632800b7f895748dd9ba24444d37cf53939e62bd3784d4cd2e  docs/prereg/lb_certify.md  2026-11-23T18:19:03Z  lb_certify
 5ffea099787f3683e6b6edcf8afc307c7c6479fb795a7fefacee5da078906745  experiments/lb_certify/run.py  2026-11-23T18:20:06Z  lb_certify code
+f2173e67f5da05116fe970f9b67b75e9c1c739359241affd51a61c2a7ecfe499  docs/prereg/lb_shape_ladder.md  2026-11-23T18:27:33Z  lb_shape_ladder
+ae0abaa1eee5d61549a388e2552b6d76108f33bc26cca4f31800d2bf6ca96114  experiments/lb_shape_ladder/run.py  2026-11-23T18:27:33Z  lb_shape_ladder code

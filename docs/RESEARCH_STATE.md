@@ -115,6 +115,11 @@ Internal-structure tests are allowed again when they serve (a) or (b).
 
 **Decision.** RESULTS was reworded to keep the claims to this instrument at this shape. `lb_shape_ladder` is sealed and run next.
 
+**`lb_shape_ladder` result (sealed 18:27:33Z).** All controls pass.
+- **Refute** (true key above shape-keeping shuffles, IC with LMIN 4) passes from R1 upward: Indus-length chunks, undivided, 100% keyed, 20/20. At R0, with 74% keyed, it fails (13/20).
+- **Certify** fails on all undivided rungs (0/20); keys fitted to noise score about 25% higher. With word division it reaches 14/20, under the bar of 16.
+- **Standard:** fit can count against a full-coverage key and never for one (`experiments/lb_shape_ladder/RESULTS.md`).
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.

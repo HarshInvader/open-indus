@@ -36,6 +36,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Not excluded.** A future key with fixed values and fewer free choices per sign.
 - **Verdict.** Refuted at stated power, for these keys.
 - **Update 2026-11-23 (lb_certify, sealed).** Downgraded to **unsupported** (no evidence for these keys), not "refuted". At Indus text shape (opaque signs, Indus lengths, no word division, 74% coverage), the dictionary-fit score cannot tell real Linear B's true key from shuffled keys (CPW 2.258 vs 99th percentile 2.301). Keys hill-climbed on noise beat the true key (2.37-2.53). Fit can neither prove nor refute a key at this shape. `experiments/lb_certify/RESULTS.md`.
+- **Update 2026-11-23 (lb_shape_ladder, sealed).** Standard set. IC counts only words of 4+ consonants and is tested against shuffles that keep text shape. On that test the true Linear B key beats shuffled keys at Indus length, undivided, with all signs keyed (20/20), but not at 74% coverage (13/20). It never beats keys fitted to noise on undivided text (0/20). So fit can refute a full-coverage key and can never certify one. The benched keys stay **unsupported** until a sealed IC rerun. `experiments/lb_shape_ladder/RESULTS.md`.
 - **Folder.** `experiments/language`, `experiments/literature`.
 - **Prereg.** None.
 - **Reopen with.** A key with one value per sign, fixed before it is scored, that beats noise-fitted keys with the same freedom.
@@ -1057,7 +1058,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 
 | # | Route | Verdict | Power | Reopen with |
 |---|---|---|---|---|
-| 1.1 | Published phonetic keys | Unsupported (fit cannot recognise even Linear B at Indus shape, 2026-11-23) | Fit score fails on true Linear B key | Forward prediction or non-text covariation |
+| 1.1 | Published phonetic keys | Unsupported until a sealed IC rerun (fit can refute full-coverage keys, never certify; lb_shape_ladder 2026-11-23) | Old CPW score failed on the true Linear B key | IC refute rerun; forward prediction or non-text covariation |
 | 1.2 | Ventris grid | Refuted | Synthetic ARI 0.86 | Long texts with inflection |
 | 1.3 | Phonetic complements | Untestable | 40% | Larger corpus |
 | 1.4 | Homophones | Untestable | 8/80 | Multi-impression names |
