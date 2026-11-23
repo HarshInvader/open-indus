@@ -37,3 +37,13 @@ Agent `paper`. Main line (a). Fable's ranking puts it after the fit standard (`l
 
 ## Expected (stated before rating)
 No row above S except perhaps calibration. Most meaning claims at R, U or N. Our own findings mostly at S, with #8 (exploratory) at P.
+
+## Addendum 1 (2026-11-23, after v1 was published)
+- **Stale evidence found.** Four catalogue rows still said "testable / not tested", but they had been tested earlier:
+  - MUK25-fish-gem (`bead_workshops`);
+  - PAR-vel-substitution and PAR-murukan-partners (`parpola_rules34`);
+  - PAR-sign193-weight (`weight_sign`).
+- The v1 raters rated these rows from the stale text. All four came out P.
+- **Fix.** `build_catalogue.py` now points these rows to their results. `rows.csv` is rebuilt; only these 4 rows change, and the v1.0 file is kept as `rows_v1_0.csv`.
+- **Re-rating.** Exactly these 4 rows are re-rated by two new blind raters (same rubric, same rules), with a third settling any split. No other row is re-rated. Their tiers replace the v1.0 tiers for these rows only. Both are shown in `final.json` and on the page.
+- **Kappa** is reported for v1.0 (65 rows) as before. The addendum's agreement on 4 rows is reported, not tested.

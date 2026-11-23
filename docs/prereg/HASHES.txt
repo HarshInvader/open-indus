@@ -456,3 +456,6 @@ da08ac74f54acbb1a3061c6be582d9c1d45206aeab7c082f641a99835b809ab7  docs/prereg/sc
 e51a828b03e7650a20219802a4b8918f4af406e83a740fec528986002d5ab6f5  experiments/scorecard_v1/rows.csv  2026-11-23T20:28:11Z  scorecard_v1
 d42d2a69d5a6ee7b6dc379b79189992c936f48088659df4a63334bf4be94e804  docs/prereg/numerals_by_object.md  2026-11-23T20:41:22Z  numerals_by_object
 7b6bc646ad3c8461b27913b8b9eab1c9f7a68625a204280a44542e5283040fe2  experiments/numerals_by_object/run.py  2026-11-23T20:41:22Z  numerals_by_object
+3790f2f91a313163f3bccde88d4a86a3788b193c4ce965e5ac97fad633505601  docs/prereg/scorecard_v1.md  2026-11-23T20:44:06Z  scorecard_v1 addendum 1
+eb35235347dc245b589915d2159bf2353de44ad876cd9f806581d6b09567dcdf  experiments/scorecard_v1/rows.csv  2026-11-23T20:44:06Z  scorecard_v1 addendum 1
+2ad2584dac426e4ef0e2e2df8f2ef43f32c9365cf497e854ecf5a8346b3a0208  experiments/meaning_claims/build_catalogue.py  2026-11-23T20:44:06Z  scorecard_v1 addendum 1

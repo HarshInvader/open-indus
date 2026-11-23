@@ -193,6 +193,14 @@ The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser 
 - Atlas 6.10 added. Lock released.
 - Next: Fable's backup, a sealed batch of the corpus-only P meaning claims.
 
+**Scorecard addendum 1 (stale catalogue).**
+- While preparing that batch, I found 4 of the "P" catalogue rows had been tested on 2026-11-20 and 2026-11-21: `bead_workshops`, `parpola_rules34` (vel and Murukan) and `weight_sign`. The catalogue was never updated.
+- Fixed in `build_catalogue.py`. Addendum 1 to the scorecard prereg was sealed at 20:44:06Z.
+- Two new blind raters agreed 4/4: fish = gems U, vel U, Murukan S (fixed pair M403 → M87 only), sign 193 U.
+- Counts are now S 11, R 7, U 24, P 7, N 16.
+- **Fable's batch shrinks to MUK19 class exclusivity and vata-min.** Vata-min needs the fig sign identified first.
+- The other P rows are blocked or need new data: beadstring (sign not identified), stroked jar (rare), SIGIL, and our #2 and #8.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.

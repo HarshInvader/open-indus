@@ -24,6 +24,18 @@ def main():
         tier = C[i]["tier"] if split else A[i]["tier"]
         reason = C[i]["reason"] if split else A[i]["reason"]
         out.append(dict(r, tier=tier, reason=reason, split=split, rater_tiers=[A[i]["tier"], B[i]["tier"]] + ([C[i]["tier"]] if split else [])))
+    # Addendum 1: re-rated rows (stale catalogue evidence) replace v1.0 tiers; split rows would go to rater_F.
+    dp, ep = HERE / "rater_D.json", HERE / "rater_E.json"
+    if dp.exists() and ep.exists():
+        D = {x["id"]: x for x in json.load(open(dp))}; Ev = {x["id"]: x for x in json.load(open(ep))}
+        F = {x["id"]: x for x in json.load(open(HERE / "rater_F.json"))} if (HERE / "rater_F.json").exists() else {}
+        for r in out:
+            i = r["id"]
+            if i in D:
+                sp = D[i]["tier"] != Ev[i]["tier"]
+                r["v1_0"] = dict(tier=r["tier"], reason=r["reason"])
+                r["tier"] = F[i]["tier"] if sp else D[i]["tier"]; r["reason"] = F[i]["reason"] if sp else D[i]["reason"]
+                r["split"] = sp; r["rater_tiers"] = [D[i]["tier"], Ev[i]["tier"]] + ([F[i]["tier"]] if sp else []); r["addendum"] = 1
     res = dict(kappa=round(kappa, 3), agreement=round(po, 3), n=n, kappa_bar=0.8, passed=kappa >= 0.8,
                counts=dict(Counter(x["tier"] for x in out)), rows=out)
     json.dump(res, open(HERE / "final.json", "w"), indent=1)

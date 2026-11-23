@@ -1,16 +1,16 @@
 # Scorecard v1 (prereg `scorecard_v1`, hashed 2026-11-23T20:28:11Z, before any rating)
 
-**Result.**
+**Result** (with addendum 1 applied; v1.0 counts are in the section below).
 - The rubric holds: two blind raters agreed at Cohen's kappa **0.842** over 65 claims (raw agreement 0.877, bar 0.8).
 - A third fresh rater settled the 8 split rows, seeing both reasons. Those rows are flagged "split" on the page.
 - **No claim reaches Anchored (A) or Predicted forward (F).**
 
 | tier | all | calibration | sound keys | function claims | meaning claims (44) | our findings (11) |
 |---|---|---|---|---|---|---|
-| S survives refutation | 10 | 1 | 0 | 0 | 1 | 8 |
+| S survives refutation | 11 | 1 | 0 | 0 | 2 | 8 |
 | R refuted | 7 | 0 | 1 | 1 | 5 | 0 |
-| U benchable, untestable | 21 | 1 | 1 | 0 | 18 | 1 |
-| P pending | 11 | 0 | 0 | 1 | 8 | 2 |
+| U benchable, untestable | 24 | 1 | 1 | 0 | 21 | 1 |
+| P pending | 7 | 0 | 0 | 1 | 4 | 2 |
 | N unbenchable | 16 | 0 | 4 | 0 | 12 | 0 |
 
 - **Calibration.**
@@ -42,3 +42,16 @@ This held. Not predicted: #2 at P and #7 at U.
 - `rater_A.json`, `rater_B.json`, `rater_C.json`: every tier with a one-line reason.
 - `final.json`: the combined tiers, built by `finalize.py`.
 - Page: `site/scorecard.html` (noindex), built by `site/build.py` → `scorecard()`.
+
+## Addendum 1: four stale catalogue rows re-rated (2026-11-23)
+- **What went wrong.** Four rows were rated P because `CATALOGUE.csv` still called them untested. They had been tested days earlier:
+  - fish = gems: `bead_workshops`, blind unit coding, too few units;
+  - vel substitution and Murukan partners: `parpola_rules34`;
+  - sign 193 = weight: `weight_sign`.
+- **The fix.** The catalogue now points to those results. Two new blind raters re-rated only these rows, under a sealed addendum, and agreed 4/4:
+  - fish = gems: **U**;
+  - vel substitution: **U** (gate 2%);
+  - Murukan partners: **S** (M403 → M87 fixed pair on held-out data and new sites; the squirrel half fails; the reading itself is not separated from "M403 + numeral 2");
+  - sign 193: **U** (too rare).
+- **v1.0 counts, before the addendum:** S 10, R 7, U 21, P 11, N 16.
+- **Lesson.** A scorecard is only as current as its evidence pointers. v2 should take each row's status from the experiment folders, not from a hand-kept catalogue.
