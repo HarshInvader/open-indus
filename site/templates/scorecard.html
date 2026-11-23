@@ -1,0 +1,25 @@
+<section class="page-head wrap one">
+  <div class="hero-text">
+    <p class="kicker">Scorecard</p>
+    <h1>Every claim about the Indus script, on one scale</h1>
+    <p class="lede">Published keys, meaning claims and our own findings, each given one tier by two raters working blind under a rubric sealed before rating. Nothing has reached the top two tiers yet.</p>
+  </div>
+</section>
+
+<section class="block wrap broad" aria-labelledby="h-tiers">
+  <p class="rail"><span>{{SC_N}}</span>Claims</p>
+  <div class="content">
+    <h2 id="h-tiers">The tiers</h2>
+    <p>Each claim gets the first tier that applies, from the top. The two raters agreed well: Cohen's kappa {{SC_KAPPA}} over {{SC_N}} claims, against a bar of 0.8 set in advance. A third rater settled the {{SC_SPLIT}} rows they split on, and those are marked "split".</p>
+    {{SC_KEY}}
+    <h2 id="h-floors">What our tests can and cannot see</h2>
+    <ul class="ideas">
+      <li>Fitting a dictionary can count against a key that covers every sign at Indus text length. It can never count for one: keys fitted to random sign strings score higher than the true Linear B key (<a href="{{REPO}}/tree/main/experiments/lb_shape_ladder">lb_shape_ladder</a>).</li>
+      <li>A sign tied to a seal's animal is visible only if it covers an extra 20% or more of the non-unicorn seals (shorthorn bull: 20%; elephant: 40%). Weaker ties can be neither confirmed nor ruled out (<a href="{{REPO}}/tree/main/experiments/animal_tie_power">animal_tie_power</a>).</li>
+      <li>Tablets quoting seals from their own city cannot be seen at Indus text size: a real case from Ur III was caught in only 31% of trials (<a href="{{REPO}}/tree/main/experiments/tablet_quoting">tablet_quoting</a>).</li>
+    </ul>
+    <h2 id="h-rows">All claims</h2>
+    {{SC_ROWS}}
+    <p class="more-link"><a href="{{REPO}}/tree/main/experiments/scorecard_v1">Rubric, rows and every rater's reason</a></p>
+  </div>
+</section>

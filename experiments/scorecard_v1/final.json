@@ -1,0 +1,934 @@
+{
+ "kappa": 0.842,
+ "agreement": 0.877,
+ "n": 65,
+ "kappa_bar": 0.8,
+ "passed": true,
+ "counts": {
+  "S": 10,
+  "U": 21,
+  "R": 7,
+  "N": 16,
+  "P": 11
+ },
+ "rows": [
+  {
+   "id": "CAL-LB-true",
+   "group": "calibration",
+   "claimant": "Ventris (true Linear B key)",
+   "claim": "The true Linear B sign-to-sound key, scored as if it were an Indus claim at Indus text shape",
+   "evidence": "experiments/lb_certify/RESULTS.md; experiments/lb_shape_ladder/RESULTS.md",
+   "tier": "S",
+   "reason": "experiments/lb_shape_ladder/RESULTS.md: in a sealed test that could have refuted it (the same key fails 0/20 on scrambled text and 13/20 at 74% coverage), the true key beats its shape-keeping shuffles in 20/20 held-out subsamples at R1 (0.204 vs 99th pct 0.182); certify fails (0/20), but S does not require certification.",
+   "split": true,
+   "rater_tiers": [
+    "S",
+    "U",
+    "S"
+   ]
+  },
+  {
+   "id": "CAL-noise-keys",
+   "group": "calibration",
+   "claimant": "keys fitted to random sign strings",
+   "claim": "Keys hill-climbed to fit noise, scored the same way",
+   "evidence": "experiments/lb_shape_ladder/RESULTS.md; experiments/yj_ic_refute/RESULTS.md",
+   "tier": "U",
+   "reason": "experiments/yj_ic_refute/RESULTS.md: keys fitted to shuffled text beat their own shuffles by construction (IC 0.43, p = 0.001, 'a pass would have meant nothing'), and lb_shape_ladder shows they outscore the true key (0.254 vs 0.204 at R1), so no held test can tell them from a real key.",
+   "split": true,
+   "rater_tiers": [
+    "S",
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "KEY-yajnadevam",
+   "group": "phonetic key",
+   "claimant": "Yajnadevam (2024)",
+   "claim": "Full Sanskrit sign-to-sound key; the corpus reads as Vedic Sanskrit",
+   "evidence": "docs/NEGATIVE_ATLAS.md section 1.1; experiments/yj_ic_refute/RESULTS.md; experiments/lb_shape_ladder/RESULTS.md",
+   "tier": "U",
+   "reason": "experiments/yj_ic_refute/RESULTS.md: key does not beat its shuffles (p 0.22-0.27) but at the real corpus's null width planted power is only 5/20 or 2/20 (10-25%), sealed verdict 'untestable with this lexicon'.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "KEY-pierson",
+   "group": "phonetic key",
+   "claimant": "Pierson (glossa-lab)",
+   "claim": "Partial phonetic readings (605 readings)",
+   "evidence": "docs/NEGATIVE_ATLAS.md section 1.1; experiments/bench_pierson/ (RESULTS.md if present)",
+   "tier": "R",
+   "reason": "experiments/bench_pierson/RESULTS.md: the author's own validation fails on rerun (92.8% coverage identical on a token-shuffled corpus; 'Uniform 0.0%' is a case artefact, fair baseline 49% vs 55%; M77 replication 70.5% reruns as 58.7%/54.7%), though the bench's own power gate failed so the readings themselves are only untestable by fit.",
+   "split": false,
+   "rater_tiers": [
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "KEY-fairservis",
+   "group": "phonetic key",
+   "claimant": "Fairservis (1992)",
+   "claim": "Dravidian readings of signs as names and honorifics",
+   "evidence": "docs/NEGATIVE_ATLAS.md section 1.1; experiments/meaning_claims/CATALOGUE.csv row FAI92-honorifics",
+   "tier": "N",
+   "reason": "experiments/yj_ic_refute/RESULTS.md states 'Fairservis and Rao tables are not held', and atlas 1.1's earlier 'null' rests on the CPW fit score that lb_certify shows cannot refute (true LB key 2.258 vs shuffled 99th 2.301).",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "KEY-rao",
+   "group": "phonetic key",
+   "claimant": "S. R. Rao",
+   "claim": "Indo-Aryan syllabic values",
+   "evidence": "docs/NEGATIVE_ATLAS.md section 1.1",
+   "tier": "N",
+   "reason": "docs/NEGATIVE_ATLAS.md 1.1 reports only 'Fairservis and Rao: null' on a fit score later downgraded to 'unsupported', and yj_ic_refute/RESULTS.md says the Rao table is not held.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "KEY-kalyanaraman",
+   "group": "phonetic key",
+   "claimant": "S. Kalyanaraman",
+   "claim": "Rebus readings (Meluhha metalwork lexicon)",
+   "evidence": "docs/prereg/kalyanaraman_key.md (and its addendum 1); docs/outreach/REPLIES.md (table requested, not yet received)",
+   "tier": "N",
+   "reason": "docs/outreach/REPLIES.md: he sent about 12 rows of meanings with only about 6 Mahadevan numbers and no sound values, below the sealed gate of 15 M-numbers with sound values in docs/prereg/kalyanaraman_key.md; the full table has not arrived.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "KEY-adelman",
+   "group": "phonetic key",
+   "claimant": "Adelman (2026)",
+   "claim": "Convergent Dravidian key, 'systemic coherence to the rarest sign'",
+   "evidence": "experiments/bench2026/RESULTS.md (Adelman section)",
+   "tier": "N",
+   "reason": "experiments/bench2026/RESULTS.md: full text behind a login (HTTP 403), no public sign-value table, 'Adelman Dravidian key beats chance: Untestable (no public table)'.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "FUN-kriger-hunt",
+   "group": "function claim",
+   "claimant": "Kriger & Hunt (2026)",
+   "claim": "Seal texts are registration codes (uniqueness, edge pattern, numerals, near-duplicates)",
+   "evidence": "experiments/bench2026/RESULTS.md",
+   "tier": "R",
+   "reason": "experiments/bench2026/RESULTS.md (pre-registered): their uniqueness claim reverses on rerun (88.2% vs nulls 97.5-99.2%, below every draw), numerals not penultimate (p = 0.46), 'digit 2' is the M99 connective (27.7% without it); only the non-diagnostic edge pattern replicates.",
+   "split": false,
+   "rater_tiers": [
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "FUN-sigil",
+   "group": "function claim",
+   "claimant": "Raghavendra (2026, SIGIL)",
+   "claim": "A sound-free emblem system reproduces the Indus statistics",
+   "evidence": "experiments/bench2026/RESULTS.md (SIGIL section); docs/NEGATIVE_ATLAS.md section 3.3",
+   "tier": "P",
+   "reason": "experiments/bench2026/RESULTS.md reports SIGIL meeting 6/6 published criteria from its own paper, and atlas 3.3 (entropy refuted as a discriminator) has 'Prereg. None', so no sealed or held-out test of the claim has been run here.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-MUK25-fish-gem",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2025 (SSRN 5079207; earlier 2023 SSRN 4412558))",
+   "claim": "fish signs denote gemstones, beads, jewellery and shiny metals (Dravidian min/mani; Mesopotamian 'fish-eye stones' NA4.IGI.KU6)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK25-fish-gem (status: testable; One side prediction already fails at low power: W220 is not enriched on 30 Indus-inscribed objects found in the West (experiments/meluhha goods.py). The home-context prediction is untested.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: status testable; the home bead-unit test is untested (31 BEAD objects, power about 0.6 at OR 2) and the western-object side test (W220 6 vs 3.09, p = 0.07) is low-power.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-MUK25-beadstring",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2025)",
+   "claim": "string of beads; with fish on the Kalibangan drain pipe it labels a bead container",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK25-beadstring (status: testable (companion to MUK25-fish-gem); Sign identity must be fixed from the paper's figures before any count.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable but not run; sign identity still to be fixed from the paper's figures, power unknown.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-MUK22-gold-ratti",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2022 (SSRN 4110151))",
+   "claim": "'gold' and 'ratti' (seed weight) signs; fish-like signs = gemstones and weight standards",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK22-gold-ratti (status: untestable with our data; The claim is built on the needles themselves. ICIT has 18 distinct implement texts and 5 gold/silver objects, so no independent sample exists.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: only 18 implement texts and 5 gold/silver objects (n <= 5), and the claim is built on those same objects, so no independent sample exists.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MUK23-cup-vessel-fee",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2023)",
+   "claim": "standardized-capacity vessel; on tablet reverses it gives one of four licence-fee slabs",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-cup-vessel-fee (status: already tested; See experiments/m328_measure (count not a measure; fixed values), experiments/tablet_archives (26 obverse texts carry 2-3 different tiers; sign x tier p = 0.75), experiments/scene_text (vessel unreadable at 100 ppi).)",
+   "tier": "R",
+   "reason": "experiments/m328_measure/RESULTS.md: stroke count before the cup tracks no tablet size, batch or find-spot (Q1-Q3 refuted, power 0.98-0.99) and is fixed-value not count-like (dAIC 203); tablet_archives T3 obverse x tier p = 0.75 at power 0.96.",
+   "split": false,
+   "rater_tiers": [
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "MC-MUK23-licence-pairing",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2023)",
+   "claim": "obverse = licensed activity; reverse = fee slab for that activity",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-licence-pairing (status: already tested; experiments/tablet_archives finding 3: obverse texts do not split by tier (S = 101, p = 0.75); incised W176 W740 W400 occurs with tiers 2, 3 and 4.)",
+   "tier": "R",
+   "reason": "experiments/tablet_archives/RESULTS.md T3 (pre-registered): obverse signs do not split by tier, S = 101.0, p = 0.75 with power 0.96, and 26 obverse texts carry 2-3 different tiers.",
+   "split": false,
+   "rater_tiers": [
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "MC-MUK23-triple-cup-goblet",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2023)",
+   "claim": "a denomination of a volumetric unit stamped on pointed-base goblets",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-triple-cup-goblet (status: untestable with our data; Every known example is the basis of the claim. A test needs goblet capacities per stamp type, which are not in open data.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: the needed goblet capacities per stamp type are not in open data and every known example is the basis of the claim, so no test is possible on held data.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MUK23-no-names-no-toponyms",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2023)",
+   "claim": "texts encode no personal names or place names; they encode commodities, fees and rules",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-no-names-no-toponyms (status: already tested; experiments/toponyms (no travelling place names), experiments/identifiers (identifier vs label undecidable once length is matched), experiments/administration (not commodity labels on Lothal backs).)",
+   "tier": "U",
+   "reason": "The central contrast, names versus commodity/fee texts, is undecidable: identifiers/RESULTS.md matches neither the identifier model nor the label model, and administration P13 finds 0/12 commodity signs with no stated power; only the toponym half survived a powered test (toponyms T2a, power 0.83).",
+   "split": true,
+   "rater_tiers": [
+    "S",
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MUK23-emblem-organisation",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2023)",
+   "claim": "seal animals are emblems of guilds or tax authorities; same-emblem seals share licence content",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-emblem-organisation (status: already tested; experiments/context Q1: unicorn vs other AUC 0.52; same-emblem Jaccard at null in 16/16 class tests.)",
+   "tier": "R",
+   "reason": "experiments/animal_tie_power/RESULTS.md sizes the context Q1 emblem-text test at power 1.00 for a +20-point tie, which is about Linear B line-to-commodity strength, yet the real result sits at about +2 points (AUC 0.516) and same-emblem Jaccard is at null in 16/16, so shared licence content under one emblem fails at stated power.",
+   "split": true,
+   "rater_tiers": [
+    "U",
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "MC-MUK23-kanmer-occupation",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay; Kharakwal et al. (2023; 2012)",
+   "claim": "an occupation (agate workers?) needing gate passes at fortified Kanmer",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-kanmer-occupation (status: untestable with our data; Kanmer has 4 distinct ICIT texts.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: Kanmer has 4 distinct ICIT texts (n = 4), far below any usable power.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MUK23-wild-ass",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay; Kharakwal et al. (2023; 2012)",
+   "claim": "emblem of a Kutch authority (wild ass is a Kutch animal)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-wild-ass (status: untestable with our data; Kutch sites outside Dholavira have 19 distinct ICIT texts in all; the sign is not a regular sign-list entry.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: Kutch sites outside Dholavira hold 19 distinct texts in all (power < 20 texts) and the sign is not a regular sign-list entry.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MUK21-pilu",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2021)",
+   "claim": "Indus word pilu 'elephant/ivory/toothbrush tree', borrowed as Akkadian piru",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK21-pilu (status: untestable with our data; A language claim with no sign attached. No script test follows without a sign.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: a language claim with no sign attached, so no script test follows.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-MUK19-crop-on-jars",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay; Kenoyer (2019; 2006)",
+   "claim": "crop/commodity; with numerals on jar bodies it gives a quantity of grain or oil",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-crop-on-jars (status: testable (currently underpowered); Lothal sealing backs (administration t4: W390 p = 0.65) and western objects (meluhha) were tested. Storage-jar vs other-vessel was not.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: vessel form recorded for about 20 of 650 inscribed vessels (power near zero), and the Lothal-back test (administration t4, W390 p = 0.65) has no stated power.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MUK19-class-exclusivity",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2019)",
+   "claim": "members of a class are mutually exclusive logograms (a paradigm: one slot, one filler)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-class-exclusivity (status: testable; Atlas 7.4 tested graphic modifiers, not these classes. Her counts (crop signs in 162 and 137 lines, never together; no line with two PPF signs in 309) were never put under a null.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable on M77 dev/held-out (crop group 301 texts) but her counts 'were never put under a null'; not run.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-MUK19-stroked-jar-MET",
+   "group": "meaning claim",
+   "claimant": "Mukhopadhyay (2019)",
+   "claim": "metrological units of volume",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-stroked-jar-MET (status: testable; experiments/self_label found vessel-looking signs depleted on pottery (M342, M336, M343). Stroked-jar variants were not tested on their own.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable, not run; stroked-jar variants were not tested on their own (self_label covered other vessel signs).",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-MAH09-jar-bearer",
+   "group": "meaning claim",
+   "claimant": "Mahadevan (2009)",
+   "claim": "one who carries a sacrificial vessel (priestly officiant); jar = priestly elite (Agastya, 'jar-born')",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MAH09-jar-bearer (status: already tested; Priest vs warrior predicts different precincts: experiments/administration P6-P7 (final M342 and M211 vs area: 0/12 held-out) and reg_findspot (jar null at 3x in two cities).)",
+   "tier": "U",
+   "reason": "The claim's sign, the jar-bearer ligature, was never tested; the powered null (reg_harappa: M342 by big square, p = 0.54, power 1.0 at 3x) covers only the bare jar sign at Harappa, and administration notes that the citadel samples 'can exclude only large effects', so the priest-precinct prediction has no powered test.",
+   "split": true,
+   "rater_tiers": [
+    "R",
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MAH09-arrow-bearer",
+   "group": "meaning claim",
+   "claimant": "Mahadevan (2009)",
+   "claim": "warrior ('one who carries the arrow')",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MAH09-arrow-bearer (status: already tested; As MAH09-jar-bearer. 'Man never with arrow' was tested in experiments/dominik_w090 (mixed; not special).)",
+   "tier": "U",
+   "reason": "experiments/administration/RESULTS.md P6 (final M211 on Harappa F, p = 0.50/0.43) gives no power figure, and experiments/dominik_w090 held-out is 'untestable (power 0.24 at n = 8)'.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MAH-bearer-kaviti",
+   "group": "meaning claim",
+   "claimant": "Mahadevan (via Jyothibabu review) (1980s-2009)",
+   "claim": "officer title (Tamil kaviti 'yoke-bearer'); later Sanskrit bhartr 'lord'",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MAH-bearer-kaviti (status: untestable with our data; A title needs an external role record. Positional behaviour is L1 and is in experiments/functional_reading.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: a title needs an external role record not held; only positional (L1) behaviour can be measured, which cannot tell a title reading from other readings.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-MAH-fish-bath",
+   "group": "meaning claim",
+   "claimant": "Mahadevan (c. 2011)",
+   "claim": "UNVERIFIED: ties the fish sign to the Great Bath ritual",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MAH-fish-bath (status: untestable with our data; Full text not reached. If it predicts fish signs near the Great Bath (Mohenjo-daro SD), experiments/administration P7 found no area effect.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: marked UNVERIFIED, full text not reached, so the claim is not held in operational form.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-PAR-vel-substitution",
+   "group": "meaning claim",
+   "claimant": "Parpola (1994; 2010)",
+   "claim": "M87 = vel (spear/god); fills the same slot as fish (M-172 vs H-6)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-vel-substitution (status: testable; Not tested. experiments/substitution tested X<->YZ, not this one-for-one pair.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable with ample power (M87 in 232 texts, M59 in 289) but 'Not tested'.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-PAR-murukan-partners",
+   "group": "meaning claim",
+   "claimant": "Parpola (1994; 2010)",
+   "claim": "fixed names of the god Murukan",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-murukan-partners (status: testable; M403 on bangles is untestable (bangle_oval H3). Its fixed partners were never tested.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable (M403 in 66 M77 texts) but its fixed partners were never tested.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-PAR-vata-min",
+   "group": "meaning claim",
+   "claimant": "Parpola (1994; 2010)",
+   "claim": "vata-min 'north star'",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-vata-min (status: testable; Not tested. Fish partner set is known (M53, M387, M343, M171, M389; core_semantics).)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable once the fig sign is identified; 'Not tested'.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-PAR75-chanhu-toponym",
+   "group": "meaning claim",
+   "claimant": "Parpola (cited by Mukhopadhyay 2023) (1975)",
+   "claim": "the ancient name of Chanhu-daro",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR75-chanhu-toponym (status: already tested; experiments/toponyms finding 4: local end mark at Chanhu-daro (10/10 texts), replicated; nothing local travels on sealings.)",
+   "tier": "U",
+   "reason": "experiments/toponyms/RESULTS.md finding 4: M93's locality (10/10 texts, splits 2/2 and 3/3) only re-splits the corpus the claim came from, and the test that separates a place name from a scribal habit, travel on sealings, cannot run because 'almost no Chanhu-daro sealings survive'.",
+   "split": true,
+   "rater_tiers": [
+    "S",
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-PAR-sign193-weight",
+   "group": "meaning claim",
+   "claimant": "Parpola (sign list, as reproduced on Wikiversity) (1994)",
+   "claim": "weight / metrology",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-sign193-weight (status: testable (after mapping); experiments/assemblage tested every sign in WEIGHT units with zero power; nearest miss M197 (W575). Its null did not correct for find density.)",
+   "tier": "P",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable after mapping with a find-density null; the earlier assemblage run had zero power and its nearest miss (M197) was not under the corrected null.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "MC-PAR-man-steelyard",
+   "group": "meaning claim",
+   "claimant": "Parpola (sign list) (1994)",
+   "claim": "porter/carrier; Dravidian homophones include 'lever of a steelyard'",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-man-steelyard (status: already tested; experiments/assemblage x1: M1 storage signal was one seal (dead lead); WEIGHT units not enriched.)",
+   "tier": "U",
+   "reason": "experiments/assemblage/RESULTS.md: WEIGHT units not enriched but planted power at 3x is 0.00-0.035, and the M1 storage signal was one seal.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-WEL15-jar-40L",
+   "group": "meaning claim",
+   "claimant": "Wells (as reported by Rao 2018) (2015)",
+   "claim": "volumetric measure of about 40 L; a related sign about 160 L",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row WEL15-jar-40L (status: already tested; experiments/m342_offsite (untestable, leans against), experiments/m328_measure (dead), self_label (jar rarer on jars).)",
+   "tier": "U",
+   "reason": "experiments/m342_offsite/RESULTS.md: the pre-registered vessel test is untestable (power 0.465, about 250 pottery texts needed); with no vessel capacities held, the ~40 L prediction has no powered test, and m328_measure's tablet-size, batch and locus nulls (power 0.98) test a count reading, not pot volume.",
+   "split": true,
+   "rater_tiers": [
+    "U",
+    "R",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-WEL15-17-signs",
+   "group": "meaning claim",
+   "claimant": "Wells (2015)",
+   "claim": "17 signs identified with Dravidian values; some sequences are verbs or nouns",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row WEL15-17-signs (status: untestable with our data; Book not open; list not reached. If obtained, values can go on the phonetic bench (atlas 1.1).)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: book not open, the 17-sign list was not reached.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-WEL15-fish-number",
+   "group": "meaning claim",
+   "claimant": "Wells (2015)",
+   "claim": "fish + number clusters as fixed units",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row WEL15-fish-number (status: already tested; atlas 6.9 and README #5 (six+fish fixed; M59 carries the number-name effect).)",
+   "tier": "S",
+   "reason": "README.md #5: six + fish is a fixed expression on clean held-out data (7 of 10 vs 3% base, q~6e-8) and atlas 6.9 says the effect survives (29/40) though carried by M59; Parpola's seven + fish has no support.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "MC-KEN06-jar-strokes",
+   "group": "meaning claim",
+   "claimant": "Kenoyer (2006 (cited in Mukhopadhyay 2019))",
+   "claim": "measure of oil or grain in the jar before sealing",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KEN06-jar-strokes (status: untestable with our data; Needs capacity per inscribed vessel. experiments/magnitude found no usable size data for pots.)",
+   "tier": "U",
+   "reason": "experiments/magnitude/RESULTS.md: 0 inscribed vessels have a recorded capacity, so stroke count vs capacity cannot be tested on held data.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-KM-tablets-tokens",
+   "group": "meaning claim",
+   "claimant": "Kenoyer & Meadow; Rao (2010; 2018)",
+   "claim": "transaction tokens or ration records; deliberate disposal of tablet groups",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KM-tablets-tokens (status: already tested; experiments/tablet_archives (0/5), experiments/slot_function B (counted people not supported).)",
+   "tier": "R",
+   "reason": "experiments/tablet_archives/RESULTS.md: 0 of 5 pre-registered tests pass; deposit uniformity T1 p = 0.83 at power 0.98 and obverse x tier p = 0.75 at power 0.96.",
+   "split": false,
+   "rater_tiers": [
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "MC-KEN20-premature-marks",
+   "group": "meaning claim",
+   "claimant": "Kenoyer (2020)",
+   "claim": "pre-Mature post-firing pot marks: owner or user marks that became script signs",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KEN20-premature-marks (status: already tested; experiments/potters_marks (descriptive; frame vs core OR 1.26, p = 0.39).)",
+   "tier": "U",
+   "reason": "experiments/potters_marks/RESULTS.md: M342/M347 do have pre-Mature graffiti ancestors, but the frame-vs-core test is inconclusive (OR 1.26, p = 0.39) with power 0.33 at 2x.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-HV-bangle-workshop",
+   "group": "meaning claim",
+   "claimant": "Halim & Vidale; Kenoyer (1984; 1990s)",
+   "claim": "stoneware-bangle inscriptions are workshop, batch or owner marks",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row HV-bangle-workshop (status: already tested; experiments/bangle_oval H1 untestable (n = 0 new bangles); H4b leans workshop (5/27 vs 0/13, p = 0.15).)",
+   "tier": "U",
+   "reason": "experiments/bangle_oval/RESULTS.md: H1 untestable (n = 0 new bangles, ~19 needed for 0.8) and the workshop descriptive (5/27 vs 0/13, p = 0.15) has power <= 14%.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-FT05-access-control",
+   "group": "meaning claim",
+   "claimant": "Frenez & Tosi; Frenez (2005; 2018)",
+   "claim": "seals controlled access to stored goods; elephant-seal boxes tied to maritime trade",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row FT05-access-control (status: already tested; experiments/administration P13-P14, experiments/sealing_function (route closed by sample size).)",
+   "tier": "U",
+   "reason": "experiments/sealing_function/RESULTS.md: door-peg test power 0.004-0.012, 'closed by sample size, not by evidence'; administration P13-P14 nulls carry no power figure.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-VID05-bison-abroad",
+   "group": "meaning claim",
+   "claimant": "Vidale (2004-2005)",
+   "claim": "bison emblem marks clans in the western trade",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row VID05-bison-abroad (status: already tested; Not a sign claim. Emblem-text link: context Q1 (null). Foreign texts: meluhha goods, README #4.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv row VID05-bison-abroad: 'Not a sign claim', and 'marks clans' has no operational prediction; the cited context Q1 and Meluhha tests do not test it.",
+   "split": true,
+   "rater_tiers": [
+    "U",
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-LAU10-twins-prefix",
+   "group": "meaning claim",
+   "claimant": "Laursen (2010)",
+   "claim": "a prefix common on Gulf-type seals; part of a non-Harappan (Dilmun) language or name formula",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row LAU10-twins-prefix (status: testable (very low power); Round Gulf seals breaking order is README #4. The twins prefix itself is untested. Our foreign corpus has 46 legible texts; only 3 contain W032 in our transcription, so the sign mapping must be checked first.)",
+   "tier": "U",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: only 3 Gulf texts carry W032, 'power negligible unless the mapping adds more'.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-LAU10-other-language",
+   "group": "meaning claim",
+   "claimant": "Laursen; Parpola (2010; 1994)",
+   "claim": "Gulf seals write another language with Indus signs",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row LAU10-other-language (status: already tested; README #4 and correction: off-order is a property of round Gulf-type seals wherever found; three readings cannot be separated.)",
+   "tier": "R",
+   "reason": "experiments/round_own_order/RESULTS.md (sealed): round texts show no order of their own (-0.10 bits/sign, p = 0.83) where same-size home sets show it at power 0.995, so 'a second language with its own grammar' is not supported; README #4 notes the reading stays possible if its texts are too few or mixed.",
+   "split": false,
+   "rater_tiers": [
+    "R",
+    "R"
+   ]
+  },
+  {
+   "id": "MC-FSW04-emblems",
+   "group": "meaning claim",
+   "claimant": "Farmer, Sproat & Witzel (2004)",
+   "claim": "non-linguistic emblems of deities, clans and offices (cf. kudurru symbols); number signs symbolic",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row FSW04-emblems (status: already tested / untestable; Emblem-text link null (context Q1); numerals do not match any quantity class (numeral_class); language vs code untestable (atlas 3.1-3.2).)",
+   "tier": "U",
+   "reason": "docs/NEGATIVE_ATLAS.md 3.1-3.2: language vs code is untestable (classifier gate failed, balanced accuracy 0.69 vs 0.80 bar), and the emblem-text null (context Q1) has no power calibration.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "MC-POS96-survey",
+   "group": "meaning claim",
+   "claimant": "Possehl (1996)",
+   "claim": "no new sign meaning; surveys earlier decipherments; seals as identity/office markers",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row POS96-survey (status: untestable with our data; No sign-level claim to test. Office/identity covered by administration and identifiers.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: 'No sign-level claim to test'.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-KOS-segmentation",
+   "group": "meaning claim",
+   "claimant": "Koskenniemi (with Parpola) (1970s-1981)",
+   "claim": "no meaning claims found; segmentation and sign classes only",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KOS-segmentation (status: untestable with our data; Structural work, covered by grammar and functional_reading.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: no meaning claims found, segmentation and sign classes only, so nothing stated sign by sign as a reading.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-FAI92-honorifics",
+   "group": "meaning claim",
+   "claimant": "Fairservis (1992)",
+   "claim": "fish = loom-twist, used as an honorific; seal texts = names and titles of chiefs",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row FAI92-honorifics (status: already tested; His key failed the shuffle bench (atlas 1.1; literature RESULTS). Book text not read: the only full copy online is an unlicensed upload.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: book text not read, and experiments/literature/RESULTS.md says his specific values are UNVERIFIED; the earlier shuffle-bench null is a fit score that lb_certify shows cannot refute.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-KAL-metalwork",
+   "group": "meaning claim",
+   "claimant": "Kalyanaraman (2010-2019)",
+   "claim": "rebus readings for metalwork and 'wealth-accounting ledgers' (e.g. drongo = steel)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KAL-metalwork (status: untestable with our data; No fixed one-value-per-sign key, so any outcome fits. Copper context tested in assemblage (zero power).)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: no fixed one-value-per-sign key, so any outcome fits (REPLIES.md: meanings only, about 6 numbered rows).",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-KNO-team",
+   "group": "meaning claim",
+   "claimant": "Knorozov, Volchok et al. (1965-1981)",
+   "claim": "Dravidian values for many signs (specific values not reached)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KNO-team (status: untestable with our data; Values not in hand. If obtained, they go on the phonetic bench.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: 'Values not in hand'.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-KW74-indo-sumerian",
+   "group": "meaning claim",
+   "claimant": "Kinnier Wilson (1974)",
+   "claim": "Sumerian logogram values",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KW74-indo-sumerian (status: already tested; Sumerian as the language: atlas 1.8 (z 0.33-0.54) and 2.4 (Meluhha interpreter). Sign values not in hand.)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: 'Sign values not in hand'; the Sumerian-language test (atlas 1.8, z 0.33-0.54) is itself untestable at planted z 0.3-2.8.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-MEL-goods",
+   "group": "meaning claim",
+   "claimant": "Laursen & Steinkeller; Parpola; others (1977-2017)",
+   "claim": "Meluhha goods in cuneiform (carnelian, ivory, ab-ba and mes wood, copper, gold dust, dar-bird, dogs) as possible sign referents",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MEL-goods (status: already tested; No published scholarly sign-to-good link was found outside fringe rebus work. Candidates tested on 30 western objects: none enriched; jar depleted (experiments/meluhha goods.py).)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: 'No published scholarly sign-to-good link was found', so the claim names no signs; the project's own candidates (meluhha goods: 0 of 4 enriched on 30 objects) were tested without stated power.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "MC-GREEN-offices",
+   "group": "meaning claim",
+   "claimant": "Green; Mukhopadhyay (2018-2023)",
+   "claim": "seals and weights co-occur in public buildings (Mohenjo-daro DK-G 8A, 6A) used for administration",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row GREEN-offices (status: untestable with our data; Not a sign claim. Household/office signature in seal texts refuted (reg_findspot, reg_harappa).)",
+   "tier": "N",
+   "reason": "experiments/meaning_claims/CATALOGUE.csv: 'Not a sign claim'; it concerns co-location of seals and weights in buildings, not a script reading.",
+   "split": false,
+   "rater_tiers": [
+    "N",
+    "N"
+   ]
+  },
+  {
+   "id": "OWN-1",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #1",
+   "evidence": "README.md table row #1 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #1: on a clean held-out split real order beats permutations in 40% of 321 runs vs 5.7% chance (q~8e-72), red-teamed; codes pass the same test, so it shows sequential structure only.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-2",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #2",
+   "evidence": "README.md table row #2 and the folders it names",
+   "tier": "P",
+   "reason": "README.md #2: inventory comparison is 'Descriptive comparison, not a hypothesis test' (120 signs cover 90% of tokens), with no sealed or held-out test.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "OWN-3",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #3",
+   "evidence": "README.md table row #3 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #3: clean held-out 11/19 ticked fish final vs 7% for plain fish (p = 0.004) and red team #31 finds it again at post-1977 sites (4 of 6, p = 0.02-0.04); split: q = 0.54 across all tests and it misses 0.05 when fish are lumped.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-4",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #4",
+   "evidence": "README.md table row #4 and the folders it names",
+   "tier": "S",
+   "reason": "experiments/context/RESULTS.md Q4: foreign round seals +2.17 bits/sign (planted shuffled-order detection 0.99), replicated on M77 West Asian finds (+1.96, p = 1e-4); split: the 'square abroad / not format' part was corrected (home round seals break order too).",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-5",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #5",
+   "evidence": "README.md table row #5 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #5: six + fish fixed on clean held-out data, 7 of 10 vs 3% base (q~6e-8), replicated in Wells 13 of 33.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-6",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #6",
+   "evidence": "README.md table row #6 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #6: object-type vocabulary on clean held-out data, AUC copper 0.87 to sealing 0.67, all above permutation 95th pct 0.55-0.61.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-7",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #7",
+   "evidence": "README.md table row #7 and the folders it names",
+   "tier": "U",
+   "reason": "README.md #7: the 31/34 result depends on direction labels; under ICIT labels 19/23 just misses the bar, red team ICIT 15/22 (p = 0.07), and only 4-8 lines are labelled alike in both editions, 'too few to test'.",
+   "split": false,
+   "rater_tiers": [
+    "U",
+    "U"
+   ]
+  },
+  {
+   "id": "OWN-8",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #8",
+   "evidence": "README.md table row #8 and the folders it names",
+   "tier": "P",
+   "reason": "README.md #8 is marked exploratory: same legend -> same sign face 8/8 is an 'all-data test, not held out'.",
+   "split": false,
+   "rater_tiers": [
+    "P",
+    "P"
+   ]
+  },
+  {
+   "id": "OWN-9",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #9",
+   "evidence": "README.md table row #9 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #9: positional classes parse 76% of unseen texts vs 44% for shuffles and 77% at sites absent from M77; split: the specific 11 roles are only weakly supported (p = 0.013, q = 0.085).",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-10",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #10",
+   "evidence": "README.md table row #10 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #10: pair order replicates on held-out (115/138 follow dev order, p = 3e-16) and core_semantics prereg passed 8/9; split: typology formal verdict inconclusive (4/5) and it passes only 3-9 of 10 noise runs.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  },
+  {
+   "id": "OWN-11",
+   "group": "our finding",
+   "claimant": "this project",
+   "claim": "README 'What we can defend' row #11",
+   "evidence": "README.md table row #11 and the folders it names",
+   "tier": "S",
+   "reason": "README.md #11: the fish family substitutes as a set on held-out data, p = 0.0002-0.0004 (core_semantics); Parpola's fish = deity reading failed held-out.",
+   "split": false,
+   "rater_tiers": [
+    "S",
+    "S"
+   ]
+  }
+ ]
+}

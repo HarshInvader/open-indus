@@ -1,0 +1,106 @@
+[
+ {
+  "id": "CAL-LB-true",
+  "claim": "The true Linear B sign-to-sound key, scored as if it were an Indus claim at Indus text shape",
+  "evidence": "experiments/lb_certify/RESULTS.md; experiments/lb_shape_ladder/RESULTS.md",
+  "rater1": {
+   "tier": "S",
+   "reason": "experiments/lb_shape_ladder/RESULTS.md: on held-out Linear B the true key beats its shape-keeping shuffles in 20/20 subsamples at R1 (0.204 vs 99th pct 0.182), a sealed refute test it could have failed; but certify passes at no rung (0/20) and CPW fails in lb_certify (2.258 vs 2.301), so fit gives no positive support."
+  },
+  "rater2": {
+   "tier": "U",
+   "reason": "lb_shape_ladder/RESULTS.md: the true key passes the refute test (20/20 at R1) but certifies at no rung (0/20 vs noise-fitted keys), and lb_certify shows CPW 2.258 below the shuffled 99th pct 2.301, so fit cannot certify even the right key."
+  }
+ },
+ {
+  "id": "CAL-noise-keys",
+  "claim": "Keys hill-climbed to fit noise, scored the same way",
+  "evidence": "experiments/lb_shape_ladder/RESULTS.md; experiments/yj_ic_refute/RESULTS.md",
+  "rater1": {
+   "tier": "S",
+   "reason": "experiments/lb_shape_ladder/RESULTS.md: noise-fitted keys score about 25% above the true key on held-out text (best 0.254 at R1, above shuffled 99th pct 0.182) and in yj_ic_refute all 3 beat their own shuffles (p = 0.001), so they pass the only refute test held; the rubric cannot separate them from the true key (certify 0/20)."
+  },
+  "rater2": {
+   "tier": "U",
+   "reason": "yj_ic_refute/RESULTS.md: keys hill-climbed on shuffled Indus text beat their own shuffles (IC 0.43, p=0.001) and lb_shape_ladder noise keys beat the true key at R1-R2, so fit can neither refute nor certify them."
+  }
+ },
+ {
+  "id": "MC-MUK23-no-names-no-toponyms",
+  "claim": "texts encode no personal names or place names; they encode commodities, fees and rules",
+  "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-no-names-no-toponyms (status: already tested; experiments/toponyms (no travelling place names), experiments/identifiers (identifier vs label undecidable once length is matched), experiments/administration (not commodity labels on Lothal backs).)",
+  "rater1": {
+   "tier": "S",
+   "reason": "experiments/toponyms/RESULTS.md (pre-registered): no travelling place names, 66 vs 71.9 expected (p = 0.82) at planted power 0.83 (ICIT), so the no-toponym half survived a test that could have refuted it; the no-names half is undecidable (identifiers) and the commodity half unsupported (administration P13 0/12)."
+  },
+  "rater2": {
+   "tier": "U",
+   "reason": "Mixed: toponyms/RESULTS.md finds no travelling place names (power 0.83-0.93), but identifiers/RESULTS.md finds identifier vs label undecidable and administration P13 finds no commodity labels, so the central 'no names' prediction cannot be told from its alternative."
+  }
+ },
+ {
+  "id": "MC-MUK23-emblem-organisation",
+  "claim": "seal animals are emblems of guilds or tax authorities; same-emblem seals share licence content",
+  "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-emblem-organisation (status: already tested; experiments/context Q1: unicorn vs other AUC 0.52; same-emblem Jaccard at null in 16/16 class tests.)",
+  "rater1": {
+   "tier": "U",
+   "reason": "experiments/context/RESULTS.md Q1: unicorn vs other AUC 0.52 and same-emblem Jaccard at null in 16/16, but 'the classifier has no planted-signal power calibration', so the null has no stated power."
+  },
+  "rater2": {
+   "tier": "R",
+   "reason": "context/RESULTS.md Q1: unicorn-vs-other AUC 0.516 (p=0.39) and same-emblem Jaccard at null in 16/16; animal_tie_power/RESULTS.md shows this test has power 1.00 for a +20-point emblem-text tie."
+  }
+ },
+ {
+  "id": "MC-MAH09-jar-bearer",
+  "claim": "one who carries a sacrificial vessel (priestly officiant); jar = priestly elite (Agastya, 'jar-born')",
+  "evidence": "experiments/meaning_claims/CATALOGUE.csv row MAH09-jar-bearer (status: already tested; Priest vs warrior predicts different precincts: experiments/administration P6-P7 (final M342 and M211 vs area: 0/12 held-out) and reg_findspot (jar null at 3x in two cities).)",
+  "rater1": {
+   "tier": "R",
+   "reason": "experiments/reg_harappa/RESULTS.md (pre-registered): jar M342 by big square p = 0.54 with power 1.0, '3x excluded', and administration P7 0/12 held-out feature x area tests survive, so the precinct prediction fails at stated power."
+  },
+  "rater2": {
+   "tier": "U",
+   "reason": "administration/RESULTS.md P6-P7 (0/12 held-out) used final M342/M211 not the ligature and the citadel samples 'can exclude only large effects'; reg_findspot block-level power is 0.71 at 3x, so no test reached power 0.8."
+  }
+ },
+ {
+  "id": "MC-PAR75-chanhu-toponym",
+  "claim": "the ancient name of Chanhu-daro",
+  "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR75-chanhu-toponym (status: already tested; experiments/toponyms finding 4: local end mark at Chanhu-daro (10/10 texts), replicated; nothing local travels on sealings.)",
+  "rater1": {
+   "tier": "S",
+   "reason": "experiments/toponyms/RESULTS.md finding 4: M93 is local to Chanhu-daro (10/10 M77 texts) and replicated in both held-out splits (2/2, 3/3), a test that could have failed; but whether it is a name or a scribal habit 'the data cannot tell', since almost no Chanhu-daro sealings survive."
+  },
+  "rater2": {
+   "tier": "U",
+   "reason": "toponyms/RESULTS.md finding 4: M93 is local to Chanhu-daro (10/10, replicated held-out 2/2 and 3/3), but 'the data cannot tell' a place name from a scribal habit because almost no Chanhu-daro sealings survive."
+  }
+ },
+ {
+  "id": "MC-WEL15-jar-40L",
+  "claim": "volumetric measure of about 40 L; a related sign about 160 L",
+  "evidence": "experiments/meaning_claims/CATALOGUE.csv row WEL15-jar-40L (status: already tested; experiments/m342_offsite (untestable, leans against), experiments/m328_measure (dead), self_label (jar rarer on jars).)",
+  "rater1": {
+   "tier": "U",
+   "reason": "experiments/m342_offsite/RESULTS.md: pre-registered test untestable (power 0.465 at 1.5x, ~250 texts needed); the secondary ICIT pool (0.80x, power 0.92) and self_label (70 vs 124) lean against, and no vessel capacities exist (magnitude: 0 pots)."
+  },
+  "rater2": {
+   "tier": "R",
+   "reason": "Both candidate signs fail: m328_measure refutes M328 as a measure (power 0.98-0.99), and for M342 m342_offsite's ICIT pool (power 0.92) shows 0.80x on pottery with self_label 70 vs 124 expected; the primary consensus test was underpowered (0.47)."
+  }
+ },
+ {
+  "id": "MC-VID05-bison-abroad",
+  "claim": "bison emblem marks clans in the western trade",
+  "evidence": "experiments/meaning_claims/CATALOGUE.csv row VID05-bison-abroad (status: already tested; Not a sign claim. Emblem-text link: context Q1 (null). Foreign texts: meluhha goods, README #4.)",
+  "rater1": {
+   "tier": "U",
+   "reason": "experiments/context/RESULTS.md Q1: emblem-text link null (AUC 0.52) but with no planted-signal power calibration; not a sign claim and no powered test exists."
+  },
+  "rater2": {
+   "tier": "N",
+   "reason": "CATALOGUE.csv VID05-bison-abroad: 'Not a sign claim'; 'clan' is not stated operationally, and the emblem-text and foreign-text tests cited do not test it."
+  }
+ }
+]

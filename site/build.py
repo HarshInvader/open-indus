@@ -1243,6 +1243,39 @@ def closed_routes(sections, rows):
     return "".join(out)
 
 
+# ---------------------------------------------------------------- scorecard (experiments/scorecard_v1)
+SC_TIERS = (("A", "Anchored", "An outside anchor (a bilingual, or a read script) confirms it on data not used to make it.", "good"),
+            ("F", "Predicted forward", "A sealed prediction, made before the data were seen, came true.", "good"),
+            ("S", "Survives refutation", "Passed a pre-registered or held-out test that could have refuted it.", "ok"),
+            ("R", "Refuted", "Its own prediction failed a test with enough power, or its numbers fail on rerun.", "out"),
+            ("U", "Can't test yet", "Stated precisely and the data are held, but no test we can run is strong enough.", "wait"),
+            ("P", "Pending", "Testable on data in hand, or seen only in exploration; not yet decided.", "wait"),
+            ("N", "Can't be benched", "Not stated sign by sign or as a rule, or the key or paper is not available.", "weak"))
+SC_GROUPS = (("calibration", "Calibration: a known script scored as if it were an Indus claim"), ("phonetic key", "Published sound keys"),
+             ("function claim", "What the texts are for"), ("meaning claim", "What signs mean (44 published proposals)"), ("our finding", "Our own findings"))
+
+
+def scorecard():
+    d = json.loads((ROOT / "experiments/scorecard_v1/final.json").read_text())
+    key = '<ul class="routes">' + "".join(
+        f'<li class="route"><div class="rt">{E(name)}</div><span class="tag {k}">{d["counts"].get(c, 0)}</span><div class="rd"><span>{E(rule)}</span></div></li>'
+        for c, name, rule, k in SC_TIERS) + "</ul>"
+    tier = {c: (name, k) for c, name, _, k in SC_TIERS}
+    order = {c: i for i, (c, *_) in enumerate(SC_TIERS)}
+    out = []
+    for g, title in SC_GROUPS:
+        rs = sorted((r for r in d["rows"] if r["group"] == g), key=lambda r: order[r["tier"]])
+        items = []
+        for r in rs:
+            name, k = tier[r["tier"]]
+            split = " · split (" + "/".join(r["rater_tiers"]) + ")" if r["split"] else ""
+            items.append(f'<li class="route"><div class="rt">{E(r["claimant"])}: {E(r["claim"])}</div>'
+                         f'<span class="tag {k}">{E(name)}</span><div class="rd"><span>{E(r["reason"])}{E(split)}</span></div></li>')
+        out.append(f'<details class="group"{" open" if g == "calibration" else ""}><summary><span class="gt">{E(title)}</span>'
+                   f'<span class="gc">{len(rs)} claims</span></summary><ul class="routes">{"".join(items)}</ul></details>')
+    return dict(SC_N=d["n"], SC_KAPPA=f'{d["kappa"]:.2f}', SC_SPLIT=sum(r["split"] for r in d["rows"]), SC_KEY=key, SC_ROWS="".join(out))
+
+
 def reversals(rev):
     return '<ol class="rev">' + "".join(f'<li><b>{E(r["title"])}.</b> {E(r["text"])}</li>' for r in rev) + "</ol>"
 
@@ -1329,7 +1362,7 @@ def smart(page):
 
 
 PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"), ("library.html", "Library"),
-         ("signs/index.html", "Signs"), ("updates.html", "Updates"),
+         ("signs/index.html", "Signs"), ("updates.html", "Updates"), ("scorecard.html", "Scorecard"),
          ("tracker.html", "Tracker"), ("contribute.html", "Contribute"), ("resources.html", "Resources"))
 ARROW = ('<svg class="ext-ic" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false" fill="none" '
          'stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 8.5L8.5 3.5M4.5 3.5H8.5V7.5"/></svg>')
@@ -1353,6 +1386,7 @@ NAV_GROUPS = (
                   ("news.html", "News", "New papers, summarised", "news"),
                   ("library.html", "Library", "Every paper we have read, analysed", "files"),
                   ("signs/index.html", "Sign catalogue", "Every sign, and what is known about it", "signs"),
+                  ("scorecard.html", "Scorecard", "Every claim, rated on one scale", "find"),
                   ("tracker.html", "Tracker", "Progress and the live task board", "tracker"))),
     ("Resources", (("REPO/tree/main/datasets", "Open data", "Every Indus dataset in one place", "data"),
                    ("resources.html", "Typeface and logo", "Free to download", "font"),
@@ -1565,6 +1599,9 @@ def main():
                             ROUTES=closed_routes(sections, rows), FIG_ROUTES=fig_routes(sections, rows), FIG_SIGNS=fig_signs(), FIG_MIRROR=fig_mirror(), FIG_MAP=fig_map(), FIG_SEALS=figure("EH_16", 2, "Square stamp seal from Harappa with a line of signs above an animal") + figure("FEM_273", 3, "Long clay impression of a one-line seal text"), REVERSALS=reversals(rev), PAPERS=papers(),
                             FIG_A=figure("MIC_91", 4, "Square seal: signs along the top, a striped animal below"),
                             FIG_B=figure("FEM_461", 5, "Impression of a one-line seal text"))))
+    built.append(render("scorecard", f"Scorecard · {NAME} · Every Indus script claim rated",
+                        "Published sound keys, meaning claims and our own findings about the Indus script, each rated on one tier scale by two blind raters.",
+                        "scorecard.html", dict(common, **scorecard())))
     built.append(render("tracker", f"Tracker · {NAME} · Decipher the Indus script by 2027", "How far the project is from its goal of deciphering the Indus script by 2027, and the live task board of the agent team.",
                         "tracker.html", dict(common, GOAL=goal(), DATA=json.dumps(b).replace("</", "<\\/"), SNAP=E(b.get("snapshot", "")))))
     built.append(render("contribute", f"Contribute · {NAME} · Help decipher the Indus script",

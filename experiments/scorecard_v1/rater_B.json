@@ -1,0 +1,327 @@
+[
+ {
+  "id": "CAL-LB-true",
+  "tier": "U",
+  "reason": "lb_shape_ladder/RESULTS.md: the true key passes the refute test (20/20 at R1) but certifies at no rung (0/20 vs noise-fitted keys), and lb_certify shows CPW 2.258 below the shuffled 99th pct 2.301, so fit cannot certify even the right key."
+ },
+ {
+  "id": "CAL-noise-keys",
+  "tier": "U",
+  "reason": "yj_ic_refute/RESULTS.md: keys hill-climbed on shuffled Indus text beat their own shuffles (IC 0.43, p=0.001) and lb_shape_ladder noise keys beat the true key at R1-R2, so fit can neither refute nor certify them."
+ },
+ {
+  "id": "KEY-yajnadevam",
+  "tier": "U",
+  "reason": "yj_ic_refute/RESULTS.md: his key does not beat its shuffles (p 0.22-0.27), but on the real formulaic corpus a planted key passes only 5/20 or 2/20 (power about 10-25%), so the sealed verdict is untestable by fit."
+ },
+ {
+  "id": "KEY-pierson",
+  "tier": "R",
+  "reason": "bench_pierson/RESULTS.md: the author's own validation numbers fail on rerun (92.8% coverage is frequency-only, identical on a shuffled corpus; claimed M77 replication 70.5% vs our 58.7%/54.7%; 'Uniform 0.0%' is a case artefact); the readings themselves are below the fit power gate (planted p 0.28/0.16)."
+ },
+ {
+  "id": "KEY-fairservis",
+  "tier": "N",
+  "reason": "yj_ic_refute/RESULTS.md states 'Fairservis and Rao tables are not held', and literature/RESULTS.md marks his specific values UNVERIFIED, so there is no sign-by-sign key in hand to score."
+ },
+ {
+  "id": "KEY-rao",
+  "tier": "N",
+  "reason": "yj_ic_refute/RESULTS.md (cited by atlas 1.1): 'Fairservis and Rao tables are not held'; the earlier null came from an outside bench and atlas 1.1 downgrades it to unsupported."
+ },
+ {
+  "id": "KEY-kalyanaraman",
+  "tier": "N",
+  "reason": "docs/outreach/REPLIES.md: only about 6 rows with Mahadevan numbers, meanings not sound values; the sealed prereg kalyanaraman_key.md needs >=15 sound values and the requested table has not arrived."
+ },
+ {
+  "id": "KEY-adelman",
+  "tier": "N",
+  "reason": "bench2026/RESULTS.md: full text behind a login (HTTP 403), no public sign-value table, so nothing can be benched sign by sign."
+ },
+ {
+  "id": "FUN-kriger-hunt",
+  "tier": "R",
+  "reason": "bench2026/RESULTS.md (preregistered): the central uniqueness claim reverses on rerun (88.2% unique vs nulls 97.5-99.2%, below every draw), numerals fail (p=0.46) and 'digit 2' falls to 27.7% without M99; only the non-diagnostic edge pattern replicates."
+ },
+ {
+  "id": "FUN-sigil",
+  "tier": "P",
+  "reason": "bench2026/RESULTS.md and language_vs_code/RESULTS.md: SIGIL's match is taken from the paper, our rebuild is 'not identical to Indus' (negative skip_cmi, weaker Menzerath) with unpublished parameters, and no sealed or held-out test of the claim has been run."
+ },
+ {
+  "id": "MC-MUK25-fish-gem",
+  "tier": "P",
+  "reason": "CATALOGUE.csv MUK25-fish-gem: the home-context (bead/lapidary unit) test is untested; the side check on 30 western objects (W220 6 vs 3.09, p=0.07) is low power."
+ },
+ {
+  "id": "MC-MUK25-beadstring",
+  "tier": "P",
+  "reason": "CATALOGUE.csv MUK25-beadstring: testable but not run; sign identity must first be fixed from the paper's figures."
+ },
+ {
+  "id": "MC-MUK22-gold-ratti",
+  "tier": "U",
+  "reason": "CATALOGUE.csv MUK22-gold-ratti: n <= 5 independent objects (18 implement texts, 5 gold/silver objects, all used to make the claim), so no test on held data can reach power 0.8."
+ },
+ {
+  "id": "MC-MUK23-cup-vessel-fee",
+  "tier": "R",
+  "reason": "m328_measure/RESULTS.md: stroke count before the cup tracks no measure (Q1-Q3 refuted, power 0.98-0.99), and tablet_archives/RESULTS.md T3: obverse signs do not split by fee tier (p=0.75, power 0.96)."
+ },
+ {
+  "id": "MC-MUK23-licence-pairing",
+  "tier": "R",
+  "reason": "tablet_archives/RESULTS.md T3 (preregistered): sign x tier S=101, p=0.75 at power 0.96, and 26 obverse texts carry 2-3 different tiers."
+ },
+ {
+  "id": "MC-MUK23-triple-cup-goblet",
+  "tier": "U",
+  "reason": "CATALOGUE.csv MUK23-triple-cup-goblet: every known example is the basis of the claim and goblet capacities per stamp type are not in open data, so no held-data test has power."
+ },
+ {
+  "id": "MC-MUK23-no-names-no-toponyms",
+  "tier": "U",
+  "reason": "Mixed: toponyms/RESULTS.md finds no travelling place names (power 0.83-0.93), but identifiers/RESULTS.md finds identifier vs label undecidable and administration P13 finds no commodity labels, so the central 'no names' prediction cannot be told from its alternative."
+ },
+ {
+  "id": "MC-MUK23-emblem-organisation",
+  "tier": "R",
+  "reason": "context/RESULTS.md Q1: unicorn-vs-other AUC 0.516 (p=0.39) and same-emblem Jaccard at null in 16/16; animal_tie_power/RESULTS.md shows this test has power 1.00 for a +20-point emblem-text tie."
+ },
+ {
+  "id": "MC-MUK23-kanmer-occupation",
+  "tier": "U",
+  "reason": "CATALOGUE.csv MUK23-kanmer-occupation: Kanmer has 4 distinct ICIT texts (n=4), far below power 0.8."
+ },
+ {
+  "id": "MC-MUK23-wild-ass",
+  "tier": "U",
+  "reason": "CATALOGUE.csv MUK23-wild-ass: fewer than 20 Kutch texts outside Dholavira and the sign is not a regular sign-list entry, so power is below 0.8."
+ },
+ {
+  "id": "MC-MUK21-pilu",
+  "tier": "N",
+  "reason": "CATALOGUE.csv MUK21-pilu: a language/loanword claim with no sign attached, so it is not stated sign by sign."
+ },
+ {
+  "id": "MC-MUK19-crop-on-jars",
+  "tier": "U",
+  "reason": "CATALOGUE.csv MUK19-crop-on-jars: vessel form recorded for about 20 of 650 inscribed vessels (power near zero); Lothal backs W390 p=0.65 and western objects were also underpowered."
+ },
+ {
+  "id": "MC-MUK19-class-exclusivity",
+  "tier": "P",
+  "reason": "CATALOGUE.csv MUK19-class-exclusivity: testable on M77 (301 crop-group texts) but her counts were never put under a null."
+ },
+ {
+  "id": "MC-MUK19-stroked-jar-MET",
+  "tier": "P",
+  "reason": "CATALOGUE.csv MUK19-stroked-jar-MET: stroked-jar variants were not tested on their own (self_label tested only plain vessel-looking signs)."
+ },
+ {
+  "id": "MC-MAH09-jar-bearer",
+  "tier": "U",
+  "reason": "administration/RESULTS.md P6-P7 (0/12 held-out) used final M342/M211 not the ligature and the citadel samples 'can exclude only large effects'; reg_findspot block-level power is 0.71 at 3x, so no test reached power 0.8."
+ },
+ {
+  "id": "MC-MAH09-arrow-bearer",
+  "tier": "U",
+  "reason": "As jar-bearer: administration P6-P7 underpowered for precinct effects, and dominik_w090/RESULTS.md is mixed (primary order p=0.93; held-out 0/8 vs 10/62, p=0.27, cannot test)."
+ },
+ {
+  "id": "MC-MAH-bearer-kaviti",
+  "tier": "U",
+  "reason": "CATALOGUE.csv MAH-bearer-kaviti: a title reading needs an external role record that no held data supply; only positional (L1) behaviour can be measured."
+ },
+ {
+  "id": "MC-MAH-fish-bath",
+  "tier": "N",
+  "reason": "CATALOGUE.csv MAH-fish-bath: UNVERIFIED, full text not reached, so the claim is not held in operational form."
+ },
+ {
+  "id": "MC-PAR-vel-substitution",
+  "tier": "P",
+  "reason": "CATALOGUE.csv PAR-vel-substitution: not tested; M87 in 232 and M59 in 289 M77 texts gives ample power on data in hand."
+ },
+ {
+  "id": "MC-PAR-murukan-partners",
+  "tier": "P",
+  "reason": "CATALOGUE.csv PAR-murukan-partners: fixed partners of M403 (66 M77 texts) never tested."
+ },
+ {
+  "id": "MC-PAR-vata-min",
+  "tier": "P",
+  "reason": "CATALOGUE.csv PAR-vata-min: not tested; fish partner set known from core_semantics, fig sign still to identify."
+ },
+ {
+  "id": "MC-PAR75-chanhu-toponym",
+  "tier": "U",
+  "reason": "toponyms/RESULTS.md finding 4: M93 is local to Chanhu-daro (10/10, replicated held-out 2/2 and 3/3), but 'the data cannot tell' a place name from a scribal habit because almost no Chanhu-daro sealings survive."
+ },
+ {
+  "id": "MC-PAR-sign193-weight",
+  "tier": "P",
+  "reason": "CATALOGUE.csv PAR-sign193-weight: testable after mapping; assemblage ran at zero power (as_r2 power <=0.035) and the find-density-corrected Harappa test is not yet run."
+ },
+ {
+  "id": "MC-PAR-man-steelyard",
+  "tier": "U",
+  "reason": "assemblage/RESULTS.md: WEIGHT units not enriched but power at OR 3 <= 0.035, and the M1 storage signal (x1) was a single-seal dead lead."
+ },
+ {
+  "id": "MC-WEL15-jar-40L",
+  "tier": "R",
+  "reason": "Both candidate signs fail: m328_measure refutes M328 as a measure (power 0.98-0.99), and for M342 m342_offsite's ICIT pool (power 0.92) shows 0.80x on pottery with self_label 70 vs 124 expected; the primary consensus test was underpowered (0.47)."
+ },
+ {
+  "id": "MC-WEL15-17-signs",
+  "tier": "N",
+  "reason": "CATALOGUE.csv WEL15-17-signs: book not open and the 17-sign list not reached, so no table is held."
+ },
+ {
+  "id": "MC-WEL15-fish-number",
+  "tier": "S",
+  "reason": "README.md #5 and revalidation/RESULTS.md: six+fish (M109 M59) is fixed on clean held-out (7 of 10 vs 3.1% base, p=2.8e-9), though seven+fish has no support."
+ },
+ {
+  "id": "MC-KEN06-jar-strokes",
+  "tier": "U",
+  "reason": "CATALOGUE.csv KEN06-jar-strokes: needs capacity per inscribed vessel; magnitude found no usable size data for pots, so no test has power."
+ },
+ {
+  "id": "MC-KM-tablets-tokens",
+  "tier": "R",
+  "reason": "tablet_archives/RESULTS.md (preregistered): 0 of 5 tests pass; deposit tier mix p=0.83 at power 0.98 and sign x tier p=0.75 at power 0.96."
+ },
+ {
+  "id": "MC-KEN20-premature-marks",
+  "tier": "U",
+  "reason": "potters_marks/RESULTS.md: frame vs core precursors OR 1.26, p=0.39 with only 33% power, and the Mature vessel test is untestable (0 of 636 rows record vessel form)."
+ },
+ {
+  "id": "MC-HV-bangle-workshop",
+  "tier": "U",
+  "reason": "bangle_oval/RESULTS.md: H1 untestable (n=0 new bangles, 19 needed for power 0.8) and H4 site/collection tests have power <=14% (H4b 5/27 vs 0/13, p=0.15)."
+ },
+ {
+  "id": "MC-FT05-access-control",
+  "tier": "U",
+  "reason": "sealing_function/RESULTS.md: route closed by sample size (planted power 0.004-0.012), and administration P13-P14 (Lothal backs, 55 sealings) carries no stated power."
+ },
+ {
+  "id": "MC-VID05-bison-abroad",
+  "tier": "N",
+  "reason": "CATALOGUE.csv VID05-bison-abroad: 'Not a sign claim'; 'clan' is not stated operationally, and the emblem-text and foreign-text tests cited do not test it."
+ },
+ {
+  "id": "MC-LAU10-twins-prefix",
+  "tier": "U",
+  "reason": "CATALOGUE.csv LAU10-twins-prefix: only 3 Gulf texts carry W032 by our transcription, so power is negligible."
+ },
+ {
+  "id": "MC-LAU10-other-language",
+  "tier": "R",
+  "reason": "README #4 update and round_own_order/RESULTS.md (sealed): round texts show no order of their own (-0.10 bits/sign, p=0.83) where same-size home sets show 0.95 (power 0.995), so 'a second language with its own grammar' fails; the catalogue's earlier note says the three readings could not be separated."
+ },
+ {
+  "id": "MC-FSW04-emblems",
+  "tier": "U",
+  "reason": "CATALOGUE.csv FSW04-emblems: language vs code is untestable (language_vs_code power gate fails, LOCO 0.61) and numeral_class gives NO WIN, so no test tells the emblem claim from its alternative."
+ },
+ {
+  "id": "MC-POS96-survey",
+  "tier": "N",
+  "reason": "CATALOGUE.csv POS96-survey: no sign-level claim to test."
+ },
+ {
+  "id": "MC-KOS-segmentation",
+  "tier": "N",
+  "reason": "CATALOGUE.csv KOS-segmentation: no meaning claim found, only segmentation and sign classes."
+ },
+ {
+  "id": "MC-FAI92-honorifics",
+  "tier": "N",
+  "reason": "CATALOGUE.csv FAI92-honorifics: book text not read and the key values are UNVERIFIED (literature/RESULTS.md); the shuffle-bench 'failure' is downgraded to unsupported in atlas 1.1."
+ },
+ {
+  "id": "MC-KAL-metalwork",
+  "tier": "N",
+  "reason": "CATALOGUE.csv KAL-metalwork: no fixed one-value-per-sign key, so any outcome fits; the assemblage copper test had zero power."
+ },
+ {
+  "id": "MC-KNO-team",
+  "tier": "N",
+  "reason": "CATALOGUE.csv KNO-team: specific values not in hand."
+ },
+ {
+  "id": "MC-KW74-indo-sumerian",
+  "tier": "N",
+  "reason": "CATALOGUE.csv KW74-indo-sumerian: sign values not in hand; the language-level Sumerian test (atlas 1.8, z 0.33-0.54) cannot score a sign key."
+ },
+ {
+  "id": "MC-MEL-goods",
+  "tier": "N",
+  "reason": "CATALOGUE.csv MEL-goods: no published sign-to-good link exists, so the claim is not stated sign by sign; meluhha goods.py candidates are our own picks (none enriched on 30 objects)."
+ },
+ {
+  "id": "MC-GREEN-offices",
+  "tier": "N",
+  "reason": "CATALOGUE.csv GREEN-offices: 'Not a sign claim' (object-level co-occurrence), so nothing about the script is stated to bench."
+ },
+ {
+  "id": "OWN-1",
+  "tier": "S",
+  "reason": "revalidation/RESULTS.md: on the leak-free held-out split true order is strictly best in 40.2% of 321 runs vs 5.7% chance (q~8e-72); the test cannot tell grammar from code."
+ },
+ {
+  "id": "OWN-2",
+  "tier": "P",
+  "reason": "README.md #2: the inventory comparison (about 400 signs, 120 cover 90%) is 'descriptive comparison, not a hypothesis test', with no sealed or held-out test."
+ },
+ {
+  "id": "OWN-3",
+  "tier": "S",
+  "reason": "revalidation/RESULTS.md: ticked fish final 11 of 19 on clean held-out vs 7% (p=0.004), replicated at post-1977 sites 4/6 (redteam_tick_complete); but q=0.54 across all tests and it misses the bar under coarse sign lists."
+ },
+ {
+  "id": "OWN-4",
+  "tier": "S",
+  "reason": "README.md #4 and redteam_round_order: Gulf round seals break order (+2.17 bits/sign, q=0.005 confirmatory; red team Holm p=3e-4); split: the 'square seals abroad do not' control was corrected to 'round seals wherever found'."
+ },
+ {
+  "id": "OWN-5",
+  "tier": "S",
+  "reason": "revalidation/RESULTS.md: M109 then M59 in 7 of 10 on clean held-out vs 3.1% base (p=2.8e-9), small n."
+ },
+ {
+  "id": "OWN-6",
+  "tier": "S",
+  "reason": "revalidation/RESULTS.md: clean held-out AUCs 0.67-0.87 for every object type, all above the permutation 95th pct (0.55-0.61)."
+ },
+ {
+  "id": "OWN-7",
+  "tier": "U",
+  "reason": "consensus_corpus/RESULTS.md and redteam_consensus/RESULTS.md: the only independent check (lines both editions label L-R) has 8 lines and power about 0, and with 10% labels flipped the share falls below the bar; the 31/34 base is not held out."
+ },
+ {
+  "id": "OWN-8",
+  "tier": "P",
+  "reason": "README.md #8 is marked exploratory: same legend -> same sign face 8/8 (p=1e-4) is an all-data test, not held out."
+ },
+ {
+  "id": "OWN-9",
+  "tier": "S",
+  "reason": "README.md #9 / functional_reading: the parse covers 76% of unseen texts vs 44% for shuffles and 77% at sites absent from M77; split: the specific 11 roles are weakly supported (p=0.013, q=0.085)."
+ },
+ {
+  "id": "OWN-10",
+  "tier": "S",
+  "reason": "typology/RESULTS.md: the central whole-word-sign test H2 passes on held-out (len-1 share 0.33, standalone 0.73) and held-out pair order 115/138 (p=3e-16); split: the registered verdict is inconclusive (H3 missed by 0.003) and it is transcription-sensitive."
+ },
+ {
+  "id": "OWN-11",
+  "tier": "S",
+  "reason": "README.md #11 / core_semantics: fish family substitution and partner set hold on held-out (p=0.0002-0.0004), and 'fish = deity name' failed held-out."
+ }
+]

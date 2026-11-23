@@ -165,6 +165,14 @@ The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser 
 - The lock was released.
 - Next: scorecard v1.
 
+**Scorecard v1 result.**
+- The prereg and 65 rows were sealed at 20:28:11Z. Two blind raters reached kappa 0.842 against a bar of 0.8, and a third settled the 8 split rows.
+- Nothing is at A or F. S 10, R 7, U 21, P 11, N 16.
+- Calibration: the true Linear B key rates S and noise-fitted keys rate U. Yajnadevam U; Pierson R; Fairservis, Rao, Kalyanaraman and Adelman N. Our findings: 8 S, 2 P (#2, #8), 1 U (#7).
+- Published as `site/scorecard.html` (noindex), with update entries for it and for `tablet_quoting`. See `experiments/scorecard_v1/RESULTS.md`.
+- The main-line (a) deliverable now exists.
+- Next: ask Fable for the next ranked study.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.

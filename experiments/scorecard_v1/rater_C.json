@@ -1,0 +1,42 @@
+[
+ {
+  "id": "CAL-LB-true",
+  "tier": "S",
+  "reason": "experiments/lb_shape_ladder/RESULTS.md: in a sealed test that could have refuted it (the same key fails 0/20 on scrambled text and 13/20 at 74% coverage), the true key beats its shape-keeping shuffles in 20/20 held-out subsamples at R1 (0.204 vs 99th pct 0.182); certify fails (0/20), but S does not require certification."
+ },
+ {
+  "id": "CAL-noise-keys",
+  "tier": "U",
+  "reason": "experiments/yj_ic_refute/RESULTS.md: keys fitted to shuffled text beat their own shuffles by construction (IC 0.43, p = 0.001, 'a pass would have meant nothing'), and lb_shape_ladder shows they outscore the true key (0.254 vs 0.204 at R1), so no held test can tell them from a real key."
+ },
+ {
+  "id": "MC-MUK23-no-names-no-toponyms",
+  "tier": "U",
+  "reason": "The central contrast, names versus commodity/fee texts, is undecidable: identifiers/RESULTS.md matches neither the identifier model nor the label model, and administration P13 finds 0/12 commodity signs with no stated power; only the toponym half survived a powered test (toponyms T2a, power 0.83)."
+ },
+ {
+  "id": "MC-MUK23-emblem-organisation",
+  "tier": "R",
+  "reason": "experiments/animal_tie_power/RESULTS.md sizes the context Q1 emblem-text test at power 1.00 for a +20-point tie, which is about Linear B line-to-commodity strength, yet the real result sits at about +2 points (AUC 0.516) and same-emblem Jaccard is at null in 16/16, so shared licence content under one emblem fails at stated power."
+ },
+ {
+  "id": "MC-MAH09-jar-bearer",
+  "tier": "U",
+  "reason": "The claim's sign, the jar-bearer ligature, was never tested; the powered null (reg_harappa: M342 by big square, p = 0.54, power 1.0 at 3x) covers only the bare jar sign at Harappa, and administration notes that the citadel samples 'can exclude only large effects', so the priest-precinct prediction has no powered test."
+ },
+ {
+  "id": "MC-PAR75-chanhu-toponym",
+  "tier": "U",
+  "reason": "experiments/toponyms/RESULTS.md finding 4: M93's locality (10/10 texts, splits 2/2 and 3/3) only re-splits the corpus the claim came from, and the test that separates a place name from a scribal habit, travel on sealings, cannot run because 'almost no Chanhu-daro sealings survive'."
+ },
+ {
+  "id": "MC-WEL15-jar-40L",
+  "tier": "U",
+  "reason": "experiments/m342_offsite/RESULTS.md: the pre-registered vessel test is untestable (power 0.465, about 250 pottery texts needed); with no vessel capacities held, the ~40 L prediction has no powered test, and m328_measure's tablet-size, batch and locus nulls (power 0.98) test a count reading, not pot volume."
+ },
+ {
+  "id": "MC-VID05-bison-abroad",
+  "tier": "N",
+  "reason": "experiments/meaning_claims/CATALOGUE.csv row VID05-bison-abroad: 'Not a sign claim', and 'marks clans' has no operational prediction; the cited context Q1 and Meluhha tests do not test it."
+ }
+]
