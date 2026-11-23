@@ -19,3 +19,22 @@ Agent `paper`. Suggested by a Fable read on 2026-11-23. On 2026-11-19 he sent a 
 - **At chance:** not above the 95th percentile of N1. Reported to him first with code, then in atlas 1.1, as for every earlier key.
 - He sees the results and code before anything is published.
 - **Not allowed after the table arrives:** changing the lexicon, the matcher, the gate or the thresholds.
+
+## Addendum 1 (sealed 2026-11-23, still before any table has arrived)
+Two later sealed studies showed that the CPW score above is blind at Indus shape:
+- `lb_certify`: the true Linear B key could not be told from shuffled keys.
+- `lb_shape_ladder`: fit can refute a full-coverage key but never certify one.
+
+The scoring method was frozen only against changes made after the table arrives. No table has arrived, so we replace it now:
+- **Primary score.** IC with a shape-keeping N1, exactly as in `experiments/yj_ic_refute/run.py` (prereg `yj_ic_refute`):
+  - Monier-Williams lexicon, generous matcher primary and strict as a second arm;
+  - LMIN fixed by the frozen density rule;
+  - 1,000 N1 draws within consonant-count class and frequency bins.
+- **Power gate at his coverage.** His unread signs stay as breaks. The planted-Rigveda gate is run with his value inventory, on his signs, with his unread signs masked the same way.
+  - The gate needs at least 16 of 20 planted passes, at most 1 of 20 on a shuffled stream, and strictly rising partial keys.
+  - If the gate fails, the verdict is "below the fit standard: untestable by fit". At 74% coverage the true Linear B key failed (13/20), so a partial table will likely end here.
+- **Reading the result (replaces the frozen reading above).**
+  - **Gate passes and his key does not beat shuffles under either matcher:** "refuted at stated power". It is reported to him first, with code.
+  - **His key beats shuffles:** "not refuted; no support". Fit can never support a key (`lb_shape_ladder`), so this is not a lead.
+- **Secondary.** The old CPW/N2 method runs as sealed above, as a descriptive result only.
+- **Unchanged.** The gate on what gets scored (at least 15 M-numbers with sound values; no meaning-only tables) and the rule that nothing may change once a table arrives.

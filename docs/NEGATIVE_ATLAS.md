@@ -37,6 +37,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Verdict.** Refuted at stated power, for these keys.
 - **Update 2026-11-23 (lb_certify, sealed).** Downgraded to **unsupported** (no evidence for these keys), not "refuted". At Indus text shape (opaque signs, Indus lengths, no word division, 74% coverage), the dictionary-fit score cannot tell real Linear B's true key from shuffled keys (CPW 2.258 vs 99th percentile 2.301). Keys hill-climbed on noise beat the true key (2.37-2.53). Fit can neither prove nor refute a key at this shape. `experiments/lb_certify/RESULTS.md`.
 - **Update 2026-11-23 (lb_shape_ladder, sealed).** Standard set. IC counts only words of 4+ consonants and is tested against shuffles that keep text shape. On that test the true Linear B key beats shuffled keys at Indus length, undivided, with all signs keyed (20/20), but not at 74% coverage (13/20). It never beats keys fitted to noise on undivided text (0/20). So fit can refute a full-coverage key and can never certify one. The benched keys stay **unsupported** until a sealed IC rerun. `experiments/lb_shape_ladder/RESULTS.md`.
+- **Update 2026-11-23 (yj_ic_refute, sealed, red-teamed).** Yajnadevam's key, the only full-coverage key held, tested under IC. Sealed verdict: **untestable with this lexicon**. His key does not beat its own shuffles (p 0.22-0.27). But on the real, formulaic corpus the planted Sanskrit key beats shuffles in only 5/20 (generous) or 2/20 (strict), so a non-pass is weak evidence. The red team also found a strict-lexicon bug (consonants dropped from 65% of headwords), shared with `a1_key_null.py --strict`. Every held key is now **untestable by fit at stated power**. `experiments/yj_ic_refute/RESULTS.md`.
 - **Folder.** `experiments/language`, `experiments/literature`.
 - **Prereg.** None.
 - **Reopen with.** A key with one value per sign, fixed before it is scored, that beats noise-fitted keys with the same freedom.
@@ -1058,7 +1059,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 
 | # | Route | Verdict | Power | Reopen with |
 |---|---|---|---|---|
-| 1.1 | Published phonetic keys | Unsupported until a sealed IC rerun (fit can refute full-coverage keys, never certify; lb_shape_ladder 2026-11-23) | Old CPW score failed on the true Linear B key | IC refute rerun; forward prediction or non-text covariation |
+| 1.1 | Published phonetic keys | Unsupported; untestable by fit at stated power (yj_ic_refute 2026-11-23: planted power 10-25% on the real corpus) | Fit cannot certify; refute power low on formulaic Indus text | Forward prediction or non-text covariation |
 | 1.2 | Ventris grid | Refuted | Synthetic ARI 0.86 | Long texts with inflection |
 | 1.3 | Phonetic complements | Untestable | 40% | Larger corpus |
 | 1.4 | Homophones | Untestable | 8/80 | Multi-impression names |

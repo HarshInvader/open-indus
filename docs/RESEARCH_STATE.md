@@ -120,6 +120,24 @@ Internal-structure tests are allowed again when they serve (a) or (b).
 - **Certify** fails on all undivided rungs (0/20); keys fitted to noise score about 25% higher. With word division it reaches 14/20, under the bar of 16.
 - **Standard:** fit can count against a full-coverage key and never for one (`experiments/lb_shape_ladder/RESULTS.md`).
 
+**Fable's next ranking (after the ladder):**
+1. Run A: an IC refute of Yajnadevam's key, power-gated.
+2. The Linear B opaque anchor leg: do words predict the line's logogram?
+3. Scorecard v1.
+4. The Linear B gloss leg.
+
+Fable also flagged that the Kalyanaraman prereg was still sealed on CPW. **Decision:** run A, and seal an IC addendum to the Kalyanaraman prereg (18:40:29Z) before any table arrives.
+
+**`yj_ic_refute` result (sealed 18:39:50Z): "untestable with this lexicon".**
+- His key does not beat its shuffles (p 0.22-0.27).
+- The generous gate failed on partial-key rise.
+- Red team (own check plus an independent code read): the planted gate overstated power. The real corpus is formulaic, and its null is twice as wide, so the true power is about 10-25%. The strict-lexicon bug is shared with `a1_key_null --strict`.
+- An exploratory fixed strict rerun gives p ≈ 0.026, under the 99% bar.
+- Every held published key is now "untestable by fit at stated power". The claim bench's fit leg is closed for current keys.
+- The compute lock was released at about 20:00Z (`gulf_seal_hunt2` had long finished).
+
+**Next:** item 2, the Linear B opaque anchor leg (non-textual anchors; it calibrates Indus iconography tests). Fable is designing the seal-ready spec, with red-team lessons on null width and formulae built in.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.
