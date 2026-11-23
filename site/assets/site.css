@@ -1035,3 +1035,23 @@ html:not(.js) .z-plain { display: block; }
 .sg-pn span { display: grid; font-size: 13px; color: var(--muted); }
 .sg-pn span b { font-size: 16px; color: var(--ink); font-variant-numeric: tabular-nums; }
 .sg-all { justify-self: center; font-size: 14px; }
+
+/* latest updates: a dated timeline on the home page and the updates page */
+.upd { list-style: none; margin: 0; padding: 0; max-width: 46em; }
+.upd li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 0 18px; }
+.upd time { font-family: var(--oi-text); font-variant-numeric: tabular-nums; font-size: 14px; color: var(--muted); padding-top: 3px; white-space: nowrap; }
+.upd-b { position: relative; border-left: 1px solid var(--line-strong); padding: 0 0 26px 22px; }
+.upd li:last-child .upd-b { padding-bottom: 4px; }
+.upd-b::before { content: ""; position: absolute; left: -5px; top: 8px; width: 9px; height: 9px; border-radius: 50%; background: var(--paper); border: 1.5px solid var(--rule); }
+.upd li:first-child .upd-b::before { background: var(--accent); border-color: var(--accent); }
+.upd-h { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; }
+.upd-h b { font-weight: 600; font-size: 17px; line-height: 1.35; text-wrap: balance; }
+.upd-h a { color: inherit; text-decoration-color: var(--line-strong); text-underline-offset: 3px; }
+.upd-h a:hover { text-decoration-color: currentColor; }
+.upd-t { margin: 6px 0 0; color: var(--muted); font-size: 15.5px; line-height: 1.55; text-wrap: pretty; }
+@media (max-width: 560px) {
+  .upd li { grid-template-columns: minmax(0, 1fr); }
+  .upd time { padding: 0 0 4px 22px; border-left: 1px solid var(--line-strong); }
+  .upd li:first-child time { padding-top: 0; }
+  .upd-b::before { top: -23px; }
+}

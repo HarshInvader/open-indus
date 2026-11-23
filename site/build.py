@@ -1001,6 +1001,37 @@ def news_article_pages():
     return pages
 
 
+UPD_KIND = {"result": ("Result", "good"), "killed": ("Closed", "out"), "blocked": ("Blocked", "fail"),
+            "correction": ("Correction", "fail"), "sealed": ("Sealed", ""), "started": ("Started", "")}
+MONTHS = "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split()
+
+
+def updates():
+    return json.loads((SITE / "updates.json").read_text())
+
+
+def upd_day(d):
+    y, m, dd = d.split("-")
+    return f"{int(dd)} {MONTHS[int(m) - 1]}"
+
+
+def updates_list(rows):
+    out = []
+    for u in rows:
+        lab, cls = UPD_KIND.get(u["kind"], (u["kind"].title(), ""))
+        link = u.get("link", "")
+        if link:
+            ext = link.startswith("http")
+            rel = ' rel="noopener"' if ext else ""
+            title = f'<a href="{E(link)}"{rel}>{E(u["title"])}</a>'
+        else:
+            title = E(u["title"])
+        out.append(f'<li><time datetime="{E(u["date"])}">{upd_day(u["date"])}</time>'
+                   f'<div class="upd-b"><p class="upd-h"><span class="tag {cls}">{lab}</span><b>{title}</b></p>'
+                   f'<p class="upd-t">{E(u["body"])}</p></div></li>')
+    return '<ol class="upd">' + "".join(out) + "</ol>"
+
+
 def news_page():
     items = news_items()
     latest = sorted([i for i in items if i["section"] == "latest"], key=lambda i: i["date"], reverse=True)
@@ -1298,7 +1329,7 @@ def smart(page):
 
 
 PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"), ("library.html", "Library"),
-         ("signs/index.html", "Signs"),
+         ("signs/index.html", "Signs"), ("updates.html", "Updates"),
          ("tracker.html", "Tracker"), ("contribute.html", "Contribute"), ("resources.html", "Resources"))
 ARROW = ('<svg class="ext-ic" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false" fill="none" '
          'stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 8.5L8.5 3.5M4.5 3.5H8.5V7.5"/></svg>')
@@ -1312,10 +1343,12 @@ NAV_ICONS = {
     "font": _NI('<path d="M5 19L11 5h2l6 14M8 14h8"/>'),
     "files": _NI('<path d="M4 7h6l2 2h8v10H4z"/>'),
     "code": _NI('<path d="M9 8l-4 4 4 4M15 8l4 4-4 4"/>'),
+    "updates": _NI('<circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/>'),
     "signs": _NI('<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>'),
 }
 NAV_GROUPS = (
-    ("Research", (("findings.html", "Findings", "What is known, and what we found", "find"),
+    ("Research", (("updates.html", "Updates", "What we did this week, and what came out", "updates"),
+                  ("findings.html", "Findings", "What is known, and what we found", "find"),
                   ("approach.html", "Approach", "How every idea gets tested", "approach"),
                   ("news.html", "News", "New papers, summarised", "news"),
                   ("library.html", "Library", "Every paper we have read, analysed", "files"),
@@ -1515,11 +1548,14 @@ def main():
     built = []
     built.append(render("index", f"{NAME}: decipher the Indus script by 2027",
                         "An open research group working to decipher the Indus script by 2027. Nothing is deciphered yet, and every test of a reading is published.",
-                        "index.html", dict(common,
+                        "index.html", dict(common, UPD_LATEST=updates_list(updates()[:3]),
                             HERO=seal_object(), BAND=sign_band(), DATA_FIG=data_figure(), HOW_FIG=fig_how(),
                             LADDER=ladder(caption=False),
                             FIG_TEXT=figure("EH_3", 1, "Square stamp seal from Harappa: a line of Indus signs above a one-horned bull standing before a feeding trough")),
                         body_class="oi-page"))
+    built.append(render("updates", f"Updates · {NAME} · Decipher the Indus script by 2027",
+                        "Every recent step of the Open Indus project, with what came out: results, closed routes, corrections and sealed tests.",
+                        "updates.html", dict(common, UPD_ALL=updates_list(updates()), UPD_N=len(updates()))))
     built.append(render("approach", f"Approach · {NAME} · Decipher the Indus script by 2027",
                         "What counts as deciphering the Indus script, the rules every test follows, the agent team, the routes to sound values and the directions still open.",
                         "approach.html", dict(common, SLOTS=slots(), CHART_ROUND=chart_round(), CHART_NAMES=chart_names(), PLAN=plan_steps(), FIG_PIPE=fig_pipeline())))
