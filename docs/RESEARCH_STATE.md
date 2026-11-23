@@ -138,6 +138,19 @@ Fable also flagged that the Kalyanaraman prereg was still sealed on CPW. **Decis
 
 **Next:** item 2, the Linear B opaque anchor leg (non-textual anchors; it calibrates Indus iconography tests). Fable is designing the seal-ready spec, with red-team lessons on null width and formulae built in.
 
+**Fable's spec for (b).** On its own, the Linear B leg calibrates nothing, because its formulae differ from Indus. The study was re-scoped as `animal_tie_power`:
+- **Leg A (primary):** label-swap plants on the real Indus seals. This sizes atlas 5.7 (Q1 classifier) and F14 (sign × animal), at the real null's width.
+- **Leg B:** Linear B at Indus shape (one line per tablet, minority classes cut to Indus sizes, two opaque codings, a token-weighted ladder that deletes formula words). It gives a real-script effect size, mapped onto Leg A's ladder.
+
+The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser missed `OVIS:m`. **Decision:** adopted as specified. Sealed 20:07:54Z. Kill test passed: Linear B words predict the commodity, AUC 0.871 against a null 99th percentile of 0.761.
+
+**`animal_tie_power` result.**
+- Unicorn vs other c\* = +20 points (power 1.0; 0.73 at +10). F14 c\*: shorthorn bull 0.20, elephant 0.40, tiger untestable.
+- The 8-class statistic is unusable for sizing, because real labels already pass.
+- Red team: the sealed raw-AUC mapping overstated Linear B, since its within-site null is 0.72. On the excess scale, Linear B full = δ 0.23 and names-only = δ 0.07-0.11.
+- The Indus null excludes text "about" the animal at Linear B strength only, with a thin margin. Atlas 5.7 and the README are narrowed.
+- The lock was released.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.

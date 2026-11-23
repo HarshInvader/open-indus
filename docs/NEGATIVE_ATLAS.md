@@ -516,6 +516,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - Sealings travel: 13/66 vs 10.0 (p = 0.17).
   - Square seals abroad: +0.44 [−0.54, +1.54].
 - **Verdict.** Refuted (C2); others untestable at this n.
+- **Update 2026-11-23 (animal_tie_power, sealed).** C1 is now sized. Unicorn vs other would catch a single sign carried by an extra 20 points of non-unicorn texts (power 1.0; 0.73 at +10). F14's sign × animal test has c\* 0.20 for shorthorn bull, 0.40 for elephant, and is untestable for tiger and the smaller classes. On the like-for-like scale, a Linear B line's tie to its commodity equals about +23 points, and only +7 to +11 once formula words are removed. So the null excludes text "about" the animal at Linear B strength, but not name-like texts under an emblem. `experiments/animal_tie_power/RESULTS.md`.
 - **Folder.** `experiments/context`.
 - **Prereg.** None.
 - **Reopen with.** More foreign finds.
@@ -1097,7 +1098,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 5.4 | Toponyms | Refuted | 0.83 at OR 3 | New off-home sealings |
 | 5.5 | Roofed signs | Refuted at OR 3 | 0.96-0.99 | Citadel finds |
 | 5.6 | Copper calendar | Inconclusive | Ring 0.38 | More copper tablets |
-| 5.7 | Context C1-C5 | Refuted / untestable | Mixed | Foreign finds |
+| 5.7 | Context C1-C5 | Refuted / untestable; C1 sized (single-sign tie of +20 points excluded, 2026-11-23) | Mixed | Foreign finds |
 | 5.8 | Titles on door sealings | Untestable | 0.004-0.012 at 3× | 40-80 door sealings |
 | 6.1 | Weight series | Refuted | n/a | Inscribed weights |
 | 6.2 | Tall = 10 | Refuted | n/a | None |
