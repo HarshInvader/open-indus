@@ -28,12 +28,20 @@ KEYS = [
 OWN = [(f"OWN-{i}", "our finding", "this project", f"README 'What we can defend' row #{i}", f"README.md table row #{i} and the folders it names") for i in range(1, 12)]
 
 
-def main():
+def build(catalogue_rows=None):
+    """Rows as dicts. catalogue_rows: list of catalogue dicts (default: the current CATALOGUE.csv)."""
+    if catalogue_rows is None:
+        catalogue_rows = list(csv.DictReader(open(ROOT / "experiments/meaning_claims/CATALOGUE.csv")))
     rows = [dict(zip(("id", "group", "claimant", "claim", "evidence"), r)) for r in CAL + KEYS]
-    for x in csv.DictReader(open(ROOT / "experiments/meaning_claims/CATALOGUE.csv")):
+    for x in catalogue_rows:
         rows.append(dict(id="MC-" + x["id"], group="meaning claim", claimant=f"{x['author']} ({x['year']})", claim=x["claimed_meaning"],
                          evidence=f"experiments/meaning_claims/CATALOGUE.csv row {x['id']} (status: {x['status']}; {x['status_detail']})"))
     rows += [dict(zip(("id", "group", "claimant", "claim", "evidence"), r)) for r in OWN]
+    return rows
+
+
+def main():
+    rows = build()
     with open(HERE / "rows.csv", "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["id", "group", "claimant", "claim", "evidence"]); w.writeheader(); w.writerows(rows)
     print(len(rows), "rows")

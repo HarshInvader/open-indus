@@ -55,3 +55,17 @@ This held. Not predicted: #2 at P and #7 at U.
   - sign 193: **U** (too rare).
 - **v1.0 counts, before the addendum:** S 10, R 7, U 21, P 11, N 16.
 - **Lesson.** A scorecard is only as current as its evidence pointers. v2 should take each row's status from the experiment folders, not from a hand-kept catalogue.
+
+## v2 infrastructure: staleness check (2026-11-23)
+`staleness.py` re-reads the evidence each row names and compares it to the evidence at the commit holding that row's current rating. It flags rows to re-rate and never changes a tier.
+- **What counts as a change:**
+  - for meaning claims, that catalogue row's claim, status and status detail;
+  - for atlas references, the named section only;
+  - for "our findings", the README table row;
+  - for other paths, the whole file (a folder's RESULTS.md);
+  - gitignored local files (REPLIES.md) are compared by modification time.
+- A second pass flags catalogue rows still marked "testable" whose id is cited by any experiment's RESULTS.md or prereg.
+- **Check on a known case:** against the v1.0 rating commit it flags exactly the four rows that addendum 1 fixed (fish-gem, vel, murukan, sign193), and no others.
+  - A first draft that compared commit dates flagged 45 of 65 rows, because the catalogue and atlas files are edited often. That is why the check compares content.
+- **Now:** 65 rows checked, 0 flags. Every tier on the page rests on the evidence as it stands.
+- **Rule from here:** run `staleness.py` after any study that touches a row's evidence. Any flagged row is re-rated by two fresh blind raters under the v1 rules (as in addendum 1).
