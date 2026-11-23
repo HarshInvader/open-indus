@@ -48,6 +48,19 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
 - **Independent read (fresh Fable).** No route meets "open data, not closed, could move toward an anchor". Main reason: every lever that worked imported a known that physically touches the texts; Indus has none on open data. Fable also notes that the success bar assumes a phonetic script.
 - **Result.** No new route. Sent today (owner email rule): Rositani (Nisaba archive) and CDLI for photos of P453801 and P516366; Yale's associate curator about Gulf seals on sealed Ur and Larsa tablets. The test for any photo that arrives is sealed in advance: `docs/prereg/meluhha_seal_photo.md`.
 
+## Meaning-level route decision, 2026-11-23 (Fable, per owner rule)
+- **Question to Fable.** After the scan, is any meaning-level route unblocked, not closed, and worth running? Candidates: plan 10's two leftovers (M204-M245-M342 rhino vs M204-M245-M358-M342 ox-antelope pair; MD 3378 M184/W343), and an untested variant (copper one-sign faces enriched on seals with the same animal).
+- **Fable's advice.** No route qualifies; run nothing new on the corpus.
+  - Animal variant: untestable. M346, M362 and M363 never occur on seals (copper only); M184 has 3 seal tokens (checked in M77). The general form is closed (5.7, 7.1).
+  - Minimal pair and MD 3378: n = 1 each, with no null and no threshold. A pass would be an anecdote below L2. About 1 in 100.
+  - It disagreed with the bar: 10 anchored sound values by 2027 on open data is under 1 in 1,000 by its estimate. Any L4 candidate via the Meluhha photo chain is about 1 in 200.
+  - Do next: compute the AAB false-alarm rate on foreign seals and add it to the photo prereg; widen asks to object holders; otherwise wait.
+- **My decision.** Accepted. Done now: prereg `meluhha_seal_photo` Addendum 1 (hashed 06:07:45Z). AAB occurs on 3/17 West Asian finds (18%), against 3.8% on all seals. A Nanasa hit is therefore worth about p = 0.18, consistent rather than a lead.
+- **Fable advice not taken, and why.**
+  - Re-chasing the 17-18 Nov asks (BM, Steinkeller, Owen) is blocked by "no resends" and the 10-day no-follow-up rule.
+  - Yale was emailed today (one email per person). A raking-light YBC 5447 request can only go in a reply if Yale answers.
+  - New object-holder asks: no further recipients today (3/3 used). Next candidates if a study is blocked on them: CUSAS 40 editors for P516366.
+
 ## Established (cycle 0-2, see README)
 Order is grammatical; logo-syllabic (~400 signs); ticked fish -> closer slot; Gulf round seals break Indus order; M109+M59 fixed; object-type registers; L-R reversals real; copper tablet text+picture types; functional reading (11 roles).
 Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment looked flat with more text under weak search; corrected 2026-11-20, it is pair-dependent (Latin/Italian 0.62-0.66 with heavy search; see docs/prereg/search_scaling_correction.md); at Indus size (2.5k) mixed: 1 solved, 1 search-limited, 1 objective-limited of 3.

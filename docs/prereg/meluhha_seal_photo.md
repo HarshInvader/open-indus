@@ -24,3 +24,11 @@ The tablet names a household, and the seal may belong to an official, not to a M
 
 ## Step 4. Gulf seals without Indus signs
 Record the find as a digraphic lead in atlas 9.2, with the iconography as the specialist describes it. No reading is attempted.
+
+## Addendum 1 (2026-11-23, before any photo): the right baseline for a foreign seal
+Suggested by a Fable read the same day. Computed from M77 (`data/m77_texts.jsonl`), AAB = a sign doubled then a different sign, within one line.
+- Seals and sealings, all sites: 98/2,593 (3.8%), as above.
+- "West Asian finds" (16 seals, 1 sealing): **3/17 (18%)**: texts 9902 (M1 M1 M245), 9904 (M21 M21 M153), 9905 (M59 M59 M167).
+- "Other sites" seals and sealings: 0/21.
+
+**Change in how a hit is read (frozen now).** A seal found on a cuneiform tablet is a foreign-context seal, so the West Asian rate is the fair baseline. An AAB hit on a Nanasa-linked seal is then worth about p = 0.18 for one object, not 0.04. It is recorded as consistent with the name, not as a lead, and it supports no sound value on its own. Nothing else in this prereg changes.
