@@ -459,3 +459,5 @@ d42d2a69d5a6ee7b6dc379b79189992c936f48088659df4a63334bf4be94e804  docs/prereg/nu
 3790f2f91a313163f3bccde88d4a86a3788b193c4ce965e5ac97fad633505601  docs/prereg/scorecard_v1.md  2026-11-23T20:44:06Z  scorecard_v1 addendum 1
 eb35235347dc245b589915d2159bf2353de44ad876cd9f806581d6b09567dcdf  experiments/scorecard_v1/rows.csv  2026-11-23T20:44:06Z  scorecard_v1 addendum 1
 2ad2584dac426e4ef0e2e2df8f2ef43f32c9365cf497e854ecf5a8346b3a0208  experiments/meaning_claims/build_catalogue.py  2026-11-23T20:44:06Z  scorecard_v1 addendum 1
+0660f82fba4160fbc394dfb2c3ce70033807998e6f42dfa4da64dcffc20fa911  docs/prereg/tablet_fixed_pairs.md  2026-11-23T20:48:22Z  tablet_fixed_pairs
+0c458d674f98435e598b2c737ff8ac71dbee5c154cd7cd8f877f199624a6090d  experiments/tablet_fixed_pairs/run.py  2026-11-23T20:48:22Z  tablet_fixed_pairs

@@ -1,0 +1,31 @@
+{
+ "tablet": {
+  "hits": 2,
+  "n": 5,
+  "rate": 0.4
+ },
+ "seal": {
+  "hits": 15,
+  "n": 34,
+  "rate": 0.4411764705882353
+ },
+ "seal_pairs": {
+  "M59": 2,
+  "M342": 2,
+  "M162": 3,
+  "M211": 3,
+  "M169": 4
+ },
+ "tab_pairs": {
+  "M403": 3,
+  "M197": 7,
+  "M190": 3,
+  "M194": 7,
+  "M25": 1
+ },
+ "verdict": "untestable: 5 ICIT-only tablet tokens on the five heads (< 10)",
+ "copper_secondary": {
+  "hits": 6,
+  "n": 6
+ }
+}

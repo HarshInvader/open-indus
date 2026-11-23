@@ -201,6 +201,17 @@ The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser 
 - **Fable's batch shrinks to MUK19 class exclusivity and vata-min.** Vata-min needs the fig sign identified first.
 - The other P rows are blocked or need new data: beadstring (sign not identified), stroked jar (rare), SIGIL, and our #2 and #8.
 
+**Fable's re-rank, after the batch shrank.**
+- Pick (b): a held-out test of today's fixed-pair finding, on ICIT tablets with no M77 copy, against seals. The seal comparison serves as the kill.
+- Then (d): scorecard v2 infrastructure, with status pulled from experiment folders.
+- Skip: class exclusivity (by-eye mapping), copper split (no real split) and idling.
+- **Decision:** adopted.
+
+**`tablet_fixed_pairs` result.**
+- Sealed before any ICIT numeral was read.
+- Untestable: 5 out-of-sample tablet tokens on the five heads (2 of 5 match), against a minimum of 10. Seals 15/34 (descriptive). Copper 6/6 is secondary, being the same objects.
+- Stays exploratory. Next: scorecard v2 infrastructure.
+
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
 **Fable's verdict.** Fewer than 5 studies are worth doing. None can reach L2 or above on open data. The coordinator's candidate (more register-confirmed round seals) is an audit as posed: no new round texts are on hand, and shape confirmation adds 1-2 objects at most. Fable folded it into study 1 as a rider.
