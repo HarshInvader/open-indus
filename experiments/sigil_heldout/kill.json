@@ -1,0 +1,23 @@
+{
+ "rejects": {
+  "ur3": 50,
+  "linb": 50,
+  "sigil_stock": 49,
+  "sigil_jitter": 49,
+  "slot": 20,
+  "heraldry": 10,
+  "khipu": 10
+ },
+ "n": {
+  "ur3": 50,
+  "linb": 50,
+  "sigil_stock": 50,
+  "sigil_jitter": 50,
+  "slot": 20,
+  "heraldry": 10,
+  "khipu": 10
+ },
+ "planted_rejects": 98,
+ "passed": false,
+ "gate": "ur3 >= 40/50 and linb >= 40/50 rejected; planted SIGIL <= 5/100 and slot <= 2/20 rejected"
+}

@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "id": "FUN-sigil",
+  "tier": "P",
+  "why": "evidence changed after rating",
+  "changed": [
+   "NEGATIVE_ATLAS section 3.3"
+  ],
+  "rated_at": "2e41b40"
+ }
+]

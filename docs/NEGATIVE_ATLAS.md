@@ -287,7 +287,8 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Verdict.** Refuted as discriminators.
 - **Folder.** `experiments/literature`, `experiments/novel_methods`.
 - **Prereg.** None.
-- **Reopen with.** None expected.
+- **SIGIL goodness of fit (2026-11-23, `experiments/sigil_heldout`, sealed).** A fitted SIGIL grammar was to be tested on held-out Indus. The kill test failed: 98/100 planted SIGIL corpora were rejected, because the fit leaves about 40-45% of SIGIL's own texts unparsed at Indus size. Untestable. The Indus held-out set was not read.
+- **Reopen with.** None expected. For SIGIL: a fitter that recovers its roles at 1,680 texts.
 
 ### 3.4 Functional-reading discriminator (F5)
 - **Question.** Can the functional parse itself tell language from code?
