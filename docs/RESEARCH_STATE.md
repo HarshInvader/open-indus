@@ -150,6 +150,20 @@ The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser 
 - Red team: the sealed raw-AUC mapping overstated Linear B, since its within-site null is 0.72. On the excess scale, Linear B full = δ 0.23 and names-only = δ 0.07-0.11.
 - The Indus null excludes text "about" the animal at Linear B strength only, with a thin margin. Atlas 5.7 and the README are narrowed.
 - The lock was released.
+- Exploratory follow-up (unsealed): goat-antelope seals carry most of the weak 8-class signal (p 0.005 → 0.065 without them). This is a seal-format effect: short legends on small seals.
+
+**Fable's advice after `animal_tie_power`.**
+- Run the seal-to-tablet quoting test next. It is the one non-textual anchor left on data in hand: the same string on two kinds of objects with a known site.
+- Build scorecard v1 (a results page) in parallel.
+- Odds: Ur III gate 75%, c\* ≤ 0.10 55%, powered negative 40%, quoting found about 10%.
+- **Decision:** adopted as specified.
+
+**`tablet_quoting` result.**
+- The prereg and code were sealed at 20:24:34Z.
+- The kill test **failed**: an Ur III rehearsal (Umma and Girsu legends and bodies at Indus counts and lengths) reached power 0.305 against a bar of 0.8. The bottleneck is the rule requiring p ≤ 0.01.
+- The study stopped as sealed, and the Indus statistic was not computed. Verdict: untestable at Indus size.
+- The lock was released.
+- Next: scorecard v1.
 
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 

@@ -542,6 +542,15 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - M99 relational reading. The next step is listed in `experiments/closer_ownership/RESULTS.md`.
 - The experiments listed here as pending at cycle 6 now have results: `carver_hands` and `assemblage` (10b.17), `scene_text` (10b.1).
 
+### 5.10 Tablets and pots quote same-site seal texts (2026-11-23)
+- **Question.** Do tablet and pot texts share non-formula 3-sign runs with seal texts from their own city (Harappa vs Mohenjo-daro) more than with the other city's seals?
+- **Method.** Share of targets with a same-site seal trigram (top 50 trigrams dropped as formulae). Nulls: site labels permuted within length bins; tablets regenerated from a bigram model. Pass needs all three: p ≤ 0.01, positive excess at both sites, and above the bigram null's 99th percentile.
+- **Kill test.** Ur III Umma and Girsu legends and bodies, cut to Indus counts and lengths. Power 0.305 (bar 0.8). Same-archive sharing is real (+2.5 points at the Girsu slot) but too faint at 3-4-sign texts.
+- **Verdict.** Untestable at Indus size. The study stopped as sealed, and the Indus statistic was not computed.
+- **Folder.** `experiments/tablet_quoting`.
+- **Prereg.** `tablet_quoting.md`.
+- **Reopen with.** Longer tablet texts, many more Mohenjo-daro tablets, or a new prereg on a different unit (whole-text identity).
+
 ---
 
 ## 6. Numerals and metrology
@@ -1100,6 +1109,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 5.6 | Copper calendar | Inconclusive | Ring 0.38 | More copper tablets |
 | 5.7 | Context C1-C5 | Refuted / untestable; C1 sized (single-sign tie of +20 points excluded, 2026-11-23) | Mixed | Foreign finds |
 | 5.8 | Titles on door sealings | Untestable | 0.004-0.012 at 3× | 40-80 door sealings |
+| 5.10 | Tablets quote same-site seals | Untestable at Indus size (Ur III rehearsal power 0.31, 2026-11-23) | 0.31 (rehearsal) | Longer or more tablets |
 | 6.1 | Weight series | Refuted | n/a | Inscribed weights |
 | 6.2 | Tall = 10 | Refuted | n/a | None |
 | 6.3 | Numeral class | Refuted | PPC 9/9 fail | Class with 12 spike |

@@ -65,3 +65,14 @@ The real Indus excess (0.015) corresponds to δ ≈ 0.02.
 - **F14 per animal:** excluded at c\* 0.20 (shorthorn bull) and 0.40 (elephant); untestable for tiger and the smaller classes.
 - **README line "Animal emblems are not written in the seal text":** narrowed to "not written as strongly as a Linear B line names its commodity; name-like texts under an emblem are not excluded".
 - **For the scorecard's tripod rows:** any claimed sign-animal tie must exceed these floors to be visible at all. A claimed tie below them can be neither confirmed nor refuted by the seal corpus.
+
+## Follow-up (exploratory, unsealed, 2026-11-23): what drives the weak 8-class signal
+Fable's scratch check suggested one class carries it. Our recheck: 200 within-site permutations for "all" and "no goat-antelope", 100 for the others.
+
+| classes kept | balanced accuracy | null | p |
+|---|---|---|---|
+| all 8 | 0.192 | 0.127 | 0.005 |
+| without goat-antelope (10 texts) | 0.178 | 0.140 | 0.065 |
+| without buffalo / tiger / rhino | 0.217 / 0.210 / 0.202 | 0.147 / 0.144 / 0.144 | 0.020 / 0.010 / 0.050 |
+
+Most of the signal comes from goat-antelope seals. Fable reports they carry legends of 2 signs or fewer and are small seals (ICIT median 448 mm², against 677 for unicorn). That points to a seal-format effect, not a text-animal tie. Without that class, what remains is marginal (p 0.065). This does not change the sized null above.
