@@ -15,6 +15,6 @@ Agent `paper`. The trained and zero-shot detectors both failed (atlas 9.2). Inst
 The same reviewer brief runs on the 707-tablet pool in batches. Every yes or unsure goes to a review queue (catalogue number, photo link, date, named parties) for experts. A yes is a lead, not a find.
 
 ## Result (2026-11-22)
-Fail. The blind reviewer (Sonnet) marked YBC 5447 "no": it saw the impression on the edge but read it as a rolled band of figures, not a round stamp. On the Yale photo the impression indeed shows no round outline. 0 of 29 others marked yes; 5 unsure (YPM BC 013581, 003812, 014455, 007985 and one more), all Ur III; none looked like a clear stamp. Key hash verified. Pool review not run; pool download stopped.
+Fail. The blind reviewer (Sonnet) marked YBC 5447 "no": it saw the impression on the edge but read it as a rolled band of figures, not a round stamp. On the Yale photo the impression indeed shows no round outline. 0 of 29 others marked yes; 5 unsure (YPM BC 013581, 003812, 014455, 007985, 027421), all Ur III; none looked like a clear stamp. Key hash verified. Pool review not run; pool download stopped.
 
 Lesson: the only Gulf control does not look like a "round stamp" on the photo. Any detector or reviewer that searches for stamp shape would miss it. This explains all three failures (trained, zero-shot, eye review). Finding foreign seals needs iconography experts, not shape.
