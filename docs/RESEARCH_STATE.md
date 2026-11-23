@@ -32,6 +32,22 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
   - Finish only what is already committed: the 3 Latin Step 1 cells and the sealed carver test.
   - Then run no new internal-structure test without the coordinator's OK.
 
+## Neighbouring-fields scan, 2026-11-23 (restart rule)
+- **What was read.** Three fresh agents read recent work on Linear Elamite, Proto-Elamite, Cypro-Minoan, Linear A, Rongorongo and ML decipherment. Opened sources, among others: Desset et al. 2022 (doi:10.1515/za-2022-0003); Born et al. 2019 (aclanthology W19-2516); Kelley et al. 2022 (doi:10.2143/IA.57.0.3291506); Corazza et al. 2022 (doi:10.1371/journal.pone.0269544); Steele and Meißner 2017 (doi:10.17863/CAM.11325); Ferrara et al. 2024 (doi:10.1038/s41598-024-53063-7); Luo et al. 2019 and 2021 (arXiv 1906.06718, 2010.11054).
+
+| Script | Lever that worked | Indus analogue | Status |
+|---|---|---|---|
+| Linear Elamite | Names known from cuneiform, spotted by sign pattern on dated objects | Meluhhan names; Gulf seals | Closed (9.1, 1.10); open only via the Meluhha tablet photos |
+| Proto-Elamite | Number systems; subset-sum totals | Numerals vs weights | Closed (6.1-6.5); no Indus totals |
+| Linear A | Linear B values checked on place names; constrained fraction search | none (no sister script, no known toponyms) | n/a |
+| Cypro-Minoan | Sign-shape CNN clustering | Allograph collapse | Closed (7.7); structure only |
+| Rongorongo | Radiocarbon; lunar calendar | Numeral cycles | Closed (5.6, 6.1) |
+| ML decipherment | Needs a known related language | Language ranking | Closed (1.8, 1.9) |
+
+- **Recent claims.** Yajnadevam, Kriger and Hunt, Adelman and SIGIL are already benched (atlas 1.1, `experiments/bench2026`). Two more (Academia.edu 105134798; ResearchGate 396643766) are behind logins (HTTP 403), so they could not be benched.
+- **Independent read (fresh Fable).** No route meets "open data, not closed, could move toward an anchor". Main reason: every lever that worked imported a known that physically touches the texts; Indus has none on open data. Fable also notes that the success bar assumes a phonetic script.
+- **Result.** No new route. Sent today (owner email rule): Rositani (Nisaba archive) and CDLI for photos of P453801 and P516366; Yale's associate curator about Gulf seals on sealed Ur and Larsa tablets. The test for any photo that arrives is sealed in advance: `docs/prereg/meluhha_seal_photo.md`.
+
 ## Established (cycle 0-2, see README)
 Order is grammatical; logo-syllabic (~400 signs); ticked fish -> closer slot; Gulf round seals break Indus order; M109+M59 fixed; object-type registers; L-R reversals real; copper tablet text+picture types; functional reading (11 roles).
 Closed/negative: published phonetic keys = chance; no Ventris grid; statistics can't pick language; animals not in text; no sign tied to picture on seals; numerals != weight series; unicity: related-language decipherment looked flat with more text under weak search; corrected 2026-11-20, it is pair-dependent (Latin/Italian 0.62-0.66 with heavy search; see docs/prereg/search_scaling_correction.md); at Indus size (2.5k) mixed: 1 solved, 1 search-limited, 1 objective-limited of 3.
