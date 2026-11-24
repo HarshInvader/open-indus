@@ -512,3 +512,7 @@ c3b6e334997837e690c95d920cd378717a3d7c1af68370ccd841db05d00e1b82  docs/prereg/sc
 3223b902581f5120f3eb04671ac6022c9d9867001af1558043b089af07ff5e8a  .local/scott_lis/overrides.csv(local, not committed)  2026-11-24T12:25:58Z  scott_ic_refute overrides (7 rows)
 b83b5936242600b5c4f20213ff7fa1f9055a1ca36e5240a96471e949bc576ec9  docs/prereg/scott_ic_refute.md  2026-11-24T12:29:00Z  scott_ic_refute code seal (smoke test disclosed; her key not scored)
 934b32dda8fb2291607c16b28e986da92b8a30e4603cb007dc07834ebb234e38  experiments/scott_ic_refute/run.py  2026-11-24T12:29:00Z  scott_ic_refute code seal (smoke test disclosed; her key not scored)
+92bca5c59ee1ccccaded81ad726d17179170dc328ec967cfdfd1d18757e9355b  docs/prereg/tablet_pic_text.md  2026-11-24T14:17:03Z  tablet_pic_text
+1c6043ca7eaf3c41e279aae89a9382084ff457f9a86f7a39337796f847a58b99  experiments/tablet_pic_text/run.py  2026-11-24T14:17:03Z  tablet_pic_text
+b653ffa779c6eb1267eefd7016cf13505cb0fa8a8a576113a7d092f5f0eb3940  experiments/tablet_pic_text/gate.json  2026-11-24T14:17:03Z  tablet_pic_text
+4ae9b9ce88f3abba3be239f9dec6429d1d264e40fac5a956a3e2f5a08dc9c394  experiments/tablet_pic_text/run.py  2026-11-24T14:17:25Z  tablet_pic_text_fix1 (json int64 serialisation only; first run crashed after the null, nothing written)

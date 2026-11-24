@@ -1,0 +1,4 @@
+null {'n': 1000, 'mean': 0.4809065476190476, 'p99': 0.7161190476190475, 'crit': 0.6821428571428572}
+plants {"bovine": {"0.05": {"feasible": 38, "counted": true, "infeasible": 2, "nan_auc": 0, "realised_delta": 0.09523809523809525, "power": 0.02631578947368421, "mean_excess": 0.04711663533834576}, "0.1": {"feasible": 34, "counted": true, "infeasible": 6, "nan_auc": 0, "realised_delta": 0.14285714285714288, "power": 0.029411764705882353, "mean_excess": 0.07691908263305325}, "0.2": {"feasible": 20, "counted": false, "infeasible": 20, "nan_auc": 0, "realised_delta": 0.23809523809523808, "power": 0.4, "mean_excess": 0.17343869047619043}, "0.4": {"feasible": 1, "counted": false, "infeasible": 39, "nan_auc": 0, "realised_delta": 0.4285714285714286, "power": 1.0, "mean_excess": 0.24885535714285711}, "c_star": null}}
+false_alarm {'A': {'n': 400, 'passes': 4, 'ok': True}, 'B': {'n': 400, 'passes': 13, 'ok': True}}
+BAND underpowered eligible row share 0.344

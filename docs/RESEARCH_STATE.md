@@ -518,3 +518,19 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - Atlas 1.1 gained a line.
   - Scorecard row `KEY-scott` still needs sealed addendum 6 (fresh blind raters); not started.
   - Next: study 2 in Fable's ranking (tablet picture × text on distinct moulds, class level).
+- 2026-11-24 **Tablet picture × text on distinct moulds** (`tablet_pic_text`). **STOP: untestable at this object count.**
+  - Prior art (from an agent search, before the design):
+    - Parpola 2008 on copper tablets: the text often predicts the motif (qualitative; URL opened).
+    - Oakes 2019 (doi:10.1080/09296174.2017.1406294, unverified): seal residuals, no held-out test.
+    - GitHub ADITYA-WORK-MAITI/indus-text-vs-animal (opened): seals AUC 0.51.
+    - Wells 2015 sample (opened).
+    - Kenoyer & Meadow 2010 (unverified): the same sequence occurs on tablets from different moulds.
+    - No held-out test exists for moulded tablets.
+  - Fable drafted the design; a fresh Fable review gave 10 fixes, all applied.
+  - Undefined ICIT codes were dropped by the frozen Rule B, leaving 61 rows.
+  - ICIT code list: the open help PDF has none, and the ResearchGate page returned 403 (not bypassed).
+  - Label gate: figure against the `scene_text` consensus gave κ 0.43, so figure moved to rest. Bovine alone holds 34% of rows, below the 50% band, so the study stops by construction.
+  - A second fresh Fable review confirmed the STOP. Its fixes: report realised δ, count NaN draws separately, disclose the feasibility caps. Families come out at 59 (the draft said 57).
+  - Sizing run: bovine power 0.03 at realised δ 0.10/0.14, and 0.40 at δ 0.24 (20/40 feasible, not counted). False alarms A 4/400, B 13/400.
+  - Atlas 5.7 updated. No scorecard change; main line (b) unchanged; nothing published.
+  - Next: study 3 in Fable's ranking, the edition full-text sweep for stamp-sealed tablets (kill test: recall ≥ 0.8). Before it, a fresh Fable ranking per the standing order.

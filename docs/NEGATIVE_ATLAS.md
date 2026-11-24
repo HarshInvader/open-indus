@@ -557,9 +557,14 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - Square seals abroad: +0.44 [−0.54, +1.54].
 - **Verdict.** Refuted (C2); others untestable at this n.
 - **Update 2026-11-23 (animal_tie_power, sealed).** C1 is now sized. Unicorn vs other would catch a single sign carried by an extra 20 points of non-unicorn texts (power 1.0; 0.73 at +10). F14's sign × animal test has c\* 0.20 for shorthorn bull, 0.40 for elephant, and is untestable for tiger and the smaller classes. On the like-for-like scale, a Linear B line's tie to its commodity equals about +23 points, and only +7 to +11 once formula words are removed. So the null excludes text "about" the animal at Linear B strength, but not name-like texts under an emblem. `experiments/animal_tie_power/RESULTS.md`.
-- **Folder.** `experiments/context`.
-- **Prereg.** None.
-- **Reopen with.** More foreign finds.
+- **Update 2026-11-24 (tablet_pic_text, sealed): moulded tablets are untestable.**
+  - Setup: whole objects, one row per text type × class; 61 rows.
+  - The figure class failed the label gate against blind raters (κ 0.43). That left bovine alone at 34% of rows, so the study stopped.
+  - Sizing run: bovine power 0.03 at realised δ 0.10-0.14, and 0.40 at δ 0.24 (only 20 of 40 draws feasible). False alarms were 4 and 13 of 400.
+  - The seal null is not extended to tablets. `experiments/tablet_pic_text/RESULTS.md`.
+- **Folder.** `experiments/context`, `experiments/tablet_pic_text`.
+- **Prereg.** None for C1-C5; `tablet_pic_text.md`.
+- **Reopen with.** More foreign finds. For tablets: CISI vol. 3 or HARP tablets, the ICIT picture-code list, or photos legible enough to pass the figure gate.
 
 ### 5.8 Title signs mark what a sealing closed (door-peg authority)
 - **Question.** Do title signs (M347, M8, M336-M89, M249-M161) sit on door sealings, as storeroom authority would predict? Do they act as countersignatures?

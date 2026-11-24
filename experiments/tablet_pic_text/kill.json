@@ -1,0 +1,1539 @@
+{
+ "eligible": [
+  "bovine"
+ ],
+ "rows": 61,
+ "per_class": {
+  "rest": 40,
+  "bovine": 21
+ },
+ "null": {
+  "n": 1000,
+  "mean": 0.4809065476190476,
+  "p99": 0.7161190476190475,
+  "crit": 0.6821428571428572
+ },
+ "plants": {
+  "bovine": {
+   "0.05": {
+    "feasible": 38,
+    "counted": true,
+    "infeasible": 2,
+    "nan_auc": 0,
+    "realised_delta": 0.09523809523809525,
+    "power": 0.02631578947368421,
+    "mean_excess": 0.04711663533834576
+   },
+   "0.1": {
+    "feasible": 34,
+    "counted": true,
+    "infeasible": 6,
+    "nan_auc": 0,
+    "realised_delta": 0.14285714285714288,
+    "power": 0.029411764705882353,
+    "mean_excess": 0.07691908263305325
+   },
+   "0.2": {
+    "feasible": 20,
+    "counted": false,
+    "infeasible": 20,
+    "nan_auc": 0,
+    "realised_delta": 0.23809523809523808,
+    "power": 0.4,
+    "mean_excess": 0.17343869047619043
+   },
+   "0.4": {
+    "feasible": 1,
+    "counted": false,
+    "infeasible": 39,
+    "nan_auc": 0,
+    "realised_delta": 0.4285714285714286,
+    "power": 1.0,
+    "mean_excess": 0.24885535714285711
+   },
+   "c_star": null
+  }
+ },
+ "draws": [
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 0,
+   "sign": "W803",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 1,
+   "sign": "W033",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.3821428571428571
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 2,
+   "sign": "W176",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4458333333333333
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 3,
+   "sign": "W002",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.294047619047619
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 4,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6595238095238095
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 5,
+   "sign": "W700",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5511904761904761
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 6,
+   "sign": "W060",
+   "natural": 0.0,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5380952380952381
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 7,
+   "sign": "W740",
+   "natural": 0.5714285714285714,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4595238095238095
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 8,
+   "sign": "W400",
+   "natural": 0.38095238095238093,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.7124999999999999
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 9,
+   "sign": "W033",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4345238095238096
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 10,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5946428571428571
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 11,
+   "sign": "W220",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5452380952380952
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 12,
+   "sign": "W032",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4089285714285714
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 13,
+   "sign": "W400",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5845238095238094
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 14,
+   "sign": "W740",
+   "natural": 0.7142857142857143,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6196428571428572
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 15,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6666666666666667
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 16,
+   "sign": "W803",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5303571428571429
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 17,
+   "sign": "W803",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 18,
+   "sign": "W220",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5684523809523809
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 19,
+   "sign": "W740",
+   "natural": 0.6666666666666666,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5303571428571429
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 20,
+   "sign": "W400",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5625
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 21,
+   "sign": "W060",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6041666666666666
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 22,
+   "sign": "W240",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6720238095238096
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 23,
+   "sign": "W840",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4482142857142858
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 24,
+   "sign": "W240",
+   "natural": 0.0,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4119047619047619
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 25,
+   "sign": "W840",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5946428571428571
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 26,
+   "sign": "W032",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.38809523809523805
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 27,
+   "sign": "W700",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.42142857142857143
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 28,
+   "sign": "W002",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6244047619047618
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 29,
+   "sign": "W240",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5702380952380952
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 30,
+   "sign": "W400",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5630952380952381
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 31,
+   "sign": "W240",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.6327380952380951
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 32,
+   "sign": "W002",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4208333333333333
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 33,
+   "sign": "W740",
+   "natural": 0.5238095238095238,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5089285714285714
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 34,
+   "sign": "W400",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5273809523809524
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 35,
+   "sign": "W840",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5446428571428571
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 36,
+   "sign": "W803",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5339285714285713
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 37,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4875
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 38,
+   "sign": "W520",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.4636904761904762
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.05,
+   "d": 39,
+   "sign": "W033",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.09523809523809523,
+   "auc": 0.5583333333333333
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 0,
+   "sign": "W033",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 1,
+   "sign": "W840",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5577380952380953
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 2,
+   "sign": "W520",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5154761904761905
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 3,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6011904761904762
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 4,
+   "sign": "W520",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5666666666666667
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 5,
+   "sign": "W803",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 6,
+   "sign": "W060",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5470238095238095
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 7,
+   "sign": "W840",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 8,
+   "sign": "W002",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.705952380952381
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 9,
+   "sign": "W520",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.3726190476190476
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 10,
+   "sign": "W220",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5714285714285715
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 11,
+   "sign": "W060",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5511904761904762
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 12,
+   "sign": "W840",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5273809523809524
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 13,
+   "sign": "W520",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6380952380952382
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 14,
+   "sign": "W700",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6458333333333334
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 15,
+   "sign": "W840",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 16,
+   "sign": "W520",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.4029761904761905
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 17,
+   "sign": "W060",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5428571428571428
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 18,
+   "sign": "W032",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6339285714285714
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 19,
+   "sign": "W060",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6630952380952382
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 20,
+   "sign": "W176",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5994047619047621
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 21,
+   "sign": "W002",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5910714285714285
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 22,
+   "sign": "W002",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6726190476190477
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 23,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5333333333333333
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 24,
+   "sign": "W032",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5565476190476191
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 25,
+   "sign": "W700",
+   "natural": 0.3333333333333333,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5648809523809524
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 26,
+   "sign": "W220",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.5345238095238095
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 27,
+   "sign": "W033",
+   "natural": 0.0,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.45714285714285713
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 28,
+   "sign": "W033",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 29,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6035714285714285
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 30,
+   "sign": "W060",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6005952380952382
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 31,
+   "sign": "W740",
+   "natural": 0.5714285714285714,
+   "feasible": true,
+   "realised": 0.1428571428571429,
+   "auc": 0.5613095238095238
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 32,
+   "sign": "W220",
+   "natural": 0.0,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.4136904761904761
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 33,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6178571428571429
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 34,
+   "sign": "W803",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 35,
+   "sign": "W220",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.4779761904761905
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 36,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.6416666666666666
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 37,
+   "sign": "W520",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.525
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 38,
+   "sign": "W240",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.4976190476190476
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.1,
+   "d": 39,
+   "sign": "W002",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.14285714285714285,
+   "auc": 0.4738095238095238
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 0,
+   "sign": "W032",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.680952380952381
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 1,
+   "sign": "W240",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 2,
+   "sign": "W400",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.6630952380952382
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 3,
+   "sign": "W176",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 4,
+   "sign": "W740",
+   "natural": 0.5714285714285714,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.6494047619047619
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 5,
+   "sign": "W803",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 6,
+   "sign": "W033",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 7,
+   "sign": "W032",
+   "natural": 0.3333333333333333,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.7309523809523809
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 8,
+   "sign": "W740",
+   "natural": 0.6666666666666666,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.8005952380952381
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 9,
+   "sign": "W803",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 10,
+   "sign": "W060",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 11,
+   "sign": "W033",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 12,
+   "sign": "W400",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.5232142857142857
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 13,
+   "sign": "W220",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 14,
+   "sign": "W033",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 15,
+   "sign": "W740",
+   "natural": 0.5238095238095238,
+   "feasible": true,
+   "realised": 0.23809523809523803,
+   "auc": 0.5422619047619047
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 16,
+   "sign": "W400",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.7708333333333334
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 17,
+   "sign": "W400",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.6595238095238095
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 18,
+   "sign": "W803",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 19,
+   "sign": "W033",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 20,
+   "sign": "W520",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 21,
+   "sign": "W400",
+   "natural": 0.2857142857142857,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.6922619047619047
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 22,
+   "sign": "W700",
+   "natural": 0.23809523809523808,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.7208333333333333
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 23,
+   "sign": "W700",
+   "natural": 0.14285714285714285,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.5958333333333333
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 24,
+   "sign": "W400",
+   "natural": 0.38095238095238093,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 25,
+   "sign": "W740",
+   "natural": 0.5238095238095238,
+   "feasible": true,
+   "realised": 0.23809523809523803,
+   "auc": 0.7416666666666667
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 26,
+   "sign": "W032",
+   "natural": 0.19047619047619047,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.6869047619047619
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 27,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 28,
+   "sign": "W240",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 29,
+   "sign": "W740",
+   "natural": 0.47619047619047616,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.531547619047619
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 30,
+   "sign": "W220",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 31,
+   "sign": "W740",
+   "natural": 0.5238095238095238,
+   "feasible": true,
+   "realised": 0.23809523809523803,
+   "auc": 0.6107142857142857
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 32,
+   "sign": "W220",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 33,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 34,
+   "sign": "W060",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.6880952380952381
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 35,
+   "sign": "W740",
+   "natural": 0.5714285714285714,
+   "feasible": true,
+   "realised": 0.23809523809523814,
+   "auc": 0.6375
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 36,
+   "sign": "W803",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 37,
+   "sign": "W240",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.575
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 38,
+   "sign": "W060",
+   "natural": 0.047619047619047616,
+   "feasible": true,
+   "realised": 0.23809523809523808,
+   "auc": 0.5857142857142857
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.2,
+   "d": 39,
+   "sign": "W033",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 0,
+   "sign": "W803",
+   "natural": 0.0,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 1,
+   "sign": "W240",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 2,
+   "sign": "W033",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 3,
+   "sign": "W032",
+   "natural": 0.23809523809523808,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 4,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 5,
+   "sign": "W240",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 6,
+   "sign": "W840",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 7,
+   "sign": "W220",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 8,
+   "sign": "W032",
+   "natural": 0.2857142857142857,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 9,
+   "sign": "W240",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 10,
+   "sign": "W060",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 11,
+   "sign": "W060",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 12,
+   "sign": "W240",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 13,
+   "sign": "W400",
+   "natural": 0.2857142857142857,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 14,
+   "sign": "W700",
+   "natural": 0.2857142857142857,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 15,
+   "sign": "W033",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 16,
+   "sign": "W520",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 17,
+   "sign": "W240",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 18,
+   "sign": "W176",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 19,
+   "sign": "W520",
+   "natural": 0.23809523809523808,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 20,
+   "sign": "W060",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 21,
+   "sign": "W240",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 22,
+   "sign": "W220",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 23,
+   "sign": "W240",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 24,
+   "sign": "W176",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 25,
+   "sign": "W060",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 26,
+   "sign": "W240",
+   "natural": 0.09523809523809523,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 27,
+   "sign": "W240",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 28,
+   "sign": "W176",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 29,
+   "sign": "W740",
+   "natural": 0.5714285714285714,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 30,
+   "sign": "W520",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 31,
+   "sign": "W840",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 32,
+   "sign": "W700",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 33,
+   "sign": "W032",
+   "natural": 0.09523809523809523,
+   "feasible": true,
+   "realised": 0.4285714285714286,
+   "auc": 0.7297619047619047
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 34,
+   "sign": "W803",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 35,
+   "sign": "W060",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 36,
+   "sign": "W803",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 37,
+   "sign": "W060",
+   "natural": 0.047619047619047616,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 38,
+   "sign": "W060",
+   "natural": 0.14285714285714285,
+   "feasible": false
+  },
+  {
+   "cls": "bovine",
+   "delta": 0.4,
+   "d": 39,
+   "sign": "W520",
+   "natural": 0.19047619047619047,
+   "feasible": false
+  }
+ ],
+ "false_alarm": {
+  "A": {
+   "n": 400,
+   "passes": 4,
+   "ok": true
+  },
+  "B": {
+   "n": 400,
+   "passes": 13,
+   "ok": true
+  }
+ },
+ "band": "underpowered",
+ "eligible_row_share": 0.3442622950819672
+}
