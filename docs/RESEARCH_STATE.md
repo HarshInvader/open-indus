@@ -562,3 +562,19 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - But 17 are Old Assyrian envelopes with Anatolian stamps, found by CDLI "stamp" notes. Only 1 is a Gulf-type stamp (YBC 5447), and its stamp is stated only in the AS 16 print edition; CDLI gives "(not given)".
   - **My reading:** a recall test on the Old Assyrian rows measures only CDLI's tagging, not the Gulf target. The sweep should close into atlas 9.2 unless the coordinator reads the gate as "any stamp". Decision sent to the coordinator; no sweep design started.
   - Side note: `sealing_hunt/RESULTS.md` ("only brick stamps") is true for Babylonia but not for the whole dump; not edited.
+- 2026-11-24 coordinator: close the stamp sweep into atlas 9.2 (done); `sealing_hunt` correction line added. Next: a fresh Fable list of studies that pass their own count gate on data in hand, plus a HARP readiness check in parallel.
+- 2026-11-24 **HARP readiness** (`experiments/harp_pack/READINESS.md`): **partly ready.**
+  - What works: all 7 sealed hashes match, and a synthetic 1,276-row CSV scored end to end with no code change.
+  - Blockers if the sheet comes as Excel or in HARP's own sign codes:
+    - `openpyxl` is missing, and only the first sheet is read;
+    - the sign scheme can't be set from outside, so bare numbers make the sign tests UNTESTABLE;
+    - there is no concordance hook;
+    - there is no HARP-field-number → CISI table, so C7 has no units and C6 is exploratory only.
+  - Four inputs are unhashed (`power.log`, `icit_texts.jsonl`, `bridge_WM.json`, `corpus/load.py`).
+  - Fix on arrival via a sealed loader addendum, not by editing sealed files.
+- 2026-11-24 **Fable plan 9** (`docs/fable_brief9.md`): 7 studies pass their own count gate on data in hand; none moves the 2027 bar (about 0.3%).
+  - Key counts:
+    - formula share at Indus size is similar for Linear B (0.21-0.22) and ICIT (0.24), so formula reuse may not explain today's key verdicts;
+    - 10 anchored values give only about 2 runs of 4+ signs in M77, so clause (b) of the bar can only be met by a non-fit prediction.
+  - Ranked: (1) `lb_formula_dial`, (2) `lb_wrong_lexicon`, (3) `ur3_legend_refute`, (4) `certify_size_curve` (Old Assyrian), (5) `lift_certify`, (6) `restoration_vs_icit` (internal structure: needs the coordinator's OK), (7) `key_saturation_column`.
+  - **Decision:** start (1).

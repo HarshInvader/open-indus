@@ -21,6 +21,7 @@ Code: `extract.py`, `parse_bdtns.py`, `stamp_scan.py`. Run them from the repo ro
    - Its CDLI transliteration says only `@seal 1 $ (not given)`.
    - Its CDLI photo shows the obverse, the reverse and one edge. The stamp impressions are on the left and right edges (Buchanan), which are not photographed.
    - A scan of all 135,198 CDLI texts found no stamp-seal note on any 3rd- or early 2nd-millennium tablet; the only stamp hits are brick stamps. So a stamp or Indus impression on a Meluhha tablet would be invisible in the transliterations. It would also be easy to miss in standard CDLI photos, which often skip the edges.
+   - **Correction 2026-11-24:** "only brick stamps" holds for Babylonian tablets only. The full CDLI dump also has 17 Old Assyrian stamp-sealed envelopes (Kültepe, Alişar; for example P293711, P361463, P272900, which are listed in this folder's `stamp_scan.csv`). YBC 5447 carries a Gulf stamp that CDLI does not record. See `experiments/stamp_positives/COUNT.md`.
    - What the null actually rules out is narrow: none of the 10 legible seals is foreign, and none of the 7 images I examined shows a non-cylinder impression.
 5. **What I looked at.**
    - Photos: P235705 and P492732 (rolled cylinder legends clearly visible), P135969 (no impression visible, although BDTNS marks it sealed), P306518 (control; edges not shown), and P283682 (UET 5 272, Old Babylonian Ur, "illegible" seal; a cylinder rolling is visible).
