@@ -1,0 +1,37 @@
+{
+ "primary": "ICIT pottery graffito, pooled SJ = text has any of M343/M344/M345, within-site label permutation, 10,000 draws",
+ "n_pottery_texts": 384,
+ "signs": {
+  "SJ": {
+   "obs": 17,
+   "exp": 23.0,
+   "ratio": 0.739,
+   "p_enrich": 0.9594040595940406,
+   "present": 280
+  },
+  "M343": {
+   "obs": 6,
+   "exp": 15.69,
+   "ratio": 0.382,
+   "p_enrich": 0.9998000199980002,
+   "present": 201
+  },
+  "M344": {
+   "obs": 6,
+   "exp": 4.81,
+   "ratio": 1.249,
+   "p_enrich": 0.33686631336866313,
+   "present": 48
+  },
+  "M345": {
+   "obs": 5,
+   "exp": 2.5,
+   "ratio": 1.996,
+   "p_enrich": 0.09049095090490951,
+   "present": 31
+  }
+ },
+ "power_2x": 0.96,
+ "verdict": "refuted: ratio <= 1 on pottery (kill condition), test powered for 2x",
+ "note": "M343 alone was already seen in self_label (6 vs 15.67); M344/M345 on pottery graffiti were not."
+}

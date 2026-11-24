@@ -464,3 +464,7 @@ eb35235347dc245b589915d2159bf2353de44ad876cd9f806581d6b09567dcdf  experiments/sc
 f3e4863c354569874ec723ea72a2a5e139f5e05c4b830f51f4f19ee18842a537  docs/prereg/sigil_heldout.md  2026-11-23T22:57:46Z  sigil_heldout seal
 ff7a1518cb1dc5b2dbb9c45635d16c89315c712a54bc5c378028e59211a9e3bc  experiments/sigil_heldout/run.py  2026-11-23T22:57:46Z  sigil_heldout seal
 bc72df563c18121bf664bca7149868b855398ac5cfff158b2a52e577971d30bf  experiments/sigil_heldout/hmm_init.py  2026-11-23T22:57:46Z  sigil_heldout seal
+4f0ec4e8292f9dee71ceb7ee522a2569d7bf3b5a34918172e4ee1bbcad73b6d4  docs/prereg/signmap_figfish_strokedjar.md  2026-11-24T03:58:03Z  signmap seal
+590e6d800053a4b79a55cc4274763c18264297199c52901c727b58a13860af80  docs/prereg/signmap_figfish_strokedjar.md  2026-11-24T03:59:53Z  signmap addendum1 seal
+a22954361e34b1794d5d79725a221dac8cf2750e71496050a2dad54b66638bc3  experiments/signmap/strokedjar_test.py  2026-11-24T03:59:53Z  signmap addendum1 seal
+bacdba9045f958dc637ad33de6fba4a4ee237fb05fe3bb5c8796a8c3b57c0501  docs/prereg/signmap_figfish_strokedjar.md  2026-11-24T04:00:42Z  scorecard addendum3 seal

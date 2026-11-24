@@ -1,0 +1,11 @@
+[
+ {"item":"img1","candidates":["M343"],"confidence":"high","reason":"Jar with two outward hooked handles and one short stroke in the mouth"},
+ {"item":"img2","candidates":["M344"],"confidence":"high","reason":"Jar with two outward handles and two short strokes in the mouth"},
+ {"item":"img3","candidates":["M345"],"confidence":"high","reason":"Jar with two outward handles and three short strokes in the mouth"},
+ {"item":"img4","candidates":["M343"],"confidence":"high","reason":"Pixel-identical to img1: jar with handles and one mouth stroke"},
+ {"item":"img5","candidates":["M344"],"confidence":"high","reason":"Pixel-identical to img2: jar with handles and two mouth strokes"},
+ {"item":"img6","candidates":["M345"],"confidence":"high","reason":"Pixel-identical to img3: jar with handles and three mouth strokes"},
+ {"item":"img7","candidates":["M345","M346"],"confidence":"low","reason":"Jar with handles and four mouth strokes, rounder base; no 4-stroke jar is described in the list, so nearest is the 3-stroke jar; image is pixel-identical to img8"},
+ {"item":"img8","candidates":["M345","M346"],"confidence":"low","reason":"Jar with handles and four mouth strokes; text says it postdates IDF-80, so probably has no M number; nearest described shapes are the 3-stroke jars"},
+ {"item":"fig","candidates":["M326","M325","M167"],"confidence":"low","reason":"Fig/peepal-type leaf is heart-shaped with a stem and midrib: M326 (veined upside-down heart leaf), M325 (heart leaf on stem); M167 as a branching-tree alternative"}
+]

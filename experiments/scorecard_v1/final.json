@@ -6,10 +6,10 @@
  "passed": true,
  "counts": {
   "S": 11,
-  "U": 24,
-  "R": 7,
-  "N": 16,
-  "P": 7
+  "U": 25,
+  "R": 8,
+  "N": 17,
+  "P": 4
  },
  "rows": [
   {
@@ -146,13 +146,18 @@
    "claimant": "Raghavendra (2026, SIGIL)",
    "claim": "A sound-free emblem system reproduces the Indus statistics",
    "evidence": "experiments/bench2026/RESULTS.md (SIGIL section); docs/NEGATIVE_ATLAS.md section 3.3",
-   "tier": "P",
-   "reason": "experiments/bench2026/RESULTS.md reports SIGIL meeting 6/6 published criteria from its own paper, and atlas 3.3 (entropy refuted as a discriminator) has 'Prereg. None', so no sealed or held-out test of the claim has been run here.",
+   "tier": "U",
+   "reason": "Claim is precise and the data are held, but the sealed held-out fit test failed its kill gate (98/100 planted SIGIL corpora rejected, about 40-45% unparsed at Indus size), so no test on held data can tell the claim from noise; the 6-criteria match is the claimant's own in-sample result, not a held-out pass.",
    "split": false,
    "rater_tiers": [
-    "P",
-    "P"
-   ]
+    "U",
+    "U"
+   ],
+   "v1_0": {
+    "tier": "P",
+    "reason": "experiments/bench2026/RESULTS.md reports SIGIL meeting 6/6 published criteria from its own paper, and atlas 3.3 (entropy refuted as a discriminator) has 'Prereg. None', so no sealed or held-out test of the claim has been run here."
+   },
+   "addendum": 2
   },
   {
    "id": "MC-MUK25-fish-gem",
@@ -348,14 +353,19 @@
    "group": "meaning claim",
    "claimant": "Mukhopadhyay (2019)",
    "claim": "metrological units of volume",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-stroked-jar-MET (status: testable; experiments/self_label found vessel-looking signs depleted on pottery (M342, M336, M343). Stroked-jar variants were not tested on their own.)",
-   "tier": "P",
-   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable, not run; stroked-jar variants were not tested on their own (self_label covered other vessel signs).",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-stroked-jar-MET (status: already tested; experiments/signmap/RESULTS.md (sealed): pooled M343/M344/M345 on ICIT pottery graffiti 17 vs 23.0 expected under the within-site null, ratio 0.74, power 0.96 for 2x: kill condition met. M343 0.38x; M344 1.25x; M345 2.0x (5 vs 2.5, p 0.09, exploratory).)",
+   "tier": "R",
+   "reason": "Sealed prereg test of the claim's own pottery-enrichment prediction gave pooled M343/M344/M345 ratio 0.74 (17 vs 23.0) with power 0.96 for 2x, meeting the kill condition; M345 alone 2x on 5 texts is exploratory and not significant.",
    "split": false,
    "rater_tiers": [
-    "P",
-    "P"
-   ]
+    "R",
+    "R"
+   ],
+   "v1_0": {
+    "tier": "P",
+    "reason": "experiments/meaning_claims/CATALOGUE.csv: testable, not run; stroked-jar variants were not tested on their own (self_label covered other vessel signs)."
+   },
+   "addendum": 3
   },
   {
    "id": "MC-MAH09-jar-bearer",
@@ -457,14 +467,19 @@
    "group": "meaning claim",
    "claimant": "Parpola (1994; 2010)",
    "claim": "vata-min 'north star'",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-vata-min (status: testable; Not tested. Fish partner set is known (M53, M387, M343, M171, M389; core_semantics).)",
-   "tier": "P",
-   "reason": "experiments/meaning_claims/CATALOGUE.csv: testable once the fig sign is identified; 'Not tested'.",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-vata-min (status: untestable (sign identity); experiments/signmap/RESULTS.md: no Parpola sign number or drawing obtainable here; two blind agents mapping the fig/banyan sign by shape disagreed (M326 vs M325, both low confidence), so no fig sign can be fixed and the pair cannot be counted.)",
+   "tier": "N",
+   "reason": "Not stated sign by sign: Parpola's fig sign has no number or drawing held, and two blind shape mappers disagreed (M326 vs M325, both low), so the fig+fish pair cannot be fixed or counted.",
    "split": false,
    "rater_tiers": [
-    "P",
-    "P"
-   ]
+    "N",
+    "N"
+   ],
+   "v1_0": {
+    "tier": "P",
+    "reason": "experiments/meaning_claims/CATALOGUE.csv: testable once the fig sign is identified; 'Not tested'."
+   },
+   "addendum": 3
   },
   {
    "id": "MC-PAR75-chanhu-toponym",

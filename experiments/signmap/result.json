@@ -1,0 +1,29 @@
+{
+ "agreement_rate": "8/9",
+ "agreed": {
+  "img1": "M343",
+  "img2": "M344",
+  "img3": "M345",
+  "img4": "M343",
+  "img5": "M344",
+  "img6": "M345",
+  "img7": "M345",
+  "img8": "M345"
+ },
+ "usable": {
+  "img1": "M343",
+  "img2": "M344",
+  "img3": "M345",
+  "img4": "M343",
+  "img5": "M344",
+  "img6": "M345"
+ },
+ "fig_usable": false,
+ "stroked_jar_signs": [
+  "M343",
+  "M344",
+  "M345"
+ ],
+ "icit_distinct_texts": 263,
+ "gate_30": true
+}

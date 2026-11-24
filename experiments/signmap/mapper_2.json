@@ -1,0 +1,11 @@
+[
+  {"item": "img1", "candidates": ["M343", "M344"], "confidence": "high", "reason": "Jar with two outward-turned handles at the rim and one short stroke in the mouth"},
+  {"item": "img2", "candidates": ["M344", "M343", "M345"], "confidence": "high", "reason": "Jar with outward handles and two short strokes in the mouth"},
+  {"item": "img3", "candidates": ["M345", "M344"], "confidence": "high", "reason": "Jar with outward handles and three short strokes in the mouth"},
+  {"item": "img4", "candidates": ["M343", "M344"], "confidence": "high", "reason": "Byte-identical image to img1: jar with handles and one stroke"},
+  {"item": "img5", "candidates": ["M344", "M343", "M345"], "confidence": "high", "reason": "Byte-identical image to img2: jar with handles and two strokes"},
+  {"item": "img6", "candidates": ["M345", "M344"], "confidence": "high", "reason": "Byte-identical image to img3: jar with handles and three strokes"},
+  {"item": "img7", "candidates": ["M345", "M346"], "confidence": "low", "reason": "Jar with handles and four strokes in the mouth; no four-stroke jar is described, nearest is the three-stroke jar"},
+  {"item": "img8", "candidates": ["M345", "M346"], "confidence": "low", "reason": "Byte-identical to img7 (four-stroke jar); text says it postdates IDF-80, so likely absent from the M list; nearest is three-stroke jar"},
+  {"item": "fig", "candidates": ["M325", "M326", "M162"], "confidence": "low", "reason": "Fig/banyan leaf is heart-shaped on a stalk: M325 inverted heart on a stem, M326 veined heart leaf; M162 is the generic branched tree"}
+]

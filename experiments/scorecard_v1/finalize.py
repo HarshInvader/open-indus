@@ -36,6 +36,19 @@ def main():
                 r["v1_0"] = dict(tier=r["tier"], reason=r["reason"])
                 r["tier"] = F[i]["tier"] if sp else D[i]["tier"]; r["reason"] = F[i]["reason"] if sp else D[i]["reason"]
                 r["split"] = sp; r["rater_tiers"] = [D[i]["tier"], Ev[i]["tier"]] + ([F[i]["tier"]] if sp else []); r["addendum"] = 1
+    # Addenda 2 (FUN-sigil, raters G/H, tie K2) and 3 (stroked jar + vata-min, raters I/J, tie K): same rule.
+    for add_no, (a, b, c) in {2: ("rater_G.json", "rater_H.json", "rater_K2.json"), 3: ("rater_I.json", "rater_J.json", "rater_K.json")}.items():
+        if not ((HERE / a).exists() and (HERE / b).exists()):
+            continue
+        X = {x["id"]: x for x in json.load(open(HERE / a))}; Y = {x["id"]: x for x in json.load(open(HERE / b))}
+        Z = {x["id"]: x for x in json.load(open(HERE / c))} if (HERE / c).exists() else {}
+        for r in out:
+            i = r["id"]
+            if i in X:
+                sp = X[i]["tier"] != Y[i]["tier"]
+                r.setdefault("v1_0", dict(tier=r["tier"], reason=r["reason"]))
+                r["tier"] = Z[i]["tier"] if sp else X[i]["tier"]; r["reason"] = Z[i]["reason"] if sp else X[i]["reason"]
+                r["split"] = sp; r["rater_tiers"] = [X[i]["tier"], Y[i]["tier"]] + ([Z[i]["tier"]] if sp else []); r["addendum"] = add_no
     res = dict(kappa=round(kappa, 3), agreement=round(po, 3), n=n, kappa_bar=0.8, passed=kappa >= 0.8,
                counts=dict(Counter(x["tier"] for x in out)), rows=out)
     json.dump(res, open(HERE / "final.json", "w"), indent=1)
