@@ -475,3 +475,11 @@ c27382309e74b59b5f38131fe5ecf2d15376222e23206d46bd8c4dfc25e35019  experiments/me
 0ae7929c4dfaa532ec3dd1aedec0784cb8d3588d64d8888450c2f3b4d6b89b34  docs/prereg/meaning_calibration_v2.md  2026-11-24T09:05:22Z  meaning_calibration_v2
 96ae071e962ff0e44dce3721796bbe68a496990f8f3ea4e33c4d351a7161174d  experiments/meaning_calibration/fcore2.py  2026-11-24T09:05:22Z  meaning_calibration_v2
 a755e044fa0c9243a83b715b0b53863f6a6d70a620492c7934ebaf41e5651e3d  experiments/meaning_calibration/kill2.py  2026-11-24T09:05:22Z  meaning_calibration_v2
+a6c5353c58e1f7be3504f4fbc71fdeb2fb90b682e32da58f4ca1b936b4b0a1da  experiments/meaning_calibration/claims/A_claims.json  2026-11-24T09:07:15Z  meaning_calibration_v2 A claims
+15b18265e37fc83bac9b1dede2e3f15a60f6c8f7106e33e317ef1030eb45b0a9  docs/prereg/meaning_calibration_v2_addendum1.md  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
+d4a2a288cf417b4bcb7979eac23ded479d93e8fff9aead2abe457485d9e4d610  experiments/meaning_calibration/run.py  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
+ca8a7ba9cc03735ab93fe8aacec4b6e326c67ae04d0ee03aefad218e4663a50c  experiments/meaning_calibration/pool.py  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
+5fd3d461b7291e6e2db8016383b01e0def55d6267aca86c5376f7dbdc83dd04f  experiments/meaning_calibration/decoys.py  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
+361f3a59e655f18d816f541af9096e9bd11dadc43ee28246ba3358a47807b807  experiments/meaning_calibration/claims/B_claims.json  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
+cd0a429c1e1c04d8bd2814a4d84240346cf434194de330a13943f4cb58460b80  experiments/meaning_calibration/claims/decoy_map.json  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
+9c395c48e5fbe9fcf23512119d1e163c9aa665ad3768fd5c8e96b0ecef982472  experiments/meaning_calibration/kill2.json  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1

@@ -1,0 +1,314 @@
+{
+ "eligible_every_draw": [
+  "*146",
+  "*189",
+  "1",
+  "10",
+  "100",
+  "11",
+  "12",
+  "2",
+  "20",
+  "3",
+  "30",
+  "4",
+  "40",
+  "5",
+  "50",
+  "6",
+  "7",
+  "8",
+  "9",
+  "AROM",
+  "BIG",
+  "CAP:f",
+  "CAP:m",
+  "DA",
+  "EQU",
+  "GRA",
+  "LANA",
+  "M",
+  "MUL",
+  "OLE",
+  "OVIS",
+  "OVIS:f",
+  "OVIS:m",
+  "P",
+  "S",
+  "SA",
+  "T",
+  "TA",
+  "TELA;1",
+  "TUN",
+  "V",
+  "VIR",
+  "X",
+  "Z",
+  "ZE",
+  "da-*22-to",
+  "da-wo",
+  "e-ke",
+  "e-ko-so",
+  "ki",
+  "ko-to-na",
+  "ko-wa",
+  "ko-wo",
+  "ku-ta-to",
+  "o",
+  "o-na-to",
+  "pa",
+  "pa-ro",
+  "pe",
+  "pe-mo",
+  "qa-ra",
+  "ru-ki-to",
+  "ti-ri-to"
+ ],
+ "A_pool": [
+  {
+   "head": "*146",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "*189",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "1",
+   "cls": "numeral"
+  },
+  {
+   "head": "10",
+   "cls": "numeral"
+  },
+  {
+   "head": "100",
+   "cls": "numeral"
+  },
+  {
+   "head": "11",
+   "cls": "numeral"
+  },
+  {
+   "head": "12",
+   "cls": "numeral"
+  },
+  {
+   "head": "2",
+   "cls": "numeral"
+  },
+  {
+   "head": "20",
+   "cls": "numeral"
+  },
+  {
+   "head": "3",
+   "cls": "numeral"
+  },
+  {
+   "head": "30",
+   "cls": "numeral"
+  },
+  {
+   "head": "4",
+   "cls": "numeral"
+  },
+  {
+   "head": "40",
+   "cls": "numeral"
+  },
+  {
+   "head": "5",
+   "cls": "numeral"
+  },
+  {
+   "head": "50",
+   "cls": "numeral"
+  },
+  {
+   "head": "6",
+   "cls": "numeral"
+  },
+  {
+   "head": "7",
+   "cls": "numeral"
+  },
+  {
+   "head": "8",
+   "cls": "numeral"
+  },
+  {
+   "head": "AROM",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "BIG",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "CAP:f",
+   "cls": "word"
+  },
+  {
+   "head": "CAP:m",
+   "cls": "word"
+  },
+  {
+   "head": "DA",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "EQU",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "GRA",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "LANA",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "M",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "MUL",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "OLE",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "OVIS",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "OVIS:f",
+   "cls": "word"
+  },
+  {
+   "head": "OVIS:m",
+   "cls": "word"
+  },
+  {
+   "head": "P",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "S",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "SA",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "T",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "TA",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "TELA;1",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "TUN",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "V",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "VIR",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "Z",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "ZE",
+   "cls": "ideogram/measure"
+  },
+  {
+   "head": "da-*22-to",
+   "cls": "word"
+  },
+  {
+   "head": "da-wo",
+   "cls": "word"
+  },
+  {
+   "head": "e-ke",
+   "cls": "word"
+  },
+  {
+   "head": "e-ko-so",
+   "cls": "word"
+  },
+  {
+   "head": "ki",
+   "cls": "word"
+  },
+  {
+   "head": "ko-to-na",
+   "cls": "word"
+  },
+  {
+   "head": "ko-wa",
+   "cls": "word"
+  },
+  {
+   "head": "ku-ta-to",
+   "cls": "word"
+  },
+  {
+   "head": "o",
+   "cls": "word"
+  },
+  {
+   "head": "o-na-to",
+   "cls": "word"
+  },
+  {
+   "head": "pa",
+   "cls": "word"
+  },
+  {
+   "head": "pa-ro",
+   "cls": "word"
+  },
+  {
+   "head": "pe",
+   "cls": "word"
+  },
+  {
+   "head": "pe-mo",
+   "cls": "word"
+  },
+  {
+   "head": "qa-ra",
+   "cls": "word"
+  },
+  {
+   "head": "ru-ki-to",
+   "cls": "word"
+  },
+  {
+   "head": "ti-ri-to",
+   "cls": "word"
+  }
+ ],
+ "decoy_pool_initial": [
+  "9",
+  "X",
+  "ko-wo"
+ ]
+}

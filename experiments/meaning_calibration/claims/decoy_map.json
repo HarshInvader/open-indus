@@ -1,0 +1,152 @@
+[
+ {
+  "A_head": "OLE",
+  "decoy": "OVIS",
+  "class_matched": true
+ },
+ {
+  "A_head": "GRA",
+  "decoy": "*146",
+  "class_matched": true
+ },
+ {
+  "A_head": "OVIS:m",
+  "decoy": "ko-wo",
+  "class_matched": true
+ },
+ {
+  "A_head": "OVIS:f",
+  "decoy": "ti-ri-to",
+  "class_matched": true
+ },
+ {
+  "A_head": "CAP:f",
+  "decoy": "e-ko-so",
+  "class_matched": true
+ },
+ {
+  "A_head": "CAP:m",
+  "decoy": "ki",
+  "class_matched": true
+ },
+ {
+  "A_head": "TELA;1",
+  "decoy": "X",
+  "class_matched": true
+ },
+ {
+  "A_head": "VIR",
+  "decoy": "DA",
+  "class_matched": true
+ },
+ {
+  "A_head": "MUL",
+  "decoy": "*189",
+  "class_matched": true
+ },
+ {
+  "A_head": "EQU",
+  "decoy": "SA",
+  "class_matched": true
+ },
+ {
+  "A_head": "LANA",
+  "decoy": "BIG",
+  "class_matched": true
+ },
+ {
+  "A_head": "M",
+  "decoy": "TA",
+  "class_matched": true
+ },
+ {
+  "A_head": "P",
+  "decoy": "2",
+  "class_matched": false
+ },
+ {
+  "A_head": "S",
+  "decoy": "30",
+  "class_matched": false
+ },
+ {
+  "A_head": "T",
+  "decoy": "da-*22-to",
+  "class_matched": false
+ },
+ {
+  "A_head": "V",
+  "decoy": "7",
+  "class_matched": false
+ },
+ {
+  "A_head": "Z",
+  "decoy": "3",
+  "class_matched": false
+ },
+ {
+  "A_head": "ZE",
+  "decoy": "6",
+  "class_matched": false
+ },
+ {
+  "A_head": "TUN",
+  "decoy": "100",
+  "class_matched": false
+ },
+ {
+  "A_head": "AROM",
+  "decoy": "10",
+  "class_matched": false
+ },
+ {
+  "A_head": "ko-wa",
+  "decoy": "pa",
+  "class_matched": true
+ },
+ {
+  "A_head": "o",
+  "decoy": "pe",
+  "class_matched": true
+ },
+ {
+  "A_head": "e-ke",
+  "decoy": "qa-ra",
+  "class_matched": true
+ },
+ {
+  "A_head": "o-na-to",
+  "decoy": "50",
+  "class_matched": false
+ },
+ {
+  "A_head": "pa-ro",
+  "decoy": "4",
+  "class_matched": false
+ },
+ {
+  "A_head": "pe-mo",
+  "decoy": "20",
+  "class_matched": false
+ },
+ {
+  "A_head": "ko-to-na",
+  "decoy": "1",
+  "class_matched": false
+ },
+ {
+  "A_head": "ku-ta-to",
+  "decoy": "8",
+  "class_matched": false
+ },
+ {
+  "A_head": "da-wo",
+  "decoy": "12",
+  "class_matched": false
+ },
+ {
+  "A_head": "ru-ki-to",
+  "decoy": "5",
+  "class_matched": false
+ }
+]
