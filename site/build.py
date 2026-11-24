@@ -1270,12 +1270,14 @@ def scorecard():
             name, k = tier[r["tier"]]
             split = " · split (" + "/".join(r["rater_tiers"]) + ")" if r["split"] else ""
             if r.get("addendum"):
-                why = "a stale catalogue entry was fixed" if r["addendum"] == 1 else "a new sealed test"
+                why = {1: "a stale catalogue entry was fixed", 4: "its test was calibrated on a script we can read"}.get(r["addendum"], "a new sealed test")
                 split += f' · re-rated after {why} (was {tier[r["v1_0"]["tier"]][0]})'
             items.append(f'<li class="route"><div class="rt">{E(r["claimant"])}: {E(r["claim"])}</div>'
                          f'<span class="tag {k}">{E(name)}</span><div class="rd"><span>{E(r["reason"])}{E(split)}</span></div></li>')
         out.append(f'<details class="group"{" open" if g == "calibration" else ""}><summary><span class="gt">{E(title)}</span>'
-                   f'<span class="gc">{len(rs)} claims</span></summary><ul class="routes">{"".join(items)}</ul></details>')
+                   f'<span class="gc">{len(rs)} claims</span></summary><ul class="routes">{"".join(items)}</ul>'
+                   + ('<p class="why">Only the Murukan row has had its test checked on a script we can read (Linear B): there the test never passed a made-up claim but gave no answer on most true ones. The other meaning rows are not calibrated.</p>' if g == "meaning claim" else "")
+                   + '</details>')
     return dict(SC_N=d["n"], SC_KAPPA=f'{d["kappa"]:.2f}', SC_SPLIT=sum(r["split"] for r in d["rows"]), SC_KEY=key, SC_ROWS="".join(out))
 
 

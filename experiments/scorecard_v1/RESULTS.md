@@ -69,3 +69,13 @@ This held. Not predicted: #2 at P and #7 at U.
   - A first draft that compared commit dates flagged 45 of 65 rows, because the catalogue and atlas files are edited often. That is why the check compares content.
 - **Now:** 65 rows checked, 0 flags. Every tier on the page rests on the evidence as it stands.
 - **Rule from here:** run `staleness.py` after any study that touches a row's evidence. Any flagged row is re-rated by two fresh blind raters under the v1 rules (as in addendum 1).
+
+## Addendum 4: Murukan row after the meaning calibration (2026-11-24, prereg `scorecard_addendum4.md`)
+- **What changed.** MC-PAR-murukan-partners was flagged by `staleness.py` after its catalogue entry gained the `meaning_calibration` result. On Linear B at Indus size, its test form passed:
+  - 0 of 30 uninformed claims and 0 of 1,500 random partner sets;
+  - 3 of 30 true claims, giving no verdict on 27 of them.
+- **Re-rating.** Two blind raters (L, M) both rated it **U**, so there was no split and no third rater. The v1 tier was S.
+  - **Reason.** The fixed pair M403 → M87 holds, but it fits "M403 + numeral 2" as well as "Muruka-vel". The test cannot confirm a reading.
+- **Not re-rated.** MC-WEL15-fish-number: its test is not the calibrated rule.
+- **Tool fix.** `staleness.py` now counts the raters of addenda 2-4 as current. It had re-flagged rows they had already re-rated.
+- **Counts now:** S 10, U 26, R 8, N 17, P 4. The κ of v1.0 (0.842) is unchanged.

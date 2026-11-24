@@ -81,13 +81,15 @@ UNTRACKED_CACHE = set()
 def rating_commits():
     """id -> commit holding the row's current rating (addendum raters override v1.0 raters)."""
     rc = {}
-    for f in ("rater_A.json", "rater_B.json", "rater_C.json", "rater_D.json", "rater_E.json", "rater_F.json"):
+    ADD = ("rater_D.json", "rater_E.json", "rater_F.json", "rater_G.json", "rater_H.json", "rater_K2.json",
+           "rater_I.json", "rater_J.json", "rater_K.json", "rater_L.json", "rater_M.json", "rater_N.json")
+    for f in ("rater_A.json", "rater_B.json", "rater_C.json") + ADD:
         path = f"experiments/scorecard_v1/{f}"
         h = git("log", "-1", "--format=%H", "--", path).strip()
         if not h:
             continue
         for x in json.loads(at(h, path)):
-            if f in ("rater_D.json", "rater_E.json", "rater_F.json") or x["id"] not in rc:
+            if f in ADD or x["id"] not in rc:
                 rc[x["id"]] = h
     return rc
 

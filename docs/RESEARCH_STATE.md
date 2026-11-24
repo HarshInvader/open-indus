@@ -444,3 +444,19 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - a coverage bar of at least 50% of eligible heads, with fresh seeds 20261125+k.
   - The v1 failure stays in the ledger, and the v2 kill test is disclosed as confirmatory. If v2 fails, stop for good. Study 2 (R-row symmetry audit) comes next either way.
 - **Decision:** follow this advice.
+- 2026-11-24 meaning_calibration v2 DONE.
+  - **Kill test:** passed. Power was 0.987 and false alarm 0.
+  - **Claims:** Writer A wrote 30 true claims and Writer B 30 uninformed ones on opaque IDs.
+    - A: S 3, U 27 (mostly U-resolution), R 0.
+    - B: S 0, U 22, R 8.
+    - Chance: S 0 of 1,500.
+  - **Sealed measures:** false-refutation 0 of 30 (bound 7.4%) is met. AUC 0.67 misses its bar, and the test is underpowered (U share 0.9).
+  - **Reading:** the test rarely errs but mostly abstains. True claims name very frequent partners, whose nulls are too small.
+- **Fable advice:** a sealed scorecard addendum 4 with 2 blind raters, plus caveats; the 3 true passes are one formula cluster, and the uninformed claims never saw the corpus.
+  - Fable advised no Latest-updates entry. I overrode that after the raters moved murukan S → U: a tier changed, so it counts as a real result.
+  - Next is study 2 (R-row symmetry audit), then the 95% ladder point and Scott key bench, then study 3.
+- **Done:**
+  - Addendum 4 sealed. Raters L and M both gave U, so MC-PAR-murukan-partners moves S → U.
+  - `staleness.py` now knows the addendum 2-4 raters.
+  - Site rebuilt with a page note and an update entry. Not deployed.
+  - Scorecard counts: S 10, U 26, R 8, N 17, P 4.

@@ -1,6 +1,13 @@
 [
  {
   "date": "2026-11-24",
+  "kind": "result",
+  "title": "Testing our own test on a script we can read",
+  "body": "Before trusting our meaning tests on Indus, we ran one of them on Linear B, cut to Indus size. One agent who reads Linear B wrote 30 true claims, another invented 30 claims without being able to read it. The test never passed an invented claim and never rejected a true one, but it gave no answer on 27 of the 30 true claims. So a pass means something, but it confirms a sign pair, not a reading. With that in view, two blind raters moved Parpola's 'names of the god Murukan' from supported to untestable: the sign pair is real, but it fits other readings just as well.",
+  "link": "https://github.com/HarshInvader/open-indus/blob/main/experiments/meaning_calibration/RESULTS.md"
+ },
+ {
+  "date": "2026-11-24",
   "kind": "killed",
   "title": "Jar signs with strokes are not volume units on pots",
   "body": "Mukhopadhyay read jar signs with one to three strokes inside as units of volume. If so, they should turn up more often on pottery. Two agents, working blind, matched her drawings to the standard sign numbers and agreed. The signs appear on fewer pots than chance predicts (17 against 23 expected), in a test that would have seen a twofold excess. Parpola's fig + fish 'north star' could not be tested: his fig sign has no number we can check, and the two agents disagreed on it.",

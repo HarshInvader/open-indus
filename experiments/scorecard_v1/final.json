@@ -5,8 +5,8 @@
  "kappa_bar": 0.8,
  "passed": true,
  "counts": {
-  "S": 11,
-  "U": 25,
+  "S": 10,
+  "U": 26,
   "R": 8,
   "N": 17,
   "P": 4
@@ -448,19 +448,19 @@
    "group": "meaning claim",
    "claimant": "Parpola (1994; 2010)",
    "claim": "fixed names of the god Murukan",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-murukan-partners (status: already tested; Updated 2026-11-23: experiments/parpola_rules34 (prereg parpola_rules34; gate 96%): M403 -> M87 is a fixed pair on dev (23/48, p 0.0014), held-out (4/17, p 0.003) and new sites (4/9, p 0.0009), red team 'fragile' only under a degenerate near-copy collapse; the squirrel partner (M51/M52) never follows M403 (0/74). The fixed pair is Parpola's starting observation, not the reading (M87 is also tall-stroke 2).)",
-   "tier": "S",
-   "reason": "In experiments/parpola_rules34/RESULTS.md the pre-registered test (gate 48/50 = 96%) found M403 -> M87 on dev (23/48, p 0.0014), held-out (4/17, p 0.003) and new sites (4/9, p 0.0009). The evidence is split, though: the squirrel partner was 0/74 at the same power, which refutes that half; the held-out share of 0.24 fell below the 0.4 bar; and the pair fits 'M403 + numeral 2' just as well, so the Murukan reading itself is not discriminated.",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row PAR-murukan-partners (status: already tested; Updated 2026-11-23: experiments/parpola_rules34 (prereg parpola_rules34; gate 96%): M403 -> M87 is a fixed pair on dev (23/48, p 0.0014), held-out (4/17, p 0.003) and new sites (4/9, p 0.0009), red team 'fragile' only under a degenerate near-copy collapse; the squirrel partner (M51/M52) never follows M403 (0/74). The fixed pair is Parpola's starting observation, not the reading (M87 is also tall-stroke 2). Calibrated 2026-11-24 (experiments/meaning_calibration, v2 after v1 failed its kill test): on Linear B at Indus size this rule passed 0 of 30 uninformed claims (90% bound 7.4%) and 0 of 1,500 random partner sets, and refuted 0 of 30 true claims, but gave no verdict on 27 of 30 true claims (AUC 0.67, bar 0.75 missed; underpowered). The 3 true passes are one formula cluster, uninformed claims were not fitted to the corpus (a pair chosen after seeing the corpus is not bounded by this), and this row's squirrel secondary is absent (0/74), a case the plants did not cover.)",
+   "tier": "U",
+   "reason": "The powered prereg pair test (gate 96%) confirms only Parpola's starting observation, M403 -> M87, on held-out data and new sites. It cannot tell 'Muruka-vel' from 'M403 + numeral 2', and calibration on Linear B finds this form underpowered (AUC 0.67, no verdict on 27 of 30 true claims). Split: the squirrel half is absent (0 of 74), which a powered gate would have seen.",
    "split": false,
    "rater_tiers": [
-    "S",
-    "S"
+    "U",
+    "U"
    ],
    "v1_0": {
     "tier": "P",
     "reason": "experiments/meaning_claims/CATALOGUE.csv: testable (M403 in 66 M77 texts) but its fixed partners were never tested."
    },
-   "addendum": 1
+   "addendum": 4
   },
   {
    "id": "MC-PAR-vata-min",

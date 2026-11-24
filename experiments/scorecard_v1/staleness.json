@@ -1,29 +1,11 @@
 [
  {
-  "id": "FUN-sigil",
-  "tier": "P",
+  "id": "MC-PAR-murukan-partners",
+  "tier": "U",
   "why": "evidence changed after rating",
   "changed": [
-   "NEGATIVE_ATLAS section 3.3"
+   "experiments/meaning_claims/CATALOGUE.csv row PAR-murukan-partners"
   ],
-  "rated_at": "2e41b40"
- },
- {
-  "id": "MC-MUK19-stroked-jar-MET",
-  "tier": "P",
-  "why": "evidence changed after rating",
-  "changed": [
-   "experiments/meaning_claims/CATALOGUE.csv row MUK19-stroked-jar-MET"
-  ],
-  "rated_at": "2e41b40"
- },
- {
-  "id": "MC-PAR-vata-min",
-  "tier": "P",
-  "why": "evidence changed after rating",
-  "changed": [
-   "experiments/meaning_claims/CATALOGUE.csv row PAR-vata-min"
-  ],
-  "rated_at": "2e41b40"
+  "rated_at": "fdd9c38"
  }
 ]
