@@ -1,0 +1,6394 @@
+{
+ "fields": [
+  [
+   "admin",
+   14
+  ],
+  [
+   "goods",
+   5
+  ],
+  [
+   "land",
+   8
+  ],
+  [
+   "occupation",
+   8
+  ],
+  [
+   "person",
+   5
+  ],
+  [
+   "place",
+   25
+  ]
+ ],
+ "plants": [
+  {
+   "strength": 1.0,
+   "plant": 0,
+   "ari": 0.016366487668108158,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "place": 0.5454545454545454
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.18181818181818182,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.47368421052631576
+     }
+    },
+    {
+     "k": 6,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3225806451612903,
+      "place": 0.18181818181818182
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.47058823529411764,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.16666666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5531914893617021
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 1,
+   "ari": 0.0032737407051321057,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.47058823529411764,
+      "person": 0.2608695652173913,
+      "place": 0.5333333333333333
+     }
+    },
+    {
+     "k": 7,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5263157894736842
+     }
+    },
+    {
+     "k": 6,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2727272727272727,
+      "land": 0.36363636363636365,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 7,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.5714285714285714,
+      "land": 0.36363636363636365,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.3333333333333333
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3125,
+      "person": 0.0,
+      "place": 0.5555555555555556
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 2,
+   "ari": 0.0,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 38,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5116279069767442
+     }
+    },
+    {
+     "k": 5,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.5833333333333334
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5263157894736842,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.15384615384615385
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.47058823529411764,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.26666666666666666
+     }
+    },
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5454545454545454,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 3,
+   "ari": 0.048926207007912156,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.6153846153846154,
+      "land": 0.25,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6153846153846154
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3157894736842105,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.15384615384615385
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "place": 0.6060606060606061
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6060606060606061
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6060606060606061
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 4,
+   "ari": -0.009933954976225968,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.26666666666666666,
+      "place": 0.5365853658536586
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "land": 0.0,
+      "person": 0.2,
+      "place": 0.6086956521739131
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.6153846153846154,
+      "goods": 0.5,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.36363636363636365,
+      "place": 0.6046511627906976
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 5,
+   "ari": -0.03681666046857568,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.4444444444444444
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5882352941176471
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.5,
+      "occupation": 0.34782608695652173,
+      "person": 0.2857142857142857,
+      "place": 0.15384615384615385
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5142857142857142
+     }
+    },
+    {
+     "k": 5,
+     "n": 31,
+     "fields": [
+      "admin",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.41379310344827586,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4166666666666667
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 6,
+   "ari": 0.024932286964372524,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "place": 0.6046511627906976
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.64
+     }
+    },
+    {
+     "k": 4,
+     "n": 28,
+     "fields": [
+      "admin",
+      "goods",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.16666666666666666,
+      "goods": 0.3333333333333333,
+      "place": 0.631578947368421
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.4444444444444444,
+      "land": 0.0,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "goods": 0.0,
+      "land": 0.0,
+      "place": 0.6666666666666666
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 7,
+   "ari": -0.003612164450906039,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 40,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "goods": 0.0,
+      "land": 0.23529411764705882,
+      "occupation": 0.0,
+      "person": 0.5,
+      "place": 0.46153846153846156
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.41025641025641024,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5909090909090909
+     }
+    },
+    {
+     "k": 7,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5,
+      "goods": 0.25,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.5,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5217391304347826
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 8,
+   "ari": -0.008286812116993609,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 42,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.2,
+      "person": 0.5,
+      "place": 0.5306122448979592
+     }
+    },
+    {
+     "k": 7,
+     "n": 41,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.2222222222222222,
+      "person": 0.0,
+      "place": 0.6538461538461539
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42105263157894735,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5641025641025641
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.375,
+      "goods": 0.8,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 6,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.6181818181818182
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 9,
+   "ari": -0.018835616438356163,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5714285714285714,
+      "goods": 0.2857142857142857,
+      "occupation": 0.0,
+      "place": 0.0
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.48484848484848486,
+      "goods": 0.36363636363636365,
+      "occupation": 0.0,
+      "place": 0.18181818181818182
+     }
+    },
+    {
+     "k": 4,
+     "n": 26,
+     "fields": [
+      "admin",
+      "goods",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5555555555555556,
+      "goods": 0.0,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "goods": 0.2222222222222222,
+      "occupation": 0.34782608695652173,
+      "place": 0.18181818181818182
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.55,
+      "goods": 0.0,
+      "occupation": 0.0,
+      "place": 0.14285714285714285
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 10,
+   "ari": -0.015579565975941966,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3,
+      "goods": 0.0,
+      "land": 0.4,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4897959183673469
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.25,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5789473684210527
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.25,
+      "land": 0.0,
+      "occupation": 0.4,
+      "place": 0.5789473684210527
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.4166666666666667
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 11,
+   "ari": 0.05172104550865007,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.25,
+      "place": 0.6341463414634146
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.4,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "land": 0.2727272727272727,
+      "occupation": 0.3333333333333333,
+      "place": 0.4444444444444444
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.46153846153846156,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.625
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.4,
+      "occupation": 0.0,
+      "place": 0.6
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 12,
+   "ari": 0.07064760302775441,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.6938775510204082
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.7083333333333334
+     }
+    },
+    {
+     "k": 6,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.5,
+      "land": 0.0,
+      "occupation": 0.4,
+      "place": 0.7441860465116279
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.7368421052631579
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.6666666666666666
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 13,
+   "ari": -0.0010692103461117986,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.2857142857142857,
+      "place": 0.5116279069767442
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.5365853658536586
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.3076923076923077,
+      "place": 0.4444444444444444
+     }
+    },
+    {
+     "k": 6,
+     "n": 28,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.3333333333333333,
+      "occupation": 0.4166666666666667,
+      "person": 0.0,
+      "place": 0.375
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.5714285714285714,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 14,
+   "ari": -0.0008871277759706657,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42424242424242425,
+      "goods": 0.0,
+      "land": 0.5454545454545454,
+      "occupation": 0.5,
+      "person": 0.0,
+      "place": 0.3333333333333333
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.4444444444444444,
+      "occupation": 0.0,
+      "place": 0.5454545454545454
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5806451612903226,
+      "land": 0.4444444444444444,
+      "occupation": 0.4,
+      "place": 0.0
+     }
+    },
+    {
+     "k": 4,
+     "n": 25,
+     "fields": [
+      "admin",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "place": 0.6486486486486487
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.25,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.5116279069767442
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 15,
+   "ari": 0.06520905613795554,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4444444444444444,
+      "place": 0.6111111111111112
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.6666666666666666,
+      "place": 0.6046511627906976
+     }
+    },
+    {
+     "k": 5,
+     "n": 31,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "land": 0.0,
+      "occupation": 0.75,
+      "place": 0.631578947368421
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.6,
+      "place": 0.6486486486486487
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.6382978723404256
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 16,
+   "ari": -0.005805515239477504,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "goods": 0.0,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "place": 0.5652173913043478
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5116279069767442
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.625,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5882352941176471
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.6111111111111112
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5714285714285714
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 17,
+   "ari": -0.020912038551923133,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 39,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.47058823529411764,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5833333333333334
+     }
+    },
+    {
+     "k": 6,
+     "n": 38,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.16666666666666666,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5490196078431373
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.47619047619047616
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.0,
+      "occupation": 0.18181818181818182,
+      "person": 0.0,
+      "place": 0.55
+     }
+    },
+    {
+     "k": 6,
+     "n": 38,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6037735849056604
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 18,
+   "ari": 0.012244164363865112,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 45,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4166666666666667,
+      "goods": 0.5,
+      "land": 0.2222222222222222,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.21052631578947367
+     }
+    },
+    {
+     "k": 7,
+     "n": 42,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.5,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.25,
+      "place": 0.125
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4166666666666667,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.2222222222222222,
+      "person": 0.0,
+      "place": 0.34782608695652173
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.5,
+      "land": 0.18181818181818182,
+      "occupation": 0.0,
+      "person": 0.5,
+      "place": 0.5454545454545454
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.34782608695652173,
+      "goods": 0.5,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.5,
+      "place": 0.4444444444444444
+     }
+    }
+   ]
+  },
+  {
+   "strength": 1.0,
+   "plant": 19,
+   "ari": 0.06243746558183186,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 40,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3157894736842105,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.4,
+      "place": 0.55
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.5853658536585366
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.5,
+      "place": 0.6428571428571429
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.26666666666666666,
+      "goods": 0.0,
+      "land": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.5405405405405406
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.3076923076923077,
+      "person": 0.4,
+      "place": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 0,
+   "ari": -0.006060753282401953,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "goods": 0.4,
+      "land": 0.0,
+      "person": 0.26666666666666666,
+      "place": 0.125
+     }
+    },
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "person": 0.25,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.36363636363636365,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.5789473684210527
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.41379310344827586,
+      "land": 0.3333333333333333,
+      "person": 0.2222222222222222,
+      "place": 0.14285714285714285
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42105263157894735,
+      "goods": 0.0,
+      "land": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.15384615384615385
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 1,
+   "ari": 0.1184251968503937,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 40,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5217391304347826,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.6976744186046512
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "place": 0.6
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.25,
+      "land": 0.0,
+      "occupation": 0.4,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.36363636363636365,
+      "occupation": 0.0,
+      "place": 0.6976744186046512
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42105263157894735,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.65
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 2,
+   "ari": -0.017034068136272545,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.35294117647058826,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.5128205128205128
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5333333333333333,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.5294117647058824
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "land": 0.5217391304347826,
+      "person": 0.0,
+      "place": 0.2
+     }
+    },
+    {
+     "k": 4,
+     "n": 22,
+     "fields": [
+      "admin",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.46153846153846156,
+      "land": 0.0,
+      "place": 0.5384615384615384
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42857142857142855,
+      "land": 0.4666666666666667,
+      "person": 0.0,
+      "place": 0.0
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 3,
+   "ari": 0.005841051204080404,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 42,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.6222222222222222
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.4,
+      "occupation": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.5853658536585366
+     }
+    },
+    {
+     "k": 4,
+     "n": 27,
+     "fields": [
+      "admin",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.6060606060606061,
+      "person": 0.0,
+      "place": 0.3333333333333333
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.4,
+      "occupation": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.6530612244897959
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 4,
+   "ari": -0.00505088578967207,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 40,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.18181818181818182,
+      "occupation": 0.0,
+      "person": 0.2,
+      "place": 0.5581395348837209
+     }
+    },
+    {
+     "k": 5,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.0,
+      "occupation": 0.25,
+      "place": 0.5531914893617021
+     }
+    },
+    {
+     "k": 5,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "place": 0.46153846153846156
+     }
+    },
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.0,
+      "occupation": 0.2222222222222222,
+      "place": 0.6190476190476191
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.64
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 5,
+   "ari": 0.0033137663321340656,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.36363636363636365
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "land": 0.2,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5333333333333333
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "occupation": 0.5,
+      "person": 0.25,
+      "place": 0.4375
+     }
+    },
+    {
+     "k": 7,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.25,
+      "land": 0.2857142857142857,
+      "occupation": 0.5714285714285714,
+      "person": 0.0,
+      "place": 0.375
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.5,
+      "person": 0.0,
+      "place": 0.5238095238095238
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 6,
+   "ari": -0.0010058254054733666,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 40,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4444444444444444,
+      "place": 0.5833333333333334
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5416666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.4,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.65
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.26666666666666666,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.47368421052631576
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 7,
+   "ari": 0.019662565013319803,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5,
+      "land": 0.0,
+      "occupation": 0.25,
+      "person": 0.0,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.46511627906976744,
+      "goods": 0.5,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.2857142857142857,
+      "place": 0.0
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "place": 0.6363636363636364
+     }
+    },
+    {
+     "k": 4,
+     "n": 28,
+     "fields": [
+      "admin",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5333333333333333,
+      "occupation": 0.2222222222222222,
+      "place": 0.47058823529411764
+     }
+    },
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "occupation": 0.0,
+      "place": 0.6808510638297872
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 8,
+   "ari": 0.09487192045844149,
+   "recovered": {
+    "admin": false,
+    "goods": true,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.5714285714285714,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.8571428571428571,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5833333333333334
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.6,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5789473684210527
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5882352941176471
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.6,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "place": 0.6111111111111112
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 9,
+   "ari": 0.045478596084557434,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42857142857142855,
+      "land": 0.2857142857142857,
+      "occupation": 0.2222222222222222,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "place": 0.6511627906976745
+     }
+    },
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "land": 0.2222222222222222,
+      "occupation": 0.0,
+      "place": 0.6511627906976745
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.6,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "place": 0.5882352941176471
+     }
+    },
+    {
+     "k": 5,
+     "n": 31,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5714285714285714,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "place": 0.6976744186046512
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 10,
+   "ari": -0.013778449541083437,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 40,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.0,
+      "occupation": 0.34782608695652173,
+      "person": 0.2857142857142857,
+      "place": 0.45714285714285713
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.16666666666666666,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5416666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5957446808510638
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.25,
+      "place": 0.47619047619047616
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5882352941176471
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 11,
+   "ari": 0.0013634955066625348,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 41,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.25,
+      "person": 0.0,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.25,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.38461538461538464,
+      "land": 0.25,
+      "occupation": 0.2857142857142857,
+      "place": 0.35294117647058826
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.2857142857142857,
+      "land": 0.25,
+      "occupation": 0.0,
+      "place": 0.48484848484848486
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.25,
+      "occupation": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.5365853658536586
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 12,
+   "ari": -0.05651080216560905,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3157894736842105,
+      "land": 0.3448275862068966,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.25
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4444444444444444,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5652173913043478
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.375,
+      "land": 0.0,
+      "occupation": 0.3448275862068966,
+      "person": 0.0,
+      "place": 0.13333333333333333
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.25,
+      "occupation": 0.37037037037037035,
+      "place": 0.16666666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5777777777777777
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 13,
+   "ari": 0.01145374449339207,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 43,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.30303030303030304,
+      "person": 0.4,
+      "place": 0.37037037037037035
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.2777777777777778,
+      "person": 0.0,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.5,
+      "land": 0.25,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.42105263157894735
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.4,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5365853658536586
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4888888888888889
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 14,
+   "ari": 0.007864441489550816,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42105263157894735,
+      "goods": 0.0,
+      "land": 0.25,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.3333333333333333
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5833333333333334
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.35294117647058826,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.4666666666666667
+     }
+    },
+    {
+     "k": 7,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.2,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.6111111111111112
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.4,
+      "occupation": 0.4,
+      "place": 0.6486486486486487
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 15,
+   "ari": -0.01646226743780921,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 39,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.32,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5294117647058824
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3902439024390244,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 5,
+     "n": 31,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.48484848484848486,
+      "land": 0.4,
+      "occupation": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5490196078431373
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 16,
+   "ari": -0.027320271641558036,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 42,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.46808510638297873,
+      "land": 0.2222222222222222,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.1
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5882352941176471
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "occupation": 0.5,
+      "person": 0.0,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.6521739130434783
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "land": 0.0,
+      "occupation": 0.45454545454545453,
+      "person": 0.0,
+      "place": 0.42424242424242425
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 17,
+   "ari": 0.014940620610394586,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 42,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.35294117647058826,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.5454545454545454
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "land": 0.375,
+      "occupation": 0.0,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.36363636363636365,
+      "occupation": 0.25,
+      "place": 0.5161290322580645
+     }
+    },
+    {
+     "k": 6,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.47619047619047616
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 18,
+   "ari": -0.006663960694748193,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 41,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.37037037037037035,
+      "occupation": 0.25,
+      "person": 0.25,
+      "place": 0.4444444444444444
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.2857142857142857,
+      "occupation": 0.25,
+      "place": 0.5957446808510638
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.4,
+      "place": 0.15384615384615385
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.36363636363636365,
+      "occupation": 0.2857142857142857,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.6,
+   "plant": 19,
+   "ari": -0.051732484957465935,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 40,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.0,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.3157894736842105
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.45454545454545453
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.5777777777777777
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.4782608695652174
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 0,
+   "ari": 0.040608400862928516,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "person": 0.0,
+      "place": 0.6363636363636364
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6382978723404256
+     }
+    },
+    {
+     "k": 4,
+     "n": 28,
+     "fields": [
+      "admin",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "occupation": 0.2222222222222222,
+      "place": 0.7692307692307693
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.36363636363636365,
+      "person": 0.0,
+      "place": 0.7027027027027027
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.0,
+      "occupation": 0.18181818181818182,
+      "person": 0.0,
+      "place": 0.6818181818181818
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 1,
+   "ari": 0.0045310791432855565,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.16666666666666666,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.42857142857142855,
+      "person": 0.0,
+      "place": 0.5405405405405406
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.35,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 7,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5263157894736842
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.42857142857142855,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 2,
+   "ari": -0.04755289167625928,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.43902439024390244,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.36363636363636365
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42105263157894735,
+      "goods": 0.0,
+      "land": 0.25,
+      "occupation": 0.5,
+      "person": 0.0,
+      "place": 0.11764705882352941
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42424242424242425,
+      "goods": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4666666666666667,
+      "land": 0.2857142857142857,
+      "occupation": 0.5,
+      "person": 0.0,
+      "place": 0.125
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5925925925925926,
+      "goods": 0.0,
+      "land": 0.25,
+      "occupation": 0.0,
+      "place": 0.48
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 3,
+   "ari": 0.04655770183259039,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 41,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5714285714285714,
+      "land": 0.3333333333333333,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 6,
+     "n": 40,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.2222222222222222,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.4,
+      "place": 0.42105263157894735
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3448275862068966,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.3333333333333333,
+      "place": 0.38095238095238093
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5263157894736842,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.6
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 4,
+   "ari": 0.01354657754968073,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 33,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.3076923076923077,
+      "place": 0.631578947368421
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.6666666666666666
+     }
+    },
+    {
+     "k": 7,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.2857142857142857,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "land": 0.0,
+      "occupation": 0.2962962962962963,
+      "place": 0.26666666666666666
+     }
+    },
+    {
+     "k": 6,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6111111111111112
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 5,
+   "ari": -0.027727645611156686,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "place": 0.34782608695652173
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.2,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5116279069767442
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.65
+     }
+    },
+    {
+     "k": 7,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "land": 0.3225806451612903,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.35294117647058826
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "place": 0.7272727272727273
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 6,
+   "ari": -0.042143464897810345,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "land": 0.3870967741935484,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.5909090909090909
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.26666666666666666,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42857142857142855,
+      "land": 0.3076923076923077,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.25
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4186046511627907,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.16666666666666666
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 7,
+   "ari": -0.048057340427211444,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.3076923076923077,
+      "land": 0.41379310344827586,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.14285714285714285
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.2857142857142857,
+      "place": 0.65
+     }
+    },
+    {
+     "k": 7,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "goods": 0.36363636363636365,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.3333333333333333
+     }
+    },
+    {
+     "k": 6,
+     "n": 29,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "land": 0.4,
+      "occupation": 0.0,
+      "person": 0.25,
+      "place": 0.3333333333333333
+     }
+    },
+    {
+     "k": 6,
+     "n": 34,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.35294117647058826,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.2857142857142857
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 8,
+   "ari": 0.010287779785902961,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2222222222222222,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.2,
+      "place": 0.45
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "land": 0.2857142857142857,
+      "occupation": 0.4,
+      "place": 0.5128205128205128
+     }
+    },
+    {
+     "k": 6,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.4,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 6,
+     "n": 28,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2857142857142857,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.4,
+      "place": 0.5454545454545454
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.5,
+      "place": 0.6046511627906976
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 9,
+   "ari": 0.05001641676699135,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5,
+      "goods": 0.0,
+      "land": 0.5,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.6
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42105263157894735,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.26666666666666666
+     }
+    },
+    {
+     "k": 5,
+     "n": 28,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.5,
+      "occupation": 0.0,
+      "place": 0.5882352941176471
+     }
+    },
+    {
+     "k": 7,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4666666666666667,
+      "goods": 0.4444444444444444,
+      "land": 0.0,
+      "occupation": 0.25,
+      "person": 0.0,
+      "place": 0.18181818181818182
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5405405405405406,
+      "land": 0.4444444444444444,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.18181818181818182
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 10,
+   "ari": -0.03980334688474993,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42424242424242425,
+      "land": 0.2222222222222222,
+      "occupation": 0.25,
+      "person": 0.0,
+      "place": 0.11764705882352941
+     }
+    },
+    {
+     "k": 6,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5625,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.2857142857142857,
+      "place": 0.375
+     }
+    },
+    {
+     "k": 4,
+     "n": 22,
+     "fields": [
+      "admin",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "land": 0.25,
+      "place": 0.5925925925925926
+     }
+    },
+    {
+     "k": 4,
+     "n": 25,
+     "fields": [
+      "admin",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "land": 0.25,
+      "place": 0.5806451612903226
+     }
+    },
+    {
+     "k": 4,
+     "n": 27,
+     "fields": [
+      "admin",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.2222222222222222,
+      "place": 0.6285714285714286
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 11,
+   "ari": 0.010176604456589728,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 5,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2222222222222222,
+      "land": 0.0,
+      "place": 0.5777777777777777
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "goods": 0.0,
+      "land": 0.0,
+      "person": 0.0,
+      "place": 0.5777777777777777
+     }
+    },
+    {
+     "k": 5,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.0,
+      "land": 0.0,
+      "place": 0.6842105263157895
+     }
+    },
+    {
+     "k": 5,
+     "n": 27,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2222222222222222,
+      "land": 0.37037037037037035,
+      "place": 0.16666666666666666
+     }
+    },
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.0,
+      "land": 0.0,
+      "place": 0.6363636363636364
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 12,
+   "ari": -0.02073557844120303,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 42,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.43243243243243246,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.32
+     }
+    },
+    {
+     "k": 7,
+     "n": 39,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42857142857142855,
+      "goods": 0.0,
+      "land": 0.25,
+      "occupation": 0.0,
+      "person": 0.3333333333333333,
+      "place": 0.0
+     }
+    },
+    {
+     "k": 7,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.35294117647058826
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.25,
+      "land": 0.4,
+      "occupation": 0.0,
+      "place": 0.45161290322580644
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.36363636363636365,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.47058823529411764
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 13,
+   "ari": -0.013886180130280455,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 41,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.18181818181818182,
+      "goods": 0.0,
+      "land": 0.18181818181818182,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "land": 0.2,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5238095238095238
+     }
+    },
+    {
+     "k": 7,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.42857142857142855,
+      "goods": 0.0,
+      "land": 0.4,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4827586206896552
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "land": 0.25,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5142857142857142
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2,
+      "goods": 0.0,
+      "land": 0.2702702702702703,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.26666666666666666
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 14,
+   "ari": 0.03170242648552677,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 38,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.25,
+      "person": 0.0,
+      "place": 0.48484848484848486
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.47368421052631576,
+      "goods": 0.0,
+      "land": 0.4,
+      "occupation": 0.0,
+      "place": 0.2857142857142857
+     }
+    },
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.4,
+      "occupation": 0.2857142857142857,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 5,
+     "n": 30,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "land": 0.3333333333333333,
+      "occupation": 0.0,
+      "place": 0.48484848484848486
+     }
+    },
+    {
+     "k": 6,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.35294117647058826,
+      "goods": 0.0,
+      "land": 0.4,
+      "occupation": 0.42857142857142855,
+      "place": 0.5806451612903226
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 15,
+   "ari": 0.13846153846153847,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 38,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 4,
+     "n": 31,
+     "fields": [
+      "admin",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5333333333333333,
+      "occupation": 0.0,
+      "place": 0.717948717948718
+     }
+    },
+    {
+     "k": 7,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.5641025641025641
+     }
+    },
+    {
+     "k": 4,
+     "n": 26,
+     "fields": [
+      "admin",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.6153846153846154,
+      "occupation": 0.2857142857142857,
+      "place": 0.75
+     }
+    },
+    {
+     "k": 6,
+     "n": 32,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5714285714285714,
+      "land": 0.0,
+      "occupation": 0.3333333333333333,
+      "person": 0.0,
+      "place": 0.6842105263157895
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 16,
+   "ari": 0.037977579501258296,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.2222222222222222,
+      "goods": 0.3333333333333333,
+      "land": 0.4,
+      "occupation": 0.0,
+      "place": 0.5806451612903226
+     }
+    },
+    {
+     "k": 6,
+     "n": 29,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "land": 0.5,
+      "occupation": 0.0,
+      "place": 0.5161290322580645
+     }
+    },
+    {
+     "k": 7,
+     "n": 31,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.2857142857142857,
+      "place": 0.42424242424242425
+     }
+    },
+    {
+     "k": 6,
+     "n": 27,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.0,
+      "land": 0.4444444444444444,
+      "occupation": 0.3333333333333333,
+      "place": 0.5714285714285714
+     }
+    },
+    {
+     "k": 7,
+     "n": 30,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.2857142857142857,
+      "land": 0.5,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.4444444444444444
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 17,
+   "ari": 0.04768649487281414,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 43,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.375,
+      "goods": 0.0,
+      "land": 0.3333333333333333,
+      "occupation": 0.2857142857142857,
+      "person": 0.0,
+      "place": 0.4444444444444444
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.35294117647058826,
+      "goods": 0.0,
+      "land": 0.4444444444444444,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.3157894736842105
+     }
+    },
+    {
+     "k": 6,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.4,
+      "land": 0.25,
+      "occupation": 0.3333333333333333,
+      "place": 0.6153846153846154
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3076923076923077,
+      "goods": 0.4,
+      "land": 0.26666666666666666,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 7,
+     "n": 41,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.4,
+      "land": 0.5,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5333333333333333
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 18,
+   "ari": 0.006553993839996248,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 7,
+     "n": 42,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.375,
+      "goods": 0.4,
+      "land": 0.0,
+      "occupation": 0.3157894736842105,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 7,
+     "n": 38,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.25,
+      "goods": 0.0,
+      "land": 0.0,
+      "occupation": 0.4,
+      "person": 0.0,
+      "place": 0.5128205128205128
+     }
+    },
+    {
+     "k": 7,
+     "n": 37,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.4375,
+      "goods": 0.5,
+      "land": 0.2857142857142857,
+      "occupation": 0.25,
+      "person": 0.0,
+      "place": 0.5
+     }
+    },
+    {
+     "k": 7,
+     "n": 33,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.36363636363636365,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.375,
+      "person": 0.0,
+      "place": 0.4
+     }
+    },
+    {
+     "k": 7,
+     "n": 36,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.3333333333333333,
+      "land": 0.0,
+      "occupation": 0.0,
+      "person": 0.3076923076923077,
+      "place": 0.47058823529411764
+     }
+    }
+   ]
+  },
+  {
+   "strength": 0.3,
+   "plant": 19,
+   "ari": 0.03671984983575786,
+   "recovered": {
+    "admin": false,
+    "goods": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "draws": [
+    {
+     "k": 6,
+     "n": 40,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.375,
+      "goods": 0.4,
+      "land": 0.4444444444444444,
+      "occupation": 0.0,
+      "place": 0.5217391304347826
+     }
+    },
+    {
+     "k": 6,
+     "n": 37,
+     "fields": [
+      "admin",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "land": 0.2222222222222222,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5531914893617021
+     }
+    },
+    {
+     "k": 7,
+     "n": 34,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.5714285714285714,
+      "goods": 0.5,
+      "land": 0.2857142857142857,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.6511627906976745
+     }
+    },
+    {
+     "k": 5,
+     "n": 32,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.0,
+      "goods": 0.5,
+      "land": 0.36363636363636365,
+      "place": 0.6829268292682927
+     }
+    },
+    {
+     "k": 7,
+     "n": 35,
+     "fields": [
+      "admin",
+      "goods",
+      "land",
+      "occupation",
+      "person",
+      "place"
+     ],
+     "f1": {
+      "admin": 0.3333333333333333,
+      "goods": 0.4,
+      "land": 0.4,
+      "occupation": 0.0,
+      "person": 0.0,
+      "place": 0.5405405405405406
+     }
+    }
+   ]
+  }
+ ],
+ "plant_summary": {
+  "1.0": {
+   "median_ari": -0.00044356388798533284,
+   "field_recovery": {
+    "admin": 0.0,
+    "goods": 0.0,
+    "land": 0.0,
+    "occupation": 0.0,
+    "person": 0.0,
+    "place": 0.0
+   },
+   "power": 0.0
+  },
+  "0.6": {
+   "median_ari": 0.0001788350505945841,
+   "field_recovery": {
+    "admin": 0.0,
+    "goods": 0.05,
+    "land": 0.0,
+    "occupation": 0.0,
+    "person": 0.0,
+    "place": 0.0
+   },
+   "power": 0.008333333333333333
+  },
+  "0.3": {
+   "median_ari": 0.010232192121246344,
+   "field_recovery": {
+    "admin": 0.0,
+    "goods": 0.0,
+    "land": 0.0,
+    "occupation": 0.0,
+    "person": 0.0,
+    "place": 0.0
+   },
+   "power": 0.0
+  }
+ },
+ "bar_strength_1": false,
+ "smallest_powered_strength": null
+}

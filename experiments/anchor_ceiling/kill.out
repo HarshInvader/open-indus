@@ -1,0 +1,6 @@
+fields [('admin', 14), ('goods', 5), ('land', 8), ('occupation', 8), ('person', 5), ('place', 25)]
+1.0 {'median_ari': -0.00044356388798533284, 'field_recovery': {'admin': 0.0, 'goods': 0.0, 'land': 0.0, 'occupation': 0.0, 'person': 0.0, 'place': 0.0}, 'power': 0.0}
+0.6 {'median_ari': 0.0001788350505945841, 'field_recovery': {'admin': 0.0, 'goods': 0.05, 'land': 0.0, 'occupation': 0.0, 'person': 0.0, 'place': 0.0}, 'power': 0.008333333333333333}
+0.3 {'median_ari': 0.010232192121246344, 'field_recovery': {'admin': 0.0, 'goods': 0.0, 'land': 0.0, 'occupation': 0.0, 'person': 0.0, 'place': 0.0}, 'power': 0.0}
+/opt/homebrew/Cellar/python@3.15/3.15.0/Frameworks/Python.framework/Versions/3.15/lib/python3.15/multiprocessing/resource_tracker.py:475: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown: {'/loky-90428-s8805oat', '/loky-90428-o4s3kdbn', '/loky-90428-eu5wceje', '/loky-90428-zs5i11qq', '/loky-90428-e4dnp6pi', '/loky-90428-80uh_o3y'}
+  warnings.warn(

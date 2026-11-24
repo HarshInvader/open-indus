@@ -1,0 +1,2 @@
+supervised {'dev_field_recovery': {'admin': 1.0, 'land': 1.0, 'occupation': 0.95, 'person': 0.95, 'place': 1.0}, 'held': {'median_ari': 0.5586073562871203, 'field_recovery': {'admin': 1.0, 'land': 0.95, 'occupation': 0.9, 'person': 0.65, 'place': 1.0}, 'power': 0.9000000000000001, 'bar': False}, 'passed': False}
+PASSED False profiles too thin at this size

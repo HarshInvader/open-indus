@@ -471,3 +471,30 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **Next:** a 95%-coverage ladder point plus the Scott key bench, then study 3 (anchor-recovery ceiling for L2 in Linear B).
 - 2026-11-24 lb_shape_ladder addendum 1 (sealed): refute holds at 95% coverage (20 of 20, control 1) and at 90% (17 of 20, control 0). The coverage standard drops to 90%, so the Scott (Dunn) key (~95%) is benchable refute-only.
 - The coordinator asked for at most 3 subagents at once, for rate limits.
+- 2026-11-24 study 3, anchor_ceiling (main line b). Fable drafted the design. A fresh Fable review returned FIX with 9 edits, and all 9 were applied:
+  - truth frozen before the kill test, with plants at the real field sizes;
+  - an explicit plant rule;
+  - a supervised control, with the claim capped at the smallest powered strength;
+  - k = scored fields + 1, and adjusted Rand on kept words only;
+  - a ≥ 3 held-out words gate and a stop rule;
+  - "≥ 4 of 5 draws" named a stability check;
+  - per-rung shuffle nulls;
+  - measure signs excluded from ideograms, and half brackets stripped;
+  - high licenses the Indus run only.
+  - Prereg sealed 12:05Z. The word list was sealed with it (92 union words; `draw_docs` checked against `fcore.draw`).
+  - Two blind labellers (fresh agents, no tools, lexicon and etymology only): κ 0.881, 69 words kept. Labels hashed before any word × anchor count.
+  - Scored fields: place 25, admin 14, land 8, occupation 8, goods 5, person 5. Textile (2) and religious (2) go to "other".
+  - Per draw, 4-5 fields have ≥ 3 held-out words, so the stop rule (< 4) is not triggered.
+  - Code (`core.py`, `kill.py`) sealed after one planted smoke run (strength 1.0, one plant, draw 0: adjusted Rand 0.03). That run already suggests the sealed plant rule dilutes the tie: a document with several eligible words carries only one word's value. No change was made.
+  - Limit: both labellers are the same model family, so κ may reflect shared priors rather than independent expertise.
+  - **v1 kill FAILED.** Power at strength 1.0 was 0.0, with median adjusted Rand -0.0004. The cause is the method (average-link chaining, add-0.5 smoothing, and an unreachable bar for 5-word fields), not the plant.
+  - The v1 null corpus was stopped unread, because one-anchor shuffles against the real truth would have exposed the real A2 association (flagged in Fable's v2 review).
+  - **Fable decided on a v2, the last version.** It changes the smoothing (base-rate shrinkage) and uses per-variable blocks. The method (k-means or Ward) is chosen on separate seeds. Only scoreable fields are planted (pool-matched). A supervised gate (dev and held-out) runs first, and the null permutes the whole anchor tuple.
+  - The fresh Fable review returned FIX with 10 edits, all applied. v2 sealed.
+  - If v2 fails, main line (b) falls back to L1, and the next study is the supervised-only ceiling. Nothing goes to the scorecard. A NEGATIVE_ATLAS entry comes after v2.
+  - **v2 result: the supervised gate FAILED**, so the study stops as sealed ("profiles too thin at this size").
+    - Selection chose k-means (held-out adjusted Rand 0.199, against 0.137 for Ward).
+    - Dev leave-one-word-out recovery was ≥ 0.95 for every field.
+    - Held-out true-field centroids gave a median adjusted Rand of 0.56 (bar 0.8), with person at 0.65.
+  - NEGATIVE_ATLAS §3.6 added.
+  - Main line (b) falls back to L1, as sealed. The real anchor × word association was never looked at.

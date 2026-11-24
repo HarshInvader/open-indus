@@ -1,0 +1,589 @@
+{
+ "method": "kmeans",
+ "supervised": {
+  "dev_field_recovery": {
+   "admin": 1.0,
+   "land": 1.0,
+   "occupation": 0.95,
+   "person": 0.95,
+   "place": 1.0
+  },
+  "held": {
+   "median_ari": 0.5586073562871203,
+   "field_recovery": {
+    "admin": 1.0,
+    "land": 0.95,
+    "occupation": 0.9,
+    "person": 0.65,
+    "place": 1.0
+   },
+   "power": 0.9000000000000001,
+   "bar": false
+  },
+  "passed": false
+ },
+ "plants": [
+  {
+   "plant": 0,
+   "strength": 1.0,
+   "ari": 0.2223302765565852,
+   "recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": false,
+    "person": false,
+    "place": true
+   },
+   "pair_auc": 0.6604606957837382,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.5133782508050229
+  },
+  {
+   "plant": 1,
+   "strength": 1.0,
+   "ari": 0.18718781631856463,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6577538089193261,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.4555532315415185
+  },
+  {
+   "plant": 2,
+   "strength": 1.0,
+   "ari": 0.2541351197199638,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.694040742443125,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.5228604923798359
+  },
+  {
+   "plant": 3,
+   "strength": 1.0,
+   "ari": 0.24036744067364124,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": true,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6470936100422633,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.5888941757436247
+  },
+  {
+   "plant": 4,
+   "strength": 1.0,
+   "ari": 0.17119359376690835,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6042325165836431,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.4493541047606023
+  },
+  {
+   "plant": 5,
+   "strength": 1.0,
+   "ari": 0.13217220118391731,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": true,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.71995636590307,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.6253199906911799
+  },
+  {
+   "plant": 6,
+   "strength": 1.0,
+   "ari": 0.29799104713675245,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.7249329136508028,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.6490829440314108
+  },
+  {
+   "plant": 7,
+   "strength": 1.0,
+   "ari": 0.11286586954633623,
+   "recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6309762730123978,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.4686181434599156
+  },
+  {
+   "plant": 8,
+   "strength": 1.0,
+   "ari": 0.11601302025724489,
+   "recovered": {
+    "admin": false,
+    "land": true,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.705112329159959,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": false,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": false,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.644186752747191
+  },
+  {
+   "plant": 9,
+   "strength": 1.0,
+   "ari": 0.22773187491896607,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.7072126425596512,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.544904137235116
+  },
+  {
+   "plant": 10,
+   "strength": 1.0,
+   "ari": 0.30780426745844613,
+   "recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "pair_auc": 0.6218850507602716,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.42952623387904304
+  },
+  {
+   "plant": 11,
+   "strength": 1.0,
+   "ari": 0.17640053445905385,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": true,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.7303079462659381,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.5628795406867616
+  },
+  {
+   "plant": 12,
+   "strength": 1.0,
+   "ari": 0.21558190564154037,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.7040419748745758,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.5582795604923971
+  },
+  {
+   "plant": 13,
+   "strength": 1.0,
+   "ari": 0.24026383432756196,
+   "recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6741716365387465,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.5964317573595005
+  },
+  {
+   "plant": 14,
+   "strength": 1.0,
+   "ari": 0.12014571263425322,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6682313320171873,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.7578855651893909
+  },
+  {
+   "plant": 15,
+   "strength": 1.0,
+   "ari": 0.22781200538921373,
+   "recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": true,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.6650941818060155,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.5313511140498735
+  },
+  {
+   "plant": 16,
+   "strength": 1.0,
+   "ari": 0.09249618695876874,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": true,
+    "place": false
+   },
+   "pair_auc": 0.6573558246267124,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_ari": 0.7478638941398866
+  },
+  {
+   "plant": 17,
+   "strength": 1.0,
+   "ari": 0.17065331928345626,
+   "recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.709759846426232,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.5589351520818436
+  },
+  {
+   "plant": 18,
+   "strength": 1.0,
+   "ari": 0.08650260999254288,
+   "recovered": {
+    "admin": false,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": false
+   },
+   "pair_auc": 0.7349090524025664,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": true,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.4953742968075256
+  },
+  {
+   "plant": 19,
+   "strength": 1.0,
+   "ari": 0.1965268741867681,
+   "recovered": {
+    "admin": true,
+    "land": false,
+    "occupation": false,
+    "person": false,
+    "place": true
+   },
+   "pair_auc": 0.7472579781431603,
+   "sup_dev_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": true,
+    "person": true,
+    "place": true
+   },
+   "sup_held_recovered": {
+    "admin": true,
+    "land": true,
+    "occupation": false,
+    "person": false,
+    "place": true
+   },
+   "sup_held_ari": 0.6658358805549024
+  }
+ ],
+ "passed": false,
+ "stop": "profiles too thin at this size"
+}

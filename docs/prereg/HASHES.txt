@@ -496,3 +496,14 @@ e5dcdb3b02de0d8c9f991c08215991cd327c0652149284756b615f2aa032ccf9  docs/prereg/sc
 e019a7e15dce9d8ff4ee062e42f2a915d5b23246c40a57ca7f6edef6618c1c78  docs/prereg/lb_shape_ladder_add1.md  2026-11-24T09:57:21Z  lb_shape_ladder addendum 1
 d810f155637815daaea93744ea6136e3ba1c1d3a01b0604415c0e6f6810fd874  experiments/lb_shape_ladder/coverage.py  2026-11-24T09:57:21Z  lb_shape_ladder addendum 1
 c64287100c149d00b3f8ed41c2974245d36b7bab1c654f225f64b3d72004d7e7  experiments/lb_shape_ladder/coverage.py  2026-11-24T11:56:51Z  lb_shape_ladder addendum 1 (import fix before any run; supersedes previous hash)
+75f9b0c2088363c0aaf64827905296187ac8b31f1f4bb169d76a4b0b5d4f420b  docs/prereg/anchor_ceiling.md  2026-11-24T12:05:42Z  anchor_ceiling design (before labels and kill test)
+ab3e0007bb5d48e863f9973c3141f1cdfd1ae8ad7b2904b174dfdb65cb20b22a  experiments/anchor_ceiling/truth/words.txt  2026-11-24T12:05:42Z  anchor_ceiling design (before labels and kill test)
+287917fbd8559ebe83348a658a56e12c2e94b7a2a8c4f0951b51d018685d35c7  experiments/anchor_ceiling/truth/labels_A.json  2026-11-24T12:07:08Z  anchor_ceiling truth frozen (kappa 0.881, 69 kept; before kill test)
+0362c460c17dfe90b66f14c9e165f2e6ce31dc5e359730a843bc554b379a37ef  experiments/anchor_ceiling/truth/labels_B.json  2026-11-24T12:07:08Z  anchor_ceiling truth frozen (kappa 0.881, 69 kept; before kill test)
+589b384553b71807e16c7d1693b9b49472921a5b18983000b0f8f4bf4f39d038  experiments/anchor_ceiling/words.py  2026-11-24T12:07:08Z  anchor_ceiling truth frozen (kappa 0.881, 69 kept; before kill test)
+fe9713465871e2255fdade44fc543ef018ea4a10abd7e27e15bc822c1a44c7cc  experiments/anchor_ceiling/core.py  2026-11-24T12:08:01Z  anchor_ceiling code (sealed before the kill test; one planted smoke run only)
+d5564255810582e9e88ca1c3a30adf92f4c7ec0dd0d8d96d5efbb84fff3d4a65  experiments/anchor_ceiling/kill.py  2026-11-24T12:08:01Z  anchor_ceiling code (sealed before the kill test; one planted smoke run only)
+a7355ffbb5f3db27983a0968d2109f61b173e3b436ca1b627cd17f4c02a46d46  docs/prereg/anchor_ceiling_v2.md  2026-11-24T12:13:33Z  anchor_ceiling v2 design (after fresh Fable review; before any v2 code or run)
+8b6ea6116ee153896f6e15140ecdc76704ce6ae33a99b68e73161e715d0e41a1  experiments/anchor_ceiling/core2.py  2026-11-24T12:14:45Z  anchor_ceiling v2 code (before select; one smoke run on unused seed 999, values not printed)
+9115c6e91187e027edf8d2bc289b42a9ed93a262296d19ba29e1cdc66527bafa  experiments/anchor_ceiling/kill2.py  2026-11-24T12:14:45Z  anchor_ceiling v2 code (before select; one smoke run on unused seed 999, values not printed)
+3b28b96404e4c50c0f4687e00bb2ea53bed3c5662c9dae0dc299c282e4f12a4b  experiments/anchor_ceiling/select.json  2026-11-24T12:14:48Z  anchor_ceiling v2 method selection (before kill2)

@@ -304,6 +304,30 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Prereg.** `meaning_calibration.md`.
 - **Reopen with.** A pairs null or a resolution gate (v2, sealed separately).
 
+### 3.6 How far can non-textual anchors recover meaning fields? (Linear B calibration, anchor_ceiling)
+- **Question.** Can site, object class and a picture anchor sort words into meaning fields at Indus size, on a read script?
+- **Method.**
+  - DAMOS Linear B: 5 draws of 1,680 dev + 565 held-out documents.
+  - The truth came from two blind labellers (κ 0.881; 5 scoreable fields).
+  - Word anchor profiles were clustered, and held-out words assigned. A planted kill test came first.
+- **Result (v1, 2026-11-24).**
+  - Power was 0.0 at planted strength 1.0.
+  - The cause was the method: average-link chaining, smoothing that inflated rare values, and an unreachable bar for 5-word fields.
+- **Result (v2, the last version).** The supervised gate failed.
+  - Leave-one-word-out recovery on dev was ≥ 0.95 for every field.
+  - True-field centroids on held-out words gave a median adjusted Rand of 0.56 (bar 0.8), and person was recovered in 0.65 of plants (bar 0.8).
+  - Blind selection had already shown a held-out adjusted Rand of about 0.20 for k-means.
+- **Verdict.** Not calibratable. "Profiles too thin at this size": held-out words have 2-5 documents.
+  - **Even with a perfect, exclusive planted picture, anchor profiles cannot place held-out words in fields reliably at Indus size.**
+  - This is a result about resolution. It says nothing about whether anchors carry field information.
+- **Consequence.**
+  - Main line (b) falls back to function (L1).
+  - Field-level (L2) claims from anchors are not testable at Indus size by this route.
+  - No scorecard row changes.
+- **Folder.** `experiments/anchor_ceiling`.
+- **Prereg.** `anchor_ceiling.md`, `anchor_ceiling_v2.md`.
+- **Reopen with.** A larger corpus, or anchors per sign occurrence rather than per document.
+
 ### 3.4 Functional-reading discriminator (F5)
 - **Question.** Can the functional parse itself tell language from code?
 - **Result.** Undecidable.

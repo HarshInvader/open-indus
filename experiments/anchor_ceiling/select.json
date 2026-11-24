@@ -1,0 +1,273 @@
+{
+ "kmeans": {
+  "stat": 0.19932671274463326,
+  "plants": [
+   {
+    "plant": 0,
+    "strength": 1.0,
+    "ari": 0.10511103554706913,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": true,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.6651114401184426
+   },
+   {
+    "plant": 1,
+    "strength": 1.0,
+    "ari": 0.16564039408866996,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": true,
+     "place": true
+    },
+    "pair_auc": 0.7286265594903453
+   },
+   {
+    "plant": 2,
+    "strength": 1.0,
+    "ari": 0.22202208605481114,
+    "recovered": {
+     "admin": false,
+     "land": true,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.6823171889838556
+   },
+   {
+    "plant": 3,
+    "strength": 1.0,
+    "ari": 0.10023280689611778,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": true,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.6873825987186126
+   },
+   {
+    "plant": 4,
+    "strength": 1.0,
+    "ari": 0.18493150684931506,
+    "recovered": {
+     "admin": true,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.7312511520737327
+   },
+   {
+    "plant": 5,
+    "strength": 1.0,
+    "ari": 0.3474363298121172,
+    "recovered": {
+     "admin": true,
+     "land": false,
+     "occupation": true,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.7146181039703666
+   },
+   {
+    "plant": 6,
+    "strength": 1.0,
+    "ari": 0.2849964368593199,
+    "recovered": {
+     "admin": true,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.7108191999205383
+   },
+   {
+    "plant": 7,
+    "strength": 1.0,
+    "ari": 0.29498633980654215,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": true,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.7765808561654143
+   },
+   {
+    "plant": 8,
+    "strength": 1.0,
+    "ari": 0.1283264340626848,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.6448082267926626
+   },
+   {
+    "plant": 9,
+    "strength": 1.0,
+    "ari": 0.21372191863995144,
+    "recovered": {
+     "admin": true,
+     "land": true,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.6353386126248864
+   }
+  ]
+ },
+ "ward": {
+  "stat": 0.13683228604764808,
+  "plants": [
+   {
+    "plant": 0,
+    "strength": 1.0,
+    "ari": 0.07043084792445406,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": true,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.6651114401184426
+   },
+   {
+    "plant": 1,
+    "strength": 1.0,
+    "ari": 0.1306481761886363,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": true,
+     "place": true
+    },
+    "pair_auc": 0.7286265594903453
+   },
+   {
+    "plant": 2,
+    "strength": 1.0,
+    "ari": 0.12495374308549238,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.6823171889838556
+   },
+   {
+    "plant": 3,
+    "strength": 1.0,
+    "ari": 0.0493403968006648,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": true,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.6873825987186126
+   },
+   {
+    "plant": 4,
+    "strength": 1.0,
+    "ari": 0.17908235893282795,
+    "recovered": {
+     "admin": false,
+     "land": true,
+     "occupation": false,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.7312511520737327
+   },
+   {
+    "plant": 5,
+    "strength": 1.0,
+    "ari": 0.293332769001238,
+    "recovered": {
+     "admin": true,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.7146181039703666
+   },
+   {
+    "plant": 6,
+    "strength": 1.0,
+    "ari": 0.20014341150666443,
+    "recovered": {
+     "admin": true,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.7108191999205383
+   },
+   {
+    "plant": 7,
+    "strength": 1.0,
+    "ari": 0.4050756661883336,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.7765808561654143
+   },
+   {
+    "plant": 8,
+    "strength": 1.0,
+    "ari": 0.14301639590665982,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": true
+    },
+    "pair_auc": 0.6448082267926626
+   },
+   {
+    "plant": 9,
+    "strength": 1.0,
+    "ari": 0.11009650801053586,
+    "recovered": {
+     "admin": false,
+     "land": false,
+     "occupation": false,
+     "person": false,
+     "place": false
+    },
+    "pair_auc": 0.6353386126248864
+   }
+  ]
+ },
+ "chosen": "kmeans"
+}
