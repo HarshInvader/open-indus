@@ -607,3 +607,4 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - The coordinator's question (does matcher looseness explain Yajnadevam's low planted power?) is not answered, because that corpus has 47.4% of consonants in long segments against 18.6% here.
     - RESULTS stays neutral on him. Atlas 1.1 gained a line. There are no reruns and no tier change.
   - Next: Fable ranking, which includes whether to do a follow-up with fixed LMIN on a long-segment text shape.
+- 2026-11-24 Coordinator OK'd a factual note on `yj_ic_refute`. Checked against its `full.json`: planted 5/20 generous vs 2/20 strict at the real null width; real null 2.1x / 2.7x wider than planted. The note was added to `lb_wrong_lexicon` RESULTS and atlas 1.1. Next: `ur3_legend_refute`.

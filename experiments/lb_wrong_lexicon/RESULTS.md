@@ -56,6 +56,8 @@ At LMIN 4 (report-only), looseness at B2 density costs 2 passes on F0 (20 → 18
   - anything about his readings, which involve choices outside the key.
 - So the question the coordinator asked, whether matcher looseness explains that result, is **not answered** by this design. A test that could answer it would keep LMIN fixed at a value where the bench has power and vary only looseness, or rerun the dial on a text shape with about 47% of consonants in long segments.
 
+**Note from the saved `yj_ic_refute` results (added 2026-11-24, recomputed from its `full.json`, not from this study).** At the real corpus's null width the planted Sanskrit key passed 5/20 under the generous matcher and 2/20 under the strict one. The real-text null was 2.1 times (generous) and 2.7 times (strict) wider than the planted null; both observations point to the corpus rather than the matcher as the source of the low planted power.
+
 ## Limits (from the prereg)
 - At every loosened rung d and t stand for the same sounds, so the dial merges two key letters; the generous matcher merges none.
 - Added looseness covers about 25% of tokens, against 49.4% on that matcher's four loosest letters.
