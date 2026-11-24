@@ -1,0 +1,20 @@
+{"P": 20, "scrambled_passes": 0, "match_1e9": true, "passed": true}
+{
+ "K1_passed": true,
+ "A2_failures": [],
+ "counts": {
+  "legends": 4819,
+  "legend_tokens": 52907,
+  "sample_lines": 39192,
+  "sample_texts": 3475
+ },
+ "excess_medians": {
+  "legends chunk": 0.25480638223551577,
+  "legends line": 0.251954739137204,
+  "admin chunk": 0.16473894416048224,
+  "admin line": 0.1615309975696128
+ }
+}
+{"wrong_key_passes": 1, "scored": 20, "passed": true}
+{"P": 20, "scrambled": 0, "partial_means": {"0.0": 0.42930058894216633, "0.25": 0.44632917940839717, "0.5": 0.471336382177418, "0.75": 0.5006774663967992, "1.0": 0.5361839863974057}, "rising": true, "passed": true}
+kill passed; full may run

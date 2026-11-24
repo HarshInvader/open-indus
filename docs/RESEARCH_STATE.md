@@ -608,3 +608,19 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - RESULTS stays neutral on him. Atlas 1.1 gained a line. There are no reruns and no tier change.
   - Next: Fable ranking, which includes whether to do a follow-up with fixed LMIN on a long-segment text shape.
 - 2026-11-24 Coordinator OK'd a factual note on `yj_ic_refute`. Checked against its `full.json`: planted 5/20 generous vs 2/20 strict at the real null width; real null 2.1x / 2.7x wider than planted. The note was added to `lb_wrong_lexicon` RESULTS and atlas 1.1. Next: `ur3_legend_refute`.
+- 2026-11-24 **`ur3_legend_refute` DONE** (brief 9, study 3).
+  - Process: drafted by Fable; fresh review FIX 9, with admin rows recomputed and excess measured on the sealed function (legends 0.255, about 1.6 × M77 at 0.158); pre-seal check SEAL-WITH-EDITS 6; sealed v3; code sealed.
+  - The first kill start stopped at A5 (memory guard). Nothing was computed. It was restarted once memory was free.
+  - **Kill passed.**
+    - K0 reproduced R1 exactly.
+    - K1 counts matched.
+    - K2 1/20.
+    - K3: the planted true reading on Ur III administrative text at Indus excess scored 20/20, and partial keys rose.
+  - **L1 = 0/20, a clear fail.**
+    - Signal 0.085 is above admin's 0.059, but the null width 0.111 is 2.8× admin's 0.040.
+    - Report-only cells: Old Akkadian lexicon 12, LMIN 4 13, citation forms 13 (not interpretable).
+  - **Consequence:**
+    - Fit-refute has no stated power on seal legends at 1.6 × Indus excess. It does not decide Indus-level corpora, and the cause is not separated.
+    - Brief 9's hoped-for pass (that YJ/Scott failures came from their own rules) did not happen.
+    - Atlas 1.1 gained a line. No reruns, no tier change.
+  - Next: Fable ranking. Candidates: (4) `certify_size_curve`, (5) `lift_certify`, (7) `key_saturation_column`, and a possible null-width study.

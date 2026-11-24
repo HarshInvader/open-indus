@@ -52,6 +52,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - Against other lexicons at Homer's density: modern Greek 17/20, Indonesian 14, Hungarian 10, Finnish 6. Reading: **partly language-specific**. Spanish (report-only, unmatched density) passes 20/20, so a refute pass is consistent with the claimed language but does not identify it.
   - At LMIN 5 the true key passes only 8/20 with no added looseness, so matcher looseness cannot be separated from the word-length cut on this text shape. Whether looseness explains `yj_ic_refute`'s low planted power is **not answered**; that corpus has far more long segments (47.4% vs 18.6%).
   - Note from `yj_ic_refute`'s saved results: at the real null width the planted key passed 5/20 (generous matcher) and 2/20 (strict), and the real-text null was 2.1-2.7 times wider than the planted null; both point to the corpus rather than the matcher.
+- **Read seal corpus, 2026-11-24 (`experiments/ur3_legend_refute`).** Ur III seal legends, editor's true reading, matched Sumerian lexicon, about 4,500 tokens at 1.6 × Indus formula excess: **0 of 20** (null width 0.111). The same bench passes the true reading on Ur III administrative text at about Indus excess, 20 of 20 (width 0.040). Fit-refute has no stated power on seal legends of this shape; this does not decide Indus-level corpora, and the cause is not separated. No rerun of any key is licensed.
   - No rerun of any key is licensed.
 
 ### 1.2 Ventris grid (phonetic_grid)
