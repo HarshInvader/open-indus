@@ -468,3 +468,7 @@ bc72df563c18121bf664bca7149868b855398ac5cfff158b2a52e577971d30bf  experiments/si
 590e6d800053a4b79a55cc4274763c18264297199c52901c727b58a13860af80  docs/prereg/signmap_figfish_strokedjar.md  2026-11-24T03:59:53Z  signmap addendum1 seal
 a22954361e34b1794d5d79725a221dac8cf2750e71496050a2dad54b66638bc3  experiments/signmap/strokedjar_test.py  2026-11-24T03:59:53Z  signmap addendum1 seal
 bacdba9045f958dc637ad33de6fba4a4ee237fb05fe3bb5c8796a8c3b57c0501  docs/prereg/signmap_figfish_strokedjar.md  2026-11-24T04:00:42Z  scorecard addendum3 seal
+f5e25673848f297fa785f08c1eae2c6dafc7a9528cdd9476c3bda0b5278c3201  docs/prereg/meaning_calibration.md  2026-11-24T09:02:39Z  meaning_calibration
+dbe1011574ebae741fce72e8e4836a309c1f1e538cf134985c2099088587a99d  experiments/meaning_calibration/load.py  2026-11-24T09:02:39Z  meaning_calibration
+a276018f4d3613aa7ae0a32c61d7c3874d6478522a911230c80415ae7afa06f0  experiments/meaning_calibration/fcore.py  2026-11-24T09:02:39Z  meaning_calibration
+c27382309e74b59b5f38131fe5ecf2d15376222e23206d46bd8c4dfc25e35019  experiments/meaning_calibration/kill.py  2026-11-24T09:02:39Z  meaning_calibration
