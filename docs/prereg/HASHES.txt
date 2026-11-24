@@ -516,3 +516,7 @@ b83b5936242600b5c4f20213ff7fa1f9055a1ca36e5240a96471e949bc576ec9  docs/prereg/sc
 1c6043ca7eaf3c41e279aae89a9382084ff457f9a86f7a39337796f847a58b99  experiments/tablet_pic_text/run.py  2026-11-24T14:17:03Z  tablet_pic_text
 b653ffa779c6eb1267eefd7016cf13505cb0fa8a8a576113a7d092f5f0eb3940  experiments/tablet_pic_text/gate.json  2026-11-24T14:17:03Z  tablet_pic_text
 4ae9b9ce88f3abba3be239f9dec6429d1d264e40fac5a956a3e2f5a08dc9c394  experiments/tablet_pic_text/run.py  2026-11-24T14:17:25Z  tablet_pic_text_fix1 (json int64 serialisation only; first run crashed after the null, nothing written)
+f628e1ea6f0769b131dd3be5f579962039c3e3b5d11634d0923a87fcc41d4eb3  docs/prereg/sizing_census.md  2026-11-24T17:12:16Z  sizing_census
+037c846eb45b036a6e60930284d1f00a0528f1d097eb9fec1b3cc64e99c7f35e  experiments/sizing_census/shapes.py  2026-11-24T17:30:33Z  sizing_census_code
+3865a593cf156eb5e786820233108c9b42083e1761eb1850cfcd86610dc7d45b  experiments/sizing_census/calc.py  2026-11-24T17:30:33Z  sizing_census_code
+47ceebe83825122f995d6a40140f9199af98acae0e3f8b944e67c03fa798a78c  experiments/sizing_census/shapes.json  2026-11-24T17:30:33Z  sizing_census_code

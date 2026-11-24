@@ -1,0 +1,433 @@
+{
+ "seed": 20261127,
+ "E_d": {
+  "2": 71,
+  "3": 65,
+  "5": 49,
+  "8": 39,
+  "12": 33,
+  "20": 12
+ },
+ "reachable": [
+  2,
+  3,
+  5,
+  8,
+  12
+ ],
+ "rungs": {
+  "2": {
+   "1.0": {
+    "counted_plants": 17,
+    "median_ari": 0.4960212201591512,
+    "field_recovery": {
+     "place": 0.9411764705882353,
+     "admin": 0.5294117647058824,
+     "land": 0.7692307692307693,
+     "occupation": 0.375,
+     "person": 0.8333333333333334
+    },
+    "bar": false
+   },
+   "0.6": {
+    "counted_plants": 20,
+    "median_ari": 0.3808106502464331,
+    "field_recovery": {
+     "place": 0.55,
+     "admin": 0.55,
+     "land": 0.6666666666666666,
+     "occupation": 0.2727272727272727,
+     "person": 0.16666666666666666
+    },
+    "bar": false
+   }
+  },
+  "3": {
+   "1.0": {
+    "counted_plants": 16,
+    "median_ari": 0.4537823220443298,
+    "field_recovery": {
+     "place": 0.75,
+     "admin": 0.75,
+     "land": 0.5714285714285714,
+     "occupation": 0.6666666666666666,
+     "person": 1.0
+    },
+    "bar": false
+   },
+   "0.6": {
+    "counted_plants": 14,
+    "median_ari": 0.3333958724202627,
+    "field_recovery": {
+     "place": 0.5,
+     "admin": 0.35714285714285715,
+     "land": 0.3333333333333333,
+     "occupation": 0.5,
+     "person": null
+    },
+    "bar": false
+   }
+  },
+  "5": {
+   "1.0": {
+    "counted_plants": 10,
+    "median_ari": 0.5522022729340977,
+    "field_recovery": {
+     "place": 0.6,
+     "admin": 0.8,
+     "land": 0.2,
+     "occupation": 0.5,
+     "person": null
+    },
+    "bar": false
+   },
+   "0.6": {
+    "counted_plants": 13,
+    "median_ari": 0.5304740406320542,
+    "field_recovery": {
+     "place": 0.5384615384615384,
+     "admin": 0.25,
+     "land": 0.5714285714285714,
+     "occupation": 0.25,
+     "person": null
+    },
+    "bar": false
+   }
+  },
+  "8": {
+   "1.0": {
+    "counted_plants": 4,
+    "median_ari": 0.4989530013959982,
+    "field_recovery": {
+     "place": 0.0,
+     "admin": 0.5,
+     "land": 0.0,
+     "occupation": 0.0,
+     "person": 0.0
+    },
+    "bar": false
+   },
+   "0.6": {
+    "counted_plants": 4,
+    "median_ari": 0.15340374737755913,
+    "field_recovery": {
+     "place": 0.0,
+     "admin": 0.0,
+     "land": 0.0,
+     "occupation": 0.0,
+     "person": null
+    },
+    "bar": false
+   }
+  },
+  "12": {
+   "1.0": {
+    "counted_plants": 0,
+    "median_ari": null,
+    "field_recovery": {
+     "place": null,
+     "admin": null,
+     "land": null,
+     "occupation": null,
+     "person": null
+    },
+    "bar": false
+   },
+   "0.6": {
+    "counted_plants": 0,
+    "median_ari": null,
+    "field_recovery": {
+     "place": null,
+     "admin": null,
+     "land": null,
+     "occupation": null,
+     "person": null
+    },
+    "bar": false
+   }
+  },
+  "20": {
+   "result": "not reachable at this corpus size",
+   "E_d": 12
+  }
+ },
+ "d_star": "> 12",
+ "d_star_note": "lower bound (one exclusive picture value per field is easier than any real tie)",
+ "B_predicted": {
+  "2": {
+   "n_sets": 2000,
+   "n_counted": 2000,
+   "held_median_ari": 0.17920847268673357,
+   "held_field_recovery": {
+    "admin": 0.2695,
+    "land": 0.2,
+    "occupation": 0.204,
+    "person": 0.0,
+    "place": 0.326
+   },
+   "held_field_recovery_scored": {
+    "admin": 0.2695,
+    "land": 0.2,
+    "occupation": 0.204,
+    "person": null,
+    "place": 0.326
+   },
+   "held_gate_met": false,
+   "power": 0.19990000000000002
+  },
+  "3": {
+   "n_sets": 2000,
+   "n_counted": 2000,
+   "held_median_ari": 0.13934742452489876,
+   "held_field_recovery": {
+    "admin": 0.19,
+    "land": 0.149,
+    "occupation": 0.0,
+    "person": 0.0,
+    "place": 0.1715
+   },
+   "held_field_recovery_scored": {
+    "admin": 0.19,
+    "land": 0.149,
+    "occupation": null,
+    "person": null,
+    "place": 0.1715
+   },
+   "held_gate_met": false,
+   "power": 0.1021
+  },
+  "5": {
+   "n_sets": 2000,
+   "n_counted": 0,
+   "power": null
+  },
+  "8": {
+   "n_sets": 2000,
+   "n_counted": 0,
+   "power": null
+  },
+  "12": {
+   "n_sets": 2000,
+   "n_counted": 0,
+   "power": null
+  }
+ },
+ "u_rows": [
+  {
+   "id": "MUK25-fish-gem",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MUK22-gold-ratti",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MUK23-kanmer-occupation",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MUK23-wild-ass",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MUK19-crop-on-jars",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "PAR-sign193-weight",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "PAR-man-steelyard",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "LAU10-twins-prefix",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MAH09-jar-bearer",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MAH09-arrow-bearer",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "PAR75-chanhu-toponym",
+   "rule": "own A1 at delta 0.23",
+   "tier": null,
+   "count_in_hand": "shape not tabulated",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "WEL15-jar-40L",
+   "rule": "census route 5",
+   "tier": null,
+   "count_in_hand": 65,
+   "count_needed": 152,
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "KEN06-jar-strokes",
+   "rule": "census route 7",
+   "tier": null,
+   "count_in_hand": "see census",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MUK23-triple-cup-goblet",
+   "rule": "census route 7",
+   "tier": null,
+   "count_in_hand": "see census",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "HV-bangle-workshop",
+   "rule": "census route 8",
+   "tier": null,
+   "count_in_hand": 0,
+   "count_needed": 19,
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "FT05-access-control",
+   "rule": "census route 9",
+   "tier": null,
+   "count_in_hand": 55,
+   "count_needed": 211,
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "LAU10-other-language",
+   "rule": "census route 15",
+   "tier": null,
+   "count_in_hand": "12-28 texts; 0 new of 8 needed",
+   "count_needed": "raw n only",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "CAL-noise-keys",
+   "rule": "census route 21",
+   "tier": "U",
+   "count_in_hand": "10,005 tokens; key coverage",
+   "count_needed": "untestable by fit at stated power",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "KEY-yajnadevam",
+   "rule": "census route 21",
+   "tier": "U",
+   "count_in_hand": "10,005 tokens; key coverage",
+   "count_needed": "untestable by fit at stated power",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "FUN-sigil",
+   "rule": "no count rule",
+   "tier": "U",
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MUK23-no-names-no-toponyms",
+   "rule": "no count rule",
+   "tier": null,
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "MAH-bearer-kaviti",
+   "rule": "no count rule",
+   "tier": null,
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "PAR-vel-substitution",
+   "rule": "no count rule",
+   "tier": null,
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "PAR-murukan-partners",
+   "rule": "no count rule",
+   "tier": null,
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "KEN20-premature-marks",
+   "rule": "no count rule",
+   "tier": null,
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "FSW04-emblems",
+   "rule": "no count rule",
+   "tier": null,
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  },
+  {
+   "id": "OWN-7",
+   "rule": "no count rule",
+   "tier": "U",
+   "count_in_hand": "no count rule",
+   "count_needed": "",
+   "profile_rule": ">= > 12 documents per sign, >= 3 signs per class, if the test needs per-sign profiles"
+  }
+ ]
+}

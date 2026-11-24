@@ -46,3 +46,4 @@ Question per object: is the final mark one three-stroke sign (M77 M93), or two s
 - M77 Chanhu-daro sealing 6233.1 (ICIT 116.1, CISI C-34; ICIT ends ... W390 W031 W032).
 - Unlinked in ICIT: 6108, 6118, 6133, 6218, 6403. Find their CISI numbers in the M77 concordance, then the photos (CISI vol. 1, Chanhu-daro section).
 - Other ICIT Chanhu-daro texts with W032: 62.1, 64.1, 69.1, 73.1, 74.1, 82.1, 88.1, 98.1, 101.1, 109.1, 111.1, 112.1 (check which also end in W031 W032).
+- [2026-11-24] **Owner follow-up with Fuls** (owner already wrote; no agent email): ask also for the ICIT picture-code list (Mult, Gavi, Phyt, Bult, Othr, Comp). This would reopen `tablet_pic_text` at about 136 rows. See `docs/outreach/04_fuls_corpus.md` (local).

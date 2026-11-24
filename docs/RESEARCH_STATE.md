@@ -543,3 +543,22 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     4. **HARP pack readiness** before the sheet arrives (about 2027-01-05).
   - **Odds for the 2027 bar: about 0.3%,** effectively bilingual-only.
   - **Decision:** run 1 next, then the item 2 count. Item 3 (outreach) goes to the coordinator for approval and is not sent yet. `KEY-scott` stays batched with addendum 6.
+- 2026-11-24 coordinator: agreed with Fable's ranking; run the census, then the stamp-tablet count. Do not email Fuls: the owner already wrote from their own Gmail. The ICIT picture-code request was added to the owner's follow-up notes (`docs/outreach/04_fuls_corpus.md`, local; `HUMAN_LEADS.md`).
+- 2026-11-24 **Sizing census** (`sizing_census`). The prereg (Fable draft) got a fresh Fable review (FIX, 10 items, all applied) and was sealed before any code. The code was sealed before any case run.
+  - **Kill test: only family A2 (rate ratio) is adopted.**
+    - A1 (binary tie) missed on unicorn: 0.73 vs 0.20 at δ 0.05, too optimistic.
+    - A3 (rank correlation) missed harp C9: 0.57 vs 0.82 at n 120, too pessimistic.
+    - B (profile recovery) missed anchor_ceiling: adjusted Rand 0.34 vs 0.56.
+    - So the shape-only calculator is not a reliable bound.
+  - `adopt.py` was written after the run, encoding only the frozen rules and sealed values (disclosed).
+  - **Census:** no route with data in hand passes an adopted gate. The A2 passes (jar sign, firing stage C1 and C2) all need the HARP sheet.
+  - **U-row curve:** descriptive only. The bar is never reached at d = 2-8, and d ≥ 12 is unreachable, so no minimum-count rule is adopted.
+  - `experiments/sizing_census/RESULTS.md`.
+- **Standing rule (from `sizing_census`):**
+  - A2-family routes must pass the census gate (predicted power ≥ 0.8 at the sealed effect) before a prereg is drafted.
+  - Every other route must state its own count gate in two lines before any design work, and run its own planted kill test. The calculator's numbers are not trusted there.
+- 2026-11-24 **Stamp-sealed tablet count** (`experiments/stamp_positives/COUNT.md`; frozen rules in the agent brief):
+  - 18 count by the letter, so the gate of ≥ 10 passes.
+  - But 17 are Old Assyrian envelopes with Anatolian stamps, found by CDLI "stamp" notes. Only 1 is a Gulf-type stamp (YBC 5447), and its stamp is stated only in the AS 16 print edition; CDLI gives "(not given)".
+  - **My reading:** a recall test on the Old Assyrian rows measures only CDLI's tagging, not the Gulf target. The sweep should close into atlas 9.2 unless the coordinator reads the gate as "any stamp". Decision sent to the coordinator; no sweep design started.
+  - Side note: `sealing_hunt/RESULTS.md` ("only brick stamps") is true for Babylonia but not for the whole dump; not edited.
