@@ -2,6 +2,13 @@
  {
   "date": "2026-11-24",
   "kind": "result",
+  "title": "Our refutations mostly survive other sign lists",
+  "body": "We had checked our positive findings under 12 other ways of dividing the signs and under the second edition of the texts, but never our refutations. Now we have. Four of the six hold everywhere they can be tested, including the 'tablets are licences' and 'animal emblems name organisations' readings. Two cannot be checked this way: the stroked-jar result rests on one edition, and the cup-fee result has only one alternative test, which shows a drift over time that was already known. On a fresh look, three blind raters moved the claim by Laursen and Parpola that 'Gulf seals write another language' from refuted to untestable: our test ruled out only a stricter version of the claim.",
+  "link": "https://github.com/HarshInvader/open-indus/blob/main/experiments/r_symmetry/RESULTS.md"
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "result",
   "title": "Testing our own test on a script we can read",
   "body": "Before trusting our meaning tests on Indus, we ran one of them on Linear B, cut to Indus size. One agent who reads Linear B wrote 30 true claims, another invented 30 claims without being able to read it. The test never passed an invented claim and never rejected a true one, but it gave no answer on 27 of the 30 true claims. So a pass means something, but it confirms a sign pair, not a reading. With that in view, two blind raters moved Parpola's 'names of the god Murukan' from supported to untestable: the sign pair is real, but it fits other readings just as well.",
   "link": "https://github.com/HarshInvader/open-indus/blob/main/experiments/meaning_calibration/RESULTS.md"

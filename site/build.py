@@ -1270,7 +1270,7 @@ def scorecard():
             name, k = tier[r["tier"]]
             split = " · split (" + "/".join(r["rater_tiers"]) + ")" if r["split"] else ""
             if r.get("addendum"):
-                why = {1: "a stale catalogue entry was fixed", 4: "its test was calibrated on a script we can read"}.get(r["addendum"], "a new sealed test")
+                why = {1: "a stale catalogue entry was fixed", 4: "its test was calibrated on a script we can read", 5: "its test was re-run under other sign lists and the other edition"}.get(r["addendum"], "a new sealed test")
                 split += f' · re-rated after {why} (was {tier[r["v1_0"]["tier"]][0]})'
             items.append(f'<li class="route"><div class="rt">{E(r["claimant"])}: {E(r["claim"])}</div>'
                          f'<span class="tag {k}">{E(name)}</span><div class="rd"><span>{E(r["reason"])}{E(split)}</span></div></li>')

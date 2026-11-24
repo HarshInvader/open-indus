@@ -79,3 +79,9 @@ This held. Not predicted: #2 at P and #7 at U.
 - **Not re-rated.** MC-WEL15-fish-number: its test is not the calibrated rule.
 - **Tool fix.** `staleness.py` now counts the raters of addenda 2-4 as current. It had re-flagged rows they had already re-rated.
 - **Counts now:** S 10, U 26, R 8, N 17, P 4. The κ of v1.0 (0.842) is unchanged.
+
+## Addendum 5: the six R rows after r_symmetry (2026-11-24, prereg `scorecard_addendum5.md`)
+- **Raters.** O and P rated these 6 rows blind. They agreed on 5, all R: cup-vessel-fee, licence-pairing, tablets-tokens, emblem-organisation and stroked jar.
+- **Split.** MC-LAU10-other-language: O gave R, P gave U. The tie-breaker Q gave **U**.
+  - **Reason.** `round_own_order` refutes only a derived version of the claim ("a second language with its own grammar"), on a mixed set of 32 round texts. Gulf-type off-order fits another language, a round-seal genre or pseudo-writing alike.
+- **Counts now:** S 10, U 27, R 7, N 17, P 4.

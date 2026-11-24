@@ -1,0 +1,313 @@
+OTHER EDITION Q2 {'rho': -0.023959779117536793, 'p': np.float64(0.7841215878412159), 'n': 189}
+OTHER EDITION Q3 {'chi2': 64.59586987996391, 'p': 0.004799040191961607, 'shape': [10, 5], 'n': 235}
+OTHER EDITION T1 {'G': 15.912231335317987, 'p': 0.8363163683631637, 'units': 199, 'deposits': 11}
+OTHER EDITION T3 {'S': 56.68675254051279, 'p': 0.7931206879312068, 'groups': 141, 'features': 29}
+OTHER EDITION EMB {'auc': 0.5228998100330683, 'n': 1409, 'p': 0.17682317682317683}
+{
+ "MC-MUK23-cup-vessel-fee": {
+  "cells": {
+   "other_edition": {
+    "kill": false,
+    "survive": true
+   }
+  },
+  "families": {
+   "other_edition": {
+    "kill": false,
+    "survive": true
+   }
+  },
+  "verdict": "UNCHECKED",
+  "reason": "1 testable non-invariant families (< 2)"
+ },
+ "MC-MUK23-licence-pairing": {
+  "cells": {
+   "M77": {
+    "kill": true,
+    "survive": false
+   },
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s1": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "families": {
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "kill": true,
+    "survive": false
+   },
+   "splits": {
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "verdict": "HOLDS",
+  "reason": "kill met in all 6 testable families"
+ },
+ "MC-KM-tablets-tokens": {
+  "cells": {
+   "M77": {
+    "kill": true,
+    "survive": false
+   },
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s1": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "families": {
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "kill": true,
+    "survive": false
+   },
+   "splits": {
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "verdict": "HOLDS",
+  "reason": "kill met in all 6 testable families"
+ },
+ "MC-MUK23-emblem-organisation": {
+  "cells": {
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s1": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "families": {
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "splits": {
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "verdict": "HOLDS",
+  "reason": "kill met in all 5 testable families"
+ },
+ "MC-MUK19-stroked-jar-MET": {
+  "cells": {},
+  "families": {},
+  "verdict": "UNCHECKED",
+  "reason": "0 testable non-invariant families (< 2)"
+ },
+ "MC-LAU10-other-language": {
+  "cells": {
+   "M77": {
+    "kill": true,
+    "survive": false
+   },
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_all": {
+    "kill": true,
+    "survive": false
+   },
+   "img_hi": {
+    "kill": true,
+    "survive": false
+   },
+   "img_mid": {
+    "kill": true,
+    "survive": false
+   },
+   "img_lo": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s1": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "families": {
+   "parpola": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "kill": true,
+    "survive": false
+   },
+   "lump_all": {
+    "kill": true,
+    "survive": false
+   },
+   "img": {
+    "kill": true,
+    "survive": false
+   },
+   "splits": {
+    "kill": true,
+    "survive": false
+   }
+  },
+  "verdict": "HOLDS",
+  "reason": "kill met in all 7 testable families"
+ },
+ "FUN-kriger-hunt": {
+  "verdict": "OUT OF SCOPE",
+  "reason": "out of scope: kh_tests.planted() covers K4 only, so K1 and K3 have no plant and no cell can be gated"
+ },
+ "KEY-pierson": {
+  "verdict": "OUT OF SCOPE",
+  "reason": "out of scope: its key is defined per Mahadevan sign, so no other list applies, and its R rests on its own failed power gate, not on a list-dependent statistic"
+ }
+}

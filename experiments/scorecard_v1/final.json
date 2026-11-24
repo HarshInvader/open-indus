@@ -6,8 +6,8 @@
  "passed": true,
  "counts": {
   "S": 10,
-  "U": 26,
-  "R": 8,
+  "U": 27,
+  "R": 7,
   "N": 17,
   "P": 4
  },
@@ -211,28 +211,38 @@
    "group": "meaning claim",
    "claimant": "Mukhopadhyay (2023)",
    "claim": "standardized-capacity vessel; on tablet reverses it gives one of four licence-fee slabs",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-cup-vessel-fee (status: already tested; See experiments/m328_measure (count not a measure; fixed values), experiments/tablet_archives (26 obverse texts carry 2-3 different tiers; sign x tier p = 0.75), experiments/scene_text (vessel unreadable at 100 ppi).)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-cup-vessel-fee (status: already tested; See experiments/m328_measure (count not a measure; fixed values), experiments/tablet_archives (26 obverse texts carry 2-3 different tiers; sign x tier p = 0.75), experiments/scene_text (vessel unreadable at 100 ppi). r_symmetry (2026-11-24, sealed): UNCHECKED (only 1 testable family). In the other edition, Q2 is null (rho -0.02, p 0.78), but Q3's stand-in (ICIT period/phase lots) meets the survive bar (chi2 64.6, p 0.0048). This is the period/batch drift m328_measure had already reported (p 0.005), not find-spot clustering, which stays refuted.)",
    "tier": "R",
-   "reason": "experiments/m328_measure/RESULTS.md: stroke count before the cup tracks no tablet size, batch or find-spot (Q1-Q3 refuted, power 0.98-0.99) and is fixed-value not count-like (dAIC 203); tablet_archives T3 obverse x tier p = 0.75 at power 0.96.",
+   "reason": "Central predictions (N tracks quantity, find-spot clustering, obverse x tier) failed at power 0.985-0.99 (m328_measure Q1-Q3, tablet_archives p 0.75 power 0.96); the phase-drift cell in r_symmetry tests a different thing, not the claim's find-spot prediction.",
    "split": false,
    "rater_tiers": [
     "R",
     "R"
-   ]
+   ],
+   "v1_0": {
+    "tier": "R",
+    "reason": "experiments/m328_measure/RESULTS.md: stroke count before the cup tracks no tablet size, batch or find-spot (Q1-Q3 refuted, power 0.98-0.99) and is fixed-value not count-like (dAIC 203); tablet_archives T3 obverse x tier p = 0.75 at power 0.96."
+   },
+   "addendum": 5
   },
   {
    "id": "MC-MUK23-licence-pairing",
    "group": "meaning claim",
    "claimant": "Mukhopadhyay (2023)",
    "claim": "obverse = licensed activity; reverse = fee slab for that activity",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-licence-pairing (status: already tested; experiments/tablet_archives finding 3: obverse texts do not split by tier (S = 101, p = 0.75); incised W176 W740 W400 occurs with tiers 2, 3 and 4.)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-licence-pairing (status: already tested; experiments/tablet_archives finding 3: obverse texts do not split by tier (S = 101, p = 0.75); incised W176 W740 W400 occurs with tiers 2, 3 and 4. r_symmetry (2026-11-24, sealed): the refutation HOLDS under every sign list that changes its inputs and on M77 Harappa (S 56.7, p 0.79, power 0.92).)",
    "tier": "R",
-   "reason": "experiments/tablet_archives/RESULTS.md T3 (pre-registered): obverse signs do not split by tier, S = 101.0, p = 0.75 with power 0.96, and 26 obverse texts carry 2-3 different tiers.",
+   "reason": "Obverse texts do not split by fee tier (S 101, p 0.75, power 0.96), and the null holds on M77 Harappa (p 0.79, power 0.92).",
    "split": false,
    "rater_tiers": [
     "R",
     "R"
-   ]
+   ],
+   "v1_0": {
+    "tier": "R",
+    "reason": "experiments/tablet_archives/RESULTS.md T3 (pre-registered): obverse signs do not split by tier, S = 101.0, p = 0.75 with power 0.96, and 26 obverse texts carry 2-3 different tiers."
+   },
+   "addendum": 5
   },
   {
    "id": "MC-MUK23-triple-cup-goblet",
@@ -268,15 +278,19 @@
    "group": "meaning claim",
    "claimant": "Mukhopadhyay (2023)",
    "claim": "seal animals are emblems of guilds or tax authorities; same-emblem seals share licence content",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-emblem-organisation (status: already tested; experiments/context Q1: unicorn vs other AUC 0.52; same-emblem Jaccard at null in 16/16 class tests.)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK23-emblem-organisation (status: already tested; experiments/context Q1: unicorn vs other AUC 0.52; same-emblem Jaccard at null in 16/16 class tests. r_symmetry (2026-11-24, sealed): HOLDS under every testable sign list and on ICIT square seals (AUC 0.523, p 0.18, power 1.00).)",
    "tier": "R",
-   "reason": "experiments/animal_tie_power/RESULTS.md sizes the context Q1 emblem-text test at power 1.00 for a +20-point tie, which is about Linear B line-to-commodity strength, yet the real result sits at about +2 points (AUC 0.516) and same-emblem Jaccard is at null in 16/16, so shared licence content under one emblem fails at stated power.",
-   "split": true,
+   "reason": "Unicorn vs other AUC 0.52 at null, same-emblem Jaccard null in 16/16, holds on ICIT square seals (AUC 0.523, power 1.00).",
+   "split": false,
    "rater_tiers": [
-    "U",
     "R",
     "R"
-   ]
+   ],
+   "v1_0": {
+    "tier": "R",
+    "reason": "experiments/animal_tie_power/RESULTS.md sizes the context Q1 emblem-text test at power 1.00 for a +20-point tie, which is about Linear B line-to-commodity strength, yet the real result sits at about +2 points (AUC 0.516) and same-emblem Jaccard is at null in 16/16, so shared licence content under one emblem fails at stated power."
+   },
+   "addendum": 5
   },
   {
    "id": "MC-MUK23-kanmer-occupation",
@@ -353,9 +367,9 @@
    "group": "meaning claim",
    "claimant": "Mukhopadhyay (2019)",
    "claim": "metrological units of volume",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-stroked-jar-MET (status: already tested; experiments/signmap/RESULTS.md (sealed): pooled M343/M344/M345 on ICIT pottery graffiti 17 vs 23.0 expected under the within-site null, ratio 0.74, power 0.96 for 2x: kill condition met. M343 0.38x; M344 1.25x; M345 2.0x (5 vs 2.5, p 0.09, exploratory).)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row MUK19-stroked-jar-MET (status: already tested; experiments/signmap/RESULTS.md (sealed): pooled M343/M344/M345 on ICIT pottery graffiti 17 vs 23.0 expected under the within-site null, ratio 0.74, power 0.96 for 2x: kill condition met. M343 0.38x; M344 1.25x; M345 2.0x (5 vs 2.5, p 0.09, exploratory). r_symmetry (2026-11-24, sealed): UNCHECKED across sign lists and editions; every list leaves the inputs unchanged or merges the stroked jars with the plain jar, and M77 pottery (115 texts) has power 0.65. The refutation rests on ICIT alone.)",
    "tier": "R",
-   "reason": "Sealed prereg test of the claim's own pottery-enrichment prediction gave pooled M343/M344/M345 ratio 0.74 (17 vs 23.0) with power 0.96 for 2x, meeting the kill condition; M345 alone 2x on 5 texts is exploratory and not significant.",
+   "reason": "Sealed signmap test: pooled stroked jars 0.74x on pottery vs 2x predicted, power 0.96, kill met; rests on ICIT alone (M77 power 0.65), M345 2.0x only exploratory.",
    "split": false,
    "rater_tiers": [
     "R",
@@ -365,7 +379,7 @@
     "tier": "P",
     "reason": "experiments/meaning_claims/CATALOGUE.csv: testable, not run; stroked-jar variants were not tested on their own (self_label covered other vessel signs)."
    },
-   "addendum": 3
+   "addendum": 5
   },
   {
    "id": "MC-MAH09-jar-bearer",
@@ -591,14 +605,19 @@
    "group": "meaning claim",
    "claimant": "Kenoyer & Meadow; Rao (2010; 2018)",
    "claim": "transaction tokens or ration records; deliberate disposal of tablet groups",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KM-tablets-tokens (status: already tested; experiments/tablet_archives (0/5), experiments/slot_function B (counted people not supported).)",
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row KM-tablets-tokens (status: already tested; experiments/tablet_archives (0/5), experiments/slot_function B (counted people not supported). r_symmetry (2026-11-24, sealed): HOLDS under every sign list that changes its inputs and on M77 (T1 with locus as deposit p 0.84; T3 p 0.79).)",
    "tier": "R",
-   "reason": "experiments/tablet_archives/RESULTS.md: 0 of 5 pre-registered tests pass; deposit uniformity T1 p = 0.83 at power 0.98 and obverse x tier p = 0.75 at power 0.96.",
+   "reason": "0/5 pre-registered tablet-archive tests pass; deposit test null at power 0.98 and holds on M77 (T1 p 0.84, power 1.00); only the multiplicity test was underpowered.",
    "split": false,
    "rater_tiers": [
     "R",
     "R"
-   ]
+   ],
+   "v1_0": {
+    "tier": "R",
+    "reason": "experiments/tablet_archives/RESULTS.md: 0 of 5 pre-registered tests pass; deposit uniformity T1 p = 0.83 at power 0.98 and obverse x tier p = 0.75 at power 0.96."
+   },
+   "addendum": 5
   },
   {
    "id": "MC-KEN20-premature-marks",
@@ -676,14 +695,20 @@
    "group": "meaning claim",
    "claimant": "Laursen; Parpola (2010; 1994)",
    "claim": "Gulf seals write another language with Indus signs",
-   "evidence": "experiments/meaning_claims/CATALOGUE.csv row LAU10-other-language (status: already tested; README #4 and correction: off-order is a property of round Gulf-type seals wherever found; three readings cannot be separated.)",
-   "tier": "R",
-   "reason": "experiments/round_own_order/RESULTS.md (sealed): round texts show no order of their own (-0.10 bits/sign, p = 0.83) where same-size home sets show it at power 0.995, so 'a second language with its own grammar' is not supported; README #4 notes the reading stays possible if its texts are too few or mixed.",
-   "split": false,
+   "evidence": "experiments/meaning_claims/CATALOGUE.csv row LAU10-other-language (status: already tested; README #4 and correction: off-order is a property of round Gulf-type seals wherever found; three readings cannot be separated. r_symmetry (2026-11-24, sealed): HOLDS under all 7 testable sign-list families (round excess -0.15 to +0.06, all p >= 0.21); the other edition was not run (7 of 32 round texts link to M77).)",
+   "tier": "U",
+   "reason": "The claimant's observable (Gulf round seals break Indus order) holds, but it also fits a round-seal genre or pseudo-writing, and the data cannot separate the three readings; round_own_order (power 0.995) refutes only a derived 'own grammar' version on a mixed set of 32 (10 home), with a Gulf-only subgroup too small to test, so this is not R.",
+   "split": true,
    "rater_tiers": [
     "R",
-    "R"
-   ]
+    "U",
+    "U"
+   ],
+   "v1_0": {
+    "tier": "R",
+    "reason": "experiments/round_own_order/RESULTS.md (sealed): round texts show no order of their own (-0.10 bits/sign, p = 0.83) where same-size home sets show it at power 0.995, so 'a second language with its own grammar' is not supported; README #4 notes the reading stays possible if its texts are too few or mixed."
+   },
+   "addendum": 5
   },
   {
    "id": "MC-FSW04-emblems",

@@ -82,7 +82,8 @@ def rating_commits():
     """id -> commit holding the row's current rating (addendum raters override v1.0 raters)."""
     rc = {}
     ADD = ("rater_D.json", "rater_E.json", "rater_F.json", "rater_G.json", "rater_H.json", "rater_K2.json",
-           "rater_I.json", "rater_J.json", "rater_K.json", "rater_L.json", "rater_M.json", "rater_N.json")
+           "rater_I.json", "rater_J.json", "rater_K.json", "rater_L.json", "rater_M.json", "rater_N.json",
+           "rater_O.json", "rater_P.json", "rater_Q.json")
     for f in ("rater_A.json", "rater_B.json", "rater_C.json") + ADD:
         path = f"experiments/scorecard_v1/{f}"
         h = git("log", "-1", "--format=%H", "--", path).strip()

@@ -460,3 +460,12 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - `staleness.py` now knows the addendum 2-4 raters.
   - Site rebuilt with a page note and an update entry. Not deployed.
   - Scorecard counts: S 10, U 26, R 8, N 17, P 4.
+- 2026-11-24 study 2 r_symmetry DONE. The prereg had a fresh Fable review (10 fixes) before sealing. Code addendum 1 was sealed, and power.json was committed before any variant statistic.
+  - **HOLDS:** licence-pairing, tablets-tokens, emblem-organisation, other-language.
+  - **UNCHECKED:**
+    - stroked jar: every list is invariant or merges the signs, and M77 power is 0.65;
+    - cup-vessel-fee: 1 family. Its other-edition Q3 stand-in meets the survive bar, but this is the period drift already known from m328, so the ARTEFACT rule is also triggered and noted.
+  - **Scorecard addendum 5.** Raters O and P agreed on R for 5 rows. On LAU10-other-language they split R/U, and Q gave U, so that row moves R → U.
+  - **Counts:** S 10, U 27, R 7, N 17, P 4.
+  - Site rebuilt with an update entry, since a tier changed. Not deployed.
+  - **Next:** a 95%-coverage ladder point plus the Scott key bench, then study 3 (anchor-recovery ceiling for L2 in Linear B).

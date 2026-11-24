@@ -1,0 +1,8 @@
+[
+  {"id": "MC-MUK23-cup-vessel-fee", "tier": "R", "reason": "Central predictions (N tracks quantity, find-spot clustering, obverse x tier) failed at power 0.985-0.99 (m328_measure Q1-Q3, tablet_archives p 0.75 power 0.96); the phase-drift cell in r_symmetry tests a different thing, not the claim's find-spot prediction."},
+  {"id": "MC-MUK23-licence-pairing", "tier": "R", "reason": "Obverse texts do not split by fee tier (S 101, p 0.75, power 0.96), and the null holds on M77 Harappa (p 0.79, power 0.92)."},
+  {"id": "MC-KM-tablets-tokens", "tier": "R", "reason": "0/5 pre-registered tablet-archive tests pass; deposit test null at power 0.98 and holds on M77 (T1 p 0.84, power 1.00); only the multiplicity test was underpowered."},
+  {"id": "MC-MUK23-emblem-organisation", "tier": "R", "reason": "Unicorn vs other AUC 0.52 at null, same-emblem Jaccard null in 16/16, holds on ICIT square seals (AUC 0.523, power 1.00)."},
+  {"id": "MC-MUK19-stroked-jar-MET", "tier": "R", "reason": "Sealed signmap test: pooled stroked jars 0.74x on pottery vs 2x predicted, power 0.96, kill met; rests on ICIT alone (M77 power 0.65), M345 2.0x only exploratory."},
+  {"id": "MC-LAU10-other-language", "tier": "R", "reason": "Split: off-order fits three readings, but the claim's own prediction (round texts share their own grammar) failed in sealed round_own_order (-0.10 bits/sign, p 0.83, power 0.995) and holds across 7 sign lists."}
+]

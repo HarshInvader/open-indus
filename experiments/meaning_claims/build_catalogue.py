@@ -56,7 +56,7 @@ add(id="MUK23-cup-vessel-fee", author="Mukhopadhyay", year="2023",
     basis="picture (offering vessel on a tablet) + context (tablet reverses) + culture (cuneiform GAR/ninda)",
     source="https://doi.org/10.1057/s41599-023-02320-7 pp. 25-26",
     in_old_catalogue="partly (M328 metrological)", status="already tested",
-    status_detail="See experiments/m328_measure (count not a measure; fixed values), experiments/tablet_archives (26 obverse texts carry 2-3 different tiers; sign x tier p = 0.75), experiments/scene_text (vessel unreadable at 100 ppi).",
+    status_detail="See experiments/m328_measure (count not a measure; fixed values), experiments/tablet_archives (26 obverse texts carry 2-3 different tiers; sign x tier p = 0.75), experiments/scene_text (vessel unreadable at 100 ppi). r_symmetry (2026-11-24, sealed): UNCHECKED (only 1 testable family). In the other edition, Q2 is null (rho -0.02, p 0.78), but Q3's stand-in (ICIT period/phase lots) meets the survive bar (chi2 64.6, p 0.0048). This is the period/batch drift m328_measure had already reported (p 0.005), not find-spot clustering, which stays refuted.",
     rule="", prediction="", data="", power="", kill_condition="", ladder_if_positive="L3", rank="")
 
 add(id="MUK23-licence-pairing", author="Mukhopadhyay", year="2023",
@@ -64,7 +64,7 @@ add(id="MUK23-licence-pairing", author="Mukhopadhyay", year="2023",
     claimed_meaning="obverse = licensed activity; reverse = fee slab for that activity",
     basis="context + modern licence analogy", source="https://doi.org/10.1057/s41599-023-02320-7 pp. 25-26",
     in_old_catalogue="no", status="already tested",
-    status_detail="experiments/tablet_archives finding 3: obverse texts do not split by tier (S = 101, p = 0.75); incised W176 W740 W400 occurs with tiers 2, 3 and 4.",
+    status_detail="experiments/tablet_archives finding 3: obverse texts do not split by tier (S = 101, p = 0.75); incised W176 W740 W400 occurs with tiers 2, 3 and 4. r_symmetry (2026-11-24, sealed): the refutation HOLDS under every sign list that changes its inputs and on M77 Harappa (S 56.7, p 0.79, power 0.92).",
     rule="", prediction="", data="", power="", kill_condition="", ladder_if_positive="L1", rank="")
 
 add(id="MUK23-triple-cup-goblet", author="Mukhopadhyay", year="2023",
@@ -88,7 +88,7 @@ add(id="MUK23-emblem-organisation", author="Mukhopadhyay", year="2023",
     claimed_meaning="seal animals are emblems of guilds or tax authorities; same-emblem seals share licence content",
     basis="context + culture", source="https://doi.org/10.1057/s41599-023-02320-7 pp. 18-23",
     in_old_catalogue="no", status="already tested",
-    status_detail="experiments/context Q1: unicorn vs other AUC 0.52; same-emblem Jaccard at null in 16/16 class tests.",
+    status_detail="experiments/context Q1: unicorn vs other AUC 0.52; same-emblem Jaccard at null in 16/16 class tests. r_symmetry (2026-11-24, sealed): HOLDS under every testable sign list and on ICIT square seals (AUC 0.523, p 0.18, power 1.00).",
     rule="", prediction="", data="", power="", kill_condition="", ladder_if_positive="", rank="")
 
 add(id="MUK23-kanmer-occupation", author="Mukhopadhyay; Kharakwal et al.", year="2023; 2012",
@@ -144,7 +144,7 @@ add(id="MUK19-stroked-jar-MET", author="Mukhopadhyay", year="2019",
     claimed_meaning="metrological units of volume",
     basis="picture + context (jar bodies)", source="https://doi.org/10.1057/s41599-019-0274-1 (MET section)",
     in_old_catalogue="no", status="already tested",
-    status_detail="experiments/signmap/RESULTS.md (sealed): pooled M343/M344/M345 on ICIT pottery graffiti 17 vs 23.0 expected under the within-site null, ratio 0.74, power 0.96 for 2x: kill condition met. M343 0.38x; M344 1.25x; M345 2.0x (5 vs 2.5, p 0.09, exploratory).",
+    status_detail="experiments/signmap/RESULTS.md (sealed): pooled M343/M344/M345 on ICIT pottery graffiti 17 vs 23.0 expected under the within-site null, ratio 0.74, power 0.96 for 2x: kill condition met. M343 0.38x; M344 1.25x; M345 2.0x (5 vs 2.5, p 0.09, exploratory). r_symmetry (2026-11-24, sealed): UNCHECKED across sign lists and editions; every list leaves the inputs unchanged or merges the stroked jars with the plain jar, and M77 pottery (115 texts) has power 0.65. The refutation rests on ICIT alone.",
     rule="If they are volume units, stroked-jar signs are enriched on pottery against the within-site object-type null.",
     prediction="Enrichment >= 2x on pottery.", data="ICIT POT vs other types",
     power="Rare signs; likely < 30 texts in total. Run only if >= 30.", kill_condition="Ratio <= 1 on pottery.",
@@ -264,7 +264,7 @@ add(id="KEN06-jar-strokes", author="Kenoyer", year="2006 (cited in Mukhopadhyay 
 add(id="KM-tablets-tokens", author="Kenoyer & Meadow; Rao", year="2010; 2018",
     signs_M="moulded/incised tablet texts", signs_W="", claimed_meaning="transaction tokens or ration records; deliberate disposal of tablet groups",
     basis="context", source=H + "/sites/default/files/pdf/KenoyerMeadow%202010%20Inscribed%20Objects%20from%20Harappa.pdf (403 to us); https://arxiv.org/abs/1812.00049",
-    in_old_catalogue="no", status="already tested", status_detail="experiments/tablet_archives (0/5), experiments/slot_function B (counted people not supported).",
+    in_old_catalogue="no", status="already tested", status_detail="experiments/tablet_archives (0/5), experiments/slot_function B (counted people not supported). r_symmetry (2026-11-24, sealed): HOLDS under every sign list that changes its inputs and on M77 (T1 with locus as deposit p 0.84; T3 p 0.79).",
     rule="", prediction="", data="", power="", kill_condition="", ladder_if_positive="", rank="")
 
 add(id="KEN20-premature-marks", author="Kenoyer", year="2020",
@@ -307,7 +307,7 @@ add(id="LAU10-twins-prefix", author="Laursen", year="2010",
 add(id="LAU10-other-language", author="Laursen; Parpola", year="2010; 1994",
     signs_M="Gulf round-seal texts", signs_W="", claimed_meaning="Gulf seals write another language with Indus signs",
     basis="context", source="https://doi.org/10.1111/j.1600-0471.2010.00329.x", in_old_catalogue="no",
-    status="already tested", status_detail="README #4 and correction: off-order is a property of round Gulf-type seals wherever found; three readings cannot be separated.",
+    status="already tested", status_detail="README #4 and correction: off-order is a property of round Gulf-type seals wherever found; three readings cannot be separated. r_symmetry (2026-11-24, sealed): HOLDS under all 7 testable sign-list families (round excess -0.15 to +0.06, all p >= 0.21); the other edition was not run (7 of 32 round texts link to M77).",
     rule="", prediction="", data="", power="", kill_condition="", ladder_if_positive="", rank="")
 
 # ---------------- Farmer/Sproat/Witzel, Possehl, Koskenniemi, Fairservis, others ----------------

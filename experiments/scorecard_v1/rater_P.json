@@ -1,0 +1,8 @@
+[
+  {"id": "MC-MUK23-cup-vessel-fee", "tier": "R", "reason": "Central measure/fee-slab prediction failed sealed tests at power >= 0.96 (m328_measure Q1-Q3 killed; tablet_archives T3 p 0.75); the r_symmetry Q3 pass is known period drift, not support."},
+  {"id": "MC-MUK23-licence-pairing", "tier": "R", "reason": "Pre-registered obverse-by-tier test failed (S 101, p 0.75, power 0.96) and the failure holds on M77 (power 0.92)."},
+  {"id": "MC-KM-tablets-tokens", "tier": "R", "reason": "0/5 sealed tablet_archives tests pass; deposit test T1 (power 0.98) and T3 (power 0.96) fail, held under r_symmetry."},
+  {"id": "MC-MUK23-emblem-organisation", "tier": "R", "reason": "Emblem not predicted by text (AUC 0.52) and same-emblem sharing at null in 16/16; r_symmetry gives power 1.00 on ICIT."},
+  {"id": "MC-MUK19-stroked-jar-MET", "tier": "R", "reason": "Sealed signmap kill condition met on ICIT pottery (ratio 0.74, power 0.96 for 2x); not replicated in other edition but own powered test failed."},
+  {"id": "MC-LAU10-other-language", "tier": "U", "reason": "Off-order of round seals is real but the data cannot separate another language from a round-seal genre or pseudo-writing; no test tells the claim apart."}
+]

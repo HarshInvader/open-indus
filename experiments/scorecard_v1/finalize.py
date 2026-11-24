@@ -36,9 +36,10 @@ def main():
                 r["v1_0"] = dict(tier=r["tier"], reason=r["reason"])
                 r["tier"] = F[i]["tier"] if sp else D[i]["tier"]; r["reason"] = F[i]["reason"] if sp else D[i]["reason"]
                 r["split"] = sp; r["rater_tiers"] = [D[i]["tier"], Ev[i]["tier"]] + ([F[i]["tier"]] if sp else []); r["addendum"] = 1
-    # Addenda 2 (FUN-sigil, G/H, tie K2), 3 (stroked jar + vata-min, I/J, tie K), 4 (murukan after calibration, L/M, tie N): same rule.
+    # Addenda 2 (FUN-sigil, G/H, tie K2), 3 (stroked jar + vata-min, I/J, tie K), 4 (murukan after calibration, L/M, tie N), 5 (six R rows after r_symmetry, O/P, tie Q): same rule.
     for add_no, (a, b, c) in {2: ("rater_G.json", "rater_H.json", "rater_K2.json"), 3: ("rater_I.json", "rater_J.json", "rater_K.json"),
-                                  4: ("rater_L.json", "rater_M.json", "rater_N.json")}.items():
+                                  4: ("rater_L.json", "rater_M.json", "rater_N.json"),
+                                  5: ("rater_O.json", "rater_P.json", "rater_Q.json")}.items():
         if not ((HERE / a).exists() and (HERE / b).exists()):
             continue
         X = {x["id"]: x for x in json.load(open(HERE / a))}; Y = {x["id"]: x for x in json.load(open(HERE / b))}

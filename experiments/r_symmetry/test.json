@@ -1,0 +1,1055 @@
+{
+ "power_commit": "ffb908a47e48a704f78e83a2b69ca3bca42b2901",
+ "order": "other-edition cells first",
+ "cells": {
+  "Q1": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tall1 sign(s) ['M86'] and outside sign(s) ['M87']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M86_M97_M98_4 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101', 'M97', 'M98']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "other_edition": {
+    "status": "NOT_RUN",
+    "reason": "not run: M77 has no sizes"
+   }
+  },
+  "Q2": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tall1 sign(s) ['M86'] and outside sign(s) ['M87']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M86_M97_M98_4 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101', 'M97', 'M98']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "other_edition": {
+    "status": "testable",
+    "n": 189,
+    "power": 0.9133333333333333,
+    "seconds": 15.3,
+    "result": {
+     "rho": -0.023959779117536793,
+     "p": 0.7841215878412159,
+     "n": 189
+    },
+    "kill": 1.0,
+    "survive": 0.0
+   }
+  },
+  "Q3": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tall1 sign(s) ['M86'] and outside sign(s) ['M87']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M86_M97_M98_4 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101', 'M97', 'M98']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "other_edition": {
+    "status": "testable",
+    "n": 235,
+    "power": 1.0,
+    "seconds": 4.9,
+    "result": {
+     "chi2": 64.59586987996391,
+     "p": 0.004799040191961607,
+     "shape": [
+      10,
+      5
+     ],
+     "n": 235
+    },
+    "kill": false,
+    "survive": true
+   }
+  },
+  "T1": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tier2 sign(s) ['M87'] and outside sign(s) ['M86']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M87_M105_M315 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105', 'M315']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "other_edition": {
+    "status": "testable",
+    "n": 199,
+    "power": 1.0,
+    "seconds": 1.6,
+    "result": {
+     "G": 15.912231335317987,
+     "p": 0.8363163683631637,
+     "units": 199,
+     "deposits": 11
+    },
+    "kill": true,
+    "survive": false
+   }
+  },
+  "T3": {
+   "M77": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.985,
+    "seconds": 26.0,
+    "result": {
+     "S": 98.38706611812599,
+     "p": 0.7482251774822518,
+     "groups": 237,
+     "features": 45
+    },
+    "kill": true,
+    "survive": false
+   },
+   "parpola": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.985,
+    "seconds": 21.8,
+    "result": {
+     "S": 95.17403932943301,
+     "p": 0.7995200479952005,
+     "groups": 237,
+     "features": 45
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.985,
+    "seconds": 21.0,
+    "result": {
+     "S": 91.65561174115433,
+     "p": 0.7837216278372163,
+     "groups": 237,
+     "features": 43
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.985,
+    "seconds": 22.0,
+    "result": {
+     "S": 98.59836597809996,
+     "p": 0.7407259274072593,
+     "groups": 237,
+     "features": 45
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.965,
+    "seconds": 20.9,
+    "result": {
+     "S": 89.9101361725099,
+     "p": 0.7407259274072593,
+     "groups": 237,
+     "features": 41
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tier2 sign(s) ['M87'] and outside sign(s) ['M86']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M87_M105_M315 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105', 'M315']"
+   },
+   "split_s1": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.96,
+    "seconds": 22.7,
+    "result": {
+     "S": 82.12656675692976,
+     "p": 0.7490250974902509,
+     "groups": 237,
+     "features": 39
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "status": "testable",
+    "n": 237,
+    "power": 0.99,
+    "seconds": 21.7,
+    "result": {
+     "S": 97.0477636598881,
+     "p": 0.6179382061793821,
+     "groups": 237,
+     "features": 43
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "status": "testable",
+    "n": 237,
+    "power": 1.0,
+    "seconds": 17.8,
+    "result": {
+     "S": 67.78238315593244,
+     "p": 0.8184181581841816,
+     "groups": 237,
+     "features": 34
+    },
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "status": "testable",
+    "n": 141,
+    "power": 0.915,
+    "seconds": 9.6,
+    "result": {
+     "S": 56.68675254051279,
+     "p": 0.7931206879312068,
+     "groups": 141,
+     "features": 29
+    },
+    "kill": true,
+    "survive": false
+   }
+  },
+  "EMB": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 1149
+   },
+   "parpola": {
+    "status": "testable",
+    "n": 1149,
+    "power": 1.0,
+    "seconds": 23.7,
+    "result": {
+     "auc": 0.5147344122834319,
+     "n": 1149,
+     "p": 0.3196803196803197
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "status": "testable",
+    "n": 1149,
+    "power": 1.0,
+    "seconds": 23.1,
+    "result": {
+     "auc": 0.5309368191721132,
+     "n": 1149,
+     "p": 0.14885114885114886
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "status": "testable",
+    "n": 1149,
+    "power": 1.0,
+    "seconds": 27.5,
+    "result": {
+     "auc": 0.5155851229380641,
+     "n": 1149,
+     "p": 0.3166833166833167
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "status": "NT",
+    "reason": "label JAR holds jar sign(s) ['M342'] and outside sign(s) ['M343', 'M344', 'M345']"
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M342_M343_M344_4 holds jar sign(s) ['M342'] and outside sign(s) ['M343', 'M344', 'M345']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds short sign(s) ['M105'] and outside sign(s) ['M87']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds short sign(s) ['M105'] and outside sign(s) ['M87']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M106_M248 holds short sign(s) ['M106'] and outside sign(s) ['M248']"
+   },
+   "split_s1": {
+    "status": "testable",
+    "n": 1149,
+    "power": 0.9444444444444444,
+    "seconds": 41.7,
+    "result": {
+     "auc": 0.5143894594874987,
+     "n": 1149,
+     "p": 0.33966033966033965
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "status": "testable",
+    "n": 1149,
+    "power": 1.0,
+    "seconds": 25.9,
+    "result": {
+     "auc": 0.5218902375765121,
+     "n": 1149,
+     "p": 0.22277722277722278
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "status": "testable",
+    "n": 1149,
+    "power": 1.0,
+    "seconds": 23.0,
+    "result": {
+     "auc": 0.5155721547878411,
+     "n": 1149,
+     "p": 0.3246753246753247
+    },
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "status": "testable",
+    "n": 1409,
+    "power": 1.0,
+    "seconds": 34.1,
+    "result": {
+     "auc": 0.5228998100330683,
+     "n": 1409,
+     "p": 0.17682317682317683
+    },
+    "kill": true,
+    "survive": false
+   }
+  },
+  "SJ": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "lump_jar_man": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "other_edition": {
+    "status": "NT",
+    "n": 115,
+    "gate_texts": 235,
+    "power": 0.6490841475040616,
+    "seconds": 0.0,
+    "reason": "power 0.649 < 0.8 (the list masks the effect)"
+   }
+  },
+  "RND": {
+   "M77": {
+    "status": "testable",
+    "n": 32,
+    "power": 1.0,
+    "seconds": 6.4,
+    "result": {
+     "excess": -0.11103078479397832,
+     "p": 0.8681318681318682,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "parpola": {
+    "status": "testable",
+    "n": 32,
+    "power": 1.0,
+    "seconds": 6.4,
+    "result": {
+     "excess": -0.11103078479397799,
+     "p": 0.8681318681318682,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_fish": {
+    "status": "testable",
+    "n": 32,
+    "power": 1.0,
+    "seconds": 6.4,
+    "result": {
+     "excess": -0.11103078479397809,
+     "p": 0.8681318681318682,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_numerals": {
+    "status": "testable",
+    "n": 32,
+    "power": 1.0,
+    "seconds": 6.4,
+    "result": {
+     "excess": -0.11103078479397809,
+     "p": 0.8681318681318682,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_jar_man": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.995,
+    "seconds": 6.4,
+    "result": {
+     "excess": -0.11103078479397811,
+     "p": 0.8681318681318682,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "lump_all": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.995,
+    "seconds": 6.5,
+    "result": {
+     "excess": -0.14837419052059128,
+     "p": 0.9250749250749251,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "img_hi": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.995,
+    "seconds": 6.5,
+    "result": {
+     "excess": -0.1416141657703369,
+     "p": 0.9240759240759241,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "img_mid": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.99,
+    "seconds": 6.5,
+    "result": {
+     "excess": -0.12904341817401788,
+     "p": 0.8991008991008991,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "img_lo": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.99,
+    "seconds": 6.5,
+    "result": {
+     "excess": -0.10525400062814776,
+     "p": 0.8551448551448552,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s1": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.98,
+    "seconds": 6.5,
+    "result": {
+     "excess": 0.06381693330254806,
+     "p": 0.2057942057942058,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s2": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.99,
+    "seconds": 6.5,
+    "result": {
+     "excess": -0.1293525919614984,
+     "p": 0.951048951048951,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "split_s3": {
+    "status": "testable",
+    "n": 32,
+    "power": 0.965,
+    "seconds": 6.4,
+    "result": {
+     "excess": 0.0020746192125075807,
+     "p": 0.45854145854145856,
+     "found": false,
+     "n": 32
+    },
+    "kill": true,
+    "survive": false
+   },
+   "other_edition": {
+    "status": "NOT_RUN",
+    "reason": "not run: only 7 of 32 round texts link to M77"
+   }
+  }
+ },
+ "verdicts": {
+  "MC-MUK23-cup-vessel-fee": {
+   "cells": {
+    "other_edition": {
+     "kill": false,
+     "survive": true
+    }
+   },
+   "families": {
+    "other_edition": {
+     "kill": false,
+     "survive": true
+    }
+   },
+   "verdict": "UNCHECKED",
+   "reason": "1 testable non-invariant families (< 2)"
+  },
+  "MC-MUK23-licence-pairing": {
+   "cells": {
+    "M77": {
+     "kill": true,
+     "survive": false
+    },
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_jar_man": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s1": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s2": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s3": {
+     "kill": true,
+     "survive": false
+    },
+    "other_edition": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "families": {
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_jar_man": {
+     "kill": true,
+     "survive": false
+    },
+    "splits": {
+     "kill": true,
+     "survive": false
+    },
+    "other_edition": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "verdict": "HOLDS",
+   "reason": "kill met in all 6 testable families"
+  },
+  "MC-KM-tablets-tokens": {
+   "cells": {
+    "M77": {
+     "kill": true,
+     "survive": false
+    },
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_jar_man": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s1": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s2": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s3": {
+     "kill": true,
+     "survive": false
+    },
+    "other_edition": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "families": {
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_jar_man": {
+     "kill": true,
+     "survive": false
+    },
+    "splits": {
+     "kill": true,
+     "survive": false
+    },
+    "other_edition": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "verdict": "HOLDS",
+   "reason": "kill met in all 6 testable families"
+  },
+  "MC-MUK23-emblem-organisation": {
+   "cells": {
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s1": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s2": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s3": {
+     "kill": true,
+     "survive": false
+    },
+    "other_edition": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "families": {
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "splits": {
+     "kill": true,
+     "survive": false
+    },
+    "other_edition": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "verdict": "HOLDS",
+   "reason": "kill met in all 5 testable families"
+  },
+  "MC-MUK19-stroked-jar-MET": {
+   "cells": {},
+   "families": {},
+   "verdict": "UNCHECKED",
+   "reason": "0 testable non-invariant families (< 2)"
+  },
+  "MC-LAU10-other-language": {
+   "cells": {
+    "M77": {
+     "kill": true,
+     "survive": false
+    },
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_jar_man": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_all": {
+     "kill": true,
+     "survive": false
+    },
+    "img_hi": {
+     "kill": true,
+     "survive": false
+    },
+    "img_mid": {
+     "kill": true,
+     "survive": false
+    },
+    "img_lo": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s1": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s2": {
+     "kill": true,
+     "survive": false
+    },
+    "split_s3": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "families": {
+    "parpola": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_fish": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_numerals": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_jar_man": {
+     "kill": true,
+     "survive": false
+    },
+    "lump_all": {
+     "kill": true,
+     "survive": false
+    },
+    "img": {
+     "kill": true,
+     "survive": false
+    },
+    "splits": {
+     "kill": true,
+     "survive": false
+    }
+   },
+   "verdict": "HOLDS",
+   "reason": "kill met in all 7 testable families"
+  },
+  "FUN-kriger-hunt": {
+   "verdict": "OUT OF SCOPE",
+   "reason": "out of scope: kh_tests.planted() covers K4 only, so K1 and K3 have no plant and no cell can be gated"
+  },
+  "KEY-pierson": {
+   "verdict": "OUT OF SCOPE",
+   "reason": "out of scope: its key is defined per Mahadevan sign, so no other list applies, and its R rests on its own failed power gate, not on a list-dependent statistic"
+  }
+ }
+}
