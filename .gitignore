@@ -102,3 +102,6 @@ experiments/carver_text/out/
 
 # ensemble_rehearsal: blind packets hold CDLI drawings and corpus contexts
 experiments/ensemble_rehearsal/packets/
+
+# Local-only licensed material (Scott key, Mukhopadhyay glyphs): never commit
+/.local/

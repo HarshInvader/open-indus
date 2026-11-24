@@ -498,3 +498,15 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - Held-out true-field centroids gave a median adjusted Rand of 0.56 (bar 0.8), with person at 0.65.
   - NEGATIVE_ATLAS §3.6 added.
   - Main line (b) falls back to L1, as sealed. The real anchor × word association was never looked at.
+- 2026-11-24 **Fable's ranking after study 3.** Odds of the 10-value bar by 2027 stay under 1%.
+  1. **Scott (Dunn) key bench**, first.
+     - IC refute against shape-keeping shuffles: a Sanskrit lexicon at LMIN 4, with slashed alternatives scored as stated.
+     - Kill test: planted power ≥ 0.8 at the real corpus's null width (not a planted corpus's, which is how `yj_ic_refute` overstated power), plus a lexicon-saturation check under her sound-swap rules.
+  2. **Tablet picture × text on distinct moulds** (L1), class level only.
+     - Labels permuted within site; label-swap plants to power ≥ 0.8.
+     - Only picture classes the `scene_text` raters agreed on.
+  3. **Edition full-text sweep for stamp-sealed tablets** (c). Kill test: recall ≥ 0.8 on known stamped tablets.
+  - **Study 3 consequences:**
+    - The "supervised-only ceiling" is dropped, replaced by a recovery vs documents-per-word curve (a minimum-count rule for the U-row table).
+    - Per-sign held-out profile tests at 2-5 documents are presumed untestable: sign × object, sign × site and the copper emblem out of sample.
+  - **Decision:** run them in that order.
