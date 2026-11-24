@@ -290,6 +290,20 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **SIGIL goodness of fit (2026-11-23, `experiments/sigil_heldout`, sealed).** A fitted SIGIL grammar was to be tested on held-out Indus. The kill test failed: 98/100 planted SIGIL corpora were rejected, because the fit leaves about 40-45% of SIGIL's own texts unparsed at Indus size. Untestable. The Indus held-out set was not read.
 - **Reopen with.** None expected. For SIGIL: a fitter that recovers its roles at 1,680 texts.
 
+### 3.5 Calibrating our meaning tests on a read script (Linear B)
+- **Question.** Does the fixed-partner rule behind our S meaning rows (`p34.rule4`) separate true from uninformed meaning claims on a read script cut to Indus size?
+- **Method.** DAMOS Linear B: 5 draws of 1,680 dev + 565 held-out documents. A planted-partner kill test came first.
+- **Result (v1, 2026-11-24).**
+  - Planted power was 0.455, against a bar of 0.8. False alarm was 0 of 1,000.
+  - Every failure had the same cause: with a one-partner claim the null has fewer than 99 frequency-matched pseudo-partners, so p ≤ 0.01 cannot be reached. Power falls to 0 for frequent heads.
+  - All 71 planted heads with a large enough null survived.
+  - Object-class enrichment (the stroked-jar form) has power on only 5-6 of 467 Linear B tokens, so it cannot be calibrated there.
+- **Verdict.** v1 is untestable as sealed. The one-partner rule has a resolution floor at Indus size.
+- **No row changes.** MC-PAR-murukan-partners uses a pairs null; MC-WEL15-fish-number rests on README #5.
+- **Folder.** `experiments/meaning_calibration`.
+- **Prereg.** `meaning_calibration.md`.
+- **Reopen with.** A pairs null or a resolution gate (v2, sealed separately).
+
 ### 3.4 Functional-reading discriminator (F5)
 - **Question.** Can the functional parse itself tell language from code?
 - **Result.** Undecidable.

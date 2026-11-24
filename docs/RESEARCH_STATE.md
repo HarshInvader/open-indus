@@ -433,3 +433,14 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - Drop the face labels. Poisson power needs a 99th percentile ≥ 1.
     - F eligibility is ≥ 10 dev and ≥ 3 held-out next-tokens. Plant ceil(0.4n). Use 30 true claims. Use the p34 summed-secondary null.
   - **Decision:** all fixes applied. The study now calibrates form F, which sits behind the two S meaning rows (murukan partners, six + fish). Sealed 2026-11-24T09:02:39Z: prereg, load.py, fcore.py, kill.py.
+- 2026-11-24 meaning_calibration v1 kill test FAILED.
+  - Planted power was 0.455, against a bar of 0.8. False alarm was 0 of 1,000.
+  - All 85 failures came from the p-floor of one-partner nulls (fewer than 99 pseudo-partners). All 71 planted heads with 99 or more survived.
+  - E (object-class) power is enough on only 5-6 of 467 tokens.
+  - Sealed stop. Atlas 3.5 added. No scorecard change: the murukan row uses a pairs null, and rule4 is not used one-partner anywhere else (checked by grep).
+- **Fable advice:** run a sealed v2 with three changes:
+  - a resolution gate (99 or more dev pseudo-sets, else "U-resolution");
+  - plants of a main partner plus 1-2 secondaries, as the real rows use;
+  - a coverage bar of at least 50% of eligible heads, with fresh seeds 20261125+k.
+  - The v1 failure stays in the ledger, and the v2 kill test is disclosed as confirmatory. If v2 fails, stop for good. Study 2 (R-row symmetry audit) comes next either way.
+- **Decision:** follow this advice.

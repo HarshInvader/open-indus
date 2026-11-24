@@ -472,3 +472,6 @@ f5e25673848f297fa785f08c1eae2c6dafc7a9528cdd9476c3bda0b5278c3201  docs/prereg/me
 dbe1011574ebae741fce72e8e4836a309c1f1e538cf134985c2099088587a99d  experiments/meaning_calibration/load.py  2026-11-24T09:02:39Z  meaning_calibration
 a276018f4d3613aa7ae0a32c61d7c3874d6478522a911230c80415ae7afa06f0  experiments/meaning_calibration/fcore.py  2026-11-24T09:02:39Z  meaning_calibration
 c27382309e74b59b5f38131fe5ecf2d15376222e23206d46bd8c4dfc25e35019  experiments/meaning_calibration/kill.py  2026-11-24T09:02:39Z  meaning_calibration
+0ae7929c4dfaa532ec3dd1aedec0784cb8d3588d64d8888450c2f3b4d6b89b34  docs/prereg/meaning_calibration_v2.md  2026-11-24T09:05:22Z  meaning_calibration_v2
+96ae071e962ff0e44dce3721796bbe68a496990f8f3ea4e33c4d351a7161174d  experiments/meaning_calibration/fcore2.py  2026-11-24T09:05:22Z  meaning_calibration_v2
+a755e044fa0c9243a83b715b0b53863f6a6d70a620492c7934ebaf41e5651e3d  experiments/meaning_calibration/kill2.py  2026-11-24T09:05:22Z  meaning_calibration_v2

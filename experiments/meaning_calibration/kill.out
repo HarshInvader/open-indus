@@ -1,0 +1,143 @@
+{
+ "F": {
+  "power": 0.455,
+  "n_planted": 156,
+  "skipped": 44,
+  "power_by_bin": {
+   "10-19": {
+    "n": 64,
+    "power": 0.75
+   },
+   "20-49": {
+    "n": 51,
+    "power": 0.451
+   },
+   "50-": {
+    "n": 41,
+    "power": 0.0
+   }
+  },
+  "power_by_class": {
+   "ideogram/measure": {
+    "n": 61,
+    "power": 0.393
+   },
+   "numeral": {
+    "n": 17,
+    "power": 0.294
+   },
+   "word": {
+    "n": 78,
+    "power": 0.538
+   }
+  },
+  "false_alarm": 0.0,
+  "n_false_alarm": 1000,
+  "passed": false
+ },
+ "eligible_every_draw": {
+  "n": 62,
+  "by_class": {
+   "ideogram/measure": 22,
+   "numeral": 17,
+   "word": 23
+  },
+  "heads": [
+   "*146",
+   "*189",
+   "1",
+   "10",
+   "100",
+   "11",
+   "12",
+   "2",
+   "20",
+   "3",
+   "30",
+   "4",
+   "40",
+   "5",
+   "50",
+   "6",
+   "7",
+   "8",
+   "9",
+   "AROM",
+   "BIG",
+   "CAP:f",
+   "CAP:m",
+   "DA",
+   "GRA",
+   "LANA",
+   "M",
+   "MUL",
+   "OLE",
+   "OVIS:f",
+   "OVIS:m",
+   "P",
+   "S",
+   "SA",
+   "T",
+   "TA",
+   "TELA;1",
+   "TUN",
+   "V",
+   "VIR",
+   "X",
+   "Z",
+   "ZE",
+   "da-*22-to",
+   "da-wo",
+   "e-ke",
+   "e-ko-so",
+   "ki",
+   "ko-to-na",
+   "ko-wa",
+   "ko-wo",
+   "ku-ta-to",
+   "o",
+   "o-na-to",
+   "pa",
+   "pa-ro",
+   "pe",
+   "pe-mo",
+   "qa-ra",
+   "ri-jo-no",
+   "ru-ki-to",
+   "ti-ri-to"
+  ]
+ },
+ "draws": [
+  {
+   "k": 0,
+   "n_dev": 1680,
+   "n_held": 565,
+   "n_eligible": 83
+  },
+  {
+   "k": 1,
+   "n_dev": 1680,
+   "n_held": 565,
+   "n_eligible": 84
+  },
+  {
+   "k": 2,
+   "n_dev": 1680,
+   "n_held": 565,
+   "n_eligible": 80
+  },
+  {
+   "k": 3,
+   "n_dev": 1680,
+   "n_held": 565,
+   "n_eligible": 79
+  },
+  {
+   "k": 4,
+   "n_dev": 1680,
+   "n_held": 565,
+   "n_eligible": 77
+  }
+ ]
+}
+{'sealing': {'n_tokens': 467, 'n_powered': 5, 'n_class_docs': 134}, 'sealing+vase': {'n_tokens': 467, 'n_powered': 6, 'n_class_docs': 188}}
