@@ -1,0 +1,43 @@
+Q1 {'statistic': 'rho', 'published': -0.1680865545396352, 'reproduced': -0.1680865545396352, 'match': True, 'source': 'm328_measure/l2_results.json Q1 (RESULTS.md: -0.17, n 275)', 'detail': {'p': np.float64(0.9878012198780122), 'n': 275}, 'seconds': 1.2}
+Q2 {'statistic': 'rho', 'published': 0.07573257373149819, 'reproduced': 0.07573257373149819, 'match': True, 'source': 'm328_measure/l2_results.json Q2 (RESULTS.md: +0.08, n 300)', 'detail': {'p': np.float64(0.193980601939806), 'n': 300}, 'seconds': 1.2}
+Q3 {'statistic': 'chi2', 'published': 28.207299806428097, 'reproduced': 28.207299806428097, 'match': True, 'source': 'm328_measure/l2_results.json Q3 (RESULTS.md: chi2 28.2, n 215)', 'detail': {'p': 0.43175682431756823, 'shape': [10, 4], 'n': 215}, 'seconds': 0.5}
+T1 {'statistic': 'G', 'published': 42.76895914121987, 'reproduced': 42.76895914121987, 'match': True, 'source': 'tablet_archives/results.json T1 (RESULTS.md: p 0.83, 153 units, 22 deposits)', 'detail': {'p': 0.8348165183481652, 'units': 153, 'deposits': 22}, 'seconds': 0.1}
+T3 {'statistic': 'S', 'published': 100.99545622748444, 'reproduced': 100.99545622748444, 'match': True, 'source': 'tablet_archives/results.json T3 (prereg: S = 101.0)', 'detail': {'p': 0.7428257174282572, 'groups': 237, 'features': 46}, 'seconds': 1.2}
+EMB {'statistic': 'auc', 'published': 0.5156110592385101, 'reproduced': 0.5156110592385101, 'match': True, 'source': 'animal_tie_power/full.json real_indus.auc_bin (RESULTS.md: AUC 0.516, p 0.31)', 'detail': {'n': 1149}, 'seconds': 0.1}
+SJ {'statistic': 'ratio', 'published': 0.739, 'reproduced': 0.739, 'match': True, 'source': 'signmap/strokedjar_result.json SJ ratio (prereg: 0.74; 17 vs 23.0)', 'detail': {'obs': 17, 'exp': 23.0, 'p_enrich': 0.9594040595940406, 'n': 384}, 'seconds': 1.4}
+RND {'statistic': 'excess', 'published': -0.09548841085517358, 'reproduced': -0.09548841085517358, 'match': True, 'source': 'round_own_order/real.json round_loo.excess (prereg: -0.10)', 'detail': {'p': 0.8301698301698301, 'found': False, 'n': 32}, 'seconds': 0.0}
+rows UNCHECKED by reproduce mismatch: []
+32 candidate cells -> planted power, 4 workers
+EMB parpola {'status': 'testable', 'n': 1149, 'power': 1.0, 'seconds': 23.7}
+EMB lump_fish {'status': 'testable', 'n': 1149, 'power': 1.0, 'seconds': 23.1}
+EMB lump_numerals {'status': 'testable', 'n': 1149, 'power': 1.0, 'seconds': 27.5}
+EMB split_s1 {'status': 'testable', 'n': 1149, 'power': 0.9444444444444444, 'seconds': 41.7}
+EMB split_s2 {'status': 'testable', 'n': 1149, 'power': 1.0, 'seconds': 25.9}
+EMB split_s3 {'status': 'testable', 'n': 1149, 'power': 1.0, 'seconds': 23.0}
+EMB other_edition {'status': 'testable', 'n': 1409, 'power': 1.0, 'seconds': 34.1}
+Q2 other_edition {'status': 'testable', 'n': 189, 'power': 0.9133333333333333, 'seconds': 15.3}
+Q3 other_edition {'status': 'testable', 'n': 235, 'power': 1.0, 'seconds': 4.9}
+T1 other_edition {'status': 'testable', 'n': 199, 'power': 1.0, 'seconds': 1.6}
+T3 M77 {'status': 'testable', 'n': 237, 'power': 0.985, 'seconds': 26.0}
+T3 parpola {'status': 'testable', 'n': 237, 'power': 0.985, 'seconds': 21.8}
+T3 lump_fish {'status': 'testable', 'n': 237, 'power': 0.985, 'seconds': 21.0}
+T3 lump_numerals {'status': 'testable', 'n': 237, 'power': 0.985, 'seconds': 22.0}
+T3 lump_jar_man {'status': 'testable', 'n': 237, 'power': 0.965, 'seconds': 20.9}
+T3 split_s1 {'status': 'testable', 'n': 237, 'power': 0.96, 'seconds': 22.7}
+T3 split_s2 {'status': 'testable', 'n': 237, 'power': 0.99, 'seconds': 21.7}
+T3 split_s3 {'status': 'testable', 'n': 237, 'power': 1.0, 'seconds': 17.8}
+T3 other_edition {'status': 'testable', 'n': 141, 'power': 0.915, 'seconds': 9.6}
+SJ other_edition {'status': 'NT', 'n': 115, 'gate_texts': 235, 'power': 0.6490841475040616, 'seconds': 0.0, 'reason': 'power 0.649 < 0.8 (the list masks the effect)'}
+RND M77 {'status': 'testable', 'n': 32, 'power': 1.0, 'seconds': 6.4}
+RND parpola {'status': 'testable', 'n': 32, 'power': 1.0, 'seconds': 6.4}
+RND lump_fish {'status': 'testable', 'n': 32, 'power': 1.0, 'seconds': 6.4}
+RND lump_numerals {'status': 'testable', 'n': 32, 'power': 1.0, 'seconds': 6.4}
+RND lump_jar_man {'status': 'testable', 'n': 32, 'power': 0.995, 'seconds': 6.4}
+RND lump_all {'status': 'testable', 'n': 32, 'power': 0.995, 'seconds': 6.5}
+RND img_hi {'status': 'testable', 'n': 32, 'power': 0.995, 'seconds': 6.5}
+RND img_mid {'status': 'testable', 'n': 32, 'power': 0.99, 'seconds': 6.5}
+RND img_lo {'status': 'testable', 'n': 32, 'power': 0.99, 'seconds': 6.5}
+RND split_s1 {'status': 'testable', 'n': 32, 'power': 0.98, 'seconds': 6.5}
+RND split_s2 {'status': 'testable', 'n': 32, 'power': 0.99, 'seconds': 6.5}
+RND split_s3 {'status': 'testable', 'n': 32, 'power': 0.965, 'seconds': 6.4}
+wrote power.json; commit it before running test mode
