@@ -469,3 +469,5 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **Counts:** S 10, U 27, R 7, N 17, P 4.
   - Site rebuilt with an update entry, since a tier changed. Not deployed.
   - **Next:** a 95%-coverage ladder point plus the Scott key bench, then study 3 (anchor-recovery ceiling for L2 in Linear B).
+- 2026-11-24 lb_shape_ladder addendum 1 (sealed): refute holds at 95% coverage (20 of 20, control 1) and at 90% (17 of 20, control 0). The coverage standard drops to 90%, so the Scott (Dunn) key (~95%) is benchable refute-only.
+- The coordinator asked for at most 3 subagents at once, for rate limits.

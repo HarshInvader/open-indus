@@ -1,0 +1,16 @@
+{
+ "R95": {
+  "refute_n": 20,
+  "shuffled_refute_n": 1,
+  "passes": true,
+  "true_ic_mean": 0.18217899825690528,
+  "n1_p99_mean": 0.16376393654776783
+ },
+ "R90": {
+  "refute_n": 17,
+  "shuffled_refute_n": 0,
+  "passes": true,
+  "true_ic_mean": 0.14926871399831237,
+  "n1_p99_mean": 0.13767407263391937
+ }
+}

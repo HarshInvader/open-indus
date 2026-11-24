@@ -493,3 +493,6 @@ f7fe765c6923fd1e67cd840d8b0b289022c1d129f8e2dc10c4339511102e4b3f  experiments/r_
 b4fb805634ef5391dcffe9cd615dbe3430b3cd2b8db48bc29800377993bde506  experiments/r_symmetry/copied_round.py  2026-11-24T09:38:31Z  r_symmetry code
 f9be1ee096ad6f9f99cf7bcf0c5a6b1c6697936445fa02f9f1dbf365825708b0  experiments/r_symmetry/copied_strokedjar.py  2026-11-24T09:38:31Z  r_symmetry code
 e5dcdb3b02de0d8c9f991c08215991cd327c0652149284756b615f2aa032ccf9  docs/prereg/scorecard_addendum5.md  2026-11-24T09:43:11Z  scorecard addendum 5
+e019a7e15dce9d8ff4ee062e42f2a915d5b23246c40a57ca7f6edef6618c1c78  docs/prereg/lb_shape_ladder_add1.md  2026-11-24T09:57:21Z  lb_shape_ladder addendum 1
+d810f155637815daaea93744ea6136e3ba1c1d3a01b0604415c0e6f6810fd874  experiments/lb_shape_ladder/coverage.py  2026-11-24T09:57:21Z  lb_shape_ladder addendum 1
+c64287100c149d00b3f8ed41c2974245d36b7bab1c654f225f64b3d72004d7e7  experiments/lb_shape_ladder/coverage.py  2026-11-24T11:56:51Z  lb_shape_ladder addendum 1 (import fix before any run; supersedes previous hash)

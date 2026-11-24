@@ -41,3 +41,15 @@ Kill test (R3, subsample 0): true 0.150, against a shuffled 99th percentile of 0
 - **One script, one lexicon.** The lexicon is Homeric, not Mycenaean. A claimant's later, related language is the same kind of mismatch, but its density differs. LMIN must be recomputed for each lexicon by the frozen rule (smallest L with 25% or less density).
 - **Margins are modest.** At R1 the true key's mean is 0.204 against a 99th percentile of 0.182. A claimant key with looser value rules (more free choices per sign) needs its own planted-power check before a failure counts.
 - **Scope.** The certify result is for hill-climbing with 3,000 swaps. Stronger fitting would only widen the gap.
+
+## Addendum 1: refute at 90% and 95% coverage (2026-11-24, prereg `lb_shape_ladder_add1.md`)
+| rung | coverage | refute (of 20) | shuffled-text control (of 20) | true IC / N1 99th pct (means) | passes |
+|---|---|---|---|---|---|
+| R95 | 95% | **20** | 1 | 0.182 / 0.164 | yes |
+| R90 | 90% | **17** | 0 | 0.149 / 0.138 | yes (bar 16) |
+
+- **The refute standard now needs about 90% token coverage**, not 100%.
+- Keys with 90% coverage or more can be benched refute-only, with their blank signs left unkeyed.
+- Below 90%, and certainly at 74%, fit cannot count against a key.
+- The margin at R90 is thin, so a key with looser value rules still needs its own planted-power check.
+- **Code note.** `coverage.py` was fixed before any run: it failed at import because of a module-name clash, and its hash was re-recorded.
