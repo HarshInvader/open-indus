@@ -48,6 +48,10 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - both together: fails, 12/20.
   - So Scott's "untestable" is what the bench predicts for a key of her shape, even a fully right one. Yajnadevam's key (1.00 values per sign) is not explained by these dials; his matcher's looseness was not dialled.
   - No rerun of either key is licensed.
+- **Wrong lexicon and matcher dial, 2026-11-24 (`experiments/lb_wrong_lexicon`).** Same true key, about 4,000 tokens:
+  - Against other lexicons at Homer's density: modern Greek 17/20, Indonesian 14, Hungarian 10, Finnish 6. Reading: **partly language-specific**. Spanish (report-only, unmatched density) passes 20/20, so a refute pass is consistent with the claimed language but does not identify it.
+  - At LMIN 5 the true key passes only 8/20 with no added looseness, so matcher looseness cannot be separated from the word-length cut on this text shape. Whether looseness explains `yj_ic_refute`'s low planted power is **not answered**; that corpus has far more long segments (47.4% vs 18.6%).
+  - No rerun of any key is licensed.
 
 ### 1.2 Ventris grid (phonetic_grid)
 - **Question.** Do signs fall into consonant/vowel series, as Linear B signs do in a Ventris grid?

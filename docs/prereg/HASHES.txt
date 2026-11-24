@@ -524,3 +524,5 @@ f628e1ea6f0769b131dd3be5f579962039c3e3b5d11634d0923a87fcc41d4eb3  docs/prereg/si
 92c00166a9de4e1e9ce182bc84985994c64378bd63b44c6a3d91ebebd2db7010  docs/prereg/lb_formula_dial.md  2026-11-24T18:19:13Z  lb_formula_dial
 d1d50b2e61ba4686de465b9f2cbacf079283a4a50c0567703600c654bc71ff27  experiments/lb_formula_dial/run.py  2026-11-24T18:31:11Z  lb_formula_dial_code
 b4b818bd52e95128d1a2481ffa6c18d2653c61f8d632986aaa449aa435a6ecc0  experiments/lb_formula_dial/smoke.py  2026-11-24T18:31:11Z  lb_formula_dial_code
+fe985a383317e65129cb2cd568707d42db289c716406114fcdd76c6c35dbd7d8  docs/prereg/lb_wrong_lexicon.md  2026-11-24T19:22:14Z  lb_wrong_lexicon
+d8d86e14fa192063964b3b853be71f099848a46e036925cbb854404ca23aa12b  experiments/lb_wrong_lexicon/run.py  2026-11-24T19:29:54Z  lb_wrong_lexicon_code

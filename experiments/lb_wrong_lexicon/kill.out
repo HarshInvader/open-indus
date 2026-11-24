@@ -1,0 +1,35 @@
+{
+ "builder": true,
+ "F1_built": 18,
+ "K3": {
+  "mismatches": [],
+  "passed": true,
+  "bounds_met": {
+   "H": true,
+   "G": true,
+   "Fi": true,
+   "Id": true,
+   "Hu": true,
+   "Es": false,
+   "Od": false
+  },
+  "usable_for_readings": [
+   "G",
+   "Fi",
+   "Id",
+   "Hu"
+  ]
+ },
+ "rungs_run": {
+  "B0": true,
+  "B1": true,
+  "B2": true,
+  "B3": true
+ },
+ "wrong_key_void_draws": [],
+ "seg_share_ge5": 0.18575757575757576
+}
+K1 {"P": 20, "scrambled_passes": 0, "match_1e9": true, "passed": true}
+K1 rerun (patched LMIN 5 -> 4) {"P": 20, "scrambled_passes": 0, "match_1e9": true, "passed": true}
+K2 {"void_cells": [], "pooled_rate": 0.0, "passed": true}
+kill passed; kill.json written

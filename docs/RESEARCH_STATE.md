@@ -590,3 +590,20 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - Scott's "untestable" is predicted by her key's shape. Yajnadevam's is not explained, since his matcher looseness was not dialled.
     - Atlas 1.1 gained a line. No reruns, no tier change.
   - Next in brief 9: (2) `lb_wrong_lexicon`. Consider adding a matcher-looseness dial for the Yajnadevam case.
+- 2026-11-24 **`lb_wrong_lexicon` DONE** (brief 9 study 2, plus the matcher dial asked for by the coordinator).
+  - The prereg went through three fresh Fable reviews: v2 got FIX for Arm A and REDESIGN for Arm B; v3 got FIX 7; v4 got SEAL-WITH-EDITS 7, including a K2 try cap of 100,000. It was sealed as v5, then the code was sealed. Kill test first.
+  - **Kill passed.**
+    - K3 densities matched.
+    - K1 reproduced 20/20 to 1e-9, including after the LMIN patch.
+    - K2 had 0/260 wrong-key passes.
+    - KG, the planted modern Greek answer, scored 17/20.
+  - **Arm A: "Partly language-specific."**
+    - Lexicon passes: H 20, G 17, Id 14, Hu 10, Fi 6.
+    - Report-only Spanish passed 20/20, so a refute pass doesn't identify the language.
+  - **Arm B: "LMIN 5 alone removes power."**
+    - The F0 control scored 8/20; B2 7 and B3 9, with no separable effect from looseness.
+    - At LMIN 4 (report-only), looseness costs 1-2 passes.
+  - **Consequence:**
+    - The coordinator's question (does matcher looseness explain Yajnadevam's low planted power?) is not answered, because that corpus has 47.4% of consonants in long segments against 18.6% here.
+    - RESULTS stays neutral on him. Atlas 1.1 gained a line. There are no reruns and no tier change.
+  - Next: Fable ranking, which includes whether to do a follow-up with fixed LMIN on a long-segment text shape.

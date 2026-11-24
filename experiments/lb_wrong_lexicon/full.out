@@ -1,0 +1,223 @@
+KG {"G x F0 x L4": 17}
+B0 x LMIN 5 controls {"H x F0 x L5": 8, "H x F1 x L5": 6}
+B1-B3 {"B1 x F0 x L5": 8, "B1 x F1 x L5": 8, "B1 x F0 x L4": 19, "B1 x F1 x L4": 17, "B2 x F0 x L5": 7, "B2 x F1 x L5": 5, "B2 x F0 x L4": 18, "B2 x F1 x L4": 15, "B3 x F0 x L5": 9, "B3 x F1 x L5": 5}
+rest {"H x F1 x L4": 16, "Fi x F0 x L4": 6, "Id x F0 x L4": 14, "Hu x F0 x L4": 10, "Es x F0 x L4": 20, "Od x F0 x L4": 20}
+{
+ "cells": {
+  "B1 x F0 x L4": {
+   "P": 19,
+   "scrambled_passes": 0,
+   "band": "pass",
+   "interpretable": true
+  },
+  "B1 x F0 x L5": {
+   "P": 8,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "B1 x F1 x L4": {
+   "P": 17,
+   "scrambled_passes": 1,
+   "band": "pass",
+   "interpretable": true
+  },
+  "B1 x F1 x L5": {
+   "P": 8,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "B2 x F0 x L4": {
+   "P": 18,
+   "scrambled_passes": 1,
+   "band": "pass",
+   "interpretable": true
+  },
+  "B2 x F0 x L5": {
+   "P": 7,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "B2 x F1 x L4": {
+   "P": 15,
+   "scrambled_passes": 1,
+   "band": "edge",
+   "interpretable": true
+  },
+  "B2 x F1 x L5": {
+   "P": 5,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "B3 x F0 x L5": {
+   "P": 9,
+   "scrambled_passes": 1,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "B3 x F1 x L5": {
+   "P": 5,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "Es x F0 x L4": {
+   "P": 20,
+   "scrambled_passes": 0,
+   "band": "pass",
+   "interpretable": true
+  },
+  "Fi x F0 x L4": {
+   "P": 6,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "G x F0 x L4": {
+   "P": 17,
+   "scrambled_passes": 0,
+   "band": "pass",
+   "interpretable": true
+  },
+  "H x F0 x L4": {
+   "P": 20,
+   "scrambled_passes": 0,
+   "band": "pass",
+   "interpretable": true
+  },
+  "H x F0 x L5": {
+   "P": 8,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "H x F1 x L4": {
+   "P": 16,
+   "scrambled_passes": 1,
+   "band": "pass",
+   "interpretable": true
+  },
+  "H x F1 x L5": {
+   "P": 6,
+   "scrambled_passes": 1,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "Hu x F0 x L4": {
+   "P": 10,
+   "scrambled_passes": 0,
+   "band": "clear_fail",
+   "interpretable": true
+  },
+  "Id x F0 x L4": {
+   "P": 14,
+   "scrambled_passes": 1,
+   "band": "edge",
+   "interpretable": true
+  },
+  "Od x F0 x L4": {
+   "P": 20,
+   "scrambled_passes": 0,
+   "band": "pass",
+   "interpretable": true
+  }
+ },
+ "readings": {
+  "not_interpretable": [],
+  "arm_a": {
+   "P": {
+    "H": 20,
+    "G": 17,
+    "Fi": 6,
+    "Id": 14,
+    "Hu": 10,
+    "Es": 20,
+    "Od": 20
+   },
+   "median_margin": {
+    "H": 0.02123181170931286,
+    "G": 0.011040196810947797,
+    "Fi": -0.003598794597926544,
+    "Id": 0.008456144281219644,
+    "Hu": -0.0007137069785686789,
+    "Es": 0.016754160841294136,
+    "Od": 0.02126202764118522
+   },
+   "usable": {
+    "G": true,
+    "Fi": true,
+    "Id": true,
+    "Hu": true
+   },
+   "KG_holds": true,
+   "structure_not_language": false,
+   "language_specific_at_this_shape": false,
+   "partly_language_specific": true,
+   "uninterpretable_no_carry_to_second_right_lexicon": false,
+   "report_only": {
+    "Es": {
+     "P": 20,
+     "density_thinned_4": 0.15851242188690748,
+     "density_thinned_5": 0.013683550949211672
+    },
+    "Od": {
+     "P": 20,
+     "density_thinned_4": 0.12543819539704312,
+     "density_thinned_5": 0.00824738776270555
+    }
+   }
+  },
+  "arm_b": {
+   "P": {
+    "H x F0 x L5": 8,
+    "H x F1 x L5": 6,
+    "B2 x F0 x L5": 7,
+    "B2 x F1 x L5": 5,
+    "B3 x F0 x L5": 9,
+    "B3 x F1 x L5": 5
+   },
+   "interpretable": {
+    "H x F0 x L5": true,
+    "H x F1 x L5": true,
+    "B2 x F0 x L5": true,
+    "B2 x F1 x L5": true,
+    "B3 x F0 x L5": true,
+    "B3 x F1 x L5": true
+   },
+   "lmin5_alone_removes_power": true,
+   "F1_control_below_bar_or_uninterpretable": true,
+   "read_on": "F0 only",
+   "looseness_removes_power": false,
+   "removes_power_at_indus_formula_excess": null,
+   "at_the_edge": [],
+   "no_loss_found": false,
+   "no_loss_at_B2_not_held_at_denser_step": false,
+   "qualifier": "not separable from the LMIN change (F0 x B0 x LMIN 5 below 16)",
+   "paired_discordant": {
+    "B2 x F0 x L5 vs H x F0 x L5": {
+     "pass_control_fail_primary": 4,
+     "fail_control_pass_primary": 3,
+     "draws": 20
+    },
+    "B2 x F1 x L5 vs H x F1 x L5": {
+     "pass_control_fail_primary": 3,
+     "fail_control_pass_primary": 2,
+     "draws": 18
+    }
+   },
+   "report_only": {
+    "H x F0 x L4": 20,
+    "B1 x F0 x L5": 8,
+    "B1 x F1 x L5": 8,
+    "B1 x F0 x L4": 19,
+    "B1 x F1 x L4": 17,
+    "B2 x F0 x L4": 18,
+    "B2 x F1 x L4": 15,
+    "H x F1 x L4": 16
+   }
+  }
+ }
+}
