@@ -227,6 +227,15 @@ The Linear B parse uses `damos_items.jsonl` with Fable's rules; my first parser 
 - 2026-11-24 coordinator: use option (a) (two blind mappers), after 10 minutes checking the claimants' other papers; leave the outside rater with the owner; Iraq Museum email allowed today under the email rule; run the SIGIL re-rating.
 - 2026-11-24 signmap DONE (prereg signmap_figfish_strokedjar sealed 03:58:03Z; addendum 1 03:59:53Z; experiments/signmap/RESULTS.md). No numbers in the claimants' other papers (web search; harappa.com Cloudflare block not bypassed). Blind mappers agree on 8/9 first choices. Stroked jars img1-3 = M343/M344/M345 (high). Fig: M326 vs M325 (low), so PAR-vata-min is untestable by mapping. Stroked-jar count gate 263 >= 30. Sealed pottery test: pooled 17 vs 23.0, ratio 0.74, power 0.96, so REFUTED by the catalogue's own kill condition. M343 0.38x (already seen in self_label, stated); M344 1.25x; M345 2.0x on 5 texts, p 0.09, exploratory.
 - 2026-11-24 scorecard addenda 2 and 3 (blind raters G/H, I/J; all agree): FUN-sigil P->U; MUK19-stroked-jar-MET P->R; PAR-vata-min P->N. Counts now S 11, R 8, U 25, P 4, N 17. finalize.py applies the addenda; the page note says "re-rated after a new sealed test". Site rebuilt locally, not deployed.
+- 2026-11-24 outreach SENT: Iraq Museum photo request for CUSAS 40, 1582 (P516366; seal impression and edges), to the SBAH Relations Department (address from the official SBAH contact page). AgentMail message id <010001a20bb9140c-847fe3e9-6fad-4ebe-9da1-7e2f2fa8ba51-000000@email.amazonses.com>. First new recipient of the day. No follow-up before 2026-12-04.
+- 2026-11-24 key-table hunt DONE (experiments/key_hunt/candidates.md; links only, nothing downloaded). No public key has full coverage. Benchable after transcription:
+  - Scott (Dunn) 2026 MahaSamVani v3 (Zenodo 21522783, CC BY-NC-ND): Mahadevan order, about 350 signs, about 95% token coverage.
+  - Venkatesan 2025-26 (GitHub Sukii/decipher-ivc): about 290 signs, about 91%, many multi-valued.
+  - Field-Cady mapping (local, MIT): 100 signs, 82%, below refutable coverage.
+  - Benching any of them needs a 95%-coverage point on the lb_shape_ladder calibration first (now only 74% and 100%).
+- 2026-11-24 Fable: new studies, prior art checked. Fable says six, not ten; none moves the 2027 bar.
+  - Ranked: (1) meaning-tier calibration on a read script (Linear B / Ur III at Indus shape; about 30 true and 30 matched false claims written by a blind agent; tests plus raters must reach AUC >= 0.8 with true-rated-R <= 10%), start now, 60%; (2) R-row symmetry audit across editions and sign lists, 75%; (3) anchor-recovery ceiling for L2 in Linear B, 60%; (4) tablet picture x text classifier on distinct moulds, 40% powered; (5) non-Claude rater panel (needs a free model route, unverified), 80%; (6) a "what would settle it" table for the U rows (bookkeeping).
+  - Decision: start (1). Queue a 95%-coverage ladder point plus the Scott key bench behind (2).
 
 ## Next unblocked studies, 2026-11-23 (Fable list; owner's standing order: never idle)
 
