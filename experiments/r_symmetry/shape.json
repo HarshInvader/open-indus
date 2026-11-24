@@ -1,0 +1,519 @@
+{
+ "cells": {
+  "Q1": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tall1 sign(s) ['M86'] and outside sign(s) ['M87']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M86_M97_M98_4 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101', 'M97', 'M98']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 275
+   },
+   "other_edition": {
+    "status": "NOT_RUN",
+    "reason": "not run: M77 has no sizes"
+   }
+  },
+  "Q2": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tall1 sign(s) ['M86'] and outside sign(s) ['M87']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M86_M97_M98_4 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101', 'M97', 'M98']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 300
+   },
+   "other_edition": {
+    "status": "candidate",
+    "n": 189
+   }
+  },
+  "Q3": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tall1 sign(s) ['M86'] and outside sign(s) ['M87']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M86_M101 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M86_M97_M98_4 holds tall1 sign(s) ['M86'] and outside sign(s) ['M101', 'M97', 'M98']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 215
+   },
+   "other_edition": {
+    "status": "candidate",
+    "n": 235
+   }
+  },
+  "T1": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_jar_man": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tier2 sign(s) ['M87'] and outside sign(s) ['M86']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M87_M105_M315 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105', 'M315']"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 153
+   },
+   "other_edition": {
+    "status": "candidate",
+    "n": 199
+   }
+  },
+  "T3": {
+   "M77": {
+    "status": "candidate",
+    "n": 237
+   },
+   "parpola": {
+    "status": "candidate",
+    "n": 237
+   },
+   "lump_fish": {
+    "status": "candidate",
+    "n": 237
+   },
+   "lump_numerals": {
+    "status": "candidate",
+    "n": 237
+   },
+   "lump_jar_man": {
+    "status": "candidate",
+    "n": 237
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M86_M87 holds tier2 sign(s) ['M87'] and outside sign(s) ['M86']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M87_M105_M315 holds tier2 sign(s) ['M87'] and outside sign(s) ['M105', 'M315']"
+   },
+   "split_s1": {
+    "status": "candidate",
+    "n": 237
+   },
+   "split_s2": {
+    "status": "candidate",
+    "n": 237
+   },
+   "split_s3": {
+    "status": "candidate",
+    "n": 237
+   },
+   "other_edition": {
+    "status": "candidate",
+    "n": 141
+   }
+  },
+  "EMB": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 1149
+   },
+   "parpola": {
+    "status": "candidate",
+    "n": 1149
+   },
+   "lump_fish": {
+    "status": "candidate",
+    "n": 1149
+   },
+   "lump_numerals": {
+    "status": "candidate",
+    "n": 1149
+   },
+   "lump_jar_man": {
+    "status": "NT",
+    "reason": "label JAR holds jar sign(s) ['M342'] and outside sign(s) ['M343', 'M344', 'M345']"
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "label G_M342_M343_M344_4 holds jar sign(s) ['M342'] and outside sign(s) ['M343', 'M344', 'M345']"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds short sign(s) ['M105'] and outside sign(s) ['M87']"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "label I_M87_M105 holds short sign(s) ['M105'] and outside sign(s) ['M87']"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "label I_M106_M248 holds short sign(s) ['M106'] and outside sign(s) ['M248']"
+   },
+   "split_s1": {
+    "status": "candidate",
+    "n": 1149
+   },
+   "split_s2": {
+    "status": "candidate",
+    "n": 1149
+   },
+   "split_s3": {
+    "status": "candidate",
+    "n": 1149
+   },
+   "other_edition": {
+    "status": "candidate",
+    "n": 1409
+   }
+  },
+  "SJ": {
+   "M77": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "parpola": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "lump_fish": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "lump_numerals": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "lump_jar_man": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "lump_all": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "img_hi": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "img_mid": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "img_lo": {
+    "status": "NT",
+    "reason": "merges M343-M345 with the plain jar M342 (NT by construction)"
+   },
+   "split_s1": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "split_s2": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "split_s3": {
+    "status": "INVARIANT",
+    "n": 384
+   },
+   "other_edition": {
+    "status": "candidate",
+    "n": 115,
+    "gate_texts": 235
+   }
+  },
+  "RND": {
+   "M77": {
+    "status": "candidate",
+    "n": 32
+   },
+   "parpola": {
+    "status": "candidate",
+    "n": 32
+   },
+   "lump_fish": {
+    "status": "candidate",
+    "n": 32
+   },
+   "lump_numerals": {
+    "status": "candidate",
+    "n": 32
+   },
+   "lump_jar_man": {
+    "status": "candidate",
+    "n": 32
+   },
+   "lump_all": {
+    "status": "candidate",
+    "n": 32
+   },
+   "img_hi": {
+    "status": "candidate",
+    "n": 32
+   },
+   "img_mid": {
+    "status": "candidate",
+    "n": 32
+   },
+   "img_lo": {
+    "status": "candidate",
+    "n": 32
+   },
+   "split_s1": {
+    "status": "candidate",
+    "n": 32
+   },
+   "split_s2": {
+    "status": "candidate",
+    "n": 32
+   },
+   "split_s3": {
+    "status": "candidate",
+    "n": 32
+   },
+   "other_edition": {
+    "status": "NOT_RUN",
+    "reason": "not run: only 7 of 32 round texts link to M77"
+   }
+  }
+ },
+ "native": {
+  "Q1": {
+   "n": 275
+  },
+  "Q2": {
+   "n": 300
+  },
+  "Q3": {
+   "n": 215
+  },
+  "T1": {
+   "n": 153
+  },
+  "T3": {
+   "n": 237
+  },
+  "EMB": {
+   "n": 1149
+  },
+  "SJ": {
+   "n": 384
+  },
+  "RND": {
+   "n": 32
+  }
+ },
+ "summary": {
+  "MC-MUK23-cup-vessel-fee": {
+   "Q1": {
+    "INVARIANT": 8,
+    "NT": 4,
+    "NOT_RUN": 1
+   },
+   "Q2": {
+    "INVARIANT": 8,
+    "NT": 4,
+    "candidate": 1
+   },
+   "Q3": {
+    "INVARIANT": 8,
+    "NT": 4,
+    "candidate": 1
+   }
+  },
+  "MC-MUK23-licence-pairing": {
+   "T3": {
+    "candidate": 9,
+    "NT": 4
+   }
+  },
+  "MC-KM-tablets-tokens": {
+   "T1": {
+    "INVARIANT": 8,
+    "NT": 4,
+    "candidate": 1
+   },
+   "T3": {
+    "candidate": 9,
+    "NT": 4
+   }
+  },
+  "MC-MUK23-emblem-organisation": {
+   "EMB": {
+    "INVARIANT": 1,
+    "candidate": 7,
+    "NT": 5
+   }
+  },
+  "MC-MUK19-stroked-jar-MET": {
+   "SJ": {
+    "INVARIANT": 7,
+    "NT": 5,
+    "candidate": 1
+   }
+  },
+  "MC-LAU10-other-language": {
+   "RND": {
+    "candidate": 12,
+    "NOT_RUN": 1
+   }
+  }
+ }
+}

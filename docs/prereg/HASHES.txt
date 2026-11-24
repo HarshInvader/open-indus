@@ -485,3 +485,10 @@ cd0a429c1e1c04d8bd2814a4d84240346cf434194de330a13943f4cb58460b80  experiments/me
 9c395c48e5fbe9fcf23512119d1e163c9aa665ad3768fd5c8e96b0ecef982472  experiments/meaning_calibration/kill2.json  2026-11-24T09:08:48Z  meaning_calibration_v2 addendum1
 e13909006ba03b209cd44ff8e9fd0c8c3b4e7dc8cfc681b5bffa5eeff915ece1  docs/prereg/scorecard_addendum4.md  2026-11-24T09:12:28Z  scorecard addendum 4
 11fc26b35d0a0b897ed2ca856e456586e2ffeadb61c74f56f38e88cb91c6c507  docs/prereg/r_symmetry.md  2026-11-24T09:20:30Z  r_symmetry design
+f8cbedca97e5a6a9d2e4c4441c40e176c766435e341965922272490b6b53d449  docs/prereg/r_symmetry_addendum1.md  2026-11-24T09:38:31Z  r_symmetry code
+81aaf2734e9730e06ee5b495cab0d2b127394263bece28e8dce0b94fd46c2f9b  experiments/r_symmetry/maps.py  2026-11-24T09:38:31Z  r_symmetry code
+1ce696c6042c797029acda93d45f9dcbaf74d45e68b58def6a0f97dd7f017330  experiments/r_symmetry/run.py  2026-11-24T09:38:31Z  r_symmetry code
+ce2dfec4836a7fffddfdec84b75860e41873250c75c394ed7a4396035b69e1d9  experiments/r_symmetry/summarise.py  2026-11-24T09:38:31Z  r_symmetry code
+f7fe765c6923fd1e67cd840d8b0b289022c1d129f8e2dc10c4339511102e4b3f  experiments/r_symmetry/copied_t_tests.py  2026-11-24T09:38:31Z  r_symmetry code
+b4fb805634ef5391dcffe9cd615dbe3430b3cd2b8db48bc29800377993bde506  experiments/r_symmetry/copied_round.py  2026-11-24T09:38:31Z  r_symmetry code
+f9be1ee096ad6f9f99cf7bcf0c5a6b1c6697936445fa02f9f1dbf365825708b0  experiments/r_symmetry/copied_strokedjar.py  2026-11-24T09:38:31Z  r_symmetry code
