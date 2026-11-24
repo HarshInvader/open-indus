@@ -578,3 +578,15 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - 10 anchored values give only about 2 runs of 4+ signs in M77, so clause (b) of the bar can only be met by a non-fit prediction.
   - Ranked: (1) `lb_formula_dial`, (2) `lb_wrong_lexicon`, (3) `ur3_legend_refute`, (4) `certify_size_curve` (Old Assyrian), (5) `lift_certify`, (6) `restoration_vs_icit` (internal structure: needs the coordinator's OK), (7) `key_saturation_column`.
   - **Decision:** start (1).
+- 2026-11-24 **`lb_formula_dial` DONE.** Fable drafted the prereg; it went through two fresh Fable reviews (FIX 10, then FIX 6), was sealed as v4, then the code was sealed. Kill test first.
+  - **Kill:** K1 reproduced R1 exactly (20/20, scrambled 0, values to 1e-9). D1 was unreachable and dropped, as frozen. G0 did not apply (0.127 against 0.159).
+  - **Reading: "Both needed."**
+    - F1 × 1.0 passes, 16/20 (at the bar; scrambled 1).
+    - F0 × 1.18 passes, 17/20.
+    - F1 × 1.18 fails, 12/20.
+    - r = 1.07: the loss is in the signal, not the null width.
+    - Stress rungs: F2 × 1.0 10/20; about 1.8 values per sign gives 1-2/20.
+  - **Consequence:**
+    - Scott's "untestable" is predicted by her key's shape. Yajnadevam's is not explained, since his matcher looseness was not dialled.
+    - Atlas 1.1 gained a line. No reruns, no tier change.
+  - Next in brief 9: (2) `lb_wrong_lexicon`. Consider adding a matcher-looseness dial for the Yajnadevam case.

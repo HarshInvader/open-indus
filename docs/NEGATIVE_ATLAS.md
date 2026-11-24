@@ -42,6 +42,12 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Prereg.** None.
 - **Reopen with.** A key with one value per sign, fixed before it is scored, that beats noise-fitted keys with the same freedom.
 - **Scott (Dunn) LIS v3, 2026-11-24 (`experiments/scott_ic_refute`).** Coverage 94.4%. The sealed refute-only IC bench is **untestable at stated power**: a fully right planted key beats the real null width (0.061) in 0 of 5 corpora (and 0 of 40), and random keys under her rules fit 70% of consonants at LMIN 4. Her key was not scored; it is neither refuted nor supported by fit.
+- **Tested limit of the standard, 2026-11-24 (`experiments/lb_formula_dial`).** On the true Linear B key at about 4,000 tokens:
+  - Indus formula excess alone: still refutes, 16/20, at the bar;
+  - looseness of 1.18 values per sign alone: still refutes, 17/20;
+  - both together: fails, 12/20.
+  - So Scott's "untestable" is what the bench predicts for a key of her shape, even a fully right one. Yajnadevam's key (1.00 values per sign) is not explained by these dials; his matcher's looseness was not dialled.
+  - No rerun of either key is licensed.
 
 ### 1.2 Ventris grid (phonetic_grid)
 - **Question.** Do signs fall into consonant/vowel series, as Linear B signs do in a Ventris grid?

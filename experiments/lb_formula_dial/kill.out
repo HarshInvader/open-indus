@@ -1,0 +1,57 @@
+{
+ "n_k": [
+  4015,
+  4012,
+  4025,
+  3963,
+  4020,
+  3948,
+  4100,
+  4022,
+  3994,
+  3935,
+  4009,
+  4062,
+  4074,
+  3998,
+  4086,
+  3995,
+  4014,
+  4057,
+  4148,
+  4009
+ ],
+ "targets": {
+  "F1": 0.15870648237238402,
+  "F2": 0.23805972355857602
+ },
+ "tol": 0.005,
+ "f0_median_excess": 0.12656671831036082,
+ "G0_applied": false,
+ "gate": {
+  "F1": {
+   "reachable": true,
+   "failed": 2
+  },
+  "F2": {
+   "reachable": true,
+   "failed": 2
+  },
+  "D1": {
+   "reachable": false,
+   "failed": 20
+  },
+  "1.18": {
+   "reachable": true,
+   "failed": 0
+  },
+  "2.0": {
+   "reachable": true,
+   "failed": 0
+  }
+ },
+ "study_stopped_F1_unreachable": false,
+ "seconds": 79.3
+}
+{"P": 20, "scrambled_passes": 0, "match_1e9": true, "passed": true}
+{"median_W_F0": null, "median_W_D1": null, "ratio": null, "passed": false}

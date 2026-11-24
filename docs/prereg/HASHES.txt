@@ -521,3 +521,6 @@ f628e1ea6f0769b131dd3be5f579962039c3e3b5d11634d0923a87fcc41d4eb3  docs/prereg/si
 3865a593cf156eb5e786820233108c9b42083e1761eb1850cfcd86610dc7d45b  experiments/sizing_census/calc.py  2026-11-24T17:30:33Z  sizing_census_code
 47ceebe83825122f995d6a40140f9199af98acae0e3f8b944e67c03fa798a78c  experiments/sizing_census/shapes.json  2026-11-24T17:30:33Z  sizing_census_code
 6be9b6447d5648ee5b634e8cf2a11dc093227c676b1dacca52a9d016cc71d784  docs/prereg/sizing_census.md  2026-11-24T17:38:19Z  sizing_census_redact (line 168: local absolute path replaced by a description; no other change; earlier hash f628e1ea... was the sealed text)
+92c00166a9de4e1e9ce182bc84985994c64378bd63b44c6a3d91ebebd2db7010  docs/prereg/lb_formula_dial.md  2026-11-24T18:19:13Z  lb_formula_dial
+d1d50b2e61ba4686de465b9f2cbacf079283a4a50c0567703600c654bc71ff27  experiments/lb_formula_dial/run.py  2026-11-24T18:31:11Z  lb_formula_dial_code
+b4b818bd52e95128d1a2481ffa6c18d2653c61f8d632986aaa449aa435a6ecc0  experiments/lb_formula_dial/smoke.py  2026-11-24T18:31:11Z  lb_formula_dial_code
