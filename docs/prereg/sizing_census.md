@@ -165,6 +165,6 @@ Agent `paper`. Main lines (a) and (b). Fable's ranked study 1 of 2026-11-24 (aft
 4. Run `shapes.py` to write `cases.json`; write `sealed.json` by hand from the sealed files; hash both.
 5. Kill test → commit `kill.json` → census → curve leg → RESULTS.
 - **Cost:** under 1 hour on 4 workers, `nice -n 20`.
-- **Lock:** `mkdir /Users/harsha/Desktop/Personal/open-citizen-science/.local/compute.lock.indus` before any run; removed after. `board/run.sh` is not relied on for this.
+- **Lock:** the Indus compute lock (`mkdir` of `compute.lock.indus` in the shared local folder) before any run; removed after. `board/run.sh` is not relied on for this.
 - **Memory:** `memory_pressure | tail -1` must show ≥ 20% free before each step; otherwise wait.
 - Changes after sealing go in `sizing_census_add1.md`, hashed before the affected step.
