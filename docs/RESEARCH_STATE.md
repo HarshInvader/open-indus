@@ -534,3 +534,12 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - Sizing run: bovine power 0.03 at realised δ 0.10/0.14, and 0.40 at δ 0.24 (20/40 feasible, not counted). False alarms A 4/400, B 13/400.
   - Atlas 5.7 updated. No scorecard change; main line (b) unchanged; nothing published.
   - Next: study 3 in Fable's ranking, the edition full-text sweep for stamp-sealed tablets (kill test: recall ≥ 0.8). Before it, a fresh Fable ranking per the standing order.
+- 2026-11-24 **Fable's ranking after `tablet_pic_text`.**
+  - The edition sweep no longer goes first. It needs a positives count first: only one firm stamped tablet is known (YBC 5447), and `sealing_hunt` found no stamp notes in 135,198 CDLI texts.
+  - Ranked:
+    1. **Sizing census** (absorbs the documents-per-word curve). For each open route, find n and the smallest detectable effect. Kill test: it must reproduce at least 4 of 5 known outcomes (the 3 stops; unicorn in `animal_tie_power`, C6/C9 in `harp_pack`). 85%; half a day. It becomes a count gate before any new prereg.
+    2. **Positives count gate for the edition sweep.** Needs at least 10 period-appropriate stamped tablets with open editions. 20%; 2 hours.
+    3. **Email Fuls for the ICIT picture-code list.** Reply odds 30%; powered at about 136 rows 35%.
+    4. **HARP pack readiness** before the sheet arrives (about 2027-01-05).
+  - **Odds for the 2027 bar: about 0.3%,** effectively bilingual-only.
+  - **Decision:** run 1 next, then the item 2 count. Item 3 (outreach) goes to the coordinator for approval and is not sent yet. `KEY-scott` stays batched with addendum 6.
