@@ -510,3 +510,11 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - The "supervised-only ceiling" is dropped, replaced by a recovery vs documents-per-word curve (a minimum-count rule for the U-row table).
     - Per-sign held-out profile tests at 2-5 documents are presumed untestable: sign × object, sign × site and the copper emblem out of sample.
   - **Decision:** run them in that order.
+- 2026-11-24 **Scott (Dunn) key bench** (`scott_ic_refute`).
+  - Fable drafted the prereg. A fresh Fable review returned FIX with 10 edits, all applied. Licensing fixes: `/.local/` is now in `.gitignore`, and the values quoted in `key_hunt/candidates.md` are redacted in the working tree. Whether to rewrite the history of commit fa6d5e6 is the owner's call.
+  - 7 hand overrides, sealed before any code ran.
+  - **Result:** coverage 94.4%. K2 failed at LMIN 4 (random keys fit 0.70) and passed at LMIN 5 (0.43). W_real was 0.061. **K1: 0 of 5 → untestable at stated power.** Her key was not scored.
+  - The plant was not formula-faithful (bigram share 0.195 against 0.295), so the power is an upper bound.
+  - Atlas 1.1 gained a line.
+  - Scorecard row `KEY-scott` still needs sealed addendum 6 (fresh blind raters); not started.
+  - Next: study 2 in Fable's ranking (tablet picture × text on distinct moulds, class level).

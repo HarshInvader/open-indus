@@ -510,3 +510,5 @@ a7355ffbb5f3db27983a0968d2109f61b173e3b436ca1b627cd17f4c02a46d46  docs/prereg/an
 c3b6e334997837e690c95d920cd378717a3d7c1af68370ccd841db05d00e1b82  docs/prereg/scott_ic_refute.md  2026-11-24T12:25:58Z  scott_ic_refute design (after fresh Fable review; before run code)
 37018098283753d4358406c7843ad4974b902f69524e658aa7c9432c43525a4d  experiments/scott_ic_refute/values.py  2026-11-24T12:25:58Z  scott_ic_refute design (after fresh Fable review; before run code)
 3223b902581f5120f3eb04671ac6022c9d9867001af1558043b089af07ff5e8a  .local/scott_lis/overrides.csv(local, not committed)  2026-11-24T12:25:58Z  scott_ic_refute overrides (7 rows)
+b83b5936242600b5c4f20213ff7fa1f9055a1ca36e5240a96471e949bc576ec9  docs/prereg/scott_ic_refute.md  2026-11-24T12:29:00Z  scott_ic_refute code seal (smoke test disclosed; her key not scored)
+934b32dda8fb2291607c16b28e986da92b8a30e4603cb007dc07834ebb234e38  experiments/scott_ic_refute/run.py  2026-11-24T12:29:00Z  scott_ic_refute code seal (smoke test disclosed; her key not scored)

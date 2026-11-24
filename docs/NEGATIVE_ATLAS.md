@@ -41,6 +41,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
 - **Folder.** `experiments/language`, `experiments/literature`.
 - **Prereg.** None.
 - **Reopen with.** A key with one value per sign, fixed before it is scored, that beats noise-fitted keys with the same freedom.
+- **Scott (Dunn) LIS v3, 2026-11-24 (`experiments/scott_ic_refute`).** Coverage 94.4%. The sealed refute-only IC bench is **untestable at stated power**: a fully right planted key beats the real null width (0.061) in 0 of 5 corpora (and 0 of 40), and random keys under her rules fit 70% of consonants at LMIN 4. Her key was not scored; it is neither refuted nor supported by fit.
 
 ### 1.2 Ventris grid (phonetic_grid)
 - **Question.** Do signs fall into consonant/vowel series, as Linear B signs do in a Ventris grid?

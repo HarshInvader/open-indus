@@ -136,3 +136,4 @@ Vowels are not scored. Each keyed sign gets a set of 1 or more alternative skele
 ## Sealed inputs
 - `.local/scott_lis/overrides.csv`: exactly 7 rows, sha256 `3223b902581f5120f3eb04671ac6022c9d9867001af1558043b089af07ff5e8a`. It was written before any code ran. The parser (`values.py`) flags no other entry.
 - **Parse aggregates** (no values): 345 signs keyed, 72 blank. Alternatives per keyed sign: 1 → 289, 2 → 51, 3 → 5.
+- **Smoke-test disclosure (before the code seal).** Planted corpus, unused seed 999, 20 shuffles: shuffled-key IC mean 0.795, planted-key IC 0.804, width 0.023, miss 0.07, skipped 0.78, bigram share 0.198 against 0.295 real. Her key was not scored. K2 and its LMIN fallback are frozen, so this changes nothing.

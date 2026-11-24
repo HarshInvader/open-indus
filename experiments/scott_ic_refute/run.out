@@ -1,0 +1,6 @@
+coverage {'distinct': 0.9436281859070464, 'distinct_tokens': 10005, 'all': 0.9409961112772959, 'all_tokens': 13372}
+K2 {'lmin': 4, 'density': 0.12186875, 'random_mean': 0.7030797712217293, 'random_mean_first_alt': 0.6437396501276226, 'random_mean_swaps_off': 0.6230415097208137, 'passed': False}
+K2 {'lmin': 5, 'density': 0.02350375, 'random_mean': 0.42751511888560934, 'random_mean_first_alt': 0.3631516528668368, 'random_mean_swaps_off': 0.33413738353912054, 'passed': True}
+W_real 0.06148406780128579
+K1 {'passes': 0, 'of': 5, 'passed': False} K3 {'passes': 0, 'of': 40, 'passed': False, 'p75_passes': 0} plant {'miss': 0.07354967770615692, 'skipped': 0.782516949879256, 'bigram_share_planted': 0.19483412674799166, 'bigram_share_real': 0.2948527224040464, 'formula_faithful': False}
+VERDICT untestable at stated power (K1)
