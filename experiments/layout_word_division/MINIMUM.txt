@@ -1,0 +1,11 @@
+layout_word_division count gate: minimum, written BEFORE any count (2026-11-25).
+Per candidate read script, counting only objects that have (a) an open photo usable locally,
+(b) a word-segmented transliteration that can be aligned line by line, and (c) at least one line
+with >= 3 signs:
+  M1  >= 30 inscribed objects (clusters for the bootstrap)
+  M2  >= 1,500 within-line sign gaps, excluding the last gap of every line
+  M3  >= 300 word-boundary gaps AND >= 300 non-boundary gaps among those (M2)
+  M4  photo detail >= 8 px per sign height median... restated: median sign height >= 25 px
+Rationale: AUC SE at 300/300 is about 0.023; with object clustering (design effect ~2) about 0.033,
+so a true AUC of 0.65 gives a lower 95% bound above 0.58 and clears 0.5 by > 4 SE.
+A script that fails any of M1-M3 is not used in K0. M4 is checked on a 10-object sample only.
