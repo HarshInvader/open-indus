@@ -528,3 +528,5 @@ fe985a383317e65129cb2cd568707d42db289c716406114fcdd76c6c35dbd7d8  docs/prereg/lb
 d8d86e14fa192063964b3b853be71f099848a46e036925cbb854404ca23aa12b  experiments/lb_wrong_lexicon/run.py  2026-11-24T19:29:54Z  lb_wrong_lexicon_code
 e4d6d154ed3d369cf3d7abfc98fc91a70510e61e0afed11caa04e7d47541e35c  docs/prereg/ur3_legend_refute.md  2026-11-24T20:38:23Z  ur3_legend_refute
 d1e784dea6d35d677cfe3f7a43e50dc8557975c562a54ec2d02d22446494f416  experiments/ur3_legend_refute/run.py  2026-11-24T20:47:05Z  ur3_legend_refute_code
+b8c6ac6fb159d8e6440631e4878eb4bf03f11a66b8405e75a3caa8d62fe84272  docs/prereg/null_width.md  2026-11-24T23:18:22Z  null_width
+1205ad2c049dfc504641bff50cc4c7708546d3c1f3c6149480f23acc501750b3  experiments/null_width/run.py  2026-11-24T23:31:32Z  null_width_code

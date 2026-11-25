@@ -624,3 +624,9 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - Brief 9's hoped-for pass (that YJ/Scott failures came from their own rules) did not happen.
     - Atlas 1.1 gained a line. No reruns, no tier change.
   - Next: Fable ranking. Candidates: (4) `certify_size_curve`, (5) `lift_certify`, (7) `key_saturation_column`, and a possible null-width study.
+- 2026-11-24 **`null_width` DONE.** The coordinator approved it as a new study. Fable drafted it. A fresh review returned FIX 11 and a pre-seal check SEAL-WITH-EDITS 8; sealed as v3, then the code was sealed. Run detached with a pid file.
+  - **Kill passed.** K2: admin at legend concentration gives a scrambled width of 0.062 (bar ≥ 0.052).
+  - **Fit: F2 fired, no predictor.** Largest leave-one-out residual 0.199 against a bar of 0.18 (cell Dp, the denser lexicon). K3-K5 and the M77 step were not run, as frozen.
+  - **Described:** width rises about in proportion to sign concentration (slope 1.05); held-out size slope −0.32.
+  - **Consequence:** concentration is a strong candidate for why read seal corpora lose power, but there is no width check for M77. Atlas 1.1 gained a line.
+  - Next: `lift_certify`, as the coordinator directed.
