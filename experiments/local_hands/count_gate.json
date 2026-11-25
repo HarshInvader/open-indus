@@ -1,0 +1,451 @@
+{
+ "frozen": {
+  "experiments/local_hands/lh_lib.py": "dda9c0f416699da3bca096162dd2540deda903621b571a4fe20ebc73915b7574",
+  "experiments/local_hands/power.py": "9763969aef5eb01da88eb79cdbe1c4232d7b1acc7982a0e39bd97f7eb97be2ba",
+  "experiments/local_hands/power_F4.json": "d023e51f6aa7a1cdbbf1eb35e6473a1efcc64922ab682b8f7b7a375d25ad61f9",
+  "experiments/local_hands/power_F8.json": "4d2a98cd9d793a1ad7d36ec8d81f98a93c123b3f62f768dca4b101db2728d698",
+  "experiments/split_witness/sw_lib.py": "29f79facf614d40582a8097e3215a216a8dcb845e477a304c9bf07926b15dac7",
+  "corpus/load.py": "3c3cb5643560e54ac889c2df19311758aaebcb6c8deb2284a8408203ab1359d9",
+  "corpus/build.py": "baad20a37d0aa02a1975b745207fa185ed4ddea11643e8572dbbe88745e6f337",
+  "data/icit_texts.jsonl": "a79256504d050e1fc7415b5d334af02484be7dab1e7e4a47e093add2744ee51b",
+  "experiments/consensus_corpus/out/concordance.json": "90846fcc9809cd18e9ee9676980e6c47c9ecb4101f6362e31d5a33abf5d18d6a"
+ },
+ "families_before_floor": 18,
+ "families_after_floor": 6,
+ "occurrences_before_floor": 1315,
+ "family_table": [
+  {
+   "family": "M15",
+   "variants": [
+    "W154",
+    "W156"
+   ],
+   "dev_tokens_per_variant": {
+    "W154": 26,
+    "W156": 36
+   },
+   "heldout_tokens_per_variant": {
+    "W154": 13,
+    "W156": 20
+   },
+   "eligible": true,
+   "kept_variants": [
+    "W154",
+    "W156"
+   ]
+  },
+  {
+   "family": "M119",
+   "variants": [
+    "W027",
+    "W028"
+   ],
+   "dev_tokens_per_variant": {
+    "W027": 0,
+    "W028": 0
+   },
+   "heldout_tokens_per_variant": {
+    "W027": 2,
+    "W028": 3
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M169",
+   "variants": [
+    "W406",
+    "W407"
+   ],
+   "dev_tokens_per_variant": {
+    "W406": 10,
+    "W407": 57
+   },
+   "heldout_tokens_per_variant": {
+    "W406": 3,
+    "W407": 17
+   },
+   "eligible": true,
+   "kept_variants": [
+    "W406",
+    "W407"
+   ]
+  },
+  {
+   "family": "M180",
+   "variants": [
+    "W297",
+    "W298"
+   ],
+   "dev_tokens_per_variant": {
+    "W297": 9,
+    "W298": 7
+   },
+   "heldout_tokens_per_variant": {
+    "W297": 6,
+    "W298": 1
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M186",
+   "variants": [
+    "W315",
+    "W317"
+   ],
+   "dev_tokens_per_variant": {
+    "W315": 9,
+    "W317": 9
+   },
+   "heldout_tokens_per_variant": {
+    "W315": 2,
+    "W317": 3
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M193",
+   "variants": [
+    "W336",
+    "W337"
+   ],
+   "dev_tokens_per_variant": {
+    "W336": 4,
+    "W337": 5
+   },
+   "heldout_tokens_per_variant": {
+    "W336": 6,
+    "W337": 7
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M205",
+   "variants": [
+    "W491",
+    "W495"
+   ],
+   "dev_tokens_per_variant": {
+    "W491": 12,
+    "W495": 18
+   },
+   "heldout_tokens_per_variant": {
+    "W491": 2,
+    "W495": 10
+   },
+   "eligible": true,
+   "kept_variants": [
+    "W491",
+    "W495"
+   ]
+  },
+  {
+   "family": "M210",
+   "variants": [
+    "W501",
+    "W502"
+   ],
+   "dev_tokens_per_variant": {
+    "W501": 3,
+    "W502": 4
+   },
+   "heldout_tokens_per_variant": {
+    "W501": 0,
+    "W502": 0
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M244",
+   "variants": [
+    "W630",
+    "W632",
+    "W636"
+   ],
+   "dev_tokens_per_variant": {
+    "W630": 23,
+    "W632": 23,
+    "W636": 5
+   },
+   "heldout_tokens_per_variant": {
+    "W630": 6,
+    "W632": 8,
+    "W636": 10
+   },
+   "eligible": true,
+   "kept_variants": [
+    "W630",
+    "W632"
+   ]
+  },
+  {
+   "family": "M254",
+   "variants": [
+    "W526",
+    "W527"
+   ],
+   "dev_tokens_per_variant": {
+    "W526": 5,
+    "W527": 42
+   },
+   "heldout_tokens_per_variant": {
+    "W526": 6,
+    "W527": 18
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M261",
+   "variants": [
+    "W625",
+    "W850"
+   ],
+   "dev_tokens_per_variant": {
+    "W625": 8,
+    "W850": 33
+   },
+   "heldout_tokens_per_variant": {
+    "W625": 3,
+    "W850": 7
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M267",
+   "variants": [
+    "W817",
+    "W861"
+   ],
+   "dev_tokens_per_variant": {
+    "W817": 97,
+    "W861": 119
+   },
+   "heldout_tokens_per_variant": {
+    "W817": 90,
+    "W861": 97
+   },
+   "eligible": true,
+   "kept_variants": [
+    "W817",
+    "W861"
+   ]
+  },
+  {
+   "family": "M336",
+   "variants": [
+    "W704",
+    "W705",
+    "W706"
+   ],
+   "dev_tokens_per_variant": {
+    "W704": 3,
+    "W705": 80,
+    "W706": 49
+   },
+   "heldout_tokens_per_variant": {
+    "W704": 1,
+    "W705": 87,
+    "W706": 33
+   },
+   "eligible": true,
+   "kept_variants": [
+    "W705",
+    "W706"
+   ]
+  },
+  {
+   "family": "M341",
+   "variants": [
+    "W711",
+    "W717"
+   ],
+   "dev_tokens_per_variant": {
+    "W711": 7,
+    "W717": 38
+   },
+   "heldout_tokens_per_variant": {
+    "W711": 1,
+    "W717": 13
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M348",
+   "variants": [
+    "W772",
+    "W773"
+   ],
+   "dev_tokens_per_variant": {
+    "W772": 3,
+    "W773": 6
+   },
+   "heldout_tokens_per_variant": {
+    "W772": 7,
+    "W773": 3
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M375",
+   "variants": [
+    "W808",
+    "W832"
+   ],
+   "dev_tokens_per_variant": {
+    "W808": 5,
+    "W832": 32
+   },
+   "heldout_tokens_per_variant": {
+    "W808": 3,
+    "W832": 12
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M381",
+   "variants": [
+    "W812",
+    "W814"
+   ],
+   "dev_tokens_per_variant": {
+    "W812": 5,
+    "W814": 2
+   },
+   "heldout_tokens_per_variant": {
+    "W812": 4,
+    "W814": 0
+   },
+   "eligible": false,
+   "kept_variants": []
+  },
+  {
+   "family": "M397",
+   "variants": [
+    "W370",
+    "W371"
+   ],
+   "dev_tokens_per_variant": {
+    "W370": 5,
+    "W371": 6
+   },
+   "heldout_tokens_per_variant": {
+    "W370": 2,
+    "W371": 4
+   },
+   "eligible": false,
+   "kept_variants": []
+  }
+ ],
+ "dev": {
+  "tokens": 550,
+  "families": 6,
+  "texts": 503,
+  "sites": 23,
+  "by_site": {
+   "Mohenjo-daro": 262,
+   "Harappa": 173,
+   "Dholavira": 29,
+   "Lothal": 22,
+   "Kalibangan": 19,
+   "Chanhu-daro": 10,
+   "Nausharo": 5,
+   "Lakhanjo-daro": 4,
+   "Gola Dhoro (Bagasra)": 3,
+   "Rakhigarhi": 3,
+   "Shikarpur": 3,
+   "Allahdino": 2,
+   "Banawali": 2,
+   "Chandigarh": 2,
+   "Desalpur": 2,
+   "Nindowari-damb": 2,
+   "Failaka": 1,
+   "Daimabad": 1,
+   "Hulas": 1,
+   "Khirsara": 1,
+   "Kot-Diji": 1,
+   "Susa": 1,
+   "Tell Umma": 1
+  },
+  "sites_with_30": 2,
+  "by_type": {
+   "seal": 354,
+   "tab_moulded": 56,
+   "pot": 39,
+   "tab_incised": 37,
+   "sealing": 24,
+   "tablet": 23,
+   "other": 17
+  },
+  "tokens_with_period": 216,
+  "period_tokens_at_multi_period_sites": 212,
+  "multi_period_sites": {
+   "Dholavira": 4,
+   "Harappa": 4,
+   "Kalibangan": 4,
+   "Lothal": 9,
+   "Mohenjo-daro": 9,
+   "Nausharo": 3
+  },
+  "nb_informative": 482,
+  "pl_informative": 394
+ },
+ "heldout": {
+  "tokens": 386,
+  "families": 6,
+  "texts": 352,
+  "sites": 13,
+  "by_site": {
+   "Mohenjo-daro": 209,
+   "Harappa": 107,
+   "Dholavira": 21,
+   "Lothal": 20,
+   "Chanhu-daro": 12,
+   "Kalibangan": 6,
+   "Nausharo": 4,
+   "Allahdino": 2,
+   "Bakkar Buthi": 1,
+   "Rahman-deri": 1,
+   "Jhukar": 1,
+   "Lakhanjo-daro": 1,
+   "Juna Khatiya": 1
+  },
+  "sites_with_30": 2,
+  "by_type": {
+   "seal": 293,
+   "tab_moulded": 39,
+   "sealing": 18,
+   "tab_incised": 11,
+   "pot": 10,
+   "other": 8,
+   "tablet": 7
+  },
+  "tokens_with_period": 165,
+  "period_tokens_at_multi_period_sites": 157,
+  "multi_period_sites": {
+   "Harappa": 4,
+   "Dholavira": 4,
+   "Lothal": 9,
+   "Mohenjo-daro": 9
+  },
+  "nb_informative": 325,
+  "pl_informative": 313
+ },
+ "checks": {
+  "families >= 4": true,
+  "dev tokens >= 1600": false,
+  "held-out tokens >= 350": true,
+  "dev place-informative tokens >= 1100": false,
+  "dev neighbour-informative tokens >= 1500": false,
+  "dev sites with >= 30 tokens >= 2": true
+ },
+ "gate": "FAIL"
+}

@@ -1200,6 +1200,19 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Record.** `experiments/split_witness/`.
 - **Reopen with.** At least 200 confirmed splits from photographs, plus a capacity null with a spread (recorded only: about 10^-8.5 is reachable), under a new study tag and a new minimum.
 
+### 10b.28 Sign variants by place or by neighbour (local_hands; audit of paragorth S-DARK-14.2 and S-DARK-46.5)
+- **Claim audited.** paragorth reports that variant choice is a city habit set largely by the neighbouring sign, and `carver_hands` cites this.
+- **Prior art.** paragorth tested the neighbour effect with place held fixed, but did not remove duplicate texts, correct across its 16 tests, keep a hold-out or prereg. It never tested place with the neighbour held fixed, and its own CISI check found 0 of 42 tests surviving. Daggumati & Revesz 2021 and Parpola 2010 argue case by case, with no null.
+- **Minimum** (pre-hashed, e477f885…): at least 2,000 eligible tokens, from at least 4 families. With planted effects, the place test reaches power 0.90–0.93. The neighbour test, which must also replicate on the hold-out, peaks at 0.52 even at 3,000 tokens.
+- **Result.** Not run: the count gate failed.
+  - 6 variant families qualify (M15, M169, M205, M244, M267, M336).
+  - There are 550 dev tokens (need 1,600) across 23 sites, but only Mohenjo-daro and Harappa have 30 or more. 386 tokens are held out.
+  - Only 216 dev tokens carry a period label.
+- **Verdict.** Closed at the gate. The paragorth claim stays unreplicated and should not be cited as established.
+- **Bearing on finding 2:** none. At most about 5 Mahadevan-level signs are at stake, against about 400.
+- **Record.** `experiments/local_hands/`.
+- **Reopen with.** About 4 times more allograph-coded tokens, for example from CISI photos coded at allograph level, or a rule that keeps W390/W405 (under a new study tag).
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1348,6 +1361,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.25 | Copper tablet format against picture or sign | Established (Mackay 1938 p. 368; Parpola 2008) | not run | (none: known answer) |
 | 10b.26 | Copper-tablet bilingual pairs on seals | Closed at the gate (0 of 7 pairs usable, need 3) | not reached | Blind argument that the reverse signs are variants of seal signs |
 | 10b.27 | Physical splits at low-cohesion junctions | Closed at the gate (25 eligible, need 200); capacity null min p ≈ 0.86 | 0.87 at n = 200 | 200 photo-confirmed splits; capacity null with a spread |
+| 10b.28 | Sign variants by place or by neighbour (audit) | Closed at the gate (550 dev tokens, need 1,600) | place 0.90; neighbour ≤ 0.52 | About 4 times more allograph-coded tokens |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

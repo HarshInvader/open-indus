@@ -2,14 +2,14 @@
 
 Generated from `library.json` (updated 2026-11-25) by `make_index.py`. Do not edit by hand.
 
-- **118 papers**: 29 core, 43 useful, 44 context.
+- **122 papers**: 30 core, 43 useful, 47 context.
 - Read in full: 63. Abstract only: 52.
 - Not verified (DOI or page not opened, or content from a search summary): 9.
 - Bears on the mismatch study: `korovina-2026-rongorongo-syllabic`, `raghavendra-2026-sigil`, `rozanova-2026-voynich-units`, `zhang-sheng-2026-voynich`, `tamburini-2025-csa-optmatcher`, `kambhatla-2023-regression`, `desset-2022-linear-elamite`, `luo-2021-undersegmented`, `luo-2019-neurocipher`, `shinde-2019-rakhigarhi`, `kolipakam-2018-dravidian-phylogeny`, `bk-2013-million-restarts`, `dou-knight-2013-dependency`, `snyder-2010-ugaritic`, `snyder-thesis-decipherment`, `ravi-knight-2008-optimal`, `knight-2006-unsupervised`, `knight-yamada-1999-unknown`, `parpola-1994-deciphering`, `shannon-1949-secrecy`, `davis-2026-undeciphered-aegean-scripts`, `zhou-anderson-2026-cuneiform-transfer`, `otten-2025-meroitic`, `sequeira-2025-koraga-proto-dravidian`, `braovic-2024-aegean-review`, `lee-2024-decipherment-aware-multilingual`, `megyesi-2023-historical-lms`, `aldarrab-may-2021-seq2seq`, `pourdamghani-knight-2017-related`, `hauer-kondrak-2016-anagrams`, `valentine-2015-harappa-farmana-isotopes`, `nuhn-ney-2013-complexity`, `dou-knight-2012-large-scale`, `bk-2011-combinatorial`, `ravi-knight-2011-foreign`, `desai-2026-nilgiri-genomes`, `disanto-2025-predictability-search`, `manoj-2025-minoan-machines`, `narayan-2025-genetics-dravidian`, `shen-2025-alice`, `lin-2024-unicity`, `nepal-2024-minoan-cryptanalysis`, `tamburini-2023-csa`, `kambhatla-2018-neural-lm`.
 
 Each entry in `library.json` has the full analysis: question, what they tried, method and data, key results, limits, ideas for us, and which of our studies it touches. The site renders it at `library.html`.
 
-## Computational decipherment (31)
+## Computational decipherment (32)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -44,6 +44,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Revisiting the Unicity Distance through a Channel Transmission Perspective](https://arxiv.org/abs/2410.14816), Lin | 2024 | full | context | mismatch_study | A starting point for a formal mismatch version of the unicity distance. |
 | [Decipherment of Lost Ancient Scripts as Combinatorial Optimisation using Coupled Simulated Annealing](https://aclanthology.org/2023.cawl-1.10/), Tamburini | 2023 | full | context | mismatch_study | See the 2025 version for reusable benchmarks. |
 | [Decipherment of Substitution Ciphers with Neural Language Models](https://aclanthology.org/D18-1102/), Kambhatla, Mansouri Bigvand and Sarkar | 2018 | full | context | mismatch_study | A candidate for a stronger attack in the attacker-invariance test if the n-gram attacks disagree. |
+| [paragorth/Indus- strategy log (variant choice by site and by neighbour)](https://github.com/paragorth/Indus-), paragorth (GitHub) | 2025 | section | core | local_hands, carver_hands | The claim behind our local_hands audit. Our gate showed that open data has about 550 usable tokens, too few to test either direction at stated power. |
 
 ## Language or not (8)
 
@@ -58,7 +59,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Reconstruction of Geometric and Structural Aspects of Undeciphered Messages by Information-theoretic Methods](https://arxiv.org/abs/2610.08861), Zenil and Uthamacumaran | 2026 | full | useful | language_vs_code, administration, signlist_robustness | Report both ranking (accuracy) and calibrated probability (bits) for every attack, since they can disagree sharply. Their rule that language and model selection must be held out matches our sealed held-out families. |
 | [Statistical analysis of the Indus script using n-grams](https://doi.org/10.1371/journal.pone.0009506), Yadav, Joglekar, Rao, Vahia, Mahadevan and Adhikari | 2009 | abstract | useful | bench_restoration, language_vs_code | The baseline n-gram model our restoration and mismatch work build on. |
 
-## Readings and language family (7)
+## Readings and language family (8)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -69,6 +70,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Novel 4400-year-old ancestral component in a tribe speaking a Dravidian language](https://doi.org/10.1038/s41431-025-01963-1), Sequeira JJ, Krishna MS, van Driem G, Mustak MS, Das R | 2025 | full | useful | mismatch_study, elamite_bridge | Bears on the mismatch study as a weak prior for a Dravidian-type language near the Indus by about 4,400 years ago. Use only as context; our language-model test should not depend on it. |
 | [Genetics and the Prehistory of Dravidian Languages](https://doi.org/10.31826/mot-2025-260105), Narayan S | 2025 | abstract | context | mismatch_study, elamite_bridge | If we test an Elamite-bridge hypothesis, this is the review to cite for the Elamo-Dravidian framing, alongside its critics. |
 | [Copper Tablets from Mohenjo-daro and the Study of the Indus Script](https://tuhat.helsinki.fi/ws/portalfiles/portal/127257447/Parpola_A_2008._Copper_tablets_from_Mohenjo_daro._ECL_During_Caspers_Vol.pdf), Parpola A | 2008 | full | direct | copper_format | The obverse-to-reverse pairings give a ready list of about 7 sign = picture pairs. A new question would be whether those signs behave on seals the way the paired animals do. |
+| [A Dravidian solution to the Indus script problem](https://tuhat.helsinki.fi/ws/portalfiles/portal/127256525/Parpola_A_2010._A_Dravidian_solution_to_the_Indus_script_problem.pdf), Parpola A | 2010 | section | context | local_hands, carver_hands | The context-dependent tree form is the textbook case of a neighbour-set variant. Our exclusivity rule drops it. |
 
 ## Neighbouring and other undeciphered scripts (21)
 
@@ -96,7 +98,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Minoan Cryptanalysis: Computational Approaches to Deciphering Linear A and Assessing Its Connections with Language Families from the Mediterranean and the Black Sea Areas](https://doi.org/10.3390/info15020073), Nepal and Perono Cacciafoco (unverified) | 2024 | abstract | context | mismatch_study, crib_attack | A clear case for our wrong-language-null standard: every candidate language produced matches. Our boundary can say how many anchors a Luwian-distance model would need before such matches mean anything. |
 | [Learning the character inventories of undeciphered scripts using unsupervised deep clustering](https://aclanthology.org/2023.cawl-1.11/), Born, Monroe, Kelley and Sarkar | 2023 | abstract | context | signlist_robustness | A positive-control method if the Indus sign list question is reopened. |
 
-## Corpora, sign lists and tools (5)
+## Corpora, sign lists and tools (7)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -105,6 +107,8 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Building a Corpus and Database for Rare and Undeciphered Scripts](https://doi.org/10.63317/3w96kx3i86uo), Megyesi, Rattenborg, Láng, Waldispühl and Héder | 2026 | abstract | context | consensus_corpus, signlist_robustness | A possible home or interchange format for our consensus Indus corpus; follow for released data. |
 | [Deep Learning in Archiving Indus Script and Motif Information](https://doi.org/10.5334/jcaa.175), Dixit and colleagues | 2025 | full | context | signlist_robustness | Reading signs straight from photos could settle the 1-in-8 disagreements between the two main transcriptions. We need open images first. Use a sign classifier's confusion matrix as an independent measure of which signs l |
 | [SigLA: the signs of Linear A (database paper)](https://sigla.phis.me/paper.pdf), Salgarella and Castellan | 2021 | full | context |  | Same logic as our functional reading; no new test. |
+| [Indus sign variants argued to be one sign (Wells pairs)](https://doi.org/10.1057/s41599-021-00713-0), Daggumati S; Revesz PZ | 2021 | section | context | local_hands, carver_hands | A list of candidate allograph pairs that any variant study could test under a null. |
+| [Interactive Indus Script Database: user documentation](https://www.epigraphica.de/indus/help_onlinedatabase.pdf), Fuls A | 2010 | section | context | local_hands, carver_hands | Explains why period cannot be used as a factor: only 216 of 550 audit tokens carry a period label. |
 
 ## Seals, weights and administration (9)
 

@@ -817,3 +817,7 @@ Further open-data work mostly sharpens the reasons for failure. It cannot move t
     5. Louvre: Sb 11221, study only.
     6. A library or purchase for Laursen 2010 and 2018 and Lambert 1976.
     Most were already contacted; nobody new was contacted.
+- 2026-11-25 **local_hands audit closed at the count gate** (atlas 10b.28; MINIMUM e477f885…). There are 550 dev tokens across 6 variant families, against 1,600 needed; only 2 sites have 30 or more.
+  - The neighbour test could not reach power 0.8 at any feasible size, so the paragorth variant claims stay unreplicated. `carver_hands` should cite them as reported, not as established.
+  - Finding 2 is unaffected.
+  - Four sources were added to the library.

@@ -1,0 +1,147 @@
+local_hands: MINIMUM (written before any eligible family or occurrence was counted and before
+any statistic was computed on real data). AUDIT study. Claim audited: docs/fable_brief13.md
+line 169, "paragorth already reports that variant choice is a city habit set largely by the
+neighbouring sign" (paragorth/Indus- STRATEGIES.md S-DARK-14.2 and S-DARK-46.5, cited by
+experiments/carver_hands/RESULTS.md).
+
+0. STATUS AT WRITING
+   - Done before this file: prior-art reading (paragorth STRATEGIES.md rows 22, S268,
+     S-DARK-11.3, 14.2, 14.3, 46.1-46.5, 52.1 and tools/dark_loop46_c5.py; Wells 2015 sample;
+     Daggumati & Revesz 2021; Parpola 2010; Fuls 2010 database documentation).
+   - Seen before this file: the concordance M -> W lists (which M signs have >= 2 W partners;
+     no token counts), and the ICIT value sets of the period, phase and type fields (no counts).
+   - lh_lib.py and power.py written; power.py run on SYNTHETIC data only (power_F4.json,
+     power_F8.json). count_gate.py written, not run.
+   - Not done: no family or occurrence counted on ICIT, no G, MI, p or cross-table of form
+     against site, period or neighbour on real data.
+
+1. UNIT
+   One occurrence (token) in an ICIT record of a W sign that belongs to an eligible variant
+   family: a set of >= 2 ICIT (Wells) signs that map to one Mahadevan sign.
+
+2. ELIGIBILITY (lh_lib.load_families, occurrences, apply_floor; count_gate.py implements it)
+   Map: experiments/consensus_corpus/out/concordance.json, "primary" (M -> list of W).
+   Families: a W sign is exclusive if it is listed under exactly one M sign. The family of M
+     is its exclusive W signs, kept if there are >= 2. (W signs shared between M signs, e.g.
+     the tree W390/W405 listed under M161, M167, M168 and M169, are therefore out: their
+     Mahadevan identity is not one sign.)
+   Records: data/icit_texts.jsonl via corpus.load.icit_texts(). Site field not '-', empty or
+     'Unknown...'. Non-empty after removing '|' and '#'. One record per distinct
+     (site, coarse type, flattened sequence), first in file order (removes moulded and
+     duplicate copies). Coarse type = rc_lib.icit_type rule (seal, sealing, tab_moulded,
+     tab_incised, tablet, pot, other).
+   Variables per token: family, form (the W sign), site, coarse type, period label
+     (site|period|phase, only when period is not '-'; compared within one site only),
+     prev and next item in the raw sequence: text edge <s>/</s>, line break <lb>, damage <dmg>,
+     else the sign, with any W in an eligible family replaced by its family id.
+   Hold-out: text families from experiments/split_witness/sw_lib.families(); a record is
+     held out when sha256("local_hands:holdout:" + text family id) mod 5 == 0 (about 20% of
+     texts, whole near-copy families on one side).
+   Floor: a variant is kept if it has >= 10 DEV tokens; a family is kept if >= 2 variants
+     survive. Tokens of dropped variants are removed (dev and held-out alike).
+   Context pooling (inside each test, no form labels used): per family and side, neighbour
+     values with < 5 tokens in the analysed set become one <other> value.
+
+3. STATISTICS (lh_lib.nb_test, pl_test; G = 2 N x conditional mutual information, nats)
+   NB, neighbour with place held: strata = family x site x type;
+     T_nb = G(form; prev | stratum) + G(form; next | stratum).
+   PL, place with neighbours held: strata = family x type x prev x next;
+     T_pl = G(form; site | stratum).
+   PER (secondary, no bar): tokens with a period label at sites with >= 2 labels;
+     strata = family x site x type x prev x next; T_per = G(form; period | stratum).
+   Null for each: form labels permuted among tokens inside the test's own strata, 2,000
+     permutations, one-sided p = (1 + #null >= obs) / 2001. The stratum holds the other
+     factor fixed, so a neighbour effect cannot pass as place and vice versa (checked below).
+   Effect size: U_excess = (T - mean null T) / 2 / (N H(form | stratum)) (per side for NB).
+
+4. MINIMUM n (planted power, synthetic data only; power.py, 60 reps, 250 permutations)
+   Synthetic corpus: 6 sites (0.45 .. 0.03), 3 types, 120 neighbour signs Zipf(1.1) with
+   site-specific boosts, F = 4 or 8 families of 2 variants, base share U(0.55, 0.85).
+   Plants: PL d = 0.15 / 0.20 (site shifts the share by +/- d); NBb b = 3 (three of the 15
+   commonest prev signs bind a form at 0.9, the paragorth S-DARK-46.5 shape); NBd q = 0.3.
+   Rule J (bar): dev (80%) p <= 0.005 AND held-out (20%) p <= 0.05.
+   n = total tokens       800        1200       2000       3000
+   PL d=0.20, rule J      0.43/0.53  0.67/0.63  0.93/0.90  0.97/0.93   (F4/F8)
+   PL d=0.20, dev only    0.85/0.85  0.98/0.97  1.00/1.00  1.00/1.00
+   NBb b=3,   rule J      0.07/0.03  0.12/0.03  0.32/0.15  0.52/0.45
+   NBb b=3,   dev only    0.23/0.13  0.60/0.33  0.58/0.57  0.83/0.82
+   NBd q=0.3, dev only    0.17/0.07  0.17/0.12  0.57/0.42  0.72/0.57
+   False alarms (null plant): rule J 0 in every cell; dev only <= 0.033.
+   Confound checks: NB-only plants give PL rule-J hits 0 (dev only <= 0.017); PL-only plants
+   give NB rule-J hits 0 (dev only <= 0.033).
+   >>> MINIMUM: >= 2,000 eligible tokens in total (dev >= 1,600, held-out >= 350), from
+       >= 4 families. <<<
+   At this minimum the PL arm has power >= 0.90 (rule J, d = 0.20). The NB arm does NOT reach
+   0.80 under rule J anywhere on the grid (held-out replication at 20% limits it); dev-only
+   NB power reaches 0.80 only at about 3,000 tokens. Consequence fixed now: an NB pass is
+   interpretable at any n; an NB failure is reported as "neighbour effect not excluded"
+   unless dev tokens >= 2,400 AND the dev p > 0.05, in which case it is "bound forms of the
+   b = 3 strength excluded on dev".
+   Informative tokens at the minimum (synthetic, no form labels): NB about 1,580-1,590,
+   PL about 1,170-1,190 of 1,600 dev tokens.
+
+5. THEORY-BEARING ENDPOINT (finding 2: about 400 signs, about 565 with unseen, at the
+   Mahadevan level; README row 2)
+   - NB passes, PL fails: variants are contextual (bound) allographs. Mahadevan's lumping
+     is right for the tested families; finding 2 unchanged.
+   - PL passes, NB fails: variants are local hands (place habits). Lumping is right;
+     finding 2 unchanged. paragorth's "set largely by the neighbour" is then not replicated
+     once duplicates and the hold-out are applied.
+   - Both pass: both conditioned (local spelling rules); finding 2 unchanged.
+   - Neither passes (with the power caveat of section 4): the variants are not shown to be
+     one sign; they may be distinct signs or free variation. Upper bound on the effect on
+     finding 2: + (variants - 1) summed over the tested families, reported as a number of
+     signs; finding 2's type call (logo-syllabic) changes only if that bound moves the count
+     outside the 95% CI 508-658 for the unseen-inclusive estimate, which no plausible
+     family count does. State the bound, do not revise finding 2 on it.
+   - Diagnostic caveat fixed in advance (paragorth S-DARK-52.1: neighbour-conditioned choice
+     is also what two different signs in one slot show): an NB pass is labelled "contextual
+     allograph" only if the families' NB U_excess is above the 95th percentile of 200
+     control sets of distinct-sign pairs (two different M signs, each with one exclusive W,
+     dev token counts within x0.5-x2 of the family's variants, same family-count). Else
+     "neighbour-conditioned, not diagnostic of allography". Same control for PL.
+
+6. HOLD-OUT
+   Text families with hash mod 5 == 0 (section 2) are never used for development and are
+   read once, for the rule-J replication.
+
+7. BARS (two primary tests, Bonferroni over 2)
+   NB pass: dev p <= 0.005 and held-out p <= 0.05. PL pass: the same. PER: no bar.
+   Per-family results are exploratory.
+
+8. K0 (planted check first, on real records)
+   Before any real statistic: relabel forms of the real dev tokens synthetically (forms
+   drawn from each family's dev share, then a PL d = 0.2 plant, then an NBb b = 3 plant on
+   the real prev values) and run the frozen code. K0 passes if PL fires on the PL plant
+   (dev p <= 0.005), NB fires on the NB plant, neither fires on the null relabel, and the
+   cross-test stays silent (p > 0.05) in >= 16 of 20 relabels each.
+
+9. GATE (count_gate.py)
+   Pass only if: families >= 4; dev tokens >= 1,600; held-out tokens >= 350; dev PL-informative
+   tokens >= 1,100; dev NB-informative tokens >= 1,500; >= 2 sites with >= 30 dev tokens.
+
+10. FALLBACK RULES (written in advance; nothing else may change after the count)
+   F1. Gate fails: stop. No test statistic on real data. No relaxing of the map, exclusivity
+       rule, floor, dedup, hold-out or thresholds. Report as untestable at stated power.
+   F2. Gate fails only on families or tokens because exclusivity removed the tree
+       (M161/M167/M168/M169 with W390/W405): a union-component family rule may be used only
+       under a new study tag with its own MINIMUM hashed before any statistic.
+   F3. K0 fails: stop and report; a code fix is allowed only if it changes no rule above and
+       is logged with new hashes before any real statistic.
+   F4. count_gate.py crashes: a fix that changes no rule or threshold is allowed and logged
+       with its new hash in count_gate.md; any other change = INVALID.
+   F5. Any frozen file hash differs from section 11 at the count (other than F4): stop.
+   F6. Fewer than 200 valid control sets in section 5: use all that exist, report the
+       number; with fewer than 50, the allograph label is not assigned.
+
+11. FROZEN FILES (sha256)
+   experiments/local_hands/lh_lib.py        dda9c0f416699da3bca096162dd2540deda903621b571a4fe20ebc73915b7574
+   experiments/local_hands/power.py         9763969aef5eb01da88eb79cdbe1c4232d7b1acc7982a0e39bd97f7eb97be2ba
+   experiments/local_hands/power_F4.json    d023e51f6aa7a1cdbbf1eb35e6473a1efcc64922ab682b8f7b7a375d25ad61f9
+   experiments/local_hands/power_F8.json    4d2a98cd9d793a1ad7d36ec8d81f98a93c123b3f62f768dca4b101db2728d698
+   experiments/local_hands/count_gate.py    2a9fed4ae2c9ae611440a408620e1c81cd18064e1fab6fb55272b89674a66c2d
+   experiments/split_witness/sw_lib.py      29f79facf614d40582a8097e3215a216a8dcb845e477a304c9bf07926b15dac7
+   corpus/load.py                           3c3cb5643560e54ac889c2df19311758aaebcb6c8deb2284a8408203ab1359d9
+   corpus/build.py                          baad20a37d0aa02a1975b745207fa185ed4ddea11643e8572dbbe88745e6f337
+   data/icit_texts.jsonl                    a79256504d050e1fc7415b5d334af02484be7dab1e7e4a47e093add2744ee51b
+   experiments/consensus_corpus/out/concordance.json 90846fcc9809cd18e9ee9676980e6c47c9ecb4101f6362e31d5a33abf5d18d6a
