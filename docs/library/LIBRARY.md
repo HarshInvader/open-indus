@@ -150,7 +150,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Counter-intuitive influence of Himalayan river morphodynamics on Indus Civilisation urban settlements](https://doi.org/10.1038/s41467-017-01643-9), Singh A, Thomsen KJ, Sinha R, Buylaert JP, Carter A, Mark DF, Mason PJ, Densmore AL, et al. | 2017 | abstract | context | reg_findspot | Counterweight to the perennial-Sarasvati view. Site placement along relict channels is a findspot covariate. |
 | [Oxygen isotope in archaeological bioapatites from India: Implications to climate change and decline of Bronze Age Harappan civilization](https://doi.org/10.1038/srep26555), Sarkar A, Mukherjee AD, Bera MK, Das B, Juyal N, Morthekai P, Deshpande RD, Shinde VS, et al. | 2016 | abstract | context | reg_chrono | Use with caution; flag the early-date claim when ingesting chronology data. |
 
-## Meluhha, the Gulf and trade (11)
+## Meluhha, the Gulf and trade (12)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -165,6 +165,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Provenance attribution of lapis lazuli rocks processed at the Bronze age archaeological site of Shahr-i Sokhta (Iran)](https://doi.org/10.1016/j.jasrep.2025.105411), Guidorzi L, Magalini M, Re A, Borghi A, Vidale M, et al. | 2025 | abstract | context | elamite_bridge, foreign_corpus | Shahr-i Sokhta sits between the Indus, Elam and Central Asia. Supports mapping an eastern-Iran exchange zone for the Elamite-bridge comparison. |
 | [Gypsum Alabaster Beads From the Stone-Working Workshop of Konar Sandal: A Multi-Analytical Characterization Study and Absolute Dating](https://doi.org/10.1111/arcm.70045), Koochakzaei A, Eskandari N | 2025 | abstract | context | elamite_bridge | Konar Sandal is a key site for the Jiroft culture and its inscribed finds. Dated workshop contexts help line up the Elamite-bridge chronology with Mature Harappan. |
 | [Origin of the Harappan Ernestites: geochemical insights into provenance and fabrication (with 2026 comment and reply)](https://doi.org/10.1038/s40494-025-02147-2), Mahala MK, Ray JS, Kanungo AK, et al.; comment Khaliq A; reply Mahala et al. | 2025 | full | context | site_signal | Bead-drill technology is a craft marker; Ernestite drills found at sites can be a site covariate (craft-production centre) when testing whether seal sign use differs at manufacturing sites. |
+| [A Persian Gulf seal on an Old Babylonian mercantile agreement (AS 16)](https://isac.uchicago.edu/publications/studies-honor-benno-landsberger-his-birthday), Hallo WW; Buchanan B | 1965 | section | core | anchor_crossread, unread_sealer_shortlist, anchor_sources_scope | The one known Gulf stamp on a dated cuneiform tablet is not an Indus anchor as published: it has no stated Indus signs, and the sealer is only inferred. Any anchor route needs new photographs or an unpublished archive. |
 
 ## People: ancient DNA and bodies (5)
 
