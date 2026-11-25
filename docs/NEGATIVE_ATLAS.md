@@ -64,6 +64,10 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - The true Old Assyrian key on real text gave λ* = 0 in 21 of 23 record-only draws.
 - **Anchor cross-read, 2026-11-25 (`experiments/anchor_crossread`).** On Ur III sealed tablets, leave-one-name-out cross-reading with no language model separates true name–legend sets from false ones, but only with the reading direction known (arm B1), at 15 pairs. With direction free (B2), 13 of 20 sets pass (edge, fail). With 20% of signs unread (the reading-gate floor), 10 of 20 pass even at 15 pairs. Readings 5 and 4.
   - **The minimum anchoring event for Indus is more than 15 name–legend pairs, with direction known.** A passing set certifies the pairing, not the values: the median number of correctly recovered values is 1 to 2.5. This route cannot meet the 10-values clause at any size held today. Both sides are cuneiform, so this is an upper bound on power.
+- **Cross-read on coins, 2026-11-25 (`experiments/crossread_coins`).** Stopped at the sealed count gate (F4), before any test statistic.
+  - The open, licensed sources (BIGR, ODbL; Wikipedia, CC BY-SA) give 28 distinct Indo-Greek and Indo-Scythian names with both a Greek and a Kharosthi legend. The gate needs 30, and the second-transcriber check can only lower the count.
+  - Whether the cross-read rule transports across scripts is **untested**. The "cuneiform on both sides" caveat on `anchor_crossread` stays.
+  - **Reopen with:** a licensed copy of the Gandhari.org legends, or another open catalogue, under a new prereg.
 - **Null width, 2026-11-24 (`experiments/null_width`).**
   - On Ur III administrative text, raising sign-frequency concentration to the legends' level widens the scrambled shuffle null from 0.030 to 0.062; the legends themselves give 0.085. The width rises about in proportion to concentration (fitted slope 1.05).
   - The sealed five-term predictor failed its form test (largest leave-one-out residual 0.199 against a bar of 0.18), so no predicted width for M77 exists. Whether fit-refute can have stated power on Indus stays open.

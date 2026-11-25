@@ -111,3 +111,8 @@ experiments/ensemble_rehearsal/packets/
 !experiments/certify_size_curve/raw/ogsl/ogsl.zip
 !experiments/anchor_crossread/raw/
 !experiments/anchor_crossread/raw/ogsl/ogsl.zip
+# crossread_coins: BIGR type export (ODbL 1.0, attribution in raw/bigr/README.md); see docs/prereg/crossread_coins.md
+!experiments/crossread_coins/raw/
+!experiments/crossread_coins/raw/bigr/
+!experiments/crossread_coins/raw/bigr/query.csv
+!experiments/crossread_coins/raw/bigr/README.md

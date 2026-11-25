@@ -1,0 +1,67 @@
+row_id,source,name_id,greek_legend,indic_form,indic_aksharas,n_types,same_person,ref
+bigr-001,BIGR,eucratides,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΕΥΚΡΑΤΙΔΟΥ,unicode,𐨪 𐨗 𐨯 𐨨 𐨱 𐨟 𐨐 𐨯 𐨀𐨅 𐨬𐨂 𐨐𐨿𐨪 𐨟𐨁 𐨟 𐨯,5,yes,bigr.eucratides_i.13
+bigr-002,BIGR,eucratides,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΕΥΚΡΑΤΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀𐨅 𐨬𐨂 𐨐𐨿𐨪 𐨟𐨁 𐨟 𐨯,40,yes,bigr.eucratides_i.20
+bigr-003,BIGR,eucratides,ΒΑΣΙΛΕΩΣ ΣωΤΗΡΟΣ ΕΥΚΡΑΤΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀𐨅 𐨬𐨂 𐨐𐨿𐨪 𐨟𐨁 𐨟 𐨯,2,yes,bigr.eucratides_i.24
+bigr-004,BIGR,eucratides,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΕΥΚΡΑΤΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨪 𐨗 𐨟𐨁 𐨪 𐨗 𐨯 𐨀𐨅 𐨬𐨂 𐨐𐨿𐨪 𐨟𐨁 𐨟 𐨯,3,yes,bigr.eucratides_i.26
+bigr-005,BIGR,eucratides,ΜΕΓΑΛΟΥ ΒΑΣΙΛΕΩΣ ΕΥΚΡΑΤΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀𐨅 𐨬𐨂 𐨐𐨿𐨪 𐨟𐨁 𐨟 𐨯,2,yes,bigr.eucratides_i.27
+bigr-006,BIGR,eucratides,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΕΥΚΡΑΤΙΔΟΥ,unicode,𐨐 𐨬𐨁 𐨯𐨁 𐨩𐨅 𐨣 𐨒 𐨪 𐨡𐨅 𐨬 𐨟,2,no,bigr.eucratides_i.28
+bigr-007,BIGR,apollodotus,ΒΑΣΙΛΕΩΣ ΑΠΟΛΛΟΔΟΤΟΥ ΣΩΤΗΡΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨫 𐨡 𐨟 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯,47,yes,bigr.apollodotus_i.2
+bigr-008,BIGR,antimachus,ΒΑΣΙΛΕΩΣ ΝΙΚΗΦΟΡΟΥ ΑΝΤΙΜΑΧΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀𐨎 𐨟𐨁 𐨨 𐨑 𐨯,13,yes,bigr.antimachus_ii.1
+bigr-009,BIGR,menander,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΜΕΝΑΝΔΡΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨨𐨅 𐨣 𐨡𐨿𐨪 𐨯,193,yes,bigr.menander_i.3
+bigr-010,BIGR,strato,ΒΑΣΙΛΕΩΣ ΕΠΙΦΑΝΟΥΣ ΣΩΤΗΡΟΣ ΣΤΡΑΤΩΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨤𐨿𐨪 𐨕 𐨖 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,22,yes,bigr.strato_i.35
+bigr-011,BIGR,zoilus,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΖΟΙΛΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨰𐨆 𐨀𐨁 𐨫 𐨯,22,yes,bigr.zoilus_i.2
+bigr-012,BIGR,lysias,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΛΥΣΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨜𐨁 𐨱 𐨟 𐨯 𐨫𐨁 𐨯𐨁 𐨐 𐨯,16,yes,bigr.lysias.5
+bigr-013,BIGR,lysias,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΛΥΣΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨜𐨁 𐨱 𐨟 𐨯 𐨫𐨁 𐨯𐨁 𐨀 𐨯,17,yes,bigr.lysias.6
+bigr-014,BIGR,antialcidas,ΒΑΣΙΛΕΩΣ ΝΙΚΗΦΟΡΟΥ ΑΝΤΙΑΛΚΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀𐨎 𐨟𐨁 𐨀 𐨫𐨁 𐨐𐨁 𐨟 𐨯,60,yes,bigr.antialcidas.7
+bigr-015,BIGR,antialcidas,ΒΑϹΙΛΕωϹ ΝΙΚΗΦΟΡΟΥ ΑΝΤΙΑΛΚΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀𐨎 𐨟𐨁 𐨀 𐨫𐨁 𐨐𐨁 𐨟 𐨯,3,yes,bigr.antialcidas.25
+bigr-016,BIGR,lysias+antialcidas,ΒΑΣΙΛΕΩΣ ΝΙΚΗΦΟΡΟΥ ΑΝΤΙΑΛΚΙΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨜𐨁 𐨱 𐨟 𐨯 𐨫𐨁 𐨯𐨁 𐨐 𐨯,2,no,bigr.lysias_antialcidas.1
+bigr-017,BIGR,lysias+antialcidas,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΛΥΣΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀𐨎 𐨟𐨁 𐨀 𐨫𐨁 𐨐𐨁 𐨟 𐨯,2,no,bigr.lysias_antialcidas.2
+bigr-018,BIGR,heliocles,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΗΛΙΟΚΛΕΟΥΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨱𐨅 𐨫𐨁 𐨩 𐨐𐨿𐨪𐨅 𐨩 𐨯,23,yes,bigr.heliocles_ii.1
+bigr-019,BIGR,heliocles,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΗΛΙΟΚΛΕΟΥΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨱𐨅 𐨫𐨁 𐨩 𐨐𐨿𐨪𐨅 𐨯,2,yes,bigr.heliocles_ii.2
+bigr-020,BIGR,heliocles,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΗΛΙΟΚΛΕΟΥΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨱𐨅 𐨫𐨁 𐨩 𐨐𐨿𐨪𐨅 𐨀,2,yes,bigr.heliocles_ii.3
+bigr-021,BIGR,heliocles,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΗΛΙΟΚΛΕΟΥΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨱𐨅 𐨫𐨁 𐨩 𐨐𐨿𐨪𐨅 𐨯 𐨯,7,yes,bigr.heliocles_ii.4
+bigr-022,BIGR,heliocles,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΗΛΙΟΚΛΕΟΥΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨱𐨅 𐨫𐨁 𐨩 𐨐𐨿𐨪𐨅 𐨀 𐨯,19,yes,bigr.heliocles_ii.9
+bigr-023,BIGR,poiyxenus,ΒΑΣΙΛΕΩΣ ΕΠΙΦΑΝΟΥΣ ΣΩΤΗΡΟΣ ΠΟΛΥΞΕΝΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨤𐨿𐨪 𐨕 𐨖 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨤 𐨫 𐨯𐨁 𐨣 𐨯,7,yes,bigr.polyxenus.1
+bigr-024,BIGR,demetrius,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΔΗΜΗΤΡΙΟΡΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨪 𐨗𐨁 𐨟 𐨯 𐨡𐨁 𐨨𐨅 𐨪𐨁 𐨩 𐨯,9,yes,bigr.demetrius_iii.1
+bigr-025,BIGR,philoxenus,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΦΙΛΟΞΕΝΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨜𐨁 𐨱 𐨟 𐨯 𐨥𐨁 𐨫 𐨯𐨁 𐨣 𐨯,71,yes,bigr.philoxenus.3
+bigr-026,BIGR,diomedes,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΔΙΟΜΗΔΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨡𐨁 𐨩𐨂 𐨨𐨅 𐨟 𐨯,32,yes,bigr.diomedes.3
+bigr-027,BIGR,amyntas,ΒΑΣΙΛΕΩΣ ΝΙΚΑΤΟΡΟΣ ΑΜΥΝΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀 𐨨𐨁 𐨟 𐨯,47,yes,bigr.amyntas.3
+bigr-028,BIGR,thrason,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΘΡΑΣΟΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨨 𐨱 𐨟 𐨯 𐨟𐨿𐨪 𐨯 𐨯,2,yes,bigr.thrason.1
+bigr-029,BIGR,peucolaus,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΚΑΙ ΣΩΤΗΡΟΣ ΠΕΥΚΟΛΑΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨤𐨁 𐨀𐨂 𐨐𐨂 𐨫 𐨀 𐨯,11,yes,bigr.peucolaus.1
+bigr-030,BIGR,theophilus,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΘΕΟΦΙΛΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨠𐨅 𐨀𐨂 𐨥𐨁 𐨫 𐨯,11,yes,bigr.theophilus_ii.1
+bigr-031,BIGR,epander,ΒΑΣΙΛΕΩΣ ΝΙΚΗΦΟΡΟΥ ΕΠΑΝΔΡΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀𐨅 𐨤 𐨡𐨿𐨪 𐨯,13,yes,bigr.epander.1
+bigr-032,BIGR,nicias,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΝΙΚΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨣𐨁 𐨐𐨁 𐨀 𐨯,20,yes,bigr.nicias.1
+bigr-033,BIGR,menander,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΜΕΝΑΝΔΡΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨨𐨅 𐨣 𐨡𐨿𐨪 𐨯,26,yes,bigr.menander_ii.1
+bigr-034,BIGR,artemidorus,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΑΡΤΕΜΙΔΟΡΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨜𐨁 𐨱 𐨟 𐨯 𐨀 𐨪𐨿𐨟𐨅 𐨨𐨁 𐨟𐨆 𐨪 𐨯,60,yes,bigr.artemidorus.1
+bigr-035,BIGR,hermaeus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΕΡΜΑΙΟΥ (omicron and rho square),unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨱𐨅 𐨪 𐨨 𐨩 𐨯,103,yes,bigr.hermaeus.15
+bigr-036,BIGR,telephus,ΒΑΣΙΛΕΩΣ ΕΥΕΡΓΕΤΟΥ ΤΕΛΕΦΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨐 𐨫 𐨞 𐨐𐨿𐨪 𐨨 𐨯 𐨟𐨅 𐨫𐨁 𐨥 𐨯,10,yes,bigr.telephus.1
+bigr-037,BIGR,apollodotus,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΣΩΤΗΡΟΣ ΚΑΙ ΦΙΛΟΠΑΤΟΡΟΣ ΑΠΟΛΛΟΔΟΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨀 𐨤 𐨫 𐨡 𐨟 𐨯,7,yes,bigr.apollodotus_ii.1
+bigr-038,BIGR,apollodotus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΑΠΟΛΛΟΔΟΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨀 𐨤 𐨫 𐨡 𐨟 𐨯,51,yes,bigr.apollodotus_ii.2
+bigr-039,BIGR,apollodotus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΚΑΙ ΦΙΛΟΠΑΤΟΡΟΣ ΑΠΟΛΛΟΔΟΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨀 𐨤 𐨫 𐨡 𐨟 𐨯,17,yes,bigr.apollodotus_ii.3
+bigr-040,BIGR,apollodotus,ΒΑΣΙΛΕΩΣ ΑΠΟΛΛΟΔΟΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨀 𐨤 𐨫 𐨡 𐨟 𐨯,2,yes,bigr.apollodotus_ii.5
+bigr-041,BIGR,hippostratus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΙΠΠΟΣΤΡΑΤΟΥ (square omicron),unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨱𐨁 𐨤𐨂 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,2,yes,bigr.hippostratus.1
+bigr-042,BIGR,hippostratus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΙΠΠΟΣΤΡΑΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨱𐨁 𐨤𐨂 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,9,yes,bigr.hippostratus.2
+bigr-043,BIGR,hippostratus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΙΠΠΟΣΤΡΑΤΟΥ (square omicron),unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨗 𐨩𐨎 𐨟 𐨯 𐨱𐨁 𐨤𐨂 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,6,yes,bigr.hippostratus.3
+bigr-044,BIGR,hippostratus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΙΠΠΟΣΤΡΑΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨗 𐨩𐨎 𐨟 𐨯 𐨱𐨁 𐨤𐨂 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,2,yes,bigr.hippostratus.4
+bigr-045,BIGR,hippostratus,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΣΩΤΗΡΟΣ ΙΠΠΟΣΤΡΑΤΟΥ (square omicron),unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨨 𐨱 𐨟 𐨯 𐨗 𐨩𐨎 𐨟 𐨯 𐨱𐨁 𐨤𐨂 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,27,yes,bigr.hippostratus.5
+bigr-046,BIGR,hippostratus,ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΣΩΤΗΡΟΣ ΙΠΠΟΣΤΡΑΤΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨨 𐨱 𐨟 𐨯 𐨗 𐨩𐨎 𐨟 𐨯 𐨱𐨁 𐨤𐨂 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,3,yes,bigr.hippostratus.6
+bigr-047,BIGR,dionysius,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΔΙΟΝΥΣΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨡𐨁 𐨀𐨂 𐨣𐨁 𐨯𐨁 𐨩 𐨯,20,yes,bigr.dionysius.1
+bigr-048,BIGR,zoilus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΖΩΙΛΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨰𐨆 𐨀𐨁 𐨫 𐨯,47,yes,bigr.zoilus_ii.1
+bigr-049,BIGR,zoilus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΖωΙΛΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨰𐨆 𐨀𐨁 𐨫 𐨯,35,yes,bigr.zoilus_ii.2
+bigr-050,BIGR,agathocleia+strato,ΒΑΣΙΛΙΣΣΗΣ ΑΓΑΘΟΚΛΕΙΑΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,2,no,bigr.agathocleia_strato_i.1
+bigr-051,BIGR,agathocleia+strato,ΒΑΣΙΛΙΣΣΗΣ ΘΕΟΤΡΟΠΟΥ ΑΓΑΘΟΚΛΕΙΑΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,9,no,bigr.agathocleia_strato_i.2
+bigr-052,BIGR,agathocleia+strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΣΤΡΑΤΩΝΟΣ ΚΑΙ ΑΓΑΘΟΚΛΕΙΑΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯 𐨀 𐨒 𐨠𐨂 𐨐𐨿𐨪𐨁 𐨩 𐨀𐨅,4,yes,bigr.agathocleia_strato_i.5
+bigr-053,BIGR,agathocleia+strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΣΤΡΑΤΩΝΟΣ ΚΑΙ ΑΓΑΘΟΚΛΕΙΑΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,3,yes,bigr.agathocleia_strato_i.6
+bigr-054,BIGR,strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΣΤΡΑΤΩΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,56,yes,bigr.strato_i.1
+bigr-055,BIGR,strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΣΤΡΑΤΩΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,12,yes,bigr.strato_i.5
+bigr-056,BIGR,strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΔΙΚΑΙΟΥ ΣΤΡΑΤΩΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,2,yes,bigr.strato_i.11
+bigr-057,BIGR,strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΔΙΚΑΙΟΥ ΣΤΡΑΤΩΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,31,yes,bigr.strato_i.12
+bigr-058,BIGR,strato,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΚΑΙ ΔΙΚΑΙΟΥ ΣΤΡΑΤΩΝΟΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,14,yes,bigr.strato_i.24
+bigr-059,BIGR,artemidorus,ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΑΡΤΕΜΙΔΟΡΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨀 𐨤 𐨜𐨁 𐨱 𐨟 𐨯 𐨀 𐨪𐨿𐨟𐨅 𐨨𐨁 𐨡𐨆 𐨪 𐨯,2,yes,bigr.artemidorus.14
+bigr-060,BIGR,archebius,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΝΙΚΗΦΟΡΟΥ ΑΡΧΕΒΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀 𐨪𐨿𐨑𐨅 𐨦𐨁 𐨩 𐨯,51,yes,bigr.archebius.2
+bigr-061,BIGR,archebius,ΒΑΣΙΛΕΩΣ ΔΙΚΑΙΟΥ ΚΑΙ ΝΙΚΗΦΟΡΟΥ ΑΡΧΕΒΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨢𐨿𐨪 𐨨𐨁 𐨐 𐨯 𐨗 𐨩 𐨢 𐨪 𐨯 𐨀 𐨪𐨿𐨑𐨅 𐨦𐨁 𐨩 𐨯,2,yes,bigr.archebius.6
+bigr-062,BIGR,hermaeus+calliope,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΕΡΜΑΙΟΥ ΚΑΙ ΚΑΛΛΙΟΠΗΣ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨱𐨅 𐨪 𐨨 𐨩 𐨯 𐨐 𐨫𐨁 𐨩 𐨤 𐨩,7,yes,bigr.hermaeus_calliope.1
+bigr-063,BIGR,hermaeus,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΕΡΜΑΙΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨱𐨅 𐨪 𐨨 𐨩 𐨯,80,yes,bigr.hermaeus.2
+bigr-064,BIGR,apollophanes,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΑΠΟΛΛΟΦΑΝΟΥ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨀 𐨤𐨂 𐨫 𐨥 𐨣 𐨯,3,yes,bigr.apollophanes.1
+bigr-065,BIGR,strato+strato,ΒΑϹΙΛΕΩϹ ϹΩΤΗΡΟϹ ϹΤΡΑΤΩΝΟϹ ΚΑΙ ΦΙΛ ϹΤΡΑΤΩΝΟϹ,unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯 𐨤𐨂 𐨟𐨿𐨪 𐨯 𐨕 𐨯 𐨤𐨿𐨪𐨁 𐨩 𐨤𐨁 𐨟 𐨯𐨿𐨟𐨿𐨪 𐨟 𐨯,31,yes,bigr.strato_ii_iii.1
+bigr-066,BIGR,nicias,ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΝΙΚΙΟΥ (with lunate sigma and omega),unicode,𐨨 𐨱 𐨪 𐨗 𐨯 𐨟𐨿𐨪 𐨟 𐨪 𐨯 𐨣𐨁 𐨐𐨁 𐨀 𐨯,1,yes,bigr.nicias.7.2

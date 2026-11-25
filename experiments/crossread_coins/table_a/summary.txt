@@ -1,0 +1,26 @@
+crossread_coins transcriber A: counts only (no T, no score, no comparison with B)
+
+BIGR export
+  type rows: 2109
+  rows with a Greek legend on one side and a Kharosthi legend on the other: 1464
+  rows with a Greek legend and a Brahmi legend (not used): 3
+  other rows with Kharosthi and no Greek side (not used): 15
+  authority strings with at least one used row: 34
+  distinct Kharosthi legends (as akshara sequences): 45
+  akshara types: 66
+  rows in bigr_rows.csv: 66
+  rows marked different people (for RM): 5 rows, 17 types
+  rows with zero or 2+ non-title Greek words (for RM2): 4 rows, 45 types
+  names with a usable pair: 26
+  Greek spellings of those names: 27
+
+Wikipedia
+  pinned pages read: 27
+  pages that give a passage with both legends: 12
+  passages listed: 14; kept as rows (name not in BIGR): 14
+  rows marked different people (for RM): 2
+  rows with zero or 2+ non-title Greek words (for RM2): 10
+  names with a usable pair: 2 (azes, azilises)
+
+NAMES IN A: 28 (BIGR 26, Wikipedia 2)
+The sealed gate needs 30 names to pass after the comparison with B.

@@ -542,3 +542,6 @@ b8c6ac6fb159d8e6440631e4878eb4bf03f11a66b8405e75a3caa8d62fe84272  docs/prereg/nu
 c12e4580584c4129c6b6d938ebdafe0e3f6a9688f76de470695dd879df4c0fd6  experiments/unread_sealer_shortlist/run.py  2026-11-25T13:17:57Z  unread_sealer_shortlist_code
 78279b7b5dd86b38eaea267e74d1a206b840d048536aca8dc6a7d262386a50b2  docs/prereg/crossread_coins.md  2026-11-25T14:25:38Z  crossread_coins
 68e02b35369eb2c86f530d213743af25d9605a9632561560094dbee06c0002ad  docs/prereg/decipher_reference_class.md  2026-11-25T14:26:01Z  decipher_reference_class
+a5eda90fb887f4f1c82b7fe136157ab135ea8718c1108aa54ebd0d161b993103  experiments/crossread_coins/compare.py  2026-11-25T14:35:40Z  crossread_coins_compare
+4305470955bebfb1b9d12bbd29e7f06bd41545a4017de7f511f9ce09e77c3c46  experiments/decipher_reference_class/build_packets.py  2026-11-25T14:43:07Z  decipher_reference_class_build_packets
+2c07ddb004c4288785a8b30dd47591c25ca4a193858b2bbf68c27654d36bb008  experiments/decipher_reference_class/score.py  2026-11-25T14:43:07Z  decipher_reference_class_score

@@ -691,3 +691,6 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     6. decipher_reference_class
     7. foreign_transcribe3
   - Waiting for the coordinator to choose.
+- 2026-11-25 **Coordinator's order for plan 11:** crossread_coins first, decipher_reference_class next, then lexicon_ceiling as a new study with its own prereg (it does not reopen certify_size_curve's stop). Skip oakk_sealing_list and crossread_value_ladder for now. No bounds write-up yet.
+- 2026-11-25 **`crossread_coins` STOPPED at its gate (F4).** Sealed v2 after a fresh review. The comparer was hashed before any table B existed. Transcriber A holds only 28 names (BIGR 26, Wikipedia 2), against a gate of 30, and the A–B comparison can only remove names. So transcriber B was not run, and no test statistic was computed. The cross-script caveat stays. It could reopen only with a licensed copy of Gandhari.org's legends or another open catalogue.
+- 2026-11-25 **`decipher_reference_class` sealed v2** after a fresh review. The main fix: one test for every row, coded alike whether or not later confirmed. Packets for 47 rows were built from pinned Wikipedia revisions and Mnamon pages; the texts are kept outside the repo and their hashes in `packets.sha256`. `build_packets.py` and `score.py` are hashed; `score.py` has not run. The coders come next.
