@@ -12,7 +12,7 @@ The lead (main Claude session) runs the project in cycles: read this file, pick 
 ## Fresh plan, 2026-11-20
 - **Context.** The owner reset the goal to decipherment by 2027, as defined in the README: at least 10 sound values with an outside anchor, held-out prediction and a red team. Standing principle: re-plan from scratch now and then, and compare against this section.
 - **How the plan was made.** Fable wrote it without reading the repo; the coordinator then reconciled it with our docs.
-- **Verdict.** About a 1% chance of success on the data in hand. Every past decipherment rested on names fixed from outside the texts plus a known language. Only a digraphic find changes the odds: an Indus seal or impression tied to a cuneiform or Linear Elamite name.
+- **Verdict.** About a 1% chance of success on the data in hand. Corrected 2026-11-25 (`experiments/decipher_reference_class`): in a coded table of 26 deciphered scripts, the rule "outside names or values, or a known language plus word division" fits every row where the accounts settle it. The fit is 24 to 26 of 26, and the agreement check is inconclusive. Not every decipherment rested on names fixed from outside: Hittite, Meroitic and Northeastern Iberian are counterexamples. The rule also fits 10 of 14 unread scripts, so it is necessary at most. No read or unread script in the table has Indus's profile. Only a digraphic find changes the odds: an Indus seal or impression tied to a cuneiform or Linear Elamite name.
 
 | Fresh-plan route | Status in our docs | Action |
 |---|---|---|
@@ -707,3 +707,16 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - K0a: the true Old Assyrian key with the same-archive lexicon gave G ≥ 0.02 in 18 of 20 draws at 1 u. Permuted copies and shuffled keys stayed at 0. Hit@1 lift had a median of 0.75 points.
   - Coverage of held-out words: ceiling list 91%, Neo-Assyrian list 32%.
   - **Consequence:** the restoration closure is about lexicon match, not the score or corpus size. For Indus no matched lexicon can exist, so the route stays closed for that reason. The bounds' "for this score" caveat is now answered for one script.
+- 2026-11-25 **Coordinator:**
+  - Reword the "every past decipherment" sentence. Done: it is corrected in place under "Fresh plan, 2026-11-20".
+  - Run `foreign_transcribe3` next, detached with nohup and perl setsid, with a heartbeat line in the log.
+  - Hold `crossread_value_ladder`.
+  - For clause (b), give the coordinator the exact sentence and the two readings to rule on.
+- 2026-11-25 **From-scratch re-plan** (a fresh Fable agent that read only the results, the atlas, the ledger and the preregs; `docs/fable_brief_fresh12.md`, gitignored).
+  - **Verdict:** no route on open data has a ceiling above bounds and negative results. Decipherment by 2027 is under 1%, all of it from a new find.
+  - **Reconciled against plan 11:**
+    - Its items 1 (photo requests for P516366, P453801 and P415075) and 2 (the HARP pack) are already in `docs/HUMAN_LEADS.md` and the HARP plan.
+    - Item 6 (Gulf-type seals) and item 7 (cross-read calibration on a second bilingual set) repeat closed or stopped work: atlas 9.2 and `crossread_coins`.
+    - New to the project: item 4, a blind reading of 22 unread Kalibangan objects to score the frozen predictions (15%). Also item 5, a third reading from open high-resolution museum photos (25% to find 100 objects).
+  - **Consequence, by the coordinator's rule:** nothing has a higher ceiling than plan 11, so Indus moves to low-cost mode after `foreign_transcribe3`. That means monthly monitoring of the ASI e-publications (ids past 61), Zenodo and OpenAlex, CDLI, CISI 3 and HARP releases, and museum image APIs. No heavy compute.
+  - The mode ends on any of: a bilingual or named-sealer object; the HARP sheet; 300 new texts; 40 measured inscribed vessels; a 30 px/mm image set; a long text.
