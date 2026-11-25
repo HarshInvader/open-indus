@@ -534,3 +534,5 @@ b8c6ac6fb159d8e6440631e4878eb4bf03f11a66b8405e75a3caa8d62fe84272  docs/prereg/nu
 37fa6836a68c57c0832766987415c2682a6b89319d9c2598b3b418bc40f62bb3  experiments/lift_certify/run.py  2026-11-25T00:42:51Z  lift_certify_code
 192b54bb241b9cd6412c3c26523657c57aea14c84df8a69bfaf89d0c574452a1  docs/prereg/lift_score.md  2026-11-25T01:59:04Z  lift_score
 939a53f6f8e3772aea8d3cb53bf18ca02aa9475aee39fcfaa60b76c4e043d75c  experiments/lift_score/run.py  2026-11-25T02:10:41Z  lift_score_code
+7416ee1b5ce8558d8d86f81e64ecf4943c40d6309e57670b30dd10f3ef1589c4  docs/prereg/certify_size_curve.md  2026-11-25T05:06:42Z  certify_size_curve
+2b573b630cdc08531f68863507303ba0a1e0a3ab15a2aced03a710f43c82191a  experiments/certify_size_curve/run.py  2026-11-25T05:23:02Z  certify_size_curve_code

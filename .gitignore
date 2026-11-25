@@ -105,3 +105,7 @@ experiments/ensemble_rehearsal/packets/
 
 # Local-only licensed material (Scott key, Mukhopadhyay glyphs): never commit
 /.local/
+
+# certify_size_curve: small CC0 Oracc files (sign list zip, derived lexicon); see raw/README.md
+!experiments/certify_size_curve/raw/
+!experiments/certify_size_curve/raw/ogsl/ogsl.zip

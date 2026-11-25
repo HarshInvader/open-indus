@@ -644,3 +644,13 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - K2 and K3 record-only: the controls were clean; the true key on real text had λ* = 0 in 20 of 20.
   - **By the sealed rule, certify by held-out restoration on existing texts is closed at this corpus size.** No further score is drafted. The 2027 held-out-prediction clause now depends on more text, or on another kind of prediction.
   - Next: `certify_size_curve`.
+- 2026-11-25 **`certify_size_curve` DRAFT v2 (unsealed).** Prior art: no size curve for a key-plus-lexicon restoration gain was found (Ravi & Knight 2008/2011, Nuhn 2013, Snyder 2010, Luo 2019/2021, Fetaya 2020, Lazar 2021, Ithaca). Count gate: Old Assyrian holds 446,876 keyed sign tokens (letters alone 120,432); nested sizes 1-32 u of about 8,000 tokens. The gate passes only if two CC0 Oracc files (sign list, SAAo glossary) are added. Fresh review: FIX then seal; fixes applied. Waiting on coordinator decisions.
+  - Correction logged: `lift_score` draws held about 8,050 sign tokens, not the 13,100 its prereg states; RESULTS and atlas reworded.
+- 2026-11-25 **Coordinator decisions on `certify_size_curve`:**
+  1. Add the Oracc sign list (CC0).
+  2. Use the SAAo glossary (CC0) as the lexicon, with the Old Assyrian ceiling lexicon kept as the bound on lexicon distance. Only a small derived lexicon is committed; the 66 MB zip is not.
+  3. All Old Assyrian tablets are the primary pool; letters only is record-only.
+  4. K0 low dose is 0.25, with 0.125 as the one fallback stated in advance.
+  5. K4 runs only at the first size that shows.
+  6. Five shuffled keys per draw, with the controls bar computed on those 5.
+  7. The 159 "Old Assyrian ?" rows are excluded from the primary pool and run as one record-only sensitivity check.
