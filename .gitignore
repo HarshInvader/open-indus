@@ -109,3 +109,5 @@ experiments/ensemble_rehearsal/packets/
 # certify_size_curve: small CC0 Oracc files (sign list zip, derived lexicon); see raw/README.md
 !experiments/certify_size_curve/raw/
 !experiments/certify_size_curve/raw/ogsl/ogsl.zip
+!experiments/anchor_crossread/raw/
+!experiments/anchor_crossread/raw/ogsl/ogsl.zip

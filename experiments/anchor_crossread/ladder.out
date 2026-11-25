@@ -1,0 +1,13 @@
+A1: {"passed": true, "POS": 1316, "NEG": 224, "VAR": 128}
+K0 A: {"K0a": 0, "K0b": 20, "Kk": null, "passed": true}
+rung: {"m": 12, "B2/POS": 14, "B2/NEG": 0, "B1/POS": 14, "B1/NEG": 0, "A/POS": 20, "A/NEG": 0}
+rung: {"m": 10, "B2/POS": 12, "B2/NEG": 0, "B1/POS": 13, "B1/NEG": 0, "A/POS": 20, "A/NEG": 0}
+rung: {"m": 9, "B2/POS": 4, "B2/NEG": 0, "B1/POS": 12, "B1/NEG": 0, "A/POS": 17, "A/NEG": 0}
+rung: {"m": 8, "B2/POS": 3, "B2/NEG": 0, "B1/POS": 9, "B1/NEG": 0, "A/POS": 19, "A/NEG": 0}
+rung: {"m": 7, "B2/POS": 2, "B2/NEG": 0, "B1/POS": 5, "B1/NEG": 0, "A/POS": 12, "A/NEG": 0}
+rung: {"m": 6, "B2/POS": 1, "B2/NEG": 0, "B1/POS": 1, "B1/NEG": 0, "A/POS": 8, "A/NEG": 0}
+rung: {"m": 5, "B2/POS": 0, "B2/NEG": 0, "B1/POS": 0, "B1/NEG": 0, "A/POS": 0, "A/NEG": 0}
+rung: {"m": 4, "B2/POS": 0, "B2/NEG": 0, "B1/POS": 0, "B1/NEG": 0, "A/POS": 0, "A/NEG": 0}
+rung: {"m": 3, "B2/POS": 0, "B2/NEG": 0, "B1/POS": 0, "B1/NEG": 0, "A/POS": 0, "A/NEG": 0}
+ladder: {"claimed_m": {"B2": null, "B1": 15, "A": 8}, "claiming_arm": "B1", "value_bar": false}
+Next: cells.

@@ -1,0 +1,9 @@
+A1: {"passed": true, "POS": 1316, "NEG": 224, "VAR": 128}
+R1: {"claimed_m": null, "POS": [10, 10, 3, 4, 5, 1, 1, 0, 0, 0], "mismatch": [0, 2, 0, 0, 0, 0, 0, 0, 0, 0]}
+C1: {"claimed_m": 9, "POS": [20, 20, 18, 17, 15, 12, 3, 0, 0, 0], "mismatch": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+R2: {"claimed_m": null, "POS": [9, 8, 11, 4, 3, 1, 0, 0, 0, 0], "mismatch": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+R3: {"claimed_m": 12, "POS": [18, 18, 14, 7, 5, 8, 2, 1, 0, 0], "mismatch": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
+C2: {"claimed_m": 9, "POS": [20, 20, 19, 19, 13, 15, 8, 2, 0, 0], "mismatch": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]}
+cells: {"claiming_arm": "B1", "claimed_m": {"P": 15, "R1": null, "C1": 9, "R2": null, "R3": 12, "C2": 9}}
+Reading 5: B2 has no claim and B1 claims. The legend's reading direction must be known from outside the set. Reading 4: the test works on clean Ur III legends only. At the reading gate's floor, or at Indus sign statistics, 15 pairs are not enough. Section 4 stays. The minimum event is restated as more than 15 pairs.
+Rehearsal on Ur III sealed tablets. No Indus key is scored, no Indus text is read, and no outcome supports or counts against any Indus reading. The Ur III result is an upper bound on power.

@@ -1,0 +1,7 @@
+A1: {"passed": true, "POS": 1316, "NEG": 224, "VAR": 128}
+F2: {"projected_cpu_hours": 4.76, "applied": false}
+Kp: {"passes": 20, "bar": ">= 19 of 20"}
+Kc: {"passes": 0, "bar": "<= 1 of 20"}
+K0 B2: {"K0a": 0, "K0b": 13, "Kk": null, "passed": false}
+K0 B1: {"K0a": 1, "K0b": 20, "Kk": null, "passed": true}
+K0 passes in arm B1. Next: ladder.
