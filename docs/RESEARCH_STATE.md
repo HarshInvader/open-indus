@@ -720,3 +720,18 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
     - New to the project: item 4, a blind reading of 22 unread Kalibangan objects to score the frozen predictions (15%). Also item 5, a third reading from open high-resolution museum photos (25% to find 100 objects).
   - **Consequence, by the coordinator's rule:** nothing has a higher ceiling than plan 11, so Indus moves to low-cost mode after `foreign_transcribe3`. That means monthly monitoring of the ASI e-publications (ids past 61), Zenodo and OpenAlex, CDLI, CISI 3 and HARP releases, and museum image APIs. No heavy compute.
   - The mode ends on any of: a bilingual or named-sealer object; the HARP sheet; 300 new texts; 40 measured inscribed vessels; a 30 px/mm image set; a long text.
+- 2026-11-25 **Owner directive (via the coordinator): Indus does NOT move to low-cost mode.** This cancels the entry above. Keep inventing new method families.
+  - **Plan 12 families,** ranked:
+    1. `layout_word_division`: do gaps and sign sizes on photos mark word boundaries? Kill test first on two read scripts written without dividers.
+    2. A disguised-script method tournament.
+    3. A per-sign type classifier, transferred from read mixed scripts.
+    4. A joint generative model of sealing content, fitted by simulation-based inference.
+  - **Dropped:** key_class_coherence and the size-curve note. **Held:** crossread_value_ladder.
+  - **`foreign_transcribe3`** is superseded before sealing by `layout_word_division`. Its prior art found that all 3 objects are already in the 54-row foreign corpus.
+  - **Subagents now run on Opus,** per the owner.
+- 2026-11-25 **Outreach note fact-check** (`docs/outreach/yajnadevam_open_note_DRAFT.md`, gitignored, the owner's to send). About 30 claims checked and 4 errors fixed:
+  - the word length in finding 4 (5+ consonants, not 4);
+  - a bug disclosure added: the strict-dictionary figure was bug-affected, and an unsealed fixed rerun gives p ≈ 0.03, still under the bar;
+  - the numerals wording;
+  - "two opening signs", not three.
+  - The generous-column finding holds after the bug fix (p = 0.17). The Substack quotes are unverified.
