@@ -630,3 +630,9 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **Described:** width rises about in proportion to sign concentration (slope 1.05); held-out size slope −0.32.
   - **Consequence:** concentration is a strong candidate for why read seal corpora lose power, but there is no width check for M77. Atlas 1.1 gained a line.
   - Next: `lift_certify`, as the coordinator directed.
+- 2026-11-25 **`lift_certify` STOPPED at K0.**
+  - Process: Fable drafted it; a fresh review returned FIX and then run (its simulation put the expected lift below 1 point); the pre-seal check returned SEAL-WITH-EDITS 8; sealed v3, code sealed; run detached.
+  - A1, A2, F3 and F4 were fine.
+  - **K0 failed.** On planted text made only of lexicon words, λ* = 0 in every draw, and development Hit@1 fell as λ rose.
+  - **Diagnosis (no bug found):** the full Homeric lexicon gives chance coverage at 81% of positions, and about 19 candidates tie. Only 8.6% of positions sit inside an intact planted word.
+  - **Consequence:** this score cannot certify. The held-out-prediction route is untested with a working score. A new score, such as a word-level likelihood, thinner lexicon or reachable-only primary, needs a new prereg and a coordinator decision.

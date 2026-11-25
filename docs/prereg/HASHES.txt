@@ -530,3 +530,5 @@ e4d6d154ed3d369cf3d7abfc98fc91a70510e61e0afed11caa04e7d47541e35c  docs/prereg/ur
 d1e784dea6d35d677cfe3f7a43e50dc8557975c562a54ec2d02d22446494f416  experiments/ur3_legend_refute/run.py  2026-11-24T20:47:05Z  ur3_legend_refute_code
 b8c6ac6fb159d8e6440631e4878eb4bf03f11a66b8405e75a3caa8d62fe84272  docs/prereg/null_width.md  2026-11-24T23:18:22Z  null_width
 1205ad2c049dfc504641bff50cc4c7708546d3c1f3c6149480f23acc501750b3  experiments/null_width/run.py  2026-11-24T23:31:32Z  null_width_code
+0c6bd26d48bb91527cdd3471916bed4d92998e9847329b1afea49b3727e8ed9c  docs/prereg/lift_certify.md  2026-11-25T00:34:23Z  lift_certify
+37fa6836a68c57c0832766987415c2682a6b89319d9c2598b3b418bc40f62bb3  experiments/lift_certify/run.py  2026-11-25T00:42:51Z  lift_certify_code
