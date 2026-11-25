@@ -33,7 +33,7 @@
 - **It can say:**
   - This word-and-fragment score carries signal when text is made of lexicon words: K0 is a clean replication of the pilot.
   - At the lexicon fit that the true Linear B key actually reaches on real text (D near zero), the gain is not reliably there. On real text, the development folds never chose λ > 0.
-  - So held-out restoration with a Homeric lexicon cannot certify a key at about 13,100 sign tokens in M77-length chunks.
+  - So held-out restoration with a Homeric lexicon cannot certify a key at this draw size: 2,300 M77-length chunks, about 8,050 sign tokens (A2 counts 8,020-8,104 per draw).
 - **It cannot say:**
   - that no score could work. The oracle gain on full-dose plants was 0.50 nats;
   - what happens at larger corpus sizes. That question goes to `certify_size_curve`;
@@ -41,6 +41,7 @@
 - **Route:** closed for this corpus size under the sealed one-attempt rule. No further score is drafted. Reopening needs more text.
 
 ## Disclosures
+- **Corpus-size wording:** the sealed prereg describes the corpus as "about 13,100 sign tokens in chunks of M77 length". The sealed draws hold about 8,050 sign tokens each (2,300 chunks at a mean of 3.5 signs). The frozen reading's words are kept; the size it refers to is the draw size.
 - **Implementer choices:** 22 places are marked `# PREREG-AMBIGUITY:` in `run.py`. The ones bearing on K1 are the fold hash, the pooled λ* margin, the 15 EM rounds, the bisection order and the endpoint rule. All 20 bisections landed within tolerance.
 - **Exit status:** the job wrapper recorded exit status 1 for the planned K1 stop. `kill.json` shows status `done`.
 - No rerun, no tuning, no fix tags.

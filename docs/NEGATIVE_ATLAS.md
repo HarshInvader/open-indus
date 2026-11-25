@@ -58,7 +58,7 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - The held-out-prediction route is closed for this score only. Another score needs a new prereg.
 - **Lift score, 2026-11-25 (`experiments/lift_score`).** A word-and-fragment likelihood with learned word weights passed its planted test (K0: G 0.16-0.28 nats, controls 0), but failed at the true key's own dose (K1: 11 of 20, bar 16).
   - On real Linear B the true key's lexicon fit is near zero (D −0.02 to +0.03), and λ* = 0 in all 20 real-text draws (K3, record-only). Hit@1 lift stayed under 1 point everywhere past K0.
-  - **Route closed for this corpus size** (about 13,100 sign tokens in M77-length chunks) by the sealed one-attempt rule: certify by held-out restoration on existing texts. Reopening needs more text; next is `certify_size_curve`.
+  - **Route closed for this corpus size** (2,300 M77-length chunks, about 8,050 sign tokens per draw; the sealed prereg's "about 13,100" does not match its draws) by the sealed one-attempt rule: certify by held-out restoration on existing texts. Reopening needs more text; next is `certify_size_curve`.
 - **Null width, 2026-11-24 (`experiments/null_width`).**
   - On Ur III administrative text, raising sign-frequency concentration to the legends' level widens the scrambled shuffle null from 0.030 to 0.062; the legends themselves give 0.085. The width rises about in proportion to concentration (fitted slope 1.05).
   - The sealed five-term predictor failed its form test (largest leave-one-out residual 0.199 against a bar of 0.18), so no predicted width for M77 exists. Whether fit-refute can have stated power on Indus stays open.
