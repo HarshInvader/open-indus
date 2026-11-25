@@ -1,0 +1,26 @@
+section,item,value,note
+agreement,LANG_PRIOR,pass_full,kappa full 0.8071135430916553; kappa collapsed 0.8071135430916553; raw collapsed 0.872; rows 47
+agreement,LANG_HIND,pass_full,kappa full 0.8947368421052632; kappa collapsed 0.8947368421052632; raw collapsed 0.967; rows 30
+agreement,ANCHOR,fail,kappa full 0.7166236003445305; kappa collapsed 0.6872623574144487; raw collapsed 0.851; rows 47
+agreement,VALUES,pass_full,kappa full 0.9304733727810651; kappa collapsed 0.9304733727810651; raw collapsed 0.957; rows 47
+agreement,WORDDIV,pass_full,kappa full 0.9065606361829026; kappa collapsed 0.8893249607535322; raw collapsed 0.936; rows 47
+agreement,CORPUS,pass_full,kappa full 0.8480057491915199; kappa collapsed 0.8503184713375797; raw collapsed 0.936; rows 47
+readout_1,majority table,PASS,"fit 26 (NS helps) / 24 (NS hurts) of 26, bar 24; misses: none"
+readout_1,coder1 table,INCONCLUSIVE,"fit 26 (NS helps) / 22 (NS hurts) of 26, bar 24; misses: none"
+readout_1,coder2 table,PASS,"fit 26 (NS helps) / 24 (NS hurts) of 26, bar 24; misses: none"
+readout_1,verdict,INCONCLUSIVE,"The sentence is marked ""not checked: the accounts do not settle it"" wherever it stands. The rows that decide it are listed."
+readout_1b,sentence as written,count only (readout 1 is INCONCLUSIVE),fit 23 / 17 of 26; no reading
+readout_1c,U rows that fit,10 of 14,"The rule does not separate. Having these features is common among unread scripts too, so the rule is at most a necessary condition. Fisher p 0.1591 (decides nothing)"
+readout_2,first line,,"The coders' Indus row differs from the project's stated row: WORDDIV: coders NS, project 0"
+readout_2,core profile,"k_D 0, k_U 0","No listed script, read or unread, has Indus's profile. The outside view has no reference class for Indus and the project says so. Named D1: none. Named U: none. Possible matches: Old Turkic, Safaitic, Ba–Shu, Cypro-Minoan, Isthmian"
+readout_2,with corpus band,"k_D 0, k_U 0",record only
+sensitivity,D1 plus D2,PASS,"fit 30 / 28 of 30, bar 27; record only"
+sensitivity,VALUES = 2,PASS,"fit 26 / 24 of 26, bar 24; record only"
+sensitivity,LANG_HIND for LANG_PRIOR,PASS,"fit 26 / 24 of 26, bar 24; record only"
+sensitivity,Kushan script as deciphered,PASS,"fit 27 / 25 of 27, bar 25; record only"
+sensitivity,Kushan script as undeciphered,11 of 15 U rows fit,record only
+sensitivity,Proto-Sinaitic as deciphered,PASS,"fit 27 / 25 of 27, bar 25; record only"
+sensitivity,Proto-Sinaitic as undeciphered,11 of 15 U rows fit,record only
+sensitivity,by family,19 / 17 of 19 groups,"not fitting: Old Turkic, Safaitic; record only"
+sensitivity,"leave one out, ns_helps",25 to 26,count 26; side of the bar can change: False; record only
+sensitivity,"leave one out, ns_hurts",23 to 25,count 24; side of the bar can change: True; record only

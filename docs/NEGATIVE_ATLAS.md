@@ -68,6 +68,10 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - The open, licensed sources (BIGR, ODbL; Wikipedia, CC BY-SA) give 28 distinct Indo-Greek and Indo-Scythian names with both a Greek and a Kharosthi legend. The gate needs 30, and the second-transcriber check can only lower the count.
   - Whether the cross-read rule transports across scripts is **untested**. The "cuneiform on both sides" caveat on `anchor_crossread` stays.
   - **Reopen with:** a licensed copy of the Gandhari.org legends, or another open catalogue, under a new prereg.
+- **Decipherment reference class, 2026-11-25 (`experiments/decipher_reference_class`).** Two blind model coders coded 47 scripts on five features from pinned open accounts.
+  - **No listed script, read or unread, has Indus's profile:** no language known, no outside anchor, no borrowed values, no word division. The outside view has no reference class for Indus.
+  - The weak rule ("outside names or values, or a known language plus word division") fits 24 to 26 of 26 read scripts. It is INCONCLUSIVE, because coder agreement on ANCHOR was 0.72. It also fits 10 of 14 unread scripts, so it is at most a necessary condition.
+  - The strong sentence "every past decipherment rested on names fixed from outside" has 3 counterexamples here (Hittite, Meroitic, Northeastern Iberian).
 - **Null width, 2026-11-24 (`experiments/null_width`).**
   - On Ur III administrative text, raising sign-frequency concentration to the legends' level widens the scrambled shuffle null from 0.030 to 0.062; the legends themselves give 0.085. The width rises about in proportion to concentration (fitted slope 1.05).
   - The sealed five-term predictor failed its form test (largest leave-one-out residual 0.199 against a bar of 0.18), so no predicted width for M77 exists. Whether fit-refute can have stated power on Indus stays open.

@@ -694,3 +694,11 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
 - 2026-11-25 **Coordinator's order for plan 11:** crossread_coins first, decipher_reference_class next, then lexicon_ceiling as a new study with its own prereg (it does not reopen certify_size_curve's stop). Skip oakk_sealing_list and crossread_value_ladder for now. No bounds write-up yet.
 - 2026-11-25 **`crossread_coins` STOPPED at its gate (F4).** Sealed v2 after a fresh review. The comparer was hashed before any table B existed. Transcriber A holds only 28 names (BIGR 26, Wikipedia 2), against a gate of 30, and the A–B comparison can only remove names. So transcriber B was not run, and no test statistic was computed. The cross-script caveat stays. It could reopen only with a licensed copy of Gandhari.org's legends or another open catalogue.
 - 2026-11-25 **`decipher_reference_class` sealed v2** after a fresh review. The main fix: one test for every row, coded alike whether or not later confirmed. Packets for 47 rows were built from pinned Wikipedia revisions and Mnamon pages; the texts are kept outside the repo and their hashes in `packets.sha256`. `build_packets.py` and `score.py` are hashed; `score.py` has not run. The coders come next.
+- 2026-11-25 **`decipher_reference_class` DONE.**
+  - Agreement: 5 of 6 features pass. ANCHOR fails at kappa 0.72.
+  - Readout 1 is INCONCLUSIVE: coder 2 and the majority table pass at 24 of 26, coder 1 is inconclusive at 22 to 26, and the deciding rows are Old Turkic and Safaitic.
+  - Readout 1b is a count only. The strong sentence "every past decipherment rested on names fixed from outside" has 3 counterexamples (Hittite, Meroitic, Northeastern Iberian).
+  - Readout 1c: 10 of 14 unread scripts also fit the rule, so it is at most a necessary condition.
+  - Readout 2: **no read or unread script has Indus's profile.**
+  - For the coordinator: whether to reword the "every past decipherment" sentence wherever the project uses it.
+  - Next in the coordinator's order: `lexicon_ceiling`, as a new study with its own prereg.

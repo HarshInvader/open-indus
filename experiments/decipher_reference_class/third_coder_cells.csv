@@ -1,0 +1,23 @@
+row_id,script,feature
+R05,Byblos syllabary,ANCHOR
+R07,Caucasian Albanian,LANG_PRIOR
+R07,Caucasian Albanian,CORPUS
+R16,Kharosthi,LANG_PRIOR
+R20,Libyco-Berber,LANG_PRIOR
+R23,Linear Elamite,VALUES
+R24,Lycian,ANCHOR
+R25,Lydian,CORPUS
+R26,Maya,LANG_PRIOR
+R26,Maya,WORDDIV
+R33,Oracle bone script,WORDDIV
+R34,Pahlavi,LANG_PRIOR
+R37,Phoenician,ANCHOR
+R39,Proto-Sinaitic,CORPUS
+R40,Rongorongo,ANCHOR
+R40,Rongorongo,VALUES
+R40,Rongorongo,WORDDIV
+R42,Shankhalipi,ANCHOR
+R45,Tangut,LANG_PRIOR
+R45,Tangut,LANG_HIND
+R45,Tangut,ANCHOR
+R46,Ugaritic,ANCHOR

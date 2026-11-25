@@ -1,0 +1,48 @@
+row_id,script,set,LANG_PRIOR,LANG_HIND,ANCHOR,VALUES,WORDDIV,CORPUS,fits_rule_ns_helps,fits_rule_ns_hurts
+R01,Anatolian hieroglyphs,D2,1,1,2,0,1,NS,1,1
+R02,Ancient South Arabian,D2,NS,1,2,1,2,NS,1,1
+R03,Ba–Shu,U,0,NA,NS,0,NS,NS,1,0
+R04,Brahmi,D1,1,1,2,1,1,NS,1,1
+R05,Byblos syllabary,U,0,NA,NS,1,1,B,1,1
+R06,Carian,D1,0,1,2,1,1,NS,1,1
+R07,Caucasian Albanian,D1,1,1,2,NS,NS,A,1,1
+R08,Cretan hieroglyphs,U,0,NA,NS,1,1,B,1,1
+R09,Cypriot syllabary,D1,NS,1,2,NS,NS,NS,1,1
+R10,Cypro-Minoan,U,0,NA,0,NS,NS,B,1,0
+R11,Demotic,D1,1,1,2,NS,NS,NS,1,1
+R12,Egyptian hieroglyphs,D1,1,1,2,NS,0,D,1,1
+R13,Hittite cuneiform,D1,0,0,2,2,NS,NS,1,1
+R14,Indus,TARGET,0,NA,0,0,NS,C,0,0
+R15,Isthmian,U,0,NA,NS,NS,NS,NS,1,0
+R16,Kharosthi,D1,NS,1,2,NS,NS,NS,1,1
+R17,Khitan large script,U,1,NA,2,1,NS,NS,1,1
+R18,Khitan small script,U,1,NA,2,0,2,NS,1,1
+R19,Kushan script,C,1,NA,2,NS,NS,NS,1,1
+R20,Libyco-Berber,D1,1,1,2,NS,NS,NS,1,1
+R21,Linear A,U,0,NA,1,1,NS,B,1,1
+R22,Linear B,D1,0,1,1,1,NS,NS,1,1
+R23,Linear Elamite,D1,1,1,2,0,NS,B,1,1
+R24,Lycian,D1,NS,NS,2,2,2,NS,1,1
+R25,Lydian,D2,NS,NS,2,2,2,NS,1,1
+R26,Maya,D1,1,1,2,NS,2,NS,1,1
+R27,Meroitic,D1,NS,0,1,NS,2,NS,1,1
+R28,Mesopotamian cuneiform,D1,1,1,2,0,NS,D,1,1
+R29,Nabataean,D1,NS,1,NS,2,0,NS,1,1
+R30,Northeastern Iberian,D1,NS,0,2,NS,NS,NS,1,1
+R31,Old Persian cuneiform,D1,1,1,2,0,2,NS,1,1
+R32,Old Turkic,D1,NS,1,NS,NS,NS,NS,1,0
+R33,Oracle bone script,D1,1,1,NS,1,2,D,1,1
+R34,Pahlavi,D1,1,1,2,2,NS,NS,1,1
+R35,Palmyrene,D1,NS,1,2,2,0,NS,1,1
+R36,Phaistos Disc,U,0,NA,NS,1,2,A,1,1
+R37,Phoenician,D1,NS,1,2,2,NS,NS,1,1
+R38,Proto-Elamite,U,0,NA,NS,1,NS,NS,1,1
+R39,Proto-Sinaitic,C,1,NA,2,1,0,A,1,1
+R40,Rongorongo,U,1,NA,NS,0,0,C,1,0
+R41,Safaitic,D1,NS,1,NS,NS,0,NS,1,0
+R42,Shankhalipi,U,1,NA,2,1,NS,NS,1,1
+R43,Sidetic,D2,NS,1,2,1,NS,NS,1,1
+R44,Southwest Paleohispanic,U,0,NA,NS,1,NS,NS,1,1
+R45,Tangut,D1,1,NS,2,NS,NS,NS,1,1
+R46,Ugaritic,D1,NS,1,2,NS,1,NS,1,1
+R47,Zapotec,U,1,NA,1,NS,NS,NS,1,1

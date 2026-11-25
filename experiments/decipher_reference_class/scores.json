@@ -1,0 +1,388 @@
+{
+ "agreement": {
+  "ANCHOR": {
+   "both_constant": false,
+   "kappa_collapsed": 0.6872623574144487,
+   "kappa_full": 0.7166236003445305,
+   "n_rows": 47,
+   "passed": false,
+   "raw_agreement_collapsed": 0.851063829787234,
+   "raw_agreement_full": 0.851063829787234,
+   "smaller_class": "0",
+   "smaller_class_rows": [
+    3,
+    2
+   ],
+   "smaller_class_shared_rows": 2,
+   "status": "fail",
+   "weighted": true
+  },
+  "CORPUS": {
+   "both_constant": false,
+   "kappa_collapsed": 0.8503184713375797,
+   "kappa_full": 0.8480057491915199,
+   "n_rows": 47,
+   "passed": true,
+   "raw_agreement_collapsed": 0.9361702127659575,
+   "raw_agreement_full": 0.9361702127659575,
+   "smaller_class": "1",
+   "smaller_class_rows": [
+    5,
+    5
+   ],
+   "smaller_class_shared_rows": 5,
+   "status": "pass_full",
+   "weighted": true
+  },
+  "LANG_HIND": {
+   "both_constant": false,
+   "kappa_collapsed": 0.8947368421052632,
+   "kappa_full": 0.8947368421052632,
+   "n_rows": 30,
+   "passed": true,
+   "raw_agreement_collapsed": 0.9666666666666667,
+   "raw_agreement_full": 0.9666666666666667,
+   "smaller_class": "0",
+   "smaller_class_rows": [
+    3,
+    3
+   ],
+   "smaller_class_shared_rows": 3,
+   "status": "pass_full",
+   "weighted": false
+  },
+  "LANG_PRIOR": {
+   "both_constant": false,
+   "kappa_collapsed": 0.8071135430916553,
+   "kappa_full": 0.8071135430916553,
+   "n_rows": 47,
+   "passed": true,
+   "raw_agreement_collapsed": 0.8723404255319149,
+   "raw_agreement_full": 0.8723404255319149,
+   "smaller_class": "0",
+   "smaller_class_rows": [
+    13,
+    13
+   ],
+   "smaller_class_shared_rows": 13,
+   "status": "pass_full",
+   "weighted": false
+  },
+  "VALUES": {
+   "both_constant": false,
+   "kappa_collapsed": 0.9304733727810651,
+   "kappa_full": 0.9304733727810651,
+   "n_rows": 47,
+   "passed": true,
+   "raw_agreement_collapsed": 0.9574468085106383,
+   "raw_agreement_full": 0.9574468085106383,
+   "smaller_class": "0",
+   "smaller_class_rows": [
+    7,
+    7
+   ],
+   "smaller_class_shared_rows": 6,
+   "status": "pass_full",
+   "weighted": true
+  },
+  "WORDDIV": {
+   "both_constant": false,
+   "kappa_collapsed": 0.8893249607535322,
+   "kappa_full": 0.9065606361829026,
+   "n_rows": 47,
+   "passed": true,
+   "raw_agreement_collapsed": 0.9361702127659575,
+   "raw_agreement_full": 0.9361702127659575,
+   "smaller_class": "1",
+   "smaller_class_rows": [
+    9,
+    7
+   ],
+   "smaller_class_shared_rows": 7,
+   "status": "pass_full",
+   "weighted": true
+  }
+ },
+ "failure_effects": {
+  "CORPUS": "passed",
+  "LANG_HIND": "passed",
+  "rule_features": [
+   "ANCHOR"
+  ]
+ },
+ "prereg_ambiguities": [
+  "Quotation match: NFC, whitespace runs as one space, outer quotation marks removed; otherwise exact.",
+  "NS and NA need no quotation; no minimum quotation length.",
+  "LANG_PRIOR and LANG_HIND have no separate collapsed form; step 2 repeats step 1.",
+  "Linear weights use the codebook's level count.",
+  "Smaller class for step 3: pooled over both coders, 0 or 1 only, tie to class 1.",
+  "Third-coder cells: full-level differences after the quotation check.",
+  "Majority vote on full-level codes.",
+  "Three-table rule read as equal verdict labels.",
+  "Readout 1b: no reading when the NS settings straddle 24; majority table only.",
+  "Fisher p: NS against fitting, two-sided.",
+  "Possible matches: NS rows whose stated core features equal Indus's.",
+  "Five-feature profile uses the corpus band collapsed at 10,000.",
+  "Contested rows: bar 25 of 27 as deciphered; readout 1c on 15 rows as undeciphered.",
+  "Family sensitivity has no bar; 18 of 19 shown for reference.",
+  "T for rows off the timeline (in build_packets.py): date of the Wikipedia revision.",
+  "Saved text (in build_packets.py): full rendered page without navigation boxes and footnote markers."
+ ],
+ "quotation_check_log": [
+  {
+   "coder": "coder1",
+   "feature": "LANG_PRIOR",
+   "given": "0",
+   "row_id": "R05",
+   "set_to": "0",
+   "why": "quotation under 20 characters (kept)"
+  },
+  {
+   "coder": "coder2",
+   "feature": "LANG_PRIOR",
+   "given": "0",
+   "row_id": "R05",
+   "set_to": "0",
+   "why": "quotation under 20 characters (kept)"
+  }
+ ],
+ "readout_1": {
+  "coder1": {
+   "bar": 24,
+   "deciding_rows_ns": [
+    "Old Turkic",
+    "Safaitic",
+    "Tangut",
+    "Ugaritic"
+   ],
+   "fit_ns_helps": 26,
+   "fit_ns_hurts": 22,
+   "misses_under_both": [],
+   "n": 26,
+   "verdict": "INCONCLUSIVE"
+  },
+  "coder2": {
+   "bar": 24,
+   "deciding_rows_ns": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "fit_ns_helps": 26,
+   "fit_ns_hurts": 24,
+   "misses_under_both": [],
+   "n": 26,
+   "verdict": "PASS"
+  },
+  "frozen_reading": "The sentence is marked \"not checked: the accounts do not settle it\" wherever it stands. The rows that decide it are listed.",
+  "k_misses": [
+   0,
+   2
+  ],
+  "majority": {
+   "bar": 24,
+   "deciding_rows_ns": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "fit_ns_helps": 26,
+   "fit_ns_hurts": 24,
+   "misses_under_both": [],
+   "n": 26,
+   "verdict": "PASS"
+  },
+  "rule_features_failing_agreement": [
+   "ANCHOR"
+  ],
+  "verdict": "INCONCLUSIVE"
+ },
+ "readout_1b": {
+  "count": {
+   "bar": 24,
+   "deciding_rows_ns": [
+    "Lycian",
+    "Nabataean",
+    "Old Turkic",
+    "Oracle bone script",
+    "Safaitic",
+    "Tangut"
+   ],
+   "fit_ns_helps": 23,
+   "fit_ns_hurts": 17,
+   "misses_under_both": [
+    "Hittite cuneiform",
+    "Meroitic",
+    "Northeastern Iberian"
+   ],
+   "n": 26,
+   "verdict": "MISS"
+  },
+  "frozen_reading": null,
+  "status": "count only (readout 1 is INCONCLUSIVE)"
+ },
+ "readout_1c": {
+  "d1_fit_ns_hurts": 24,
+  "fisher_exact_p_two_sided": 0.1590801327643433,
+  "frozen_reading": "The rule does not separate. Having these features is common among unread scripts too, so the rule is at most a necessary condition.",
+  "u_fit": 10,
+  "u_fit_rows": [
+   "Byblos syllabary",
+   "Cretan hieroglyphs",
+   "Khitan large script",
+   "Khitan small script",
+   "Linear A",
+   "Phaistos Disc",
+   "Proto-Elamite",
+   "Shankhalipi",
+   "Southwest Paleohispanic",
+   "Zapotec"
+  ],
+  "u_n": 14
+ },
+ "readout_2": {
+  "core": {
+   "indus_profile": {
+    "ANCHOR": "0",
+    "LANG_PRIOR": "0",
+    "VALUES": "0",
+    "WORDDIV": "0"
+   },
+   "k_D": 0,
+   "k_D_possible_matches": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "k_D_rows": [],
+   "k_U": 0,
+   "k_U_possible_matches": [
+    "Ba–Shu",
+    "Cypro-Minoan",
+    "Isthmian"
+   ],
+   "k_U_rows": []
+  },
+  "first_line": "The coders' Indus row differs from the project's stated row: WORDDIV: coders NS, project 0",
+  "frozen_reading": "No listed script, read or unread, has Indus's profile. The outside view has no reference class for Indus and the project says so.",
+  "indus_flags": [
+   "WORDDIV is NS for Indus in the majority table; the project's stated value 0 is used"
+  ],
+  "with_corpus_band": {
+   "indus_profile": {
+    "ANCHOR": "0",
+    "CORPUS": "1",
+    "LANG_PRIOR": "0",
+    "VALUES": "0",
+    "WORDDIV": "0"
+   },
+   "k_D": 0,
+   "k_D_possible_matches": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "k_D_rows": [],
+   "k_U": 0,
+   "k_U_possible_matches": [
+    "Ba–Shu",
+    "Isthmian"
+   ],
+   "k_U_rows": []
+  }
+ },
+ "sensitivity": {
+  "by_family": {
+   "fit_ns_helps": 19,
+   "fit_ns_hurts": 17,
+   "groups": 19,
+   "groups_not_fitting_ns_hurts": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "reference_bar": 18
+  },
+  "contested": {
+   "Kushan script": {
+    "as_deciphered": {
+     "bar": 25,
+     "deciding_rows_ns": [
+      "Old Turkic",
+      "Safaitic"
+     ],
+     "fit_ns_helps": 27,
+     "fit_ns_hurts": 25,
+     "misses_under_both": [],
+     "n": 27,
+     "verdict": "PASS"
+    },
+    "as_undeciphered_u_fit": 11,
+    "as_undeciphered_u_n": 15
+   },
+   "Proto-Sinaitic": {
+    "as_deciphered": {
+     "bar": 25,
+     "deciding_rows_ns": [
+      "Old Turkic",
+      "Safaitic"
+     ],
+     "fit_ns_helps": 27,
+     "fit_ns_hurts": 25,
+     "misses_under_both": [],
+     "n": 27,
+     "verdict": "PASS"
+    },
+    "as_undeciphered_u_fit": 11,
+    "as_undeciphered_u_n": 15
+   }
+  },
+  "d1_plus_d2": {
+   "bar": 27,
+   "deciding_rows_ns": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "fit_ns_helps": 30,
+   "fit_ns_hurts": 28,
+   "misses_under_both": [],
+   "n": 30,
+   "verdict": "PASS"
+  },
+  "lang_hind_for_lang_prior": {
+   "bar": 24,
+   "deciding_rows_ns": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "fit_ns_helps": 26,
+   "fit_ns_hurts": 24,
+   "misses_under_both": [],
+   "n": 26,
+   "verdict": "PASS"
+  },
+  "leave_one_out": {
+   "ns_helps": {
+    "count": 26,
+    "highest_if_one_row_flips": 26,
+    "lowest_if_one_row_flips": 25,
+    "side_of_bar_can_change": false
+   },
+   "ns_hurts": {
+    "count": 24,
+    "highest_if_one_row_flips": 25,
+    "lowest_if_one_row_flips": 23,
+    "side_of_bar_can_change": true
+   }
+  },
+  "values_equal_2": {
+   "bar": 24,
+   "deciding_rows_ns": [
+    "Old Turkic",
+    "Safaitic"
+   ],
+   "fit_ns_helps": 26,
+   "fit_ns_hurts": 24,
+   "misses_under_both": [],
+   "n": 26,
+   "verdict": "PASS"
+  }
+ },
+ "stage": "final",
+ "third_coder_cells": 22
+}
