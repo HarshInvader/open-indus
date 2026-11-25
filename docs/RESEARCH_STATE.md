@@ -799,3 +799,8 @@ Further open-data work mostly sharpens the reasons for failure. It cannot move t
 - lever 1, image requests to the holders;
 - lever 2, desk scoping of open sources against the anchor_crossread threshold of more than 15 pairs;
 - the local-hands audit, at low priority.
+- 2026-11-25 **Lever 1 status.** There are no new sends, because both tablets already have requests out.
+  - **P453801:** asked of Owen on 2026-11-17, and of Rositani (the Nisaba editor) and CDLI on 2026-11-23. None has replied. No reminders before the 10-day limit: Owen after 2026-11-27, the others after 2026-12-03.
+  - **P516366:** the tablet was repatriated to the Iraq Museum. The SBAH request of 2026-11-24 bounced, and the SBAH official page lists only that address. No verifiable address was found for the CUSAS 40 authors (Sigrist and Ozaki). Stopped per the email rule, with the bounce logged.
+  - **P415075** stays a human lead for the owner.
+- 2026-11-25 **Started:** lever 2 desk scoping (`experiments/anchor_sources_scope/`) and the local_hands audit (prior art, minimum, gate).
