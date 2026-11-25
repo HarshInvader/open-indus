@@ -14,7 +14,7 @@
 - **L3 denotation**, tying one sign to one referent by depiction, arithmetic or physical measure: open.
 - **L4 phonetic value:** unreachable without a bilingual. The leads that need museum imaging are in `docs/HUMAN_LEADS.md`.
 
-**Goal: decipher the Indus script by 2027.** It counts as met with at least 10 signs whose sound values count: sound values count only if (a) they are supported by an anchor outside the texts (a name tied to an object, a bilingual, or independently fixed sign values) and (b) they correctly predict texts they were not fitted to, under a pre-registered test, and they survive an independent red team. Our bench alone can refute a key but cannot confirm one (`docs/ASSUMPTIONS.md` A13). Until then, the target is 3-5 L2/L3 anchors plus a full numeral grammar. Two more outputs support it:
+**Goal: decipher the Indus script by 2027.** It counts as met with at least 10 signs whose sound values count: sound values count only if (a) they are supported by an anchor outside the texts (a name tied to an object, a bilingual, or independently fixed sign values) and (b) they correctly predict texts they were not fitted to, under a pre-registered test, and they survive an independent red team.[^b] Our bench alone can refute a key but cannot confirm one (`docs/ASSUMPTIONS.md` A13). Until then, the target is 3-5 L2/L3 anchors plus a full numeral grammar. Two more outputs support it:
 
 - a record of every closed route and its power (`docs/RESEARCH_STATE.md`);
 - a hash-sealed prediction registry for future finds (`docs/prereg/`).
@@ -113,3 +113,12 @@ Rebuild everything with `python3 -m venv .venv && .venv/bin/pip install -r requi
 - Null-model toolkit: [joyboseroy/indus_decipher](https://github.com/joyboseroy/indus_decipher).
 
 Licences of derived corpus data follow their sources.
+
+[^b]: **How clause (b) is read** (coordinator ruling, 2026-11-25). Two tests can meet it.
+    - **Reading A: leave-one-anchor-out.** A held-out anchor's name–legend pair is predicted by values fitted without it. It counts only if all four of these are in the prereg before any fitting:
+      1. The held-out anchors are listed and sealed before fitting.
+      2. No sign value is tuned on the held-out pair, either directly or through shared signs. A leakage check shows this: with that anchor's signs frozen out, the refit values must not move.
+      3. The test scores against a pre-stated null, such as shuffled anchor–legend pairings.
+      4. The red team still passes on its own.
+    - **Reading B: texts that are not anchors.** The values predict inscriptions never used as anchors, such as new finds. This is the gold standard, and it runs whenever such a text becomes testable.
+    - **Every claim says which reading it meets.**
