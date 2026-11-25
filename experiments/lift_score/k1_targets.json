@@ -1,0 +1,127 @@
+{
+ "prereg": "docs/prereg/lift_score.md",
+ "what": "K1 dose targets: D of the true key on the real development half; written before any K1 plant gain is computed",
+ "written_unix": 1795573312.731199,
+ "targets": [
+  {
+   "k": 1,
+   "D": -0.010946957935374705,
+   "n_cons_dev": 2797,
+   "n_chunks_dev": 1144
+  },
+  {
+   "k": 2,
+   "D": 0.009683906998316236,
+   "n_cons_dev": 2831,
+   "n_chunks_dev": 1159
+  },
+  {
+   "k": 3,
+   "D": -0.017732570120152214,
+   "n_cons_dev": 2881,
+   "n_chunks_dev": 1154
+  },
+  {
+   "k": 4,
+   "D": 0.009936476966859583,
+   "n_cons_dev": 3008,
+   "n_chunks_dev": 1170
+  },
+  {
+   "k": 5,
+   "D": -0.0054980215166176875,
+   "n_cons_dev": 2771,
+   "n_chunks_dev": 1145
+  },
+  {
+   "k": 6,
+   "D": 0.016577032683192227,
+   "n_cons_dev": 2863,
+   "n_chunks_dev": 1162
+  },
+  {
+   "k": 7,
+   "D": -0.005082686856004618,
+   "n_cons_dev": 2764,
+   "n_chunks_dev": 1140
+  },
+  {
+   "k": 8,
+   "D": 0.0035516272063772975,
+   "n_cons_dev": 2782,
+   "n_chunks_dev": 1146
+  },
+  {
+   "k": 9,
+   "D": -0.014943217090123674,
+   "n_cons_dev": 2822,
+   "n_chunks_dev": 1154
+  },
+  {
+   "k": 10,
+   "D": -0.014509620748084455,
+   "n_cons_dev": 2809,
+   "n_chunks_dev": 1161
+  },
+  {
+   "k": 11,
+   "D": -0.015836506543253717,
+   "n_cons_dev": 2790,
+   "n_chunks_dev": 1141
+  },
+  {
+   "k": 12,
+   "D": -0.020506557137415966,
+   "n_cons_dev": 2784,
+   "n_chunks_dev": 1143
+  },
+  {
+   "k": 13,
+   "D": 0.03462576052095696,
+   "n_cons_dev": 2805,
+   "n_chunks_dev": 1136
+  },
+  {
+   "k": 14,
+   "D": 0.012177338358342657,
+   "n_cons_dev": 2764,
+   "n_chunks_dev": 1141
+  },
+  {
+   "k": 15,
+   "D": -0.010869481894935156,
+   "n_cons_dev": 2775,
+   "n_chunks_dev": 1145
+  },
+  {
+   "k": 16,
+   "D": -0.0002928001026623272,
+   "n_cons_dev": 2716,
+   "n_chunks_dev": 1154
+  },
+  {
+   "k": 17,
+   "D": 0.03346396777605807,
+   "n_cons_dev": 2768,
+   "n_chunks_dev": 1148
+  },
+  {
+   "k": 18,
+   "D": 0.010113291785784944,
+   "n_cons_dev": 2824,
+   "n_chunks_dev": 1148
+  },
+  {
+   "k": 19,
+   "D": 0.0025580584097484897,
+   "n_cons_dev": 2788,
+   "n_chunks_dev": 1136
+  },
+  {
+   "k": 20,
+   "D": 0.00813750516294406,
+   "n_cons_dev": 2905,
+   "n_chunks_dev": 1158
+  }
+ ]
+}

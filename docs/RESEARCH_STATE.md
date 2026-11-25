@@ -636,3 +636,11 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **K0 failed.** On planted text made only of lexicon words, λ* = 0 in every draw, and development Hit@1 fell as λ rose.
   - **Diagnosis (no bug found):** the full Homeric lexicon gives chance coverage at 81% of positions, and about 19 candidates tie. Only 8.6% of positions sit inside an intact planted word.
   - **Consequence:** this score cannot certify. The held-out-prediction route is untested with a working score. A new score, such as a word-level likelihood, thinner lexicon or reachable-only primary, needs a new prereg and a coordinator decision.
+- 2026-11-25 **`lift_score` sealed (v3, tag `lift_score`).**
+  - Process: prior art (Snyder, Barzilay & Knight 2010; Berg-Kirkpatrick & Klein 2011, 2013; Luo et al. 2019, 2021); a label-free pilot on planted text; Fable draft; a fresh review returned FIX and then seal (wrong lexicons gain at full dose in 6 of 9 cells, so bar C was added); pre-seal check, 4 blocking fixes applied.
+  - **Coordinator decision (2026-11-25):** G does not replace Hit@1 for the 2027 clause. G with bars A to C is the study's own gate for K0 to K4. Hit@1 is reported on every cell as the 2027-clause measure. A G pass alone does not meet the clause. Route rule unchanged: a fail at K0 or K1 closes certify by held-out restoration for this corpus size, then `certify_size_curve`.
+- 2026-11-25 **`lift_score` STOPPED at K1; route closed for this corpus size.**
+  - K0 passed (G 0.16-0.28 in 5 of 5, scramble and N1 at 0). K1 failed, 11 of 20 against a bar of 16. The real-text dose D was near zero, so plants were diluted to w 0.125-0.625.
+  - K2 and K3 record-only: the controls were clean; the true key on real text had λ* = 0 in 20 of 20.
+  - **By the sealed rule, certify by held-out restoration on existing texts is closed at this corpus size.** No further score is drafted. The 2027 held-out-prediction clause now depends on more text, or on another kind of prediction.
+  - Next: `certify_size_curve`.
