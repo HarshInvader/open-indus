@@ -1189,6 +1189,17 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Record.** `experiments/bilingual_behaviour/` (MINIMUM.txt, count_gate.py, .json, .md).
 - **What would reopen it.** An argument from the drawings that these signs are variants of common seal signs. That argument must be made blind to the seal counts.
 
+### 10b.27 Physical splits at low-cohesion junctions (split_witness; reopens 10b.10)
+- **Question.** Do physical splits fall at weak sign junctions? A split is a line wrap recorded by both M77 and ICIT, or a face split whose joined string occurs whole on another object.
+- **New versus 10b.10.** It adds face splits, requires two-edition confirmation of wraps, and sets the minimum by planted power before any count. 10b.10 never ran its capacity null.
+- **Prior art.** Mahadevan 1977 (§10.10–10.15) used "split sequences" for reading direction, not segmentation. Mukhopadhyay 2019 makes a claim about line splits with no null test. No test was found.
+- **Minimum** (pre-hashed, ff807dc4…). The cohesion measure is a Kneser-Ney bigram trained leave-family-out. With 20% planted, power is 0.71 at n = 150 and 0.87 at n = 200, so the minimum is n = 200. False alarms are ≤ 0.017.
+- **Result.** Not run: the count gate failed. 25 units are eligible: 22 wraps confirmed by both editions and 3 distinct face-split junctions. The brief's "60 face splits, 29 junctions" collapses to 3 junctions, because moulded tablets repeat one text.
+- **Structural finding.** Under the capacity null, 99.6% of texts have exactly one possible placement, so its minimum p is about 0.86 and it can never reach 0.01, at any n. Also, with 20% planted, the expected mean percentile is only 0.58–0.60, so the full bar has power ≤ 0.56 at every n up to 300.
+- **Verdict.** Closed at the gate. The capacity null as defined cannot test layout.
+- **Record.** `experiments/split_witness/`.
+- **Reopen with.** At least 200 confirmed splits from photographs, plus a capacity null with a spread (recorded only: about 10^-8.5 is reachable), under a new study tag and a new minimum.
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1336,6 +1347,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.24 | Text band vs animal visible on sealings | Closed at the gate (63 eligible, need 107) | not reached | CISI vol. 3 or Dholavira photos; a calibrated measurer |
 | 10b.25 | Copper tablet format against picture or sign | Established (Mackay 1938 p. 368; Parpola 2008) | not run | (none: known answer) |
 | 10b.26 | Copper-tablet bilingual pairs on seals | Closed at the gate (0 of 7 pairs usable, need 3) | not reached | Blind argument that the reverse signs are variants of seal signs |
+| 10b.27 | Physical splits at low-cohesion junctions | Closed at the gate (25 eligible, need 200); capacity null min p ≈ 0.86 | 0.87 at n = 200 | 200 photo-confirmed splits; capacity null with a spread |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

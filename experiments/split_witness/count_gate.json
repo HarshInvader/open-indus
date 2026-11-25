@@ -1,0 +1,91 @@
+{
+ "frozen_files_checked": 11,
+ "W_funnel": {
+  "icit records with '|'": 118,
+  "x icit damage or incomplete": 38,
+  "x m77 line counts differ": 9,
+  "x no M77 link": 15,
+  "eligible W (before family rule)": 26,
+  "x icit a line has < 2 signs": 18,
+  "x icit not exactly 2 lines": 6,
+  "x m77 mixed direction": 2,
+  "x m77 not exactly 2 lines": 3,
+  "x m77 incomplete or missing": 1
+ },
+ "F_funnel": {
+  "multi-face objects": 902,
+  "ordered face pairs": 2178,
+  "x face has '|' or '#'": 738,
+  "x joined text not found whole elsewhere": 1361,
+  "x joined < 3 signs": 54,
+  "eligible F (before family rule)": 25
+ },
+ "candidates_before_family_rule": {
+  "W": 26,
+  "F": 25,
+  "F_distinct_junctions": 3,
+  "W_distinct_texts": 26
+ },
+ "families_touched": {
+  "W": 23,
+  "F": 3,
+  "both": 1
+ },
+ "eligible_units": {
+  "total": 25,
+  "W": 22,
+  "F": 3
+ },
+ "eligible_W_by_link": {
+  "sign": 16,
+  "register": 6
+ },
+ "eligible_W_reversed_line_order": 1,
+ "eligible_by_type": {
+  "W": {
+   "SEAL:S": 22
+  },
+  "F": {
+   "TAB:I": 1,
+   "TAB:B": 2
+  }
+ },
+ "eligible_by_site": {
+  "Mohenjo-daro": 17,
+  "Harappa": 4,
+  "Chanhu-daro": 2,
+  "Kalibangan": 1,
+  "Lothal": 1
+ },
+ "eligible_length_distribution": {
+  "4": 2,
+  "5": 4,
+  "6": 6,
+  "7": 3,
+  "8": 5,
+  "9": 1,
+  "10": 1,
+  "13": 3
+ },
+ "null2": {
+  "units_with_capacity": 25,
+  "units_with_2_placements": 0,
+  "minimum_achievable_p": 1.0,
+  "by_kind": {
+   "W": {
+    "defined": 22,
+    "two_placements": 0
+   },
+   "F": {
+    "defined": 3,
+    "two_placements": 0
+   }
+  }
+ },
+ "gate": {
+  "n_min": 200,
+  "n_pass": false,
+  "null2_minp_pass": false,
+  "pass": false
+ }
+}

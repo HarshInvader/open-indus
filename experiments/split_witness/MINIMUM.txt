@@ -1,0 +1,122 @@
+split_witness: MINIMUM (written before any eligible split was counted and before any
+cohesion value was computed at a real split). Brief: plan 13, study 3. Reopens atlas 10b.10.
+
+0. STATUS AT WRITING
+   - Done before this file: prior-art reading; sw_lib.py and power.py written and run on
+     synthetic splits only (power.json). Family sizes and fold balance were printed (no split
+     positions, no counts of candidate splits).
+   - Not done: no eligible split counted, no ESR or percentile at any real split.
+
+1. UNIT
+   One physical split junction inside one Indus text, in ICIT sign space. Two kinds:
+   W (line wrap) and F (face split). At most one unit per text family (section 3).
+
+2. ELIGIBILITY (count_gate.py implements exactly this)
+   Data: data/icit_texts.jsonl, data/m77_texts.jsonl, data/m77_lines.jsonl (corpus/build.py).
+   M77-ICIT object links: (a) register links, experiments/audit_followups/out/
+   b_editor_agreement.json pairs with norm <= 0.8 (linked through excavation registers, not
+   signs); (b) sign-based links, experiments/consensus_corpus/out/seq_links.json (norm <= 0.5).
+   W, line wrap confirmed by both editions:
+     - ICIT record: exactly one '|', not at either end; no '#'; complete; each line >= 2 signs
+       (the M77 section 10.12 rule; also excludes the one-sign field-placed lines 10b.10 found).
+     - Linked M77 object side (link a or b): complete; exactly 2 non-empty lines; line
+       directions not mixed (ignoring 'single sign'); its per-line sign counts equal ICIT's
+       per-line counts in the same order or in reversed order.
+     - Text = the ICIT reading-order sequence without '|'; junction k = signs before '|'.
+   F, face split:
+     - Two different face records a, b of one ICIT object (same id before the dot), taken in
+       either order; neither has '|' or '#'; each >= 1 sign; len(a) + len(b) >= 3.
+     - The joined sequence a+b equals exactly the sequence of an ICIT record on a different
+       object that has no '|', no '#' and is complete.
+     - Text = a+b; junction k = len(a). If both orders of one pair match, both are candidates
+       and the family rule picks one.
+   Both: no damage mark adjacent to the junction (implied: no '#' in any eligible text).
+   Text length >= 3 signs (>= 2 junctions).
+
+3. FAMILY RULE
+   Families: sw_lib.families(), union-find over distinct flattened ICIT sequences, linked when
+   within one edit (both >= 4 signs) or when the shorter (>= 3 signs) is contained in the
+   longer (corpus/build.py _close). Each unit's family = family of its text (the joined
+   sequence for F). Keep one unit per family: the candidate with the smallest
+   sha256("split_witness:unit:" + kind + ":" + text key + ":" + str(k)). This choice is blind
+   to cohesion.
+
+4. COHESION MEASURE (fixed here)
+   - Tokeniser: corpus/build.py icit() (W### tokens, reading order, '|' line break, '#' damage);
+     bigram runs from corpus.load.runs (cut at '|' and '#').
+   - Model: experiments/line_breaks/lb_lib.py Model: interpolated Kneser-Ney bigram over runs
+     with <s>, </s>; absolute discount D = 0.75; continuation probability
+     (|preceders(b)| + 0.5) / (n bigram types + 0.5 (V + 1)).
+   - Score at junction (a, b): ESR = log2 P(</s>|a) + log2 P(b|<s>) - log2 P(b|a).
+     Higher = weaker junction.
+   - Training is leave-family-out: families go to 10 folds by sha256("split_witness:" +
+     family id) mod 10; a unit in fold f is scored by the model fitted on all distinct ICIT
+     records whose family is not in fold f. No text of the unit's family is ever in its
+     training data. (The largest family has 609 distinct texts, all in one fold.)
+   - Per text: percentile rank of ESR at each junction (lb_lib.ranks, midrank, 0..1).
+   - Statistic T: mean over units of the percentile at the split junction.
+
+5. NULLS
+   Null 1 (uniform): the split falls uniformly over the text's junctions; Monte-Carlo
+     one-sided p, 20,000 draws (sw_lib.p_uniform).
+   Null 2 (capacity, median): reference = ICIT records with no '|', no '#', complete,
+     >= 2 signs, same type field, width within 2 mm, width > 5 mm, at least 10 references.
+     Capacity c = median reference length. Placement k = clip(c, 1, n-1); a half-integer
+     median gives floor and ceil at 1/2 each. Units with no defined capacity are left out of
+     the Null 2 test only. W uses the record's width; F uses face a's width and type.
+     p = exact null probability of a statistic >= T (enumeration of the placements).
+
+6. MINIMUM n (planted power, synthetic splits only; power.json)
+   Plant: with probability f = 0.20 the split sits at a true boundary, else uniform.
+   True boundary, two modes: C = join of two whole pool texts from different families
+   (model-free); A = highest-ESR junction (as in 10b.10). 300 reps, 2,000 null draws.
+   Rule P (p <= 0.01 under Null 1):
+     n = 150: power 0.71 (C) / 0.70 (A).  n = 200: 0.87 (C) / 0.87 (A).
+     False alarms at f = 0: <= 0.017 at every n.
+   >>> MINIMUM n = 200 eligible units (after the family rule). <<<
+   Note recorded in advance: the full Null-1 bar (T >= 0.60 and p <= 0.01) has power at
+   most 0.56 at f = 0.20 for every n up to 300, because the expected T at a 20% plant is
+   0.58 (C) to 0.60 (A). At f = 0.30 the full bar reaches 0.80 at n = 300 (C) / 80 (A).
+   A pass at the bar therefore needs an effect larger than the planted one.
+
+7. MINIMUM ACHIEVABLE p (estimated on pool pseudo-units, not real splits; power.json)
+   Null 1: about 10^-0.55 per unit; n = 60 -> about 10^-33. Not limiting.
+   Null 2 (median): 99.6% of units with a defined capacity have exactly one placement, so the
+     null is near-deterministic. Expected minimum p at n = 60: 10^-0.06 (about 0.86); at
+     n = 150: 10^-0.16 (about 0.69). Null 2 cannot reach p <= 0.01 at any realistic n.
+   For information only (not a null of this study): drawing capacity from the empirical
+     reference distribution (Null 2D) would allow about 10^-8.5 at n = 60.
+   The count gate recomputes the Null 2 minimum p on the eligible units (widths and lengths
+   only, no cohesion).
+
+8. BAR (as set by the coordinator)
+   T >= 0.60 and p <= 0.01 under Null 1 and under Null 2; the W subset and the F subset each
+   have mean percentile > 0.50 (an empty subset fails).
+
+9. GATE
+   Pass only if (i) eligible units after the family rule >= 200 and (ii) the Null 2 minimum
+   achievable p on the eligible units is <= 0.01. Otherwise stop: no cohesion value is
+   computed at any real split, and the study is reported as untestable at stated power.
+
+10. FALLBACK RULES (written in advance; nothing else may change after the count)
+   F1. Gate fails on (i) or (ii): stop as in section 9. No relaxing of eligibility rules,
+       family rule, nulls or minimum.
+   F2. Null 2D, or any other capacity null, may be used only under a new study tag with its
+       own MINIMUM hashed before any cohesion value at a real split. It is not adopted here.
+   F3. If layout_word_division passes its own kill test before this study is sealed, add
+       its gap score as a second cohesion measure, Holm-corrected. Otherwise ESR is the only
+       measure.
+   F4. If a link file or data file hash differs from section 11 at the count, stop and report.
+
+11. FROZEN FILES (sha256)
+   experiments/split_witness/sw_lib.py   29f79facf614d40582a8097e3215a216a8dcb845e477a304c9bf07926b15dac7
+   experiments/split_witness/power.py    28380dd1193d6b6b44dfdf8ab4b99aa336610eb773b06eaa4cc0979317576fc0
+   experiments/split_witness/power.json  e7060d91ad15c2bac6b8d28fdbc2928004b2287cc1f4165bd5a994f6896a12e4
+   experiments/line_breaks/lb_lib.py     783cfbf2b0ce835ecabc422477bf0fffb655b0c40e71316ccc4e2a9527064686
+   corpus/load.py                        3c3cb5643560e54ac889c2df19311758aaebcb6c8deb2284a8408203ab1359d9
+   corpus/build.py                       baad20a37d0aa02a1975b745207fa185ed4ddea11643e8572dbbe88745e6f337
+   data/icit_texts.jsonl                 a79256504d050e1fc7415b5d334af02484be7dab1e7e4a47e093add2744ee51b
+   data/m77_texts.jsonl                  6ede3452a9a41113eb75c5cfd9d5be0275797b42d4facee0bacd7bb92e31d550
+   data/m77_lines.jsonl                  03e23faa173e272d466a324296b76970862864f995d76eab0be1b8ae3d06e0f9
+   experiments/audit_followups/out/b_editor_agreement.json1fec0014487ce1badf58e3b07e32bd3da57b7e781b8e46087cafcba345aa1b01
+   experiments/consensus_corpus/out/seq_links.jsond199f81ab598280b140746b59296a2f7694e54bce6983c7df4bcbd17dbc46a1d

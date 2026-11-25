@@ -772,3 +772,7 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - The paired reverse signs W749, W341 and W753 are on 0 seals, and W777 on 1. The hare and archer icons are on fewer than 5 seals.
   - Prior art compares the pairs only inside the tablets; no one has tested them on seals.
   - **Next:** split_witness, which may start now that sealing_crop and bilingual_behaviour are both closed.
+- 2026-11-25 **split_witness closed at the count gate** (atlas 10b.27). 25 units are eligible (22 two-edition wraps, 3 face-split junctions) against a minimum of 200 (MINIMUM sha256 ff807dc4…).
+  - The capacity null has one placement in 99.6% of texts, so its minimum p is about 0.86, and it can never reach 0.01.
+  - The brief's 60 face splits collapse to 3 junctions, because moulded tablets repeat one text.
+  - All Fable re-plan 13 studies are now closed. The strategy question about non-open levers goes to the coordinator and the owner.
