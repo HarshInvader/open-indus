@@ -1,0 +1,14 @@
+layout_word_division K0
+rounds: S1=f2 S2=f2  utc 2026-11-25T19:06:02Z
+prereg sha256 653b80627886993fa307d8ef941ce75616fae04404f938c2e23914783650473d
+
+G2: pass=False recall A=0.130 B=0.577 ICC(2,1) gold A=0.613 B=0.309 A-B=0.829 gold pairs=224 used={'A': 24, 'AB': 15, 'B': 108}
+G2b: pass=True ICC A-B=0.982 n=43
+G3 S2: pass=True median A=153.0 px
+§5.3 attenuation ratio=-1.000 (0.10: {'n_lines': 2, 'auc_agent_A': 1.0, 'auc_truth': 0.0})
+S1 Dencker AUC (record-only): 0.657 [0.559, 0.700]
+note: no blind measurer of cuneiform layout at this precision (F2)
+
+VERDICT: INCONCLUSIVE
+reading row: INCONCLUSIVE
+reading: Reported with the failed gate or interval, shown within cuneiform only. Failed gate or interval: ['G2']. No Indus stage. Nothing here bears on any reading of an Indus sign.

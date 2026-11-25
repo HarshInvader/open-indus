@@ -1147,6 +1147,16 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Record.** `experiments/sealing_generative/` (MINIMUM.txt, count_gate.md, count_gate.py, count_gate.json).
 - **Reopen with.** Open Hittite (Nişantepe) or Sasanian bulla corpora, or a licensed Chinese seal corpus.
 
+### 10b.23 Gaps between signs as word boundaries (layout_word_division; plan 12 family 1)
+- **Question.** In two read cuneiform traditions written without dividers (Neo-Assyrian and Ur III), do the gaps between signs mark word boundaries? The bar was AUC ≥ 0.65 within each line, after controlling for end-of-line cramping. A pass would have opened an Indus stage.
+- **Result.** INCONCLUSIVE at the measurement gate. Blind agents (Opus and Fable, rotated crops) failed G2 against the Dencker expert boxes in both the main round and the sealed F2 re-run. Recall was 0.13 to 0.79 (bar 0.85) and gap ICC against gold 0.24 to 0.61 (bar 0.70).
+  - The planted check of the scorer passed: AUC 0.50 with no planted signal and 0.96 at the strongest.
+  - The record-only Dencker AUC, from expert boxes that were not blind, was 0.66 (0.56 to 0.70) on 33 lines and 4 tablets. This is description only.
+- **Power.** The scorer recovers a planted signal of 0.06 sign heights at AUC 0.71 on true boxes. The measurer, not the statistic, is the limit.
+- **Verdict.** No blind measurer of cuneiform layout exists at this precision. The gap route to Indus word division is closed. Rater finding: Opus declines about half of the faces; Fable boxes nearly all but places the boxes poorly, and its skips rose from 7 to 63 under F2.
+- **Prereg.** `layout_word_division.md`. The record is `experiments/layout_word_division/RESULTS.md`.
+- **Reopen with.** Expert boxes drawn blind to the readings, for a read script and for Indus, or a measurer validated at ICC ≥ 0.70.
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1290,6 +1300,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.20 | Disguised-script method tournament | Closed at the gate (3 families only; numerals and damage) | about 27% at +0.10 | A fourth open family; a blind bench front end |
 | 10b.21 | Per-sign type classifier | Closed at the gate (2 labelled families, need 3) | not reached | A third open labelled family |
 | 10b.22 | Generative model of sealing content | Closed at the gate (4 corpora / 3 families, need 8 / 4) | not reached | Open Hittite or Sasanian bulla corpora |
+| 10b.23 | Gaps mark word boundaries (cuneiform, blind agent boxes) | INCONCLUSIVE: G2 failed twice (no blind measurer) | scorer AUC 0.71 at δ 0.06 | Blind expert boxes |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

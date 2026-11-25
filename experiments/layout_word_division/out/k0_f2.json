@@ -1,0 +1,197 @@
+{
+ "S1_dencker_record_only": {
+  "auc": 0.657314629258517,
+  "boot": {
+   "clusters": 4,
+   "dropped": 0
+  },
+  "ci_hi": 0.7002881844380403,
+  "ci_lo": 0.5592105263157895,
+  "d_auc": 0.657314629258517,
+  "d_ci_hi": 0.7002881844380403,
+  "d_ci_lo": 0.5592105263157895,
+  "d_n_gaps": 232,
+  "d_n_pairs": 499,
+  "description": {
+   "auc_dy": 0.5230460921843687,
+   "auc_lar": 0.4789579158316633,
+   "by_decile": {
+    "0": {
+     "mean_R_b": 0.011427443285006441,
+     "mean_R_n": -0.025832492055830273,
+     "n_b": 14,
+     "n_n": 25
+    },
+    "1": {
+     "mean_R_b": 0.0028900771983517335,
+     "mean_R_n": -0.018524663113510344,
+     "n_b": 12,
+     "n_n": 10
+    },
+    "2": {
+     "mean_R_b": 0.18690528015655203,
+     "mean_R_n": -0.005006883743856844,
+     "n_b": 9,
+     "n_n": 24
+    },
+    "3": {
+     "mean_R_b": 0.02139852508822961,
+     "mean_R_n": -0.036871775116562686,
+     "n_b": 10,
+     "n_n": 12
+    },
+    "4": {
+     "mean_R_b": 0.013889061856062349,
+     "mean_R_n": -0.0036973518161777744,
+     "n_b": 10,
+     "n_n": 11
+    },
+    "5": {
+     "mean_R_b": 0.04026380669157655,
+     "mean_R_n": -0.0345561697269714,
+     "n_b": 14,
+     "n_n": 20
+    },
+    "6": {
+     "mean_R_b": 0.09352229015253619,
+     "mean_R_n": -0.02743469287375967,
+     "n_b": 8,
+     "n_n": 21
+    },
+    "7": {
+     "mean_R_b": 0.11417332525990553,
+     "mean_R_n": 0.011944570501472303,
+     "n_b": 6,
+     "n_n": 11
+    },
+    "8": {
+     "mean_R_b": -0.010045907374914726,
+     "mean_R_n": -0.025621244778565564,
+     "n_b": 6,
+     "n_n": 9
+    },
+    "9": {
+     "mean_R_b": null,
+     "mean_R_n": null,
+     "n_b": 0,
+     "n_n": 0
+    }
+   },
+   "class_pairs": {
+    "?|?|B": {
+     "mean_R": 0.04681263646555624,
+     "n": 89
+    },
+    "?|?|N": {
+     "mean_R": -0.019586078224751106,
+     "n": 143
+    }
+   }
+  },
+  "fit": {
+   "coef": {
+    "W_left": -0.04040649472055881,
+    "W_right": -0.0015992475896896058,
+    "const": 0.7708671121829358,
+    "fill": -0.8025225492273651,
+    "ns1": 0.2970360982750652,
+    "ns2": -1.4493292486264115,
+    "ns3": 3.002377767909388,
+    "ns4": -1.8902109631371464
+   },
+   "converged": true,
+   "iterations": 27,
+   "scale": 0.08788643750194089
+  },
+  "lines_skipped": 0,
+  "n_boundary": 89,
+  "n_gaps": 232,
+  "n_lines": 33,
+  "n_pairs": 499,
+  "note": "record-only, description (D5); Dencker boxes are not blind",
+  "p_null": 0.000999000999000999
+ },
+ "attenuation": {
+  "0.00": {
+   "auc_agent_A": 0.16666666666666666,
+   "auc_truth": 0.08333333333333333,
+   "n_lines": 1
+  },
+  "0.10": {
+   "auc_agent_A": 1.0,
+   "auc_truth": 0.0,
+   "n_lines": 2
+  },
+  "n_measurer_lines": 40,
+  "ratio": -1.0
+ },
+ "failed_gates": [
+  "G2"
+ ],
+ "gates": {
+  "G2": {
+   "gold_pairs_available": 224,
+   "icc_AB": 0.8290935076695922,
+   "icc_AB_G": 0.8162055645142812,
+   "icc_gold": {
+    "A": 0.6127084521974442,
+    "B": 0.30913767544750215
+   },
+   "icc_gold_G": {
+    "A": 0.5130121205636367,
+    "B": 0.18026621035498477
+   },
+   "n_gold_boxes": 471,
+   "n_gold_pairs": 224,
+   "n_used": {
+    "A": 24,
+    "AB": 15,
+    "B": 108
+   },
+   "pass": false,
+   "reason": null,
+   "recall": {
+    "A": 0.12951167728237792,
+    "B": 0.5774946921443737
+   }
+  },
+  "G2b": {
+   "icc_AB": 0.981778206764682,
+   "icc_AB_G": 0.9748650385428484,
+   "n_faces": 15,
+   "n_gaps": 43,
+   "n_lines": 31,
+   "pass": true
+  },
+  "G3_S1": {
+   "median_A_given_px": 100.0,
+   "median_A_native_px": 50.0,
+   "median_B_given_px": 79.0,
+   "n_boxes_A": 606,
+   "note": "S1 passes at 55 px (Dencker median, prereg \u00a74.4); agent value reported",
+   "pass": true
+  },
+  "G3_S2": {
+   "median_A_given_px": 153.0,
+   "median_A_native_px": 76.5,
+   "median_B_given_px": 130.0,
+   "n_boxes_A": 438,
+   "pass": true
+  }
+ },
+ "notes": [
+  "no blind measurer of cuneiform layout at this precision (F2)"
+ ],
+ "reading": "Reported with the failed gate or interval, shown within cuneiform only. Failed gate or interval: ['G2']. No Indus stage. Nothing here bears on any reading of an Indus sign.",
+ "reading_row": "INCONCLUSIVE",
+ "round_S1": "f2",
+ "round_S2": "f2",
+ "seal": {
+  "code_sha256": {
+   "experiments/layout_word_division/score.py": "12008f060d85d8fabe652a19c7f1591bb75d6c515871c3cfce817263f3204aab"
+  },
+  "prereg_sha256": "653b80627886993fa307d8ef941ce75616fae04404f938c2e23914783650473d"
+ },
+ "utc": "2026-11-25T19:06:02Z",
+ "verdict": "INCONCLUSIVE"
+}

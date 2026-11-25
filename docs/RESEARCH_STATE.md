@@ -755,3 +755,10 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **Count:** 4 corpora in 3 families, against the 8 corpora in 4 families required. The minimum was hashed before counting.
   - **The wall:** this is the third family stopped by the labelled-corpus wall, so families 2 to 4 are all closed.
   - **Next:** a fresh Fable re-plan for original studies that need no transfer across families.
+- 2026-11-25 **layout_word_division (plan 12 family 1): K0 INCONCLUSIVE.**
+  - **G2 failed in both rounds,** the main one and the sealed F2 re-run. Blind agents cannot box cuneiform precisely enough: recall 0.13–0.79 and ICC against gold 0.24–0.61, against bars of 0.85 and 0.70.
+  - **The scorer itself works:** the planted check gave AUC 0.96 at δ 0.20.
+  - **Record-only Dencker AUC** (expert boxes, not blind): 0.66.
+  - **The gap route to Indus word division is closed** until expert boxes drawn blind to the readings exist. Atlas 10b.23.
+  - **Rater finding:** Opus skips about half the faces. Fable boxes nearly all of them but inaccurately, and its skips rose from 7 to 63 under F2.
+  - **All four plan-12 families are now closed.** A Fable re-plan for studies needing no transfer across families is running.
