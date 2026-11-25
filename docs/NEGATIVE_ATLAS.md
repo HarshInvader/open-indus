@@ -1165,6 +1165,18 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Record.** `experiments/sealing_crop/` (MINIMUM.txt, count_gate.md, count_gate.py, count_gate.json).
 - **Reopen with.** CISI vol. 3 photos, or Dholavira sealing photos, plus a measurer that passes calibration on masked seals.
 
+### 10b.25 Copper tablet format against picture or sign (copper_format; Fable re-plan rank 1; already established)
+- **Question.** Within one Mohenjo-daro copper tablet legend, do sign-face reverses sit on narrow tablets and picture reverses on wide ones (space-driven substitution)?
+- **Result.** Not run. Prior art shows the answer is already established: Mackay 1938, *Further Excavations at Mohenjo-daro*, p. 368; Parpola 2008, BAR IS 1826: 132–139.
+  - Mackay gives three regulation sizes, and says the long, narrow tablets carry "only inscriptions".
+  - Parpola: rectangular tablets "never show inscriptions"; 7 obverse-linked picture/sign pairs always put the picture on A2 or B and the sign on square A or narrow C.
+- **Problems found before any count:**
+  - the planner's peek was larger than first disclosed: PEEK legends 6 and 11 share four size pairs, so they are the same tablets, and their kind against size was effectively seen;
+  - the planned short-side statistic would read zero for square sign tablets (A7, A11).
+- **Verdict.** Established; closed. It will not be kept as an audit, because the answer is known.
+- **Record.** `experiments/copper_format/PEEK.md`.
+- **Follow-on.** Parpola's 7 pairs become the original question `bilingual_behaviour`: do those signs behave on seals the way their paired animals do?
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1310,6 +1322,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.22 | Generative model of sealing content | Closed at the gate (4 corpora / 3 families, need 8 / 4) | not reached | Open Hittite or Sasanian bulla corpora |
 | 10b.23 | Gaps mark word boundaries (cuneiform, blind agent boxes) | INCONCLUSIVE: G2 failed twice (no blind measurer) | scorer AUC 0.71 at δ 0.06 | Blind expert boxes |
 | 10b.24 | Text band vs animal visible on sealings | Closed at the gate (63 eligible, need 107) | not reached | CISI vol. 3 or Dholavira photos; a calibrated measurer |
+| 10b.25 | Copper tablet format against picture or sign | Established (Mackay 1938 p. 368; Parpola 2008) | not run | (none: known answer) |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

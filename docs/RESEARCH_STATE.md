@@ -766,3 +766,5 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **copper_format stopped at prior art: already established.** Mackay 1938 (p. 368) describes the narrow, inscription-only format. Parpola 2008 publishes the size classes and the 7 obverse-linked picture/sign pairs. The peek is recorded in `experiments/copper_format/PEEK.md`. Whether to close it or keep it as an audit awaits the coordinator.
   - **sealing_crop closed at the count gate:** 63 eligible against 107 needed (atlas 10b.24).
   - **The re-plan's verdict:** open data cannot move the 2027 odds. The only lever is a new excavated archive with Indus stamps beside named sealers.
+- 2026-11-25 **copper_format closed as established,** per the coordinator's ruling (a): Mackay 1938 p. 368 and Parpola 2008. It will not be kept as an audit. Atlas 10b.25.
+  - **Queued next:** `bilingual_behaviour`, which asks whether Parpola's 7 copper-tablet sign/picture pairs behave alike on seals. It needs no transfer across families.
