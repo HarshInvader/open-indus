@@ -1,0 +1,33 @@
+{
+ "checks": {
+  "auc_bruteforce": true,
+  "auc_exact_equals_rank": true,
+  "e2e_boot_reproducible": true,
+  "e2e_f3_runs": true,
+  "e2e_null_near_half": true,
+  "e2e_planted_high": true,
+  "frame_angle": true,
+  "gaps_flat": true,
+  "gold_pairs_toy": true,
+  "huber_converged": true,
+  "huber_robust": true,
+  "hungarian": true,
+  "icc_identical_is_1": true,
+  "icc_shrout_fleiss": true,
+  "lcs": true,
+  "null_centred": true,
+  "null_p_range": true,
+  "spline_linear_outside": true,
+  "spline_rank": true,
+  "spline_shape": true,
+  "unmap_roundtrip": true
+ },
+ "pass": true,
+ "seal": {
+  "code_sha256": {
+   "experiments/layout_word_division/score.py": "12008f060d85d8fabe652a19c7f1591bb75d6c515871c3cfce817263f3204aab"
+  },
+  "prereg_sha256": "653b80627886993fa307d8ef941ce75616fae04404f938c2e23914783650473d"
+ },
+ "utc": "2026-11-25T17:41:14Z"
+}

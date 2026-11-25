@@ -1,0 +1,67 @@
+{
+ "by_delta": {
+  "0.00": {
+   "auc": 0.5005248792777661,
+   "fit_converged": true,
+   "n_lines": 400,
+   "n_pairs": 4763,
+   "p_null": 0.4995004995004995
+  },
+  "0.03": {
+   "auc": 0.6044509762754566,
+   "fit_converged": true,
+   "n_lines": 400,
+   "n_pairs": 4763,
+   "p_null": null
+  },
+  "0.06": {
+   "auc": 0.705017845895444,
+   "fit_converged": true,
+   "n_lines": 400,
+   "n_pairs": 4763,
+   "p_null": null
+  },
+  "0.10": {
+   "auc": 0.8194415284484569,
+   "fit_converged": true,
+   "n_lines": 400,
+   "n_pairs": 4763,
+   "p_null": null
+  },
+  "0.20": {
+   "auc": 0.9605290783119882,
+   "fit_converged": true,
+   "n_lines": 400,
+   "n_pairs": 4763,
+   "p_null": null
+  }
+ },
+ "criteria": {
+  "delta0.20_auc_ge_0.80": true,
+  "delta0_auc_in_[0.47,0.53]": true,
+  "null_reject_rate_le_0.05": true
+ },
+ "model": "spline",
+ "null_replicates": {
+  "n": 200,
+  "n_reject_p_lt_0.01": 4,
+  "p_quantiles": [
+   0.005974025974025974,
+   0.027922077922077924,
+   0.18456543456543456,
+   0.43206793206793204
+  ],
+  "rate": 0.02,
+  "seed_layout": "20261200+r",
+  "seed_shuffle": "20261500+r"
+ },
+ "pass": true,
+ "seal": {
+  "code_sha256": {
+   "experiments/layout_word_division/score.py": "12008f060d85d8fabe652a19c7f1591bb75d6c515871c3cfce817263f3204aab",
+   "experiments/layout_word_division/synth.py": "9ccfcf78c34486a3d5faf38c190745020b15be4ea660ea81f474c00d9e5f791f"
+  },
+  "prereg_sha256": "653b80627886993fa307d8ef941ce75616fae04404f938c2e23914783650473d"
+ },
+ "utc": "2026-11-25T17:42:07Z"
+}

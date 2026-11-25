@@ -1,0 +1,62 @@
+{
+ "G2": {
+  "gold_pairs_available": 224,
+  "icc_AB": 0.7170158030135985,
+  "icc_AB_G": 0.6643507693877205,
+  "icc_gold": {
+   "A": 0.6079428314081066,
+   "B": 0.2401112621410194
+  },
+  "icc_gold_G": {
+   "A": 0.5719323085746001,
+   "B": 0.12272911930444658
+  },
+  "n_gold_boxes": 471,
+  "n_gold_pairs": 224,
+  "n_used": {
+   "A": 33,
+   "AB": 31,
+   "B": 156
+  },
+  "pass": false,
+  "reason": null,
+  "recall": {
+   "A": 0.1592356687898089,
+   "B": 0.7919320594479831
+  }
+ },
+ "G2b": {
+  "icc_AB": 0.9786075642695741,
+  "icc_AB_G": 0.9614255179950609,
+  "n_faces": 15,
+  "n_gaps": 111,
+  "n_lines": 53,
+  "pass": true
+ },
+ "G3": {
+  "S1": {
+   "median_A_given_px": 60.0,
+   "median_A_native_px": 60.0,
+   "median_B_given_px": 40.0,
+   "n_boxes_A": 1052,
+   "note": "S1 passes at 55 px (Dencker median, prereg \u00a74.4); agent value reported",
+   "pass": true
+  },
+  "S2": {
+   "median_A_given_px": 80.0,
+   "median_A_native_px": 80.0,
+   "median_B_given_px": 75.0,
+   "n_boxes_A": 454,
+   "pass": true
+  }
+ },
+ "key_sha256": "e6e7afbac3f88055d56e00cb00df1d8bbb04f62da98b2973026c191f8fa1ac04",
+ "round": "main",
+ "seal": {
+  "code_sha256": {
+   "experiments/layout_word_division/score.py": "12008f060d85d8fabe652a19c7f1591bb75d6c515871c3cfce817263f3204aab"
+  },
+  "prereg_sha256": "653b80627886993fa307d8ef941ce75616fae04404f938c2e23914783650473d"
+ },
+ "utc": "2026-11-25T18:23:14Z"
+}
