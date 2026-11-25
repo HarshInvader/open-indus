@@ -768,3 +768,7 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **The re-plan's verdict:** open data cannot move the 2027 odds. The only lever is a new excavated archive with Indus stamps beside named sealers.
 - 2026-11-25 **copper_format closed as established,** per the coordinator's ruling (a): Mackay 1938 p. 368 and Parpola 2008. It will not be kept as an audit. Atlas 10b.25.
   - **Queued next:** `bilingual_behaviour`, which asks whether Parpola's 7 copper-tablet sign/picture pairs behave alike on seals. It needs no transfer across families.
+- 2026-11-25 **bilingual_behaviour closed at the count gate** (atlas 10b.26). 0 of Parpola's 7 pairs are usable, and the minimum is 3 (MINIMUM sha256 cd108774…).
+  - The paired reverse signs W749, W341 and W753 are on 0 seals, and W777 on 1. The hare and archer icons are on fewer than 5 seals.
+  - Prior art compares the pairs only inside the tablets; no one has tested them on seals.
+  - **Next:** split_witness, which may start now that sealing_crop and bilingual_behaviour are both closed.

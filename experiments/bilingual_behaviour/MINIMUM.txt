@@ -1,0 +1,85 @@
+bilingual_behaviour: minimum, written BEFORE any seal count (2026-11-25T19:22:09Z UTC).
+Study: Parpola 2008 lists 7 copper-tablet obverse legends that occur with both a picture reverse and a sign
+reverse. Do those signs behave on stamp seals the way their paired pictures do as seal-field icons?
+Rule R2: Parpola's "deity symbol" reading is NOT assumed. The only hypothesis is distributional.
+
+Seen before writing this (disclosed):
+  - Parpola 2008 (BAR IS 1826: 132-139), full text and Fig. 1a-b, from the open Helsinki PDF.
+  - docs/NEGATIVE_ATLAS.md 5.7, 7.1, 10b.12, 10b.24, 10b.25; docs/prereg/sealing_function.md;
+    experiments/copper_format/PEEK.md; experiments/context/common.py icit_animal() label map.
+  - Copper data only (no seal rows): datasets/open/copper_tablet_types.csv; the (type, kind, picture,
+    sign_face) counts of datasets/open/copper_tablets.csv; ICIT TAB:C rows grouped by (symbol, seq) and the
+    face pairs of the 40 two-faced ICIT copper objects. These were used ONLY to transcribe Parpola's drawn
+    reverse signs into Wells (W) numbers.
+  - The ICIT vocabulary of object types and of symbol codes (the set of codes, no counts).
+  No stamp seal row was counted, crossed or printed. No sign was counted on seals. No icon was counted on
+  seals.
+
+THE 7 PAIRS (picture type -> sign type, Parpola 2008 p.134-135, in his order)
+  The W number comes from the ICIT copper object(s) whose obverse is the picture type's legend and whose
+  other face is a lone sign. The icon label is the ICIT symbol code that names the same creature, using the
+  repo's existing map (experiments/context/common.py icit_animal).
+  P1 A2  picture: composite, human face, buffalo horns, deer body, snake tail.  sign C4 = mirror-image
+         ligature, ICIT W749 (M77 M346; ICIT pairs it with obverse W806 W233 W384 W740).
+         icon: NONE. No ICIT code names this creature; the generic "Comp" code is not the same creature.
+  P2 B1  picture: unicorn with manger.  "sign" C1 = shield / double-axe motif. ICIT codes it as a non-script
+         symbol (Hgls) on a face, not as a W number, and Parpola himself lists C1 among the motifs.
+         sign: NONE. icon: unicorn = Bull1* / Bult.
+  P3 B5  picture: rhinoceros with manger.  sign A11 = quadruped sign, ICIT W341 (M77 M184; pairs with
+         obverse W503 W615 W740). icon: Rhin.
+  P4 B7  picture: hare with bush.  sign C2 = wheel-in-pot sign, ICIT W753 (M77 M355; pairs with obverse
+         W235 W705 W033 W845 W407 W321 W407). icon: Hare.
+  P5 B9  picture: markhor goat (Parpola's alternative: markhor/unicorn composite).  sign C5 = fig-leaf
+         ligature, ICIT W777 (pairs with obverse W231 W017 W585 W095 W520 W032 W407 on 4 objects; W781 and
+         W782 once each). icon: Goat (any Goat:* subtype).
+  P6 B10 picture: composite, two front halves, zebu horns, tiger(?) head, unicorn body.  sign A7 = a
+         multi-sign sequence ("three pots"), not a single sign; W transcription not fixed with confidence.
+         sign: NONE under the single-sign unit. icon: NONE (composite, as P1).
+  P7 B19 picture: horned archer.  sign C6 = the same sign as C5 (Parpola p.135), ICIT W777 (also W780,
+         W781, W782 once each with the archer obverse). icon: Anth.
+  Primary sign for P5 and P7 is W777 alone. The variant family {W777, W780, W781, W782} is a sensitivity
+  run only. P5 and P7 share one sign: they are ONE sign-unit with two targets.
+
+UNIT
+  A stamp seal object: ICIT rows with type starting "SEAL", grouped by object number (id before "."). The
+  object's icon is its symbol code; if its faces carry two different named codes the object is dropped.
+  Eligible seal = icon is a named code (not None, "-", "?", blank, Unknown). Sealings, tags and tablets are
+  out. A seal "contains" sign s if s is a token of any face's seq.
+  n(s) = number of eligible seals containing s. N(a) = number of eligible seals with icon a.
+
+USABLE PAIR (all of)
+  a. the pair has one W sign (fails: P2, P6);
+  b. the picture maps to an ICIT icon code (fails: P1, P6);
+  c. n(s) >= 5 (minimum seal occurrences per sign);
+  d. N(a) >= 5. A picture that is not a seal-field icon at all, or sits on fewer than 5 eligible seals, gives
+     no target: the pair is reported and dropped, never re-mapped to another code.
+  Already unusable before any count: P1 (no icon), P2 (no sign), P6 (no sign, no icon). At most 4 pairs
+  (P3, P4, P5, P7) and at most 3 distinct signs (W341, W753, W777) can be usable.
+
+MINIMUM TO RUN
+  >= 3 usable pairs AND >= 3 distinct usable sign-units. Otherwise the study closes at the gate.
+
+CANDIDATE STATISTIC (fixed now; not computed at the gate)
+  x(s, a) = share of the n(s) eligible seals containing s whose icon is a.
+  Pool for pair i: the 40 eligible signs other than s_i whose n is nearest n(s_i) (ties by W number), all
+  with n >= 5. u_i = (1 + #{s' in pool: x(s', a_i) >= x(s_i, a_i)}) / 41.
+  T = - sum_i log u_i over usable pairs.
+  Null: for each distinct sign-unit draw one sign uniformly from {s_i} U pool (one draw shared by P5 and
+  P7), recompute T; 100,000 draws, seed 20261125; p = (1 + #{T_null >= T_obs}) / 100,001, one-sided.
+  Primary pass: p <= 0.05.
+  Secondary (Holm with the primary, 3 tests): site profile (Jensen-Shannon divergence between the site
+  distribution of seals containing s and of seals with icon a; small = similar) and co-occurrence (cosine
+  between the other-sign counts on seals containing s and the sign counts on seals with icon a). Same pool,
+  same null.
+  Also reported, not decisive: the 7!-style pairing permutation of usable signs over usable pictures.
+
+MINIMUM ACHIEVABLE p (stated now)
+  Pairing permutation over k usable pairs: p_min = (tied assignments)/k!. With the most that can be usable
+  (k = 4, P5 and P7 sharing W777) p_min = 2/24 = 0.083 > 0.05; with k = 3 distinct signs p_min = 1/6 = 0.167.
+  Even all 7 pairs with distinct signs would give 1/5040, but 3 of 7 are unusable before any count.
+  So the pairing-permutation null alone CANNOT reach 0.05 here; that null is closed.
+  Sign-pool null (primary): p_min = (1/41)^m for m distinct sign-units; m = 3 gives 1.5e-5, m = 2 gives
+  6.0e-4, m = 1 gives 0.024. It can reach 0.05; the gate's sign-unit minimum (3) is stricter than that.
+
+Ledger: count gate only (count_gate.py / count_gate.json / count_gate.md). No similarity, share x, rank or
+p is computed at the gate.

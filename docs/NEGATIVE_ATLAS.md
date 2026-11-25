@@ -1177,6 +1177,18 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Record.** `experiments/copper_format/PEEK.md`.
 - **Follow-on.** Parpola's 7 pairs become the original question `bilingual_behaviour`: do those signs behave on seals the way their paired animals do?
 
+### 10b.26 Copper-tablet bilingual pairs on seals (bilingual_behaviour; original)
+- **Question.** Do the reverse signs in Parpola's 7 copper-tablet picture/sign pairs (Parpola 2008) behave on seals the way their paired pictures do, for example by sharing the same seals or sites?
+- **Prior art.** Parpola 2008 (read in full), Parpola 1975, Parpola 1994 and Franke-Vogt 1990 pair the signs and pictures only inside the tablets and argue from meaning. No one has run this test on seals. Parpola's "deity symbol" reading was not assumed.
+- **Result.** Not run: the count gate failed. 0 of 7 pairs are usable, and the pre-hashed minimum (cd108774…) needs 3.
+  - Three pairs are unusable by their structure: the unicorn's partner is a motif, not a script sign; B10's partner is a sequence of signs; and the deer-buffalo composite is not a seal-field creature.
+  - C5 and C6 share one sign (W777).
+  - On 1,651 eligible seals, the paired signs barely occur: W749, W341 and W753 on 0 seals, W777 on 1. The hare and archer icons are on 1 and 2 seals.
+  - The best p that shuffling the pairs could ever reach is 2/24 = 0.083.
+- **Verdict.** Closed at the gate. These reverse signs are copper-tablet signs and almost never appear on seals.
+- **Record.** `experiments/bilingual_behaviour/` (MINIMUM.txt, count_gate.py, .json, .md).
+- **What would reopen it.** An argument from the drawings that these signs are variants of common seal signs. That argument must be made blind to the seal counts.
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1323,6 +1335,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.23 | Gaps mark word boundaries (cuneiform, blind agent boxes) | INCONCLUSIVE: G2 failed twice (no blind measurer) | scorer AUC 0.71 at δ 0.06 | Blind expert boxes |
 | 10b.24 | Text band vs animal visible on sealings | Closed at the gate (63 eligible, need 107) | not reached | CISI vol. 3 or Dholavira photos; a calibrated measurer |
 | 10b.25 | Copper tablet format against picture or sign | Established (Mackay 1938 p. 368; Parpola 2008) | not run | (none: known answer) |
+| 10b.26 | Copper-tablet bilingual pairs on seals | Closed at the gate (0 of 7 pairs usable, need 3) | not reached | Blind argument that the reverse signs are variants of seal signs |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

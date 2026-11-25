@@ -1,0 +1,159 @@
+{
+ "minimum_sha256": "cd108774c180a643389b53fbe18cdf1cd52374ffd7068a8202d3da92107de7ed",
+ "n_seal_objects": 2238,
+ "n_eligible_seals": 1651,
+ "n_dropped_conflicting_codes": 0,
+ "n_signs_with_n_ge_5": 173,
+ "pairs": [
+  {
+   "pair": "P1",
+   "picture_type": "A2",
+   "sign_type": "C4",
+   "sign": "W749",
+   "icon": null,
+   "icon_codes": null,
+   "n_sign_eligible_seals": 0,
+   "N_icon_eligible_seals": null,
+   "usable": false,
+   "why_not": [
+    "n(sign)=0 < 5",
+    "picture is not a seal-field icon code"
+   ]
+  },
+  {
+   "pair": "P2",
+   "picture_type": "B1",
+   "sign_type": "C1",
+   "sign": null,
+   "icon": "unicorn",
+   "icon_codes": [
+    "Bull1",
+    "Bult"
+   ],
+   "n_sign_eligible_seals": null,
+   "N_icon_eligible_seals": 1254,
+   "usable": false,
+   "why_not": [
+    "no single W sign"
+   ]
+  },
+  {
+   "pair": "P3",
+   "picture_type": "B5",
+   "sign_type": "A11",
+   "sign": "W341",
+   "icon": "rhino",
+   "icon_codes": [
+    "Rhin"
+   ],
+   "n_sign_eligible_seals": 0,
+   "N_icon_eligible_seals": 25,
+   "usable": false,
+   "why_not": [
+    "n(sign)=0 < 5"
+   ]
+  },
+  {
+   "pair": "P4",
+   "picture_type": "B7",
+   "sign_type": "C2",
+   "sign": "W753",
+   "icon": "hare",
+   "icon_codes": [
+    "Hare"
+   ],
+   "n_sign_eligible_seals": 0,
+   "N_icon_eligible_seals": 1,
+   "usable": false,
+   "why_not": [
+    "n(sign)=0 < 5",
+    "N(icon)=1 < 5"
+   ]
+  },
+  {
+   "pair": "P5",
+   "picture_type": "B9",
+   "sign_type": "C5",
+   "sign": "W777",
+   "icon": "goat",
+   "icon_codes": [
+    "Goat"
+   ],
+   "n_sign_eligible_seals": 1,
+   "N_icon_eligible_seals": 17,
+   "usable": false,
+   "why_not": [
+    "n(sign)=1 < 5"
+   ]
+  },
+  {
+   "pair": "P6",
+   "picture_type": "B10",
+   "sign_type": "A7",
+   "sign": null,
+   "icon": null,
+   "icon_codes": null,
+   "n_sign_eligible_seals": null,
+   "N_icon_eligible_seals": null,
+   "usable": false,
+   "why_not": [
+    "no single W sign",
+    "picture is not a seal-field icon code"
+   ]
+  },
+  {
+   "pair": "P7",
+   "picture_type": "B19",
+   "sign_type": "C6",
+   "sign": "W777",
+   "icon": "anthropomorph",
+   "icon_codes": [
+    "Anth"
+   ],
+   "n_sign_eligible_seals": 1,
+   "N_icon_eligible_seals": 2,
+   "usable": false,
+   "why_not": [
+    "n(sign)=1 < 5",
+    "N(icon)=2 < 5"
+   ]
+  }
+ ],
+ "family_sensitivity_n": {
+  "W777": 1,
+  "W780": 1,
+  "W781": 0,
+  "W782": 0
+ },
+ "family_union_n": 2,
+ "pair_sign_objects_by_type_class": {
+  "W341": {
+   "TAB": 2
+  },
+  "W749": {
+   "TAB": 6
+  },
+  "W753": {
+   "TAB": 2
+  },
+  "W777": {
+   "SEAL": 1,
+   "TAB": 6
+  },
+  "W780": {
+   "TAB": 1,
+   "SEAL": 1
+  },
+  "W781": {
+   "TAB": 2
+  },
+  "W782": {
+   "TAB": 3
+  }
+ },
+ "usable_pairs": [],
+ "usable_sign_units": [],
+ "pool_feasible": true,
+ "p_min_pool_null": null,
+ "verdict": "FAIL"
+}
