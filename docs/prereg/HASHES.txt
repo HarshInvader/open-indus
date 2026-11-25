@@ -545,3 +545,5 @@ c12e4580584c4129c6b6d938ebdafe0e3f6a9688f76de470695dd879df4c0fd6  experiments/un
 a5eda90fb887f4f1c82b7fe136157ab135ea8718c1108aa54ebd0d161b993103  experiments/crossread_coins/compare.py  2026-11-25T14:35:40Z  crossread_coins_compare
 4305470955bebfb1b9d12bbd29e7f06bd41545a4017de7f511f9ce09e77c3c46  experiments/decipher_reference_class/build_packets.py  2026-11-25T14:43:07Z  decipher_reference_class_build_packets
 2c07ddb004c4288785a8b30dd47591c25ca4a193858b2bbf68c27654d36bb008  experiments/decipher_reference_class/score.py  2026-11-25T14:43:07Z  decipher_reference_class_score
+7670a7178017606c48f90d0a6d9688a16af3fd1b20d15f3b068d0df5f76754dd  docs/prereg/lexicon_ceiling.md  2026-11-25T15:22:12Z  lexicon_ceiling
+ce0dde7864e82279dd4aa3f1c92e6e0cd3dad1a4f04059d69cee80f58c85b38d  experiments/lexicon_ceiling/run.py  2026-11-25T15:31:55Z  lexicon_ceiling_code
