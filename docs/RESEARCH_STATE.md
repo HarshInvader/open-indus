@@ -654,3 +654,18 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   5. K4 runs only at the first size that shows.
   6. Five shuffled keys per draw, with the controls bar computed on those 5.
   7. The 159 "Old Assyrian ?" rows are excluded from the primary pool and run as one record-only sensitivity check.
+- 2026-11-25 **Coordinator rulings on sealed `certify_size_curve`:** the 25% A2 clean-count tolerance stays as sealed and disclosed (an integrity abort, not a result bar). Bar C runs exactly as written: a zero difference counts as a miss. If that triggers a "fails" reading at 4 u, it is reported as written, with a one-line note on why.
+- 2026-11-25 **While `certify_size_curve` K0 runs (no new Indus compute):**
+  - `key_saturation_column` DRAFT v1. Raw read shares already exist (Scott 0.70/0.43, Yajnadevam 0.24/0.20) but depend on shape (0.150 to 0.373 for fixed Linear B rules). The draft tests a length-standardised S, with a shape-invariance kill test first. Its open question for the coordinator is whether to run at all.
+  - **Fable plan 10** (`docs/fable_brief10.md`, gitignored), ranked:
+    1. `anchor_crossread`
+    2. `key_class_coherence` (internal, needs the coordinator's OK)
+    3. a size-curve reading note
+    4. `anchor_language_id` (heavy; after study 1)
+    5. an unread-sealer shortlist
+
+    Fable puts the 2027 bar near 0.1%: one bilingual seal cannot meet it, and about 20 name pairs would be needed for 10 individually checked values.
+  - `anchor_crossread` DRAFT v1. Label-free recount: 1,332 clean true Ur III sealer-legend pairs, but only 256 clean mismatches (brief 10 said 4,850). Power is lower than brief 10 said: P(3+ checked sounds) 0.13 to 0.92 at m 5 to 10. K0 at m = 10 with full alignment freedom: mismatched sets pass ≤ 1 of 20 and true sets ≥ 16 of 20. Needs the coordinator's ruling on clause (b).
+- 2026-11-25 **`certify_size_curve` STOPPED at K0 (reading 3).** K0a passed (full dose G 0.32-0.41; low dose 8 of 20, the required miss). K0b at the 0.25 dose missed the gain bar: 3 of 10 at 4 u, 2 of 10 at 16 u (about 128,000 tokens; bar 8). Controls were exactly 0, except bar C at 5 of 10, which missed only through zero differences when λ* = 0 (coordinator ruling: report as written, with a note). K3 record-only: λ* = 0 in 21 of 23 real-text draws.
+  - **Consequence:** for this score, restoration-based certification is not rescued by more text, up to 16× the Indus draw size. The held-out-prediction clause of the 2027 bar now rests on non-restoration routes such as `anchor_crossread`.
+- 2026-11-25 **`key_saturation_column` v2: the fresh review says DROP, not sealed.** The new K0 (S orders refute power across 33 sealed cells) is capped at about 62% ordered by arithmetic from already-sealed numbers, so its fail is known in advance. Fallback 1 would also stop the run (too few length-6 segments). Recommendation: record the raw figures with a shape caveat. This is the coordinator's call, since they asked for a seal.
