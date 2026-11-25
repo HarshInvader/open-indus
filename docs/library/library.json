@@ -1,6 +1,6 @@
 {
  "_about": "Open Indus paper library. Every number is from the paper as opened (read_depth says how far). verified = the DOI or landing page was opened. Built by the paperwatch library run; regenerate LIBRARY.md with docs/library/make_index.py.",
- "updated": "2026-11-21",
+ "updated": "2026-11-25",
  "entries": [
   {
    "id": "kesarwani-2026-dholavira-isotopes",
@@ -3134,6 +3134,60 @@
    "verified": true,
    "date": "2016-05-25",
    "source": "paperwatch library run 2026-11-19 (archaeology search)"
+  },
+  {
+   "added": "2026-11-25",
+   "authors": "Parpola A",
+   "date": "2008",
+   "doi": null,
+   "id": "parpola-2008-copper-tablets",
+   "ideas_for_us": "The obverse-to-reverse pairings give a ready list of about 7 sign = picture pairs. A new question would be whether those signs behave on seals the way the paired animals do.",
+   "in_news": null,
+   "key_results": "Copper tablets fall into three size classes (square, rectangular, long and narrow). Rectangular tablets never carry signs on the reverse, only pictures. The same obverse inscription links a picture type to a sign-reverse type in 7 pairs, the picture always on a rectangular tablet and the sign on a square or narrow one. Parpola reads both as symbols of deities.",
+   "kind": "Paper",
+   "limits": "Descriptive typology with no statistical test. Sizes are averages taken from Yule 1985.",
+   "method_data": "All published Mohenjo-daro copper tablets, grouped by obverse text, reverse motif and size class.",
+   "question": "What do the Mohenjo-daro copper tablets tell us about the Indus script, and how do their pictures relate to their texts?",
+   "read_depth": "full",
+   "relevance": "direct",
+   "source": "copper_format prior-art check 2026-11-25 (study closed as already established)",
+   "title": "Copper Tablets from Mohenjo-daro and the Study of the Indus Script",
+   "topic": "readings",
+   "touches": [
+    "copper_format"
+   ],
+   "tried": "Sorting every copper tablet by obverse inscription, reverse type and size, and listing which picture and sign reverses share an obverse.",
+   "url": "https://tuhat.helsinki.fi/ws/portalfiles/portal/127257447/Parpola_A_2008._Copper_tablets_from_Mohenjo_daro._ECL_During_Caspers_Vol.pdf",
+   "venue": "In: Olijdam & Spoor (eds), Intercultural Relations between South and Southwest Asia, BAR IS 1826: 132-139",
+   "verified": true,
+   "year": 2008
+  },
+  {
+   "added": "2026-11-25",
+   "authors": "Mackay EJH",
+   "date": "1938",
+   "doi": null,
+   "id": "mackay-1938-further-excavations",
+   "ideas_for_us": "Already states the space-constraint idea for copper tablets: the narrow ones carry only inscriptions. Any size-against-picture test there would be an audit of Mackay, not a new finding.",
+   "in_news": null,
+   "key_results": "Copper tablets come in three regulation sizes. In Mackay's words, \"the long, narrow tablets were evidently used only for inscriptions, like the narrow seals of Type (f) which very rarely bear animal figures\". Animals on square tablets are drawn to fit the space.",
+   "kind": "Book",
+   "limits": "Excavation report from 1938. Its observations are qualitative.",
+   "method_data": "Excavation of Mohenjo-daro, 1927-1931, with catalogues of finds including copper tablets and seals.",
+   "question": "What did the 1927-31 excavations at Mohenjo-daro find?",
+   "read_depth": "section (p. 368, copper tablets)",
+   "relevance": "direct",
+   "source": "copper_format prior-art check 2026-11-25",
+   "title": "Further Excavations at Mohenjo-daro",
+   "topic": "archaeology",
+   "touches": [
+    "copper_format"
+   ],
+   "tried": "Field excavation and catalogue description.",
+   "url": "https://archive.org/stream/dli.jZY9lup2kZl6TuXGlZQdjZM9k0Iy.TVA_BOK_0009130/TVA_BOK_0009130_Further_excavations_at_mohenjo-daro_djvu.txt",
+   "venue": "Government of India, Delhi (2 vols)",
+   "verified": true,
+   "year": 1938
   }
  ]
 }

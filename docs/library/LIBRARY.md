@@ -1,9 +1,9 @@
 # Open Indus paper library
 
-Generated from `library.json` (updated 2026-11-21) by `make_index.py`. Do not edit by hand.
+Generated from `library.json` (updated 2026-11-25) by `make_index.py`. Do not edit by hand.
 
-- **114 papers**: 28 core, 43 useful, 43 context.
-- Read in full: 62. Abstract only: 52.
+- **116 papers**: 28 core, 43 useful, 43 context.
+- Read in full: 63. Abstract only: 52.
 - Not verified (DOI or page not opened, or content from a search summary): 9.
 - Bears on the mismatch study: `korovina-2026-rongorongo-syllabic`, `raghavendra-2026-sigil`, `rozanova-2026-voynich-units`, `zhang-sheng-2026-voynich`, `tamburini-2025-csa-optmatcher`, `kambhatla-2023-regression`, `desset-2022-linear-elamite`, `luo-2021-undersegmented`, `luo-2019-neurocipher`, `shinde-2019-rakhigarhi`, `kolipakam-2018-dravidian-phylogeny`, `bk-2013-million-restarts`, `dou-knight-2013-dependency`, `snyder-2010-ugaritic`, `snyder-thesis-decipherment`, `ravi-knight-2008-optimal`, `knight-2006-unsupervised`, `knight-yamada-1999-unknown`, `parpola-1994-deciphering`, `shannon-1949-secrecy`, `davis-2026-undeciphered-aegean-scripts`, `zhou-anderson-2026-cuneiform-transfer`, `otten-2025-meroitic`, `sequeira-2025-koraga-proto-dravidian`, `braovic-2024-aegean-review`, `lee-2024-decipherment-aware-multilingual`, `megyesi-2023-historical-lms`, `aldarrab-may-2021-seq2seq`, `pourdamghani-knight-2017-related`, `hauer-kondrak-2016-anagrams`, `valentine-2015-harappa-farmana-isotopes`, `nuhn-ney-2013-complexity`, `dou-knight-2012-large-scale`, `bk-2011-combinatorial`, `ravi-knight-2011-foreign`, `desai-2026-nilgiri-genomes`, `disanto-2025-predictability-search`, `manoj-2025-minoan-machines`, `narayan-2025-genetics-dravidian`, `shen-2025-alice`, `lin-2024-unicity`, `nepal-2024-minoan-cryptanalysis`, `tamburini-2023-csa`, `kambhatla-2018-neural-lm`.
 
@@ -58,7 +58,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Reconstruction of Geometric and Structural Aspects of Undeciphered Messages by Information-theoretic Methods](https://arxiv.org/abs/2610.08861), Zenil and Uthamacumaran | 2026 | full | useful | language_vs_code, administration, signlist_robustness | Report both ranking (accuracy) and calibrated probability (bits) for every attack, since they can disagree sharply. Their rule that language and model selection must be held out matches our sealed held-out families. |
 | [Statistical analysis of the Indus script using n-grams](https://doi.org/10.1371/journal.pone.0009506), Yadav, Joglekar, Rao, Vahia, Mahadevan and Adhikari | 2009 | abstract | useful | bench_restoration, language_vs_code | The baseline n-gram model our restoration and mismatch work build on. |
 
-## Readings and language family (6)
+## Readings and language family (7)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -68,6 +68,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Positional constraints, sequence uniqueness and stroke numerals in Indus seals of Mohenjo-daro](https://doi.org/10.5281/zenodo.19103880), Kriger and Hunt | 2026 | full | useful | identifiers, administration | Nothing to borrow. Their best result was already known, and the rest fails. Test whether the sign vocabulary depends on the animal motif: compare sign distributions on bull, unicorn and other-motif seals with a family-le |
 | [Novel 4400-year-old ancestral component in a tribe speaking a Dravidian language](https://doi.org/10.1038/s41431-025-01963-1), Sequeira JJ, Krishna MS, van Driem G, Mustak MS, Das R | 2025 | full | useful | mismatch_study, elamite_bridge | Bears on the mismatch study as a weak prior for a Dravidian-type language near the Indus by about 4,400 years ago. Use only as context; our language-model test should not depend on it. |
 | [Genetics and the Prehistory of Dravidian Languages](https://doi.org/10.31826/mot-2025-260105), Narayan S | 2025 | abstract | context | mismatch_study, elamite_bridge | If we test an Elamite-bridge hypothesis, this is the review to cite for the Elamo-Dravidian framing, alongside its critics. |
+| [Copper Tablets from Mohenjo-daro and the Study of the Indus Script](https://tuhat.helsinki.fi/ws/portalfiles/portal/127257447/Parpola_A_2008._Copper_tablets_from_Mohenjo_daro._ECL_During_Caspers_Vol.pdf), Parpola A | 2008 | full | direct | copper_format | The obverse-to-reverse pairings give a ready list of about 7 sign = picture pairs. A new question would be whether those signs behave on seals the way the paired animals do. |
 
 ## Neighbouring and other undeciphered scripts (21)
 
@@ -118,7 +119,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Read(?) the Signs: By Solving a Math-Puzzle or by Wearing Harappan Shoes?](https://doi.org/10.1080/02666030.2026.2742008), Gokhale P | 2026 | abstract | context | administration | A useful critic's checklist: report context (findspot, object type, stratigraphy) alongside any sign-level claim, and state what result would count against our hypothesis. |
 | [The Proportioned City: Ratio, Symbol, and Statecraft in the Metrological Foundations of the Indus Civilization](https://doi.org/10.36948/ijfmr.2026.v08i05.89801), Munshi Y | 2026 | full | context | weights | Little to use. If we want a brick-ratio covariate, measure it from primary excavation reports instead (e.g. brick sizes by phase at Harappa or Mohenjo-daro). |
 
-## Excavations and new finds (8)
+## Excavations and new finds (9)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -130,6 +131,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Why change what works? Technological resilience in Harappan pottery from Bagasra (c. 2450-1900 BCE), Gujarat](https://doi.org/10.1016/j.jasrep.2026.105586), Sarkar S, Boyatzis SC, Zacharias N, Ajithprasad P | 2026 | abstract | context | reg_chrono, site_signal | Continuity of craft through 4.2 ka at Bagasra (Gola Dhoro) argues against a sharp break there; if Bagasra has phased inscribed objects, check whether sign use also shows continuity. |
 | [Decipherment of Indus Script: Current Status and Way Forward (seminar)](https://asi.nic.in/admin/whatsnew/download/771), Archaeological Survey of India | 2025 | abstract | context |  | We have asked the agency whether readings proposed there can be scored on our open test bench. Offer a frozen hidden-sign test for any reading presented at the seminar: a proposer commits to sign values, we mask signs in |
 | [Where Are the 'Lithics' of Chalcolithic Indus Civilization? A Comprehensive Review of Published Data](https://doi.org/10.1080/01977261.2025.2523610), Gadekar C | 2025 | abstract | context | weights, site_signal | Indus cubical weights are stone too; a site list of chert tool assemblages could be checked against weight and inscription findspots as a proxy for exchange links. |
+| [Further Excavations at Mohenjo-daro](https://archive.org/stream/dli.jZY9lup2kZl6TuXGlZQdjZM9k0Iy.TVA_BOK_0009130/TVA_BOK_0009130_Further_excavations_at_mohenjo-daro_djvu.txt), Mackay EJH | 1938 | section (p. 368, copper tablets) | direct | copper_format | Already states the space-constraint idea for copper tablets: the narrow ones carry only inscriptions. Any size-against-picture test there would be an audit of Mackay, not a new finding. |
 
 ## Chronology, rivers and climate (11)
 
