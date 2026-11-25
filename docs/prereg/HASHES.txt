@@ -556,3 +556,5 @@ ee1562ba4dbc062d5bb80ce8e2d83bd71f6c3ef2fe8b9deb4a15b2a31f5f7a9f  experiments/la
 2686c05d217e51ed2cc0a7915ddde2b80faac35f0db6281f7890c0b846ee613e  experiments/layout_word_division/align.py  2026-11-25T17:40:45Z  layout_word_division_code
 12008f060d85d8fabe652a19c7f1591bb75d6c515871c3cfce817263f3204aab  experiments/layout_word_division/score.py  2026-11-25T17:40:45Z  layout_word_division_code
 e6e7afbac3f88055d56e00cb00df1d8bbb04f62da98b2973026c191f8fa1ac04  experiments/layout_word_division/raw/keys/key_main.json  2026-11-25T17:54:43Z  layout_word_division_key_main
+a6f60741464106e4bd6a547075fafddf3a1927f8d8d19d4274c06d7c47268025  experiments/layout_word_division/raw/bundles/main/A/rater_A.json  2026-11-25T18:23:01Z  layout_word_division_rater_A_main
+f9742e38446e38d4d994ca25bd7a4558e5e728193fc164868709994b47338219  experiments/layout_word_division/raw/bundles/main/B/rater_B.json  2026-11-25T18:23:01Z  layout_word_division_rater_B_main
