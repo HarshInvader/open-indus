@@ -1117,6 +1117,18 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 
 ---
 
+### 10b.20 Disguised-script method tournament (plan 12 family 2; closed at the gate)
+- **Question.** Does any decipherment method beat our bench on held-out read scripts of Indus shape, with identity and language hidden?
+- **Result.** Not run. The method was closed before sealing after a fresh review. Two findings stand:
+  - (a) only 3 independent script families (cuneiform, Brahmic, Linear B) exist at Indus shape on open data, so at most 5 cells can be held out, and family-level p is no better than 1/8;
+  - (b) cuneiform counts must handle numerals explicitly (90.5% of Ur III's unmatched readings are numerals), and Linear B gives 2 draws of 8,000 tokens, not 3, once damaged lines are dropped.
+- **Power.** About 27% even for a true +0.10 Hit@1 advantage. The review estimated under 5% chance of a pass as drafted.
+- **Verdict.** Closed at the gate. Even a pass would have had no bearing on the 2027 bar. Prior art (Tamburini 2025) already shows method rankings vary across benchmarks.
+- **Record.** `experiments/disguised_tournament/REVIEW.md`. The draft prereg stays unpublished.
+- **Reopen with.** A fourth open script family at Indus shape, or a bench front end that runs blind.
+
+---
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1257,6 +1269,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.17 | Carver hands; craft assemblage | Untestable / inconclusive | 92-100% / 0-4.5% | ≥ 30 px/mm; craft coding |
 | 10b.18 | Closing slot; counted human figures | Untestable (lead) / not supported | 77/100 and 79/100 gates | New texts; fuller sign bridge |
 | 10b.19 | Carver groups share text | Not confirmed (possible weak effect) | 0.83 at 40% | Blind regrouping; text-length strata |
+| 10b.20 | Disguised-script method tournament | Closed at the gate (3 families only; numerals and damage) | about 27% at +0.10 | A fourth open family; a blind bench front end |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

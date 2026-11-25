@@ -735,3 +735,14 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - the numerals wording;
   - "two opening signs", not three.
   - The generous-column finding holds after the bug fix (p = 0.17). The Substack quotes are unverified.
+- 2026-11-25 **Plan 12, family 2 (disguised-script tournament) closed at the gate before sealing.** This is the coordinator's ruling, on a fresh adversarial review: 9 must-fixes, under 5% chance of a pass, and no bearing on 2027.
+  - **Findings:** only 3 independent families exist at Indus shape on open data; cuneiform counts must handle numerals explicitly; Linear B gives 2 draws, not 3.
+  - **Record:** `experiments/disguised_tournament/REVIEW.md` and atlas 10b.20.
+  - **Next:** family 3, the per-sign type classifier, carrying those lessons in from the start.
+- 2026-11-25 **layout_word_division (family 1) progress:**
+  - The prereg and code are sealed.
+  - The planted scorer check (§5.2) passed: AUC at δ = 0 was 0.50, the false-reject rate 2%, and AUC at δ = 0.20 was 0.96.
+  - 97 photos were fetched.
+  - The R2 check replaced 8 bad crops by the sealed rule, leaving 258 crops.
+  - The label key was hashed (ee1125d) before the raters started.
+  - The raters (Opus A, Fable B) are running.
