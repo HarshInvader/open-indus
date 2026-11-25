@@ -702,3 +702,8 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - Readout 2: **no read or unread script has Indus's profile.**
   - For the coordinator: whether to reword the "every past decipherment" sentence wherever the project uses it.
   - Next in the coordinator's order: `lexicon_ceiling`, as a new study with its own prereg.
+- 2026-11-25 **`lexicon_ceiling` DONE (reading 1).** A new study, per the coordinator's ruling. Sealed v2 after a fresh review. Code hashed and run once, 19 min on 4 workers, under the lock.
+  - The leakage checks all held. K0b passed, and FC switched the control to P2 by the pre-stated rule.
+  - K0a: the true Old Assyrian key with the same-archive lexicon gave G ≥ 0.02 in 18 of 20 draws at 1 u. Permuted copies and shuffled keys stayed at 0. Hit@1 lift had a median of 0.75 points.
+  - Coverage of held-out words: ceiling list 91%, Neo-Assyrian list 32%.
+  - **Consequence:** the restoration closure is about lexicon match, not the score or corpus size. For Indus no matched lexicon can exist, so the route stays closed for that reason. The bounds' "for this score" caveat is now answered for one script.
