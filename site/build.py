@@ -1660,6 +1660,10 @@ def main():
     news_rss()
     check_links(built)
     make_dist(built)
+    shutil.copy2(SITE / "assets" / "og.jpg", SITE / "dist" / "assets" / "og.jpg")
+    sys.path.insert(0, str(SITE)); from site_family import add_og, add_parent_link  # link-preview tags, and the "Open Citizen Science /" breadcrumb in the header
+    add_og(SITE / "dist", "https://indus.opencitizenscience.org", "https://indus.opencitizenscience.org/assets/og.jpg", "Open Indus")
+    add_parent_link(SITE / "dist")
 
 
 if __name__ == "__main__":
