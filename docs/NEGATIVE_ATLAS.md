@@ -1137,6 +1137,16 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Record.** `experiments/sign_type_classifier/CLOSURE.md`, `MINIMUM.txt` and `count_gate.json`. The draft prereg stays unpublished.
 - **Reopen with.** A third open labelled family at Indus shape, for example a larger clean Linear B release.
 
+### 10b.22 Joint generative model of sealing content (plan 12 family 4; closed at the count gate)
+- **Question.** Can a generative model of what seals record (name, title, office, place, commodity), fitted by simulation-based inference, recover the known content model of at least 8 read sealing corpora before it is applied to Indus?
+- **Result.** Not run. The minimum was hashed before counting (sha256 22d8b01a…): at least 8 corpora with at least 987 distinct legends each (half of M77's 1,973), and at most 2 corpora per family.
+  - Only 4 corpora in 3 families qualify: Ur III and Old Babylonian seal legends (cuneiform), Egyptian scarabs (PNM, CC BY 4.0) and Byzantine lead seals (Dumbarton Oaks, local use).
+  - The nearest miss is Hittite and Luwian (BONUS_SCRIBA), with 715 distinct legends.
+- **Power.** Not reached.
+- **Verdict.** Closed at the gate. This is the third plan-12 family stopped by the same wall (10b.20, 10b.21): open data does not hold enough labelled corpora at Indus shape for any method that must first be validated across families.
+- **Record.** `experiments/sealing_generative/` (MINIMUM.txt, count_gate.md, count_gate.py, count_gate.json).
+- **Reopen with.** Open Hittite (Nişantepe) or Sasanian bulla corpora, or a licensed Chinese seal corpus.
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1279,6 +1289,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.19 | Carver groups share text | Not confirmed (possible weak effect) | 0.83 at 40% | Blind regrouping; text-length strata |
 | 10b.20 | Disguised-script method tournament | Closed at the gate (3 families only; numerals and damage) | about 27% at +0.10 | A fourth open family; a blind bench front end |
 | 10b.21 | Per-sign type classifier | Closed at the gate (2 labelled families, need 3) | not reached | A third open labelled family |
+| 10b.22 | Generative model of sealing content | Closed at the gate (4 corpora / 3 families, need 8 / 4) | not reached | Open Hittite or Sasanian bulla corpora |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

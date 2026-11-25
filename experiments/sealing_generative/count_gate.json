@@ -1,0 +1,481 @@
+{
+ "indus": {
+  "objects_with_text": {
+   "seal": 1852,
+   "sealing": 725
+  },
+  "distinct_legends": 1973,
+  "floor": 987
+ },
+ "oracc_ur3_seal_units": {
+  "distinct_legends": 6553
+ },
+ "cdli_by_period": {
+  "Ur III (ca. 2100-2000 BC)": {
+   "seal_blocks": 25061,
+   "distinct_legible_legends": 5771,
+   "top_languages": [
+    [
+     "Sumerian",
+     19973
+    ],
+    [
+     "Akkadian",
+     13
+    ],
+    [
+     "?",
+     8
+    ]
+   ]
+  },
+  "Old Babylonian (ca. 1900-1600 BC)": {
+   "seal_blocks": 5295,
+   "distinct_legible_legends": 3329,
+   "top_languages": [
+    [
+     "?",
+     1869
+    ],
+    [
+     "Akkadian",
+     1857
+    ],
+    [
+     "Sumerian",
+     333
+    ]
+   ]
+  },
+  "Early Old Babylonian (ca. 2000-1900 BC)": {
+   "seal_blocks": 869,
+   "distinct_legible_legends": 568,
+   "top_languages": [
+    [
+     "Sumerian",
+     294
+    ],
+    [
+     "?",
+     184
+    ],
+    [
+     "Akkadian",
+     176
+    ]
+   ]
+  },
+  "Old Assyrian (ca. 1950-1850 BC)": {
+   "seal_blocks": 289,
+   "distinct_legible_legends": 127,
+   "top_languages": [
+    [
+     "?",
+     111
+    ],
+    [
+     "Akkadian",
+     24
+    ]
+   ]
+  },
+  "Old Akkadian (ca. 2340-2200 BC)": {
+   "seal_blocks": 116,
+   "distinct_legible_legends": 58,
+   "top_languages": [
+    [
+     "Akkadian",
+     45
+    ],
+    [
+     "Sumerian",
+     23
+    ],
+    [
+     "?",
+     6
+    ]
+   ]
+  },
+  "?": {
+   "seal_blocks": 24,
+   "distinct_legible_legends": 14,
+   "top_languages": [
+    [
+     "?",
+     14
+    ]
+   ]
+  },
+  "ED IIIb (ca. 2500-2340 BC)": {
+   "seal_blocks": 21,
+   "distinct_legible_legends": 10,
+   "top_languages": [
+    [
+     "Sumerian",
+     15
+    ],
+    [
+     "Akkadian",
+     2
+    ]
+   ]
+  },
+  "Neo-Assyrian (ca. 911-612 BC)": {
+   "seal_blocks": 24,
+   "distinct_legible_legends": 9,
+   "top_languages": [
+    [
+     "Akkadian",
+     11
+    ],
+    [
+     "?",
+     2
+    ]
+   ]
+  },
+  "Ur III (ca. 2100-2000 BC) ?": {
+   "seal_blocks": 9,
+   "distinct_legible_legends": 6,
+   "top_languages": [
+    [
+     "Sumerian",
+     6
+    ]
+   ]
+  },
+  "Middle Babylonian (ca. 1400-1100 BC)": {
+   "seal_blocks": 56,
+   "distinct_legible_legends": 5,
+   "top_languages": [
+    [
+     "Akkadian",
+     5
+    ]
+   ]
+  },
+  "Ebla (ca. 2350-2250 BC)": {
+   "seal_blocks": 5,
+   "distinct_legible_legends": 5,
+   "top_languages": [
+    [
+     "Akkadian",
+     4
+    ],
+    [
+     "Sumerian",
+     1
+    ]
+   ]
+  },
+  "Old Assyrian (ca. 1950-1850 BC) ?": {
+   "seal_blocks": 2,
+   "distinct_legible_legends": 2,
+   "top_languages": [
+    [
+     "?",
+     2
+    ]
+   ]
+  },
+  "Proto-Elamite (ca. 3100-2900 BC)": {
+   "seal_blocks": 4,
+   "distinct_legible_legends": 1,
+   "top_languages": [
+    [
+     "undetermined",
+     1
+    ]
+   ]
+  },
+  "Lagash II (ca. 2200-2100 BC)": {
+   "seal_blocks": 3,
+   "distinct_legible_legends": 1,
+   "top_languages": [
+    [
+     "Sumerian",
+     1
+    ]
+   ]
+  },
+  "Old Babylonian (ca. 1900-1600 BC) ?": {
+   "seal_blocks": 3,
+   "distinct_legible_legends": 1,
+   "top_languages": [
+    [
+     "Sumerian",
+     2
+    ]
+   ]
+  },
+  "ED IIIa (ca. 2600-2500 BC)": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 1,
+   "top_languages": [
+    [
+     "?",
+     1
+    ]
+   ]
+  },
+  "uncertain": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 1,
+   "top_languages": [
+    [
+     "?",
+     1
+    ]
+   ]
+  },
+  "Neo-Babylonian (ca. 626-539 BC)": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 1,
+   "top_languages": [
+    [
+     "Akkadian",
+     1
+    ]
+   ]
+  },
+  "Uruk III (ca. 3200-3000 BC)": {
+   "seal_blocks": 15,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Uruk IV (ca. 3350-3200 BC) ?": {
+   "seal_blocks": 3,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Uruk III (ca. 3200-3000 BC) ?": {
+   "seal_blocks": 5,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Uruk V (ca. 3500-3350 BC) ?": {
+   "seal_blocks": 105,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Achaemenid (547-331 BC)": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Uruk V (ca. 3500-3350 BC)": {
+   "seal_blocks": 31,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Old Akkadian (ca. 2340-2200 BC) ?": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Pre-Uruk V (ca. 8500-3500 BC)": {
+   "seal_blocks": 81,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Middle Assyrian (ca. 1400-1000 BC)": {
+   "seal_blocks": 4,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Old Akkadian (ca. 2340-2200 BC); Ur III (ca. 2100-2000 BC)": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "ED I-II (ca. 2900-2700 BC)": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  },
+  "Uruk IV (ca. 3350-3200 BC)": {
+   "seal_blocks": 1,
+   "distinct_legible_legends": 0,
+   "top_languages": []
+  }
+ },
+ "cdli_seal_objects_by_period": {
+  "Ur III (ca. 2100-2000 BC)": {
+   "objects_with_atf": 6409,
+   "distinct_legible_legends": 5898
+  },
+  "Old Babylonian (ca. 1900-1600 BC)": {
+   "objects_with_atf": 614,
+   "distinct_legible_legends": 550
+  },
+  "Early Old Babylonian (ca. 2000-1900 BC)": {
+   "objects_with_atf": 405,
+   "distinct_legible_legends": 377
+  },
+  "Middle Babylonian (ca. 1400-1100 BC)": {
+   "objects_with_atf": 220,
+   "distinct_legible_legends": 192
+  },
+  "Old Akkadian (ca. 2340-2200 BC)": {
+   "objects_with_atf": 573,
+   "distinct_legible_legends": 189
+  },
+  "Old Assyrian (ca. 1950-1850 BC)": {
+   "objects_with_atf": 175,
+   "distinct_legible_legends": 164
+  },
+  "Pre-Uruk V (ca. 8500-3500 BC)": {
+   "objects_with_atf": 81,
+   "distinct_legible_legends": 55
+  },
+  "Ebla (ca. 2350-2250 BC)": {
+   "objects_with_atf": 42,
+   "distinct_legible_legends": 37
+  },
+  "ED IIIb (ca. 2500-2340 BC)": {
+   "objects_with_atf": 55,
+   "distinct_legible_legends": 27
+  },
+  "?": {
+   "objects_with_atf": 95,
+   "distinct_legible_legends": 23
+  },
+  "uncertain": {
+   "objects_with_atf": 23,
+   "distinct_legible_legends": 17
+  },
+  "Neo-Assyrian (ca. 911-612 BC)": {
+   "objects_with_atf": 38,
+   "distinct_legible_legends": 13
+  },
+  "Lagash II (ca. 2200-2100 BC)": {
+   "objects_with_atf": 43,
+   "distinct_legible_legends": 11
+  },
+  "Ur III (ca. 2100-2000 BC) ?": {
+   "objects_with_atf": 8,
+   "distinct_legible_legends": 7
+  },
+  "Old Babylonian (ca. 1900-1600 BC) ?": {
+   "objects_with_atf": 5,
+   "distinct_legible_legends": 4
+  },
+  "Old Akkadian (ca. 2340-2200 BC); Ur III (ca. 2100-2000 BC)": {
+   "objects_with_atf": 9,
+   "distinct_legible_legends": 4
+  },
+  "Old Akkadian (ca. 2340-2200 BC) ?": {
+   "objects_with_atf": 2,
+   "distinct_legible_legends": 2
+  },
+  "Old Assyrian (ca. 1950-1850 BC) ?": {
+   "objects_with_atf": 7,
+   "distinct_legible_legends": 2
+  },
+  "Uruk III (ca. 3200-3000 BC)": {
+   "objects_with_atf": 405,
+   "distinct_legible_legends": 2
+  },
+  "ED I-II (ca. 2900-2700 BC)": {
+   "objects_with_atf": 2,
+   "distinct_legible_legends": 1
+  },
+  "fake (modern)": {
+   "objects_with_atf": 1,
+   "distinct_legible_legends": 1
+  },
+  "Middle Assyrian (ca. 1400-1000 BC)": {
+   "objects_with_atf": 3,
+   "distinct_legible_legends": 1
+  },
+  "ED IIIa (ca. 2600-2500 BC)": {
+   "objects_with_atf": 3,
+   "distinct_legible_legends": 1
+  },
+  "Middle Babylonian (ca. 1400-1100 BC) ?": {
+   "objects_with_atf": 1,
+   "distinct_legible_legends": 1
+  },
+  "Middle Assyrian (ca. 1400-1000 BC) ?": {
+   "objects_with_atf": 1,
+   "distinct_legible_legends": 1
+  },
+  "Uruk V (ca. 3500-3350 BC) ?": {
+   "objects_with_atf": 3,
+   "distinct_legible_legends": 0
+  },
+  "Achaemenid (547-331 BC)": {
+   "objects_with_atf": 6,
+   "distinct_legible_legends": 0
+  },
+  "fake (ancient) ?": {
+   "objects_with_atf": 1,
+   "distinct_legible_legends": 0
+  },
+  "Uruk IV (ca. 3350-3200 BC)": {
+   "objects_with_atf": 14,
+   "distinct_legible_legends": 0
+  },
+  "Middle Elamite (ca. 1300-1000 BC)": {
+   "objects_with_atf": 1,
+   "distinct_legible_legends": 0
+  },
+  "Neo-Elamite (ca. 770-539 BC)": {
+   "objects_with_atf": 1,
+   "distinct_legible_legends": 0
+  },
+  "Uruk III (ca. 3200-3000 BC) ?": {
+   "objects_with_atf": 2,
+   "distinct_legible_legends": 0
+  },
+  "Neo-Babylonian (ca. 626-539 BC)": {
+   "objects_with_atf": 2,
+   "distinct_legible_legends": 0
+  },
+  "Proto-Elamite (ca. 3100-2900 BC)": {
+   "objects_with_atf": 4,
+   "distinct_legible_legends": 0
+  }
+ },
+ "pnm_egyptian_seals": {
+  "objects": 3507,
+  "text_type": [
+   [
+    "Name",
+    3003
+   ],
+   [
+    "Royal text",
+    223
+   ],
+   [
+    "Royal name",
+    165
+   ],
+   [
+    "Funerary text",
+    55
+   ],
+   [
+    "Formula ḤDN",
+    43
+   ],
+   [
+    "",
+    12
+   ],
+   [
+    "Container contents description",
+    5
+   ],
+   [
+    "Biography",
+    1
+   ]
+  ],
+  "distinct_named_owners": 2173,
+  "distinct_royal_legends": 14,
+  "distinct_legend_lower_bound": 2187
+ }
+}

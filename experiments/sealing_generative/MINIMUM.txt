@@ -1,0 +1,58 @@
+sealing_generative count gate: minimum, written BEFORE any count. 2026-11-25T18:42:44Z.
+Plan 12, family 4 (joint generative model of what sealings record, fitted by simulation-based
+inference). Counting only: no model, simulator, posterior or recovery score is computed.
+
+Unit counted: a "read sealing corpus" (a CORPUS) = one script x one sealing tradition (one
+period/region/administration, e.g. "Ur III cylinder-seal legends"), that is, the population a
+recovery test would be run on as one held-out unit.
+
+A corpus is ELIGIBLE only if all of:
+  E1 read: the script is deciphered and each counted legend has a published reading
+     (transliteration or translation). Undeciphered scripts (Cretan hieroglyphic, Linear A,
+     Proto-Elamite, Indus) are ineligible as read corpora whatever their size.
+  E2 sealing objects: the legends are on seals or seal impressions (seals, sealings, bullae,
+     nodules, impressions rolled or stamped on tablets/envelopes). Brick stamps, coin legends,
+     weights, labels and tags without a seal impression do not count.
+  E3 content labels: for each counted legend, a per-legend content label exists (edition markup,
+     lemma/POS, catalogue field) OR the source states the legend in a form from which slot roles
+     (personal name, patronymic, title/office, deity, place, commodity, numeral) can be assigned
+     by reading, without any statistic of the corpus. Iconography-only catalogues (no legend
+     text) do not satisfy E3.
+  E4 size: >= FLOOR distinct inscribed legends meeting E1-E3, where
+        FLOOR = ceil(N_indus / 2),
+        N_indus = number of distinct sign sequences (after dropping empty ones) on objects with
+                  object_type "seal" or "sealing" in data/m77_texts.jsonl,
+     counted by count_gate.py with the same distinct-legend rule. Justification: the recovery test
+     must be run at Indus scale or a conservative fraction of it; at half Indus size, a slot role
+     at 5% prevalence still has dozens of instances, and recovery at half scale is no easier than at
+     full scale, so a pass would carry over. Below half, a failure would be uninterpretable. A
+     corpus counted from a published total (not from data in hand) is eligible on size only if the
+     total is stated in a source actually opened and refers to inscribed legends with readings.
+  E5 licence: open licence (CC0/CC-BY/CC-BY-SA/ODbL or equivalent), or the data can be obtained
+     and used locally without paywall evasion (local-only data never leaves the machine). Data
+     available only in print or behind a paywall with no lawful machine-readable copy fails E5.
+  E6 access: the legend texts can be obtained in machine-readable form (bulk download, API, or a
+     scrape the site permits) OR already sit in this repo. A corpus known only from print is not
+     eligible now (record as near-miss).
+Every source must have a URL actually opened in this session; otherwise the row is marked
+"(unverified)" and cannot be eligible.
+
+Independence: corpora are grouped into FAMILIES by script family:
+  cuneiform (Sumerian, Akkadian, Elamite, Hittite, Ugaritic, Old Persian cuneiform);
+  Aegean (Linear B, Cypro-Minoan);
+  Anatolian hieroglyphic (Luwian);
+  Egyptian (hieroglyphic, hieratic);
+  West Semitic alphabetic (Aramaic, Phoenician, Hebrew, Ugaritic alphabetic is cuneiform);
+  Middle Iranian (Pahlavi, incl. Sasanian);
+  Sinographic (Chinese characters);
+  any other script family counts as its own family.
+At most N = 2 eligible corpora count per family, so ">= 8 eligible" implies >= 4 families.
+A multi-script archive (e.g. Persepolis Fortification) is assigned to the family of the script of
+the majority of its inscribed legends.
+
+MINIMUM:
+  M1 >= 8 eligible corpora after the per-family cap (N = 2), hence >= 4 independent families.
+     With fewer, the family is not run as drafted and closes at the gate.
+  M2 (stated now, not required) the Indus corpus itself is never counted as a corpus.
+  M3 no rule above may be changed after counting; a corpus that misses a rule by any margin is a
+     near-miss, not eligible.

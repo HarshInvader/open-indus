@@ -751,3 +751,7 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **Record:** `experiments/sign_type_classifier/CLOSURE.md` and atlas 10b.21.
   - **The wall:** this is the second family stopped by the same wall. Open data has 3 or fewer labelled families at Indus shape.
   - **Next:** family 4's count gate, with its minimum hashed first. Then a fresh Fable re-plan for studies that need no transfer across families.
+- 2026-11-25 **Plan 12, family 4 (generative model of sealing content) closed at the count gate.** This was ruled in advance, on the coordinator's pre-authorisation.
+  - **Count:** 4 corpora in 3 families, against the 8 corpora in 4 families required. The minimum was hashed before counting.
+  - **The wall:** this is the third family stopped by the labelled-corpus wall, so families 2 to 4 are all closed.
+  - **Next:** a fresh Fable re-plan for original studies that need no transfer across families.
