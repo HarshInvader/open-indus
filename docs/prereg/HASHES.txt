@@ -538,3 +538,5 @@ b8c6ac6fb159d8e6440631e4878eb4bf03f11a66b8405e75a3caa8d62fe84272  docs/prereg/nu
 2b573b630cdc08531f68863507303ba0a1e0a3ab15a2aced03a710f43c82191a  experiments/certify_size_curve/run.py  2026-11-25T05:23:02Z  certify_size_curve_code
 589b3b5e1f4576c5165204eeca2e9d4a18727e25b51bd2d584178673e172c710  docs/prereg/anchor_crossread.md  2026-11-25T11:41:04Z  anchor_crossread
 9f09f360fb83128a22d3349dee7ad99dcd2f4eb8c5f5ccbda2c932be99df7431  experiments/anchor_crossread/run.py  2026-11-25T11:53:29Z  anchor_crossread_code
+2fb1eeca3827229e46bcd12a3b0189a4e5888526d49f577c797c002633fc22b0  docs/prereg/unread_sealer_shortlist.md  2026-11-25T13:14:48Z  unread_sealer_shortlist
+c12e4580584c4129c6b6d938ebdafe0e3f6a9688f76de470695dd879df4c0fd6  experiments/unread_sealer_shortlist/run.py  2026-11-25T13:17:57Z  unread_sealer_shortlist_code

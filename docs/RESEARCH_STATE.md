@@ -674,3 +674,20 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
 - 2026-11-25 **`anchor_crossread` DONE (readings 5 and 4).** Kp 20/20; Kc 0/20. K0 at 15 pairs: B2 13 of 20 (fail), B1 20 of 20 with 1 of 20 mismatches (pass, through fallback F1). Claimed m: B1 15, A 8. Binding cells: R1 (20% unread) has no claim (10 of 20 at 15); C1 (Indus sign statistics) claims 9. A passing set recovers a median of only 1 to 2.5 values.
   - **Consequence:** the minimum anchoring event is more than 15 pairs with direction known. `anchor_objects.md` section 4 stays. This route cannot reach 10 sound values at any size held. Reading 4a would also apply if checked at every rung (R1 had 2 mismatch passes at m = 12); disclosed.
   - Next on plan 10: study 5, the unread-sealer shortlist. Studies 2 and 3 are parked for the owner; study 4 needed study 1 to pass in a way that gives values, and it did not.
+- 2026-11-25 **Coordinator:** plan 10's high-ceiling routes are used up. Keep study 5 cheap and short. Draft plan 11 with a fresh Fable agent. Put the raw read shares into the scorecard, with the shape caveat, when it is next rebuilt (pending; no rebuild is due yet).
+- 2026-11-25 **`unread_sealer_shortlist` DONE (reading 3).** Sealed v2 after one fresh review. The review fixed the recount (1,909, not 1,911) and made the parsing rules exact.
+  - Decisions were ruled pre-seal to keep it small: Old Assyrian out, arm C out, the Yale pool closed, no reviewer yet.
+  - K0a passed: YBC 5447 ranked 6 of 1,909, though the features were written knowing it. K0b failed: P453801 ranked 321 with the Gulf word zeroed, so the Ur III rows were dropped.
+  - F1 cut a 273-row tie block, so the list holds one new tablet, P415075 (UET 5 184). It names witnesses, not a sealer. It is in `docs/HUMAN_LEADS.md`.
+  - No bearing on the 2027 bar.
+- 2026-11-25 **Plan 11 drafted** (Fable, `docs/fable_brief11.md`, gitignored).
+  - Verdict: no route has even a 1% chance at the 2027 bar (about 0.1%, at most 0.2%). The honest best output is the bounds and negative results.
+  - Ranked studies:
+    1. oakk_sealing_list
+    2. crossread_value_ladder (heavy)
+    3. crossread_coins
+    4. lexicon_ceiling (needs a ruling on the frozen stop)
+    5. key_class_coherence (parked)
+    6. decipher_reference_class
+    7. foreign_transcribe3
+  - Waiting for the coordinator to choose.

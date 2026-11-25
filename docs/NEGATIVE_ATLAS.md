@@ -865,6 +865,11 @@ Numbers come from each folder's `RESULTS.md` and from `docs/test_ledger.csv`. Th
   - 17 of them are Old Assyrian envelopes from Kültepe and Alişar with Anatolian stamps. Only 1 is Gulf-type (YBC 5447), and its stamp is stated only in the AS 16 print edition.
   - The gate was meant for Gulf or Indus-type stamps, so the count is 1 against a bar of 10. A recall test on the Old Assyrian rows would only measure CDLI's tagging.
   - **Verdict for the text route: closed.** `experiments/stamp_positives/COUNT.md`.
+- **Update 2026-11-25: unread-sealer shortlist (`experiments/unread_sealer_shortlist`, sealed).** We ranked 1,909 Ur III and Old Babylonian sealed tablets with no legend read, by metadata alone.
+  - K0a passed: YBC 5447 ranked 6th. The features were written knowing it.
+  - K0b failed: P453801 ranked 321st without its Meluhha word, so the Ur III rows were dropped (reading 3).
+  - The score ties 273 rows at 4 points. After the sealed cuts, the list holds one new tablet, P415075 (UET 5 184). It names witnesses, not a single sealer.
+  - **Verdict:** the metadata route gives one lead for a person and no anchor.
 
 ### 9.3 Bilingual search
 - **Question.** Is there an Indus-Elamite or Indus-cuneiform bilingual?

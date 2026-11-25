@@ -1,0 +1,182 @@
+{
+  "F1": {
+    "applied": true,
+    "cap": 150,
+    "cut": 95,
+    "outcome": "the tie block would pass 150 rows; the block is left out",
+    "rows_after_F1": 48,
+    "tie_block_score": 4,
+    "tie_block_size": 273,
+    "tie_block_worst_case_rank": 321
+  },
+  "controls": {
+    "K0a": {
+      "bar": 95,
+      "in_pool_W": true,
+      "p_number": "P306518",
+      "pass": true,
+      "scores": {
+        "gulf_word": 0,
+        "named_sealer": 0,
+        "period": 1,
+        "seal_note": 2,
+        "site": 2,
+        "trade_word": 1
+      },
+      "total": 6,
+      "worst_case_rank": 6
+    },
+    "K0b": {
+      "bar": 95,
+      "gulf_word_feature": "set to zero in every row",
+      "in_pool_W": true,
+      "p_number": "P453801",
+      "pass": false,
+      "record_only_with_gulf_word_on": {
+        "note": "for the record; decides nothing",
+        "scores": {
+          "gulf_word": 2,
+          "named_sealer": 0,
+          "period": 1,
+          "seal_note": 1,
+          "site": 2,
+          "trade_word": 0
+        },
+        "total": 6,
+        "worst_case_rank": 6
+      },
+      "scores": {
+        "gulf_word": 0,
+        "named_sealer": 0,
+        "period": 1,
+        "seal_note": 1,
+        "site": 2,
+        "trade_word": 0
+      },
+      "total": 4,
+      "worst_case_rank": 321
+    },
+    "P516366": {
+      "p_number": "P516366",
+      "ranked": false,
+      "reason": "no text on disk; not ranked",
+      "text_block_with_seal_section_on_disk": false
+    }
+  },
+  "counts": {
+    "brief10_kiszib_pools": {
+      "EOB+OB": 62,
+      "Old Assyrian": 32,
+      "Ur III": 669
+    },
+    "brief10_kiszib_pools_expected": {
+      "EOB+OB": 62,
+      "Old Assyrian": 32,
+      "Ur III": 669
+    },
+    "listed_rows": 2,
+    "listed_rows_by_period": {
+      "Early Old Babylonian": 1,
+      "Old Babylonian": 1
+    },
+    "listed_rows_with_photo_flag": 1,
+    "listed_rows_without_photo_flag": 1,
+    "pool_W": 1909,
+    "pool_W_by_period": {
+      "Early Old Babylonian": 100,
+      "Old Babylonian": 368,
+      "Ur III": 1441
+    },
+    "pool_W_expected": 1909,
+    "pool_W_with_lineart_flag": 741,
+    "pool_W_with_photo_flag": 711,
+    "pool_W_with_seal_id": 1743,
+    "score_histogram": {
+      "0": 5,
+      "1": 445,
+      "2": 674,
+      "3": 464,
+      "4": 273,
+      "5": 42,
+      "6": 6
+    },
+    "score_histogram_gulf_word_zeroed": {
+      "0": 5,
+      "1": 445,
+      "2": 674,
+      "3": 464,
+      "4": 274,
+      "5": 42,
+      "6": 5
+    },
+    "texts_with_seal_section_on_disk": 28676
+  },
+  "dead_features_F2": [
+    "period",
+    "seal_note"
+  ],
+  "features": {
+    "gulf_word": {
+      "by_points": {
+        "0": 1908,
+        "2": 1
+      },
+      "dead": false,
+      "dead_reason": null,
+      "rows_scored": 1
+    },
+    "named_sealer": {
+      "by_points": {
+        "0": 1215,
+        "1": 694
+      },
+      "dead": false,
+      "dead_reason": null,
+      "rows_scored": 694
+    },
+    "period": {
+      "by_points": {
+        "0": 368,
+        "1": 1541
+      },
+      "dead": true,
+      "dead_reason": "scores more than half the pool",
+      "rows_scored": 1541
+    },
+    "seal_note": {
+      "by_points": {
+        "0": 386,
+        "1": 1402,
+        "2": 121
+      },
+      "dead": true,
+      "dead_reason": "scores more than half the pool",
+      "rows_scored": 1523
+    },
+    "site": {
+      "by_points": {
+        "0": 1466,
+        "1": 319,
+        "2": 124
+      },
+      "dead": false,
+      "dead_reason": null,
+      "rows_scored": 443
+    },
+    "trade_word": {
+      "by_points": {
+        "0": 1834,
+        "1": 75
+      },
+      "dead": false,
+      "dead_reason": null,
+      "rows_scored": 75
+    }
+  },
+  "list_status": "list written",
+  "prereg": "docs/prereg/unread_sealer_shortlist.md",
+  "prereg_sha256": "2fb1eeca3827229e46bcd12a3b0189a4e5888526d49f577c797c002633fc22b0",
+  "reading": 3,
+  "reading_text": "K0a passes and K0b fails. The list holds only Early Old Babylonian and Old Babylonian rows from the top 95. Ur III rows are dropped.",
+  "status": "done"
+}

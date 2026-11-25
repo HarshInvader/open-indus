@@ -24,6 +24,9 @@ Agents can't do these. Each could supply an external anchor.
 - British Museum, Middle East dept: RTI of BM 120573 (owner sak-ku-ši or ka-lu-ši?); any unpublished Gu'abba-archive Ur-Lamma receipt with an uninscribed/foreign seal.
 - Optional: Hearst Museum, HMA 9-02648 (BDTNS says sealed; photo shows none).
 
+## Unread-sealer shortlist (experiments/unread_sealer_shortlist), for the owner to decide on
+- P415075 (UET 5 184, Old Babylonian, Ur): has a line drawing and no photo flag. Check the drawing's edges for a round or oval impression. If one is there, request edge photos from the holder. It names witnesses, not a single sealer, so it cannot be an anchor.
+
 ## Potter's marks (experiments/potters_marks)
 - Kenoyer & Meadow Harappa marked-sherd database (1,218 sherds with vessel forms): would allow a vessel-type test for jar sign M342's early ancestors. Others: Durrani et al. 1995 (Rehman Dheri), Franke-Vogt 2001 (Balakot), Lal et al. 2003 MASI 98 (Kalibangan), Quivron 1997 (Nausharo), Shinde 2011 (Farmana), Dani 1970-71 (Gumla).
 - Hi-res photo of K-69 (Kalibangan) or H-14 (Harappa): is W056 / 'M121 M121' one ~24-stroke sign? (experiments/numeral_grammar)
