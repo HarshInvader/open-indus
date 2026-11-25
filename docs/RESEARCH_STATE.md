@@ -776,3 +776,26 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - The capacity null has one placement in 99.6% of texts, so its minimum p is about 0.86, and it can never reach 0.01.
   - The brief's 60 face splits collapse to 3 junctions, because moulded tablets repeat one text.
   - All Fable re-plan 13 studies are now closed. The strategy question about non-open levers goes to the coordinator and the owner.
+
+## Indus open-data verdict (2026-11-25, agreed with the coordinator)
+Every route we can build on open data has been run to a gate or a kill test, and none leaves an open path to the 2027 bar. The evidence is in atlas 10b.10 to 10b.27.
+- **Restoration:** it works only with a lexicon that matches the text at about 90% coverage (`lexicon_ceiling`), and Indus can have no such lexicon.
+- **Segmentation from layout:** there are too few line breaks and physical splits (10b.10, 10b.27). The capacity null cannot be tested, and no blind measurer of sign gaps exists (10b.23).
+- **Bilingual and anchor routes:**
+  - the coin cross-read stopped at 28 names, against 30 needed;
+  - the copper-tablet pairs do not occur on seals (10b.26);
+  - the unread-sealer shortlist yields one lead, and it names no sealer.
+- **Transfer across script families:** stopped at the labelled-corpus wall (10b.20 to 10b.22).
+- **Reference class:** no script, read or unread, has Indus's profile (`decipher_reference_class`).
+
+Further open-data work mostly sharpens the reasons for failure. It cannot move the odds; only new primary material can. This is a statement of where the project stands. It is not a paper.
+
+**Levers outside open data, in order of value per effort:**
+1. Edge and impression photos of P516366 and P453801. This is cheap, and it checks the shortlist method, but its ceiling is 1 to 3 pairs.
+2. An excavated or museum archive of Gulf or Mesopotamian sealed tablets with photographed impressions and named sealers. It is the only lever that could pass 15 anchor pairs. It is slow and uncertain.
+3. Human recoding of Indus photographs, to reopen 10b.10, 10b.23, 10b.24 and 10b.27. Its value for 2027 is low, because the lexicon wall stays.
+
+**Plan:**
+- lever 1, image requests to the holders;
+- lever 2, desk scoping of open sources against the anchor_crossread threshold of more than 15 pairs;
+- the local-hands audit, at low priority.
