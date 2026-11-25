@@ -2,8 +2,8 @@
 
 add_og: Open Graph and Twitter card tags. Each page keeps its own <title> and description;
   all pages share the site's card image. Pages that already carry og:image are left alone.
-add_parent_link: a breadcrumb in front of a project's logo, "(o) Open Citizen Science / <project>".
-  On tablets only the ring mark and the slash show; on phones it is hidden (the footer links home).
+add_parent_link: an "(o) Open Citizen Science" link at the right of a project's nav, before Contribute,
+  set off by a thin divider; on phones it sits in the menu.
 
 A copy of open-citizen-science/tools/site_family.py, used by build.py;
 keep the two in step.
@@ -35,28 +35,24 @@ def add_og(dist, base_url, image_url, site_name, size=(2400, 1260)):
         f.write_text(t.replace("</head>", tags + "</head>", 1))
 
 
+
 PARENT_URL = "https://opencitizenscience.org/"
-CRUMB_CSS = ("<style id=\"ocs-crumb\">.ocs-crumbs{display:flex;align-items:center;gap:12px;min-width:0;margin-right:auto}"
-             ".ocs-parent{display:inline-flex;align-items:center;gap:7px;color:inherit;text-decoration:none;opacity:.62;"
-             "font-size:14.5px;font-weight:500;letter-spacing:-.005em;white-space:nowrap;transition:opacity .15s}"
-             ".ocs-parent:hover,.ocs-parent:focus-visible{opacity:1}"
-             ".ocs-parent svg{width:18px;height:18px;flex:none}"
-             ".ocs-sep{opacity:.3;font-size:22px;font-weight:300;line-height:1;margin-top:-2px}"
-             "@media (max-width:899px){.ocs-parent span{display:none}.ocs-crumbs{gap:9px}}"
-             "@media (max-width:559px){.ocs-parent,.ocs-sep{display:none}}</style>")
-CRUMB = ('<div class="ocs-crumbs"><a class="ocs-parent" href="' + PARENT_URL + '" title="Part of Open Citizen Science">'
+CRUMB_CSS = ("<style id=\"ocs-parent\">.site-nav .ocs-li{display:flex;align-items:center}"
+             ".site-nav a.ocs-parent{display:inline-flex;align-items:center;gap:7px;color:inherit;text-decoration:none;opacity:.6;"
+             "font-size:.88em;white-space:nowrap;transition:opacity .15s}"
+             ".site-nav a.ocs-parent:hover,.site-nav a.ocs-parent:focus-visible{opacity:1}"
+             ".ocs-parent svg{width:15px;height:15px;flex:none}"
+             "@media (min-width:900px){.site-nav .ocs-li{margin-left:6px;padding-left:22px;border-left:1px solid color-mix(in srgb,currentColor 18%,transparent);height:22px}}</style>")
+CRUMB = ('<li class="ocs-li"><a class="ocs-parent" href="' + PARENT_URL + '" title="This project is part of Open Citizen Science">'
          '<svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="16" cy="16" r="12" fill="none" stroke="currentColor" stroke-width="2.6"/>'
-         '<circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg><span>Open Citizen Science</span></a>'
-         '<span class="ocs-sep" aria-hidden="true">/</span>')
+         '<circle cx="16" cy="16" r="3.5" fill="currentColor"/></svg>Open Citizen Science</a></li>')
 
 
 def add_parent_link(dist):
-    """Wrap the header's <a class="brand" ...>...</a> in the breadcrumb, on every page of a built project site."""
+    """Add an "Open Citizen Science" link to the right of the project's nav, just before Contribute (in the menu on phones)."""
     for f in Path(dist).rglob("*.html"):
         t = f.read_text()
-        if "ocs-crumbs" in t or '<a class="brand"' not in t or "</head>" not in t:
+        if "ocs-parent" in t or '<li class="nav-cta">' not in t or "</head>" not in t:
             continue
-        i = t.index('<a class="brand"')
-        j = t.index("</a>", i) + 4
-        t = t[:i] + CRUMB + t[i:j] + "</div>" + t[j:]
+        t = t.replace('<li class="nav-cta">', CRUMB + '<li class="nav-cta">', 1)
         f.write_text(t.replace("</head>", CRUMB_CSS + "</head>", 1))
