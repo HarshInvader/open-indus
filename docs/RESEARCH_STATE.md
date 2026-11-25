@@ -746,3 +746,8 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - The R2 check replaced 8 bad crops by the sealed rule, leaving 258 crops.
   - The label key was hashed (ee1125d) before the raters started.
   - The raters (Opus A, Fable B) are running.
+- 2026-11-25 **Plan 12, family 3 (per-sign type classifier) closed at the count gate.** This is the coordinator's ruling, D1 = a.
+  - **Count:** 2 labelled families against the 3 required, by a minimum hashed before counting. Linear B fell short at 17,413 clean tokens against 20,000.
+  - **Record:** `experiments/sign_type_classifier/CLOSURE.md` and atlas 10b.21.
+  - **The wall:** this is the second family stopped by the same wall. Open data has 3 or fewer labelled families at Indus shape.
+  - **Next:** family 4's count gate, with its minimum hashed first. Then a fresh Fable re-plan for studies that need no transfer across families.

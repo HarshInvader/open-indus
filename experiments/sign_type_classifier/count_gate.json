@@ -1,0 +1,715 @@
+{
+ "minimum_file": "experiments/sign_type_classifier/MINIMUM.txt",
+ "seed": 0,
+ "draw_tokens": 10000,
+ "min_occ_scored": 3,
+ "indus": {
+  "source": "data/m77_texts.jsonl, distinct texts, split at | and # (corpus.load.runs)",
+  "runs": 2413,
+  "tokens": 10005,
+  "sign_types": 417,
+  "mean_run_len": 4.15,
+  "median_run_len": 4,
+  "len_hist_1_to_10plus": [
+   193,
+   376,
+   461,
+   413,
+   403,
+   249,
+   167,
+   76,
+   36,
+   39
+  ],
+  "scored_types_ge3": 249,
+  "numeral_sign_types_in_list": 32,
+  "numeral_types_attested": 32,
+  "numeral_scored_types_ge3": 22,
+  "numeral_token_share": 0.1109
+ },
+ "cells": [
+  {
+   "cell": "cun_saao_neoassyrian",
+   "family": "cuneiform",
+   "licence": "CC0 (Oracc metadata.json)",
+   "label_source": "Oracc GDL markup: role=logo / v / det / n",
+   "clean_lines": 12702,
+   "clean_tokens": 97869,
+   "sign_types": 429,
+   "line_stats": {
+    "lines_seen": 45386,
+    "lines_dropped": 32684,
+    "drop_reasons": {
+     "damage": 32539,
+     "illegible": 37,
+     "no_utf8": 7,
+     "x": 1,
+     "lang": 5,
+     "gg": 1
+    }
+   },
+   "token_share_by_role": {
+    "SYL": 0.6847,
+    "LOGO": 0.2342,
+    "DET": 0.0473,
+    "NUM": 0.0338,
+    "MEAS": 0.0
+   },
+   "type_count_by_label": {
+    "SYL": 175,
+    "LOGO": 170,
+    "DET": 10,
+    "NUM": 74,
+    "MEAS": 0
+   },
+   "polyvalent_signs_purity_lt_0.8": 89,
+   "token_share_on_polyvalent_signs": 0.2229,
+   "indus_shape": {
+    "n_draws": 9,
+    "types_per_draw_median_min": [
+     316,
+     306
+    ],
+    "scored_types_per_draw_median_min": [
+     231,
+     224
+    ],
+    "scored_by_label_median_min": {
+     "SYL": [
+      142,
+      136
+     ],
+     "LOGO": [
+      69,
+      61
+     ],
+     "DET": [
+      9,
+      8
+     ],
+     "NUM": [
+      13,
+      10
+     ],
+     "MEAS": [
+      0,
+      0
+     ]
+    },
+    "mean_text_len_median": 3.27,
+    "majority_share_SYL_vs_LOGO_median": 0.667
+   },
+   "eligibility": {
+    "E1_labels_ge_90pct": true,
+    "E2_reading_free_ids": true,
+    "E3_ge_20000_clean_tokens": true,
+    "E4_ge_20_scored_SYL_and_LOGO": true,
+    "E5_licence_ok": true
+   },
+   "eligible": true,
+   "DET_ge_20_scored": false
+  },
+  {
+   "cell": "cun_oakk_akkadian_lines",
+   "family": "cuneiform",
+   "licence": "CC0 (Oracc)",
+   "label_source": "Oracc GDL markup",
+   "clean_lines": 0,
+   "clean_tokens": 0,
+   "sign_types": 0,
+   "line_stats": {
+    "lines_seen": 66819,
+    "lines_dropped": 66819,
+    "drop_reasons": {
+     "lang": 66781,
+     "damage": 2,
+     "no_utf8": 11
+    }
+   },
+   "token_share_by_role": {
+    "SYL": 0.0,
+    "LOGO": 0.0,
+    "DET": 0.0,
+    "NUM": 0.0,
+    "MEAS": 0.0
+   },
+   "type_count_by_label": {
+    "SYL": 0,
+    "LOGO": 0,
+    "DET": 0,
+    "NUM": 0,
+    "MEAS": 0
+   },
+   "polyvalent_signs_purity_lt_0.8": 0,
+   "token_share_on_polyvalent_signs": 0.0,
+   "indus_shape": {
+    "n_draws": 0,
+    "types_per_draw_median_min": [
+     null,
+     null
+    ],
+    "scored_types_per_draw_median_min": [
+     null,
+     null
+    ],
+    "scored_by_label_median_min": {
+     "SYL": [
+      null,
+      null
+     ],
+     "LOGO": [
+      null,
+      null
+     ],
+     "DET": [
+      null,
+      null
+     ],
+     "NUM": [
+      null,
+      null
+     ],
+     "MEAS": [
+      null,
+      null
+     ]
+    },
+    "mean_text_len_median": null,
+    "majority_share_SYL_vs_LOGO_median": null
+   },
+   "eligibility": {
+    "E1_labels_ge_90pct": true,
+    "E2_reading_free_ids": true,
+    "E3_ge_20000_clean_tokens": false,
+    "E4_ge_20_scored_SYL_and_LOGO": false,
+    "E5_licence_ok": true
+   },
+   "eligible": false,
+   "DET_ge_20_scored": false
+  },
+  {
+   "cell": "aegean_linearb_damos",
+   "family": "Aegean",
+   "licence": "CC BY-NC-SA 4.0 (DAMOS; local use)",
+   "label_source": "DAMOS edition convention: lowercase = phonetic, uppercase = ideogram, metric letters, digits",
+   "clean_lines": 1836,
+   "clean_tokens": 17413,
+   "sign_types": 204,
+   "line_stats": {
+    "lines_seen": 13913,
+    "lines_dropped": 12077,
+    "drop_reasons": {
+     "syl_shape": 35,
+     "damage": 11927,
+     "unknown_token": 115
+    }
+   },
+   "token_share_by_role": {
+    "SYL": 0.718,
+    "LOGO": 0.1037,
+    "DET": 0.0,
+    "NUM": 0.1472,
+    "MEAS": 0.0311
+   },
+   "type_count_by_label": {
+    "SYL": 85,
+    "LOGO": 82,
+    "DET": 0,
+    "NUM": 29,
+    "MEAS": 8
+   },
+   "polyvalent_signs_purity_lt_0.8": 2,
+   "token_share_on_polyvalent_signs": 0.0107,
+   "indus_shape": {
+    "n_draws": 1,
+    "types_per_draw_median_min": [
+     188,
+     188
+    ],
+    "scored_types_per_draw_median_min": [
+     139,
+     139
+    ],
+    "scored_by_label_median_min": {
+     "SYL": [
+      72,
+      72
+     ],
+     "LOGO": [
+      39,
+      39
+     ],
+     "DET": [
+      0,
+      0
+     ],
+     "NUM": [
+      21,
+      21
+     ],
+     "MEAS": [
+      7,
+      7
+     ]
+    },
+    "mean_text_len_median": 3.42,
+    "majority_share_SYL_vs_LOGO_median": 0.649
+   },
+   "eligibility": {
+    "E1_labels_ge_90pct": true,
+    "E2_reading_free_ids": true,
+    "E3_ge_20000_clean_tokens": false,
+    "E4_ge_20_scored_SYL_and_LOGO": true,
+    "E5_licence_ok": true
+   },
+   "eligible": false,
+   "DET_ge_20_scored": false
+  },
+  {
+   "cell": "aegean_linearb_damos_SENS_underdot_kept",
+   "family": "Aegean",
+   "licence": "CC BY-NC-SA 4.0 (DAMOS; local use)",
+   "label_source": "as above; RECORD-ONLY sensitivity: underdotted (damaged but read) signs kept",
+   "clean_lines": 2185,
+   "clean_tokens": 21549,
+   "sign_types": 211,
+   "line_stats": {
+    "lines_seen": 13913,
+    "lines_dropped": 11728,
+    "drop_reasons": {
+     "syl_shape": 67,
+     "damage": 11525,
+     "unknown_token": 136
+    }
+   },
+   "token_share_by_role": {
+    "SYL": 0.7208,
+    "LOGO": 0.1006,
+    "DET": 0.0,
+    "NUM": 0.146,
+    "MEAS": 0.0327
+   },
+   "type_count_by_label": {
+    "SYL": 87,
+    "LOGO": 87,
+    "DET": 0,
+    "NUM": 29,
+    "MEAS": 8
+   },
+   "polyvalent_signs_purity_lt_0.8": 2,
+   "token_share_on_polyvalent_signs": 0.0107,
+   "indus_shape": {
+    "n_draws": 2,
+    "types_per_draw_median_min": [
+     184.0,
+     183
+    ],
+    "scored_types_per_draw_median_min": [
+     139.0,
+     138
+    ],
+    "scored_by_label_median_min": {
+     "SYL": [
+      73.5,
+      73
+     ],
+     "LOGO": [
+      37.5,
+      37
+     ],
+     "DET": [
+      0.0,
+      0
+     ],
+     "NUM": [
+      21.0,
+      20
+     ],
+     "MEAS": [
+      7.0,
+      7
+     ]
+    },
+    "mean_text_len_median": 3.425,
+    "majority_share_SYL_vs_LOGO_median": 0.662
+   },
+   "eligibility": {
+    "E1_labels_ge_90pct": true,
+    "E2_reading_free_ids": true,
+    "E3_ge_20000_clean_tokens": true,
+    "E4_ge_20_scored_SYL_and_LOGO": true,
+    "E5_licence_ok": true
+   },
+   "eligible": false,
+   "DET_ge_20_scored": false,
+   "record_only": true
+  },
+  {
+   "cell": "aegean_lineara_record_only",
+   "family": "Aegean",
+   "licence": "lineara.xyz (code public-domain dedication; transcription licence unverified)",
+   "label_source": "lineara.xyz token kinds (word / logo / num), via SigLA-checked corpus_ra",
+   "clean_lines": 2000,
+   "clean_tokens": 4390,
+   "sign_types": 272,
+   "line_stats": {
+    "lines_seen": 3364,
+    "lines_dropped": 1364
+   },
+   "token_share_by_role": {
+    "SYL": 0.6843,
+    "LOGO": 0.0692,
+    "DET": 0.0,
+    "NUM": 0.2465,
+    "MEAS": 0.0
+   },
+   "type_count_by_label": {
+    "SYL": 140,
+    "LOGO": 90,
+    "DET": 0,
+    "NUM": 42,
+    "MEAS": 0
+   },
+   "polyvalent_signs_purity_lt_0.8": 0,
+   "token_share_on_polyvalent_signs": 0.0,
+   "indus_shape": {
+    "n_draws": 0,
+    "types_per_draw_median_min": [
+     null,
+     null
+    ],
+    "scored_types_per_draw_median_min": [
+     null,
+     null
+    ],
+    "scored_by_label_median_min": {
+     "SYL": [
+      null,
+      null
+     ],
+     "LOGO": [
+      null,
+      null
+     ],
+     "DET": [
+      null,
+      null
+     ],
+     "NUM": [
+      null,
+      null
+     ],
+     "MEAS": [
+      null,
+      null
+     ]
+    },
+    "mean_text_len_median": null,
+    "majority_share_SYL_vs_LOGO_median": null
+   },
+   "eligibility": {
+    "E1_labels_ge_90pct": true,
+    "E2_reading_free_ids": true,
+    "E3_ge_20000_clean_tokens": false,
+    "E4_ge_20_scored_SYL_and_LOGO": false,
+    "E5_licence_ok": false
+   },
+   "eligible": false,
+   "DET_ge_20_scored": false
+  },
+  {
+   "cell": "sino_japanese_wikipedia",
+   "family": "Sinographic",
+   "licence": "CC BY-SA 4.0 (Wikipedia; counts only, text not committed)",
+   "label_source": "Unicode block: kanji = LOGO, kana = SYL, digits = NUM",
+   "clean_lines": 124487,
+   "clean_tokens": 1307487,
+   "sign_types": 4103,
+   "line_stats": {
+    "lines_seen": 124487,
+    "lines_dropped": 0,
+    "drop_reasons": {},
+    "files": 50
+   },
+   "token_share_by_role": {
+    "SYL": 0.4541,
+    "LOGO": 0.4988,
+    "DET": 0.0,
+    "NUM": 0.0471,
+    "MEAS": 0.0
+   },
+   "type_count_by_label": {
+    "SYL": 177,
+    "LOGO": 3796,
+    "DET": 0,
+    "NUM": 130,
+    "MEAS": 0
+   },
+   "polyvalent_signs_purity_lt_0.8": 0,
+   "token_share_on_polyvalent_signs": 0.0,
+   "indus_shape": {
+    "n_draws": 20,
+    "types_per_draw_median_min": [
+     1386.5,
+     1343
+    ],
+    "scored_types_per_draw_median_min": [
+     656.0,
+     624
+    ],
+    "scored_by_label_median_min": {
+     "SYL": [
+      104.0,
+      99
+     ],
+     "LOGO": [
+      520.5,
+      478
+     ],
+     "DET": [
+      0.0,
+      0
+     ],
+     "NUM": [
+      29.0,
+      27
+     ],
+     "MEAS": [
+      0.0,
+      0
+     ]
+    },
+    "mean_text_len_median": 3.435,
+    "majority_share_SYL_vs_LOGO_median": 0.831
+   },
+   "eligibility": {
+    "E1_labels_ge_90pct": true,
+    "E2_reading_free_ids": true,
+    "E3_ge_20000_clean_tokens": true,
+    "E4_ge_20_scored_SYL_and_LOGO": true,
+    "E5_licence_ok": true
+   },
+   "eligible": true,
+   "DET_ge_20_scored": false,
+   "pinned_revisions": [
+    [
+     "日本",
+     111875083
+    ],
+    [
+     "東京都",
+     111787270
+    ],
+    [
+     "京都市",
+     111752415
+    ],
+    [
+     "大阪市",
+     111768645
+    ],
+    [
+     "江戸時代",
+     111850257
+    ],
+    [
+     "明治維新",
+     111883713
+    ],
+    [
+     "平安時代",
+     111756166
+    ],
+    [
+     "鎌倉幕府",
+     111383636
+    ],
+    [
+     "室町時代",
+     111144341
+    ],
+    [
+     "富士山",
+     111832193
+    ],
+    [
+     "日本語",
+     111817920
+    ],
+    [
+     "漢字",
+     111428775
+    ],
+    [
+     "仮名 (文字)",
+     111152074
+    ],
+    [
+     "俳句",
+     111389635
+    ],
+    [
+     "歌舞伎",
+     111902026
+    ],
+    [
+     "茶道",
+     111834606
+    ],
+    [
+     "寿司",
+     111546205
+    ],
+    [
+     "稲作",
+     111434352
+    ],
+    [
+     "縄文時代",
+     111474420
+    ],
+    [
+     "弥生時代",
+     111474213
+    ],
+    [
+     "古墳時代",
+     111452066
+    ],
+    [
+     "奈良時代",
+     111610307
+    ],
+    [
+     "源氏物語",
+     111673174
+    ],
+    [
+     "枕草子",
+     111862960
+    ],
+    [
+     "徳川家康",
+     111802673
+    ],
+    [
+     "織田信長",
+     111596600
+    ],
+    [
+     "豊臣秀吉",
+     111848440
+    ],
+    [
+     "北海道",
+     111638388
+    ],
+    [
+     "沖縄県",
+     111758794
+    ],
+    [
+     "九州",
+     111810521
+    ],
+    [
+     "本州",
+     110606429
+    ],
+    [
+     "四国",
+     111786502
+    ],
+    [
+     "琵琶湖",
+     111697107
+    ],
+    [
+     "地震",
+     111858155
+    ],
+    [
+     "台風",
+     111844197
+    ],
+    [
+     "サクラ",
+     111066300
+    ],
+    [
+     "神道",
+     111901902
+    ],
+    [
+     "日本の仏教",
+     111125911
+    ],
+    [
+     "天皇",
+     111631318
+    ],
+    [
+     "武士",
+     110812732
+    ],
+    [
+     "日本の城",
+     109862018
+    ],
+    [
+     "日本刀",
+     111862178
+    ],
+    [
+     "浮世絵",
+     111848844
+    ],
+    [
+     "葛飾北斎",
+     111807796
+    ],
+    [
+     "松尾芭蕉",
+     111834802
+    ],
+    [
+     "夏目漱石",
+     111876543
+    ],
+    [
+     "将棋",
+     111861018
+    ],
+    [
+     "囲碁",
+     111007015
+    ],
+    [
+     "相撲",
+     111253480
+    ],
+    [
+     "柔道",
+     111898604
+    ]
+   ]
+  }
+ ],
+ "gate": {
+  "eligible_families": {
+   "Sinographic": [
+    "sino_japanese_wikipedia"
+   ],
+   "cuneiform": [
+    "cun_saao_neoassyrian"
+   ]
+  },
+  "n_eligible_families": 2,
+  "F1_ge_3_families": false,
+  "F2_ge_4_families": false,
+  "F3_DET_families": [],
+  "F3_DET_gated": false,
+  "held_out_unit": "family"
+ }
+}

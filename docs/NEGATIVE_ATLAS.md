@@ -1129,6 +1129,14 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 
 ---
 
+### 10b.21 Per-sign type classifier (plan 12 family 3; closed at the count gate)
+- **Question.** Can sign type (syllabogram or logogram) be learned from distribution alone on read scripts, and carried over to an unseen script family?
+- **Result.** Not run. The minimum was hashed before counting and required 3 labelled families. Only 2 qualified: Neo-Assyrian (Oracc) and Japanese (Wikipedia). Linear B has 17,413 clean tokens against the minimum of 20,000.
+- **Power.** Not reached.
+- **Verdict.** Closed at the gate. This is the second family to stop at the same wall (see 10b.20): open data has 3 or fewer labelled families at Indus shape. Precedent: `meaning_classes` transferred 0 of 3.
+- **Record.** `experiments/sign_type_classifier/CLOSURE.md`, `MINIMUM.txt` and `count_gate.json`. The draft prereg stays unpublished.
+- **Reopen with.** A third open labelled family at Indus shape, for example a larger clean Linear B release.
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1270,6 +1278,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.18 | Closing slot; counted human figures | Untestable (lead) / not supported | 77/100 and 79/100 gates | New texts; fuller sign bridge |
 | 10b.19 | Carver groups share text | Not confirmed (possible weak effect) | 0.83 at 40% | Blind regrouping; text-length strata |
 | 10b.20 | Disguised-script method tournament | Closed at the gate (3 families only; numerals and damage) | about 27% at +0.10 | A fourth open family; a blind bench front end |
+| 10b.21 | Per-sign type classifier | Closed at the gate (2 labelled families, need 3) | not reached | A third open labelled family |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 
