@@ -1157,6 +1157,14 @@ Data note. Cycle 9 added public-domain 1930s excavation registers from archive.o
 - **Prereg.** `layout_word_division.md`. The record is `experiments/layout_word_division/RESULTS.md`.
 - **Reopen with.** Expert boxes drawn blind to the readings, for a read script and for Indus, or a measurer validated at ICC ≥ 0.70.
 
+### 10b.24 Which part of the seal reached the clay (sealing_crop; Fable re-plan rank 2; closed at the count gate)
+- **Question.** On Indus sealings, is the visible share of the text band larger than the visible share of the animal field? The kill test was D ≥ 0.15 with two blind raters, after a calibration against truth on masked intact seals.
+- **Result.** Not run. The minimum was hashed before counting (sha256 ffa2b739…). It needed 107 candidates allowing for a 25% skip cap, 34 of them outside Lothal, from at least 3 sites. Only 63 sealing impressions qualified (31 outside Lothal). Dholavira has no CISI numbers, and most Harappa sealings are in CISI vol. 3, which is not on disk.
+- **Prior art.** Frenez 2018 already says in words that the inscription usually survives while the animal often does not. The chapter is (unverified); the quote was checked in Mukhopadhyay 2023, doi:10.1057/s41599-023-02320-7. Frenez & Tosi 2005 read the animal as the identifier, so the bearing on A7 is contested. A pass would have counted something already observed.
+- **Verdict.** Closed at the gate. Even with enough data, the G2 lesson from 10b.23 (Opus skips about half the photos) would probably have ended it at the skip cap.
+- **Record.** `experiments/sealing_crop/` (MINIMUM.txt, count_gate.md, count_gate.py, count_gate.json).
+- **Reopen with.** CISI vol. 3 photos, or Dholavira sealing photos, plus a measurer that passes calibration on masked seals.
+
 ## 11. Red-team reversals
 
 These claims looked positive and failed. They show where the traps are.
@@ -1301,6 +1309,7 @@ Survived the red team: the Gulf result (n restated to 12) and ticked fish (stren
 | 10b.21 | Per-sign type classifier | Closed at the gate (2 labelled families, need 3) | not reached | A third open labelled family |
 | 10b.22 | Generative model of sealing content | Closed at the gate (4 corpora / 3 families, need 8 / 4) | not reached | Open Hittite or Sasanian bulla corpora |
 | 10b.23 | Gaps mark word boundaries (cuneiform, blind agent boxes) | INCONCLUSIVE: G2 failed twice (no blind measurer) | scorer AUC 0.71 at δ 0.06 | Blind expert boxes |
+| 10b.24 | Text band vs animal visible on sealings | Closed at the gate (63 eligible, need 107) | not reached | CISI vol. 3 or Dholavira photos; a calibrated measurer |
 
 **Interim log (entered during cycles 7-10, now folded into 10b.4, 10b.7 and section 11):**
 

@@ -762,3 +762,7 @@ Closed/negative: published phonetic keys = chance; no Ventris grid; statistics c
   - **The gap route to Indus word division is closed** until expert boxes drawn blind to the readings exist. Atlas 10b.23.
   - **Rater finding:** Opus skips about half the faces. Fable boxes nearly all of them but inaccurately, and its skips rose from 7 to 63 under F2.
   - **All four plan-12 families are now closed.** A Fable re-plan for studies needing no transfer across families is running.
+- 2026-11-25 **Fable re-plan (brief 13): copper_format and sealing_crop.**
+  - **copper_format stopped at prior art: already established.** Mackay 1938 (p. 368) describes the narrow, inscription-only format. Parpola 2008 publishes the size classes and the 7 obverse-linked picture/sign pairs. The peek is recorded in `experiments/copper_format/PEEK.md`. Whether to close it or keep it as an audit awaits the coordinator.
+  - **sealing_crop closed at the count gate:** 63 eligible against 107 needed (atlas 10b.24).
+  - **The re-plan's verdict:** open data cannot move the 2027 odds. The only lever is a new excavated archive with Indus stamps beside named sealers.

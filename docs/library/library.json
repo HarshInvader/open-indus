@@ -3188,6 +3188,33 @@
    "venue": "Government of India, Delhi (2 vols)",
    "verified": true,
    "year": 1938
+  },
+  {
+   "added": "2026-11-25",
+   "authors": "Dahl JL",
+   "date": "2024",
+   "doi": "10.33182/aijls.v3i2.2851",
+   "id": "dahl-2024-ur3-seals",
+   "ideas_for_us": "A Mesopotamian parallel for which part of a seal mattered. Ur III scribes rolled seals to make the inscription legible, not the scene. Indus sealings could be compared the same way, but only with photographs of enough sealings.",
+   "in_news": null,
+   "key_results": "Ur III seals \"were rolled with emphasis on the inscription… much less emphasis on producing a clear impression of the scene\".",
+   "kind": "Paper",
+   "limits": "A qualitative statement, not a count of what reached the clay.",
+   "method_data": "Ur III cylinder seal impressions on administrative tablets.",
+   "question": "How were seals used in Ur III administration, and which part of the seal mattered?",
+   "read_depth": "section",
+   "relevance": "context",
+   "source": "sealing_crop prior-art check 2026-11-25 (study closed at the count gate)",
+   "title": "Ur III seal practice (AVAR 3(2))",
+   "topic": "administration",
+   "touches": [
+    "sealing_crop"
+   ],
+   "tried": "A close reading of how impressions sit on Ur III tablets.",
+   "url": "https://doi.org/10.33182/aijls.v3i2.2851",
+   "venue": "AVAR 3(2)",
+   "verified": true,
+   "year": 2024
   }
  ]
 }

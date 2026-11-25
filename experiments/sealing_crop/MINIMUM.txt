@@ -1,0 +1,63 @@
+sealing_crop count gate: minimum, written BEFORE any count (2026-11-25T19:13:16Z UTC).
+Study: on Indus sealings, is the visible share of the text band greater than the visible share of the animal field?
+
+Seen before writing this (disclosed):
+  - docs/fable_brief13.md section 2: ICIT TAG has 262 rows on 213 objects; rows with a CISI number are
+    Lothal 89, Kalibangan 28, Mohenjo-daro 22, Harappa 18; an animal is recorded on 124 of 153 rows with the
+    field filled.
+  - The total number of OCR'd CISI labels in experiments/scene_text/work/faces.json by site prefix (all object
+    types pooled, not split by sealing or seal, not crossed with anything).
+  - Prior art (this session): Frenez 2018 p.172, quoted in Mukhopadhyay 2023, says that on most sealings the
+    inscription is well visible while the animal is often not impressed, partly impressed or obliterated.
+  No photo was opened. No share was coded or measured.
+
+UNITS
+  Impression = one ICIT face row of an object whose ICIT type starts with TAG (sealing or tag), with ICIT id
+  "<object>.<face>". Object = ICIT object number. All inference clusters by object.
+
+ELIGIBLE IMPRESSION (all of a-d)
+  a. Photo: the object's CISI number has at least one located photo box (box not null) in
+     experiments/scene_text/work/faces.json (CISI vols 1-2, local only). Another local photo counts only if a
+     repo metadata file lists it with the CISI number or ICIT id. Vol 3 objects without a local photo are out.
+  b. Design type determinable from metadata: the ICIT symbol field of the row is a named animal or icon code
+     (anything other than None, "-", "?", blank or a geometric-only code). The row is then of the standard
+     animal-plus-text format.
+  c. Text band and animal field both expected on the original seal: b holds AND the row has at least one
+     transcribed sign (seq contains a W-number) OR is marked as having a text. Rows coded as script-only or
+     icon-only seal types are out.
+  d. The site is recorded.
+  Known bias, declared now: b conditions on an animal having been recorded, so impressions that show text
+  only (animal share 0) are under-represented. That biases D downward. As a second count, record-only, the
+  gate also reports the inclusive set (a, c-text and d with any symbol value, including None). The prereg
+  must say which set is primary. This file does not choose that.
+
+MINIMUM (after rating; "codable" = both raters return both shares)
+  M1  >= 80 codable impressions
+  M2  >= 25 codable impressions from outside Lothal
+  M3  >= 3 sites, each with >= 5 codable impressions
+  Allowance for skips, applied at the count gate: the candidate count must clear the minimum divided by
+  (1 - maximum skip share), that is (rounded up):
+  C1  >= 107 eligible candidate impressions
+  C2  >= 34 eligible candidates from outside Lothal
+  C3  >= 3 sites, each with >= 7 eligible candidates
+
+CALIBRATION REQUIREMENT
+  K1  >= 30 intact seals with a local photo: ICIT type starting with SEAL, complete = true, symbol a named
+      animal code (as in b), >= 1 transcribed sign, and a located CISI photo box (as in a). Known masks
+      (windows of set position and size) are planted onto these photos. Raters code them blind and are
+      scored against the true visible shares. K1 is counted on objects, from >= 2 sites.
+  K2  The calibration seals must not include the die of any sealing in the eligible set (die survival is
+      about 0 per atlas 10b.8; any known pair is dropped).
+  The accuracy bar for calibration belongs in the prereg. This file only requires that the material exists.
+
+SKIP RULE
+  A skip = for an item (planted or real), a rater returns no value for either share, returns "uncodable",
+  "cannot tell" or an equivalent, or returns a value off the scale. A partial answer (one share only) is a skip.
+  Maximum skip share = 0.25, per rater, computed separately on the calibration set and on the real set.
+  If either rater skips more than 25% of the calibration set, the study closes as UNTESTABLE before any real
+  impression is rated. If either rater skips more than 25% of the real set, the study closes as UNTESTABLE
+  and no D is reported as a test. Skips are never re-asked, re-prompted or replaced by a third rater.
+  An impression that one rater skips is not codable (it drops out of M1-M3).
+
+VERDICT
+  PASS only if C1, C2, C3 and K1 all hold. Otherwise FAIL, and the study closes at the gate.

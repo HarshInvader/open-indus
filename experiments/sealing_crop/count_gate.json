@@ -1,0 +1,110 @@
+{
+ "n_tag_rows": 262,
+ "n_tag_objects": 213,
+ "tag_rows_with_cisi_by_site": {
+  "Lothal": 89,
+  "Kalibangan": 28,
+  "Mohenjo-daro": 22,
+  "Harappa": 18,
+  "Rakhigarhi": 2,
+  "Nausharo": 2,
+  "Banawali": 1,
+  "Chanhu-daro": 1,
+  "Desalpur": 1,
+  "Hulas": 1
+ },
+ "tag_rows_with_photo_by_site": {
+  "Lothal": 75,
+  "Kalibangan": 26,
+  "Mohenjo-daro": 18,
+  "Harappa": 3,
+  "Banawali": 1
+ },
+ "tag_objects_with_photo": 90,
+ "eligible_primary": {
+  "rows": 63,
+  "objects": 52,
+  "by_site": {
+   "Lothal": 32,
+   "Kalibangan": 18,
+   "Mohenjo-daro": 12,
+   "Banawali": 1
+  },
+  "objects_by_site": {
+   "Lothal": 28,
+   "Kalibangan": 13,
+   "Mohenjo-daro": 10,
+   "Banawali": 1
+  },
+  "non_lothal_rows": 31,
+  "sites_with_ge_7": [
+   "Kalibangan",
+   "Lothal",
+   "Mohenjo-daro"
+  ]
+ },
+ "eligible_primary_symbol_values": {
+  "Bull1": 42,
+  "Elep": 11,
+  "Bull": 5,
+  "Mult": 2,
+  "Scene": 1,
+  "CompBull": 1,
+  "Zebu": 1
+ },
+ "inclusive_record_only": {
+  "rows": 114,
+  "objects": 90,
+  "by_site": {
+   "Lothal": 72,
+   "Kalibangan": 21,
+   "Mohenjo-daro": 17,
+   "Harappa": 3,
+   "Banawali": 1
+  },
+  "objects_by_site": {
+   "Lothal": 57,
+   "Kalibangan": 16,
+   "Mohenjo-daro": 13,
+   "Harappa": 3,
+   "Banawali": 1
+  },
+  "non_lothal_rows": 42,
+  "sites_with_ge_7": [
+   "Kalibangan",
+   "Lothal",
+   "Mohenjo-daro"
+  ]
+ },
+ "calibration_all_seal_types": {
+  "objects": 752,
+  "by_site": {
+   "Mohenjo-daro": 527,
+   "Harappa": 151,
+   "Kalibangan": 27,
+   "Lothal": 23,
+   "Chanhu-daro": 11,
+   "Banawali": 9,
+   "Nausharo": 4
+  }
+ },
+ "calibration_square_only": {
+  "objects": 744,
+  "by_site": {
+   "Mohenjo-daro": 524,
+   "Harappa": 147,
+   "Kalibangan": 27,
+   "Lothal": 23,
+   "Chanhu-daro": 10,
+   "Banawali": 9,
+   "Nausharo": 4
+  }
+ },
+ "checks": {
+  "C1 eligible >= 107": false,
+  "C2 non-Lothal >= 34": false,
+  "C3 >= 3 sites with >= 7": true,
+  "K1 calibration seals >= 30 from >= 2 sites": true
+ },
+ "verdict": "FAIL"
+}

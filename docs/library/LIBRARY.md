@@ -2,7 +2,7 @@
 
 Generated from `library.json` (updated 2026-11-25) by `make_index.py`. Do not edit by hand.
 
-- **116 papers**: 28 core, 43 useful, 43 context.
+- **117 papers**: 28 core, 43 useful, 44 context.
 - Read in full: 63. Abstract only: 52.
 - Not verified (DOI or page not opened, or content from a search summary): 9.
 - Bears on the mismatch study: `korovina-2026-rongorongo-syllabic`, `raghavendra-2026-sigil`, `rozanova-2026-voynich-units`, `zhang-sheng-2026-voynich`, `tamburini-2025-csa-optmatcher`, `kambhatla-2023-regression`, `desset-2022-linear-elamite`, `luo-2021-undersegmented`, `luo-2019-neurocipher`, `shinde-2019-rakhigarhi`, `kolipakam-2018-dravidian-phylogeny`, `bk-2013-million-restarts`, `dou-knight-2013-dependency`, `snyder-2010-ugaritic`, `snyder-thesis-decipherment`, `ravi-knight-2008-optimal`, `knight-2006-unsupervised`, `knight-yamada-1999-unknown`, `parpola-1994-deciphering`, `shannon-1949-secrecy`, `davis-2026-undeciphered-aegean-scripts`, `zhou-anderson-2026-cuneiform-transfer`, `otten-2025-meroitic`, `sequeira-2025-koraga-proto-dravidian`, `braovic-2024-aegean-review`, `lee-2024-decipherment-aware-multilingual`, `megyesi-2023-historical-lms`, `aldarrab-may-2021-seq2seq`, `pourdamghani-knight-2017-related`, `hauer-kondrak-2016-anagrams`, `valentine-2015-harappa-farmana-isotopes`, `nuhn-ney-2013-complexity`, `dou-knight-2012-large-scale`, `bk-2011-combinatorial`, `ravi-knight-2011-foreign`, `desai-2026-nilgiri-genomes`, `disanto-2025-predictability-search`, `manoj-2025-minoan-machines`, `narayan-2025-genetics-dravidian`, `shen-2025-alice`, `lin-2024-unicity`, `nepal-2024-minoan-cryptanalysis`, `tamburini-2023-csa`, `kambhatla-2018-neural-lm`.
@@ -106,7 +106,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [Deep Learning in Archiving Indus Script and Motif Information](https://doi.org/10.5334/jcaa.175), Dixit and colleagues | 2025 | full | context | signlist_robustness | Reading signs straight from photos could settle the 1-in-8 disagreements between the two main transcriptions. We need open images first. Use a sign classifier's confusion matrix as an independent measure of which signs l |
 | [SigLA: the signs of Linear A (database paper)](https://sigla.phis.me/paper.pdf), Salgarella and Castellan | 2021 | full | context |  | Same logic as our functional reading; no new test. |
 
-## Seals, weights and administration (8)
+## Seals, weights and administration (9)
 
 | Paper | Year | Read | Relevance | Touches | Idea for us |
 |---|---|---|---|---|---|
@@ -118,6 +118,7 @@ Each entry in `library.json` has the full analysis: question, what they tried, m
 | [The Indus script and economics: a role for Indus seals and tablets in rationing and administration of labor](https://arxiv.org/abs/1812.00049), Rao | 2018 | full | useful | administration, slot_function | Test whether human-figure signs follow numerals more than matched signs (survey idea 2). |
 | [Read(?) the Signs: By Solving a Math-Puzzle or by Wearing Harappan Shoes?](https://doi.org/10.1080/02666030.2026.2742008), Gokhale P | 2026 | abstract | context | administration | A useful critic's checklist: report context (findspot, object type, stratigraphy) alongside any sign-level claim, and state what result would count against our hypothesis. |
 | [The Proportioned City: Ratio, Symbol, and Statecraft in the Metrological Foundations of the Indus Civilization](https://doi.org/10.36948/ijfmr.2026.v08i05.89801), Munshi Y | 2026 | full | context | weights | Little to use. If we want a brick-ratio covariate, measure it from primary excavation reports instead (e.g. brick sizes by phase at Harappa or Mohenjo-daro). |
+| [Ur III seal practice (AVAR 3(2))](https://doi.org/10.33182/aijls.v3i2.2851), Dahl JL | 2024 | section | context | sealing_crop | A Mesopotamian parallel for which part of a seal mattered. Ur III scribes rolled seals to make the inscription legible, not the scene. Indus sealings could be compared the same way, but only with photographs of enough se |
 
 ## Excavations and new finds (9)
 
