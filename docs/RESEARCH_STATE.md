@@ -804,3 +804,16 @@ Further open-data work mostly sharpens the reasons for failure. It cannot move t
   - **P516366:** the tablet was repatriated to the Iraq Museum. The SBAH request of 2026-11-24 bounced, and the SBAH official page lists only that address. No verifiable address was found for the CUSAS 40 authors (Sigrist and Ozaki). Stopped per the email rule, with the bounce logged.
   - **P415075** stays a human lead for the owner.
 - 2026-11-25 **Started:** lever 2 desk scoping (`experiments/anchor_sources_scope/`) and the local_hands audit (prior art, minimum, gate).
+- 2026-11-25 **Lever 2 desk scoping done** (`experiments/anchor_sources_scope/SCOPE.md`). **No already-open source gives more than 15 anchor pairs. Among the sources opened, the count is 0.**
+  - **YBC 5447 is not an anchor as published.** Hallo and Buchanan 1965 (AS 16: 199–209, the free ISAC PDF, quotes checked) put it in Type III, the "Tilmun group". On this type the Indus signs, "if present, seem no longer used as such". The sealer is only inferred ("likely to be those of the debtor").
+    - This qualifies the `unread_sealer_shortlist` control. YBC 5447 is the one known Gulf stamp on a dated tablet, not a known anchor.
+  - **Why the material falls short:** Gulf seals with Indus script survive loose, or as sealings with no text. The Gulf stamps on cuneiform tablets are later Dilmun types, which had largely dropped the script.
+  - **The ceiling is a handful of pairs**, even if every request is granted. Getting past 15 needs an unpublished archive.
+  - **Owner ask list:**
+    1. Laursen (Moesgaard): Gulf impressions on tablets.
+    2. Yale: raking-light photos of the YBC 5447 edge.
+    3. Parpola: CISI 3.1, West Asian impressions.
+    4. Iraq Museum and the Messina editors.
+    5. Louvre: Sb 11221, study only.
+    6. A library or purchase for Laursen 2010 and 2018 and Lambert 1976.
+    Most were already contacted; nobody new was contacted.

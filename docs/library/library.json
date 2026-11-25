@@ -3215,6 +3215,35 @@
    "venue": "AVAR 3(2)",
    "verified": true,
    "year": 2024
+  },
+  {
+   "added": "2026-11-25",
+   "authors": "Hallo WW; Buchanan B",
+   "date": "1965",
+   "doi": null,
+   "id": "hallo-buchanan-1965-ybc5447",
+   "ideas_for_us": "The one known Gulf stamp on a dated cuneiform tablet is not an Indus anchor as published: it has no stated Indus signs, and the sealer is only inferred. Any anchor route needs new photographs or an unpublished archive.",
+   "in_news": null,
+   "key_results": "Buchanan classes the YBC 5447 impression as Type III (\"Tilmun group\") and says that on this type the signs of the Indus script, \"if present, seem no longer used as such\". Hallo says the impressions \"are likely to be those of the debtor\" (pp. 199–209).",
+   "kind": "Paper",
+   "limits": "The sealer is inferred, not named on the seal. The reading comes from drawings and photographs of one tablet.",
+   "method_data": "Edition of YBC 5447 (Gungunum year 10, probably Ur), with drawings of the stamp impression and a list of Gulf seal types by find-spot.",
+   "question": "What is the stamp-seal impression on the Old Babylonian loan tablet YBC 5447, and who sealed it?",
+   "read_depth": "section",
+   "relevance": "core",
+   "source": "lever 2 desk scoping 2026-11-25 (anchor_sources_scope)",
+   "title": "A Persian Gulf seal on an Old Babylonian mercantile agreement (AS 16)",
+   "topic": "anchors",
+   "touches": [
+    "anchor_crossread",
+    "unread_sealer_shortlist",
+    "anchor_sources_scope"
+   ],
+   "tried": "Close reading of one sealed tablet and comparison with Gulf seals from Ur, Bahrain, Failaka and Lothal.",
+   "url": "https://isac.uchicago.edu/publications/studies-honor-benno-landsberger-his-birthday",
+   "venue": "Assyriological Studies 16 (Studies in Honor of Benno Landsberger)",
+   "verified": true,
+   "year": 1965
   }
  ]
 }

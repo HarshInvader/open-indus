@@ -2,7 +2,7 @@
 
 Generated from `library.json` (updated 2026-11-25) by `make_index.py`. Do not edit by hand.
 
-- **117 papers**: 28 core, 43 useful, 44 context.
+- **118 papers**: 29 core, 43 useful, 44 context.
 - Read in full: 63. Abstract only: 52.
 - Not verified (DOI or page not opened, or content from a search summary): 9.
 - Bears on the mismatch study: `korovina-2026-rongorongo-syllabic`, `raghavendra-2026-sigil`, `rozanova-2026-voynich-units`, `zhang-sheng-2026-voynich`, `tamburini-2025-csa-optmatcher`, `kambhatla-2023-regression`, `desset-2022-linear-elamite`, `luo-2021-undersegmented`, `luo-2019-neurocipher`, `shinde-2019-rakhigarhi`, `kolipakam-2018-dravidian-phylogeny`, `bk-2013-million-restarts`, `dou-knight-2013-dependency`, `snyder-2010-ugaritic`, `snyder-thesis-decipherment`, `ravi-knight-2008-optimal`, `knight-2006-unsupervised`, `knight-yamada-1999-unknown`, `parpola-1994-deciphering`, `shannon-1949-secrecy`, `davis-2026-undeciphered-aegean-scripts`, `zhou-anderson-2026-cuneiform-transfer`, `otten-2025-meroitic`, `sequeira-2025-koraga-proto-dravidian`, `braovic-2024-aegean-review`, `lee-2024-decipherment-aware-multilingual`, `megyesi-2023-historical-lms`, `aldarrab-may-2021-seq2seq`, `pourdamghani-knight-2017-related`, `hauer-kondrak-2016-anagrams`, `valentine-2015-harappa-farmana-isotopes`, `nuhn-ney-2013-complexity`, `dou-knight-2012-large-scale`, `bk-2011-combinatorial`, `ravi-knight-2011-foreign`, `desai-2026-nilgiri-genomes`, `disanto-2025-predictability-search`, `manoj-2025-minoan-machines`, `narayan-2025-genetics-dravidian`, `shen-2025-alice`, `lin-2024-unicity`, `nepal-2024-minoan-cryptanalysis`, `tamburini-2023-csa`, `kambhatla-2018-neural-lm`.
