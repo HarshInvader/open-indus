@@ -1,0 +1,385 @@
+{
+ "replica_sealed_config_100k": {
+  "obs": 1.1925,
+  "null": 0.9077,
+  "ratio": 1.314,
+  "p": 0.01054,
+  "pairs": 289,
+  "hands": 44
+ },
+ "replica_10k_block0": {
+  "obs": 1.1925,
+  "null": 0.908,
+  "ratio": 1.313,
+  "p": 0.0103,
+  "pairs": 289,
+  "hands": 44
+ },
+ "replica_10k_block1": {
+  "obs": 1.1925,
+  "null": 0.9067,
+  "ratio": 1.315,
+  "p": 0.0105,
+  "pairs": 289,
+  "hands": 44
+ },
+ "replica_10k_block2": {
+  "obs": 1.1925,
+  "null": 0.9084,
+  "ratio": 1.313,
+  "p": 0.008,
+  "pairs": 289,
+  "hands": 44
+ },
+ "replica_10k_block3": {
+  "obs": 1.1925,
+  "null": 0.9077,
+  "ratio": 1.314,
+  "p": 0.0116,
+  "pairs": 289,
+  "hands": 44
+ },
+ "replica_10k_block4": {
+  "obs": 1.1925,
+  "null": 0.9074,
+  "ratio": 1.314,
+  "p": 0.0115,
+  "pairs": 289,
+  "hands": 44
+ },
+ "LOHO": {
+  "p_min": 0.00482,
+  "p_max": 0.0263,
+  "p_median": 0.010525,
+  "n_p_le_01": 11,
+  "n_p_gt_05": 0,
+  "worst3": [
+   {
+    "p": 0.02317,
+    "hand_pairs": 10,
+    "ratio": 1.275
+   },
+   {
+    "p": 0.02592,
+    "hand_pairs": 36,
+    "ratio": 1.276
+   },
+   {
+    "p": 0.0263,
+    "hand_pairs": 15,
+    "ratio": 1.268
+   }
+  ],
+  "best3": [
+   {
+    "p": 0.00482,
+    "hand_pairs": 15,
+    "ratio": 1.372
+   },
+   {
+    "p": 0.00766,
+    "hand_pairs": 6,
+    "ratio": 1.338
+   },
+   {
+    "p": 0.00834,
+    "hand_pairs": 3,
+    "ratio": 1.331
+   }
+  ]
+ },
+ "drop_1_largest_hands": {
+  "obs": 1.2745,
+  "null": 0.9485,
+  "ratio": 1.344,
+  "p": 0.0106,
+  "pairs": 223,
+  "hands": 43
+ },
+ "drop_2_largest_hands": {
+  "obs": 1.3343,
+  "null": 0.9811,
+  "ratio": 1.36,
+  "p": 0.01255,
+  "pairs": 168,
+  "hands": 42
+ },
+ "drop_3_largest_hands": {
+  "obs": 1.326,
+  "null": 1.0158,
+  "ratio": 1.305,
+  "p": 0.03328,
+  "pairs": 132,
+  "hands": 41
+ },
+ "only_3_largest_hands": {
+  "obs": 1.0803,
+  "null": 0.8166,
+  "ratio": 1.323,
+  "p": 0.06864,
+  "pairs": 157,
+  "hands": 3
+ },
+ "hand_equal_weight": {
+  "obs": 1.359,
+  "null": 0.9389,
+  "p": 0.01409
+ },
+ "excess_concentration": {
+  "total_excess": 82.38,
+  "top1_share": 0.223,
+  "top3_share": 0.574,
+  "hands_positive": 22,
+  "hands": 44
+ },
+ "single_site_hands_only": {
+  "obs": 1.274,
+  "null": 0.9064,
+  "ratio": 1.406,
+  "p": 0.00642,
+  "pairs": 211,
+  "hands": 32
+ },
+ "multi_site_hands_only": {
+  "obs": 0.972,
+  "null": 0.9109,
+  "ratio": 1.067,
+  "p": 0.36628,
+  "pairs": 78,
+  "hands": 12
+ },
+ "desc_text_len": {
+  "grouped": 5.64,
+  "ungrouped": 4.92,
+  "complete_grouped": 0.878,
+  "complete_ungrouped": 0.812,
+  "ntypes_grouped": 5.56,
+  "ntypes_ungrouped": 4.8
+ },
+ "perm_among_hand_seals_only": {
+  "obs": 1.1925,
+  "null": 0.9868,
+  "ratio": 1.208,
+  "p": 0.02635,
+  "pairs": 289,
+  "hands": 44
+ },
+ "perm_among_any_grouped_seals": {
+  "obs": 1.1925,
+  "null": 0.9766,
+  "ratio": 1.221,
+  "p": 0.02275,
+  "pairs": 289,
+  "hands": 44
+ },
+ "perm_among_hand_seals_site_only_strata": {
+  "obs": 1.1925,
+  "null": 0.9614,
+  "ratio": 1.24,
+  "p": 0.01715,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_plus_textlen_bin": {
+  "obs": 1.1925,
+  "null": 1.0365,
+  "ratio": 1.151,
+  "p": 0.0513,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_site_x_textlen_only": {
+  "obs": 1.1925,
+  "null": 0.9789,
+  "ratio": 1.218,
+  "p": 0.014,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_plus_complete": {
+  "obs": 1.1925,
+  "null": 0.9572,
+  "ratio": 1.246,
+  "p": 0.0297,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_plus_period": {
+  "obs": 1.1925,
+  "null": 0.9132,
+  "ratio": 1.306,
+  "p": 0.00945,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_plus_phase": {
+  "obs": 1.1925,
+  "null": 0.9011,
+  "ratio": 1.323,
+  "p": 0.00735,
+  "pairs": 289,
+  "hands": 44
+ },
+ "desc_period": {
+  "pool_with_period": 128,
+  "pool_with_phase": 243,
+  "within_pairs_both_phase_known": 102,
+  "of_those_same_phase": 18
+ },
+ "strata_site_x_size_5bins": {
+  "obs": 1.1925,
+  "null": 0.9256,
+  "ratio": 1.288,
+  "p": 0.0172,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_site_x_size_8bins": {
+  "obs": 1.1925,
+  "null": 0.9342,
+  "ratio": 1.276,
+  "p": 0.0165,
+  "pairs": 289,
+  "hands": 44
+ },
+ "strata_site_only": {
+  "obs": 1.1925,
+  "null": 0.8451,
+  "ratio": 1.411,
+  "p": 0.0038,
+  "pairs": 289,
+  "hands": 44
+ },
+ "no_strata": {
+  "obs": 1.1925,
+  "null": 0.8406,
+  "ratio": 1.419,
+  "p": 0.00285,
+  "pairs": 289,
+  "hands": 44
+ },
+ "desc_cisi_adjacent": {
+  "within_pairs": 289,
+  "adjacent_le10": 69,
+  "mean_score_adjacent": 1.456,
+  "mean_score_nonadjacent": 1.11
+ },
+ "mask_cisi_adjacent_le10": {
+  "obs": 1.1097,
+  "null": 0.8923,
+  "ratio": 1.244,
+  "p": 0.03845,
+  "pairs": 220,
+  "hands": 44
+ },
+ "mask_cisi_adjacent_le50": {
+  "obs": 1.1182,
+  "null": 0.8734,
+  "ratio": 1.28,
+  "p": 0.0314,
+  "pairs": 167,
+  "hands": 44
+ },
+ "strata_site_x_cisi_hundred": {
+  "obs": 1.1925,
+  "null": 0.8542,
+  "ratio": 1.396,
+  "p": 0.00255,
+  "pairs": 289,
+  "hands": 44
+ },
+ "desc_pool_adjacency": {
+  "mean_score_adjacent_nonhand": 1.022,
+  "mean_score_same_site_nonhand": 0.862
+ },
+ "desc_df": {
+  "n_types": 331,
+  "top5_df": [
+   214,
+   161,
+   61,
+   55,
+   54
+  ],
+  "N": 450
+ },
+ "drop_top3_signs": {
+  "obs": 0.771,
+  "null": 0.5446,
+  "ratio": 1.416,
+  "p": 0.01065,
+  "pairs": 289,
+  "hands": 44
+ },
+ "drop_top5_signs": {
+  "obs": 0.676,
+  "null": 0.4863,
+  "ratio": 1.39,
+  "p": 0.01885,
+  "pairs": 289,
+  "hands": 44
+ },
+ "drop_top10_signs": {
+  "obs": 0.5535,
+  "null": 0.3492,
+  "ratio": 1.585,
+  "p": 0.0063,
+  "pairs": 289,
+  "hands": 44
+ },
+ "drop_top20_signs": {
+  "obs": 0.4181,
+  "null": 0.1973,
+  "ratio": 2.119,
+  "p": 0.00015,
+  "pairs": 289,
+  "hands": 44
+ },
+ "unweighted_shared_count": {
+  "obs": 0.7301,
+  "null": 0.6048,
+  "ratio": 1.207,
+  "p": 0.05905,
+  "pairs": 289,
+  "hands": 44
+ },
+ "only_signs_df_le10": {
+  "obs": 0.1183,
+  "null": 0.042,
+  "ratio": 2.817,
+  "p": 0.0099,
+  "pairs": 289,
+  "hands": 44
+ },
+ "only_signs_df_le25": {
+  "obs": 0.3598,
+  "null": 0.1701,
+  "ratio": 2.116,
+  "p": 0.0008,
+  "pairs": 289,
+  "hands": 44
+ },
+ "obs_score_share_from_top_signs": {
+  "top3": 0.353,
+  "top5": 0.433,
+  "top10": 0.536
+ },
+ "fix_M734_label": {
+  "obs": 1.1843,
+  "null": 0.9092,
+  "ratio": 1.303,
+  "p": 0.0124,
+  "pairs": 291,
+  "hands": 44
+ },
+ "fix_M734_plus_KLB_join": {
+  "obs": 1.2017,
+  "null": 0.9106,
+  "ratio": 1.32,
+  "p": 0.0076,
+  "pairs": 301,
+  "hands": 49,
+  "pool": 472,
+  "grouped": 160
+ }
+}

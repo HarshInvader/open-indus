@@ -116,3 +116,14 @@ experiments/ensemble_rehearsal/packets/
 !experiments/crossread_coins/raw/bigr/
 !experiments/crossread_coins/raw/bigr/query.csv
 !experiments/crossread_coins/raw/bigr/README.md
+
+# --- Regenerable or local-only outputs (2026-11-26) -------------------------
+/experiments/guess_rehearsal/packets/
+/experiments/meaning_calibration/claims_input/A_inventory.txt
+/experiments/meaning_calibration/claims_input/B_inventory.json
+/experiments/stamp_detector/out/lists/
+/experiments/search_scaling/out/log.txt
+/experiments/*.raw.txt
+# Unsealed draft preregs closed at their gates; kept unpublished (atlas 10b.20, 10b.21)
+/docs/prereg/disguised_tournament.md
+/docs/prereg/sign_type_classifier.md

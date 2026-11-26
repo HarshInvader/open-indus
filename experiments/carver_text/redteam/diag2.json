@@ -1,0 +1,82 @@
+{
+ "rare_desc": {
+  "pairs_sharing_a_rare_sign": 30,
+  "of": 289,
+  "hands_with_such_pair": 12,
+  "top5_pairs_share": 0.209
+ },
+ "rare_df25_sealed_strata": {
+  "obs": 0.3598,
+  "null": 0.169,
+  "ratio": 2.129,
+  "p": 0.00085,
+  "pairs": 289,
+  "hands": 44
+ },
+ "rare_df25_LOHO": {
+  "p_min": 0.00035,
+  "p_max": 0.0215
+ },
+ "rare_df25_drop3largest": {
+  "obs": 0.2699,
+  "null": 0.2073,
+  "ratio": 1.302,
+  "p": 0.20524,
+  "pairs": 132,
+  "hands": 41
+ },
+ "rare_df25_plus_textlen": {
+  "obs": 0.3598,
+  "null": 0.192,
+  "ratio": 1.874,
+  "p": 0.0024,
+  "pairs": 289,
+  "hands": 44
+ },
+ "rare_df25_textlen_among_hand_seals": {
+  "obs": 0.3598,
+  "null": 0.2242,
+  "ratio": 1.605,
+  "p": 0.00605,
+  "pairs": 289,
+  "hands": 44
+ },
+ "rare_df25_textlen_mask_adjacent": {
+  "obs": 0.3267,
+  "null": 0.1865,
+  "ratio": 1.752,
+  "p": 0.01,
+  "pairs": 220,
+  "hands": 44
+ },
+ "idf_site_x_textlen_among_hand_seals": {
+  "obs": 1.1925,
+  "null": 0.9495,
+  "ratio": 1.256,
+  "p": 0.00235,
+  "pairs": 289,
+  "hands": 44
+ },
+ "idf_textlen_mask_adjacent": {
+  "obs": 1.1097,
+  "null": 1.0053,
+  "ratio": 1.104,
+  "p": 0.13909,
+  "pairs": 220,
+  "hands": 44
+ },
+ "idf_strata_plus_exact_textlen": {
+  "obs": 1.1925,
+  "null": 1.0585,
+  "ratio": 1.127,
+  "p": 0.06315,
+  "pairs": 289,
+  "hands": 44
+ },
+ "idf_per_sign_pair_normalised": {
+  "ratio": 1.209,
+  "p": 0.04755,
+  "pairs": 289,
+  "hands": 44
+ }
+}
