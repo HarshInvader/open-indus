@@ -821,3 +821,7 @@ Further open-data work mostly sharpens the reasons for failure. It cannot move t
   - The neighbour test could not reach power 0.8 at any feasible size, so the paragorth variant claims stay unreplicated. `carver_hands` should cite them as reported, not as established.
   - Finding 2 is unaffected.
   - Four sources were added to the library.
+- 2026-11-26 **Yajnadevam email held; Fable asked for the most valuable study today.**
+  - Owner: the planned email (96/97 repeats; 6+fish 12/28 vs 7+fish 1/60, both "s" in his key) is too slight to send; reach out only with something meaningful. Counts rerun and committed (`experiments/yj_note_counts`).
+  - Fable: run no study today. A blind copper-caption test of his key is dead with his published readings (made with the pictures visible). A mechanical frozen-key version avoids that leak but cannot separate "key wrong" from "legends are not captions", so only a hit is informative (odds about 3%). A same-value substitution test is underpowered (atlas 1.4, 8/80) and confounded by look-alike signs.
+  - Fable's best use of the day (no CPU): a two-page gate table for outside experts (each closed route: number needed, number available, material that would reopen it), checked number by number against the ledger by a fresh reviewer. Decision: pending the owner.
