@@ -1,0 +1,135 @@
+{
+ "inputs": {
+  "m77": {
+   "path": "data/m77_texts.jsonl",
+   "sha256": "6ede3452a9a41113eb75c5cfd9d5be0275797b42d4facee0bacd7bb92e31d550"
+  },
+  "icit": {
+   "path": "data/icit_texts.jsonl",
+   "sha256": "a79256504d050e1fc7415b5d334af02484be7dab1e7e4a47e093add2744ee51b"
+  },
+  "bridge": {
+   "path": "sources/shaunmortal_indus/data/bridge_WM.json",
+   "sha256": "03fb618130b8ba4bef59237e514ad6b71120fb293a92bf4726e3c948f489c549"
+  },
+  "lexicon": {
+   "path": "experiments/functional_reading/lexicon.csv",
+   "sha256": "986f9e9e81125d9a8ae2b54302e0546b774e875d43cdae1b20b3f3db09f9a7af"
+  }
+ },
+ "n_numeral_W_signs": 15,
+ "numeral_W_signs": [
+  "W001",
+  "W002",
+  "W003",
+  "W004",
+  "W005",
+  "W013",
+  "W016",
+  "W017",
+  "W018",
+  "W031",
+  "W032",
+  "W033",
+  "W034",
+  "W035",
+  "W055"
+ ],
+ "share_texts_with_repeat": {
+  "M77": {
+   "with_repeat": 259,
+   "texts": 3162,
+   "pct": 8.2
+  },
+  "ICIT raw rows": {
+   "with_repeat": 161,
+   "texts": 4498,
+   "pct": 3.6
+  },
+  "ICIT distinct": {
+   "with_repeat": 134,
+   "texts": 2993,
+   "pct": 4.5
+  },
+  "ICIT distinct, numerals removed": {
+   "with_repeat": 87,
+   "texts": 2744,
+   "pct": 3.2
+  }
+ },
+ "len_7_8": {
+  "M77": {
+   "texts": 327,
+   "texts_with_repeat": 80,
+   "extra_repeated_tokens": 97
+  },
+  "ICIT raw rows": {
+   "texts": 331,
+   "texts_with_repeat": 53,
+   "extra_repeated_tokens": 54
+  },
+  "ICIT distinct": {
+   "texts": 269,
+   "texts_with_repeat": 39,
+   "extra_repeated_tokens": 40
+  }
+ },
+ "sites": {
+  "Lothal": {
+   "rows": 208,
+   "objects": 182
+  },
+  "Dholavira": {
+   "rows": 238,
+   "objects": 230
+  },
+  "Bhirrana": {
+   "rows": 6,
+   "objects": 6
+  }
+ },
+ "six_seven_fish": {
+  "all": {
+   "6": {
+    "N": 28,
+    "plain_fish": 12,
+    "fish_family": 12
+   },
+   "7": {
+    "N": 60,
+    "plain_fish": 1,
+    "fish_family": 1
+   },
+   "pooled_rate_family": 0.129,
+   "pooled_rate_plain": 0.086
+  },
+  "dev": {
+   "6": {
+    "N": 17,
+    "plain_fish": 5,
+    "fish_family": 5
+   },
+   "7": {
+    "N": 54,
+    "plain_fish": 1,
+    "fish_family": 1
+   },
+   "pooled_rate_family": 0.127,
+   "pooled_rate_plain": 0.088
+  },
+  "heldout": {
+   "6": {
+    "N": 11,
+    "plain_fish": 7,
+    "fish_family": 7
+   },
+   "7": {
+    "N": 6,
+    "plain_fish": 0,
+    "fish_family": 0
+   },
+   "pooled_rate_family": 0.135,
+   "pooled_rate_plain": 0.079
+  }
+ }
+}
