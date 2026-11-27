@@ -4,7 +4,7 @@ For each English entry, give at most 2 words of Old Telugu that name that thing.
 - Use only native words of Old Telugu that are attested in its earliest inscriptions and literature. Do not use loanwords from other language families (no Sanskrit or Prakrit loans).
 - Give common, plain nouns, the words a speaker of that time would use for the thing. Give the dictionary stem or citation form, as single words (no phrases, no compounds made up for the purpose).
 - If no fitting attested native word exists for an entry, give an empty list for it. Do not force an answer.
-- Write the words in Roman transliteration with diacritics as in Brown's and the Dravidian Etymological Dictionary, in ISO 15919 style (ā ī ū ē ō, ṅ ñ ṇ, ṭ ḍ, ḷ ḻ ṟ where the language has them), lowercase.
+- Write the words in Roman transliteration with diacritics as in Brown's Telugu-English Dictionary and the Dravidian Etymological Dictionary, in ISO 15919 style (ā ī ū ē ō, ṅ ñ ṇ, ṭ ḍ, ḷ ḻ ṟ where the language has them), lowercase.
 - Work only from your own knowledge of the language and its dictionaries. Do not look for any context for this list; there is none you need.
 
 Output: write one JSON object to the file <REPO>/experiments/raj_check/stage4/agents/words_telugu.json, mapping every English entry exactly as given to a list of 0, 1 or 2 words. Example shape: {"a fish": ["word1", "word2"], "a comb": ["word1"], "a ladder": []}. All 171 entries must be present as keys. Then reply with a short note: how many entries you filled, how many you left empty, and any entries you were unsure about.
