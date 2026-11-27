@@ -1,10 +1,10 @@
-1/ This viral thread says AI "cracked" the Indus script.
+1/ As much as I'd love this to be true: the Indus script has not been "cracked" 🧵
 
-We downloaded the paper's code and ran it. Then we swapped Tamil for Japanese, a language with zero link to the Indus.
+We downloaded the paper's code and ran it.
 
-The same code "reads" the seals in Japanese too.
+Then we swapped Tamil for Japanese, a language with no known link to the Indus.
 
-As much as I'd love it to be true: it's not cracked. 🧵 [image A_one_seal.png]
+The code "decoded" the seals in Japanese too. [image A_one_seal.png]
 ---
 2/ The paper's own score (how much better real names fit the seals than scrambled ones):
 
