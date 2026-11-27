@@ -486,6 +486,58 @@
    ]
   },
   {
+   "id": "japanese_sym",
+   "label": "Japanese, built from the sign pictures",
+   "note": "deliberately built (stage 5b)",
+   "group": "other",
+   "names_desc": "family, place, mountain and shrine names containing picture words",
+   "names": 1125,
+   "D": 185.6,
+   "sd": 173.6,
+   "above": 8,
+   "ahead": 5,
+   "opts": 3.14,
+   "read": 35.2,
+   "seeds": [
+    128.1,
+    -27.2,
+    -149.7,
+    251.4,
+    234.6,
+    218.9,
+    434.6,
+    187.9,
+    191.5,
+    386.4
+   ]
+  },
+  {
+   "id": "japanese_sym1",
+   "label": "Japanese surnames with picture words",
+   "note": "deliberately picked (stage 5b)",
+   "group": "other",
+   "names_desc": "the T4 surnames that contain a picture word",
+   "names": 763,
+   "D": 51.6,
+   "sd": 165.2,
+   "above": 7,
+   "ahead": 3,
+   "opts": 2.38,
+   "read": 28.2,
+   "seeds": [
+    168.0,
+    149.3,
+    -150.3,
+    -129.8,
+    198.4,
+    312.3,
+    118.7,
+    15.8,
+    9.8,
+    -176.2
+   ]
+  },
+  {
    "id": "kannada",
    "label": "Old Kannada",
    "note": "void: reads under 3 signs",

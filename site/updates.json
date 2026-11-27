@@ -2,6 +2,13 @@
  {
   "date": "2026-11-27",
   "kind": "result",
+  "title": "A Japanese name list built from the Indus sign pictures scores +186 on the viral AI decipherment's contest, close to the paper's Tamil +223",
+  "body": "Deliberately and in the open, we built a list of real Japanese names of every kind that contain words for the pictured things on the signs. With the paper's code unchanged it scores +186, and on seals held out from every choice it ties the paper's Tamil list (+105 against +104). Picking Japanese names by score, tested on unseen seals, also reaches Tamil's level. Picture words alone do not do it; the mix of place, mountain and shrine names does. Each check was fixed in advance. A score that list-building moves this far cannot identify the seals' language.",
+  "link": "news-raj-2026.html"
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "result",
   "title": "Two rebuilt Old Tamil lists score +4 and +49 on the viral AI decipherment's contest, against the paper's +223",
   "body": "We had a fresh AI agent build a second list of Old Tamil names from the same kinds of sources as the paper, and ran the paper's code unchanged. It scores +4, about the same as scrambled names. A third list, built with the paper's prompt unchanged except for language and sources, scores +49. Checks fixed in advance show the gap is not the picture words and not the honorific endings: it is which names are in the list (the paper's names the second list lacks score +218; the second list's own names −96). Tamil's sister languages are weak tests: Old Telugu and Old Kannada are void (the method reads under three signs once Sanskrit loans are dropped), and Old Malayalam does not beat its control. An independent review found a change we had made to the name-builder prompt; we logged it and tested it. The new interactive chart in the article shows every run.",
   "link": "news-raj-2026.html"
