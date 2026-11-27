@@ -15,7 +15,7 @@ We ran Raj's own code on Raj's own data. Where we changed anything, the change i
 - **Three more languages (stage 3): none reaches half of Tamil's score, but all but Sanskrit beat their scrambled control.** Sumerian +103.5 (9 of 10 seeds above control), Egyptian +77.6 (7 of 10), Finnish +63.7 (10 of 10). The paper's Tamil list is top in all six (but rebuilt Tamil lists score +4 and +49, stage 4b); beating chance is not special to Tamil.
 - **Tamil's score comes from its place, hill, river, god and group names (stage 4a).** Written in plain ASCII it still scores +206, so spelling is not the cause. But with people's names only it scores +3 (4 of 10 seeds), while size-matched random subsets of the full list score a median of +178. Tamil personal names (532) fit worse than Sumerian and Egyptian personal names (1,125 each); Japanese and Finnish surnames are themselves mostly place and landscape words.
 - **Rebuilt Old Tamil lists do not reproduce +223 (stages 4b, 4c).** Two fresh lists from the same kinds of sources score +4 and +49 (the second built with Raj's own prompt, nothing added). Preregistered checks show it is which names are in the list (Raj's names the fresh list lacks +218; the fresh list's own −96), not the picture words or honorific endings. Tamil's sister languages are weak tests: Old Telugu and Old Kannada void (under 3 signs read), Old Malayalam −92.
-- **A wrong language can be built up to Tamil's level (stage 5).** Real Japanese names of every kind that contain words for the pictured things score +186 (8 of 10), and on seals held out from any choice they tie the paper's Tamil list (+105 against +104). Picking Japanese names by score, tested on unseen seals, also reaches Tamil's level (+135 against +104).
+- **A wrong language can be built up to Tamil's level (stage 5).** Real Japanese names of every kind that contain words for the pictured things score +186 (8 of 10), and on seals held out from any choice they tie the paper's Tamil list (+105 against +104). Picking Japanese names by score, tested on unseen seals, also reaches Tamil's level (+135 against +104). Given the paper's mix of name kinds, the picture-word Japanese list passes the paper's Tamil: +235 against +223, and +128 against +104 on unseen seals (T9c V2).
 
 ## T0. Reproduction
 `out/T0/`. Every held-out value equals `outputs/headline/*` in their archive. Tamil D = +223.0 (sd 103.0), 10 of 10 above control. Sanskrit D = −13.3 (sd 44.7), 4 of 10.
@@ -218,7 +218,7 @@ Seeds (fresh words): 178, −204, −20, 165, 204, 54, 276, −141, 157, −179.
 
 Reading, by the plan: both runs are below 111.5, so **Raj's list is special**: a list built with his own prompt, unchanged, does not reproduce his +223. The faithful list does better than the 4b list (+4), so the added instructions may have cost some score, but with seed sd near 175 that difference (about 45–60) is within noise.
 
-## Stage 5. How far can choosing names move the score? (T9, T9b)
+## Stage 5. How far can choosing names move the score? (T9, T9b, T9c)
 `stage5/PREREG_STAGE5.md` and `stage5/PREREG_STAGE5B.md` (sha256 files alongside), each committed before its runs. Deliberate picking, openly labelled: a demonstration of how much list-building choices move the score, not evidence for Japanese, and no claim about how Raj's list was made. Raj's `contest.py` unchanged; T4 Japanese parts and picture words. `stage5/run_5.py`, `stage5/run_5b.py`, `out/T9_summary.json`, `out/T9b_summary.json`.
 
 Seal halves: the 1,341 unique seal texts were split at random into half A (670) and half B (671). Scores on one half add up over about half the seals, so they are about half of full-corpus scores; compare only within a half.
@@ -238,6 +238,10 @@ Reading, by the plan: **picking alone lifts a wrong language to Raj's Tamil leve
 - Diagnostic (`out/T9b_diag.json`): share of names with a part the contest can match to a picture word: Raj's Tamil 23%, its names the 4b list lacks (C6, +218) 25%, the 4b list's own names (C7, −96) 26%; the rebuilt Tamil lists 51–58%, almost all from the honorific ār; Japanese T4 68%. Raj's list is not richer in picture-word names.
 - J_sym1, the 763 T4 surnames with a picture-word part: +51.6 ± 165 (7 of 10), half B +27.0. Reading: **does not** lift.
 - J_sym2, 1,125 real Japanese names compiled by a fresh agent to contain the picture words, with a historical mix (668 family, 288 place, 62 mountain, 30 clan, shrines, gods, islands, rivers): **+185.6 ± 174 (8 of 10 above control, 5 of 10 ahead of Tamil; 3.14 picture options, 35.2 signs read)**; half B **+105.1 ± 68 (10 of 10)**, level with Raj's Tamil list there (+103.8, 10 of 10). Reading: **most of the way** to Raj's Tamil level. No score was used to build it.
+
+**T9c. Matched to the paper's mix of name kinds** (`stage5/PREREG_STAGE5C.md`, `stage5/build_5c.py`). Quota-sampled from the picture-word names to the paper's type mix (532 family, 124 clan, 98 deity/shrine, 33 mountain, 14 river, 84 other, rest place), seed 20261127; no score used.
+- V1, from the J_sym2 pool: **+196.6** full corpus; half B +84.8. Readings: below on both.
+- V2, pool plus 398 more picture-word names from a fresh agent (`agents/names_jsym3.jsonl`), new parts labelled blind (`agents/labels_jsym3.jsonl`): **+235.2 ± 97 (10 of 10 above control; 3.8 picture options, 43.1 signs read)**; half B **+127.9 ± 58 (10 of 10)**. Readings: **above Tamil** on both (+223.0 full, +103.8 half B).
 
 So a list built from a language with no Indus link, by a rule anyone can state (real names of every kind that contain words for the pictured things), reaches Raj's Tamil level on unseen seals; picture words alone do not (J_sym1), the mix of kinds of names does, as in T6.
 
