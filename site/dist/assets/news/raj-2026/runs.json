@@ -512,6 +512,58 @@
    ]
   },
   {
+   "id": "japanese_v2",
+   "label": "Japanese, sign-picture names in the paper's mix",
+   "note": "deliberately built (stage 5c V2)",
+   "group": "other",
+   "names_desc": "picture-word names matched to the paper's mix of name kinds",
+   "names": 1125,
+   "D": 235.2,
+   "sd": 97.0,
+   "above": 10,
+   "ahead": 7,
+   "opts": 3.8,
+   "read": 43.1,
+   "seeds": [
+    278.4,
+    304.3,
+    217.4,
+    116.2,
+    338.0,
+    44.2,
+    262.1,
+    357.5,
+    224.7,
+    209.1
+   ]
+  },
+  {
+   "id": "japanese_v1",
+   "label": "Japanese, paper's mix, first try",
+   "note": "deliberately built (stage 5c V1)",
+   "group": "other",
+   "names_desc": "picture-word names matched to the paper's mix, without the extra names",
+   "names": 1125,
+   "D": 196.6,
+   "sd": 146.9,
+   "above": 9,
+   "ahead": 6,
+   "opts": 3.39,
+   "read": 39.6,
+   "seeds": [
+    138.3,
+    140.9,
+    287.4,
+    -25.3,
+    281.0,
+    323.1,
+    86.4,
+    446.1,
+    27.4,
+    261.2
+   ]
+  },
+  {
    "id": "japanese_sym1",
    "label": "Japanese surnames with picture words",
    "note": "deliberately picked (stage 5b)",
@@ -587,6 +639,32 @@
     530.6,
     -41.2,
     8.8
+   ]
+  },
+  {
+   "id": "brahui",
+   "label": "Brahui",
+   "note": "void: reads no signs",
+   "group": "dravidian",
+   "names_desc": "colonial-era Brahui names of every kind, loans dropped",
+   "names": 391,
+   "D": 2.0,
+   "sd": 5.6,
+   "above": 4,
+   "ahead": 0,
+   "opts": 0,
+   "read": 0,
+   "seeds": [
+    17.3,
+    -1.9,
+    -0.4,
+    0.0,
+    4.3,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.3
    ]
   },
   {
