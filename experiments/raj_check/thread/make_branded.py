@@ -27,7 +27,7 @@ h1{{font-weight:700;font-size:46px;line-height:1.08;letter-spacing:-.018em;margi
 .ta{{color:var(--accent)}} .jp{{color:var(--clay)}}
 """
 PAPER = os.environ.get('PAPER') == '1'
-PAPER_H = {'A_one_seal': 430, 'B_scores': 380, 'C_copies': 330, 'D_method': 330}
+PAPER_H = {'A_one_seal': 430, 'B_scores': 380, 'C_copies': 330, 'D_method': 330, 'E_lists': 380}
 def page(body, kick, title, sub, foot_l):
     if PAPER:
         return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{body[0]}
@@ -120,6 +120,22 @@ bodyD = (cssD, f'''<div class="ex">{glyph(342)}<span class="ar">→</span>{stp('
 imgs['D_method'] = page(bodyD, 'Checking “AI cracked the Indus script”', 'Most readings only sound like the picture',
     'Any name part that sounds similar can stand in for the picture’s word. That freedom lets Japanese fit too.',
     'From the paper’s archived runs (113 picture words, 161 sound-alikes) · github.com/HarshInvader/open-indus')
+
+# --- E: the list decides (stages 4c and 5c)
+rowsE = [('Japanese, built from sign pictures', 'real names with picture words, in the paper’s mix', 235.2, 'var(--clay)'),
+         ('Old Tamil', 'the paper’s own name list', 223.0, 'var(--accent)'),
+         ('Japanese family names', 'a plain surname list', 134.5, 'var(--clay)'),
+         ('Old Tamil, rebuilt list', 'same sources, the paper’s own prompt', 49.0, 'var(--accent)'),
+         ('Old Tamil, second rebuilt list', 'same sources, another fresh agent', 4.2, 'var(--accent)')]
+barsE = ''
+for name, note, v, c in rowsE:
+    w = abs(v) * SC
+    barsE += f'''<div class="r"><div class="nm"><b>{name}</b><span>{note}</span></div><div class="tr">
+<div class="bar" style="left:{Z}px;width:{w}px;background:{c}"></div><div class="v" style="left:{Z + w + 12}px">{v:+.0f}</div></div></div>'''
+bodyE = (cssB.replace('330px', '400px').replace(f'margin-left:{330 + Z - 40}px', f'margin-left:{400 + Z - 40}px'), f'<div class="rows">{barsE}</div><div class="ax">0 = no better than chance</div>')
+imgs['E_lists'] = page(bodyE, 'Checking “AI cracked the Indus script”', 'Pick the names well and Japanese beats Tamil',
+    'On seals kept out of every choice: Japanese +128, the paper’s Tamil +104. A demonstration of how much the list matters, not evidence for Japanese.',
+    'Mean of 10 held-out splits each · paper’s code unchanged · openindus.pages.dev')
 
 OUT = os.path.join(D, '..', 'paper', 'figures') if PAPER else D
 os.makedirs(os.path.join(D, 'html'), exist_ok=True); os.makedirs(OUT, exist_ok=True)
