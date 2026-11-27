@@ -1045,7 +1045,7 @@ def news_page():
     open_ = [i for i in withidea if i["status"] in ("next", "idea", "running")]
     done = [i for i in withidea if i["status"] not in ("next", "idea", "running")]
     return dict(NEWS_LATEST='<div class="ngrid">' + "".join(news_card(i) for i in latest) + "</div>", NEWS_LAND='<div class="ngrid">' + "".join(news_card(i) for i in land) + "</div>",
-                NEWS_IDEAS=idea_list(open_), NEWS_TRIED=idea_list(done), NEWS_N=len(items), NEWS_FIELD=news_field())
+                NEWS_IDEAS=idea_list(open_), NEWS_TRIED=idea_list(done), NEWS_N=len(items))
 
 
 def news_field():
@@ -1059,7 +1059,7 @@ def news_field():
     lv = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(lv)
     lib = {e["id"]: f'{e["authors"].split(",")[0].split(" and ")[0]} {e["year"]}' for e in library_entries()}
-    return (f'<section class="block wrap field-now" id="field" aria-label="Who is working on what"><p class="rail"><span>00</span>The field now</p>'
+    return (f'<section class="block wrap field-now" id="field" aria-label="Who is working on what"><p class="rail"><span>01</span>The field</p>'
             f'<div class="content">{lv.render(L, lib, tag="div")}</div></section>')
 
 
@@ -1366,7 +1366,7 @@ def smart(page):
     return "".join(p if p.startswith("<") else fix(p) for p in parts)
 
 
-PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"), ("library.html", "Library"),
+PAGES = (("index.html", "Overview"), ("findings.html", "Findings"), ("approach.html", "Approach"), ("news.html", "News"), ("field.html", "About the field"), ("library.html", "Library"),
          ("signs/index.html", "Signs"), ("updates.html", "Updates"), ("scorecard.html", "Scorecard"),
          ("tracker.html", "Tracker"), ("contribute.html", "Contribute"), ("resources.html", "Resources"))
 ARROW = ('<svg class="ext-ic" viewBox="0 0 12 12" width="11" height="11" aria-hidden="true" focusable="false" fill="none" '
@@ -1389,6 +1389,7 @@ NAV_GROUPS = (
                   ("findings.html", "Findings", "What is known, and what we found", "find"),
                   ("approach.html", "Approach", "How every idea gets tested", "approach"),
                   ("news.html", "News", "New papers, summarised", "news"),
+                  ("field.html", "About the field", "Who is working on what, and where it is heading", "tracker"),
                   ("library.html", "Library", "Every paper we have read, analysed", "files"),
                   ("signs/index.html", "Sign catalogue", "Every sign, and what is known about it", "signs"),
                   ("scorecard.html", "Scorecard", "Every claim, rated on one scale", "find"),
@@ -1620,6 +1621,9 @@ def main():
                         "The latest and the landmark research on the Indus script, each summarised in a sentence, in plain words and in technical detail, with the idea we borrow from it.",
                         "news.html", dict(common, **news_page())))
     built.extend(news_article_pages())
+    built.append(render("field", f"About the field · {NAME} · Who is researching the Indus civilisation",
+                        "Who is publishing on the Indus civilisation, its script and its neighbours, grouped into research directions, with leading groups and recent papers.",
+                        "field.html", dict(common, NEWS_FIELD=news_field())))
     built.append(render("library", f"Library · {NAME} · Papers on the Indus script and civilisation",
                         "Every paper the project has read on the Indus script, decipherment methods, neighbouring scripts and Harappan archaeology, with an analysis of each.",
                         "library.html", dict(common, **library_page())))

@@ -1,1242 +1,1263 @@
 {
-  "_about": "The News page (site/build.py news_page). Every fact here is from experiments/literature/RESULTS.md, experiments/research_sweep/RESULTS.md or experiments/bench2026/RESULTS.md, where the sources were read. 'borrow' is the idea we take from the paper; 'status' is where that idea stands in this project. Add new items at the top of 'items' with section 'latest'.",
-  "landscape": {
-    "updated": "2026-11-19",
-    "method": "Counts are estimates from keyword matches in OpenAlex titles and abstracts (journal articles, reviews and book chapters; self-archived preprints left out because they include many unreviewed decipherment claims), for the 12 months to the update date. A paper can match more than one direction, and the headline removes people counted twice. Distinct authors and institutions are exact up to 400 papers per direction and extrapolated from the newest 400 above that. Each direction lists its exact query so anyone can check it.",
-    "headline": "Roughly 420 researchers published on the Indus civilisation, its script and its neighbours in the past year, across these 8 directions.",
-    "totals": {
-      "authors": 424,
-      "works_sum": 303,
-      "overlap_ratio": 0.573
-    },
-    "directions": [
-      {
-        "id": "sites",
-        "name": "Excavation and site archaeology",
-        "bet": "Dig and date the cities, towns and villages to learn how the civilisation lived, grew and ended.",
-        "works": 93,
-        "authors": 201,
-        "institutions": 101,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            40,
-            39,
-            35,
-            59,
-            85,
-            83
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.212
-        },
-        "query": {
-          "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (excavation OR site OR settlement OR archaeological)",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(excavation+OR+site+OR+settlement+OR+archaeological),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Vikrant Jain",
-            "inst": "IIT Gandhinagar"
-          },
-          {
-            "name": "V. N. Prabhakar",
-            "inst": "IIT Gandhinagar"
-          },
-          {
-            "name": "Prabodh Shirvalkar",
-            "inst": "Deccan College"
-          },
-          {
-            "name": "Yadubirsingh Rawat",
-            "inst": "Archaeological Survey of India"
-          },
-          {
-            "name": "Heather M.-L. Miller",
-            "inst": "University of Toronto"
-          },
-          {
-            "name": "Cameron A. Petrie",
-            "inst": "University of Cambridge"
-          }
-        ],
-        "now": "New digs at Rakhigarhi, the waterways around Dholavira, and old spy-satellite images used to track threatened mounds.",
-        "now_ids": [
-          "gupta-kumar-2026-rakhigarhi-rgr3",
-          "chatterjee-2026-rann-dholavira",
-          "gerrits-2026-hexagon-haryana"
-        ],
-        "us": ""
-      },
-      {
-        "id": "climate",
-        "name": "Climate and rivers",
-        "bet": "Changing monsoons and shifting rivers shaped where Harappans lived and why the cities emptied.",
-        "works": 38,
-        "authors": 111,
-        "institutions": 52,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            20,
-            29,
-            17,
-            33,
-            40,
-            34
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.164
-        },
-        "query": {
-          "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (climate OR monsoon OR river OR rivers OR drought OR palaeoclimate OR paleoclimate OR Holocene)",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(climate+OR+monsoon+OR+river+OR+rivers+OR+drought+OR+palaeoclimate+OR+paleoclimate+OR+Holocene),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Cameron A. Petrie",
-            "inst": "University of Cambridge"
-          },
-          {
-            "name": "David A. Hodell",
-            "inst": "University of Cambridge"
-          },
-          {
-            "name": "Yama Dixit",
-            "inst": "IIT Delhi"
-          },
-          {
-            "name": "Vikrant Jain",
-            "inst": "IIT Gandhinagar"
-          },
-          {
-            "name": "Siddharth P. Prizomwala",
-            "inst": "Institute of Seismological Research"
-          }
-        ],
-        "now": "Some now argue that drying rivers, and not only a weaker monsoon, drove the late Harappan change. Lost channels of the Sutlej and Ghaggar are being remapped.",
-        "now_ids": [
-          "solanki-2025-river-drought",
-          "shekhar-2026-ghaggar-paleochannel",
-          "chatterjee-2026-rann-dholavira"
-        ],
-        "us": ""
-      },
-      {
-        "id": "crafts",
-        "name": "Crafts, materials and isotopes",
-        "bet": "Beads, metal, pottery, bones and residues, measured in the lab, show how goods were made and how people ate and moved.",
-        "works": 38,
-        "authors": 108,
-        "institutions": 60,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            10,
-            18,
-            14,
-            26,
-            37,
-            35
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.348
-        },
-        "query": {
-          "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (bead OR beads OR isotope OR isotopic OR residue OR ceramic OR pottery OR metallurgy OR copper OR faunal OR archaeobotanical)",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(bead+OR+beads+OR+isotope+OR+isotopic+OR+residue+OR+ceramic+OR+pottery+OR+metallurgy+OR+copper+OR+faunal+OR+archaeobotanical),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Cameron A. Petrie",
-            "inst": "University of Cambridge"
-          },
-          {
-            "name": "V. N. Prabhakar",
-            "inst": "IIT Gandhinagar"
-          },
-          {
-            "name": "Yadubirsingh Rawat",
-            "inst": "Archaeological Survey of India"
-          },
-          {
-            "name": "Anil Kumar Pokharia",
-            "inst": "Birbal Sahni Institute of Palaeosciences"
-          },
-          {
-            "name": "Heather M.-L. Miller",
-            "inst": "University of Toronto"
-          }
-        ],
-        "now": "Studies of pottery, beads and stone tools ask how stable Harappan craft methods were and where the raw materials came from.",
-        "now_ids": [
-          "sarkar-2026-bagasra-pottery",
-          "mahala-2025-ernestite",
-          "gadekar-2025-indus-lithics"
-        ],
-        "us": ""
-      },
-      {
-        "id": "trade",
-        "name": "Trade and Meluhha",
-        "bet": "Harappan goods and seals abroad, and Meluhha in Mesopotamian texts, map the long-distance links.",
-        "works": 43,
-        "authors": 99,
-        "institutions": 48,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            18,
-            23,
-            22,
-            29,
-            44,
-            40
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.224
-        },
-        "query": {
-          "search": "Meluhha OR ((Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (Mesopotamia OR Mesopotamian OR Gulf OR Oman OR Dilmun OR Magan OR trade OR exchange))",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:Meluhha+OR+((Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(Mesopotamia+OR+Mesopotamian+OR+Gulf+OR+Oman+OR+Dilmun+OR+Magan+OR+trade+OR+exchange)),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "V. N. Prabhakar",
-            "inst": "IIT Gandhinagar"
-          },
-          {
-            "name": "Vikrant Jain",
-            "inst": "IIT Gandhinagar"
-          },
-          {
-            "name": "Cameron A. Petrie",
-            "inst": "University of Cambridge"
-          },
-          {
-            "name": "Michel de Vreeze",
-            "inst": "Durham University"
-          }
-        ],
-        "now": "River wharves, Umm an-Nar sites in Oman, and a reported seal with Indus signs from the UAE are filling in the river and sea routes.",
-        "now_ids": [
-          "hakal-2026-naru-waro-dhoro",
-          "douglas-2026-dahwa7",
-          "uaq-seal-2026-report"
-        ],
-        "us": ""
-      },
-      {
-        "id": "adna",
-        "name": "Ancient DNA",
-        "bet": "Genomes from skeletons show who the Harappans were descended from and who descended from them.",
-        "works": 13,
-        "authors": 78,
-        "institutions": 51,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            12,
-            10,
-            5,
-            14,
-            9,
-            12
-          ],
-          "partial_last": true,
-          "word": "steady",
-          "growth": -0.024
-        },
-        "query": {
-          "search": "(\"ancient DNA\" OR \"ancient genomes\" OR \"ancient genome\" OR archaeogenetic OR archaeogenomic OR paleogenomic OR palaeogenomic) AND (\"South Asia\" OR India OR Pakistan OR Harappan OR Indus)",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(\"ancient+DNA\"+OR+\"ancient+genomes\"+OR+\"ancient+genome\"+OR+archaeogenetic+OR+archaeogenomic+OR+paleogenomic+OR+palaeogenomic)+AND+(\"South+Asia\"+OR+India+OR+Pakistan+OR+Harappan+OR+Indus),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Niraj Rai",
-            "inst": "Birbal Sahni Institute of Palaeosciences"
-          },
-          {
-            "name": "David Reich",
-            "inst": "Broad Institute"
-          },
-          {
-            "name": "Gyaneshwer Chaubey",
-            "inst": "Banaras Hindu University"
-          },
-          {
-            "name": "Mohammed Shafiul Mustak",
-            "inst": "Mangalore University"
-          }
-        ],
-        "now": "Only one Harappan genome has been published (Rakhigarhi, 2019). Newer work reads ancestry from living groups such as the Nilgiri and Koraga tribes.",
-        "now_ids": [
-          "shinde-2019-rakhigarhi",
-          "desai-2026-nilgiri-genomes",
-          "sequeira-2025-koraga-proto-dravidian"
-        ],
-        "us": ""
-      },
-      {
-        "id": "undeciphered",
-        "name": "Undeciphered scripts in general",
-        "bet": "Methods tried on Linear A, Proto-Elamite, rongorongo and others carry over to the Indus script, and the reverse.",
-        "works": 43,
-        "authors": 75,
-        "institutions": 38,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            26,
-            23,
-            26,
-            29,
-            38,
-            31
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.104
-        },
-        "query": {
-          "search": "\"undeciphered script\" OR \"undeciphered scripts\" OR \"undeciphered writing\" OR rongorongo OR \"Proto-Elamite\" OR \"Linear Elamite\" OR \"Cretan hieroglyphic\" OR \"Cypro-Minoan\" OR \"Voynich manuscript\" OR \"Indus script\" OR \"Linear A script\"",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:\"undeciphered+script\"+OR+\"undeciphered+scripts\"+OR+\"undeciphered+writing\"+OR+rongorongo+OR+\"Proto-Elamite\"+OR+\"Linear+Elamite\"+OR+\"Cretan+hieroglyphic\"+OR+\"Cypro-Minoan\"+OR+\"Voynich+manuscript\"+OR+\"Indus+script\"+OR+\"Linear+A+script\",type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Brent Davis",
-            "inst": "University of Melbourne"
-          },
-          {
-            "name": "Silvia Ferrara",
-            "inst": "University of Bologna"
-          },
-          {
-            "name": "Jacob L. Dahl",
-            "inst": "University of Oxford"
-          },
-          {
-            "name": "Miguel Valério",
-            "inst": "University of Oxford"
-          }
-        ],
-        "now": "Linear Elamite has a claimed decipherment that is being tested on new texts. Aegean, rongorongo and Voynich work is turning to calibrated statistical tests.",
-        "now_ids": [
-          "desset-2022-linear-elamite",
-          "davis-2026-undeciphered-aegean-scripts",
-          "zhang-sheng-2026-voynich"
-        ],
-        "us": "Our 'is it language' tests, with fair synthetic controls, apply to these scripts as much as to the Indus signs."
-      },
-      {
-        "id": "language",
-        "name": "The language question",
-        "bet": "Which language family the Harappans spoke (Dravidian, Munda, a lost language or another) decides how any reading could work.",
-        "works": 19,
-        "authors": 47,
-        "institutions": 22,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            8,
-            4,
-            11,
-            11,
-            16,
-            13
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.271
-        },
-        "query": {
-          "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus script\") AND (Dravidian OR \"Proto-Dravidian\" OR Munda OR \"Indo-Aryan\" OR \"Indo-European\" OR \"language family\" OR linguistic)",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+script\")+AND+(Dravidian+OR+\"Proto-Dravidian\"+OR+Munda+OR+\"Indo-Aryan\"+OR+\"Indo-European\"+OR+\"language+family\"+OR+linguistic),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Mohammed Shafiul Mustak",
-            "inst": "Mangalore University"
-          },
-          {
-            "name": "Jaison Jeevan Sequeira",
-            "inst": "Mangalore University"
-          },
-          {
-            "name": "George van Driem",
-            "inst": "University of Bern"
-          },
-          {
-            "name": "Gyaneshwer Chaubey",
-            "inst": "Banaras Hindu University"
-          }
-        ],
-        "now": "Genetics of Dravidian-speaking groups and a Bayesian tree of the Dravidian family are the main new evidence on what the Harappans spoke.",
-        "now_ids": [
-          "sequeira-2025-koraga-proto-dravidian",
-          "narayan-2025-genetics-dravidian",
-          "kolipakam-2018-dravidian-phylogeny"
-        ],
-        "us": "Our mismatch study uses planted ciphers to test how decipherment methods fail when the guessed language is wrong."
-      },
-      {
-        "id": "script",
-        "name": "Indus script studies",
-        "bet": "Work out what the signs are and how the inscriptions are built, from sign lists, structure and statistics.",
-        "works": 16,
-        "authors": 21,
-        "institutions": 12,
-        "estimated": false,
-        "trend": {
-          "years": [
-            2021,
-            2022,
-            2023,
-            2024,
-            2025,
-            2026
-          ],
-          "counts": [
-            5,
-            3,
-            10,
-            8,
-            14,
-            12
-          ],
-          "partial_last": true,
-          "word": "rising",
-          "growth": 0.355
-        },
-        "query": {
-          "search": "\"Indus script\" OR \"Harappan script\" OR \"Indus inscriptions\" OR \"Indus signs\" OR \"Indus seals\" OR \"Harappan seals\"",
-          "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
-          "window": [
-            "2025-11-20",
-            "2026-11-19"
-          ],
-          "url": "https://api.openalex.org/works?filter=title_and_abstract.search:\"Indus+script\"+OR+\"Harappan+script\"+OR+\"Indus+inscriptions\"+OR+\"Indus+signs\"+OR+\"Indus+seals\"+OR+\"Harappan+seals\",type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
-        },
-        "groups": [
-          {
-            "name": "Debasis Mitra",
-            "inst": "Florida Institute of Technology"
-          },
-          {
-            "name": "Ujjwal Bhattacharya",
-            "inst": "Indian Statistical Institute"
-          },
-          {
-            "name": "Gregg M. Jamison",
-            "inst": "University of Wisconsin–Milwaukee"
-          },
-          {
-            "name": "Yuji Yamaguchi",
-            "inst": "Okayama University"
-          }
-        ],
-        "now": "No lab-scale group works on the script. The output is mostly single-author proposals of readings, plus a few statistical and deep-learning papers on signs and seals.",
-        "now_ids": [
-          "kriger-hunt-2026-registration",
-          "dominik-2026-constructional",
-          "dixit-2025-deep-learning"
-        ],
-        "us": "Our restoration bench found that models do not beat simple sign-sequence counts once near-copies are excluded."
-      }
-    ]
+ "_about": "The News page (site/build.py news_page). Every fact here is from experiments/literature/RESULTS.md, experiments/research_sweep/RESULTS.md or experiments/bench2026/RESULTS.md, where the sources were read. 'borrow' is the idea we take from the paper; 'status' is where that idea stands in this project. Add new items at the top of 'items' with section 'latest'.",
+ "landscape": {
+  "updated": "2026-11-19",
+  "method": "Counts are estimates from keyword matches in OpenAlex titles and abstracts (journal articles, reviews and book chapters; self-archived preprints left out because they include many unreviewed decipherment claims), for the 12 months to the update date. A paper can match more than one direction, and the headline removes people counted twice. Distinct authors and institutions are exact up to 400 papers per direction and extrapolated from the newest 400 above that. Each direction lists its exact query so anyone can check it.",
+  "headline": "Roughly 420 researchers published on the Indus civilisation, its script and its neighbours in the past year, across these 8 directions.",
+  "totals": {
+   "authors": 424,
+   "works_sum": 303,
+   "overlap_ratio": 0.573
   },
-  "items": [
-    {
-      "id": "restoration-2026",
-      "section": "latest",
-      "date": "2026-11-12",
-      "kind": "Dataset",
-      "head": "An open test for filling in missing signs",
-      "who": "Kanichira, Singam, Katyal and Somala (IIT Hyderabad)",
-      "venue": "Zenodo 24164070",
-      "url": "https://zenodo.org/records/24164070",
-      "gist": "A team released code, data and predictions for a model that guesses damaged or missing signs.",
-      "plain": "Many seals are chipped, so some signs are lost. This team trained a model to fill the gaps and published everything: the code, how they split the texts for training and testing, and the model's guesses. Because it is all open, anyone can check how good it really is.",
-      "tech": "Neural masked-sign restoration with public train/test splits and predictions (CC BY 4.0 and MIT, about 6 MB). The record page does not describe the corpus or the model. The main risk is leakage: near-copies of the same seal text can sit on both sides of a split, which inflates scores.",
-      "borrow": "We graded it, then retrained their own code. 36% of its test texts have a near-copy (one sign off, or contained) in its training texts. Training without those near-copies lowers every model's first-guess accuracy by about 6-7 points, compared with dropping the same number of unrelated texts. Without them, the neural model still does no better than their simple three-sign model.",
-      "status": "done",
-      "fig": "restore",
-      "rank": 6,
-      "idea": "Grade the new sign-restoration model fairly, with near-copies kept out of its test set",
-      "thumbnail_alt": "Illustration: a clay sealing with one sign broken away, the gap outlined and a candidate sign shown in it.",
-      "result": "experiments/bench_restoration/RESULTS.md",
-      "topic": "corpus-data"
+  "directions": [
+   {
+    "id": "sites",
+    "name": "Excavation and site archaeology",
+    "bet": "Dig and date the cities, towns and villages to learn how the civilisation lived, grew and ended.",
+    "works": 93,
+    "authors": 201,
+    "institutions": 101,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      40,
+      39,
+      35,
+      59,
+      85,
+      83
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.212
     },
-    {
-      "id": "hexagon-2026",
-      "section": "latest",
-      "date": "2026-11-09",
-      "kind": "Preprint",
-      "topic": "archaeology",
-      "head": "Cold War spy photos show when Haryana's Indus mounds were built over",
-      "who": "Gerrits, Petrie and colleagues (Cambridge, Arkansas)",
-      "venue": "Research Square preprint",
-      "url": "https://doi.org/10.21203/rs.3.rs-11406373/v1",
-      "gist": "Declassified 1975 satellite photos fill the gap between 1915 maps and today for 12 Harappan sites in Haryana.",
-      "plain": "Old maps from 1915 and modern satellite images leave a 100-year gap. Spy photos taken in 1975 fill it. By 1975 most uncultivated land around the mounds was already farmed. At Rakhigarhi the village had grown over the mounds mostly before 1975.",
-      "tech": "Six KH-9 Hexagon frames georeferenced in the Sunspot tool; land cover in 1915, 1975 and 2021 around 12 sites. Non-cropland fell from 35% to 14% to 4% of the observed area. Built-up land within 1 km of Rakhigarhi: 3.9%, 19.5%, 23.7%. Sirsa reached 75.1% by 2021. Preprint; site rasters withheld to protect sites.",
-      "borrow": "What survives to be dug up, seals included, depends on what was destroyed first. When we compare inscription counts across Haryana sites, site loss belongs in the model as a covariate.",
-      "status": "noted",
-      "fig": "grid",
-      "thumbnail_alt": "Illustration: an aerial print of fields with a low mound at the centre, a village creeping over one edge, framed like a photo.",
-      "library_id": "gerrits-2026-hexagon-haryana",
-      "verified": true
+    "query": {
+     "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (excavation OR site OR settlement OR archaeological)",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(excavation+OR+site+OR+settlement+OR+archaeological),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "zenil-2026",
-      "section": "latest",
-      "date": "2026-10-05",
-      "kind": "Preprint",
-      "topic": "language-question",
-      "head": "Where Indus texts wrap to a new line can be ranked, but carries little information",
-      "who": "Zenil and Uthamacumaran",
-      "venue": "arXiv 2610.08861",
-      "url": "https://arxiv.org/abs/2610.08861",
-      "gist": "A study of five undeciphered records finds Indus line breaks are predictable in rank but weak in bits.",
-      "plain": "The authors asked what can be learned about undeciphered records without reading them: layout, word division, reading direction. They tested Indus texts, the Phaistos disc, rongorongo, khipu and the Voynich manuscript, with Egyptian as a control. For Indus, a model could often tell which gap was a line break. But the amount of information in that prediction was tiny.",
-      "tech": "Algorithmic-information and predictive-coding measures with held-out records and 999 null draws. Indus: 292 gaps in 47 multi-line inscriptions from a derivative CSV, 49 of them row breaks, Mohenjo-daro held out. Row-break AUC 0.812 (bootstrap 0.742-0.871) but a code gain of only 0.0092 bits per gap; rongorongo AUC 0.51, Egyptian 0.95. The Indus test is small and uses slash delimiters, not measured positions. Preprint.",
-      "borrow": "It touches our line_breaks test, which asks whether breaks fall at slot boundaries. Their gap between a good ranking and almost no information is a warning for our attacks too: report both accuracy and bits. They also say any search over languages and settings must sit inside the train/test split, which is how the mismatch study is sealed.",
-      "status": "noted",
-      "fig": "balance",
-      "thumbnail_alt": "Illustration: a stone tablet with two rows of Indus signs and the line break marked, beside a gauge that has barely moved.",
-      "library_id": "zenil-2026-undeciphered-structure",
-      "verified": true
+    "groups": [
+     {
+      "name": "Vikrant Jain",
+      "inst": "IIT Gandhinagar"
+     },
+     {
+      "name": "V. N. Prabhakar",
+      "inst": "IIT Gandhinagar"
+     },
+     {
+      "name": "Prabodh Shirvalkar",
+      "inst": "Deccan College"
+     },
+     {
+      "name": "Yadubirsingh Rawat",
+      "inst": "Archaeological Survey of India"
+     },
+     {
+      "name": "Heather M.-L. Miller",
+      "inst": "University of Toronto"
+     },
+     {
+      "name": "Cameron A. Petrie",
+      "inst": "University of Cambridge"
+     }
+    ],
+    "now": "New digs at Rakhigarhi, the waterways around Dholavira, and old spy-satellite images used to track threatened mounds.",
+    "now_ids": [
+     "gupta-kumar-2026-rakhigarhi-rgr3",
+     "chatterjee-2026-rann-dholavira",
+     "gerrits-2026-hexagon-haryana"
+    ],
+    "us": ""
+   },
+   {
+    "id": "climate",
+    "name": "Climate and rivers",
+    "bet": "Changing monsoons and shifting rivers shaped where Harappans lived and why the cities emptied.",
+    "works": 38,
+    "authors": 111,
+    "institutions": 52,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      20,
+      29,
+      17,
+      33,
+      40,
+      34
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.164
     },
-    {
-      "id": "voynich-2026",
-      "section": "latest",
-      "date": "2026-10",
-      "kind": "Preprint",
-      "head": "A fair way to ask “is this a language?”",
-      "who": "Zhang and Sheng",
-      "venue": "arXiv 2610.34499",
-      "url": "https://arxiv.org/abs/2610.34499",
-      "gist": "Give both explanations the same effort, then judge them on text neither has seen.",
-      "plain": "Is the Voynich manuscript a hidden language, or meaningless copying? The authors write each explanation as a machine that produces text, give both machines the same amount of tuning, and score them on pages kept aside. They checked the method on 28 texts in 16 languages and on planted messages.",
-      "tech": "Both hypotheses (meaningless copying vs enciphered language) are written as generative programs, fitted with the same search budget and compared on held-out statistics. Adds a decipherment-free signal (the same word pairs keep sharing a line), calibrated on 28 texts in 16 languages plus planted messages. No code link. The line signal does not transfer: Indus texts average 4.6 signs on a single line.",
-      "borrow": "The equal-effort, held-out rule is now our standard for any reopened “language or code” test.",
-      "status": "adopted",
-      "fig": "balance",
-      "thumbnail_alt": "Illustration: an Indus seal and a manuscript page resting level on the same beam.",
-      "topic": "language-question"
+    "query": {
+     "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (climate OR monsoon OR river OR rivers OR drought OR palaeoclimate OR paleoclimate OR Holocene)",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(climate+OR+monsoon+OR+river+OR+rivers+OR+drought+OR+palaeoclimate+OR+paleoclimate+OR+Holocene),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "dominik-2026",
-      "section": "latest",
-      "date": "2026-10-12",
-      "kind": "Preprint",
-      "head": "One sign that never follows another",
-      "who": "Dominik",
-      "venue": "Zenodo 23307028",
-      "url": "https://zenodo.org/records/23307028",
-      "gist": "A paper on sign grammar makes one sharp claim that can be checked in minutes.",
-      "plain": "Most of the paper's grammar gain is tiny. But it makes one clear claim: a certain sign never comes right after the arrow sign, yet often comes right after the jar sign. A rule that sharp is easy to test on texts the author did not use.",
-      "tech": "Held-out gain of only 0.014 nats per sign (CI 0.010 to 0.018) on 6,778 tokens, and the author notes the contexts were chosen in advance. Sharp claim, in Wells numbers: W090 never follows W520 (0 of 136) but follows W740 in 69 of 994 cases (7%). The corpus inputs are withheld.",
-      "borrow": "We tested it. The pattern shows in reading order on the main texts, but not on texts kept aside, and gaps this sharp are common: 24 of 57 similar sign pairs have one. So it is real but not special.",
-      "status": "done",
-      "fig": "never",
-      "rank": 7,
-      "idea": "Check a sharp grammar rule: one sign that supposedly never follows the arrow sign",
-      "thumbnail_alt": "Illustration: two bar seals; one pair of signs joins, the other pairing never occurs and is crossed out.",
-      "result": "experiments/dominik_w090/RESULTS.md",
-      "topic": "readings"
+    "groups": [
+     {
+      "name": "Cameron A. Petrie",
+      "inst": "University of Cambridge"
+     },
+     {
+      "name": "David A. Hodell",
+      "inst": "University of Cambridge"
+     },
+     {
+      "name": "Yama Dixit",
+      "inst": "IIT Delhi"
+     },
+     {
+      "name": "Vikrant Jain",
+      "inst": "IIT Gandhinagar"
+     },
+     {
+      "name": "Siddharth P. Prizomwala",
+      "inst": "Institute of Seismological Research"
+     }
+    ],
+    "now": "Some now argue that drying rivers, and not only a weaker monsoon, drove the late Harappan change. Lost channels of the Sutlej and Ghaggar are being remapped.",
+    "now_ids": [
+     "solanki-2025-river-drought",
+     "shekhar-2026-ghaggar-paleochannel",
+     "chatterjee-2026-rann-dholavira"
+    ],
+    "us": ""
+   },
+   {
+    "id": "crafts",
+    "name": "Crafts, materials and isotopes",
+    "bet": "Beads, metal, pottery, bones and residues, measured in the lab, show how goods were made and how people ate and moved.",
+    "works": 38,
+    "authors": 108,
+    "institutions": 60,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      10,
+      18,
+      14,
+      26,
+      37,
+      35
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.348
     },
-    {
-      "id": "cuneiform-2026",
-      "section": "latest",
-      "date": "2026-10",
-      "kind": "Paper",
-      "topic": "decipherment-methods",
-      "head": "Some sign statistics carry over between languages that share a script; others break",
-      "who": "Zhou and Anderson",
-      "venue": "EMNLP 2026",
-      "url": "https://doi.org/10.18653/2026.emnlp-main.2169",
-      "gist": "Word-splitting methods trained on one cuneiform language mostly still work on another, until foreign word-signs appear.",
-      "plain": "Cuneiform wrote several unrelated languages, among them Akkadian, Sumerian and Elamite. The authors asked which patterns belong to the script and which to each language. A simple method that splits text where the next sign is hard to predict kept working across languages. It failed badly on Hittite, where about a third of the signs are word-signs borrowed from other languages.",
-      "tech": "Two dictionary-free segmenters (transitional probability, Morfessor) on ORACC Akkadian, ETCSL Sumerian and Elamite; six cross-language pairs. Within language both reach F1 above 0.97 against 0.74 for a dictionary baseline. Transitional probability stays above 0.95 F1 across all six pairs; Morfessor falls to 0.27 when trained on the 13K-token Elamite source. On Hittite, with 34.7% foreign-script logograms, transitional probability drops 35 points. Segmentation and tagging, not decipherment.",
-      "borrow": "This bears on the mismatch study's logo-syllabic arm. Borrowed word-signs are a kind of mismatch of their own, different from a related language. A \"foreign logograms\" variant in the logogram-share slice would test it; nothing in the sealed stage 1 changes.",
-      "status": "noted",
-      "fig": "compose",
-      "thumbnail_alt": "Illustration: two clay tablets with wedge marks linked by an arc; one mark on the right tablet is outlined.",
-      "library_id": "zhou-anderson-2026-cuneiform-transfer",
-      "verified": true
+    "query": {
+     "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (bead OR beads OR isotope OR isotopic OR residue OR ceramic OR pottery OR metallurgy OR copper OR faunal OR archaeobotanical)",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(bead+OR+beads+OR+isotope+OR+isotopic+OR+residue+OR+ceramic+OR+pottery+OR+metallurgy+OR+copper+OR+faunal+OR+archaeobotanical),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "cattle-2026",
-      "section": "latest",
-      "date": "2026-08-20",
-      "kind": "Paper",
-      "topic": "trade-meluhha",
-      "head": "Isotopes suggest cattle reached Gujarat from far away, perhaps Haryana",
-      "who": "Mahala, Laskar and colleagues",
-      "venue": "Journal of Quaternary Science",
-      "url": "https://doi.org/10.1002/jqs.70106",
-      "gist": "Teeth and bone at Kanmer and Tigrana show local sheep and goats but some non-local cattle at Kanmer.",
-      "plain": "Chemical traces in teeth record where an animal grew up. The team tested animals from two Harappan sites more than 900 km apart. Sheep and goats were raised locally. Some cattle at Kanmer in Gujarat seem to have come from elsewhere, likely Haryana.",
-      "tech": "C-O-Sr-Nd isotopes on faunal teeth, bone bioapatite and bone-encased soil from Kanmer (Gujarat) and Tigrana (Haryana). Most sheep and goat local; bovines from Mature and late-Mature Kanmer of diverse, possibly non-local origin, \"likely\" Haryana. Local rainfall was the main water source at Kanmer. No sample counts seen (abstract only).",
-      "borrow": "A physical link between Gujarat and Haryana is one channel for shared seal practice. Kanmer has excavated seals and sealings. A test: do Kanmer texts share more sign sequences with Haryana sites than distance predicts?",
-      "status": "noted",
-      "fig": "goods",
-      "thumbnail_alt": "Illustration: a round seal with a bull between two distant mounds, on a dotted route.",
-      "library_id": "mahala-2026-bovine-isotopes",
-      "verified": true
+    "groups": [
+     {
+      "name": "Cameron A. Petrie",
+      "inst": "University of Cambridge"
+     },
+     {
+      "name": "V. N. Prabhakar",
+      "inst": "IIT Gandhinagar"
+     },
+     {
+      "name": "Yadubirsingh Rawat",
+      "inst": "Archaeological Survey of India"
+     },
+     {
+      "name": "Anil Kumar Pokharia",
+      "inst": "Birbal Sahni Institute of Palaeosciences"
+     },
+     {
+      "name": "Heather M.-L. Miller",
+      "inst": "University of Toronto"
+     }
+    ],
+    "now": "Studies of pottery, beads and stone tools ask how stable Harappan craft methods were and where the raw materials came from.",
+    "now_ids": [
+     "sarkar-2026-bagasra-pottery",
+     "mahala-2025-ernestite",
+     "gadekar-2025-indus-lithics"
+    ],
+    "us": ""
+   },
+   {
+    "id": "trade",
+    "name": "Trade and Meluhha",
+    "bet": "Harappan goods and seals abroad, and Meluhha in Mesopotamian texts, map the long-distance links.",
+    "works": 43,
+    "authors": 99,
+    "institutions": 48,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      18,
+      23,
+      22,
+      29,
+      44,
+      40
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.224
     },
-    {
-      "id": "rozanova-2026",
-      "section": "latest",
-      "date": "2026-08-17",
-      "kind": "Preprint",
-      "topic": "language-question",
-      "head": "A calibrated attack finds no language behind the Voynich manuscript's units",
-      "who": "Rozanova and Temerev",
-      "venue": "arXiv 2608.17096",
-      "url": "https://arxiv.org/abs/2608.17096",
-      "gist": "Tested first on ciphers with a known answer, the attack recovers Latin with the right model and little with a wrong one, and Voynich looks like the wrong-language case.",
-      "plain": "Before attacking the Voynich text, the authors built ciphers of Latin where they knew the answer. With a Latin model their attack recovered most of the key. With a German model it recovered little. They also compared each real text with a fake one that copies its letter patterns. The Voynich text scored no better than its fake, like the wrong-language case.",
-      "tech": "Multi-glyph units learned by BPE and class merging, then a class-to-letter substitution attack against seven language models, with eight restarts. On synthetic Latin homophonic ciphers it recovers 73.7-92.6% of the frequency-weighted mapping with the right model and 0-23.4% with the wrong (German) one. The real-minus-surrogate differential is positive in all 25 right-language runs (+0.13 to +0.52); Voynich gives a mean of -0.0085. Wrong-language arm is one language; calibrated for concatenative ciphers only.",
-      "borrow": "This is close to our mismatch study. Their wrong-language result is one more point on our curve: low recovery when the model is the wrong language. Their fake-text comparison (a generator fitted to the same corpus) is a stronger null than our shuffled negative, and we should add it next to planted check PC3.",
-      "status": "noted",
-      "fig": "twin",
-      "thumbnail_alt": "Illustration: a written page and a pale fitted copy resting level on one beam.",
-      "library_id": "rozanova-2026-voynich-units",
-      "verified": true
+    "query": {
+     "search": "Meluhha OR ((Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus Valley Civilisation\") AND (Mesopotamia OR Mesopotamian OR Gulf OR Oman OR Dilmun OR Magan OR trade OR exchange))",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:Meluhha+OR+((Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+Valley+Civilisation\")+AND+(Mesopotamia+OR+Mesopotamian+OR+Gulf+OR+Oman+OR+Dilmun+OR+Magan+OR+trade+OR+exchange)),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "stoicheia-2026",
-      "section": "latest",
-      "date": "2026-08-07",
-      "kind": "Preprint",
-      "topic": "corpus-data",
-      "head": "A new model fills gaps in damaged Greek inscriptions better than earlier ones",
-      "who": "Cullhed and Thörn Cleland",
-      "venue": "arXiv 2608.07249",
-      "url": "https://arxiv.org/abs/2608.07249",
-      "gist": "A letter-level model restores damaged Greek inscriptions with fewer errors than Ithaca and Aeneas, and every test has a matched control.",
-      "plain": "Many Greek inscriptions are broken. This team trained a large model to guess missing letters. Each experiment was repeated with an untrained copy of the model, so the gain from training is clear. They also released versions that never saw each passage, so tests are fair.",
-      "tech": "Stoicheia: a 405M-parameter character-level masked-diffusion encoder trained on 380M words, released as ten rotated decontaminated folds plus one. Pretraining adds 5.6 CER points on inscription reconstruction against a random-initialisation control. On Ithaca's test split character error falls from 24.6 (Ithaca) and 23.5 (Aeneas) to 15.5, and top-1 accuracy rises from 63.0 and 64.0 to 74.5 (abstract only). Greek has a huge corpus; Indus does not.",
-      "borrow": "We took the testing habits, not the model. Our sign-restoration benchmark already keeps near-copies out of the test set. Rotating folds, so every text is unseen by one released model, and a matched untrained control are two checks to add.",
-      "status": "noted",
-      "fig": "restore",
-      "thumbnail_alt": "Illustration: an inscribed stone slab with a broken corner, the gap outlined and partly refilled.",
-      "library_id": "cullhed-2026-stoicheia",
-      "verified": true
+    "groups": [
+     {
+      "name": "V. N. Prabhakar",
+      "inst": "IIT Gandhinagar"
+     },
+     {
+      "name": "Vikrant Jain",
+      "inst": "IIT Gandhinagar"
+     },
+     {
+      "name": "Cameron A. Petrie",
+      "inst": "University of Cambridge"
+     },
+     {
+      "name": "Michel de Vreeze",
+      "inst": "Durham University"
+     }
+    ],
+    "now": "River wharves, Umm an-Nar sites in Oman, and a reported seal with Indus signs from the UAE are filling in the river and sea routes.",
+    "now_ids": [
+     "hakal-2026-naru-waro-dhoro",
+     "douglas-2026-dahwa7",
+     "uaq-seal-2026-report"
+    ],
+    "us": ""
+   },
+   {
+    "id": "adna",
+    "name": "Ancient DNA",
+    "bet": "Genomes from skeletons show who the Harappans were descended from and who descended from them.",
+    "works": 13,
+    "authors": 78,
+    "institutions": 51,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      12,
+      10,
+      5,
+      14,
+      9,
+      12
+     ],
+     "partial_last": true,
+     "word": "steady",
+     "growth": -0.024
     },
-    {
-      "id": "sigil-2026",
-      "section": "latest",
-      "date": "2026-08",
-      "kind": "Preprint",
-      "head": "An invented symbol system with no sounds looks just like the Indus script",
-      "who": "Raghavendra",
-      "venue": "arXiv 2608.02999 (SIGIL)",
-      "url": "https://arxiv.org/abs/2608.02999",
-      "gist": "If a made-up emblem system matches every statistic, statistics alone cannot prove the signs are writing.",
-      "plain": "He built an artificial system of emblems with no language behind it. It matched the Indus script on every measure he could compute exactly. Programs that “decode” by matching dictionaries happily read it as English, Sanskrit or Tamil. So those numbers cannot settle whether the Indus signs write a language.",
-      "tech": "SIGIL is a sound-free emblem generator matched to Indus on every exactly scorable statistic (entropy, Zipf, n-grams, positional concentration). Dictionary-hit decoders produce fluent readings of it in several languages. This closes entropy- and Zipf-style arguments in both directions.",
-      "borrow": "Every new claim we test must also fail on SIGIL-style emblem data. We use it as a standing negative control.",
-      "status": "adopted",
-      "fig": "twin",
-      "thumbnail_alt": "Illustration: a seal with Indus signs beside a seal with invented symbols, marked as equal.",
-      "result": "experiments/bench2026/RESULTS.md",
-      "topic": "language-question"
+    "query": {
+     "search": "(\"ancient DNA\" OR \"ancient genomes\" OR \"ancient genome\" OR archaeogenetic OR archaeogenomic OR paleogenomic OR palaeogenomic) AND (\"South Asia\" OR India OR Pakistan OR Harappan OR Indus)",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(\"ancient+DNA\"+OR+\"ancient+genomes\"+OR+\"ancient+genome\"+OR+archaeogenetic+OR+archaeogenomic+OR+paleogenomic+OR+palaeogenomic)+AND+(\"South+Asia\"+OR+India+OR+Pakistan+OR+Harappan+OR+Indus),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "jognakhera-2026",
-      "section": "latest",
-      "date": "2026-07-23",
-      "kind": "Paper",
-      "topic": "chronology-environment",
-      "head": "Indus-style farming went on in the Ghaggar basin after the 4.2 ka drought",
-      "who": "Swaroop, Srivastava and colleagues",
-      "venue": "Vegetation History and Archaeobotany",
-      "url": "https://doi.org/10.1007/s00334-026-01140-4",
-      "gist": "Directly dated crops at Jognakhera, a Bara-culture site, show the Indus crop package continuing after the drought.",
-      "plain": "About 4,200 years ago a long drought hit the region. At Jognakhera, farmers afterwards still grew the same summer and winter crops as Indus farmers. A directly dated rice grain hints at contact with the Ganga plain. The authors read this as continuity and an eastward move of people, not collapse.",
-      "tech": "Macrobotanical analysis with direct dating of grains and seeds; settlement 4,300-3,400 yr BP; the Bara culture emerged around 2300 BCE, alongside the late Urban phase. Winter and summer crops, legumes in both seasons (crop rotation), a directly dated rice grain. One site; \"migration\" is inferred from material similarity (abstract only).",
-      "borrow": "Late inscriptions are rare. This supports asking whether writing faded with the cities or moved east with the people. It also helps date late-phase objects.",
-      "status": "noted",
-      "fig": "goods",
-      "thumbnail_alt": "Illustration: a clay tile carved with three sheaves of grain above a river, with an arrow pointing east.",
-      "library_id": "swaroop-2026-jognakhera-bara",
-      "verified": true
+    "groups": [
+     {
+      "name": "Niraj Rai",
+      "inst": "Birbal Sahni Institute of Palaeosciences"
+     },
+     {
+      "name": "David Reich",
+      "inst": "Broad Institute"
+     },
+     {
+      "name": "Gyaneshwer Chaubey",
+      "inst": "Banaras Hindu University"
+     },
+     {
+      "name": "Mohammed Shafiul Mustak",
+      "inst": "Mangalore University"
+     }
+    ],
+    "now": "Only one Harappan genome has been published (Rakhigarhi, 2019). Newer work reads ancestry from living groups such as the Nilgiri and Koraga tribes.",
+    "now_ids": [
+     "shinde-2019-rakhigarhi",
+     "desai-2026-nilgiri-genomes",
+     "sequeira-2025-koraga-proto-dravidian"
+    ],
+    "us": ""
+   },
+   {
+    "id": "undeciphered",
+    "name": "Undeciphered scripts in general",
+    "bet": "Methods tried on Linear A, Proto-Elamite, rongorongo and others carry over to the Indus script, and the reverse.",
+    "works": 43,
+    "authors": 75,
+    "institutions": 38,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      26,
+      23,
+      26,
+      29,
+      38,
+      31
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.104
     },
-    {
-      "id": "kelley-2026",
-      "section": "latest",
-      "date": "2026-07-18",
-      "kind": "Paper",
-      "topic": "neighbour-scripts",
-      "head": "A short book on proto-Elamite, the Indus script's other unread neighbour",
-      "who": "Kelley",
-      "venue": "Cambridge Elements",
-      "url": "https://doi.org/10.1017/9781009614559",
-      "gist": "A new overview of proto-Elamite: about 1,700 tablets from Iran, c. 3300-2900 BCE, still only partly read.",
-      "plain": "Proto-Elamite was written in Iran about 5,000 years ago, mostly to count goods, people and institutions. It is only partly understood. This short book sums up what is known. It describes a decipherment effort that mixes mathematics, comparison with other scripts and computer methods.",
-      "tech": "Cambridge Element; about 1,700 clay tablets, c. 3300-2900 BCE, hundreds of signs. The abstract describes the decipherment as combining mathematics, comparative studies, corpus digitisation and computer science (abstract only).",
-      "borrow": "Proto-Elamite is the closest working model for an undeciphered administrative script. We use the computational methods of the same group in our Elamite bridge. The book is now the reference to check for sign-value anchors usable as a logo-syllabic test case.",
-      "status": "noted",
-      "fig": "compose",
-      "thumbnail_alt": "Illustration: a clay accounting tablet with counting marks and signs beside a short book.",
-      "library_id": "kelley-2026-proto-elamite",
-      "verified": true
+    "query": {
+     "search": "\"undeciphered script\" OR \"undeciphered scripts\" OR \"undeciphered writing\" OR rongorongo OR \"Proto-Elamite\" OR \"Linear Elamite\" OR \"Cretan hieroglyphic\" OR \"Cypro-Minoan\" OR \"Voynich manuscript\" OR \"Indus script\" OR \"Linear A script\"",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:\"undeciphered+script\"+OR+\"undeciphered+scripts\"+OR+\"undeciphered+writing\"+OR+rongorongo+OR+\"Proto-Elamite\"+OR+\"Linear+Elamite\"+OR+\"Cretan+hieroglyphic\"+OR+\"Cypro-Minoan\"+OR+\"Voynich+manuscript\"+OR+\"Indus+script\"+OR+\"Linear+A+script\",type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "rakhigarhi-rgr3-2026",
-      "section": "latest",
-      "date": "2026-06-30",
-      "kind": "Paper",
-      "topic": "archaeology",
-      "head": "A first dig at a new Rakhigarhi mound finds a stamp seal in dated late layers",
-      "who": "Gupta and Kumar",
-      "venue": "Vestigia Indica (BSSS journal)",
-      "url": "https://doi.org/10.51767/jha0401",
-      "gist": "The 2021-22 season at Rakhigarhi mound 3 found houses, burials, beads, a gold piece and one steatite seal, dated c. 2000-1800 BCE.",
-      "plain": "Rakhigarhi is one of the largest Indus cities. This report covers the first season on its mound 3. Diggers found mud and fired-brick buildings, child and adult burials, beads, figurines, a piece of gold and one stone seal. Radiocarbon dates put the layers late in the city's life, about 2000-1800 BCE.",
-      "tech": "First-season report, RGR-3, 2021-22. Mud and burnt-brick structures, child and adult burials, steatite and carnelian beads, terracotta figurines, a gold fragment and a steatite seal. AMS dates: late Mature to Late Harappan, c. 2000-1800 BCE. The abstract does not describe the seal or its text. Small regional journal; issue dated June 2026, DOI registered November 2026 (abstract only).",
-      "borrow": "A seal with a known mound and a dated late phase is the kind of record our find-spot and date tests need. If its inscription is published, it becomes a late-phase test case for our chronology work.",
-      "status": "waiting",
-      "fig": "round",
-      "thumbnail_alt": "Illustration: a mound cut in section with a trench, a small square seal resting on a dated layer, marked with a pin.",
-      "library_id": "gupta-kumar-2026-rakhigarhi-rgr3",
-      "verified": true
+    "groups": [
+     {
+      "name": "Brent Davis",
+      "inst": "University of Melbourne"
+     },
+     {
+      "name": "Silvia Ferrara",
+      "inst": "University of Bologna"
+     },
+     {
+      "name": "Jacob L. Dahl",
+      "inst": "University of Oxford"
+     },
+     {
+      "name": "Miguel Valério",
+      "inst": "University of Oxford"
+     }
+    ],
+    "now": "Linear Elamite has a claimed decipherment that is being tested on new texts. Aegean, rongorongo and Voynich work is turning to calibrated statistical tests.",
+    "now_ids": [
+     "desset-2022-linear-elamite",
+     "davis-2026-undeciphered-aegean-scripts",
+     "zhang-sheng-2026-voynich"
+    ],
+    "us": "Our 'is it language' tests, with fair synthetic controls, apply to these scripts as much as to the Indus signs."
+   },
+   {
+    "id": "language",
+    "name": "The language question",
+    "bet": "Which language family the Harappans spoke (Dravidian, Munda, a lost language or another) decides how any reading could work.",
+    "works": 19,
+    "authors": 47,
+    "institutions": 22,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      8,
+      4,
+      11,
+      11,
+      16,
+      13
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.271
     },
-    {
-      "id": "gini-2026",
-      "section": "latest",
-      "date": "2026-05-18",
-      "kind": "Paper",
-      "topic": "administration",
-      "head": "House sizes show inequality fell over time in Mohenjo-daro",
-      "who": "Green, Alam and Petrie",
-      "venue": "Antiquity",
-      "url": "https://doi.org/10.15184/aqy.2026.10359",
-      "gist": "Gini scores of house areas at Mohenjo-daro fell over time, as the city grew more prosperous.",
-      "plain": "Many early cities had rich and poor districts. The authors measured the floor area of 162 Mohenjo-daro houses as a rough guide to wealth. Inequality was lower than in Mesopotamian cities. In one area it fell over time as the street plan developed.",
-      "tech": "Gini coefficients of residence area from early excavation plans. Overall Gini 0.44 (n = 162), below Ur and Ugarit (above 0.6). In area DK-G South it fell from 0.39 (c. 2500 BC) to 0.23 (c. 2100 BC). Old plans with weak stratigraphy; house area is only a proxy for wealth.",
-      "borrow": "Seals are often read as marks of elite power. DK-G South has both phased houses and many seals, so seal counts per house can be set against house size. That tests whether seal use tracked wealth.",
-      "status": "noted",
-      "fig": "scale",
-      "thumbnail_alt": "Illustration: a city-block plan with houses of similar size beside a small chart of falling bars.",
-      "library_id": "green-2026-mohenjo-gini",
-      "verified": true
+    "query": {
+     "search": "(Harappan OR \"Indus Civilization\" OR \"Indus civilisation\" OR \"Indus Valley Civilization\" OR \"Indus script\") AND (Dravidian OR \"Proto-Dravidian\" OR Munda OR \"Indo-Aryan\" OR \"Indo-European\" OR \"language family\" OR linguistic)",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:(Harappan+OR+\"Indus+Civilization\"+OR+\"Indus+civilisation\"+OR+\"Indus+Valley+Civilization\"+OR+\"Indus+script\")+AND+(Dravidian+OR+\"Proto-Dravidian\"+OR+Munda+OR+\"Indo-Aryan\"+OR+\"Indo-European\"+OR+\"language+family\"+OR+linguistic),type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "korovina-2026",
-      "section": "latest",
-      "date": "2026-05",
-      "kind": "Paper",
-      "topic": "neighbour-scripts",
-      "head": "Testing rongorongo as a syllable script: even the same language in another style halves recovery",
-      "who": "Korovina",
-      "venue": "LT4HALA 2026 (LREC)",
-      "url": "https://aclanthology.org/2026.lt4hala-1.16/",
-      "gist": "A syllable-substitution attack works on enciphered Rapa Nui text, fails on rongorongo, and loses most of its power when the model comes from another genre.",
-      "plain": "Rongorongo is the undeciphered script of Easter Island. The author first tested an attack on Rapa Nui texts turned into code, where the answer is known. With statistics from the same kind of text, it recovered most syllables. With statistics from another kind of text in the same language, it recovered far fewer. On real rongorongo it scored at the level of noise.",
-      "tech": "Genetic-algorithm substitution attack scored by unigram, bigram and trigram counts; five Rapa Nui sub-corpora; 1,000-syllable fragments. Same-corpus model: about 26 syllables recovered, over 80% text coverage. Other-genre model: 10 syllables and 37%; worst pair (Manuscript E text, Gospel of Matthew model) 4.6. A pooled model of all five gives 17 and 62%. Fitness correlates 0.75 with accuracy; below 2,500,000 points is noise, and rongorongo scores 1.0M-1.3M. One fragment length; no spread reported.",
-      "borrow": "This matters for the mismatch study. Its \"same language across genres\" pairs are not near-zero mismatch: genre alone cut recovery by more than half here. The true-model control must use the same genre as the text, and each genre pair needs its own measured mismatch. A pooled-genre model is a cheap way to narrow the gap.",
-      "status": "noted",
-      "fig": "match",
-      "thumbnail_alt": "Illustration: a board with rows of marks; one stack of pages lies close to it and another further away.",
-      "library_id": "korovina-2026-rongorongo-syllabic",
-      "verified": true
+    "groups": [
+     {
+      "name": "Mohammed Shafiul Mustak",
+      "inst": "Mangalore University"
+     },
+     {
+      "name": "Jaison Jeevan Sequeira",
+      "inst": "Mangalore University"
+     },
+     {
+      "name": "George van Driem",
+      "inst": "University of Bern"
+     },
+     {
+      "name": "Gyaneshwer Chaubey",
+      "inst": "Banaras Hindu University"
+     }
+    ],
+    "now": "Genetics of Dravidian-speaking groups and a Bayesian tree of the Dravidian family are the main new evidence on what the Harappans spoke.",
+    "now_ids": [
+     "sequeira-2025-koraga-proto-dravidian",
+     "narayan-2025-genetics-dravidian",
+     "kolipakam-2018-dravidian-phylogeny"
+    ],
+    "us": "Our mismatch study uses planted ciphers to test how decipherment methods fail when the guessed language is wrong."
+   },
+   {
+    "id": "script",
+    "name": "Indus script studies",
+    "bet": "Work out what the signs are and how the inscriptions are built, from sign lists, structure and statistics.",
+    "works": 16,
+    "authors": 21,
+    "institutions": 12,
+    "estimated": false,
+    "trend": {
+     "years": [
+      2021,
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+     ],
+     "counts": [
+      5,
+      3,
+      10,
+      8,
+      14,
+      12
+     ],
+     "partial_last": true,
+     "word": "rising",
+     "growth": 0.355
     },
-    {
-      "id": "lehs-2026",
-      "section": "latest",
-      "date": "2026",
-      "kind": "Book",
-      "head": "The full edition of Linear Elamite, the script read through kings’ names",
-      "who": "Desset and colleagues",
-      "venue": "Linear Elamite Texts from Susa (OrientLab SM 10)",
-      "url": "https://doi.org/10.1515/za-2022-0003",
-      "gist": "All the Susa texts of the script read in 2022, the most recent ancient script to be read.",
-      "plain": "Linear Elamite, from what is now Iran, was read in 2022. The key was royal names already known from cuneiform, on objects dated well enough to predict which names should appear. This book publishes the full set of texts from Susa.",
-      "tech": "Complete edition of the Susa Linear Elamite texts. The decipherment (Desset et al. 2022, ZA 112:11-60) is anchored on royal names and titles known from cuneiform. Critics question parts of it: Dahl 2023 (archaising, not purely syllabic) and Mäder (about 70% phonetic).",
-      "borrow": "We used Linear Elamite as a known-answer test for our own name-matching method. The method could not recover its values, so we stopped it rather than run it on Indus.",
-      "status": "done",
-      "fig": "crown",
-      "thumbnail_alt": "Illustration: stacked edition pages of an unread script with a crown medallion for kings’ names.",
-      "result": "experiments/crib_le_known_answer/RESULTS.md",
-      "topic": "neighbour-scripts"
+    "query": {
+     "search": "\"Indus script\" OR \"Harappan script\" OR \"Indus inscriptions\" OR \"Indus signs\" OR \"Indus seals\" OR \"Harappan seals\"",
+     "filter": "type:article|review|book-chapter,primary_location.source.type:journal|book series|ebook platform|conference",
+     "window": [
+      "2025-11-20",
+      "2026-11-19"
+     ],
+     "url": "https://api.openalex.org/works?filter=title_and_abstract.search:\"Indus+script\"+OR+\"Harappan+script\"+OR+\"Indus+inscriptions\"+OR+\"Indus+signs\"+OR+\"Indus+seals\"+OR+\"Harappan+seals\",type:article|review|book-chapter,primary_location.source.type:journal|book+series|ebook+platform|conference,from_publication_date:2025-11-20,to_publication_date:2026-11-19"
     },
-    {
-      "id": "nair-2026",
-      "section": "latest",
-      "date": "2026-04",
-      "kind": "Preprint",
-      "head": "The Indus script sits between coats of arms and paperwork",
-      "who": "Nair",
-      "venue": "arXiv 2604.17828",
-      "url": "https://arxiv.org/abs/2604.17828",
-      "gist": "Compared with made-up systems of known kinds, Indus falls between heraldry and administrative records.",
-      "plain": "The author built artificial sign systems of different kinds, such as coats of arms and office records, and compared their statistics with the Indus texts. The Indus script lands between the two.",
-      "tech": "A synthetic-baseline scorecard: generated heraldic, administrative and linguistic corpora scored on shared statistics. Indus sits between heraldic and administrative baselines.",
-      "borrow": "Agrees with our finding that each kind of object has its own vocabulary. Nothing new to run.",
-      "status": "noted",
-      "fig": "scale",
-      "thumbnail_alt": "Illustration: a shield, an Indus seal and a tally tablet on one scale, with the seal marked between them.",
-      "topic": "language-question"
-    },
-    {
-      "id": "uae-seal-2026",
-      "section": "latest",
-      "date": "2026-04",
-      "kind": "News",
-      "head": "Reported: a new seal with Indus signs from the UAE",
-      "who": "News report (no excavation report yet)",
-      "venue": "Umm al-Quwain, UAE",
-      "url": "https://ittihaas.com/api/apps/685bf8c05cf93a74890518d0/functions/newsSharePage?newsId=69db8bcd9150f8827bc41491&slug=bronze-age-seal-found-in-uae-confirms-direct-maritime-trade-with-indus-valley",
-      "gist": "A round Gulf-style seal with Indus signs and a humped bull, dated to about 2300 BCE. Not yet verified.",
-      "plain": "A news site reports a small round seal of the Gulf type, with Indus signs and a humped bull, from Umm al-Quwain. The excavation report, the exact find spot and a readable photo of the signs have not been published, so we cannot use it yet.",
-      "tech": "Known only from a news aggregator. Site (possibly Tell Abraq), excavator and sign sequence not given. Not in our corpus of objects found abroad.",
-      "borrow": "We looked for an excavation report and found none, and the news page is now offline. It stays out of our data until the find is published.",
-      "status": "waiting",
-      "fig": "round",
-      "thumbnail_alt": "Illustration: a round Gulf-style seal with Indus signs, outlined as reported and not yet seen.",
-      "result": "experiments/uaq_seal/RESULTS.md",
-      "topic": "trade-meluhha"
-    },
-    {
-      "id": "kriger-2026",
-      "section": "latest",
-      "date": "2026-03",
-      "kind": "Preprint",
-      "head": "The “registration code” reading fails its own predictions",
-      "who": "Kriger and Hunt",
-      "venue": "Zenodo 19103880",
-      "url": "https://doi.org/10.5281/zenodo.19103880",
-      "gist": "They argued seal texts work like ID numbers. On 646 seals, the texts repeat more than chance, not less.",
-      "plain": "This preprint argued that seal texts are like registration numbers: each one unique, with numbers in fixed places. We ran their tests on 646 Mohenjo-daro unicorn seals. The texts turned out less unique than chance, and the number patterns did not hold.",
-      "tech": "Uniqueness 88.2% vs 99.2% under random redeal (below every null draw). Numerals in the second-to-last slot 19.0% vs 18.7% shuffled (p = 0.46). Their dominant “2” is mostly the M99 connective of the opening formula. Near-duplicates differ at an edge in 20 of 80 pairs, so “never at edges” is false. The edge pattern in positional entropy replicates, but it was already known.",
-      "borrow": "Nothing to borrow. Their best result was already known, and the rest fails.",
-      "status": "closed",
-      "fig": "unique",
-      "thumbnail_alt": "Illustration: three seals; the first and last carry the same text, linked by an arc.",
-      "result": "experiments/bench2026/RESULTS.md",
-      "topic": "readings"
-    },
-    {
-      "id": "asi-2025",
-      "section": "latest",
-      "date": "2025-08-20",
-      "kind": "Event",
-      "head": "India’s archaeology agency held a three-day meeting on the script",
-      "who": "Archaeological Survey of India",
-      "venue": "Decipherment of Indus Script: Current Status and Way Forward, 20–22 Aug 2025",
-      "url": "https://asi.nic.in/admin/whatsnew/download/771",
-      "gist": "A national meeting on the state of decipherment. No proceedings yet.",
-      "plain": "The Archaeological Survey of India brought researchers together for three days to review where decipherment stands. Only the programme is public so far.",
-      "tech": "Programme only. No proceedings or papers found as of November 2026.",
-      "borrow": "We have asked the agency whether readings proposed there can be scored on our open test bench.",
-      "status": "waiting",
-      "fig": "calendar",
-      "thumbnail_alt": "Illustration: three clay tiles, one sign on each, bracketed as three days.",
-      "topic": "archaeology"
-    },
-    {
-      "id": "protoelamite-2025",
-      "section": "latest",
-      "date": "2025",
-      "kind": "Paper",
-      "head": "How computers are opening up Proto-Elamite, the Indus script’s unread neighbour",
-      "who": "Monroe, Kelley, Born and Sarkar",
-      "venue": "Near Eastern Archaeology 88(4):316–323, building on Born et al. 2019–2023",
-      "url": "https://aclanthology.org/2021.findings-acl.362.pdf",
-      "gist": "Without knowing the language, they found which signs head an entry, which are built from parts, and which number system each count uses.",
-      "plain": "Proto-Elamite, from Iran, is unread and about as old as the Indus script. Teams have used computers to learn how its texts are organised: which signs start an entry, which complex signs are made of simpler ones, and which counting system each number belongs to, by looking at what is being counted. None of this needs the language.",
-      "tech": "Born et al. (2019, 2021, 2023): topic models (LDA) for genres, “header” signs, complex-sign compositionality, and disambiguation of numerals by number system. These are the methods that worked on an undeciphered administrative script without a language. They have not been applied as a set to the Indus texts.",
-      "borrow": "We tried the pieces that fit. Indus signs that look like Proto-Elamite or proto-cuneiform signs do not behave like them (0 of 5 tests), complex signs do not split into their parts, and no known number system matches the Indus counts. Still untried: letting a model find genres from scratch.",
-      "status": "done",
-      "fig": "compose",
-      "rank": 5,
-      "idea": "Use the Proto-Elamite toolkit: look-alikes, compound signs and number systems",
-      "thumbnail_alt": "Illustration: a clay accounting tablet with number impressions and marks; one entry is outlined.",
-      "result": "experiments/protocuneiform/RESULTS.md",
-      "topic": "neighbour-scripts"
-    },
-    {
-      "id": "dixit-2025",
-      "section": "latest",
-      "date": "2025-05",
-      "kind": "Paper",
-      "head": "Teaching computers to find signs and animals in seal photos",
-      "who": "Dixit and colleagues",
-      "venue": "Journal of Computer Applications in Archaeology 8(1):156–169",
-      "url": "https://doi.org/10.5334/jcaa.175",
-      "gist": "Image models that spot signs and animal motifs on photographs of seals.",
-      "plain": "The team trained image models to find the signs on a seal photo, name each one, and recognise the animal. Only sample data is public. The full set is available from the authors on request.",
-      "tech": "YOLOv3 sign detection, MobileNet sign classification and motif identification on seal photographs. The repository (DM-BiCLab) holds sample data only.",
-      "borrow": "Reading signs straight from photos could settle the 1-in-8 disagreements between the two main transcriptions. We need open images first.",
-      "status": "idea",
-      "fig": "detect",
-      "rank": 4,
-      "idea": "Read signs straight from seal photos, to fix the 1-in-8 disagreements between transcriptions",
-      "thumbnail_alt": "Illustration: a seal with signs and a bull, each found by a detection box.",
-      "topic": "corpus-data"
-    },
-    {
-      "id": "tyc-2025",
-      "section": "latest",
-      "date": "2025-03",
-      "kind": "Preprint",
-      "head": "Do Indus signs look more like scripts from the Himalayas than from Mesopotamia?",
-      "who": "ivc2tyc project",
-      "venue": "arXiv 2503.21074",
-      "url": "https://arxiv.org/abs/2503.21074",
-      "gist": "An image-AI comparison claims Tibetan-Yi corridor scripts resemble Indus signs most.",
-      "plain": "Using image AI, the authors compare sign shapes and report that scripts from the Tibetan-Yi corridor, such as Naxi Dongba and Yi, look more like Indus signs than proto-cuneiform or Proto-Elamite do. Looking alike does not mean sounding alike, but their open sign images are useful.",
-      "tech": "Hybrid vision embeddings over glyph image sets for Indus, proto-cuneiform, Proto-Elamite and five Tibetan-Yi scripts (GitHub oohalakkadi/ivc2tyc, MIT; recommended by PCI Archaeology). Shape similarity carries no sound values: Linear Elamite look-alikes failed blind (p = 0.83).",
-      "borrow": "We red-teamed it. The claim technically survives, but its whole edge comes from one small script, Ba-Shu. Proto-cuneiform is closer to Indus than four of the five Himalayan scripts.",
-      "status": "done",
-      "fig": "lookalike",
-      "rank": 8,
-      "idea": "Test the claim that Indus signs look most like Himalayan scripts",
-      "thumbnail_alt": "Illustration: an Indus seal beside a mountain rock carved with a similar mark.",
-      "result": "experiments/redteam_ivc2tyc/RESULTS.md",
-      "topic": "neighbour-scripts"
-    },
-    {
-      "id": "tn-graffiti-2025",
-      "section": "latest",
-      "date": "2025-01",
-      "kind": "Study",
-      "head": "15,184 marks on South Indian pottery, many with Indus look-alikes",
-      "who": "Rajan and Sivanantham (Tamil Nadu Archaeology)",
-      "venue": "Tamil Nadu graffiti study",
-      "url": "https://tngraffiti.in/",
-      "gist": "Most pottery marks from 140 Tamil Nadu sites have a similar-looking Indus sign.",
-      "plain": "Archaeologists in Tamil Nadu catalogued 15,184 marks scratched on pots from 140 sites and found that most have an Indus sign that looks similar. The marks are about 1,000 years younger, and most stand alone rather than in texts.",
-      "tech": "Shape parallels for roughly 60–90% of marks. Gap of over 1,000 years; mostly single marks. Earlier work found that look-alike marks do not behave like the Indus signs they resemble.",
-      "borrow": "We tested whether look-alikes behave alike. They do not, so this route is closed for now.",
-      "status": "closed",
-      "fig": "pots",
-      "thumbnail_alt": "Illustration: three clay pots, each scratched with a mark; one is outlined.",
-      "topic": "archaeology"
-    },
-    {
-      "id": "proskouriakoff-1960",
-      "section": "landmark",
-      "date": "1960",
-      "kind": "Other scripts",
-      "head": "Reading Maya history before reading a single sound",
-      "who": "Tatiana Proskouriakoff",
-      "venue": "American Antiquity 25(4):454–475",
-      "url": "https://doi.org/10.2307/276633",
-      "gist": "She matched glyph patterns to the lifespans of rulers, and found births and accessions without sounding anything out.",
-      "plain": "Maya monuments carry dates. Proskouriakoff noticed that the dates on each group of monuments spanned a human lifetime, and that the same glyphs always sat beside a first date (birth) and a later one (taking the throne). So the texts were about real rulers. She worked out what glyphs meant from the pattern of events, years before anyone could read their sounds.",
-      "tech": "Pattern-of-dates analysis at Piedras Negras: recurring glyph-date pairings mapped onto plausible life events (birth, accession, death), with intervals constrained by human lifespans.",
-      "borrow": "We tested it on the 1930s excavation registers. Seals found in streets carry the same signs as seals found in rooms, and broken seals carry the same signs as pieces of whole ones. Most other fates, such as burnt, buried or hoarded seals, are recorded too rarely to test. One small lead, that damaged seals keep more end signs, did not survive a second team: it came from damaged seals having shorter texts.",
-      "status": "done",
-      "fig": "life",
-      "rank": 1,
-      "idea": "Match sign patterns to what happened to each seal: broken on purpose, buried with someone, found at a gate",
-      "thumbnail_alt": "Illustration: a carved stone stela with glyph blocks, three of them linked to points on a timeline.",
-      "result": "experiments/seal_fate/RESULTS.md",
-      "topic": "decipherment-methods"
-    },
-    {
-      "id": "mahadevan-1977",
-      "section": "landmark",
-      "date": "1977",
-      "kind": "Corpus",
-      "head": "The list of every text that made the field possible",
-      "who": "Iravatham Mahadevan",
-      "venue": "The Indus Script: Texts, Concordance and Tables",
-      "url": "https://www.harappa.com/script/maha15.html",
-      "gist": "417 signs, numbered, and every text then known. The M-numbers on this site come from it.",
-      "plain": "Mahadevan drew every sign, gave each a number and listed every known inscription, with every place each sign appears. Almost all statistical work since, including ours, starts from this list.",
-      "tech": "Sign list of 417 signs with a full concordance of the texts then known. Showed the regular positions of signs, such as the jar sign usually ending a text. Allograph splitting differs from the later Wells/Fuls list (676–713 signs).",
-      "borrow": "The backbone of our main transcription.",
-      "status": "adopted",
-      "fig": "grid",
-      "thumbnail_alt": "Illustration: a catalogue page printed with a grid of Indus signs.",
-      "topic": "corpus-data"
-    },
-    {
-      "id": "parpola-1994",
-      "section": "landmark",
-      "date": "1994",
-      "kind": "Book",
-      "head": "The best-known case that the signs write an early Dravidian language",
-      "who": "Asko Parpola",
-      "venue": "Deciphering the Indus Script (Cambridge University Press)",
-      "url": "https://tuhat.helsinki.fi/ws/portalfiles/portal/127256525/Parpola_A_2010._A_Dravidian_solution_to_the_Indus_script_problem.pdf",
-      "gist": "Fish sign = mīn, a word that means both “fish” and “star” in Dravidian languages.",
-      "plain": "Parpola argues the signs are mostly word-signs that also work like puns, the way a picture of a bee plus a leaf can spell “belief”. His famous example is the fish sign: in Dravidian languages the word mīn means both fish and star, so a number plus fish could name a star group.",
-      "tech": "Logo-syllabic, rebus-based Proto-Dravidian reading. Fish M59 = mīn “fish/star”; six + fish = aṟu-mīn (Pleiades); seven + fish = eḻu-mīn (Ursa Major); intersecting circles = muruku. About 400 signs is too many for a syllabary and too few for pure word-writing.",
-      "borrow": "We turned his readings into predictions and tested them. Six + fish holds as a fixed unit; “seven stars” is not supported; the fish signs group together but do not behave like god names.",
-      "status": "done",
-      "fig": "fishstar",
-      "thumbnail_alt": "Illustration: a seal cut with the fish sign, linked to a carved star.",
-      "result": "experiments/redteam/RESULTS.md",
-      "topic": "readings"
-    },
-    {
-      "id": "fsw-2004",
-      "section": "landmark",
-      "date": "2004",
-      "kind": "Paper",
-      "head": "The case that the signs might not be writing at all",
-      "who": "Farmer, Sproat and Witzel",
-      "venue": "Electronic Journal of Vedic Studies 11(2)",
-      "url": "https://safarmer.com/fsw2.pdf",
-      "gist": "Texts are very short, and many signs are rare: maybe these are symbols, not a script.",
-      "plain": "The authors pointed out that Indus texts are very short, about five signs on average, that many signs appear only once, and that no long text has ever been found. They argued the signs could be a system of symbols, like road signs or coats of arms, rather than writing that records speech.",
-      "tech": "Arguments from text length (mean about 4.6 signs, longest single-surface text 17), rare-sign frequency and the absence of long texts. Sparked the language-vs-symbols debate continued by Rao et al. 2009 and Sproat 2010 and 2014.",
-      "borrow": "We test whether the signs are language at all, instead of assuming it.",
-      "status": "adopted",
-      "fig": "short",
-      "thumbnail_alt": "Illustration: a seal with a short text beside an emblem shield.",
-      "result": "experiments/language_vs_code/RESULTS.md",
-      "topic": "language-question"
-    },
-    {
-      "id": "rao-sproat",
-      "section": "landmark",
-      "date": "2009–2014",
-      "kind": "Debate",
-      "head": "Does sign order prove it is a language? The numbers say no",
-      "who": "Rao et al. 2009 (Science); Sproat 2010, 2014 (Language)",
-      "venue": "Science 324; Language 90:457",
-      "url": "https://muse.jhu.edu/article/547119/summary",
-      "gist": "A measure of how predictable the next sign is put Indus near languages. Critics showed non-writing scores there too.",
-      "plain": "Rao’s team measured how predictable the next sign is and found the Indus script sits in the same band as languages. Sproat replied that symbol systems that are not writing can score the same way, and that two better measures put Indus with non-writing. Later work, including SIGIL, settled it: these numbers alone cannot decide.",
-      "tech": "Conditional entropy of sign bigrams (Rao et al. 2009); n-gram restoration of missing signs (Yadav et al. 2010, PLoS ONE). Sproat (2010, 2014): the entropy band does not separate writing from non-writing; two measures that do put Indus and Pictish on the non-linguistic side.",
-      "borrow": "Treat entropy, Zipf and n-gram arguments as closed in both directions.",
-      "status": "closed",
-      "fig": "entropy",
-      "thumbnail_alt": "Illustration: a stone cut with two overlapping range bands and a marker where they overlap.",
-      "result": "experiments/language_vs_code/RESULTS.md",
-      "topic": "language-question"
-    },
-    {
-      "id": "laursen-2010",
-      "section": "landmark",
-      "date": "2010",
-      "kind": "Paper",
-      "head": "Indus signs used in a new way on seals from the Gulf",
-      "who": "Steffen Laursen",
-      "venue": "Arabian Archaeology and Epigraphy 21",
-      "url": "https://www.harappa.com/sites/default/files/pdf/The_westward_transmission_of_Indus_Valle.pdf",
-      "gist": "Round seals from the Gulf use Indus signs in combinations rarely seen at home.",
-      "plain": "Traders around Bahrain made round seals of their own style but carved Indus signs on them. Laursen showed these seals use the signs differently, for example often putting a “twins” sign at the front. One explanation is that local names were written with borrowed signs.",
-      "tech": "Gulf-type round seals show an excess of the prefixed “twins” sign and sign pairs unseen at home. Suggests Indus signs adapted to another language in the Gulf.",
-      "borrow": "Our round-seal finding builds on this, and adds that round seals found in Indus cities break the order too.",
-      "status": "done",
-      "fig": "round",
-      "thumbnail_alt": "Illustration: a round Gulf seal and a square Indus seal with the same signs in a different order.",
-      "result": "experiments/redteam_foreign/RESULTS.md",
-      "topic": "trade-meluhha"
-    },
-    {
-      "id": "snyder-luo",
-      "section": "landmark",
-      "date": "2010–2019",
-      "kind": "Other scripts",
-      "head": "Computers can crack a script, if they know a related language",
-      "who": "Snyder, Barzilay and Knight 2010; Luo, Cao and Barzilay 2019",
-      "venue": "ACL 2010; ACL 2019",
-      "url": "https://arxiv.org/abs/1906.06718",
-      "gist": "Ugaritic and Linear B were re-deciphered by machine, but only by matching them to Hebrew and Greek.",
-      "plain": "Machine learning re-cracked two ancient scripts: Ugaritic, matched against Hebrew, and Linear B, matched against early Greek. The trick only works when you already know a closely related language. For the Indus script, no such language is known.",
-      "tech": "Snyder et al. 2010: 29 of 30 Ugaritic letters recovered via Hebrew cognates. Luo et al. 2019: 67.3% of Linear B cognates recovered via Greek. Luo et al. 2021 found no strong evidence that Basque is related to Iberian.",
-      "borrow": "We tested the planted-language version at Indus size. Without the right language, it fails, so this route waits for an outside clue.",
-      "status": "closed",
-      "fig": "match",
-      "thumbnail_alt": "Illustration: a column of Indus signs linked to empty slots where a known related language would be.",
-      "result": "experiments/cognate_decipher/RESULTS.md",
-      "topic": "decipherment-methods"
-    },
-    {
-      "id": "rakhigarhi-2019",
-      "section": "landmark",
-      "date": "2019",
-      "kind": "Genetics",
-      "head": "DNA from Rakhigarhi: who the Indus people were",
-      "who": "Shinde et al. (Cell); Narasimhan et al. (Science)",
-      "venue": "Cell 179; Science 365",
-      "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5",
-      "gist": "One ancient genome: no steppe ancestry, and close links to later South Indian populations.",
-      "plain": "Scientists read the DNA of a person buried at the Indus city of Rakhigarhi. It had no ancestry from the Eurasian steppe, which arrived in South Asia later, and it is related to the main ancestry of later South Indians. That fits an Indus language that was not Indo-European, perhaps related to Dravidian, but genes do not prove a language.",
-      "tech": "Genome I6113 (1 of 61 skeletons screened): Iranian-related plus AASI ancestry, no steppe or Anatolian farmer ancestry. Narasimhan et al.: an “Indus Periphery Cline”; steppe ancestry arrives after about 2000 BCE.",
-      "borrow": "Background only. It narrows the likely language families but gives no sign values.",
-      "status": "noted",
-      "fig": "dna",
-      "thumbnail_alt": "Illustration: a clay tile carved with a DNA double helix, one rung marked.",
-      "topic": "people-dna"
-    },
-    {
-      "id": "mukhopadhyay-2019",
-      "section": "landmark",
-      "date": "2019–2023",
-      "kind": "Paper",
-      "head": "The texts as labels for goods and permits, not names",
-      "who": "Bahata Ansumali Mukhopadhyay",
-      "venue": "Humanities and Social Sciences Communications (2019, 2021, 2023)",
-      "url": "https://www.nature.com/articles/s41599-023-02320-7",
-      "gist": "Stroke signs as units of measure, crop signs as goods, and no personal names.",
-      "plain": "Mukhopadhyay reads the inscriptions as practical labels: what a parcel holds, how much, and who may pass, rather than people’s names. Stroke signs would be units whose value depends on the goods, and some signs would stand for crops or other commodities. In 2025 she proposed the fish signs mean gems.",
-      "tech": "Logographic or semasiographic “formalised data carriers”: metrological strokes, commodity signs after numerals, the jar as a phrase-final function sign, Kanmer tablets as gate passes; pīlu “elephant/tooth” as a loanword (2021); fish = maṇi “gem” (2025, SSRN 5079207).",
-      "borrow": "A first test found no sign tied to a craft at two sites, but it had too little data to tell. The fish = gem prediction needs find spots from bead workshops, which we have asked excavators for.",
-      "status": "next",
-      "fig": "goods",
-      "rank": 2,
-      "idea": "Check whether fish signs cluster at bead-making sites, as the “fish = gem” reading predicts",
-      "thumbnail_alt": "Illustration: a storage jar tied with a cord and sealed with a clay tag stamped with signs.",
-      "result": "experiments/assemblage/RESULTS.md",
-      "topic": "administration"
-    },
-    {
-      "id": "desset-2022",
-      "section": "landmark",
-      "date": "2022",
-      "kind": "Paper",
-      "head": "Linear Elamite read, through kings’ names",
-      "who": "Desset, Tabibzadeh, Kervran, Basello and Marchesi",
-      "venue": "Zeitschrift für Assyriologie 112:11–60",
-      "url": "https://doi.org/10.1515/za-2022-0003",
-      "gist": "The most recent ancient script to be read, and a model of what the Indus script is missing.",
-      "plain": "The team read Linear Elamite by finding the names of kings they already knew from cuneiform, written on silver beakers that could be dated. Each name gave the sounds of several signs. The Indus script has no such object yet: no text in a known script that names an Indus person.",
-      "tech": "Anchored on royal names and titles from cuneiform on datable objects (silver gunagi beakers, Desset 2018). Critiques: Dahl 2023; Mäder; Kelley et al. 2022 call the proposed Proto-Elamite values premature.",
-      "borrow": "This is why we search for names of people from the Indus region in cuneiform records, and asked museums for seal impressions on tablets that name them.",
-      "status": "adopted",
-      "fig": "crown",
-      "thumbnail_alt": "Illustration: a silver beaker with a band of marks, linked to a crown medallion.",
-      "result": "experiments/sealing_hunt/RESULTS.md",
-      "topic": "neighbour-scripts"
-    },
-    {
-      "id": "sign2vec-2022",
-      "section": "landmark",
-      "date": "2022",
-      "kind": "Other scripts",
-      "head": "Letting the computer decide which shapes are the same sign",
-      "who": "Corazza and colleagues",
-      "venue": "PLOS ONE (Cypro-Minoan)",
-      "url": "https://doi.org/10.1371/journal.pone.0269544",
-      "gist": "Images plus context sorted Cypro-Minoan’s variant shapes into signs.",
-      "plain": "Scholars disagree about whether two similar shapes are one sign or two. For Cypro-Minoan, this team let a model look at each sign’s picture and where it appears, and group them. The Indus script has the same problem: the two main sign lists count about 400 and about 700 signs.",
-      "tech": "Sign2Vec: unsupervised clustering on image features plus distributional context, validated on Cypro-Minoan with known-answer checks.",
-      "borrow": "We tried it on two older scripts whose sign lists are known. Shape plus context merged too many signs that are not the same, and context alone was almost always wrong. Shape alone did best. On the Indus texts, a shape-only list fits unseen texts a little better than the 400-sign list, but a second team found half of that gain is one choice (three fish shapes counted as one sign) and it did not repeat on texts found after 1977. So the texts do not settle the count. The 700 side cannot be tested at all: most of those extra signs appear once or twice.",
-      "status": "done",
-      "result": "experiments/signlist_shape/RESULTS.md",
-      "fig": "cluster",
-      "rank": 3,
-      "idea": "Build the sign list from pictures plus context, to settle about 400 vs about 700 signs",
-      "thumbnail_alt": "Illustration: a clay slab with two groups of similar sign shapes, each circled.",
-      "topic": "neighbour-scripts"
-    }
-  ],
-  "topics": {
-    "decipherment-methods": "Computational decipherment",
-    "language-question": "Language or not",
-    "readings": "Readings and language family",
-    "neighbour-scripts": "Neighbouring and other undeciphered scripts",
-    "corpus-data": "Corpora, sign lists and tools",
-    "administration": "Seals, weights and administration",
-    "archaeology": "Excavations and new finds",
-    "chronology-environment": "Chronology, rivers and climate",
-    "trade-meluhha": "Meluhha, the Gulf and trade",
-    "people-dna": "People: ancient DNA and bodies"
+    "groups": [
+     {
+      "name": "Debasis Mitra",
+      "inst": "Florida Institute of Technology"
+     },
+     {
+      "name": "Ujjwal Bhattacharya",
+      "inst": "Indian Statistical Institute"
+     },
+     {
+      "name": "Gregg M. Jamison",
+      "inst": "University of Wisconsin–Milwaukee"
+     },
+     {
+      "name": "Yuji Yamaguchi",
+      "inst": "Okayama University"
+     }
+    ],
+    "now": "No lab-scale group works on the script. The output is mostly single-author proposals of readings, plus a few statistical and deep-learning papers on signs and seals.",
+    "now_ids": [
+     "kriger-hunt-2026-registration",
+     "dominik-2026-constructional",
+     "dixit-2025-deep-learning"
+    ],
+    "us": "Our restoration bench found that models do not beat simple sign-sequence counts once near-copies are excluded."
+   }
+  ]
+ },
+ "items": [
+  {
+   "id": "raj-2026",
+   "section": "latest",
+   "date": "2026-11-27",
+   "kind": "Preprint",
+   "head": "“Indus script cracked” with AI: we reran the paper’s own code",
+   "who": "Siva Raj, with Claude (Anthropic)",
+   "venue": "Zenodo 24383779 (v0.7, not peer reviewed)",
+   "url": "https://zenodo.org/records/24383779",
+   "gist": "A preprint claims to read nearly two-thirds of Indus inscriptions as early Tamil. Its own tests do not show that.",
+   "plain": "The paper gives Tamil words to 150 signs and says Tamil fits the seals far better than Sanskrit. We ran its own code on its own data. Moving the picture words onto the wrong signs leaves Tamil’s score unchanged. Japanese family names, from a language with no link to the Indus, score 60% as high as Tamil and beat it in 4 of 10 runs. The ‘copper’ and ‘armlet’ labels it cites rest on 3 and 4 distinct texts copied many times. The script has not been deciphered.",
+   "tech": "Reproduction exact (Tamil +223 ± 103, Sanskrit −13 ± 45). Picture-permutation control: median +224 over 50 permutations, p = 0.51. Fake seals: −18 to −29, so the score does track real sign order. 59% of Tamil readings are sound-alike name parts, not picture words. Japanese surnames through the unchanged contest: +134.5 ± 195, 7 of 10 seeds above control (our preregistered bar was 8, so it narrowly passes). Object marks on distinct texts: p = 0.19 (copper), 0.017 (armlet); random reassignment of readings matches as many objects, p = 0.10.",
+   "borrow": "Credit where due: open code, data, preregistered plans and frank limits made this check possible in a day. What their tests show is that Tamil name structure fits the repeated sign pairs of the seals; a language with a similar naming style fits too, and the pictures do not matter. A real test needs values fixed in advance and read blind on new inscriptions.",
+   "status": "done",
+   "fig": "match",
+   "rank": 1,
+   "idea": "Check the claimed Tamil decipherment with its own code, plus the controls it did not run",
+   "thumbnail_alt": "Drawing: Indus signs matched to words, with a question mark over the match.",
+   "result": "experiments/raj_check/RESULTS.md",
+   "topic": "readings"
+  },
+  {
+   "id": "restoration-2026",
+   "section": "latest",
+   "date": "2026-11-12",
+   "kind": "Dataset",
+   "head": "An open test for filling in missing signs",
+   "who": "Kanichira, Singam, Katyal and Somala (IIT Hyderabad)",
+   "venue": "Zenodo 24164070",
+   "url": "https://zenodo.org/records/24164070",
+   "gist": "A team released code, data and predictions for a model that guesses damaged or missing signs.",
+   "plain": "Many seals are chipped, so some signs are lost. This team trained a model to fill the gaps and published everything: the code, how they split the texts for training and testing, and the model's guesses. Because it is all open, anyone can check how good it really is.",
+   "tech": "Neural masked-sign restoration with public train/test splits and predictions (CC BY 4.0 and MIT, about 6 MB). The record page does not describe the corpus or the model. The main risk is leakage: near-copies of the same seal text can sit on both sides of a split, which inflates scores.",
+   "borrow": "We graded it, then retrained their own code. 36% of its test texts have a near-copy (one sign off, or contained) in its training texts. Training without those near-copies lowers every model's first-guess accuracy by about 6-7 points, compared with dropping the same number of unrelated texts. Without them, the neural model still does no better than their simple three-sign model.",
+   "status": "done",
+   "fig": "restore",
+   "rank": 6,
+   "idea": "Grade the new sign-restoration model fairly, with near-copies kept out of its test set",
+   "thumbnail_alt": "Illustration: a clay sealing with one sign broken away, the gap outlined and a candidate sign shown in it.",
+   "result": "experiments/bench_restoration/RESULTS.md",
+   "topic": "corpus-data"
+  },
+  {
+   "id": "hexagon-2026",
+   "section": "latest",
+   "date": "2026-11-09",
+   "kind": "Preprint",
+   "topic": "archaeology",
+   "head": "Cold War spy photos show when Haryana's Indus mounds were built over",
+   "who": "Gerrits, Petrie and colleagues (Cambridge, Arkansas)",
+   "venue": "Research Square preprint",
+   "url": "https://doi.org/10.21203/rs.3.rs-11406373/v1",
+   "gist": "Declassified 1975 satellite photos fill the gap between 1915 maps and today for 12 Harappan sites in Haryana.",
+   "plain": "Old maps from 1915 and modern satellite images leave a 100-year gap. Spy photos taken in 1975 fill it. By 1975 most uncultivated land around the mounds was already farmed. At Rakhigarhi the village had grown over the mounds mostly before 1975.",
+   "tech": "Six KH-9 Hexagon frames georeferenced in the Sunspot tool; land cover in 1915, 1975 and 2021 around 12 sites. Non-cropland fell from 35% to 14% to 4% of the observed area. Built-up land within 1 km of Rakhigarhi: 3.9%, 19.5%, 23.7%. Sirsa reached 75.1% by 2021. Preprint; site rasters withheld to protect sites.",
+   "borrow": "What survives to be dug up, seals included, depends on what was destroyed first. When we compare inscription counts across Haryana sites, site loss belongs in the model as a covariate.",
+   "status": "noted",
+   "fig": "grid",
+   "thumbnail_alt": "Illustration: an aerial print of fields with a low mound at the centre, a village creeping over one edge, framed like a photo.",
+   "library_id": "gerrits-2026-hexagon-haryana",
+   "verified": true
+  },
+  {
+   "id": "zenil-2026",
+   "section": "latest",
+   "date": "2026-10-05",
+   "kind": "Preprint",
+   "topic": "language-question",
+   "head": "Where Indus texts wrap to a new line can be ranked, but carries little information",
+   "who": "Zenil and Uthamacumaran",
+   "venue": "arXiv 2610.08861",
+   "url": "https://arxiv.org/abs/2610.08861",
+   "gist": "A study of five undeciphered records finds Indus line breaks are predictable in rank but weak in bits.",
+   "plain": "The authors asked what can be learned about undeciphered records without reading them: layout, word division, reading direction. They tested Indus texts, the Phaistos disc, rongorongo, khipu and the Voynich manuscript, with Egyptian as a control. For Indus, a model could often tell which gap was a line break. But the amount of information in that prediction was tiny.",
+   "tech": "Algorithmic-information and predictive-coding measures with held-out records and 999 null draws. Indus: 292 gaps in 47 multi-line inscriptions from a derivative CSV, 49 of them row breaks, Mohenjo-daro held out. Row-break AUC 0.812 (bootstrap 0.742-0.871) but a code gain of only 0.0092 bits per gap; rongorongo AUC 0.51, Egyptian 0.95. The Indus test is small and uses slash delimiters, not measured positions. Preprint.",
+   "borrow": "It touches our line_breaks test, which asks whether breaks fall at slot boundaries. Their gap between a good ranking and almost no information is a warning for our attacks too: report both accuracy and bits. They also say any search over languages and settings must sit inside the train/test split, which is how the mismatch study is sealed.",
+   "status": "noted",
+   "fig": "balance",
+   "thumbnail_alt": "Illustration: a stone tablet with two rows of Indus signs and the line break marked, beside a gauge that has barely moved.",
+   "library_id": "zenil-2026-undeciphered-structure",
+   "verified": true
+  },
+  {
+   "id": "voynich-2026",
+   "section": "latest",
+   "date": "2026-10",
+   "kind": "Preprint",
+   "head": "A fair way to ask “is this a language?”",
+   "who": "Zhang and Sheng",
+   "venue": "arXiv 2610.34499",
+   "url": "https://arxiv.org/abs/2610.34499",
+   "gist": "Give both explanations the same effort, then judge them on text neither has seen.",
+   "plain": "Is the Voynich manuscript a hidden language, or meaningless copying? The authors write each explanation as a machine that produces text, give both machines the same amount of tuning, and score them on pages kept aside. They checked the method on 28 texts in 16 languages and on planted messages.",
+   "tech": "Both hypotheses (meaningless copying vs enciphered language) are written as generative programs, fitted with the same search budget and compared on held-out statistics. Adds a decipherment-free signal (the same word pairs keep sharing a line), calibrated on 28 texts in 16 languages plus planted messages. No code link. The line signal does not transfer: Indus texts average 4.6 signs on a single line.",
+   "borrow": "The equal-effort, held-out rule is now our standard for any reopened “language or code” test.",
+   "status": "adopted",
+   "fig": "balance",
+   "thumbnail_alt": "Illustration: an Indus seal and a manuscript page resting level on the same beam.",
+   "topic": "language-question"
+  },
+  {
+   "id": "dominik-2026",
+   "section": "latest",
+   "date": "2026-10-12",
+   "kind": "Preprint",
+   "head": "One sign that never follows another",
+   "who": "Dominik",
+   "venue": "Zenodo 23307028",
+   "url": "https://zenodo.org/records/23307028",
+   "gist": "A paper on sign grammar makes one sharp claim that can be checked in minutes.",
+   "plain": "Most of the paper's grammar gain is tiny. But it makes one clear claim: a certain sign never comes right after the arrow sign, yet often comes right after the jar sign. A rule that sharp is easy to test on texts the author did not use.",
+   "tech": "Held-out gain of only 0.014 nats per sign (CI 0.010 to 0.018) on 6,778 tokens, and the author notes the contexts were chosen in advance. Sharp claim, in Wells numbers: W090 never follows W520 (0 of 136) but follows W740 in 69 of 994 cases (7%). The corpus inputs are withheld.",
+   "borrow": "We tested it. The pattern shows in reading order on the main texts, but not on texts kept aside, and gaps this sharp are common: 24 of 57 similar sign pairs have one. So it is real but not special.",
+   "status": "done",
+   "fig": "never",
+   "rank": 7,
+   "idea": "Check a sharp grammar rule: one sign that supposedly never follows the arrow sign",
+   "thumbnail_alt": "Illustration: two bar seals; one pair of signs joins, the other pairing never occurs and is crossed out.",
+   "result": "experiments/dominik_w090/RESULTS.md",
+   "topic": "readings"
+  },
+  {
+   "id": "cuneiform-2026",
+   "section": "latest",
+   "date": "2026-10",
+   "kind": "Paper",
+   "topic": "decipherment-methods",
+   "head": "Some sign statistics carry over between languages that share a script; others break",
+   "who": "Zhou and Anderson",
+   "venue": "EMNLP 2026",
+   "url": "https://doi.org/10.18653/2026.emnlp-main.2169",
+   "gist": "Word-splitting methods trained on one cuneiform language mostly still work on another, until foreign word-signs appear.",
+   "plain": "Cuneiform wrote several unrelated languages, among them Akkadian, Sumerian and Elamite. The authors asked which patterns belong to the script and which to each language. A simple method that splits text where the next sign is hard to predict kept working across languages. It failed badly on Hittite, where about a third of the signs are word-signs borrowed from other languages.",
+   "tech": "Two dictionary-free segmenters (transitional probability, Morfessor) on ORACC Akkadian, ETCSL Sumerian and Elamite; six cross-language pairs. Within language both reach F1 above 0.97 against 0.74 for a dictionary baseline. Transitional probability stays above 0.95 F1 across all six pairs; Morfessor falls to 0.27 when trained on the 13K-token Elamite source. On Hittite, with 34.7% foreign-script logograms, transitional probability drops 35 points. Segmentation and tagging, not decipherment.",
+   "borrow": "This bears on the mismatch study's logo-syllabic arm. Borrowed word-signs are a kind of mismatch of their own, different from a related language. A \"foreign logograms\" variant in the logogram-share slice would test it; nothing in the sealed stage 1 changes.",
+   "status": "noted",
+   "fig": "compose",
+   "thumbnail_alt": "Illustration: two clay tablets with wedge marks linked by an arc; one mark on the right tablet is outlined.",
+   "library_id": "zhou-anderson-2026-cuneiform-transfer",
+   "verified": true
+  },
+  {
+   "id": "cattle-2026",
+   "section": "latest",
+   "date": "2026-08-20",
+   "kind": "Paper",
+   "topic": "trade-meluhha",
+   "head": "Isotopes suggest cattle reached Gujarat from far away, perhaps Haryana",
+   "who": "Mahala, Laskar and colleagues",
+   "venue": "Journal of Quaternary Science",
+   "url": "https://doi.org/10.1002/jqs.70106",
+   "gist": "Teeth and bone at Kanmer and Tigrana show local sheep and goats but some non-local cattle at Kanmer.",
+   "plain": "Chemical traces in teeth record where an animal grew up. The team tested animals from two Harappan sites more than 900 km apart. Sheep and goats were raised locally. Some cattle at Kanmer in Gujarat seem to have come from elsewhere, likely Haryana.",
+   "tech": "C-O-Sr-Nd isotopes on faunal teeth, bone bioapatite and bone-encased soil from Kanmer (Gujarat) and Tigrana (Haryana). Most sheep and goat local; bovines from Mature and late-Mature Kanmer of diverse, possibly non-local origin, \"likely\" Haryana. Local rainfall was the main water source at Kanmer. No sample counts seen (abstract only).",
+   "borrow": "A physical link between Gujarat and Haryana is one channel for shared seal practice. Kanmer has excavated seals and sealings. A test: do Kanmer texts share more sign sequences with Haryana sites than distance predicts?",
+   "status": "noted",
+   "fig": "goods",
+   "thumbnail_alt": "Illustration: a round seal with a bull between two distant mounds, on a dotted route.",
+   "library_id": "mahala-2026-bovine-isotopes",
+   "verified": true
+  },
+  {
+   "id": "rozanova-2026",
+   "section": "latest",
+   "date": "2026-08-17",
+   "kind": "Preprint",
+   "topic": "language-question",
+   "head": "A calibrated attack finds no language behind the Voynich manuscript's units",
+   "who": "Rozanova and Temerev",
+   "venue": "arXiv 2608.17096",
+   "url": "https://arxiv.org/abs/2608.17096",
+   "gist": "Tested first on ciphers with a known answer, the attack recovers Latin with the right model and little with a wrong one, and Voynich looks like the wrong-language case.",
+   "plain": "Before attacking the Voynich text, the authors built ciphers of Latin where they knew the answer. With a Latin model their attack recovered most of the key. With a German model it recovered little. They also compared each real text with a fake one that copies its letter patterns. The Voynich text scored no better than its fake, like the wrong-language case.",
+   "tech": "Multi-glyph units learned by BPE and class merging, then a class-to-letter substitution attack against seven language models, with eight restarts. On synthetic Latin homophonic ciphers it recovers 73.7-92.6% of the frequency-weighted mapping with the right model and 0-23.4% with the wrong (German) one. The real-minus-surrogate differential is positive in all 25 right-language runs (+0.13 to +0.52); Voynich gives a mean of -0.0085. Wrong-language arm is one language; calibrated for concatenative ciphers only.",
+   "borrow": "This is close to our mismatch study. Their wrong-language result is one more point on our curve: low recovery when the model is the wrong language. Their fake-text comparison (a generator fitted to the same corpus) is a stronger null than our shuffled negative, and we should add it next to planted check PC3.",
+   "status": "noted",
+   "fig": "twin",
+   "thumbnail_alt": "Illustration: a written page and a pale fitted copy resting level on one beam.",
+   "library_id": "rozanova-2026-voynich-units",
+   "verified": true
+  },
+  {
+   "id": "stoicheia-2026",
+   "section": "latest",
+   "date": "2026-08-07",
+   "kind": "Preprint",
+   "topic": "corpus-data",
+   "head": "A new model fills gaps in damaged Greek inscriptions better than earlier ones",
+   "who": "Cullhed and Thörn Cleland",
+   "venue": "arXiv 2608.07249",
+   "url": "https://arxiv.org/abs/2608.07249",
+   "gist": "A letter-level model restores damaged Greek inscriptions with fewer errors than Ithaca and Aeneas, and every test has a matched control.",
+   "plain": "Many Greek inscriptions are broken. This team trained a large model to guess missing letters. Each experiment was repeated with an untrained copy of the model, so the gain from training is clear. They also released versions that never saw each passage, so tests are fair.",
+   "tech": "Stoicheia: a 405M-parameter character-level masked-diffusion encoder trained on 380M words, released as ten rotated decontaminated folds plus one. Pretraining adds 5.6 CER points on inscription reconstruction against a random-initialisation control. On Ithaca's test split character error falls from 24.6 (Ithaca) and 23.5 (Aeneas) to 15.5, and top-1 accuracy rises from 63.0 and 64.0 to 74.5 (abstract only). Greek has a huge corpus; Indus does not.",
+   "borrow": "We took the testing habits, not the model. Our sign-restoration benchmark already keeps near-copies out of the test set. Rotating folds, so every text is unseen by one released model, and a matched untrained control are two checks to add.",
+   "status": "noted",
+   "fig": "restore",
+   "thumbnail_alt": "Illustration: an inscribed stone slab with a broken corner, the gap outlined and partly refilled.",
+   "library_id": "cullhed-2026-stoicheia",
+   "verified": true
+  },
+  {
+   "id": "sigil-2026",
+   "section": "latest",
+   "date": "2026-08",
+   "kind": "Preprint",
+   "head": "An invented symbol system with no sounds looks just like the Indus script",
+   "who": "Raghavendra",
+   "venue": "arXiv 2608.02999 (SIGIL)",
+   "url": "https://arxiv.org/abs/2608.02999",
+   "gist": "If a made-up emblem system matches every statistic, statistics alone cannot prove the signs are writing.",
+   "plain": "He built an artificial system of emblems with no language behind it. It matched the Indus script on every measure he could compute exactly. Programs that “decode” by matching dictionaries happily read it as English, Sanskrit or Tamil. So those numbers cannot settle whether the Indus signs write a language.",
+   "tech": "SIGIL is a sound-free emblem generator matched to Indus on every exactly scorable statistic (entropy, Zipf, n-grams, positional concentration). Dictionary-hit decoders produce fluent readings of it in several languages. This closes entropy- and Zipf-style arguments in both directions.",
+   "borrow": "Every new claim we test must also fail on SIGIL-style emblem data. We use it as a standing negative control.",
+   "status": "adopted",
+   "fig": "twin",
+   "thumbnail_alt": "Illustration: a seal with Indus signs beside a seal with invented symbols, marked as equal.",
+   "result": "experiments/bench2026/RESULTS.md",
+   "topic": "language-question"
+  },
+  {
+   "id": "jognakhera-2026",
+   "section": "latest",
+   "date": "2026-07-23",
+   "kind": "Paper",
+   "topic": "chronology-environment",
+   "head": "Indus-style farming went on in the Ghaggar basin after the 4.2 ka drought",
+   "who": "Swaroop, Srivastava and colleagues",
+   "venue": "Vegetation History and Archaeobotany",
+   "url": "https://doi.org/10.1007/s00334-026-01140-4",
+   "gist": "Directly dated crops at Jognakhera, a Bara-culture site, show the Indus crop package continuing after the drought.",
+   "plain": "About 4,200 years ago a long drought hit the region. At Jognakhera, farmers afterwards still grew the same summer and winter crops as Indus farmers. A directly dated rice grain hints at contact with the Ganga plain. The authors read this as continuity and an eastward move of people, not collapse.",
+   "tech": "Macrobotanical analysis with direct dating of grains and seeds; settlement 4,300-3,400 yr BP; the Bara culture emerged around 2300 BCE, alongside the late Urban phase. Winter and summer crops, legumes in both seasons (crop rotation), a directly dated rice grain. One site; \"migration\" is inferred from material similarity (abstract only).",
+   "borrow": "Late inscriptions are rare. This supports asking whether writing faded with the cities or moved east with the people. It also helps date late-phase objects.",
+   "status": "noted",
+   "fig": "goods",
+   "thumbnail_alt": "Illustration: a clay tile carved with three sheaves of grain above a river, with an arrow pointing east.",
+   "library_id": "swaroop-2026-jognakhera-bara",
+   "verified": true
+  },
+  {
+   "id": "kelley-2026",
+   "section": "latest",
+   "date": "2026-07-18",
+   "kind": "Paper",
+   "topic": "neighbour-scripts",
+   "head": "A short book on proto-Elamite, the Indus script's other unread neighbour",
+   "who": "Kelley",
+   "venue": "Cambridge Elements",
+   "url": "https://doi.org/10.1017/9781009614559",
+   "gist": "A new overview of proto-Elamite: about 1,700 tablets from Iran, c. 3300-2900 BCE, still only partly read.",
+   "plain": "Proto-Elamite was written in Iran about 5,000 years ago, mostly to count goods, people and institutions. It is only partly understood. This short book sums up what is known. It describes a decipherment effort that mixes mathematics, comparison with other scripts and computer methods.",
+   "tech": "Cambridge Element; about 1,700 clay tablets, c. 3300-2900 BCE, hundreds of signs. The abstract describes the decipherment as combining mathematics, comparative studies, corpus digitisation and computer science (abstract only).",
+   "borrow": "Proto-Elamite is the closest working model for an undeciphered administrative script. We use the computational methods of the same group in our Elamite bridge. The book is now the reference to check for sign-value anchors usable as a logo-syllabic test case.",
+   "status": "noted",
+   "fig": "compose",
+   "thumbnail_alt": "Illustration: a clay accounting tablet with counting marks and signs beside a short book.",
+   "library_id": "kelley-2026-proto-elamite",
+   "verified": true
+  },
+  {
+   "id": "rakhigarhi-rgr3-2026",
+   "section": "latest",
+   "date": "2026-06-30",
+   "kind": "Paper",
+   "topic": "archaeology",
+   "head": "A first dig at a new Rakhigarhi mound finds a stamp seal in dated late layers",
+   "who": "Gupta and Kumar",
+   "venue": "Vestigia Indica (BSSS journal)",
+   "url": "https://doi.org/10.51767/jha0401",
+   "gist": "The 2021-22 season at Rakhigarhi mound 3 found houses, burials, beads, a gold piece and one steatite seal, dated c. 2000-1800 BCE.",
+   "plain": "Rakhigarhi is one of the largest Indus cities. This report covers the first season on its mound 3. Diggers found mud and fired-brick buildings, child and adult burials, beads, figurines, a piece of gold and one stone seal. Radiocarbon dates put the layers late in the city's life, about 2000-1800 BCE.",
+   "tech": "First-season report, RGR-3, 2021-22. Mud and burnt-brick structures, child and adult burials, steatite and carnelian beads, terracotta figurines, a gold fragment and a steatite seal. AMS dates: late Mature to Late Harappan, c. 2000-1800 BCE. The abstract does not describe the seal or its text. Small regional journal; issue dated June 2026, DOI registered November 2026 (abstract only).",
+   "borrow": "A seal with a known mound and a dated late phase is the kind of record our find-spot and date tests need. If its inscription is published, it becomes a late-phase test case for our chronology work.",
+   "status": "waiting",
+   "fig": "round",
+   "thumbnail_alt": "Illustration: a mound cut in section with a trench, a small square seal resting on a dated layer, marked with a pin.",
+   "library_id": "gupta-kumar-2026-rakhigarhi-rgr3",
+   "verified": true
+  },
+  {
+   "id": "gini-2026",
+   "section": "latest",
+   "date": "2026-05-18",
+   "kind": "Paper",
+   "topic": "administration",
+   "head": "House sizes show inequality fell over time in Mohenjo-daro",
+   "who": "Green, Alam and Petrie",
+   "venue": "Antiquity",
+   "url": "https://doi.org/10.15184/aqy.2026.10359",
+   "gist": "Gini scores of house areas at Mohenjo-daro fell over time, as the city grew more prosperous.",
+   "plain": "Many early cities had rich and poor districts. The authors measured the floor area of 162 Mohenjo-daro houses as a rough guide to wealth. Inequality was lower than in Mesopotamian cities. In one area it fell over time as the street plan developed.",
+   "tech": "Gini coefficients of residence area from early excavation plans. Overall Gini 0.44 (n = 162), below Ur and Ugarit (above 0.6). In area DK-G South it fell from 0.39 (c. 2500 BC) to 0.23 (c. 2100 BC). Old plans with weak stratigraphy; house area is only a proxy for wealth.",
+   "borrow": "Seals are often read as marks of elite power. DK-G South has both phased houses and many seals, so seal counts per house can be set against house size. That tests whether seal use tracked wealth.",
+   "status": "noted",
+   "fig": "scale",
+   "thumbnail_alt": "Illustration: a city-block plan with houses of similar size beside a small chart of falling bars.",
+   "library_id": "green-2026-mohenjo-gini",
+   "verified": true
+  },
+  {
+   "id": "korovina-2026",
+   "section": "latest",
+   "date": "2026-05",
+   "kind": "Paper",
+   "topic": "neighbour-scripts",
+   "head": "Testing rongorongo as a syllable script: even the same language in another style halves recovery",
+   "who": "Korovina",
+   "venue": "LT4HALA 2026 (LREC)",
+   "url": "https://aclanthology.org/2026.lt4hala-1.16/",
+   "gist": "A syllable-substitution attack works on enciphered Rapa Nui text, fails on rongorongo, and loses most of its power when the model comes from another genre.",
+   "plain": "Rongorongo is the undeciphered script of Easter Island. The author first tested an attack on Rapa Nui texts turned into code, where the answer is known. With statistics from the same kind of text, it recovered most syllables. With statistics from another kind of text in the same language, it recovered far fewer. On real rongorongo it scored at the level of noise.",
+   "tech": "Genetic-algorithm substitution attack scored by unigram, bigram and trigram counts; five Rapa Nui sub-corpora; 1,000-syllable fragments. Same-corpus model: about 26 syllables recovered, over 80% text coverage. Other-genre model: 10 syllables and 37%; worst pair (Manuscript E text, Gospel of Matthew model) 4.6. A pooled model of all five gives 17 and 62%. Fitness correlates 0.75 with accuracy; below 2,500,000 points is noise, and rongorongo scores 1.0M-1.3M. One fragment length; no spread reported.",
+   "borrow": "This matters for the mismatch study. Its \"same language across genres\" pairs are not near-zero mismatch: genre alone cut recovery by more than half here. The true-model control must use the same genre as the text, and each genre pair needs its own measured mismatch. A pooled-genre model is a cheap way to narrow the gap.",
+   "status": "noted",
+   "fig": "match",
+   "thumbnail_alt": "Illustration: a board with rows of marks; one stack of pages lies close to it and another further away.",
+   "library_id": "korovina-2026-rongorongo-syllabic",
+   "verified": true
+  },
+  {
+   "id": "lehs-2026",
+   "section": "latest",
+   "date": "2026",
+   "kind": "Book",
+   "head": "The full edition of Linear Elamite, the script read through kings’ names",
+   "who": "Desset and colleagues",
+   "venue": "Linear Elamite Texts from Susa (OrientLab SM 10)",
+   "url": "https://doi.org/10.1515/za-2022-0003",
+   "gist": "All the Susa texts of the script read in 2022, the most recent ancient script to be read.",
+   "plain": "Linear Elamite, from what is now Iran, was read in 2022. The key was royal names already known from cuneiform, on objects dated well enough to predict which names should appear. This book publishes the full set of texts from Susa.",
+   "tech": "Complete edition of the Susa Linear Elamite texts. The decipherment (Desset et al. 2022, ZA 112:11-60) is anchored on royal names and titles known from cuneiform. Critics question parts of it: Dahl 2023 (archaising, not purely syllabic) and Mäder (about 70% phonetic).",
+   "borrow": "We used Linear Elamite as a known-answer test for our own name-matching method. The method could not recover its values, so we stopped it rather than run it on Indus.",
+   "status": "done",
+   "fig": "crown",
+   "thumbnail_alt": "Illustration: stacked edition pages of an unread script with a crown medallion for kings’ names.",
+   "result": "experiments/crib_le_known_answer/RESULTS.md",
+   "topic": "neighbour-scripts"
+  },
+  {
+   "id": "nair-2026",
+   "section": "latest",
+   "date": "2026-04",
+   "kind": "Preprint",
+   "head": "The Indus script sits between coats of arms and paperwork",
+   "who": "Nair",
+   "venue": "arXiv 2604.17828",
+   "url": "https://arxiv.org/abs/2604.17828",
+   "gist": "Compared with made-up systems of known kinds, Indus falls between heraldry and administrative records.",
+   "plain": "The author built artificial sign systems of different kinds, such as coats of arms and office records, and compared their statistics with the Indus texts. The Indus script lands between the two.",
+   "tech": "A synthetic-baseline scorecard: generated heraldic, administrative and linguistic corpora scored on shared statistics. Indus sits between heraldic and administrative baselines.",
+   "borrow": "Agrees with our finding that each kind of object has its own vocabulary. Nothing new to run.",
+   "status": "noted",
+   "fig": "scale",
+   "thumbnail_alt": "Illustration: a shield, an Indus seal and a tally tablet on one scale, with the seal marked between them.",
+   "topic": "language-question"
+  },
+  {
+   "id": "uae-seal-2026",
+   "section": "latest",
+   "date": "2026-04",
+   "kind": "News",
+   "head": "Reported: a new seal with Indus signs from the UAE",
+   "who": "News report (no excavation report yet)",
+   "venue": "Umm al-Quwain, UAE",
+   "url": "https://ittihaas.com/api/apps/685bf8c05cf93a74890518d0/functions/newsSharePage?newsId=69db8bcd9150f8827bc41491&slug=bronze-age-seal-found-in-uae-confirms-direct-maritime-trade-with-indus-valley",
+   "gist": "A round Gulf-style seal with Indus signs and a humped bull, dated to about 2300 BCE. Not yet verified.",
+   "plain": "A news site reports a small round seal of the Gulf type, with Indus signs and a humped bull, from Umm al-Quwain. The excavation report, the exact find spot and a readable photo of the signs have not been published, so we cannot use it yet.",
+   "tech": "Known only from a news aggregator. Site (possibly Tell Abraq), excavator and sign sequence not given. Not in our corpus of objects found abroad.",
+   "borrow": "We looked for an excavation report and found none, and the news page is now offline. It stays out of our data until the find is published.",
+   "status": "waiting",
+   "fig": "round",
+   "thumbnail_alt": "Illustration: a round Gulf-style seal with Indus signs, outlined as reported and not yet seen.",
+   "result": "experiments/uaq_seal/RESULTS.md",
+   "topic": "trade-meluhha"
+  },
+  {
+   "id": "kriger-2026",
+   "section": "latest",
+   "date": "2026-03",
+   "kind": "Preprint",
+   "head": "The “registration code” reading fails its own predictions",
+   "who": "Kriger and Hunt",
+   "venue": "Zenodo 19103880",
+   "url": "https://doi.org/10.5281/zenodo.19103880",
+   "gist": "They argued seal texts work like ID numbers. On 646 seals, the texts repeat more than chance, not less.",
+   "plain": "This preprint argued that seal texts are like registration numbers: each one unique, with numbers in fixed places. We ran their tests on 646 Mohenjo-daro unicorn seals. The texts turned out less unique than chance, and the number patterns did not hold.",
+   "tech": "Uniqueness 88.2% vs 99.2% under random redeal (below every null draw). Numerals in the second-to-last slot 19.0% vs 18.7% shuffled (p = 0.46). Their dominant “2” is mostly the M99 connective of the opening formula. Near-duplicates differ at an edge in 20 of 80 pairs, so “never at edges” is false. The edge pattern in positional entropy replicates, but it was already known.",
+   "borrow": "Nothing to borrow. Their best result was already known, and the rest fails.",
+   "status": "closed",
+   "fig": "unique",
+   "thumbnail_alt": "Illustration: three seals; the first and last carry the same text, linked by an arc.",
+   "result": "experiments/bench2026/RESULTS.md",
+   "topic": "readings"
+  },
+  {
+   "id": "asi-2025",
+   "section": "latest",
+   "date": "2025-08-20",
+   "kind": "Event",
+   "head": "India’s archaeology agency held a three-day meeting on the script",
+   "who": "Archaeological Survey of India",
+   "venue": "Decipherment of Indus Script: Current Status and Way Forward, 20–22 Aug 2025",
+   "url": "https://asi.nic.in/admin/whatsnew/download/771",
+   "gist": "A national meeting on the state of decipherment. No proceedings yet.",
+   "plain": "The Archaeological Survey of India brought researchers together for three days to review where decipherment stands. Only the programme is public so far.",
+   "tech": "Programme only. No proceedings or papers found as of November 2026.",
+   "borrow": "We have asked the agency whether readings proposed there can be scored on our open test bench.",
+   "status": "waiting",
+   "fig": "calendar",
+   "thumbnail_alt": "Illustration: three clay tiles, one sign on each, bracketed as three days.",
+   "topic": "archaeology"
+  },
+  {
+   "id": "protoelamite-2025",
+   "section": "latest",
+   "date": "2025",
+   "kind": "Paper",
+   "head": "How computers are opening up Proto-Elamite, the Indus script’s unread neighbour",
+   "who": "Monroe, Kelley, Born and Sarkar",
+   "venue": "Near Eastern Archaeology 88(4):316–323, building on Born et al. 2019–2023",
+   "url": "https://aclanthology.org/2021.findings-acl.362.pdf",
+   "gist": "Without knowing the language, they found which signs head an entry, which are built from parts, and which number system each count uses.",
+   "plain": "Proto-Elamite, from Iran, is unread and about as old as the Indus script. Teams have used computers to learn how its texts are organised: which signs start an entry, which complex signs are made of simpler ones, and which counting system each number belongs to, by looking at what is being counted. None of this needs the language.",
+   "tech": "Born et al. (2019, 2021, 2023): topic models (LDA) for genres, “header” signs, complex-sign compositionality, and disambiguation of numerals by number system. These are the methods that worked on an undeciphered administrative script without a language. They have not been applied as a set to the Indus texts.",
+   "borrow": "We tried the pieces that fit. Indus signs that look like Proto-Elamite or proto-cuneiform signs do not behave like them (0 of 5 tests), complex signs do not split into their parts, and no known number system matches the Indus counts. Still untried: letting a model find genres from scratch.",
+   "status": "done",
+   "fig": "compose",
+   "rank": 5,
+   "idea": "Use the Proto-Elamite toolkit: look-alikes, compound signs and number systems",
+   "thumbnail_alt": "Illustration: a clay accounting tablet with number impressions and marks; one entry is outlined.",
+   "result": "experiments/protocuneiform/RESULTS.md",
+   "topic": "neighbour-scripts"
+  },
+  {
+   "id": "dixit-2025",
+   "section": "latest",
+   "date": "2025-05",
+   "kind": "Paper",
+   "head": "Teaching computers to find signs and animals in seal photos",
+   "who": "Dixit and colleagues",
+   "venue": "Journal of Computer Applications in Archaeology 8(1):156–169",
+   "url": "https://doi.org/10.5334/jcaa.175",
+   "gist": "Image models that spot signs and animal motifs on photographs of seals.",
+   "plain": "The team trained image models to find the signs on a seal photo, name each one, and recognise the animal. Only sample data is public. The full set is available from the authors on request.",
+   "tech": "YOLOv3 sign detection, MobileNet sign classification and motif identification on seal photographs. The repository (DM-BiCLab) holds sample data only.",
+   "borrow": "Reading signs straight from photos could settle the 1-in-8 disagreements between the two main transcriptions. We need open images first.",
+   "status": "idea",
+   "fig": "detect",
+   "rank": 4,
+   "idea": "Read signs straight from seal photos, to fix the 1-in-8 disagreements between transcriptions",
+   "thumbnail_alt": "Illustration: a seal with signs and a bull, each found by a detection box.",
+   "topic": "corpus-data"
+  },
+  {
+   "id": "tyc-2025",
+   "section": "latest",
+   "date": "2025-03",
+   "kind": "Preprint",
+   "head": "Do Indus signs look more like scripts from the Himalayas than from Mesopotamia?",
+   "who": "ivc2tyc project",
+   "venue": "arXiv 2503.21074",
+   "url": "https://arxiv.org/abs/2503.21074",
+   "gist": "An image-AI comparison claims Tibetan-Yi corridor scripts resemble Indus signs most.",
+   "plain": "Using image AI, the authors compare sign shapes and report that scripts from the Tibetan-Yi corridor, such as Naxi Dongba and Yi, look more like Indus signs than proto-cuneiform or Proto-Elamite do. Looking alike does not mean sounding alike, but their open sign images are useful.",
+   "tech": "Hybrid vision embeddings over glyph image sets for Indus, proto-cuneiform, Proto-Elamite and five Tibetan-Yi scripts (GitHub oohalakkadi/ivc2tyc, MIT; recommended by PCI Archaeology). Shape similarity carries no sound values: Linear Elamite look-alikes failed blind (p = 0.83).",
+   "borrow": "We red-teamed it. The claim technically survives, but its whole edge comes from one small script, Ba-Shu. Proto-cuneiform is closer to Indus than four of the five Himalayan scripts.",
+   "status": "done",
+   "fig": "lookalike",
+   "rank": 8,
+   "idea": "Test the claim that Indus signs look most like Himalayan scripts",
+   "thumbnail_alt": "Illustration: an Indus seal beside a mountain rock carved with a similar mark.",
+   "result": "experiments/redteam_ivc2tyc/RESULTS.md",
+   "topic": "neighbour-scripts"
+  },
+  {
+   "id": "tn-graffiti-2025",
+   "section": "latest",
+   "date": "2025-01",
+   "kind": "Study",
+   "head": "15,184 marks on South Indian pottery, many with Indus look-alikes",
+   "who": "Rajan and Sivanantham (Tamil Nadu Archaeology)",
+   "venue": "Tamil Nadu graffiti study",
+   "url": "https://tngraffiti.in/",
+   "gist": "Most pottery marks from 140 Tamil Nadu sites have a similar-looking Indus sign.",
+   "plain": "Archaeologists in Tamil Nadu catalogued 15,184 marks scratched on pots from 140 sites and found that most have an Indus sign that looks similar. The marks are about 1,000 years younger, and most stand alone rather than in texts.",
+   "tech": "Shape parallels for roughly 60–90% of marks. Gap of over 1,000 years; mostly single marks. Earlier work found that look-alike marks do not behave like the Indus signs they resemble.",
+   "borrow": "We tested whether look-alikes behave alike. They do not, so this route is closed for now.",
+   "status": "closed",
+   "fig": "pots",
+   "thumbnail_alt": "Illustration: three clay pots, each scratched with a mark; one is outlined.",
+   "topic": "archaeology"
+  },
+  {
+   "id": "proskouriakoff-1960",
+   "section": "landmark",
+   "date": "1960",
+   "kind": "Other scripts",
+   "head": "Reading Maya history before reading a single sound",
+   "who": "Tatiana Proskouriakoff",
+   "venue": "American Antiquity 25(4):454–475",
+   "url": "https://doi.org/10.2307/276633",
+   "gist": "She matched glyph patterns to the lifespans of rulers, and found births and accessions without sounding anything out.",
+   "plain": "Maya monuments carry dates. Proskouriakoff noticed that the dates on each group of monuments spanned a human lifetime, and that the same glyphs always sat beside a first date (birth) and a later one (taking the throne). So the texts were about real rulers. She worked out what glyphs meant from the pattern of events, years before anyone could read their sounds.",
+   "tech": "Pattern-of-dates analysis at Piedras Negras: recurring glyph-date pairings mapped onto plausible life events (birth, accession, death), with intervals constrained by human lifespans.",
+   "borrow": "We tested it on the 1930s excavation registers. Seals found in streets carry the same signs as seals found in rooms, and broken seals carry the same signs as pieces of whole ones. Most other fates, such as burnt, buried or hoarded seals, are recorded too rarely to test. One small lead, that damaged seals keep more end signs, did not survive a second team: it came from damaged seals having shorter texts.",
+   "status": "done",
+   "fig": "life",
+   "rank": 1,
+   "idea": "Match sign patterns to what happened to each seal: broken on purpose, buried with someone, found at a gate",
+   "thumbnail_alt": "Illustration: a carved stone stela with glyph blocks, three of them linked to points on a timeline.",
+   "result": "experiments/seal_fate/RESULTS.md",
+   "topic": "decipherment-methods"
+  },
+  {
+   "id": "mahadevan-1977",
+   "section": "landmark",
+   "date": "1977",
+   "kind": "Corpus",
+   "head": "The list of every text that made the field possible",
+   "who": "Iravatham Mahadevan",
+   "venue": "The Indus Script: Texts, Concordance and Tables",
+   "url": "https://www.harappa.com/script/maha15.html",
+   "gist": "417 signs, numbered, and every text then known. The M-numbers on this site come from it.",
+   "plain": "Mahadevan drew every sign, gave each a number and listed every known inscription, with every place each sign appears. Almost all statistical work since, including ours, starts from this list.",
+   "tech": "Sign list of 417 signs with a full concordance of the texts then known. Showed the regular positions of signs, such as the jar sign usually ending a text. Allograph splitting differs from the later Wells/Fuls list (676–713 signs).",
+   "borrow": "The backbone of our main transcription.",
+   "status": "adopted",
+   "fig": "grid",
+   "thumbnail_alt": "Illustration: a catalogue page printed with a grid of Indus signs.",
+   "topic": "corpus-data"
+  },
+  {
+   "id": "parpola-1994",
+   "section": "landmark",
+   "date": "1994",
+   "kind": "Book",
+   "head": "The best-known case that the signs write an early Dravidian language",
+   "who": "Asko Parpola",
+   "venue": "Deciphering the Indus Script (Cambridge University Press)",
+   "url": "https://tuhat.helsinki.fi/ws/portalfiles/portal/127256525/Parpola_A_2010._A_Dravidian_solution_to_the_Indus_script_problem.pdf",
+   "gist": "Fish sign = mīn, a word that means both “fish” and “star” in Dravidian languages.",
+   "plain": "Parpola argues the signs are mostly word-signs that also work like puns, the way a picture of a bee plus a leaf can spell “belief”. His famous example is the fish sign: in Dravidian languages the word mīn means both fish and star, so a number plus fish could name a star group.",
+   "tech": "Logo-syllabic, rebus-based Proto-Dravidian reading. Fish M59 = mīn “fish/star”; six + fish = aṟu-mīn (Pleiades); seven + fish = eḻu-mīn (Ursa Major); intersecting circles = muruku. About 400 signs is too many for a syllabary and too few for pure word-writing.",
+   "borrow": "We turned his readings into predictions and tested them. Six + fish holds as a fixed unit; “seven stars” is not supported; the fish signs group together but do not behave like god names.",
+   "status": "done",
+   "fig": "fishstar",
+   "thumbnail_alt": "Illustration: a seal cut with the fish sign, linked to a carved star.",
+   "result": "experiments/redteam/RESULTS.md",
+   "topic": "readings"
+  },
+  {
+   "id": "fsw-2004",
+   "section": "landmark",
+   "date": "2004",
+   "kind": "Paper",
+   "head": "The case that the signs might not be writing at all",
+   "who": "Farmer, Sproat and Witzel",
+   "venue": "Electronic Journal of Vedic Studies 11(2)",
+   "url": "https://safarmer.com/fsw2.pdf",
+   "gist": "Texts are very short, and many signs are rare: maybe these are symbols, not a script.",
+   "plain": "The authors pointed out that Indus texts are very short, about five signs on average, that many signs appear only once, and that no long text has ever been found. They argued the signs could be a system of symbols, like road signs or coats of arms, rather than writing that records speech.",
+   "tech": "Arguments from text length (mean about 4.6 signs, longest single-surface text 17), rare-sign frequency and the absence of long texts. Sparked the language-vs-symbols debate continued by Rao et al. 2009 and Sproat 2010 and 2014.",
+   "borrow": "We test whether the signs are language at all, instead of assuming it.",
+   "status": "adopted",
+   "fig": "short",
+   "thumbnail_alt": "Illustration: a seal with a short text beside an emblem shield.",
+   "result": "experiments/language_vs_code/RESULTS.md",
+   "topic": "language-question"
+  },
+  {
+   "id": "rao-sproat",
+   "section": "landmark",
+   "date": "2009–2014",
+   "kind": "Debate",
+   "head": "Does sign order prove it is a language? The numbers say no",
+   "who": "Rao et al. 2009 (Science); Sproat 2010, 2014 (Language)",
+   "venue": "Science 324; Language 90:457",
+   "url": "https://muse.jhu.edu/article/547119/summary",
+   "gist": "A measure of how predictable the next sign is put Indus near languages. Critics showed non-writing scores there too.",
+   "plain": "Rao’s team measured how predictable the next sign is and found the Indus script sits in the same band as languages. Sproat replied that symbol systems that are not writing can score the same way, and that two better measures put Indus with non-writing. Later work, including SIGIL, settled it: these numbers alone cannot decide.",
+   "tech": "Conditional entropy of sign bigrams (Rao et al. 2009); n-gram restoration of missing signs (Yadav et al. 2010, PLoS ONE). Sproat (2010, 2014): the entropy band does not separate writing from non-writing; two measures that do put Indus and Pictish on the non-linguistic side.",
+   "borrow": "Treat entropy, Zipf and n-gram arguments as closed in both directions.",
+   "status": "closed",
+   "fig": "entropy",
+   "thumbnail_alt": "Illustration: a stone cut with two overlapping range bands and a marker where they overlap.",
+   "result": "experiments/language_vs_code/RESULTS.md",
+   "topic": "language-question"
+  },
+  {
+   "id": "laursen-2010",
+   "section": "landmark",
+   "date": "2010",
+   "kind": "Paper",
+   "head": "Indus signs used in a new way on seals from the Gulf",
+   "who": "Steffen Laursen",
+   "venue": "Arabian Archaeology and Epigraphy 21",
+   "url": "https://www.harappa.com/sites/default/files/pdf/The_westward_transmission_of_Indus_Valle.pdf",
+   "gist": "Round seals from the Gulf use Indus signs in combinations rarely seen at home.",
+   "plain": "Traders around Bahrain made round seals of their own style but carved Indus signs on them. Laursen showed these seals use the signs differently, for example often putting a “twins” sign at the front. One explanation is that local names were written with borrowed signs.",
+   "tech": "Gulf-type round seals show an excess of the prefixed “twins” sign and sign pairs unseen at home. Suggests Indus signs adapted to another language in the Gulf.",
+   "borrow": "Our round-seal finding builds on this, and adds that round seals found in Indus cities break the order too.",
+   "status": "done",
+   "fig": "round",
+   "thumbnail_alt": "Illustration: a round Gulf seal and a square Indus seal with the same signs in a different order.",
+   "result": "experiments/redteam_foreign/RESULTS.md",
+   "topic": "trade-meluhha"
+  },
+  {
+   "id": "snyder-luo",
+   "section": "landmark",
+   "date": "2010–2019",
+   "kind": "Other scripts",
+   "head": "Computers can crack a script, if they know a related language",
+   "who": "Snyder, Barzilay and Knight 2010; Luo, Cao and Barzilay 2019",
+   "venue": "ACL 2010; ACL 2019",
+   "url": "https://arxiv.org/abs/1906.06718",
+   "gist": "Ugaritic and Linear B were re-deciphered by machine, but only by matching them to Hebrew and Greek.",
+   "plain": "Machine learning re-cracked two ancient scripts: Ugaritic, matched against Hebrew, and Linear B, matched against early Greek. The trick only works when you already know a closely related language. For the Indus script, no such language is known.",
+   "tech": "Snyder et al. 2010: 29 of 30 Ugaritic letters recovered via Hebrew cognates. Luo et al. 2019: 67.3% of Linear B cognates recovered via Greek. Luo et al. 2021 found no strong evidence that Basque is related to Iberian.",
+   "borrow": "We tested the planted-language version at Indus size. Without the right language, it fails, so this route waits for an outside clue.",
+   "status": "closed",
+   "fig": "match",
+   "thumbnail_alt": "Illustration: a column of Indus signs linked to empty slots where a known related language would be.",
+   "result": "experiments/cognate_decipher/RESULTS.md",
+   "topic": "decipherment-methods"
+  },
+  {
+   "id": "rakhigarhi-2019",
+   "section": "landmark",
+   "date": "2019",
+   "kind": "Genetics",
+   "head": "DNA from Rakhigarhi: who the Indus people were",
+   "who": "Shinde et al. (Cell); Narasimhan et al. (Science)",
+   "venue": "Cell 179; Science 365",
+   "url": "https://www.cell.com/cell/fulltext/S0092-8674(19)30967-5",
+   "gist": "One ancient genome: no steppe ancestry, and close links to later South Indian populations.",
+   "plain": "Scientists read the DNA of a person buried at the Indus city of Rakhigarhi. It had no ancestry from the Eurasian steppe, which arrived in South Asia later, and it is related to the main ancestry of later South Indians. That fits an Indus language that was not Indo-European, perhaps related to Dravidian, but genes do not prove a language.",
+   "tech": "Genome I6113 (1 of 61 skeletons screened): Iranian-related plus AASI ancestry, no steppe or Anatolian farmer ancestry. Narasimhan et al.: an “Indus Periphery Cline”; steppe ancestry arrives after about 2000 BCE.",
+   "borrow": "Background only. It narrows the likely language families but gives no sign values.",
+   "status": "noted",
+   "fig": "dna",
+   "thumbnail_alt": "Illustration: a clay tile carved with a DNA double helix, one rung marked.",
+   "topic": "people-dna"
+  },
+  {
+   "id": "mukhopadhyay-2019",
+   "section": "landmark",
+   "date": "2019–2023",
+   "kind": "Paper",
+   "head": "The texts as labels for goods and permits, not names",
+   "who": "Bahata Ansumali Mukhopadhyay",
+   "venue": "Humanities and Social Sciences Communications (2019, 2021, 2023)",
+   "url": "https://www.nature.com/articles/s41599-023-02320-7",
+   "gist": "Stroke signs as units of measure, crop signs as goods, and no personal names.",
+   "plain": "Mukhopadhyay reads the inscriptions as practical labels: what a parcel holds, how much, and who may pass, rather than people’s names. Stroke signs would be units whose value depends on the goods, and some signs would stand for crops or other commodities. In 2025 she proposed the fish signs mean gems.",
+   "tech": "Logographic or semasiographic “formalised data carriers”: metrological strokes, commodity signs after numerals, the jar as a phrase-final function sign, Kanmer tablets as gate passes; pīlu “elephant/tooth” as a loanword (2021); fish = maṇi “gem” (2025, SSRN 5079207).",
+   "borrow": "A first test found no sign tied to a craft at two sites, but it had too little data to tell. The fish = gem prediction needs find spots from bead workshops, which we have asked excavators for.",
+   "status": "next",
+   "fig": "goods",
+   "rank": 2,
+   "idea": "Check whether fish signs cluster at bead-making sites, as the “fish = gem” reading predicts",
+   "thumbnail_alt": "Illustration: a storage jar tied with a cord and sealed with a clay tag stamped with signs.",
+   "result": "experiments/assemblage/RESULTS.md",
+   "topic": "administration"
+  },
+  {
+   "id": "desset-2022",
+   "section": "landmark",
+   "date": "2022",
+   "kind": "Paper",
+   "head": "Linear Elamite read, through kings’ names",
+   "who": "Desset, Tabibzadeh, Kervran, Basello and Marchesi",
+   "venue": "Zeitschrift für Assyriologie 112:11–60",
+   "url": "https://doi.org/10.1515/za-2022-0003",
+   "gist": "The most recent ancient script to be read, and a model of what the Indus script is missing.",
+   "plain": "The team read Linear Elamite by finding the names of kings they already knew from cuneiform, written on silver beakers that could be dated. Each name gave the sounds of several signs. The Indus script has no such object yet: no text in a known script that names an Indus person.",
+   "tech": "Anchored on royal names and titles from cuneiform on datable objects (silver gunagi beakers, Desset 2018). Critiques: Dahl 2023; Mäder; Kelley et al. 2022 call the proposed Proto-Elamite values premature.",
+   "borrow": "This is why we search for names of people from the Indus region in cuneiform records, and asked museums for seal impressions on tablets that name them.",
+   "status": "adopted",
+   "fig": "crown",
+   "thumbnail_alt": "Illustration: a silver beaker with a band of marks, linked to a crown medallion.",
+   "result": "experiments/sealing_hunt/RESULTS.md",
+   "topic": "neighbour-scripts"
+  },
+  {
+   "id": "sign2vec-2022",
+   "section": "landmark",
+   "date": "2022",
+   "kind": "Other scripts",
+   "head": "Letting the computer decide which shapes are the same sign",
+   "who": "Corazza and colleagues",
+   "venue": "PLOS ONE (Cypro-Minoan)",
+   "url": "https://doi.org/10.1371/journal.pone.0269544",
+   "gist": "Images plus context sorted Cypro-Minoan’s variant shapes into signs.",
+   "plain": "Scholars disagree about whether two similar shapes are one sign or two. For Cypro-Minoan, this team let a model look at each sign’s picture and where it appears, and group them. The Indus script has the same problem: the two main sign lists count about 400 and about 700 signs.",
+   "tech": "Sign2Vec: unsupervised clustering on image features plus distributional context, validated on Cypro-Minoan with known-answer checks.",
+   "borrow": "We tried it on two older scripts whose sign lists are known. Shape plus context merged too many signs that are not the same, and context alone was almost always wrong. Shape alone did best. On the Indus texts, a shape-only list fits unseen texts a little better than the 400-sign list, but a second team found half of that gain is one choice (three fish shapes counted as one sign) and it did not repeat on texts found after 1977. So the texts do not settle the count. The 700 side cannot be tested at all: most of those extra signs appear once or twice.",
+   "status": "done",
+   "result": "experiments/signlist_shape/RESULTS.md",
+   "fig": "cluster",
+   "rank": 3,
+   "idea": "Build the sign list from pictures plus context, to settle about 400 vs about 700 signs",
+   "thumbnail_alt": "Illustration: a clay slab with two groups of similar sign shapes, each circled.",
+   "topic": "neighbour-scripts"
   }
+ ],
+ "topics": {
+  "decipherment-methods": "Computational decipherment",
+  "language-question": "Language or not",
+  "readings": "Readings and language family",
+  "neighbour-scripts": "Neighbouring and other undeciphered scripts",
+  "corpus-data": "Corpora, sign lists and tools",
+  "administration": "Seals, weights and administration",
+  "archaeology": "Excavations and new finds",
+  "chronology-environment": "Chronology, rivers and climate",
+  "trade-meluhha": "Meluhha, the Gulf and trade",
+  "people-dna": "People: ancient DNA and bodies"
+ }
 }

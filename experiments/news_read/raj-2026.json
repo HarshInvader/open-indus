@@ -1,0 +1,45 @@
+{
+ "id": "raj-2026",
+ "read": "full (Methodology v0.7, 75 pages; Reading Rules v0.7; README; test-archive README, MISSING and AUDIT; the REP-1, REP-3 and REP-7 test folders with code and outputs). All files downloaded from the Zenodo record, checksums equal to Zenodo’s",
+ "sources_opened": [
+  "https://zenodo.org/records/24383779",
+  "https://x.com/jaravis/status/2125302028062822491",
+  "https://github.com/yajnadevam/lipi"
+ ],
+ "what_they_did": [
+  "Characterised the script from its own patterns: a logographic script with one fixed frame (opener, middle, count, closer).",
+  "Ran a language contest: blind AI judges described 69 signs in English; AI translators gave Old Tamil and Vedic Sanskrit words; a solver chose a word per sign on half the seals to fit real names (1,125 Tamil, 1,367 Sanskrit), scored on the other half against the same names scrambled.",
+  "Graded 150 sign readings by structural fit, a blind AI picture test and a blind AI meaning test; all judges were Claude models.",
+  "Looked for ‘object marks’: signs whose reading names the object they are written on."
+ ],
+ "what_they_found": [
+  "Tamil +223 ± 103 against scrambled names (10 of 10 splits); Sanskrit −13; Akkadian −2; Munda village names +7 against Tamil +89.",
+  "150 signs read, 86% of sign uses; 51% of distinct complete texts read in full (63% counting duplicate copies).",
+  "Three object marks: ‘armlet’ on bangles, ‘copper’ and ‘smith’ on copper tablets.",
+  "The paper itself states there is no outside confirmation of the kind a new Pylos tablet gave Linear B."
+ ],
+ "strength_and_limits": [
+  "Strength: unusually open. Data, code, preregistered plans with hashes, a register of 494 tests, wrong-word rates per confidence group and a frank limitations section. Their code reproduces exactly.",
+  "Our check: with the picture words moved onto the wrong signs at random, Tamil scores the same (median +224 over 50 permutations, p = 0.51). The language result does not depend on what the signs depict.",
+  "Our check: Japanese family names, which like Tamil names are built from drawable things, score +134.5 (60% of Tamil) and beat Tamil in 4 of 10 splits. By our preregistered bar (8 of 10 seeds above control) Japanese narrowly fails at 7 of 10, so the contest passes this control; the paper’s wins over Sanskrit and Akkadian are mainly about naming style.",
+  "Our check: 59% of Tamil readings in their own runs are sound-alike name parts rather than picture words.",
+  "Our check: the copper-tablet result counts copies. The 21 tablet faces with the ‘copper’ sign carry 3 distinct texts (p = 0.19 counted once each); the armlet sign is on 4 distinct bangle texts (p = 0.017, short of their own multiple-test line). Reassigning their readings at random matches objects as often (p = 0.10).",
+  "Our check: on fake seals the score falls to zero, so it does reflect real order in the inscriptions; that order is long known and fits many readings.",
+  "From the paper: no reading was fixed before the data used to test it; structural fit was scored on the texts that chose the readings; the AI judges could see notes that the project holder knows Tamil.",
+  "Like Yajnadevam’s Sanskrit reading, it uses the same corpus file and the same kind of evidence: a key fitted to the corpus, judged by how well it reads. The two crown different languages on the same data."
+ ],
+ "authors_next": [
+  {
+   "idea": "Outside review by Tamil and Dravidian specialists, and checking the corpus copy against the ICIT",
+   "where": "§15–16"
+  }
+ ],
+ "ideas_for_us": [
+  {
+   "idea": "A blind reading test",
+   "why": "Real inscriptions mixed with sign strings that look like Indus texts, read by the method, rated blind by Dravidianists; values fixed in advance.",
+   "open_data_enough": true,
+   "data_needed": "Specialist raters"
+  }
+ ]
+}
