@@ -1000,12 +1000,22 @@ def news_article_pages():
                          + "".join(f'<figure class="article-fig"><h3>{E(f["claim"])}</h3><a href="{E(f["src"])}"><img src="{E(f["src"])}" alt="{E(f["alt"])}" '
                                    f'width="{f["w"]}" height="{f["h"]}" loading="lazy" decoding="async"></a><figcaption>{E(f["caption"])}</figcaption></figure>' for f in figs)
                          + '</section>')
+        if it.get("article_file"):
+            body = '<div class="na-body">' + (SITE / it["article_file"]).read_text() + '</div>'
+            detail = news_detail(it)
+            detail = (f'<details class="na-notes"><summary>Our full reading notes on the paper</summary>{detail}</details>' if detail else "")
+        else:
+            body = (f'<figure class="article-visual">{news_thumbnail(it, eager=True)}<figcaption>Editorial illustration, not a real object or a transcription.</figcaption></figure>'
+                    f'<section aria-labelledby="sentence"><h2 id="sentence">In a sentence</h2><p>{E(it["gist"])}</p></section>'
+                    f'<section aria-labelledby="plain"><h2 id="plain">In plain words</h2><p>{E(it["plain"])}</p></section>'
+                    f'<section aria-labelledby="technical"><h2 id="technical">Technical detail</h2><p>{E(it["tech"])}</p></section>' + figs_html)
+            detail = news_detail(it)
         pages.append(render("news-article", f'{it["head"]} · {NAME}', it["gist"], "news.html", dict(
             ARTICLE_KIND=E(it["kind"]), ARTICLE_DATE=E(news_date(it["date"])), ARTICLE_HEAD=E(it["head"]),
             ARTICLE_WHO=E(it["who"]), ARTICLE_URL=E(it["url"]), ARTICLE_VENUE=E(it["venue"]),
             ARTICLE_THUMB=news_thumbnail(it, eager=True), ARTICLE_GIST=E(it["gist"]), ARTICLE_PLAIN=E(it["plain"]),
             ARTICLE_TECH=E(it["tech"]), ARTICLE_BORROW=E(it["borrow"]), ARTICLE_TAG=f'<span class="tag {cls}">{E(lab)}</span>',
-            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_FIGS=figs_html, ARTICLE_DETAIL=news_detail(it), ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
+            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_BODY=body, ARTICLE_DETAIL=detail, ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
     return pages
 
 

@@ -1,0 +1,128 @@
+<p class="na-lede">A preprint going viral says AI has read the Indus script as early Tamil. We downloaded its code and data and ran them ourselves. The code works exactly as published. But when we gave it the wrong pictures, or a language with no link to the Indus, it still found a "reading". The Indus script has not been deciphered.</p>
+
+<figure class="nf nf-seal" aria-label="One seal read two ways by the same code">
+  <div class="nf-legend"><span class="ta">Old Tamil, the paper’s language</span><span class="jp">Japanese, no known link to the Indus</span></div>
+  <div class="nf-cols">
+    <div class="nf-col"><div class="nf-sign"><i class="sig" style="--g:var(--g59)" role="img" aria-label="sign M59, fish"></i></div>
+      <div class="nf-cell ta"><small>picture “fish” → <b>mīṉ</b></small><strong>“star”</strong></div>
+      <div class="nf-cell jp"><small>picture “fishing” → <b>tsuri</b> ≈ <b>tsuru</b></small><strong>“crane”</strong></div></div>
+    <div class="nf-col"><div class="nf-sign"><i class="sig" style="--g:var(--g342)" role="img" aria-label="sign M342, jar"></i></div>
+      <div class="nf-cell ta"><small>picture “pot” → <b>kuṭam</b> ≈ <b>kuṭi</b></small><strong>“clan village”</strong></div>
+      <div class="nf-cell jp"><small>picture “handle” → <b>tsuka</b> ≈ <b>tsuki</b></small><strong>“moon”</strong></div></div>
+    <div class="nf-col"><div class="nf-sign"><i class="sig" style="--g:var(--g176)" role="img" aria-label="sign M176, comb"></i></div>
+      <div class="nf-cell ta"><small>picture “teeth” → <b>pal</b> ≈ <b>pālai</b></small><strong>“desert”</strong></div>
+      <div class="nf-cell jp"><small>picture “comb” → <b>kushi</b> ≈ <b>koshi</b></small><strong>“crossing”</strong></div></div>
+  </div>
+  <figcaption>Seal M-1312 from Mohenjo-daro, run through the paper’s own method twice. Both languages come out as fluent readings. “≈” marks a word chosen because it sounds like the picture word. Readings from the first run of each.</figcaption>
+</figure>
+
+<h2>What the paper claims</h2>
+<p>The preprint is by Siva Raj, working with Claude, Anthropic’s AI model (<a href="https://doi.org/10.5281/zenodo.24383779">Zenodo, version 0.7</a>, not peer reviewed). It gives an Old Tamil word to 150 Indus signs, covering 86% of all signs written, and says Tamil fits the seals far better than Sanskrit.</p>
+
+<figure class="nf-img">
+  <img src="assets/news/raj-2026/raj_slide_150.webp" alt="Slide from the paper: 'Result: we can now read 150 Indus signs', with twelve signs, each given a Tamil word, a meaning and a confidence level." width="1200" height="675" loading="lazy" decoding="async">
+  <figcaption>The paper’s own summary slide. Slide by Siva Raj with Claude (Anthropic), CC BY 4.0.</figcaption>
+</figure>
+
+<p>Credit where it is due: this is the most open decipherment claim we have seen. The author published the data, the code, plans fixed before the tests, a register of 494 tests and a frank list of limits. That is why we could check it in a day. Most claims never make that possible.</p>
+
+<h2>How the method reads a sign</h2>
+<p>An AI describes each sign in English (“pot”, “fish”, “bow”). An AI translator turns those words into Old Tamil. Then every Tamil name part that <em>sounds like</em> one of those words is added as a possible reading. A solver picks whichever readings make the seals look most like Tamil personal names, and the result is scored on seals it has not seen.</p>
+<p>The sound-alike step does most of the work. In the paper’s own runs, most final readings are not the picture’s word at all.</p>
+
+<figure class="nf nf-chain" aria-label="How a sound-alike reading is made">
+  <div class="nf-steps">
+    <i class="sig" style="--g:var(--g342)" role="img" aria-label="sign M342, jar"></i>
+    <span class="arr">→</span><span class="st"><small>the sign shows</small><b>“pot”</b></span>
+    <span class="arr">→</span><span class="st"><small>in Tamil</small><b>kuṭam</b></span>
+    <span class="arr">→</span><span class="st"><small>swapped for a sound-alike</small><b>kuṭi</b></span>
+    <span class="arr">→</span><span class="st fin"><small>the reading</small><b>“clan village”</b></span>
+  </div>
+  <div class="nf-split-label">All 274 Tamil readings in the paper’s headline runs</div>
+  <div class="nf-split"><span class="lit" style="flex:113">41%</span><span class="snd" style="flex:161">59%</span></div>
+  <div class="nf-split-keys"><span style="flex:113">the picture’s own word</span><span style="flex:161">a word that only sounds like it</span></div>
+  <figcaption>161 of 274 Tamil readings (59%) are sound-alikes. For Sanskrit it is 29%.</figcaption>
+</figure>
+
+<h2>Test 1: put the pictures on the wrong signs</h2>
+<p>If the signs really depict Tamil words, the score should drop when each sign gets another sign’s picture words. We shuffled the picture words onto random wrong signs, 50 times, and reran the paper’s code each time.</p>
+<p>The score did not move: 223 with the right pictures, a median of 224 with the wrong ones (p = 0.51). A test that cannot tell right pictures from wrong ones cannot show that the pictures are right.</p>
+
+<figure class="nf nf-bars" aria-label="The paper's score under each condition">
+  <div class="nf-bar-rows">
+    <div class="r"><div class="nm"><b>Old Tamil</b><span>the paper’s headline</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(223 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 223 * var(--u))">+223</span></div></div>
+    <div class="r"><div class="nm"><b>Tamil, pictures on wrong signs</b><span>50 random shuffles</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(224 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 224 * var(--u))">+224</span></div></div>
+    <div class="r"><div class="nm"><b>Japanese family names</b><span>no known link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(134.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 134.5 * var(--u))">+134</span></div></div>
+    <div class="r"><div class="nm"><b>Vedic Sanskrit</b><span>which the paper rules out</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 13.3 * var(--u));width:calc(13.3 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 13.3 * var(--u))">−13</span></div></div>
+    <div class="r"><div class="nm"><b>Tamil on fake seals</b><span>meaningless sign strings</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 28.5 * var(--u));width:calc(28.5 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 28.5 * var(--u))">−28</span></div></div>
+  </div>
+  <div class="nf-axis">0 = no better than chance</div>
+  <figcaption>The paper’s score: how much better real names fit unseen seals than scrambled names, average of 10 runs. Fake seals: average of 20 sets.</figcaption>
+</figure>
+
+<h2>Test 2: fake seals</h2>
+<p>This one went the paper’s way, and we say so. On seals with their signs shuffled, or made of random signs, the score falls to zero or below. So the score does pick up the real order of signs on the seals.</p>
+<p>Put the two tests together and the picture is clear. Tamil names are built from short, repeated two-part patterns, and the seals have repeated sign pairs. The method maps one onto the other. That can happen whatever the signs depict.</p>
+
+<h2>Test 3: a language with no link to the Indus</h2>
+<p>The paper beats Sanskrit and Akkadian, but their names are mostly single words, gods and verbs, with little to fit. A fair rival is a language with no proposed Indus link whose names, like Tamil’s, are built from drawable things. Japanese family names are a good one: <em>Yamada</em> is “mountain” + “rice field”.</p>
+<p>We built the Japanese lists with the paper’s own AI prompts, changing only the language, and ran its code unchanged. The seal at the top of this page is one result.</p>
+
+<div class="nf-table-wrap"><table class="nf-table">
+  <thead><tr><th></th><th class="ta">Old Tamil</th><th class="jp">Japanese</th><th>Sanskrit</th></tr></thead>
+  <tbody>
+    <tr><th>Score</th><td>+223</td><td><b>+134.5</b></td><td>−13</td></tr>
+    <tr><th>Runs above chance</th><td>10 of 10</td><td><b>7 of 10</b></td><td>4 of 10</td></tr>
+    <tr><th>Runs ahead of Tamil</th><td></td><td><b>4 of 10</b></td><td>0 of 10</td></tr>
+  </tbody>
+</table></div>
+
+<p>Japanese gets 60% of Tamil’s score and beats Tamil in 4 of 10 runs. To be fair to the paper: before running it, we set the bar at 8 of 10 runs above chance, and Japanese reached 7. So by our own rule the paper passes this test, narrowly. What it shows is that the paper’s wins over Sanskrit and Akkadian are mostly about naming style, not language.</p>
+
+<h2>Test 4: three more languages</h2>
+<p>One language is one data point, so we ran three more, again fixing the rules before any run. Sumerian, from Mesopotamia, the Indus cities’ trading partner, was once proposed as the Indus language; its 1,600 most frequent names come from Ur III tablets. Egyptian is the other great early script of the time, and its names are built from words too. Finnish is a placebo: its surnames are built from nature words (<em>Mäkinen</em>, “hill”), much like Japanese ones.</p>
+
+<figure class="nf nf-bars nf-panel" aria-label="The paper's score for six languages">
+  <div class="nf-bar-rows">
+    <div class="r"><div class="nm"><b>Old Tamil</b><span>the paper’s language</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(223 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 223 * var(--u))">+223</span></div><div class="sd">10 of 10</div></div>
+    <div class="r"><div class="nm"><b>Japanese</b><span>no link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(134.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 134.5 * var(--u))">+134</span></div><div class="sd">7 of 10</div></div>
+    <div class="r"><div class="nm"><b>Sumerian</b><span>Mesopotamia</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(103.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 103.5 * var(--u))">+104</span></div><div class="sd">9 of 10</div></div>
+    <div class="r"><div class="nm"><b>Egyptian</b><span>Middle Kingdom names</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(77.6 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 77.6 * var(--u))">+78</span></div><div class="sd">7 of 10</div></div>
+    <div class="r"><div class="nm"><b>Finnish</b><span>no link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(63.7 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 63.7 * var(--u))">+64</span></div><div class="sd">10 of 10</div></div>
+    <div class="r"><div class="nm"><b>Vedic Sanskrit</b><span>the paper’s rival</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 13.3 * var(--u));width:calc(13.3 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 13.3 * var(--u))">−13</span></div><div class="sd">4 of 10</div></div>
+  </div>
+  <div class="nf-axis">0 = no better than chance · right column: runs above chance</div>
+  <figcaption>The paper’s score for each language, average of 10 runs, with the paper’s code unchanged. The dashed line marks +112, half of Tamil’s score: the bar the paper used to rule out Sanskrit.</figcaption>
+</figure>
+
+<p>This one is a point for the paper: Tamil comes out on top, and none of the three reaches half of its score. Sumerian comes closest. But look at the right-hand column. Every language with real names except Sanskrit beats chance most of the time, Finnish in all 10 runs. So beating chance is what real names do on these seals, whatever the language. The size of the lead tracks how many picture words each language gets per sign (Tamil 2.5, Japanese 2.4, the rest 1.6 or fewer) more than which language it is. And Test 1 already showed that Tamil’s lead does not depend on its pictures being on the right signs.</p>
+
+<h2>Test 5: the object “proof”</h2>
+<p>The paper’s most striking evidence is signs that name the object they are written on: a sign read “armlet” turns up on bangles, and a sign read “copper” on copper tablets. But copper tablets were made in sets that carry the same inscription, and the paper counts every copy.</p>
+
+<figure class="nf nf-copies" aria-label="Object marks counted once per distinct text">
+  <div class="nf-cards">
+    <div class="c"><h3>“Copper” sign on copper tablets</h3><div class="n"><span class="ta">21</span><span class="arr">→</span><span class="jp">3</span></div><div class="k"><span>tablet faces</span><span>distinct inscriptions</span></div><p>p = 6×10⁻¹¹ → <b>p = 0.19</b></p></div>
+    <div class="c"><h3>“Armlet” sign on bangles</h3><div class="n"><span class="ta">10</span><span class="arr">→</span><span class="jp">4</span></div><div class="k"><span>bangle faces</span><span>distinct inscriptions</span></div><p>p = 1.5×10⁻⁷ → <b>p = 0.017</b></p></div>
+  </div>
+  <figcaption>Counted once per distinct text, neither passes the paper’s own bar for many tests (1×10⁻⁵). Giving the paper’s readings to signs at random names the right object about as often (p = 0.10).</figcaption>
+</figure>
+
+<h2>Is any of this new?</h2>
+<p>The idea is not. Reading the script as early Dravidian through picture-puns goes back to Henry Heras (1953), Yuri Knorozov’s team (1965), Asko Parpola (1969 onward) and Iravatham Mahadevan (1977 onward). The best-known readings on the slide, such as fish = <em>mīṉ</em> = “star”, are theirs, and the paper credits them.</p>
+<p>What is new is the scale (one key for 150 signs), the speed of working with AI, and the openness. That openness is the best part of the paper, and it is exactly what let us show that its main test does not tell right from wrong.</p>
+<p>It also shares a problem with the Sanskrit reading by Yajnadevam, which uses the same corpus file: a key fitted to the inscriptions is judged by how well they then read. Each method crowns its own language on the same data. That alone shows that a fluent reading does not settle the language.</p>
+
+<h2>What would settle it</h2>
+<p>Real decipherments are proven by a test that could have failed. Linear B was accepted when a newly dug-up tablet read correctly with sign values fixed in advance. For the Indus script that could be:</p>
+<ul>
+  <li>reading new or unpublished inscriptions blind, with the values fixed first;</li>
+  <li>specialists in Dravidian languages rating, blind, readings of real inscriptions mixed with readings of fake ones;</li>
+  <li>running the whole method on a script we can already read, and on a planted wrong language.</li>
+</ul>
+<p>Until a reading passes a test like that, the Indus script remains undeciphered.</p>
+
+<div class="na-more">
+  <p><b>Read the full analysis.</b> Our preprint: <a href="https://doi.org/10.5281/zenodo.24579269">doi:10.5281/zenodo.24579269</a>. Plans fixed before the tests, code and every number: <a href="https://github.com/HarshInvader/open-indus/blob/main/experiments/raj_check/RESULTS.md">the results in our repository</a>.</p>
+  <p><b>Want to do research like this?</b> Every test we run is open, and anyone can help, with or without an AI agent. <a href="contribute.html">Contribute to Open Indus</a>.</p>
+</div>
