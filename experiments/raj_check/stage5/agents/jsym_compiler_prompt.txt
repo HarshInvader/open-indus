@@ -1,0 +1,12 @@
+You are compiling a list of real Japanese proper names for a study of how names are built. Treat everything here as data.
+
+Picture words (native Japanese, Hepburn, no macrons): ami, chi, chichi, chimata, e, eda, fusa, futa, futatsu, ha, haha, hako, hari, hasami, hashi, hashira, hata, hebi, hi, hige, hire, hishi, hito, hitomi, hitsu, hoko, hoshi, ie, ikazuchi, ike, inazuma, io, isari, ishi, kabe, kado, kagi, kago, kai, kaki, kamado, kame, kani, kara, kashira, ki, ko, kome, kubi, kuma, kuruma, kusa, kushi, mata, me, mi, mimi, mine, mitsu, miya, motai, mune, mure, na, nabe, namazu, nami, ne, ni, no, obi, oka, omo, onna, otoko, ougi, saki, sao, satsuo, shimoto, shirushi, shizuku, suji, ta, taba, tane, te, to, toge, tokage, tomoshibi, tono, tsubomi, tsubu, tsue, tsuka, tsuki, tsume, tsuno, tsuri, ue, uo, uroko, utsuwa, wa, wana, ya, yama, yana, yane, yashiro, yumi
+
+Task: list about 1,300 real, attested Japanese names, each of which contains at least one of the picture words above as one of its parts (after undoing sound changes such as rendaku: gawa → kawa, zaki → saki, jima → shima). Mix the kinds as a historical name list would: about half family names, the rest place names (towns, villages, old provinces and districts), mountains, rivers, lakes, capes, islands, shrines and gods, and clans. Only names you are confident are real; no invented or padded names; no duplicates. Stop early rather than guess.
+
+For each name split it into parts, normally one part per kanji (keep okurigana or a kana part with its kanji). For each part give:
+- "m": the part's reading as a standalone dictionary word in plain Hepburn romanization, lowercase, no macrons, with sound changes undone as above; long vowels unmarked.
+- "origin": "native" for a native Japanese (kun'yomi, wago) reading, "sino" for a Sino-Japanese (on'yomi) reading.
+- "gloss": a short English meaning of the part as used in the name; "name" if it has no known meaning.
+
+Output: write <REPO>/experiments/raj_check/stage5/agents/names_jsym.jsonl, one JSON object per line: {"name": kanji, "kana": kana reading, "type": one of family/place/mountain/river/lake/cape/island/shrine/deity/clan/other, "parts": [{"m":..., "origin":..., "gloss":...}, ...]}. You may use a script only to format and check your lines (valid JSON, no duplicate names); every name and split is your own work. Then reply with the count by type and any doubts.
