@@ -1,0 +1,934 @@
+{
+"002": {
+"two": [
+"eraḍu"
+],
+"pair": [
+"iṇe"
+],
+"strokes": [
+"gere"
+],
+"tally": []
+},
+"060": {
+"hook": [
+"koṇḍi",
+"gāḷa"
+],
+"stroke": [
+"gere"
+],
+"mark": [
+"kuṟi"
+],
+"line": [
+"gere",
+"sāl"
+]
+},
+"061": {
+"tongs": [
+"ikkuḷa"
+],
+"fork": [
+"kavalu",
+"kavaru"
+],
+"forked stick": [
+"kavalu"
+],
+"split": [
+"sīḷ",
+"oḍe"
+]
+},
+"070": {
+"arrow": [
+"ambu",
+"kaṇe"
+],
+"spear": [
+"īṭi"
+],
+"barb": [
+"koṇḍi",
+"mullu"
+],
+"point": [
+"mone",
+"tudi"
+]
+},
+"090": {
+"man": [
+"gaṇḍu",
+"āḷ"
+],
+"person": [
+"āḷ"
+],
+"stand": [
+"nil"
+],
+"body": [
+"mey",
+"oḍal"
+]
+},
+"100": {
+"heads": [
+"tale"
+],
+"crowd": [
+"gumpu",
+"piṇḍu"
+],
+"man": [
+"gaṇḍu",
+"āḷ"
+],
+"three": [
+"mūṟu"
+]
+},
+"125": {
+"archer": [
+"billa"
+],
+"hunter": [
+"bēḍa"
+],
+"shoot": [
+"cigur",
+"taḷir"
+],
+"bow": [
+"bil"
+]
+},
+"140": {
+"woman": [
+"peṇ"
+],
+"mother": [
+"avve",
+"tāy"
+],
+"breasts": [
+"mole"
+],
+"raise": [
+"ettu"
+]
+},
+"142": {
+"staff": [
+"kōl"
+],
+"man": [
+"gaṇḍu",
+"āḷ"
+],
+"walker": [],
+"stick": [
+"kōl",
+"kaḍḍi"
+]
+},
+"151": {
+"carrier": [],
+"load": [
+"pore"
+],
+"carry": [
+"poṟu",
+"pottu"
+],
+"yoke": [
+"nogavu"
+]
+},
+"154": {
+"carrier": [],
+"load": [
+"pore"
+],
+"jar": [
+"kuḍike"
+],
+"carry": [
+"poṟu",
+"pottu"
+]
+},
+"156": {
+"carrier": [],
+"load": [
+"pore"
+],
+"fan": [
+"bīsaṇige"
+],
+"carry": [
+"poṟu",
+"pottu"
+]
+},
+"176": {
+"sit": [
+"kuḷḷir"
+],
+"kneel": [],
+"worker": [
+"āḷ"
+],
+"rake": []
+},
+"220": {
+"fish": [
+"mīn"
+],
+"fishing": [],
+"fin": [],
+"scale": []
+},
+"226": {
+"fish": [
+"mīn"
+],
+"fish trap": [],
+"pond": [
+"kola",
+"kuṇṭe"
+],
+"catch": [
+"piḍi"
+]
+},
+"231": {
+"fish": [
+"mīn"
+],
+"spot": [
+"boṭṭu"
+],
+"dot": [
+"boṭṭu",
+"cukke"
+],
+"mark": [
+"kuṟi"
+]
+},
+"233": {
+"fish": [
+"mīn"
+],
+"cut fish": [],
+"dried fish": [],
+"band": [
+"kaṭṭu"
+]
+},
+"235": {
+"fish": [
+"mīn"
+],
+"roof": [
+"sūru"
+],
+"cover": [
+"muccaḷa"
+],
+"lid": [
+"muccaḷa"
+]
+},
+"236": {
+"fish": [
+"mīn"
+],
+"roof": [
+"sūru"
+],
+"trap": [
+"kaṇṇi"
+],
+"house": [
+"mane"
+]
+},
+"240": {
+"catfish": [],
+"fish": [
+"mīn"
+],
+"whiskers": [
+"mīse"
+],
+"barbel": []
+},
+"255": {
+"fish": [
+"mīn"
+],
+"fin": [],
+"lizard": [
+"palli",
+"ōti"
+],
+"scale": []
+},
+"350": {
+"roots": [
+"bēr"
+],
+"plant": [
+"giḍa"
+],
+"sprout": [
+"moḷake",
+"cigur"
+],
+"tuft": [
+"juṭṭu"
+]
+},
+"368": {
+"flag": [
+"guḍi"
+],
+"banner": [
+"guḍi"
+],
+"pennant": [
+"guḍi"
+],
+"pole": [
+"gaḷe"
+]
+},
+"388": {
+"grain": [
+"kāḷ",
+"nel"
+],
+"ear": [
+"kivi"
+],
+"sheaf": [
+"sivuḍu"
+],
+"bunch": [
+"goñce",
+"goñcal"
+]
+},
+"390": {
+"tree": [
+"mara"
+],
+"branch": [
+"kombe",
+"rembe"
+],
+"twig": [
+"kaḍḍi"
+],
+"fork": [
+"kavalu",
+"kavaru"
+]
+},
+"400": {
+"comb": [
+"bācaṇige",
+"paṇige"
+],
+"teeth": [
+"pal"
+],
+"rake": [],
+"ladder": [
+"ēṇi"
+]
+},
+"405": {
+"branch": [
+"kombe",
+"rembe"
+],
+"tree": [
+"mara"
+],
+"twig": [
+"kaḍḍi"
+],
+"sprout": [
+"moḷake",
+"cigur"
+]
+},
+"407": {
+"branch": [
+"kombe",
+"rembe"
+],
+"twig": [
+"kaḍḍi"
+],
+"tree": [
+"mara"
+],
+"shoot": [
+"cigur",
+"taḷir"
+]
+},
+"415": {
+"lamp": [
+"soḍar"
+],
+"rake": [],
+"trident": [],
+"fork": [
+"kavalu",
+"kavaru"
+]
+},
+"416": {
+"lamp": [
+"soḍar"
+],
+"rake": [],
+"stand": [
+"nil"
+],
+"tier": []
+},
+"435": {
+"zigzag": [],
+"lightning": [
+"miñcu"
+],
+"snake": [
+"pāvu"
+],
+"turn": [
+"tiru"
+]
+},
+"440": {
+"doorway": [
+"bāgil"
+],
+"door": [
+"kadavu",
+"bāgil"
+],
+"frame": [],
+"gate": [
+"bāgil"
+]
+},
+"455": {
+"hearth": [
+"ole"
+],
+"triangles": [],
+"stones": [
+"kal"
+],
+"fire": [
+"kiccu"
+]
+},
+"460": {
+"peaks": [
+"kōḍu",
+"tudi"
+],
+"mountains": [
+"male",
+"beṭṭu"
+],
+"hills": [
+"beṭṭu",
+"male"
+],
+"spikes": [
+"mullu"
+]
+},
+"503": {
+"hill": [
+"beṭṭu",
+"male"
+],
+"heap": [
+"kuppe"
+],
+"stack": [
+"baṇave"
+],
+"pile": [
+"kuppe"
+]
+},
+"520": {
+"spear": [
+"īṭi"
+],
+"arrow": [
+"ambu",
+"kaṇe"
+],
+"lance": [
+"īṭi"
+],
+"point": [
+"mone",
+"tudi"
+]
+},
+"527": {
+"box": [
+"peṭṭige"
+],
+"basket": [
+"buṭṭi",
+"kukke"
+],
+"stool": [
+"maṇe"
+],
+"chest": [
+"ede"
+]
+},
+"550": {
+"drum": [
+"paṟe"
+],
+"pincers": [
+"ikkuḷa"
+],
+"tongs": [
+"ikkuḷa"
+],
+"claw": [
+"ugur"
+]
+},
+"555": {
+"pincers": [
+"ikkuḷa"
+],
+"drum": [
+"paṟe"
+],
+"claw": [
+"ugur"
+],
+"tongs": [
+"ikkuḷa"
+]
+},
+"575": {
+"building": [],
+"stand": [
+"nil"
+],
+"shrine": [
+"guḍi"
+],
+"pedestal": []
+},
+"585": {
+"tent": [],
+"hearth": [
+"ole"
+],
+"hut": [
+"guḍisal"
+],
+"stand": [
+"nil"
+]
+},
+"590": {
+"box": [
+"peṭṭige"
+],
+"pole": [
+"gaḷe"
+],
+"flag": [
+"guḍi"
+],
+"standard": [
+"guḍi"
+]
+},
+"595": {
+"box": [
+"peṭṭige"
+],
+"pole": [
+"gaḷe"
+],
+"basket": [
+"buṭṭi",
+"kukke"
+],
+"standard": [
+"guḍi"
+]
+},
+"615": {
+"grid": [],
+"field": [
+"pola",
+"gadde"
+],
+"net": [
+"bale"
+],
+"wall": [
+"gōḍe"
+]
+},
+"617": {
+"grid": [],
+"fields": [
+"pola",
+"gadde"
+],
+"nets": [
+"bale"
+],
+"walls": [
+"gōḍe"
+]
+},
+"621": {
+"door": [
+"kadavu",
+"bāgil"
+],
+"box": [
+"peṭṭige"
+],
+"frame": [],
+"cabinet": []
+},
+"690": {
+"cross": [],
+"crossroads": [],
+"junction": [
+"kūḍal"
+],
+"meet": [
+"kūḍu"
+]
+},
+"692": {
+"cross": [],
+"crossroads": [],
+"junction": [
+"kūḍal"
+],
+"band": [
+"kaṭṭu"
+]
+},
+"705": {
+"churn": [
+"kaḍe"
+],
+"pot": [
+"maḍake"
+],
+"stick": [
+"kōl",
+"kaḍḍi"
+],
+"stir": [
+"kalaku"
+]
+},
+"706": {
+"churn": [
+"kaḍe"
+],
+"drop": [
+"pani",
+"tuḷi"
+],
+"pot": [
+"maḍake"
+],
+"stir": [
+"kalaku"
+]
+},
+"717": {
+"paw": [],
+"hand": [
+"kay"
+],
+"bundle": [
+"mūṭe",
+"kaṭṭu"
+],
+"rake": []
+},
+"740": {
+"jar": [
+"kuḍike"
+],
+"pot": [
+"maḍake"
+],
+"vessel": [
+"maḍake"
+],
+"handle": [
+"piḍi",
+"kāvu"
+]
+},
+"741": {
+"jar": [
+"kuḍike"
+],
+"pot": [
+"maḍake"
+],
+"vessel": [
+"maḍake"
+],
+"fill": [
+"tumbu",
+"tīvu"
+]
+},
+"742": {
+"jar": [
+"kuḍike"
+],
+"pot": [
+"maḍake"
+],
+"vessel": [
+"maḍake"
+],
+"fill": [
+"tumbu",
+"tīvu"
+]
+},
+"760": {
+"pot": [
+"maḍake"
+],
+"sprout": [
+"moḷake",
+"cigur"
+],
+"plant": [
+"giḍa"
+],
+"horns": [
+"kōḍu",
+"kombu"
+]
+},
+"790": {
+"leaf": [
+"ele"
+],
+"seed": [
+"bittu"
+],
+"eye": [
+"kaṇ"
+],
+"diamond": []
+},
+"798": {
+"crab": [
+"ēḍi"
+],
+"claw": [
+"ugur"
+],
+"pincer": [
+"ikkuḷa"
+],
+"shell": [
+"cippu"
+]
+},
+"803": {
+"leaf": [
+"ele"
+],
+"tree": [
+"mara"
+],
+"vein": [
+"nara"
+],
+"pipal": [
+"araḷi"
+]
+},
+"806": {
+"leaf": [
+"ele"
+],
+"seed": [
+"bittu"
+],
+"sprout": [
+"moḷake",
+"cigur"
+],
+"vein": [
+"nara"
+]
+},
+"817": {
+"leaf": [
+"ele"
+],
+"bud": [
+"mogge",
+"mugul"
+],
+"seed": [
+"bittu"
+],
+"point": [
+"mone",
+"tudi"
+]
+},
+"820": {
+"wheel": [
+"gāli"
+],
+"spokes": [],
+"sun": [
+"nēsar"
+],
+"star": [
+"cukke"
+]
+},
+"832": {
+"eye": [
+"kaṇ"
+],
+"seed": [
+"bittu"
+],
+"almond": [],
+"pupil": []
+},
+"840": {
+"leaves": [
+"ele"
+],
+"eyes": [
+"kaṇ"
+],
+"pair": [
+"iṇe"
+],
+"seeds": [
+"bittu"
+]
+},
+"861": {
+"diamond": [],
+"bud": [
+"mogge",
+"mugul"
+],
+"leaf": [
+"ele"
+],
+"point": [
+"mone",
+"tudi"
+]
+},
+"892": {
+"bow": [
+"bil"
+],
+"arrow": [
+"ambu",
+"kaṇe"
+],
+"shoot": [
+"cigur",
+"taḷir"
+],
+"archer": [
+"billa"
+]
+},
+"900": {
+"crescent": [],
+"moon": [
+"tiṅgaḷ"
+],
+"curve": [
+"bāgu",
+"koṅku"
+],
+"bow": [
+"bil"
+]
+},
+"904": {
+"crescents": [],
+"moons": [
+"tiṅgaḷ"
+],
+"curves": [
+"bāgu"
+],
+"waves": [
+"tere"
+]
+},
+"920": {
+"crescent": [],
+"moon": [
+"tiṅgaḷ"
+],
+"leaf": [
+"ele"
+],
+"bud": [
+"mogge",
+"mugul"
+]
+},
+"923": {
+"boomerang": [],
+"crescent": [],
+"moon": [
+"tiṅgaḷ"
+],
+"bend": [
+"bāgu",
+"koṅku"
+]
+}
+}

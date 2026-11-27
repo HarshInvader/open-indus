@@ -1,0 +1,22 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "kannada4b",
+ "names": "names_kannada4b.jsonl",
+ "parts": "parts_kannada4b.jsonl",
+ "number_words": {
+  "1": "ondu",
+  "2": "eraḍu",
+  "3": "mūru",
+  "4": "nālku",
+  "5": "aydu",
+  "6": "āru",
+  "7": "ēḷu",
+  "12": "panneraḍu"
+ },
+ "drop_parts": [],
+ "keep_noninitial": [],
+ "loan_category": "sanskrit_loan",
+ "words": "words_kannada4b.json",
+ "weights": "once"
+}
