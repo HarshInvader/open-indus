@@ -1,0 +1,22 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "egyptian",
+ "names": "names_egyptian.jsonl",
+ "parts": "parts_egyptian.jsonl",
+ "number_words": {
+  "1": "wa",
+  "2": "senwy",
+  "3": "khemet",
+  "4": "fedu",
+  "5": "diu",
+  "6": "sisu",
+  "7": "sefekh",
+  "12": "medjsenwy"
+ },
+ "drop_parts": [],
+ "keep_noninitial": [],
+ "loan_category": "loan",
+ "words": "words_egyptian.json",
+ "weights": "once"
+}

@@ -1,0 +1,22 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "finnish",
+ "names": "names_finnish.jsonl",
+ "parts": "parts_finnish.jsonl",
+ "number_words": {
+  "1": "yksi",
+  "2": "kaksi",
+  "3": "kolme",
+  "4": "nelja",
+  "5": "viisi",
+  "6": "kuusi",
+  "7": "seitseman",
+  "12": "kaksitoista"
+ },
+ "drop_parts": [],
+ "keep_noninitial": [],
+ "loan_category": "loan",
+ "words": "words_finnish.json",
+ "weights": "once"
+}
