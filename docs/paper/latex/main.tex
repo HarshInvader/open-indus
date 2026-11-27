@@ -28,7 +28,7 @@
 \maketitle
 
 \begin{abstract}
-\noindent Statistical and machine-learning work on the Indus script rests on a corpus of 2,270 distinct short texts. We measure three properties of this corpus that decide what such work can show. (1)~\emph{The editions disagree.} Matching 469 objects across the two standard transcriptions through the 1930s excavation registers, independently of their signs, we find that the editions read 12.9\% of signs differently (95\% CI 11.1--14.9\%; 14.0\% out of sample), and one text in three differs somewhere. (2)~\emph{Random splits leak.} Because moulded tablets and fixed formulae put near-copies of a text on different objects, a random split by object leaves a near-copy of 37\% of test texts in training even after exact repeats are removed (median of 200 splits; 95\% range 33--42\%), and of 62\% if they are not. (3)~\emph{Many questions lie below the detection limit.} Planted-answer controls show that a genre difference must exceed 0.57 bits per text to be found, that a test for a relational reading of a joining sign fails at Indus size and works on a corpus four times larger, and that a sign-order statistic passes on four of seven non-linguistic codes. We release a family-level split and a corrected concordance between the two sign lists, and recommend reporting practice for future quantitative work on the script.
+\noindent Statistical and machine-learning work on the Indus script rests on a corpus of 2,270 distinct short texts. We measure three properties of this corpus that decide what such work can show. (1)~\emph{The editions disagree.} Matching 469 objects across the two standard transcriptions through the 1930s excavation registers, independently of their signs, we find that the editions read 12.9\% of signs differently (95\% CI 11.1--14.9\%; 14.0\% out of sample), and one text in three differs somewhere. (2)~\emph{Random splits leak.} Because moulded tablets and fixed formulae put near-copies of a text on different objects, a random split by object leaves a near-copy of 37\% of test texts in training even after exact repeats are removed (median of 200 splits; 95\% range 33--42\%), and of 62\% if they are not. (3)~\emph{Many questions lie below the detection limit.} Planted-answer controls show that a genre must differ by about 0.57 bits per text to be found reliably (about 0.17 bits if it differs in length alone), that a test for a relational reading of a joining sign fails at Indus size and ranks ``son of'' first only on a full Ur~III corpus four times larger, the corpus on which the statistic was chosen, and that a sign-order statistic passes on four of seven non-linguistic codes. We release a family-level split and a corrected concordance between the two sign lists, and recommend reporting practice for future quantitative work on the script.
 
 \medskip
 \noindent\textbf{Keywords:} Indus script; undeciphered writing; corpus reliability; data leakage; statistical power; ancient languages
@@ -65,7 +65,7 @@ We make no claim about the meaning or sound of any sign, nor about any language.
 
 \paragraph{Distinct texts and families.} Moulded tablets repeat one text many times, so we count distinct sign sequences: M77 has 2,270. We join two distinct texts into one \emph{family} if they are within one sign edit of each other (both texts of four or more signs), or if one contains the other as a contiguous run (the shorter of three or more signs). The 2,270 texts form 1,477 families.
 
-\paragraph{Procedures.} Confirmatory tests were written up before they were run, naming the statistic, the null distribution, the pass bar and the minimum sample. The write-up and its scripts were hashed (SHA-256) into a public file before any outcome was computed. The main positive results were then attacked by a separate analyst who wrote independent code without reading the original, and who pre-registered their own kill criteria. Section~\ref{sec:checks} reports one such attack. Exceptions are logged in the repository's prediction registry; of the tests reported here, the write-up for the language classifier was hashed after its calibration run, and the short-label write-up was amended after hashing.
+\paragraph{Procedures.} Confirmatory tests were written up before they were run, naming the statistic, the null distribution, the pass bar and the minimum sample. The write-up and its scripts were hashed (SHA-256) into a public file before any outcome was computed. The main positive results were then attacked by a separate analyst who had read the original results and code but wrote new code, and who pre-registered their own kill criteria. Section~\ref{sec:checks} reports one such attack. Exceptions are logged in the repository's prediction registry; of the tests reported here, the write-up for the language classifier was hashed only after it had been run, and the short-label write-up was amended after hashing.
 
 \section{Agreement between the editions}
 \label{sec:editions}
@@ -74,7 +74,7 @@ We make no claim about the meaning or sound of any sign, nor about any language.
 
 Comparing two editions requires pairs of readings known to belong to the same object. Matching texts by their signs would favour pairs that already agree. We therefore linked objects through the excavation registers of Mohenjo-daro, Harappa and Chanhu-daro \citep{mackay1938,vats1940,mackay1943}, by serial and field number. This yielded 469 objects: 342 seals, 81 tablets and 46 sealings.
 
-Comparing readings also requires a concordance between the two sign lists. We built it from the 395 matched objects whose two readings have equal length, where the sign at each position can be compared without any concordance. Our first concordance contained errors: the five plain fish signs were cross-wired, one frequent sign was unmapped, and Mahadevan's practice of writing some signs twice where Wells has a single ``double'' sign had been scored as a substitution plus a missing sign. These errors had inflated the disagreement rate to 19.4\%. Appendix~\ref{app:concordance} lists the corrections. We report this because concordances between other sign lists are likely to contain similar errors, and because here they changed the result by a third.
+Comparing readings also requires a concordance between the two sign lists. We built it from the 395 matched objects whose two readings have equal length, where the sign at each position can be compared without any concordance. Our first concordance contained errors: four of the five plain fish signs were cross-wired, one frequent sign was unmapped, and Mahadevan's practice of writing some signs twice where Wells has a single ``double'' sign had been scored as a substitution plus a missing sign. These errors had inflated the disagreement rate to 19.4\%. Appendix~\ref{app:concordance} lists the corrections. We report this because concordances between other sign lists are likely to contain similar errors, and because here they changed the result by a third.
 
 \subsection{Result}
 
@@ -82,7 +82,7 @@ After correction the editions disagree on 12.9\% of compared signs (Table~\ref{t
 
 \begin{table}[t]
 \centering
-\caption{Disagreement between M77 and ICIT on 469 register-matched objects, per compared sign. Intervals are 95\% text-bootstrap intervals.}
+\caption{Disagreement between M77 and ICIT on 469 register-matched objects, per compared sign (last two rows: share of texts). Intervals are 95\% text-bootstrap intervals.}
 \label{tab:disagreement}
 \begin{tabular}{lr}
 \toprule
@@ -94,7 +94,7 @@ Adjacent signs in swapped order & 0.6\% (0.3--1.0) \\
 \textbf{All kinds} & \textbf{12.9\% (11.1--14.9)} \\
 \midrule
 Texts with any difference & 34.5\% (30.3--38.8) \\
-Texts read in opposite directions & 2.1\% (0.9--3.4) \\
+Texts that fit better reversed & 2.1\% (0.9--3.4) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -111,7 +111,7 @@ Disagreement is uneven (Figure~\ref{fig:disagreement}). Harappa objects disagree
 \subsection{Checks}
 \label{sec:checks}
 
-\paragraph{Fitting.} The corrections were derived from the same objects on which they are measured. An independent analyst re-derived them on half of the objects and measured on the other half, over 200 random halvings. The out-of-sample rate is 14.0\% (range 12.2--16.0\%). Fitting therefore lowers the estimate by about one point.
+\paragraph{Fitting.} The corrections were derived from the same objects on which they are measured. An independent analyst re-derived them on half of the objects and measured on the other half, over 200 random halvings. The out-of-sample rate is 14.0\% (range 12.2--16.0\%). With the same aligner, fitting the corrections in sample lowers the estimate by 0.6 points (13.4\% against 14.0\%).
 
 \paragraph{The fish pairing.} Of all 120 ways of pairing the five plain fish signs between the two lists, the corrected pairing gives the lowest disagreement (12.6\%); the next best gives 14.2\%, and the original pairing ranks 28th. The pairing rests on large counts, such as 37 of 38 and 22 of 23 same-position matches.
 
@@ -123,14 +123,14 @@ Disagreement is uneven (Figure~\ref{fig:disagreement}). Harappa objects disagree
 
 The register-matched objects are the best-documented part of the corpus, so disagreement elsewhere is unlikely to be lower. Errors that both editors share are invisible to this comparison, since ICIT drew on M77 and on the same photographs.
 
-To show how the rate bears on published claims, we re-ran nine structural findings on the signs both editions agree on, on the ICIT readings, and under noise that reproduces the measured pattern of disagreement (which signs are confused with which, where deletions fall, and how often texts are reversed). All nine pass at the measured rate where they can be checked. The weakest, that recurring sign pairs keep a fixed order, passes in only three of five runs when the noise is concentrated on rare signs. One of them, on reading direction, passes on ICIT's readings and under noise but cannot be checked on the agreed signs, because only eight left-to-right lines carry the same label and the same signs in both editions.
+To show how the rate bears on structural claims, we re-ran nine of our own headline structural findings on the signs both editions agree on, on the ICIT readings, and under noise that reproduces the measured pattern of disagreement (which signs are confused with which, where deletions fall, and how often texts are reversed). Where they can be checked, all nine pass at the measured rate, one of them only in some runs. The weakest, that recurring sign pairs keep a fixed order, passes in only three of five runs at the measured rate, and two of five at 1.5 times it, when the noise is concentrated on rare signs; the independent analyst rates it weakened. One of them, on reading direction, passes on ICIT's readings and under noise but cannot be checked on the agreed signs, because only eight left-to-right lines carry the same label and the same signs in both editions.
 
 \section{Leakage under random splits}
 \label{sec:leakage}
 
 \subsection{How much random splits leak}
 
-We drew 200 random splits of M77 by object, the usual practice, with about a fifth of objects in test, and counted test texts of two or more signs that have a copy in training. Copy rules are those of Section~\ref{sec:data}. We did this twice: on all 3,424 texts, and after removing exact repeats first, as a careful modeller would, which leaves 2,263 texts (slightly fewer than 2,270 because line breaks are removed before de-duplication). Without de-duplication, 39.1\% of test texts have an exact copy in training and 62.3\% a near-copy (95\% range 58.9--65.9\%). Removing exact repeats does not solve the problem: 37.3\% of test texts still have a near-copy in training (95\% range 33.3--41.6\%). The share depends on the copy rule and should always be reported with it (Figure~\ref{fig:leakage}); after de-duplication it ranges from 13.5\% for copies within one edit to 50.6\% for copies within two edits or contained.
+We drew 200 random splits of M77 by object, the usual practice, with about a fifth of objects in test, and counted test texts of two or more signs that have a copy in training. Copy rules are those of Section~\ref{sec:data}. We did this twice: on all 3,424 texts, and after removing exact repeats first, as a careful modeller would, which leaves 2,263 texts (slightly fewer than 2,270; line breaks are removed before de-duplication). Without de-duplication, 39.1\% of test texts have an exact copy in training and 62.3\% a near-copy (95\% range 58.9--65.9\%). Removing exact repeats does not solve the problem: 37.3\% of test texts still have a near-copy in training (95\% range 33.3--41.6\%). The share depends on the copy rule and should always be reported with it (Figure~\ref{fig:leakage}); after de-duplication it ranges from 13.5\% for copies within one edit to 50.6\% for copies within two edits or contained.
 
 \begin{figure}[t]
 \centering
@@ -146,11 +146,11 @@ We made this error ourselves. Our first held-out set was drawn from distinct seq
 
 For each question below we planted a known answer, in Indus texts or in a real corpus thinned to Indus size, and recorded how often the test recovered it. Table~\ref{tab:limits} summarises the results.
 
-\paragraph{Genres.} Unsupervised mixture models find a single genre in the Indus texts. Planting genres in 2,269 real texts shows that 80\% power requires a genre that differs by 0.57 bits per text in vocabulary, formula and length together. Object type, which a supervised classifier does separate on held-out texts, carries only 0.15 bits. A single genre is therefore expected even where registers exist. A contrast as strong as Mesopotamian seal legends against tags, 1.15 bits, would have been found.
+\paragraph{Genres.} Unsupervised mixture models find a single genre in the Indus texts. Planting genres in 2,269 real texts shows that 80\% power requires a genre that differs by 0.57 bits per text in vocabulary, formula and length together; a genre that differs in length alone is found at about 0.17 bits. Object type, which a supervised classifier does separate on held-out texts, carries only 0.15 bits. A single genre is therefore expected even where registers exist. A contrast as strong as Mesopotamian seal legends against tags, 1.15 bits, would have been found.
 
-\paragraph{A joining sign as a relation word.} One frequent sign often stands between two sign groups. If it meant something like ``son of'', the groups on either side should also occur as independent texts more often than chance. Before applying the test to Indus data, we ran it on real Ur~III and Old Babylonian seal legends thinned to Indus size. It recovered ``son of'' in 3 and 0 of 100 samples respectively, against a bar of 80; on the full 5,180 Ur~III legends it ranks ``son of'' first. We therefore did not run the test on Indus data. It failed at Indus size (a pool of 1,285 legends) and succeeded only on the full corpus, about four times larger; the size at which power reaches 80\% was not mapped.
+\paragraph{A joining sign as a relation word.} One frequent sign often stands between two sign groups. If it meant something like ``son of'', the groups on either side should also occur as independent texts more often than chance. Before applying the test to Indus data, we ran it on real Ur~III and Old Babylonian seal legends thinned to Indus size. It recovered ``son of'' in 3 and 0 of 100 samples respectively, against a bar of 80; on the full 5,180 Ur~III legends it ranks ``son of'' first. We therefore did not run the test on Indus data. It failed at Indus size (a pool of 1,285 legends) and succeeded only on the full Ur~III corpus, about four times larger, on which the statistic had been chosen; the size at which power reaches 80\% was not mapped.
 
-\paragraph{A sign enriched on pottery.} A test of whether the jar-shaped sign marks vessels has 47\% power to detect a 1.5-fold enrichment on the 65 pottery texts from Harappa, Lothal and Kalibangan on which both editions agree. About 250 are needed. ICIT's readings for the same sites have 265 pottery texts and adequate power (0.92), and show the sign at 0.80 times the expected rate; this was a secondary pool and its outcome is now seen, so it cannot serve as the confirmatory test.
+\paragraph{A sign enriched on pottery.} A test of whether the jar-shaped sign marks vessels has 47\% power to detect a 1.5-fold enrichment on the 65 pottery texts from Harappa, Lothal and Kalibangan in the consensus corpus (49 distinct texts in M77; masking disputed signs splits some copies). About 250 are needed. ICIT's readings for the same sites have 265 pottery texts and adequate power (0.92), and show the sign at 0.80 times the expected rate; this was a secondary pool and its outcome is now seen, so it cannot serve as the confirmatory test.
 
 \paragraph{Language or code.} Whether the script writes language is the most debated statistical question about it \citep{farmer2004,rao2009,sproat2014}. We tested two approaches against known cases. The first is a sign-order statistic: the share of texts whose real order outscores every reordering of their own signs, under a bigram model trained on development texts. Indus scores 0.40. Run unchanged on seven non-linguistic codes and six writing systems, each sampled to Indus size and split by family, it ranges from 0.98 for weather reports to 0.09 for khipu (Figure~\ref{fig:order}). Four of the seven codes pass the pre-registered bar of 0.30. The statistic detects fixed formats, not language, which extends \citeauthor{sproat2014}'s \citeyearpar{sproat2014} argument from entropy measures to order. The second approach, a classifier trained on known languages and codes, reaches a balanced accuracy of 0.61 when each code is held out in turn, and 0.69 on genre-matched short labels, against a gate of 0.80 (for the first classifier the gate was written down after calibration had been seen). Neither approach can answer the question at this corpus size.
 
@@ -171,13 +171,13 @@ Question & What the test needs & What the corpus has \\
 \midrule
 Distinct genres & A difference of 0.57 bits per text & Object type differs by 0.15 bits \\
 Joining sign as relation word & Works at about four times the pool (not mapped between) & 1,285 usable texts \\
-Jar sign enriched on pottery & About 250 pottery texts & 65 \\
+Jar sign enriched on pottery & About 250 pottery texts & 65 (49 distinct in M77) \\
 Language against code & A statistic that separates known cases & None passed its gate \\
 \bottomrule
 \end{tabularx}
 \end{table}
 
-Some of these limits will move with new data. The third volume of the \emph{Corpus of Indus Seals and Inscriptions}, not yet available in a digital corpus we could use, and excavation databases of marked sherds could give the pottery question a fresh confirmatory test. We have hashed forward predictions for such data so that the test is fresh when it arrives.
+Some of these limits will move with new data. An excavation database of marked sherds (the Harappa Archaeological Research Project sherd records) could give the pottery question a fresh confirmatory test, and the third volume of the \emph{Corpus of Indus Seals and Inscriptions} could enlarge the pool for the joining-sign test. We have hashed forward predictions for such data so that the test is fresh when it arrives.
 
 \section{Recommendations}
 
@@ -193,19 +193,21 @@ For quantitative work on the Indus corpus we recommend that authors:
 
 \paragraph{Shared errors.} Disagreement between the editions is a lower bound on reading error, because errors shared by both are invisible.
 
-\paragraph{One sign list.} All tests run in Mahadevan's sign numbering. The main structural tests were also run under twelve alternative sign lists, but the leakage figures reported here use M77 and are likely to rise under sign lists that merge similar signs.
+\paragraph{One sign list.} All tests run in Mahadevan's sign numbering. The main structural tests were also run under twelve alternative sign lists, but the leakage figures reported here use M77 and were not measured under other sign lists.
 
-\paragraph{Simulators.} The planted-answer controls write real languages in invented scripts. They may differ from Indus texts in, for example, how often names occur, which affects the size of the limits in Section~\ref{sec:limits}.
+\paragraph{Simulators.} The planted-answer controls plant effects in Indus texts or use other corpora thinned to Indus size. Planted effects may differ from Indus texts in, for example, how often names occur, which affects the size of the limits in Section~\ref{sec:limits}.
+
+\paragraph{Claims that wait on outside material.} Three limits can only be moved from outside: the pottery test needs the excavation sherd records; the joining-sign test needs about four times more texts, and the size at which it reaches 80\% power has first to be mapped on Ur~III; and errors shared by both editions can only be found by epigraphers working from the objects or photographs.
 
 \paragraph{Analysis by AI agents.} Most analyses and all independent attacks were carried out by AI agents working under written rules, with a human lead who set the questions and reviewed the findings. Pre-registration and hashing limit what an agent could adjust after seeing data. The attacking agents share a model family with the original analysts, so their independence is partial, and none of this replaces review by epigraphers.
 
 \section*{Data and code availability}
 
-Code, pre-registrations with their hashes, results files and a ledger of every test run are available in the project repository [URL withheld for review]. The family-level split is released as text numbers with its hash, and the corrected concordance with the evidence for each entry. The corpus files are not redistributed, because neither source states terms that permit it; a script rebuilds them from the public sources.
+Code, pre-registrations with their hashes, results files and a ledger of the tests run are available in the project repository [URL withheld for review]. The family-level split is released as text numbers with its hash, and the corrected concordance with the evidence for each entry. The corpus files are not redistributed, because neither source states terms that permit it; a script rebuilds them from the public sources.
 
 \section*{Use of AI}
 
-AI agents performed most analyses, independent attacks and drafting, as described under Limitations. The human author set the research questions and directed and reviewed the work. Reported numbers were checked against their results files by agent review.
+AI agents performed most analyses, independent attacks and drafting, as described under Limitations. The human author set the research questions and directed and reviewed the work. Reported numbers were checked against their results files by an independent agent review of this draft.
 
 \section*{Competing interests and funding}
 
