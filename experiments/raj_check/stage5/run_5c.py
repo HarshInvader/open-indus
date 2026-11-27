@@ -15,7 +15,7 @@ idx = {r['name']: i for i, r in enumerate(rows)}; N = len(rows)
 cur = {idx[r['name']] for r in jl(os.path.join(I, 'names_jsym_v2.jsonl'))}
 shutil.copy(os.path.join(I, 'parts_jsym_v2.jsonl'), os.path.join(I, 'parts_jsym_v3.jsonl'))
 base = dict(JCFG, parts=os.path.join(I, 'parts_jsym_v3.jsonl'))
-tmp = tempfile.mkdtemp(prefix='t9c_'); rnd = random.Random(3)
+tmp = tempfile.mkdtemp(prefix='.t9c_', dir=H); rnd = random.Random(3)
 def obj(sel):
     p = os.path.join(tmp, 'names.jsonl'); wjl(p, [rows[i] for i in sorted(sel)])
     return st.mean(g['D'](g['cfg'](base, J2, p, os.path.join(I, 'corpus_A.csv'), 'jv3', tmp), 'jv3', range(5), tmp))
@@ -27,4 +27,4 @@ for it in range(1, 1501):
     if it % 50 == 0: print(it, round(best, 1), flush=True)
 wjl(os.path.join(I, 'names_jsym_v3.jsonl'), [rows[i] for i in sorted(cur)])
 json.dump({'pool': N, 'start': log[0][1], 'final': best, 'accepted': log}, open(os.path.join(H, 'search_log_v3.json'), 'w'), indent=0)
-print('final', round(best, 1), 'accepted', len(log) - 1); g['EX'].shutdown()
+print('final', round(best, 1), 'accepted', len(log) - 1); g['EX'].shutdown(); shutil.rmtree(tmp)
