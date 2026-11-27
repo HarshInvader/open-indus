@@ -1,0 +1,17 @@
+You are compiling a list of ancient proper names for a study of how names are built. Work carefully; the list will be checked against dictionaries.
+
+Task: compile about 1,400 distinct proper names of Old Tamil (between 1,260 and 1,540), of every kind: people (poets, kings, chiefs, patrons, heroes), groups and tribes, lineages and families, gods and other divine beings, places, rivers, mountains.
+
+Sources, in this order:
+1. Every proper name you can establish as occurring in the Sangam poems (the Eight Anthologies and the Ten Idylls). Mark these source "sangam".
+2. Only if step 1 gives fewer than about 1,400: add proper names from the Tamil-Brahmi inscriptions as covered by Iravatham Mahadevan, Early Tamil Epigraphy (2003; 2014). Mark these source "inscription".
+You may use the web to consult indexes of Sangam names, Early Tamil Epigraphy, and the Tamil Lexicon. Include only names you are confident are real and attested. Do not invent names and do not pad the list. If you cannot reach 1,260 confident names, stop where you are and say so.
+
+For each name give:
+- "name": the name in Tamil Lexicon transliteration (ā ī ū ē ō, ṅ ñ ṇ ṉ, ṭ ṟ, ḷ ḻ), stem form (for example "Pāri", "Vaiyai", "Neṭuñceḻiyaṉ").
+- "type": one of person, group, lineage, deity, place, river, hill, celestial, title, other.
+- "morphemes": the name split into its meaningful members, each in stem form, same transliteration, lowercase. A compound name gives its members (Neṭuñceḻiyaṉ -> ["neṭu", "ceḻiyaṉ"]; Karikālaṉ -> ["kari", "kālaṉ"]). A simple name gives one member (["pāri"]). Give the same member the same spelling every time it occurs. Drop patronymic and descent-marking suffixes and the vowel strengthening that goes with them: give the base name; if the base name is already in the list as its own entry, leave the patronymic form out. Do not split a name whose analysis is unknown or disputed; give it whole.
+- "gloss": a few English words for the meaning of each member, in order, separated by " + " (for example "long + name"). Use "name" for a member with no known meaning.
+- "source": "sangam" or "inscription".
+
+Output: write the list to the file <REPO>/experiments/raj_check/stage4/agents/names_tamilf.jsonl, one JSON object per line with exactly those five keys. No duplicates. Then reply with a short note: the number of names by source and by type, how you worked, and any doubts.

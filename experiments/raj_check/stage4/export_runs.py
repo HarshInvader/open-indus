@@ -15,10 +15,12 @@ RUNS = [  # (id, label, note, group, dir, lang file prefix, names description)
  ('finnish', 'Finnish', 'no link to the Indus', 'other', 'T5_finnish', 'finnish', 'surnames'),
  ('tamil_ascii', 'Tamil, plain spelling', 'diacritics removed', 'tamilctl', 'T6_6a', 'tamil6a', 'Sangam names of every kind'),
  ('tamil_people', 'Tamil, people only', "the paper's list, persons only", 'tamilctl', 'T6_6b', 'tamil6b', 'Sangam personal names (532)'),
- ('tamil_fresh', 'Old Tamil, fresh list', 'built by a new agent', 'dravidian', 'T7_tamil4b', 'tamil4b', 'Sangam and Tamil-Brahmi names of every kind'),
+ ('tamil_fresh', 'Old Tamil, fresh list', 'same sources, new agent', 'dravidian', 'T7_tamil4b', 'tamil4b', 'Sangam and Tamil-Brahmi names, 68% people'),
+ ('tamil_x2', "Paper's names, fresh pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x2', 'tamil4b_x2', "the paper's 1,125 names with the fresh list's picture words"),
+ ('tamil_x1', "Fresh names, paper's pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x1', 'tamil4b_x1', "the fresh names with the paper's picture words"),
  ('kannada', 'Old Kannada', 'Dravidian', 'dravidian', 'T7_kannada4b', 'kannada4b', 'inscription and early literary names of every kind'),
- ('telugu', 'Old Telugu', 'Dravidian', 'dravidian', 'T7_telugu4b', 'telugu4b', 'inscription and early literary names of every kind'),
- ('malayalam', 'Old Malayalam', 'Dravidian', 'dravidian', 'T7_malayalam4b', 'malayalam4b', 'inscription and early literary names of every kind'),
+ ('telugu', 'Old Telugu', 'reads only ~2 signs', 'dravidian', 'T7_telugu4b', 'telugu4b', 'inscription and early literary names of every kind'),
+ ('malayalam', 'Old Malayalam', 'short list (510 names)', 'dravidian', 'T7_malayalam4b', 'malayalam4b', 'inscription and early literary names of every kind'),
 ]
 T = seeds('T0', 'tamil'); out = []
 for rid, label, note, group, d, L, desc in RUNS:

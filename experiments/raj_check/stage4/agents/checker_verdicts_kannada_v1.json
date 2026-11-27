@@ -1,0 +1,413 @@
+{
+ "names": [
+  {
+   "item": "Sundari",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gauḷa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Arkakīrti",
+   "verdict": "ok"
+  },
+  {
+   "item": "Citrasēna",
+   "verdict": "ok"
+  },
+  {
+   "item": "Amṛtēśvara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bāṇādhirāja",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śrīpuruṣa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mēghacandra",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kolliyarasa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Narmadā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nṛpa Kāma",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jayakumāra",
+   "verdict": "ok"
+  },
+  {
+   "item": "Muduvoḷal",
+   "verdict": "ok"
+  },
+  {
+   "item": "Niḍugal",
+   "verdict": "ok"
+  },
+  {
+   "item": "Vajranandi",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gandhila",
+   "verdict": "ok"
+  },
+  {
+   "item": "Rōṇa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Karṇa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kṛpa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dēvēndra",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gṛdhrapiñcha",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sahya",
+   "verdict": "ok"
+  },
+  {
+   "item": "Murāri",
+   "verdict": "ok"
+  },
+  {
+   "item": "Āḷuvarasa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śāntiyakka",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sōyidēva",
+   "verdict": "ok"
+  },
+  {
+   "item": "Māndhātṛvarma",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śrīśaila",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dāmanandi",
+   "verdict": "ok"
+  },
+  {
+   "item": "Vijaarasa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pitāmaha",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śiva",
+   "verdict": "ok"
+  },
+  {
+   "item": "Hēmasēna",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kāśmīra",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kuṇuṅgil",
+   "verdict": "ok"
+  },
+  {
+   "item": "Vāsuki",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kunti",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kānyakubja",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gujjaladēvi",
+   "verdict": "cannot verify",
+   "reason": "Could not find this queen's name in EC or other inscription sources online, and I could not confirm it from memory."
+  },
+  {
+   "item": "Tonnūr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kētaladēvi",
+   "verdict": "ok"
+  },
+  {
+   "item": "Vṛṣasēna",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nānādēśi",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śāntinātha",
+   "verdict": "ok"
+  },
+  {
+   "item": "Aṣṭāpada",
+   "verdict": "ok"
+  },
+  {
+   "item": "Candrapura",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bhānuvarma",
+   "verdict": "ok"
+  },
+  {
+   "item": "Vaiśampāyanasarōvara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pāṇḍyadēva",
+   "verdict": "ok"
+  },
+  {
+   "item": "Arhadbali",
+   "verdict": "ok"
+  }
+ ],
+ "words": [
+  {
+   "item": "kombu",
+   "verdict": "ok"
+  },
+  {
+   "item": "maṇe",
+   "verdict": "ok"
+  },
+  {
+   "item": "beṭṭa",
+   "verdict": "ok"
+  },
+  {
+   "item": "kaṭṭu",
+   "verdict": "ok"
+  },
+  {
+   "item": "baṇave",
+   "verdict": "ok"
+  },
+  {
+   "item": "gadde",
+   "verdict": "ok"
+  },
+  {
+   "item": "tudi",
+   "verdict": "ok"
+  },
+  {
+   "item": "āḷ",
+   "verdict": "ok"
+  },
+  {
+   "item": "mugul",
+   "verdict": "wrong",
+   "reason": "Kittel and DEDR give the bud word as muguḷ with a retroflex ḷ; 'mugul' is not listed in Kittel."
+  },
+  {
+   "item": "bāgil",
+   "verdict": "ok"
+  },
+  {
+   "item": "muccaḷa",
+   "verdict": "ok"
+  },
+  {
+   "item": "kōl",
+   "verdict": "ok"
+  },
+  {
+   "item": "ēṇi",
+   "verdict": "ok"
+  },
+  {
+   "item": "kōl",
+   "verdict": "ok"
+  },
+  {
+   "item": "cukki",
+   "verdict": "ok"
+  },
+  {
+   "item": "araḷi",
+   "verdict": "ok"
+  },
+  {
+   "item": "pere",
+   "verdict": "ok"
+  },
+  {
+   "item": "paṟe",
+   "verdict": "ok"
+  },
+  {
+   "item": "uruḷ",
+   "verdict": "ok"
+  },
+  {
+   "item": "mīse",
+   "verdict": "ok"
+  },
+  {
+   "item": "ikkuḷa",
+   "verdict": "ok"
+  },
+  {
+   "item": "pola",
+   "verdict": "ok"
+  },
+  {
+   "item": "gāḷa",
+   "verdict": "ok"
+  },
+  {
+   "item": "guḍi",
+   "verdict": "ok"
+  },
+  {
+   "item": "bīsaṇige",
+   "verdict": "ok"
+  },
+  {
+   "item": "guḍi",
+   "verdict": "ok"
+  },
+  {
+   "item": "goñcal",
+   "verdict": "ok"
+  },
+  {
+   "item": "bittu",
+   "verdict": "ok"
+  },
+  {
+   "item": "kōḍu",
+   "verdict": "ok"
+  },
+  {
+   "item": "bāgu",
+   "verdict": "ok"
+  },
+  {
+   "item": "maḍake",
+   "verdict": "ok"
+  },
+  {
+   "item": "tudi",
+   "verdict": "ok"
+  },
+  {
+   "item": "mīn",
+   "verdict": "ok"
+  },
+  {
+   "item": "kuppe",
+   "verdict": "ok"
+  },
+  {
+   "item": "kuḍike",
+   "verdict": "ok"
+  },
+  {
+   "item": "kaṇ",
+   "verdict": "ok"
+  },
+  {
+   "item": "āḷ",
+   "verdict": "ok"
+  },
+  {
+   "item": "pani",
+   "verdict": "ok"
+  },
+  {
+   "item": "guḍi",
+   "verdict": "ok"
+  },
+  {
+   "item": "moggu",
+   "verdict": "ok"
+  },
+  {
+   "item": "il",
+   "verdict": "ok"
+  },
+  {
+   "item": "ele",
+   "verdict": "ok"
+  },
+  {
+   "item": "kaḍḍi",
+   "verdict": "wrong",
+   "reason": "Kittel (after Śabdamaṇidarpaṇa 370): tadbhava of Skt kāṣṭha; DEDR puts it only in the Appendix, as possibly Indo-Aryan."
+  },
+  {
+   "item": "īṭi",
+   "verdict": "wrong",
+   "reason": "Kittel: īṭi = iṭṭi, a tadbhava of Skt yaṣṭi; DEDR has no Dravidian etymology for it."
+  },
+  {
+   "item": "mul",
+   "verdict": "wrong",
+   "reason": "Thorn/spike is muḷ (retroflex), DEDR 4993; Kittel's mul- means 'three'."
+  },
+  {
+   "item": "bale",
+   "verdict": "ok"
+  },
+  {
+   "item": "kavaru",
+   "verdict": "wrong",
+   "reason": "Kittel: Kannada kavaru means 'seize, plunder' or 'scorched'; the forked stick is kaval/kavalu (DEDR 1325)."
+  },
+  {
+   "item": "iṇe",
+   "verdict": "wrong",
+   "reason": "Kittel: Kannada iṇe = iṇi, an ox's hump; the Kannada for pair is eṇe (DEDR 434), and iṇe is the Tulu form."
+  },
+  {
+   "item": "mey",
+   "verdict": "ok"
+  },
+  {
+   "item": "cigur",
+   "verdict": "ok"
+  }
+ ]
+}
