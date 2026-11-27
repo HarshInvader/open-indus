@@ -1,0 +1,33 @@
+{
+ "lang": "tamilsz3",
+ "seed": 9,
+ "mode": "real",
+ "names": 532,
+ "name_parts": 185,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.83,
+ "signs_with_options": 51,
+ "read": 17,
+ "heldout": 240.76,
+ "readings": {
+  "060": "varai",
+  "070": "kaṇi",
+  "090": "āṉ",
+  "140": "tāyam",
+  "226": "kūḷi",
+  "231": "kuṟu",
+  "235": "muṭi",
+  "236": "il",
+  "440": "vāyil",
+  "455": "kaḷ",
+  "520": "vēḷ",
+  "705": "kuṭa",
+  "706": "kāl",
+  "740": "kal",
+  "741": "kuṭi",
+  "820": "mīṉ",
+  "840": "kaṇ"
+ },
+ "secs": 0
+}

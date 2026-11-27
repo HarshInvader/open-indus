@@ -1,0 +1,32 @@
+{
+ "lang": "tamil6c",
+ "seed": 2,
+ "mode": "real",
+ "names": 532,
+ "name_parts": 201,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.86,
+ "signs_with_options": 52,
+ "read": 16,
+ "heldout": 83.4,
+ "readings": {
+  "090": "an",
+  "125": "velli",
+  "140": "tayam",
+  "235": "kuru",
+  "388": "kulam",
+  "390": "kotai",
+  "440": "vayil",
+  "455": "eri",
+  "460": "kunru",
+  "503": "mal",
+  "550": "pari",
+  "692": "kutal",
+  "705": "koli",
+  "741": "kal",
+  "817": "ilam",
+  "861": "ila"
+ },
+ "secs": 0
+}

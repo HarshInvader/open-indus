@@ -1,0 +1,33 @@
+{
+ "lang": "tamilsz8",
+ "seed": 3,
+ "mode": "real",
+ "names": 532,
+ "name_parts": 193,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.59,
+ "signs_with_options": 50,
+ "read": 17,
+ "heldout": 146.27,
+ "readings": {
+  "060": "koṭi",
+  "140": "tāyam",
+  "220": "mīṉ",
+  "226": "kuḷam",
+  "233": "varai",
+  "235": "muṭam",
+  "240": "micai",
+  "440": "kāṭu",
+  "460": "var",
+  "503": "māl",
+  "520": "vēḷ",
+  "575": "kōṭṭi",
+  "740": "kuṭi",
+  "741": "kuṭa",
+  "742": "kāl",
+  "790": "il",
+  "920": "tiṅkaḷ"
+ },
+ "secs": 0
+}

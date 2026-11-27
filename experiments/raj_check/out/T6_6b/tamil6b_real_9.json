@@ -1,0 +1,28 @@
+{
+ "lang": "tamil6b",
+ "seed": 9,
+ "mode": "real",
+ "names": 532,
+ "name_parts": 201,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.07,
+ "signs_with_options": 34,
+ "read": 12,
+ "heldout": 12.25,
+ "readings": {
+  "070": "vēl",
+  "140": "aṉṉi",
+  "231": "kuṟu",
+  "235": "muṭam",
+  "440": "vāyil",
+  "503": "māl",
+  "692": "kūṭal",
+  "705": "kuṭa",
+  "742": "kal",
+  "790": "kaṇi",
+  "840": "kaṇai",
+  "900": "vil"
+ },
+ "secs": 0
+}

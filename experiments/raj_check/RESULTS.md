@@ -13,6 +13,7 @@ We ran Raj's own code on Raj's own data. Where we changed anything, the change i
 - **The object marks rest on copies.** The 21 copper-tablet faces with the "copper" sign carry 3 distinct texts. Counted once each, p = 0.19. The armlet sign is on 4 distinct bangle texts, p = 0.017, which fails the paper's own multiple-test line (1.1e-5). Assigning their readings to signs at random gives as many object-naming hits as the real key, p = 0.10.
 - **A language with no link to the Indus gets 60% of Tamil's score.** Japanese family names, which like Tamil names are built from drawable things, score +134.5 against Tamil's +223, and beat Tamil in 4 of 10 splits. Sanskrit, which the paper rules out, scores −13. By our preregistered bar (8 of 10 seeds above control) Japanese narrowly fails (7 of 10), so the contest passes this control. But the margin is naming style, not language.
 - **Three more languages (stage 3): none reaches half of Tamil's score, but all but Sanskrit beat their scrambled control.** Sumerian +103.5 (9 of 10 seeds above control), Egyptian +77.6 (7 of 10), Finnish +63.7 (10 of 10). Tamil is top in all six; beating chance is not special to Tamil.
+- **Tamil's score comes from its place, hill, river, god and group names (stage 4a).** Written in plain ASCII it still scores +206, so spelling is not the cause. But with people's names only it scores +3 (4 of 10 seeds), while size-matched random subsets of the full list score a median of +178. Tamil personal names (532) fit worse than Sumerian and Egyptian personal names (1,125 each); Japanese and Finnish surnames are themselves mostly place and landscape words.
 
 ## T0. Reproduction
 `out/T0/`. Every held-out value equals `outputs/headline/*` in their archive. Tamil D = +223.0 (sd 103.0), 10 of 10 above control. Sanskrit D = −13.3 (sd 44.7), 4 of 10.
@@ -112,3 +113,21 @@ What it shows:
 - A fairer contest would hold picture options per sign equal across languages. Not done here.
 
 Limits: one translator per language, no expert check of the Sumerian and Egyptian lists; agents' notes are in `stage3/agents/`.
+
+## Stage 4a. Tamil on equal terms (T6)
+`stage4/`, `out/T6_*`. Plan `stage4/PREREG_STAGE4A.md` (sha256 in `PREREG_STAGE4A.sha256`), committed with the mechanically built inputs before any run (4306ce0).
+
+| Run | Names | Real minus scrambled, mean ± sd | Seeds above control | Picture options per sign | Signs read |
+|---|---|---|---|---|---|
+| Tamil, as the paper (T0) | 1,125, every kind | +223.0 ± 103 | 10 of 10 | 2.52 | 27.4 |
+| T6a Tamil in plain ASCII | 1,125, every kind | +205.8 ± 98 | 10 of 10 | 3.9 | 40.5 |
+| T6b Tamil, people only | 532 | +2.9 ± 246 | 4 of 10 | 1.07 | 13.9 |
+| T6c Tamil, people only, ASCII | 532 | +28.3 ± 148 | 6 of 10 | 1.86 | 21.4 |
+
+**T6a, by the plan: spelling explains little.** Written in plain ASCII like the other languages, Tamil still scores +205.8 (the plan's line for "little" was 178.4). Stripping the marks merges letters, so Tamil gets more picture options per sign, not fewer. Our guess that the sound matcher favoured Tamil's letters was wrong.
+
+**T6b and T6c (descriptive): Tamil's personal names alone do not fit the seals.** Raj's Tamil list is 532 people, 240 places, 98 deities, 87 groups, 37 lineages, 33 hills, 29 celestial names, 14 rivers and others. With people only, Tamil scores +2.9 (4 of 10 seeds above control).
+
+**Exploratory, not preregistered: kind of name or list size?** Ten random subsets of 532 names from the full list (all kinds, about half people), original spelling: median +177.7, range +98.5 to +230.9, 8 or more seeds above control in 8 of 10 subsets (`stage4/size_check_4a.py`, `out/T6_size_summary.json`). None comes near +2.9. So the collapse is about the kind of name, not the size: **Tamil's score comes from its place, hill, river, god and group names.** Tamil personal names score below the Sumerian (+103.5) and Egyptian (+77.6) personal names, though those lists are twice as long. Japanese and Finnish surnames (+134.5, +63.7) are mostly place and landscape words, so they belong with Tamil's place names, not its personal names.
+
+What it means for the paper: the paper reads the seals as names of people with titles and clans. The part of its name list that fits the seals is the place, landscape and group vocabulary, which is the most drawable. That is the naming-style effect again, inside Tamil.
