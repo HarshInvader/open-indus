@@ -16,6 +16,8 @@ RUNS = [  # (id, label, note, group, dir, lang file prefix, names description)
  ('tamil_ascii', 'Tamil, plain spelling', 'diacritics removed', 'tamilctl', 'T6_6a', 'tamil6a', 'Sangam names of every kind'),
  ('tamil_people', 'Tamil, people only', "the paper's list, persons only", 'tamilctl', 'T6_6b', 'tamil6b', 'Sangam personal names (532)'),
  ('tamil_fresh', 'Old Tamil, second list', 'same sources, new agent', 'dravidian', 'T7_tamil4b', 'tamil4b', 'Sangam and Tamil-Brahmi names, 68% people'),
+ ('tamil_faithful', 'Old Tamil, third list', "the paper's prompt, nothing added", 'dravidian', 'T7_tamilf4b', 'tamilf4b', 'Sangam and Tamil-Brahmi names, 70% people'),
+ ('tamil_faithful_p', "Third list, paper's pictures", 'preregistered check', 'tamilctl', 'T7_tamilf4bp', 'tamilf4bp', "the third list's names with the paper's picture words"),
  ('tamil_x2', "Paper's names, second list's pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x2', 'tamil4b_x2', "the paper's 1,125 names with the second list's picture words"),
  ('tamil_x1', "Second list's names, paper's pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x1', 'tamil4b_x1', "the second list's names with the paper's picture words"),
  ('tamil_c6', "Paper's names not in the second list", 'preregistered check', 'tamilctl', 'T8_c6', 'tamil4c_c6', "the paper's names that the second list lacks"),

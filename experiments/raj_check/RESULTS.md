@@ -14,6 +14,7 @@ We ran Raj's own code on Raj's own data. Where we changed anything, the change i
 - **A language with no link to the Indus gets 60% of Tamil's score.** Japanese family names, which like Tamil names are built from drawable things, score +134.5 against Tamil's +223, and beat Tamil in 4 of 10 splits. Sanskrit, which the paper rules out, scores −13. By our preregistered bar (8 of 10 seeds above control) Japanese narrowly fails (7 of 10), so the contest passes this control. But the margin is naming style, not language.
 - **Three more languages (stage 3): none reaches half of Tamil's score, but all but Sanskrit beat their scrambled control.** Sumerian +103.5 (9 of 10 seeds above control), Egyptian +77.6 (7 of 10), Finnish +63.7 (10 of 10). Tamil is top in all six; beating chance is not special to Tamil.
 - **Tamil's score comes from its place, hill, river, god and group names (stage 4a).** Written in plain ASCII it still scores +206, so spelling is not the cause. But with people's names only it scores +3 (4 of 10 seeds), while size-matched random subsets of the full list score a median of +178. Tamil personal names (532) fit worse than Sumerian and Egyptian personal names (1,125 each); Japanese and Finnish surnames are themselves mostly place and landscape words.
+- **Rebuilt Old Tamil lists do not reproduce +223 (stages 4b, 4c).** Two fresh lists from the same kinds of sources score +4 and +49 (the second built with Raj's own prompt, nothing added). Preregistered checks show it is which names are in the list (Raj's names the fresh list lacks +218; the fresh list's own −96), not the picture words or honorific endings. Tamil's sister languages are weak tests: Old Telugu and Old Kannada void (under 3 signs read), Old Malayalam −92.
 
 ## T0. Reproduction
 `out/T0/`. Every held-out value equals `outputs/headline/*` in their archive. Tamil D = +223.0 (sd 103.0), 10 of 10 above control. Sanskrit D = −13.3 (sd 44.7), 4 of 10.
@@ -203,3 +204,15 @@ Readings, by the plan:
 - **Segmentation (C1 − C2 = +87): unclear**, just under the line of 100. Labels (C3 against C2) add little.
 
 So the +223 depends mainly on which names went into Raj's list. With seed sd of 200–330 for C6 and C7, the size of the gap is uncertain; its direction is not.
+
+### T8b. A faithful fresh Old Tamil list
+A fresh agent compiled 1,260 Old Tamil names (1,134 Sangam, 126 Tamil-Brahmi; 845 people) with Raj's REP-1 Sanskrit name-compiler prompt with only the language, sources and examples changed and nothing added (`agents/tamil_faithful_compiler_prompt.txt`, diff in `.diff`). It still split honorific endings on its own (38% of names end in ār or ar, against 43% in the 4b list and 9% in Raj's). v2 labeler (origin rule): 1,001 parts, 136 loans; 1,125 names kept (70% people). Checker: names 1 of 50 wrong (Mutiyaṉ Ātaṉuṅkaṉ, two people in Puṟam 389), 1 cannot verify; words 3 of 50 wrong (maṇi, kaccai loans; kōṭu "stroke" modern); 41 names and all 50 words judged from memory. Inputs committed before the runs. Tags `tamilf4b` (fresh T7 picture words) and `tamilf4bp` (Raj's picture words); `out/T7_tamilf4b*`.
+
+| Run | D, mean ± sd | Seeds above control | Ahead of Tamil | Picture options | Signs read |
+|---|---|---|---|---|---|
+| Faithful list, fresh picture words | +49.0 ± 175 | 6 of 10 | 3 of 10 | 1.96 | 25.8 |
+| Faithful list, Raj's picture words | +65.1 ± 179 | 6 of 10 | 3 of 10 | 2.26 | 26.1 |
+
+Seeds (fresh words): 178, −204, −20, 165, 204, 54, 276, −141, 157, −179.
+
+Reading, by the plan: both runs are below 111.5, so **Raj's list is special**: a list built with his own prompt, unchanged, does not reproduce his +223. The faithful list does better than the 4b list (+4), so the added instructions may have cost some score, but with seed sd near 175 that difference (about 45–60) is within noise.
