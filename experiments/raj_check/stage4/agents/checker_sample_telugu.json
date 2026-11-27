@@ -1,0 +1,685 @@
+{
+ "names": [
+  {
+   "name": "Mithuna",
+   "type": "celestial",
+   "morphemes": [
+    "mithuna"
+   ],
+   "gloss": "pair",
+   "source": "inscription"
+  },
+  {
+   "name": "Bōdhana",
+   "type": "place",
+   "morphemes": [
+    "bōdhana"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Dvāpara",
+   "type": "other",
+   "morphemes": [
+    "dvāpara"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Bhāgīrathī",
+   "type": "river",
+   "morphemes": [
+    "bhāgīrathī"
+   ],
+   "gloss": "of Bhagīratha",
+   "source": "literature"
+  },
+  {
+   "name": "Jagadēkamalla",
+   "type": "title",
+   "morphemes": [
+    "jagat",
+    "ēka",
+    "malla"
+   ],
+   "gloss": "world + sole + wrestler",
+   "source": "inscription"
+  },
+  {
+   "name": "Durmukha",
+   "type": "person",
+   "morphemes": [
+    "dus",
+    "mukha"
+   ],
+   "gloss": "bad + face",
+   "source": "literature"
+  },
+  {
+   "name": "Sudēva",
+   "type": "person",
+   "morphemes": [
+    "su",
+    "dēva"
+   ],
+   "gloss": "good + god",
+   "source": "literature"
+  },
+  {
+   "name": "Brahmireḍḍi",
+   "type": "person",
+   "morphemes": [
+    "brahmi",
+    "reḍḍi"
+   ],
+   "gloss": "Brahmā + village headman",
+   "source": "inscription"
+  },
+  {
+   "name": "Rōhiṇī",
+   "type": "celestial",
+   "morphemes": [
+    "rōhiṇī"
+   ],
+   "gloss": "red",
+   "source": "inscription"
+  },
+  {
+   "name": "Parāśara",
+   "type": "person",
+   "morphemes": [
+    "parāśara"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Pākanāḍu",
+   "type": "place",
+   "morphemes": [
+    "pāka",
+    "nāḍu"
+   ],
+   "gloss": "name + country",
+   "source": "inscription"
+  },
+  {
+   "name": "Gāṅgēya",
+   "type": "person",
+   "morphemes": [
+    "gāṅgēya"
+   ],
+   "gloss": "son of Gaṅgā",
+   "source": "literature"
+  },
+  {
+   "name": "Gaṇapati",
+   "type": "person",
+   "morphemes": [
+    "gaṇa",
+    "pati"
+   ],
+   "gloss": "troop + lord",
+   "source": "inscription"
+  },
+  {
+   "name": "Vyāsa",
+   "type": "person",
+   "morphemes": [
+    "vyāsa"
+   ],
+   "gloss": "arranger",
+   "source": "literature"
+  },
+  {
+   "name": "Amarāvatī",
+   "type": "place",
+   "morphemes": [
+    "amara",
+    "vatī"
+   ],
+   "gloss": "immortal + possessing",
+   "source": "inscription"
+  },
+  {
+   "name": "Tripurāntaka",
+   "type": "place",
+   "morphemes": [
+    "tri",
+    "pura",
+    "antaka"
+   ],
+   "gloss": "three + city + destroyer",
+   "source": "inscription"
+  },
+  {
+   "name": "Śakuni",
+   "type": "person",
+   "morphemes": [
+    "śakuni"
+   ],
+   "gloss": "bird",
+   "source": "literature"
+  },
+  {
+   "name": "Jyēṣṭhā",
+   "type": "celestial",
+   "morphemes": [
+    "jyēṣṭhā"
+   ],
+   "gloss": "eldest",
+   "source": "inscription"
+  },
+  {
+   "name": "Karṇa",
+   "type": "person",
+   "morphemes": [
+    "karṇa"
+   ],
+   "gloss": "ear",
+   "source": "literature"
+  },
+  {
+   "name": "Śarmiṣṭhā",
+   "type": "person",
+   "morphemes": [
+    "śarmiṣṭhā"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Brahmaśiras",
+   "type": "other",
+   "morphemes": [
+    "brahman",
+    "śiras"
+   ],
+   "gloss": "Brahman + head",
+   "source": "literature"
+  },
+  {
+   "name": "Sunda",
+   "type": "person",
+   "morphemes": [
+    "sunda"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Upapāṇḍava",
+   "type": "group",
+   "morphemes": [
+    "upa",
+    "pāṇḍava"
+   ],
+   "gloss": "lesser + Pāṇḍava",
+   "source": "literature"
+  },
+  {
+   "name": "Uttarāṣāḍhā",
+   "type": "celestial",
+   "morphemes": [
+    "uttara",
+    "āṣāḍhā"
+   ],
+   "gloss": "latter + Āṣāḍhā",
+   "source": "inscription"
+  },
+  {
+   "name": "Dharaṇikōṭa",
+   "type": "place",
+   "morphemes": [
+    "dharaṇi",
+    "kōṭa"
+   ],
+   "gloss": "earth + fort",
+   "source": "inscription"
+  },
+  {
+   "name": "Saudāsa",
+   "type": "person",
+   "morphemes": [
+    "saudāsa"
+   ],
+   "gloss": "son of Sudāsa",
+   "source": "literature"
+  },
+  {
+   "name": "Kulōttuṅgacōḍagonka",
+   "type": "person",
+   "morphemes": [
+    "kula",
+    "uttuṅga",
+    "cōḍa",
+    "gonka"
+   ],
+   "gloss": "lineage + lofty + Cōḍa + name",
+   "source": "inscription"
+  },
+  {
+   "name": "Śaśāṅka",
+   "type": "celestial",
+   "morphemes": [
+    "śaśa",
+    "aṅka"
+   ],
+   "gloss": "hare + mark",
+   "source": "literature"
+  },
+  {
+   "name": "Hiḍimbā",
+   "type": "person",
+   "morphemes": [
+    "hiḍimbā"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Bahudhānya",
+   "type": "other",
+   "morphemes": [
+    "bahu",
+    "dhānya"
+   ],
+   "gloss": "much + grain",
+   "source": "inscription"
+  },
+  {
+   "name": "Uśīnara",
+   "type": "person",
+   "morphemes": [
+    "uśīnara"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Mithilā",
+   "type": "place",
+   "morphemes": [
+    "mithilā"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Hariścandra",
+   "type": "person",
+   "morphemes": [
+    "hari",
+    "candra"
+   ],
+   "gloss": "golden + moon",
+   "source": "literature"
+  },
+  {
+   "name": "Duṣpradharṣaṇa",
+   "type": "person",
+   "morphemes": [
+    "dus",
+    "pradharṣaṇa"
+   ],
+   "gloss": "hard + to attack",
+   "source": "literature"
+  },
+  {
+   "name": "Jānakī",
+   "type": "person",
+   "morphemes": [
+    "jānakī"
+   ],
+   "gloss": "daughter of Janaka",
+   "source": "literature"
+  },
+  {
+   "name": "Mahāmaṇḍalēśvara",
+   "type": "title",
+   "morphemes": [
+    "mahā",
+    "maṇḍala",
+    "īśvara"
+   ],
+   "gloss": "great + province + lord",
+   "source": "inscription"
+  },
+  {
+   "name": "Kauśika",
+   "type": "person",
+   "morphemes": [
+    "kauśika"
+   ],
+   "gloss": "descendant of Kuśika",
+   "source": "literature"
+  },
+  {
+   "name": "Sāvitrī",
+   "type": "deity",
+   "morphemes": [
+    "sāvitrī"
+   ],
+   "gloss": "of Savitr̥",
+   "source": "literature"
+  },
+  {
+   "name": "Śamīka",
+   "type": "person",
+   "morphemes": [
+    "śamīka"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Peddaya",
+   "type": "person",
+   "morphemes": [
+    "pedda",
+    "ayya"
+   ],
+   "gloss": "big + sir",
+   "source": "inscription"
+  },
+  {
+   "name": "Śatabhiṣaj",
+   "type": "celestial",
+   "morphemes": [
+    "śata",
+    "bhiṣaj"
+   ],
+   "gloss": "hundred + physician",
+   "source": "inscription"
+  },
+  {
+   "name": "Pārijāta",
+   "type": "other",
+   "morphemes": [
+    "pārijāta"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Nāgalāmbā",
+   "type": "person",
+   "morphemes": [
+    "nāgala",
+    "ambā"
+   ],
+   "gloss": "name + mother",
+   "source": "literature"
+  },
+  {
+   "name": "Sītā",
+   "type": "person",
+   "morphemes": [
+    "sītā"
+   ],
+   "gloss": "furrow",
+   "source": "literature"
+  },
+  {
+   "name": "Caṇḍēśvara",
+   "type": "deity",
+   "morphemes": [
+    "caṇḍa",
+    "īśvara"
+   ],
+   "gloss": "fierce + lord",
+   "source": "literature"
+  },
+  {
+   "name": "Citrasēna",
+   "type": "person",
+   "morphemes": [
+    "citra",
+    "sēnā"
+   ],
+   "gloss": "bright + army",
+   "source": "literature"
+  },
+  {
+   "name": "Mahāsēna",
+   "type": "deity",
+   "morphemes": [
+    "mahā",
+    "sēnā"
+   ],
+   "gloss": "great + army",
+   "source": "inscription"
+  },
+  {
+   "name": "Bali",
+   "type": "person",
+   "morphemes": [
+    "bali"
+   ],
+   "gloss": "offering",
+   "source": "literature"
+  },
+  {
+   "name": "Kurikyāla",
+   "type": "place",
+   "morphemes": [
+    "kurikyāla"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Yadu",
+   "type": "person",
+   "morphemes": [
+    "yadu"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  }
+ ],
+ "words": [
+  {
+   "english": "waves",
+   "word": "tera"
+  },
+  {
+   "english": "tree",
+   "word": "ceṭṭu"
+  },
+  {
+   "english": "meet",
+   "word": "kūḍu"
+  },
+  {
+   "english": "heads",
+   "word": "tala"
+  },
+  {
+   "english": "lightning",
+   "word": "merupu"
+  },
+  {
+   "english": "ear",
+   "word": "cevi"
+  },
+  {
+   "english": "doorway",
+   "word": "vākili"
+  },
+  {
+   "english": "three",
+   "word": "mūḍu"
+  },
+  {
+   "english": "hut",
+   "word": "pāka"
+  },
+  {
+   "english": "tuft",
+   "word": "juṭṭu"
+  },
+  {
+   "english": "hand",
+   "word": "kēlu"
+  },
+  {
+   "english": "spot",
+   "word": "cukka"
+  },
+  {
+   "english": "net",
+   "word": "vala"
+  },
+  {
+   "english": "bud",
+   "word": "mogga"
+  },
+  {
+   "english": "fire",
+   "word": "cicci"
+  },
+  {
+   "english": "sheaf",
+   "word": "kaṭṭa"
+  },
+  {
+   "english": "moons",
+   "word": "nela"
+  },
+  {
+   "english": "fish",
+   "word": "mīnu"
+  },
+  {
+   "english": "basket",
+   "word": "gampa"
+  },
+  {
+   "english": "pond",
+   "word": "kolanu"
+  },
+  {
+   "english": "nets",
+   "word": "vala"
+  },
+  {
+   "english": "stand",
+   "word": "nilucu"
+  },
+  {
+   "english": "hills",
+   "word": "koṇḍa"
+  },
+  {
+   "english": "ladder",
+   "word": "niccena"
+  },
+  {
+   "english": "fish",
+   "word": "cēpa"
+  },
+  {
+   "english": "archer",
+   "word": "vilukāḍu"
+  },
+  {
+   "english": "fire",
+   "word": "nippu"
+  },
+  {
+   "english": "carry",
+   "word": "mōyu"
+  },
+  {
+   "english": "shoot",
+   "word": "ciguru"
+  },
+  {
+   "english": "tuft",
+   "word": "kuccu"
+  },
+  {
+   "english": "body",
+   "word": "mēnu"
+  },
+  {
+   "english": "worker",
+   "word": "panivāḍu"
+  },
+  {
+   "english": "peaks",
+   "word": "tuda"
+  },
+  {
+   "english": "split",
+   "word": "cīlu"
+  },
+  {
+   "english": "eyes",
+   "word": "kannu"
+  },
+  {
+   "english": "spear",
+   "word": "īṭe"
+  },
+  {
+   "english": "vessel",
+   "word": "kuṇḍa"
+  },
+  {
+   "english": "stones",
+   "word": "rāyi"
+  },
+  {
+   "english": "woman",
+   "word": "āḍudi"
+  },
+  {
+   "english": "curves",
+   "word": "vaṅku"
+  },
+  {
+   "english": "chest",
+   "word": "eda"
+  },
+  {
+   "english": "lance",
+   "word": "īṭe"
+  },
+  {
+   "english": "teeth",
+   "word": "pallu"
+  },
+  {
+   "english": "standard",
+   "word": "ṭekkemu"
+  },
+  {
+   "english": "seeds",
+   "word": "giñja"
+  },
+  {
+   "english": "stool",
+   "word": "mukkāli"
+  },
+  {
+   "english": "stick",
+   "word": "kōla"
+  },
+  {
+   "english": "pile",
+   "word": "kuppa"
+  },
+  {
+   "english": "tree",
+   "word": "mrānu"
+  },
+  {
+   "english": "chest",
+   "word": "rommu"
+  }
+ ]
+}

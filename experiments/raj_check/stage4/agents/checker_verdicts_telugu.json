@@ -1,0 +1,410 @@
+{
+ "names": [
+  {
+   "item": "Mithuna",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bōdhana",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dvāpara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bhāgīrathī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jagadēkamalla",
+   "verdict": "ok"
+  },
+  {
+   "item": "Durmukha",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sudēva",
+   "verdict": "ok"
+  },
+  {
+   "item": "Brahmireḍḍi",
+   "verdict": "ok"
+  },
+  {
+   "item": "Rōhiṇī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Parāśara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pākanāḍu",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gāṅgēya",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gaṇapati",
+   "verdict": "ok"
+  },
+  {
+   "item": "Vyāsa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Amarāvatī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Tripurāntaka",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śakuni",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jyēṣṭhā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Karṇa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śarmiṣṭhā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Brahmaśiras",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sunda",
+   "verdict": "ok"
+  },
+  {
+   "item": "Upapāṇḍava",
+   "verdict": "ok"
+  },
+  {
+   "item": "Uttarāṣāḍhā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dharaṇikōṭa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Saudāsa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kulōttuṅgacōḍagonka",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śaśāṅka",
+   "verdict": "ok"
+  },
+  {
+   "item": "Hiḍimbā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bahudhānya",
+   "verdict": "ok"
+  },
+  {
+   "item": "Uśīnara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mithilā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Hariścandra",
+   "verdict": "ok"
+  },
+  {
+   "item": "Duṣpradharṣaṇa",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jānakī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mahāmaṇḍalēśvara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kauśika",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sāvitrī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śamīka",
+   "verdict": "ok"
+  },
+  {
+   "item": "Peddaya",
+   "verdict": "ok"
+  },
+  {
+   "item": "Śatabhiṣaj",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pārijāta",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nāgalāmbā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sītā",
+   "verdict": "ok"
+  },
+  {
+   "item": "Caṇḍēśvara",
+   "verdict": "ok"
+  },
+  {
+   "item": "Citrasēna",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mahāsēna",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bali",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kurikyāla",
+   "verdict": "ok"
+  },
+  {
+   "item": "Yadu",
+   "verdict": "ok"
+  }
+ ],
+ "words": [
+  {
+   "item": "tera",
+   "verdict": "ok"
+  },
+  {
+   "item": "ceṭṭu",
+   "verdict": "ok"
+  },
+  {
+   "item": "kūḍu",
+   "verdict": "ok"
+  },
+  {
+   "item": "tala",
+   "verdict": "ok"
+  },
+  {
+   "item": "merupu",
+   "verdict": "ok"
+  },
+  {
+   "item": "cevi",
+   "verdict": "ok"
+  },
+  {
+   "item": "vākili",
+   "verdict": "ok"
+  },
+  {
+   "item": "mūḍu",
+   "verdict": "ok"
+  },
+  {
+   "item": "pāka",
+   "verdict": "ok"
+  },
+  {
+   "item": "juṭṭu",
+   "verdict": "ok"
+  },
+  {
+   "item": "kēlu",
+   "verdict": "ok"
+  },
+  {
+   "item": "cukka",
+   "verdict": "ok"
+  },
+  {
+   "item": "vala",
+   "verdict": "ok"
+  },
+  {
+   "item": "mogga",
+   "verdict": "ok"
+  },
+  {
+   "item": "cicci",
+   "verdict": "wrong",
+   "reason": "Brown and DEDR 1514 give ciccu for 'fire'; Brown's cicci is a lullaby word, not fire."
+  },
+  {
+   "item": "kaṭṭa",
+   "verdict": "ok"
+  },
+  {
+   "item": "nela",
+   "verdict": "ok"
+  },
+  {
+   "item": "mīnu",
+   "verdict": "ok"
+  },
+  {
+   "item": "gampa",
+   "verdict": "ok"
+  },
+  {
+   "item": "kolanu",
+   "verdict": "ok"
+  },
+  {
+   "item": "vala",
+   "verdict": "ok"
+  },
+  {
+   "item": "nilucu",
+   "verdict": "ok"
+  },
+  {
+   "item": "koṇḍa",
+   "verdict": "ok"
+  },
+  {
+   "item": "niccena",
+   "verdict": "ok"
+  },
+  {
+   "item": "cēpa",
+   "verdict": "ok"
+  },
+  {
+   "item": "vilukāḍu",
+   "verdict": "ok"
+  },
+  {
+   "item": "nippu",
+   "verdict": "ok"
+  },
+  {
+   "item": "mōyu",
+   "verdict": "ok"
+  },
+  {
+   "item": "ciguru",
+   "verdict": "ok"
+  },
+  {
+   "item": "kuccu",
+   "verdict": "ok"
+  },
+  {
+   "item": "mēnu",
+   "verdict": "ok"
+  },
+  {
+   "item": "panivāḍu",
+   "verdict": "ok"
+  },
+  {
+   "item": "tuda",
+   "verdict": "ok"
+  },
+  {
+   "item": "cīlu",
+   "verdict": "ok"
+  },
+  {
+   "item": "kannu",
+   "verdict": "ok"
+  },
+  {
+   "item": "īṭe",
+   "verdict": "wrong",
+   "reason": "No Dravidian etymology in DEDR; it matches Pali iṭṭhi / Skt ṛṣṭi 'spear' (CDIAL 2461), so it is probably a Prakrit loan."
+  },
+  {
+   "item": "kuṇḍa",
+   "verdict": "ok"
+  },
+  {
+   "item": "rāyi",
+   "verdict": "ok"
+  },
+  {
+   "item": "āḍudi",
+   "verdict": "ok"
+  },
+  {
+   "item": "vaṅku",
+   "verdict": "wrong",
+   "reason": "Not a Telugu word in Brown or DEDR (Telugu has vaṅka/vaṅkara 'bend, crookedness'); DEDR vaṅku is Ta./Ma. 'hole'."
+  },
+  {
+   "item": "eda",
+   "verdict": "ok"
+  },
+  {
+   "item": "īṭe",
+   "verdict": "wrong",
+   "reason": "No Dravidian etymology in DEDR; it matches Pali iṭṭhi / Skt ṛṣṭi 'spear' (CDIAL 2461), so it is probably a Prakrit loan."
+  },
+  {
+   "item": "pallu",
+   "verdict": "ok"
+  },
+  {
+   "item": "ṭekkemu",
+   "verdict": "ok"
+  },
+  {
+   "item": "giñja",
+   "verdict": "ok"
+  },
+  {
+   "item": "mukkāli",
+   "verdict": "ok"
+  },
+  {
+   "item": "kōla",
+   "verdict": "ok"
+  },
+  {
+   "item": "kuppa",
+   "verdict": "ok"
+  },
+  {
+   "item": "mrānu",
+   "verdict": "ok"
+  },
+  {
+   "item": "rommu",
+   "verdict": "ok"
+  }
+ ]
+}

@@ -1,0 +1,722 @@
+{
+ "names": [
+  {
+   "name": "Sugrīvan",
+   "type": "person",
+   "morphemes": [
+    "su",
+    "grīva",
+    "an"
+   ],
+   "gloss": "good + neck + masc.",
+   "source": "literature"
+  },
+  {
+   "name": "Vaṇṟalaccēri Kaṇṭan Kuṉṟappōḷan",
+   "type": "person",
+   "morphemes": [
+    "vaṇṟalaccēri",
+    "kaṇṭa",
+    "an",
+    "kuṉṟappōḷan"
+   ],
+   "gloss": "name + throat (Siva) + masc. + name",
+   "source": "inscription"
+  },
+  {
+   "name": "Uṇṇiyacci",
+   "type": "person",
+   "morphemes": [
+    "uṇṇi",
+    "acci"
+   ],
+   "gloss": "little one + lady",
+   "source": "literature"
+  },
+  {
+   "name": "Tiruvallavāḻ",
+   "type": "place",
+   "morphemes": [
+    "tiru",
+    "vallavāḻ"
+   ],
+   "gloss": "sacred + name",
+   "source": "inscription"
+  },
+  {
+   "name": "Varuṇan",
+   "type": "deity",
+   "morphemes": [
+    "varuṇa",
+    "an"
+   ],
+   "gloss": "Varuna + masc.",
+   "source": "literature"
+  },
+  {
+   "name": "Iḷaiyār",
+   "type": "group",
+   "morphemes": [
+    "iḷaiya",
+    "ar"
+   ],
+   "gloss": "younger + hon.",
+   "source": "inscription"
+  },
+  {
+   "name": "Catayam",
+   "type": "celestial",
+   "morphemes": [
+    "catayam"
+   ],
+   "gloss": "Shatabhisha asterism",
+   "source": "inscription"
+  },
+  {
+   "name": "Śrīmūlavāsam",
+   "type": "place",
+   "morphemes": [
+    "śrī",
+    "mūla",
+    "vāsam"
+   ],
+   "gloss": "glorious + root + abode",
+   "source": "inscription"
+  },
+  {
+   "name": "Tirukkuṇavāy Tēvar",
+   "type": "deity",
+   "morphemes": [
+    "tiru",
+    "kuṇavāy",
+    "tēva",
+    "ar"
+   ],
+   "gloss": "sacred + name + god + hon.",
+   "source": "inscription"
+  },
+  {
+   "name": "Śrīkaṇṭha",
+   "type": "person",
+   "morphemes": [
+    "śrī",
+    "kaṇṭa"
+   ],
+   "gloss": "glorious + throat (Siva)",
+   "source": "inscription"
+  },
+  {
+   "name": "Tirumaṇṇūr Tēvar",
+   "type": "deity",
+   "morphemes": [
+    "tiru",
+    "maṇṇūr",
+    "tēva",
+    "ar"
+   ],
+   "gloss": "sacred + name + god + hon.",
+   "source": "inscription"
+  },
+  {
+   "name": "Kollam",
+   "type": "place",
+   "morphemes": [
+    "kollam"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Malaināṭu",
+   "type": "place",
+   "morphemes": [
+    "malai",
+    "nāṭu"
+   ],
+   "gloss": "hill + country",
+   "source": "inscription"
+  },
+  {
+   "name": "Īśōtāpirāyi",
+   "type": "person",
+   "morphemes": [
+    "īśōtāpirāyi"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Perunna",
+   "type": "place",
+   "morphemes": [
+    "perunna"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Iyakkan Cirikaṇṭan",
+   "type": "person",
+   "morphemes": [
+    "iyakka",
+    "an",
+    "śrī",
+    "kaṇṭa",
+    "an"
+   ],
+   "gloss": "yaksha + masc. + glorious + throat (Siva) + masc.",
+   "source": "inscription"
+  },
+  {
+   "name": "Daśamukhan",
+   "type": "person",
+   "morphemes": [
+    "daśa",
+    "mukha",
+    "an"
+   ],
+   "gloss": "ten + face + masc.",
+   "source": "literature"
+  },
+  {
+   "name": "Bharatan",
+   "type": "person",
+   "morphemes": [
+    "bharata",
+    "an"
+   ],
+   "gloss": "Bharata (cherished) + masc.",
+   "source": "literature"
+  },
+  {
+   "name": "Karunantaṭakkan",
+   "type": "person",
+   "morphemes": [
+    "karunantaṭakkan"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Kuṭamalaināṭu",
+   "type": "place",
+   "morphemes": [
+    "kuṭa",
+    "malai",
+    "nāṭu"
+   ],
+   "gloss": "west + hill + country",
+   "source": "inscription"
+  },
+  {
+   "name": "Paḷiyam",
+   "type": "place",
+   "morphemes": [
+    "paḷiyam"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Pulaikkuṭi",
+   "type": "place",
+   "morphemes": [
+    "pulai",
+    "kuṭi"
+   ],
+   "gloss": "name + dwelling",
+   "source": "inscription"
+  },
+  {
+   "name": "Tavanūr",
+   "type": "place",
+   "morphemes": [
+    "tavanūr"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Gandharvan",
+   "type": "other",
+   "morphemes": [
+    "gandharva",
+    "an"
+   ],
+   "gloss": "celestial musician + masc.",
+   "source": "literature"
+  },
+  {
+   "name": "Girijāgrahāram",
+   "type": "place",
+   "morphemes": [
+    "girija",
+    "agrahāram"
+   ],
+   "gloss": "Girija (Parvati) + Brahmin settlement",
+   "source": "inscription"
+  },
+  {
+   "name": "Tirunelli",
+   "type": "place",
+   "morphemes": [
+    "tiru",
+    "nelli"
+   ],
+   "gloss": "sacred + gooseberry",
+   "source": "inscription"
+  },
+  {
+   "name": "Kumbham",
+   "type": "celestial",
+   "morphemes": [
+    "kumbham"
+   ],
+   "gloss": "Aquarius (pot)",
+   "source": "inscription"
+  },
+  {
+   "name": "Kaṇṇan Kaṇṭan",
+   "type": "person",
+   "morphemes": [
+    "kaṇṇa",
+    "an",
+    "kaṇṭa",
+    "an"
+   ],
+   "gloss": "Krishna + masc. + throat (Siva) + masc.",
+   "source": "inscription"
+  },
+  {
+   "name": "Tiruvōṇam",
+   "type": "celestial",
+   "morphemes": [
+    "tiru",
+    "ōṇam"
+   ],
+   "gloss": "sacred + Onam, Shravana asterism",
+   "source": "inscription"
+  },
+  {
+   "name": "Paravūr",
+   "type": "place",
+   "morphemes": [
+    "paravūr"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Bāli",
+   "type": "person",
+   "morphemes": [
+    "bāli"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Raṇāditya",
+   "type": "title",
+   "morphemes": [
+    "raṇa",
+    "āditya"
+   ],
+   "gloss": "battle + sun",
+   "source": "inscription"
+  },
+  {
+   "name": "Kīḻkkuḷaṅṅara",
+   "type": "place",
+   "morphemes": [
+    "kīḻ",
+    "kuḷam",
+    "kara"
+   ],
+   "gloss": "lower + tank + bank",
+   "source": "inscription"
+  },
+  {
+   "name": "Vīrarāghava Cakravartti",
+   "type": "person",
+   "morphemes": [
+    "vīra",
+    "rāghava",
+    "cakravartti"
+   ],
+   "gloss": "hero + Raghava (Rama) + emperor",
+   "source": "inscription"
+  },
+  {
+   "name": "Tṛppāppūr",
+   "type": "place",
+   "morphemes": [
+    "tiru",
+    "pāppūr"
+   ],
+   "gloss": "sacred + name",
+   "source": "literature"
+  },
+  {
+   "name": "Niḻalōr",
+   "type": "group",
+   "morphemes": [
+    "niḻal",
+    "ōr"
+   ],
+   "gloss": "shadow + hon. pl.",
+   "source": "inscription"
+  },
+  {
+   "name": "Jayasiṃha",
+   "type": "person",
+   "morphemes": [
+    "jaya",
+    "siṃha"
+   ],
+   "gloss": "victory + lion",
+   "source": "inscription"
+  },
+  {
+   "name": "Mūvāyiravar",
+   "type": "group",
+   "morphemes": [
+    "mūnnu",
+    "āyiram",
+    "ar"
+   ],
+   "gloss": "three + thousand + hon.",
+   "source": "inscription"
+  },
+  {
+   "name": "Vaḷḷūrkkāvu",
+   "type": "place",
+   "morphemes": [
+    "vaḷḷūr",
+    "kāvu"
+   ],
+   "gloss": "name + grove",
+   "source": "literature"
+  },
+  {
+   "name": "Kōtai Kēraḷavarman",
+   "type": "person",
+   "morphemes": [
+    "kōtai",
+    "kēraḷa",
+    "varman"
+   ],
+   "gloss": "garland + Kerala + armour",
+   "source": "inscription"
+  },
+  {
+   "name": "Āticcan Umaiyammai",
+   "type": "person",
+   "morphemes": [
+    "āditya",
+    "an",
+    "uma",
+    "ammai"
+   ],
+   "gloss": "sun + masc. + Uma + mother",
+   "source": "inscription"
+  },
+  {
+   "name": "Iravi Kaṇṇappiran",
+   "type": "person",
+   "morphemes": [
+    "iravi",
+    "kaṇṇa",
+    "piran"
+   ],
+   "gloss": "sun + Krishna + lord",
+   "source": "inscription"
+  },
+  {
+   "name": "Kēcavan Caṅkaran",
+   "type": "person",
+   "morphemes": [
+    "kēśava",
+    "an",
+    "śaṅkara",
+    "an"
+   ],
+   "gloss": "Kesava (Vishnu) + masc. + Sankara (Siva) + masc.",
+   "source": "inscription"
+  },
+  {
+   "name": "Tarisāppaḷḷi",
+   "type": "place",
+   "morphemes": [
+    "tarisā",
+    "paḷḷi"
+   ],
+   "gloss": "Tarsa (Christian) + hamlet, church",
+   "source": "inscription"
+  },
+  {
+   "name": "Vijayarāga",
+   "type": "person",
+   "morphemes": [
+    "vijaya",
+    "rāga"
+   ],
+   "gloss": "victory + passion",
+   "source": "inscription"
+  },
+  {
+   "name": "Kōṭṭayam",
+   "type": "place",
+   "morphemes": [
+    "kōṭṭa",
+    "ayam"
+   ],
+   "gloss": "fort + place",
+   "source": "inscription"
+  },
+  {
+   "name": "Cāttan Kumāran",
+   "type": "person",
+   "morphemes": [
+    "cātta",
+    "an",
+    "kumāra",
+    "an"
+   ],
+   "gloss": "Sasta (deity) + masc. + youth (Skanda) + masc.",
+   "source": "inscription"
+  },
+  {
+   "name": "Brahmagiri",
+   "type": "hill",
+   "morphemes": [
+    "brahma",
+    "giri"
+   ],
+   "gloss": "Brahma + hill",
+   "source": "literature"
+  },
+  {
+   "name": "Kiṣkindha",
+   "type": "place",
+   "morphemes": [
+    "kiṣkindha"
+   ],
+   "gloss": "name",
+   "source": "literature"
+  },
+  {
+   "name": "Kaṭamba Mahātēvi",
+   "type": "person",
+   "morphemes": [
+    "kaṭamba",
+    "mahā",
+    "tēvi"
+   ],
+   "gloss": "Kadamba tree + great + queen",
+   "source": "inscription"
+  }
+ ],
+ "words": [
+  {
+   "english": "gate",
+   "word": "paṭi"
+  },
+  {
+   "english": "wall",
+   "word": "matil"
+  },
+  {
+   "english": "curves",
+   "word": "vaḷavu"
+  },
+  {
+   "english": "house",
+   "word": "il"
+  },
+  {
+   "english": "mountains",
+   "word": "mala"
+  },
+  {
+   "english": "heap",
+   "word": "kūmpāram"
+  },
+  {
+   "english": "claw",
+   "word": "ukir"
+  },
+  {
+   "english": "tier",
+   "word": "taṭṭu"
+  },
+  {
+   "english": "lightning",
+   "word": "minnal"
+  },
+  {
+   "english": "walls",
+   "word": "cumar"
+  },
+  {
+   "english": "woman",
+   "word": "peṇ"
+  },
+  {
+   "english": "archer",
+   "word": "villāḷi"
+  },
+  {
+   "english": "barb",
+   "word": "muḷ"
+  },
+  {
+   "english": "hunter",
+   "word": "vēṭan"
+  },
+  {
+   "english": "grain",
+   "word": "nel"
+  },
+  {
+   "english": "arrow",
+   "word": "ampu"
+  },
+  {
+   "english": "comb",
+   "word": "cīppu"
+  },
+  {
+   "english": "stick",
+   "word": "kōl"
+  },
+  {
+   "english": "door",
+   "word": "katavu"
+  },
+  {
+   "english": "person",
+   "word": "āḷ"
+  },
+  {
+   "english": "curve",
+   "word": "vaḷavu"
+  },
+  {
+   "english": "band",
+   "word": "paṭṭa"
+  },
+  {
+   "english": "lizard",
+   "word": "uṭumpu"
+  },
+  {
+   "english": "waves",
+   "word": "tira"
+  },
+  {
+   "english": "sun",
+   "word": "ñāyiṟu"
+  },
+  {
+   "english": "waves",
+   "word": "ala"
+  },
+  {
+   "english": "hook",
+   "word": "cūṇṭa"
+  },
+  {
+   "english": "stones",
+   "word": "kal"
+  },
+  {
+   "english": "stir",
+   "word": "iḷakku"
+  },
+  {
+   "english": "branch",
+   "word": "cilla"
+  },
+  {
+   "english": "shell",
+   "word": "ōṭu"
+  },
+  {
+   "english": "hill",
+   "word": "mala"
+  },
+  {
+   "english": "chest",
+   "word": "mār"
+  },
+  {
+   "english": "spikes",
+   "word": "muḷ"
+  },
+  {
+   "english": "stick",
+   "word": "kampu"
+  },
+  {
+   "english": "tuft",
+   "word": "kuṭumi"
+  },
+  {
+   "english": "shrine",
+   "word": "kōyil"
+  },
+  {
+   "english": "crab",
+   "word": "ñaṇṭu"
+  },
+  {
+   "english": "door",
+   "word": "vātil"
+  },
+  {
+   "english": "ladder",
+   "word": "ēṇi"
+  },
+  {
+   "english": "teeth",
+   "word": "pal"
+  },
+  {
+   "english": "plant",
+   "word": "ceṭi"
+  },
+  {
+   "english": "pipal",
+   "word": "aracu"
+  },
+  {
+   "english": "junction",
+   "word": "kavala"
+  },
+  {
+   "english": "crescent",
+   "word": "piṟa"
+  },
+  {
+   "english": "pole",
+   "word": "tūṇ"
+  },
+  {
+   "english": "trap",
+   "word": "keṇi"
+  },
+  {
+   "english": "hut",
+   "word": "cāḷa"
+  },
+  {
+   "english": "nets",
+   "word": "vala"
+  },
+  {
+   "english": "catch",
+   "word": "piṭi"
+  }
+ ]
+}

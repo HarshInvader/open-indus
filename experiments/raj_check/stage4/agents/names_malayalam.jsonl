@@ -1,0 +1,631 @@
+{"name": "Rājaśēkhara", "type": "person", "morphemes": ["rāja", "śēkhara"], "gloss": "king + crest", "source": "inscription"}
+{"name": "Rājaśēkharatēvar", "type": "person", "morphemes": ["rāja", "śēkhara", "tēva", "ar"], "gloss": "king + crest + god + hon.", "source": "inscription"}
+{"name": "Rājarājādhirāja", "type": "title", "morphemes": ["rāja", "rāja", "adhirāja"], "gloss": "king + king + overlord", "source": "inscription"}
+{"name": "Paramēśvara Bhaṭṭāraka", "type": "title", "morphemes": ["parama", "īśvara", "bhaṭṭāraka"], "gloss": "supreme + lord + venerable lord", "source": "inscription"}
+{"name": "Tāṇu Iravi", "type": "person", "morphemes": ["tāṇu", "iravi"], "gloss": "Sthanu (Siva) + sun", "source": "inscription"}
+{"name": "Kulaśēkhara", "type": "person", "morphemes": ["kula", "śēkhara"], "gloss": "lineage + crest", "source": "inscription"}
+{"name": "Kulaśēkharatēvar", "type": "person", "morphemes": ["kula", "śēkhara", "tēva", "ar"], "gloss": "lineage + crest + god + hon.", "source": "inscription"}
+{"name": "Ayyan Aṭikaḷ Tiruvaṭikaḷ", "type": "person", "morphemes": ["ayyan", "aṭi", "kaḷ", "tiru", "aṭi", "kaḷ"], "gloss": "lord + foot + pl. + sacred + foot + pl.", "source": "inscription"}
+{"name": "Ayyan", "type": "person", "morphemes": ["ayyan"], "gloss": "lord", "source": "inscription"}
+{"name": "Maruvān Sapīr Īśō", "type": "person", "morphemes": ["maruvān", "sapīr", "īśō"], "gloss": "Mar (Syriac lord) + name + Jesus", "source": "inscription"}
+{"name": "Īśōtāpirāyi", "type": "person", "morphemes": ["īśōtāpirāyi"], "gloss": "name", "source": "inscription"}
+{"name": "Vijayarāgatēvar", "type": "person", "morphemes": ["vijaya", "rāga", "tēva", "ar"], "gloss": "victory + passion + god + hon.", "source": "inscription"}
+{"name": "Vijayarāga", "type": "person", "morphemes": ["vijaya", "rāga"], "gloss": "victory + passion", "source": "inscription"}
+{"name": "Irāma Tiruvaṭi", "type": "person", "morphemes": ["rāma", "tiru", "aṭi"], "gloss": "Rama + sacred + foot", "source": "inscription"}
+{"name": "Velkulasundaran", "type": "person", "morphemes": ["vel", "kula", "sundara", "an"], "gloss": "spear + lineage + handsome + masc.", "source": "inscription"}
+{"name": "Centan Caṅkaran", "type": "person", "morphemes": ["centan", "śaṅkara", "an"], "gloss": "red one + Sankara (Siva) + masc.", "source": "inscription"}
+{"name": "Rājakēsarivarman", "type": "person", "morphemes": ["rāja", "kēsari", "varman"], "gloss": "king + lion + armour", "source": "inscription"}
+{"name": "Kaṭamba Mahātēvi", "type": "person", "morphemes": ["kaṭamba", "mahā", "tēvi"], "gloss": "Kadamba tree + great + queen", "source": "inscription"}
+{"name": "Vikki Aṇṇan", "type": "person", "morphemes": ["vikki", "aṇṇan"], "gloss": "name + elder brother", "source": "inscription"}
+{"name": "Iravi Nīli", "type": "person", "morphemes": ["iravi", "nīl", "i"], "gloss": "sun + dark blue + fem.", "source": "inscription"}
+{"name": "Kiḻān Aṭikaḷ", "type": "title", "morphemes": ["kiḻān", "aṭi", "kaḷ"], "gloss": "lord + foot + pl.", "source": "inscription"}
+{"name": "Kōtai Iravi", "type": "person", "morphemes": ["kōtai", "iravi"], "gloss": "garland + sun", "source": "inscription"}
+{"name": "Kaṭampan Kumāran", "type": "person", "morphemes": ["kaṭampa", "an", "kumāra", "an"], "gloss": "Kadamba (tree) + masc. + youth (Skanda) + masc.", "source": "inscription"}
+{"name": "Ciṟṟaṟaiyil Naṅkaiyār", "type": "person", "morphemes": ["ciṟu", "aṟai", "naṅkai", "ar"], "gloss": "small + chamber + lady + hon.", "source": "inscription"}
+{"name": "Cēramān Mātēviyār", "type": "person", "morphemes": ["cēra", "mān", "mā", "tēvi", "ar"], "gloss": "name + great one + great + queen + hon.", "source": "inscription"}
+{"name": "Kōta Kōta", "type": "person", "morphemes": ["kōtai", "kōtai"], "gloss": "garland + garland", "source": "inscription"}
+{"name": "Kēraḷakēsari", "type": "person", "morphemes": ["kēraḷa", "kēsari"], "gloss": "Kerala + lion", "source": "inscription"}
+{"name": "Indu Kōta", "type": "person", "morphemes": ["indu", "kōtai"], "gloss": "moon + garland", "source": "inscription"}
+{"name": "Intēśvaran Kōta", "type": "person", "morphemes": ["intu", "īśvara", "an", "kōtai"], "gloss": "moon + lord + masc. + garland", "source": "inscription"}
+{"name": "Iravi Āticcan", "type": "person", "morphemes": ["iravi", "āditya", "an"], "gloss": "sun + sun + masc.", "source": "inscription"}
+{"name": "Cāttan Kumāran", "type": "person", "morphemes": ["cātta", "an", "kumāra", "an"], "gloss": "Sasta (deity) + masc. + youth (Skanda) + masc.", "source": "inscription"}
+{"name": "Kaṇṇan Puṟaiyan", "type": "person", "morphemes": ["kaṇṇa", "an", "puṟaiyan"], "gloss": "Krishna + masc. + name", "source": "inscription"}
+{"name": "Pōḷan Cāttan", "type": "person", "morphemes": ["pōḷan", "cātta", "an"], "gloss": "name + Sasta (deity) + masc.", "source": "inscription"}
+{"name": "Iravi Kuṉṟappōḷan", "type": "person", "morphemes": ["iravi", "kuṉṟappōḷan"], "gloss": "sun + name", "source": "inscription"}
+{"name": "Kēcavan Caṅkaran", "type": "person", "morphemes": ["kēśava", "an", "śaṅkara", "an"], "gloss": "Kesava (Vishnu) + masc. + Sankara (Siva) + masc.", "source": "inscription"}
+{"name": "Caṅkaran Tāmōtaran", "type": "person", "morphemes": ["śaṅkara", "an", "dāmōdara", "an"], "gloss": "Sankara (Siva) + masc. + Damodara (Krishna) + masc.", "source": "inscription"}
+{"name": "Iyakkan Intirāyi Kōyil", "type": "person", "morphemes": ["iyakka", "an", "intira", "āyi", "kōyil"], "gloss": "yaksha + masc. + Indra + mother + palace, temple", "source": "inscription"}
+{"name": "Caṅkaran Naṅkacci", "type": "person", "morphemes": ["śaṅkara", "an", "naṅkacci"], "gloss": "Sankara (Siva) + masc. + temple lady", "source": "inscription"}
+{"name": "Kōtai Kēraḷan", "type": "person", "morphemes": ["kōtai", "kēraḷa", "an"], "gloss": "garland + Kerala + masc.", "source": "inscription"}
+{"name": "Kōtai Nāraṇan", "type": "person", "morphemes": ["kōtai", "nārāyaṇa", "an"], "gloss": "garland + Narayana + masc.", "source": "inscription"}
+{"name": "Kōvarttana Mārttāṇṭan", "type": "person", "morphemes": ["kōvarttana", "mārttāṇṭa", "an"], "gloss": "Govardhana (hill) + sun + masc.", "source": "inscription"}
+{"name": "Śrīvallavan Kōtai", "type": "person", "morphemes": ["śrī", "vallava", "an", "kōtai"], "gloss": "glorious + beloved, lord + masc. + garland", "source": "inscription"}
+{"name": "Nārāyaṇan Ciritaran", "type": "person", "morphemes": ["nārāyaṇa", "an", "śrī", "tara", "an"], "gloss": "Narayana + masc. + glorious + bearer + masc.", "source": "inscription"}
+{"name": "Īssuppu Irappān", "type": "person", "morphemes": ["īssuppu", "irappān"], "gloss": "Joseph + rabbi", "source": "inscription"}
+{"name": "Kōvinnan Kuṉṟappōḷan", "type": "person", "morphemes": ["gōvinda", "an", "kuṉṟappōḷan"], "gloss": "Govinda + masc. + name", "source": "inscription"}
+{"name": "Iyakkan Kōvinnan", "type": "person", "morphemes": ["iyakka", "an", "gōvinda", "an"], "gloss": "yaksha + masc. + Govinda + masc.", "source": "inscription"}
+{"name": "Manukulāticcan", "type": "person", "morphemes": ["manu", "kula", "āditya", "an"], "gloss": "Manu + lineage + sun + masc.", "source": "inscription"}
+{"name": "Manukulāditya", "type": "title", "morphemes": ["manu", "kula", "āditya"], "gloss": "Manu + lineage + sun", "source": "inscription"}
+{"name": "Bhāskara Iravi", "type": "person", "morphemes": ["bhāskara", "iravi"], "gloss": "sun + sun", "source": "inscription"}
+{"name": "Bhāskara Iravivarman", "type": "person", "morphemes": ["bhāskara", "iravi", "varman"], "gloss": "sun + sun + armour", "source": "inscription"}
+{"name": "Kaṇṭan Kārivarman", "type": "person", "morphemes": ["kaṇṭa", "an", "kāri", "varman"], "gloss": "throat (Siva) + masc. + dark one + armour", "source": "inscription"}
+{"name": "Irāmakūṭa Mūvar", "type": "title", "morphemes": ["rāma", "kūṭa", "mūvar"], "gloss": "Rama + group + Muvar (dynastic title)", "source": "inscription"}
+{"name": "Cālavēli Kēraḷan Pōḷan", "type": "person", "morphemes": ["cālavēli", "kēraḷa", "an", "pōḷan"], "gloss": "name + Kerala + masc. + name", "source": "inscription"}
+{"name": "Iravi Kōvinnan", "type": "person", "morphemes": ["iravi", "gōvinda", "an"], "gloss": "sun + Govinda + masc.", "source": "inscription"}
+{"name": "Kaṇṭa Nārāyaṇan", "type": "person", "morphemes": ["kaṇṭa", "nārāyaṇa", "an"], "gloss": "throat (Siva) + Narayana + masc.", "source": "inscription"}
+{"name": "Kēcavan Tēvan", "type": "person", "morphemes": ["kēśava", "an", "tēva", "an"], "gloss": "Kesava (Vishnu) + masc. + god + masc.", "source": "inscription"}
+{"name": "Pōḷan Kumāran", "type": "person", "morphemes": ["pōḷan", "kumāra", "an"], "gloss": "name + youth (Skanda) + masc.", "source": "inscription"}
+{"name": "Nārāyaṇan Tēvan", "type": "person", "morphemes": ["nārāyaṇa", "an", "tēva", "an"], "gloss": "Narayana + masc. + god + masc.", "source": "inscription"}
+{"name": "Kuñcikkuṭṭavarman", "type": "person", "morphemes": ["kuñci", "kuṭṭa", "varman"], "gloss": "little + name + armour", "source": "inscription"}
+{"name": "Vīrakkuṟumpuṟaiyar", "type": "title", "morphemes": ["vīra", "kuṟumpuṟai", "ar"], "gloss": "hero + Kurumporai (district) + hon.", "source": "inscription"}
+{"name": "Kuṉṟan Kōvintan", "type": "person", "morphemes": ["kuṉṟu", "an", "gōvinda", "an"], "gloss": "hill + masc. + Govinda + masc.", "source": "inscription"}
+{"name": "Iravi Irāman", "type": "person", "morphemes": ["iravi", "rāma", "an"], "gloss": "sun + Rama + masc.", "source": "inscription"}
+{"name": "Nārāyaṇan Kēcavan", "type": "person", "morphemes": ["nārāyaṇa", "an", "kēśava", "an"], "gloss": "Narayana + masc. + Kesava (Vishnu) + masc.", "source": "inscription"}
+{"name": "Iravi Kōta", "type": "person", "morphemes": ["iravi", "kōtai"], "gloss": "sun + garland", "source": "inscription"}
+{"name": "Rājasiṃha", "type": "person", "morphemes": ["rāja", "siṃha"], "gloss": "king + lion", "source": "inscription"}
+{"name": "Iracciṅkatēvar", "type": "person", "morphemes": ["rāja", "siṃha", "tēva", "ar"], "gloss": "king + lion + god + hon.", "source": "inscription"}
+{"name": "Cekkiḻān", "type": "person", "morphemes": ["cekkiḻān"], "gloss": "name", "source": "inscription"}
+{"name": "Śaktiñjayan", "type": "person", "morphemes": ["śakti", "jaya", "an"], "gloss": "power + victory + masc.", "source": "inscription"}
+{"name": "Cēraḷan Mātēviyār Āticci", "type": "person", "morphemes": ["cēraḷa", "an", "mā", "tēvi", "ar", "āticci"], "gloss": "Chera + masc. + great + queen + hon. + Aditya (fem.)", "source": "inscription"}
+{"name": "Rājarājatēvar", "type": "person", "morphemes": ["rāja", "rāja", "tēva", "ar"], "gloss": "king + king + god + hon.", "source": "inscription"}
+{"name": "Kaṇṇan Kaṇṭan", "type": "person", "morphemes": ["kaṇṇa", "an", "kaṇṭa", "an"], "gloss": "Krishna + masc. + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Yakkan Cellan", "type": "person", "morphemes": ["iyakka", "an", "cellan"], "gloss": "yaksha + masc. + name", "source": "inscription"}
+{"name": "Irājāticcan", "type": "person", "morphemes": ["rāja", "āditya", "an"], "gloss": "king + sun + masc.", "source": "inscription"}
+{"name": "Rājāditya", "type": "person", "morphemes": ["rāja", "āditya"], "gloss": "king + sun", "source": "inscription"}
+{"name": "Iyakkan Cirikaṇṭan", "type": "person", "morphemes": ["iyakka", "an", "śrī", "kaṇṭa", "an"], "gloss": "yaksha + masc. + glorious + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Cennan Tayan", "type": "person", "morphemes": ["cennan", "tayan"], "gloss": "name + name", "source": "inscription"}
+{"name": "Āticcan Kōtai", "type": "person", "morphemes": ["āditya", "an", "kōtai"], "gloss": "sun + masc. + garland", "source": "inscription"}
+{"name": "Raṇāditya", "type": "title", "morphemes": ["raṇa", "āditya"], "gloss": "battle + sun", "source": "inscription"}
+{"name": "Nārāyaṇan Iravi", "type": "person", "morphemes": ["nārāyaṇa", "an", "iravi"], "gloss": "Narayana + masc. + sun", "source": "inscription"}
+{"name": "Irāma Kulaśēkhara", "type": "person", "morphemes": ["rāma", "kula", "śēkhara"], "gloss": "Rama + lineage + crest", "source": "inscription"}
+{"name": "Kumāran Iravi", "type": "person", "morphemes": ["kumāra", "an", "iravi"], "gloss": "youth (Skanda) + masc. + sun", "source": "inscription"}
+{"name": "Kumāran Kumārāticcan", "type": "person", "morphemes": ["kumāra", "an", "kumāra", "āditya", "an"], "gloss": "youth (Skanda) + masc. + youth (Skanda) + sun + masc.", "source": "inscription"}
+{"name": "Kaṇṇan Kumāran", "type": "person", "morphemes": ["kaṇṇa", "an", "kumāra", "an"], "gloss": "Krishna + masc. + youth (Skanda) + masc.", "source": "inscription"}
+{"name": "Iravi Kaṇṇappiran", "type": "person", "morphemes": ["iravi", "kaṇṇa", "piran"], "gloss": "sun + Krishna + lord", "source": "inscription"}
+{"name": "Manavikrama", "type": "person", "morphemes": ["mana", "vikrama"], "gloss": "honour + valour", "source": "inscription"}
+{"name": "Puntuṟaikkōn", "type": "title", "morphemes": ["pum", "tuṟai", "kōn"], "gloss": "flower + harbour + king", "source": "inscription"}
+{"name": "Kumāran Uṭaiyavarman", "type": "person", "morphemes": ["kumāra", "an", "uṭaiya", "varman"], "gloss": "youth (Skanda) + masc. + possessing + armour", "source": "inscription"}
+{"name": "Kīran Kāri", "type": "person", "morphemes": ["kīran", "kāri"], "gloss": "name + dark one", "source": "inscription"}
+{"name": "Ayyam Paramēccuvaran", "type": "person", "morphemes": ["ayyan", "parama", "īśvara", "an"], "gloss": "lord + supreme + lord + masc.", "source": "inscription"}
+{"name": "Karunantaṭakkan", "type": "person", "morphemes": ["karunantaṭakkan"], "gloss": "name", "source": "inscription"}
+{"name": "Varaguṇa", "type": "person", "morphemes": ["vara", "guṇa"], "gloss": "excellent + virtue", "source": "inscription"}
+{"name": "Vīra Kōtai", "type": "person", "morphemes": ["vīra", "kōtai"], "gloss": "hero + garland", "source": "inscription"}
+{"name": "Vāḷidhara Vikkiramarāman", "type": "person", "morphemes": ["vāḷ", "dhara", "vikrama", "rāma", "an"], "gloss": "sword + bearer + valour + Rama + masc.", "source": "inscription"}
+{"name": "Vāḷidhara", "type": "person", "morphemes": ["vāḷ", "dhara"], "gloss": "sword + bearer", "source": "inscription"}
+{"name": "Kuḻivilaikkuṉṟan Cāttan", "type": "person", "morphemes": ["kuḻivilaikkuṉṟan", "cātta", "an"], "gloss": "name + Sasta (deity) + masc.", "source": "inscription"}
+{"name": "Paramēccuvaran Cuppiramaṇiyan", "type": "person", "morphemes": ["parama", "īśvara", "an", "subrahmaṇya", "an"], "gloss": "supreme + lord + masc. + Subrahmanya + masc.", "source": "inscription"}
+{"name": "Piramātirāyan", "type": "title", "morphemes": ["brahma", "adhirāja", "an"], "gloss": "Brahma + overlord + masc.", "source": "inscription"}
+{"name": "Tēvan Centan", "type": "person", "morphemes": ["tēva", "an", "centan"], "gloss": "god + masc. + red one", "source": "inscription"}
+{"name": "Nārāyaṇan Kiriṭṭan", "type": "person", "morphemes": ["nārāyaṇa", "an", "kiriṭṭan"], "gloss": "Narayana + masc. + name", "source": "inscription"}
+{"name": "Kēraḷan Nārāyaṇan", "type": "person", "morphemes": ["kēraḷa", "an", "nārāyaṇa", "an"], "gloss": "Kerala + masc. + Narayana + masc.", "source": "inscription"}
+{"name": "Caṅkaran Cirikaṇṭan", "type": "person", "morphemes": ["śaṅkara", "an", "śrī", "kaṇṭa", "an"], "gloss": "Sankara (Siva) + masc. + glorious + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Caṅkaran Kumāran", "type": "person", "morphemes": ["śaṅkara", "an", "kumāra", "an"], "gloss": "Sankara (Siva) + masc. + youth (Skanda) + masc.", "source": "inscription"}
+{"name": "Yakkan Kuṉṟappōḷan", "type": "person", "morphemes": ["iyakka", "an", "kuṉṟappōḷan"], "gloss": "yaksha + masc. + name", "source": "inscription"}
+{"name": "Āticcan Umaiyammai", "type": "person", "morphemes": ["āditya", "an", "uma", "ammai"], "gloss": "sun + masc. + Uma + mother", "source": "inscription"}
+{"name": "Vīra Udaya Mārttāṇḍa Varman", "type": "person", "morphemes": ["vīra", "udaya", "mārttāṇḍa", "varman"], "gloss": "hero + rising + sun + armour", "source": "inscription"}
+{"name": "Cāttan Ciṟukaṇṭan", "type": "person", "morphemes": ["cātta", "an", "ciṟu", "kaṇṭa", "an"], "gloss": "Sasta (deity) + masc. + small + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Kaṇṭan Kumāran", "type": "person", "morphemes": ["kaṇṭa", "an", "kumāra", "an"], "gloss": "throat (Siva) + masc. + youth (Skanda) + masc.", "source": "inscription"}
+{"name": "Maḻuvakkōn", "type": "title", "morphemes": ["maḻu", "kōn"], "gloss": "axe + king", "source": "inscription"}
+{"name": "Kuṇṭa Āḷupa", "type": "person", "morphemes": ["kuṇṭa", "āḷupa"], "gloss": "name + name", "source": "inscription"}
+{"name": "Hiraṇyagarbhan", "type": "person", "morphemes": ["hiraṇya", "garbha", "an"], "gloss": "golden + womb + masc.", "source": "inscription"}
+{"name": "Kuṉṟan Bhaṭṭan", "type": "person", "morphemes": ["kuṉṟu", "an", "bhaṭṭa", "an"], "gloss": "hill + masc. + learned Brahmin + masc.", "source": "inscription"}
+{"name": "Bhaṭṭa Nāraṇan", "type": "person", "morphemes": ["bhaṭṭa", "nārāyaṇa", "an"], "gloss": "learned Brahmin + Narayana + masc.", "source": "inscription"}
+{"name": "Pōḷan Iravi", "type": "person", "morphemes": ["pōḷan", "iravi"], "gloss": "name + sun", "source": "inscription"}
+{"name": "Kōvinna Tāmōtaran", "type": "person", "morphemes": ["gōvinda", "dāmōdara", "an"], "gloss": "Govinda + Damodara (Krishna) + masc.", "source": "inscription"}
+{"name": "Arappan Kuñci", "type": "person", "morphemes": ["arappan", "kuñci"], "gloss": "name + little", "source": "inscription"}
+{"name": "Cāttan Arukkaṭi", "type": "person", "morphemes": ["cātta", "an", "arukkaṭi"], "gloss": "Sasta (deity) + masc. + name", "source": "inscription"}
+{"name": "Kuṉṟan Ciṟunaṅkai", "type": "person", "morphemes": ["kuṉṟu", "an", "ciṟu", "naṅkai"], "gloss": "hill + masc. + small + lady", "source": "inscription"}
+{"name": "Utaiyavarman", "type": "person", "morphemes": ["utaiya", "varman"], "gloss": "rising + armour", "source": "inscription"}
+{"name": "Nākasvāmi", "type": "person", "morphemes": ["nāka", "svāmi"], "gloss": "serpent + lord", "source": "inscription"}
+{"name": "Bhairavasvāmi", "type": "person", "morphemes": ["bhairava", "svāmi"], "gloss": "Bhairava (Siva) + lord", "source": "inscription"}
+{"name": "Kuṉṟan Kaṉiṉan", "type": "person", "morphemes": ["kuṉṟu", "an", "kaṉiṉan"], "gloss": "hill + masc. + name", "source": "inscription"}
+{"name": "Manavēpāla Manavīyan", "type": "person", "morphemes": ["manavēpāla", "manavīyan"], "gloss": "name + name", "source": "inscription"}
+{"name": "Nārāyaṇan Bhaṭṭavijayan", "type": "person", "morphemes": ["nārāyaṇa", "an", "bhaṭṭa", "vijaya", "an"], "gloss": "Narayana + masc. + learned Brahmin + victory + masc.", "source": "inscription"}
+{"name": "Kaṇṭan Raṇamaṇi", "type": "person", "morphemes": ["kaṇṭa", "an", "raṇa", "maṇi"], "gloss": "throat (Siva) + masc. + battle + jewel", "source": "inscription"}
+{"name": "Pōḻaiyar", "type": "title", "morphemes": ["pōḻa", "ar"], "gloss": "name + hon.", "source": "inscription"}
+{"name": "Cēvakan Pirāntapa Mārttāṇṭan", "type": "person", "morphemes": ["cēvaka", "an", "pirāntapa", "mārttāṇṭa", "an"], "gloss": "servant, warrior + masc. + foe-scorcher + sun + masc.", "source": "inscription"}
+{"name": "Iravi Kēḷan", "type": "person", "morphemes": ["iravi", "kēḷan"], "gloss": "sun + name", "source": "inscription"}
+{"name": "Iyakkan Irāman", "type": "person", "morphemes": ["iyakka", "an", "rāma", "an"], "gloss": "yaksha + masc. + Rama + masc.", "source": "inscription"}
+{"name": "Pūmitara Rāyiran", "type": "person", "morphemes": ["pūmi", "tara", "rāyiran"], "gloss": "earth + bearer + Rajasekhara (short form)", "source": "inscription"}
+{"name": "Caṅkaran Kuṉṟappōḷan", "type": "person", "morphemes": ["śaṅkara", "an", "kuṉṟappōḷan"], "gloss": "Sankara (Siva) + masc. + name", "source": "inscription"}
+{"name": "Etiran Kāviran", "type": "person", "morphemes": ["etiran", "kāviran"], "gloss": "name + name", "source": "inscription"}
+{"name": "Cuvākaran Nārāyaṇan", "type": "person", "morphemes": ["cuvākara", "an", "nārāyaṇa", "an"], "gloss": "name + masc. + Narayana + masc.", "source": "inscription"}
+{"name": "Nārāyaṇan Civākaran", "type": "person", "morphemes": ["nārāyaṇa", "an", "divākara", "an"], "gloss": "Narayana + masc. + sun (Divakara) + masc.", "source": "inscription"}
+{"name": "Iravi Tēvi Ammān", "type": "person", "morphemes": ["iravi", "tēvi", "ammān"], "gloss": "sun + queen + lady", "source": "inscription"}
+{"name": "Kaṇṇan Nampi", "type": "person", "morphemes": ["kaṇṇa", "an", "nampi"], "gloss": "Krishna + masc. + noble, priest", "source": "inscription"}
+{"name": "Centan Kuṉṟan", "type": "person", "morphemes": ["centan", "kuṉṟu", "an"], "gloss": "red one + hill + masc.", "source": "inscription"}
+{"name": "Mānavijayan", "type": "person", "morphemes": ["māna", "vijaya", "an"], "gloss": "honour + victory + masc.", "source": "inscription"}
+{"name": "Irāyacēkarar", "type": "title", "morphemes": ["rāja", "śēkhara", "ar"], "gloss": "king + crest + hon.", "source": "inscription"}
+{"name": "Kumāran Kaṇṭan", "type": "person", "morphemes": ["kumāra", "an", "kaṇṭa", "an"], "gloss": "youth (Skanda) + masc. + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Kōtai Śrīkaṇṭhan", "type": "person", "morphemes": ["kōtai", "śrī", "kaṇṭa", "an"], "gloss": "garland + glorious + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Irāyiran Cāttan", "type": "person", "morphemes": ["rāyiran", "cātta", "an"], "gloss": "Rajasekhara (short form) + Sasta (deity) + masc.", "source": "inscription"}
+{"name": "Iravikkoṟṟan", "type": "person", "morphemes": ["iravi", "koṟṟa", "an"], "gloss": "sun + victor + masc.", "source": "inscription"}
+{"name": "Vīrarāghava Cakravartti", "type": "person", "morphemes": ["vīra", "rāghava", "cakravartti"], "gloss": "hero + Raghava (Rama) + emperor", "source": "inscription"}
+{"name": "Vīra Kēraḷa Varman", "type": "person", "morphemes": ["vīra", "kēraḷa", "varman"], "gloss": "hero + Kerala + armour", "source": "inscription"}
+{"name": "Iravivarman Kulaśēkhara", "type": "person", "morphemes": ["iravi", "varman", "kula", "śēkhara"], "gloss": "sun + armour + lineage + crest", "source": "inscription"}
+{"name": "Saṅgrāmadhīra", "type": "title", "morphemes": ["saṅgrāma", "dhīra"], "gloss": "battle + steadfast", "source": "inscription"}
+{"name": "Śrīkaṇṭha", "type": "person", "morphemes": ["śrī", "kaṇṭa"], "gloss": "glorious + throat (Siva)", "source": "inscription"}
+{"name": "Valabha", "type": "person", "morphemes": ["valabha"], "gloss": "beloved", "source": "inscription"}
+{"name": "Jayamaṇi", "type": "person", "morphemes": ["jaya", "maṇi"], "gloss": "victory + jewel", "source": "inscription"}
+{"name": "Iraman Cēmaṇi", "type": "person", "morphemes": ["rāma", "an", "cēmaṇi"], "gloss": "Rama + masc. + Jayamani", "source": "inscription"}
+{"name": "Cōḻa Muttaraiyan", "type": "title", "morphemes": ["cōḻa", "muttaraiyan"], "gloss": "name + Muttaraiyan (chief title)", "source": "inscription"}
+{"name": "Neṭiyataḷi Puṟaiyan", "type": "person", "morphemes": ["neṭu", "taḷi", "puṟaiyan"], "gloss": "long + temple + name", "source": "inscription"}
+{"name": "Cōḻakkāmaṇi", "type": "person", "morphemes": ["cōḻa", "kāmaṇi"], "gloss": "name + jewel", "source": "inscription"}
+{"name": "Catiraśikhāmaṇi", "type": "person", "morphemes": ["catira", "śikhāmaṇi"], "gloss": "name + crest-jewel", "source": "inscription"}
+{"name": "Perumaṭiyār", "type": "title", "morphemes": ["peru", "aṭi", "ar"], "gloss": "great + foot + hon.", "source": "inscription"}
+{"name": "Tribhuvana Mātēvi", "type": "person", "morphemes": ["tribhuvana", "mā", "tēvi"], "gloss": "three worlds + great + queen", "source": "inscription"}
+{"name": "Ciritara Naṅkacci", "type": "person", "morphemes": ["śrī", "tara", "naṅkacci"], "gloss": "glorious + bearer + temple lady", "source": "inscription"}
+{"name": "Kēraḷarāja", "type": "title", "morphemes": ["kēraḷa", "rāja"], "gloss": "Kerala + king", "source": "inscription"}
+{"name": "Cēramānār", "type": "title", "morphemes": ["cēra", "mān", "ar"], "gloss": "name + great one + hon.", "source": "inscription"}
+{"name": "Perumāḷ", "type": "title", "morphemes": ["peru", "āḷ"], "gloss": "great + person", "source": "inscription"}
+{"name": "Perumāṉaṭikaḷ", "type": "title", "morphemes": ["peru", "mān", "aṭi", "kaḷ"], "gloss": "great + great one + foot + pl.", "source": "inscription"}
+{"name": "Kōyil Adhikārikaḷ", "type": "title", "morphemes": ["kōyil", "adhikāri", "kaḷ"], "gloss": "palace, temple + officer + pl.", "source": "inscription"}
+{"name": "Puñcaippaṭākāram", "type": "place", "morphemes": ["puñcai", "paṭākāram"], "gloss": "dry field + name", "source": "inscription"}
+{"name": "Vāḻappaḷḷi", "type": "place", "morphemes": ["vāḻa", "paḷḷi"], "gloss": "plantain + hamlet, church", "source": "inscription"}
+{"name": "Tiruvāṟṟuvāy", "type": "place", "morphemes": ["tiru", "āṟu", "vāy"], "gloss": "sacred + river + mouth", "source": "inscription"}
+{"name": "Kollam", "type": "place", "morphemes": ["kollam"], "gloss": "name", "source": "inscription"}
+{"name": "Kurakkēṇi Kollam", "type": "place", "morphemes": ["kurakkēṇi", "kollam"], "gloss": "name + name", "source": "inscription"}
+{"name": "Iriññālakkuṭa", "type": "place", "morphemes": ["iriññālakkuṭa"], "gloss": "name", "source": "inscription"}
+{"name": "Kūṭalmāṇikkam", "type": "place", "morphemes": ["kūṭal", "māṇikkam"], "gloss": "confluence + ruby", "source": "inscription"}
+{"name": "Tirunandikkara", "type": "place", "morphemes": ["tiru", "nandi", "kara"], "gloss": "sacred + Nandi + bank", "source": "inscription"}
+{"name": "Tillaisthānam", "type": "place", "morphemes": ["tillai", "sthānam"], "gloss": "tillai tree + place", "source": "inscription"}
+{"name": "Cokkūr", "type": "place", "morphemes": ["cokkūr"], "gloss": "name", "source": "inscription"}
+{"name": "Puttūr", "type": "place", "morphemes": ["putu", "ūr"], "gloss": "new + village", "source": "inscription"}
+{"name": "Neṭumpuṟam Taḷi", "type": "place", "morphemes": ["neṭu", "puṟam", "taḷi"], "gloss": "long + outside + temple", "source": "inscription"}
+{"name": "Avaṭṭiputtūr", "type": "place", "morphemes": ["avaṭṭi", "putu", "ūr"], "gloss": "name + new + village", "source": "inscription"}
+{"name": "Tirupparaṅkōṭu", "type": "place", "morphemes": ["tiru", "paraṅkōṭu"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Cōkiram", "type": "place", "morphemes": ["cōkiram"], "gloss": "name", "source": "inscription"}
+{"name": "Sukapuram", "type": "place", "morphemes": ["śuka", "puram"], "gloss": "parrot + town", "source": "inscription"}
+{"name": "Tavanūr", "type": "place", "morphemes": ["tavanūr"], "gloss": "name", "source": "inscription"}
+{"name": "Pērāṟu", "type": "river", "morphemes": ["pēr", "āṟu"], "gloss": "great + river", "source": "inscription"}
+{"name": "Pōraṅṅāṭṭiri", "type": "place", "morphemes": ["pōraṅṅāṭṭiri"], "gloss": "name", "source": "inscription"}
+{"name": "Intiyanūr", "type": "place", "morphemes": ["intiyanūr"], "gloss": "name", "source": "inscription"}
+{"name": "Tṛppūṇittuṟa", "type": "place", "morphemes": ["tiru", "pūṇi", "tuṟa"], "gloss": "sacred + name + harbour", "source": "inscription"}
+{"name": "Kavuntara", "type": "place", "morphemes": ["kavuntara"], "gloss": "name", "source": "inscription"}
+{"name": "Tṛkkākkara", "type": "place", "morphemes": ["tiru", "kāl", "kara"], "gloss": "sacred + foot + bank", "source": "inscription"}
+{"name": "Maṇipuram", "type": "place", "morphemes": ["maṇi", "puram"], "gloss": "jewel + town", "source": "inscription"}
+{"name": "Pudukkōṭu", "type": "place", "morphemes": ["putu", "kōṭu"], "gloss": "new + hill", "source": "inscription"}
+{"name": "Tiruvaṇvaṇṭūr", "type": "place", "morphemes": ["tiru", "vaṇvaṇṭūr"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Tirumūḻikkaḷam", "type": "place", "morphemes": ["tiru", "mūḻikkaḷam"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Mūḻikkaḷam", "type": "place", "morphemes": ["mūḻikkaḷam"], "gloss": "name", "source": "inscription"}
+{"name": "Pantalāyani Kollam", "type": "place", "morphemes": ["pantalāyani", "kollam"], "gloss": "name + name", "source": "inscription"}
+{"name": "Pantalāyani", "type": "place", "morphemes": ["pantalāyani"], "gloss": "name", "source": "inscription"}
+{"name": "Tṛkkoṭittānam", "type": "place", "morphemes": ["tiru", "koṭi", "tānam"], "gloss": "sacred + flag + place", "source": "inscription"}
+{"name": "Perunna", "type": "place", "morphemes": ["perunna"], "gloss": "name", "source": "inscription"}
+{"name": "Perunneytal", "type": "place", "morphemes": ["peru", "neytal"], "gloss": "great + seashore tract", "source": "inscription"}
+{"name": "Pantavūr", "type": "place", "morphemes": ["pantavūr"], "gloss": "name", "source": "inscription"}
+{"name": "Kīḻkkuḷaṅṅara", "type": "place", "morphemes": ["kīḻ", "kuḷam", "kara"], "gloss": "lower + tank + bank", "source": "inscription"}
+{"name": "Muyirikkōṭu", "type": "place", "morphemes": ["muyiri", "kōṭu"], "gloss": "Muziris + hill", "source": "inscription"}
+{"name": "Muciṟi", "type": "place", "morphemes": ["muciṟi"], "gloss": "name", "source": "inscription"}
+{"name": "Pullūr", "type": "place", "morphemes": ["pullūr"], "gloss": "name", "source": "inscription"}
+{"name": "Koṭavalam", "type": "place", "morphemes": ["koṭavalam"], "gloss": "name", "source": "inscription"}
+{"name": "Ēḻimala", "type": "hill", "morphemes": ["ēḻu", "mala"], "gloss": "seven + hill", "source": "inscription"}
+{"name": "Ēṟamam", "type": "place", "morphemes": ["ēṟamam"], "gloss": "name", "source": "inscription"}
+{"name": "Cālappuṟam", "type": "place", "morphemes": ["cālai", "puṟam"], "gloss": "college + outside", "source": "inscription"}
+{"name": "Kaṭappappaḷḷi", "type": "place", "morphemes": ["kaṭappa", "paḷḷi"], "gloss": "name + hamlet, church", "source": "inscription"}
+{"name": "Tirunelli", "type": "place", "morphemes": ["tiru", "nelli"], "gloss": "sacred + gooseberry", "source": "inscription"}
+{"name": "Tiruvanantapuram", "type": "place", "morphemes": ["tiru", "ananta", "puram"], "gloss": "sacred + endless + town", "source": "inscription"}
+{"name": "Tirumaṟṟakkōṭu", "type": "place", "morphemes": ["tiru", "maṟṟa", "kōṭu"], "gloss": "sacred + name + hill", "source": "inscription"}
+{"name": "Tiruviṟṟuvakkōṭu", "type": "place", "morphemes": ["tiru", "viṟṟuvakkōṭu"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Kāvaṉūr", "type": "place", "morphemes": ["kāvaṉūr"], "gloss": "name", "source": "inscription"}
+{"name": "Tonṭaināṭu", "type": "place", "morphemes": ["toṇṭai", "nāṭu"], "gloss": "Tondai + country", "source": "inscription"}
+{"name": "Mēlūr Kōṭṭam", "type": "place", "morphemes": ["mēl", "ūr", "kōṭṭam"], "gloss": "upper + village + district", "source": "inscription"}
+{"name": "Panniyaṅkara", "type": "place", "morphemes": ["panniyaṅkara"], "gloss": "name", "source": "inscription"}
+{"name": "Talakkāṭu", "type": "place", "morphemes": ["tala", "kāṭu"], "gloss": "head + forest", "source": "inscription"}
+{"name": "Taḷaikkāṭṭūr", "type": "place", "morphemes": ["taḷaikkāṭṭūr"], "gloss": "name", "source": "inscription"}
+{"name": "Iruṅkāṭikkūṭal", "type": "place", "morphemes": ["iru", "kāṭi", "kūṭal"], "gloss": "two + name + confluence", "source": "inscription"}
+{"name": "Mannārkōyil", "type": "place", "morphemes": ["mannār", "kōyil"], "gloss": "king + palace, temple", "source": "inscription"}
+{"name": "Ambāsamudram", "type": "place", "morphemes": ["ambā", "samudram"], "gloss": "mother (goddess) + sea", "source": "inscription"}
+{"name": "Rājarājappāṇṭināṭu", "type": "place", "morphemes": ["rāja", "rāja", "pāṇṭi", "nāṭu"], "gloss": "king + king + Pandya + country", "source": "inscription"}
+{"name": "Tiruvañcikkuḷam", "type": "place", "morphemes": ["tiru", "añci", "kuḷam"], "gloss": "sacred + name + tank", "source": "inscription"}
+{"name": "Taḷippaṟampu", "type": "place", "morphemes": ["taḷi", "paṟampu"], "gloss": "temple + upland", "source": "inscription"}
+{"name": "Tṛccambaram", "type": "place", "morphemes": ["tiru", "cambaram"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Tiruvaṇṇūr", "type": "place", "morphemes": ["tiru", "vaṇṇūr"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Rāmavaḷanāṭu", "type": "place", "morphemes": ["rāma", "vaḷa", "nāṭu"], "gloss": "Rama + fertile + country", "source": "inscription"}
+{"name": "Tirukkuṇavāy", "type": "place", "morphemes": ["tiru", "kuṇavāy"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Kuṉṟil", "type": "place", "morphemes": ["kuṉṟu", "il"], "gloss": "hill + loc.", "source": "inscription"}
+{"name": "Paramban Taḷi", "type": "place", "morphemes": ["paramban", "taḷi"], "gloss": "name + temple", "source": "inscription"}
+{"name": "Nallūr", "type": "place", "morphemes": ["nal", "ūr"], "gloss": "good + village", "source": "inscription"}
+{"name": "Tiruvāḻūr", "type": "place", "morphemes": ["tiru", "āḻūr"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Ārālūr", "type": "place", "morphemes": ["ārālūr"], "gloss": "name", "source": "inscription"}
+{"name": "Mahōdayapuram", "type": "place", "morphemes": ["mahā", "udaya", "puram"], "gloss": "great + rising + town", "source": "inscription"}
+{"name": "Makōtai", "type": "place", "morphemes": ["mā", "kōtai"], "gloss": "great + garland", "source": "inscription"}
+{"name": "Makōtaiyar Paṭṭinam", "type": "place", "morphemes": ["mā", "kōtai", "ar", "paṭṭinam"], "gloss": "great + garland + hon. + port town", "source": "inscription"}
+{"name": "Koṭuṅṅallūr", "type": "place", "morphemes": ["koṭum", "nal", "ūr"], "gloss": "curved, fierce + good + village", "source": "inscription"}
+{"name": "Neṭiya Taḷi", "type": "place", "morphemes": ["neṭu", "taḷi"], "gloss": "long + temple", "source": "inscription"}
+{"name": "Mēl Taḷi", "type": "place", "morphemes": ["mēl", "taḷi"], "gloss": "upper + temple", "source": "inscription"}
+{"name": "Kīḻ Taḷi", "type": "place", "morphemes": ["kīḻ", "taḷi"], "gloss": "lower + temple", "source": "inscription"}
+{"name": "Ciṅṅapuram Taḷi", "type": "place", "morphemes": ["ciṅṅa", "puram", "taḷi"], "gloss": "lion + town + temple", "source": "inscription"}
+{"name": "Nālu Taḷi", "type": "group", "morphemes": ["nālu", "taḷi"], "gloss": "four + temple", "source": "inscription"}
+{"name": "Rāmēśvaram", "type": "place", "morphemes": ["rāma", "īśvaram"], "gloss": "Rama + lord's shrine", "source": "inscription"}
+{"name": "Paṇaiṅkāvu", "type": "place", "morphemes": ["paṇai", "kāvu"], "gloss": "palm + grove", "source": "inscription"}
+{"name": "Tiruvalañculi", "type": "place", "morphemes": ["tiru", "valañculi"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Bhāskarapuram", "type": "place", "morphemes": ["bhāskara", "puram"], "gloss": "sun + town", "source": "inscription"}
+{"name": "Talakkuḷattūr", "type": "place", "morphemes": ["tala", "kuḷattūr"], "gloss": "head + name", "source": "inscription"}
+{"name": "Cēḷannūr", "type": "place", "morphemes": ["cēḷannūr"], "gloss": "name", "source": "inscription"}
+{"name": "Tiruvaṅṅūr", "type": "place", "morphemes": ["tiru", "aṅṅūr"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Mutuvaḷḷūr", "type": "place", "morphemes": ["mutu", "vaḷḷūr"], "gloss": "old + name", "source": "inscription"}
+{"name": "Tirunellai", "type": "place", "morphemes": ["tiru", "nellai"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Tiruvalla", "type": "place", "morphemes": ["tiru", "valla"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Tiruvallavāḻ", "type": "place", "morphemes": ["tiru", "vallavāḻ"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Talakkāvu", "type": "place", "morphemes": ["tala", "kāvu"], "gloss": "head + grove", "source": "inscription"}
+{"name": "Puttāṭi", "type": "place", "morphemes": ["puttāṭi"], "gloss": "name", "source": "inscription"}
+{"name": "Vayanāṭu", "type": "place", "morphemes": ["vayal", "nāṭu"], "gloss": "paddy field + country", "source": "inscription"}
+{"name": "Paḷiyam", "type": "place", "morphemes": ["paḷiyam"], "gloss": "name", "source": "inscription"}
+{"name": "Cennamaṅgalam", "type": "place", "morphemes": ["cenna", "maṅgalam"], "gloss": "name + auspicious village", "source": "inscription"}
+{"name": "Śrīmūlavāsam", "type": "place", "morphemes": ["śrī", "mūla", "vāsam"], "gloss": "glorious + root + abode", "source": "inscription"}
+{"name": "Tirumūlavāṭam", "type": "place", "morphemes": ["tiru", "mūla", "vāṭam"], "gloss": "sacred + root + enclosure", "source": "inscription"}
+{"name": "Viḻiññam", "type": "place", "morphemes": ["viḻiññam"], "gloss": "name", "source": "inscription"}
+{"name": "Rāmantaḷi", "type": "place", "morphemes": ["rāman", "taḷi"], "gloss": "Rama + temple", "source": "inscription"}
+{"name": "Nārāyaṇakaṇṇūr", "type": "place", "morphemes": ["nārāyaṇa", "kaṇṇūr"], "gloss": "Narayana + name", "source": "inscription"}
+{"name": "Parumala", "type": "place", "morphemes": ["parumala"], "gloss": "name", "source": "inscription"}
+{"name": "Kaviyūr", "type": "place", "morphemes": ["kaviyūr"], "gloss": "name", "source": "inscription"}
+{"name": "Māmpaḷḷi", "type": "place", "morphemes": ["mām", "paḷḷi"], "gloss": "mango + hamlet, church", "source": "inscription"}
+{"name": "Tiruccēṅkuṉṟūr", "type": "place", "morphemes": ["tiru", "ceṅ", "kuṉṟu", "ūr"], "gloss": "sacred + red + hill + village", "source": "inscription"}
+{"name": "Ayirūr", "type": "place", "morphemes": ["ayirūr"], "gloss": "name", "source": "inscription"}
+{"name": "Ciṟṟūr", "type": "place", "morphemes": ["ciṟu", "ūr"], "gloss": "small + village", "source": "inscription"}
+{"name": "Dēvidēvēśvaram", "type": "place", "morphemes": ["dēvi", "dēva", "īśvaram"], "gloss": "goddess + god + lord's shrine", "source": "inscription"}
+{"name": "Tiruvaṭūr", "type": "place", "morphemes": ["tiru", "vaṭūr"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Vaṭukēśvaram", "type": "place", "morphemes": ["vaṭuka", "īśvaram"], "gloss": "Vatuka (Bhairava) + lord's shrine", "source": "inscription"}
+{"name": "Vaikkam", "type": "place", "morphemes": ["vaikkam"], "gloss": "name", "source": "inscription"}
+{"name": "Paravūr", "type": "place", "morphemes": ["paravūr"], "gloss": "name", "source": "inscription"}
+{"name": "Peruvanam", "type": "place", "morphemes": ["peru", "vanam"], "gloss": "great + forest", "source": "inscription"}
+{"name": "Veḷḷūr", "type": "place", "morphemes": ["veḷ", "ūr"], "gloss": "white + village", "source": "inscription"}
+{"name": "Tiruvaḷḷūr", "type": "place", "morphemes": ["tiru", "vaḷḷūr"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Kiṉālūr", "type": "place", "morphemes": ["kiṉālūr"], "gloss": "name", "source": "inscription"}
+{"name": "Vijayarāgēśvaram", "type": "place", "morphemes": ["vijaya", "rāga", "īśvaram"], "gloss": "victory + passion + lord's shrine", "source": "inscription"}
+{"name": "Kuṇavāynallūr", "type": "place", "morphemes": ["kuṇavāy", "nal", "ūr"], "gloss": "name + good + village", "source": "inscription"}
+{"name": "Manukulaicēkaranallūr", "type": "place", "morphemes": ["manu", "kula", "śēkhara", "nal", "ūr"], "gloss": "Manu + lineage + crest + good + village", "source": "inscription"}
+{"name": "Kaṇṇapuram", "type": "place", "morphemes": ["kaṇṇa", "puram"], "gloss": "Krishna + town", "source": "inscription"}
+{"name": "Tirukkaṇṇapuram", "type": "place", "morphemes": ["tiru", "kaṇṇa", "puram"], "gloss": "sacred + Krishna + town", "source": "inscription"}
+{"name": "Māṭāyi", "type": "place", "morphemes": ["māṭāyi"], "gloss": "name", "source": "inscription"}
+{"name": "Maṇiyūr", "type": "place", "morphemes": ["maṇiyūr"], "gloss": "name", "source": "inscription"}
+{"name": "Kuṟiyāṭṭūr", "type": "place", "morphemes": ["kuṟiyāṭṭūr"], "gloss": "name", "source": "inscription"}
+{"name": "Vēḷam", "type": "place", "morphemes": ["vēḷam"], "gloss": "name", "source": "inscription"}
+{"name": "Kaliyampaḷḷi", "type": "place", "morphemes": ["kaliyam", "paḷḷi"], "gloss": "name + hamlet, church", "source": "inscription"}
+{"name": "Kārikkāṭu", "type": "place", "morphemes": ["kāri", "kāṭu"], "gloss": "dark one + forest", "source": "inscription"}
+{"name": "Tirukkārikkāṭu", "type": "place", "morphemes": ["tiru", "kāri", "kāṭu"], "gloss": "sacred + dark one + forest", "source": "inscription"}
+{"name": "Pulpaṟṟa", "type": "place", "morphemes": ["pul", "paṟṟa"], "gloss": "grass + name", "source": "inscription"}
+{"name": "Rāmanāṭṭukara", "type": "place", "morphemes": ["rāma", "nāṭu", "kara"], "gloss": "Rama + country + bank", "source": "inscription"}
+{"name": "Pariharapuram", "type": "place", "morphemes": ["parihara", "puram"], "gloss": "remedy + town", "source": "inscription"}
+{"name": "Panniyūr", "type": "place", "morphemes": ["panniyūr"], "gloss": "name", "source": "inscription"}
+{"name": "Tavaraṉūr", "type": "place", "morphemes": ["tavaraṉūr"], "gloss": "name", "source": "inscription"}
+{"name": "Rāyiranallūr", "type": "place", "morphemes": ["rāyiran", "nal", "ūr"], "gloss": "Rajasekhara (short form) + good + village", "source": "inscription"}
+{"name": "Paiṅkaṇṇūr", "type": "place", "morphemes": ["paim", "kaṇṇūr"], "gloss": "green + name", "source": "inscription"}
+{"name": "Pukkōṭṭūr", "type": "place", "morphemes": ["pukkōṭṭūr"], "gloss": "name", "source": "inscription"}
+{"name": "Ālanallūr", "type": "place", "morphemes": ["āl", "nal", "ūr"], "gloss": "banyan + good + village", "source": "inscription"}
+{"name": "Mēlāṭṭūr", "type": "place", "morphemes": ["mēl", "āṭṭūr"], "gloss": "upper + name", "source": "inscription"}
+{"name": "Kōlappaḷḷi", "type": "place", "morphemes": ["kōla", "paḷḷi"], "gloss": "name + hamlet, church", "source": "inscription"}
+{"name": "Kārippōṭu", "type": "place", "morphemes": ["kārippōṭu"], "gloss": "name", "source": "inscription"}
+{"name": "Kōṭuvāyūr", "type": "place", "morphemes": ["koṭuvāyūr"], "gloss": "name", "source": "inscription"}
+{"name": "Kōṭāpuram", "type": "place", "morphemes": ["kōta", "puram"], "gloss": "Kota + town", "source": "inscription"}
+{"name": "Ālattūr", "type": "place", "morphemes": ["āl", "attūr"], "gloss": "banyan + name", "source": "inscription"}
+{"name": "Peruvemba", "type": "place", "morphemes": ["peruvemba"], "gloss": "name", "source": "inscription"}
+{"name": "Tiruppuṟaiyār", "type": "place", "morphemes": ["tiru", "puṟaiyār"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Tṛprayār", "type": "place", "morphemes": ["tiru", "prayār"], "gloss": "sacred + name", "source": "inscription"}
+{"name": "Tirukkulaśēkharapuram", "type": "place", "morphemes": ["tiru", "kula", "śēkhara", "puram"], "gloss": "sacred + lineage + crest + town", "source": "inscription"}
+{"name": "Neytaṟṟalai", "type": "place", "morphemes": ["neytal", "talai"], "gloss": "seashore tract + head", "source": "inscription"}
+{"name": "Kaṇṇiyūr", "type": "place", "morphemes": ["kaṇṇiyūr"], "gloss": "name", "source": "inscription"}
+{"name": "Airāṇikkuḷam", "type": "place", "morphemes": ["airāṇi", "kuḷam"], "gloss": "name + tank", "source": "inscription"}
+{"name": "Cērakēśvaram", "type": "place", "morphemes": ["cēra", "īśvaram"], "gloss": "name + lord's shrine", "source": "inscription"}
+{"name": "Girijāgrahāram", "type": "place", "morphemes": ["girija", "agrahāram"], "gloss": "Girija (Parvati) + Brahmin settlement", "source": "inscription"}
+{"name": "Uḷiyannūr", "type": "place", "morphemes": ["uḷiyannūr"], "gloss": "name", "source": "inscription"}
+{"name": "Kumaranallūr", "type": "place", "morphemes": ["kumara", "nal", "ūr"], "gloss": "youth (Skanda) + good + village", "source": "inscription"}
+{"name": "Navāykkuḷam", "type": "place", "morphemes": ["navāy", "kuḷam"], "gloss": "name + tank", "source": "inscription"}
+{"name": "Āṟṟiṅṅal", "type": "place", "morphemes": ["āṟṟiṅṅal"], "gloss": "name", "source": "inscription"}
+{"name": "Nārāyaṇamaṅgalam", "type": "place", "morphemes": ["nārāyaṇa", "maṅgalam"], "gloss": "Narayana + auspicious village", "source": "inscription"}
+{"name": "Kāntaḷūr", "type": "place", "morphemes": ["kāntaḷūr"], "gloss": "name", "source": "inscription"}
+{"name": "Kāntaḷūr Śālai", "type": "place", "morphemes": ["kāntaḷūr", "śālai"], "gloss": "name + college", "source": "inscription"}
+{"name": "Kuṭamalaināṭu", "type": "place", "morphemes": ["kuṭa", "malai", "nāṭu"], "gloss": "west + hill + country", "source": "inscription"}
+{"name": "Malaināṭu", "type": "place", "morphemes": ["malai", "nāṭu"], "gloss": "hill + country", "source": "inscription"}
+{"name": "Kēraḷam", "type": "place", "morphemes": ["kēraḷam"], "gloss": "name", "source": "inscription"}
+{"name": "Cēranāṭu", "type": "place", "morphemes": ["cēra", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Vēṇāṭu", "type": "place", "morphemes": ["vēḷ", "nāṭu"], "gloss": "chief + country", "source": "inscription"}
+{"name": "Veṇpolināṭu", "type": "place", "morphemes": ["veṇpoli", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Vempalanāṭu", "type": "place", "morphemes": ["vempala", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Ēṟanāṭu", "type": "place", "morphemes": ["ēṟa", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Ēḻanāṭu", "type": "place", "morphemes": ["ēḻa", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Vaḷḷuvanāṭu", "type": "place", "morphemes": ["vaḷḷuva", "nāṭu"], "gloss": "Valluva (community) + country", "source": "inscription"}
+{"name": "Neṭumpuṟaiyūrnāṭu", "type": "place", "morphemes": ["neṭu", "puṟaiyūr", "nāṭu"], "gloss": "long + name + country", "source": "inscription"}
+{"name": "Kurumpuṟaināṭu", "type": "place", "morphemes": ["kurumpuṟai", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Puṟakiḻānāṭu", "type": "place", "morphemes": ["puṟa", "kiḻā", "nāṭu"], "gloss": "outer + name + country", "source": "inscription"}
+{"name": "Kīḻmalaināṭu", "type": "place", "morphemes": ["kīḻ", "malai", "nāṭu"], "gloss": "lower + hill + country", "source": "inscription"}
+{"name": "Muññināṭu", "type": "place", "morphemes": ["muññi", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Naṉṟuḻaināṭu", "type": "place", "morphemes": ["naṉṟuḻai", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Kālkkaraināṭu", "type": "place", "morphemes": ["kāl", "karai", "nāṭu"], "gloss": "foot + bank + country", "source": "inscription"}
+{"name": "Kōlattunāṭu", "type": "place", "morphemes": ["kōlam", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Mūṣaka", "type": "place", "morphemes": ["mūṣaka"], "gloss": "rat", "source": "inscription"}
+{"name": "Ōṭanāṭu", "type": "place", "morphemes": ["ōṭa", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Naññināṭu", "type": "place", "morphemes": ["naññi", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Kuṭanāṭu", "type": "place", "morphemes": ["kuṭa", "nāṭu"], "gloss": "west + country", "source": "inscription"}
+{"name": "Pōḻanāṭu", "type": "place", "morphemes": ["pōḻa", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Eṭattaṟanāṭu", "type": "place", "morphemes": ["eṭattaṟa", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Naṉṉilaināṭu", "type": "place", "morphemes": ["naṉ", "nilai", "nāṭu"], "gloss": "good + station + country", "source": "inscription"}
+{"name": "Veṅṅanāṭu", "type": "place", "morphemes": ["veṅṅa", "nāṭu"], "gloss": "name + country", "source": "inscription"}
+{"name": "Kūpaka", "type": "place", "morphemes": ["kūpaka"], "gloss": "name", "source": "inscription"}
+{"name": "Āy", "type": "lineage", "morphemes": ["āy"], "gloss": "cowherd", "source": "inscription"}
+{"name": "Āyināṭu", "type": "place", "morphemes": ["āy", "nāṭu"], "gloss": "cowherd + country", "source": "inscription"}
+{"name": "Muṭikoṇṭa", "type": "place", "morphemes": ["muṭi", "koṇṭa"], "gloss": "crown + taken", "source": "inscription"}
+{"name": "Vañci", "type": "place", "morphemes": ["vañci"], "gloss": "name", "source": "inscription"}
+{"name": "Puṉṉaittalai", "type": "place", "morphemes": ["puṉṉai", "talai"], "gloss": "Alexandrian laurel + head", "source": "inscription"}
+{"name": "Pulaikkuṭi", "type": "place", "morphemes": ["pulai", "kuṭi"], "gloss": "name + dwelling", "source": "inscription"}
+{"name": "Vayalkkāṭu", "type": "place", "morphemes": ["vayal", "kāṭu"], "gloss": "paddy field + forest", "source": "inscription"}
+{"name": "Ciṟuvātilkkal", "type": "place", "morphemes": ["ciṟu", "vātil", "kal"], "gloss": "small + door + stone", "source": "inscription"}
+{"name": "Tōraṇattōṭṭam", "type": "place", "morphemes": ["tōraṇam", "tōṭṭam"], "gloss": "arch + garden", "source": "inscription"}
+{"name": "Antilāntōṭṭam", "type": "place", "morphemes": ["antilān", "tōṭṭam"], "gloss": "name + garden", "source": "inscription"}
+{"name": "Tarisāppaḷḷi", "type": "place", "morphemes": ["tarisā", "paḷḷi"], "gloss": "Tarsa (Christian) + hamlet, church", "source": "inscription"}
+{"name": "Kōṭṭayam", "type": "place", "morphemes": ["kōṭṭa", "ayam"], "gloss": "fort + place", "source": "inscription"}
+{"name": "Maṇigrāmam", "type": "group", "morphemes": ["maṇi", "grāmam"], "gloss": "jewel + village", "source": "inscription"}
+{"name": "Añcuvaṇṇam", "type": "group", "morphemes": ["añcu", "vaṇṇam"], "gloss": "five + class", "source": "inscription"}
+{"name": "Vaḷañciyar", "type": "group", "morphemes": ["vaḷañciyar"], "gloss": "name", "source": "inscription"}
+{"name": "Nānādēśikaḷ", "type": "group", "morphemes": ["nānā", "dēśi", "kaḷ"], "gloss": "various + country-man + pl.", "source": "inscription"}
+{"name": "Ayiram", "type": "group", "morphemes": ["āyiram"], "gloss": "thousand", "source": "inscription"}
+{"name": "Aṟunūṟṟuvar", "type": "group", "morphemes": ["aṟu", "nūṟu", "ar"], "gloss": "six + hundred + hon.", "source": "inscription"}
+{"name": "Munnūṟṟuvar", "type": "group", "morphemes": ["mūnnu", "nūṟu", "ar"], "gloss": "three + hundred + hon.", "source": "inscription"}
+{"name": "Nūṟṟuvar", "type": "group", "morphemes": ["nūṟu", "ar"], "gloss": "hundred + hon.", "source": "inscription"}
+{"name": "Eḻunūṟṟuvar", "type": "group", "morphemes": ["ēḻu", "nūṟu", "ar"], "gloss": "seven + hundred + hon.", "source": "inscription"}
+{"name": "Ainūṟṟuvar", "type": "group", "morphemes": ["aim", "nūṟu", "ar"], "gloss": "five + hundred + hon.", "source": "inscription"}
+{"name": "Nālpatteṇṇāyiravar", "type": "group", "morphemes": ["nālpatu", "eṇ", "āyiram", "ar"], "gloss": "forty + eight + thousand + hon.", "source": "inscription"}
+{"name": "Mūvāyiravar", "type": "group", "morphemes": ["mūnnu", "āyiram", "ar"], "gloss": "three + thousand + hon.", "source": "inscription"}
+{"name": "Irāyiravar", "type": "group", "morphemes": ["iraṇṭu", "āyiram", "ar"], "gloss": "two + thousand + hon.", "source": "inscription"}
+{"name": "Irupatteḻuvar", "type": "group", "morphemes": ["irupatu", "ēḻu", "ar"], "gloss": "twenty + seven + hon.", "source": "inscription"}
+{"name": "Patineṭṭunāṭṭār", "type": "group", "morphemes": ["patineṭṭu", "nāṭu", "ar"], "gloss": "eighteen + country + hon.", "source": "inscription"}
+{"name": "Patineṇbhūmi Ticai Āyirattaiññūṟṟuvar", "type": "group", "morphemes": ["patineṇ", "bhūmi", "ticai", "āyiram", "aim", "nūṟu", "ar"], "gloss": "eighteen + land + direction + thousand + five + hundred + hon.", "source": "inscription"}
+{"name": "Ceṭṭikaḷ", "type": "group", "morphemes": ["ceṭṭi", "kaḷ"], "gloss": "merchant + pl.", "source": "inscription"}
+{"name": "Īḻavar", "type": "group", "morphemes": ["īḻa", "ar"], "gloss": "Ceylon + hon.", "source": "inscription"}
+{"name": "Vaṇṇār", "type": "group", "morphemes": ["vaṇṇān", "ar"], "gloss": "washerman + hon.", "source": "inscription"}
+{"name": "Taccar", "type": "group", "morphemes": ["taccan", "ar"], "gloss": "carpenter + hon.", "source": "inscription"}
+{"name": "Veḷḷāḷar", "type": "group", "morphemes": ["veḷḷāḷan", "ar"], "gloss": "cultivator + hon.", "source": "inscription"}
+{"name": "Pulaiyar", "type": "group", "morphemes": ["pulaiyan", "ar"], "gloss": "agrestic labourer + hon.", "source": "inscription"}
+{"name": "Ūrāḷar", "type": "group", "morphemes": ["ūr", "āḷ", "ar"], "gloss": "village + person + hon.", "source": "inscription"}
+{"name": "Potuvāḷ", "type": "title", "morphemes": ["potu", "āḷ"], "gloss": "common + person", "source": "inscription"}
+{"name": "Paraṭaiyār", "type": "group", "morphemes": ["paraṭai", "ar"], "gloss": "assembly + hon.", "source": "inscription"}
+{"name": "Iḷaiyār", "type": "group", "morphemes": ["iḷaiya", "ar"], "gloss": "younger + hon.", "source": "inscription"}
+{"name": "Mūttār", "type": "group", "morphemes": ["mūtta", "ar"], "gloss": "elder + hon.", "source": "inscription"}
+{"name": "Kāṇattār", "type": "group", "morphemes": ["kāṇam", "ar"], "gloss": "fee + hon.", "source": "inscription"}
+{"name": "Uvaccar", "type": "group", "morphemes": ["uvaccan", "ar"], "gloss": "drummer + hon.", "source": "inscription"}
+{"name": "Śrīvaiṣṇavar", "type": "group", "morphemes": ["śrī", "vaiṣṇava", "ar"], "gloss": "glorious + Vaishnava + hon.", "source": "inscription"}
+{"name": "Cāttirar", "type": "group", "morphemes": ["cāttiran", "ar"], "gloss": "student + hon.", "source": "inscription"}
+{"name": "Palliyār", "type": "group", "morphemes": ["paḷḷi", "ar"], "gloss": "hamlet, church + hon.", "source": "inscription"}
+{"name": "Ariyar", "type": "group", "morphemes": ["ārya", "ar"], "gloss": "noble + hon.", "source": "inscription"}
+{"name": "Nāyar", "type": "group", "morphemes": ["nāyan", "ar"], "gloss": "leader + hon.", "source": "inscription"}
+{"name": "Paṭaināyar", "type": "title", "morphemes": ["paṭai", "nāyan", "ar"], "gloss": "army + leader + hon.", "source": "inscription"}
+{"name": "Niḻal", "type": "group", "morphemes": ["niḻal"], "gloss": "shadow", "source": "inscription"}
+{"name": "Niḻalōr", "type": "group", "morphemes": ["niḻal", "ōr"], "gloss": "shadow + hon. pl.", "source": "inscription"}
+{"name": "Sāmantar", "type": "group", "morphemes": ["sāmanta", "ar"], "gloss": "feudatory + hon.", "source": "inscription"}
+{"name": "Taḷi Adhikārikaḷ", "type": "title", "morphemes": ["taḷi", "adhikāri", "kaḷ"], "gloss": "temple + officer + pl.", "source": "inscription"}
+{"name": "Āḷakōyil", "type": "title", "morphemes": ["āḷ", "kōyil"], "gloss": "person + palace, temple", "source": "inscription"}
+{"name": "Amaicci", "type": "title", "morphemes": ["amaicci"], "gloss": "minister", "source": "inscription"}
+{"name": "Amaiccuḷḷurutti Kōyil Adhikārikaḷ", "type": "title", "morphemes": ["amaiccu", "uḷ", "urutti", "kōyil", "adhikāri", "kaḷ"], "gloss": "ministry + inside + name + palace, temple + officer + pl.", "source": "inscription"}
+{"name": "Matilnāyakan", "type": "title", "morphemes": ["matil", "nāyakan"], "gloss": "fort wall + leader", "source": "inscription"}
+{"name": "Tiyyamālvan", "type": "title", "morphemes": ["tiyyamālvan"], "gloss": "name", "source": "inscription"}
+{"name": "Kiḻvāy Kēḷppān", "type": "title", "morphemes": ["kiḻ", "vāy", "kēḷppān"], "gloss": "lower + mouth + listener", "source": "inscription"}
+{"name": "Uḷpaṭan", "type": "title", "morphemes": ["uḷ", "paṭan"], "gloss": "inside + one who stays", "source": "inscription"}
+{"name": "Perumuṭiyan", "type": "title", "morphemes": ["peru", "muṭi", "an"], "gloss": "great + crown + masc.", "source": "inscription"}
+{"name": "Cēramān Lōkapperuñceṭṭi", "type": "title", "morphemes": ["cēra", "mān", "lōka", "peru", "ceṭṭi"], "gloss": "name + great one + world + great + merchant", "source": "inscription"}
+{"name": "Nakarattukkuk Karttāvu", "type": "title", "morphemes": ["nakaram", "karttāvu"], "gloss": "city + lord", "source": "inscription"}
+{"name": "Iravikkōṟṟan", "type": "person", "morphemes": ["iravi", "koṟṟa", "an"], "gloss": "sun + victor + masc.", "source": "inscription"}
+{"name": "Vīra Kēraḷa Cakravartti", "type": "person", "morphemes": ["vīra", "kēraḷa", "cakravartti"], "gloss": "hero + Kerala + emperor", "source": "inscription"}
+{"name": "Nampi Caṭaiyan", "type": "person", "morphemes": ["nampi", "caṭaiyan"], "gloss": "noble, priest + matted-haired one", "source": "inscription"}
+{"name": "Perumkōyilakam", "type": "place", "morphemes": ["peru", "kōyilakam"], "gloss": "great + palace", "source": "inscription"}
+{"name": "Nālu Cēri", "type": "group", "morphemes": ["nālu", "cēri"], "gloss": "four + settlement", "source": "inscription"}
+{"name": "Kōtai Cirikaṇṭan", "type": "person", "morphemes": ["kōtai", "śrī", "kaṇṭa", "an"], "gloss": "garland + glorious + throat (Siva) + masc.", "source": "inscription"}
+{"name": "Rāyiran Cāttan", "type": "person", "morphemes": ["rāyiran", "cātta", "an"], "gloss": "Rajasekhara (short form) + Sasta (deity) + masc.", "source": "inscription"}
+{"name": "Mūrkkan Cāttan", "type": "person", "morphemes": ["mūrkkan", "cātta", "an"], "gloss": "name + Sasta (deity) + masc.", "source": "inscription"}
+{"name": "Vaṇṟalaccēri Kaṇṭan Kuṉṟappōḷan", "type": "person", "morphemes": ["vaṇṟalaccēri", "kaṇṭa", "an", "kuṉṟappōḷan"], "gloss": "name + throat (Siva) + masc. + name", "source": "inscription"}
+{"name": "Cēramān Perumāḷ", "type": "title", "morphemes": ["cēra", "mān", "peru", "āḷ"], "gloss": "name + great one + great + person", "source": "inscription"}
+{"name": "Kulaśēkhara Āḻvār", "type": "person", "morphemes": ["kula", "śēkhara", "āḻvār"], "gloss": "lineage + crest + saint", "source": "inscription"}
+{"name": "Iḷaṅkō Aṭikaḷ", "type": "person", "morphemes": ["iḷam", "kō", "aṭi", "kaḷ"], "gloss": "young + king + foot + pl.", "source": "inscription"}
+{"name": "Cōḻa", "type": "lineage", "morphemes": ["cōḻa"], "gloss": "name", "source": "inscription"}
+{"name": "Pāṇṭiya", "type": "lineage", "morphemes": ["pāṇṭiya"], "gloss": "name", "source": "inscription"}
+{"name": "Cēra", "type": "lineage", "morphemes": ["cēra"], "gloss": "name", "source": "inscription"}
+{"name": "Kaṭamba", "type": "lineage", "morphemes": ["kaṭamba"], "gloss": "Kadamba tree", "source": "inscription"}
+{"name": "Āḷupa", "type": "lineage", "morphemes": ["āḷupa"], "gloss": "name", "source": "inscription"}
+{"name": "Mūṣakavaṃśa", "type": "lineage", "morphemes": ["mūṣaka", "vaṃśa"], "gloss": "rat + lineage", "source": "inscription"}
+{"name": "Vṛṣṇikula", "type": "lineage", "morphemes": ["vṛṣṇi", "kula"], "gloss": "Vrishni + lineage", "source": "inscription"}
+{"name": "Yādava", "type": "lineage", "morphemes": ["yādava"], "gloss": "Yadu's descendant", "source": "inscription"}
+{"name": "Rājēndra Cōḻa", "type": "person", "morphemes": ["rāja", "indra", "cōḻa"], "gloss": "king + Indra + name", "source": "inscription"}
+{"name": "Rājarāja", "type": "person", "morphemes": ["rāja", "rāja"], "gloss": "king + king", "source": "inscription"}
+{"name": "Parakēsarivarman", "type": "person", "morphemes": ["para", "kēsari", "varman"], "gloss": "enemy + lion + armour", "source": "inscription"}
+{"name": "Parāntaka", "type": "person", "morphemes": ["para", "antaka"], "gloss": "enemy + ender", "source": "inscription"}
+{"name": "Vikrama Cōḻa", "type": "person", "morphemes": ["vikrama", "cōḻa"], "gloss": "valour + name", "source": "inscription"}
+{"name": "Sundara Cōḻa Pāṇṭiya", "type": "person", "morphemes": ["sundara", "cōḻa", "pāṇṭiya"], "gloss": "handsome + name + name", "source": "inscription"}
+{"name": "Jaṭāvarman Kulaśēkharadēva", "type": "person", "morphemes": ["jaṭā", "varman", "kula", "śēkhara", "dēva"], "gloss": "matted hair + armour + lineage + crest + god", "source": "inscription"}
+{"name": "Rājēndra Cōḻa Viṇṇagar", "type": "deity", "morphemes": ["rāja", "indra", "cōḻa", "viṇṇagar"], "gloss": "king + Indra + name + Vishnu temple", "source": "inscription"}
+{"name": "Narasiṃha Viṇṇagar Tēvar", "type": "deity", "morphemes": ["nara", "siṃha", "viṇṇagar", "tēva", "ar"], "gloss": "man + lion + Vishnu temple + god + hon.", "source": "inscription"}
+{"name": "Tirukkuṇavāy Tēvar", "type": "deity", "morphemes": ["tiru", "kuṇavāy", "tēva", "ar"], "gloss": "sacred + name + god + hon.", "source": "inscription"}
+{"name": "Kuṇavāynallūr Tēvar", "type": "deity", "morphemes": ["kuṇavāy", "nal", "ūr", "tēva", "ar"], "gloss": "name + good + village + god + hon.", "source": "inscription"}
+{"name": "Tirukkākkarai Appan", "type": "deity", "morphemes": ["tiru", "kāl", "karai", "appan"], "gloss": "sacred + foot + bank + father", "source": "inscription"}
+{"name": "Tiruvallavāḻ Appan", "type": "deity", "morphemes": ["tiru", "vallavāḻ", "appan"], "gloss": "sacred + name + father", "source": "inscription"}
+{"name": "Tiruvāyampāṭi", "type": "deity", "morphemes": ["tiru", "āyampāṭi"], "gloss": "sacred + cowherd village", "source": "inscription"}
+{"name": "Varāhappan", "type": "deity", "morphemes": ["varāha", "appan"], "gloss": "boar + father", "source": "inscription"}
+{"name": "Ayyappan", "type": "deity", "morphemes": ["ayyan", "appan"], "gloss": "lord + father", "source": "inscription"}
+{"name": "Viṣvaksēnan", "type": "deity", "morphemes": ["viṣvak", "sēna", "an"], "gloss": "all-pervading + army + masc.", "source": "inscription"}
+{"name": "Kōlappaḷḷi Tēvar", "type": "deity", "morphemes": ["kōla", "paḷḷi", "tēva", "ar"], "gloss": "name + hamlet, church + god + hon.", "source": "inscription"}
+{"name": "Navakkuḷattu Tēvar", "type": "deity", "morphemes": ["nava", "kuḷam", "tēva", "ar"], "gloss": "new + tank + god + hon.", "source": "inscription"}
+{"name": "Tirukkaṇṇapurattu Tēvar", "type": "deity", "morphemes": ["tiru", "kaṇṇa", "puram", "tēva", "ar"], "gloss": "sacred + Krishna + town + god + hon.", "source": "inscription"}
+{"name": "Tirumaṇṇūr Tēvar", "type": "deity", "morphemes": ["tiru", "maṇṇūr", "tēva", "ar"], "gloss": "sacred + name + god + hon.", "source": "inscription"}
+{"name": "Perutirukkōyil Tēvar", "type": "deity", "morphemes": ["peru", "tiru", "kōyil", "tēva", "ar"], "gloss": "great + sacred + palace, temple + god + hon.", "source": "inscription"}
+{"name": "Tirukkaḷiya Paṭārar", "type": "deity", "morphemes": ["tiru", "kaḷiya", "paṭārar"], "gloss": "sacred + name + deity", "source": "inscription"}
+{"name": "Tirunandikkarai Paṭārar", "type": "deity", "morphemes": ["tiru", "nandi", "karai", "paṭārar"], "gloss": "sacred + Nandi + bank + deity", "source": "inscription"}
+{"name": "Bhagavati", "type": "deity", "morphemes": ["bhagavati"], "gloss": "goddess", "source": "inscription"}
+{"name": "Śiva", "type": "deity", "morphemes": ["śiva"], "gloss": "auspicious", "source": "inscription"}
+{"name": "Viṣṇu", "type": "deity", "morphemes": ["viṣṇu"], "gloss": "pervader", "source": "inscription"}
+{"name": "Gaṇapati", "type": "deity", "morphemes": ["gaṇa", "pati"], "gloss": "troop + lord", "source": "literature"}
+{"name": "Buddha", "type": "deity", "morphemes": ["buddha"], "gloss": "awakened", "source": "inscription"}
+{"name": "Avalōkita", "type": "deity", "morphemes": ["avalōkita"], "gloss": "looked upon", "source": "inscription"}
+{"name": "Dharma", "type": "deity", "morphemes": ["dharma"], "gloss": "law", "source": "inscription"}
+{"name": "Saṅgha", "type": "group", "morphemes": ["saṅgha"], "gloss": "community", "source": "inscription"}
+{"name": "Lakṣmi", "type": "deity", "morphemes": ["lakṣmi"], "gloss": "fortune", "source": "inscription"}
+{"name": "Mahāvīra", "type": "deity", "morphemes": ["mahā", "vīra"], "gloss": "great + hero", "source": "inscription"}
+{"name": "Pārśvanātha", "type": "deity", "morphemes": ["pārśva", "nātha"], "gloss": "side + lord", "source": "inscription"}
+{"name": "Ārya", "type": "deity", "morphemes": ["ārya"], "gloss": "noble", "source": "inscription"}
+{"name": "Śāsta", "type": "deity", "morphemes": ["śāsta"], "gloss": "ruler", "source": "inscription"}
+{"name": "Nityaviyārēśvaram", "type": "deity", "morphemes": ["nitya", "viyāra", "īśvaram"], "gloss": "eternal + name + lord's shrine", "source": "inscription"}
+{"name": "Viyāḻam", "type": "celestial", "morphemes": ["viyāḻam"], "gloss": "Jupiter", "source": "inscription"}
+{"name": "Rōhiṇi", "type": "celestial", "morphemes": ["rōhiṇi"], "gloss": "red one", "source": "inscription"}
+{"name": "Makayiram", "type": "celestial", "morphemes": ["makayiram"], "gloss": "Mrigasira asterism", "source": "inscription"}
+{"name": "Avittam", "type": "celestial", "morphemes": ["avittam"], "gloss": "Dhanishtha asterism", "source": "inscription"}
+{"name": "Uttiram", "type": "celestial", "morphemes": ["uttiram"], "gloss": "Uttiram asterism", "source": "inscription"}
+{"name": "Puṇartam", "type": "celestial", "morphemes": ["puṇartam"], "gloss": "Punarvasu asterism", "source": "inscription"}
+{"name": "Tiruvōṇam", "type": "celestial", "morphemes": ["tiru", "ōṇam"], "gloss": "sacred + Onam, Shravana asterism", "source": "inscription"}
+{"name": "Catayam", "type": "celestial", "morphemes": ["catayam"], "gloss": "Shatabhisha asterism", "source": "inscription"}
+{"name": "Viśākham", "type": "celestial", "morphemes": ["viśākham"], "gloss": "Vishakha asterism", "source": "inscription"}
+{"name": "Cittira", "type": "celestial", "morphemes": ["cittira"], "gloss": "Chitra asterism", "source": "inscription"}
+{"name": "Mēṭam", "type": "celestial", "morphemes": ["mēṭam"], "gloss": "Aries", "source": "inscription"}
+{"name": "Iṭavam", "type": "celestial", "morphemes": ["iṭavam"], "gloss": "Taurus", "source": "inscription"}
+{"name": "Mithunam", "type": "celestial", "morphemes": ["mithunam"], "gloss": "Gemini (pair)", "source": "inscription"}
+{"name": "Karkkaṭakam", "type": "celestial", "morphemes": ["karkkaṭakam"], "gloss": "Cancer (crab)", "source": "inscription"}
+{"name": "Ciṅṅam", "type": "celestial", "morphemes": ["ciṅṅam"], "gloss": "Leo (lion)", "source": "inscription"}
+{"name": "Kanni", "type": "celestial", "morphemes": ["kanni"], "gloss": "Virgo (maiden)", "source": "inscription"}
+{"name": "Tulām", "type": "celestial", "morphemes": ["tulām"], "gloss": "Libra (balance)", "source": "inscription"}
+{"name": "Vṛścikam", "type": "celestial", "morphemes": ["vṛścikam"], "gloss": "Scorpio (scorpion)", "source": "inscription"}
+{"name": "Dhanu", "type": "celestial", "morphemes": ["dhanu"], "gloss": "Sagittarius (bow)", "source": "inscription"}
+{"name": "Makaram", "type": "celestial", "morphemes": ["makaram"], "gloss": "Capricorn (sea monster)", "source": "inscription"}
+{"name": "Kumbham", "type": "celestial", "morphemes": ["kumbham"], "gloss": "Aquarius (pot)", "source": "inscription"}
+{"name": "Mīnam", "type": "celestial", "morphemes": ["mīnam"], "gloss": "Pisces (fish)", "source": "inscription"}
+{"name": "Ōṇam", "type": "other", "morphemes": ["ōṇam"], "gloss": "Onam, Shravana asterism", "source": "inscription"}
+{"name": "Viṣu", "type": "other", "morphemes": ["viṣu"], "gloss": "equinox festival", "source": "inscription"}
+{"name": "Kaliyugam", "type": "other", "morphemes": ["kali", "yugam"], "gloss": "Kali + age", "source": "inscription"}
+{"name": "Uttiraviḻā", "type": "other", "morphemes": ["uttiram", "viḻā"], "gloss": "Uttiram asterism + festival", "source": "inscription"}
+{"name": "Mūḻikkaḷakkaccam", "type": "other", "morphemes": ["mūḻikkaḷam", "kaccam"], "gloss": "name + agreement", "source": "inscription"}
+{"name": "Tavaraṉūr Kaccam", "type": "other", "morphemes": ["tavaraṉūr", "kaccam"], "gloss": "name + agreement", "source": "inscription"}
+{"name": "Kaṭaṅkāṭṭu Kaccam", "type": "other", "morphemes": ["kaṭaṅkāṭṭu", "kaccam"], "gloss": "name + agreement", "source": "inscription"}
+{"name": "Kaitavārattu Kaccam", "type": "other", "morphemes": ["kaitavāram", "kaccam"], "gloss": "name + agreement", "source": "inscription"}
+{"name": "Śaṅkaramaṅgalattu Kaccam", "type": "other", "morphemes": ["śaṅkara", "maṅgalam", "kaccam"], "gloss": "Sankara (Siva) + auspicious village + agreement", "source": "inscription"}
+{"name": "Vīra Kēraḷavarman", "type": "person", "morphemes": ["vīra", "kēraḷa", "varman"], "gloss": "hero + Kerala + armour", "source": "inscription"}
+{"name": "Jayasiṃha", "type": "person", "morphemes": ["jaya", "siṃha"], "gloss": "victory + lion", "source": "inscription"}
+{"name": "Kōtai Kēraḷavarman", "type": "person", "morphemes": ["kōtai", "kēraḷa", "varman"], "gloss": "garland + Kerala + armour", "source": "inscription"}
+{"name": "Vīra Pāṇṭiya", "type": "person", "morphemes": ["vīra", "pāṇṭiya"], "gloss": "hero + name", "source": "inscription"}
+{"name": "Kulōttuṅga", "type": "person", "morphemes": ["kula", "uttuṅga"], "gloss": "lineage + lofty", "source": "inscription"}
+{"name": "Vīrarājēndra", "type": "person", "morphemes": ["vīra", "rāja", "indra"], "gloss": "hero + king + Indra", "source": "inscription"}
+{"name": "Rājādhirāja", "type": "person", "morphemes": ["rāja", "adhirāja"], "gloss": "king + overlord", "source": "inscription"}
+{"name": "Varaguṇa Vikramāditya", "type": "person", "morphemes": ["vara", "guṇa", "vikrama", "āditya"], "gloss": "excellent + virtue + valour + sun", "source": "inscription"}
+{"name": "Rāman", "type": "person", "morphemes": ["rāma", "an"], "gloss": "Rama + masc.", "source": "literature"}
+{"name": "Lakṣmaṇan", "type": "person", "morphemes": ["lakṣmaṇa", "an"], "gloss": "auspicious-marked + masc.", "source": "literature"}
+{"name": "Sīta", "type": "person", "morphemes": ["sīta"], "gloss": "furrow", "source": "literature"}
+{"name": "Jānaki", "type": "person", "morphemes": ["jānaki"], "gloss": "daughter of Janaka", "source": "literature"}
+{"name": "Bharatan", "type": "person", "morphemes": ["bharata", "an"], "gloss": "Bharata (cherished) + masc.", "source": "literature"}
+{"name": "Daśarathan", "type": "person", "morphemes": ["daśa", "ratha", "an"], "gloss": "ten + chariot + masc.", "source": "literature"}
+{"name": "Janakan", "type": "person", "morphemes": ["janaka", "an"], "gloss": "begetter + masc.", "source": "literature"}
+{"name": "Agastyan", "type": "person", "morphemes": ["agastya", "an"], "gloss": "Agastya + masc.", "source": "literature"}
+{"name": "Rāvaṇan", "type": "person", "morphemes": ["rāvaṇa", "an"], "gloss": "roaring + masc.", "source": "literature"}
+{"name": "Daśamukhan", "type": "person", "morphemes": ["daśa", "mukha", "an"], "gloss": "ten + face + masc.", "source": "literature"}
+{"name": "Vibhīṣaṇan", "type": "person", "morphemes": ["vibhīṣaṇa", "an"], "gloss": "terrifying + masc.", "source": "literature"}
+{"name": "Kumbhakarṇan", "type": "person", "morphemes": ["kumbha", "karṇa", "an"], "gloss": "pot + ear + masc.", "source": "literature"}
+{"name": "Indrajit", "type": "person", "morphemes": ["indra", "jit"], "gloss": "Indra + conqueror", "source": "literature"}
+{"name": "Mēghanādan", "type": "person", "morphemes": ["mēgha", "nāda", "an"], "gloss": "cloud + roar + masc.", "source": "literature"}
+{"name": "Atikāyan", "type": "person", "morphemes": ["ati", "kāya", "an"], "gloss": "exceeding + body + masc.", "source": "literature"}
+{"name": "Prahastan", "type": "person", "morphemes": ["pra", "hasta", "an"], "gloss": "forward + hand + masc.", "source": "literature"}
+{"name": "Akampanan", "type": "person", "morphemes": ["a", "kampana", "an"], "gloss": "not + trembling + masc.", "source": "literature"}
+{"name": "Dhūmrākṣan", "type": "person", "morphemes": ["dhūmra", "akṣa", "an"], "gloss": "smoky + eye + masc.", "source": "literature"}
+{"name": "Vajradaṃṣṭran", "type": "person", "morphemes": ["vajra", "daṃṣṭra", "an"], "gloss": "thunderbolt + tusk + masc.", "source": "literature"}
+{"name": "Narāntakan", "type": "person", "morphemes": ["nara", "antaka", "an"], "gloss": "man + ender + masc.", "source": "literature"}
+{"name": "Dēvāntakan", "type": "person", "morphemes": ["dēva", "antaka", "an"], "gloss": "god + ender + masc.", "source": "literature"}
+{"name": "Triśiras", "type": "person", "morphemes": ["tri", "śiras"], "gloss": "three + head", "source": "literature"}
+{"name": "Mahōdaran", "type": "person", "morphemes": ["mahā", "udara", "an"], "gloss": "great + belly + masc.", "source": "literature"}
+{"name": "Mahāpārśvan", "type": "person", "morphemes": ["mahā", "pārśva", "an"], "gloss": "great + side + masc.", "source": "literature"}
+{"name": "Kumbhan", "type": "person", "morphemes": ["kumbha", "an"], "gloss": "pot + masc.", "source": "literature"}
+{"name": "Nikumbhan", "type": "person", "morphemes": ["nikumbha", "an"], "gloss": "name + masc.", "source": "literature"}
+{"name": "Makarākṣan", "type": "person", "morphemes": ["makara", "akṣa", "an"], "gloss": "sea monster + eye + masc.", "source": "literature"}
+{"name": "Mālyavān", "type": "person", "morphemes": ["mālyavān"], "gloss": "garlanded", "source": "literature"}
+{"name": "Śukan", "type": "person", "morphemes": ["śuka", "an"], "gloss": "parrot + masc.", "source": "literature"}
+{"name": "Sāraṇan", "type": "person", "morphemes": ["sāraṇa", "an"], "gloss": "name + masc.", "source": "literature"}
+{"name": "Mandōdari", "type": "person", "morphemes": ["manda", "udari"], "gloss": "slender + bellied (fem.)", "source": "literature"}
+{"name": "Śūrpaṇakha", "type": "person", "morphemes": ["śūrpa", "nakha"], "gloss": "winnowing fan + nail", "source": "literature"}
+{"name": "Mārīcan", "type": "person", "morphemes": ["mārīca", "an"], "gloss": "name + masc.", "source": "literature"}
+{"name": "Bāli", "type": "person", "morphemes": ["bāli"], "gloss": "name", "source": "literature"}
+{"name": "Sugrīvan", "type": "person", "morphemes": ["su", "grīva", "an"], "gloss": "good + neck + masc.", "source": "literature"}
+{"name": "Aṅgadan", "type": "person", "morphemes": ["aṅgada", "an"], "gloss": "armlet + masc.", "source": "literature"}
+{"name": "Hanūmān", "type": "person", "morphemes": ["hanūmān"], "gloss": "having jaws", "source": "literature"}
+{"name": "Māruti", "type": "person", "morphemes": ["māruti"], "gloss": "son of the wind", "source": "literature"}
+{"name": "Jāmbavān", "type": "person", "morphemes": ["jāmbavān"], "gloss": "name", "source": "literature"}
+{"name": "Nīlan", "type": "person", "morphemes": ["nīla", "an"], "gloss": "dark blue + masc.", "source": "literature"}
+{"name": "Nalan", "type": "person", "morphemes": ["nala", "an"], "gloss": "reed + masc.", "source": "literature"}
+{"name": "Suṣēṇan", "type": "person", "morphemes": ["su", "sēna", "an"], "gloss": "good + army + masc.", "source": "literature"}
+{"name": "Tāra", "type": "person", "morphemes": ["tāra"], "gloss": "star", "source": "literature"}
+{"name": "Gandhamādanan", "type": "person", "morphemes": ["gandha", "mādana", "an"], "gloss": "fragrance + intoxicating + masc.", "source": "literature"}
+{"name": "Maindan", "type": "person", "morphemes": ["mainda", "an"], "gloss": "name + masc.", "source": "literature"}
+{"name": "Dvividan", "type": "person", "morphemes": ["dvivida", "an"], "gloss": "name + masc.", "source": "literature"}
+{"name": "Panasan", "type": "person", "morphemes": ["panasa", "an"], "gloss": "jackfruit + masc.", "source": "literature"}
+{"name": "Gavayan", "type": "person", "morphemes": ["gavaya", "an"], "gloss": "gayal ox + masc.", "source": "literature"}
+{"name": "Gavākṣan", "type": "person", "morphemes": ["gava", "akṣa", "an"], "gloss": "ox + eye + masc.", "source": "literature"}
+{"name": "Śarabhan", "type": "person", "morphemes": ["śarabha", "an"], "gloss": "fabulous beast + masc.", "source": "literature"}
+{"name": "Ṛṣabhan", "type": "person", "morphemes": ["ṛṣabha", "an"], "gloss": "bull + masc.", "source": "literature"}
+{"name": "Kumudan", "type": "person", "morphemes": ["kumuda", "an"], "gloss": "water lily + masc.", "source": "literature"}
+{"name": "Brahmā", "type": "deity", "morphemes": ["brahmā"], "gloss": "creator", "source": "literature"}
+{"name": "Indran", "type": "deity", "morphemes": ["indra", "an"], "gloss": "Indra + masc.", "source": "literature"}
+{"name": "Varuṇan", "type": "deity", "morphemes": ["varuṇa", "an"], "gloss": "Varuna + masc.", "source": "literature"}
+{"name": "Agni", "type": "deity", "morphemes": ["agni"], "gloss": "fire", "source": "literature"}
+{"name": "Vāyu", "type": "deity", "morphemes": ["vāyu"], "gloss": "wind", "source": "literature"}
+{"name": "Kubēran", "type": "deity", "morphemes": ["kubēra", "an"], "gloss": "Kubera + masc.", "source": "literature"}
+{"name": "Yaman", "type": "deity", "morphemes": ["yama", "an"], "gloss": "restrainer + masc.", "source": "literature"}
+{"name": "Sūryan", "type": "deity", "morphemes": ["sūrya", "an"], "gloss": "sun + masc.", "source": "literature"}
+{"name": "Candran", "type": "deity", "morphemes": ["candra", "an"], "gloss": "moon + masc.", "source": "literature"}
+{"name": "Garuḍan", "type": "deity", "morphemes": ["garuḍa", "an"], "gloss": "Garuda + masc.", "source": "literature"}
+{"name": "Ananta", "type": "deity", "morphemes": ["ananta"], "gloss": "endless", "source": "literature"}
+{"name": "Pārvati", "type": "deity", "morphemes": ["pārvati"], "gloss": "daughter of the mountain", "source": "literature"}
+{"name": "Nārāyaṇan", "type": "deity", "morphemes": ["nārāyaṇa", "an"], "gloss": "Narayana + masc.", "source": "literature"}
+{"name": "Padmanābhan", "type": "deity", "morphemes": ["padma", "nābha", "an"], "gloss": "lotus + navel + masc.", "source": "literature"}
+{"name": "Rākṣasar", "type": "group", "morphemes": ["rākṣasa", "ar"], "gloss": "demon + hon.", "source": "literature"}
+{"name": "Vānarar", "type": "group", "morphemes": ["vānara", "ar"], "gloss": "monkey + hon.", "source": "literature"}
+{"name": "Laṅka", "type": "place", "morphemes": ["laṅka"], "gloss": "name", "source": "literature"}
+{"name": "Ayōdhya", "type": "place", "morphemes": ["ayōdhya"], "gloss": "unconquerable", "source": "literature"}
+{"name": "Kiṣkindha", "type": "place", "morphemes": ["kiṣkindha"], "gloss": "name", "source": "literature"}
+{"name": "Mahēndram", "type": "hill", "morphemes": ["mahā", "indram"], "gloss": "great + Indra", "source": "literature"}
+{"name": "Suvēlam", "type": "hill", "morphemes": ["suvēlam"], "gloss": "name", "source": "literature"}
+{"name": "Trikūṭam", "type": "hill", "morphemes": ["tri", "kūṭam"], "gloss": "three + peak", "source": "literature"}
+{"name": "Himavān", "type": "hill", "morphemes": ["hima", "vān"], "gloss": "snow + possessing", "source": "literature"}
+{"name": "Gaṅga", "type": "river", "morphemes": ["gaṅga"], "gloss": "Ganges", "source": "literature"}
+{"name": "Uṇṇunīli", "type": "person", "morphemes": ["uṇṇi", "nīl", "i"], "gloss": "little one + dark blue + fem.", "source": "literature"}
+{"name": "Muṇṭaykkal", "type": "place", "morphemes": ["muṇṭaykkal"], "gloss": "name", "source": "literature"}
+{"name": "Kaṭutturutti", "type": "place", "morphemes": ["kaṭal", "turutti"], "gloss": "sea + islet", "source": "literature"}
+{"name": "Vaṭakkuṅkūr", "type": "place", "morphemes": ["vaṭakku", "kūr"], "gloss": "north + division", "source": "literature"}
+{"name": "Tekkuṅkūr", "type": "place", "morphemes": ["tekku", "kūr"], "gloss": "south + division", "source": "literature"}
+{"name": "Tṛppāppūr", "type": "place", "morphemes": ["tiru", "pāppūr"], "gloss": "sacred + name", "source": "literature"}
+{"name": "Ādityavarmman", "type": "person", "morphemes": ["āditya", "varman"], "gloss": "sun + armour", "source": "literature"}
+{"name": "Iravivarmman", "type": "person", "morphemes": ["iravi", "varman"], "gloss": "sun + armour", "source": "literature"}
+{"name": "Ceṟiyatu", "type": "person", "morphemes": ["ceṟiyatu"], "gloss": "the little one", "source": "literature"}
+{"name": "Anantapuram", "type": "place", "morphemes": ["ananta", "puram"], "gloss": "endless + town", "source": "literature"}
+{"name": "Tiruvallam", "type": "place", "morphemes": ["tiru", "vallam"], "gloss": "sacred + name", "source": "literature"}
+{"name": "Varkkala", "type": "place", "morphemes": ["varkkala"], "gloss": "name", "source": "literature"}
+{"name": "Kaṇṭiyūr", "type": "place", "morphemes": ["kaṇṭiyūr"], "gloss": "name", "source": "literature"}
+{"name": "Ōṇāṭu", "type": "place", "morphemes": ["ōṇāṭu"], "gloss": "name", "source": "literature"}
+{"name": "Ceṅṅannūr", "type": "place", "morphemes": ["ceṅṅannūr"], "gloss": "name", "source": "literature"}
+{"name": "Cennittala", "type": "place", "morphemes": ["cennittala"], "gloss": "name", "source": "literature"}
+{"name": "Maṇikaṇṭhapuram", "type": "place", "morphemes": ["maṇi", "kaṇṭa", "puram"], "gloss": "jewel + throat (Siva) + town", "source": "literature"}
+{"name": "Ēṟṟumānūr", "type": "place", "morphemes": ["ēṟṟumānūr"], "gloss": "name", "source": "literature"}
+{"name": "Kallaṭa", "type": "river", "morphemes": ["kallaṭa"], "gloss": "name", "source": "literature"}
+{"name": "Pampa", "type": "river", "morphemes": ["pampa"], "gloss": "name", "source": "literature"}
+{"name": "Maṇimala", "type": "river", "morphemes": ["maṇi", "mala"], "gloss": "jewel + hill", "source": "literature"}
+{"name": "Niraṇam", "type": "place", "morphemes": ["niraṇam"], "gloss": "name", "source": "literature"}
+{"name": "Kaṭapra", "type": "place", "morphemes": ["kaṭapra"], "gloss": "name", "source": "literature"}
+{"name": "Māvēlikkara", "type": "place", "morphemes": ["māvēli", "kara"], "gloss": "Mahabali + bank", "source": "literature"}
+{"name": "Kōtanallūr", "type": "place", "morphemes": ["kōtai", "nal", "ūr"], "gloss": "garland + good + village", "source": "literature"}
+{"name": "Vennimala", "type": "hill", "morphemes": ["venni", "mala"], "gloss": "name + hill", "source": "literature"}
+{"name": "Kaṭantēri", "type": "place", "morphemes": ["kaṭantēri"], "gloss": "name", "source": "literature"}
+{"name": "Mēccēri", "type": "place", "morphemes": ["mēl", "cēri"], "gloss": "upper + settlement", "source": "literature"}
+{"name": "Vēmpanāṭu", "type": "place", "morphemes": ["vēmpa", "nāṭu"], "gloss": "name + country", "source": "literature"}
+{"name": "Uṇṇiyacci", "type": "person", "morphemes": ["uṇṇi", "acci"], "gloss": "little one + lady", "source": "literature"}
+{"name": "Tēvan Śrīkumāran", "type": "person", "morphemes": ["tēva", "an", "śrī", "kumāra", "an"], "gloss": "god + masc. + glorious + youth (Skanda) + masc.", "source": "literature"}
+{"name": "Naṅṅayya", "type": "person", "morphemes": ["naṅṅayya"], "gloss": "name", "source": "literature"}
+{"name": "Acciyār", "type": "person", "morphemes": ["acci", "ar"], "gloss": "lady + hon.", "source": "literature"}
+{"name": "Paḻañcēri Bhagavati", "type": "deity", "morphemes": ["paḻam", "cēri", "bhagavati"], "gloss": "old + settlement + goddess", "source": "literature"}
+{"name": "Tirumarutūr", "type": "place", "morphemes": ["tiru", "marutu", "ūr"], "gloss": "sacred + marutu tree + village", "source": "literature"}
+{"name": "Tṛccaruḷa", "type": "place", "morphemes": ["tiru", "caruḷa"], "gloss": "sacred + name", "source": "literature"}
+{"name": "Tṛpparaṅkuṉṟu", "type": "place", "morphemes": ["tiru", "paraṅkuṉṟu"], "gloss": "sacred + name", "source": "literature"}
+{"name": "Brahmagiri", "type": "hill", "morphemes": ["brahma", "giri"], "gloss": "Brahma + hill", "source": "literature"}
+{"name": "Vaḷḷūrkkāvu", "type": "place", "morphemes": ["vaḷḷūr", "kāvu"], "gloss": "name + grove", "source": "literature"}
+{"name": "Aṭikkīḻ", "type": "place", "morphemes": ["aṭi", "kīḻ"], "gloss": "foot + lower", "source": "literature"}
+{"name": "Sēlam", "type": "place", "morphemes": ["sēlam"], "gloss": "name", "source": "literature"}
+{"name": "Atiyamānallūr", "type": "place", "morphemes": ["atiyamān", "nal", "ūr"], "gloss": "Atiyaman (chief) + good + village", "source": "literature"}
+{"name": "Dōrasamudram", "type": "place", "morphemes": ["dōra", "samudram"], "gloss": "name + sea", "source": "literature"}
+{"name": "Malayāḷar", "type": "group", "morphemes": ["malayāḷa", "ar"], "gloss": "Malayali + hon.", "source": "literature"}
+{"name": "Karunāṭakar", "type": "group", "morphemes": ["karunāṭaka", "ar"], "gloss": "Karnataka + hon.", "source": "literature"}
+{"name": "Gandharvan", "type": "other", "morphemes": ["gandharva", "an"], "gloss": "celestial musician + masc.", "source": "literature"}
+{"name": "Vānavan", "type": "title", "morphemes": ["vānavan"], "gloss": "heavenly one", "source": "inscription"}
+{"name": "Villavan", "type": "title", "morphemes": ["vil", "an"], "gloss": "bow + masc.", "source": "inscription"}
+{"name": "Vēṇāṭṭaṭikaḷ", "type": "title", "morphemes": ["vēḷ", "nāṭu", "aṭi", "kaḷ"], "gloss": "chief + country + foot + pl.", "source": "inscription"}
+{"name": "Vēṇāṭuṭaiya", "type": "title", "morphemes": ["vēḷ", "nāṭu", "uṭaiya"], "gloss": "chief + country + possessing", "source": "inscription"}
+{"name": "Mūvar", "type": "title", "morphemes": ["mūvar"], "gloss": "Muvar (dynastic title)", "source": "inscription"}
+{"name": "Kuṭavūr", "type": "place", "morphemes": ["kuṭavūr"], "gloss": "name", "source": "inscription"}

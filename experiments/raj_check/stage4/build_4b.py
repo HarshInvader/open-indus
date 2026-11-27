@@ -1,7 +1,8 @@
 """Stage 4b: build contest inputs from the agent outputs (PREREG_STAGE4B.md).
   python3 -I stage4/build_4b.py parts <lang>   -> agents/parts_<lang>.jsonl (labeler input)
-  python3 -I stage4/build_4b.py sample         -> agents/checker_samples.json (50 names + 50 words per language, seed 20261127)
-  python3 -I stage4/build_4b.py final <lang>   -> inputs/{names,parts,words}_<lang>4b*, cfg_<lang>4b.json
+  python3 -I stage4/build_4b.py sample <lang>  -> agents/checker_sample_<lang>.json (50 names + 50 words, seed '20261127-<lang>')
+  python3 -I stage4/build_4b.py final <lang> [meaningfirst]  -> inputs/{names,parts,words}_<lang>4b*, cfg_<lang>4b.json
+     (main run: loans labelled by origin; 'meaningfirst' = sensitivity run with loans labelled by meaning, tag <lang>4bm)
 """
 import json, os, sys, random, collections
 H = os.path.dirname(os.path.abspath(__file__)); A = os.path.join(H, 'agents'); I = os.path.join(H, 'inputs')
@@ -25,12 +26,12 @@ def glosses(r):
     return [g[i] if i < len(g) and g[i] else 'name' for i in range(len(r['morphemes']))]
 step = sys.argv[1]
 if step == 'sample':
-    rnd = random.Random(20261127); out = {}
-    for L in LANGS:
-        ns = names(L); w = json.load(open(os.path.join(A, f'words_{L}.json'), encoding='utf-8'))
-        pairs = [(e, x) for e, v in w.items() for x in v]
-        out[L] = {'names': rnd.sample(ns, min(50, len(ns))), 'words': [{'english': e, 'word': x} for e, x in rnd.sample(pairs, min(50, len(pairs)))]}
-    json.dump(out, open(os.path.join(A, 'checker_samples.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1); print('samples written')
+    L = sys.argv[2]; rnd = random.Random(f'20261127-{L}')
+    ns = names(L); w = json.load(open(os.path.join(A, f'words_{L}.json'), encoding='utf-8'))
+    pairs = [(e, x) for e, v in w.items() for x in (v if isinstance(v, list) else [v]) if x]
+    out = {'names': [{k: r[k] for k in ('name', 'type', 'morphemes', 'gloss', 'source') if k in r} for r in rnd.sample(ns, min(50, len(ns)))],
+           'words': [{'english': e, 'word': x} for e, x in rnd.sample(pairs, min(50, len(pairs)))]}
+    json.dump(out, open(os.path.join(A, f'checker_sample_{L}.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1); print(L, 'sample written', len(out['names']), len(out['words']))
     sys.exit()
 L = sys.argv[2]; ns = names(L)
 if step == 'parts':
@@ -45,9 +46,10 @@ if step == 'parts':
 else:
     os.makedirs(I, exist_ok=True)
     stab = json.load(open(os.path.join(REP1, 'category_stability.json')))
-    lab = {json.loads(l)['part']: json.loads(l)['category'] for l in open(os.path.join(A, f'labels_{L}.jsonl'), encoding='utf-8') if l.strip()}
+    var = sys.argv[3] if len(sys.argv) > 3 else ''
+    lab = {json.loads(l)['part']: json.loads(l)['category'] for l in open(os.path.join(A, f'labels_{L}' + (f'_{var}' if var else '') + '.jsonl'), encoding='utf-8') if l.strip()}
     keep = [r for r in ns if any(lab.get(nphon.norm(m)) not in (None, 'sanskrit_loan') for m in r['morphemes'])][:1125]
-    tag = f'{L}4b'
+    tag = f'{L}4b' + ('m' if var else '')
     with open(os.path.join(I, f'names_{tag}.jsonl'), 'w', encoding='utf-8') as f:
         for r in keep: f.write(json.dumps({'name': r['name'], 'type': r.get('type'), 'morphemes': r['morphemes'], 'weight': 1}, ensure_ascii=False) + '\n')
     with open(os.path.join(I, f'parts_{tag}.jsonl'), 'w', encoding='utf-8') as f:
