@@ -1,0 +1,242 @@
+{
+ "Tamil, paper": {
+  "names": 1125,
+  "with_picture_part": 263,
+  "share": 0.234,
+  "candidate_parts": 57,
+  "top_parts": [
+   [
+    "vēḷ",
+    18
+   ],
+   [
+    "māṉ",
+    12
+   ],
+   [
+    "var",
+    11
+   ],
+   [
+    "malai",
+    11
+   ],
+   [
+    "kaṇ",
+    11
+   ],
+   [
+    "il",
+    11
+   ],
+   [
+    "kuṭi",
+    10
+   ],
+   [
+    "kuṭa",
+    10
+   ]
+  ]
+ },
+ "Tamil, 4b list": {
+  "names": 1125,
+  "with_picture_part": 651,
+  "share": 0.579,
+  "candidate_parts": 63,
+  "top_parts": [
+   [
+    "ār",
+    485
+   ],
+   [
+    "māṉ",
+    28
+   ],
+   [
+    "āṉ",
+    20
+   ],
+   [
+    "vēḷ",
+    20
+   ],
+   [
+    "kaṇ",
+    17
+   ],
+   [
+    "kuṭi",
+    15
+   ],
+   [
+    "kuṉṟu",
+    14
+   ],
+   [
+    "kuṭam",
+    13
+   ]
+  ]
+ },
+ "Tamil, faithful list (T8b)": {
+  "names": 1125,
+  "with_picture_part": 577,
+  "share": 0.513,
+  "candidate_parts": 47,
+  "top_parts": [
+   [
+    "ār",
+    470
+   ],
+   [
+    "kuṭi",
+    14
+   ],
+   [
+    "vāyil",
+    13
+   ],
+   [
+    "kuṭa",
+    11
+   ],
+   [
+    "talai",
+    10
+   ],
+   [
+    "vēḷ",
+    10
+   ],
+   [
+    "eyil",
+    9
+   ],
+   [
+    "kuṉṟu",
+    8
+   ]
+  ]
+ },
+ "C6 paper-only names": {
+  "names": 688,
+  "with_picture_part": 170,
+  "share": 0.247,
+  "candidate_parts": 46,
+  "top_parts": [
+   [
+    "vēḷ",
+    14
+   ],
+   [
+    "var",
+    10
+   ],
+   [
+    "kaṇ",
+    10
+   ],
+   [
+    "koṭi",
+    8
+   ],
+   [
+    "makaḷ",
+    8
+   ],
+   [
+    "malai",
+    7
+   ],
+   [
+    "il",
+    7
+   ],
+   [
+    "pal",
+    7
+   ]
+  ]
+ },
+ "C7 4b-only names": {
+  "names": 695,
+  "with_picture_part": 182,
+  "share": 0.262,
+  "candidate_parts": 48,
+  "top_parts": [
+   [
+    "māṉ",
+    17
+   ],
+   [
+    "kaṇ",
+    16
+   ],
+   [
+    "vēḷ",
+    16
+   ],
+   [
+    "āṉ",
+    14
+   ],
+   [
+    "pal",
+    10
+   ],
+   [
+    "vāyil",
+    10
+   ],
+   [
+    "kuṟu",
+    7
+   ],
+   [
+    "talai",
+    7
+   ]
+  ]
+ },
+ "Japanese T4": {
+  "names": 1125,
+  "with_picture_part": 763,
+  "share": 0.678,
+  "candidate_parts": 57,
+  "top_parts": [
+   [
+    "ta",
+    162
+   ],
+   [
+    "no",
+    77
+   ],
+   [
+    "yama",
+    64
+   ],
+   [
+    "mura",
+    52
+   ],
+   [
+    "hara",
+    51
+   ],
+   [
+    "moto",
+    49
+   ],
+   [
+    "ko",
+    39
+   ],
+   [
+    "ki",
+    34
+   ]
+  ]
+ }
+}
