@@ -127,12 +127,19 @@ rowsE = [('Japanese, built from sign pictures', 'real names with picture words, 
          ('Japanese family names', 'a plain surname list', 134.5, 'var(--clay)'),
          ('Old Tamil, rebuilt list', 'same sources, the paper’s own prompt', 49.0, 'var(--accent)'),
          ('Old Tamil, second rebuilt list', 'same sources, another fresh agent', 4.2, 'var(--accent)')]
+ZE, SCE = 6, 2.45
 barsE = ''
 for name, note, v, c in rowsE:
-    w = abs(v) * SC
+    w = abs(v) * SCE
     barsE += f'''<div class="r"><div class="nm"><b>{name}</b><span>{note}</span></div><div class="tr">
-<div class="bar" style="left:{Z}px;width:{w}px;background:{c}"></div><div class="v" style="left:{Z + w + 12}px">{v:+.0f}</div></div></div>'''
-bodyE = (cssB.replace('330px', '400px').replace(f'margin-left:{330 + Z - 40}px', f'margin-left:{400 + Z - 40}px'), f'<div class="rows">{barsE}</div><div class="ax">0 = no better than chance</div>')
+<div class="bar" style="left:{ZE}px;width:{w}px;background:{c}"></div><div class="v" style="left:{ZE + w + 14}px">{v:+.0f}</div></div></div>'''
+cssE = f""".rows{{margin-top:26px}}.r{{display:grid;grid-template-columns:380px 1fr;align-items:center;height:66px}}
+.nm b{{display:block;font-size:21px;line-height:1.2}}.nm span{{font-size:15.5px;color:var(--muted)}}
+.tr{{position:relative;height:66px}}.tr::before{{content:"";position:absolute;left:0;top:-4px;bottom:-4px;border-left:1.5px solid var(--muted)}}
+.bar{{position:absolute;top:15px;height:36px;border-radius:0 6px 6px 0}}
+.v{{position:absolute;top:14px;font-size:27px;font-weight:700;font-variant-numeric:tabular-nums}}
+.ax{{margin-left:380px;font-size:14px;color:var(--muted);margin-top:8px}}"""
+bodyE = (cssE, f'<div class="rows">{barsE}</div><div class="ax">0 = no better than chance</div>')
 imgs['E_lists'] = page(bodyE, 'Checking “AI cracked the Indus script”', 'Pick the names well and Japanese beats Tamil',
     'On seals kept out of every choice: Japanese +128, the paper’s Tamil +104. A demonstration of how much the list matters, not evidence for Japanese.',
     'Mean of 10 held-out splits each · paper’s code unchanged · openindus.pages.dev')
