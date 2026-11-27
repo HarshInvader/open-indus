@@ -1,0 +1,345 @@
+{
+ "names": [
+  {
+   "item": "Pandarān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kūla Kalāt",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sōhr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jārullāh",
+   "verdict": "cannot verify",
+   "reason": "Not found in the OCR text of Bray, the Sarawan/Jhalawan/Bolan/Makran gazetteers or the 1901/1911 Census tables."
+  },
+  {
+   "item": "Pāindzai",
+   "verdict": "ok"
+  },
+  {
+   "item": "Zāva",
+   "verdict": "ok"
+  },
+  {
+   "item": "Haft Valī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Girdō Kumb",
+   "verdict": "cannot verify",
+   "reason": "No river Girdō Kumb found in the gazetteers or Bray (girdō 'round' and kumb 'pool' are real words)."
+  },
+  {
+   "item": "Kārchhāp",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mushkāf",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dum-dār Istar",
+   "verdict": "cannot verify",
+   "reason": "Bray has istar 'star' but no dum-dār istar 'comet' turned up in the Bray or gazetteer texts searched."
+  },
+  {
+   "item": "Xātūn",
+   "verdict": "ok"
+  },
+  {
+   "item": "Saiad Salīm Shāh",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kakāhīr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dilāvar Xān",
+   "verdict": "cannot verify",
+   "reason": "Only the tribal section Dilawarzai turned up in the Census and gazetteers, not a person Dilāvar Xān."
+  },
+  {
+   "item": "Ɣaibīzai",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mīlk",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jumād-ul-Avval",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sirkā-Kōbī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dēhvār",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sar-i-Shēr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nār",
+   "verdict": "ok"
+  },
+  {
+   "item": "Narōdar",
+   "verdict": "ok"
+  },
+  {
+   "item": "Zahrī Gaṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "Rindlī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mīr Jahānd Xān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pīr Chaukī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Amīr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Alānī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gurgut",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dhrūn",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mahr Alī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mazanēn Grēsha",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kullī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Ɣāzī Xān",
+   "verdict": "cannot verify",
+   "reason": "Only Dera Ghazi Khan (a place) turned up; no person Ghazi Khan found in the Brahui sources searched."
+  },
+  {
+   "item": "Bōlān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mazārānī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Hasrānī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Karam Xān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pāngō",
+   "verdict": "ok"
+  },
+  {
+   "item": "Garrī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nīmarɣ",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kākaṛ",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sardār Saka",
+   "verdict": "cannot verify",
+   "reason": "No person Sardār Saka found; only Saka Kalat and the Sakazai tribe."
+  },
+  {
+   "item": "Surx Bājō",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kuṭī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pīr Dastgīr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bābī",
+   "verdict": "cannot verify",
+   "reason": "Babi turns up only as an Afghan tribe and in 'Babi Khal', a suburb of Kalat, not as a standalone place name."
+  },
+  {
+   "item": "Kizilbāshī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Xvāja Muazzam",
+   "verdict": "ok"
+  }
+ ],
+ "words": [
+  {
+   "item": "haling",
+   "verdict": "wrong",
+   "reason": "In Bray haling means 'to cover (animals, of mating)'; the verb for seize/catch is halling (DEDR 'halling to seize, hold')."
+  },
+  {
+   "item": "xan",
+   "verdict": "ok"
+  },
+  {
+   "item": "tū",
+   "verdict": "wrong",
+   "reason": "Bray glosses tū as 'month' (only originally 'brightness/moon'); the word for moon is tūbē."
+  },
+  {
+   "item": "tūbē",
+   "verdict": "ok"
+  },
+  {
+   "item": "xāsing",
+   "verdict": "wrong",
+   "reason": "Bray's xassing means 'to shake, fling'; the Brahui verb for churn is pōrring."
+  },
+  {
+   "item": "lumma",
+   "verdict": "ok"
+  },
+  {
+   "item": "marɣ",
+   "verdict": "ok"
+  },
+  {
+   "item": "maš",
+   "verdict": "ok"
+  },
+  {
+   "item": "maš",
+   "verdict": "ok"
+  },
+  {
+   "item": "xan",
+   "verdict": "ok"
+  },
+  {
+   "item": "xal",
+   "verdict": "ok"
+  },
+  {
+   "item": "maš",
+   "verdict": "ok"
+  },
+  {
+   "item": "irāṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "bil",
+   "verdict": "ok"
+  },
+  {
+   "item": "harsing",
+   "verdict": "ok"
+  },
+  {
+   "item": "harfing",
+   "verdict": "ok"
+  },
+  {
+   "item": "xāxar",
+   "verdict": "ok"
+  },
+  {
+   "item": "cuṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "urā",
+   "verdict": "ok"
+  },
+  {
+   "item": "irīs",
+   "verdict": "ok"
+  },
+  {
+   "item": "tū",
+   "verdict": "wrong",
+   "reason": "Bray glosses tū as 'month' (only originally 'brightness/moon'); the word for moon is tūbē."
+  },
+  {
+   "item": "arē",
+   "verdict": "ok"
+  },
+  {
+   "item": "saling",
+   "verdict": "ok"
+  },
+  {
+   "item": "tūling",
+   "verdict": "ok"
+  },
+  {
+   "item": "ammā",
+   "verdict": "ok"
+  },
+  {
+   "item": "tūbē",
+   "verdict": "ok"
+  },
+  {
+   "item": "arē",
+   "verdict": "ok"
+  },
+  {
+   "item": "xō",
+   "verdict": "ok"
+  },
+  {
+   "item": "harfing",
+   "verdict": "ok"
+  },
+  {
+   "item": "musiṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "xaf",
+   "verdict": "ok"
+  },
+  {
+   "item": "muṭṭux",
+   "verdict": "ok"
+  }
+ ]
+}

@@ -1,0 +1,3 @@
+# Stage 6 run notes
+
+1. **Brahui picture words failed the checker** (4 of 32 sampled words wrong, 12.5%: catch/haling, moon/tū twice, churn/xāsing; names 0 of 50 wrong, 7 cannot verify). As the plan says, the word list goes to a fresh translator once, with the same prompt, as for Kannada in stage 4 (first list kept as `agents/words_brahui_v1.json`, first sample and verdicts as `agents/checker_sample_brahui_v1.json`, `agents/checker_verdicts_brahui_v1.json`). The new list is re-sampled with the same seed and checked by a fresh checker; above 10% again makes Brahui void. The names list stands, as it passed.
