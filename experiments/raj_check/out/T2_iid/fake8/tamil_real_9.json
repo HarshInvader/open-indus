@@ -1,0 +1,42 @@
+{
+ "lang": "tamil",
+ "seed": 9,
+ "mode": "real",
+ "names": 1125,
+ "name_parts": 350,
+ "seals": 953,
+ "signs": 69,
+ "pic_mean_opts": 2.52,
+ "signs_with_options": 56,
+ "read": 22,
+ "heldout": -34.82,
+ "readings": {
+  "060": "var",
+  "070": "vēl",
+  "125": "vil",
+  "220": "mīṉ",
+  "226": "kūḷi",
+  "233": "varai",
+  "236": "maṇi",
+  "400": "pālai",
+  "435": "pāmpu",
+  "440": "kaṭai",
+  "455": "kāl",
+  "460": "kuṉṟam",
+  "503": "māl",
+  "575": "kōṭṭi",
+  "617": "valai",
+  "740": "kuṭi",
+  "741": "kal",
+  "742": "kuṭa",
+  "790": "kaṇi",
+  "817": "il",
+  "840": "kaṇai",
+  "920": "tiṅkaḷ"
+ },
+ "secs": 0,
+ "ctl": {
+  "perm": null,
+  "fake": "iid:8"
+ }
+}

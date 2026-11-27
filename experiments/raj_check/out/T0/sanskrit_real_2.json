@@ -1,0 +1,32 @@
+{
+ "lang": "sanskrit",
+ "seed": 2,
+ "mode": "real",
+ "names": 1367,
+ "name_parts": 269,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.06,
+ "signs_with_options": 40,
+ "read": 16,
+ "heldout": 13.17,
+ "readings": {
+  "090": "puruṣa",
+  "142": "nṛ",
+  "151": "yoga",
+  "176": "sadā",
+  "368": "ketu",
+  "388": "karṇa",
+  "390": "vāyu",
+  "400": "dant",
+  "405": "vana",
+  "503": "giri",
+  "520": "śara",
+  "717": "hasta",
+  "760": "śṛṅga",
+  "820": "sūrya",
+  "840": "akṣa",
+  "904": "māṣa"
+ },
+ "secs": 0
+}

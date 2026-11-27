@@ -1,0 +1,51 @@
+{
+ "T0": {
+  "mismatches": [],
+  "tamil_D": 223.0,
+  "tamil_sd": 103.0,
+  "tamil_above": 10,
+  "sanskrit_D": -13.3,
+  "sanskrit_sd": 44.7,
+  "sanskrit_above": 4
+ },
+ "T1_picture_permutation": {
+  "n": 50,
+  "mean": 251.7,
+  "median": 223.7,
+  "p95": 426.0,
+  "max": 531.4,
+  "min": 95.8,
+  "n_above_0": 50,
+  "n_ge_obs": 25,
+  "p": 0.5098,
+  "share_of_obs_above_median": -0.003
+ },
+ "T1_reads": 28.5,
+ "T2_order": {
+  "n": 20,
+  "mean": -18.5,
+  "median": -16.5,
+  "p95": -0.0,
+  "max": 12.4,
+  "min": -55.3,
+  "n_above_0": 1,
+  "n_ge_obs": 0,
+  "p": 0.0476,
+  "share_of_obs_above_median": 1.074
+ },
+ "T2_order_reads": 22.8,
+ "T2_iid": {
+  "n": 20,
+  "mean": -28.5,
+  "median": -30.2,
+  "p95": -9.1,
+  "max": -8.9,
+  "min": -58.5,
+  "n_above_0": 0,
+  "n_ge_obs": 0,
+  "p": 0.0476,
+  "share_of_obs_above_median": 1.135
+ },
+ "T2_iid_reads": 21.7,
+ "T0_reads_tamil": 27.4
+}

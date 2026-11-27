@@ -1,0 +1,121 @@
+{
+ "rows": 5680,
+ "signs": 296,
+ "types": [
+  "POT:T:g",
+  "TAG",
+  "SEAL:S",
+  "MISC",
+  "BNGL",
+  "SEAL:R",
+  "TAB:B",
+  "SEAL",
+  "SEAL:C",
+  "ROD",
+  "IMPL",
+  "TAG:L",
+  "TAB:I",
+  "POT:T:s",
+  "TAB:C"
+ ],
+ "bonferroni": 1.1261261261261261e-05,
+ "passed": 101,
+ "read_signs_in_scan": 133,
+ "read_signs_among_passed": 60,
+ "observed": 2,
+ "observed_pairs": [
+  [
+   "840",
+   "BNGL"
+  ],
+  [
+   "061",
+   "TAB:C"
+  ]
+ ],
+ "null_mean": 0.58285,
+ "null_dist": {
+  "0": 53131,
+  "1": 36630,
+  "2": 9129,
+  "3": 1046,
+  "4": 61,
+  "5": 3
+ },
+ "null_p99": 3,
+ "p": 0.1023989760102399,
+ "copper_and_bangle": {
+  "840/BNGL": {
+   "rows": {
+    "on_type": 10,
+    "type_rows": 50,
+    "on_others": 122,
+    "other_rows": 5630,
+    "p": 1.5224276712740611e-07
+   },
+   "distinct_texts_on_type": 4,
+   "distinct_rows_test": {
+    "on_type": 4,
+    "type_rows": 39,
+    "on_others": 101,
+    "other_rows": 4074,
+    "p": 0.01661353994265585
+   },
+   "bonferroni": 1.1261261261261261e-05
+  },
+  "061/TAB:C": {
+   "rows": {
+    "on_type": 21,
+    "type_rows": 230,
+    "on_others": 72,
+    "other_rows": 5450,
+    "p": 6.372475467979143e-11
+   },
+   "distinct_texts_on_type": 3,
+   "distinct_rows_test": {
+    "on_type": 3,
+    "type_rows": 100,
+    "on_others": 59,
+    "other_rows": 4013,
+    "p": 0.1904621361783354
+   },
+   "bonferroni": 1.1261261261261261e-05
+  },
+  "705/TAB:C": {
+   "rows": {
+    "on_type": 20,
+    "type_rows": 230,
+    "on_others": 198,
+    "other_rows": 5450,
+    "p": 0.00047108962848653766
+   },
+   "distinct_texts_on_type": 4,
+   "distinct_rows_test": {
+    "on_type": 4,
+    "type_rows": 100,
+    "on_others": 170,
+    "other_rows": 4013,
+    "p": 0.6178487236684348
+   },
+   "bonferroni": 1.1261261261261261e-05
+  },
+  "706/TAB:C": {
+   "rows": {
+    "on_type": 14,
+    "type_rows": 230,
+    "on_others": 88,
+    "other_rows": 5450,
+    "p": 5.322525687480738e-05
+   },
+   "distinct_texts_on_type": 3,
+   "distinct_rows_test": {
+    "on_type": 3,
+    "type_rows": 100,
+    "on_others": 79,
+    "other_rows": 4013,
+    "p": 0.3214838948365971
+   },
+   "bonferroni": 1.1261261261261261e-05
+  }
+ }
+}

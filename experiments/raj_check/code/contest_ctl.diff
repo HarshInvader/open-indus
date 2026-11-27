@@ -1,0 +1,22 @@
+6c6
+< SURV = os.path.join(HERE, '..', 'code_surviving'); sys.path.insert(0, SURV)
+---
+> SURV = os.environ['RAJ_SURV']; sys.path.insert(0, SURV)
+18a19,28
+> # --- control hook (raj_check): fake seals. CTL_FAKE = 'order:<seed>' or 'iid:<seed>' ---
+> _F = os.environ.get('CTL_FAKE')
+> if _F:
+>     _kind, _fs = _F.split(':'); _r = random.Random(int(_fs) * 7919 + 13)
+>     if _kind == 'order':
+>         S = [_r.sample(t, len(t)) for t in S]
+>     elif _kind == 'iid':
+>         _cnt = collections.Counter(x for t in S for x in t); _pop = list(_cnt); _w = [_cnt[x] for x in _pop]
+>         S = [_r.choices(_pop, weights=_w, k=len(t)) for t in S]
+>     else: raise SystemExit('bad CTL_FAKE')
+37a48,51
+> # --- control hook (raj_check): permute picture-word sets among signs. CTL_PERM = '<seed>' ---
+> if os.environ.get('CTL_PERM'):
+>     _ks = sorted(pw); _vs = [pw[k] for k in _ks]; random.Random(int(os.environ['CTL_PERM']) * 104729 + 7).shuffle(_vs)
+>     pw = collections.defaultdict(set, dict(zip(_ks, _vs)))
+108a123
+> res['ctl'] = {'perm': os.environ.get('CTL_PERM'), 'fake': os.environ.get('CTL_FAKE')}
