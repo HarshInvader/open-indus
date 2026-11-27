@@ -160,7 +160,7 @@ Seed by seed (main run):
 - Telugu: −88, −77, −24, +58, +64, −17, −99, +531, −41, +9
 <!--KANNADA_SEEDS-->
 
-**Fresh Old Tamil, by the plan: "Raj's list is special"** (D ≤ 111.5). A second Old Tamil list from the same kinds of sources, checked against the Tamil Lexicon and DEDR, scores +4. The solver reads more signs with it than with Raj's list (30.2 against 27.4), so the list does not fail for want of picture options.
+**Fresh Old Tamil, by the plan: "Raj's list is special"** (D ≤ 111.5). A second Old Tamil list from the same kinds of sources, spot-checked against the Tamil Lexicon and DEDR (19 of 100 items looked up), scores +4.2 (95% interval about −128 to +136; real names +11, control +7 on average). The seeds swing widely (−143 to +326), so this is instability rather than a flat zero; the paired difference from Raj's list is clear (mean 219, t ≈ 3.3). The solver reads more signs with it than with Raj's list (30.2 against 27.4), so the list does not fail for want of picture options. The loan rule does not explain it: with loans labelled by meaning, closer to Raj's own practice (12 of 978 parts marked loans), it scores +0.6.
 
 **Exploratory, not preregistered (run after the fresh-Tamil result was seen; `stage4/explore_4b.py`, `out/T7x_summary.json`):**
 
@@ -170,8 +170,35 @@ Seed by seed (main run):
 | X2 Raj's names + fresh picture words | +276.4 ± 87 | 10 of 10 | 2.49 | 27.9 |
 | X3 fresh names resampled to Raj's mix (47% people; 683 names), 5 subsets | −50, +70, −1, +71, +155 | 5–8 of 10 | 1.6–2.0 | 18–25 |
 
-The difference is in the names, not the picture words: Raj's names score high with either set of picture words, and the fresh names score near zero or below with either. Matching the mix of name types recovers part of the gap, unstably. **The +223 is a property of one particular list of 1,125 names**, built by a model in the paper's step 0 (`names_model_clean.jsonl`), not of Old Tamil names in general. The fresh list leans on Sangam poets' names from the colophons (68% people), so it is not a copy of Raj's in kind; but Raj's list is not a copy of Old Tamil either, and nothing in the paper fixes which list is the right one.
+The difference is in the names (with their segmentation and labels), not the picture words. Matching the share of people recovers part of the gap, unstably. Which of "which names", "how they are cut" and "how parts are labelled" drives it is tested in stage 4c below. Raj's archive does not document how `names_model_clean.jsonl` was compiled or segmented; his REP-1 plan states openly that the Tamil list was pre-existing and only the Sanskrit list was built fresh.
 
 **Sister languages, by the plan:** <!--DRAVVERDICT_RESULTS-->
 
-Limits: one compiler, translator and labeler per language. The Telugu list is mostly Sanskrit epic names, which leaves almost nothing once loans are dropped (182 names, about 2 signs read), so the Telugu run says little about Telugu. The Malayalam list is short (631 compiled, 510 used).
+- **Old Telugu is void.** After loans are dropped the solver has options for 14 of 69 signs and reads 1.6 signs (Raj's own power check, REP-2 Munda, calls about 5 signs read "not an adequate test"). Its mean of +31.7 rests on one seed whose control is −526; the median is −20. With loans labelled by meaning (1,125 names) it still reads 2.2 signs, because native picture words never match Sanskrit name parts. This is a property of our list, not of Telugu: the compiler took 895 of 1,338 names from early literature (Nannaya's Mahābhārata), whose names are Sanskrit.
+- **Old Malayalam does not beat its control** (−92.1; 0 of 10; 510 names, 10 signs read). Real names average −24 and the control +69 (control sd 79), so D may not be centred on zero for small, sparse lists; read −92 as "no fit", not as evidence against. The list is 600 to 1,400 years later than Sangam Tamil and 39% of its name-part tokens are Sanskrit loans, so it is a weak test of Dravidian.
+
+Order: names were taken in the compiler's order, and the Tamil compiler's file is sorted by type, so truncating at 1,125 cut 83 persons, 64 places, 3 groups and 1 title from the tail.
+
+Limits: one compiler, translator and labeler per language. **Our compiler prompts added an instruction the paper's prompt does not have** (keep honorific and gender endings as separate members), not logged until an independent review found it (`DEVIATIONS_4B.md` item 8); stage 4c tests it. The Telugu list is mostly Sanskrit epic names, which leaves almost nothing once loans are dropped (182 names, about 2 signs read), so the Telugu run says little about Telugu. The Malayalam list is short (631 compiled, 510 used).
+
+## Stage 4c. Which names, or how they are cut? (T8)
+`stage4/PREREG_STAGE4C.md` (sha256 in `PREREG_STAGE4C.sha256`), committed before any 4c run (34938f8), after an independent review (Fable) of stage 4b. `stage4/run_4c.py`, `out/T8_summary.json`. Raj's `contest.py` unchanged; picture words: Raj's for every run.
+
+| Run | Names | D, mean ± sd | Seeds above control | Picture options | Signs read |
+|---|---|---|---|---|---|
+| C1 shared names, Raj's segmentation and labels | 430 | +150.8 ± 200 | 7 of 10 | 1.22 | 15.1 |
+| C2 shared names, fresh segmentation and labels | 430 | +63.7 ± 72 | 9 of 10 | 0.86 | 12.6 |
+| C3 shared names, fresh segmentation, Raj's labels | 430 | +79.8 ± 142 | 6 of 10 | 0.86 | 12.2 |
+| C4 fresh list, honorific and gender endings dropped | 1,108 | +7.4 ± 78 | 7 of 10 | 2.78 | 30.0 |
+| C5 Raj's list, the same endings dropped | 1,125 | +197.6 ± 98 | 9 of 10 | 2.48 | 25.0 |
+| C6 Raj's names not in the fresh list | 688 | +218.0 ± 225 | 8 of 10 | 2.03 | 23.2 |
+| C7 fresh names not in Raj's list | 695 | −96.2 ± 326 | 4 of 10 | 2.32 | 24.0 |
+
+(The reviewer counted 512 shared names; by exact string match there are 430.)
+
+Readings, by the plan:
+- **Honorific endings (C4): they do not explain the fresh list's low score.** Dropping them leaves the fresh list at +7.4, and Raj's at +197.6. The instruction we added changed the lists but not the result.
+- **Selection (C6 − C7 = +314): which names are chosen matters.** Raj's names that the fresh list lacks score +218 on their own; the fresh list's own names score −96.
+- **Segmentation (C1 − C2 = +87): unclear**, just under the line of 100. Labels (C3 against C2) add little.
+
+So the +223 depends mainly on which names went into Raj's list. With seed sd of 200–330 for C6 and C7, the size of the gap is uncertain; its direction is not.

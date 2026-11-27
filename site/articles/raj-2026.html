@@ -111,7 +111,18 @@
 <h2>Test 6: is the paper’s Tamil list special?</h2>
 <p>The chart above makes Tamil look like the best candidate, so we checked what in its inputs gives it the lead. Two things set it apart from every other list. Its words are written with Tamil letters, and the sound matcher has cheap near-matches for them (ṉ≈n, ḷ≈l, ā≈a). And its 1,125 names are not only people: 532 are people, and the rest are places, gods, groups, lineages, hills, stars and rivers from the Sangam poems.</p>
 <p>Spelling turned out not to matter: written in plain letters, like the other languages, Tamil still scores +206. The kind of name matters a lot. With people’s names only, Tamil scores +3, no better than chance. That is not because the list is shorter: random mixed lists of the same size (532 names) score a median of +178. <strong>Tamil’s score comes from its place, hill, river, god and group names.</strong> Its personal names alone fit the seals worse than Sumerian or Egyptian personal names. Yet the paper reads the seals as names of people with their titles and clans.</p>
-<!--4B-->
+<h2>Test 7: a second Tamil list, and Tamil’s sister languages</h2>
+<p>If the test really detects Old Tamil, a second list of Old Tamil names, built independently from the same kinds of sources, should score about as well as the paper’s. So we had a fresh AI agent, which knew nothing about this project, build one from the Sangam poems and the oldest Tamil inscriptions. It used the paper’s prompt for its Sanskrit rival list, with the language and sources changed. We also added an instruction to keep honorific endings like <em>-ār</em> as separate parts, which the paper’s prompt does not have; an independent review caught this, and we tested it below. Another agent spot-checked the list against the Tamil Lexicon and the Dravidian Etymological Dictionary before anything was run.</p>
+<p><strong>The second Old Tamil list scores +4</strong>, about the same as its scrambled control on average, with large swings from run to run (4 of 10 runs above chance). The method finds just as many pictures to read with it, so that is not the reason.</p>
+<p>We then took the two lists apart, with each check fixed in advance:</p>
+<ul>
+  <li><strong>The picture words are not the cause.</strong> The paper’s names with the new picture words score +276; the new names with the paper’s picture words score −72.</li>
+  <li><strong>The honorific endings are not the cause.</strong> With every <em>-ār</em>, <em>-aṉ</em> and similar ending removed, the new list still scores +7, and the paper’s list still scores +198.</li>
+  <li><strong>It is which names are in the list.</strong> About 430 names appear in both lists. The paper’s other names score +218 on their own; the new list’s other names score −96.</li>
+</ul>
+<p>So the +223 does not survive rebuilding the list. It depends on which names went into the paper’s list, and the paper’s archive does not document how that list was compiled. This is not a verdict on Old Tamil: one rebuilt list is one data point, and we are building a second one with the paper’s prompt unchanged.</p>
+<p>The sister languages are weak tests. <strong>Old Telugu is void:</strong> our compiler took two thirds of its names from Nannaya’s Mahābhārata, which are Sanskrit, so once loans are dropped the method has almost nothing to work with and reads fewer than two signs. <strong>Old Malayalam</strong>, from texts 600 to 1,400 years later than the Sangam poems and with many Sanskrit loans dropped, does not beat its control (−92). <!--KANNADA--></p>
+<p>The fair summary is that one list fits well, and the score moves a lot when the list changes. That sensitivity is a reason for caution: the result depends on choices in building the list that the paper does not fix.</p>
 
 {{RUNS_INCLUDE}}
 

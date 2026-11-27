@@ -15,11 +15,14 @@ RUNS = [  # (id, label, note, group, dir, lang file prefix, names description)
  ('finnish', 'Finnish', 'no link to the Indus', 'other', 'T5_finnish', 'finnish', 'surnames'),
  ('tamil_ascii', 'Tamil, plain spelling', 'diacritics removed', 'tamilctl', 'T6_6a', 'tamil6a', 'Sangam names of every kind'),
  ('tamil_people', 'Tamil, people only', "the paper's list, persons only", 'tamilctl', 'T6_6b', 'tamil6b', 'Sangam personal names (532)'),
- ('tamil_fresh', 'Old Tamil, fresh list', 'same sources, new agent', 'dravidian', 'T7_tamil4b', 'tamil4b', 'Sangam and Tamil-Brahmi names, 68% people'),
- ('tamil_x2', "Paper's names, fresh pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x2', 'tamil4b_x2', "the paper's 1,125 names with the fresh list's picture words"),
- ('tamil_x1', "Fresh names, paper's pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x1', 'tamil4b_x1', "the fresh names with the paper's picture words"),
+ ('tamil_fresh', 'Old Tamil, second list', 'same sources, new agent', 'dravidian', 'T7_tamil4b', 'tamil4b', 'Sangam and Tamil-Brahmi names, 68% people'),
+ ('tamil_x2', "Paper's names, second list's pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x2', 'tamil4b_x2', "the paper's 1,125 names with the second list's picture words"),
+ ('tamil_x1', "Second list's names, paper's pictures", 'exploratory', 'tamilctl', 'T7x_tamil4b_x1', 'tamil4b_x1', "the second list's names with the paper's picture words"),
+ ('tamil_c6', "Paper's names not in the second list", 'preregistered check', 'tamilctl', 'T8_c6', 'tamil4c_c6', "the paper's names that the second list lacks"),
+ ('tamil_c7', "Second list's names not in the paper's", 'preregistered check', 'tamilctl', 'T8_c7', 'tamil4c_c7', "the second list's names that the paper's lacks"),
+ ('tamil_c4', 'Second list, endings removed', 'preregistered check', 'tamilctl', 'T8_c4', 'tamil4c_c4', 'honorific and gender endings dropped'),
  ('kannada', 'Old Kannada', 'Dravidian', 'dravidian', 'T7_kannada4b', 'kannada4b', 'inscription and early literary names of every kind'),
- ('telugu', 'Old Telugu', 'reads only ~2 signs', 'dravidian', 'T7_telugu4b', 'telugu4b', 'inscription and early literary names of every kind'),
+ ('telugu', 'Old Telugu', 'void: reads under 2 signs', 'dravidian', 'T7_telugu4b', 'telugu4b', 'inscription and early literary names of every kind'),
  ('malayalam', 'Old Malayalam', 'short list (510 names)', 'dravidian', 'T7_malayalam4b', 'malayalam4b', 'inscription and early literary names of every kind'),
 ]
 T = seeds('T0', 'tamil'); out = []
