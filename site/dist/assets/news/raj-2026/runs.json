@@ -304,6 +304,58 @@
    ]
   },
   {
+   "id": "tamil_faithful",
+   "label": "Old Tamil, third list",
+   "note": "the paper's prompt, nothing added",
+   "group": "dravidian",
+   "names_desc": "Sangam and Tamil-Brahmi names, 70% people",
+   "names": 1125,
+   "D": 49.0,
+   "sd": 174.8,
+   "above": 6,
+   "ahead": 3,
+   "opts": 1.96,
+   "read": 25.8,
+   "seeds": [
+    178.4,
+    -204.4,
+    -19.7,
+    165.1,
+    204.4,
+    54.0,
+    276.1,
+    -141.2,
+    157.2,
+    -179.4
+   ]
+  },
+  {
+   "id": "tamil_faithful_p",
+   "label": "Third list, paper's pictures",
+   "note": "preregistered check",
+   "group": "tamilctl",
+   "names_desc": "the third list's names with the paper's picture words",
+   "names": 1125,
+   "D": 65.1,
+   "sd": 179.1,
+   "above": 6,
+   "ahead": 3,
+   "opts": 2.26,
+   "read": 26.1,
+   "seeds": [
+    225.2,
+    -232.3,
+    -4.0,
+    155.8,
+    221.1,
+    103.0,
+    277.8,
+    -134.7,
+    172.2,
+    -132.7
+   ]
+  },
+  {
    "id": "tamil_x2",
    "label": "Paper's names, second list's pictures",
    "note": "exploratory",
