@@ -1,0 +1,22 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "telugu4b",
+ "names": "names_telugu4b.jsonl",
+ "parts": "parts_telugu4b.jsonl",
+ "number_words": {
+  "1": "okaṭi",
+  "2": "reṇḍu",
+  "3": "mūḍu",
+  "4": "nālugu",
+  "5": "aidu",
+  "6": "āru",
+  "7": "ēḍu",
+  "12": "panneṇḍu"
+ },
+ "drop_parts": [],
+ "keep_noninitial": [],
+ "loan_category": "sanskrit_loan",
+ "words": "words_telugu4b.json",
+ "weights": "once"
+}
