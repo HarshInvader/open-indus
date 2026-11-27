@@ -1158,3 +1158,64 @@ html:not(.js) .z-plain { display: block; }
 .nf-cards p { margin: 12px 0 0; font-size: 14px; color: var(--muted); }
 .nf-cards p b { color: var(--ink); }
 @media (max-width: 560px) { .nf-cards { grid-template-columns: 1fr; } }
+
+/* Interactive "every run" chart in the raj-2026 article */
+.rx { --c-ta: var(--accent); --c-jp: var(--clay); --c-dr: var(--warn); --c-ch: var(--chance);
+  margin: 34px 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: clamp(16px, 3vw, 28px); font-size: 16px; line-height: 1.4; position: relative; }
+.rx .ta { --c: var(--c-ta); } .rx .jp { --c: var(--c-jp); } .rx .dr { --c: var(--c-dr); } .rx .ch { --c: var(--c-ch); } .rx .tc { --c: var(--c-ta); }
+.rx-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.rx-head h3 { font-size: 20px; margin: 0; }
+.rx-tabs { display: inline-flex; border: 1px solid var(--line-strong); border-radius: 999px; padding: 3px; background: var(--paper); }
+.rx-tabs button { font: inherit; font-size: 14px; border: 0; background: none; color: var(--muted); padding: 6px 14px; border-radius: 999px; cursor: pointer; }
+.rx-tabs button[aria-selected="true"] { background: var(--ink); color: var(--paper); }
+.rx-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin: 16px 0 18px; }
+.rx-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.rx-chip { font: inherit; font-size: 13px; display: inline-flex; align-items: center; gap: 7px; padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--paper); color: var(--ink); cursor: pointer; min-height: 32px; }
+.rx-chip i, .rx-sw { width: 10px; height: 10px; border-radius: 3px; background: var(--c); display: inline-block; flex: none; }
+.rx-chip.tc i, .rx-sw.tc { background: repeating-linear-gradient(135deg, var(--c) 0 2px, transparent 2px 4px); box-shadow: inset 0 0 0 1px var(--c); }
+.rx-chip[aria-pressed="false"] { color: var(--faint); background: transparent; text-decoration: line-through; }
+.rx-chip[aria-pressed="false"] i { opacity: 0.35; }
+.rx-opts { display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; font-size: 14px; color: var(--muted); }
+.rx-opts label { display: inline-flex; align-items: center; gap: 8px; }
+.rx-opts select { font: inherit; font-size: 14px; color: var(--ink); background: var(--paper); border: 1px solid var(--line-strong); border-radius: 8px; padding: 5px 8px; }
+.rx-check input { accent-color: var(--accent); width: 16px; height: 16px; }
+.rx-rows { display: grid; gap: 4px; }
+.rx-r { display: grid; grid-template-columns: minmax(150px, 34%) 1fr 44px; gap: 12px; align-items: center; padding: 6px 8px; margin: 0 -8px; border-radius: 8px; cursor: default; outline: none; }
+.rx-r:hover, .rx-r:focus-visible { background: var(--paper); }
+.rx-r:focus-visible { box-shadow: 0 0 0 2px var(--accent); }
+.rx-nm b { display: block; font-weight: 600; font-size: 15px; }
+.rx-nm span { display: block; color: var(--muted); font-size: 12.5px; }
+.rx-tr { position: relative; height: 26px; background: linear-gradient(var(--line-strong), var(--line-strong)) var(--zero) 0 / 1px 100% no-repeat; }
+.rx-half { position: absolute; top: -5px; bottom: -5px; border-left: 1.5px dashed var(--muted); opacity: 0.7; }
+.rx-b { position: absolute; top: 5px; bottom: 5px; background: var(--c); border-radius: 0 4px 4px 0; }
+.rx-b.neg { border-radius: 4px 0 0 4px; }
+.rx-r.tc .rx-b { background: repeating-linear-gradient(135deg, var(--c) 0 3px, color-mix(in srgb, var(--c) 45%, transparent) 3px 6px); }
+.rx-dot { position: absolute; top: 50%; width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; border-radius: 50%; background: var(--ink); box-shadow: 0 0 0 1.5px var(--surface); opacity: 0.75; }
+.rx-v { position: absolute; top: 50%; transform: translateY(-50%); padding: 0 6px; font-weight: 600; font-size: 14px; font-variant-numeric: tabular-nums; white-space: nowrap; z-index: 1; background: var(--surface); border-radius: 4px; }
+.rx-r:hover .rx-v, .rx-r:focus-visible .rx-v { background: var(--paper); }
+.rx-sd { font-size: 12.5px; color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.rx-axis { display: grid; grid-template-columns: minmax(150px, 34%) 1fr 44px; gap: 12px; margin-top: 6px; }
+.rx-axis-in { grid-column: 2; position: relative; height: 18px; border-top: 1px solid var(--line); }
+.rx-axis-in span { position: absolute; top: 3px; transform: translateX(-50%); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.rx-axis p { grid-column: 1 / -1; margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.rx-tip { position: absolute; left: clamp(8px, 30%, 240px); right: 8px; max-width: 360px; z-index: 5; background: var(--ink); color: var(--paper); border-radius: 10px; padding: 10px 14px; font-size: 14px; box-shadow: 0 6px 24px rgb(0 0 0 / 0.18); pointer-events: none; }
+.rx-tip b { display: block; } .rx-tip > span { display: block; opacity: 0.75; font-size: 12.5px; margin-bottom: 6px; }
+.rx-tip dl { display: grid; grid-template-columns: auto auto; gap: 2px 14px; margin: 0; }
+.rx-tip dt { opacity: 0.75; } .rx-tip dd { margin: 0; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+#rx-chart { position: relative; }
+.rx-table th button { font: inherit; font-weight: 600; background: none; border: 0; color: inherit; cursor: pointer; padding: 0; text-align: inherit; }
+.rx-table th[aria-sort] button::after { content: " ↓"; } .rx-table th[aria-sort="ascending"] button::after { content: " ↑"; }
+.rx-table .l { text-align: left; }
+.rx-table tbody th { font-weight: 600; color: var(--ink); }
+.rx-table tbody th small { display: block; font-weight: 400; color: var(--muted); font-size: 12.5px; }
+.rx-table tbody th .rx-sw { margin-right: 8px; vertical-align: 0; }
+.rx-table td.na { color: var(--faint); }
+.rx-table { font-size: 14.5px; min-width: 680px; }
+@media (max-width: 560px) {
+  .rx-r, .rx-axis { grid-template-columns: 1fr 40px; gap: 2px 8px; }
+  .rx-nm { grid-column: 1 / -1; }
+  .rx-axis-in { grid-column: 1; }
+  .rx-tip { left: 8px; }
+}
+@media (forced-colors: active) { .rx-b, .rx-chip i, .rx-sw, .rx-dot { forced-color-adjust: none; background: CanvasText; } }
+.rx figcaption { display: block; margin-top: 14px; font-size: 14px; line-height: 1.5; }

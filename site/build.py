@@ -1001,7 +1001,12 @@ def news_article_pages():
                                    f'width="{f["w"]}" height="{f["h"]}" loading="lazy" decoding="async"></a><figcaption>{E(f["caption"])}</figcaption></figure>' for f in figs)
                          + '</section>')
         if it.get("article_file"):
-            body = '<div class="na-body">' + (SITE / it["article_file"]).read_text() + '</div>'
+            frag = (SITE / it["article_file"]).read_text()
+            inc = SITE / it["article_file"].replace(".html", "-runs.html")
+            if "{{RUNS_INCLUDE}}" in frag and inc.is_file():
+                runs = (SITE / "assets" / "news" / it["id"] / "runs.json").read_text().replace("</", "<\\/")
+                frag = frag.replace("{{RUNS_INCLUDE}}", inc.read_text().replace("{{RUNS_JSON}}", runs))
+            body = '<div class="na-body">' + frag + '</div>'
             detail = news_detail(it)
             detail = (f'<details class="na-notes"><summary>Our full reading notes on the paper</summary>{detail}</details>' if detail else "")
         else:

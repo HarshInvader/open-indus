@@ -1,0 +1,109 @@
+<figure class="rx" id="all-runs" aria-labelledby="rx-title">
+  <div class="rx-head">
+    <h3 id="rx-title">Every run we made, side by side</h3>
+    <div class="rx-tabs" role="tablist" aria-label="View">
+      <button role="tab" aria-selected="true" aria-controls="rx-chart" id="rx-tab-chart">Chart</button>
+      <button role="tab" aria-selected="false" aria-controls="rx-table" id="rx-tab-table">Table</button>
+    </div>
+  </div>
+  <div class="rx-controls">
+    <div class="rx-chips" role="group" aria-label="Show groups"></div>
+    <div class="rx-opts">
+      <label><span>Sort</span><select id="rx-sort"><option value="D">by score</option><option value="opts">by picture options per sign</option><option value="group">by group</option></select></label>
+      <label class="rx-check"><input type="checkbox" id="rx-seeds"> Show each run</label>
+    </div>
+  </div>
+  <div id="rx-chart" role="tabpanel" aria-labelledby="rx-tab-chart">
+    <div class="rx-rows" role="list"></div>
+    <div class="rx-axis" aria-hidden="true"></div>
+    <div class="rx-tip" role="status" aria-live="polite" hidden></div>
+  </div>
+  <div id="rx-table" role="tabpanel" aria-labelledby="rx-tab-table" hidden>
+    <div class="nf-table-wrap"><table class="nf-table rx-table"><thead></thead><tbody></tbody></table></div>
+  </div>
+  <figcaption>Score: how much better real names fit unseen seals than the same names scrambled, average of 10 runs with the paper’s code unchanged (controls: median of 50 shuffles, or average of 20 fake corpora). The dashed line is +112, half of Tamil’s score, the bar the paper used to rule out Sanskrit. Hover or tap a row for details; “Show each run” plots the 10 runs behind each average. Data: <a href="assets/news/raj-2026/runs.json">runs.json</a></figcaption>
+  <script type="application/json" id="rx-data">{{RUNS_JSON}}</script>
+</figure>
+<script>
+(function () {
+  var root = document.getElementById('all-runs'); if (!root) return;
+  var data; try { data = JSON.parse(document.getElementById('rx-data').textContent); } catch (e) { return; }
+  var G = { paper: ['The paper’s runs', 'ta'], other: ['Other languages', 'jp'], dravidian: ['Dravidian languages', 'dr'], tamilctl: ['Tamil checks', 'tc'], control: ['Controls', 'ch'] };
+  var ORDER = ['paper', 'tamilctl', 'dravidian', 'other', 'control'];
+  var on = {}; ORDER.forEach(function (g) { on[g] = true; });
+  var runs = data.runs, rows = root.querySelector('.rx-rows'), axis = root.querySelector('.rx-axis'), tip = root.querySelector('.rx-tip');
+  var sortSel = root.querySelector('#rx-sort'), seedBox = root.querySelector('#rx-seeds');
+  var chips = root.querySelector('.rx-chips');
+  ORDER.forEach(function (g) {
+    if (!runs.some(function (r) { return r.group === g; })) return;
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'rx-chip ' + G[g][1]; b.setAttribute('aria-pressed', 'true');
+    b.innerHTML = '<i></i>' + G[g][0]; b.onclick = function () { on[g] = !on[g]; b.setAttribute('aria-pressed', on[g]); draw(); };
+    chips.appendChild(b);
+  });
+  function fmt(v) { return (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(Math.round(v)); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function visible() {
+    var v = runs.filter(function (r) { return on[r.group]; }), k = sortSel.value;
+    v.sort(function (a, b) {
+      if (k === 'group') return ORDER.indexOf(a.group) - ORDER.indexOf(b.group) || b.D - a.D;
+      if (k === 'opts') return (b.opts == null ? -1 : b.opts) - (a.opts == null ? -1 : a.opts) || b.D - a.D;
+      return b.D - a.D;
+    });
+    return v;
+  }
+  function detail(r) {
+    var unit = r.seed_unit === 'shuffle' ? 'shuffles' : r.seed_unit === 'corpus' ? 'fake corpora' : 'runs';
+    var s = '<b>' + esc(r.label) + '</b><span>' + esc(r.names_desc) + ' · ' + r.names.toLocaleString() + ' names</span>' +
+      '<dl><dt>Score</dt><dd>' + fmt(r.D) + ' ± ' + Math.round(r.sd) + '</dd>';
+    if (r.above != null) s += '<dt>Runs above chance</dt><dd>' + r.above + ' of 10</dd>';
+    if (r.ahead != null) s += '<dt>Runs ahead of Tamil</dt><dd>' + r.ahead + ' of 10</dd>';
+    if (r.opts != null) s += '<dt>Picture options per sign</dt><dd>' + r.opts.toFixed(2) + '</dd><dt>Signs read</dt><dd>' + r.read + '</dd>';
+    return s + '<dt>Based on</dt><dd>' + r.seeds.length + ' ' + unit + '</dd></dl>';
+  }
+  function draw() {
+    var v = visible(), seeds = seedBox.checked;
+    var lo = -80, hi = 250;
+    if (seeds) v.forEach(function (r) { r.seeds.forEach(function (x) { lo = Math.min(lo, x); hi = Math.max(hi, x); }); });
+    lo = seeds ? Math.floor(lo / 50) * 50 : lo; hi = Math.ceil(hi / 50) * 50 + (seeds ? 0 : 50);
+    function pct(x) { return ((x - lo) / (hi - lo) * 100).toFixed(3) + '%'; }
+    rows.innerHTML = '';
+    v.forEach(function (r) {
+      var li = document.createElement('div'); li.className = 'rx-r ' + G[r.group][1]; li.setAttribute('role', 'listitem'); li.tabIndex = 0;
+      var a = Math.min(0, r.D), b = Math.max(0, r.D);
+      var h = '<div class="rx-nm"><b>' + esc(r.label) + '</b><span>' + esc(r.note) + '</span></div><div class="rx-tr" style="--zero:' + pct(0) + '">' +
+        '<span class="rx-half" style="left:' + pct(data.half_line) + '"></span>' +
+        '<span class="rx-b' + (r.D < 0 ? ' neg' : '') + '" style="left:' + pct(a) + ';width:calc(' + pct(b) + ' - ' + pct(a) + ')"></span>';
+      if (seeds) r.seeds.forEach(function (x) { h += '<span class="rx-dot" style="left:' + pct(x) + '"></span>'; });
+      h += '<span class="rx-v" style="' + (r.D < 0 ? 'right:calc(100% - ' + pct(r.D) + ')' : 'left:' + pct(r.D)) + '">' + fmt(r.D) + '</span></div>' +
+        '<div class="rx-sd">' + (r.above != null ? r.above + '/10' : '') + '</div>';
+      li.innerHTML = h;
+      function show() { tip.innerHTML = detail(r); tip.hidden = false; var rr = li.getBoundingClientRect(), pr = root.querySelector('#rx-chart').getBoundingClientRect(); tip.style.top = (rr.bottom - pr.top + 6) + 'px'; }
+      li.addEventListener('mouseenter', show); li.addEventListener('focus', show); li.addEventListener('click', show);
+      li.addEventListener('mouseleave', function () { tip.hidden = true; }); li.addEventListener('blur', function () { tip.hidden = true; });
+      rows.appendChild(li);
+    });
+    var ticks = '', step = (hi - lo) > 400 ? 200 : 100;
+    for (var t = Math.ceil((lo + 1) / step) * step; t <= hi; t += step) ticks += '<span style="left:' + pct(t) + '">' + fmt(t) + '</span>';
+    axis.innerHTML = '<div class="rx-axis-in">' + ticks + '</div><p>Score · right column: runs above chance</p>';
+    table(v);
+  }
+  var tsort = null, tdir = -1;
+  var COLS = [['label', 'Run', 'l'], ['names', 'Names'], ['D', 'Score'], ['sd', '± sd'], ['above', 'Runs above chance'], ['ahead', 'Ahead of Tamil'], ['opts', 'Picture options per sign'], ['read', 'Signs read']];
+  function table(v) {
+    var th = root.querySelector('.rx-table thead'), tb = root.querySelector('.rx-table tbody');
+    th.innerHTML = '<tr>' + COLS.map(function (c) { return '<th scope="col"' + (c[2] ? ' class="l"' : '') + (tsort === c[0] ? ' aria-sort="' + (tdir < 0 ? 'descending' : 'ascending') + '"' : '') + '><button type="button" data-k="' + c[0] + '">' + c[1] + '</button></th>'; }).join('') + '</tr>';
+    th.querySelectorAll('button').forEach(function (b) { b.onclick = function () { var k = b.dataset.k; tdir = tsort === k ? -tdir : (k === 'label' ? 1 : -1); tsort = k; draw(); }; });
+    var w = v.slice();
+    if (tsort) w.sort(function (a, b) { var x = a[tsort], y = b[tsort]; if (x == null) return 1; if (y == null) return -1; return (typeof x === 'string' ? x.localeCompare(y) : x - y) * tdir; });
+    tb.innerHTML = w.map(function (r) {
+      function c(x, f) { return x == null ? '<td class="na">–</td>' : '<td>' + (f ? f(x) : x) + '</td>'; }
+      return '<tr><th scope="row" class="l"><i class="rx-sw ' + G[r.group][1] + '"></i>' + esc(r.label) + '<small>' + esc(r.names_desc) + '</small></th>' + c(r.names, function (x) { return x.toLocaleString(); }) + c(r.D, fmt) + c(r.sd, Math.round) +
+        c(r.above, function (x) { return x + '/10'; }) + c(r.ahead, function (x) { return x + '/10'; }) + c(r.opts, function (x) { return x.toFixed(2); }) + c(r.read) + '</tr>';
+    }).join('');
+  }
+  var tabs = [root.querySelector('#rx-tab-chart'), root.querySelector('#rx-tab-table')], panels = [root.querySelector('#rx-chart'), root.querySelector('#rx-table')];
+  tabs.forEach(function (t, i) { t.onclick = function () { tabs.forEach(function (u, j) { u.setAttribute('aria-selected', i === j); panels[j].hidden = i !== j; }); }; });
+  sortSel.onchange = draw; seedBox.onchange = draw;
+  draw();
+})();
+</script>

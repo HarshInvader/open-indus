@@ -164,6 +164,476 @@
   <figcaption>Counted once per distinct text, neither passes the paper’s own bar for many tests (1×10⁻⁵). Giving the paper’s readings to signs at random names the right object about as often (p = 0.10).</figcaption>
 </figure>
 
+<h2>Test 6: is the paper’s Tamil list special?</h2>
+<p>The chart above makes Tamil look like the best candidate, so we checked what in its inputs gives it the lead. Two things set it apart from every other list. Its words are written with Tamil letters, and the sound matcher has cheap near-matches for them (ṉ≈n, ḷ≈l, ā≈a). And its 1,125 names are not only people: 532 are people, and the rest are places, gods, groups, lineages, hills, stars and rivers from the Sangam poems.</p>
+<p>Spelling turned out not to matter: written in plain letters, like the other languages, Tamil still scores +206. The kind of name matters a lot. With people’s names only, Tamil scores +3, no better than chance. That is not because the list is shorter: random mixed lists of the same size (532 names) score a median of +178. <strong>Tamil’s score comes from its place, hill, river, god and group names.</strong> Its personal names alone fit the seals worse than Sumerian or Egyptian personal names. Yet the paper reads the seals as names of people with their titles and clans.</p>
+<!--4B-->
+
+<figure class="rx" id="all-runs" aria-labelledby="rx-title">
+  <div class="rx-head">
+    <h3 id="rx-title">Every run we made, side by side</h3>
+    <div class="rx-tabs" role="tablist" aria-label="View">
+      <button role="tab" aria-selected="true" aria-controls="rx-chart" id="rx-tab-chart">Chart</button>
+      <button role="tab" aria-selected="false" aria-controls="rx-table" id="rx-tab-table">Table</button>
+    </div>
+  </div>
+  <div class="rx-controls">
+    <div class="rx-chips" role="group" aria-label="Show groups"></div>
+    <div class="rx-opts">
+      <label><span>Sort</span><select id="rx-sort"><option value="D">by score</option><option value="opts">by picture options per sign</option><option value="group">by group</option></select></label>
+      <label class="rx-check"><input type="checkbox" id="rx-seeds"> Show each run</label>
+    </div>
+  </div>
+  <div id="rx-chart" role="tabpanel" aria-labelledby="rx-tab-chart">
+    <div class="rx-rows" role="list"></div>
+    <div class="rx-axis" aria-hidden="true"></div>
+    <div class="rx-tip" role="status" aria-live="polite" hidden></div>
+  </div>
+  <div id="rx-table" role="tabpanel" aria-labelledby="rx-tab-table" hidden>
+    <div class="nf-table-wrap"><table class="nf-table rx-table"><thead></thead><tbody></tbody></table></div>
+  </div>
+  <figcaption>Score: how much better real names fit unseen seals than the same names scrambled, average of 10 runs with the paper’s code unchanged (controls: median of 50 shuffles, or average of 20 fake corpora). The dashed line is +112, half of Tamil’s score, the bar the paper used to rule out Sanskrit. Hover or tap a row for details; “Show each run” plots the 10 runs behind each average. Data: <a href="assets/news/raj-2026/runs.json">runs.json</a></figcaption>
+  <script type="application/json" id="rx-data">{
+ "tamil_D": 223.0,
+ "half_line": 111.5,
+ "runs": [
+  {
+   "id": "tamil",
+   "label": "Old Tamil",
+   "note": "the paper's headline list",
+   "group": "paper",
+   "names_desc": "Sangam names of every kind",
+   "names": 1125,
+   "D": 223.0,
+   "sd": 103.0,
+   "above": 10,
+   "ahead": null,
+   "opts": 2.52,
+   "read": 27.4,
+   "seeds": [
+    103.8,
+    237.5,
+    158.2,
+    255.0,
+    192.4,
+    244.4,
+    185.3,
+    175.9,
+    486.9,
+    190.6
+   ]
+  },
+  {
+   "id": "tamil_perm",
+   "label": "Tamil, pictures on wrong signs",
+   "note": "50 random shuffles (median)",
+   "group": "control",
+   "names_desc": "Sangam names of every kind",
+   "names": 1125,
+   "D": 223.7,
+   "sd": 103.3,
+   "above": null,
+   "ahead": null,
+   "opts": null,
+   "read": null,
+   "seeds": [
+    462.6,
+    303.4,
+    178.8,
+    176.0,
+    265.9,
+    234.8,
+    171.8,
+    108.6,
+    144.4,
+    243.1,
+    213.3,
+    277.8,
+    197.6,
+    423.6,
+    212.8,
+    252.0,
+    402.6,
+    269.9,
+    168.7,
+    222.6,
+    210.8,
+    426.0,
+    173.8,
+    380.4,
+    358.0,
+    130.3,
+    362.0,
+    95.8,
+    157.4,
+    155.2,
+    405.7,
+    262.4,
+    426.5,
+    188.6,
+    531.4,
+    234.2,
+    214.1,
+    259.7,
+    337.0,
+    260.3,
+    215.9,
+    104.8,
+    107.6,
+    224.9,
+    220.4,
+    303.2,
+    366.8,
+    167.2,
+    175.6,
+    197.3
+   ],
+   "seed_unit": "shuffle"
+  },
+  {
+   "id": "sanskrit",
+   "label": "Vedic Sanskrit",
+   "note": "the paper's rival",
+   "group": "paper",
+   "names_desc": "Vedic names of every kind",
+   "names": 1367,
+   "D": -13.3,
+   "sd": 44.7,
+   "above": 4,
+   "ahead": 0,
+   "opts": 1.06,
+   "read": 17.8,
+   "seeds": [
+    -6.4,
+    -45.6,
+    26.6,
+    -66.1,
+    -13.0,
+    44.5,
+    45.8,
+    -59.8,
+    -68.3,
+    9.1
+   ]
+  },
+  {
+   "id": "japanese",
+   "label": "Japanese",
+   "note": "no link to the Indus",
+   "group": "other",
+   "names_desc": "surnames",
+   "names": 1125,
+   "D": 134.5,
+   "sd": 195.3,
+   "above": 7,
+   "ahead": 4,
+   "opts": 2.38,
+   "read": 27.9,
+   "seeds": [
+    -4.9,
+    129.3,
+    111.6,
+    359.1,
+    260.4,
+    4.0,
+    -106.1,
+    428.6,
+    -130.8,
+    293.8
+   ]
+  },
+  {
+   "id": "sumerian",
+   "label": "Sumerian",
+   "note": "Mesopotamia",
+   "group": "other",
+   "names_desc": "Ur III personal names",
+   "names": 1125,
+   "D": 103.5,
+   "sd": 69.6,
+   "above": 9,
+   "ahead": 1,
+   "opts": 1.12,
+   "read": 15.6,
+   "seeds": [
+    54.5,
+    134.5,
+    133.5,
+    42.7,
+    88.6,
+    172.6,
+    -11.6,
+    232.2,
+    112.5,
+    75.3
+   ]
+  },
+  {
+   "id": "egyptian",
+   "label": "Egyptian",
+   "note": "Middle Kingdom and later",
+   "group": "other",
+   "names_desc": "personal names",
+   "names": 1125,
+   "D": 77.6,
+   "sd": 147.9,
+   "above": 7,
+   "ahead": 3,
+   "opts": 1.62,
+   "read": 15.9,
+   "seeds": [
+    173.6,
+    -32.8,
+    -199.6,
+    192.4,
+    95.5,
+    77.0,
+    -40.8,
+    302.0,
+    6.0,
+    202.5
+   ]
+  },
+  {
+   "id": "finnish",
+   "label": "Finnish",
+   "note": "no link to the Indus",
+   "group": "other",
+   "names_desc": "surnames",
+   "names": 1125,
+   "D": 63.7,
+   "sd": 28.1,
+   "above": 10,
+   "ahead": 0,
+   "opts": 0.78,
+   "read": 12.7,
+   "seeds": [
+    72.6,
+    119.0,
+    56.1,
+    55.0,
+    36.4,
+    44.5,
+    82.9,
+    94.3,
+    45.9,
+    30.5
+   ]
+  },
+  {
+   "id": "tamil_ascii",
+   "label": "Tamil, plain spelling",
+   "note": "diacritics removed",
+   "group": "tamilctl",
+   "names_desc": "Sangam names of every kind",
+   "names": 1125,
+   "D": 205.8,
+   "sd": 97.7,
+   "above": 10,
+   "ahead": 3,
+   "opts": 3.9,
+   "read": 40.5,
+   "seeds": [
+    115.4,
+    217.3,
+    144.4,
+    167.2,
+    186.7,
+    239.5,
+    285.0,
+    51.5,
+    248.2,
+    403.0
+   ]
+  },
+  {
+   "id": "tamil_people",
+   "label": "Tamil, people only",
+   "note": "the paper's list, persons only",
+   "group": "tamilctl",
+   "names_desc": "Sangam personal names (532)",
+   "names": 532,
+   "D": 2.9,
+   "sd": 246.4,
+   "above": 4,
+   "ahead": 2,
+   "opts": 1.07,
+   "read": 13.9,
+   "seeds": [
+    -15.8,
+    472.0,
+    -355.5,
+    73.8,
+    57.1,
+    320.4,
+    -126.8,
+    -234.6,
+    -51.7,
+    -109.8
+   ]
+  },
+  {
+   "id": "fake_order",
+   "label": "Tamil on shuffled seals",
+   "note": "20 fake corpora",
+   "group": "control",
+   "names_desc": "Sangam names of every kind",
+   "names": 1125,
+   "D": -18.5,
+   "sd": 15.2,
+   "above": null,
+   "ahead": null,
+   "opts": null,
+   "read": null,
+   "seeds": [
+    -1.8,
+    -28.3,
+    -16.6,
+    -16.3,
+    -42.7,
+    -29.6,
+    -55.3,
+    -21.6,
+    12.4,
+    -21.6,
+    -1.5,
+    -16.2,
+    -19.6,
+    -10.4,
+    -14.6,
+    -29.0,
+    -14.3,
+    -27.9,
+    -14.9,
+    -0.0
+   ],
+   "seed_unit": "corpus"
+  },
+  {
+   "id": "fake_iid",
+   "label": "Tamil on meaningless seals",
+   "note": "20 fake corpora",
+   "group": "control",
+   "names_desc": "Sangam names of every kind",
+   "names": 1125,
+   "D": -28.5,
+   "sd": 14.6,
+   "above": null,
+   "ahead": null,
+   "opts": null,
+   "read": null,
+   "seeds": [
+    -35.1,
+    -37.2,
+    -41.2,
+    -22.0,
+    -34.4,
+    -15.3,
+    -58.5,
+    -39.6,
+    -9.1,
+    -41.4,
+    -9.3,
+    -28.5,
+    -18.2,
+    -31.9,
+    -11.6,
+    -19.7,
+    -43.3,
+    -48.3,
+    -17.1,
+    -8.9
+   ],
+   "seed_unit": "corpus"
+  }
+ ]
+}</script>
+</figure>
+<script>
+(function () {
+  var root = document.getElementById('all-runs'); if (!root) return;
+  var data; try { data = JSON.parse(document.getElementById('rx-data').textContent); } catch (e) { return; }
+  var G = { paper: ['The paper’s runs', 'ta'], other: ['Other languages', 'jp'], dravidian: ['Dravidian languages', 'dr'], tamilctl: ['Tamil checks', 'tc'], control: ['Controls', 'ch'] };
+  var ORDER = ['paper', 'tamilctl', 'dravidian', 'other', 'control'];
+  var on = {}; ORDER.forEach(function (g) { on[g] = true; });
+  var runs = data.runs, rows = root.querySelector('.rx-rows'), axis = root.querySelector('.rx-axis'), tip = root.querySelector('.rx-tip');
+  var sortSel = root.querySelector('#rx-sort'), seedBox = root.querySelector('#rx-seeds');
+  var chips = root.querySelector('.rx-chips');
+  ORDER.forEach(function (g) {
+    if (!runs.some(function (r) { return r.group === g; })) return;
+    var b = document.createElement('button'); b.type = 'button'; b.className = 'rx-chip ' + G[g][1]; b.setAttribute('aria-pressed', 'true');
+    b.innerHTML = '<i></i>' + G[g][0]; b.onclick = function () { on[g] = !on[g]; b.setAttribute('aria-pressed', on[g]); draw(); };
+    chips.appendChild(b);
+  });
+  function fmt(v) { return (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(Math.round(v)); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function visible() {
+    var v = runs.filter(function (r) { return on[r.group]; }), k = sortSel.value;
+    v.sort(function (a, b) {
+      if (k === 'group') return ORDER.indexOf(a.group) - ORDER.indexOf(b.group) || b.D - a.D;
+      if (k === 'opts') return (b.opts == null ? -1 : b.opts) - (a.opts == null ? -1 : a.opts) || b.D - a.D;
+      return b.D - a.D;
+    });
+    return v;
+  }
+  function detail(r) {
+    var unit = r.seed_unit === 'shuffle' ? 'shuffles' : r.seed_unit === 'corpus' ? 'fake corpora' : 'runs';
+    var s = '<b>' + esc(r.label) + '</b><span>' + esc(r.names_desc) + ' · ' + r.names.toLocaleString() + ' names</span>' +
+      '<dl><dt>Score</dt><dd>' + fmt(r.D) + ' ± ' + Math.round(r.sd) + '</dd>';
+    if (r.above != null) s += '<dt>Runs above chance</dt><dd>' + r.above + ' of 10</dd>';
+    if (r.ahead != null) s += '<dt>Runs ahead of Tamil</dt><dd>' + r.ahead + ' of 10</dd>';
+    if (r.opts != null) s += '<dt>Picture options per sign</dt><dd>' + r.opts.toFixed(2) + '</dd><dt>Signs read</dt><dd>' + r.read + '</dd>';
+    return s + '<dt>Based on</dt><dd>' + r.seeds.length + ' ' + unit + '</dd></dl>';
+  }
+  function draw() {
+    var v = visible(), seeds = seedBox.checked;
+    var lo = -80, hi = 250;
+    if (seeds) v.forEach(function (r) { r.seeds.forEach(function (x) { lo = Math.min(lo, x); hi = Math.max(hi, x); }); });
+    lo = seeds ? Math.floor(lo / 50) * 50 : lo; hi = Math.ceil(hi / 50) * 50 + (seeds ? 0 : 50);
+    function pct(x) { return ((x - lo) / (hi - lo) * 100).toFixed(3) + '%'; }
+    rows.innerHTML = '';
+    v.forEach(function (r) {
+      var li = document.createElement('div'); li.className = 'rx-r ' + G[r.group][1]; li.setAttribute('role', 'listitem'); li.tabIndex = 0;
+      var a = Math.min(0, r.D), b = Math.max(0, r.D);
+      var h = '<div class="rx-nm"><b>' + esc(r.label) + '</b><span>' + esc(r.note) + '</span></div><div class="rx-tr" style="--zero:' + pct(0) + '">' +
+        '<span class="rx-half" style="left:' + pct(data.half_line) + '"></span>' +
+        '<span class="rx-b' + (r.D < 0 ? ' neg' : '') + '" style="left:' + pct(a) + ';width:calc(' + pct(b) + ' - ' + pct(a) + ')"></span>';
+      if (seeds) r.seeds.forEach(function (x) { h += '<span class="rx-dot" style="left:' + pct(x) + '"></span>'; });
+      h += '<span class="rx-v" style="' + (r.D < 0 ? 'right:calc(100% - ' + pct(r.D) + ')' : 'left:' + pct(r.D)) + '">' + fmt(r.D) + '</span></div>' +
+        '<div class="rx-sd">' + (r.above != null ? r.above + '/10' : '') + '</div>';
+      li.innerHTML = h;
+      function show() { tip.innerHTML = detail(r); tip.hidden = false; var rr = li.getBoundingClientRect(), pr = root.querySelector('#rx-chart').getBoundingClientRect(); tip.style.top = (rr.bottom - pr.top + 6) + 'px'; }
+      li.addEventListener('mouseenter', show); li.addEventListener('focus', show); li.addEventListener('click', show);
+      li.addEventListener('mouseleave', function () { tip.hidden = true; }); li.addEventListener('blur', function () { tip.hidden = true; });
+      rows.appendChild(li);
+    });
+    var ticks = '', step = (hi - lo) > 400 ? 200 : 100;
+    for (var t = Math.ceil((lo + 1) / step) * step; t <= hi; t += step) ticks += '<span style="left:' + pct(t) + '">' + fmt(t) + '</span>';
+    axis.innerHTML = '<div class="rx-axis-in">' + ticks + '</div><p>Score · right column: runs above chance</p>';
+    table(v);
+  }
+  var tsort = null, tdir = -1;
+  var COLS = [['label', 'Run', 'l'], ['names', 'Names'], ['D', 'Score'], ['sd', '± sd'], ['above', 'Runs above chance'], ['ahead', 'Ahead of Tamil'], ['opts', 'Picture options per sign'], ['read', 'Signs read']];
+  function table(v) {
+    var th = root.querySelector('.rx-table thead'), tb = root.querySelector('.rx-table tbody');
+    th.innerHTML = '<tr>' + COLS.map(function (c) { return '<th scope="col"' + (c[2] ? ' class="l"' : '') + (tsort === c[0] ? ' aria-sort="' + (tdir < 0 ? 'descending' : 'ascending') + '"' : '') + '><button type="button" data-k="' + c[0] + '">' + c[1] + '</button></th>'; }).join('') + '</tr>';
+    th.querySelectorAll('button').forEach(function (b) { b.onclick = function () { var k = b.dataset.k; tdir = tsort === k ? -tdir : (k === 'label' ? 1 : -1); tsort = k; draw(); }; });
+    var w = v.slice();
+    if (tsort) w.sort(function (a, b) { var x = a[tsort], y = b[tsort]; if (x == null) return 1; if (y == null) return -1; return (typeof x === 'string' ? x.localeCompare(y) : x - y) * tdir; });
+    tb.innerHTML = w.map(function (r) {
+      function c(x, f) { return x == null ? '<td class="na">–</td>' : '<td>' + (f ? f(x) : x) + '</td>'; }
+      return '<tr><th scope="row" class="l"><i class="rx-sw ' + G[r.group][1] + '"></i>' + esc(r.label) + '<small>' + esc(r.names_desc) + '</small></th>' + c(r.names, function (x) { return x.toLocaleString(); }) + c(r.D, fmt) + c(r.sd, Math.round) +
+        c(r.above, function (x) { return x + '/10'; }) + c(r.ahead, function (x) { return x + '/10'; }) + c(r.opts, function (x) { return x.toFixed(2); }) + c(r.read) + '</tr>';
+    }).join('');
+  }
+  var tabs = [root.querySelector('#rx-tab-chart'), root.querySelector('#rx-tab-table')], panels = [root.querySelector('#rx-chart'), root.querySelector('#rx-table')];
+  tabs.forEach(function (t, i) { t.onclick = function () { tabs.forEach(function (u, j) { u.setAttribute('aria-selected', i === j); panels[j].hidden = i !== j; }); }; });
+  sortSel.onchange = draw; seedBox.onchange = draw;
+  draw();
+})();
+</script>
+
+
 <h2>Is any of this new?</h2>
 <p>The idea is not. Reading the script as early Dravidian through picture-puns goes back to Henry Heras (1953), Yuri Knorozov’s team (1965), Asko Parpola (1969 onward) and Iravatham Mahadevan (1977 onward). The best-known readings on the slide, such as fish = <em>mīṉ</em> = “star”, are theirs, and the paper credits them.</p>
 <p>What is new is the scale (one key for 150 signs), the speed of working with AI, and the openness. That openness is the best part of the paper, and it is exactly what let us show that its main test does not tell right from wrong.</p>
