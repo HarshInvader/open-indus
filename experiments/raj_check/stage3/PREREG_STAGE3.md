@@ -13,7 +13,7 @@ Stage 2 showed one unrelated language with a picture-rich naming style gets 60% 
 
 Not in the panel, with reasons: Akkadian and Munda (run by the paper itself), Elamite and Burushaski (no open name list of the needed size found today), Sanskrit (stage 1).
 
-Source files were extracted by `extract_sources.py` (no model involved) into `agents/names_in_*.jsonl`; sha256 of each source in `agents/sources.sha256.json`. Sumerian and Finnish: the top 1,600 by attestations or holders. Egyptian: all 2,944, shuffled once with seed 20261127 and taken in that order (the TLA list has no frequencies). Finnish double-barrelled surnames were left out at extraction.
+Source files were extracted by `extract_sources.py` (no model involved) into `agents/names_in_*.jsonl`; sha256 of each source in `agents/sources.sha256.json`. Sumerian and Finnish: the top 1,600 by attestations or holders. Egyptian: all 2,944, shuffled once with seed 20261127, and the first 1,600 in that order (the TLA list has no frequencies). Finnish double-barrelled surnames were left out at extraction.
 
 ## Building the inputs (as stage 2, per language)
 1. **Translator** (blind: sees only the 171 English entries), Raj's translator prompt with only the language changed. Sumerian: words attested in Ur III or Old Babylonian Sumerian, no Akkadian loans. Egyptian: Middle Egyptian words, no foreign loans. Finnish: native Finnish words, no Swedish or other loans.
