@@ -4,6 +4,10 @@ are taken from the original teams, because those specifications ARE the claims u
 
 Run from the repo root:  .venv/bin/python -I experiments/ledger/v2_reruns.py
 Writes experiments/ledger/v2_reruns.json.
+Options (for experiments/ledger/seed_sweep.py):  --out PATH   --seed N   --skip D  (D = 300 model fits, about 8 min)
+
+Determinism (starter task S6): the output does not depend on PYTHONHASHSEED. Every loop that feeds a random
+generator runs in sorted order, and block F has its own generator, so no other block can move its draws.
 
 Re-runs
   A  functional_reading: held-out parse coverage vs within-text shuffles; lexicon-permutation null; Dholavira
@@ -14,7 +18,7 @@ Re-runs
   F  context/redteam Gulf: exact matched-n permutation p for foreign round seals (perm-percentile statistic)
   G  revalidation registers: exact Mann-Whitney p for the reported held-out AUCs
 """
-import sys, json, math, random, itertools
+import sys, json, math, random, itertools, argparse
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -24,9 +28,16 @@ import numpy as np
 from scipy import stats
 from corpus.load import dev_heldout, runs, m77_lines, icit_texts, distinct
 
+ap = argparse.ArgumentParser()
+ap.add_argument("--out", default=str(Path(__file__).parent / "v2_reruns.json"))
+ap.add_argument("--seed", type=int, default=20261114)
+ap.add_argument("--skip", default="", help="blocks to skip; only D is supported")
+ARGS = ap.parse_args()
+
 OUT = {}
-rng = random.Random(20261114)
-nprng = np.random.default_rng(20261114)
+rng = random.Random(ARGS.seed)
+nprng = np.random.default_rng(ARGS.seed)
+frng = np.random.default_rng([ARGS.seed, 6])  # block F only
 dev, ho = dev_heldout(version=2)
 dev1, ho1 = dev_heldout(version=1)
 OUT["split_sizes"] = dict(v2_dev=len(dev), v2_heldout=len(ho), v1_dev=len(dev1), v1_heldout=len(ho1))
@@ -51,9 +62,9 @@ HAND = {"M267": "O", "M391": "O", "M293": "ON", "M150": "O", "M99": "C", "M123":
         "M18": "NO", "M387": "NO", "M362": "N", "M363": "N", "M346": "N", "M184": "N"}
 for s in FISH_PLAIN: HAND[s] = "F"
 for s in FISH_BRACK: HAND[s] = "BF"
-for s in SHORT: HAND.setdefault(s, "S")
+for s in sorted(SHORT): HAND.setdefault(s, "S")  # sorted: HAND key order feeds the lexicon-permutation null
 HAND["M100"] = "SC"; HAND["M103"] = "S"
-for s in TALL: HAND[s] = "T"
+for s in sorted(TALL): HAND[s] = "T"
 HAND = {k: set(v) for k, v in HAND.items()}
 
 TRANS = {"^": set("OSTUFNIJB"), "O": set("OCSTFNIJU$"), "C": set("CSTFNIJBO"), "S": set("SFTNIUJBC"),
@@ -236,40 +247,41 @@ def seal_items(texts):
     return [(rec[k], next(iter(v))) for k, v in by.items() if len(v) == 1]
 
 
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import balanced_accuracy_score
-tr = seal_items(dev); te = seal_items(ho)
-cls_n = Counter(a for _, a in tr + te); classes = sorted(c for c, n in cls_n.items() if n >= 10)
-tr = [(t, a) for t, a in tr if a in classes]; te = [(t, a) for t, a in te if a in classes]
-voc = sorted({s for t, _ in tr for s in t["seq"] if s not in ("|", "#")}); vi = {s: i for i, s in enumerate(voc)}
+if "D" not in ARGS.skip:
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.metrics import balanced_accuracy_score
+    tr = seal_items(dev); te = seal_items(ho)
+    cls_n = Counter(a for _, a in tr + te); classes = sorted(c for c, n in cls_n.items() if n >= 10)
+    tr = [(t, a) for t, a in tr if a in classes]; te = [(t, a) for t, a in te if a in classes]
+    voc = sorted({s for t, _ in tr for s in t["seq"] if s not in ("|", "#")}); vi = {s: i for i, s in enumerate(voc)}
 
 
-def feat(items):
-    Xf = np.zeros((len(items), 2 * len(voc) + 2))
-    for j, (t, _) in enumerate(items):
-        sg_ = [s for s in t["seq"] if s not in ("|", "#")]
-        for s in sg_:
-            if s in vi: Xf[j, vi[s]] = 1
-        if sg_ and sg_[0] in vi: Xf[j, len(voc) + vi[sg_[0]]] = 1
-        Xf[j, -2] = len(sg_) / 5; Xf[j, -1] = t["seq"].count("|")
-    return Xf
+    def feat(items):
+        Xf = np.zeros((len(items), 2 * len(voc) + 2))
+        for j, (t, _) in enumerate(items):
+            sg_ = [s for s in t["seq"] if s not in ("|", "#")]
+            for s in sg_:
+                if s in vi: Xf[j, vi[s]] = 1
+            if sg_ and sg_[0] in vi: Xf[j, len(voc) + vi[sg_[0]]] = 1
+            Xf[j, -2] = len(sg_) / 5; Xf[j, -1] = t["seq"].count("|")
+        return Xf
 
 
-Xtr, Xte = feat(tr), feat(te)
-ytr = np.array([a for _, a in tr]); yte = np.array([a for _, a in te]); site = np.array([t["site"] for t, _ in tr])
-mk = lambda: LogisticRegression(max_iter=3000, C=0.5, class_weight="balanced")
-ba = balanced_accuracy_score(yte, mk().fit(Xtr, ytr).predict(Xte))
-nb = []
-for _ in range(300):
-    yp = ytr.copy()
-    for s in set(site):
-        ix = np.where(site == s)[0]; yp[ix] = nprng.permutation(yp[ix])
-    nb.append(balanced_accuracy_score(yte, mk().fit(Xtr, yp).predict(Xte)))
-nb = np.array(nb)
-OUT["D_animal_heldout"] = dict(n_train=len(tr), n_test=len(te), classes=classes, test_counts=dict(Counter(yte)),
-                               bal_acc=round(float(ba), 3), null_mean=round(float(nb.mean()), 3),
-                               p=(1 + int((nb >= ba).sum())) / (len(nb) + 1))
-print("D", OUT["D_animal_heldout"], flush=True)
+    Xtr, Xte = feat(tr), feat(te)
+    ytr = np.array([a for _, a in tr]); yte = np.array([a for _, a in te]); site = np.array([t["site"] for t, _ in tr])
+    mk = lambda: LogisticRegression(max_iter=3000, C=0.5, class_weight="balanced")
+    ba = balanced_accuracy_score(yte, mk().fit(Xtr, ytr).predict(Xte))
+    nb = []
+    for _ in range(300):
+        yp = ytr.copy()
+        for s in sorted(set(site)):  # sorted: the order feeds nprng
+            ix = np.where(site == s)[0]; yp[ix] = nprng.permutation(yp[ix])
+        nb.append(balanced_accuracy_score(yte, mk().fit(Xtr, yp).predict(Xte)))
+    nb = np.array(nb)
+    OUT["D_animal_heldout"] = dict(n_train=len(tr), n_test=len(te), classes=classes, test_counts=dict(Counter(yte)),
+                                   bal_acc=round(float(ba), 3), null_mean=round(float(nb.mean()), 3),
+                                   p=(1 + int((nb >= ba).sum())) / (len(nb) + 1))
+    print("D", OUT["D_animal_heldout"], flush=True)
 
 
 # =====================================================================  E. jar closes L-R lines, copy-free
@@ -355,7 +367,7 @@ for sname in PERIPH:
 fmean = float(np.mean([v for _, v in fvals]))
 draws = []
 for _ in range(20000):
-    draws.append(np.mean([pool[min(n, 5)][nprng.integers(len(pool[min(n, 5)]))] for n, _ in fvals]))
+    draws.append(np.mean([pool[min(n, 5)][frng.integers(len(pool[min(n, 5)]))] for n, _ in fvals]))
 draws = np.array(draws)
 OUT["F_gulf_round"] = dict(n_foreign=len(fvals), foreign_mean_pct=round(fmean, 3),
                            native_matched_mean=round(float(draws.mean()), 3),
@@ -377,5 +389,5 @@ for k, v in rv.items():
 OUT["G_registers_exact"] = G
 print("G", G, flush=True)
 
-json.dump(OUT, open(Path(__file__).parent / "v2_reruns.json", "w"), indent=1, default=float)
+json.dump(OUT, open(ARGS.out, "w"), indent=1, default=float)
 print("done")
