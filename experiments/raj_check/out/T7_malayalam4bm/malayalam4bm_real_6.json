@@ -1,0 +1,30 @@
+{
+ "lang": "malayalam4bm",
+ "seed": 6,
+ "mode": "real",
+ "names": 630,
+ "name_parts": 165,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.1,
+ "signs_with_options": 44,
+ "read": 14,
+ "heldout": 36.24,
+ "readings": {
+  "002": "vara",
+  "090": "āḷ",
+  "140": "mūla",
+  "142": "āl",
+  "226": "kuḷam",
+  "235": "muṭi",
+  "368": "kōṭu",
+  "388": "manu",
+  "555": "para",
+  "590": "kōla",
+  "615": "vayal",
+  "690": "kuṭa",
+  "840": "kūr",
+  "904": "tiru"
+ },
+ "secs": 0
+}

@@ -1,0 +1,21 @@
+{
+ "lang": "telugu4bm",
+ "seed": 8,
+ "mode": "null",
+ "names": 1125,
+ "name_parts": 210,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.28,
+ "signs_with_options": 19,
+ "read": 5,
+ "heldout": -9.97,
+ "readings": {
+  "002": "jaṭā",
+  "070": "amma",
+  "100": "mukha",
+  "760": "koṇḍa",
+  "806": "nara"
+ },
+ "secs": 0
+}

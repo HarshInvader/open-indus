@@ -1,0 +1,33 @@
+{
+ "lang": "malayalam4bm",
+ "seed": 8,
+ "mode": "null",
+ "names": 630,
+ "name_parts": 165,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.1,
+ "signs_with_options": 44,
+ "read": 17,
+ "heldout": 21.72,
+ "readings": {
+  "002": "vara",
+  "070": "vēḷ",
+  "100": "talai",
+  "140": "mūla",
+  "226": "kuḷam",
+  "235": "muṭi",
+  "435": "tiru",
+  "460": "malai",
+  "503": "mala",
+  "575": "kāvu",
+  "590": "kōṭu",
+  "615": "vayal",
+  "617": "kaṇṭa",
+  "705": "kuṭa",
+  "740": "kāl",
+  "840": "kūr",
+  "920": "nīl"
+ },
+ "secs": 0
+}

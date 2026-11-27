@@ -1,0 +1,33 @@
+{
+ "lang": "tamil4b_x3_3",
+ "seed": 3,
+ "mode": "real",
+ "names": 683,
+ "name_parts": 233,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.64,
+ "signs_with_options": 50,
+ "read": 17,
+ "heldout": 232.1,
+ "readings": {
+  "060": "kuṟu",
+  "070": "vēl",
+  "100": "talai",
+  "226": "kuḷam",
+  "233": "kacci",
+  "235": "muṭi",
+  "460": "koṭi",
+  "503": "māl",
+  "617": "eyil",
+  "705": "kuṭam",
+  "740": "kuṭi",
+  "741": "kāl",
+  "760": "muḷ",
+  "790": "kaṇi",
+  "817": "maṇi",
+  "820": "mīṉ",
+  "904": "alai"
+ },
+ "secs": 0
+}

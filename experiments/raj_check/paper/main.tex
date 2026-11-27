@@ -22,7 +22,7 @@
 
 \title{\textbf{A language contest that cannot tell right pictures from wrong ones:\\a replication and control study of an AI-assisted Dravidian reading of the Indus script}}
 \author{Open Indus project\\[2pt]\small Published version: \href{https://doi.org/10.5281/zenodo.24579269}{doi:10.5281/zenodo.24579269}, \url{https://indus.opencitizenscience.org}}
-\date{27 November 2026 \quad Preprint, not peer reviewed}
+\date{27 November 2026 \quad Version 2 (adds stages 3 and 4) \quad Preprint, not peer reviewed}
 
 \begin{document}
 \maketitle
@@ -52,7 +52,7 @@ over ten random splits $s$. The paper reports $D=+223\pm103$ for Tamil (10 of 10
 
 \paragraph{Sources.} All files of the Zenodo record \citep{raj2026}, version 0.7, with MD5 sums equal to Zenodo's. The corpus is the ICIT copy \citep{icit} in the \texttt{lipi} repository at commit \texttt{fc8813a} \citep{lipi}, whose SHA-256 equals the hash in the paper's README.
 
-\paragraph{Preregistration.} Stage~1 (T0--T3) was written and hashed before any control was run, when only seed~0 of the reproduction had been seen. Stage~2 (T4) was written and hashed after stage~1 and before any agent was run or any Japanese score was seen. Both plans, their hashes and the commits that fixed them are in our repository. Each plan states, before the run, which outcome supports the paper and which goes against it.
+\paragraph{Preregistration.} Stage~1 (T0--T3) was written and hashed before any control was run, when only seed~0 of the reproduction had been seen. Stage~2 (T4) was written and hashed after stage~1 and before any agent was run or any Japanese score was seen. Stages 3 (T5), 4a (T6) and 4b (T7) were each written and hashed before any of their agents ran or any of their scores was seen. All plans, their hashes and the commits that fixed them are in our repository. Each plan states, before the run, which outcome supports the paper and which goes against it.
 
 \paragraph{Code.} The paper's code runs unchanged except for one environment hook (\texttt{contest\_ctl.py}, saved as a diff) that permutes the picture-word dictionary or replaces the corpus with a fake one before the contest starts.
 
@@ -65,6 +65,12 @@ over ten random splits $s$. The paper reports $D=+223\pm103$ for Tamil (10 of 10
 \paragraph{T3. Object marks.} The paper reports three readings that name the object type their sign gathers on (\S11.1): sign 840 `armlet' on bangles, 061 `copper' and 705/706 `smith' on copper tablets. We recomputed its scan (296 signs $\times$ 15 object types, Bonferroni line $1.1\times10^{-5}$) and fixed in advance a keyword rule for when a reading's gloss names an object type. The statistic is the number of passing sign--object pairs whose reading names the object, compared with 100,000 random reassignments of the readings among read signs. We also counted the distinct texts behind each case and recomputed Fisher's test with each distinct text counted once.
 
 \paragraph{T4. A wrong language with the same naming style.} The paper's rivals have far fewer picture options per sign than Tamil (2.5): Sanskrit 1.1, Akkadian 0.5, as the paper notes for Akkadian. A fair control is a language with no proposed Indus link whose names, like Tamil's, are built from drawable things. We used Japanese family names \citep{jpnames}, ranked by population. Inputs were built by three AI agents using the paper's own translator and labeler prompts with only the language changed (diffs saved): a translator that saw only the 171 English picture descriptions and gave native Japanese words; a segmenter that split each name into its parts in standalone form and marked each part native or Sino-Japanese; and a labeler that assigned each part a category. As Tamil drops Sanskrit loans, Sino-Japanese parts were dropped by the contest's own loan rule, and names were taken in rank order until 1,125 remained (Tamil's count). Number words and all settings followed Tamil's headline configuration. No list was edited after a run. Decision rule, the paper's own bar applied in reverse: the contest fails to single out Tamil if $D_J\ge D_T/2=111.5$ and Japanese is above its control in at least 8 of 10 splits; otherwise it passes.
+
+\paragraph{T5. A panel of other languages.} One unrelated language is one data point, so we ran the contest, unchanged, on three more, chosen before any run: Sumerian (Mesopotamia, the Indus cities' trading partner, once proposed as the Indus language), the 1,600 most attested Ur~III personal names in Oracc ePSD2; Egyptian (the other great early writing system, with rebus writing), 1,600 personal names drawn at random from the Thesaurus Linguae Aegyptiae lemma list; and Finnish, a placebo whose surnames, like Japanese ones, are built from landscape words, the 1,600 commonest surnames of the Finnish population register. Inputs were built as in T4 by nine fresh agents (a translator, a segmenter and a labeler per language), with all words in plain ASCII as for Japanese, and names taken in rank order until 1,125 remained after loans were dropped. Rule per language, as in T4: \emph{fits like Tamil} if $D\ge111.5$ and above its control in at least 8 of 10 splits. The contest \emph{does not single out Tamil} if any language fits like Tamil; it \emph{picks out Tamil within the panel} if none does and none, Japanese included, beats Tamil in more than 3 of 10 splits; otherwise \emph{mixed}.
+
+\paragraph{T6. Tamil on equal terms.} Two features of the paper's Tamil input could favour it: its diacritic spelling, which the sound matcher was written for, and its mix of names (532 people, 240 places, 98 deities, 87 groups, 37 lineages, 33 hills, 29 celestial names, 14 rivers and others, from the Sangam poems). We reran the paper's own Tamil lists mechanically changed: in plain ASCII (T6a; ``spelling explains little'' if $D\ge178.4$, 80\% of $D_T$), with personal names only (T6b), and both (T6c). As an exploratory check of list size, not preregistered, we also ran ten random subsets of 532 names of every kind.
+
+%T7METHODS
 
 \paragraph{Sound-alike share (descriptive).} For each reading chosen in the paper's own headline runs we recorded whether it is a literal picture word or a name part admitted for sounding like one.
 
@@ -143,15 +149,43 @@ Signs read, mean & 27.4 & 27.9 & 18\\
 \label{fig:seal}
 \end{figure}
 
+\paragraph{T5. No other language fits like Tamil, but most beat their control.} Sumerian scores $+103.5\pm70$ (above its control in 9 of 10 splits), Egyptian $+77.6\pm148$ (7 of 10) and Finnish $+63.7\pm28$ (10 of 10); Table~\ref{tab:panel}. None reaches 111.5, so none fits like Tamil; because Japanese beats Tamil in 4 of 10 splits, the panel verdict by the plan is \emph{mixed}. Tamil has the highest and steadiest score of all languages tried. But every language with a real naming system except Sanskrit beats its own scrambled control in most splits, so beating that control is what real names do on these seals, whatever the language. The size of the lead follows picture options per sign (Tamil 2.52, Japanese 2.38, all others 1.6 or fewer) more than any link to the Indus.
+
+\begin{table}[t]
+\centering\small
+\caption{Every language run with the paper's code unchanged (stages 1--4a). $D$: real minus scrambled names on held-out seals, mean of 10 splits.}
+\label{tab:panel}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrcccc}
+\toprule
+Names & $D$, mean $\pm$ sd & Above control & Ahead of Tamil & Pictures/sign & Signs read\\
+\midrule
+Old Tamil (paper, 1,125 names) & $+223.0\pm103$ & 10/10 & & 2.52 & 27.4\\
+Old Tamil, plain ASCII (T6a) & $+205.8\pm98$ & 10/10 & 3/10 & 3.90 & 40.5\\
+Japanese family names (T4) & $+134.5\pm195$ & 7/10 & 4/10 & 2.38 & 27.9\\
+Sumerian, Ur III persons (T5) & $+103.5\pm70$ & 9/10 & 1/10 & 1.12 & 15.6\\
+Egyptian persons (T5) & $+77.6\pm148$ & 7/10 & 3/10 & 1.62 & 15.9\\
+Finnish surnames (T5) & $+63.7\pm28$ & 10/10 & 0/10 & 0.78 & 12.7\\
+Old Tamil, people only (T6b) & $+2.9\pm246$ & 4/10 & 2/10 & 1.07 & 13.9\\
+Vedic Sanskrit (paper) & $-13.3\pm45$ & 4/10 & 0/10 & 1.06 & 17.8\\
+%T7ROWS
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{T6. Tamil's score comes from its place, landscape and group names.} In plain ASCII Tamil still scores +205.8 (10 of 10): by the plan, spelling explains little (stripping the marks merges letters and gives Tamil more picture options, not fewer). With personal names only, Tamil scores $+2.9\pm246$ (4 of 10), and $+28.3$ in ASCII. Random subsets of 532 names of every kind score a median of +177.7 (range +98.5 to +230.9), so the collapse is due to the kind of name, not the size of the list. Tamil's personal names alone fit the seals worse than Sumerian or Egyptian personal names. Yet the paper reads the seals as names of people with their titles and clans.
+
+%T7RESULTS
+
 \section{Discussion}\label{sec:discussion}
 
-\paragraph{What the contest measures.} The contest beats noise: real names beat scrambled names, and real seals beat fake ones. It does not beat the placebo that matters for a reading built on pictures. A test of the claim that sign~X depicts word~Y must score lower when Y is given to the wrong sign; this one does not (T1). What remains is a fit between the naming style of a language and the recurring sign pairs of the seals. Sanskrit's failure (and Akkadian's, $-2$, in the paper) is largely a failure of naming style: their names are mostly single words, gods' names and verbs, with few drawable parts. Japanese, which builds names from drawable things (\emph{Yamada} `mountain' + `rice field'), gets most of the way to Tamil (T4). Tamil's real advantage over Japanese is consistency (sd 103 against 195; 10 of 10 splits against 7 of 10), which may reflect its larger stock of short sound-alike name parts as much as any link to the script.
+\paragraph{What the contest measures.} The contest beats noise: real names beat scrambled names, and real seals beat fake ones. It does not beat the placebo that matters for a reading built on pictures. A test of the claim that sign~X depicts word~Y must score lower when Y is given to the wrong sign; this one does not (T1). What remains is a fit between the naming style of a language and the recurring sign pairs of the seals. Sanskrit's failure (and Akkadian's, $-2$, in the paper) is largely a failure of naming style: their names are mostly single words, gods' names and verbs, with few drawable parts. Japanese, which builds names from drawable things (\emph{Yamada} `mountain' + `rice field'), gets most of the way to Tamil (T4). Stages 3 and 4a sharpen this. Across six languages the lead follows picture options per sign, and inside Tamil it comes from place, hill, river, god and group names, the most drawable part of the vocabulary, not from the personal names the paper says the seals record. Tamil's real advantage over Japanese is consistency (sd 103 against 195; 10 of 10 splits against 7 of 10), which may reflect its larger stock of short sound-alike name parts as much as any link to the script.
 
 \paragraph{Comparison with a Sanskrit reading of the same corpus.} \citet{lipi} reads the script syllabically as Sanskrit, using the same ICIT file. The two programmes share a kind of evidence: a key fitted to the corpus, judged by how well the texts then read in the target language. In both, no value was fixed before the data used to test it, and neither has been tested on newly found material. Our earlier checks (in the same repository) found that the Sanskrit key reads random sign strings nearly as well as real texts; here the Tamil contest scores the same with the pictures on the wrong signs. The two methods crown different languages on the same data, which by itself shows that fitted readings do not settle the language. \citet{raj2026} differs, to its credit, in a held-out design, a scrambled-name control, preregistered plans, rival languages run under the same code, published wrong-word rates and an explicit list of limits.
 
 \paragraph{What is new.} The Dravidian hypothesis and its best-known readings are not new, and the paper credits them: fish = \tl{mīṉ} `star' is Heras's and Parpola's; \tl{poṟai} `burden' echoes Mahadevan's. What is new is the scale (one key for 150 signs), the speed of AI-assisted work, and above all the openness, which is what made this check possible within a day.
 
-\paragraph{Limits of this study.} Our controls test the language contest, not each of the 150 readings; a reading may be right even if the contest cannot show it. The Japanese inputs were built by AI agents, as the paper's were, and a different segmentation could move $D_J$ either way. Our fake-seal and permutation tests use 20 and 50 replicates, so $p$ values are coarse. We ran no human-rated test.
+\paragraph{Limits of this study.} Our controls test the language contest, not each of the 150 readings; a reading may be right even if the contest cannot show it. The Japanese, Sumerian, Egyptian and Finnish inputs were built by AI agents, as the paper's were, with no expert check of the Sumerian and Egyptian lists, and a different segmentation could move any of these scores either way. Our fake-seal and permutation tests use 20 and 50 replicates, so $p$ values are coarse. We ran no human-rated test.
 
 \paragraph{What would settle it.} Values fixed before testing, then (1)~a blind reading of new or unpublished inscriptions; (2)~Dravidianists rating, blind, the method's readings of real texts mixed with readings of look-alike fake texts; (3)~the whole pipeline run end to end on a deciphered logographic corpus and on a planted wrong language. Each of these can fail, which is what makes it evidence.
 
@@ -163,7 +197,7 @@ We reproduced the language contest of \citet{raj2026} exactly and added preregis
 Plans, hashes, code, the control hook, agent prompts and outputs, and all results: \url{https://github.com/HarshInvader/open-indus/tree/main/experiments/raj_check}. The paper's own files are at \citet{raj2026} (CC BY 4.0); the corpus copy is not redistributed.
 
 \section*{Use of AI}
-The analyses, code and a first draft of this text were prepared with Claude (Anthropic), an AI model, under the author's direction. Three AI agents built the Japanese inputs using the original paper's prompts.
+The analyses, code and a first draft of this text were prepared with Claude (Anthropic), an AI model, under the author's direction. Fresh AI agents with no project context built the inputs for every added language using the original paper's prompts with only the language changed; their prompts and outputs are archived.
 
 \section*{Acknowledgements}
 We thank Siva Raj for publishing the complete data, code and test archive that made this check possible.

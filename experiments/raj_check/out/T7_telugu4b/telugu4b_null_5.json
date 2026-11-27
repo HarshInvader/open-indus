@@ -1,0 +1,19 @@
+{
+ "lang": "telugu4b",
+ "seed": 5,
+ "mode": "null",
+ "names": 182,
+ "name_parts": 25,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.2,
+ "signs_with_options": 14,
+ "read": 3,
+ "heldout": 32.06,
+ "readings": {
+  "140": "amma",
+  "255": "toṇḍa",
+  "740": "koṇḍa"
+ },
+ "secs": 0
+}

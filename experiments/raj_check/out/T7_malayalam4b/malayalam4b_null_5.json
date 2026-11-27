@@ -1,0 +1,25 @@
+{
+ "lang": "malayalam4b",
+ "seed": 5,
+ "mode": "null",
+ "names": 510,
+ "name_parts": 88,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.94,
+ "signs_with_options": 38,
+ "read": 9,
+ "heldout": -43.21,
+ "readings": {
+  "090": "āḷ",
+  "142": "āl",
+  "236": "kūr",
+  "575": "kāvu",
+  "590": "kōla",
+  "595": "kōṭu",
+  "740": "kuṭa",
+  "741": "kāl",
+  "920": "nīl"
+ },
+ "secs": 0
+}
