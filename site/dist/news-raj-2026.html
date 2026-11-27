@@ -167,7 +167,18 @@
 <h2>Test 6: is the paper’s Tamil list special?</h2>
 <p>The chart above makes Tamil look like the best candidate, so we checked what in its inputs gives it the lead. Two things set it apart from every other list. Its words are written with Tamil letters, and the sound matcher has cheap near-matches for them (ṉ≈n, ḷ≈l, ā≈a). And its 1,125 names are not only people: 532 are people, and the rest are places, gods, groups, lineages, hills, stars and rivers from the Sangam poems.</p>
 <p>Spelling turned out not to matter: written in plain letters, like the other languages, Tamil still scores +206. The kind of name matters a lot. With people’s names only, Tamil scores +3, no better than chance. That is not because the list is shorter: random mixed lists of the same size (532 names) score a median of +178. <strong>Tamil’s score comes from its place, hill, river, god and group names.</strong> Its personal names alone fit the seals worse than Sumerian or Egyptian personal names. Yet the paper reads the seals as names of people with their titles and clans.</p>
-<!--4B-->
+<h2>Test 7: a second Tamil list, and Tamil’s sister languages</h2>
+<p>If the test really detects Old Tamil, a second list of Old Tamil names, built independently from the same kinds of sources, should score about as well as the paper’s. So we had a fresh AI agent, which knew nothing about this project, build one from the Sangam poems and the oldest Tamil inscriptions. It used the paper’s prompt for its Sanskrit rival list, with the language and sources changed. We also added an instruction to keep honorific endings like <em>-ār</em> as separate parts, which the paper’s prompt does not have; an independent review caught this, and we tested it below. Another agent spot-checked the list against the Tamil Lexicon and the Dravidian Etymological Dictionary before anything was run.</p>
+<p><strong>The second Old Tamil list scores +4</strong>, about the same as its scrambled control on average, with large swings from run to run (4 of 10 runs above chance). The method finds just as many pictures to read with it, so that is not the reason.</p>
+<p>We then took the two lists apart, with each check fixed in advance:</p>
+<ul>
+  <li><strong>The picture words are not the cause.</strong> The paper’s names with the new picture words score +276; the new names with the paper’s picture words score −72.</li>
+  <li><strong>The honorific endings are not the cause.</strong> With every <em>-ār</em>, <em>-aṉ</em> and similar ending removed, the new list still scores +7, and the paper’s list still scores +198.</li>
+  <li><strong>It is which names are in the list.</strong> About 430 names appear in both lists. The paper’s other names score +218 on their own; the new list’s other names score −96.</li>
+</ul>
+<p>So the +223 does not survive rebuilding the list. It depends on which names went into the paper’s list, and the paper’s archive does not document how that list was compiled. This is not a verdict on Old Tamil: one rebuilt list is one data point, and we are building a second one with the paper’s prompt unchanged.</p>
+<p>The sister languages are weak tests. <strong>Old Telugu is void:</strong> our compiler took two thirds of its names from Nannaya’s Mahābhārata, which are Sanskrit, so once loans are dropped the method has almost nothing to work with and reads fewer than two signs. <strong>Old Malayalam</strong>, from texts 600 to 1,400 years later than the Sangam poems and with many Sanskrit loans dropped, does not beat its control (−92). <strong>Old Kannada is void too</strong>, for the same reason as Telugu: two thirds of its name parts are Sanskrit loans, and the method reads under three signs. By the rule we fixed in advance, the test does not favour the Dravidian languages, but with two of the three runs void that verdict carries little weight.</p>
+<p>The fair summary is that one list fits well, and the score moves a lot when the list changes. That sensitivity is a reason for caution: the result depends on choices in building the list that the paper does not fix.</p>
 
 <figure class="rx" id="all-runs" aria-labelledby="rx-title">
   <div class="rx-head">
@@ -473,6 +484,240 @@
    ]
   },
   {
+   "id": "tamil_fresh",
+   "label": "Old Tamil, second list",
+   "note": "same sources, new agent",
+   "group": "dravidian",
+   "names_desc": "Sangam and Tamil-Brahmi names, 68% people",
+   "names": 1125,
+   "D": 4.2,
+   "sd": 184.5,
+   "above": 4,
+   "ahead": 1,
+   "opts": 2.65,
+   "read": 30.2,
+   "seeds": [
+    -143.4,
+    153.6,
+    -46.0,
+    227.0,
+    325.6,
+    79.8,
+    -103.9,
+    -250.4,
+    -138.1,
+    -61.9
+   ]
+  },
+  {
+   "id": "tamil_x2",
+   "label": "Paper's names, second list's pictures",
+   "note": "exploratory",
+   "group": "tamilctl",
+   "names_desc": "the paper's 1,125 names with the second list's picture words",
+   "names": 1125,
+   "D": 276.4,
+   "sd": 87.4,
+   "above": 10,
+   "ahead": 8,
+   "opts": 2.49,
+   "read": 27.9,
+   "seeds": [
+    295.6,
+    341.9,
+    237.0,
+    338.4,
+    247.2,
+    249.2,
+    144.4,
+    181.5,
+    451.4,
+    276.9
+   ]
+  },
+  {
+   "id": "tamil_x1",
+   "label": "Second list's names, paper's pictures",
+   "note": "exploratory",
+   "group": "tamilctl",
+   "names_desc": "the second list's names with the paper's picture words",
+   "names": 1125,
+   "D": -72.5,
+   "sd": 176.2,
+   "above": 3,
+   "ahead": 1,
+   "opts": 2.83,
+   "read": 30.5,
+   "seeds": [
+    -260.9,
+    129.4,
+    -104.8,
+    -36.1,
+    249.1,
+    71.5,
+    -154.1,
+    -291.1,
+    -216.2,
+    -111.5
+   ]
+  },
+  {
+   "id": "tamil_c6",
+   "label": "Paper's names not in the second list",
+   "note": "preregistered check",
+   "group": "tamilctl",
+   "names_desc": "the paper's names that the second list lacks",
+   "names": 688,
+   "D": 218.0,
+   "sd": 225.1,
+   "above": 8,
+   "ahead": 6,
+   "opts": 2.03,
+   "read": 23.2,
+   "seeds": [
+    335.5,
+    -6.9,
+    122.6,
+    216.7,
+    410.4,
+    300.3,
+    544.4,
+    258.4,
+    -260.3,
+    259.1
+   ]
+  },
+  {
+   "id": "tamil_c7",
+   "label": "Second list's names not in the paper's",
+   "note": "preregistered check",
+   "group": "tamilctl",
+   "names_desc": "the second list's names that the paper's lacks",
+   "names": 695,
+   "D": -96.2,
+   "sd": 326.0,
+   "above": 4,
+   "ahead": 0,
+   "opts": 2.32,
+   "read": 24,
+   "seeds": [
+    -171.0,
+    -712.8,
+    -545.4,
+    201.2,
+    20.6,
+    184.6,
+    -123.9,
+    -47.7,
+    333.7,
+    -101.3
+   ]
+  },
+  {
+   "id": "tamil_c4",
+   "label": "Second list, endings removed",
+   "note": "preregistered check",
+   "group": "tamilctl",
+   "names_desc": "honorific and gender endings dropped",
+   "names": 1108,
+   "D": 7.4,
+   "sd": 77.5,
+   "above": 7,
+   "ahead": 0,
+   "opts": 2.78,
+   "read": 30,
+   "seeds": [
+    -150.8,
+    93.4,
+    30.5,
+    -1.1,
+    25.2,
+    9.8,
+    5.8,
+    129.2,
+    0.7,
+    -68.8
+   ]
+  },
+  {
+   "id": "kannada",
+   "label": "Old Kannada",
+   "note": "void: reads under 3 signs",
+   "group": "dravidian",
+   "names_desc": "inscription and early literary names of every kind",
+   "names": 443,
+   "D": 22.0,
+   "sd": 25.6,
+   "above": 8,
+   "ahead": 0,
+   "opts": 0.2,
+   "read": 2.6,
+   "seeds": [
+    -15.1,
+    8.5,
+    59.2,
+    15.1,
+    -17.4,
+    45.7,
+    41.1,
+    36.4,
+    12.3,
+    34.1
+   ]
+  },
+  {
+   "id": "telugu",
+   "label": "Old Telugu",
+   "note": "void: reads under 2 signs",
+   "group": "dravidian",
+   "names_desc": "inscription and early literary names of every kind",
+   "names": 182,
+   "D": 31.7,
+   "sd": 184.1,
+   "above": 4,
+   "ahead": 1,
+   "opts": 0.2,
+   "read": 1.6,
+   "seeds": [
+    -87.7,
+    -76.7,
+    -23.9,
+    58.4,
+    64.3,
+    -16.6,
+    -99.5,
+    530.6,
+    -41.2,
+    8.8
+   ]
+  },
+  {
+   "id": "malayalam",
+   "label": "Old Malayalam",
+   "note": "short list (510 names)",
+   "group": "dravidian",
+   "names_desc": "inscription and early literary names of every kind",
+   "names": 510,
+   "D": -92.1,
+   "sd": 85.1,
+   "above": 0,
+   "ahead": 0,
+   "opts": 0.94,
+   "read": 10,
+   "seeds": [
+    -213.7,
+    -4.5,
+    -182.0,
+    -18.1,
+    -125.8,
+    -30.6,
+    -32.9,
+    -41.4,
+    -220.7,
+    -51.6
+   ]
+  },
+  {
    "id": "fake_order",
    "label": "Tamil on shuffled seals",
    "note": "20 fake corpora",
@@ -588,6 +833,7 @@
   function draw() {
     var v = visible(), seeds = seedBox.checked;
     var lo = -80, hi = 250;
+    v.forEach(function (r) { lo = Math.min(lo, r.D); hi = Math.max(hi, r.D); });
     if (seeds) v.forEach(function (r) { r.seeds.forEach(function (x) { lo = Math.min(lo, x); hi = Math.max(hi, x); }); });
     lo = seeds ? Math.floor(lo / 50) * 50 : lo; hi = Math.ceil(hi / 50) * 50 + (seeds ? 0 : 50);
     function pct(x) { return ((x - lo) / (hi - lo) * 100).toFixed(3) + '%'; }

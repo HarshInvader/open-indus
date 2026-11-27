@@ -21,7 +21,7 @@ RUNS = [  # (id, label, note, group, dir, lang file prefix, names description)
  ('tamil_c6', "Paper's names not in the second list", 'preregistered check', 'tamilctl', 'T8_c6', 'tamil4c_c6', "the paper's names that the second list lacks"),
  ('tamil_c7', "Second list's names not in the paper's", 'preregistered check', 'tamilctl', 'T8_c7', 'tamil4c_c7', "the second list's names that the paper's lacks"),
  ('tamil_c4', 'Second list, endings removed', 'preregistered check', 'tamilctl', 'T8_c4', 'tamil4c_c4', 'honorific and gender endings dropped'),
- ('kannada', 'Old Kannada', 'Dravidian', 'dravidian', 'T7_kannada4b', 'kannada4b', 'inscription and early literary names of every kind'),
+ ('kannada', 'Old Kannada', 'void: reads under 3 signs', 'dravidian', 'T7_kannada4b', 'kannada4b', 'inscription and early literary names of every kind'),
  ('telugu', 'Old Telugu', 'void: reads under 2 signs', 'dravidian', 'T7_telugu4b', 'telugu4b', 'inscription and early literary names of every kind'),
  ('malayalam', 'Old Malayalam', 'short list (510 names)', 'dravidian', 'T7_malayalam4b', 'malayalam4b', 'inscription and early literary names of every kind'),
 ]

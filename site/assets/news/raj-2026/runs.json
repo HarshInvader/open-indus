@@ -434,6 +434,32 @@
    ]
   },
   {
+   "id": "kannada",
+   "label": "Old Kannada",
+   "note": "void: reads under 3 signs",
+   "group": "dravidian",
+   "names_desc": "inscription and early literary names of every kind",
+   "names": 443,
+   "D": 22.0,
+   "sd": 25.6,
+   "above": 8,
+   "ahead": 0,
+   "opts": 0.2,
+   "read": 2.6,
+   "seeds": [
+    -15.1,
+    8.5,
+    59.2,
+    15.1,
+    -17.4,
+    45.7,
+    41.1,
+    36.4,
+    12.3,
+    34.1
+   ]
+  },
+  {
    "id": "telugu",
    "label": "Old Telugu",
    "note": "void: reads under 2 signs",

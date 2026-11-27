@@ -63,6 +63,7 @@
   function draw() {
     var v = visible(), seeds = seedBox.checked;
     var lo = -80, hi = 250;
+    v.forEach(function (r) { lo = Math.min(lo, r.D); hi = Math.max(hi, r.D); });
     if (seeds) v.forEach(function (r) { r.seeds.forEach(function (x) { lo = Math.min(lo, x); hi = Math.max(hi, x); }); });
     lo = seeds ? Math.floor(lo / 50) * 50 : lo; hi = Math.ceil(hi / 50) * 50 + (seeds ? 0 : 50);
     function pct(x) { return ((x - lo) / (hi - lo) * 100).toFixed(3) + '%'; }

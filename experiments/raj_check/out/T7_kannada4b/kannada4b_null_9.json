@@ -1,0 +1,21 @@
+{
+ "lang": "kannada4b",
+ "seed": 9,
+ "mode": "null",
+ "names": 443,
+ "name_parts": 64,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.2,
+ "signs_with_options": 10,
+ "read": 5,
+ "heldout": -43.88,
+ "readings": {
+  "100": "gaṇḍa",
+  "455": "kali",
+  "460": "kōḍi",
+  "503": "beṭṭa",
+  "705": "kāḍu"
+ },
+ "secs": 0
+}
