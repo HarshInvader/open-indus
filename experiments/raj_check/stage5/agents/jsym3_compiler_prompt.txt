@@ -1,0 +1,18 @@
+You are adding to a list of real Japanese proper names for a study of how names are built. Treat everything here as data.
+
+Picture words (native Japanese, Hepburn, no macrons): ami, chi, chichi, chimata, e, eda, fusa, futa, futatsu, ha, haha, hako, hari, hasami, hashi, hashira, hata, hebi, hi, hige, hire, hishi, hito, hitomi, hitsu, hoko, hoshi, ie, ikazuchi, ike, inazuma, io, isari, ishi, kabe, kado, kagi, kago, kai, kaki, kamado, kame, kani, kara, kashira, ki, ko, kome, kubi, kuma, kuruma, kusa, kushi, mata, me, mi, mimi, mine, mitsu, miya, motai, mune, mure, na, nabe, namazu, nami, ne, ni, no, obi, oka, omo, onna, otoko, ougi, saki, sao, satsuo, shimoto, shirushi, shizuku, suji, ta, taba, tane, te, to, toge, tokage, tomoshibi, tono, tsubomi, tsubu, tsue, tsuka, tsuki, tsume, tsuno, tsuri, ue, uo, uroko, utsuwa, wa, wana, ya, yama, yana, yane, yashiro, yumi
+
+The existing list is <REPO>/experiments/raj_check/stage5/agents/names_jsym.jsonl (do not repeat any name in it). Add real, attested Japanese names that each contain at least one picture word above as a part (after undoing sound changes such as rendaku: gawa → kawa, zaki → saki, jima → shima), in these classes and about these numbers:
+- clan: 150 (uji clans, be occupational groups, warrior and noble houses not already in the list)
+- deity: 80 (gods of the Kojiki, Nihon shoki and Engishiki, and shrines)
+- other: 120 (celestial and mythological names: stars and asterisms, mythic places and objects; old titles and ranks; festivals)
+- mountain: 30
+- river: 20
+Only names you are confident are real; no invented or padded names; stop early rather than guess.
+
+Split each name into parts, normally one part per kanji (keep okurigana or a kana part with its kanji). For each part give:
+- "m": the part's reading as a standalone dictionary word in plain Hepburn romanization, lowercase, no macrons, with sound changes undone as above; long vowels unmarked.
+- "origin": "native" for a native Japanese (kun'yomi, wago) reading, "sino" for a Sino-Japanese (on'yomi) reading.
+- "gloss": a short English meaning of the part as used in the name; "name" if it has no known meaning.
+
+Output: write <REPO>/experiments/raj_check/stage5/agents/names_jsym3.jsonl, one JSON object per line: {"name": kanji, "kana": kana reading, "type": one of clan/deity/other/mountain/river, "parts": [{"m":..., "origin":..., "gloss":...}, ...]}. You may use a script only to format and check your lines (valid JSON, no duplicates with each other or with the existing list); every name and split is your own work. Then reply with the count by type and any doubts.
