@@ -1,0 +1,755 @@
+{
+ "names": [
+  {
+   "name": "Aiyāti Ciṟuveṇtēraiyār",
+   "type": "person",
+   "morphemes": [
+    "aiyāti",
+    "ciṟu",
+    "veḷ",
+    "tērai",
+    "ār"
+   ],
+   "gloss": "name + small + white + toad + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Āviyar",
+   "type": "lineage",
+   "morphemes": [
+    "āviyar"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Talaiyālaṅkāṉattuc Ceruveṉṟa Neṭuñceḻiyaṉ",
+   "type": "person",
+   "morphemes": [
+    "talai",
+    "ālam",
+    "kāṉam",
+    "ceru",
+    "vel",
+    "neṭu",
+    "ceḻiyaṉ"
+   ],
+   "gloss": "head + banyan + forest + battle + win + long + Pāṇṭiya title",
+   "source": "sangam"
+  },
+  {
+   "name": "Vāṉavaṉ Maṟavaṉ",
+   "type": "person",
+   "morphemes": [
+    "vāṉavaṉ",
+    "maṟavaṉ"
+   ],
+   "gloss": "Cēra title + warrior",
+   "source": "sangam"
+  },
+  {
+   "name": "Naṟcēntaṉār",
+   "type": "person",
+   "morphemes": [
+    "nal",
+    "cēntaṉ",
+    "ār"
+   ],
+   "gloss": "good + red one + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Asātaṉ",
+   "type": "person",
+   "morphemes": [
+    "asātaṉ"
+   ],
+   "gloss": "Āṣāḍhā asterism",
+   "source": "inscription"
+  },
+  {
+   "name": "Cērakōvaṉār",
+   "type": "person",
+   "morphemes": [
+    "cēral",
+    "kōvaṉ",
+    "ār"
+   ],
+   "gloss": "Cēra + king + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Kuṟamakaḷ Kuṟiyeyiṉiyār",
+   "type": "person",
+   "morphemes": [
+    "kuṟamakaḷ",
+    "kuṟiyeyiṉi",
+    "ār"
+   ],
+   "gloss": "Kuṟava woman + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Ilavantikaippaḷḷit Tuñciya Naṉmāṟaṉ",
+   "type": "person",
+   "morphemes": [
+    "ilavantikai",
+    "paḷḷi",
+    "tuñcu",
+    "nal",
+    "māṟaṉ"
+   ],
+   "gloss": "water garden + palace + die + good + Pāṇṭiya title",
+   "source": "sangam"
+  },
+  {
+   "name": "Nēri",
+   "type": "hill",
+   "morphemes": [
+    "nēri"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Atiṉaṉ",
+   "type": "person",
+   "morphemes": [
+    "atiṉaṉ"
+   ],
+   "gloss": "name",
+   "source": "inscription"
+  },
+  {
+   "name": "Cēyōṉ",
+   "type": "deity",
+   "morphemes": [
+    "cēy",
+    "ōṉ"
+   ],
+   "gloss": "red one + he",
+   "source": "sangam"
+  },
+  {
+   "name": "Akampaṉ Mālātaṉār",
+   "type": "person",
+   "morphemes": [
+    "akampaṉ",
+    "mālātaṉ",
+    "ār"
+   ],
+   "gloss": "name + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Ceyalūr Iḷampoṉ Cāttaṉ Koṟṟaṉār",
+   "type": "person",
+   "morphemes": [
+    "ceyalūr",
+    "iḷa",
+    "poṉ",
+    "cāttaṉ",
+    "koṟṟaṉ",
+    "ār"
+   ],
+   "gloss": "name + young + gold + name + victorious one + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Tittaṉ",
+   "type": "person",
+   "morphemes": [
+    "tittaṉ"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Mutukūṟṟaṉār",
+   "type": "person",
+   "morphemes": [
+    "mutu",
+    "kūṟṟaṉ",
+    "ār"
+   ],
+   "gloss": "old + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Tāyaṅkaṇṇiyār",
+   "type": "person",
+   "morphemes": [
+    "tāyam",
+    "kaṇṇi",
+    "ār"
+   ],
+   "gloss": "name + garland + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Viṟṟūṟṟu Mūteyiṉaṉār",
+   "type": "person",
+   "morphemes": [
+    "viṟṟūṟṟu",
+    "mutu",
+    "eyiṉaṉ",
+    "ār"
+   ],
+   "gloss": "name + old + hunter + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Uvarkkaṇṇūr",
+   "type": "place",
+   "morphemes": [
+    "uvarkkaṇṇūr"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Kāvaṉmullaip Pūtaṉār",
+   "type": "person",
+   "morphemes": [
+    "kāval",
+    "mullai",
+    "pūtaṉ",
+    "ār"
+   ],
+   "gloss": "guarding + jasmine + spirit + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Celvakkaṭuṅkō Vāḻiyātaṉ",
+   "type": "person",
+   "morphemes": [
+    "celvam",
+    "kaṭu",
+    "kō",
+    "vāḻi",
+    "ātaṉ"
+   ],
+   "gloss": "wealth + fierce + king + long live + name",
+   "source": "sangam"
+  },
+  {
+   "name": "Irumpai",
+   "type": "place",
+   "morphemes": [
+    "irumpai"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Muṭaṅkik Kiṭanta Neṭuñcēralātaṉ",
+   "type": "person",
+   "morphemes": [
+    "muṭaṅku",
+    "kiṭa",
+    "neṭu",
+    "cēral",
+    "ātaṉ"
+   ],
+   "gloss": "bend + lie + long + Cēra + name",
+   "source": "sangam"
+  },
+  {
+   "name": "Kāvirippūmpaṭṭiṉattuc Cēntaṅkaṇṇaṉār",
+   "type": "person",
+   "morphemes": [
+    "kāviri",
+    "pū",
+    "paṭṭiṉam",
+    "cēntaṉ",
+    "kaṇṇaṉ",
+    "ār"
+   ],
+   "gloss": "Kāviri river + flower + port town + red one + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Uṟaiyūr Maruttuvaṉ Tāmōtaraṉār",
+   "type": "person",
+   "morphemes": [
+    "uṟai",
+    "ūr",
+    "maruttuvaṉ",
+    "tāmōtaraṉ",
+    "ār"
+   ],
+   "gloss": "dwell + town + physician + Dāmodara + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Cellūr",
+   "type": "place",
+   "morphemes": [
+    "cellūr"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Kuḷamuṟṟam",
+   "type": "place",
+   "morphemes": [
+    "kuḷam",
+    "muṟṟam"
+   ],
+   "gloss": "tank + courtyard",
+   "source": "sangam"
+  },
+  {
+   "name": "Nallūr",
+   "type": "place",
+   "morphemes": [
+    "nal",
+    "ūr"
+   ],
+   "gloss": "good + town",
+   "source": "sangam"
+  },
+  {
+   "name": "Kaṭalaṉ",
+   "type": "person",
+   "morphemes": [
+    "kaṭalaṉ"
+   ],
+   "gloss": "man of the sea",
+   "source": "sangam"
+  },
+  {
+   "name": "Kōṭṭampalattut Tuñciya Mākkōtai",
+   "type": "person",
+   "morphemes": [
+    "kōṭṭam",
+    "ampalam",
+    "tuñcu",
+    "mā",
+    "kōtai"
+   ],
+   "gloss": "temple + hall + die + great + name",
+   "source": "sangam"
+  },
+  {
+   "name": "Kūṟṟu",
+   "type": "deity",
+   "morphemes": [
+    "kūṟṟu"
+   ],
+   "gloss": "death",
+   "source": "sangam"
+  },
+  {
+   "name": "Nalaṅkiḷḷi",
+   "type": "person",
+   "morphemes": [
+    "nalam",
+    "kiḷḷi"
+   ],
+   "gloss": "goodness + name",
+   "source": "sangam"
+  },
+  {
+   "name": "Mārivēṇkō",
+   "type": "person",
+   "morphemes": [
+    "māri",
+    "veḷ",
+    "kō"
+   ],
+   "gloss": "rain + white + king",
+   "source": "sangam"
+  },
+  {
+   "name": "Nalveḷḷiyār",
+   "type": "person",
+   "morphemes": [
+    "nal",
+    "veḷḷi",
+    "ār"
+   ],
+   "gloss": "good + Venus + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Kōpperuñcēral Irumpoṟai",
+   "type": "person",
+   "morphemes": [
+    "kō",
+    "peru",
+    "cēral",
+    "iru",
+    "poṟai"
+   ],
+   "gloss": "king + great + Cēra + great + Cēra title",
+   "source": "sangam"
+  },
+  {
+   "name": "Iḷaṅkaṭuṅkō",
+   "type": "person",
+   "morphemes": [
+    "iḷa",
+    "kaṭu",
+    "kō"
+   ],
+   "gloss": "young + fierce + king",
+   "source": "sangam"
+  },
+  {
+   "name": "Miñili",
+   "type": "person",
+   "morphemes": [
+    "miñili"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Mutiyaṉ Ātaṉuṅkaṉ",
+   "type": "person",
+   "morphemes": [
+    "mutiyaṉ",
+    "ātaṉ",
+    "uṅkaṉ"
+   ],
+   "gloss": "old one + name + name",
+   "source": "sangam"
+  },
+  {
+   "name": "Piṇṭaṉ",
+   "type": "person",
+   "morphemes": [
+    "piṇṭaṉ"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Pukār",
+   "type": "place",
+   "morphemes": [
+    "pukār"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Miḷaip Peruṅkantaṉār",
+   "type": "person",
+   "morphemes": [
+    "miḷai",
+    "peru",
+    "kantaṉ",
+    "ār"
+   ],
+   "gloss": "border fortress + great + Skanda + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Miḷaikiḻāṉ Nalvēṭṭaṉār",
+   "type": "person",
+   "morphemes": [
+    "miḷai",
+    "kiḻāṉ",
+    "nal",
+    "vēṭṭaṉ",
+    "ār"
+   ],
+   "gloss": "border fortress + landholder + good + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Maturaip Paṭaimaṅka Maṉṉiyār",
+   "type": "person",
+   "morphemes": [
+    "maturai",
+    "paṭaimaṅka",
+    "maṉṉi",
+    "ār"
+   ],
+   "gloss": "Madurai + name + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Atiyar Kōmāṉ Eḻiṉi",
+   "type": "person",
+   "morphemes": [
+    "atiyar",
+    "kōmāṉ",
+    "eḻiṉi"
+   ],
+   "gloss": "Atiyar clan + lord + name",
+   "source": "sangam"
+  },
+  {
+   "name": "Kāvirippūmpaṭṭiṉattuk Kārikkaṇṇaṉār",
+   "type": "person",
+   "morphemes": [
+    "kāviri",
+    "pū",
+    "paṭṭiṉam",
+    "kāri",
+    "kaṇṇaṉ",
+    "ār"
+   ],
+   "gloss": "Kāviri river + flower + port town + black one + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Iḷañcēral Irumpoṟai",
+   "type": "person",
+   "morphemes": [
+    "iḷa",
+    "cēral",
+    "iru",
+    "poṟai"
+   ],
+   "gloss": "young + Cēra + great + Cēra title",
+   "source": "sangam"
+  },
+  {
+   "name": "Āvi",
+   "type": "person",
+   "morphemes": [
+    "āvi"
+   ],
+   "gloss": "name",
+   "source": "sangam"
+  },
+  {
+   "name": "Veṇpūtiyār",
+   "type": "person",
+   "morphemes": [
+    "veḷ",
+    "pūti",
+    "ār"
+   ],
+   "gloss": "white + name + honorific",
+   "source": "sangam"
+  },
+  {
+   "name": "Kumaraṉ",
+   "type": "deity",
+   "morphemes": [
+    "kumaraṉ"
+   ],
+   "gloss": "youth",
+   "source": "sangam"
+  },
+  {
+   "name": "Perumpākkaṉār",
+   "type": "person",
+   "morphemes": [
+    "peru",
+    "pākkaṉ",
+    "ār"
+   ],
+   "gloss": "great + name + honorific",
+   "source": "sangam"
+  }
+ ],
+ "words": [
+  {
+   "english": "moons",
+   "word": "tiṅkaḷ"
+  },
+  {
+   "english": "crab",
+   "word": "ñaṇṭu"
+  },
+  {
+   "english": "crescents",
+   "word": "piṟai"
+  },
+  {
+   "english": "ladder",
+   "word": "ēṇi"
+  },
+  {
+   "english": "waves",
+   "word": "alai"
+  },
+  {
+   "english": "heads",
+   "word": "talai"
+  },
+  {
+   "english": "hunter",
+   "word": "vēṭṭuvaṉ"
+  },
+  {
+   "english": "mother",
+   "word": "tāy"
+  },
+  {
+   "english": "person",
+   "word": "āḷ"
+  },
+  {
+   "english": "fork",
+   "word": "kavai"
+  },
+  {
+   "english": "seeds",
+   "word": "maṇi"
+  },
+  {
+   "english": "net",
+   "word": "valai"
+  },
+  {
+   "english": "barb",
+   "word": "muḷ"
+  },
+  {
+   "english": "pipal",
+   "word": "aracu"
+  },
+  {
+   "english": "ear",
+   "word": "cevi"
+  },
+  {
+   "english": "building",
+   "word": "maṉai"
+  },
+  {
+   "english": "sun",
+   "word": "katir"
+  },
+  {
+   "english": "crossroads",
+   "word": "kavalai"
+  },
+  {
+   "english": "drum",
+   "word": "muḻavu"
+  },
+  {
+   "english": "vein",
+   "word": "narampu"
+  },
+  {
+   "english": "pot",
+   "word": "tāḻi"
+  },
+  {
+   "english": "lizard",
+   "word": "ōnti"
+  },
+  {
+   "english": "band",
+   "word": "kaccai"
+  },
+  {
+   "english": "teeth",
+   "word": "eyiṟu"
+  },
+  {
+   "english": "forked stick",
+   "word": "kavai"
+  },
+  {
+   "english": "mountains",
+   "word": "varai"
+  },
+  {
+   "english": "strokes",
+   "word": "vari"
+  },
+  {
+   "english": "field",
+   "word": "vayal"
+  },
+  {
+   "english": "pennant",
+   "word": "koṭi"
+  },
+  {
+   "english": "drop",
+   "word": "tuḷi"
+  },
+  {
+   "english": "stick",
+   "word": "kaḻi"
+  },
+  {
+   "english": "bunch",
+   "word": "kulai"
+  },
+  {
+   "english": "curves",
+   "word": "vaḷaivu"
+  },
+  {
+   "english": "wheel",
+   "word": "āḻi"
+  },
+  {
+   "english": "crowd",
+   "word": "kuḻām"
+  },
+  {
+   "english": "point",
+   "word": "nuṉi"
+  },
+  {
+   "english": "hut",
+   "word": "kuṭicai"
+  },
+  {
+   "english": "pole",
+   "word": "kaḻi"
+  },
+  {
+   "english": "pot",
+   "word": "kuṭam"
+  },
+  {
+   "english": "fire",
+   "word": "tī"
+  },
+  {
+   "english": "eye",
+   "word": "kaṇ"
+  },
+  {
+   "english": "door",
+   "word": "katavu"
+  },
+  {
+   "english": "standard",
+   "word": "koṭi"
+  },
+  {
+   "english": "spear",
+   "word": "vēl"
+  },
+  {
+   "english": "stack",
+   "word": "pōr"
+  },
+  {
+   "english": "body",
+   "word": "uṭal"
+  },
+  {
+   "english": "strokes",
+   "word": "kōṭu"
+  },
+  {
+   "english": "bunch",
+   "word": "iṇar"
+  },
+  {
+   "english": "churn",
+   "word": "mattu"
+  },
+  {
+   "english": "twig",
+   "word": "cuḷḷi"
+  }
+ ]
+}
