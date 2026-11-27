@@ -1,23 +1,23 @@
 1/ This viral thread says AI "cracked" the Indus script.
 
-We ran the paper's own code on its own data.
+We downloaded the paper's code and ran it. Then we swapped Tamil for Japanese, a language with zero link to the Indus.
 
-It "reads" the seals in Japanese too.
+The same code "reads" the seals in Japanese too.
 
-As much as I'd love this to be true: the Indus script has not been cracked. 🧵 [image 4]
+As much as I'd love it to be true: it's not cracked. 🧵 [image A_one_seal.png]
 ---
-2/ Same seal, same code:
-Tamil: "star · clan village · desert"
-Japanese: "crane · moon · crossing"
+2/ The paper's own score (how much better real names fit the seals than scrambled ones):
 
-Japanese surnames fit the seals 60% as well as Tamil, and beat it in 4 of 10 test runs.
+Tamil: +223
+Japanese: +134
+Sanskrit: −13 (the paper rules it out)
 
-Japanese has zero connection to the Indus. [image 1]
+Japanese beats Tamil in 4 of 10 test runs. Same code, same seals. [image B_scores.png]
 ---
 3/ How it "reads" a sign:
 An AI describes it ("pot"). An AI translator gives Tamil words. Then every Tamil name part that merely sounds similar is added, and a solver picks whatever makes the seals look like Tamil names.
 
-59% of final readings are sound-alikes. [image 3]
+59% of final readings are sound-alikes. [image D_method.png]
 ---
 4/ Test: we moved each sign's picture words onto a random wrong sign. 50 times.
 
@@ -33,7 +33,7 @@ It measures naming style, not language.
 ---
 6/ The "proof": signs read "copper" and "armlet" show up on copper tablets and bangles.
 
-But copper tablets came in sets with the same text. The 21 "copper" tablets carry just 3 distinct inscriptions. Count each once: p = 0.19. [image 2]
+But copper tablets came in sets with the same text. The 21 "copper" tablets carry just 3 distinct inscriptions. Count each once: p = 0.19. [image C_copies.png]
 ---
 7/ To be fair: the author published everything (code, data, preregistered tests). Rare, and why we could check it in a day. It reproduces exactly. By the bar we fixed in advance, Japanese just misses (7 of 10 runs above chance, needed 8).
 
