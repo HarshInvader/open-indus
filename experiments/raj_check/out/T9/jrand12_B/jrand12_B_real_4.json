@@ -1,0 +1,33 @@
+{
+ "lang": "jrand12_B",
+ "seed": 4,
+ "mode": "real",
+ "names": 562,
+ "name_parts": 117,
+ "seals": 467,
+ "signs": 69,
+ "pic_mean_opts": 1.51,
+ "signs_with_options": 53,
+ "read": 17,
+ "heldout": 12.23,
+ "readings": {
+  "061": "hashi",
+  "100": "mura",
+  "154": "moto",
+  "220": "hira",
+  "390": "mata",
+  "400": "koshi",
+  "405": "ki",
+  "503": "oka",
+  "520": "saki",
+  "527": "kaki",
+  "575": "miya",
+  "617": "ta",
+  "740": "kami",
+  "742": "nabe",
+  "861": "saka",
+  "892": "ya",
+  "900": "kuma"
+ },
+ "secs": 0
+}

@@ -1,0 +1,33 @@
+{
+ "lang": "jrand14_B",
+ "seed": 4,
+ "mode": "real",
+ "names": 562,
+ "name_parts": 111,
+ "seals": 467,
+ "signs": 69,
+ "pic_mean_opts": 1.42,
+ "signs_with_options": 53,
+ "read": 17,
+ "heldout": 145.13,
+ "readings": {
+  "060": "hara",
+  "100": "mura",
+  "142": "tsu",
+  "154": "moto",
+  "220": "hiro",
+  "226": "ike",
+  "400": "koshi",
+  "503": "tsuka",
+  "520": "ya",
+  "527": "kaki",
+  "595": "hata",
+  "740": "tsuki",
+  "741": "kami",
+  "790": "tani",
+  "820": "hi",
+  "861": "saka",
+  "900": "kuma"
+ },
+ "secs": 0
+}

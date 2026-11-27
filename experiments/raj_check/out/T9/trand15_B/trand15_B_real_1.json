@@ -1,0 +1,33 @@
+{
+ "lang": "trand15_B",
+ "seed": 1,
+ "mode": "real",
+ "names": 562,
+ "name_parts": 188,
+ "seals": 467,
+ "signs": 69,
+ "pic_mean_opts": 1.58,
+ "signs_with_options": 54,
+ "read": 17,
+ "heldout": 119.93,
+ "readings": {
+  "060": "var",
+  "070": "vēl",
+  "090": "āṉ",
+  "220": "mīṉ",
+  "226": "kuḷam",
+  "231": "kuṟu",
+  "235": "muṭam",
+  "440": "vāyil",
+  "460": "malai",
+  "503": "māl",
+  "690": "kūṭal",
+  "705": "kal",
+  "740": "kuṭi",
+  "741": "kuṭa",
+  "760": "koṭi",
+  "803": "il",
+  "900": "vil"
+ },
+ "secs": 0
+}

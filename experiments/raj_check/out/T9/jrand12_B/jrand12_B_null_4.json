@@ -1,0 +1,33 @@
+{
+ "lang": "jrand12_B",
+ "seed": 4,
+ "mode": "null",
+ "names": 562,
+ "name_parts": 117,
+ "seals": 467,
+ "signs": 69,
+ "pic_mean_opts": 1.51,
+ "signs_with_options": 53,
+ "read": 17,
+ "heldout": -48.81,
+ "readings": {
+  "060": "kaki",
+  "061": "hashi",
+  "070": "saki",
+  "151": "ne",
+  "220": "hira",
+  "236": "ii",
+  "255": "hiro",
+  "390": "mata",
+  "400": "koshi",
+  "460": "yama",
+  "527": "ko",
+  "705": "nabe",
+  "740": "moto",
+  "741": "kami",
+  "798": "kane",
+  "817": "tani",
+  "861": "saka"
+ },
+ "secs": 0
+}

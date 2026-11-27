@@ -1,0 +1,33 @@
+{
+ "lang": "trand12_B",
+ "seed": 1,
+ "mode": "real",
+ "names": 562,
+ "name_parts": 196,
+ "seals": 467,
+ "signs": 69,
+ "pic_mean_opts": 1.75,
+ "signs_with_options": 53,
+ "read": 17,
+ "heldout": 155.21,
+ "readings": {
+  "060": "koṭu",
+  "070": "vēl",
+  "090": "āṉ",
+  "220": "mīṉ",
+  "226": "kuḷam",
+  "240": "micai",
+  "440": "kaṭu",
+  "460": "koṭi",
+  "503": "malai",
+  "520": "vēḷ",
+  "575": "maṇam",
+  "590": "kuṭi",
+  "740": "kal",
+  "760": "kuṭa",
+  "790": "kaṇ",
+  "840": "il",
+  "900": "vil"
+ },
+ "secs": 0
+}
