@@ -642,6 +642,32 @@
    ]
   },
   {
+   "id": "brahui",
+   "label": "Brahui",
+   "note": "void: reads no signs",
+   "group": "dravidian",
+   "names_desc": "colonial-era Brahui names of every kind, loans dropped",
+   "names": 391,
+   "D": 2.0,
+   "sd": 5.6,
+   "above": 4,
+   "ahead": 0,
+   "opts": 0,
+   "read": 0,
+   "seeds": [
+    17.3,
+    -1.9,
+    -0.4,
+    0.0,
+    4.3,
+    0.4,
+    0.0,
+    0.0,
+    0.0,
+    0.3
+   ]
+  },
+  {
    "id": "malayalam",
    "label": "Old Malayalam",
    "note": "short list (510 names)",

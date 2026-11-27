@@ -29,6 +29,7 @@ RUNS = [  # (id, label, note, group, dir, lang file prefix, names description)
  ('japanese_sym1', 'Japanese surnames with picture words', 'deliberately picked (stage 5b)', 'other', 'T9b/jsym1_full', 'jsym1_full', 'the T4 surnames that contain a picture word'),
  ('kannada', 'Old Kannada', 'void: reads under 3 signs', 'dravidian', 'T7_kannada4b', 'kannada4b', 'inscription and early literary names of every kind'),
  ('telugu', 'Old Telugu', 'void: reads under 2 signs', 'dravidian', 'T7_telugu4b', 'telugu4b', 'inscription and early literary names of every kind'),
+ ('brahui', 'Brahui', 'void: reads no signs', 'dravidian', 'T10_brahui6', 'brahui6', 'colonial-era Brahui names of every kind, loans dropped'),
  ('malayalam', 'Old Malayalam', 'short list (510 names)', 'dravidian', 'T7_malayalam4b', 'malayalam4b', 'inscription and early literary names of every kind'),
 ]
 T = seeds('T0', 'tamil'); out = []

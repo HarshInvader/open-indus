@@ -15,6 +15,7 @@ We ran Raj's own code on Raj's own data. Where we changed anything, the change i
 - **Three more languages (stage 3): none reaches half of Tamil's score, but all but Sanskrit beat their scrambled control.** Sumerian +103.5 (9 of 10 seeds above control), Egyptian +77.6 (7 of 10), Finnish +63.7 (10 of 10). The paper's Tamil list is top in all six (but rebuilt Tamil lists score +4 and +49, stage 4b); beating chance is not special to Tamil.
 - **Tamil's score comes from its place, hill, river, god and group names (stage 4a).** Written in plain ASCII it still scores +206, so spelling is not the cause. But with people's names only it scores +3 (4 of 10 seeds), while size-matched random subsets of the full list score a median of +178. Tamil personal names (532) fit worse than Sumerian and Egyptian personal names (1,125 each); Japanese and Finnish surnames are themselves mostly place and landscape words.
 - **Rebuilt Old Tamil lists do not reproduce +223 (stages 4b, 4c).** Two fresh lists from the same kinds of sources score +4 and +49 (the second built with Raj's own prompt, nothing added). Preregistered checks show it is which names are in the list (Raj's names the fresh list lacks +218; the fresh list's own −96), not the picture words or honorific endings. Tamil's sister languages are weak tests: Old Telugu and Old Kannada void (under 3 signs read), Old Malayalam −92.
+- **Brahui is void (stage 6).** Only 28 of 171 picture words have native Brahui words and most Brahui name parts are loans, so the method reads 0 signs (2 with loans kept as meanings). The contest cannot test Brahui.
 - **A wrong language can be built up to Tamil's level (stage 5).** Real Japanese names of every kind that contain words for the pictured things score +186 (8 of 10), and on seals held out from any choice they tie the paper's Tamil list (+105 against +104). Picking Japanese names by score, tested on unseen seals, also reaches Tamil's level (+135 against +104). Given the paper's mix of name kinds, the picture-word Japanese list passes the paper's Tamil: +235 against +223, and +128 against +104 on unseen seals (T9c V2); tuned by search on one seal half, +156 against +104 on the other (V3).
 
 ## T0. Reproduction
@@ -246,3 +247,16 @@ Reading, by the plan: **picking alone lifts a wrong language to Raj's Tamil leve
 
 So a list built from a language with no Indus link, by a rule anyone can state (real names of every kind that contain words for the pictured things), reaches Raj's Tamil level on unseen seals; picture words alone do not (J_sym1), the mix of kinds of names does, as in T6.
 
+
+## Stage 6. Brahui (T10)
+`stage6/PREREG_STAGE6.md` (sha256 alongside), committed before any stage-6 agent or run; suggested by a reader. Brahui is the North Dravidian language of Balochistan, the Dravidian language spoken closest to the Indus cities, but with no early texts and a mostly borrowed vocabulary, so a weak test. Inputs built by fresh agents in Antigravity (Gemini) with no project context, prompts in `stage6/agents/`; `stage6/build_6.py`, `stage6/run_6.py`, `out/T10_summary.json`, notes in `stage6/NOTES_STAGE6.md`.
+- Names: 1,400 from Bray, the Baluchistan gazetteers and the 1901/1911 Census (all marked colonial); 1,202 distinct parts. Checker (fresh Claude agent, seed `20261127-brahui`): names 0 of 50 wrong (7–8 cannot verify).
+- Picture words: native (Dravidian-origin) Brahui words for 29 of 171 picture words in the first list; it failed the checker (4 of 32 wrong) and went to a fresh translator once, per plan. Redone list: 28 of 171 filled, 2 of 32 wrong, passed.
+- Labels: by origin, 849 of 1,202 parts are loans (Balochi, Persian, Arabic, Sindhi); by meaning first, 64.
+
+| Run | Names used | Real minus scrambled | Seeds above control | Signs read | Reading |
+|---|---|---|---|---|---|
+| Main (loans dropped) | 391 | +2.0 ± 5.6 | 4 of 10 | 0 | **void** |
+| Sensitivity (labels by meaning) | 1,125 | +18.7 ± 28.2 | 7 of 10 | 2 | **void** |
+
+Brahui is void, like Old Telugu and Old Kannada: with only 28 native picture words and most name parts borrowed, the method reads almost nothing. This says nothing for or against a Dravidian Indus language; the contest cannot test Brahui.
