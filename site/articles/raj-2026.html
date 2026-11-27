@@ -1,4 +1,4 @@
-<p class="na-lede">A preprint going viral says AI has read the Indus script as early Tamil. We downloaded its code and data and ran them ourselves. The code works exactly as published. But when we gave it the wrong pictures, or a language with no link to the Indus, it still found a "reading". A Japanese name list built from the sign pictures even beats the paper’s Tamil list. The Indus script has not been deciphered.</p>
+<p class="na-lede">A preprint going viral says AI has read the Indus script as early Tamil. We ran its own code on its own data. The code works exactly as published, but its key test cannot tell which language the seals write. The score follows the list of names fed in, not the language: a Japanese list built from the sign pictures beats the paper’s Tamil list, and Tamil lists rebuilt from the same sources fall far short. The Indus script has not been deciphered.</p>
 
 <figure class="nf nf-seal" aria-label="One seal read two ways by the same code">
   <div class="nf-legend"><span class="ta">Old Tamil, the paper’s language</span><span class="jp">Japanese, no known link to the Indus</span></div>
@@ -16,6 +16,31 @@
   <figcaption>Seal M-1312 from Mohenjo-daro, run through the paper’s own method twice. Both languages come out as fluent readings. “≈” marks a word chosen because it sounds like the picture word. Readings from the first run of each.</figcaption>
 </figure>
 
+<h2>The short version</h2>
+<ul>
+  <li><strong>The score follows the name list, not the language.</strong> Japanese scores anywhere from +134 to +235 depending on which Japanese names go in. Old Tamil scores +223 with the paper’s list but only +4 and +49 with lists rebuilt from the same sources.</li>
+  <li><strong>The pictures do not matter.</strong> Put each sign’s picture words on the wrong signs and Tamil scores the same.</li>
+  <li><strong>Most readings are sound-alikes</strong>, not the picture’s own word, so almost any language can find a fit.</li>
+  <li><strong>The object “proof” rests on copies</strong> of the same few inscriptions.</li>
+  <li><strong>One test went the paper’s way:</strong> on fake seals the score drops to zero, so it does pick up real patterns in the seals. Those patterns just are not specific to Tamil.</li>
+</ul>
+
+<figure class="nf nf-bars" aria-label="The paper's score for each name list">
+  <div class="nf-bar-rows">
+    <div class="r"><div class="nm"><b>Japanese, built from the sign pictures</b><span>in the paper’s mix of name kinds</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(235.2 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 235.2 * var(--u))">+235</span></div></div>
+    <div class="r"><div class="nm"><b>Old Tamil, pictures on wrong signs</b><span>the paper’s list, 50 random shuffles</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(224 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 224 * var(--u))">+224</span></div></div>
+    <div class="r"><div class="nm"><b>Old Tamil</b><span>the paper’s own list</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(223 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 223 * var(--u))">+223</span></div></div>
+    <div class="r"><div class="nm"><b>Japanese, built from the sign pictures</b><span>first version, mostly family names</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(185.6 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 185.6 * var(--u))">+186</span></div></div>
+    <div class="r"><div class="nm"><b>Japanese surnames</b><span>the most common, chosen by nobody</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(134.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 134.5 * var(--u))">+134</span></div></div>
+    <div class="r"><div class="nm"><b>Old Tamil, rebuilt list</b><span>same sources, the paper’s own prompt</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(49.0 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 49.0 * var(--u))">+49</span></div></div>
+    <div class="r"><div class="nm"><b>Old Tamil, second rebuilt list</b><span>same sources, another fresh agent</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(4.2 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 4.2 * var(--u))">+4</span></div></div>
+    <div class="r"><div class="nm"><b>Vedic Sanskrit</b><span>the paper’s rival</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 13.3 * var(--u));width:calc(13.3 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 13.3 * var(--u))">−13</span></div></div>
+    <div class="r"><div class="nm"><b>Old Tamil on fake seals</b><span>meaningless sign strings</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 28.5 * var(--u));width:calc(28.5 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 28.5 * var(--u))">−28</span></div></div>
+  </div>
+  <div class="nf-axis">0 = no better than chance</div>
+  <figcaption>Same code, same seals; each bar is one name list. The score is how much better real names fit unseen seals than scrambled names, average of 10 runs (fake seals: 20 sets). Blue is Old Tamil, orange Japanese.</figcaption>
+</figure>
+
 <h2>What the paper claims</h2>
 <p>The preprint is by Siva Raj, working with Claude, Anthropic’s AI model (<a href="https://doi.org/10.5281/zenodo.24383779">Zenodo, version 0.7</a>, not peer reviewed). It gives an Old Tamil word to 150 Indus signs, covering 86% of all signs written, and says Tamil fits the seals far better than Sanskrit.</p>
 
@@ -27,8 +52,12 @@
 <p>Credit where it is due: this is the most open decipherment claim we have seen. The author published the data, the code, plans fixed before the tests, a register of 494 tests and a frank list of limits. That is why we could check it in a day. Most claims never make that possible.</p>
 
 <h2>How the method reads a sign</h2>
-<p>An AI describes each sign in English (“pot”, “fish”, “bow”). An AI translator turns those words into Old Tamil. Then every Tamil name part that <em>sounds like</em> one of those words is added as a possible reading. A solver picks whichever readings make the seals look most like Tamil personal names, and the result is scored on seals it has not seen.</p>
-<p>The sound-alike step does most of the work. In the paper’s own runs, most final readings are not the picture’s word at all.</p>
+<p>An AI describes each sign in English (“pot”, “fish”, “bow”). An AI translator turns those words into Old Tamil. Then every part of a Tamil name that <em>sounds like</em> one of those words is added as a possible reading. A solver picks whichever readings make the seals look most like a list of Tamil names. The result is scored on seals the solver has not seen, against scrambled versions of the same names.</p>
+<p>So the score depends on two inputs besides the seals: the picture words, and the list of names. We tested each. Every test below was fixed in advance, before its runs, and the paper’s code was never changed.</p>
+
+<h2>1. The pictures do not drive the score</h2>
+<p>If the signs really depict Tamil words, the score should drop when each sign gets another sign’s picture words. We moved the picture words onto random wrong signs, 50 times. The score did not move: 223 with the right pictures, a median of 224 with the wrong ones (p = 0.51). A test that cannot tell right pictures from wrong ones cannot show that the pictures are right.</p>
+<p>The reason is the sound-alike step. In the paper’s own runs, most final readings are not the picture’s word at all.</p>
 
 <figure class="nf nf-chain" aria-label="How a sound-alike reading is made">
   <div class="nf-steps">
@@ -44,64 +73,67 @@
   <figcaption>161 of 274 Tamil readings (59%) are sound-alikes. For Sanskrit it is 29%.</figcaption>
 </figure>
 
-<h2>Test 1: put the pictures on the wrong signs</h2>
-<p>If the signs really depict Tamil words, the score should drop when each sign gets another sign’s picture words. We shuffled the picture words onto random wrong signs, 50 times, and reran the paper’s code each time.</p>
-<p>The score did not move: 223 with the right pictures, a median of 224 with the wrong ones (p = 0.51). A test that cannot tell right pictures from wrong ones cannot show that the pictures are right.</p>
+<p><strong>What the score does pick up.</strong> One test went the paper’s way, and we say so. On fake seals, with their signs shuffled or made of random signs, the score falls to zero or below. So the score tracks something real. The seals have repeated sign pairs, and names in many languages are built from short parts that repeat. The method maps one onto the other. That works whatever the signs depict, and, as the next section shows, whatever language the names come from.</p>
 
-<figure class="nf nf-bars" aria-label="The paper's score under each condition">
-  <div class="nf-bar-rows">
-    <div class="r"><div class="nm"><b>Japanese, built from the sign pictures</b><span>in the paper’s mix of name kinds, Test 8</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(235.2 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 235.2 * var(--u))">+235</span></div></div>
-    <div class="r"><div class="nm"><b>Old Tamil</b><span>the paper’s headline</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(223 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 223 * var(--u))">+223</span></div></div>
-    <div class="r"><div class="nm"><b>Tamil, pictures on wrong signs</b><span>50 random shuffles</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(224 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 224 * var(--u))">+224</span></div></div>
-    <div class="r"><div class="nm"><b>Japanese, built from the sign pictures</b><span>first version, Test 8</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(185.6 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 185.6 * var(--u))">+186</span></div></div>
-    <div class="r"><div class="nm"><b>Japanese family names</b><span>no known link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(134.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 134.5 * var(--u))">+134</span></div></div>
-    <div class="r"><div class="nm"><b>Old Tamil, rebuilt list</b><span>same sources, the paper’s own prompt</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(49.0 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 49.0 * var(--u))">+49</span></div></div>
-    <div class="r"><div class="nm"><b>Old Tamil, second rebuilt list</b><span>same sources, another fresh agent</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(4.2 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 4.2 * var(--u))">+4</span></div></div>
-    <div class="r"><div class="nm"><b>Vedic Sanskrit</b><span>which the paper rules out</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 13.3 * var(--u));width:calc(13.3 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 13.3 * var(--u))">−13</span></div></div>
-    <div class="r"><div class="nm"><b>Tamil on fake seals</b><span>meaningless sign strings</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 28.5 * var(--u));width:calc(28.5 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 28.5 * var(--u))">−28</span></div></div>
-  </div>
-  <div class="nf-axis">0 = no better than chance</div>
-  <figcaption>The paper’s score: how much better real names fit unseen seals than scrambled names, average of 10 runs. Fake seals: average of 20 sets. Rebuilt Tamil lists: Test 7; Japanese built from the sign pictures: Test 8.</figcaption>
-</figure>
-
-<h2>Test 2: fake seals</h2>
-<p>This one went the paper’s way, and we say so. On seals with their signs shuffled, or made of random signs, the score falls to zero or below. So the score does pick up the real order of signs on the seals.</p>
-<p>Put the two tests together and the picture is clear. The seals have repeated sign pairs, and names in many languages are built from short, repeated two-part patterns: Tamil, and also Japanese (Tests 3 and 8). The method maps one onto the other. That can happen whatever the signs depict, and whatever language the names come from.</p>
-
-<h2>Test 3: a language with no link to the Indus</h2>
-<p>The paper beats Sanskrit and Akkadian, but their names are mostly single words, gods and verbs, with little to fit. A fair rival is a language with no proposed Indus link whose names, like Tamil’s, are built from drawable things. Japanese family names are a good one: <em>Yamada</em> is “mountain” + “rice field”.</p>
-<p>We built the Japanese lists with the paper’s own AI prompts, changing only the language, and ran its code unchanged. The seal at the top of this page is one result.</p>
+<h2>2. The score depends on which names are in the list</h2>
+<p>If the test detects a language, any fair list of that language’s names should score about the same. It does not. For both Tamil and Japanese, changing the list moves the score more than changing the language.</p>
 
 <div class="nf-table-wrap"><table class="nf-table">
-  <thead><tr><th></th><th class="ta">Old Tamil</th><th class="jp">Japanese surnames</th><th>Sanskrit</th></tr></thead>
+  <thead><tr><th>Name list</th><th>Score</th><th>Runs above chance</th></tr></thead>
   <tbody>
-    <tr><th>Score</th><td>+223</td><td><b>+134.5</b></td><td>−13</td></tr>
-    <tr><th>Runs above chance</th><td>10 of 10</td><td><b>7 of 10</b></td><td>4 of 10</td></tr>
-    <tr><th>Runs ahead of Tamil</th><td></td><td><b>4 of 10</b></td><td>0 of 10</td></tr>
+    <tr><th class="ta">Old Tamil, the paper’s list</th><td>+223</td><td>10 of 10</td></tr>
+    <tr><th class="ta">Old Tamil, people’s names only</th><td>+3</td><td>4 of 10</td></tr>
+    <tr><th class="ta">Old Tamil, rebuilt with the paper’s prompt</th><td>+49</td><td>6 of 10</td></tr>
+    <tr><th class="ta">Old Tamil, rebuilt by another agent</th><td>+4</td><td>4 of 10</td></tr>
+    <tr><th class="jp">Japanese, most common surnames</th><td>+134</td><td>7 of 10</td></tr>
+    <tr><th class="jp">Japanese, built from the sign pictures</th><td>+186</td><td>8 of 10</td></tr>
+    <tr><th class="jp">Japanese, sign pictures, in the paper’s mix of name kinds</th><td><b>+235</b></td><td>10 of 10</td></tr>
   </tbody>
 </table></div>
 
-<p>Plain Japanese family names get 60% of Tamil’s score and beat Tamil in 4 of 10 runs. To be fair to the paper: before running it, we set the bar at 8 of 10 runs above chance, and Japanese reached 7. So by our own rule the paper passes this test, narrowly. What it shows is that the paper’s wins over Sanskrit and Akkadian are mostly about naming style, not language. Keep that +134 in mind: it is for the most common family names, chosen by nobody. In Test 8, a Japanese list built from the sign pictures, with the same mix of name kinds as the paper’s (places, mountains, gods, clans as well as families), scores +235, above Tamil. Same language, same code: only the list changed.</p>
+<h3>Old Tamil: the paper’s list is not typical</h3>
+<p>The paper’s 1,125 Tamil names are not only people. 532 are people; the rest are places, gods, groups, hills, stars and rivers from the Sangam poems. With people’s names only, Tamil scores +3, no better than chance. That is not because the list is shorter: random mixed lists of the same size score a median of +178. Tamil’s score comes from its place, hill, river, god and group names, yet the paper reads the seals as names of people with their titles and clans. Spelling is not the reason: written in plain letters, the paper’s list still scores +206.</p>
+<p>Next we had fresh AI agents, which knew nothing about this project, build new Old Tamil lists from the same kinds of sources: the Sangam poems and the oldest Tamil inscriptions. Another agent spot-checked each list against the Tamil Lexicon and the Dravidian Etymological Dictionary before anything was run. The list built with the paper’s own prompt scores <strong>+49</strong>. A second list, whose prompt also asked to keep endings like <em>-ār</em> as separate parts, scores <strong>+4</strong>.</p>
+<p>We took the lists apart to find the cause. The picture words are not it: the paper’s names with new picture words score +276. The endings are not it: with them removed, the paper’s list still scores +198. It is which names are in the list. About 430 names appear in both the paper’s list and the second one. The paper’s other names score +218 on their own; the new list’s other names score −96. The paper’s archive does not say how its list was compiled.</p>
 
-<h2>Test 4: three more languages</h2>
-<p>One language is one data point, so we ran three more, again fixing the rules before any run. Sumerian, from Mesopotamia, the Indus cities’ trading partner, was once proposed as the Indus language; its 1,600 most frequent names come from Ur III tablets. Egyptian is the other great early script of the time, and its names are built from words too. Finnish is a placebo: its surnames are built from nature words (<em>Mäkinen</em>, “hill”), much like Japanese ones.</p>
+<h3>Japanese: the right list beats Tamil</h3>
+<p>Japanese has no proposed link to the Indus, but its names are built from drawable things, like Tamil’s: <em>Yamada</em> is “mountain” + “rice field”. We ran three Japanese lists, each with the paper’s code unchanged.</p>
+<ul>
+  <li><strong>The most common surnames, chosen by nobody: +134.</strong> This was our first control. It beats Tamil in 4 of 10 runs, but is above chance in only 7 of 10. Before running it we set the bar at 8, so by our own rule the paper passed this test, narrowly.</li>
+  <li><strong>Built from the sign pictures: +186.</strong> A fresh agent listed real Japanese names that each contain a word for something drawn on the signs, like <em>yama</em> “mountain” or <em>ya</em> “arrow”. No scores were used to build it.</li>
+  <li><strong>The same idea, in the paper’s mix of name kinds: +235.</strong> We gave the list the same mix as the paper’s Tamil list: 532 family names, 124 clans, 98 gods and shrines, 33 mountains, 14 rivers, the rest places. It beats the paper’s +223 and is above chance in all 10 runs.</li>
+</ul>
 
-<figure class="nf nf-bars nf-panel" aria-label="The paper's score for six languages">
-  <div class="nf-bar-rows">
-    <div class="r"><div class="nm"><b>Old Tamil</b><span>the paper’s own name list</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(223 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 223 * var(--u))">+223</span></div><div class="sd">10 of 10</div></div>
-    <div class="r"><div class="nm"><b>Japanese</b><span>no link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(134.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 134.5 * var(--u))">+134</span></div><div class="sd">7 of 10</div></div>
-    <div class="r"><div class="nm"><b>Sumerian</b><span>Mesopotamia</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(103.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 103.5 * var(--u))">+104</span></div><div class="sd">9 of 10</div></div>
-    <div class="r"><div class="nm"><b>Egyptian</b><span>Middle Kingdom names</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(77.6 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 77.6 * var(--u))">+78</span></div><div class="sd">7 of 10</div></div>
-    <div class="r"><div class="nm"><b>Finnish</b><span>no link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(63.7 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 63.7 * var(--u))">+64</span></div><div class="sd">10 of 10</div></div>
-    <div class="r"><div class="nm"><b>Vedic Sanskrit</b><span>the paper’s rival</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 13.3 * var(--u));width:calc(13.3 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 13.3 * var(--u))">−13</span></div><div class="sd">4 of 10</div></div>
-  </div>
-  <div class="nf-axis">0 = no better than chance · right column: runs above chance</div>
-  <figcaption>The paper’s score for each language, average of 10 runs, with the paper’s code unchanged. The dashed line marks +112, half of Tamil’s score: the bar the paper used to rule out Sanskrit.</figcaption>
+<figure class="nf-img">
+  <img src="assets/news/raj-2026/japanese_beats_tamil.webp" alt="Bar chart: Japanese names built from the sign pictures, in the paper's mix of name kinds, score +235; the paper's Old Tamil list +223; plain Japanese family names +134; rebuilt Old Tamil lists +49 and +4. On seals kept out of every choice, Japanese +128 against Tamil +104." width="1600" height="900" loading="lazy" decoding="async">
+  <figcaption>Same code and seals, five name lists. Average of 10 runs each.</figcaption>
 </figure>
 
-<p>This one is a point for the paper: among these lists its Tamil list comes out on top, and none of the three reaches half of its score. (Hold that thought: in Test 7, Tamil lists rebuilt from the same sources score only +4 and +49, and in Test 8 a Japanese list built from the sign pictures scores +235.) Sumerian comes closest. But look at the right-hand column. Every language with real names except Sanskrit beats chance most of the time, Finnish in all 10 runs. So beating chance is what real names do on these seals, whatever the language. The size of the lead tracks how many picture words each language gets per sign (Tamil 2.5, Japanese 2.4, the rest 1.6 or fewer) more than which language it is. And Test 1 already showed that Tamil’s lead does not depend on its pictures being on the right signs.</p>
+<p>Could the list just be tuned to these particular seals? We checked by splitting the seals in two and holding one half back from every choice. On the held-back half, the list in the paper’s mix scores +128 against +104 for the paper’s Tamil list (scores on half the seals are about half as big). A computer search that tuned the list on the first half reached +156 on the second half. Picture words alone are not the trick: keeping only the common surnames that contain a picture word gives +52. The mix of kinds of names is what lifts a list, just as for Tamil.</p>
+<p>This is a demonstration of how much the list matters, not evidence for Japanese. We built these lists deliberately and in the open, and we make no claim about how the paper’s list was made.</p>
 
-<h2>Test 5: the object “proof”</h2>
+{{RUNS_INCLUDE}}
+
+<h2>3. Other languages: real names beat chance almost everywhere</h2>
+<p>We also ran one list each for three more languages, again fixing the rules in advance. Sumerian, from Mesopotamia, the Indus cities’ trading partner, was once proposed as the Indus language. Egyptian is the other great early script of the time. Finnish is a placebo: its surnames are built from nature words (<em>Mäkinen</em>, “hill”), much like Japanese ones.</p>
+
+<figure class="nf nf-bars nf-panel" aria-label="The paper's score for one list from each of six languages">
+  <div class="nf-bar-rows">
+    <div class="r"><div class="nm"><b>Old Tamil</b><span>the paper’s own list</span></div><div class="tr"><span class="b ta" style="left:var(--z);width:calc(223 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 223 * var(--u))">+223</span></div><div class="sd">10 of 10</div></div>
+    <div class="r"><div class="nm"><b>Japanese surnames</b><span>the most common, chosen by nobody</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(134.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 134.5 * var(--u))">+134</span></div><div class="sd">7 of 10</div></div>
+    <div class="r"><div class="nm"><b>Sumerian personal names</b><span>Ur III tablets</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(103.5 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 103.5 * var(--u))">+104</span></div><div class="sd">9 of 10</div></div>
+    <div class="r"><div class="nm"><b>Egyptian personal names</b><span>Middle Kingdom and later</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(77.6 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 77.6 * var(--u))">+78</span></div><div class="sd">7 of 10</div></div>
+    <div class="r"><div class="nm"><b>Finnish surnames</b><span>no link to the Indus</span></div><div class="tr"><span class="b jp" style="left:var(--z);width:calc(63.7 * var(--u))"></span><span class="v" style="left:calc(var(--z) + 63.7 * var(--u))">+64</span></div><div class="sd">10 of 10</div></div>
+    <div class="r"><div class="nm"><b>Vedic Sanskrit names</b><span>the paper’s rival</span></div><div class="tr"><span class="b ch" style="left:calc(var(--z) - 13.3 * var(--u));width:calc(13.3 * var(--u))"></span><span class="v neg" style="right:calc(100% - var(--z) + 13.3 * var(--u))">−13</span></div><div class="sd">4 of 10</div></div>
+  </div>
+  <div class="nf-axis">0 = no better than chance · right column: runs above chance</div>
+  <figcaption>One list per language, average of 10 runs. The dashed line marks +112, half of Tamil’s score: the bar the paper used to rule out Sanskrit. Section 2 shows that a different list can move a language across this whole range.</figcaption>
+</figure>
+
+<p>With one list each, the paper’s Tamil list comes out on top, and none of the others reaches half its score. That is a point for the paper, but a weak one, because section 2 shows the ranking belongs to the lists, not the languages. The stronger pattern is in the right-hand column: every list of real names except Sanskrit beats chance most of the time, Finnish in all 10 runs. Beating chance is what real names do on these seals, whatever the language. The paper’s wins over Sanskrit and Akkadian are mostly about naming style: their names are mostly single words, gods and verbs, with little to fit.</p>
+<p>Tamil’s sister languages, and Brahui, turned out to be weak tests. Fresh agents built a list for each, checked against standard dictionaries. <strong>Old Telugu, Old Kannada and Brahui are void:</strong> most of their name parts are borrowed (from Sanskrit, or for Brahui from Balochi, Persian and Arabic), so once loans are dropped the method reads fewer than three signs. Brahui, still spoken in Balochistan near the Indus cities, has a native word for only 28 of the 171 pictured things, and the method reads no signs at all. <strong>Old Malayalam</strong>, from texts 600 to 1,400 years after the Sangam poems, does not beat its control (−92). So the test does not favour the Dravidian languages, but with three of four runs void, that says little either way.</p>
+
+<h2>4. The object “proof” rests on copies</h2>
 <p>The paper’s most striking evidence is signs that name the object they are written on: a sign read “armlet” turns up on bangles, and a sign read “copper” on copper tablets. But copper tablets were made in sets that carry the same inscription, and the paper counts every copy.</p>
 
 <figure class="nf nf-copies" aria-label="Object marks counted once per distinct text">
@@ -111,40 +143,6 @@
   </div>
   <figcaption>Counted once per distinct text, neither passes the paper’s own bar for many tests (1×10⁻⁵). Giving the paper’s readings to signs at random names the right object about as often (p = 0.10).</figcaption>
 </figure>
-
-<h2>Test 6: is the paper’s Tamil list special?</h2>
-<p>Tests 3 and 4 make the paper’s Tamil list look like the best candidate, so we checked what in it gives it the lead. Two things set it apart from every other list. Its words are written with Tamil letters, and the sound matcher has cheap near-matches for them (ṉ≈n, ḷ≈l, ā≈a). And its 1,125 names are not only people: 532 are people, and the rest are places, gods, groups, lineages, hills, stars and rivers from the Sangam poems.</p>
-<p>Spelling turned out not to matter: written in plain letters, like the other languages, Tamil still scores +206. The kind of name matters a lot. With people’s names only, Tamil scores +3, no better than chance. That is not because the list is shorter: random mixed lists of the same size (532 names) score a median of +178. <strong>Tamil’s score comes from its place, hill, river, god and group names.</strong> Its personal names alone fit the seals worse than Sumerian or Egyptian personal names. Yet the paper reads the seals as names of people with their titles and clans.</p>
-<h2>Test 7: rebuilt Tamil lists, and Tamil’s sister languages</h2>
-<p>If the test really detects Old Tamil, a second list of Old Tamil names, built independently from the same kinds of sources, should score about as well as the paper’s. So we had a fresh AI agent, which knew nothing about this project, build one from the Sangam poems and the oldest Tamil inscriptions. It used the paper’s prompt for its Sanskrit rival list, with the language and sources changed. We also added an instruction to keep honorific endings like <em>-ār</em> as separate parts, which the paper’s prompt does not have; an independent review caught this, and we tested it below. Another agent spot-checked the list against the Tamil Lexicon and the Dravidian Etymological Dictionary before anything was run.</p>
-<p><strong>The second Old Tamil list scores +4</strong>, about the same as its scrambled control on average, with large swings from run to run (4 of 10 runs above chance). The method finds just as many pictures to read with it, so that is not the reason.</p>
-<p>We then took the two lists apart, with each check fixed in advance:</p>
-<ul>
-  <li><strong>The picture words are not the cause.</strong> The paper’s names with the new picture words score +276; the new names with the paper’s picture words score −72.</li>
-  <li><strong>The honorific endings are not the cause.</strong> With every <em>-ār</em>, <em>-aṉ</em> and similar ending removed, the new list still scores +7, and the paper’s list still scores +198.</li>
-  <li><strong>It is which names are in the list.</strong> About 430 names appear in both lists. The paper’s other names score +218 on their own; the new list’s other names score −96.</li>
-</ul>
-<p>To rule out our added instruction entirely, a third fresh agent built a third Old Tamil list with the paper’s prompt unchanged except for the language, sources and examples. <strong>It scores +49</strong> (+65 with the paper’s picture words), with 6 of 10 runs above chance: better than the second list, and still well under half the paper’s +223.</p>
-<p>So the +223 does not survive rebuilding the list. It depends on which names went into the paper’s list, and the paper’s archive does not document how that list was compiled. This is not a verdict on Old Tamil: the scores swing by about ±175 from run to run, so two rebuilt lists cannot pin down a true score, only show that the paper’s is not typical.</p>
-<p>The sister languages are weak tests. <strong>Old Telugu is void:</strong> our compiler took two thirds of its names from Nannaya’s Mahābhārata, which are Sanskrit, so once loans are dropped the method has almost nothing to work with and reads fewer than two signs. <strong>Old Malayalam</strong>, from texts 600 to 1,400 years later than the Sangam poems and with many Sanskrit loans dropped, does not beat its control (−92). <strong>Old Kannada is void too</strong>, for the same reason as Telugu: two thirds of its name parts are Sanskrit loans, and the method reads under three signs. Counting those loans as ordinary words gives Kannada enough to work with (nine signs read), and it still scores only +18. Readers asked about <strong>Brahui</strong>, the Dravidian language still spoken in Balochistan, closest to the Indus cities. <strong>It is void too</strong>: it has no early texts, only 28 of the 171 pictured things have a native Brahui word, and most parts of Brahui names are borrowed from Balochi, Persian or Arabic, so the method reads no signs at all (two if the borrowed parts are kept). By the rule we fixed in advance, the test does not favour the Dravidian languages, but with three of the four runs void that verdict carries little weight.</p>
-<p>The fair summary is that one list fits well, and the score moves a lot when the list changes. That sensitivity is a reason for caution: the result depends on choices in building the list that the paper does not fix.</p>
-
-<h2>Test 8: can a wrong language be built up to Tamil’s level?</h2>
-<p>If the choice of names moves the score this much, it should be possible to build a list from a language with no link to the Indus that does as well as the paper’s Tamil list. We tried, deliberately and in the open, with Japanese. As before, each check was fixed in advance. This shows how much list-building choices matter; it is not evidence for Japanese, and we do not know how the paper’s list was made.</p>
-<figure class="nf-img">
-  <img src="assets/news/raj-2026/japanese_beats_tamil.webp" alt="Bar chart: Japanese names built from the sign pictures, in the paper's mix of name kinds, score +235; the paper's Old Tamil list +223; plain Japanese family names +134; rebuilt Old Tamil lists +49 and +4. On seals kept out of every choice, Japanese +128 against Tamil +104." width="1600" height="900" loading="lazy" decoding="async">
-  <figcaption>The same code and seals, five name lists. Mean of 10 held-out splits each. A demonstration of how much the list matters, not evidence for Japanese.</figcaption>
-</figure>
-<ul>
-  <li><strong>Built from the pictures on the signs.</strong> A fresh agent listed 1,125 real Japanese names of every kind (family names, towns, mountains, shrines, gods, islands, rivers), each containing a word for something drawn on the signs, like <em>yama</em> “mountain” or <em>ya</em> “arrow”. No scores were used to build it. <strong>It scores +186</strong>, above chance in 8 of 10 runs and ahead of Tamil in 5.</li>
-  <li><strong>On seals no choice had seen.</strong> We split the seals in two. A computer search picked the half of the Japanese surnames that fitted the first half of the seals best. On the second half, which the search never saw, the picked names score +135, against +104 for the paper’s Tamil list on the same seals (scores on half the seals are about half as big). The list built from the pictures also scores +105 there, level with Tamil.</li>
-  <li><strong>Matched to the paper’s mix, Japanese passes Tamil.</strong> We then gave the picture-word list the same mix of kinds as the paper’s Tamil list (532 family names, 124 clans, 98 gods and shrines, 33 mountains, 14 rivers, the rest places and others), adding 398 more real names that contain picture words. <strong>It scores +235, above the paper’s +223</strong>, above chance in all 10 runs. On the half of the seals never used for any choice it scores +128, against +104 for the paper’s Tamil list. A first try with the same mix but without the extra names scored +197 (+85 on the unseen half).</li>
-  <li><strong>Tuned on half the seals, tested on the other half.</strong> Starting from that list, a computer search swapped names in and out to fit the first half of the seals better (12 swaps kept out of 1,500 tried). On the second half, which the search never saw, the result scores <strong>+156 against the paper’s Tamil +104</strong>, above chance in all 10 runs.</li>
-  <li><strong>Picture words alone are not the trick.</strong> Keeping only the Japanese surnames that contain a picture word lowers the score to +52. And the paper’s Tamil list is no richer in picture words than our rebuilt ones (about a quarter of names in each). What lifts a list is the mix of kinds of names, places, mountains and shrines among them, just as for Tamil in Test 6.</li>
-</ul>
-<p>So with a rule anyone can state, a language with no link to the Indus reaches and passes the paper’s Tamil level. A score that list-building can move this far cannot tell us which language the seals write.</p>
-
-{{RUNS_INCLUDE}}
 
 <h2>Is any of this new?</h2>
 <p>The idea is not. Reading the script as early Dravidian through picture-puns goes back to Henry Heras (1953), Yuri Knorozov’s team (1965), Asko Parpola (1969 onward) and Iravatham Mahadevan (1977 onward). The best-known readings on the slide, such as fish = <em>mīṉ</em> = “star”, are theirs, and the paper credits them.</p>
