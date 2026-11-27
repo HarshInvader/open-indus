@@ -1,0 +1,24 @@
+{
+ "lang": "kannada4bm",
+ "seed": 1,
+ "mode": "real",
+ "names": 1125,
+ "name_parts": 269,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.45,
+ "signs_with_options": 24,
+ "read": 8,
+ "heldout": -6.84,
+ "readings": {
+  "226": "kula",
+  "388": "kāḷa",
+  "400": "pāla",
+  "455": "kali",
+  "460": "kōḍi",
+  "615": "bala",
+  "617": "bali",
+  "803": "nara"
+ },
+ "secs": 0
+}

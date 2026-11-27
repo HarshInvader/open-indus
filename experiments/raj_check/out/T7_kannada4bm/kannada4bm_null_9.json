@@ -1,0 +1,28 @@
+{
+ "lang": "kannada4bm",
+ "seed": 9,
+ "mode": "null",
+ "names": 1125,
+ "name_parts": 269,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.45,
+ "signs_with_options": 24,
+ "read": 12,
+ "heldout": -44.35,
+ "readings": {
+  "100": "gaṇḍa",
+  "140": "avve",
+  "226": "kula",
+  "390": "māra",
+  "455": "kali",
+  "460": "beṭṭa",
+  "503": "mala",
+  "527": "maṇi",
+  "617": "bali",
+  "740": "kavi",
+  "760": "kōḍi",
+  "803": "nara"
+ },
+ "secs": 0
+}

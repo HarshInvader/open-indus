@@ -152,7 +152,7 @@ Results (main run: loans labelled by origin and dropped):
 | Old Tamil, fresh list | 1,125 | +4.2 ± 185 | 4 of 10 | 1 of 10 | 2.65 | 30.2 | +0.6 (6 of 10) |
 | Old Malayalam | 510 | −92.1 ± 85 | 0 of 10 | 0 of 10 | 0.94 | 10.0 | −25.9 (3 of 10) |
 | Old Telugu | 182 | +31.7 ± 184 | 4 of 10 | 1 of 10 | 0.20 | 1.6 | +11.1 (6 of 10) |
-| Old Kannada | 443 | +22.0 ± 26 | 8 of 10 | 0 of 10 | 0.20 | 2.6 | <!--KSENS--> |
+| Old Kannada | 443 | +22.0 ± 26 | 8 of 10 | 0 of 10 | 0.20 | 2.6 | +17.6 (5 of 10; 1,125 names, 9.0 signs read) |
 
 Seed by seed (main run):
 - Fresh Tamil: −143, +154, −46, +227, +326, +80, −104, −250, −138, −62
@@ -174,7 +174,7 @@ The difference is in the names (with their segmentation and labels), not the pic
 
 **Sister languages, by the plan: "the contest does not favour Dravidian"** (none of the three reaches 111.5). The verdict carries little weight, because two of the three runs are void as tests:
 
-- **Old Kannada is void.** 738 of 1,092 parts are Sanskrit loans, leaving 443 names; the solver has 0.20 picture options per sign and reads 2.6 signs. Its +22.0 (8 of 10 above control) is a small, steady edge over scrambled names with almost nothing read.
+- **Old Kannada is void.** 738 of 1,092 parts are Sanskrit loans, leaving 443 names; the solver has 0.20 picture options per sign and reads 2.6 signs. Its +22.0 (8 of 10 above control) is a small, steady edge over scrambled names with almost nothing read. With loans labelled by meaning, all 1,125 names stay, the solver reads 9.0 signs (an adequate test by the paper's line) and Kannada scores +17.6 (5 of 10): no fit.
 - **Old Telugu is void.** After loans are dropped the solver has options for 14 of 69 signs and reads 1.6 signs (Raj's own power check, REP-2 Munda, calls about 5 signs read "not an adequate test"). Its mean of +31.7 rests on one seed whose control is −526; the median is −20. With loans labelled by meaning (1,125 names) it still reads 2.2 signs, because native picture words never match Sanskrit name parts. This is a property of our list, not of Telugu: the compiler took 895 of 1,338 names from early literature (Nannaya's Mahābhārata), whose names are Sanskrit.
 - **Old Malayalam does not beat its control** (−92.1; 0 of 10; 510 names, 10 signs read). Real names average −24 and the control +69 (control sd 79), so D may not be centred on zero for small, sparse lists; read −92 as "no fit", not as evidence against. The list is 600 to 1,400 years later than Sangam Tamil and 39% of its name-part tokens are Sanskrit loans, so it is a weak test of Dravidian.
 
