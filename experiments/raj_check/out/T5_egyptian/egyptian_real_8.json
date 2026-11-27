@@ -1,0 +1,32 @@
+{
+ "lang": "egyptian",
+ "seed": 8,
+ "mode": "real",
+ "names": 1125,
+ "name_parts": 240,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.62,
+ "signs_with_options": 44,
+ "read": 16,
+ "heldout": 111.38,
+ "readings": {
+  "002": "sen",
+  "090": "hau",
+  "176": "hem",
+  "368": "iat",
+  "390": "khet",
+  "405": "shen",
+  "503": "aa",
+  "520": "ahau",
+  "527": "nebu",
+  "575": "peri",
+  "585": "ima",
+  "740": "henu",
+  "790": "irit",
+  "832": "iret",
+  "900": "pedjet",
+  "920": "iah"
+ },
+ "secs": 0
+}

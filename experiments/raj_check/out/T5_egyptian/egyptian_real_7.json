@@ -1,0 +1,31 @@
+{
+ "lang": "egyptian",
+ "seed": 7,
+ "mode": "real",
+ "names": 1125,
+ "name_parts": 240,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.62,
+ "signs_with_options": 44,
+ "read": 15,
+ "heldout": 169.74,
+ "readings": {
+  "090": "tjaz",
+  "142": "tja",
+  "176": "bak",
+  "368": "iat",
+  "390": "khet",
+  "503": "ahau",
+  "527": "khenti",
+  "575": "peri",
+  "595": "nebu",
+  "705": "medu",
+  "740": "henu",
+  "820": "aten",
+  "832": "irit",
+  "920": "iah",
+  "923": "ia"
+ },
+ "secs": 0
+}

@@ -1,0 +1,129 @@
+{
+ "tamil": {
+  "D": 223.0,
+  "sd": 103.0,
+  "above": 10,
+  "ahead_of_tamil": 0,
+  "per_seed": [
+   103.8,
+   237.5,
+   158.2,
+   255.0,
+   192.4,
+   244.4,
+   185.3,
+   175.9,
+   486.9,
+   190.6
+  ],
+  "pic_opts": 2.52,
+  "signs_read": 27.4,
+  "verdict": ""
+ },
+ "sanskrit": {
+  "D": -13.3,
+  "sd": 44.7,
+  "above": 4,
+  "ahead_of_tamil": 0,
+  "per_seed": [
+   -6.4,
+   -45.6,
+   26.6,
+   -66.1,
+   -13.0,
+   44.5,
+   45.8,
+   -59.8,
+   -68.3,
+   9.1
+  ],
+  "pic_opts": 1.06,
+  "signs_read": 17.8,
+  "verdict": "no fit"
+ },
+ "japanese": {
+  "D": 134.5,
+  "sd": 195.3,
+  "above": 7,
+  "ahead_of_tamil": 4,
+  "per_seed": [
+   -4.9,
+   129.3,
+   111.6,
+   359.1,
+   260.4,
+   4.0,
+   -106.1,
+   428.6,
+   -130.8,
+   293.8
+  ],
+  "pic_opts": 2.38,
+  "signs_read": 27.9,
+  "verdict": "partial fit"
+ },
+ "sumerian": {
+  "D": 103.5,
+  "sd": 69.6,
+  "above": 9,
+  "ahead_of_tamil": 1,
+  "per_seed": [
+   54.5,
+   134.5,
+   133.5,
+   42.7,
+   88.6,
+   172.6,
+   -11.6,
+   232.2,
+   112.5,
+   75.3
+  ],
+  "pic_opts": 1.12,
+  "signs_read": 15.6,
+  "verdict": "partial fit"
+ },
+ "egyptian": {
+  "D": 77.6,
+  "sd": 147.9,
+  "above": 7,
+  "ahead_of_tamil": 3,
+  "per_seed": [
+   173.6,
+   -32.8,
+   -199.6,
+   192.4,
+   95.5,
+   77.0,
+   -40.8,
+   302.0,
+   6.0,
+   202.5
+  ],
+  "pic_opts": 1.62,
+  "signs_read": 15.9,
+  "verdict": "no fit"
+ },
+ "finnish": {
+  "D": 63.7,
+  "sd": 28.1,
+  "above": 10,
+  "ahead_of_tamil": 0,
+  "per_seed": [
+   72.6,
+   119.0,
+   56.1,
+   55.0,
+   36.4,
+   44.5,
+   82.9,
+   94.3,
+   45.9,
+   30.5
+  ],
+  "pic_opts": 0.78,
+  "signs_read": 12.7,
+  "verdict": "partial fit"
+ },
+ "panel_verdict": "Mixed"
+}

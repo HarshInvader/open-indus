@@ -1,0 +1,28 @@
+{
+ "lang": "finnish",
+ "seed": 7,
+ "mode": "null",
+ "names": 1125,
+ "name_parts": 196,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.78,
+ "signs_with_options": 33,
+ "read": 12,
+ "heldout": -62.49,
+ "readings": {
+  "140": "rinta",
+  "236": "talo",
+  "390": "haara",
+  "407": "vesa",
+  "503": "kumpu",
+  "527": "kontti",
+  "615": "aho",
+  "617": "vainio",
+  "803": "lehti",
+  "820": "paiva",
+  "861": "lehto",
+  "904": "aalto"
+ },
+ "secs": 0
+}

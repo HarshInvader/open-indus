@@ -1,0 +1,31 @@
+{
+ "lang": "sumerian",
+ "seed": 0,
+ "mode": "real",
+ "names": 1125,
+ "name_parts": 211,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.12,
+ "signs_with_options": 52,
+ "read": 15,
+ "heldout": 38.81,
+ "readings": {
+  "100": "lu",
+  "140": "ama",
+  "151": "tum",
+  "226": "dab",
+  "235": "ku",
+  "350": "suhush",
+  "390": "gesh",
+  "400": "zu",
+  "435": "nimgir",
+  "460": "du",
+  "527": "gu",
+  "717": "shu",
+  "740": "dug",
+  "820": "utu",
+  "920": "iti"
+ },
+ "secs": 0
+}

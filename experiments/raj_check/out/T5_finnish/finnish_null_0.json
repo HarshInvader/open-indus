@@ -1,0 +1,29 @@
+{
+ "lang": "finnish",
+ "seed": 0,
+ "mode": "null",
+ "names": 1125,
+ "name_parts": 196,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.78,
+ "signs_with_options": 33,
+ "read": 13,
+ "heldout": -19.89,
+ "readings": {
+  "125": "vesa",
+  "140": "rinta",
+  "226": "lampi",
+  "236": "talo",
+  "255": "suomi",
+  "415": "haara",
+  "455": "kivi",
+  "503": "kokko",
+  "585": "koti",
+  "615": "vainio",
+  "617": "aho",
+  "840": "lehto",
+  "861": "lehti"
+ },
+ "secs": 0
+}

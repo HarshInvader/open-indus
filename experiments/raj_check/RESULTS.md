@@ -12,6 +12,7 @@ We ran Raj's own code on Raj's own data. Where we changed anything, the change i
 - **Most Tamil readings are sound-alikes, not picture words.** In their own headline runs, 161 of 274 Tamil readings (59%) are name parts chosen for sounding like a picture word, not the picture word itself. For Sanskrit it is 52 of 178 (29%).
 - **The object marks rest on copies.** The 21 copper-tablet faces with the "copper" sign carry 3 distinct texts. Counted once each, p = 0.19. The armlet sign is on 4 distinct bangle texts, p = 0.017, which fails the paper's own multiple-test line (1.1e-5). Assigning their readings to signs at random gives as many object-naming hits as the real key, p = 0.10.
 - **A language with no link to the Indus gets 60% of Tamil's score.** Japanese family names, which like Tamil names are built from drawable things, score +134.5 against Tamil's +223, and beat Tamil in 4 of 10 splits. Sanskrit, which the paper rules out, scores −13. By our preregistered bar (8 of 10 seeds above control) Japanese narrowly fails (7 of 10), so the contest passes this control. But the margin is naming style, not language.
+- **Three more languages (stage 3): none reaches half of Tamil's score, but all but Sanskrit beat their scrambled control.** Sumerian +103.5 (9 of 10 seeds above control), Egyptian +77.6 (7 of 10), Finnish +63.7 (10 of 10). Tamil is top in all six; beating chance is not special to Tamil.
 
 ## T0. Reproduction
 `out/T0/`. Every held-out value equals `outputs/headline/*` in their archive. Tamil D = +223.0 (sd 103.0), 10 of 10 above control. Sanskrit D = −13.3 (sd 44.7), 4 of 10.
@@ -85,3 +86,29 @@ Descriptive: with Japanese picture words moved onto random signs (20 permutation
 
 ## What would settle it
 Values fixed before testing, then: (1) new or unpublished inscriptions read blind; (2) a blind test with Dravidianists rating readings of real texts mixed with fake ones; (3) the full pipeline run end to end on a deciphered logographic corpus and on a planted wrong language.
+
+## Stage 3. A panel of other languages (T5)
+`stage3/`, `out/T5_*`, `out/T5_summary.json`. Plan `stage3/PREREG_STAGE3.md` (sha256 in `PREREG_STAGE3.sha256`), committed before any agent ran (commits 8035ca0, 5552677). Inputs committed before any contest run (0f60d69). Names: Sumerian, the 1,600 most-attested Ur III personal names (Oracc ePSD2); Egyptian, 1,600 personal names drawn at random (seed 20261127) from the TLA lemma list of 2018; Finnish, the 1,600 commonest surnames (DVV). Nine fresh agents (translator, segmenter, labeler per language); Raj's `contest.py` unchanged.
+
+| Language | Real names minus scrambled, mean ± sd | Seeds above control | Seeds ahead of Tamil | Picture options per sign | Signs read | Verdict (plan's rule) |
+|---|---|---|---|---|---|---|
+| Tamil | +223.0 ± 103 | 10 of 10 |  | 2.52 | 27.4 |  |
+| Japanese | +134.5 ± 195 | 7 of 10 | 4 of 10 | 2.38 | 27.9 | partial fit |
+| Sumerian | +103.5 ± 70 | 9 of 10 | 1 of 10 | 1.12 | 15.6 | partial fit |
+| Egyptian | +77.6 ± 148 | 7 of 10 | 3 of 10 | 1.62 | 15.9 | no fit |
+| Finnish | +63.7 ± 28 | 10 of 10 | 0 of 10 | 0.78 | 12.7 | partial fit |
+| Sanskrit | -13.3 ± 45 | 4 of 10 | 0 of 10 | 1.06 | 17.8 | no fit |
+
+Seed by seed:
+- Sumerian: +54, +134, +134, +43, +89, +173, -12, +232, +112, +75
+- Egyptian: +174, -33, -200, +192, +96, +77, -41, +302, +6, +202
+- Finnish: +73, +119, +56, +55, +36, +44, +83, +94, +46, +30
+
+**Panel verdict by the plan: mixed.** No new language fits like Tamil: none reaches half of Tamil's score (111.5). Sumerian comes closest (+103.5, above its control in 9 of 10 seeds). The verdict is "mixed", not "picks out Tamil", because Japanese beats Tamil in 4 of 10 seeds (the plan allowed at most 3).
+
+What it shows:
+- **For the paper:** Tamil has the highest and steadiest score of all six languages tried. No other language reaches half of it.
+- **Against reading much into it:** every language with a real naming system except Sanskrit scores above its scrambled control: Sumerian in 9 of 10 seeds, Finnish in 10 of 10, Egyptian and Japanese in 7 of 10. Beating the scrambled control is what real names do on these seals, whatever the language. The size of the lead follows the number of picture options per sign more than the language (Tamil 2.52, Japanese 2.38, every other language 1.6 or fewer), and T1 shows that Tamil's lead does not depend on its pictures being on the right signs.
+- A fairer contest would hold picture options per sign equal across languages. Not done here.
+
+Limits: one translator per language, no expert check of the Sumerian and Egyptian lists; agents' notes are in `stage3/agents/`.
