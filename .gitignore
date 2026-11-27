@@ -127,3 +127,6 @@ experiments/ensemble_rehearsal/packets/
 # Unsealed draft preregs closed at their gates; kept unpublished (atlas 10b.20, 10b.21)
 /docs/prereg/disguised_tournament.md
 /docs/prereg/sign_type_classifier.md
+
+# raj_check: working copy of Raj v0.7 REP-1 holds the non-redistributable lipi corpus
+experiments/raj_check/work/
