@@ -1,0 +1,984 @@
+{
+"002": {
+"two": [
+"iraṇṭu"
+],
+"pair": [
+"iṇai"
+],
+"strokes": [
+"kīṟu"
+],
+"tally": []
+},
+"060": {
+"hook": [
+"tūṇṭil"
+],
+"stroke": [
+"kīṟu"
+],
+"mark": [
+"kuṟi"
+],
+"line": [
+"varai",
+"kōṭu"
+]
+},
+"061": {
+"tongs": [
+"kuṟaṭu"
+],
+"fork": [
+"kavar"
+],
+"forked stick": [
+"kavai"
+],
+"split": [
+"piḷa"
+]
+},
+"070": {
+"arrow": [
+"ampu",
+"kaṇai"
+],
+"spear": [
+"vēl",
+"ayil"
+],
+"barb": [
+"muḷ"
+],
+"point": [
+"nuṉi"
+]
+},
+"090": {
+"man": [
+"āṇ",
+"āṭavaṉ"
+],
+"person": [
+"āḷ"
+],
+"stand": [
+"nil"
+],
+"body": [
+"uṭal",
+"mey"
+]
+},
+"100": {
+"heads": [
+"talai"
+],
+"crowd": [
+"kūṭṭam"
+],
+"man": [
+"āṇ",
+"āṭavaṉ"
+],
+"three": [
+"mūṉṟu"
+]
+},
+"125": {
+"archer": [
+"villi"
+],
+"hunter": [
+"vēṭṭuvaṉ"
+],
+"shoot": [
+"muḷai",
+"taḷir"
+],
+"bow": [
+"vil"
+]
+},
+"140": {
+"woman": [
+"peṇ",
+"makaḷ"
+],
+"mother": [
+"tāy",
+"aṉṉai"
+],
+"breasts": [
+"mulai"
+],
+"raise": [
+"eṭu"
+]
+},
+"142": {
+"staff": [
+"kōl"
+],
+"man": [
+"āṇ",
+"āṭavaṉ"
+],
+"walker": [],
+"stick": [
+"kōl",
+"kaḻi"
+]
+},
+"151": {
+"carrier": [],
+"load": [
+"cumai"
+],
+"carry": [
+"cuma",
+"ēntu"
+],
+"yoke": [
+"nukam"
+]
+},
+"154": {
+"carrier": [],
+"load": [
+"cumai"
+],
+"jar": [
+"tāḻi",
+"kalam"
+],
+"carry": [
+"cuma",
+"ēntu"
+]
+},
+"156": {
+"carrier": [],
+"load": [
+"cumai"
+],
+"fan": [
+"vicaṟi"
+],
+"carry": [
+"cuma",
+"ēntu"
+]
+},
+"176": {
+"sit": [
+"iru"
+],
+"kneel": [],
+"worker": [
+"viṉaiñar"
+],
+"rake": []
+},
+"220": {
+"fish": [
+"mīṉ"
+],
+"fishing": [],
+"fin": [],
+"scale": [
+"cetil"
+]
+},
+"226": {
+"fish": [
+"mīṉ"
+],
+"fish trap": [
+"paṟi"
+],
+"pond": [
+"kuḷam",
+"poykai"
+],
+"catch": [
+"piṭi",
+"paṟṟu"
+]
+},
+"231": {
+"fish": [
+"mīṉ"
+],
+"spot": [
+"puḷḷi",
+"maṟu"
+],
+"dot": [
+"puḷḷi"
+],
+"mark": [
+"kuṟi"
+]
+},
+"233": {
+"fish": [
+"mīṉ"
+],
+"cut fish": [
+"tuṇi"
+],
+"dried fish": [
+"uṇaṅkal"
+],
+"band": [
+"vār"
+]
+},
+"235": {
+"fish": [
+"mīṉ"
+],
+"roof": [
+"kūrai"
+],
+"cover": [
+"mūṭi"
+],
+"lid": [
+"mūṭi"
+]
+},
+"236": {
+"fish": [
+"mīṉ"
+],
+"roof": [
+"kūrai"
+],
+"trap": [
+"paṟi"
+],
+"house": [
+"il",
+"maṉai"
+]
+},
+"240": {
+"catfish": [
+"keḷiṟu"
+],
+"fish": [
+"mīṉ"
+],
+"whiskers": [
+"mīcai"
+],
+"barbel": []
+},
+"255": {
+"fish": [
+"mīṉ"
+],
+"fin": [],
+"lizard": [
+"palli",
+"ōnti"
+],
+"scale": [
+"cetil"
+]
+},
+"350": {
+"roots": [
+"vēr"
+],
+"plant": [
+"ceṭi"
+],
+"sprout": [
+"muḷai"
+],
+"tuft": [
+"kuñci",
+"kuṭumi"
+]
+},
+"368": {
+"flag": [
+"koṭi"
+],
+"banner": [
+"koṭi"
+],
+"pennant": [
+"koṭi"
+],
+"pole": [
+"kaḻi"
+]
+},
+"388": {
+"grain": [
+"kūlam",
+"maṇi"
+],
+"ear": [
+"cevi"
+],
+"sheaf": [
+"kaṟṟai"
+],
+"bunch": [
+"kulai",
+"iṇar"
+]
+},
+"390": {
+"tree": [
+"maram"
+],
+"branch": [
+"kōṭu",
+"kiḷai"
+],
+"twig": [
+"cuḷḷi",
+"kōl"
+],
+"fork": [
+"kavar"
+]
+},
+"400": {
+"comb": [
+"cīppu"
+],
+"teeth": [
+"pal",
+"eyiṟu"
+],
+"rake": [],
+"ladder": [
+"ēṇi"
+]
+},
+"405": {
+"branch": [
+"kōṭu",
+"kiḷai"
+],
+"tree": [
+"maram"
+],
+"twig": [
+"cuḷḷi",
+"kōl"
+],
+"sprout": [
+"muḷai"
+]
+},
+"407": {
+"branch": [
+"kōṭu",
+"kiḷai"
+],
+"twig": [
+"cuḷḷi",
+"kōl"
+],
+"tree": [
+"maram"
+],
+"shoot": [
+"muḷai",
+"taḷir"
+]
+},
+"415": {
+"lamp": [
+"viḷakku"
+],
+"rake": [],
+"trident": [],
+"fork": [
+"kavar"
+]
+},
+"416": {
+"lamp": [
+"viḷakku"
+],
+"rake": [],
+"stand": [
+"nil"
+],
+"tier": [
+"aṭukku"
+]
+},
+"435": {
+"zigzag": [],
+"lightning": [
+"miṉ",
+"miṉṉal"
+],
+"snake": [
+"pāmpu",
+"aravu"
+],
+"turn": [
+"tiri"
+]
+},
+"440": {
+"doorway": [
+"vāyil"
+],
+"door": [
+"katavu"
+],
+"frame": [],
+"gate": [
+"vāyil",
+"kaṭai"
+]
+},
+"455": {
+"hearth": [
+"aṭuppu"
+],
+"triangles": [],
+"stones": [
+"kal"
+],
+"fire": [
+"tī",
+"eri"
+]
+},
+"460": {
+"peaks": [
+"kōṭu",
+"ucci"
+],
+"mountains": [
+"malai",
+"varai"
+],
+"hills": [
+"kuṉṟu",
+"malai"
+],
+"spikes": [
+"muḷ"
+]
+},
+"503": {
+"hill": [
+"kuṉṟu",
+"malai"
+],
+"heap": [
+"kuvai"
+],
+"stack": [
+"pōr"
+],
+"pile": [
+"kuvai"
+]
+},
+"520": {
+"spear": [
+"vēl",
+"ayil"
+],
+"arrow": [
+"ampu",
+"kaṇai"
+],
+"lance": [
+"vēl"
+],
+"point": [
+"nuṉi"
+]
+},
+"527": {
+"box": [
+"ceppu"
+],
+"basket": [
+"kūṭai"
+],
+"stool": [],
+"chest": [
+"mārpu",
+"neñcu"
+]
+},
+"550": {
+"drum": [
+"muracu",
+"paṟai"
+],
+"pincers": [
+"kuṟaṭu"
+],
+"tongs": [
+"kuṟaṭu"
+],
+"claw": [
+"ukir"
+]
+},
+"555": {
+"pincers": [
+"kuṟaṭu"
+],
+"drum": [
+"muracu",
+"paṟai"
+],
+"claw": [
+"ukir"
+],
+"tongs": [
+"kuṟaṭu"
+]
+},
+"575": {
+"building": [
+"maṉai"
+],
+"stand": [
+"nil"
+],
+"shrine": [
+"kōṭṭam"
+],
+"pedestal": []
+},
+"585": {
+"tent": [
+"pācaṟai"
+],
+"hearth": [
+"aṭuppu"
+],
+"hut": [
+"kuṭil",
+"kuṭicai"
+],
+"stand": [
+"nil"
+]
+},
+"590": {
+"box": [
+"ceppu"
+],
+"pole": [
+"kaḻi"
+],
+"flag": [
+"koṭi"
+],
+"standard": [
+"koṭi"
+]
+},
+"595": {
+"box": [
+"ceppu"
+],
+"pole": [
+"kaḻi"
+],
+"basket": [
+"kūṭai"
+],
+"standard": [
+"koṭi"
+]
+},
+"615": {
+"grid": [],
+"field": [
+"vayal",
+"kaḻaṉi"
+],
+"net": [
+"valai"
+],
+"wall": [
+"cuvar",
+"ñāyil"
+]
+},
+"617": {
+"grid": [],
+"fields": [
+"vayal",
+"kaḻaṉi"
+],
+"nets": [
+"valai"
+],
+"walls": [
+"cuvar",
+"ñāyil"
+]
+},
+"621": {
+"door": [
+"katavu"
+],
+"box": [
+"ceppu"
+],
+"frame": [],
+"cabinet": []
+},
+"690": {
+"cross": [],
+"crossroads": [
+"kavalai"
+],
+"junction": [
+"kūṭal",
+"kavalai"
+],
+"meet": [
+"kūṭu"
+]
+},
+"692": {
+"cross": [],
+"crossroads": [
+"kavalai"
+],
+"junction": [
+"kūṭal",
+"kavalai"
+],
+"band": [
+"vār"
+]
+},
+"705": {
+"churn": [
+"mattu"
+],
+"pot": [
+"kuṭam",
+"kalam"
+],
+"stick": [
+"kōl",
+"kaḻi"
+],
+"stir": [
+"kalakku"
+]
+},
+"706": {
+"churn": [
+"mattu"
+],
+"drop": [
+"tuḷi",
+"tivalai"
+],
+"pot": [
+"kuṭam",
+"kalam"
+],
+"stir": [
+"kalakku"
+]
+},
+"717": {
+"paw": [
+"aṭi"
+],
+"hand": [
+"kai"
+],
+"bundle": [
+"poti",
+"kaṭṭu"
+],
+"rake": []
+},
+"740": {
+"jar": [
+"tāḻi",
+"kalam"
+],
+"pot": [
+"kuṭam",
+"kalam"
+],
+"vessel": [
+"kalam"
+],
+"handle": [
+"kāmpu",
+"piṭi"
+]
+},
+"741": {
+"jar": [
+"tāḻi",
+"kalam"
+],
+"pot": [
+"kuṭam",
+"kalam"
+],
+"vessel": [
+"kalam"
+],
+"fill": [
+"niṟai"
+]
+},
+"742": {
+"jar": [
+"tāḻi",
+"kalam"
+],
+"pot": [
+"kuṭam",
+"kalam"
+],
+"vessel": [
+"kalam"
+],
+"fill": [
+"niṟai"
+]
+},
+"760": {
+"pot": [
+"kuṭam",
+"kalam"
+],
+"sprout": [
+"muḷai"
+],
+"plant": [
+"ceṭi"
+],
+"horns": [
+"kōṭu"
+]
+},
+"790": {
+"leaf": [
+"ilai"
+],
+"seed": [
+"vittu"
+],
+"eye": [
+"kaṇ"
+],
+"diamond": []
+},
+"798": {
+"crab": [
+"ñeṇṭu",
+"alavaṉ"
+],
+"claw": [
+"ukir"
+],
+"pincer": [
+"kuṟaṭu"
+],
+"shell": [
+"ōṭu"
+]
+},
+"803": {
+"leaf": [
+"ilai"
+],
+"tree": [
+"maram"
+],
+"vein": [
+"narampu"
+],
+"pipal": [
+"aracu"
+]
+},
+"806": {
+"leaf": [
+"ilai"
+],
+"seed": [
+"vittu"
+],
+"sprout": [
+"muḷai"
+],
+"vein": [
+"narampu"
+]
+},
+"817": {
+"leaf": [
+"ilai"
+],
+"bud": [
+"arumpu",
+"mukai"
+],
+"seed": [
+"vittu"
+],
+"point": [
+"nuṉi"
+]
+},
+"820": {
+"wheel": [
+"āḻi",
+"uruḷ"
+],
+"spokes": [],
+"sun": [
+"ñāyiṟu",
+"katir"
+],
+"star": [
+"mīṉ"
+]
+},
+"832": {
+"eye": [
+"kaṇ"
+],
+"seed": [
+"vittu"
+],
+"almond": [],
+"pupil": [
+"pāvai"
+]
+},
+"840": {
+"leaves": [
+"ilai"
+],
+"eyes": [
+"kaṇ"
+],
+"pair": [
+"iṇai"
+],
+"seeds": [
+"vittu"
+]
+},
+"861": {
+"diamond": [],
+"bud": [
+"arumpu",
+"mukai"
+],
+"leaf": [
+"ilai"
+],
+"point": [
+"nuṉi"
+]
+},
+"892": {
+"bow": [
+"vil"
+],
+"arrow": [
+"ampu",
+"kaṇai"
+],
+"shoot": [
+"muḷai",
+"taḷir"
+],
+"archer": [
+"villi"
+]
+},
+"900": {
+"crescent": [
+"piṟai"
+],
+"moon": [
+"tiṅkaḷ",
+"nilā"
+],
+"curve": [
+"vaḷaivu",
+"kōṭu"
+],
+"bow": [
+"vil"
+]
+},
+"904": {
+"crescents": [
+"piṟai"
+],
+"moons": [
+"tiṅkaḷ",
+"nilā"
+],
+"curves": [
+"vaḷaivu",
+"kōṭu"
+],
+"waves": [
+"alai",
+"tirai"
+]
+},
+"920": {
+"crescent": [
+"piṟai"
+],
+"moon": [
+"tiṅkaḷ",
+"nilā"
+],
+"leaf": [
+"ilai"
+],
+"bud": [
+"arumpu",
+"mukai"
+]
+},
+"923": {
+"boomerang": [],
+"crescent": [
+"piṟai"
+],
+"moon": [
+"tiṅkaḷ",
+"nilā"
+],
+"bend": [
+"vaḷaivu",
+"kōṭu"
+]
+}
+}

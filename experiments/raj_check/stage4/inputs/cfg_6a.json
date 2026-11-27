@@ -1,0 +1,27 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "tamil6a",
+ "names": "names_6a.jsonl",
+ "parts": "parts_6a.jsonl",
+ "number_words": {
+  "1": "oru",
+  "2": "iru",
+  "3": "mu",
+  "4": "nal",
+  "5": "ai",
+  "6": "aru",
+  "7": "elu",
+  "12": "pattu"
+ },
+ "drop_parts": [
+  "tiru",
+  "aiyan"
+ ],
+ "keep_noninitial": [
+  "aiyan"
+ ],
+ "loan_category": "sanskrit_loan",
+ "words": "words_6a.json",
+ "weights": "once"
+}
