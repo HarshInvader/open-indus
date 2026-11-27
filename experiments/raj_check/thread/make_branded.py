@@ -96,23 +96,25 @@ bodyC = (cssC, '<div class="cards">' + card('“Copper” sign on copper tablets
 imgs['C_copies'] = page(bodyC, 'Checking “AI cracked the Indus script”', 'Count each text once and the “proof” fades',
     'Copper tablets came in sets with the same inscription. The paper counted every copy as new evidence.',
     'Fisher tests on the paper’s corpus · github.com/HarshInvader/open-indus')
-# --- D: method
-steps = [('An AI describes each sign in English', '“pot”, “fish”, “bow”', False),
-         ('An AI translator turns those into Old Tamil words', 'kuṭam, mīṉ, vil', False),
-         ('Every Tamil name part that sounds similar is added', '59% of final readings are sound-alikes', True),
-         ('A solver picks the words that make the seals look like Tamil names', 'fitted on half the seals', False),
-         ('Scored on the other half against scrambled names', 'Tamil +223, Sanskrit −13', False)]
-cssD = """.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:30px}
-.st{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px 18px;height:250px;display:flex;flex-direction:column}
-.st.hl{border:2.5px solid var(--clay);background:#FBF1EC}
-.no{font-family:OID;font-weight:700;font-size:40px;color:var(--accent);line-height:1}.st.hl .no{color:var(--clay)}
-.st b{font-size:19px;line-height:1.3;margin-top:14px}.st span{font-size:15.5px;color:var(--muted);margin-top:auto;line-height:1.4}
-.st.hl span{color:var(--clay);font-weight:700}
-.found{font-size:20px;line-height:1.45;margin-top:24px;max-width:1070px}.found b{color:var(--clay)}"""
-bodyD = (cssD, '<div class="steps">' + ''.join(f'<div class="st{" hl" if hl else ""}"><div class="no">{i+1}</div><b>{t}</b><span>{s}</span></div>' for i, (t, s, hl) in enumerate(steps))
-         + '</div><p class="found"><b>The catch:</b> steps 3 and 4 allow so much freedom that the pictures stop mattering. Put the picture words on the wrong signs and Tamil scores the same.</p>')
-imgs['D_method'] = page(bodyD, 'Checking “AI cracked the Indus script”', 'Most readings are sound-alikes, not pictures',
-    'Each step adds freedom. By the end, the picture a sign shows barely matters.', 'From the paper’s code and archived runs · github.com/HarshInvader/open-indus')
+# --- D: sound-alikes, one example + the split
+cssD = """.ex{display:flex;align-items:center;gap:14px;margin-top:30px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 28px}
+.ex .g{height:78px;width:auto}.ex .g path,.ex .g g{fill:var(--ink)}
+.stp{display:flex;flex-direction:column;align-items:flex-start}.stp small{font-size:14px;color:var(--muted)}.stp b{font-size:28px;letter-spacing:-.01em}
+.ar{font-size:28px;color:var(--line-strong)}.fin b{color:var(--clay)}
+.split{margin-top:34px}.split .lbl{font-size:17px;color:var(--muted);margin-bottom:10px}
+.barr{display:flex;height:64px;gap:3px}.seg{border-radius:6px;display:flex;align-items:center;padding:0 20px;color:#fff;font-weight:700;font-size:21px}
+.seg.lit{background:var(--accent);width:41%}.seg.snd{background:var(--clay);width:59%}
+.keys{display:flex;margin-top:10px;font-size:16px;color:var(--muted)}.keys div:first-child{width:41%}"""
+def stp(top, word): return f'<div class="stp"><small>{top}</small><b>{word}</b></div>'
+bodyD = (cssD, f'''<div class="ex">{glyph(342)}<span class="ar">→</span>{stp('the sign shows', '“pot”')}<span class="ar">→</span>
+{stp('in Tamil', 'kuṭam')}<span class="ar">→</span>{stp('swapped for a sound-alike', 'kuṭi')}<span class="ar">→</span>
+<div class="stp fin"><small>their reading</small><b>“clan village”</b></div></div>
+<div class="split"><div class="lbl">All 274 Tamil readings in the paper’s headline runs</div>
+<div class="barr"><div class="seg lit">41%</div><div class="seg snd">59%</div></div>
+<div class="keys"><div>the picture’s own word</div><div>a word that only sounds like it</div></div></div>''')
+imgs['D_method'] = page(bodyD, 'Checking “AI cracked the Indus script”', 'Most readings only sound like the picture',
+    'Any name part that sounds similar can stand in for the picture’s word. That freedom lets Japanese fit too.',
+    'From the paper’s archived runs (113 picture words, 161 sound-alikes) · github.com/HarshInvader/open-indus')
 
 os.makedirs(os.path.join(D, 'html'), exist_ok=True)
 for k, h in imgs.items():

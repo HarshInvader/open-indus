@@ -14,10 +14,9 @@ Sanskrit: −13 (the paper rules it out)
 
 Japanese beats Tamil in 4 of 10 test runs. Same code, same seals. [image B_scores.png]
 ---
-3/ How it "reads" a sign:
-An AI describes it ("pot"). An AI translator gives Tamil words. Then every Tamil name part that merely sounds similar is added, and a solver picks whatever makes the seals look like Tamil names.
+3/ How it "reads" a sign: the sign shows a pot. Tamil for pot is kuṭam. The method swaps it for kuṭi, a word that only sounds similar, and reads "clan village".
 
-59% of final readings are sound-alikes. [image D_method.png]
+59% of the final readings work like this. That freedom is why Japanese fits too. [image D_method.png]
 ---
 4/ Test: we moved each sign's picture words onto a random wrong sign. 50 times.
 
