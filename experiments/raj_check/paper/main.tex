@@ -1,0 +1,174 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{fontspec}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{caption}
+\usepackage{xcolor}
+\usepackage[round,authoryear]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+
+\usepackage{amsmath}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\newcommand{\tl}[1]{\emph{#1}}
+
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\setstretch{1.08}
+\graphicspath{{figures/}}
+
+\title{\textbf{A language contest that cannot tell right pictures from wrong ones:\\a replication and control study of an AI-assisted Dravidian reading of the Indus script}}
+\author{AUTHOR\\[2pt]\small Open Indus, \url{https://indus.opencitizenscience.org}}
+\date{27 November 2026 \quad Preprint, not peer reviewed}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent \citet{raj2026} reads 150 Indus signs as Old Tamil words and supports the choice of language with a held-out contest: a solver fits picture-derived word lists to half the seals so that sign pairs look like personal names, and Tamil names fit the other half far better than scrambled names (+223) while Sanskrit names do not ($-13$). The deposit is unusually complete, and we reproduce all 40 headline runs exactly. We then add four controls, each preregistered by hash before it was run. (1)~\emph{Picture permutation.} With Tamil's picture words moved onto the wrong signs at random, Tamil scores the same (median +224 over 50 permutations, $p=0.51$). The contest does not depend on what the signs depict, so it cannot support readings based on what they depict. (2)~\emph{Fake seals.} On sign-shuffled or frequency-matched random seals the score falls to zero or below ($p=0.048$, the minimum 20 fakes allow): the score tracks real sign order. (3)~\emph{Object marks.} The `copper' and `armlet' signs that name their objects rest on copies; counted once per distinct text, $p=0.19$ and $p=0.017$, neither below the paper's own multiple-test line, and random reassignment of the readings names the right object about as often ($p=0.10$). (4)~\emph{A wrong language with the same naming style.} Japanese family names, built like Tamil names from drawable things, score +134.5 (60\% of Tamil) and beat Tamil in 4 of 10 splits, but are above their control in only 7 of 10 splits, one short of our preregistered bar, so the contest narrowly passes this control. In the paper's own runs 59\% of Tamil readings are sound-alike name parts rather than picture words. We conclude that the contest beats noise but not the placebo that matters: it measures how well a language's naming style fits the recurring sign pairs, not whether the signs write that language.
+
+\medskip
+\noindent\textbf{Keywords:} Indus script; decipherment; replication; negative controls; permutation test; Dravidian; preregistration
+\end{abstract}
+
+\section{Introduction}
+
+The Indus script has no bilingual text and its language is unknown. A Dravidian reading by picture-puns (rebus) goes back to \citet{heras1953}, the Soviet team of \citet{knorozov1965}, \citet{parpola1994} and \citet{mahadevan1977}: a sign that depicts a fish is read \tl{mīṉ}, which also means `star'. Such readings have always been hard to test, because a pun can usually be found for any sign in any language with a large enough dictionary.
+
+\citet{raj2026} takes this programme further than before. With the help of an AI model (Claude, Anthropic), the paper gives readings to 150 signs, covering 86\% of sign occurrences, and supports the choice of Old Tamil with a held-out language contest modelled on automatic decipherment \citep{snyder2010,luo2019}. It also publishes everything: data, code, preregistered plans with hashes, a register of 494 tests, wrong-word rates and an explicit limitations section. The paper itself notes that no reading has been confirmed from outside, in the way a newly excavated tablet confirmed Linear B \citep{ventris1953}.
+
+This openness makes a direct check possible. We ask one question of the contest: does its result depend on the thing the readings claim, namely that each sign depicts a particular word? We reproduce the contest and add the controls that would answer this (Section~\ref{sec:methods}), report every result including those that favour the paper (Section~\ref{sec:results}), and compare the evidence with an earlier Sanskrit reading of the same corpus (Section~\ref{sec:discussion}).
+
+\section{The contest}\label{sec:contest}
+
+The language contest (REP-1 in the paper's archive, \texttt{code/contest.py}) works as follows. Blind AI judges describe 69 signs in English (`pot', `fish', `bow'). AI translators turn the descriptions into Old Tamil words; the same is done for Vedic Sanskrit. Each sign's candidate readings are its picture words plus every name part from the language's name list that sounds like one of them (same first letter, length within 3, a sound distance of at most 0.5). The seal texts are split in half. On one half a greedy solver picks a reading for each sign so that the seal texts look as much as possible like the language's personal names, scored by a word and category bigram model of 1,125 Tamil names (1,367 Sanskrit). On the other half the fitted key is scored against the real names and against eight scrambled versions of them. The statistic is
+\[ D = \frac{1}{10}\sum_{s=0}^{9}\bigl(\text{held-out score}_{\text{real}}(s) - \text{mean held-out score}_{\text{scrambled}}(s)\bigr), \]
+over ten random splits $s$. The paper reports $D=+223\pm103$ for Tamil (10 of 10 splits above zero) and $-13\pm45$ for Sanskrit, and rules Sanskrit out because its mean is below half of Tamil's.
+
+\section{Methods}\label{sec:methods}
+
+\paragraph{Sources.} All files of the Zenodo record \citep{raj2026}, version 0.7, with MD5 sums equal to Zenodo's. The corpus is the ICIT copy \citep{icit} in the \texttt{lipi} repository at commit \texttt{fc8813a} \citep{lipi}, whose SHA-256 equals the hash in the paper's README.
+
+\paragraph{Preregistration.} Stage~1 (T0--T3) was written and hashed before any control was run, when only seed~0 of the reproduction had been seen. Stage~2 (T4) was written and hashed after stage~1 and before any agent was run or any Japanese score was seen. Both plans, their hashes and the commits that fixed them are in our repository. Each plan states, before the run, which outcome supports the paper and which goes against it.
+
+\paragraph{Code.} The paper's code runs unchanged except for one environment hook (\texttt{contest\_ctl.py}, saved as a diff) that permutes the picture-word dictionary or replaces the corpus with a fake one before the contest starts.
+
+\paragraph{T0. Reproduction.} Configurations \texttt{cfg\_headline\_tamil} and \texttt{cfg\_headline\_sanskrit}, seeds 0--9, real and scrambled names. Reproduced if every held-out value equals the stored output to 0.01.
+
+\paragraph{T1. Picture permutation.} The paper states that ``the pictures are part of the reason'' Tamil fits. If so, $D$ should fall when each sign's picture words are given to another sign. Before each run we shuffled the 69 picture-word lists among the non-number signs, each list kept whole, for 50 permutations, each run with seeds 0--9. $p = (1+\#\{D_{\text{perm}}\ge D_{\text{obs}}\})/51$; the paper is supported if $p\le0.05$.
+
+\paragraph{T2. Fake seals.} 20 corpora with each seal's signs shuffled into random order (T2a) and 20 of meaningless seals drawn from the corpus sign frequencies with real seal lengths (T2b), each run as in T0.
+
+\paragraph{T3. Object marks.} The paper reports three readings that name the object type their sign gathers on (\S11.1): sign 840 `armlet' on bangles, 061 `copper' and 705/706 `smith' on copper tablets. We recomputed its scan (296 signs $\times$ 15 object types, Bonferroni line $1.1\times10^{-5}$) and fixed in advance a keyword rule for when a reading's gloss names an object type. The statistic is the number of passing sign--object pairs whose reading names the object, compared with 100,000 random reassignments of the readings among read signs. We also counted the distinct texts behind each case and recomputed Fisher's test with each distinct text counted once.
+
+\paragraph{T4. A wrong language with the same naming style.} The paper's rivals have far fewer picture options per sign than Tamil (2.5): Sanskrit 1.1, Akkadian 0.5, as the paper notes for Akkadian. A fair control is a language with no proposed Indus link whose names, like Tamil's, are built from drawable things. We used Japanese family names \citep{jpnames}, ranked by population. Inputs were built by three AI agents using the paper's own translator and labeler prompts with only the language changed (diffs saved): a translator that saw only the 171 English picture descriptions and gave native Japanese words; a segmenter that split each name into its parts in standalone form and marked each part native or Sino-Japanese; and a labeler that assigned each part a category. As Tamil drops Sanskrit loans, Sino-Japanese parts were dropped by the contest's own loan rule, and names were taken in rank order until 1,125 remained (Tamil's count). Number words and all settings followed Tamil's headline configuration. No list was edited after a run. Decision rule, the paper's own bar applied in reverse: the contest fails to single out Tamil if $D_J\ge D_T/2=111.5$ and Japanese is above its control in at least 8 of 10 splits; otherwise it passes.
+
+\paragraph{Sound-alike share (descriptive).} For each reading chosen in the paper's own headline runs we recorded whether it is a literal picture word or a name part admitted for sounding like one.
+
+\section{Results}\label{sec:results}
+
+\paragraph{T0.} All 40 held-out values equal the stored outputs. Tamil $D=+223.0$ (sd 103.0, 10 of 10 splits above zero); Sanskrit $-13.3$ (sd 44.7, 4 of 10).
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{B_scores.png}
+\caption{The contest statistic $D$ (real names minus scrambled names on held-out seals, mean of 10 splits) under each condition. Moving Tamil's picture words to the wrong signs leaves $D$ unchanged (median of 50 permutations). Japanese family names reach 60\% of Tamil. Fake seals: meaningless strings with the corpus sign frequencies (mean of 20 corpora).}
+\label{fig:scores}
+\end{figure}
+
+\paragraph{T1. The pictures do not drive the result.} With the picture words on random signs, $D$ has median +223.7 (mean +251.7, range +95.8 to +531.4); 25 of 50 permutations reach the observed +223.0, so $p=0.51$, and all 50 are above zero (Figure~\ref{fig:scores}). The share of $D$ due to the correct sign--picture match is $-0.3\%$. The solver also reads as many signs as before (28.5 against 27.4). By the plan, this goes against the claim that the pictures are part of the reason Tamil fits.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{D_method.png}
+\caption{Most chosen readings are sound-alikes. Example: the sign depicting a pot gives Tamil \tl{kuṭam}; the solver chooses the name part \tl{kuṭi} (`house, clan village'), admitted only for its sound. Bottom: the 274 Tamil readings chosen in the paper's ten headline runs.}
+\label{fig:soundalike}
+\end{figure}
+
+\paragraph{Why.} In the paper's headline runs, 161 of 274 Tamil readings (59\%) are sound-alike name parts and 113 (41\%) literal picture words (Figure~\ref{fig:soundalike}); for Sanskrit, 52 of 178 (29\%). Wherever a list of picture words lands, Tamil's large stock of short, similar-sounding name parts gives the solver enough candidates to make recurring sign pairs look like recurring name pairs. The paper anticipates this in its limitations (\S15): ``Our controls measure how often chance fits; they cannot remove the extra freedom.''
+
+\paragraph{T2. The score does track real order.} On sign-shuffled seals $D$ averages $-18.5$ (highest +12.4; 1 of 20 above zero) and on meaningless seals $-28.5$ (highest $-8.9$; none above zero), against +223 on the real seals ($p=0.048$ for each, the smallest value 20 fakes allow). By the plan this supports the paper on one point: the score depends on the real sequence structure of the inscriptions. Together with T1, it shows that Tamil names have recurring two-part patterns that can be mapped onto the recurring sign pairs of the seals, a structure that has long been known, not that the signs stand for those words.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{C_copies.png}
+\caption{The two object marks that pass on their own, counted by inscribed face (as in the paper) and by distinct text. Copper tablets were made in sets bearing the same inscription.}
+\label{fig:copies}
+\end{figure}
+
+\paragraph{T3. The object marks rest on copies.} Of 101 sign--object pairs passing the Bonferroni line, two have a reading that names the object (840 on bangles, 061 on copper tablets; 705 and 706 do not pass on their own). Reassigning the readings at random gives a mean of 0.58 such hits and $P(\ge2)=0.10$: not above chance. The copper-tablet case counts sets of identical tablets many times: the 21 tablet faces with sign 061 carry 3 distinct texts, and counted once each, $p=0.19$ (Table~\ref{tab:copies}, Figure~\ref{fig:copies}). The armlet sign is on 4 distinct bangle texts ($p=0.017$), short of the paper's own line of $1.1\times10^{-5}$.
+
+\begin{table}[t]
+\centering\small
+\caption{Object marks counted by inscribed face and by distinct text.}
+\label{tab:copies}
+\begin{tabular}{lccc}
+\toprule
+Case & Faces (as in the paper) & Distinct texts & Fisher $p$, each distinct text once\\
+\midrule
+840 `armlet', bangles & 10 of 50, $p=1.5\times10^{-7}$ & 4 & 0.017\\
+061 `copper', copper tablets & 21 of 230, $p=6.4\times10^{-11}$ & 3 & 0.19\\
+705 `smith', copper tablets & 20 of 230 & 4 & 0.62\\
+706 `smith', copper tablets & 14 of 230 & 3 & 0.32\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{T4. A wrong language gets 60\% of Tamil's score.} The translator filled 127 of the 171 entries (Tamil 150, Sanskrit 125), and the Japanese lists give 2.38 picture options per sign against Tamil's 2.52. Japanese family names score $D_J=+134.5\pm195$ and are ahead of Tamil in 4 of 10 splits (Table~\ref{tab:t4}; Figure~\ref{fig:seal} shows one seal read both ways). Split by split, Japanese: $-5$, +129, +112, +359, +260, +4, $-106$, +429, $-131$, +294; Tamil: +104, +238, +158, +255, +192, +244, +185, +176, +487, +191. Japanese clears the half-of-Tamil bar but is above its control in 7 of 10 splits, one short of the 8 required. \emph{By the preregistered rule the contest passes this control, narrowly}, and we report it as a pass. With Japanese picture words moved onto random signs (20 permutations), $D$ has median +114.9 and 6 of 20 reach +134.5: as with Tamil, the sign--picture match adds little.
+
+\begin{table}[t]
+\centering\small
+\caption{Stage 2: the contest with Japanese family names, run with the paper's code unchanged.}
+\label{tab:t4}
+\begin{tabular}{lccc}
+\toprule
+ & Old Tamil (T0) & Japanese family names & Vedic Sanskrit (T0)\\
+\midrule
+$D$, mean $\pm$ sd & $+223\pm103$ & $\mathbf{+134.5\pm195}$ & $-13\pm45$\\
+Splits above own control & 10 of 10 & \textbf{7 of 10} & 4 of 10\\
+Splits ahead of Tamil & & \textbf{4 of 10} & 0 of 10\\
+Picture options per sign & 2.52 & 2.38 & 1.1\\
+Signs read, mean & 27.4 & 27.9 & 18\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\linewidth]{A_one_seal.png}
+\caption{Seal M-1312 (Mohenjo-daro) read by the paper's method with Tamil and with Japanese names, seed 0 of each run. Each cell shows the picture word, the sound-alike chosen by the solver, and its meaning. Sign drawings after \citet{mahadevan1977}.}
+\label{fig:seal}
+\end{figure}
+
+\section{Discussion}\label{sec:discussion}
+
+\paragraph{What the contest measures.} The contest beats noise: real names beat scrambled names, and real seals beat fake ones. It does not beat the placebo that matters for a reading built on pictures. A test of the claim that sign~X depicts word~Y must score lower when Y is given to the wrong sign; this one does not (T1). What remains is a fit between the naming style of a language and the recurring sign pairs of the seals. Sanskrit's failure (and Akkadian's, $-2$, in the paper) is largely a failure of naming style: their names are mostly single words, gods' names and verbs, with few drawable parts. Japanese, which builds names from drawable things (\emph{Yamada} `mountain' + `rice field'), gets most of the way to Tamil (T4). Tamil's real advantage over Japanese is consistency (sd 103 against 195; 10 of 10 splits against 7 of 10), which may reflect its larger stock of short sound-alike name parts as much as any link to the script.
+
+\paragraph{Comparison with a Sanskrit reading of the same corpus.} \citet{lipi} reads the script syllabically as Sanskrit, using the same ICIT file. The two programmes share a kind of evidence: a key fitted to the corpus, judged by how well the texts then read in the target language. In both, no value was fixed before the data used to test it, and neither has been tested on newly found material. Our earlier checks (in the same repository) found that the Sanskrit key reads random sign strings nearly as well as real texts; here the Tamil contest scores the same with the pictures on the wrong signs. The two methods crown different languages on the same data, which by itself shows that fitted readings do not settle the language. \citet{raj2026} differs, to its credit, in a held-out design, a scrambled-name control, preregistered plans, rival languages run under the same code, published wrong-word rates and an explicit list of limits.
+
+\paragraph{What is new.} The Dravidian hypothesis and its best-known readings are not new, and the paper credits them: fish = \tl{mīṉ} `star' is Heras's and Parpola's; \tl{poṟai} `burden' echoes Mahadevan's. What is new is the scale (one key for 150 signs), the speed of AI-assisted work, and above all the openness, which is what made this check possible within a day.
+
+\paragraph{Limits of this study.} Our controls test the language contest, not each of the 150 readings; a reading may be right even if the contest cannot show it. The Japanese inputs were built by AI agents, as the paper's were, and a different segmentation could move $D_J$ either way. Our fake-seal and permutation tests use 20 and 50 replicates, so $p$ values are coarse. We ran no human-rated test.
+
+\paragraph{What would settle it.} Values fixed before testing, then (1)~a blind reading of new or unpublished inscriptions; (2)~Dravidianists rating, blind, the method's readings of real texts mixed with readings of look-alike fake texts; (3)~the whole pipeline run end to end on a deciphered logographic corpus and on a planted wrong language. Each of these can fail, which is what makes it evidence.
+
+\section{Conclusion}
+
+We reproduced the language contest of \citet{raj2026} exactly and added preregistered controls. The contest tracks real sign order, but it scores Tamil the same when the picture words are on the wrong signs, most of its readings are sound-alikes, its object marks rest on copied tablets, and a language with no known Indus link reaches 60\% of Tamil's score while narrowly missing our bar. It therefore measures naming style, not language, and gives no support to the specific readings. The Indus script remains undeciphered.
+
+\section*{Data and code availability}
+Plans, hashes, code, the control hook, agent prompts and outputs, and all results: \url{https://github.com/HarshInvader/open-indus/tree/main/experiments/raj_check}. The paper's own files are at \citet{raj2026} (CC BY 4.0); the corpus copy is not redistributed.
+
+\section*{Use of AI}
+The analyses, code and a first draft of this text were prepared with Claude (Anthropic), an AI model, under the author's direction. Three AI agents built the Japanese inputs using the original paper's prompts.
+
+\section*{Acknowledgements}
+We thank Siva Raj for publishing the complete data, code and test archive that made this check possible.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}

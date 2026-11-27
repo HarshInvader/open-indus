@@ -26,7 +26,12 @@ h1{{font-weight:700;font-size:46px;line-height:1.08;letter-spacing:-.018em;margi
 .brand svg{{width:24px;height:24px;color:var(--accent)}}
 .ta{{color:var(--accent)}} .jp{{color:var(--clay)}}
 """
+PAPER = os.environ.get('PAPER') == '1'
+PAPER_H = {'A_one_seal': 430, 'B_scores': 380, 'C_copies': 330, 'D_method': 330}
 def page(body, kick, title, sub, foot_l):
+    if PAPER:
+        return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{body[0]}
+html,body{{background:#fff}}.f{{padding:6px 24px 0;height:auto}}</style></head><body><div class="f">{body[1]}</div></body></html>"""
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}{body[0]}</style></head><body><div class="f">
 <div class="kick">{kick}</div><h1>{title}</h1><p class="sub">{sub}</p>{body[1]}
 <div class="foot"><span>{foot_l}</span><span class="brand">{MARK}OPEN INDUS</span></div></div></body></html>"""
@@ -116,10 +121,11 @@ imgs['D_method'] = page(bodyD, 'Checking “AI cracked the Indus script”', 'Mo
     'Any name part that sounds similar can stand in for the picture’s word. That freedom lets Japanese fit too.',
     'From the paper’s archived runs (113 picture words, 161 sound-alikes) · github.com/HarshInvader/open-indus')
 
-os.makedirs(os.path.join(D, 'html'), exist_ok=True)
+OUT = os.path.join(D, '..', 'paper', 'figures') if PAPER else D
+os.makedirs(os.path.join(D, 'html'), exist_ok=True); os.makedirs(OUT, exist_ok=True)
 for k, h in imgs.items():
-    hp = os.path.join(D, 'html', k + '.html'); open(hp, 'w').write(h)
-    out = os.path.join(D, k + '.png')
-    subprocess.run([CHROME, '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=2', '--window-size=1200,675',
+    hp = os.path.join(D, 'html', k + ('_paper' if PAPER else '') + '.html'); open(hp, 'w').write(h)
+    out = os.path.join(OUT, k + '.png')
+    subprocess.run([CHROME, '--headless', '--disable-gpu', '--hide-scrollbars', '--force-device-scale-factor=2', f'--window-size=1200,{PAPER_H[k] if PAPER else 675}',
                     '--allow-file-access-from-files', f'--screenshot={out}', 'file://' + hp], check=True, capture_output=True)
     print(k, os.path.getsize(out))

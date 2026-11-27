@@ -1,0 +1,39 @@
+{
+ "metadata": {
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "title": "A language contest that cannot tell right pictures from wrong ones: a replication and control study of an AI-assisted Dravidian reading of the Indus script",
+  "creators": [
+   {
+    "name": "AUTHOR",
+    "affiliation": "Open Indus"
+   }
+  ],
+  "description": "<p>Raj (2026) reads 150 Indus signs as Old Tamil words and supports the choice of language with a held-out contest: a solver fits picture-derived word lists to half the seals so that sign pairs look like personal names, and Tamil names fit the other half far better than scrambled names (+223) while Sanskrit names do not (−13). The deposit is unusually complete, and we reproduce all 40 headline runs exactly. We then add four controls, each preregistered by hash before it was run. (1) <em>Picture permutation.</em> With Tamil's picture words moved onto the wrong signs at random, Tamil scores the same (median +224 over 50 permutations, p = 0.51). The contest does not depend on what the signs depict, so it cannot support readings based on what they depict. (2) <em>Fake seals.</em> On sign-shuffled or frequency-matched random seals the score falls to zero or below (p = 0.048, the minimum 20 fakes allow): the score tracks real sign order. (3) <em>Object marks.</em> The ‘copper' and ‘armlet' signs that name their objects rest on copies; counted once per distinct text, p = 0.19 and p = 0.017, neither below the paper's own multiple-test line, and random reassignment of the readings names the right object about as often (p = 0.10). (4) <em>A wrong language with the same naming style.</em> Japanese family names, built like Tamil names from drawable things, score +134.5 (60% of Tamil) and beat Tamil in 4 of 10 splits, but are above their control in only 7 of 10 splits, one short of our preregistered bar, so the contest narrowly passes this control. In the paper's own runs 59% of Tamil readings are sound-alike name parts rather than picture words. We conclude that the contest beats noise but not the placebo that matters: it measures how well a language's naming style fits the recurring sign pairs, not whether the signs write that language.</p><p>Files: the paper (PDF and LaTeX source) and an archive of the study: preregistered plans with their hashes, the control hook, agent prompts and outputs, and all results. Code and history: https://github.com/HarshInvader/open-indus/tree/main/experiments/raj_check</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "version": "1.0",
+  "keywords": [
+   "Indus script",
+   "decipherment",
+   "replication",
+   "negative controls",
+   "permutation test",
+   "Dravidian",
+   "preregistration"
+  ],
+  "related_identifiers": [
+   {
+    "identifier": "10.5281/zenodo.24383779",
+    "relation": "reviews",
+    "scheme": "doi"
+   },
+   {
+    "identifier": "https://github.com/HarshInvader/open-indus/tree/main/experiments/raj_check",
+    "relation": "isSupplementedBy",
+    "scheme": "url"
+   }
+  ]
+ }
+}
