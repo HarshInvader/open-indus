@@ -1,0 +1,29 @@
+{
+ "lang": "tamil4c_c1",
+ "seed": 8,
+ "mode": "real",
+ "names": 437,
+ "name_parts": 146,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 1.22,
+ "signs_with_options": 46,
+ "read": 13,
+ "heldout": 126.11,
+ "readings": {
+  "070": "kaṇai",
+  "140": "aṉṉi",
+  "220": "mīṉ",
+  "226": "kuḷam",
+  "236": "il",
+  "435": "tirai",
+  "440": "kāṭu",
+  "455": "kaḷ",
+  "503": "kuṉṟu",
+  "575": "kōṭṭi",
+  "692": "kūṭal",
+  "705": "kuṭa",
+  "740": "kuṭi"
+ },
+ "secs": 0
+}

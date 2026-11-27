@@ -131,3 +131,47 @@ Limits: one translator per language, no expert check of the Sumerian and Egyptia
 **Exploratory, not preregistered: kind of name or list size?** Ten random subsets of 532 names from the full list (all kinds, about half people), original spelling: median +177.7, range +98.5 to +230.9, 8 or more seeds above control in 8 of 10 subsets (`stage4/size_check_4a.py`, `out/T6_size_summary.json`). None comes near +2.9. So the collapse is about the kind of name, not the size: **Tamil's score comes from its place, hill, river, god and group names.** Tamil personal names score below the Sumerian (+103.5) and Egyptian (+77.6) personal names, though those lists are twice as long. Japanese and Finnish surnames (+134.5, +63.7) are mostly place and landscape words, so they belong with Tamil's place names, not its personal names.
 
 What it means for the paper: the paper reads the seals as names of people with titles and clans. The part of its name list that fits the seals is the place, landscape and group vocabulary, which is the most drawable. That is the naming-style effect again, inside Tamil.
+
+## Stage 4b. Tamil's sister languages and a fresh Old Tamil list (T7)
+`stage4/`, `out/T7_*`. Plan `stage4/PREREG_STAGE4B.md` (sha256 in `PREREG_STAGE4B.sha256`), committed before any 4b agent ran. Departures from the plan, all logged before any 4b run: `stage4/DEVIATIONS_4B.md` (main one: Sanskrit loans labelled by origin for every language; a sensitivity run labels them by meaning). Each language's inputs were committed before its contest ran. Raj's `contest.py` unchanged.
+
+Checker (50 random names, 50 random picture words per language; more than 10% wrong fails):
+
+| List | Names compiled | Names wrong | Words wrong | Checker looked up |
+|---|---|---|---|---|
+| Old Tamil, fresh | 1,276 | 2 of 50 | 3 of 50 | 19 of 100 items |
+| Old Malayalam | 631 | 1 of 50 | 1 of 50 | about 57 of 100 |
+| Old Telugu | 1,338 | 0 of 50 | 4 of 50 | 51 of 100 (names almost all from memory) |
+<!--KANNADA_CHECK-->
+
+Results (main run: loans labelled by origin and dropped):
+
+| Run | Names used | Real minus scrambled, mean ± sd | Seeds above control | Seeds ahead of Raj's Tamil | Picture options per sign | Signs read | Sensitivity run (loans by meaning) |
+|---|---|---|---|---|---|---|---|
+| Raj's Old Tamil (T0) | 1,125 | +223.0 ± 103 | 10 of 10 |  | 2.52 | 27.4 |  |
+| Old Tamil, fresh list | 1,125 | +4.2 ± 185 | 4 of 10 | 1 of 10 | 2.65 | 30.2 | +0.6 (6 of 10) |
+| Old Malayalam | 510 | −92.1 ± 85 | 0 of 10 | 0 of 10 | 0.94 | 10.0 | −25.9 (3 of 10) |
+| Old Telugu | 182 | +31.7 ± 184 | 4 of 10 | 1 of 10 | 0.20 | 1.6 | +11.1 (6 of 10) |
+<!--KANNADA_ROW-->
+
+Seed by seed (main run):
+- Fresh Tamil: −143, +154, −46, +227, +326, +80, −104, −250, −138, −62
+- Malayalam: −214, −5, −182, −18, −126, −31, −33, −41, −221, −52
+- Telugu: −88, −77, −24, +58, +64, −17, −99, +531, −41, +9
+<!--KANNADA_SEEDS-->
+
+**Fresh Old Tamil, by the plan: "Raj's list is special"** (D ≤ 111.5). A second Old Tamil list from the same kinds of sources, checked against the Tamil Lexicon and DEDR, scores +4. The solver reads more signs with it than with Raj's list (30.2 against 27.4), so the list does not fail for want of picture options.
+
+**Exploratory, not preregistered (run after the fresh-Tamil result was seen; `stage4/explore_4b.py`, `out/T7x_summary.json`):**
+
+| Run | Real minus scrambled | Seeds above control | Picture options | Signs read |
+|---|---|---|---|---|
+| X1 fresh names + Raj's picture words | −72.5 ± 176 | 3 of 10 | 2.83 | 30.5 |
+| X2 Raj's names + fresh picture words | +276.4 ± 87 | 10 of 10 | 2.49 | 27.9 |
+| X3 fresh names resampled to Raj's mix (47% people; 683 names), 5 subsets | −50, +70, −1, +71, +155 | 5–8 of 10 | 1.6–2.0 | 18–25 |
+
+The difference is in the names, not the picture words: Raj's names score high with either set of picture words, and the fresh names score near zero or below with either. Matching the mix of name types recovers part of the gap, unstably. **The +223 is a property of one particular list of 1,125 names**, built by a model in the paper's step 0 (`names_model_clean.jsonl`), not of Old Tamil names in general. The fresh list leans on Sangam poets' names from the colophons (68% people), so it is not a copy of Raj's in kind; but Raj's list is not a copy of Old Tamil either, and nothing in the paper fixes which list is the right one.
+
+**Sister languages, by the plan:** <!--DRAVVERDICT_RESULTS-->
+
+Limits: one compiler, translator and labeler per language. The Telugu list is mostly Sanskrit epic names, which leaves almost nothing once loans are dropped (182 names, about 2 signs read), so the Telugu run says little about Telugu. The Malayalam list is short (631 compiled, 510 used).

@@ -1,0 +1,29 @@
+{
+ "lang": "tamil4c_c3",
+ "seed": 8,
+ "mode": "null",
+ "names": 430,
+ "name_parts": 126,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.86,
+ "signs_with_options": 34,
+ "read": 13,
+ "heldout": -97.28,
+ "readings": {
+  "060": "kuṟu",
+  "090": "āṉ",
+  "140": "makaḷ",
+  "220": "mīṉ",
+  "226": "kuḷam",
+  "235": "muṭi",
+  "236": "māṉ",
+  "440": "kaṭu",
+  "503": "māl",
+  "520": "vēḷ",
+  "575": "kōṭṭam",
+  "705": "kuṭam",
+  "740": "kuṭi"
+ },
+ "secs": 0
+}

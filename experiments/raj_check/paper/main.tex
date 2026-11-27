@@ -70,7 +70,7 @@ over ten random splits $s$. The paper reports $D=+223\pm103$ for Tamil (10 of 10
 
 \paragraph{T6. Tamil on equal terms.} Two features of the paper's Tamil input could favour it: its diacritic spelling, which the sound matcher was written for, and its mix of names (532 people, 240 places, 98 deities, 87 groups, 37 lineages, 33 hills, 29 celestial names, 14 rivers and others, from the Sangam poems). We reran the paper's own Tamil lists mechanically changed: in plain ASCII (T6a; ``spelling explains little'' if $D\ge178.4$, 80\% of $D_T$), with personal names only (T6b), and both (T6c). As an exploratory check of list size, not preregistered, we also ran ten random subsets of 532 names of every kind.
 
-%T7METHODS
+\paragraph{T7. Tamil's sister languages and a second Tamil list.} If the contest detects Dravidian, Old Tamil's sister languages should also fit, and a second Old Tamil list built independently should score like the paper's. Fresh agents with no project context compiled about 1,300 proper names of every kind for Old Kannada (inscriptions to about 1200 CE and early literature), Old Telugu (inscriptions to about 1200 CE and Nannaya, Tikkana), Old Malayalam (inscriptions to about 1400 CE and early literature) and Old Tamil (Sangam poems and Tamil-Brahmi inscriptions), using the paper's own Sanskrit name-compiler prompt with only the language and sources changed. A translator (blind), a labeler and a checker followed; the checker looked up 50 random names and 50 random picture words per language in standard dictionaries (Tamil Lexicon, DEDR, Kittel, Brown, Gundert) and epigraphic indexes, with more than 10\% wrong sending a list back once. Sanskrit and Prakrit loans were labelled by origin and dropped, for every language alike; a sensitivity run labels them by meaning. Readings fixed in advance: for the fresh Tamil list, ``the paper's list is not special'' if $D\ge178.4$, ``special'' if $D\le111.5$; for the sisters, ``the contest favours Dravidian'' if at least two of three reach $D\ge111.5$ with 8 of 10 splits above control, ``does not favour Dravidian'' if none reaches 111.5, otherwise ``mixed''. Departures from the plan, all logged before any run, are in the repository.
 
 \paragraph{Sound-alike share (descriptive).} For each reading chosen in the paper's own headline runs we recorded whether it is a literal picture word or a name part admitted for sounding like one.
 
@@ -153,7 +153,7 @@ Signs read, mean & 27.4 & 27.9 & 18\\
 
 \begin{table}[t]
 \centering\small
-\caption{Every language run with the paper's code unchanged (stages 1--4a). $D$: real minus scrambled names on held-out seals, mean of 10 splits.}
+\caption{Every language run with the paper's code unchanged (stages 1--4). $D$: real minus scrambled names on held-out seals, mean of 10 splits.}
 \label{tab:panel}
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{lrcccc}
@@ -168,14 +168,18 @@ Egyptian persons (T5) & $+77.6\pm148$ & 7/10 & 3/10 & 1.62 & 15.9\\
 Finnish surnames (T5) & $+63.7\pm28$ & 10/10 & 0/10 & 0.78 & 12.7\\
 Old Tamil, people only (T6b) & $+2.9\pm246$ & 4/10 & 2/10 & 1.07 & 13.9\\
 Vedic Sanskrit (paper) & $-13.3\pm45$ & 4/10 & 0/10 & 1.06 & 17.8\\
-%T7ROWS
+\midrule
+Old Tamil, fresh list (T7) & $+4.2\pm185$ & 4/10 & 1/10 & 2.65 & 30.2\\
+Old Malayalam (T7, 510) & $-92.1\pm85$ & 0/10 & 0/10 & 0.94 & 10.0\\
+Old Telugu (T7, 182) & $+31.7\pm184$ & 4/10 & 1/10 & 0.20 & 1.6\\
+%KANNADAROW
 \bottomrule
 \end{tabular}
 \end{table}
 
 \paragraph{T6. Tamil's score comes from its place, landscape and group names.} In plain ASCII Tamil still scores +205.8 (10 of 10): by the plan, spelling explains little (stripping the marks merges letters and gives Tamil more picture options, not fewer). With personal names only, Tamil scores $+2.9\pm246$ (4 of 10), and $+28.3$ in ASCII. Random subsets of 532 names of every kind score a median of +177.7 (range +98.5 to +230.9), so the collapse is due to the kind of name, not the size of the list. Tamil's personal names alone fit the seals worse than Sumerian or Egyptian personal names. Yet the paper reads the seals as names of people with their titles and clans.
 
-%T7RESULTS
+\paragraph{T7. The score belongs to one list, not to Old Tamil.} All four lists passed the checker (fresh Tamil: 2 of 50 names and 3 of 50 words wrong; Malayalam 1 and 1; Telugu 0 and 4, though most Telugu names were judged from memory; %KANNADACHECK). The fresh Old Tamil list scores $+4.2\pm185$ (4 of 10 splits above control), although the solver reads more signs with it than with the paper's list (30.2 against 27.4; 2.65 picture options per sign): by the plan, \emph{the paper's list is special}. In an exploratory swap, run after this result was seen, the paper's names with the fresh picture words score $+276.4$ (10 of 10), and the fresh names with the paper's picture words $-72.5$; fresh names resampled to the paper's mix of name types (47\% people) give $-50$ to $+155$ over five subsets. The difference lies in the names. Old Malayalam scores $-92.1\pm85$ (0 of 10; 510 names once loans are dropped) and Old Telugu $+31.7\pm184$ (4 of 10), but with Telugu the solver reads only 1.6 signs, because nearly all of the early Telugu names are Sanskrit epic names. %KANNADARESULT By the plan, %DRAVVERDICT The sensitivity run with loans labelled by meaning changes none of these readings (fresh Tamil $+0.6$, Malayalam $-25.9$, Telugu $+11.1$%KANNADASENS).
 
 \section{Discussion}\label{sec:discussion}
 

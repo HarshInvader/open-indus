@@ -1,0 +1,26 @@
+{
+ "lang": "tamil4c_c3",
+ "seed": 6,
+ "mode": "real",
+ "names": 430,
+ "name_parts": 126,
+ "seals": 951,
+ "signs": 69,
+ "pic_mean_opts": 0.86,
+ "signs_with_options": 34,
+ "read": 10,
+ "heldout": 147.87,
+ "readings": {
+  "220": "mīṉ",
+  "235": "muṭi",
+  "435": "tirai",
+  "440": "vāyil",
+  "460": "malai",
+  "503": "kuṉṟu",
+  "575": "kōṭṭi",
+  "692": "kūṭal",
+  "740": "kuṭi",
+  "760": "kuṭam"
+ },
+ "secs": 0
+}
