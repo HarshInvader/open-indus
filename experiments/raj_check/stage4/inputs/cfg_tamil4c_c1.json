@@ -1,0 +1,27 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "tamil4c_c1",
+ "names": "names_tamil4c_c1.jsonl",
+ "parts": "../../work/REP1/inputs_surviving/morphemes.jsonl",
+ "number_words": {
+  "1": "oru",
+  "2": "iru",
+  "3": "mū",
+  "4": "nāl",
+  "5": "ai",
+  "6": "aṟu",
+  "7": "ēḻu",
+  "12": "pattu"
+ },
+ "drop_parts": [
+  "tiru",
+  "aiyaṉ"
+ ],
+ "keep_noninitial": [
+  "aiyaṉ"
+ ],
+ "loan_category": "sanskrit_loan",
+ "words": "../../work/REP1/inputs/words_tamil_new.json",
+ "weights": "once"
+}
