@@ -21,6 +21,7 @@
 #   * Many scripts iterate over sets, so their permutation p-values move slightly with the hash seed.
 #     The original runs did not fix it. This script fixes PYTHONHASHSEED=0 so that re-runs agree
 #     with each other; values can differ from RESULTS.md within that noise (docs/REPRO_REPORT.md).
+#     The headline scripts are started with -P -s, not -I, because -I makes Python ignore the seed.
 #   * Skipped here (heavy, network or human raters): decipherability/run_grid.py, cognate_decipher
 #     c1-c4, language/b3_sim.py, phonetic_grid sweeps, substitution/run_power.py, iconography i1-i5,
 #     language/fetch_vocab.py, decipherability/fetch_wiki.py, and every cycle-4+ experiment not cited
@@ -82,7 +83,9 @@ run() {  # run DIR area/script.py [args]
   local dir=$1; shift; local s=$1; shift
   local tag; tag=$(basename "$dir")__$(echo "$s $*" | tr '/ ' '__')
   local t0; t0=$(date +%s)
-  (cd "$dir" && timeout $CAP "$PY" -I "experiments/$s" "$@" > "$LOG/$tag.log" 2>&1)
+  # not -I: isolated mode ignores PYTHONHASHSEED, so the seed set above would have no effect.
+  # -P -s and the cleared variables keep the rest of what -I gives.
+  (cd "$dir" && timeout $CAP env -u PYTHONPATH -u PYTHONHOME -u PYTHONSTARTUP "$PY" -P -s "experiments/$s" "$@" > "$LOG/$tag.log" 2>&1)
   local rc=$?
   # scripts that import a sibling common.py need the script dir on sys.path (none of these read raw/)
   if [ $rc -ne 0 ] && grep -q "ModuleNotFoundError\|ImportError" "$LOG/$tag.log"; then

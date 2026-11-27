@@ -1,0 +1,16 @@
+# Broken seals that existed when scripts/check_prereg_hashes.py was added. They are reported,
+# but they do not fail the check. Remove a line when its seal is repaired; never add one to
+# hide a new problem. Format: <status>  <path>
+mismatch  docs/prereg/signlist_robustness.md
+mismatch  experiments/signlist_robustness/harness.py
+mismatch  experiments/short_labels/sl_calibrate.py
+mismatch  experiments/naming_sim/fit.py
+mismatch  experiments/naming_sim/realcmp.py
+mismatch  experiments/naming_sim/identify.py
+mismatch  experiments/core_genre/partB.py
+mismatch  experiments/crib_attack/run_planted.py
+mismatch  docs/prereg/stamp_zeroshot.md
+mismatch  docs/prereg/stamp_eye_review.md
+mismatch  experiments/scorecard_v1/build_rows.py
+mismatch  experiments/scorecard_v1/rows.csv
+mismatch  experiments/meaning_claims/build_catalogue.py

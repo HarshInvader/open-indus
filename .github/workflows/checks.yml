@@ -1,0 +1,30 @@
+# Cheap checks that need no corpus data and no installed packages.
+name: checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # the append-only check reads HASHES.txt at the base commit
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Sealed pre-registration hashes
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            python3 -I scripts/check_prereg_hashes.py --base "origin/${{ github.base_ref }}"
+          else
+            python3 -I scripts/check_prereg_hashes.py --base "${{ github.event.before }}"
+          fi
+      - name: Python files compile
+        run: python3 -I -m compileall -q corpus scripts experiments site board datasets
