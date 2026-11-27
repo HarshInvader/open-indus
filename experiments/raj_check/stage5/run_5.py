@@ -21,6 +21,7 @@ TCFG = json.load(open(os.path.join(W, 'inputs', 'cfg_headline_tamil.json')))
 def cfg(base, basedir, names_path, corpus, lang, d):
     c = dict(base, lang=lang, corpus=os.path.abspath(corpus), names=os.path.abspath(names_path))
     for k in ('parts', 'words'): c[k] = os.path.abspath(os.path.join(basedir, base[k]))
+    for k in ('corpus', 'names', 'parts', 'words'): c[k] = os.path.relpath(c[k], os.path.abspath(d))  # relative paths: no local path in committed configs
     p = os.path.join(d, f'cfg_{lang}.json'); json.dump(c, open(p, 'w', encoding='utf-8'), ensure_ascii=False); return p
 def job(a):
     cfgp, seed, mode, out = a
