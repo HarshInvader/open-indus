@@ -1059,3 +1059,9 @@ html:not(.js) .z-plain { display: block; }
 
 /* hero kicker: "<Project>, part of Open Citizen Science" */
 .kicker a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.25em; text-decoration-color: color-mix(in srgb, currentColor 40%, transparent); } .kicker a:hover { text-decoration-color: currentColor; }
+
+/* Figures inside a news article: wider than the text column, framed so they read in both themes */
+.article-figs .article-fig { margin: 28px 0 36px; width: min(1100px, calc(100vw - 32px)); margin-left: calc(50% - min(550px, calc(50vw - 16px))); }
+.article-figs .article-fig h3 { font-size: 20px; margin: 0 0 12px; max-width: 856px; margin-left: auto; margin-right: auto; }
+.article-figs .article-fig img { display: block; width: 100%; height: auto; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 10px; }
+.article-figs .article-fig figcaption { color: var(--muted); font-size: 15px; line-height: 1.5; margin: 10px auto 0; max-width: 856px; }

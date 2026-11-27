@@ -560,7 +560,43 @@
    "idea": "Check the claimed Tamil decipherment with its own code, plus the controls it did not run",
    "thumbnail_alt": "Drawing: Indus signs matched to words, with a question mark over the match.",
    "result": "experiments/raj_check/RESULTS.md",
-   "topic": "readings"
+   "topic": "readings",
+   "figures_title": "Our check, in pictures",
+   "figures_intro": "We ran the paper’s own code on its own data and added controls fixed in advance. Full write-up: our preprint, <a href=\"https://doi.org/10.5281/zenodo.24579269\">doi:10.5281/zenodo.24579269</a>.",
+   "figures": [
+    {
+     "src": "assets/news/raj-2026/A_one_seal.webp",
+     "w": 2400,
+     "h": 860,
+     "claim": "Same seal, same code: it “reads” in Japanese too",
+     "alt": "Three signs of seal M-1312 with two readings below them: Old Tamil 'star, clan village, desert' and Japanese 'crane, moon, crossing', each built from a picture word and a sound-alike.",
+     "caption": "Seal M-1312 from Mohenjo-daro, run through the paper’s method twice: once with Tamil names, once with Japanese family names, a language with no known link to the Indus. Both come out as fluent readings, so a fluent reading proves nothing. Readings from seed 0 of each run."
+    },
+    {
+     "src": "assets/news/raj-2026/B_scores.webp",
+     "w": 2400,
+     "h": 760,
+     "claim": "Moving the pictures to the wrong signs changes nothing",
+     "alt": "Bar chart of the paper's contest score: Old Tamil +223, Tamil with picture words on wrong signs +224, Japanese family names +134, Vedic Sanskrit −13, Tamil on fake seals −28.",
+     "caption": "The paper’s own score: how much better real names fit the held-out seals than scrambled names, mean of 10 splits. With Tamil’s picture words moved onto random signs, the score is the same (median of 50 permutations, p = 0.51). Japanese reaches 60% of Tamil but is above chance in 7 of 10 splits, one short of our preregistered bar. On fake seals the score falls below zero, so it does track real sign order."
+    },
+    {
+     "src": "assets/news/raj-2026/D_method.webp",
+     "w": 2400,
+     "h": 660,
+     "claim": "Most readings only sound like the picture",
+     "alt": "A pot sign gives Tamil kuṭam, swapped for the sound-alike kuṭi, read 'clan village'. Below, a bar: 41% of readings are the picture's own word, 59% a word that only sounds like it.",
+     "caption": "The method can swap a picture’s word for any name part that sounds similar. In the paper’s own headline runs, 161 of 274 Tamil readings (59%) are such sound-alikes. That freedom is why the pictures stop mattering, and why Japanese can fit too."
+    },
+    {
+     "src": "assets/news/raj-2026/C_copies.webp",
+     "w": 2400,
+     "h": 660,
+     "claim": "Count each text once and the object “proof” fades",
+     "alt": "Two cards: the 'copper' sign on 21 copper tablet faces carries 3 distinct inscriptions (p from 6×10⁻¹¹ to 0.19); the 'armlet' sign on 10 bangle faces carries 4 (p from 1.5×10⁻⁷ to 0.017).",
+     "caption": "Copper tablets were made in sets with the same inscription, and the paper counts every copy. Counted once per distinct text, neither object mark passes the paper’s own bar for many tests, and giving its readings to signs at random names the right object about as often (p = 0.10)."
+    }
+   ]
   },
   {
    "id": "restoration-2026",

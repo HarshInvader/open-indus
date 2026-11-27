@@ -992,12 +992,20 @@ def news_article_pages():
         if index + 1 < len(ordered):
             nxt = ordered[index + 1]
             neighbors.append(f'<a rel="next" href="{news_url(nxt)}"><small>Next item</small>{E(nxt["head"])}</a>')
+        figs = it.get("figures") or []
+        figs_html = ""
+        if figs:
+            figs_html = ('<section class="article-figs" aria-labelledby="figs"><h2 id="figs">' + E(it.get("figures_title", "In pictures")) + '</h2>'
+                         + (f'<p>{it["figures_intro"]}</p>' if it.get("figures_intro") else "")
+                         + "".join(f'<figure class="article-fig"><h3>{E(f["claim"])}</h3><a href="{E(f["src"])}"><img src="{E(f["src"])}" alt="{E(f["alt"])}" '
+                                   f'width="{f["w"]}" height="{f["h"]}" loading="lazy" decoding="async"></a><figcaption>{E(f["caption"])}</figcaption></figure>' for f in figs)
+                         + '</section>')
         pages.append(render("news-article", f'{it["head"]} · {NAME}', it["gist"], "news.html", dict(
             ARTICLE_KIND=E(it["kind"]), ARTICLE_DATE=E(news_date(it["date"])), ARTICLE_HEAD=E(it["head"]),
             ARTICLE_WHO=E(it["who"]), ARTICLE_URL=E(it["url"]), ARTICLE_VENUE=E(it["venue"]),
             ARTICLE_THUMB=news_thumbnail(it, eager=True), ARTICLE_GIST=E(it["gist"]), ARTICLE_PLAIN=E(it["plain"]),
             ARTICLE_TECH=E(it["tech"]), ARTICLE_BORROW=E(it["borrow"]), ARTICLE_TAG=f'<span class="tag {cls}">{E(lab)}</span>',
-            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_DETAIL=news_detail(it), ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
+            ARTICLE_IDEA=idea, ARTICLE_RESULT=evidence, ARTICLE_FIGS=figs_html, ARTICLE_DETAIL=news_detail(it), ARTICLE_NEIGHBORS="".join(neighbors)), output=news_url(it)))
     return pages
 
 
