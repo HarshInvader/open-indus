@@ -4,3 +4,5 @@
 3dbdc5a31751b3c4b28064e12f4fcc85d46dacbe24985fa6563beae2867c21a7  agents/japanese_translator_prompt.txt
 d10775fedf0d39ebb62f5bfc9ac91a6a75c101948e8229e9eb7a80b9e57fb48a  agents/labeler_prompt_ORIGINAL.txt
 fdf3bdc7433804f2ea6493a6826ba483f9055b451912c1d73e210a430fa63c77  agents/tamil_translator_prompt_ORIGINAL.txt
+
+Note (2026-11-27, before first push): in the three japanese_*_prompt.txt files, the absolute local path prefix was replaced by <REPO>/ for privacy. The hashes above are of the files as hashed and used, before that redaction. No other character changed.
