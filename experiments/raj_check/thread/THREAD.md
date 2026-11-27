@@ -38,8 +38,10 @@ But copper tablets came in sets with the same text. The 21 "copper" tablets carr
 
 But fitting a key isn't decipherment.
 ---
-8/ Linear B was proven when a newly dug-up tablet read correctly with values fixed in advance. Nothing like that exists here.
+8/ Bottom line: it beats random noise, but not the placebo that matters. Put the pictures on the wrong signs and it scores the same.
 
-Full analysis, code, every number: indus.opencitizenscience.org/news-raj-2026
+Real science needs a test that can fail, fixed in advance. That's how we work at Open Indus.
+---
+9/ Full analysis, code, every number: indus.opencitizenscience.org/news-raj-2026
 
 Want to do real, honest Indus research? Contribute here: indus.opencitizenscience.org/contribute
