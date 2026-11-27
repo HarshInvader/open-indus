@@ -1,6 +1,6 @@
 # Checking Raj (2026), "Indus Script Read as Early Dravidian, with AI Assistance" (v0.7)
 
-2026-11-27. Plans: `PREREG.md` (sha256 0d9b3da9…96ba, commit 544309a) and `stage2/PREREG_STAGE2.md` (sha256 83609964…6ec0, commit 4895276), both hashed before the runs they cover. Source: Zenodo 10.5281/zenodo.24383779 (CC BY 4.0), every file copied to `sources/raj_zenodo_24383779_v0.7/` with md5 equal to Zenodo's. Corpus: the ICIT copy in yajnadevam/lipi @ fc8813a, sha256 equal to the one in Raj's README.
+2026-11-27. Preprint: [doi:10.5281/zenodo.24579269](https://doi.org/10.5281/zenodo.24579269). Plans: `PREREG.md` (sha256 0d9b3da9…96ba, commit 544309a) and `stage2/PREREG_STAGE2.md` (sha256 83609964…6ec0, commit 4895276), both hashed before the runs they cover. Source: Zenodo 10.5281/zenodo.24383779 (CC BY 4.0), every file copied to `sources/raj_zenodo_24383779_v0.7/` with md5 equal to Zenodo's. Corpus: the ICIT copy in yajnadevam/lipi @ fc8813a, sha256 equal to the one in Raj's README.
 
 We ran Raj's own code on Raj's own data. Where we changed anything, the change is a hook saved as a diff (`code/contest_ctl.diff`).
 

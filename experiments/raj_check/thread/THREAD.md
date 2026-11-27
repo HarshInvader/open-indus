@@ -42,6 +42,8 @@ But fitting a key isn't decipherment.
 
 Real science needs a test that can fail, fixed in advance. That's how we work at Open Indus.
 ---
-9/ Full analysis, code, every number: indus.opencitizenscience.org/news-raj-2026
+9/ Our preprint: doi.org/10.5281/zenodo.24579269
+
+Full analysis, code, every number: indus.opencitizenscience.org/news-raj-2026
 
 Want to do real, honest Indus research? Contribute here: indus.opencitizenscience.org/contribute
