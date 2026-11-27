@@ -1,0 +1,391 @@
+{"name": "Shōbrō", "type": "deity", "morphemes": ["shōbrō"], "weight": 1}
+{"name": "Kuhlēn", "type": "deity", "morphemes": ["kuhlēn"], "weight": 1}
+{"name": "Tūbē", "type": "celestial", "morphemes": ["tūbē"], "weight": 1}
+{"name": "Ērgvāt", "type": "other", "morphemes": ["ēr", "gvāt"], "weight": 1}
+{"name": "Hatām", "type": "other", "morphemes": ["hatām"], "weight": 1}
+{"name": "Pōɣī", "type": "person", "morphemes": ["pōɣ"], "weight": 1}
+{"name": "Mangulī", "type": "person", "morphemes": ["mangul"], "weight": 1}
+{"name": "Hambō", "type": "person", "morphemes": ["hambō"], "weight": 1}
+{"name": "Bībī Kapōk", "type": "person", "morphemes": ["bībī", "kapōk"], "weight": 1}
+{"name": "Mīr Bījār", "type": "person", "morphemes": ["mīr", "bījār"], "weight": 1}
+{"name": "Mīr Iltāz", "type": "person", "morphemes": ["mīr", "iltāz"], "weight": 1}
+{"name": "Mīr Bōhīr", "type": "person", "morphemes": ["mīr", "bōhīr"], "weight": 1}
+{"name": "Mīr Bullō", "type": "person", "morphemes": ["mīr", "bullō"], "weight": 1}
+{"name": "Mīr Ballō", "type": "person", "morphemes": ["mīr", "ballō"], "weight": 1}
+{"name": "Mīr Mandav", "type": "person", "morphemes": ["mīr", "mandav"], "weight": 1}
+{"name": "Jām Ārī", "type": "person", "morphemes": ["jām", "ārī"], "weight": 1}
+{"name": "Shāh Dāhō", "type": "person", "morphemes": ["shāh", "dāhō"], "weight": 1}
+{"name": "Shāh Bālēdār", "type": "person", "morphemes": ["shāh", "bālē", "dār"], "weight": 1}
+{"name": "Pīr Jōngal", "type": "person", "morphemes": ["pīr", "jōngal"], "weight": 1}
+{"name": "Pīr Ārī", "type": "person", "morphemes": ["pīr", "ārī"], "weight": 1}
+{"name": "Shēx Lāngō", "type": "person", "morphemes": ["shēx", "lāngō"], "weight": 1}
+{"name": "Husain Bīrī", "type": "person", "morphemes": ["husain", "bīrī"], "weight": 1}
+{"name": "Chillingā", "type": "person", "morphemes": ["chillingā"], "weight": 1}
+{"name": "Bātē Xān", "type": "person", "morphemes": ["bātē", "xān"], "weight": 1}
+{"name": "Hājī Sōpak", "type": "person", "morphemes": ["hājī", "sōpak"], "weight": 1}
+{"name": "Hājī Mārī", "type": "person", "morphemes": ["hājī", "mārī"], "weight": 1}
+{"name": "Brāhūī", "type": "group", "morphemes": ["brāhūī"], "weight": 1}
+{"name": "Mēngal", "type": "group", "morphemes": ["mēngal"], "weight": 1}
+{"name": "Zagar Mēngal", "type": "group", "morphemes": ["zagar", "mēngal"], "weight": 1}
+{"name": "Bangulzai", "type": "group", "morphemes": ["bangul"], "weight": 1}
+{"name": "Bīzanjav", "type": "group", "morphemes": ["bīzanj"], "weight": 1}
+{"name": "Lāngav", "type": "group", "morphemes": ["lāng"], "weight": 1}
+{"name": "Lahrī", "type": "group", "morphemes": ["lahr"], "weight": 1}
+{"name": "Sumālārī", "type": "group", "morphemes": ["sumāl"], "weight": 1}
+{"name": "Pandarānī", "type": "group", "morphemes": ["pandar"], "weight": 1}
+{"name": "Zahrī", "type": "group", "morphemes": ["zahrī"], "weight": 1}
+{"name": "Sātakzai", "type": "group", "morphemes": ["sātak"], "weight": 1}
+{"name": "Bājōī", "type": "group", "morphemes": ["bājō"], "weight": 1}
+{"name": "Lōṭyānī", "type": "group", "morphemes": ["lōṭī"], "weight": 1}
+{"name": "Sannārī", "type": "group", "morphemes": ["sannār"], "weight": 1}
+{"name": "Kullōī", "type": "group", "morphemes": ["kullō"], "weight": 1}
+{"name": "Iltāzai", "type": "lineage", "morphemes": ["iltāz"], "weight": 1}
+{"name": "Kallōzai", "type": "lineage", "morphemes": ["kallō"], "weight": 1}
+{"name": "Chānrōzai", "type": "lineage", "morphemes": ["chānrō"], "weight": 1}
+{"name": "Nōtzai", "type": "lineage", "morphemes": ["nōt"], "weight": 1}
+{"name": "Bījārzai", "type": "lineage", "morphemes": ["bījār"], "weight": 1}
+{"name": "Baddūzai", "type": "lineage", "morphemes": ["baddū"], "weight": 1}
+{"name": "Sāmēzai", "type": "lineage", "morphemes": ["sāmē"], "weight": 1}
+{"name": "Mandōzai", "type": "lineage", "morphemes": ["mandō"], "weight": 1}
+{"name": "Mandvānī", "type": "lineage", "morphemes": ["mandav"], "weight": 1}
+{"name": "Pūɣ", "type": "lineage", "morphemes": ["pūɣ"], "weight": 1}
+{"name": "Kōh Baddūzai", "type": "lineage", "morphemes": ["kōh", "baddū"], "weight": 1}
+{"name": "Mādēzai", "type": "lineage", "morphemes": ["mādē"], "weight": 1}
+{"name": "Shūdanzai", "type": "lineage", "morphemes": ["shūdan"], "weight": 1}
+{"name": "Bambkāzai", "type": "lineage", "morphemes": ["bambkā"], "weight": 1}
+{"name": "Sāmālzai", "type": "lineage", "morphemes": ["sāmāl"], "weight": 1}
+{"name": "Xalēchānī", "type": "lineage", "morphemes": ["xalēch"], "weight": 1}
+{"name": "Shangrānī", "type": "lineage", "morphemes": ["shangr"], "weight": 1}
+{"name": "Murrāī", "type": "lineage", "morphemes": ["murrā"], "weight": 1}
+{"name": "Nōtakzai", "type": "lineage", "morphemes": ["nōtak"], "weight": 1}
+{"name": "Mangēhzai", "type": "lineage", "morphemes": ["mangēh"], "weight": 1}
+{"name": "Shālūzai", "type": "lineage", "morphemes": ["shālū"], "weight": 1}
+{"name": "Bilaṭal", "type": "lineage", "morphemes": ["bilaṭal"], "weight": 1}
+{"name": "Channāl", "type": "lineage", "morphemes": ["channāl"], "weight": 1}
+{"name": "Hīrānzai", "type": "lineage", "morphemes": ["hīrān"], "weight": 1}
+{"name": "Dallūjav", "type": "lineage", "morphemes": ["dallū"], "weight": 1}
+{"name": "Drāb", "type": "lineage", "morphemes": ["drāb"], "weight": 1}
+{"name": "Bāmalānī", "type": "lineage", "morphemes": ["bāmal"], "weight": 1}
+{"name": "Bullōzai", "type": "lineage", "morphemes": ["bullō"], "weight": 1}
+{"name": "Adrōānī", "type": "lineage", "morphemes": ["adrō"], "weight": 1}
+{"name": "Mandrājav", "type": "lineage", "morphemes": ["mandrā"], "weight": 1}
+{"name": "Alībōtīzai", "type": "lineage", "morphemes": ["alī", "bōtī"], "weight": 1}
+{"name": "Bānzōzai", "type": "lineage", "morphemes": ["bānzō"], "weight": 1}
+{"name": "Tūk", "type": "lineage", "morphemes": ["tūk"], "weight": 1}
+{"name": "Makkālī", "type": "lineage", "morphemes": ["makkāl"], "weight": 1}
+{"name": "Natvānī", "type": "lineage", "morphemes": ["natav"], "weight": 1}
+{"name": "Nindvānī", "type": "lineage", "morphemes": ["nindav"], "weight": 1}
+{"name": "Chānarvānī", "type": "lineage", "morphemes": ["chānarav"], "weight": 1}
+{"name": "Kēbārī", "type": "lineage", "morphemes": ["kēbār"], "weight": 1}
+{"name": "Shambav", "type": "lineage", "morphemes": ["shambav"], "weight": 1}
+{"name": "Trāsēzai", "type": "lineage", "morphemes": ["trāsē"], "weight": 1}
+{"name": "Bājēzai", "type": "lineage", "morphemes": ["bājē"], "weight": 1}
+{"name": "Bōlāzai", "type": "lineage", "morphemes": ["bōlā"], "weight": 1}
+{"name": "Shāndī", "type": "lineage", "morphemes": ["shānd"], "weight": 1}
+{"name": "Bārīna", "type": "lineage", "morphemes": ["bārīna"], "weight": 1}
+{"name": "Langrējī", "type": "lineage", "morphemes": ["langrēj"], "weight": 1}
+{"name": "Drākalav", "type": "lineage", "morphemes": ["drākal"], "weight": 1}
+{"name": "Kabmatzai", "type": "lineage", "morphemes": ["kabmat"], "weight": 1}
+{"name": "Bābzal Xānzai", "type": "lineage", "morphemes": ["bābzal", "xān"], "weight": 1}
+{"name": "Dāhīzai", "type": "lineage", "morphemes": ["dāhī"], "weight": 1}
+{"name": "Hujīzai", "type": "lineage", "morphemes": ["hujī"], "weight": 1}
+{"name": "Kanarzai", "type": "lineage", "morphemes": ["kanar"], "weight": 1}
+{"name": "Kandūzai", "type": "lineage", "morphemes": ["kandū"], "weight": 1}
+{"name": "Bulbānzai", "type": "lineage", "morphemes": ["bulbān"], "weight": 1}
+{"name": "Bōhīrzai", "type": "lineage", "morphemes": ["bōhīr"], "weight": 1}
+{"name": "Jābāzai", "type": "lineage", "morphemes": ["jābā"], "weight": 1}
+{"name": "Nandvānī", "type": "lineage", "morphemes": ["nandav"], "weight": 1}
+{"name": "Nakūzai", "type": "lineage", "morphemes": ["nakū"], "weight": 1}
+{"name": "Nōkbaṭāzai", "type": "lineage", "morphemes": ["nōk", "baṭā"], "weight": 1}
+{"name": "Bārāzai", "type": "lineage", "morphemes": ["bārā"], "weight": 1}
+{"name": "Sartiyān", "type": "lineage", "morphemes": ["sartiyān"], "weight": 1}
+{"name": "Bushamzai", "type": "lineage", "morphemes": ["busham"], "weight": 1}
+{"name": "Bundōzai", "type": "lineage", "morphemes": ["bundō"], "weight": 1}
+{"name": "Gārnār", "type": "lineage", "morphemes": ["gārnār"], "weight": 1}
+{"name": "Baddājō", "type": "lineage", "morphemes": ["baddāj"], "weight": 1}
+{"name": "Lēhrīzai", "type": "lineage", "morphemes": ["lēhrī"], "weight": 1}
+{"name": "Gōgēzai", "type": "lineage", "morphemes": ["gōgē"], "weight": 1}
+{"name": "Kangarzai", "type": "lineage", "morphemes": ["kangar"], "weight": 1}
+{"name": "Māldāzai", "type": "lineage", "morphemes": ["māl", "dā"], "weight": 1}
+{"name": "Bālōxānzai", "type": "lineage", "morphemes": ["bālō", "xān"], "weight": 1}
+{"name": "Burakzai", "type": "lineage", "morphemes": ["burak"], "weight": 1}
+{"name": "Nagau", "type": "hill", "morphemes": ["nagau"], "weight": 1}
+{"name": "Vārō", "type": "hill", "morphemes": ["vārō"], "weight": 1}
+{"name": "Judusk", "type": "hill", "morphemes": ["judusk"], "weight": 1}
+{"name": "Zāɣ-nā-Kasar", "type": "hill", "morphemes": ["zāɣ", "kasar"], "weight": 1}
+{"name": "Rōdh-nā-Kasar", "type": "hill", "morphemes": ["rōdh", "kasar"], "weight": 1}
+{"name": "Hurrō", "type": "hill", "morphemes": ["hurrō"], "weight": 1}
+{"name": "Āirō", "type": "hill", "morphemes": ["āirō"], "weight": 1}
+{"name": "Pandar Gaṭ", "type": "hill", "morphemes": ["pandar", "gaṭ"], "weight": 1}
+{"name": "Tailing", "type": "hill", "morphemes": ["tailing"], "weight": 1}
+{"name": "Sharrō", "type": "hill", "morphemes": ["sharrō"], "weight": 1}
+{"name": "Trakkō", "type": "hill", "morphemes": ["trakkō"], "weight": 1}
+{"name": "Kullī", "type": "hill", "morphemes": ["kullī"], "weight": 1}
+{"name": "Chīchōb", "type": "hill", "morphemes": ["chīchōb"], "weight": 1}
+{"name": "Bāsh-nā-Kasar", "type": "hill", "morphemes": ["bāsh", "kasar"], "weight": 1}
+{"name": "Kunj-nā-Kasar", "type": "hill", "morphemes": ["kunj", "kasar"], "weight": 1}
+{"name": "Sirkā-Kōbī", "type": "hill", "morphemes": ["sirkā", "kōbī"], "weight": 1}
+{"name": "Bimbōl", "type": "hill", "morphemes": ["bimbōl"], "weight": 1}
+{"name": "Mēlbī", "type": "hill", "morphemes": ["mēlbī"], "weight": 1}
+{"name": "Jōɣēnō", "type": "hill", "morphemes": ["jōɣēnō"], "weight": 1}
+{"name": "Mākī Shām", "type": "hill", "morphemes": ["mākī", "shām"], "weight": 1}
+{"name": "Bōlxā", "type": "hill", "morphemes": ["bōlxā"], "weight": 1}
+{"name": "Lāɣānī", "type": "hill", "morphemes": ["lāɣān"], "weight": 1}
+{"name": "Zahrī Gaṭ", "type": "hill", "morphemes": ["zahrī", "gaṭ"], "weight": 1}
+{"name": "Amach", "type": "hill", "morphemes": ["amach"], "weight": 1}
+{"name": "Nishpā", "type": "hill", "morphemes": ["nishpā"], "weight": 1}
+{"name": "Surx Bājō", "type": "hill", "morphemes": ["surx", "bājō"], "weight": 1}
+{"name": "Sunēbōk", "type": "hill", "morphemes": ["sunēbōk"], "weight": 1}
+{"name": "Māshēlax", "type": "hill", "morphemes": ["māshēlax"], "weight": 1}
+{"name": "Pīhūnalath", "type": "hill", "morphemes": ["pīhūna", "laṭ"], "weight": 1}
+{"name": "Istrāb", "type": "hill", "morphemes": ["istrāb"], "weight": 1}
+{"name": "Mōrinkō", "type": "hill", "morphemes": ["mōrinkō"], "weight": 1}
+{"name": "Ullhī", "type": "hill", "morphemes": ["ullhī"], "weight": 1}
+{"name": "Alī Dīr", "type": "hill", "morphemes": ["alī", "dīr"], "weight": 1}
+{"name": "Pīhī", "type": "hill", "morphemes": ["pīhī"], "weight": 1}
+{"name": "Mūdēnak", "type": "hill", "morphemes": ["mūdēnak"], "weight": 1}
+{"name": "Chīnnāv", "type": "hill", "morphemes": ["chīnnāv"], "weight": 1}
+{"name": "Lāmbōī-nā-Tavak", "type": "hill", "morphemes": ["lāmbōī", "tavak"], "weight": 1}
+{"name": "Galangūr Kōtal", "type": "hill", "morphemes": ["galangūr", "kōtal"], "weight": 1}
+{"name": "Pīchnān", "type": "hill", "morphemes": ["pīchnān"], "weight": 1}
+{"name": "Bōlān", "type": "hill", "morphemes": ["bōlān"], "weight": 1}
+{"name": "Pab", "type": "hill", "morphemes": ["pab"], "weight": 1}
+{"name": "Mōl", "type": "hill", "morphemes": ["mōl"], "weight": 1}
+{"name": "Gōlik", "type": "hill", "morphemes": ["gōlik"], "weight": 1}
+{"name": "Pōtaī", "type": "hill", "morphemes": ["pōtaī"], "weight": 1}
+{"name": "Shāshān", "type": "hill", "morphemes": ["shāshān"], "weight": 1}
+{"name": "Daunō", "type": "hill", "morphemes": ["daunō"], "weight": 1}
+{"name": "Dōbānzil", "type": "hill", "morphemes": ["dō", "bānzil"], "weight": 1}
+{"name": "Punduharr", "type": "hill", "morphemes": ["punduharr"], "weight": 1}
+{"name": "Vērāvī", "type": "hill", "morphemes": ["vērāvī"], "weight": 1}
+{"name": "Dirrī", "type": "hill", "morphemes": ["dirrī"], "weight": 1}
+{"name": "Gājī Lak", "type": "hill", "morphemes": ["gāj", "lak"], "weight": 1}
+{"name": "Manjār", "type": "hill", "morphemes": ["manjār"], "weight": 1}
+{"name": "Shātruk-nak", "type": "hill", "morphemes": ["shātruk", "nak"], "weight": 1}
+{"name": "Garāhī", "type": "hill", "morphemes": ["garāhī"], "weight": 1}
+{"name": "Jārāɣar", "type": "hill", "morphemes": ["jārā", "ɣar"], "weight": 1}
+{"name": "Knud", "type": "hill", "morphemes": ["knud"], "weight": 1}
+{"name": "Kalɣalō", "type": "hill", "morphemes": ["kalɣalō"], "weight": 1}
+{"name": "Kalɣalī", "type": "hill", "morphemes": ["kalɣalī"], "weight": 1}
+{"name": "Gāmōī Būrī", "type": "hill", "morphemes": ["gāmōī", "būrī"], "weight": 1}
+{"name": "Shāk", "type": "hill", "morphemes": ["shāk"], "weight": 1}
+{"name": "Kōṭ Tōnz", "type": "hill", "morphemes": ["kōṭ", "tōnz"], "weight": 1}
+{"name": "Pāngō", "type": "hill", "morphemes": ["pāngō"], "weight": 1}
+{"name": "Trēpōrī", "type": "hill", "morphemes": ["trē", "pōr"], "weight": 1}
+{"name": "Xāṭā Kand", "type": "hill", "morphemes": ["xāṭā", "kand"], "weight": 1}
+{"name": "Pahāz", "type": "hill", "morphemes": ["pahāz"], "weight": 1}
+{"name": "Sīchī", "type": "hill", "morphemes": ["sīchī"], "weight": 1}
+{"name": "Kakāhīr", "type": "hill", "morphemes": ["kakāhīr"], "weight": 1}
+{"name": "Bānh", "type": "hill", "morphemes": ["bānh"], "weight": 1}
+{"name": "Gaukōk", "type": "hill", "morphemes": ["gaukōk"], "weight": 1}
+{"name": "Lār Kōh", "type": "hill", "morphemes": ["lār", "kōh"], "weight": 1}
+{"name": "Shandī Kōh", "type": "hill", "morphemes": ["shandī", "kōh"], "weight": 1}
+{"name": "Sārū", "type": "hill", "morphemes": ["sārū"], "weight": 1}
+{"name": "Kuṭī", "type": "hill", "morphemes": ["kuṭī"], "weight": 1}
+{"name": "Jōvārkīn", "type": "hill", "morphemes": ["jōvārkīn"], "weight": 1}
+{"name": "Nagau-nā-Jhal", "type": "river", "morphemes": ["nagau", "jhal"], "weight": 1}
+{"name": "Huar-nā-Jhal", "type": "river", "morphemes": ["huar", "jhal"], "weight": 1}
+{"name": "Mōrgand", "type": "river", "morphemes": ["mōrgand"], "weight": 1}
+{"name": "Kāikī", "type": "river", "morphemes": ["kāikī"], "weight": 1}
+{"name": "Shīshār", "type": "river", "morphemes": ["shīshār"], "weight": 1}
+{"name": "Pashak", "type": "river", "morphemes": ["pashak"], "weight": 1}
+{"name": "Sōpak", "type": "river", "morphemes": ["sōpak"], "weight": 1}
+{"name": "Parrī", "type": "river", "morphemes": ["parrī"], "weight": 1}
+{"name": "Chiringī", "type": "river", "morphemes": ["chiringī"], "weight": 1}
+{"name": "Mōbī", "type": "river", "morphemes": ["mōbī"], "weight": 1}
+{"name": "Mūmī", "type": "river", "morphemes": ["mūmī"], "weight": 1}
+{"name": "Gahōr", "type": "river", "morphemes": ["gahōr"], "weight": 1}
+{"name": "Narōdar", "type": "river", "morphemes": ["narōdar"], "weight": 1}
+{"name": "Dalgach", "type": "river", "morphemes": ["dalgach"], "weight": 1}
+{"name": "Tirmurī Kumb", "type": "river", "morphemes": ["tirmurī", "kumb"], "weight": 1}
+{"name": "Lōndō Kumb", "type": "river", "morphemes": ["lōndō", "kumb"], "weight": 1}
+{"name": "Mutkunā Jō", "type": "river", "morphemes": ["mutkun", "jō"], "weight": 1}
+{"name": "Nash", "type": "river", "morphemes": ["nash"], "weight": 1}
+{"name": "Bōlān Kaur", "type": "river", "morphemes": ["bōlān", "kaur"], "weight": 1}
+{"name": "Nārī", "type": "river", "morphemes": ["nārī"], "weight": 1}
+{"name": "Mātāvnī", "type": "river", "morphemes": ["mātāvnī"], "weight": 1}
+{"name": "Sūlak", "type": "river", "morphemes": ["sūlak"], "weight": 1}
+{"name": "Xōbēṭ", "type": "river", "morphemes": ["xōbēṭ"], "weight": 1}
+{"name": "Sinknī", "type": "river", "morphemes": ["sinknī"], "weight": 1}
+{"name": "Gēṭānī", "type": "river", "morphemes": ["gēṭān"], "weight": 1}
+{"name": "Tōnītōk", "type": "river", "morphemes": ["tōnītōk"], "weight": 1}
+{"name": "Garāī", "type": "river", "morphemes": ["garāī"], "weight": 1}
+{"name": "Kauntrānī Ḍumb", "type": "river", "morphemes": ["kauntrān", "ḍumb"], "weight": 1}
+{"name": "Kundalānī Ḍumb", "type": "river", "morphemes": ["kundalān", "ḍumb"], "weight": 1}
+{"name": "Drabbī Ḍumb", "type": "river", "morphemes": ["drabbī", "ḍumb"], "weight": 1}
+{"name": "Sar-i-Bōlān", "type": "river", "morphemes": ["sar", "bōlān"], "weight": 1}
+{"name": "Bādra", "type": "river", "morphemes": ["bādra"], "weight": 1}
+{"name": "Mūla", "type": "river", "morphemes": ["mūla"], "weight": 1}
+{"name": "Sōinda", "type": "river", "morphemes": ["sōinda"], "weight": 1}
+{"name": "Mishkbēl", "type": "river", "morphemes": ["mishk", "bēl"], "weight": 1}
+{"name": "Pissībēl", "type": "river", "morphemes": ["pissī", "bēl"], "weight": 1}
+{"name": "Nār", "type": "river", "morphemes": ["nār"], "weight": 1}
+{"name": "Shatark", "type": "river", "morphemes": ["shatark"], "weight": 1}
+{"name": "Lēdāv", "type": "river", "morphemes": ["lēdāv"], "weight": 1}
+{"name": "Vēl", "type": "river", "morphemes": ["vēl"], "weight": 1}
+{"name": "Drūgī", "type": "river", "morphemes": ["drūgī"], "weight": 1}
+{"name": "Kīl", "type": "river", "morphemes": ["kīl"], "weight": 1}
+{"name": "Gāj", "type": "river", "morphemes": ["gāj"], "weight": 1}
+{"name": "Trēmbū", "type": "river", "morphemes": ["trēmbū"], "weight": 1}
+{"name": "Lōhō", "type": "river", "morphemes": ["lōhō"], "weight": 1}
+{"name": "Sāsōl Rōd", "type": "river", "morphemes": ["sāsōl", "rōd"], "weight": 1}
+{"name": "Hab", "type": "river", "morphemes": ["hab"], "weight": 1}
+{"name": "Sārūna Rōd", "type": "river", "morphemes": ["sārūna", "rōd"], "weight": 1}
+{"name": "Lār", "type": "river", "morphemes": ["lār"], "weight": 1}
+{"name": "Mōīrī", "type": "river", "morphemes": ["mōīrī"], "weight": 1}
+{"name": "Kinrī", "type": "river", "morphemes": ["kinrī"], "weight": 1}
+{"name": "Gārō", "type": "river", "morphemes": ["gārō"], "weight": 1}
+{"name": "Vīra Hab", "type": "river", "morphemes": ["vīra", "hab"], "weight": 1}
+{"name": "Pōrālī", "type": "river", "morphemes": ["pōrālī"], "weight": 1}
+{"name": "Kud", "type": "river", "morphemes": ["kud"], "weight": 1}
+{"name": "Māshkai", "type": "river", "morphemes": ["māshkai"], "weight": 1}
+{"name": "Pahrōd", "type": "river", "morphemes": ["pah", "rōd"], "weight": 1}
+{"name": "Arra", "type": "river", "morphemes": ["arra"], "weight": 1}
+{"name": "Nāl Kaur", "type": "river", "morphemes": ["nāl", "kaur"], "weight": 1}
+{"name": "Sambān", "type": "river", "morphemes": ["sambān"], "weight": 1}
+{"name": "Kābūṭ", "type": "river", "morphemes": ["kābūṭ"], "weight": 1}
+{"name": "Xaisār", "type": "river", "morphemes": ["xaisār"], "weight": 1}
+{"name": "Jō-i-Nushkī", "type": "river", "morphemes": ["jō", "nushkī"], "weight": 1}
+{"name": "Shālkōṭ", "type": "place", "morphemes": ["shāl", "kōṭ"], "weight": 1}
+{"name": "Shāl", "type": "place", "morphemes": ["shāl"], "weight": 1}
+{"name": "Mastung", "type": "place", "morphemes": ["mastung"], "weight": 1}
+{"name": "Nushkī", "type": "place", "morphemes": ["nushkī"], "weight": 1}
+{"name": "Xuzdār", "type": "place", "morphemes": ["xuzdār"], "weight": 1}
+{"name": "Kaikānān", "type": "place", "morphemes": ["kaikānān"], "weight": 1}
+{"name": "Kalāt-i-Nīchāra", "type": "place", "morphemes": ["kalāt", "nīchāra"], "weight": 1}
+{"name": "Mungachar", "type": "place", "morphemes": ["mungachar"], "weight": 1}
+{"name": "Brinchinnau", "type": "place", "morphemes": ["brinchinnau"], "weight": 1}
+{"name": "Iskalkū", "type": "place", "morphemes": ["iskalkū"], "weight": 1}
+{"name": "Isplinjī", "type": "place", "morphemes": ["isplinjī"], "weight": 1}
+{"name": "Jōhān", "type": "place", "morphemes": ["jōhān"], "weight": 1}
+{"name": "Kahnak", "type": "place", "morphemes": ["kahnak"], "weight": 1}
+{"name": "Kahnak Xālī", "type": "place", "morphemes": ["kahnak", "xālī"], "weight": 1}
+{"name": "Marav", "type": "place", "morphemes": ["marav"], "weight": 1}
+{"name": "Pringābād", "type": "place", "morphemes": ["pring", "ābād"], "weight": 1}
+{"name": "Tīrī", "type": "place", "morphemes": ["tīrī"], "weight": 1}
+{"name": "Dulāī", "type": "place", "morphemes": ["dulāī"], "weight": 1}
+{"name": "Kardgāp", "type": "place", "morphemes": ["kardgāp"], "weight": 1}
+{"name": "Lēs", "type": "place", "morphemes": ["lēs"], "weight": 1}
+{"name": "Astangī", "type": "place", "morphemes": ["astangī"], "weight": 1}
+{"name": "Jām Barārī", "type": "place", "morphemes": ["jām", "barārī"], "weight": 1}
+{"name": "Barārī", "type": "place", "morphemes": ["barārī"], "weight": 1}
+{"name": "Kīak", "type": "place", "morphemes": ["kīak"], "weight": 1}
+{"name": "Sarātū", "type": "place", "morphemes": ["sarātū"], "weight": 1}
+{"name": "Tāhlgan", "type": "place", "morphemes": ["tāhlgan"], "weight": 1}
+{"name": "Pusalak", "type": "place", "morphemes": ["pusalak"], "weight": 1}
+{"name": "Kaltāch", "type": "place", "morphemes": ["kaltāch"], "weight": 1}
+{"name": "Tirkāsī", "type": "place", "morphemes": ["tirkāsī"], "weight": 1}
+{"name": "Kanēṭī", "type": "place", "morphemes": ["kanēṭī"], "weight": 1}
+{"name": "Purdū", "type": "place", "morphemes": ["purdū"], "weight": 1}
+{"name": "Malxī", "type": "place", "morphemes": ["malxī"], "weight": 1}
+{"name": "Galangūr", "type": "place", "morphemes": ["galangūr"], "weight": 1}
+{"name": "Kishingī", "type": "place", "morphemes": ["kishingī"], "weight": 1}
+{"name": "Munjrō", "type": "place", "morphemes": ["munjrō"], "weight": 1}
+{"name": "Sōmālō Hīnār", "type": "place", "morphemes": ["sōmālō", "hīnār"], "weight": 1}
+{"name": "Pudgilī", "type": "place", "morphemes": ["pudgilī"], "weight": 1}
+{"name": "Kābō", "type": "place", "morphemes": ["kābō"], "weight": 1}
+{"name": "Gishk", "type": "place", "morphemes": ["gishk"], "weight": 1}
+{"name": "Tilēra", "type": "place", "morphemes": ["tilēra"], "weight": 1}
+{"name": "Karbūxā", "type": "place", "morphemes": ["karbūxā"], "weight": 1}
+{"name": "Xamnāō", "type": "place", "morphemes": ["xamnāō"], "weight": 1}
+{"name": "Kūla Kalāt", "type": "place", "morphemes": ["kūla", "kalāt"], "weight": 1}
+{"name": "Mastung Darvāza", "type": "place", "morphemes": ["mastung", "darvāza"], "weight": 1}
+{"name": "Hībinānī", "type": "place", "morphemes": ["hībinān"], "weight": 1}
+{"name": "Bundī", "type": "place", "morphemes": ["bundī"], "weight": 1}
+{"name": "Vadh", "type": "place", "morphemes": ["vadh"], "weight": 1}
+{"name": "Nāl", "type": "place", "morphemes": ["nāl"], "weight": 1}
+{"name": "Nīchāra", "type": "place", "morphemes": ["nīchāra"], "weight": 1}
+{"name": "Pandarān", "type": "place", "morphemes": ["pandarān"], "weight": 1}
+{"name": "Māmatāva", "type": "place", "morphemes": ["māmatāva"], "weight": 1}
+{"name": "Māshkaē", "type": "place", "morphemes": ["māshkaē"], "weight": 1}
+{"name": "Ōrnāch", "type": "place", "morphemes": ["ōrnāch"], "weight": 1}
+{"name": "Sārūna", "type": "place", "morphemes": ["sārūna"], "weight": 1}
+{"name": "Zīdī", "type": "place", "morphemes": ["zīdī"], "weight": 1}
+{"name": "Karx", "type": "place", "morphemes": ["karx"], "weight": 1}
+{"name": "Karū", "type": "place", "morphemes": ["karū"], "weight": 1}
+{"name": "Jēbrī", "type": "place", "morphemes": ["jēbrī"], "weight": 1}
+{"name": "Grēsha", "type": "place", "morphemes": ["grēsha"], "weight": 1}
+{"name": "Mazanēn Grēsha", "type": "place", "morphemes": ["mazan", "grēsha"], "weight": 1}
+{"name": "Kasānēn Grēsha", "type": "place", "morphemes": ["kasān", "grēsha"], "weight": 1}
+{"name": "Bēsēma", "type": "place", "morphemes": ["bēsēma"], "weight": 1}
+{"name": "Pēlār", "type": "place", "morphemes": ["pēlār"], "weight": 1}
+{"name": "Nōndrav", "type": "place", "morphemes": ["nōndrav"], "weight": 1}
+{"name": "Āvārān", "type": "place", "morphemes": ["āvārān"], "weight": 1}
+{"name": "Sēkrān", "type": "place", "morphemes": ["sēkrān"], "weight": 1}
+{"name": "Vahēr", "type": "place", "morphemes": ["vahēr"], "weight": 1}
+{"name": "Sāsōl", "type": "place", "morphemes": ["sāsōl"], "weight": 1}
+{"name": "Gōrū", "type": "place", "morphemes": ["gōrū"], "weight": 1}
+{"name": "Mishk", "type": "place", "morphemes": ["mishk"], "weight": 1}
+{"name": "Balbal", "type": "place", "morphemes": ["balbal"], "weight": 1}
+{"name": "Kappar", "type": "place", "morphemes": ["kappar"], "weight": 1}
+{"name": "Jambūrō", "type": "place", "morphemes": ["jambūrō"], "weight": 1}
+{"name": "Kōmūds", "type": "place", "morphemes": ["kōmūds"], "weight": 1}
+{"name": "Kutānav", "type": "place", "morphemes": ["kutānav"], "weight": 1}
+{"name": "Manjīlān", "type": "place", "morphemes": ["manjīlān"], "weight": 1}
+{"name": "Gurumbāvat", "type": "place", "morphemes": ["gurumbāvat"], "weight": 1}
+{"name": "Kuhav", "type": "place", "morphemes": ["kuhav"], "weight": 1}
+{"name": "Mēnt", "type": "place", "morphemes": ["mēnt"], "weight": 1}
+{"name": "Lāngān", "type": "place", "morphemes": ["lāngān"], "weight": 1}
+{"name": "Kūnī", "type": "place", "morphemes": ["kūnī"], "weight": 1}
+{"name": "Dārīārō", "type": "place", "morphemes": ["dārīārō"], "weight": 1}
+{"name": "Kathrāch", "type": "place", "morphemes": ["kathrāch"], "weight": 1}
+{"name": "Kamtām", "type": "place", "morphemes": ["kamtām"], "weight": 1}
+{"name": "Kanrāch", "type": "place", "morphemes": ["kanrāch"], "weight": 1}
+{"name": "Bulbāsī", "type": "place", "morphemes": ["bulbāsī"], "weight": 1}
+{"name": "Durējī", "type": "place", "morphemes": ["durējī"], "weight": 1}
+{"name": "Kaudhī", "type": "place", "morphemes": ["kaudhī"], "weight": 1}
+{"name": "Baddū Kushta", "type": "place", "morphemes": ["baddū", "kushta"], "weight": 1}
+{"name": "Pissīɣar", "type": "place", "morphemes": ["pissī", "ɣar"], "weight": 1}
+{"name": "Naulang", "type": "place", "morphemes": ["naulang"], "weight": 1}
+{"name": "Bīt", "type": "place", "morphemes": ["bīt"], "weight": 1}
+{"name": "Lassō", "type": "place", "morphemes": ["lassō"], "weight": 1}
+{"name": "Jānh", "type": "place", "morphemes": ["jānh"], "weight": 1}
+{"name": "Jukkur", "type": "place", "morphemes": ["jukkur"], "weight": 1}
+{"name": "Mangulī Kalāt", "type": "place", "morphemes": ["mangul", "kalāt"], "weight": 1}
+{"name": "Gambulī", "type": "place", "morphemes": ["gambulī"], "weight": 1}
+{"name": "Mārukī", "type": "place", "morphemes": ["mārukī"], "weight": 1}
+{"name": "Xāyān", "type": "place", "morphemes": ["xāyān"], "weight": 1}
+{"name": "Chāb", "type": "place", "morphemes": ["chāb"], "weight": 1}
+{"name": "Dugān", "type": "place", "morphemes": ["dugān"], "weight": 1}
+{"name": "Panchīkān", "type": "place", "morphemes": ["panchīkān"], "weight": 1}
+{"name": "Māmaī", "type": "place", "morphemes": ["māmaī"], "weight": 1}
+{"name": "Damb Kūkī", "type": "place", "morphemes": ["damb", "kūkī"], "weight": 1}
+{"name": "Kōchō", "type": "place", "morphemes": ["kōchō"], "weight": 1}
+{"name": "Marāp", "type": "place", "morphemes": ["mar", "āb"], "weight": 1}
+{"name": "Lākōriān", "type": "place", "morphemes": ["lākōriān"], "weight": 1}
+{"name": "Pārīkō", "type": "place", "morphemes": ["pārīkō"], "weight": 1}
+{"name": "Xisundūn", "type": "place", "morphemes": ["xisundūn"], "weight": 1}
+{"name": "Lōhēndav", "type": "place", "morphemes": ["lōhēndav"], "weight": 1}
+{"name": "Tappī Dōdār", "type": "place", "morphemes": ["tappī", "dōdār"], "weight": 1}
+{"name": "Lūlingī", "type": "place", "morphemes": ["lūlingī"], "weight": 1}
+{"name": "Vātrō", "type": "place", "morphemes": ["vātrō"], "weight": 1}
+{"name": "Varauch", "type": "place", "morphemes": ["varauch"], "weight": 1}
+{"name": "Jārī", "type": "place", "morphemes": ["jārī"], "weight": 1}
+{"name": "Mallējī", "type": "place", "morphemes": ["mallējī"], "weight": 1}
+{"name": "Sarrī", "type": "place", "morphemes": ["sarrī"], "weight": 1}
+{"name": "Būkējav", "type": "place", "morphemes": ["būkējav"], "weight": 1}
+{"name": "Xuzzuk", "type": "place", "morphemes": ["xuzzuk"], "weight": 1}
+{"name": "Kaṭō", "type": "place", "morphemes": ["kaṭō"], "weight": 1}
+{"name": "Archīnō", "type": "place", "morphemes": ["archīnō"], "weight": 1}
+{"name": "Gurgut", "type": "place", "morphemes": ["gurgut"], "weight": 1}
+{"name": "Kurrāgī", "type": "place", "morphemes": ["kurrāgī"], "weight": 1}
+{"name": "Kōchav", "type": "place", "morphemes": ["kōchav"], "weight": 1}
+{"name": "Kōrak", "type": "place", "morphemes": ["kōrak"], "weight": 1}
+{"name": "Lākatār", "type": "place", "morphemes": ["lākatār"], "weight": 1}
+{"name": "Lāmbōj", "type": "place", "morphemes": ["lāmbōj"], "weight": 1}
+{"name": "Lanjar", "type": "place", "morphemes": ["lanjar"], "weight": 1}
+{"name": "Dōlējī", "type": "place", "morphemes": ["dōlējī"], "weight": 1}
+{"name": "Tīōr", "type": "place", "morphemes": ["tīōr"], "weight": 1}
+{"name": "Dandēru", "type": "place", "morphemes": ["dandēru"], "weight": 1}
+{"name": "Bainharī", "type": "place", "morphemes": ["bainharī"], "weight": 1}
+{"name": "Vānīrna", "type": "place", "morphemes": ["vānīrna"], "weight": 1}
+{"name": "Sannī", "type": "place", "morphemes": ["sannī"], "weight": 1}
+{"name": "Gājān", "type": "place", "morphemes": ["gājān"], "weight": 1}
+{"name": "Bālā Nārī", "type": "place", "morphemes": ["bālā", "nārī"], "weight": 1}
+{"name": "Sar Sannī", "type": "place", "morphemes": ["sar", "sannī"], "weight": 1}
+{"name": "Hīrōk", "type": "place", "morphemes": ["hīrōk"], "weight": 1}
+{"name": "Kirta", "type": "place", "morphemes": ["kirta"], "weight": 1}
+{"name": "Kundalānī", "type": "place", "morphemes": ["kundalān"], "weight": 1}
+{"name": "Naulīng", "type": "place", "morphemes": ["naulīng"], "weight": 1}
+{"name": "Karōḍāk", "type": "place", "morphemes": ["karō", "ḍāk"], "weight": 1}
+{"name": "Lahrī Shahr", "type": "place", "morphemes": ["lahr", "shahr"], "weight": 1}

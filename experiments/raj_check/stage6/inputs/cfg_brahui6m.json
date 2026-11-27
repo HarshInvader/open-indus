@@ -1,0 +1,22 @@
+{
+ "corpus": "../../work/REP1/inputs_surviving/inscriptions.csv",
+ "punmax": 0.5,
+ "lang": "brahui6m",
+ "names": "names_brahui6m.jsonl",
+ "parts": "parts_brahui6m.jsonl",
+ "number_words": {
+  "1": "asiṭ",
+  "2": "irāṭ",
+  "3": "musiṭ",
+  "4": "chār",
+  "5": "panch",
+  "6": "shash",
+  "7": "haft",
+  "12": "dwāzdah"
+ },
+ "drop_parts": [],
+ "keep_noninitial": [],
+ "loan_category": "loan",
+ "words": "words_brahui6m.json",
+ "weights": "once"
+}

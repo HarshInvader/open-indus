@@ -1,0 +1,344 @@
+{
+ "names": [
+  {
+   "item": "Pandarān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kūla Kalāt",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sōhr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jārullāh",
+   "verdict": "cannot verify",
+   "reason": "No person Jārullāh found in Bray, the Sarawan/Jhalawan/Bolan/Chagai/Makran/Kharan/Sibi/Loralai/Las Bela gazetteers or the 1901/1911 Census texts searched."
+  },
+  {
+   "item": "Pāindzai",
+   "verdict": "ok"
+  },
+  {
+   "item": "Zāva",
+   "verdict": "ok"
+  },
+  {
+   "item": "Haft Valī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Girdō Kumb",
+   "verdict": "cannot verify",
+   "reason": "No stream Girdō Kumb found in the gazetteers or Bray, though girdō 'round' and kumb 'pool' are real words."
+  },
+  {
+   "item": "Kārchhāp",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mushkāf",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dum-dār Istar",
+   "verdict": "cannot verify",
+   "reason": "Bray has istar 'star' but no dum-dār istar 'comet' was found in Bray or the gazetteers searched."
+  },
+  {
+   "item": "Xātūn",
+   "verdict": "ok"
+  },
+  {
+   "item": "Saiad Salīm Shāh",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kakāhīr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dilāvar Xān",
+   "verdict": "cannot verify",
+   "reason": "Only the sections Dilawarzai turn up in the Census; no person Dilāvar Xān was found."
+  },
+  {
+   "item": "Ɣaibīzai",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mīlk",
+   "verdict": "ok"
+  },
+  {
+   "item": "Jumād-ul-Avval",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sirkā-Kōbī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dēhvār",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sar-i-Shēr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nār",
+   "verdict": "ok"
+  },
+  {
+   "item": "Narōdar",
+   "verdict": "ok"
+  },
+  {
+   "item": "Zahrī Gaṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "Rindlī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mīr Jahānd Xān",
+   "verdict": "cannot verify",
+   "reason": "No person Jahānd (Khān) found in Bray, the gazetteers or the Census texts searched."
+  },
+  {
+   "item": "Pīr Chaukī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Amīr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Alānī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Gurgut",
+   "verdict": "ok"
+  },
+  {
+   "item": "Dhrūn",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mahr Alī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mazanēn Grēsha",
+   "verdict": "cannot verify",
+   "reason": "Gresha and mazanēn 'greater' are both attested, but no place 'Mazanēn Grēsha' was found."
+  },
+  {
+   "item": "Kullī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Ɣāzī Xān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bōlān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Mazārānī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Hasrānī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Karam Xān",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pāngō",
+   "verdict": "ok"
+  },
+  {
+   "item": "Garrī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Nīmarɣ",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kākaṛ",
+   "verdict": "ok"
+  },
+  {
+   "item": "Sardār Saka",
+   "verdict": "cannot verify",
+   "reason": "No person Sardār Saka found; only Saka Kalat (place) and the Sakazai section."
+  },
+  {
+   "item": "Surx Bājō",
+   "verdict": "ok"
+  },
+  {
+   "item": "Kuṭī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Pīr Dastgīr",
+   "verdict": "ok"
+  },
+  {
+   "item": "Bābī",
+   "verdict": "cannot verify",
+   "reason": "Babi turns up only as an Afghan tribe and in 'Babi Khal', a suburb of Kalat, not as a standalone place name."
+  },
+  {
+   "item": "Kizilbāshī",
+   "verdict": "ok"
+  },
+  {
+   "item": "Xvāja Muazzam",
+   "verdict": "ok"
+  }
+ ],
+ "words": [
+  {
+   "item": "haling",
+   "verdict": "wrong",
+   "reason": "In Bray haling means 'to cover (of animals mating)'; the verb for catch/seize is halling (DEDR 296)."
+  },
+  {
+   "item": "maš",
+   "verdict": "ok"
+  },
+  {
+   "item": "xō",
+   "verdict": "ok"
+  },
+  {
+   "item": "lumma",
+   "verdict": "ok"
+  },
+  {
+   "item": "irisk",
+   "verdict": "wrong",
+   "reason": "Not attested; Bray and DEDR 493 give the word for comb as iris (loc. var. iras), and irisk is not a regular form of it."
+  },
+  {
+   "item": "hēfing",
+   "verdict": "ok"
+  },
+  {
+   "item": "arē",
+   "verdict": "ok"
+  },
+  {
+   "item": "marɣ",
+   "verdict": "ok"
+  },
+  {
+   "item": "tūling",
+   "verdict": "ok"
+  },
+  {
+   "item": "xāxar",
+   "verdict": "ok"
+  },
+  {
+   "item": "musi",
+   "verdict": "ok"
+  },
+  {
+   "item": "urā",
+   "verdict": "ok"
+  },
+  {
+   "item": "irā",
+   "verdict": "ok"
+  },
+  {
+   "item": "bil",
+   "verdict": "ok"
+  },
+  {
+   "item": "iraṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "hēfing",
+   "verdict": "ok"
+  },
+  {
+   "item": "maš",
+   "verdict": "ok"
+  },
+  {
+   "item": "xan",
+   "verdict": "ok"
+  },
+  {
+   "item": "tūbē",
+   "verdict": "ok"
+  },
+  {
+   "item": "xaf",
+   "verdict": "ok"
+  },
+  {
+   "item": "maš",
+   "verdict": "ok"
+  },
+  {
+   "item": "tūbē",
+   "verdict": "ok"
+  },
+  {
+   "item": "musiṭ",
+   "verdict": "ok"
+  },
+  {
+   "item": "xal",
+   "verdict": "ok"
+  },
+  {
+   "item": "harfing",
+   "verdict": "ok"
+  },
+  {
+   "item": "arē",
+   "verdict": "ok"
+  },
+  {
+   "item": "pirɣing",
+   "verdict": "ok"
+  },
+  {
+   "item": "xarring",
+   "verdict": "ok"
+  },
+  {
+   "item": "saling",
+   "verdict": "ok"
+  },
+  {
+   "item": "harsing",
+   "verdict": "ok"
+  },
+  {
+   "item": "xan",
+   "verdict": "ok"
+  },
+  {
+   "item": "harfing",
+   "verdict": "ok"
+  }
+ ]
+}
