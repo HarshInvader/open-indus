@@ -1,0 +1,17 @@
+You are compiling a list of early proper names for a study of how names are built. Work carefully; the list will be checked against dictionaries and sources.
+
+Task: compile about 1,400 distinct proper names of Old Tamil (between 1,260 and 1,540), of every kind: people (kings, chiefs, poets, donors, heroes), groups and tribes, lineages and families, gods and other divine beings, places, rivers, hills.
+
+Sources, in this order:
+1. Every proper name you can establish as occurring in the Sangam poems (Eṭṭuttokai and Pattuppāṭṭu) and Tolkāppiyam. Mark these source "sangam".
+2. Only if step 1 gives fewer than about 1,400: add proper names from Tamil-Brahmi inscriptions (as in Mahadevan, Early Tamil Epigraphy, 2003). Mark these source "inscription".
+You may use the web to consult indexes of names, epigraphic publications and the Tamil Lexicon and the Dravidian Etymological Dictionary. Include only names you are confident are real and attested. Do not invent names and do not pad the list. If you cannot reach 1,260 confident names, stop where you are and say so.
+
+For each name give:
+- "name": the name in Tamil Lexicon transliteration (ā ī ū ē ō, ṅ ñ ṇ ṉ, ṭ ṟ, ḷ ḻ), stem form (for example "Kapilar", "Vaiyai", "Pāri").
+- "type": one of person, group, lineage, deity, place, river, hill, celestial, title, other.
+- "morphemes": the name split into its meaningful members, each in dictionary stem form, same transliteration, lowercase (Kapilar -> ["kapil", "ar"]; Neṭuñceḻiyaṉ -> ["neṭu", "ceḻiyaṉ"]). A simple name gives one member. Give the same member the same spelling every time it occurs. Keep honorific and gender endings as their own member when the name has them. Do not split a name whose analysis is unknown or disputed; give it whole. Keep members borrowed from Sanskrit or Prakrit as they are (they are marked later).
+- "gloss": a few English words for the meaning of each member, in order, separated by " + " (for example "long + name"). Use "name" for a member with no known meaning.
+- "source": as above.
+
+Output: write the list to the file <REPO>/experiments/raj_check/stage4/agents/names_tamil.jsonl, one JSON object per line with exactly those five keys. No duplicates. Then reply with a short note: the number of names by source and by type, how you worked, and any doubts.
