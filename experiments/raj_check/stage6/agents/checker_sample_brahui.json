@@ -1,0 +1,612 @@
+{
+ "names": [
+  {
+   "name": "Pandarān",
+   "type": "place",
+   "morphemes": [
+    "pandarān"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Kūla Kalāt",
+   "type": "place",
+   "morphemes": [
+    "kūla",
+    "kalāt"
+   ],
+   "gloss": "name + fort",
+   "source": "colonial"
+  },
+  {
+   "name": "Sōhr",
+   "type": "place",
+   "morphemes": [
+    "sōhr"
+   ],
+   "gloss": "red",
+   "source": "colonial"
+  },
+  {
+   "name": "Jārullāh",
+   "type": "person",
+   "morphemes": [
+    "jār",
+    "allāh"
+   ],
+   "gloss": "neighbour + God",
+   "source": "colonial"
+  },
+  {
+   "name": "Pāindzai",
+   "type": "lineage",
+   "morphemes": [
+    "pāind"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Zāva",
+   "type": "hill",
+   "morphemes": [
+    "zāva"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Haft Valī",
+   "type": "deity",
+   "morphemes": [
+    "haft",
+    "valī"
+   ],
+   "gloss": "seven + saint",
+   "source": "colonial"
+  },
+  {
+   "name": "Girdō Kumb",
+   "type": "river",
+   "morphemes": [
+    "girdō",
+    "kumb"
+   ],
+   "gloss": "round + pool",
+   "source": "colonial"
+  },
+  {
+   "name": "Kārchhāp",
+   "type": "place",
+   "morphemes": [
+    "kārchhāp"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Mushkāf",
+   "type": "river",
+   "morphemes": [
+    "mushkāf"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Dum-dār Istar",
+   "type": "celestial",
+   "morphemes": [
+    "dum",
+    "dār",
+    "istar"
+   ],
+   "gloss": "tail + holder + star",
+   "source": "colonial"
+  },
+  {
+   "name": "Xātūn",
+   "type": "title",
+   "morphemes": [
+    "xātūn"
+   ],
+   "gloss": "lady",
+   "source": "colonial"
+  },
+  {
+   "name": "Saiad Salīm Shāh",
+   "type": "person",
+   "morphemes": [
+    "saiad",
+    "salīm",
+    "shāh"
+   ],
+   "gloss": "lord + safe + king",
+   "source": "colonial"
+  },
+  {
+   "name": "Kakāhīr",
+   "type": "hill",
+   "morphemes": [
+    "kakāhīr"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Dilāvar Xān",
+   "type": "person",
+   "morphemes": [
+    "dil",
+    "āvar",
+    "xān"
+   ],
+   "gloss": "heart + bringer + chief",
+   "source": "colonial"
+  },
+  {
+   "name": "Ɣaibīzai",
+   "type": "lineage",
+   "morphemes": [
+    "ɣaib"
+   ],
+   "gloss": "unseen",
+   "source": "colonial"
+  },
+  {
+   "name": "Mīlk",
+   "type": "place",
+   "morphemes": [
+    "mīlk"
+   ],
+   "gloss": "estate",
+   "source": "colonial"
+  },
+  {
+   "name": "Jumād-ul-Avval",
+   "type": "other",
+   "morphemes": [
+    "jumād",
+    "avval"
+   ],
+   "gloss": "name + first",
+   "source": "colonial"
+  },
+  {
+   "name": "Sirkā-Kōbī",
+   "type": "hill",
+   "morphemes": [
+    "sirkā",
+    "kōbī"
+   ],
+   "gloss": "vinegar + name",
+   "source": "colonial"
+  },
+  {
+   "name": "Dēhvār",
+   "type": "group",
+   "morphemes": [
+    "dēhvār"
+   ],
+   "gloss": "villager",
+   "source": "colonial"
+  },
+  {
+   "name": "Sar-i-Shēr",
+   "type": "place",
+   "morphemes": [
+    "sar",
+    "shēr"
+   ],
+   "gloss": "head + lion",
+   "source": "colonial"
+  },
+  {
+   "name": "Nār",
+   "type": "river",
+   "morphemes": [
+    "nār"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Narōdar",
+   "type": "river",
+   "morphemes": [
+    "narōdar"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Zahrī Gaṭ",
+   "type": "hill",
+   "morphemes": [
+    "zahrī",
+    "gaṭ"
+   ],
+   "gloss": "name + crag",
+   "source": "colonial"
+  },
+  {
+   "name": "Rindlī",
+   "type": "place",
+   "morphemes": [
+    "rindlī"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Mīr Jahānd Xān",
+   "type": "person",
+   "morphemes": [
+    "mīr",
+    "jahānd",
+    "xān"
+   ],
+   "gloss": "lord + name + chief",
+   "source": "colonial"
+  },
+  {
+   "name": "Pīr Chaukī",
+   "type": "place",
+   "morphemes": [
+    "pīr",
+    "chaukī"
+   ],
+   "gloss": "saint + post",
+   "source": "colonial"
+  },
+  {
+   "name": "Amīr",
+   "type": "title",
+   "morphemes": [
+    "amīr"
+   ],
+   "gloss": "prince",
+   "source": "colonial"
+  },
+  {
+   "name": "Alānī",
+   "type": "lineage",
+   "morphemes": [
+    "āl"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Gurgut",
+   "type": "place",
+   "morphemes": [
+    "gurgut"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Dhrūn",
+   "type": "hill",
+   "morphemes": [
+    "dhrūn"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Mahr Alī",
+   "type": "person",
+   "morphemes": [
+    "mahr",
+    "alī"
+   ],
+   "gloss": "grace + name",
+   "source": "colonial"
+  },
+  {
+   "name": "Mazanēn Grēsha",
+   "type": "place",
+   "morphemes": [
+    "mazan",
+    "grēsha"
+   ],
+   "gloss": "great + name",
+   "source": "colonial"
+  },
+  {
+   "name": "Kullī",
+   "type": "hill",
+   "morphemes": [
+    "kullī"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Ɣāzī Xān",
+   "type": "person",
+   "morphemes": [
+    "ɣāzī",
+    "xān"
+   ],
+   "gloss": "warrior + chief",
+   "source": "colonial"
+  },
+  {
+   "name": "Bōlān",
+   "type": "hill",
+   "morphemes": [
+    "bōlān"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Mazārānī",
+   "type": "lineage",
+   "morphemes": [
+    "mazār"
+   ],
+   "gloss": "tiger",
+   "source": "colonial"
+  },
+  {
+   "name": "Hasrānī",
+   "type": "lineage",
+   "morphemes": [
+    "hasr"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Karam Xān",
+   "type": "person",
+   "morphemes": [
+    "karam",
+    "xān"
+   ],
+   "gloss": "generosity + chief",
+   "source": "colonial"
+  },
+  {
+   "name": "Pāngō",
+   "type": "hill",
+   "morphemes": [
+    "pāngō"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Garrī",
+   "type": "hill",
+   "morphemes": [
+    "garrī"
+   ],
+   "gloss": "rocky",
+   "source": "colonial"
+  },
+  {
+   "name": "Nīmarɣ",
+   "type": "place",
+   "morphemes": [
+    "nīm",
+    "marɣ"
+   ],
+   "gloss": "half + meadow",
+   "source": "colonial"
+  },
+  {
+   "name": "Kākaṛ",
+   "type": "group",
+   "morphemes": [
+    "kākaṛ"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Sardār Saka",
+   "type": "person",
+   "morphemes": [
+    "sardār",
+    "saka"
+   ],
+   "gloss": "chief + name",
+   "source": "colonial"
+  },
+  {
+   "name": "Surx Bājō",
+   "type": "hill",
+   "morphemes": [
+    "surx",
+    "bājō"
+   ],
+   "gloss": "red + name",
+   "source": "colonial"
+  },
+  {
+   "name": "Kuṭī",
+   "type": "hill",
+   "morphemes": [
+    "kuṭī"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Pīr Dastgīr",
+   "type": "deity",
+   "morphemes": [
+    "pīr",
+    "dast",
+    "gīr"
+   ],
+   "gloss": "saint + hand + taker",
+   "source": "colonial"
+  },
+  {
+   "name": "Bābī",
+   "type": "place",
+   "morphemes": [
+    "bābī"
+   ],
+   "gloss": "name",
+   "source": "colonial"
+  },
+  {
+   "name": "Kizilbāshī",
+   "type": "lineage",
+   "morphemes": [
+    "kizil",
+    "bāsh"
+   ],
+   "gloss": "red + head",
+   "source": "colonial"
+  },
+  {
+   "name": "Xvāja Muazzam",
+   "type": "person",
+   "morphemes": [
+    "xvāja",
+    "muazzam"
+   ],
+   "gloss": "master + honoured",
+   "source": "colonial"
+  }
+ ],
+ "words": [
+  {
+   "english": "catch",
+   "word": "haling"
+  },
+  {
+   "english": "eyes",
+   "word": "xan"
+  },
+  {
+   "english": "moons",
+   "word": "tū"
+  },
+  {
+   "english": "moon",
+   "word": "tūbē"
+  },
+  {
+   "english": "churn",
+   "word": "xāsing"
+  },
+  {
+   "english": "mother",
+   "word": "lumma"
+  },
+  {
+   "english": "horns",
+   "word": "marɣ"
+  },
+  {
+   "english": "hill",
+   "word": "maš"
+  },
+  {
+   "english": "mountains",
+   "word": "maš"
+  },
+  {
+   "english": "eye",
+   "word": "xan"
+  },
+  {
+   "english": "stones",
+   "word": "xal"
+  },
+  {
+   "english": "hills",
+   "word": "maš"
+  },
+  {
+   "english": "two",
+   "word": "irāṭ"
+  },
+  {
+   "english": "bow",
+   "word": "bil"
+  },
+  {
+   "english": "turn",
+   "word": "harsing"
+  },
+  {
+   "english": "carry",
+   "word": "harfing"
+  },
+  {
+   "english": "fire",
+   "word": "xāxar"
+  },
+  {
+   "english": "drop",
+   "word": "cuṭ"
+  },
+  {
+   "english": "house",
+   "word": "urā"
+  },
+  {
+   "english": "comb",
+   "word": "irīs"
+  },
+  {
+   "english": "moon",
+   "word": "tū"
+  },
+  {
+   "english": "man",
+   "word": "arē"
+  },
+  {
+   "english": "stand",
+   "word": "saling"
+  },
+  {
+   "english": "sit",
+   "word": "tūling"
+  },
+  {
+   "english": "mother",
+   "word": "ammā"
+  },
+  {
+   "english": "moons",
+   "word": "tūbē"
+  },
+  {
+   "english": "person",
+   "word": "arē"
+  },
+  {
+   "english": "pot",
+   "word": "xō"
+  },
+  {
+   "english": "raise",
+   "word": "harfing"
+  },
+  {
+   "english": "three",
+   "word": "musiṭ"
+  },
+  {
+   "english": "ear",
+   "word": "xaf"
+  },
+  {
+   "english": "bundle",
+   "word": "muṭṭux"
+  }
+ ]
+}

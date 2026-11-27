@@ -1,0 +1,1400 @@
+{"name": "Allāh", "type": "deity", "morphemes": ["allāh"], "gloss": "God", "source": "colonial"}
+{"name": "Xudā", "type": "deity", "morphemes": ["xudā"], "gloss": "God", "source": "colonial"}
+{"name": "Rabb", "type": "deity", "morphemes": ["rabb"], "gloss": "Lord", "source": "colonial"}
+{"name": "Bārī", "type": "deity", "morphemes": ["bārī"], "gloss": "Creator", "source": "colonial"}
+{"name": "Rahmān", "type": "deity", "morphemes": ["rahmān"], "gloss": "merciful", "source": "colonial"}
+{"name": "Subhān", "type": "deity", "morphemes": ["subhān"], "gloss": "glorious", "source": "colonial"}
+{"name": "Jibrāīl", "type": "deity", "morphemes": ["jibrāīl"], "gloss": "name", "source": "colonial"}
+{"name": "Mīkāīl", "type": "deity", "morphemes": ["mīkāīl"], "gloss": "name", "source": "colonial"}
+{"name": "Isrāfīl", "type": "deity", "morphemes": ["isrāfīl"], "gloss": "name", "source": "colonial"}
+{"name": "Azrāīl", "type": "deity", "morphemes": ["azrāīl"], "gloss": "name", "source": "colonial"}
+{"name": "Malak-ul-Maut", "type": "deity", "morphemes": ["malak", "maut"], "gloss": "angel + death", "source": "colonial"}
+{"name": "Munkir", "type": "deity", "morphemes": ["munkir"], "gloss": "name", "source": "colonial"}
+{"name": "Nakīr", "type": "deity", "morphemes": ["nakīr"], "gloss": "name", "source": "colonial"}
+{"name": "Firishta", "type": "deity", "morphemes": ["firishta"], "gloss": "angel", "source": "colonial"}
+{"name": "Malāik", "type": "deity", "morphemes": ["malāik"], "gloss": "angel", "source": "colonial"}
+{"name": "Xizr", "type": "deity", "morphemes": ["xizr"], "gloss": "name", "source": "colonial"}
+{"name": "Xvāja Xizr", "type": "deity", "morphemes": ["xvāja", "xizr"], "gloss": "master + name", "source": "colonial"}
+{"name": "Shaitān", "type": "deity", "morphemes": ["shaitān"], "gloss": "devil", "source": "colonial"}
+{"name": "Iblīs", "type": "deity", "morphemes": ["iblīs"], "gloss": "devil", "source": "colonial"}
+{"name": "Dajjāl", "type": "deity", "morphemes": ["dajjāl"], "gloss": "antichrist", "source": "colonial"}
+{"name": "Jinn", "type": "deity", "morphemes": ["jinn"], "gloss": "spirit", "source": "colonial"}
+{"name": "Parī", "type": "deity", "morphemes": ["parī"], "gloss": "fairy", "source": "colonial"}
+{"name": "Dēv", "type": "deity", "morphemes": ["dēv"], "gloss": "giant", "source": "colonial"}
+{"name": "Jātū", "type": "deity", "morphemes": ["jātū"], "gloss": "witch", "source": "colonial"}
+{"name": "Dāhīnd", "type": "deity", "morphemes": ["dāhīnd"], "gloss": "witch", "source": "colonial"}
+{"name": "Gvāt", "type": "deity", "morphemes": ["gvāt"], "gloss": "wind", "source": "colonial"}
+{"name": "Māmā", "type": "deity", "morphemes": ["māmā"], "gloss": "mother", "source": "colonial"}
+{"name": "Mardān-i-Ɣaib", "type": "deity", "morphemes": ["mard", "ɣaib"], "gloss": "man + unseen", "source": "colonial"}
+{"name": "Haft Valī", "type": "deity", "morphemes": ["haft", "valī"], "gloss": "seven + saint", "source": "colonial"}
+{"name": "Bībī Nānī", "type": "deity", "morphemes": ["bībī", "nānī"], "gloss": "lady + grandmother", "source": "colonial"}
+{"name": "Pīr Ɣaib", "type": "deity", "morphemes": ["pīr", "ɣaib"], "gloss": "saint + unseen", "source": "colonial"}
+{"name": "Pīr Sultān", "type": "deity", "morphemes": ["pīr", "sultān"], "gloss": "saint + sultan", "source": "colonial"}
+{"name": "Pīr Kisrī", "type": "deity", "morphemes": ["pīr", "kisrī"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Sultān-i-Pīr Kaisar", "type": "deity", "morphemes": ["sultān", "pīr", "kaisar"], "gloss": "sultan + saint + name", "source": "colonial"}
+{"name": "Shāh Mardān", "type": "deity", "morphemes": ["shāh", "mard"], "gloss": "king + man", "source": "colonial"}
+{"name": "Pīr Dastgīr", "type": "deity", "morphemes": ["pīr", "dast", "gīr"], "gloss": "saint + hand + taker", "source": "colonial"}
+{"name": "Pīr Dōpāsī", "type": "deity", "morphemes": ["pīr", "dō", "pās"], "gloss": "saint + two + watch", "source": "colonial"}
+{"name": "Mātā", "type": "deity", "morphemes": ["mātā"], "gloss": "mother", "source": "colonial"}
+{"name": "Āsāpūrī", "type": "deity", "morphemes": ["āsā", "pūr"], "gloss": "hope + fulfiller", "source": "colonial"}
+{"name": "Shōbrō", "type": "deity", "morphemes": ["shōbrō"], "gloss": "name", "source": "colonial"}
+{"name": "Hinglāj", "type": "deity", "morphemes": ["hinglāj"], "gloss": "name", "source": "colonial"}
+{"name": "Alī", "type": "deity", "morphemes": ["alī"], "gloss": "name", "source": "colonial"}
+{"name": "Kuhlēn", "type": "deity", "morphemes": ["kuhlēn"], "gloss": "name", "source": "colonial"}
+{"name": "Dē", "type": "celestial", "morphemes": ["dē"], "gloss": "sun", "source": "colonial"}
+{"name": "Tūbē", "type": "celestial", "morphemes": ["tūbē"], "gloss": "moon", "source": "colonial"}
+{"name": "Nōk", "type": "celestial", "morphemes": ["nōk"], "gloss": "new moon", "source": "colonial"}
+{"name": "Istar", "type": "celestial", "morphemes": ["istar"], "gloss": "star", "source": "colonial"}
+{"name": "Paur", "type": "celestial", "morphemes": ["paur"], "gloss": "Orion's belt", "source": "colonial"}
+{"name": "Shaukash", "type": "celestial", "morphemes": ["shaf", "kash"], "gloss": "night + drawer", "source": "colonial"}
+{"name": "Kutub", "type": "celestial", "morphemes": ["kutub"], "gloss": "pole star", "source": "colonial"}
+{"name": "Suhēl", "type": "celestial", "morphemes": ["suhēl"], "gloss": "Canopus", "source": "colonial"}
+{"name": "Parvīn", "type": "celestial", "morphemes": ["parvīn"], "gloss": "Pleiades", "source": "colonial"}
+{"name": "Mīzān", "type": "celestial", "morphemes": ["mīzān"], "gloss": "scales", "source": "colonial"}
+{"name": "Zuhra", "type": "celestial", "morphemes": ["zuhra"], "gloss": "Venus", "source": "colonial"}
+{"name": "Mirrīx", "type": "celestial", "morphemes": ["mirrīx"], "gloss": "Mars", "source": "colonial"}
+{"name": "Mushtarī", "type": "celestial", "morphemes": ["mushtarī"], "gloss": "Jupiter", "source": "colonial"}
+{"name": "Zuhal", "type": "celestial", "morphemes": ["zuhal"], "gloss": "Saturn", "source": "colonial"}
+{"name": "Utārid", "type": "celestial", "morphemes": ["utārid"], "gloss": "Mercury", "source": "colonial"}
+{"name": "Kahkashān", "type": "celestial", "morphemes": ["kah", "kash"], "gloss": "straw + drawer", "source": "colonial"}
+{"name": "Kārvān-kush", "type": "celestial", "morphemes": ["kārvān", "kush"], "gloss": "caravan + killer", "source": "colonial"}
+{"name": "Haft Birādar", "type": "celestial", "morphemes": ["haft", "birādar"], "gloss": "seven + brother", "source": "colonial"}
+{"name": "Xalxal", "type": "celestial", "morphemes": ["xalxal"], "gloss": "name", "source": "colonial"}
+{"name": "Bārag", "type": "celestial", "morphemes": ["bārag"], "gloss": "name", "source": "colonial"}
+{"name": "Shāh-istar", "type": "celestial", "morphemes": ["shāh", "istar"], "gloss": "king + star", "source": "colonial"}
+{"name": "Rōzgīr", "type": "celestial", "morphemes": ["rōz", "gīr"], "gloss": "day + taker", "source": "colonial"}
+{"name": "Māgīr", "type": "celestial", "morphemes": ["māh", "gīr"], "gloss": "moon + taker", "source": "colonial"}
+{"name": "Dum-dār Istar", "type": "celestial", "morphemes": ["dum", "dār", "istar"], "gloss": "tail + holder + star", "source": "colonial"}
+{"name": "Sīāh-istar", "type": "celestial", "morphemes": ["sīāh", "istar"], "gloss": "black + star", "source": "colonial"}
+{"name": "Xān", "type": "title", "morphemes": ["xān"], "gloss": "chief", "source": "colonial"}
+{"name": "Bēglar Bēgī", "type": "title", "morphemes": ["bēg", "bēg"], "gloss": "lord + lord", "source": "colonial"}
+{"name": "Sardār", "type": "title", "morphemes": ["sardār"], "gloss": "chief", "source": "colonial"}
+{"name": "Mīr", "type": "title", "morphemes": ["mīr"], "gloss": "lord", "source": "colonial"}
+{"name": "Shāh", "type": "title", "morphemes": ["shāh"], "gloss": "king", "source": "colonial"}
+{"name": "Bādshāh", "type": "title", "morphemes": ["bādshāh"], "gloss": "king", "source": "colonial"}
+{"name": "Valī", "type": "title", "morphemes": ["valī"], "gloss": "ruler", "source": "colonial"}
+{"name": "Sultān", "type": "title", "morphemes": ["sultān"], "gloss": "sultan", "source": "colonial"}
+{"name": "Amīr", "type": "title", "morphemes": ["amīr"], "gloss": "prince", "source": "colonial"}
+{"name": "Malik", "type": "title", "morphemes": ["malik"], "gloss": "master", "source": "colonial"}
+{"name": "Bēg", "type": "title", "morphemes": ["bēg"], "gloss": "lord", "source": "colonial"}
+{"name": "Jām", "type": "title", "morphemes": ["jām"], "gloss": "ruler", "source": "colonial"}
+{"name": "Mēhtar", "type": "title", "morphemes": ["mēhtar"], "gloss": "elder", "source": "colonial"}
+{"name": "Vadēra", "type": "title", "morphemes": ["vadēra"], "gloss": "clan leader", "source": "colonial"}
+{"name": "Ṭakkarī", "type": "title", "morphemes": ["ṭakkar"], "gloss": "section", "source": "colonial"}
+{"name": "Mōtabar", "type": "title", "morphemes": ["mōtabar"], "gloss": "headman", "source": "colonial"}
+{"name": "Arbāb", "type": "title", "morphemes": ["arbāb"], "gloss": "headman", "source": "colonial"}
+{"name": "Nāib", "type": "title", "morphemes": ["nāib"], "gloss": "deputy", "source": "colonial"}
+{"name": "Jā-nashīn", "type": "title", "morphemes": ["jā", "nashīn"], "gloss": "place + sitter", "source": "colonial"}
+{"name": "Sar-ba-rāh", "type": "title", "morphemes": ["sar", "rāh"], "gloss": "head + road", "source": "colonial"}
+{"name": "Shāhɣāsī", "type": "title", "morphemes": ["shāh", "ɣāsī"], "gloss": "king + attendant", "source": "colonial"}
+{"name": "Vazīr", "type": "title", "morphemes": ["vazīr"], "gloss": "minister", "source": "colonial"}
+{"name": "Vakīl", "type": "title", "morphemes": ["vakīl"], "gloss": "agent", "source": "colonial"}
+{"name": "Dārōɣa", "type": "title", "morphemes": ["dārōɣa"], "gloss": "overseer", "source": "colonial"}
+{"name": "Mustaufī", "type": "title", "morphemes": ["mustaufī"], "gloss": "auditor", "source": "colonial"}
+{"name": "Pēshkār", "type": "title", "morphemes": ["pēsh", "kār"], "gloss": "front + work", "source": "colonial"}
+{"name": "Kōtvāl", "type": "title", "morphemes": ["kōṭ", "vāl"], "gloss": "fort + keeper", "source": "colonial"}
+{"name": "Tahsīldār", "type": "title", "morphemes": ["tahsīl", "dār"], "gloss": "revenue + holder", "source": "colonial"}
+{"name": "Mīrāb", "type": "title", "morphemes": ["mīr", "āb"], "gloss": "lord + water", "source": "colonial"}
+{"name": "Paṭvārī", "type": "title", "morphemes": ["paṭvār"], "gloss": "registrar", "source": "colonial"}
+{"name": "Jamādār", "type": "title", "morphemes": ["jamā", "dār"], "gloss": "troop + holder", "source": "colonial"}
+{"name": "Risāldār", "type": "title", "morphemes": ["risāla", "dār"], "gloss": "cavalry + holder", "source": "colonial"}
+{"name": "Havīldār", "type": "title", "morphemes": ["havāla", "dār"], "gloss": "charge + holder", "source": "colonial"}
+{"name": "Xānzād", "type": "title", "morphemes": ["xān", "zād"], "gloss": "chief + born", "source": "colonial"}
+{"name": "Shāhzāda", "type": "title", "morphemes": ["shāh", "zād"], "gloss": "king + born", "source": "colonial"}
+{"name": "Pīr", "type": "title", "morphemes": ["pīr"], "gloss": "saint", "source": "colonial"}
+{"name": "Shēx", "type": "title", "morphemes": ["shēx"], "gloss": "elder", "source": "colonial"}
+{"name": "Saiad", "type": "title", "morphemes": ["saiad"], "gloss": "lord", "source": "colonial"}
+{"name": "Mullā", "type": "title", "morphemes": ["mullā"], "gloss": "priest", "source": "colonial"}
+{"name": "Kāzī", "type": "title", "morphemes": ["kāzī"], "gloss": "judge", "source": "colonial"}
+{"name": "Axund", "type": "title", "morphemes": ["axund"], "gloss": "teacher", "source": "colonial"}
+{"name": "Xalīfa", "type": "title", "morphemes": ["xalīfa"], "gloss": "successor", "source": "colonial"}
+{"name": "Fakīr", "type": "title", "morphemes": ["fakīr"], "gloss": "mendicant", "source": "colonial"}
+{"name": "Darvēsh", "type": "title", "morphemes": ["darvēsh"], "gloss": "dervish", "source": "colonial"}
+{"name": "Hājī", "type": "title", "morphemes": ["hājī"], "gloss": "pilgrim", "source": "colonial"}
+{"name": "Ɣāzī", "type": "title", "morphemes": ["ɣāzī"], "gloss": "warrior", "source": "colonial"}
+{"name": "Shahīd", "type": "title", "morphemes": ["shahīd"], "gloss": "martyr", "source": "colonial"}
+{"name": "Saxī", "type": "title", "morphemes": ["saxī"], "gloss": "generous", "source": "colonial"}
+{"name": "Xvāja", "type": "title", "morphemes": ["xvāja"], "gloss": "master", "source": "colonial"}
+{"name": "Bābā", "type": "title", "morphemes": ["bābā"], "gloss": "father", "source": "colonial"}
+{"name": "Lāllā", "type": "title", "morphemes": ["lāllā"], "gloss": "elder brother", "source": "colonial"}
+{"name": "Bībī", "type": "title", "morphemes": ["bībī"], "gloss": "lady", "source": "colonial"}
+{"name": "Bānō", "type": "title", "morphemes": ["bānō"], "gloss": "lady", "source": "colonial"}
+{"name": "Xātūn", "type": "title", "morphemes": ["xātūn"], "gloss": "lady", "source": "colonial"}
+{"name": "Ustā", "type": "title", "morphemes": ["ustā"], "gloss": "craftsman", "source": "colonial"}
+{"name": "Shāhūkār", "type": "title", "morphemes": ["shāh", "kār"], "gloss": "king + work", "source": "colonial"}
+{"name": "Ijāradār", "type": "title", "morphemes": ["ijāra", "dār"], "gloss": "lease + holder", "source": "colonial"}
+{"name": "Mīān", "type": "title", "morphemes": ["mīān"], "gloss": "master", "source": "colonial"}
+{"name": "Sāhib", "type": "title", "morphemes": ["sāhib"], "gloss": "lord", "source": "colonial"}
+{"name": "Xān Bahādur", "type": "title", "morphemes": ["xān", "bahādur"], "gloss": "chief + brave", "source": "colonial"}
+{"name": "Gōrīch", "type": "other", "morphemes": ["gōrīch"], "gloss": "north wind", "source": "colonial"}
+{"name": "Nambī", "type": "other", "morphemes": ["namb"], "gloss": "moisture", "source": "colonial"}
+{"name": "Ērgvāt", "type": "other", "morphemes": ["ēr", "gvāt"], "gloss": "lower + wind", "source": "colonial"}
+{"name": "Sargvaṭ", "type": "other", "morphemes": ["sar", "gvāt"], "gloss": "head + wind", "source": "colonial"}
+{"name": "Līvār", "type": "other", "morphemes": ["līvār"], "gloss": "hot wind", "source": "colonial"}
+{"name": "Shamāl", "type": "other", "morphemes": ["shamāl"], "gloss": "north wind", "source": "colonial"}
+{"name": "Kōsh", "type": "other", "morphemes": ["kōsh"], "gloss": "south wind", "source": "colonial"}
+{"name": "Jahī", "type": "other", "morphemes": ["jahī"], "gloss": "east wind", "source": "colonial"}
+{"name": "Muharram", "type": "other", "morphemes": ["muharram"], "gloss": "name", "source": "colonial"}
+{"name": "Safar", "type": "other", "morphemes": ["safar"], "gloss": "journey", "source": "colonial"}
+{"name": "Rabī-ul-Avval", "type": "other", "morphemes": ["rabī", "avval"], "gloss": "spring + first", "source": "colonial"}
+{"name": "Rabī-us-Sānī", "type": "other", "morphemes": ["rabī", "sānī"], "gloss": "spring + second", "source": "colonial"}
+{"name": "Jumād-ul-Avval", "type": "other", "morphemes": ["jumād", "avval"], "gloss": "name + first", "source": "colonial"}
+{"name": "Jumād-us-Sānī", "type": "other", "morphemes": ["jumād", "sānī"], "gloss": "name + second", "source": "colonial"}
+{"name": "Rajab", "type": "other", "morphemes": ["rajab"], "gloss": "name", "source": "colonial"}
+{"name": "Shābān", "type": "other", "morphemes": ["shābān"], "gloss": "name", "source": "colonial"}
+{"name": "Ramazān", "type": "other", "morphemes": ["ramazān"], "gloss": "name", "source": "colonial"}
+{"name": "Shavvāl", "type": "other", "morphemes": ["shavvāl"], "gloss": "name", "source": "colonial"}
+{"name": "Zīkād", "type": "other", "morphemes": ["zīkād"], "gloss": "name", "source": "colonial"}
+{"name": "Zīlhij", "type": "other", "morphemes": ["zīlhij"], "gloss": "name", "source": "colonial"}
+{"name": "Chēt", "type": "other", "morphemes": ["chēt"], "gloss": "name", "source": "colonial"}
+{"name": "Vēsāx", "type": "other", "morphemes": ["vēsāx"], "gloss": "name", "source": "colonial"}
+{"name": "Sāvaṇ", "type": "other", "morphemes": ["sāvaṇ"], "gloss": "name", "source": "colonial"}
+{"name": "Yakshambē", "type": "other", "morphemes": ["yak", "shambē"], "gloss": "one + Saturday", "source": "colonial"}
+{"name": "Dōshambē", "type": "other", "morphemes": ["dō", "shambē"], "gloss": "two + Saturday", "source": "colonial"}
+{"name": "Sēshambē", "type": "other", "morphemes": ["sē", "shambē"], "gloss": "three + Saturday", "source": "colonial"}
+{"name": "Chārshambē", "type": "other", "morphemes": ["chār", "shambē"], "gloss": "four + Saturday", "source": "colonial"}
+{"name": "Panjshambē", "type": "other", "morphemes": ["panj", "shambē"], "gloss": "five + Saturday", "source": "colonial"}
+{"name": "Jumā", "type": "other", "morphemes": ["jumā"], "gloss": "assembly", "source": "colonial"}
+{"name": "Shambē", "type": "other", "morphemes": ["shambē"], "gloss": "Saturday", "source": "colonial"}
+{"name": "Naurōz", "type": "other", "morphemes": ["nau", "rōz"], "gloss": "new + day", "source": "colonial"}
+{"name": "Āīd", "type": "other", "morphemes": ["āīd"], "gloss": "festival", "source": "colonial"}
+{"name": "Mazanēn Āīd", "type": "other", "morphemes": ["mazan", "āīd"], "gloss": "great + festival", "source": "colonial"}
+{"name": "Kasānēn Āīd", "type": "other", "morphemes": ["kasān", "āīd"], "gloss": "small + festival", "source": "colonial"}
+{"name": "Avvalīkō Āīd", "type": "other", "morphemes": ["avval", "āīd"], "gloss": "first + festival", "source": "colonial"}
+{"name": "Imāmuk", "type": "other", "morphemes": ["imām"], "gloss": "leader", "source": "colonial"}
+{"name": "Shab-i-Barāt", "type": "other", "morphemes": ["shaf", "barāt"], "gloss": "night + portion", "source": "colonial"}
+{"name": "Chilla", "type": "other", "morphemes": ["chihil"], "gloss": "forty", "source": "colonial"}
+{"name": "Hatām", "type": "other", "morphemes": ["hatām"], "gloss": "spring", "source": "colonial"}
+{"name": "Hamēn", "type": "other", "morphemes": ["hamēn"], "gloss": "autumn", "source": "colonial"}
+{"name": "Kurdgālī", "type": "other", "morphemes": ["kurd", "gāl"], "gloss": "name + speech", "source": "colonial"}
+{"name": "Kabar", "type": "person", "morphemes": ["kabar"], "gloss": "salvadora tree", "source": "colonial"}
+{"name": "Hēshū", "type": "person", "morphemes": ["hēshū"], "gloss": "bitter plant", "source": "colonial"}
+{"name": "Pōɣī", "type": "person", "morphemes": ["pōɣ"], "gloss": "charcoal", "source": "colonial"}
+{"name": "Mangulī", "type": "person", "morphemes": ["mangul"], "gloss": "name", "source": "colonial"}
+{"name": "Jaurī", "type": "person", "morphemes": ["jaur"], "gloss": "oleander", "source": "colonial"}
+{"name": "Gvānī", "type": "person", "morphemes": ["gvān"], "gloss": "pistachio", "source": "colonial"}
+{"name": "Xat", "type": "person", "morphemes": ["xat"], "gloss": "olive", "source": "colonial"}
+{"name": "Malax", "type": "person", "morphemes": ["malax"], "gloss": "locust", "source": "colonial"}
+{"name": "Gazī", "type": "person", "morphemes": ["gaz"], "gloss": "tamarisk", "source": "colonial"}
+{"name": "Shīnzī", "type": "person", "morphemes": ["shīnz"], "gloss": "camel thorn", "source": "colonial"}
+{"name": "Tājū", "type": "person", "morphemes": ["tāj"], "gloss": "crown", "source": "colonial"}
+{"name": "Hambō", "type": "person", "morphemes": ["hambō"], "gloss": "name", "source": "colonial"}
+{"name": "Kukur", "type": "person", "morphemes": ["kukur"], "gloss": "cock", "source": "colonial"}
+{"name": "Bībī Nāzō", "type": "person", "morphemes": ["bībī", "nāz"], "gloss": "lady + grace", "source": "colonial"}
+{"name": "Gul Bībī", "type": "person", "morphemes": ["gul", "bībī"], "gloss": "flower + lady", "source": "colonial"}
+{"name": "Murād Xātūn", "type": "person", "morphemes": ["murād", "xātūn"], "gloss": "desire + lady", "source": "colonial"}
+{"name": "Māh Nāz", "type": "person", "morphemes": ["māh", "nāz"], "gloss": "moon + grace", "source": "colonial"}
+{"name": "Nāz Bībī", "type": "person", "morphemes": ["nāz", "bībī"], "gloss": "grace + lady", "source": "colonial"}
+{"name": "Dur Xātūn", "type": "person", "morphemes": ["dur", "xātūn"], "gloss": "pearl + lady", "source": "colonial"}
+{"name": "Gauhar Nāz", "type": "person", "morphemes": ["gauhar", "nāz"], "gloss": "pearl + grace", "source": "colonial"}
+{"name": "Bībī Lālōn", "type": "person", "morphemes": ["bībī", "lāl"], "gloss": "lady + ruby", "source": "colonial"}
+{"name": "Bībī Maryam", "type": "person", "morphemes": ["bībī", "maryam"], "gloss": "lady + name", "source": "colonial"}
+{"name": "Bībī Fath Xātūn", "type": "person", "morphemes": ["bībī", "fath", "xātūn"], "gloss": "lady + victory + lady", "source": "colonial"}
+{"name": "Bībī Kapōk", "type": "person", "morphemes": ["bībī", "kapōk"], "gloss": "lady + name", "source": "colonial"}
+{"name": "Bībī Sarthap", "type": "person", "morphemes": ["bībī", "sarthap"], "gloss": "lady + name", "source": "colonial"}
+{"name": "Bībī Sāhib", "type": "person", "morphemes": ["bībī", "sāhib"], "gloss": "lady + lord", "source": "colonial"}
+{"name": "Dāī Bībī", "type": "person", "morphemes": ["dāī", "bībī"], "gloss": "nurse + lady", "source": "colonial"}
+{"name": "Mīr Ahmad Xān", "type": "person", "morphemes": ["mīr", "ahmad", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Mehrāb Xān", "type": "person", "morphemes": ["mīr", "mehrāb", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Samundar Xān", "type": "person", "morphemes": ["mīr", "samundar", "xān"], "gloss": "lord + sea + chief", "source": "colonial"}
+{"name": "Mīr Abdullāh Xān", "type": "person", "morphemes": ["mīr", "abd", "allāh", "xān"], "gloss": "lord + servant + God + chief", "source": "colonial"}
+{"name": "Mīr Muhabbat Xān", "type": "person", "morphemes": ["mīr", "muhabbat", "xān"], "gloss": "lord + love + chief", "source": "colonial"}
+{"name": "Mīr Nasīr Xān", "type": "person", "morphemes": ["mīr", "nasīr", "xān"], "gloss": "lord + helper + chief", "source": "colonial"}
+{"name": "Mīr Mahmūd Xān", "type": "person", "morphemes": ["mīr", "mahmūd", "xān"], "gloss": "lord + praised + chief", "source": "colonial"}
+{"name": "Mīr Shāh Navāz Xān", "type": "person", "morphemes": ["mīr", "shāh", "navāz", "xān"], "gloss": "lord + king + cherisher + chief", "source": "colonial"}
+{"name": "Mīr Xudādād Xān", "type": "person", "morphemes": ["mīr", "xudā", "dād", "xān"], "gloss": "lord + God + given + chief", "source": "colonial"}
+{"name": "Mīr Kambar", "type": "person", "morphemes": ["mīr", "kambar"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Umar", "type": "person", "morphemes": ["mīr", "umar"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Bījār", "type": "person", "morphemes": ["mīr", "bījār"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Hasan", "type": "person", "morphemes": ["mīr", "hasan"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Chākar", "type": "person", "morphemes": ["mīr", "chākar"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Gvāhrām", "type": "person", "morphemes": ["mīr", "gvāhrām"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Iltāz", "type": "person", "morphemes": ["mīr", "iltāz"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Kamāl Xān", "type": "person", "morphemes": ["mīr", "kamāl", "xān"], "gloss": "lord + perfection + chief", "source": "colonial"}
+{"name": "Mīr Azīm Xān", "type": "person", "morphemes": ["mīr", "azīm", "xān"], "gloss": "lord + great + chief", "source": "colonial"}
+{"name": "Mīr Ibrāhīm Xān", "type": "person", "morphemes": ["mīr", "ibrāhīm", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Īsā Xān", "type": "person", "morphemes": ["mīr", "īsā", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Bahāval Xān", "type": "person", "morphemes": ["mīr", "bahāval", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Murād Alī", "type": "person", "morphemes": ["mīr", "murād", "alī"], "gloss": "lord + desire + name", "source": "colonial"}
+{"name": "Mīr Abdul Azīz", "type": "person", "morphemes": ["mīr", "abd", "azīz"], "gloss": "lord + servant + mighty", "source": "colonial"}
+{"name": "Mīr Abdul Karīm", "type": "person", "morphemes": ["mīr", "abd", "karīm"], "gloss": "lord + servant + generous", "source": "colonial"}
+{"name": "Mīr Abdur Rahmān", "type": "person", "morphemes": ["mīr", "abd", "rahmān"], "gloss": "lord + servant + merciful", "source": "colonial"}
+{"name": "Mīr Ālam Xān", "type": "person", "morphemes": ["mīr", "ālam", "xān"], "gloss": "lord + world + chief", "source": "colonial"}
+{"name": "Mīr Atā Muhammad", "type": "person", "morphemes": ["mīr", "atā", "muhammad"], "gloss": "lord + gift + name", "source": "colonial"}
+{"name": "Mīr Attār Xān", "type": "person", "morphemes": ["mīr", "attār", "xān"], "gloss": "lord + perfumer + chief", "source": "colonial"}
+{"name": "Mīr Balōch Xān", "type": "person", "morphemes": ["mīr", "balōch", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Chandan Xān", "type": "person", "morphemes": ["mīr", "chandan", "xān"], "gloss": "lord + sandalwood + chief", "source": "colonial"}
+{"name": "Mīr Dād Karīm", "type": "person", "morphemes": ["mīr", "dād", "karīm"], "gloss": "lord + given + generous", "source": "colonial"}
+{"name": "Mīr Fakīr Muhammad", "type": "person", "morphemes": ["mīr", "fakīr", "muhammad"], "gloss": "lord + mendicant + name", "source": "colonial"}
+{"name": "Mīr Fath Xān", "type": "person", "morphemes": ["mīr", "fath", "xān"], "gloss": "lord + victory + chief", "source": "colonial"}
+{"name": "Mīr Fath Muhammad", "type": "person", "morphemes": ["mīr", "fath", "muhammad"], "gloss": "lord + victory + name", "source": "colonial"}
+{"name": "Mīr Gauhar Xān", "type": "person", "morphemes": ["mīr", "gauhar", "xān"], "gloss": "lord + pearl + chief", "source": "colonial"}
+{"name": "Mīr Ɣulām Jān", "type": "person", "morphemes": ["mīr", "ɣulām", "jān"], "gloss": "lord + servant + life", "source": "colonial"}
+{"name": "Mīr Habīb Xān", "type": "person", "morphemes": ["mīr", "habīb", "xān"], "gloss": "lord + beloved + chief", "source": "colonial"}
+{"name": "Mīr Halīm Xān", "type": "person", "morphemes": ["mīr", "halīm", "xān"], "gloss": "lord + gentle + chief", "source": "colonial"}
+{"name": "Mīr Hamza", "type": "person", "morphemes": ["mīr", "hamza"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Jahānd Xān", "type": "person", "morphemes": ["mīr", "jahānd", "xān"], "gloss": "lord + name + chief", "source": "colonial"}
+{"name": "Mīr Karīm Xān", "type": "person", "morphemes": ["mīr", "karīm", "xān"], "gloss": "lord + generous + chief", "source": "colonial"}
+{"name": "Mīr Lashkarī", "type": "person", "morphemes": ["mīr", "lashkar"], "gloss": "lord + army", "source": "colonial"}
+{"name": "Mīr Mehrullāh Xān", "type": "person", "morphemes": ["mīr", "mehr", "allāh", "xān"], "gloss": "lord + grace + God + chief", "source": "colonial"}
+{"name": "Mīr Murād Xān", "type": "person", "morphemes": ["mīr", "murād", "xān"], "gloss": "lord + desire + chief", "source": "colonial"}
+{"name": "Mīr Pasand Xān", "type": "person", "morphemes": ["mīr", "pasand", "xān"], "gloss": "lord + pleasing + chief", "source": "colonial"}
+{"name": "Mīr Sādat Xān", "type": "person", "morphemes": ["mīr", "sādat", "xān"], "gloss": "lord + fortune + chief", "source": "colonial"}
+{"name": "Mīr Tāj Muhammad", "type": "person", "morphemes": ["mīr", "tāj", "muhammad"], "gloss": "lord + crown + name", "source": "colonial"}
+{"name": "Mīr Abbās", "type": "person", "morphemes": ["mīr", "abbās"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Allāhdīna", "type": "person", "morphemes": ["mīr", "allāh", "dīna"], "gloss": "lord + God + given", "source": "colonial"}
+{"name": "Mīr Shafī Muhammad", "type": "person", "morphemes": ["mīr", "shafī", "muhammad"], "gloss": "lord + healer + name", "source": "colonial"}
+{"name": "Mīr Shahbāz Xān", "type": "person", "morphemes": ["mīr", "shāh", "bāz", "xān"], "gloss": "lord + king + falcon + chief", "source": "colonial"}
+{"name": "Mīr Dād-i-Xudā", "type": "person", "morphemes": ["mīr", "dād", "xudā"], "gloss": "lord + given + God", "source": "colonial"}
+{"name": "Mīr Fōlād", "type": "person", "morphemes": ["mīr", "fōlād"], "gloss": "lord + steel", "source": "colonial"}
+{"name": "Mīr Chōṭa", "type": "person", "morphemes": ["mīr", "chōṭa"], "gloss": "lord + small", "source": "colonial"}
+{"name": "Mīr Bōhīr", "type": "person", "morphemes": ["mīr", "bōhīr"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Bullō", "type": "person", "morphemes": ["mīr", "bullō"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Ballō", "type": "person", "morphemes": ["mīr", "ballō"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Mandav", "type": "person", "morphemes": ["mīr", "mandav"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Zarrak", "type": "person", "morphemes": ["mīr", "zarrak"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Gurgīn", "type": "person", "morphemes": ["mīr", "gurgīn"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Mīr Kalandar", "type": "person", "morphemes": ["mīr", "kalandar"], "gloss": "lord + dervish", "source": "colonial"}
+{"name": "Mīr Zunnūn Bēg", "type": "person", "morphemes": ["mīr", "zunnūn", "bēg"], "gloss": "lord + name + lord", "source": "colonial"}
+{"name": "Mīr Ɣaznavī", "type": "person", "morphemes": ["mīr", "ɣazna"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Sardār Asad Xān", "type": "person", "morphemes": ["sardār", "asad", "xān"], "gloss": "chief + lion + chief", "source": "colonial"}
+{"name": "Sardār Baxtiār Xān", "type": "person", "morphemes": ["sardār", "baxtiār", "xān"], "gloss": "chief + fortunate + chief", "source": "colonial"}
+{"name": "Sardār Mullā Muhammad", "type": "person", "morphemes": ["sardār", "mullā", "muhammad"], "gloss": "chief + priest + name", "source": "colonial"}
+{"name": "Sardār Nūruddīn", "type": "person", "morphemes": ["sardār", "nūr", "dīn"], "gloss": "chief + light + faith", "source": "colonial"}
+{"name": "Sardār Kahēra Xān", "type": "person", "morphemes": ["sardār", "kahēra", "xān"], "gloss": "chief + name + chief", "source": "colonial"}
+{"name": "Sardār Saka", "type": "person", "morphemes": ["sardār", "saka"], "gloss": "chief + name", "source": "colonial"}
+{"name": "Sardār Shēr Jān", "type": "person", "morphemes": ["sardār", "shēr", "jān"], "gloss": "chief + lion + life", "source": "colonial"}
+{"name": "Sardār Til Xān", "type": "person", "morphemes": ["sardār", "til", "xān"], "gloss": "chief + name + chief", "source": "colonial"}
+{"name": "Sardār Rustam Xān", "type": "person", "morphemes": ["sardār", "rustam", "xān"], "gloss": "chief + name + chief", "source": "colonial"}
+{"name": "Sardār Muhammad Alī Xān", "type": "person", "morphemes": ["sardār", "muhammad", "alī", "xān"], "gloss": "chief + name + name + chief", "source": "colonial"}
+{"name": "Sardār Baxsh", "type": "person", "morphemes": ["sardār", "baxsh"], "gloss": "chief + gift", "source": "colonial"}
+{"name": "Vadēra Nūr Muhammad", "type": "person", "morphemes": ["vadēra", "nūr", "muhammad"], "gloss": "clan leader + light + name", "source": "colonial"}
+{"name": "Malik Chap", "type": "person", "morphemes": ["malik", "chap"], "gloss": "master + left", "source": "colonial"}
+{"name": "Malik Dōstēn", "type": "person", "morphemes": ["malik", "dōstēn"], "gloss": "master + name", "source": "colonial"}
+{"name": "Malik Dīnār", "type": "person", "morphemes": ["malik", "dīnār"], "gloss": "master + gold coin", "source": "colonial"}
+{"name": "Malik Rasūl Baxsh", "type": "person", "morphemes": ["malik", "rasūl", "baxsh"], "gloss": "master + messenger + gift", "source": "colonial"}
+{"name": "Malik Bahrām Shāh", "type": "person", "morphemes": ["malik", "bahrām", "shāh"], "gloss": "master + name + king", "source": "colonial"}
+{"name": "Jām Alī Xān", "type": "person", "morphemes": ["jām", "alī", "xān"], "gloss": "ruler + name + chief", "source": "colonial"}
+{"name": "Jām Mīr Xān", "type": "person", "morphemes": ["jām", "mīr", "xān"], "gloss": "ruler + lord + chief", "source": "colonial"}
+{"name": "Jām Ārī", "type": "person", "morphemes": ["jām", "ārī"], "gloss": "ruler + name", "source": "colonial"}
+{"name": "Jām Bhādīn", "type": "person", "morphemes": ["jām", "bhādīn"], "gloss": "ruler + name", "source": "colonial"}
+{"name": "Jām Nanda", "type": "person", "morphemes": ["jām", "nanda"], "gloss": "ruler + name", "source": "colonial"}
+{"name": "Dārōɣa Gul Muhammad", "type": "person", "morphemes": ["dārōɣa", "gul", "muhammad"], "gloss": "overseer + flower + name", "source": "colonial"}
+{"name": "Axund Muhammad Sālih", "type": "person", "morphemes": ["axund", "muhammad", "sālih"], "gloss": "teacher + name + righteous", "source": "colonial"}
+{"name": "Mullā Muhammad Hasan", "type": "person", "morphemes": ["mullā", "muhammad", "hasan"], "gloss": "priest + name + name", "source": "colonial"}
+{"name": "Shērdil", "type": "person", "morphemes": ["shēr", "dil"], "gloss": "lion + heart", "source": "colonial"}
+{"name": "Pīrdād", "type": "person", "morphemes": ["pīr", "dād"], "gloss": "saint + given", "source": "colonial"}
+{"name": "Saxī Patēhān", "type": "person", "morphemes": ["saxī", "patēhān"], "gloss": "generous + name", "source": "colonial"}
+{"name": "Saxī Ramazān", "type": "person", "morphemes": ["saxī", "ramazān"], "gloss": "generous + name", "source": "colonial"}
+{"name": "Shāh Abdullāh", "type": "person", "morphemes": ["shāh", "abd", "allāh"], "gloss": "king + servant + God", "source": "colonial"}
+{"name": "Shāh Jāfar", "type": "person", "morphemes": ["shāh", "jāfar"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Dāhō", "type": "person", "morphemes": ["shāh", "dāhō"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Bilāval", "type": "person", "morphemes": ["shāh", "bilāval"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Nūrānī", "type": "person", "morphemes": ["shāh", "nūr"], "gloss": "king + light", "source": "colonial"}
+{"name": "Shāh Umar", "type": "person", "morphemes": ["shāh", "umar"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Amīnuddīn", "type": "person", "morphemes": ["shāh", "amīn", "dīn"], "gloss": "king + faithful + faith", "source": "colonial"}
+{"name": "Shāh Vānar", "type": "person", "morphemes": ["shāh", "vānar"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Yūsuf", "type": "person", "morphemes": ["shāh", "yūsuf"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Bālēdār", "type": "person", "morphemes": ["shāh", "bālē", "dār"], "gloss": "king + name + holder", "source": "colonial"}
+{"name": "Shāh Murīd", "type": "person", "morphemes": ["shāh", "murīd"], "gloss": "king + disciple", "source": "colonial"}
+{"name": "Shāh Fāzil", "type": "person", "morphemes": ["shāh", "fāzil"], "gloss": "king + learned", "source": "colonial"}
+{"name": "Shāh Fīrōz", "type": "person", "morphemes": ["shāh", "fīrōz"], "gloss": "king + victorious", "source": "colonial"}
+{"name": "Pīr Sultān Ārifī", "type": "person", "morphemes": ["pīr", "sultān", "ārif"], "gloss": "saint + sultan + sage", "source": "colonial"}
+{"name": "Pīr Umar", "type": "person", "morphemes": ["pīr", "umar"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Shāh Kamāl", "type": "person", "morphemes": ["pīr", "shāh", "kamāl"], "gloss": "saint + king + perfection", "source": "colonial"}
+{"name": "Pīr Lāxā", "type": "person", "morphemes": ["pīr", "lāxā"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Kalandar", "type": "person", "morphemes": ["pīr", "kalandar"], "gloss": "saint + dervish", "source": "colonial"}
+{"name": "Pīr Jōngal", "type": "person", "morphemes": ["pīr", "jōngal"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Chatan Shāh", "type": "person", "morphemes": ["pīr", "chatan", "shāh"], "gloss": "saint + name + king", "source": "colonial"}
+{"name": "Pīr Chandram", "type": "person", "morphemes": ["pīr", "chandram"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Alī Xvāst", "type": "person", "morphemes": ["pīr", "alī", "xvāst"], "gloss": "saint + name + wish", "source": "colonial"}
+{"name": "Pīr Gazō", "type": "person", "morphemes": ["pīr", "gazō"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Shahbāz", "type": "person", "morphemes": ["pīr", "shāh", "bāz"], "gloss": "saint + king + falcon", "source": "colonial"}
+{"name": "Pīr Saifuddīn", "type": "person", "morphemes": ["pīr", "saif", "dīn"], "gloss": "saint + sword + faith", "source": "colonial"}
+{"name": "Pīr Munaɣara", "type": "person", "morphemes": ["pīr", "munaɣara"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Chaṭṭā", "type": "person", "morphemes": ["pīr", "chaṭṭā"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Pīr Mard", "type": "person", "morphemes": ["pīr", "mard"], "gloss": "saint + man", "source": "colonial"}
+{"name": "Pīr Ārī", "type": "person", "morphemes": ["pīr", "ārī"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Shēx Husain", "type": "person", "morphemes": ["shēx", "husain"], "gloss": "elder + name", "source": "colonial"}
+{"name": "Shēx Shābān", "type": "person", "morphemes": ["shēx", "shābān"], "gloss": "elder + name", "source": "colonial"}
+{"name": "Shēx Lāngō", "type": "person", "morphemes": ["shēx", "lāngō"], "gloss": "elder + name", "source": "colonial"}
+{"name": "Shēx Vāsil", "type": "person", "morphemes": ["shēx", "vāsil"], "gloss": "elder + united", "source": "colonial"}
+{"name": "Shēx Tōɣī", "type": "person", "morphemes": ["shēx", "tōɣī"], "gloss": "elder + name", "source": "colonial"}
+{"name": "Shēx Rājī", "type": "person", "morphemes": ["shēx", "rājī"], "gloss": "elder + hopeful", "source": "colonial"}
+{"name": "Shēh Hājī", "type": "person", "morphemes": ["shēx", "hājī"], "gloss": "elder + pilgrim", "source": "colonial"}
+{"name": "Saiad Balā Nōsh", "type": "person", "morphemes": ["saiad", "balā", "nōsh"], "gloss": "lord + calamity + drinker", "source": "colonial"}
+{"name": "Saiad Naurōz", "type": "person", "morphemes": ["saiad", "nau", "rōz"], "gloss": "lord + new + day", "source": "colonial"}
+{"name": "Saiad Salīm Shāh", "type": "person", "morphemes": ["saiad", "salīm", "shāh"], "gloss": "lord + safe + king", "source": "colonial"}
+{"name": "Saiad Vakīl", "type": "person", "morphemes": ["saiad", "vakīl"], "gloss": "lord + agent", "source": "colonial"}
+{"name": "Saiad Muhammad Sharīf", "type": "person", "morphemes": ["saiad", "muhammad", "sharīf"], "gloss": "lord + name + noble", "source": "colonial"}
+{"name": "Xvāja Ibrāhīm Yakpāsī", "type": "person", "morphemes": ["xvāja", "ibrāhīm", "yak", "pās"], "gloss": "master + name + one + watch", "source": "colonial"}
+{"name": "Xvāja Maxdūm", "type": "person", "morphemes": ["xvāja", "maxdūm"], "gloss": "master + served", "source": "colonial"}
+{"name": "Xvāja Muazzam", "type": "person", "morphemes": ["xvāja", "muazzam"], "gloss": "master + honoured", "source": "colonial"}
+{"name": "Xvāja Alī", "type": "person", "morphemes": ["xvāja", "alī"], "gloss": "master + name", "source": "colonial"}
+{"name": "Xvāja Muhammad", "type": "person", "morphemes": ["xvāja", "muhammad"], "gloss": "master + name", "source": "colonial"}
+{"name": "Fakīr Hōtak", "type": "person", "morphemes": ["fakīr", "hōtak"], "gloss": "mendicant + name", "source": "colonial"}
+{"name": "Lāllā Sulaimān", "type": "person", "morphemes": ["lāllā", "sulaimān"], "gloss": "elder brother + name", "source": "colonial"}
+{"name": "Husain Bīrī", "type": "person", "morphemes": ["husain", "bīrī"], "gloss": "name + name", "source": "colonial"}
+{"name": "Buɣdī Shahīd", "type": "person", "morphemes": ["buɣdī", "shahīd"], "gloss": "name + martyr", "source": "colonial"}
+{"name": "Chillingā", "type": "person", "morphemes": ["chillingā"], "gloss": "name", "source": "colonial"}
+{"name": "Mahmūd Gōhrān", "type": "person", "morphemes": ["mahmūd", "gōhrān"], "gloss": "praised + name", "source": "colonial"}
+{"name": "Sultān Samarkand Buxārī", "type": "person", "morphemes": ["sultān", "samarkand", "buxārā"], "gloss": "sultan + name + name", "source": "colonial"}
+{"name": "Phul Chōṭō", "type": "person", "morphemes": ["phul", "chōṭō"], "gloss": "flower + small", "source": "colonial"}
+{"name": "Niamatullāh", "type": "person", "morphemes": ["niamat", "allāh"], "gloss": "blessing + God", "source": "colonial"}
+{"name": "Mahmūd Shāh", "type": "person", "morphemes": ["mahmūd", "shāh"], "gloss": "praised + king", "source": "colonial"}
+{"name": "Kāzī Somail", "type": "person", "morphemes": ["kāzī", "somail"], "gloss": "judge + name", "source": "colonial"}
+{"name": "Mīān Ɣulām", "type": "person", "morphemes": ["mīān", "ɣulām"], "gloss": "master + servant", "source": "colonial"}
+{"name": "Mīān Nūr Muhammad", "type": "person", "morphemes": ["mīān", "nūr", "muhammad"], "gloss": "master + light + name", "source": "colonial"}
+{"name": "Ɣāzī Xān", "type": "person", "morphemes": ["ɣāzī", "xān"], "gloss": "warrior + chief", "source": "colonial"}
+{"name": "Lāl Xān", "type": "person", "morphemes": ["lāl", "xān"], "gloss": "ruby + chief", "source": "colonial"}
+{"name": "Badal Xān", "type": "person", "morphemes": ["badal", "xān"], "gloss": "exchange + chief", "source": "colonial"}
+{"name": "Bāz Xān", "type": "person", "morphemes": ["bāz", "xān"], "gloss": "falcon + chief", "source": "colonial"}
+{"name": "Rahīm Xān", "type": "person", "morphemes": ["rahīm", "xān"], "gloss": "merciful + chief", "source": "colonial"}
+{"name": "Shēr Muhammad", "type": "person", "morphemes": ["shēr", "muhammad"], "gloss": "lion + name", "source": "colonial"}
+{"name": "Ādam Xān", "type": "person", "morphemes": ["ādam", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Alī Xān", "type": "person", "morphemes": ["alī", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Alī Muhammad", "type": "person", "morphemes": ["alī", "muhammad"], "gloss": "name + name", "source": "colonial"}
+{"name": "Allāh Baxsh", "type": "person", "morphemes": ["allāh", "baxsh"], "gloss": "God + gift", "source": "colonial"}
+{"name": "Allāhyār Xān", "type": "person", "morphemes": ["allāh", "yār", "xān"], "gloss": "God + friend + chief", "source": "colonial"}
+{"name": "Āzād Xān", "type": "person", "morphemes": ["āzād", "xān"], "gloss": "free + chief", "source": "colonial"}
+{"name": "Azīz Xān", "type": "person", "morphemes": ["azīz", "xān"], "gloss": "mighty + chief", "source": "colonial"}
+{"name": "Bahrām Xān", "type": "person", "morphemes": ["bahrām", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Bātē Xān", "type": "person", "morphemes": ["bātē", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Brāhīm Xān", "type": "person", "morphemes": ["ibrāhīm", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Dād Muhammad", "type": "person", "morphemes": ["dād", "muhammad"], "gloss": "given + name", "source": "colonial"}
+{"name": "Dāvūd Xān", "type": "person", "morphemes": ["dāvūd", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Dāvūd Muhammad", "type": "person", "morphemes": ["dāvūd", "muhammad"], "gloss": "name + name", "source": "colonial"}
+{"name": "Dōst Muhammad", "type": "person", "morphemes": ["dōst", "muhammad"], "gloss": "friend + name", "source": "colonial"}
+{"name": "Dur Muhammad", "type": "person", "morphemes": ["dur", "muhammad"], "gloss": "pearl + name", "source": "colonial"}
+{"name": "Īdal Xān", "type": "person", "morphemes": ["īdal", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Faiz Muhammad", "type": "person", "morphemes": ["faiz", "muhammad"], "gloss": "grace + name", "source": "colonial"}
+{"name": "Fazl Muhammad", "type": "person", "morphemes": ["fazl", "muhammad"], "gloss": "grace + name", "source": "colonial"}
+{"name": "Ɣaus Baxsh", "type": "person", "morphemes": ["ɣaus", "baxsh"], "gloss": "helper + gift", "source": "colonial"}
+{"name": "Gul Jān", "type": "person", "morphemes": ["gul", "jān"], "gloss": "flower + life", "source": "colonial"}
+{"name": "Gul Muhammad", "type": "person", "morphemes": ["gul", "muhammad"], "gloss": "flower + name", "source": "colonial"}
+{"name": "Hayāt Xān", "type": "person", "morphemes": ["hayāt", "xān"], "gloss": "life + chief", "source": "colonial"}
+{"name": "Imām Baxsh", "type": "person", "morphemes": ["imām", "baxsh"], "gloss": "leader + gift", "source": "colonial"}
+{"name": "Jahān Shāh", "type": "person", "morphemes": ["jahān", "shāh"], "gloss": "world + king", "source": "colonial"}
+{"name": "Jān Bēg", "type": "person", "morphemes": ["jān", "bēg"], "gloss": "life + lord", "source": "colonial"}
+{"name": "Jalāl Xān", "type": "person", "morphemes": ["jalāl", "xān"], "gloss": "glory + chief", "source": "colonial"}
+{"name": "Jāfar Muhammad", "type": "person", "morphemes": ["jāfar", "muhammad"], "gloss": "name + name", "source": "colonial"}
+{"name": "Kādir Baxsh", "type": "person", "morphemes": ["kādir", "baxsh"], "gloss": "mighty + gift", "source": "colonial"}
+{"name": "Kāim Xān", "type": "person", "morphemes": ["kāim", "xān"], "gloss": "steadfast + chief", "source": "colonial"}
+{"name": "Karīm Baxsh", "type": "person", "morphemes": ["karīm", "baxsh"], "gloss": "generous + gift", "source": "colonial"}
+{"name": "Xair Baxsh", "type": "person", "morphemes": ["xair", "baxsh"], "gloss": "good + gift", "source": "colonial"}
+{"name": "Xair Muhammad", "type": "person", "morphemes": ["xair", "muhammad"], "gloss": "good + name", "source": "colonial"}
+{"name": "Xān Muhammad", "type": "person", "morphemes": ["xān", "muhammad"], "gloss": "chief + name", "source": "colonial"}
+{"name": "Mazār Xān", "type": "person", "morphemes": ["mazār", "xān"], "gloss": "tiger + chief", "source": "colonial"}
+{"name": "Nazar Xān", "type": "person", "morphemes": ["nazar", "xān"], "gloss": "sight + chief", "source": "colonial"}
+{"name": "Safar Xān", "type": "person", "morphemes": ["safar", "xān"], "gloss": "journey + chief", "source": "colonial"}
+{"name": "Mūsā Xān", "type": "person", "morphemes": ["mūsā", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Dil Murād", "type": "person", "morphemes": ["dil", "murād"], "gloss": "heart + desire", "source": "colonial"}
+{"name": "Pīr Muhammad", "type": "person", "morphemes": ["pīr", "muhammad"], "gloss": "saint + name", "source": "colonial"}
+{"name": "Yār Muhammad", "type": "person", "morphemes": ["yār", "muhammad"], "gloss": "friend + name", "source": "colonial"}
+{"name": "Mustafā Xān", "type": "person", "morphemes": ["mustafā", "xān"], "gloss": "chosen + chief", "source": "colonial"}
+{"name": "Shakar Xān", "type": "person", "morphemes": ["shakar", "xān"], "gloss": "sugar + chief", "source": "colonial"}
+{"name": "Karam Xān", "type": "person", "morphemes": ["karam", "xān"], "gloss": "generosity + chief", "source": "colonial"}
+{"name": "Lashkar Xān", "type": "person", "morphemes": ["lashkar", "xān"], "gloss": "army + chief", "source": "colonial"}
+{"name": "Nādir Shāh", "type": "person", "morphemes": ["nādir", "shāh"], "gloss": "rare + king", "source": "colonial"}
+{"name": "Ahmad Shāh", "type": "person", "morphemes": ["ahmad", "shāh"], "gloss": "name + king", "source": "colonial"}
+{"name": "Zamān Shāh", "type": "person", "morphemes": ["zamān", "shāh"], "gloss": "age + king", "source": "colonial"}
+{"name": "Shāh Shujā", "type": "person", "morphemes": ["shāh", "shujā"], "gloss": "king + brave", "source": "colonial"}
+{"name": "Shāh Husain", "type": "person", "morphemes": ["shāh", "husain"], "gloss": "king + name", "source": "colonial"}
+{"name": "Sultān Muhammad Xān", "type": "person", "morphemes": ["sultān", "muhammad", "xān"], "gloss": "sultan + name + chief", "source": "colonial"}
+{"name": "Hājī Allāhdīna", "type": "person", "morphemes": ["hājī", "allāh", "dīna"], "gloss": "pilgrim + God + given", "source": "colonial"}
+{"name": "Hājī Karīm Baxsh", "type": "person", "morphemes": ["hājī", "karīm", "baxsh"], "gloss": "pilgrim + generous + gift", "source": "colonial"}
+{"name": "Hājī Sōpak", "type": "person", "morphemes": ["hājī", "sōpak"], "gloss": "pilgrim + name", "source": "colonial"}
+{"name": "Hājī Nāmū", "type": "person", "morphemes": ["hājī", "nāmū"], "gloss": "pilgrim + name", "source": "colonial"}
+{"name": "Hājī Mārī", "type": "person", "morphemes": ["hājī", "mārī"], "gloss": "pilgrim + name", "source": "colonial"}
+{"name": "Hājī Shāh", "type": "person", "morphemes": ["hājī", "shāh"], "gloss": "pilgrim + king", "source": "colonial"}
+{"name": "Sāhibdīna", "type": "person", "morphemes": ["sāhib", "dīna"], "gloss": "lord + given", "source": "colonial"}
+{"name": "Alī Shēr", "type": "person", "morphemes": ["alī", "shēr"], "gloss": "name + lion", "source": "colonial"}
+{"name": "Dīn Muhammad", "type": "person", "morphemes": ["dīn", "muhammad"], "gloss": "faith + name", "source": "colonial"}
+{"name": "Xudā Baxsh", "type": "person", "morphemes": ["xudā", "baxsh"], "gloss": "God + gift", "source": "colonial"}
+{"name": "Rahīm Dād", "type": "person", "morphemes": ["rahīm", "dād"], "gloss": "merciful + given", "source": "colonial"}
+{"name": "Karīm Dād", "type": "person", "morphemes": ["karīm", "dād"], "gloss": "generous + given", "source": "colonial"}
+{"name": "Allāh Dād", "type": "person", "morphemes": ["allāh", "dād"], "gloss": "God + given", "source": "colonial"}
+{"name": "Alī Dād", "type": "person", "morphemes": ["alī", "dād"], "gloss": "name + given", "source": "colonial"}
+{"name": "Alī Murād", "type": "person", "morphemes": ["alī", "murād"], "gloss": "name + desire", "source": "colonial"}
+{"name": "Mīr Dād", "type": "person", "morphemes": ["mīr", "dād"], "gloss": "lord + given", "source": "colonial"}
+{"name": "Maulā Dād", "type": "person", "morphemes": ["maulā", "dād"], "gloss": "master + given", "source": "colonial"}
+{"name": "Xvash Dād", "type": "person", "morphemes": ["xvash", "dād"], "gloss": "happy + given", "source": "colonial"}
+{"name": "Shāh Dād", "type": "person", "morphemes": ["shāh", "dād"], "gloss": "king + given", "source": "colonial"}
+{"name": "Shāh Murād", "type": "person", "morphemes": ["shāh", "murād"], "gloss": "king + desire", "source": "colonial"}
+{"name": "Shāh Alī", "type": "person", "morphemes": ["shāh", "alī"], "gloss": "king + name", "source": "colonial"}
+{"name": "Shāh Bēg", "type": "person", "morphemes": ["shāh", "bēg"], "gloss": "king + lord", "source": "colonial"}
+{"name": "Ɣulām Alī", "type": "person", "morphemes": ["ɣulām", "alī"], "gloss": "servant + name", "source": "colonial"}
+{"name": "Ɣulām Shāh", "type": "person", "morphemes": ["ɣulām", "shāh"], "gloss": "servant + king", "source": "colonial"}
+{"name": "Azīz Muhammad", "type": "person", "morphemes": ["azīz", "muhammad"], "gloss": "mighty + name", "source": "colonial"}
+{"name": "Dilāvar Xān", "type": "person", "morphemes": ["dil", "āvar", "xān"], "gloss": "heart + bringer + chief", "source": "colonial"}
+{"name": "Daulat Xān", "type": "person", "morphemes": ["daulat", "xān"], "gloss": "wealth + chief", "source": "colonial"}
+{"name": "Bahādur Xān", "type": "person", "morphemes": ["bahādur", "xān"], "gloss": "brave + chief", "source": "colonial"}
+{"name": "Hāsil Xān", "type": "person", "morphemes": ["hāsil", "xān"], "gloss": "produce + chief", "source": "colonial"}
+{"name": "Yākūb Xān", "type": "person", "morphemes": ["yākūb", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Karam Alī", "type": "person", "morphemes": ["karam", "alī"], "gloss": "generosity + name", "source": "colonial"}
+{"name": "Mahr Alī", "type": "person", "morphemes": ["mahr", "alī"], "gloss": "grace + name", "source": "colonial"}
+{"name": "Karam Shāh", "type": "person", "morphemes": ["karam", "shāh"], "gloss": "generosity + king", "source": "colonial"}
+{"name": "Shāhbāz Xān", "type": "person", "morphemes": ["shāh", "bāz", "xān"], "gloss": "king + falcon + chief", "source": "colonial"}
+{"name": "Jārullāh", "type": "person", "morphemes": ["jār", "allāh"], "gloss": "neighbour + God", "source": "colonial"}
+{"name": "Malikdād", "type": "person", "morphemes": ["malik", "dād"], "gloss": "master + given", "source": "colonial"}
+{"name": "Hukmdād", "type": "person", "morphemes": ["hukm", "dād"], "gloss": "command + given", "source": "colonial"}
+{"name": "Dilshād", "type": "person", "morphemes": ["dil", "shād"], "gloss": "heart + glad", "source": "colonial"}
+{"name": "Ɣamshād", "type": "person", "morphemes": ["ɣam", "shād"], "gloss": "grief + glad", "source": "colonial"}
+{"name": "Īsā Tāhir", "type": "person", "morphemes": ["īsā", "tāhir"], "gloss": "name + pure", "source": "colonial"}
+{"name": "Brāhūī", "type": "group", "morphemes": ["brāhūī"], "gloss": "name", "source": "colonial"}
+{"name": "Sarāvān", "type": "group", "morphemes": ["sar", "āvān"], "gloss": "head + side", "source": "colonial"}
+{"name": "Jhalāvān", "type": "group", "morphemes": ["jhal", "āvān"], "gloss": "below + side", "source": "colonial"}
+{"name": "Mēngal", "type": "group", "morphemes": ["mēngal"], "gloss": "name", "source": "colonial"}
+{"name": "Zagar Mēngal", "type": "group", "morphemes": ["zagar", "mēngal"], "gloss": "name + name", "source": "colonial"}
+{"name": "Raisānī", "type": "group", "morphemes": ["rais"], "gloss": "headman", "source": "colonial"}
+{"name": "Shāhvānī", "type": "group", "morphemes": ["shāhō"], "gloss": "name", "source": "colonial"}
+{"name": "Bangulzai", "type": "group", "morphemes": ["bangul"], "gloss": "name", "source": "colonial"}
+{"name": "Bīzanjav", "type": "group", "morphemes": ["bīzanj"], "gloss": "name", "source": "colonial"}
+{"name": "Lāngav", "type": "group", "morphemes": ["lāng"], "gloss": "name", "source": "colonial"}
+{"name": "Kurd", "type": "group", "morphemes": ["kurd"], "gloss": "name", "source": "colonial"}
+{"name": "Lahrī", "type": "group", "morphemes": ["lahr"], "gloss": "name", "source": "colonial"}
+{"name": "Mīrvāṛī", "type": "group", "morphemes": ["mīrō"], "gloss": "name", "source": "colonial"}
+{"name": "Kambrānī", "type": "group", "morphemes": ["kambar"], "gloss": "name", "source": "colonial"}
+{"name": "Kalandarānī", "type": "group", "morphemes": ["kalandar"], "gloss": "dervish", "source": "colonial"}
+{"name": "Gurgīnārī", "type": "group", "morphemes": ["gurgīn"], "gloss": "name", "source": "colonial"}
+{"name": "Sumālārī", "type": "group", "morphemes": ["sumāl"], "gloss": "name", "source": "colonial"}
+{"name": "Sājdī", "type": "group", "morphemes": ["sājid"], "gloss": "name", "source": "colonial"}
+{"name": "Rōdēnī", "type": "group", "morphemes": ["rōdēn"], "gloss": "name", "source": "colonial"}
+{"name": "Pandarānī", "type": "group", "morphemes": ["pandar"], "gloss": "name", "source": "colonial"}
+{"name": "Hārūnī", "type": "group", "morphemes": ["hārūn"], "gloss": "name", "source": "colonial"}
+{"name": "Zahrī", "type": "group", "morphemes": ["zahrī"], "gloss": "name", "source": "colonial"}
+{"name": "Sātakzai", "type": "group", "morphemes": ["sātak"], "gloss": "name", "source": "colonial"}
+{"name": "Sarparra", "type": "group", "morphemes": ["sar", "parra"], "gloss": "head + wing", "source": "colonial"}
+{"name": "Raxshānī", "type": "group", "morphemes": ["raxshān"], "gloss": "name", "source": "colonial"}
+{"name": "Bādīnī", "type": "group", "morphemes": ["bādīn"], "gloss": "name", "source": "colonial"}
+{"name": "Jamāldīnī", "type": "group", "morphemes": ["jamāl", "dīn"], "gloss": "beauty + faith", "source": "colonial"}
+{"name": "Muhammad Shāhī", "type": "group", "morphemes": ["muhammad", "shāh"], "gloss": "name + king", "source": "colonial"}
+{"name": "Muhammad Hasnī", "type": "group", "morphemes": ["muhammad", "hasan"], "gloss": "name + name", "source": "colonial"}
+{"name": "Mamasānī", "type": "group", "morphemes": ["mamasān"], "gloss": "name", "source": "colonial"}
+{"name": "Jattak", "type": "group", "morphemes": ["jattak"], "gloss": "name", "source": "colonial"}
+{"name": "Mūsyānī", "type": "group", "morphemes": ["mūsā"], "gloss": "name", "source": "colonial"}
+{"name": "Xidrānī", "type": "group", "morphemes": ["xidr"], "gloss": "name", "source": "colonial"}
+{"name": "Bājōī", "type": "group", "morphemes": ["bājō"], "gloss": "name", "source": "colonial"}
+{"name": "Chhuṭṭa", "type": "group", "morphemes": ["chhuṭṭa"], "gloss": "name", "source": "colonial"}
+{"name": "Niɣāṛī", "type": "group", "morphemes": ["niɣāṛ"], "gloss": "name", "source": "colonial"}
+{"name": "Rēkīzai", "type": "group", "morphemes": ["rēkī"], "gloss": "sandy", "source": "colonial"}
+{"name": "Lōṭyānī", "type": "group", "morphemes": ["lōṭī"], "gloss": "name", "source": "colonial"}
+{"name": "Mardōī", "type": "group", "morphemes": ["mardō"], "gloss": "name", "source": "colonial"}
+{"name": "Sannārī", "type": "group", "morphemes": ["sannār"], "gloss": "name", "source": "colonial"}
+{"name": "Danya", "type": "group", "morphemes": ["danya"], "gloss": "name", "source": "colonial"}
+{"name": "Balōch", "type": "group", "morphemes": ["balōch"], "gloss": "name", "source": "colonial"}
+{"name": "Rind", "type": "group", "morphemes": ["rind"], "gloss": "name", "source": "colonial"}
+{"name": "Magassī", "type": "group", "morphemes": ["magas"], "gloss": "name", "source": "colonial"}
+{"name": "Lāshārī", "type": "group", "morphemes": ["lāshār"], "gloss": "name", "source": "colonial"}
+{"name": "Marrī", "type": "group", "morphemes": ["marrī"], "gloss": "name", "source": "colonial"}
+{"name": "Bugṭī", "type": "group", "morphemes": ["bugṭī"], "gloss": "name", "source": "colonial"}
+{"name": "Dōmkī", "type": "group", "morphemes": ["dōmk"], "gloss": "name", "source": "colonial"}
+{"name": "Umrānī", "type": "group", "morphemes": ["umar"], "gloss": "name", "source": "colonial"}
+{"name": "Kahērī", "type": "group", "morphemes": ["kahēr"], "gloss": "name", "source": "colonial"}
+{"name": "Jatōī", "type": "group", "morphemes": ["jatō"], "gloss": "name", "source": "colonial"}
+{"name": "Dēhvār", "type": "group", "morphemes": ["dēhvār"], "gloss": "villager", "source": "colonial"}
+{"name": "Jadgāl", "type": "group", "morphemes": ["jadgāl"], "gloss": "name", "source": "colonial"}
+{"name": "Lōrī", "type": "group", "morphemes": ["lōrī"], "gloss": "minstrel", "source": "colonial"}
+{"name": "Jaṭ", "type": "group", "morphemes": ["jaṭ"], "gloss": "camel driver", "source": "colonial"}
+{"name": "Jāmōṭ", "type": "group", "morphemes": ["jāmōṭ"], "gloss": "name", "source": "colonial"}
+{"name": "Gichkī", "type": "group", "morphemes": ["gichk"], "gloss": "name", "source": "colonial"}
+{"name": "Naushērvānī", "type": "group", "morphemes": ["naushērvān"], "gloss": "name", "source": "colonial"}
+{"name": "Sanjrānī", "type": "group", "morphemes": ["sanjar"], "gloss": "name", "source": "colonial"}
+{"name": "Nārūī", "type": "group", "morphemes": ["nārū"], "gloss": "name", "source": "colonial"}
+{"name": "Dāmānī", "type": "group", "morphemes": ["dāmān"], "gloss": "skirt", "source": "colonial"}
+{"name": "Barēch", "type": "group", "morphemes": ["barēch"], "gloss": "name", "source": "colonial"}
+{"name": "Tarīn", "type": "group", "morphemes": ["tarīn"], "gloss": "name", "source": "colonial"}
+{"name": "Kākaṛ", "type": "group", "morphemes": ["kākaṛ"], "gloss": "name", "source": "colonial"}
+{"name": "Nakīb", "type": "group", "morphemes": ["nakīb"], "gloss": "herald", "source": "colonial"}
+{"name": "Zikrī", "type": "group", "morphemes": ["zikr"], "gloss": "remembrance", "source": "colonial"}
+{"name": "Kuchik", "type": "group", "morphemes": ["kuchik"], "gloss": "small", "source": "colonial"}
+{"name": "Kullōī", "type": "group", "morphemes": ["kullō"], "gloss": "name", "source": "colonial"}
+{"name": "Ahmadzai", "type": "lineage", "morphemes": ["ahmad"], "gloss": "name", "source": "colonial"}
+{"name": "Iltāzai", "type": "lineage", "morphemes": ["iltāz"], "gloss": "name", "source": "colonial"}
+{"name": "Mīr Hājī", "type": "lineage", "morphemes": ["mīr", "hājī"], "gloss": "lord + pilgrim", "source": "colonial"}
+{"name": "Sarājzai", "type": "lineage", "morphemes": ["sarāj"], "gloss": "lamp", "source": "colonial"}
+{"name": "Rustamzai", "type": "lineage", "morphemes": ["rustam"], "gloss": "name", "source": "colonial"}
+{"name": "Ismailzai", "type": "lineage", "morphemes": ["ismāīl"], "gloss": "name", "source": "colonial"}
+{"name": "Jāmālzai", "type": "lineage", "morphemes": ["jamāl"], "gloss": "beauty", "source": "colonial"}
+{"name": "Pāndavzai", "type": "lineage", "morphemes": ["pāndav"], "gloss": "name", "source": "colonial"}
+{"name": "Akramzai", "type": "lineage", "morphemes": ["akram"], "gloss": "most generous", "source": "colonial"}
+{"name": "Rōshanazai", "type": "lineage", "morphemes": ["rōshan"], "gloss": "bright", "source": "colonial"}
+{"name": "Sīāhīzai", "type": "lineage", "morphemes": ["sīāh"], "gloss": "black", "source": "colonial"}
+{"name": "Mīrānzai", "type": "lineage", "morphemes": ["mīrān"], "gloss": "name", "source": "colonial"}
+{"name": "Kādirzai", "type": "lineage", "morphemes": ["kādir"], "gloss": "mighty", "source": "colonial"}
+{"name": "Kallōzai", "type": "lineage", "morphemes": ["kallō"], "gloss": "name", "source": "colonial"}
+{"name": "Sūrīzai", "type": "lineage", "morphemes": ["sūrī"], "gloss": "red", "source": "colonial"}
+{"name": "Chānrōzai", "type": "lineage", "morphemes": ["chānrō"], "gloss": "name", "source": "colonial"}
+{"name": "Ahmad Xānzai", "type": "lineage", "morphemes": ["ahmad", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Hasnī", "type": "lineage", "morphemes": ["hasan"], "gloss": "name", "source": "colonial"}
+{"name": "Gōl", "type": "lineage", "morphemes": ["gōl"], "gloss": "round", "source": "colonial"}
+{"name": "Sīdhīzai", "type": "lineage", "morphemes": ["sīdhī"], "gloss": "name", "source": "colonial"}
+{"name": "Lōharzai", "type": "lineage", "morphemes": ["lōhar"], "gloss": "blacksmith", "source": "colonial"}
+{"name": "Nōtzai", "type": "lineage", "morphemes": ["nōt"], "gloss": "name", "source": "colonial"}
+{"name": "Shēx Ahmadī", "type": "lineage", "morphemes": ["shēx", "ahmad"], "gloss": "elder + name", "source": "colonial"}
+{"name": "Gōhrāmzai", "type": "lineage", "morphemes": ["gōhrām"], "gloss": "name", "source": "colonial"}
+{"name": "Bījārzai", "type": "lineage", "morphemes": ["bījār"], "gloss": "name", "source": "colonial"}
+{"name": "Dīnārzai", "type": "lineage", "morphemes": ["dīnār"], "gloss": "gold coin", "source": "colonial"}
+{"name": "Baddūzai", "type": "lineage", "morphemes": ["baddū"], "gloss": "name", "source": "colonial"}
+{"name": "Sāmēzai", "type": "lineage", "morphemes": ["sāmē"], "gloss": "name", "source": "colonial"}
+{"name": "Gōvand", "type": "lineage", "morphemes": ["gōvand"], "gloss": "name", "source": "colonial"}
+{"name": "Husainzai", "type": "lineage", "morphemes": ["husain"], "gloss": "name", "source": "colonial"}
+{"name": "Tangīzai", "type": "lineage", "morphemes": ["tang"], "gloss": "gorge", "source": "colonial"}
+{"name": "Zāhrōzai", "type": "lineage", "morphemes": ["zāhrō"], "gloss": "name", "source": "colonial"}
+{"name": "Bārānzai", "type": "lineage", "morphemes": ["bārān"], "gloss": "rain", "source": "colonial"}
+{"name": "Pānjal Xānzai", "type": "lineage", "morphemes": ["pānjal", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Māɣundōī", "type": "lineage", "morphemes": ["māɣund"], "gloss": "name", "source": "colonial"}
+{"name": "Mandōzai", "type": "lineage", "morphemes": ["mandō"], "gloss": "name", "source": "colonial"}
+{"name": "Mandvānī", "type": "lineage", "morphemes": ["mandav"], "gloss": "name", "source": "colonial"}
+{"name": "Mazārānī", "type": "lineage", "morphemes": ["mazār"], "gloss": "tiger", "source": "colonial"}
+{"name": "Pahlavānzai", "type": "lineage", "morphemes": ["pahlavān"], "gloss": "hero", "source": "colonial"}
+{"name": "Pūɣ", "type": "lineage", "morphemes": ["pūɣ"], "gloss": "name", "source": "colonial"}
+{"name": "Puzh", "type": "lineage", "morphemes": ["puzh"], "gloss": "name", "source": "colonial"}
+{"name": "Lavangzai", "type": "lineage", "morphemes": ["lavang"], "gloss": "clove", "source": "colonial"}
+{"name": "Pīrānazai", "type": "lineage", "morphemes": ["pīrān"], "gloss": "name", "source": "colonial"}
+{"name": "Kōh Baddūzai", "type": "lineage", "morphemes": ["kōh", "baddū"], "gloss": "hill + name", "source": "colonial"}
+{"name": "Mādēzai", "type": "lineage", "morphemes": ["mādē"], "gloss": "name", "source": "colonial"}
+{"name": "Zardārzai", "type": "lineage", "morphemes": ["zar", "dār"], "gloss": "gold + holder", "source": "colonial"}
+{"name": "Shūdanzai", "type": "lineage", "morphemes": ["shūdan"], "gloss": "name", "source": "colonial"}
+{"name": "Shādīzai", "type": "lineage", "morphemes": ["shādī"], "gloss": "joy", "source": "colonial"}
+{"name": "Phullānzai", "type": "lineage", "morphemes": ["phullān"], "gloss": "name", "source": "colonial"}
+{"name": "Masūdānī", "type": "lineage", "morphemes": ["masūd"], "gloss": "fortunate", "source": "colonial"}
+{"name": "Gōrgēzai", "type": "lineage", "morphemes": ["gōrgē"], "gloss": "name", "source": "colonial"}
+{"name": "Chākarzai", "type": "lineage", "morphemes": ["chākar"], "gloss": "name", "source": "colonial"}
+{"name": "Mīr Alīzai", "type": "lineage", "morphemes": ["mīr", "alī"], "gloss": "lord + name", "source": "colonial"}
+{"name": "Shēx Karda", "type": "lineage", "morphemes": ["shēx", "karda"], "gloss": "elder + name", "source": "colonial"}
+{"name": "Sōbāzai", "type": "lineage", "morphemes": ["sōbā"], "gloss": "victory", "source": "colonial"}
+{"name": "Kāsimzai", "type": "lineage", "morphemes": ["kāsim"], "gloss": "divider", "source": "colonial"}
+{"name": "Xēdrānī", "type": "lineage", "morphemes": ["xēdar"], "gloss": "name", "source": "colonial"}
+{"name": "Dōdāī", "type": "lineage", "morphemes": ["dōdā"], "gloss": "name", "source": "colonial"}
+{"name": "Gvāhrānī", "type": "lineage", "morphemes": ["gvāhr"], "gloss": "name", "source": "colonial"}
+{"name": "Sūrōzai", "type": "lineage", "morphemes": ["sūrō"], "gloss": "name", "source": "colonial"}
+{"name": "Bambkāzai", "type": "lineage", "morphemes": ["bambkā"], "gloss": "name", "source": "colonial"}
+{"name": "Sāmālzai", "type": "lineage", "morphemes": ["sāmāl"], "gloss": "name", "source": "colonial"}
+{"name": "Jangīzai", "type": "lineage", "morphemes": ["jang"], "gloss": "war", "source": "colonial"}
+{"name": "Shādēnzai", "type": "lineage", "morphemes": ["shādēn"], "gloss": "name", "source": "colonial"}
+{"name": "Malangzai", "type": "lineage", "morphemes": ["malang"], "gloss": "dervish", "source": "colonial"}
+{"name": "Durrakzai", "type": "lineage", "morphemes": ["durrak"], "gloss": "name", "source": "colonial"}
+{"name": "Bahrāmzai", "type": "lineage", "morphemes": ["bahrām"], "gloss": "name", "source": "colonial"}
+{"name": "Patēhānzai", "type": "lineage", "morphemes": ["patēhān"], "gloss": "name", "source": "colonial"}
+{"name": "Zōbērānī", "type": "lineage", "morphemes": ["zōbēr"], "gloss": "name", "source": "colonial"}
+{"name": "Xalēchānī", "type": "lineage", "morphemes": ["xalēch"], "gloss": "name", "source": "colonial"}
+{"name": "Burjalīzai", "type": "lineage", "morphemes": ["burj", "alī"], "gloss": "tower + name", "source": "colonial"}
+{"name": "Jōgēzai", "type": "lineage", "morphemes": ["jōgē"], "gloss": "ascetic", "source": "colonial"}
+{"name": "Zarxēl", "type": "lineage", "morphemes": ["zar", "xēl"], "gloss": "gold + clan", "source": "colonial"}
+{"name": "Brāhīmzai", "type": "lineage", "morphemes": ["ibrāhīm"], "gloss": "name", "source": "colonial"}
+{"name": "Haidarzai", "type": "lineage", "morphemes": ["haidar"], "gloss": "lion", "source": "colonial"}
+{"name": "Shangrānī", "type": "lineage", "morphemes": ["shangr"], "gloss": "name", "source": "colonial"}
+{"name": "Hōtīzai", "type": "lineage", "morphemes": ["hōtan"], "gloss": "name", "source": "colonial"}
+{"name": "Rindak", "type": "lineage", "morphemes": ["rindak"], "gloss": "name", "source": "colonial"}
+{"name": "Ādamzai", "type": "lineage", "morphemes": ["ādam"], "gloss": "name", "source": "colonial"}
+{"name": "Jārzai", "type": "lineage", "morphemes": ["jār"], "gloss": "name", "source": "colonial"}
+{"name": "Murrāī", "type": "lineage", "morphemes": ["murrā"], "gloss": "name", "source": "colonial"}
+{"name": "Nōtakzai", "type": "lineage", "morphemes": ["nōtak"], "gloss": "name", "source": "colonial"}
+{"name": "Shēakzai", "type": "lineage", "morphemes": ["shēak"], "gloss": "name", "source": "colonial"}
+{"name": "Zarrakzai", "type": "lineage", "morphemes": ["zarrak"], "gloss": "name", "source": "colonial"}
+{"name": "Dōstēnzai", "type": "lineage", "morphemes": ["dōstēn"], "gloss": "name", "source": "colonial"}
+{"name": "Adēnazai", "type": "lineage", "morphemes": ["adēna"], "gloss": "Friday", "source": "colonial"}
+{"name": "Mangēhzai", "type": "lineage", "morphemes": ["mangēh"], "gloss": "name", "source": "colonial"}
+{"name": "Hasrānī", "type": "lineage", "morphemes": ["hasr"], "gloss": "name", "source": "colonial"}
+{"name": "Shālūzai", "type": "lineage", "morphemes": ["shālū"], "gloss": "name", "source": "colonial"}
+{"name": "Būbak", "type": "lineage", "morphemes": ["būbak"], "gloss": "name", "source": "colonial"}
+{"name": "Dēgyānī", "type": "lineage", "morphemes": ["dēg"], "gloss": "pot", "source": "colonial"}
+{"name": "Bilaṭal", "type": "lineage", "morphemes": ["bilaṭal"], "gloss": "name", "source": "colonial"}
+{"name": "Gujjar", "type": "lineage", "morphemes": ["gujjar"], "gloss": "name", "source": "colonial"}
+{"name": "Jallābzai", "type": "lineage", "morphemes": ["jallāb"], "gloss": "drover", "source": "colonial"}
+{"name": "Sartakānī", "type": "lineage", "morphemes": ["sartak"], "gloss": "name", "source": "colonial"}
+{"name": "Sabhāī", "type": "lineage", "morphemes": ["sabhā"], "gloss": "name", "source": "colonial"}
+{"name": "Shāhōl", "type": "lineage", "morphemes": ["shāhōl"], "gloss": "name", "source": "colonial"}
+{"name": "Bandar", "type": "lineage", "morphemes": ["bandar"], "gloss": "port", "source": "colonial"}
+{"name": "Bhāhōzai", "type": "lineage", "morphemes": ["bhāhō"], "gloss": "name", "source": "colonial"}
+{"name": "Channāl", "type": "lineage", "morphemes": ["channāl"], "gloss": "name", "source": "colonial"}
+{"name": "Hīrānzai", "type": "lineage", "morphemes": ["hīrān"], "gloss": "name", "source": "colonial"}
+{"name": "Dallūjav", "type": "lineage", "morphemes": ["dallū"], "gloss": "name", "source": "colonial"}
+{"name": "Rāhzanzai", "type": "lineage", "morphemes": ["rāh", "zan"], "gloss": "road + striker", "source": "colonial"}
+{"name": "Rānzāzai", "type": "lineage", "morphemes": ["rānzā"], "gloss": "name", "source": "colonial"}
+{"name": "Būdhōzai", "type": "lineage", "morphemes": ["būdhō"], "gloss": "name", "source": "colonial"}
+{"name": "Drāb", "type": "lineage", "morphemes": ["drāb"], "gloss": "name", "source": "colonial"}
+{"name": "Bāmalānī", "type": "lineage", "morphemes": ["bāmal"], "gloss": "name", "source": "colonial"}
+{"name": "Xamīsāzai", "type": "lineage", "morphemes": ["xamīs"], "gloss": "Thursday", "source": "colonial"}
+{"name": "Kālūzai", "type": "lineage", "morphemes": ["kālū"], "gloss": "black", "source": "colonial"}
+{"name": "Alānī", "type": "lineage", "morphemes": ["āl"], "gloss": "name", "source": "colonial"}
+{"name": "Muhānō", "type": "lineage", "morphemes": ["muhānō"], "gloss": "boatman", "source": "colonial"}
+{"name": "Bullōzai", "type": "lineage", "morphemes": ["bullō"], "gloss": "name", "source": "colonial"}
+{"name": "Adrōānī", "type": "lineage", "morphemes": ["adrō"], "gloss": "name", "source": "colonial"}
+{"name": "Mandrājav", "type": "lineage", "morphemes": ["mandrā"], "gloss": "name", "source": "colonial"}
+{"name": "Bandīzai", "type": "lineage", "morphemes": ["bandī"], "gloss": "captive", "source": "colonial"}
+{"name": "Sumārānī", "type": "lineage", "morphemes": ["sumār"], "gloss": "name", "source": "colonial"}
+{"name": "Durrīzai", "type": "lineage", "morphemes": ["durrī"], "gloss": "pearl", "source": "colonial"}
+{"name": "Jahāngīrānī", "type": "lineage", "morphemes": ["jahān", "gīr"], "gloss": "world + taker", "source": "colonial"}
+{"name": "Hapursīzai", "type": "lineage", "morphemes": ["hapurs"], "gloss": "juniper", "source": "colonial"}
+{"name": "Haibatzai", "type": "lineage", "morphemes": ["haibat"], "gloss": "awe", "source": "colonial"}
+{"name": "Jalālzai", "type": "lineage", "morphemes": ["jalāl"], "gloss": "glory", "source": "colonial"}
+{"name": "Alībōtīzai", "type": "lineage", "morphemes": ["alī", "bōtī"], "gloss": "name + name", "source": "colonial"}
+{"name": "Zūmakārī", "type": "lineage", "morphemes": ["zūmak"], "gloss": "name", "source": "colonial"}
+{"name": "Hōnarārī", "type": "lineage", "morphemes": ["hōnar"], "gloss": "skill", "source": "colonial"}
+{"name": "Jānīzai", "type": "lineage", "morphemes": ["jānī"], "gloss": "beloved", "source": "colonial"}
+{"name": "Bānzōzai", "type": "lineage", "morphemes": ["bānzō"], "gloss": "name", "source": "colonial"}
+{"name": "Gvāhrānjav", "type": "lineage", "morphemes": ["gvāhrān"], "gloss": "name", "source": "colonial"}
+{"name": "Tūk", "type": "lineage", "morphemes": ["tūk"], "gloss": "name", "source": "colonial"}
+{"name": "Bhādīnzai", "type": "lineage", "morphemes": ["bhādīn"], "gloss": "name", "source": "colonial"}
+{"name": "Makkālī", "type": "lineage", "morphemes": ["makkāl"], "gloss": "name", "source": "colonial"}
+{"name": "Gungav", "type": "lineage", "morphemes": ["gung"], "gloss": "dumb", "source": "colonial"}
+{"name": "Natvānī", "type": "lineage", "morphemes": ["natav"], "gloss": "name", "source": "colonial"}
+{"name": "Ɣulāmānī", "type": "lineage", "morphemes": ["ɣulām"], "gloss": "servant", "source": "colonial"}
+{"name": "Mahmūdzai", "type": "lineage", "morphemes": ["mahmūd"], "gloss": "praised", "source": "colonial"}
+{"name": "Nindvānī", "type": "lineage", "morphemes": ["nindav"], "gloss": "name", "source": "colonial"}
+{"name": "Chānarvānī", "type": "lineage", "morphemes": ["chānarav"], "gloss": "name", "source": "colonial"}
+{"name": "Zīrakānī", "type": "lineage", "morphemes": ["zīrak"], "gloss": "clever", "source": "colonial"}
+{"name": "Kēbārī", "type": "lineage", "morphemes": ["kēbār"], "gloss": "name", "source": "colonial"}
+{"name": "Kālāɣānī", "type": "lineage", "morphemes": ["kālāɣ"], "gloss": "crow", "source": "colonial"}
+{"name": "Kizilbāshī", "type": "lineage", "morphemes": ["kizil", "bāsh"], "gloss": "red + head", "source": "colonial"}
+{"name": "Gōrgējzai", "type": "lineage", "morphemes": ["gōrgēj"], "gloss": "name", "source": "colonial"}
+{"name": "Xōdēzai", "type": "lineage", "morphemes": ["xōdē"], "gloss": "name", "source": "colonial"}
+{"name": "Shādmānzai", "type": "lineage", "morphemes": ["shādmān"], "gloss": "joyful", "source": "colonial"}
+{"name": "Shambav", "type": "lineage", "morphemes": ["shambav"], "gloss": "name", "source": "colonial"}
+{"name": "Pāindzai", "type": "lineage", "morphemes": ["pāind"], "gloss": "name", "source": "colonial"}
+{"name": "Trāsēzai", "type": "lineage", "morphemes": ["trāsē"], "gloss": "name", "source": "colonial"}
+{"name": "Bājēzai", "type": "lineage", "morphemes": ["bājē"], "gloss": "name", "source": "colonial"}
+{"name": "Bōlāzai", "type": "lineage", "morphemes": ["bōlā"], "gloss": "name", "source": "colonial"}
+{"name": "Īsāzai", "type": "lineage", "morphemes": ["īsā"], "gloss": "name", "source": "colonial"}
+{"name": "Kamarzai", "type": "lineage", "morphemes": ["kamar"], "gloss": "moon", "source": "colonial"}
+{"name": "Shāndī", "type": "lineage", "morphemes": ["shānd"], "gloss": "name", "source": "colonial"}
+{"name": "Bārīna", "type": "lineage", "morphemes": ["bārīna"], "gloss": "name", "source": "colonial"}
+{"name": "Langrējī", "type": "lineage", "morphemes": ["langrēj"], "gloss": "name", "source": "colonial"}
+{"name": "Drākalav", "type": "lineage", "morphemes": ["drākal"], "gloss": "name", "source": "colonial"}
+{"name": "Pinjōrī", "type": "lineage", "morphemes": ["pinjōr"], "gloss": "name", "source": "colonial"}
+{"name": "Bādārī", "type": "lineage", "morphemes": ["bādār"], "gloss": "name", "source": "colonial"}
+{"name": "Kabmatzai", "type": "lineage", "morphemes": ["kabmat"], "gloss": "name", "source": "colonial"}
+{"name": "Bābzal Xānzai", "type": "lineage", "morphemes": ["bābzal", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Dādūzai", "type": "lineage", "morphemes": ["dādū"], "gloss": "name", "source": "colonial"}
+{"name": "Dāhīzai", "type": "lineage", "morphemes": ["dāhī"], "gloss": "name", "source": "colonial"}
+{"name": "Hāsilzai", "type": "lineage", "morphemes": ["hāsil"], "gloss": "produce", "source": "colonial"}
+{"name": "Hujīzai", "type": "lineage", "morphemes": ["hujī"], "gloss": "name", "source": "colonial"}
+{"name": "Husānī", "type": "lineage", "morphemes": ["husān"], "gloss": "name", "source": "colonial"}
+{"name": "Isyānī", "type": "lineage", "morphemes": ["isyān"], "gloss": "name", "source": "colonial"}
+{"name": "Jāfarzai", "type": "lineage", "morphemes": ["jāfar"], "gloss": "name", "source": "colonial"}
+{"name": "Jīandzai", "type": "lineage", "morphemes": ["jīand"], "gloss": "name", "source": "colonial"}
+{"name": "Kanarzai", "type": "lineage", "morphemes": ["kanar"], "gloss": "name", "source": "colonial"}
+{"name": "Kandūzai", "type": "lineage", "morphemes": ["kandū"], "gloss": "name", "source": "colonial"}
+{"name": "Māstī Xānzai", "type": "lineage", "morphemes": ["māstī", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Mardānshāhī", "type": "lineage", "morphemes": ["mard", "shāh"], "gloss": "man + king", "source": "colonial"}
+{"name": "Bulbānzai", "type": "lineage", "morphemes": ["bulbān"], "gloss": "name", "source": "colonial"}
+{"name": "Hammalārī", "type": "lineage", "morphemes": ["hammal"], "gloss": "name", "source": "colonial"}
+{"name": "Tāmbrāṛī", "type": "lineage", "morphemes": ["tāmbrā"], "gloss": "name", "source": "colonial"}
+{"name": "Sīāhpād", "type": "lineage", "morphemes": ["sīāh", "pād"], "gloss": "black + foot", "source": "colonial"}
+{"name": "Bōhīrzai", "type": "lineage", "morphemes": ["bōhīr"], "gloss": "name", "source": "colonial"}
+{"name": "Shāhristānzai", "type": "lineage", "morphemes": ["shāhristān"], "gloss": "city", "source": "colonial"}
+{"name": "Ɣaibīzai", "type": "lineage", "morphemes": ["ɣaib"], "gloss": "unseen", "source": "colonial"}
+{"name": "Bhaṭṭī", "type": "lineage", "morphemes": ["bhaṭṭ"], "gloss": "name", "source": "colonial"}
+{"name": "Jābāzai", "type": "lineage", "morphemes": ["jābā"], "gloss": "name", "source": "colonial"}
+{"name": "Nandvānī", "type": "lineage", "morphemes": ["nandav"], "gloss": "name", "source": "colonial"}
+{"name": "Nakūzai", "type": "lineage", "morphemes": ["nakū"], "gloss": "name", "source": "colonial"}
+{"name": "Nōkbaṭāzai", "type": "lineage", "morphemes": ["nōk", "baṭā"], "gloss": "new + name", "source": "colonial"}
+{"name": "Bārāzai", "type": "lineage", "morphemes": ["bārā"], "gloss": "name", "source": "colonial"}
+{"name": "Karīmzai", "type": "lineage", "morphemes": ["karīm"], "gloss": "generous", "source": "colonial"}
+{"name": "Nadāmzai", "type": "lineage", "morphemes": ["nadām"], "gloss": "name", "source": "colonial"}
+{"name": "Rājīdānzai", "type": "lineage", "morphemes": ["rājī", "dān"], "gloss": "hopeful + knower", "source": "colonial"}
+{"name": "Rōzhāzai", "type": "lineage", "morphemes": ["rōzhā"], "gloss": "name", "source": "colonial"}
+{"name": "Sartiyān", "type": "lineage", "morphemes": ["sartiyān"], "gloss": "name", "source": "colonial"}
+{"name": "Bushamzai", "type": "lineage", "morphemes": ["busham"], "gloss": "name", "source": "colonial"}
+{"name": "Bundōzai", "type": "lineage", "morphemes": ["bundō"], "gloss": "name", "source": "colonial"}
+{"name": "Lādōzai", "type": "lineage", "morphemes": ["lādō"], "gloss": "darling", "source": "colonial"}
+{"name": "Xabarzai", "type": "lineage", "morphemes": ["xabar"], "gloss": "news", "source": "colonial"}
+{"name": "Gārnār", "type": "lineage", "morphemes": ["gārnār"], "gloss": "name", "source": "colonial"}
+{"name": "Fīrōzshāhzai", "type": "lineage", "morphemes": ["fīrōz", "shāh"], "gloss": "victorious + king", "source": "colonial"}
+{"name": "Sōbhrānī", "type": "lineage", "morphemes": ["sōbhr"], "gloss": "name", "source": "colonial"}
+{"name": "Xushkāī", "type": "lineage", "morphemes": ["xushk"], "gloss": "dry", "source": "colonial"}
+{"name": "Sōbāxānzai", "type": "lineage", "morphemes": ["sōbā", "xān"], "gloss": "victory + chief", "source": "colonial"}
+{"name": "Baddājō", "type": "lineage", "morphemes": ["baddāj"], "gloss": "name", "source": "colonial"}
+{"name": "Bārakzai", "type": "lineage", "morphemes": ["bārak"], "gloss": "name", "source": "colonial"}
+{"name": "Hasnānī", "type": "lineage", "morphemes": ["hasnān"], "gloss": "name", "source": "colonial"}
+{"name": "Xidrō", "type": "lineage", "morphemes": ["xidrō"], "gloss": "name", "source": "colonial"}
+{"name": "Lēhrīzai", "type": "lineage", "morphemes": ["lēhrī"], "gloss": "name", "source": "colonial"}
+{"name": "Salāhī", "type": "lineage", "morphemes": ["salāh"], "gloss": "righteousness", "source": "colonial"}
+{"name": "Shādīnzai", "type": "lineage", "morphemes": ["shādīn"], "gloss": "name", "source": "colonial"}
+{"name": "Gōgēzai", "type": "lineage", "morphemes": ["gōgē"], "gloss": "name", "source": "colonial"}
+{"name": "Kangarzai", "type": "lineage", "morphemes": ["kangar"], "gloss": "name", "source": "colonial"}
+{"name": "Zādrōzai", "type": "lineage", "morphemes": ["zādrō"], "gloss": "name", "source": "colonial"}
+{"name": "Māldāzai", "type": "lineage", "morphemes": ["māl", "dā"], "gloss": "wealth + name", "source": "colonial"}
+{"name": "Bālōxānzai", "type": "lineage", "morphemes": ["bālō", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Lōkēṭapānī", "type": "lineage", "morphemes": ["lōkē", "ṭap"], "gloss": "name + name", "source": "colonial"}
+{"name": "Burakzai", "type": "lineage", "morphemes": ["burak"], "gloss": "name", "source": "colonial"}
+{"name": "Chūharzai", "type": "lineage", "morphemes": ["chūhar"], "gloss": "name", "source": "colonial"}
+{"name": "Daɣārīzai", "type": "lineage", "morphemes": ["daɣār"], "gloss": "earth", "source": "colonial"}
+{"name": "Hōtmānzai", "type": "lineage", "morphemes": ["hōtmān"], "gloss": "name", "source": "colonial"}
+{"name": "Lashkarīzai", "type": "lineage", "morphemes": ["lashkar"], "gloss": "army", "source": "colonial"}
+{"name": "Mīrzāzai", "type": "lineage", "morphemes": ["mīrzā"], "gloss": "prince", "source": "colonial"}
+{"name": "Pīrōzai", "type": "lineage", "morphemes": ["pīrō"], "gloss": "name", "source": "colonial"}
+{"name": "Rahmatzai", "type": "lineage", "morphemes": ["rahmat"], "gloss": "mercy", "source": "colonial"}
+{"name": "Sōhrābzai", "type": "lineage", "morphemes": ["sōhrāb"], "gloss": "name", "source": "colonial"}
+{"name": "Sālārzai", "type": "lineage", "morphemes": ["sālār"], "gloss": "leader", "source": "colonial"}
+{"name": "Usufārī", "type": "lineage", "morphemes": ["yūsuf"], "gloss": "name", "source": "colonial"}
+{"name": "Mubārakzai", "type": "lineage", "morphemes": ["mubārak"], "gloss": "blessed", "source": "colonial"}
+{"name": "Harbōī", "type": "hill", "morphemes": ["har", "bōī"], "gloss": "every + scent", "source": "colonial"}
+{"name": "Chihiltan", "type": "hill", "morphemes": ["chihil", "tan"], "gloss": "forty + body", "source": "colonial"}
+{"name": "Nagau", "type": "hill", "morphemes": ["nagau"], "gloss": "name", "source": "colonial"}
+{"name": "Bhaur", "type": "hill", "morphemes": ["bhaur"], "gloss": "name", "source": "colonial"}
+{"name": "Zāmurī", "type": "hill", "morphemes": ["zāmur"], "gloss": "fern", "source": "colonial"}
+{"name": "Bōjhāmuk", "type": "hill", "morphemes": ["bōjhāmuk"], "gloss": "name", "source": "colonial"}
+{"name": "Vārō", "type": "hill", "morphemes": ["vārō"], "gloss": "name", "source": "colonial"}
+{"name": "Dōmbak", "type": "hill", "morphemes": ["dōmbak"], "gloss": "name", "source": "colonial"}
+{"name": "Judusk", "type": "hill", "morphemes": ["judusk"], "gloss": "name", "source": "colonial"}
+{"name": "Zāɣ-nā-Kasar", "type": "hill", "morphemes": ["zāɣ", "kasar"], "gloss": "crow + road", "source": "colonial"}
+{"name": "Rōdh-nā-Kasar", "type": "hill", "morphemes": ["rōdh", "kasar"], "gloss": "name + road", "source": "colonial"}
+{"name": "Hurrō", "type": "hill", "morphemes": ["hurrō"], "gloss": "name", "source": "colonial"}
+{"name": "Nalānī", "type": "hill", "morphemes": ["nalān"], "gloss": "reed", "source": "colonial"}
+{"name": "Zarɣūn", "type": "hill", "morphemes": ["zarɣūn"], "gloss": "green", "source": "colonial"}
+{"name": "Murdār", "type": "hill", "morphemes": ["murdār"], "gloss": "carrion", "source": "colonial"}
+{"name": "Takātū", "type": "hill", "morphemes": ["takātū"], "gloss": "name", "source": "colonial"}
+{"name": "Dilband", "type": "hill", "morphemes": ["dil", "band"], "gloss": "heart + bound", "source": "colonial"}
+{"name": "Ispēd", "type": "hill", "morphemes": ["ispēd"], "gloss": "white", "source": "colonial"}
+{"name": "Āirō", "type": "hill", "morphemes": ["āirō"], "gloss": "name", "source": "colonial"}
+{"name": "Pandar Gaṭ", "type": "hill", "morphemes": ["pandar", "gaṭ"], "gloss": "name + crag", "source": "colonial"}
+{"name": "Saxt", "type": "hill", "morphemes": ["saxt"], "gloss": "hard", "source": "colonial"}
+{"name": "Rāshī", "type": "hill", "morphemes": ["rāshī"], "gloss": "name", "source": "colonial"}
+{"name": "Tailing", "type": "hill", "morphemes": ["tailing"], "gloss": "name", "source": "colonial"}
+{"name": "Sharrō", "type": "hill", "morphemes": ["sharrō"], "gloss": "name", "source": "colonial"}
+{"name": "Trakkō", "type": "hill", "morphemes": ["trakkō"], "gloss": "name", "source": "colonial"}
+{"name": "Kullī", "type": "hill", "morphemes": ["kullī"], "gloss": "name", "source": "colonial"}
+{"name": "Marzubān", "type": "hill", "morphemes": ["marz", "bān"], "gloss": "border + keeper", "source": "colonial"}
+{"name": "Nōdgvār", "type": "hill", "morphemes": ["nōd", "gvār"], "gloss": "cloud + rain", "source": "colonial"}
+{"name": "Gundāɣar", "type": "hill", "morphemes": ["gundā", "ɣar"], "gloss": "name + mountain", "source": "colonial"}
+{"name": "Chīchōb", "type": "hill", "morphemes": ["chīchōb"], "gloss": "name", "source": "colonial"}
+{"name": "Bāsh-nā-Kasar", "type": "hill", "morphemes": ["bāsh", "kasar"], "gloss": "name + road", "source": "colonial"}
+{"name": "Kunj-nā-Kasar", "type": "hill", "morphemes": ["kunj", "kasar"], "gloss": "corner + road", "source": "colonial"}
+{"name": "Gishtarī", "type": "hill", "morphemes": ["gishtar"], "gloss": "name", "source": "colonial"}
+{"name": "Harnānda Kushta", "type": "hill", "morphemes": ["harnānd", "kushta"], "gloss": "name + killed", "source": "colonial"}
+{"name": "Zēndānī", "type": "hill", "morphemes": ["zēndān"], "gloss": "prison", "source": "colonial"}
+{"name": "Kakkū", "type": "hill", "morphemes": ["kakkū"], "gloss": "name", "source": "colonial"}
+{"name": "Sirkā-Kōbī", "type": "hill", "morphemes": ["sirkā", "kōbī"], "gloss": "vinegar + name", "source": "colonial"}
+{"name": "Dēhza", "type": "hill", "morphemes": ["dēhza"], "gloss": "name", "source": "colonial"}
+{"name": "Chhāb", "type": "hill", "morphemes": ["chhāb"], "gloss": "name", "source": "colonial"}
+{"name": "Bimbōl", "type": "hill", "morphemes": ["bimbōl"], "gloss": "name", "source": "colonial"}
+{"name": "Gīsh", "type": "hill", "morphemes": ["gīsh"], "gloss": "name", "source": "colonial"}
+{"name": "Kōh-i-Sīāh", "type": "hill", "morphemes": ["kōh", "sīāh"], "gloss": "hill + black", "source": "colonial"}
+{"name": "Garrō", "type": "hill", "morphemes": ["garrō"], "gloss": "hill", "source": "colonial"}
+{"name": "Jātū Khand", "type": "hill", "morphemes": ["jātū", "khand"], "gloss": "witch + pass", "source": "colonial"}
+{"name": "Kōh-i-Mārān", "type": "hill", "morphemes": ["kōh", "mār"], "gloss": "hill + snake", "source": "colonial"}
+{"name": "Pād-i-Mārān", "type": "hill", "morphemes": ["pād", "mār"], "gloss": "foot + snake", "source": "colonial"}
+{"name": "Mēlbī", "type": "hill", "morphemes": ["mēlbī"], "gloss": "name", "source": "colonial"}
+{"name": "Jōɣēnō", "type": "hill", "morphemes": ["jōɣēnō"], "gloss": "name", "source": "colonial"}
+{"name": "Girda", "type": "hill", "morphemes": ["girda"], "gloss": "round", "source": "colonial"}
+{"name": "Panjlakī", "type": "hill", "morphemes": ["panj", "lak"], "gloss": "five + pass", "source": "colonial"}
+{"name": "Zāva", "type": "hill", "morphemes": ["zāva"], "gloss": "name", "source": "colonial"}
+{"name": "Mākī Shām", "type": "hill", "morphemes": ["mākī", "shām"], "gloss": "name + evening", "source": "colonial"}
+{"name": "Bōlxā", "type": "hill", "morphemes": ["bōlxā"], "gloss": "name", "source": "colonial"}
+{"name": "Zībra", "type": "hill", "morphemes": ["zībra"], "gloss": "name", "source": "colonial"}
+{"name": "Lāɣānī", "type": "hill", "morphemes": ["lāɣān"], "gloss": "name", "source": "colonial"}
+{"name": "Sīāh Kōh", "type": "hill", "morphemes": ["sīāh", "kōh"], "gloss": "black + hill", "source": "colonial"}
+{"name": "Zahrī Gaṭ", "type": "hill", "morphemes": ["zahrī", "gaṭ"], "gloss": "name + crag", "source": "colonial"}
+{"name": "Kumbēla", "type": "hill", "morphemes": ["kumbēla"], "gloss": "name", "source": "colonial"}
+{"name": "Amach", "type": "hill", "morphemes": ["amach"], "gloss": "name", "source": "colonial"}
+{"name": "Zindān", "type": "hill", "morphemes": ["zindān"], "gloss": "prison", "source": "colonial"}
+{"name": "Āb-i-Gul", "type": "hill", "morphemes": ["āb", "gul"], "gloss": "water + flower", "source": "colonial"}
+{"name": "Jumī", "type": "hill", "morphemes": ["jumī"], "gloss": "name", "source": "colonial"}
+{"name": "Marɣī", "type": "hill", "morphemes": ["marɣ"], "gloss": "meadow", "source": "colonial"}
+{"name": "Nishpā", "type": "hill", "morphemes": ["nishpā"], "gloss": "name", "source": "colonial"}
+{"name": "Surx Bājō", "type": "hill", "morphemes": ["surx", "bājō"], "gloss": "red + name", "source": "colonial"}
+{"name": "Sunēbōk", "type": "hill", "morphemes": ["sunēbōk"], "gloss": "name", "source": "colonial"}
+{"name": "Chhuṭṭōk", "type": "hill", "morphemes": ["chhuṭṭōk"], "gloss": "name", "source": "colonial"}
+{"name": "Xalīfā", "type": "hill", "morphemes": ["xalīfā"], "gloss": "name", "source": "colonial"}
+{"name": "Māshēlax", "type": "hill", "morphemes": ["māshēlax"], "gloss": "name", "source": "colonial"}
+{"name": "Pīhūnalath", "type": "hill", "morphemes": ["pīhūna", "laṭ"], "gloss": "name + ridge", "source": "colonial"}
+{"name": "Kalān Bārak", "type": "hill", "morphemes": ["kalān", "bārak"], "gloss": "great + name", "source": "colonial"}
+{"name": "Xurd Bārak", "type": "hill", "morphemes": ["xurd", "bārak"], "gloss": "small + name", "source": "colonial"}
+{"name": "Istrāb", "type": "hill", "morphemes": ["istrāb"], "gloss": "name", "source": "colonial"}
+{"name": "Lōhra", "type": "hill", "morphemes": ["lōhra"], "gloss": "name", "source": "colonial"}
+{"name": "Umrarāhī", "type": "hill", "morphemes": ["umar", "rāh"], "gloss": "name + road", "source": "colonial"}
+{"name": "Mōrinkō", "type": "hill", "morphemes": ["mōrinkō"], "gloss": "name", "source": "colonial"}
+{"name": "Shāhō Kushta", "type": "hill", "morphemes": ["shāhō", "kushta"], "gloss": "name + killed", "source": "colonial"}
+{"name": "Ullhī", "type": "hill", "morphemes": ["ullhī"], "gloss": "name", "source": "colonial"}
+{"name": "Alī Dīr", "type": "hill", "morphemes": ["alī", "dīr"], "gloss": "name + water", "source": "colonial"}
+{"name": "Rōdangī", "type": "hill", "morphemes": ["rōdang"], "gloss": "madder", "source": "colonial"}
+{"name": "Pīrānī Shām", "type": "hill", "morphemes": ["pīrān", "shām"], "gloss": "name + evening", "source": "colonial"}
+{"name": "Nīmarɣ-nā-Khand", "type": "hill", "morphemes": ["nīmarɣ", "khand"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Pīhī", "type": "hill", "morphemes": ["pīhī"], "gloss": "name", "source": "colonial"}
+{"name": "Garr", "type": "hill", "morphemes": ["garr"], "gloss": "hill", "source": "colonial"}
+{"name": "Sarlath", "type": "hill", "morphemes": ["sar", "laṭ"], "gloss": "head + ridge", "source": "colonial"}
+{"name": "Mūdēnak", "type": "hill", "morphemes": ["mūdēnak"], "gloss": "name", "source": "colonial"}
+{"name": "Chīnnāv", "type": "hill", "morphemes": ["chīnnāv"], "gloss": "name", "source": "colonial"}
+{"name": "Lāmbōī-nā-Tavak", "type": "hill", "morphemes": ["lāmbōī", "tavak"], "gloss": "name + peak", "source": "colonial"}
+{"name": "Galangūr Kōtal", "type": "hill", "morphemes": ["galangūr", "kōtal"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Pīchnān", "type": "hill", "morphemes": ["pīchnān"], "gloss": "name", "source": "colonial"}
+{"name": "Zānī Khand", "type": "hill", "morphemes": ["zānī", "khand"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Chōlā-nā-Laṭ", "type": "hill", "morphemes": ["chōlā", "laṭ"], "gloss": "name + ridge", "source": "colonial"}
+{"name": "Xurbān", "type": "hill", "morphemes": ["xurbān"], "gloss": "name", "source": "colonial"}
+{"name": "Hīngī", "type": "hill", "morphemes": ["hīng"], "gloss": "asafoetida", "source": "colonial"}
+{"name": "Tump", "type": "hill", "morphemes": ["tump"], "gloss": "mound", "source": "colonial"}
+{"name": "Muɣbalī", "type": "hill", "morphemes": ["muɣbal"], "gloss": "name", "source": "colonial"}
+{"name": "Shūr", "type": "hill", "morphemes": ["shūr"], "gloss": "salt", "source": "colonial"}
+{"name": "Mōrō", "type": "hill", "morphemes": ["mōrō"], "gloss": "name", "source": "colonial"}
+{"name": "Bōlān", "type": "hill", "morphemes": ["bōlān"], "gloss": "name", "source": "colonial"}
+{"name": "Kīrthar", "type": "hill", "morphemes": ["kīrthar"], "gloss": "name", "source": "colonial"}
+{"name": "Pab", "type": "hill", "morphemes": ["pab"], "gloss": "name", "source": "colonial"}
+{"name": "Xudē", "type": "hill", "morphemes": ["xudē"], "gloss": "name", "source": "colonial"}
+{"name": "Mōr", "type": "hill", "morphemes": ["mōr"], "gloss": "peacock", "source": "colonial"}
+{"name": "Hāla", "type": "hill", "morphemes": ["hāla"], "gloss": "name", "source": "colonial"}
+{"name": "Bhēdōr", "type": "hill", "morphemes": ["bhēdōr"], "gloss": "name", "source": "colonial"}
+{"name": "Mōl", "type": "hill", "morphemes": ["mōl"], "gloss": "name", "source": "colonial"}
+{"name": "Mēhī", "type": "hill", "morphemes": ["mēhī"], "gloss": "buffalo", "source": "colonial"}
+{"name": "Sīāhāf", "type": "hill", "morphemes": ["sīāh", "āb"], "gloss": "black + water", "source": "colonial"}
+{"name": "Drāj", "type": "hill", "morphemes": ["drāj"], "gloss": "name", "source": "colonial"}
+{"name": "Rēshak", "type": "hill", "morphemes": ["rēshak"], "gloss": "name", "source": "colonial"}
+{"name": "Dhuk", "type": "hill", "morphemes": ["dhuk"], "gloss": "name", "source": "colonial"}
+{"name": "Lōkra", "type": "hill", "morphemes": ["lōkra"], "gloss": "name", "source": "colonial"}
+{"name": "Gōlik", "type": "hill", "morphemes": ["gōlik"], "gloss": "name", "source": "colonial"}
+{"name": "Chūrkumb", "type": "hill", "morphemes": ["chūr", "kumb"], "gloss": "gorge + pool", "source": "colonial"}
+{"name": "Gurgī", "type": "hill", "morphemes": ["gurg"], "gloss": "wolf", "source": "colonial"}
+{"name": "Chashmān", "type": "hill", "morphemes": ["chashmān"], "gloss": "name", "source": "colonial"}
+{"name": "Dārmōnī", "type": "hill", "morphemes": ["dārmōn"], "gloss": "name", "source": "colonial"}
+{"name": "Pōtaī", "type": "hill", "morphemes": ["pōtaī"], "gloss": "name", "source": "colonial"}
+{"name": "Halvāī", "type": "hill", "morphemes": ["halvā"], "gloss": "sweetmeat", "source": "colonial"}
+{"name": "Hushtir", "type": "hill", "morphemes": ["hushtir"], "gloss": "camel", "source": "colonial"}
+{"name": "Garrī", "type": "hill", "morphemes": ["garrī"], "gloss": "rocky", "source": "colonial"}
+{"name": "Shāshān", "type": "hill", "morphemes": ["shāshān"], "gloss": "name", "source": "colonial"}
+{"name": "Drāxēl", "type": "hill", "morphemes": ["drāxēl"], "gloss": "name", "source": "colonial"}
+{"name": "Daunō", "type": "hill", "morphemes": ["daunō"], "gloss": "name", "source": "colonial"}
+{"name": "Dōbānzil", "type": "hill", "morphemes": ["dō", "bānzil"], "gloss": "two + name", "source": "colonial"}
+{"name": "Punduharr", "type": "hill", "morphemes": ["punduharr"], "gloss": "name", "source": "colonial"}
+{"name": "Tafūī", "type": "hill", "morphemes": ["tafūī"], "gloss": "name", "source": "colonial"}
+{"name": "Vērāvī", "type": "hill", "morphemes": ["vērāvī"], "gloss": "name", "source": "colonial"}
+{"name": "Dirrī", "type": "hill", "morphemes": ["dirrī"], "gloss": "name", "source": "colonial"}
+{"name": "Kuchak-nā-Kubar", "type": "hill", "morphemes": ["kuchak", "kubar"], "gloss": "dog + hillock", "source": "colonial"}
+{"name": "Andrāj", "type": "hill", "morphemes": ["andrāj"], "gloss": "name", "source": "colonial"}
+{"name": "Gājī Lak", "type": "hill", "morphemes": ["gāj", "lak"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Harbāb Lak", "type": "hill", "morphemes": ["harbāb", "lak"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Lak Phūsī", "type": "hill", "morphemes": ["lak", "phūsī"], "gloss": "pass + name", "source": "colonial"}
+{"name": "Rōhēl", "type": "hill", "morphemes": ["rōhēl"], "gloss": "name", "source": "colonial"}
+{"name": "Garrē", "type": "hill", "morphemes": ["garrē"], "gloss": "name", "source": "colonial"}
+{"name": "Pharūs", "type": "hill", "morphemes": ["pharūs"], "gloss": "name", "source": "colonial"}
+{"name": "Manjār", "type": "hill", "morphemes": ["manjār"], "gloss": "name", "source": "colonial"}
+{"name": "Shātruk-nak", "type": "hill", "morphemes": ["shātruk", "nak"], "gloss": "name + ridge", "source": "colonial"}
+{"name": "Chārī Bhuṭ", "type": "hill", "morphemes": ["chārī", "bhuṭ"], "gloss": "spy + hill", "source": "colonial"}
+{"name": "Shōrān-nā-Tank", "type": "hill", "morphemes": ["shōrān", "tank"], "gloss": "name + gorge", "source": "colonial"}
+{"name": "Kahīr Khand", "type": "hill", "morphemes": ["kahīr", "khand"], "gloss": "acacia + pass", "source": "colonial"}
+{"name": "Shāh Khand", "type": "hill", "morphemes": ["shāh", "khand"], "gloss": "king + pass", "source": "colonial"}
+{"name": "Shāhmōz", "type": "hill", "morphemes": ["shāhmōz"], "gloss": "name", "source": "colonial"}
+{"name": "Garāhī", "type": "hill", "morphemes": ["garāhī"], "gloss": "name", "source": "colonial"}
+{"name": "Jārāɣar", "type": "hill", "morphemes": ["jārā", "ɣar"], "gloss": "name + mountain", "source": "colonial"}
+{"name": "Knud", "type": "hill", "morphemes": ["knud"], "gloss": "name", "source": "colonial"}
+{"name": "Kalɣalō", "type": "hill", "morphemes": ["kalɣalō"], "gloss": "name", "source": "colonial"}
+{"name": "Kalɣalī", "type": "hill", "morphemes": ["kalɣalī"], "gloss": "name", "source": "colonial"}
+{"name": "Burīda", "type": "hill", "morphemes": ["burīda"], "gloss": "cut", "source": "colonial"}
+{"name": "Bārīthī", "type": "hill", "morphemes": ["bārīthī"], "gloss": "name", "source": "colonial"}
+{"name": "Dhrūn", "type": "hill", "morphemes": ["dhrūn"], "gloss": "name", "source": "colonial"}
+{"name": "Gāmōī Būrī", "type": "hill", "morphemes": ["gāmōī", "būrī"], "gloss": "name + name", "source": "colonial"}
+{"name": "Shāk", "type": "hill", "morphemes": ["shāk"], "gloss": "name", "source": "colonial"}
+{"name": "Mazan Rāh", "type": "hill", "morphemes": ["mazan", "rāh"], "gloss": "great + road", "source": "colonial"}
+{"name": "Kōṭ Tōnz", "type": "hill", "morphemes": ["kōṭ", "tōnz"], "gloss": "fort + name", "source": "colonial"}
+{"name": "Shambalak", "type": "hill", "morphemes": ["shambalak"], "gloss": "name", "source": "colonial"}
+{"name": "Mīān Garr", "type": "hill", "morphemes": ["mīān", "garr"], "gloss": "middle + hill", "source": "colonial"}
+{"name": "Sēr-i-Laṭ", "type": "hill", "morphemes": ["sēr", "laṭ"], "gloss": "name + ridge", "source": "colonial"}
+{"name": "Pāngō", "type": "hill", "morphemes": ["pāngō"], "gloss": "name", "source": "colonial"}
+{"name": "Gvandān", "type": "hill", "morphemes": ["gvandān"], "gloss": "name", "source": "colonial"}
+{"name": "Gōrāngattī", "type": "hill", "morphemes": ["gōrāngattī"], "gloss": "name", "source": "colonial"}
+{"name": "Hazārmēshī", "type": "hill", "morphemes": ["hazār", "mēsh"], "gloss": "thousand + sheep", "source": "colonial"}
+{"name": "Xākōī", "type": "hill", "morphemes": ["xāk"], "gloss": "earth", "source": "colonial"}
+{"name": "Tēɣ", "type": "hill", "morphemes": ["tēɣ"], "gloss": "sword", "source": "colonial"}
+{"name": "Trēpōrī", "type": "hill", "morphemes": ["trē", "pōr"], "gloss": "three + name", "source": "colonial"}
+{"name": "Zīrī", "type": "hill", "morphemes": ["zīr"], "gloss": "cumin", "source": "colonial"}
+{"name": "Zabad", "type": "hill", "morphemes": ["zabad"], "gloss": "name", "source": "colonial"}
+{"name": "Hōr", "type": "hill", "morphemes": ["hōr"], "gloss": "name", "source": "colonial"}
+{"name": "Kāl Kaur", "type": "hill", "morphemes": ["kāl", "kaur"], "gloss": "name + river", "source": "colonial"}
+{"name": "Rāhat", "type": "hill", "morphemes": ["rāhat"], "gloss": "ease", "source": "colonial"}
+{"name": "Bāvan Lak", "type": "hill", "morphemes": ["bāvan", "lak"], "gloss": "fifty-two + pass", "source": "colonial"}
+{"name": "Bhūr Kōtal", "type": "hill", "morphemes": ["bhūr", "kōtal"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Xāṭā Kand", "type": "hill", "morphemes": ["xāṭā", "kand"], "gloss": "name + pass", "source": "colonial"}
+{"name": "Pērōzī", "type": "hill", "morphemes": ["pērōz"], "gloss": "victorious", "source": "colonial"}
+{"name": "Kazak", "type": "hill", "morphemes": ["kazak"], "gloss": "name", "source": "colonial"}
+{"name": "Pahāz", "type": "hill", "morphemes": ["pahāz"], "gloss": "name", "source": "colonial"}
+{"name": "Sōnānī", "type": "hill", "morphemes": ["sōnā"], "gloss": "gold", "source": "colonial"}
+{"name": "Sīchī", "type": "hill", "morphemes": ["sīchī"], "gloss": "name", "source": "colonial"}
+{"name": "Kakāhīr", "type": "hill", "morphemes": ["kakāhīr"], "gloss": "name", "source": "colonial"}
+{"name": "Mazār Ɣaṭ", "type": "hill", "morphemes": ["mazār", "gaṭ"], "gloss": "tiger + crag", "source": "colonial"}
+{"name": "Falkī", "type": "hill", "morphemes": ["falkī"], "gloss": "name", "source": "colonial"}
+{"name": "Muxī", "type": "hill", "morphemes": ["muxī"], "gloss": "name", "source": "colonial"}
+{"name": "Sardār-nā-Gaṭ", "type": "hill", "morphemes": ["sardār", "gaṭ"], "gloss": "chief + crag", "source": "colonial"}
+{"name": "Bānh", "type": "hill", "morphemes": ["bānh"], "gloss": "name", "source": "colonial"}
+{"name": "Jangīhān", "type": "hill", "morphemes": ["jangīhān"], "gloss": "name", "source": "colonial"}
+{"name": "Xarlakāī", "type": "hill", "morphemes": ["xar", "lak"], "gloss": "donkey + pass", "source": "colonial"}
+{"name": "Urɣuzzī", "type": "hill", "morphemes": ["urɣuzzī"], "gloss": "name", "source": "colonial"}
+{"name": "Rās Kōh", "type": "hill", "morphemes": ["rās", "kōh"], "gloss": "head + hill", "source": "colonial"}
+{"name": "Ispēdār", "type": "hill", "morphemes": ["ispēd", "dār"], "gloss": "white + tree", "source": "colonial"}
+{"name": "Kambrān", "type": "hill", "morphemes": ["kambrān"], "gloss": "name", "source": "colonial"}
+{"name": "Zīrō", "type": "hill", "morphemes": ["zīrō"], "gloss": "name", "source": "colonial"}
+{"name": "Mōrtī-ai-Sar", "type": "hill", "morphemes": ["mōrtī", "sar"], "gloss": "myrtle + head", "source": "colonial"}
+{"name": "Shāhīn", "type": "hill", "morphemes": ["shāhīn"], "gloss": "falcon", "source": "colonial"}
+{"name": "Gaukōk", "type": "hill", "morphemes": ["gaukōk"], "gloss": "name", "source": "colonial"}
+{"name": "Lār Kōh", "type": "hill", "morphemes": ["lār", "kōh"], "gloss": "name + hill", "source": "colonial"}
+{"name": "Chāgai", "type": "hill", "morphemes": ["chāgai"], "gloss": "name", "source": "colonial"}
+{"name": "Kōh-i-Sultān", "type": "hill", "morphemes": ["kōh", "sultān"], "gloss": "hill + sultan", "source": "colonial"}
+{"name": "Damōdīn", "type": "hill", "morphemes": ["damōdīn"], "gloss": "name", "source": "colonial"}
+{"name": "Shandī Kōh", "type": "hill", "morphemes": ["shandī", "kōh"], "gloss": "name + hill", "source": "colonial"}
+{"name": "Vāshāp", "type": "hill", "morphemes": ["vāsh", "āb"], "gloss": "sweet + water", "source": "colonial"}
+{"name": "Kōh-i-Malik Sīāh", "type": "hill", "morphemes": ["kōh", "malik", "sīāh"], "gloss": "hill + master + black", "source": "colonial"}
+{"name": "Chārī Ting", "type": "hill", "morphemes": ["chārī", "ting"], "gloss": "spy + peak", "source": "colonial"}
+{"name": "Sārū", "type": "hill", "morphemes": ["sārū"], "gloss": "name", "source": "colonial"}
+{"name": "Kuṭī", "type": "hill", "morphemes": ["kuṭī"], "gloss": "name", "source": "colonial"}
+{"name": "Pīshī", "type": "hill", "morphemes": ["pīsh"], "gloss": "dwarf palm", "source": "colonial"}
+{"name": "Jōvārkīn", "type": "hill", "morphemes": ["jōvārkīn"], "gloss": "name", "source": "colonial"}
+{"name": "Kōh-i-Shēx Husain", "type": "hill", "morphemes": ["kōh", "shēx", "husain"], "gloss": "hill + elder + name", "source": "colonial"}
+{"name": "Shīrīnāb", "type": "river", "morphemes": ["shīrīn", "āb"], "gloss": "sweet + water", "source": "colonial"}
+{"name": "Sarāvān Rōd", "type": "river", "morphemes": ["sar", "āvān", "rōd"], "gloss": "head + side + river", "source": "colonial"}
+{"name": "Kalāt-nā-Jhal", "type": "river", "morphemes": ["kalāt", "jhal"], "gloss": "fort + torrent", "source": "colonial"}
+{"name": "Kachhī-nā-Jhal", "type": "river", "morphemes": ["kachhī", "jhal"], "gloss": "lowland + torrent", "source": "colonial"}
+{"name": "Chaukī-nā-Jhal", "type": "river", "morphemes": ["chaukī", "jhal"], "gloss": "post + torrent", "source": "colonial"}
+{"name": "Nagau-nā-Jhal", "type": "river", "morphemes": ["nagau", "jhal"], "gloss": "name + torrent", "source": "colonial"}
+{"name": "Rōbdār-nā-Jhal", "type": "river", "morphemes": ["rōbdār", "jhal"], "gloss": "name + torrent", "source": "colonial"}
+{"name": "Huar-nā-Jhal", "type": "river", "morphemes": ["huar", "jhal"], "gloss": "name + torrent", "source": "colonial"}
+{"name": "Dārāb-nā-Jhal", "type": "river", "morphemes": ["dārāb", "jhal"], "gloss": "name + torrent", "source": "colonial"}
+{"name": "Mīr Hasan-nā-Jhal", "type": "river", "morphemes": ["mīr", "hasan", "jhal"], "gloss": "lord + name + torrent", "source": "colonial"}
+{"name": "Bēl", "type": "river", "morphemes": ["bēl"], "gloss": "valley", "source": "colonial"}
+{"name": "Mōrgand", "type": "river", "morphemes": ["mōrgand"], "gloss": "name", "source": "colonial"}
+{"name": "Dardān", "type": "river", "morphemes": ["dardān"], "gloss": "name", "source": "colonial"}
+{"name": "Sinjdī", "type": "river", "morphemes": ["sinjid"], "gloss": "oleaster", "source": "colonial"}
+{"name": "Kāikī", "type": "river", "morphemes": ["kāikī"], "gloss": "name", "source": "colonial"}
+{"name": "Shīshār", "type": "river", "morphemes": ["shīshār"], "gloss": "name", "source": "colonial"}
+{"name": "Pashak", "type": "river", "morphemes": ["pashak"], "gloss": "name", "source": "colonial"}
+{"name": "Sōpak", "type": "river", "morphemes": ["sōpak"], "gloss": "name", "source": "colonial"}
+{"name": "Parrī", "type": "river", "morphemes": ["parrī"], "gloss": "name", "source": "colonial"}
+{"name": "Chiringī", "type": "river", "morphemes": ["chiringī"], "gloss": "name", "source": "colonial"}
+{"name": "Tārai", "type": "river", "morphemes": ["tārai"], "gloss": "name", "source": "colonial"}
+{"name": "Sarband", "type": "river", "morphemes": ["sar", "band"], "gloss": "head + dam", "source": "colonial"}
+{"name": "Mōbī", "type": "river", "morphemes": ["mōbī"], "gloss": "name", "source": "colonial"}
+{"name": "Shōrarūd", "type": "river", "morphemes": ["shōr", "rōd"], "gloss": "salt + river", "source": "colonial"}
+{"name": "Pīshīn Lōra", "type": "river", "morphemes": ["pīshīn", "lōra"], "gloss": "name + stream", "source": "colonial"}
+{"name": "Suklējī", "type": "river", "morphemes": ["suklējī"], "gloss": "name", "source": "colonial"}
+{"name": "Mūmī", "type": "river", "morphemes": ["mūmī"], "gloss": "name", "source": "colonial"}
+{"name": "Gahōr", "type": "river", "morphemes": ["gahōr"], "gloss": "name", "source": "colonial"}
+{"name": "Narōdar", "type": "river", "morphemes": ["narōdar"], "gloss": "name", "source": "colonial"}
+{"name": "Mahnāz", "type": "river", "morphemes": ["mahnāz"], "gloss": "name", "source": "colonial"}
+{"name": "Lailɣuṭ", "type": "river", "morphemes": ["lailɣuṭ"], "gloss": "name", "source": "colonial"}
+{"name": "Bāɣrī", "type": "river", "morphemes": ["bāɣrī"], "gloss": "name", "source": "colonial"}
+{"name": "Dalgach", "type": "river", "morphemes": ["dalgach"], "gloss": "name", "source": "colonial"}
+{"name": "Garmāp", "type": "river", "morphemes": ["garm", "āb"], "gloss": "warm + water", "source": "colonial"}
+{"name": "Harī Sar", "type": "river", "morphemes": ["harī", "sar"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Tirmurī Kumb", "type": "river", "morphemes": ["tirmurī", "kumb"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Dōlī Kumb", "type": "river", "morphemes": ["dōlī", "kumb"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Girdō Kumb", "type": "river", "morphemes": ["girdō", "kumb"], "gloss": "round + pool", "source": "colonial"}
+{"name": "Lōndō Kumb", "type": "river", "morphemes": ["lōndō", "kumb"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Gadā-tā-Kumb", "type": "river", "morphemes": ["gadā", "kumb"], "gloss": "beggar + pool", "source": "colonial"}
+{"name": "Bhalla Chashma", "type": "river", "morphemes": ["bhalla", "chashma"], "gloss": "great + spring", "source": "colonial"}
+{"name": "Nōk Jō", "type": "river", "morphemes": ["nōk", "jō"], "gloss": "new + channel", "source": "colonial"}
+{"name": "Mutkunā Jō", "type": "river", "morphemes": ["mutkun", "jō"], "gloss": "old + channel", "source": "colonial"}
+{"name": "Nash", "type": "river", "morphemes": ["nash"], "gloss": "name", "source": "colonial"}
+{"name": "Gōr-i-Brāt", "type": "river", "morphemes": ["gōr", "brāt"], "gloss": "grave + brother", "source": "colonial"}
+{"name": "Bōlān Kaur", "type": "river", "morphemes": ["bōlān", "kaur"], "gloss": "name + river", "source": "colonial"}
+{"name": "Nārī", "type": "river", "morphemes": ["nārī"], "gloss": "name", "source": "colonial"}
+{"name": "Mushkāf", "type": "river", "morphemes": ["mushkāf"], "gloss": "name", "source": "colonial"}
+{"name": "Mātāvnī", "type": "river", "morphemes": ["mātāvnī"], "gloss": "name", "source": "colonial"}
+{"name": "Dōzān", "type": "river", "morphemes": ["dōzān"], "gloss": "name", "source": "colonial"}
+{"name": "Dhīrōk", "type": "river", "morphemes": ["dhīrōk"], "gloss": "name", "source": "colonial"}
+{"name": "Sūlak", "type": "river", "morphemes": ["sūlak"], "gloss": "name", "source": "colonial"}
+{"name": "Anārī", "type": "river", "morphemes": ["anār"], "gloss": "pomegranate", "source": "colonial"}
+{"name": "Xōbēṭ", "type": "river", "morphemes": ["xōbēṭ"], "gloss": "name", "source": "colonial"}
+{"name": "Sinknī", "type": "river", "morphemes": ["sinknī"], "gloss": "name", "source": "colonial"}
+{"name": "Muhammad Guzzī", "type": "river", "morphemes": ["muhammad", "guzzī"], "gloss": "name + name", "source": "colonial"}
+{"name": "Gēṭānī", "type": "river", "morphemes": ["gēṭān"], "gloss": "name", "source": "colonial"}
+{"name": "Tōnītōk", "type": "river", "morphemes": ["tōnītōk"], "gloss": "name", "source": "colonial"}
+{"name": "Garāī", "type": "river", "morphemes": ["garāī"], "gloss": "name", "source": "colonial"}
+{"name": "Rēxāmī", "type": "river", "morphemes": ["rēxāmī"], "gloss": "name", "source": "colonial"}
+{"name": "Sūr Ḍumb", "type": "river", "morphemes": ["sūr", "ḍumb"], "gloss": "red + pool", "source": "colonial"}
+{"name": "Kauntrānī Ḍumb", "type": "river", "morphemes": ["kauntrān", "ḍumb"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Kundalānī Ḍumb", "type": "river", "morphemes": ["kundalān", "ḍumb"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Tōsha-nā-Ḍumb", "type": "river", "morphemes": ["tōsha", "ḍumb"], "gloss": "provision + pool", "source": "colonial"}
+{"name": "Drabbī Ḍumb", "type": "river", "morphemes": ["drabbī", "ḍumb"], "gloss": "name + pool", "source": "colonial"}
+{"name": "Āb-i-Gum", "type": "river", "morphemes": ["āb", "gum"], "gloss": "water + lost", "source": "colonial"}
+{"name": "Sar-i-Bōlān", "type": "river", "morphemes": ["sar", "bōlān"], "gloss": "head + name", "source": "colonial"}
+{"name": "Gādī", "type": "river", "morphemes": ["gādī"], "gloss": "name", "source": "colonial"}
+{"name": "Mīān Ḍhōr", "type": "river", "morphemes": ["mīān", "ḍhōr"], "gloss": "middle + channel", "source": "colonial"}
+{"name": "Bādra", "type": "river", "morphemes": ["bādra"], "gloss": "name", "source": "colonial"}
+{"name": "Mūla", "type": "river", "morphemes": ["mūla"], "gloss": "name", "source": "colonial"}
+{"name": "Sōinda", "type": "river", "morphemes": ["sōinda"], "gloss": "name", "source": "colonial"}
+{"name": "Mishkbēl", "type": "river", "morphemes": ["mishk", "bēl"], "gloss": "name + valley", "source": "colonial"}
+{"name": "Malɣāvē", "type": "river", "morphemes": ["malɣāvē"], "gloss": "name", "source": "colonial"}
+{"name": "Anjīra Rōd", "type": "river", "morphemes": ["anjīra", "rōd"], "gloss": "fig + river", "source": "colonial"}
+{"name": "Pissībēl", "type": "river", "morphemes": ["pissī", "bēl"], "gloss": "jujube + valley", "source": "colonial"}
+{"name": "Shāhrāva", "type": "river", "morphemes": ["shāh", "rāh"], "gloss": "king + road", "source": "colonial"}
+{"name": "Nār", "type": "river", "morphemes": ["nār"], "gloss": "name", "source": "colonial"}
+{"name": "Bāzī", "type": "river", "morphemes": ["bāzī"], "gloss": "name", "source": "colonial"}
+{"name": "Shatark", "type": "river", "morphemes": ["shatark"], "gloss": "name", "source": "colonial"}
+{"name": "Lēdāv", "type": "river", "morphemes": ["lēdāv"], "gloss": "name", "source": "colonial"}
+{"name": "Kuchkānī", "type": "river", "morphemes": ["kuchkān"], "gloss": "name", "source": "colonial"}
+{"name": "Vēl", "type": "river", "morphemes": ["vēl"], "gloss": "name", "source": "colonial"}
+{"name": "Durgand", "type": "river", "morphemes": ["durgand"], "gloss": "name", "source": "colonial"}
+{"name": "Drūgī", "type": "river", "morphemes": ["drūgī"], "gloss": "name", "source": "colonial"}
+{"name": "Kīl", "type": "river", "morphemes": ["kīl"], "gloss": "name", "source": "colonial"}
+{"name": "Mardān Rōd", "type": "river", "morphemes": ["mard", "rōd"], "gloss": "man + river", "source": "colonial"}
+{"name": "Kōlāchī", "type": "river", "morphemes": ["kōlāchī"], "gloss": "name", "source": "colonial"}
+{"name": "Gāj", "type": "river", "morphemes": ["gāj"], "gloss": "name", "source": "colonial"}
+{"name": "Trēmbū", "type": "river", "morphemes": ["trēmbū"], "gloss": "name", "source": "colonial"}
+{"name": "Lōhō", "type": "river", "morphemes": ["lōhō"], "gloss": "name", "source": "colonial"}
+{"name": "Simān", "type": "river", "morphemes": ["simān"], "gloss": "name", "source": "colonial"}
+{"name": "Sāsōl Rōd", "type": "river", "morphemes": ["sāsōl", "rōd"], "gloss": "name + river", "source": "colonial"}
+{"name": "Hab", "type": "river", "morphemes": ["hab"], "gloss": "name", "source": "colonial"}
+{"name": "Sārūna Rōd", "type": "river", "morphemes": ["sārūna", "rōd"], "gloss": "name + river", "source": "colonial"}
+{"name": "Lār", "type": "river", "morphemes": ["lār"], "gloss": "name", "source": "colonial"}
+{"name": "Mōīrī", "type": "river", "morphemes": ["mōīrī"], "gloss": "name", "source": "colonial"}
+{"name": "Kinrī", "type": "river", "morphemes": ["kinrī"], "gloss": "name", "source": "colonial"}
+{"name": "Samōtrī", "type": "river", "morphemes": ["samōtrī"], "gloss": "name", "source": "colonial"}
+{"name": "Gārō", "type": "river", "morphemes": ["gārō"], "gloss": "name", "source": "colonial"}
+{"name": "Vīra Hab", "type": "river", "morphemes": ["vīra", "hab"], "gloss": "name + name", "source": "colonial"}
+{"name": "Pōrālī", "type": "river", "morphemes": ["pōrālī"], "gloss": "name", "source": "colonial"}
+{"name": "Kud", "type": "river", "morphemes": ["kud"], "gloss": "name", "source": "colonial"}
+{"name": "Gidar Ḍhōr", "type": "river", "morphemes": ["gidar", "ḍhōr"], "gloss": "jackal + channel", "source": "colonial"}
+{"name": "Hingōl", "type": "river", "morphemes": ["hingōl"], "gloss": "name", "source": "colonial"}
+{"name": "Māshkai", "type": "river", "morphemes": ["māshkai"], "gloss": "name", "source": "colonial"}
+{"name": "Pahrōd", "type": "river", "morphemes": ["pah", "rōd"], "gloss": "name + river", "source": "colonial"}
+{"name": "Dhōrrī", "type": "river", "morphemes": ["ḍhōr"], "gloss": "channel", "source": "colonial"}
+{"name": "Sāīn", "type": "river", "morphemes": ["sāīn"], "gloss": "name", "source": "colonial"}
+{"name": "Dhrūn Kaur", "type": "river", "morphemes": ["dhrūn", "kaur"], "gloss": "name + river", "source": "colonial"}
+{"name": "Arra", "type": "river", "morphemes": ["arra"], "gloss": "name", "source": "colonial"}
+{"name": "Nāl Kaur", "type": "river", "morphemes": ["nāl", "kaur"], "gloss": "name + river", "source": "colonial"}
+{"name": "Gāzī", "type": "river", "morphemes": ["gāzī"], "gloss": "name", "source": "colonial"}
+{"name": "Sambān", "type": "river", "morphemes": ["sambān"], "gloss": "name", "source": "colonial"}
+{"name": "Kābūṭ", "type": "river", "morphemes": ["kābūṭ"], "gloss": "name", "source": "colonial"}
+{"name": "Tībī", "type": "river", "morphemes": ["tībī"], "gloss": "name", "source": "colonial"}
+{"name": "Sīāh Kumb", "type": "river", "morphemes": ["sīāh", "kumb"], "gloss": "black + pool", "source": "colonial"}
+{"name": "Xōr", "type": "river", "morphemes": ["xōr"], "gloss": "creek", "source": "colonial"}
+{"name": "Xaisār", "type": "river", "morphemes": ["xaisār"], "gloss": "name", "source": "colonial"}
+{"name": "Jō-i-Nushkī", "type": "river", "morphemes": ["jō", "nushkī"], "gloss": "channel + name", "source": "colonial"}
+{"name": "Hāmūn-i-Māshxēl", "type": "river", "morphemes": ["hāmūn", "māshxēl"], "gloss": "lake + name", "source": "colonial"}
+{"name": "Hāmūn-i-Lōra", "type": "river", "morphemes": ["hāmūn", "lōra"], "gloss": "lake + stream", "source": "colonial"}
+{"name": "Zangī Nāvar", "type": "river", "morphemes": ["zangī", "nāvar"], "gloss": "black + lake", "source": "colonial"}
+{"name": "Kalāt", "type": "place", "morphemes": ["kalāt"], "gloss": "fort", "source": "colonial"}
+{"name": "Shālkōṭ", "type": "place", "morphemes": ["shāl", "kōṭ"], "gloss": "name + fort", "source": "colonial"}
+{"name": "Shāl", "type": "place", "morphemes": ["shāl"], "gloss": "name", "source": "colonial"}
+{"name": "Mastung", "type": "place", "morphemes": ["mastung"], "gloss": "name", "source": "colonial"}
+{"name": "Nushkī", "type": "place", "morphemes": ["nushkī"], "gloss": "name", "source": "colonial"}
+{"name": "Xuzdār", "type": "place", "morphemes": ["xuzdār"], "gloss": "name", "source": "colonial"}
+{"name": "Kachhī", "type": "place", "morphemes": ["kachhī"], "gloss": "lowland", "source": "colonial"}
+{"name": "Xārān", "type": "place", "morphemes": ["xārān"], "gloss": "name", "source": "colonial"}
+{"name": "Makrān", "type": "place", "morphemes": ["makrān"], "gloss": "name", "source": "colonial"}
+{"name": "Las Bēla", "type": "place", "morphemes": ["las", "bēla"], "gloss": "plain + name", "source": "colonial"}
+{"name": "Kaikānān", "type": "place", "morphemes": ["kaikānān"], "gloss": "name", "source": "colonial"}
+{"name": "Kalāt-i-Nīchāra", "type": "place", "morphemes": ["kalāt", "nīchāra"], "gloss": "fort + name", "source": "colonial"}
+{"name": "Mungachar", "type": "place", "morphemes": ["mungachar"], "gloss": "name", "source": "colonial"}
+{"name": "Brinchinnau", "type": "place", "morphemes": ["brinchinnau"], "gloss": "name", "source": "colonial"}
+{"name": "Mandēhājī", "type": "place", "morphemes": ["mandēhājī"], "gloss": "name", "source": "colonial"}
+{"name": "Iskalkū", "type": "place", "morphemes": ["iskalkū"], "gloss": "name", "source": "colonial"}
+{"name": "Isplinjī", "type": "place", "morphemes": ["isplinjī"], "gloss": "name", "source": "colonial"}
+{"name": "Jōhān", "type": "place", "morphemes": ["jōhān"], "gloss": "name", "source": "colonial"}
+{"name": "Kahnak", "type": "place", "morphemes": ["kahnak"], "gloss": "name", "source": "colonial"}
+{"name": "Kahnak Xālī", "type": "place", "morphemes": ["kahnak", "xālī"], "gloss": "name + empty", "source": "colonial"}
+{"name": "Marav", "type": "place", "morphemes": ["marav"], "gloss": "name", "source": "colonial"}
+{"name": "Narmuk", "type": "place", "morphemes": ["narmuk"], "gloss": "name", "source": "colonial"}
+{"name": "Zard", "type": "place", "morphemes": ["zard"], "gloss": "yellow", "source": "colonial"}
+{"name": "Chhappar", "type": "place", "morphemes": ["chhappar"], "gloss": "name", "source": "colonial"}
+{"name": "Pringābād", "type": "place", "morphemes": ["pring", "ābād"], "gloss": "name + settlement", "source": "colonial"}
+{"name": "Tīrī", "type": "place", "morphemes": ["tīrī"], "gloss": "name", "source": "colonial"}
+{"name": "Dulāī", "type": "place", "morphemes": ["dulāī"], "gloss": "name", "source": "colonial"}
+{"name": "Khad", "type": "place", "morphemes": ["khad"], "gloss": "hollow", "source": "colonial"}
+{"name": "Kardgāp", "type": "place", "morphemes": ["kardgāp"], "gloss": "name", "source": "colonial"}
+{"name": "Gurgīna", "type": "place", "morphemes": ["gurgīna"], "gloss": "name", "source": "colonial"}
+{"name": "Nīmarɣ", "type": "place", "morphemes": ["nīm", "marɣ"], "gloss": "half + meadow", "source": "colonial"}
+{"name": "Kārchhāp", "type": "place", "morphemes": ["kārchhāp"], "gloss": "name", "source": "colonial"}
+{"name": "Garrārī", "type": "place", "morphemes": ["garrārī"], "gloss": "name", "source": "colonial"}
+{"name": "Lēs", "type": "place", "morphemes": ["lēs"], "gloss": "name", "source": "colonial"}
+{"name": "Chaukī", "type": "place", "morphemes": ["chaukī"], "gloss": "post", "source": "colonial"}
+{"name": "Astangī", "type": "place", "morphemes": ["astangī"], "gloss": "name", "source": "colonial"}
+{"name": "Xajūrī", "type": "place", "morphemes": ["xajūr"], "gloss": "date palm", "source": "colonial"}
+{"name": "Shēxrī", "type": "place", "morphemes": ["shēxrī"], "gloss": "name", "source": "colonial"}
+{"name": "Kishān", "type": "place", "morphemes": ["kishān"], "gloss": "name", "source": "colonial"}
+{"name": "Rōbdār", "type": "place", "morphemes": ["rōbdār"], "gloss": "name", "source": "colonial"}
+{"name": "Jām Barārī", "type": "place", "morphemes": ["jām", "barārī"], "gloss": "ruler + name", "source": "colonial"}
+{"name": "Barārī", "type": "place", "morphemes": ["barārī"], "gloss": "name", "source": "colonial"}
+{"name": "Drang", "type": "place", "morphemes": ["drang"], "gloss": "cliff", "source": "colonial"}
+{"name": "Lōp", "type": "place", "morphemes": ["lōp"], "gloss": "name", "source": "colonial"}
+{"name": "Kīak", "type": "place", "morphemes": ["kīak"], "gloss": "name", "source": "colonial"}
+{"name": "Sarātū", "type": "place", "morphemes": ["sarātū"], "gloss": "name", "source": "colonial"}
+{"name": "Tāhlgan", "type": "place", "morphemes": ["tāhlgan"], "gloss": "name", "source": "colonial"}
+{"name": "Pusalak", "type": "place", "morphemes": ["pusalak"], "gloss": "name", "source": "colonial"}
+{"name": "Dashtārī", "type": "place", "morphemes": ["dasht"], "gloss": "plain", "source": "colonial"}
+{"name": "Alī Dasht", "type": "place", "morphemes": ["alī", "dasht"], "gloss": "name + plain", "source": "colonial"}
+{"name": "Bhalla Dasht", "type": "place", "morphemes": ["bhalla", "dasht"], "gloss": "great + plain", "source": "colonial"}
+{"name": "Dasht-i-Bēdaulat", "type": "place", "morphemes": ["dasht", "bē", "daulat"], "gloss": "plain + without + wealth", "source": "colonial"}
+{"name": "Kaltāch", "type": "place", "morphemes": ["kaltāch"], "gloss": "name", "source": "colonial"}
+{"name": "Darāj", "type": "place", "morphemes": ["darāj"], "gloss": "name", "source": "colonial"}
+{"name": "Tirkāsī", "type": "place", "morphemes": ["tirkāsī"], "gloss": "name", "source": "colonial"}
+{"name": "Garrāp", "type": "place", "morphemes": ["garr", "āb"], "gloss": "hill + water", "source": "colonial"}
+{"name": "Gōdī", "type": "place", "morphemes": ["gōdī"], "gloss": "name", "source": "colonial"}
+{"name": "Izbōtkī", "type": "place", "morphemes": ["izbōtkī"], "gloss": "name", "source": "colonial"}
+{"name": "Hampādāɣ", "type": "place", "morphemes": ["hampādāɣ"], "gloss": "name", "source": "colonial"}
+{"name": "Kanēṭī", "type": "place", "morphemes": ["kanēṭī"], "gloss": "name", "source": "colonial"}
+{"name": "Xūnī", "type": "place", "morphemes": ["xūn"], "gloss": "blood", "source": "colonial"}
+{"name": "Chhaṭī", "type": "place", "morphemes": ["chhaṭī"], "gloss": "name", "source": "colonial"}
+{"name": "Purdū", "type": "place", "morphemes": ["purdū"], "gloss": "name", "source": "colonial"}
+{"name": "Malxī", "type": "place", "morphemes": ["malxī"], "gloss": "name", "source": "colonial"}
+{"name": "Kaftārī", "type": "place", "morphemes": ["kaftār"], "gloss": "hyena", "source": "colonial"}
+{"name": "Galangūr", "type": "place", "morphemes": ["galangūr"], "gloss": "name", "source": "colonial"}
+{"name": "Kishingī", "type": "place", "morphemes": ["kishingī"], "gloss": "name", "source": "colonial"}
+{"name": "Munjrō", "type": "place", "morphemes": ["munjrō"], "gloss": "name", "source": "colonial"}
+{"name": "Sōmālō Hīnār", "type": "place", "morphemes": ["sōmālō", "hīnār"], "gloss": "name + name", "source": "colonial"}
+{"name": "Bējay", "type": "place", "morphemes": ["bējay"], "gloss": "name", "source": "colonial"}
+{"name": "Kargaz", "type": "place", "morphemes": ["kargaz"], "gloss": "vulture", "source": "colonial"}
+{"name": "Ahmad Band", "type": "place", "morphemes": ["ahmad", "band"], "gloss": "name + dam", "source": "colonial"}
+{"name": "Kārēz-i-Kalān", "type": "place", "morphemes": ["kārēz", "kalān"], "gloss": "channel + great", "source": "colonial"}
+{"name": "Kārēz Kandakī", "type": "place", "morphemes": ["kārēz", "kandak"], "gloss": "channel + name", "source": "colonial"}
+{"name": "Kārēz Darvāza", "type": "place", "morphemes": ["kārēz", "darvāza"], "gloss": "channel + gate", "source": "colonial"}
+{"name": "Kandāva", "type": "place", "morphemes": ["kandāva"], "gloss": "name", "source": "colonial"}
+{"name": "Pudgilī", "type": "place", "morphemes": ["pudgilī"], "gloss": "name", "source": "colonial"}
+{"name": "Rākgvāsh", "type": "place", "morphemes": ["rākgvāsh"], "gloss": "name", "source": "colonial"}
+{"name": "Taxt", "type": "place", "morphemes": ["taxt"], "gloss": "throne", "source": "colonial"}
+{"name": "Taxt-i-Sulaimān", "type": "place", "morphemes": ["taxt", "sulaimān"], "gloss": "throne + name", "source": "colonial"}
+{"name": "Kābō", "type": "place", "morphemes": ["kābō"], "gloss": "name", "source": "colonial"}
+{"name": "Talxkāvī", "type": "place", "morphemes": ["talx", "kāvī"], "gloss": "bitter + name", "source": "colonial"}
+{"name": "Zardān", "type": "place", "morphemes": ["zardān"], "gloss": "name", "source": "colonial"}
+{"name": "Gishk", "type": "place", "morphemes": ["gishk"], "gloss": "name", "source": "colonial"}
+{"name": "Tilēra", "type": "place", "morphemes": ["tilēra"], "gloss": "name", "source": "colonial"}
+{"name": "Karbūxā", "type": "place", "morphemes": ["karbūxā"], "gloss": "name", "source": "colonial"}
+{"name": "Sardār-nā-Shahr", "type": "place", "morphemes": ["sardār", "shahr"], "gloss": "chief + town", "source": "colonial"}
+{"name": "Vadēra-nā-Shahr", "type": "place", "morphemes": ["vadēra", "shahr"], "gloss": "clan leader + town", "source": "colonial"}
+{"name": "Lōrī-tā-Shahr", "type": "place", "morphemes": ["lōrī", "shahr"], "gloss": "minstrel + town", "source": "colonial"}
+{"name": "Lundī Shahr", "type": "place", "morphemes": ["lundī", "shahr"], "gloss": "short + town", "source": "colonial"}
+{"name": "Rahmalīzai Shahr", "type": "place", "morphemes": ["rahm", "alī", "shahr"], "gloss": "mercy + name + town", "source": "colonial"}
+{"name": "Karamalīzai Shahr", "type": "place", "morphemes": ["karam", "alī", "shahr"], "gloss": "generosity + name + town", "source": "colonial"}
+{"name": "Shāhalīzai Shahr", "type": "place", "morphemes": ["shāh", "alī", "shahr"], "gloss": "king + name + town", "source": "colonial"}
+{"name": "Xamnāō", "type": "place", "morphemes": ["xamnāō"], "gloss": "name", "source": "colonial"}
+{"name": "Hasanjōī", "type": "place", "morphemes": ["hasan", "jō"], "gloss": "name + channel", "source": "colonial"}
+{"name": "Dhingar", "type": "place", "morphemes": ["dhingar"], "gloss": "name", "source": "colonial"}
+{"name": "Chhōrī", "type": "place", "morphemes": ["chhōrī"], "gloss": "name", "source": "colonial"}
+{"name": "Kūla Kalāt", "type": "place", "morphemes": ["kūla", "kalāt"], "gloss": "name + fort", "source": "colonial"}
+{"name": "Shāh Mardān Ziārat", "type": "place", "morphemes": ["shāh", "mard", "ziārat"], "gloss": "king + man + shrine", "source": "colonial"}
+{"name": "Dildār Darvāza", "type": "place", "morphemes": ["dil", "dār", "darvāza"], "gloss": "heart + holder + gate", "source": "colonial"}
+{"name": "Mastung Darvāza", "type": "place", "morphemes": ["mastung", "darvāza"], "gloss": "name + gate", "source": "colonial"}
+{"name": "Gilkand", "type": "place", "morphemes": ["gil", "kand"], "gloss": "clay + pass", "source": "colonial"}
+{"name": "Spēzand", "type": "place", "morphemes": ["spēzand"], "gloss": "name", "source": "colonial"}
+{"name": "Bābī", "type": "place", "morphemes": ["bābī"], "gloss": "name", "source": "colonial"}
+{"name": "Sar-i-Āb", "type": "place", "morphemes": ["sar", "āb"], "gloss": "head + water", "source": "colonial"}
+{"name": "Hībinānī", "type": "place", "morphemes": ["hībinān"], "gloss": "name", "source": "colonial"}
+{"name": "Bundī", "type": "place", "morphemes": ["bundī"], "gloss": "name", "source": "colonial"}
+{"name": "Bāɣbāna", "type": "place", "morphemes": ["bāɣ", "bān"], "gloss": "garden + keeper", "source": "colonial"}
+{"name": "Vadh", "type": "place", "morphemes": ["vadh"], "gloss": "name", "source": "colonial"}
+{"name": "Nāl", "type": "place", "morphemes": ["nāl"], "gloss": "name", "source": "colonial"}
+{"name": "Sūrāb", "type": "place", "morphemes": ["sūr", "āb"], "gloss": "red + water", "source": "colonial"}
+{"name": "Gidar", "type": "place", "morphemes": ["gidar"], "gloss": "jackal", "source": "colonial"}
+{"name": "Nīchāra", "type": "place", "morphemes": ["nīchāra"], "gloss": "name", "source": "colonial"}
+{"name": "Pandarān", "type": "place", "morphemes": ["pandarān"], "gloss": "name", "source": "colonial"}
+{"name": "Kapōṭō", "type": "place", "morphemes": ["kapōṭō"], "gloss": "name", "source": "colonial"}
+{"name": "Rōdēnjō", "type": "place", "morphemes": ["rōdēnjō"], "gloss": "name", "source": "colonial"}
+{"name": "Māmatāva", "type": "place", "morphemes": ["māmatāva"], "gloss": "name", "source": "colonial"}
+{"name": "Anjīra", "type": "place", "morphemes": ["anjīra"], "gloss": "fig", "source": "colonial"}
+{"name": "Māshkaē", "type": "place", "morphemes": ["māshkaē"], "gloss": "name", "source": "colonial"}
+{"name": "Gvarjak", "type": "place", "morphemes": ["gvarjak"], "gloss": "name", "source": "colonial"}
+{"name": "Jau", "type": "place", "morphemes": ["jau"], "gloss": "barley", "source": "colonial"}
+{"name": "Ōrnāch", "type": "place", "morphemes": ["ōrnāch"], "gloss": "name", "source": "colonial"}
+{"name": "Sārūna", "type": "place", "morphemes": ["sārūna"], "gloss": "name", "source": "colonial"}
+{"name": "Zīdī", "type": "place", "morphemes": ["zīdī"], "gloss": "name", "source": "colonial"}
+{"name": "Karx", "type": "place", "morphemes": ["karx"], "gloss": "name", "source": "colonial"}
+{"name": "Karū", "type": "place", "morphemes": ["karū"], "gloss": "name", "source": "colonial"}
+{"name": "Chākū", "type": "place", "morphemes": ["chākū"], "gloss": "name", "source": "colonial"}
+{"name": "Jēbrī", "type": "place", "morphemes": ["jēbrī"], "gloss": "name", "source": "colonial"}
+{"name": "Grēsha", "type": "place", "morphemes": ["grēsha"], "gloss": "name", "source": "colonial"}
+{"name": "Mazanēn Grēsha", "type": "place", "morphemes": ["mazan", "grēsha"], "gloss": "great + name", "source": "colonial"}
+{"name": "Kasānēn Grēsha", "type": "place", "morphemes": ["kasān", "grēsha"], "gloss": "small + name", "source": "colonial"}
+{"name": "Kōda", "type": "place", "morphemes": ["kōda"], "gloss": "name", "source": "colonial"}
+{"name": "Bēsēma", "type": "place", "morphemes": ["bēsēma"], "gloss": "name", "source": "colonial"}
+{"name": "Pēlār", "type": "place", "morphemes": ["pēlār"], "gloss": "name", "source": "colonial"}
+{"name": "Nōndrav", "type": "place", "morphemes": ["nōndrav"], "gloss": "name", "source": "colonial"}
+{"name": "Āvārān", "type": "place", "morphemes": ["āvārān"], "gloss": "name", "source": "colonial"}
+{"name": "Kōlva", "type": "place", "morphemes": ["kōlva"], "gloss": "name", "source": "colonial"}
+{"name": "Tūtak", "type": "place", "morphemes": ["tūtak"], "gloss": "name", "source": "colonial"}
+{"name": "Sēkrān", "type": "place", "morphemes": ["sēkrān"], "gloss": "name", "source": "colonial"}
+{"name": "Malxōr", "type": "place", "morphemes": ["malxōr"], "gloss": "name", "source": "colonial"}
+{"name": "Vahēr", "type": "place", "morphemes": ["vahēr"], "gloss": "name", "source": "colonial"}
+{"name": "Sāsōl", "type": "place", "morphemes": ["sāsōl"], "gloss": "name", "source": "colonial"}
+{"name": "Gōrū", "type": "place", "morphemes": ["gōrū"], "gloss": "name", "source": "colonial"}
+{"name": "Gazg", "type": "place", "morphemes": ["gazg"], "gloss": "name", "source": "colonial"}
+{"name": "Mishk", "type": "place", "morphemes": ["mishk"], "gloss": "name", "source": "colonial"}
+{"name": "Nōrgāma", "type": "place", "morphemes": ["nōrgāma"], "gloss": "name", "source": "colonial"}
+{"name": "Hisār", "type": "place", "morphemes": ["hisār"], "gloss": "fort", "source": "colonial"}
+{"name": "Gaṭ", "type": "place", "morphemes": ["gaṭ"], "gloss": "crag", "source": "colonial"}
+{"name": "Balbal", "type": "place", "morphemes": ["balbal"], "gloss": "name", "source": "colonial"}
+{"name": "Zālīkān", "type": "place", "morphemes": ["zālīkān"], "gloss": "name", "source": "colonial"}
+{"name": "Fīrōzābād", "type": "place", "morphemes": ["fīrōz", "ābād"], "gloss": "victorious + settlement", "source": "colonial"}
+{"name": "Kappar", "type": "place", "morphemes": ["kappar"], "gloss": "name", "source": "colonial"}
+{"name": "Jambūrō", "type": "place", "morphemes": ["jambūrō"], "gloss": "name", "source": "colonial"}
+{"name": "Kōmūds", "type": "place", "morphemes": ["kōmūds"], "gloss": "name", "source": "colonial"}
+{"name": "Kutānav", "type": "place", "morphemes": ["kutānav"], "gloss": "name", "source": "colonial"}
+{"name": "Manjīlān", "type": "place", "morphemes": ["manjīlān"], "gloss": "name", "source": "colonial"}
+{"name": "Gurumbāvat", "type": "place", "morphemes": ["gurumbāvat"], "gloss": "name", "source": "colonial"}
+{"name": "Kuhav", "type": "place", "morphemes": ["kuhav"], "gloss": "name", "source": "colonial"}
+{"name": "Dashtak", "type": "place", "morphemes": ["dashtak"], "gloss": "little plain", "source": "colonial"}
+{"name": "Pīmāzī", "type": "place", "morphemes": ["pīmāz"], "gloss": "onion", "source": "colonial"}
+{"name": "Gulak", "type": "place", "morphemes": ["gul"], "gloss": "flower", "source": "colonial"}
+{"name": "Mēnt", "type": "place", "morphemes": ["mēnt"], "gloss": "name", "source": "colonial"}
+{"name": "Xātōnkī", "type": "place", "morphemes": ["xātōnkī"], "gloss": "name", "source": "colonial"}
+{"name": "Surxēn", "type": "place", "morphemes": ["surx"], "gloss": "red", "source": "colonial"}
+{"name": "Lāngān", "type": "place", "morphemes": ["lāngān"], "gloss": "name", "source": "colonial"}
+{"name": "Kūnī", "type": "place", "morphemes": ["kūnī"], "gloss": "name", "source": "colonial"}
+{"name": "Hamīrī", "type": "place", "morphemes": ["hamīr"], "gloss": "name", "source": "colonial"}
+{"name": "Xudī", "type": "place", "morphemes": ["xudī"], "gloss": "name", "source": "colonial"}
+{"name": "Sar-i-Shēr", "type": "place", "morphemes": ["sar", "shēr"], "gloss": "head + lion", "source": "colonial"}
+{"name": "Dārīārō", "type": "place", "morphemes": ["dārīārō"], "gloss": "name", "source": "colonial"}
+{"name": "Kathrāch", "type": "place", "morphemes": ["kathrāch"], "gloss": "name", "source": "colonial"}
+{"name": "Bahlōr", "type": "place", "morphemes": ["bahlōr"], "gloss": "name", "source": "colonial"}
+{"name": "Kamtām", "type": "place", "morphemes": ["kamtām"], "gloss": "name", "source": "colonial"}
+{"name": "Kanrāch", "type": "place", "morphemes": ["kanrāch"], "gloss": "name", "source": "colonial"}
+{"name": "Mahrī", "type": "place", "morphemes": ["mahrī"], "gloss": "name", "source": "colonial"}
+{"name": "Bulbāsī", "type": "place", "morphemes": ["bulbāsī"], "gloss": "name", "source": "colonial"}
+{"name": "Dīvana Thāna", "type": "place", "morphemes": ["dīvana", "thāna"], "gloss": "mad + post", "source": "colonial"}
+{"name": "Durējī", "type": "place", "morphemes": ["durējī"], "gloss": "name", "source": "colonial"}
+{"name": "Lāhūt", "type": "place", "morphemes": ["lāhūt"], "gloss": "name", "source": "colonial"}
+{"name": "Gēsō", "type": "place", "morphemes": ["gēsō"], "gloss": "name", "source": "colonial"}
+{"name": "Mīlk", "type": "place", "morphemes": ["mīlk"], "gloss": "estate", "source": "colonial"}
+{"name": "Parī-tā-Bāɣ", "type": "place", "morphemes": ["parī", "bāɣ"], "gloss": "fairy + garden", "source": "colonial"}
+{"name": "Kaudhī", "type": "place", "morphemes": ["kaudhī"], "gloss": "name", "source": "colonial"}
+{"name": "Birinjī", "type": "place", "morphemes": ["birinj"], "gloss": "rice", "source": "colonial"}
+{"name": "Xazmī", "type": "place", "morphemes": ["xazmī"], "gloss": "name", "source": "colonial"}
+{"name": "Rahīka", "type": "place", "morphemes": ["rahīka"], "gloss": "name", "source": "colonial"}
+{"name": "Pashtha Xān", "type": "place", "morphemes": ["pashtha", "xān"], "gloss": "name + chief", "source": "colonial"}
+{"name": "Baddū Kushta", "type": "place", "morphemes": ["baddū", "kushta"], "gloss": "name + killed", "source": "colonial"}
+{"name": "Pissīɣar", "type": "place", "morphemes": ["pissī", "ɣar"], "gloss": "jujube + mountain", "source": "colonial"}
+{"name": "Chārī", "type": "place", "morphemes": ["chārī"], "gloss": "spy", "source": "colonial"}
+{"name": "Mōrdān", "type": "place", "morphemes": ["mōrdān"], "gloss": "name", "source": "colonial"}
+{"name": "Naulang", "type": "place", "morphemes": ["naulang"], "gloss": "name", "source": "colonial"}
+{"name": "Mōɣalī", "type": "place", "morphemes": ["mōɣal"], "gloss": "name", "source": "colonial"}
+{"name": "Nōɣāī", "type": "place", "morphemes": ["nōɣāī"], "gloss": "name", "source": "colonial"}
+{"name": "Kand", "type": "place", "morphemes": ["kand"], "gloss": "pass", "source": "colonial"}
+{"name": "Sōrgaz", "type": "place", "morphemes": ["sōr", "gaz"], "gloss": "salt + tamarisk", "source": "colonial"}
+{"name": "Bhalārējav", "type": "place", "morphemes": ["bhalārējav"], "gloss": "name", "source": "colonial"}
+{"name": "Bīt", "type": "place", "morphemes": ["bīt"], "gloss": "name", "source": "colonial"}
+{"name": "Lassō", "type": "place", "morphemes": ["lassō"], "gloss": "name", "source": "colonial"}
+{"name": "Mīr-nā-Shahr", "type": "place", "morphemes": ["mīr", "shahr"], "gloss": "lord + town", "source": "colonial"}
+{"name": "Baxxāl-tā-Shahr", "type": "place", "morphemes": ["baxxāl", "shahr"], "gloss": "grocer + town", "source": "colonial"}
+{"name": "Jānh", "type": "place", "morphemes": ["jānh"], "gloss": "name", "source": "colonial"}
+{"name": "Jukkur", "type": "place", "morphemes": ["jukkur"], "gloss": "name", "source": "colonial"}
+{"name": "Dhrūn-i-Kalāt", "type": "place", "morphemes": ["dhrūn", "kalāt"], "gloss": "name + fort", "source": "colonial"}
+{"name": "Sardārai Kalāt", "type": "place", "morphemes": ["sardār", "kalāt"], "gloss": "chief + fort", "source": "colonial"}
+{"name": "Mangulī Kalāt", "type": "place", "morphemes": ["mangul", "kalāt"], "gloss": "name + fort", "source": "colonial"}
+{"name": "Tēɣāb", "type": "place", "morphemes": ["tēɣ", "āb"], "gloss": "sword + water", "source": "colonial"}
+{"name": "Gambulī", "type": "place", "morphemes": ["gambulī"], "gloss": "name", "source": "colonial"}
+{"name": "Hazārganjī", "type": "place", "morphemes": ["hazār", "ganj"], "gloss": "thousand + treasure", "source": "colonial"}
+{"name": "Bhandarau", "type": "place", "morphemes": ["bhandarau"], "gloss": "name", "source": "colonial"}
+{"name": "Mārukī", "type": "place", "morphemes": ["mārukī"], "gloss": "name", "source": "colonial"}
+{"name": "Pōnzag", "type": "place", "morphemes": ["pōnzag"], "gloss": "nose", "source": "colonial"}
+{"name": "Xāyān", "type": "place", "morphemes": ["xāyān"], "gloss": "name", "source": "colonial"}
+{"name": "Malɣuzār", "type": "place", "morphemes": ["malɣuzār"], "gloss": "name", "source": "colonial"}
+{"name": "Chāb", "type": "place", "morphemes": ["chāb"], "gloss": "name", "source": "colonial"}
+{"name": "Kumbī", "type": "place", "morphemes": ["kumb"], "gloss": "pool", "source": "colonial"}
+{"name": "Kōṭrē", "type": "place", "morphemes": ["kōṭrē"], "gloss": "name", "source": "colonial"}
+{"name": "Dugān", "type": "place", "morphemes": ["dugān"], "gloss": "name", "source": "colonial"}
+{"name": "Ḍāk", "type": "place", "morphemes": ["ḍāk"], "gloss": "plain", "source": "colonial"}
+{"name": "Hurmuz", "type": "place", "morphemes": ["hurmuz"], "gloss": "name", "source": "colonial"}
+{"name": "Panchīkān", "type": "place", "morphemes": ["panchīkān"], "gloss": "name", "source": "colonial"}
+{"name": "Māmaī", "type": "place", "morphemes": ["māmaī"], "gloss": "name", "source": "colonial"}
+{"name": "Dasht-i-Gōrān", "type": "place", "morphemes": ["dasht", "gōr"], "gloss": "plain + wild ass", "source": "colonial"}
+{"name": "Damb Kūkī", "type": "place", "morphemes": ["damb", "kūkī"], "gloss": "mound + name", "source": "colonial"}
+{"name": "Alīābād", "type": "place", "morphemes": ["alī", "ābād"], "gloss": "name + settlement", "source": "colonial"}
+{"name": "Kardāgar", "type": "place", "morphemes": ["kardāgar"], "gloss": "name", "source": "colonial"}
+{"name": "Bādrang", "type": "place", "morphemes": ["bādrang"], "gloss": "name", "source": "colonial"}
+{"name": "Kōchō", "type": "place", "morphemes": ["kōchō"], "gloss": "name", "source": "colonial"}
+{"name": "Kandar", "type": "place", "morphemes": ["kandar"], "gloss": "name", "source": "colonial"}
+{"name": "Gōrak", "type": "place", "morphemes": ["gōrak"], "gloss": "name", "source": "colonial"}
+{"name": "Mīrānī Gōṭ", "type": "place", "morphemes": ["mīrān", "gōṭ"], "gloss": "name + village", "source": "colonial"}
+{"name": "Marāp", "type": "place", "morphemes": ["mar", "āb"], "gloss": "name + water", "source": "colonial"}
+{"name": "Niɣār", "type": "place", "morphemes": ["niɣār"], "gloss": "name", "source": "colonial"}
+{"name": "Māzhī", "type": "place", "morphemes": ["māzhī"], "gloss": "name", "source": "colonial"}
+{"name": "Lākōriān", "type": "place", "morphemes": ["lākōriān"], "gloss": "name", "source": "colonial"}
+{"name": "Pārīkō", "type": "place", "morphemes": ["pārīkō"], "gloss": "name", "source": "colonial"}
+{"name": "Hājīka", "type": "place", "morphemes": ["hājīka"], "gloss": "name", "source": "colonial"}
+{"name": "Chilbāɣū", "type": "place", "morphemes": ["chihil", "bāɣ"], "gloss": "forty + garden", "source": "colonial"}
+{"name": "Xisundūn", "type": "place", "morphemes": ["xisundūn"], "gloss": "name", "source": "colonial"}
+{"name": "Damb", "type": "place", "morphemes": ["damb"], "gloss": "mound", "source": "colonial"}
+{"name": "Lōhēndav", "type": "place", "morphemes": ["lōhēndav"], "gloss": "name", "source": "colonial"}
+{"name": "Tappī Dōdār", "type": "place", "morphemes": ["tappī", "dōdār"], "gloss": "name + name", "source": "colonial"}
+{"name": "Lūlingī", "type": "place", "morphemes": ["lūlingī"], "gloss": "name", "source": "colonial"}
+{"name": "Mīrōk", "type": "place", "morphemes": ["mīrōk"], "gloss": "name", "source": "colonial"}
+{"name": "Rōzēnōk", "type": "place", "morphemes": ["rōzēnōk"], "gloss": "name", "source": "colonial"}
+{"name": "Vātrō", "type": "place", "morphemes": ["vātrō"], "gloss": "name", "source": "colonial"}
+{"name": "Varauch", "type": "place", "morphemes": ["varauch"], "gloss": "name", "source": "colonial"}
+{"name": "Jārī", "type": "place", "morphemes": ["jārī"], "gloss": "name", "source": "colonial"}
+{"name": "Tūtkachō", "type": "place", "morphemes": ["tūt", "kachō"], "gloss": "mulberry + flat", "source": "colonial"}
+{"name": "Bērkachō", "type": "place", "morphemes": ["bēr", "kachō"], "gloss": "jujube + flat", "source": "colonial"}
+{"name": "Mallējī", "type": "place", "morphemes": ["mallējī"], "gloss": "name", "source": "colonial"}
+{"name": "Sarrī", "type": "place", "morphemes": ["sarrī"], "gloss": "name", "source": "colonial"}
+{"name": "Būkējav", "type": "place", "morphemes": ["būkējav"], "gloss": "name", "source": "colonial"}
+{"name": "Xuzzuk", "type": "place", "morphemes": ["xuzzuk"], "gloss": "name", "source": "colonial"}
+{"name": "Alaf", "type": "place", "morphemes": ["alaf"], "gloss": "grass", "source": "colonial"}
+{"name": "Xānī", "type": "place", "morphemes": ["xānī"], "gloss": "name", "source": "colonial"}
+{"name": "Kaṭō", "type": "place", "morphemes": ["kaṭō"], "gloss": "name", "source": "colonial"}
+{"name": "Arzōmān", "type": "place", "morphemes": ["arzōmān"], "gloss": "name", "source": "colonial"}
+{"name": "Archīnō", "type": "place", "morphemes": ["archīnō"], "gloss": "name", "source": "colonial"}
+{"name": "Gurgut", "type": "place", "morphemes": ["gurgut"], "gloss": "name", "source": "colonial"}
+{"name": "Kurrāgī", "type": "place", "morphemes": ["kurrāgī"], "gloss": "name", "source": "colonial"}
+{"name": "Chammag", "type": "place", "morphemes": ["chammag"], "gloss": "spring", "source": "colonial"}
+{"name": "Chigirdī", "type": "place", "morphemes": ["chigird"], "gloss": "acacia", "source": "colonial"}
+{"name": "Gēzhdī", "type": "place", "morphemes": ["gēzhdī"], "gloss": "name", "source": "colonial"}
+{"name": "Gūshānak", "type": "place", "morphemes": ["gūshānak"], "gloss": "name", "source": "colonial"}
+{"name": "Xurmāistān", "type": "place", "morphemes": ["xurmā", "istān"], "gloss": "date + place", "source": "colonial"}
+{"name": "Kōchav", "type": "place", "morphemes": ["kōchav"], "gloss": "name", "source": "colonial"}
+{"name": "Kōhērav", "type": "place", "morphemes": ["kōhērav"], "gloss": "name", "source": "colonial"}
+{"name": "Kōrak", "type": "place", "morphemes": ["kōrak"], "gloss": "name", "source": "colonial"}
+{"name": "Lāɣar Chib", "type": "place", "morphemes": ["lāɣar", "chib"], "gloss": "lean + name", "source": "colonial"}
+{"name": "Lākatār", "type": "place", "morphemes": ["lākatār"], "gloss": "name", "source": "colonial"}
+{"name": "Lāmbōj", "type": "place", "morphemes": ["lāmbōj"], "gloss": "name", "source": "colonial"}
+{"name": "Lanjar", "type": "place", "morphemes": ["lanjar"], "gloss": "name", "source": "colonial"}
+{"name": "Dōlējī", "type": "place", "morphemes": ["dōlējī"], "gloss": "name", "source": "colonial"}
+{"name": "Garruk", "type": "place", "morphemes": ["garruk"], "gloss": "name", "source": "colonial"}
+{"name": "Zāyak", "type": "place", "morphemes": ["zāyak"], "gloss": "name", "source": "colonial"}
+{"name": "Tīōr", "type": "place", "morphemes": ["tīōr"], "gloss": "name", "source": "colonial"}
+{"name": "Dandēru", "type": "place", "morphemes": ["dandēru"], "gloss": "name", "source": "colonial"}
+{"name": "Pāthk", "type": "place", "morphemes": ["pāthk"], "gloss": "name", "source": "colonial"}
+{"name": "Rāɣai", "type": "place", "morphemes": ["rāɣai"], "gloss": "name", "source": "colonial"}
+{"name": "Bainharī", "type": "place", "morphemes": ["bainharī"], "gloss": "name", "source": "colonial"}
+{"name": "Sōhr", "type": "place", "morphemes": ["sōhr"], "gloss": "red", "source": "colonial"}
+{"name": "Vānīrna", "type": "place", "morphemes": ["vānīrna"], "gloss": "name", "source": "colonial"}
+{"name": "Bhāg", "type": "place", "morphemes": ["bhāg"], "gloss": "fortune", "source": "colonial"}
+{"name": "Ḍāḍhar", "type": "place", "morphemes": ["ḍāḍhar"], "gloss": "name", "source": "colonial"}
+{"name": "Gandāva", "type": "place", "morphemes": ["gandāva"], "gloss": "name", "source": "colonial"}
+{"name": "Jhal", "type": "place", "morphemes": ["jhal"], "gloss": "torrent", "source": "colonial"}
+{"name": "Shōrān", "type": "place", "morphemes": ["shōrān"], "gloss": "name", "source": "colonial"}
+{"name": "Sannī", "type": "place", "morphemes": ["sannī"], "gloss": "name", "source": "colonial"}
+{"name": "Kōṭra", "type": "place", "morphemes": ["kōṭra"], "gloss": "fort", "source": "colonial"}
+{"name": "Gājān", "type": "place", "morphemes": ["gājān"], "gloss": "name", "source": "colonial"}
+{"name": "Mīthrī", "type": "place", "morphemes": ["mīthrī"], "gloss": "name", "source": "colonial"}
+{"name": "Panjuk", "type": "place", "morphemes": ["panjuk"], "gloss": "name", "source": "colonial"}
+{"name": "Nasīrābād", "type": "place", "morphemes": ["nasīr", "ābād"], "gloss": "helper + settlement", "source": "colonial"}
+{"name": "Bālā Nārī", "type": "place", "morphemes": ["bālā", "nārī"], "gloss": "upper + name", "source": "colonial"}
+{"name": "Xānpur", "type": "place", "morphemes": ["xān", "pur"], "gloss": "chief + town", "source": "colonial"}
+{"name": "Xānpur Kōhna", "type": "place", "morphemes": ["xān", "pur", "kōhna"], "gloss": "chief + town + old", "source": "colonial"}
+{"name": "Xudābād", "type": "place", "morphemes": ["xudā", "ābād"], "gloss": "God + settlement", "source": "colonial"}
+{"name": "Bhathārī", "type": "place", "morphemes": ["bhathārī"], "gloss": "name", "source": "colonial"}
+{"name": "Zardād", "type": "place", "morphemes": ["zar", "dād"], "gloss": "gold + given", "source": "colonial"}
+{"name": "Sar Sannī", "type": "place", "morphemes": ["sar", "sannī"], "gloss": "head + name", "source": "colonial"}
+{"name": "Sar Kandahār", "type": "place", "morphemes": ["sar", "kandahār"], "gloss": "head + name", "source": "colonial"}
+{"name": "Murād Ganja", "type": "place", "morphemes": ["murād", "ganj"], "gloss": "desire + treasure", "source": "colonial"}
+{"name": "Mīr Bhāg", "type": "place", "morphemes": ["mīr", "bhāg"], "gloss": "lord + fortune", "source": "colonial"}
+{"name": "Mahēsar", "type": "place", "morphemes": ["mahēsar"], "gloss": "name", "source": "colonial"}
+{"name": "Alī Shēr Gōṭ", "type": "place", "morphemes": ["alī", "shēr", "gōṭ"], "gloss": "name + lion + village", "source": "colonial"}
+{"name": "Jhōk Gul Muhammad", "type": "place", "morphemes": ["jhōk", "gul", "muhammad"], "gloss": "hamlet + flower + name", "source": "colonial"}
+{"name": "Rindlī", "type": "place", "morphemes": ["rindlī"], "gloss": "name", "source": "colonial"}
+{"name": "Kōlpur", "type": "place", "morphemes": ["kōl", "pur"], "gloss": "name + town", "source": "colonial"}
+{"name": "Mach", "type": "place", "morphemes": ["mach"], "gloss": "date palm", "source": "colonial"}
+{"name": "Hīrōk", "type": "place", "morphemes": ["hīrōk"], "gloss": "name", "source": "colonial"}
+{"name": "Kirta", "type": "place", "morphemes": ["kirta"], "gloss": "name", "source": "colonial"}
+{"name": "Kundalānī", "type": "place", "morphemes": ["kundalān"], "gloss": "name", "source": "colonial"}
+{"name": "Naulīng", "type": "place", "morphemes": ["naulīng"], "gloss": "name", "source": "colonial"}
+{"name": "Pīr Chaukī", "type": "place", "morphemes": ["pīr", "chaukī"], "gloss": "saint + post", "source": "colonial"}
+{"name": "Sībī", "type": "place", "morphemes": ["sībī"], "gloss": "name", "source": "colonial"}
+{"name": "Dalbandīn", "type": "place", "morphemes": ["dalbandīn"], "gloss": "name", "source": "colonial"}
+{"name": "Māl", "type": "place", "morphemes": ["māl"], "gloss": "wealth", "source": "colonial"}
+{"name": "Rōbāṭ", "type": "place", "morphemes": ["rōbāṭ"], "gloss": "post", "source": "colonial"}
+{"name": "Padag", "type": "place", "morphemes": ["padag"], "gloss": "name", "source": "colonial"}
+{"name": "Karōḍāk", "type": "place", "morphemes": ["karō", "ḍāk"], "gloss": "name + plain", "source": "colonial"}
+{"name": "Chakul", "type": "place", "morphemes": ["chakul"], "gloss": "spring", "source": "colonial"}
+{"name": "Kundī", "type": "place", "morphemes": ["kundī"], "gloss": "corner", "source": "colonial"}
+{"name": "Ahmadvāl", "type": "place", "morphemes": ["ahmadvāl"], "gloss": "name", "source": "colonial"}
+{"name": "Hurmagai", "type": "place", "morphemes": ["hurmagai"], "gloss": "name", "source": "colonial"}
+{"name": "Panjpāī", "type": "place", "morphemes": ["panj", "pāī"], "gloss": "five + foot", "source": "colonial"}
+{"name": "Singbur", "type": "place", "morphemes": ["sing", "bur"], "gloss": "stone + cut", "source": "colonial"}
+{"name": "Yakmach", "type": "place", "morphemes": ["yak", "mach"], "gloss": "one + date palm", "source": "colonial"}
+{"name": "Rēgistān", "type": "place", "morphemes": ["rēg", "istān"], "gloss": "sand + place", "source": "colonial"}
+{"name": "Panjgūr", "type": "place", "morphemes": ["panjgūr"], "gloss": "name", "source": "colonial"}
+{"name": "Vāshuk", "type": "place", "morphemes": ["vāshuk"], "gloss": "name", "source": "colonial"}
+{"name": "Kēch", "type": "place", "morphemes": ["kēch"], "gloss": "name", "source": "colonial"}
+{"name": "Jhalāvān Kōṭ", "type": "place", "morphemes": ["jhal", "āvān", "kōṭ"], "gloss": "below + side + fort", "source": "colonial"}
+{"name": "Nāla Ɣaibī", "type": "place", "morphemes": ["nāla", "ɣaib"], "gloss": "stream + unseen", "source": "colonial"}
+{"name": "Hājī Shahr", "type": "place", "morphemes": ["hājī", "shahr"], "gloss": "pilgrim + town", "source": "colonial"}
+{"name": "Lahrī Shahr", "type": "place", "morphemes": ["lahr", "shahr"], "gloss": "name + town", "source": "colonial"}
