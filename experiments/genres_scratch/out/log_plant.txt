@@ -24,8 +24,8 @@ compute lock held by pid 91297: .venv/bin/python -I experiments/consensus_corpus
 compute lock held by pid 91297: .venv/bin/python -I experiments/consensus_corpus/run.py; waiting 20s
 compute lock held by pid 91297: .venv/bin/python -I experiments/consensus_corpus/run.py; waiting 20s
 compute lock held by pid 91297: .venv/bin/python -I experiments/consensus_corpus/run.py; waiting 20s
-done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_m77_BG2.json
-done /Users/harsha/Desktop/Personal/indus-decipher/experiments/genres_scratch/out/main_icit_BG2.json
+done experiments/genres_scratch/out/main_m77_BG2.json
+done experiments/genres_scratch/out/main_icit_BG2.json
 {'obj': -0.08239196535314441, 'site': -0.4377364541922836}
 synth 0 {'BG2': (6, 1.0), 'LCA': (2, 1.0), 'HMM': (1, 1.0)}
 synth 1 {'BG2': (5, 1.0), 'LCA': (4, 1.0), 'HMM': (1, 1.0)}
