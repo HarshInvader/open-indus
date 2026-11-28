@@ -1,0 +1,186 @@
+{
+ "seed": 20261128,
+ "ticked": [
+  "M60",
+  "M66",
+  "M68",
+  "M71",
+  "M73"
+ ],
+ "plain": [
+  "M59",
+  "M65",
+  "M67",
+  "M70",
+  "M72"
+ ],
+ "n_clean_texts": {
+  "dev": 1246,
+  "heldout": 412
+ },
+ "per_sign_heldout": {
+  "M60": [
+   2,
+   3
+  ],
+  "M66": [
+   1,
+   5
+  ],
+  "M68": [
+   3,
+   5
+  ],
+  "M71": [
+   4,
+   4
+  ],
+  "M73": [
+   0,
+   0
+  ],
+  "M59": [
+   2,
+   47
+  ],
+  "M65": [
+   1,
+   32
+  ],
+  "M67": [
+   0,
+   25
+  ],
+  "M70": [
+   0,
+   13
+  ],
+  "M72": [
+   0,
+   25
+  ]
+ },
+ "T1_heldout_fisher": {
+  "ticked": [
+   10,
+   17
+  ],
+  "plain": [
+   3,
+   142
+  ],
+  "ticked_rate": 0.588,
+  "plain_rate": 0.021,
+  "p_fisher": 2.286987593676921e-09,
+  "ticked_texts": 17
+ },
+ "T2_heldout_length_matched": {
+  "n": 16,
+  "final": 9,
+  "expected": 4.15,
+  "expected_rate": 0.259,
+  "p": 0.007164886463844799
+ },
+ "T3_heldout_within_text_shuffle": {
+  "n_texts": 124,
+  "obs_diff": 0.5671,
+  "null_mean": 0.0917,
+  "p": 2.999970000299997e-05
+ },
+ "T4_dev_fisher": {
+  "ticked": [
+   23,
+   33
+  ],
+  "plain": [
+   11,
+   538
+  ],
+  "ticked_rate": 0.697,
+  "plain_rate": 0.02,
+  "p_fisher": 3.4897204885618534e-25
+ },
+ "T4_dev_length_matched": {
+  "n": 32,
+  "final": 22,
+  "expected": 8.64,
+  "expected_rate": 0.27,
+  "p": 5.21113854577748e-07
+ },
+ "T5_icit_native": {
+  "n_clean_texts": 2075,
+  "length_matched": {
+   "n": 59,
+   "final": 35,
+   "expected": 15.01,
+   "expected_rate": 0.254,
+   "p": 1.430593564655071e-08
+  },
+  "fisher": {
+   "ticked": [
+    36,
+    60
+   ],
+   "plain": [
+    21,
+    716
+   ],
+   "ticked_rate": 0.6,
+   "plain_rate": 0.029,
+   "p_fisher": 3.041310845525216e-31
+  }
+ },
+ "T5b_icit_sites_not_in_M77": {
+  "n_clean_texts": 176,
+  "length_matched": {
+   "n": 7,
+   "final": 5,
+   "expected": 1.9,
+   "expected_rate": 0.271,
+   "p": 0.014024170274170276
+  },
+  "fisher": {
+   "ticked": [
+    5,
+    7
+   ],
+   "plain": [
+    6,
+    40
+   ],
+   "ticked_rate": 0.714,
+   "plain_rate": 0.15,
+   "p_fisher": 0.004897673054350319
+  },
+  "sites": [
+   "Bala-kot",
+   "Banawali",
+   "Bhirrana",
+   "Gola Dhoro (Bagasra)",
+   "Nausharo",
+   "Rupar"
+  ]
+ },
+ "holm": {
+  "T1": 9.147950374707683e-09,
+  "T2": 0.007164886463844799,
+  "T3": 5.999940000599994e-05,
+  "T5": 4.2917806939652134e-08
+ },
+ "planted_control": {
+  "n_fish_tokens": 159,
+  "n_final_fish": 13,
+  "uniform_null": {
+   "reps": 2000,
+   "t1_pass_rate": 0.03,
+   "t3_reps": 200,
+   "t3_pass_rate": 0.02
+  },
+  "planted_50pct_final": {
+   "reps": 2000,
+   "t1_pass_rate": 0.99,
+   "t3_reps": 200,
+   "t3_pass_rate": 0.955
+  }
+ }
+}
