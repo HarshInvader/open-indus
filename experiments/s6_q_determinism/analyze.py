@@ -7,7 +7,7 @@ from pathlib import Path
 import numpy as np
 
 HERE = Path(__file__).resolve().parent
-R = {k: json.load(open(HERE / "runs" / f"{k}.json")) for k in "ABC"}
+R = {k: json.load(open(HERE / "runs" / f"{k}.json")) for k in "ABCD" if (HERE / "runs" / f"{k}.json").exists()}
 
 
 def rng_of(runs, row, col):
@@ -23,7 +23,8 @@ for k, runs in R.items():
     d["distinct_v2_reruns_outputs"] = len({r["v2_reruns_sha256"] for r in runs})
     d["F_statistic_sets"] = sorted({json.dumps([r["F"]["foreign_mean_pct"], r["F"]["native_matched_mean"],
                                                 r["F"]["pool_sizes"]]) for r in runs})
-    if k == "C":
+    d["lr_fr_lex"] = {c: rng_of(runs, "lr_fr_lex", c) for c in ("p_value", "q_global", "q_hier", "q_all")}
+    if k in ("C", "D"):
         d["p_mc95_widest"] = max((r["F"]["p_mc95"] for r in runs), key=lambda x: x[1] - x[0])
     out[k] = d
 
@@ -38,6 +39,13 @@ out["verdicts"] = {
                                      ratio_after=round(C["q_all"]["max"] / C["q_all"]["min"], 3),
                                      ratio_before=round(A["q_all"]["max"] / A["q_all"]["min"], 3)),
 }
+if "D" in out:
+    D = out["D"]["lr_fr_lex"]
+    out["verdicts"]["H4_lr_fr_lex_ratio_below_1_5 (S6b)"] = dict(
+        passed=D["p_value"]["max"] / D["p_value"]["min"] < 1.5, ratio_after=round(D["p_value"]["max"] / D["p_value"]["min"], 3),
+        ratio_before=round(out["C"]["lr_fr_lex"]["p_value"]["max"] / out["C"]["lr_fr_lex"]["p_value"]["min"], 3))
+    out["verdicts"]["H5_lr_fr_lex_q_global_below_0_05 (S6b, descriptive)"] = dict(
+        all_seeds=D["q_global"]["max"] < 0.05, no_seed=D["q_global"]["min"] >= 0.05, range=[D["q_global"]["min"], D["q_global"]["max"]])
 json.dump(out, open(HERE / "results.json", "w"), indent=1)
 print(json.dumps(out["verdicts"], indent=1))
 for k in "ABC":

@@ -13,6 +13,7 @@ RUN is one of
     A   unmodified v2_reruns.py (as of commit 1c1da07), PYTHONHASHSEED = 0..19
     B   current v2_reruns.py, master seed fixed, PYTHONHASHSEED = 0, 1, 2   (determinism check)
     C   current v2_reruns.py, INDUS_SEED = 1..20, each with PYTHONHASHSEED = its seed + 100
+    D   as C, run after the S6b change (10,000 lexicon permutations); docs/prereg/s6b_lexicon_null.md
 
 Each run gets its own scratch directory: experiments/ledger and docs/ are copied (they are written),
 everything else is symlinked, so nothing in the repository is overwritten. Scripts run with `-s -P`, not
@@ -105,7 +106,7 @@ def one(run, tag, script_src, env_extra):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("run", choices=["A", "B", "C"])
+    ap.add_argument("run", choices=["A", "B", "C", "D"])
     ap.add_argument("--jobs", type=int, default=4)
     a = ap.parse_args()
     if a.run == "A":
@@ -116,7 +117,7 @@ def main():
         src = (ROOT / "experiments" / "ledger" / "v2_reruns.py").read_bytes()
         if a.run == "B":
             plan = [(f"hash{h:02d}", dict(PYTHONHASHSEED=str(h))) for h in range(3)]
-        else:
+        else:  # C (S6) and D (S6b: same seeds, after the lexicon-null change)
             plan = [(f"seed{s:02d}", dict(INDUS_SEED=str(s), PYTHONHASHSEED=str(s + 100))) for s in range(1, 21)]
     with ThreadPoolExecutor(a.jobs) as ex:
         res = list(ex.map(lambda tp: one(a.run, tp[0], src, tp[1]), plan))

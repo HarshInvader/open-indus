@@ -18,6 +18,7 @@ Determinism (S6, 2026-11-28): the output no longer depends on PYTHONHASHSEED. Ev
 feeds a random draw is sorted, and each section draws from its own named stream, so one section's draws
 cannot shift another's. The master seed is INDUS_SEED (default 20261114). F uses 2,000,000 matched draws
 (was 20,000) and reports the Monte Carlo 95% interval of its p. See experiments/s6_q_determinism/.
+S6b (2026-11-28): the v2 lexicon-permutation null in A uses 10,000 permutations (was 300), with an MC interval.
 """
 import os, sys, json, math, random, itertools, zlib
 from collections import Counter, defaultdict
@@ -143,21 +144,24 @@ def coverage_test(texts, lex, nshuf=100):
                 p_perm=(1 + int((sh >= real).sum())) / (nshuf + 1), p_normal=float(stats.norm.sf(z)))
 
 
-def fr_block(dv, hv, label):
+def fr_block(dv, hv, label, nlex=300):
     dv = [t for t in dv if t["site"] != "West Asian finds"]
     hv = [t for t in hv if t["site"] != "West Asian finds" and "#" not in t["seq"]]
     lex = induce_lexicon(dv, HAND)
     res = coverage_test(hv, lex)
     # lexicon-permutation null: permute role sets among hand-assigned signs, re-induce, re-score
     keys = list(HAND); vals = [HAND[k] for k in keys]; null = []
-    for _ in range(300):
+    for _ in range(nlex):
         perm = vals[:]; rng.shuffle(perm)
         h2 = dict(zip(keys, perm))
         l2 = induce_lexicon(dv, h2)
         null.append(np.mean([accepts(t["seq"], l2) for t in hv]))
     null = np.array(null)
     res["lexicon_null_mean"] = round(float(null.mean()), 4); res["lexicon_null_sd"] = round(float(null.std()), 4)
-    res["lexicon_null_p"] = (1 + int((null >= res["coverage"]).sum())) / (len(null) + 1)
+    hits = int((null >= res["coverage"]).sum())
+    res["lexicon_null_p"] = (1 + hits) / (len(null) + 1)
+    ci = stats.binomtest(hits, len(null)).proportion_ci(0.95, method="exact")
+    res.update(lexicon_null_n=len(null), lexicon_null_hits=hits, lexicon_null_p_mc95=[float(ci.low), float(ci.high)])
     print(f"A {label}: {res}", flush=True)
     return res, lex
 
@@ -165,7 +169,7 @@ def fr_block(dv, hv, label):
 rng, _ = streams("A")
 OUT["A_functional_reading"] = {}
 OUT["A_functional_reading"]["v1_reproduction"], _ = fr_block(dev1, ho1, "v1 (reproduce 0.760 vs 0.334)")
-OUT["A_functional_reading"]["v2"], lex2 = fr_block(dev, ho, "v2")
+OUT["A_functional_reading"]["v2"], lex2 = fr_block(dev, ho, "v2", nlex=10_000)  # S6b: was 300 (MC error)
 # Dholavira (ICIT), OOV = noun, lexicon induced on v2 dev
 dhol = distinct([t for t in icit_texts() if t["site"] == "Dholavira" and "#" not in t["seq"]])
 dseq = [dict(seq=[W2M.get(s, "OOV") if s not in ("|", "#") else s for s in t["seq"]]) for t in dhol]

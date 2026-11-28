@@ -64,6 +64,24 @@ The Monte Carlo 95% interval of p in any single Run C run is about ±10% (widest
 - **`corpus/build.py:splits_v2`** still breaks ties with `max(set(...))`. With the `-I` fix, a rebuild under `PYTHONHASHSEED=0` is now repeatable, but it will not match the frozen committed split. I did not touch `corpus/` (CONTRIBUTING). The committed split is still the one every result uses.
 - No ledger rows are added. None of these checks is a hypothesis test on Indus texts, and none produces a p-value.
 
+## S6b: the same fix for README #9 (functional reading)
+
+Pre-registration: `docs/prereg/s6b_lexicon_null.md`, sealed in its own commit after S6 and before this run.
+
+Run C showed the second-largest Monte Carlo swing in the ledger. Row `lr_fr_lex`, behind README #9 ("weakly supported, p=0.013, q=0.085"), moved from 0.0033 to 0.027 with the random seed, because it uses 300 lexicon permutations. S6b raises the v2 block to 10,000 permutations, with an exact MC interval. Nothing else changes; the v1 reproduction block keeps 300. Run D repeats Run C's 20 seeds.
+
+| `lr_fr_lex` | Run C: 300 permutations | Run D: 10,000 permutations |
+|---|---|---|
+| p | 0.0033 to 0.027 (max/min 8.0) | **0.011 to 0.014** (median 0.012; max/min 1.29) |
+| q_global | 0.038 to 0.22 | **0.10 to 0.13** |
+| q_hier | 0.012 to 0.082 | **0.038 to 0.044** |
+| q_all | 0.18 to 1 | 0.49 to 0.62 |
+
+- **H4 supported.** The max/min ratio of p is 1.29, under the 1.5 bar. One run's MC 95% interval is about ±0.002 (seed 1: 109 of 10,000, 0.009 to 0.013).
+- **H5 (descriptive).** q_global is **above 0.05 under every seed** (0.10 to 0.13), and q_hier is **below 0.05 under every seed** (0.038 to 0.044). So the honest reading of README #9 is: "p ≈ 0.012; passes the hierarchical correction, fails the global one." Before, it depended on the seed which side of 0.05 the q_global fell. The README's "q=0.085" matches neither the committed ledger (q_global 0.124) nor this range, so it should be updated.
+- `lr_gulf` is unchanged between Run C and Run D, to every digit. Each section now has its own random stream, so drawing more permutations in section A no longer moves section F.
+- Run D takes about 105 seconds per run, up from 30.
+
 ## Reproduce
 
 ```bash
@@ -71,6 +89,7 @@ python3 datasets/fetch.py corpus
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python -I experiments/s6_q_determinism/sweep.py A   # original code (git show 1c1da07), 20 hash seeds
 .venv/bin/python -I experiments/s6_q_determinism/sweep.py B   # fixed code, 3 hash seeds
-.venv/bin/python -I experiments/s6_q_determinism/sweep.py C   # fixed code, 20 random seeds
+.venv/bin/python -I experiments/s6_q_determinism/sweep.py C   # fixed code, 20 random seeds (run before S6b)
+.venv/bin/python -I experiments/s6_q_determinism/sweep.py D   # after S6b (10,000 lexicon permutations), 20 seeds
 .venv/bin/python -I experiments/s6_q_determinism/analyze.py
 ```
