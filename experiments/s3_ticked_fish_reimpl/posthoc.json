@@ -1,0 +1,254 @@
+{
+ "split_v1": {
+  "single_line_clean": {
+   "fisher": {
+    "ticked": [
+     8,
+     13
+    ],
+    "plain": [
+     8,
+     143
+    ],
+    "ticked_rate": 0.615,
+    "plain_rate": 0.056,
+    "p_fisher": 1.781475716510434e-06
+   },
+   "length_matched": {
+    "n": 12,
+    "final": 7,
+    "expected": 3.52,
+    "expected_rate": 0.293,
+    "p": 0.029471193415637864
+   }
+  },
+  "complete_line_final": {
+   "fisher": {
+    "ticked": [
+     9,
+     14
+    ],
+    "plain": [
+     8,
+     154
+    ],
+    "ticked_rate": 0.643,
+    "plain_rate": 0.052,
+    "p_fisher": 1.6299892996263433e-07
+   },
+   "length_matched": {
+    "n": 13,
+    "final": 8,
+    "expected": 3.72,
+    "expected_rate": 0.286,
+    "p": 0.011002194787379977
+   }
+  },
+  "all_breakfree_runs": {
+   "fisher": {
+    "ticked": [
+     10,
+     16
+    ],
+    "plain": [
+     21,
+     202
+    ],
+    "ticked_rate": 0.625,
+    "plain_rate": 0.104,
+    "p_fisher": 3.659457156674401e-06
+   },
+   "length_matched": {
+    "n": 14,
+    "final": 8,
+    "expected": 3.86,
+    "expected_rate": 0.276,
+    "p": 0.01564448363707623
+   }
+  }
+ },
+ "split_v2": {
+  "single_line_clean": {
+   "fisher": {
+    "ticked": [
+     10,
+     17
+    ],
+    "plain": [
+     3,
+     142
+    ],
+    "ticked_rate": 0.588,
+    "plain_rate": 0.021,
+    "p_fisher": 2.286987593676921e-09
+   },
+   "length_matched": {
+    "n": 16,
+    "final": 9,
+    "expected": 4.15,
+    "expected_rate": 0.259,
+    "p": 0.007164886463844799
+   }
+  },
+  "complete_line_final": {
+   "fisher": {
+    "ticked": [
+     11,
+     18
+    ],
+    "plain": [
+     4,
+     150
+    ],
+    "ticked_rate": 0.611,
+    "plain_rate": 0.027,
+    "p_fisher": 6.803962804465168e-10
+   },
+   "length_matched": {
+    "n": 17,
+    "final": 10,
+    "expected": 4.35,
+    "expected_rate": 0.256,
+    "p": 0.0025949520502645514
+   }
+  },
+  "all_breakfree_runs": {
+   "fisher": {
+    "ticked": [
+     12,
+     20
+    ],
+    "plain": [
+     16,
+     191
+    ],
+    "ticked_rate": 0.6,
+    "plain_rate": 0.084,
+    "p_fisher": 1.7327068662524096e-07
+   },
+   "length_matched": {
+    "n": 19,
+    "final": 11,
+    "expected": 4.8,
+    "expected_rate": 0.253,
+    "p": 0.0017552990838913696
+   }
+  }
+ },
+ "split_v2_plain12": {
+  "single_line_clean": {
+   "fisher": {
+    "ticked": [
+     10,
+     17
+    ],
+    "plain": [
+     4,
+     146
+    ],
+    "ticked_rate": 0.588,
+    "plain_rate": 0.027,
+    "p_fisher": 5.957320992018373e-09
+   },
+   "length_matched": {
+    "n": 16,
+    "final": 9,
+    "expected": 4.15,
+    "expected_rate": 0.259,
+    "p": 0.007164886463844799
+   }
+  },
+  "all_breakfree_runs": {
+   "fisher": {
+    "ticked": [
+     12,
+     20
+    ],
+    "plain": [
+     17,
+     198
+    ],
+    "ticked_rate": 0.6,
+    "plain_rate": 0.086,
+    "p_fisher": 1.9443041192442776e-07
+   },
+   "length_matched": {
+    "n": 19,
+    "final": 11,
+    "expected": 4.8,
+    "expected_rate": 0.253,
+    "p": 0.0017552990838913696
+   }
+  }
+ },
+ "icit_distinct_clean": {
+  "n": 59,
+  "final": 35,
+  "expected": 15.01,
+  "expected_rate": 0.254,
+  "p": 1.430593564655071e-08
+ },
+ "icit_distinct_all_segments": {
+  "n": 75,
+  "final": 43,
+  "expected": 19.73,
+  "expected_rate": 0.263,
+  "p": 4.168223031682555e-09
+ },
+ "icit_all_objects_clean": {
+  "n": 65,
+  "final": 36,
+  "expected": 17.51,
+  "expected_rate": 0.269,
+  "p": 5.159005847261607e-07
+ },
+ "icit_all_objects_all_segments": {
+  "n": 82,
+  "final": 45,
+  "expected": 22.56,
+  "expected_rate": 0.275,
+  "p": 5.7206846541933805e-08
+ },
+ "icit_distinct_clean_withW234": {
+  "n": 63,
+  "final": 37,
+  "expected": 16.37,
+  "expected_rate": 0.26,
+  "p": 1.428696734438e-08
+ },
+ "icit_distinct_all_segments_withW234": {
+  "n": 80,
+  "final": 46,
+  "expected": 21.34,
+  "expected_rate": 0.267,
+  "p": 1.6721314178806783e-09
+ },
+ "icit_distinct_sites_not_in_M77_withW234": {
+  "n": 8,
+  "final": 5,
+  "expected": 2.07,
+  "expected_rate": 0.258,
+  "p": 0.025365259740259744
+ },
+ "icit_all_objects_clean_withW234": {
+  "n": 71,
+  "final": 38,
+  "expected": 19.87,
+  "expected_rate": 0.28,
+  "p": 2.249500954842327e-06
+ },
+ "icit_all_objects_all_segments_withW234": {
+  "n": 89,
+  "final": 48,
+  "expected": 25.18,
+  "expected_rate": 0.283,
+  "p": 1.1140439161720195e-07
+ },
+ "icit_all_objects_sites_not_in_M77_withW234": {
+  "n": 8,
+  "final": 5,
+  "expected": 2.07,
+  "expected_rate": 0.258,
+  "p": 0.025365259740259744
+ }
+}
