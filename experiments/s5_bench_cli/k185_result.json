@@ -1,0 +1,74 @@
+{
+ "n_signs_in_key": 200,
+ "n_signs_in_corpus": 187,
+ "n_dev_runs": 1656,
+ "n_heldout_runs": 548,
+ "lexicon_size": 1529,
+ "coverage_heldout_tokens": 0.708,
+ "nperm": 1000,
+ "fit_iters": 3000,
+ "restarts": 3,
+ "seed": 1977,
+ "scores": {
+  "W": {
+   "heldout": 1.0030143180105502,
+   "N1_mean": 1.0134739886706163,
+   "N1_p": 0.984015984015984,
+   "N2_noise_fitted_heldout": {
+    "unigram": [
+     1.086490939044481,
+     1.109335576114382,
+     1.095514950166113
+    ],
+    "markov": [
+     1.127954360228199,
+     1.1768707482993197,
+     1.1504571903574397
+    ]
+   },
+   "N2_max": 1.1768707482993197,
+   "fitted_on_real_dev_scored_on_heldout": [
+    1.150388936905791,
+    1.1665205959684488,
+    1.1318027210884354
+   ],
+   "beats_all_N2": false,
+   "passes": false
+  },
+  "J": {
+   "heldout": -3.717820002277946,
+   "N1_mean": -3.537394612418076,
+   "N1_p": 0.8751248751248751,
+   "N2_noise_fitted_heldout": {
+    "unigram": [
+     -2.7544739455777756,
+     -2.7379654881325948,
+     -2.613205012774856
+    ],
+    "markov": [
+     -2.497940556945744,
+     -2.587467112681143,
+     -2.5686976190976103
+    ]
+   },
+   "N2_max": -2.497940556945744,
+   "fitted_on_real_dev_scored_on_heldout": [
+    -2.417476784608628,
+    -2.393353418156259,
+    -2.4127526074337977
+   ],
+   "beats_all_N2": false,
+   "passes": false
+  }
+ },
+ "warnings": [],
+ "passes": false,
+ "verdict": "does not pass the bench: no score beats both its own shuffled values and noise-fitted keys",
+ "key_file": "/home/claude/harshinvader/open-indus/experiments/s5_bench_cli/k185_key.csv",
+ "key_sha256": "945e5ea46b5cf700d4083c4733cbd42bb9034fa747f5202b446ad966e2551341",
+ "key_warnings": [],
+ "lexicon_file": "/home/claude/harshinvader/open-indus/experiments/s5_bench_cli/k185_lexicon.txt",
+ "signlist": "M77",
+ "quick": false,
+ "note": "The bench can refute a key, not confirm one."
+}
