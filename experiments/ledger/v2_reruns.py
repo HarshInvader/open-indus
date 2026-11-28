@@ -13,8 +13,13 @@ Re-runs
   E  structure / README #7: jar M342 closes L-R lines, copy-free lines only
   F  context/redteam Gulf: exact matched-n permutation p for foreign round seals (perm-percentile statistic)
   G  revalidation registers: exact Mann-Whitney p for the reported held-out AUCs
+
+Determinism (S6, 2026-11-28): the output no longer depends on PYTHONHASHSEED. Every loop over a set that
+feeds a random draw is sorted, and each section draws from its own named stream, so one section's draws
+cannot shift another's. The master seed is INDUS_SEED (default 20261114). F uses 2,000,000 matched draws
+(was 20,000) and reports the Monte Carlo 95% interval of its p. See experiments/s6_q_determinism/.
 """
-import sys, json, math, random, itertools
+import os, sys, json, math, random, itertools, zlib
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -25,8 +30,15 @@ from scipy import stats
 from corpus.load import dev_heldout, runs, m77_lines, icit_texts, distinct
 
 OUT = {}
-rng = random.Random(20261114)
-nprng = np.random.default_rng(20261114)
+SEED = int(os.environ.get("INDUS_SEED", "20261114"))
+
+
+def streams(tag):
+    """Independent, hash-seed-free random streams for one section."""
+    return random.Random(f"{SEED}:{tag}"), np.random.default_rng([SEED, zlib.crc32(tag.encode())])
+
+
+OUT["seed"] = SEED
 dev, ho = dev_heldout(version=2)
 dev1, ho1 = dev_heldout(version=1)
 OUT["split_sizes"] = dict(v2_dev=len(dev), v2_heldout=len(ho), v1_dev=len(dev1), v1_heldout=len(ho1))
@@ -51,9 +63,9 @@ HAND = {"M267": "O", "M391": "O", "M293": "ON", "M150": "O", "M99": "C", "M123":
         "M18": "NO", "M387": "NO", "M362": "N", "M363": "N", "M346": "N", "M184": "N"}
 for s in FISH_PLAIN: HAND[s] = "F"
 for s in FISH_BRACK: HAND[s] = "BF"
-for s in SHORT: HAND.setdefault(s, "S")
+for s in sorted(SHORT): HAND.setdefault(s, "S")
 HAND["M100"] = "SC"; HAND["M103"] = "S"
-for s in TALL: HAND[s] = "T"
+for s in sorted(TALL): HAND[s] = "T"
 HAND = {k: set(v) for k, v in HAND.items()}
 
 TRANS = {"^": set("OSTUFNIJB"), "O": set("OCSTFNIJU$"), "C": set("CSTFNIJBO"), "S": set("SFTNIUJBC"),
@@ -150,6 +162,7 @@ def fr_block(dv, hv, label):
     return res, lex
 
 
+rng, _ = streams("A")
 OUT["A_functional_reading"] = {}
 OUT["A_functional_reading"]["v1_reproduction"], _ = fr_block(dev1, ho1, "v1 (reproduce 0.760 vs 0.334)")
 OUT["A_functional_reading"]["v2"], lex2 = fr_block(dev, ho, "v2")
@@ -198,6 +211,7 @@ def profiles(texts, min_texts=None, signs=None):
 
 
 from sklearn.cluster import KMeans
+_, nprng = streams("C")
 pd_, _ = profiles(dev, min_texts=10)
 sg = sorted(pd_); X = np.array([pd_[s][:3] for s in sg])  # initial/medial/final shares
 km = KMeans(3, n_init=50, random_state=0).fit(X)
@@ -238,6 +252,7 @@ def seal_items(texts):
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import balanced_accuracy_score
+_, nprng = streams("D")
 tr = seal_items(dev); te = seal_items(ho)
 cls_n = Counter(a for _, a in tr + te); classes = sorted(c for c, n in cls_n.items() if n >= 10)
 tr = [(t, a) for t, a in tr if a in classes]; te = [(t, a) for t, a in te if a in classes]
@@ -262,7 +277,7 @@ ba = balanced_accuracy_score(yte, mk().fit(Xtr, ytr).predict(Xte))
 nb = []
 for _ in range(300):
     yp = ytr.copy()
-    for s in set(site):
+    for s in sorted(set(site)):
         ix = np.where(site == s)[0]; yp[ix] = nprng.permutation(yp[ix])
     nb.append(balanced_accuracy_score(yte, mk().fit(Xtr, yp).predict(Xte)))
 nb = np.array(nb)
@@ -353,14 +368,22 @@ for sname in PERIPH:
                 v = perm_pct(r, m_s)
                 if v is not None: pool[min(len(r), 5)].append(v)
 fmean = float(np.mean([v for _, v in fvals]))
-draws = []
-for _ in range(20000):
-    draws.append(np.mean([pool[min(n, 5)][nprng.integers(len(pool[min(n, 5)]))] for n, _ in fvals]))
-draws = np.array(draws)
+_, nprng = streams("F")
+NDRAW, CHUNK = 2_000_000, 200_000
+pools = {k: np.array(v) for k, v in pool.items()}
+draws = np.empty(NDRAW)
+for c0 in range(0, NDRAW, CHUNK):
+    tot = np.zeros(CHUNK)
+    for n, _ in fvals:
+        P = pools[min(n, 5)]; tot += P[nprng.integers(len(P), size=CHUNK)]
+    draws[c0:c0 + CHUNK] = tot / len(fvals)
+hits = int((draws <= fmean).sum())
+ci = stats.binomtest(hits, NDRAW).proportion_ci(0.95, method="exact")
 OUT["F_gulf_round"] = dict(n_foreign=len(fvals), foreign_mean_pct=round(fmean, 3),
                            native_matched_mean=round(float(draws.mean()), 3),
                            native_matched_p05=round(float(np.quantile(draws, 0.05)), 3),
-                           p=(1 + int((draws <= fmean).sum())) / (len(draws) + 1),
+                           n_draws=NDRAW, hits=hits, p=(1 + hits) / (NDRAW + 1),
+                           p_mc95=[float(ci.low), float(ci.high)],
                            z=round(float((draws.mean() - fmean) / draws.std()), 2),
                            p_normal=float(stats.norm.sf((draws.mean() - fmean) / draws.std())),
                            pool_sizes={k: len(v) for k, v in pool.items()})

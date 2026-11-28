@@ -20,6 +20,9 @@
 #     its sha256 is checked instead.
 #   * Many scripts iterate over sets, so their permutation p-values move slightly with the hash seed.
 #     The original runs did not fix it. This script fixes PYTHONHASHSEED=0 so that re-runs agree
+#     (S6, 2026-11-28: scripts now run with `-s -P` rather than `-I`. `-I` implies `-E`, and under `-E`
+#     Python ignores PYTHONHASHSEED, so the export below had no effect and every run got a random seed.
+#     `-s -P` keeps the rest of isolated mode: no user site-packages, script directory not put first.)
 #     with each other; values can differ from RESULTS.md within that noise (docs/REPRO_REPORT.md).
 #   * Skipped here (heavy, network or human raters): decipherability/run_grid.py, cognate_decipher
 #     c1-c4, language/b3_sim.py, phonetic_grid sweeps, substitution/run_power.py, iconography i1-i5,
@@ -37,7 +40,7 @@ fail=0
 
 echo "== 1. corpus rebuild (into $WORK/_corpus) =="
 mkdir -p "$WORK/_corpus"
-"$PY" -I -c "
+"$PY" -s -P -c "
 import sys; sys.path.insert(0, '$REPO/corpus'); import build
 from pathlib import Path
 build.OUT = Path('$WORK/_corpus')
@@ -82,7 +85,7 @@ run() {  # run DIR area/script.py [args]
   local dir=$1; shift; local s=$1; shift
   local tag; tag=$(basename "$dir")__$(echo "$s $*" | tr '/ ' '__')
   local t0; t0=$(date +%s)
-  (cd "$dir" && timeout $CAP "$PY" -I "experiments/$s" "$@" > "$LOG/$tag.log" 2>&1)
+  (cd "$dir" && timeout $CAP "$PY" -s -P "experiments/$s" "$@" > "$LOG/$tag.log" 2>&1)
   local rc=$?
   # scripts that import a sibling common.py need the script dir on sys.path (none of these read raw/)
   if [ $rc -ne 0 ] && grep -q "ModuleNotFoundError\|ImportError" "$LOG/$tag.log"; then

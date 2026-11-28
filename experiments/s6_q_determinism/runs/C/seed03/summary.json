@@ -1,0 +1,210 @@
+{
+ "run": "C",
+ "tag": "seed03",
+ "env": {
+  "INDUS_SEED": "3",
+  "PYTHONHASHSEED": "103"
+ },
+ "seconds": 28,
+ "v2_reruns_sha256": "678e382c02b6a32a42dcdd4f1a2c6b7f4ada94a2312bc8ad4f46cfce06f3fb5c",
+ "F": {
+  "n_foreign": 10,
+  "foreign_mean_pct": 0.592,
+  "native_matched_mean": 0.895,
+  "native_matched_p05": 0.768,
+  "n_draws": 2000000,
+  "hits": 353,
+  "p": 0.00017699991150004426,
+  "p_mc95": [
+   0.00015856724590782985,
+   0.00019590526302377687
+  ],
+  "z": 4.38,
+  "p_normal": 5.819228513738322e-06,
+  "pool_sizes": {
+   "3": 32,
+   "2": 36,
+   "4": 38,
+   "5": 76
+  }
+ },
+ "ledger": {
+  "rt_gulf": {
+   "p_value": "",
+   "q_global": "",
+   "q_area": "",
+   "q_hier": "",
+   "q_all": ""
+  },
+  "lr_fr_cov": {
+   "p_value": "1.59e-112",
+   "q_global": "4.05e-110",
+   "q_area": "1.27e-111",
+   "q_hier": "2.93e-111",
+   "q_all": "1.19e-109"
+  },
+  "lr_fr_lex": {
+   "p_value": "0.0166",
+   "q_global": "0.147",
+   "q_area": "0.0221",
+   "q_hier": "0.0509",
+   "q_all": "0.713"
+  },
+  "lr_fr_dhol": {
+   "p_value": "2.03e-22",
+   "q_global": "1.94e-20",
+   "q_area": "8.12e-22",
+   "q_hier": "1.87e-21",
+   "q_all": "8.63e-20"
+  },
+  "lr_p4": {
+   "p_value": "0.0123",
+   "q_global": "0.112",
+   "q_area": "0.0197",
+   "q_hier": "0.0453",
+   "q_all": "0.537"
+  },
+  "lr_pos": {
+   "p_value": "0.0001",
+   "q_global": "0.00206",
+   "q_area": "0.000267",
+   "q_hier": "0.000613",
+   "q_all": "0.00799"
+  },
+  "lr_animal": {
+   "p_value": "0.0664",
+   "q_global": "0.463",
+   "q_area": "0.0664",
+   "q_hier": "0.153",
+   "q_all": "1"
+  },
+  "lr_jar": {
+   "p_value": "0.0312",
+   "q_global": "0.246",
+   "q_area": "0.0357",
+   "q_hier": "0.082",
+   "q_all": "1"
+  },
+  "lr_gulf": {
+   "p_value": "0.000177",
+   "q_global": "0.00342",
+   "q_area": "0.000354",
+   "q_hier": "0.000814",
+   "q_all": "0.0138"
+  },
+  "lr_t1": {
+   "p_value": "0.0148",
+   "q_global": "0.133",
+   "q_area": "0.0197",
+   "q_hier": "0.0454",
+   "q_all": "0.64"
+  },
+  "lr_t2": {
+   "p_value": "0.0002",
+   "q_global": "0.00372",
+   "q_area": "0.0004",
+   "q_hier": "0.00092",
+   "q_all": "0.0153"
+  },
+  "lr_t3": {
+   "p_value": "",
+   "q_global": "",
+   "q_area": "",
+   "q_hier": "",
+   "q_all": ""
+  },
+  "lr_t4": {
+   "p_value": "0.142",
+   "q_global": "0.857",
+   "q_area": "0.142",
+   "q_hier": "0.327",
+   "q_all": "1"
+  },
+  "lr_t5": {
+   "p_value": "8.6e-09",
+   "q_global": "3.86e-07",
+   "q_area": "3.44e-08",
+   "q_hier": "7.91e-08",
+   "q_all": "1.5e-06"
+  },
+  "lr_e1": {
+   "p_value": "0.18",
+   "q_global": "",
+   "q_area": "",
+   "q_hier": "",
+   "q_all": "1"
+  },
+  "lr_e2": {
+   "p_value": "0.002",
+   "q_global": "",
+   "q_area": "",
+   "q_hier": "",
+   "q_all": "0.116"
+  }
+ },
+ "ledger_build_only": {
+  "rt_gulf": {
+   "p_value": "",
+   "q_global": "",
+   "q_area": "",
+   "q_hier": "",
+   "q_all": ""
+  },
+  "lr_fr_cov": {
+   "p_value": "1.59e-112",
+   "q_global": "1.47e-110",
+   "q_area": "1.27e-111",
+   "q_hier": "2.36e-111",
+   "q_all": "2.81e-109"
+  },
+  "lr_fr_lex": {
+   "p_value": "0.0166",
+   "q_global": "0.104",
+   "q_area": "0.0221",
+   "q_hier": "0.041",
+   "q_all": "1"
+  },
+  "lr_fr_dhol": {
+   "p_value": "2.03e-22",
+   "q_global": "7.47e-21",
+   "q_area": "8.11e-22",
+   "q_hier": "1.5e-21",
+   "q_all": "1.5e-19"
+  },
+  "lr_p4": {
+   "p_value": "0.0123",
+   "q_global": "0.0792",
+   "q_area": "0.0197",
+   "q_hier": "0.0364",
+   "q_all": "1"
+  },
+  "lr_pos": {
+   "p_value": "0.0001",
+   "q_global": "0.00108",
+   "q_area": "0.000267",
+   "q_hier": "0.000493",
+   "q_all": "0.0199"
+  },
+  "lr_animal": {
+   "p_value": "0.0664",
+   "q_global": "0.35",
+   "q_area": "0.0664",
+   "q_hier": "0.123",
+   "q_all": "1"
+  },
+  "lr_jar": {
+   "p_value": "0.0312",
+   "q_global": "0.184",
+   "q_area": "0.0357",
+   "q_hier": "0.0661",
+   "q_all": "1"
+  },
+  "lr_gulf": {
+   "p_value": "0.000177",
+   "q_global": "0.00181",
+   "q_area": "0.000354",
+   "q_hier": "0.000655",
+   "q_all": "0.0337"
+  }
+ }
+}

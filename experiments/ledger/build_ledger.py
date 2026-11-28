@@ -329,7 +329,7 @@ R("lr_animal", "seal animal predictable from text (v2 held-out)", "ledger", S, f
 Ej = V2["E_jar_LR_copyfree"]
 R("lr_jar", "jar M342 last rather than first in copy-free L-R lines", "ledger", S, f"{Ej['jar_last']} vs {Ej['jar_first']} of {Ej['lr_copyfree']} lines", Ej["p_binom_last_vs_first"], str(Ej["lr_copyfree"]), Y, "none", C, "ledger:v2", 8, N_, "7")
 F = V2["F_gulf_round"]
-R("lr_gulf", "Gulf round seals: perm-percentile below length-matched peripheral seals (site held out)", "ledger", S, f"{F['foreign_mean_pct']} vs {F['native_matched_mean']}", F["p"], str(F["n_foreign"]), Y, "none", C, "ledger:v2", 8, Y, "4", note="20,000 matched draws")
+R("lr_gulf", "Gulf round seals: perm-percentile below length-matched peripheral seals (site held out)", "ledger", S, f"{F['foreign_mean_pct']} vs {F['native_matched_mean']}", F["p"], str(F["n_foreign"]), Y, "none", C, "ledger:v2", 8, Y, "4", note=f"{F.get('n_draws', 20000):,} matched draws" + (f"; MC 95% {F['p_mc95'][0]:.2g}-{F['p_mc95'][1]:.2g}" if "p_mc95" in F else ""))
 
 # ===================================================================== corrections
 def bh(p):
