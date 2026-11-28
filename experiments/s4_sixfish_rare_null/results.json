@@ -1,0 +1,238 @@
+{
+ "seed": 20261128,
+ "base_rate_heldout": 0.0296,
+ "T1_heldout_matched": {
+  "slots": 10,
+  "obs": 7,
+  "null_mean": 0.281,
+  "null_rate": 0.0281,
+  "p": 9.99990000099999e-06,
+  "strata_used": [
+   "(3, 0)",
+   "(4, 0)",
+   "(5, 0)",
+   "(5, 1)",
+   "(6, 0)",
+   "(8, 0)"
+  ]
+ },
+ "T2_heldout_within_run": {
+  "runs": 11,
+  "obs": 7,
+  "null_mean": 1.608,
+  "p": 1.999980000199998e-05
+ },
+ "T3_dev_matched": {
+  "slots": 15,
+  "obs": 5,
+  "null_mean": 0.321,
+  "null_rate": 0.0214,
+  "p": 9.99990000099999e-06,
+  "strata_used": [
+   "(2, 0)",
+   "(3, 0)",
+   "(4, 0)",
+   "(5, 0)",
+   "(5, 1)",
+   "(5, 2)",
+   "(6, 1)",
+   "(7, 2)",
+   "(8, 1)",
+   "(9, 0)"
+  ]
+ },
+ "T4_icit_matched": {
+  "slots": 33,
+  "obs": 13,
+  "null_mean": 0.914,
+  "null_rate": 0.0277,
+  "p": 9.99990000099999e-06,
+  "strata_used": [
+   "(2, 0)",
+   "(3, 0)",
+   "(4, 0)",
+   "(4, 1)",
+   "(5, 0)",
+   "(5, 1)",
+   "(5, 2)",
+   "(6, 0)",
+   "(7, 1)",
+   "(8, 2)",
+   "(9, 1)"
+  ]
+ },
+ "holm": {
+  "T1": 1.999980000199998e-05,
+  "T2": 1.999980000199998e-05
+ },
+ "planted_control": {
+  "carriers": [
+   {
+    "carrier": "M216",
+    "slots": 20,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 13,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M244",
+    "slots": 20,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 13,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M293",
+    "slots": 20,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 10,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M48",
+    "slots": 18,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 13,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M53",
+    "slots": 18,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 13,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M162",
+    "slots": 18,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 11,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M150",
+    "slots": 17,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 12,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M28",
+    "slots": 16,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 12,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M327",
+    "slots": 15,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 9,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M389",
+    "slots": 15,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 8,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M403",
+    "slots": 15,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 9,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M70",
+    "slots": 14,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 12,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M104",
+    "slots": 14,
+    "raw_m59_rate": 0.071,
+    "planted_hits": 7,
+    "p_unplanted": 0.392080395980201,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M124",
+    "slots": 14,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 8,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M51",
+    "slots": 12,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 8,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M106",
+    "slots": 12,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 8,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M127",
+    "slots": 12,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 9,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M176",
+    "slots": 12,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 8,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M230",
+    "slots": 12,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 8,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   },
+   {
+    "carrier": "M249",
+    "slots": 12,
+    "raw_m59_rate": 0.0,
+    "planted_hits": 6,
+    "p_unplanted": 1.0,
+    "p_planted": 4.999750012499375e-05
+   }
+  ],
+  "n": 20,
+  "false_positive_rate": 0.0,
+  "false_positive_rate_raw_le_0_2": 0.0,
+  "power": 1.0
+ },
+ "verdict": "survives",
+ "underpowered": false
+}
