@@ -1,0 +1,208 @@
+{
+ "seed": 12,
+ "split_sizes": {
+  "v2_dev": 1699,
+  "v2_heldout": 571,
+  "v1_dev": 1702,
+  "v1_heldout": 568
+ },
+ "A_functional_reading": {
+  "v1_reproduction": {
+   "n": 556,
+   "coverage": 0.7626,
+   "shuffled_mean": 0.3598,
+   "shuffled_sd": 0.0138,
+   "z": 29.2,
+   "p_perm": 0.009900990099009901,
+   "p_normal": 8.031580704151734e-188,
+   "lexicon_null_mean": 0.5323,
+   "lexicon_null_sd": 0.1227,
+   "lexicon_null_p": 0.009966777408637873,
+   "lexicon_null_n": 300,
+   "lexicon_null_hits": 2,
+   "lexicon_null_p_mc95": [
+    0.0008083864127997916,
+    0.023873497572173646
+   ]
+  },
+  "v2": {
+   "n": 562,
+   "coverage": 0.7616,
+   "shuffled_mean": 0.4375,
+   "shuffled_sd": 0.0133,
+   "z": 24.4,
+   "p_perm": 0.009900990099009901,
+   "p_normal": 4.7888985089002867e-132,
+   "lexicon_null_mean": 0.5641,
+   "lexicon_null_sd": 0.1055,
+   "lexicon_null_p": 0.012798720127987202,
+   "lexicon_null_n": 10000,
+   "lexicon_null_hits": 127,
+   "lexicon_null_p_mc95": [
+    0.010598113900132319,
+    0.015092335911379791
+   ]
+  },
+  "dholavira_v2lex": {
+   "n": 112,
+   "coverage": 0.7857,
+   "shuffled_mean": 0.4496,
+   "shuffled_sd": 0.0341,
+   "z": 9.9,
+   "p_perm": 0.009900990099009901,
+   "p_normal": 2.96821760333716e-23
+  }
+ },
+ "B_language_P4": {
+  "v2_dev": {
+   "plain": [
+    29,
+    234
+   ],
+   "marked": [
+    13,
+    531
+   ],
+   "plain_rate": 0.124,
+   "marked_rate": 0.024,
+   "p": 1.4242987647746e-07
+  },
+  "v2_heldout": {
+   "plain": [
+    10,
+    67
+   ],
+   "marked": [
+    7,
+    150
+   ],
+   "plain_rate": 0.149,
+   "marked_rate": 0.047,
+   "p": 0.012311074535557036
+  },
+  "v1_heldout": {
+   "plain": [
+    8,
+    66
+   ],
+   "marked": [
+    3,
+    157
+   ],
+   "plain_rate": 0.121,
+   "marked_rate": 0.019,
+   "p": 0.0031166719952568003
+  }
+ },
+ "C_positional_classes": {
+  "n_dev_signs": 97,
+  "n_test_signs": 78,
+  "agreement": 0.782,
+  "chance_mean": 0.416,
+  "p": 9.999000099990002e-05,
+  "centroids": [
+   [
+    0.14,
+    0.79,
+    0.06
+   ],
+   [
+    0.03,
+    0.16,
+    0.78
+   ],
+   [
+    0.46,
+    0.46,
+    0.06
+   ]
+  ]
+ },
+ "D_animal_heldout": {
+  "n_train": 836,
+  "n_test": 301,
+  "classes": [
+   "buffalo",
+   "elephant",
+   "rhino",
+   "shorthorn_bull",
+   "tiger",
+   "unicorn",
+   "zebu"
+  ],
+  "test_counts": {
+   "unicorn": 241,
+   "buffalo": 8,
+   "shorthorn_bull": 20,
+   "zebu": 15,
+   "rhino": 3,
+   "elephant": 10,
+   "tiger": 4
+  },
+  "bal_acc": 0.194,
+  "null_mean": 0.144,
+  "p": 0.08305647840531562
+ },
+ "E_jar_LR_copyfree": {
+  "lr_distinct": 150,
+  "lr_copyfree": 34,
+  "jar_last": 5,
+  "jar_first": 0,
+  "all_lr_last": 33,
+  "all_lr_first": 3,
+  "p_binom_last_vs_first": 0.03125
+ },
+ "F_gulf_round": {
+  "n_foreign": 10,
+  "foreign_mean_pct": 0.592,
+  "native_matched_mean": 0.895,
+  "native_matched_p05": 0.767,
+  "n_draws": 2000000,
+  "hits": 369,
+  "p": 0.00018499990750004626,
+  "p_mc95": [
+   0.00016615460105573525,
+   0.00020431732201976228
+  ],
+  "z": 4.38,
+  "p_normal": 5.882458245904189e-06,
+  "pool_sizes": {
+   "3": 32,
+   "2": 36,
+   "4": 38,
+   "5": 76
+  }
+ },
+ "G_registers_exact": {
+  "copper tablet": {
+   "n": 15,
+   "auc": 0.869,
+   "z": 4.88,
+   "p": 5.330392308744837e-07
+  },
+  "miniature tablet": {
+   "n": 28,
+   "auc": 0.758,
+   "z": 4.6,
+   "p": 2.067687040625993e-06
+  },
+  "pottery graffito": {
+   "n": 22,
+   "auc": 0.733,
+   "z": 3.71,
+   "p": 0.0001049410581724907
+  },
+  "seal": {
+   "n": 422,
+   "auc": 0.724,
+   "z": 7.82,
+   "p": 2.6742662768520772e-15
+  },
+  "sealing": {
+   "n": 69,
+   "auc": 0.673,
+   "z": 4.65,
+   "p": 1.6217188780795272e-06
+  }
+ }
+}
