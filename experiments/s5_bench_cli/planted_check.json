@@ -1,0 +1,124 @@
+{
+ "true_key": {
+  "n_signs_in_key": 33,
+  "n_signs_in_corpus": 33,
+  "n_dev_runs": 1725,
+  "n_heldout_runs": 575,
+  "lexicon_size": 300,
+  "coverage_heldout_tokens": 1.0,
+  "nperm": 300,
+  "fit_iters": 1500,
+  "restarts": 2,
+  "seed": 11,
+  "scores": {
+   "W": {
+    "heldout": 2.34192037470726,
+    "N1_mean": 1.1740360371145053,
+    "N1_p": 0.0033222591362126247,
+    "N2_noise_fitted_heldout": {
+     "unigram": [
+      1.238390092879257,
+      1.2360939431396787
+     ],
+     "markov": [
+      1.3995801259622114,
+      1.3966480446927374
+     ]
+    },
+    "N2_max": 1.3995801259622114,
+    "fitted_on_real_dev_scored_on_heldout": [
+     1.4803849000740192,
+     1.5467904098994587
+    ],
+    "beats_all_N2": true,
+    "passes": true
+   },
+   "J": {
+    "heldout": -2.615957225699128,
+    "N1_mean": -2.563254175843488,
+    "N1_p": 0.7807308970099668,
+    "N2_noise_fitted_heldout": {
+     "unigram": [
+      -2.341873193656967,
+      -2.3296177036930463
+     ],
+     "markov": [
+      -2.2843595338167515,
+      -2.333533105920925
+     ]
+    },
+    "N2_max": -2.2843595338167515,
+    "fitted_on_real_dev_scored_on_heldout": [
+     -2.2921160672254124,
+     -2.2710847609066116
+    ],
+    "beats_all_N2": false,
+    "passes": false
+   }
+  },
+  "warnings": [],
+  "passes": true,
+  "verdict": "passes the bench: send it to the red team (a pass is not a decipherment)"
+ },
+ "deranged_key": {
+  "n_signs_in_key": 33,
+  "n_signs_in_corpus": 33,
+  "n_dev_runs": 1725,
+  "n_heldout_runs": 575,
+  "lexicon_size": 300,
+  "coverage_heldout_tokens": 1.0,
+  "nperm": 300,
+  "fit_iters": 1500,
+  "restarts": 2,
+  "seed": 11,
+  "scores": {
+   "W": {
+    "heldout": 1.1441647597254005,
+    "N1_mean": 1.1121757627971478,
+    "N1_p": 0.11295681063122924,
+    "N2_noise_fitted_heldout": {
+     "unigram": [
+      1.2232415902140672,
+      1.2269938650306749
+     ],
+     "markov": [
+      1.3908205841446453,
+      1.3956734124214933
+     ]
+    },
+    "N2_max": 1.3956734124214933,
+    "fitted_on_real_dev_scored_on_heldout": [
+     1.4367816091954022,
+     1.5360983102918586
+    ],
+    "beats_all_N2": false,
+    "passes": false
+   },
+   "J": {
+    "heldout": -2.5918686792072534,
+    "N1_mean": -2.570986023960978,
+    "N1_p": 0.6943521594684385,
+    "N2_noise_fitted_heldout": {
+     "unigram": [
+      -2.3468058946827117,
+      -2.3342074992178317
+     ],
+     "markov": [
+      -2.3001953852270685,
+      -2.303875742770474
+     ]
+    },
+    "N2_max": -2.3001953852270685,
+    "fitted_on_real_dev_scored_on_heldout": [
+     -2.268717579634896,
+     -2.2722362127292985
+    ],
+    "beats_all_N2": false,
+    "passes": false
+   }
+  },
+  "warnings": [],
+  "passes": false,
+  "verdict": "does not pass the bench: no score beats both its own shuffled values and noise-fitted keys"
+ }
+}
